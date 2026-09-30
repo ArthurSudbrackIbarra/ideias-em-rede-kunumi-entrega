@@ -1,0 +1,2123 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 47,
+ "model": "LLM lendo o prompt hearing-047 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T23:20:51Z",
+ "prompt_sha256": "e108bd6d2e7ed31024a5735084b5e0f4a78e3096fc81e779b0f4a8d38c77bd85",
+ "sentences_hash": "927695a602c6d0d4",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 9
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Cultura debateu a regulamentação da Lei Paulo Gustavo no mesmo dia em que o Ministério da Cultura concluiu o repasse aos Estados e Municípios que aderiram. O Ministério apresentou os números da adesão e explicou o caminho até o edital de cada gestor. Deputados, conselheiros e entidades culturais cobraram que o dinheiro chegue a quem faz cultura na periferia e que o prazo de execução seja prorrogado.",
+ "stakes": "Estava em jogo como os 3,8 bilhões de reais já depositados nos Estados e Municípios virariam editais capazes de alcançar os artistas da ponta.",
+ "central_question": "O dinheiro da Lei Paulo Gustavo vai chegar a quem faz cultura na ponta?",
+ "synopsis_plain": "A Lei Paulo Gustavo tirou dinheiro do fundo federal de cultura para socorrer o setor depois da pandemia. Na audiência, o Ministério da Cultura contou que o repasse aos Estados e Municípios terminou naquele dia e explicou como cada gestor deve lançar seu edital. Deputados e entidades pediram que o dinheiro chegue à periferia e que o prazo para gastar seja ampliado.",
+ "stakes_plain": "Estava em jogo como o dinheiro já depositado nos Estados e Municípios viraria editais que os artistas da ponta consigam acessar.",
+ "central_question_plain": "O dinheiro da Lei Paulo Gustavo vai chegar a quem faz cultura na periferia?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Socorro emergencial à cultura",
+   "description": "Por que a lei foi criada: o tamanho do estrago da pandemia no setor cultural e o caráter de emergência e de reparação do dinheiro.",
+   "axis": {
+    "pro": "A cultura foi um dos setores mais atingidos pela pandemia e precisava de uma lei de emergência.",
+    "contra": "Dinheiro público para cultura na pandemia é gasto dispensável.",
+    "pro_plain": "A cultura parou primeiro e voltou por último na pandemia, por isso precisava de uma lei de socorro.",
+    "contra_plain": "Gastar dinheiro público com cultura na pandemia foi desperdício."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Adesão e repasse aos entes",
+   "description": "Como o dinheiro foi distribuído a Estados e Municípios, o tamanho da adesão e a capacidade dos gestores de executar o recurso.",
+   "axis": {
+    "pro": "O repasse descentralizado deu certo e o dinheiro já está na conta de quase todos os Municípios.",
+    "contra": "Muitos gestores não têm capacidade técnica e a execução pode travar na ponta.",
+    "pro_plain": "Quase todos os Estados e Municípios aderiram e já receberam o dinheiro na conta.",
+    "contra_plain": "Muita prefeitura não sabe lançar edital e tem receio de pegar o dinheiro."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Cultura como economia",
+   "description": "O peso do setor cultural no emprego, na renda e na economia das cidades, e o retorno do dinheiro investido.",
+   "axis": {
+    "pro": "Investir em cultura devolve emprego, renda e movimento para a economia local.",
+    "contra": "Dinheiro posto em cultura não tem retorno econômico que se possa medir.",
+    "pro_plain": "Cada real aplicado em cultura volta em emprego, renda e movimento na cidade.",
+    "contra_plain": "O dinheiro da cultura não volta em nada que se consiga medir."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Chegada do dinheiro à ponta",
+   "description": "Se quem faz cultura na periferia e nos pequenos grupos consegue de fato acessar o dinheiro pelos editais.",
+   "axis": {
+    "pro": "O desenho atual já faz o recurso chegar a quem faz cultura na ponta.",
+    "contra": "Sem edital acessível e sem apoio, o dinheiro não chega a quem faz cultura na ponta.",
+    "pro_plain": "O caminho já está montado: o gestor recebe o dinheiro e abre o edital para quem quiser se inscrever.",
+    "contra_plain": "Quem faz cultura na periferia não sabe montar projeto e não alcança editais de valor alto."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Audiovisual e telas no território",
+   "description": "A maior fatia do dinheiro é do audiovisual, e a disputa é sobre financiar produção e equipamento nos bairros ou concentrar em quem já produz.",
+   "axis": {
+    "pro": "A lei tem de financiar a produção e o equipamento cultural dos territórios, não só quem já é grande.",
+    "contra": "O dinheiro do audiovisual rende mais concentrado em produtoras já estruturadas.",
+    "pro_plain": "O dinheiro do cinema tem de comprar equipamento e abrir sala onde hoje não existe nenhuma.",
+    "contra_plain": "O dinheiro do cinema rende mais nas mãos de quem já sabe produzir."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Participação social e política permanente",
+   "description": "O papel dos conselhos e das conferências na fiscalização do dinheiro e a transformação das leis de emergência em política de Estado.",
+   "axis": {
+    "pro": "A política de cultura só se sustenta com participação social e precisa virar política permanente.",
+    "contra": "Basta executar a lei de emergência, sem criar novas instâncias de participação.",
+    "pro_plain": "Conselhos e conferências têm de acompanhar o dinheiro para a política não acabar a cada governo.",
+    "contra_plain": "O que importa é gastar o dinheiro da lei, sem inventar novas instâncias."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Prazo para executar os recursos",
+   "description": "Se o prazo que restou depois da regulamentação permite gastar bem o dinheiro ou se a lei precisa ser prorrogada.",
+   "axis": {
+    "pro": "O prazo precisa ser prorrogado até 30 de junho de 2024 para que o dinheiro seja bem aplicado.",
+    "contra": "O prazo atual dá conta, porque o dinheiro já está na conta e os editais saem agora.",
+    "pro_plain": "A regulamentação demorou, e sem mais tempo o dinheiro será gasto às pressas.",
+    "contra_plain": "Não falta tempo: o dinheiro já está na conta e os editais saem nas próximas semanas."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado federal que preside a audiência",
+   "org": "Comissão de Cultura da Câmara dos Deputados",
+   "basis": "registro 'Presidente' na ata, identificado na pista de cargo como Alfredinho (Bloco/PT - SP) e autor do Requerimento nº 25 em b001.0",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha e fiscaliza as políticas de cultura"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretor de Assistência Técnica a Estados, Distrito Federal e Municípios",
+   "org": "Ministério da Cultura",
+   "basis": "apresentado pela presidência em b001.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Cultura",
+   "org_plain": "ministério federal das políticas de cultura, responsável pelo repasse do dinheiro da Lei Paulo Gustavo"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Músico do Movimento Pagode da 27",
+   "org": "Movimento Pagode da 27",
+   "basis": "apresentado pela presidência em b001.9 e em b003.12",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Movimento Pagode da 27, do Grajaú",
+   "org_plain": "grupo de samba de comunidade do bairro do Grajaú, na periferia de São Paulo"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata: Bloco/PSOL - RJ",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSOL do Rio de Janeiro",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata: Bloco/REPUBLICANOS - RR",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Republicanos de Roraima",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado distrital",
+   "org": "Câmara Legislativa do Distrito Federal",
+   "basis": "apresentado pela presidência em b001.10 e em b011.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "deputado distrital do Distrito Federal",
+   "org_plain": "parlamento do Distrito Federal, que faz as leis e fiscaliza o governo do DF"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Conselheira Nacional de Políticas Culturais e representante da APAN",
+   "org": "Conselho Nacional de Políticas Culturais",
+   "basis": "apresentada pela presidência em b001.11 e confirmada por ela em b016.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Conselho Nacional de Políticas Culturais",
+   "org_plain": "conselho em que governo e sociedade civil discutem juntos as políticas de cultura do País"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Conselho Brasileiro de Entidades Culturais",
+   "org": "CBEC",
+   "basis": "apresentada por ela mesma em b032.0",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Brasileiro de Entidades Culturais",
+   "org_plain": "conselho que reúne entidades de cultura de todo o País, com sede em São Paulo"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata: Bloco/SOLIDARIEDADE - RJ",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Solidariedade do Rio de Janeiro",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 50,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   }
+  ],
+  "basis": "a mesa e o expositor falam de alunos e professores presentes na sala em b002.3 e b002.4, e há registro de palmas em b014",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a regulamentação da Lei Paulo Gustavo e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que a Lei Paulo Gustavo é uma lei de emergência para socorrer o setor cultural, com 3,8 bilhões de reais distribuídos a todos os Estados e Municípios que aderiram.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    6,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cultura foi um dos setores mais atingidos pela pandemia e a Lei Paulo Gustavo é a lei de emergência que a socorre.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "casas de espetáculo e teatros fecharam na pandemia e artistas venderam seus instrumentos para procurar outro trabalho",
+     "plain": "Muitas casas de espetáculo e teatros fecharam, não sobreviveram a mais de 2 anos de pandemia. Vários artistas venderam seus instrumentos e foram procurar outro trabalho."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "aderiram os 27 Estados, o Distrito Federal e 98,12% dos Municípios, um recorde de adesão",
+     "plain": "Aderiram os 27 Estados e o Distrito Federal, mais 98,12% dos Municípios do país. É um recorde: no Nordeste, 100% dos Municípios de todos os Estados aderiram."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 3% do PIB brasileiro vem da cultura e o setor gera mais empregos do que a indústria automobilística",
+     "plain": "Mais de 3% do PIB deste País vem do setor cultural. Hoje a cultura gera mais empregos do que a indústria automobilística."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pede que o Ministério explique, na segunda parte, como a Prefeitura, o artista sozinho e a entidade da comunidade fazem para acessar os recursos da lei.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Falta explicação clara sobre como a prefeitura, o artista e a entidade da comunidade acessam os recursos.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "como a Prefeitura, o artista e a entidade da comunidade acessam os recursos ainda é uma grande dúvida",
+     "plain": "Como acessar esse dinheiro é uma grande dúvida. Fui procurado e não soube explicar como a Prefeitura, o artista sozinho ou a entidade da comunidade chegam aos recursos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que o Pagode da 27 faz cultura no Grajaú há 18 anos sem apoio do poder público e espera que a lei gere empregos de produção na periferia.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O poder público ainda não reconhece a cultura feita na periferia, e a Lei Paulo Gustavo pode mudar isso.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Pagode da 27 faz trabalho sociocultural no Grajaú há 18 anos e o poder público ainda não reconhece a atividade",
+     "plain": "O Pagode da 27 faz um trabalho sociocultural no bairro do Grajaú há 18 anos, sem a atenção devida do poder público. A atividade traz cultura, lazer e economia local, mas ainda não é reconhecida como relevante para a comunidade."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "além da música, a lei pode gerar empregos de produção e de técnico de som e qualificar os projetos da periferia",
+     "plain": "Além de o artista fazer música e produzir, dá para gerar emprego de produção de campo, produção executiva e técnico de som. Esses empregos qualificam ainda mais os nossos projetos aqui na periferia."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência tenta chamar o poeta que está on-line, não consegue som e passa a palavra ao Deputado Tarcísio Motta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Comemora a efetivação da Lei Paulo Gustavo e cobra que o repasse chegue a quem faz audiovisual em pequenas iniciativas, no cinema negro e no cinema LGBTQIA+.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Lei Paulo Gustavo tem de ser comemorada e o repasse precisa chegar ao audiovisual feito na ponta.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na pandemia muitos artistas e trabalhadores da cultura perderam o sustento, mesmo a cultura garantindo saúde mental",
+     "plain": "Na pandemia, vimos quantos trabalhadores e artistas da cultura perderam o sustento, mesmo sendo a cultura o que garantiu algum nível de saúde mental para nós."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com o decreto a Lei Paulo Gustavo foi efetivada e 90% dos Municípios conseguiram acessar os planos de ação",
+     "plain": "Diante da promessa que Lula fez na campanha, a cultura voltou, voltou o Ministério e voltaram os recursos. Com o decreto, a Lei Paulo Gustavo foi efetivada e 90% dos Municípios acessaram os planos de ação."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o repasse tem de chegar a quem faz audiovisual em pequenas iniciativas, ao cinema negro e ao cinema LGBTQIA+",
+     "plain": "Estou acompanhando lá na ponta para que o repasse chegue a quem faz audiovisual com pequenas iniciativas, ao cinema negro, ao cinema LGBTQIA+ e aos técnicos e trabalhadores."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se o Deputado Defensor Stélio Dener quer falar e lhe passa a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Parabeniza o Ministério pelo repasse e pelo aconselhamento aos segmentos culturais e conta que dirige há 25 anos um grupo folclórico de Roraima que usa leis de incentivo.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Lei Paulo Gustavo é importante para todos os segmentos culturais, e o Ministério acerta ao aconselhar quem vai usar o dinheiro.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele vem do movimento junino e dirige desde 1998, há 25 anos, um grupo folclórico de Roraima que trabalha com leis de incentivo",
+     "plain": "Eu venho do movimento junino. Somos diretores de um grupo folclórico de Roraima desde a fundação dele, em 1998, e há 25 anos trabalhamos com as leis de incentivo à cultura."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério, além de repassar os recursos a Municípios e Estados, aconselha os segmentos culturais sobre o uso do dinheiro",
+     "plain": "Parabenizo o Ministério: além de colocar esses recursos do Governo Federal à disposição dos Municípios e Estados, ele está à frente no aconselhamento dos segmentos culturais sobre o uso do dinheiro."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os recursos já estão chegando a mais de 90% dos Municípios e o dinheiro precisa ser aplicado em todos eles",
+     "plain": "Os recursos já estão chegando a mais de 90% dos Municípios do Brasil. Temos que comemorar e fazer com que esse dinheiro seja mesmo aplicado em todos eles, que estão promovendo a cultura com seus editais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência devolve a palavra ao Ministério para responder às questões enquanto os outros convidados chegam.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que Estados e Municípios aderiram por uma plataforma federal, corrige o número da adesão para 98,12% e explica que o Ministério dá assistência técnica aos gestores.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    9,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A adesão chegou a 98,12% dos Municípios, e o Ministério acompanha o gestor da adesão até a prestação de contas.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um estudo da FGV mostra que cada 1 real investido em cultura devolve 1 real e 59 centavos",
+     "plain": "Um estudo da FGV, a Fundação Getulio Vargas, mostra que cada 1 real investido em cultura devolve 1 real e 59 centavos. Esse investimento gera emprego, renda, saúde e educação."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não foram 90% e sim 98,12% dos Municípios, e todos têm de discutir com a sociedade civil para onde o dinheiro vai",
+     "plain": "Faço uma pequena correção: não foram 90%, foram 98,12%. Vai do Município de 3 mil ou 4 mil habitantes até as grandes capitais, e todos têm obrigação legal de discutir com a sociedade civil para onde o dinheiro vai."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os Estados e Municípios se inscrevem pela plataforma Transferegov, o dinheiro já está na conta e cada gestor lança seu edital",
+     "plain": "Respondendo à sua pergunta: Estados e Municípios se inscrevem e apresentam um plano de ação ao Ministério pela plataforma Transferegov. O dinheiro já está na conta de todos eles, e agora cada gestor municipal lança o seu edital."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Deputado Distrital Max Maciel, que estava em outro evento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende o olhar periférico na Lei Paulo Gustavo e lembra que a Ceilândia tem 400 mil habitantes e nenhuma sala de cinema.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Lei Paulo Gustavo precisa financiar equipamentos culturais nos territórios periféricos, que hoje não têm sala de cinema.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há Prefeitos com receio de pegar o recurso da lei porque não têm capacidade técnica para lançar um edital",
+     "plain": "Muitas vezes acompanhamos Prefeitos com receio de pegar o recurso da Lei Paulo Gustavo, porque não têm noção nem capacidade técnica para lançar um edital. Pode parecer simples, mas não é."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Ceilândia tem 400 mil habitantes e nenhuma sala de cinema, enquanto o centro de Brasília reúne mais de 90 salas",
+     "plain": "A Ceilândia, de onde eu venho, tem 400 mil habitantes e nenhuma sala de cinema. A região central de Brasília reúne mais de 90 salas, concentradas numa lógica de privatização do lazer e do acesso à cultura."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      14
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei permite comprar e reformar equipamentos culturais que impulsionem o cinema brasileiro nos territórios",
+     "plain": "A Lei Paulo Gustavo tem uma regra que permite comprar e reformar equipamentos culturais que impulsionem o cinema brasileiro nos territórios."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Ministério da Cultura responde, em aparte, que ali se trata de um valor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que toda produção movimenta a cadeia produtiva local e pede que Estados e Municípios equipem cineclubes nos territórios.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19
+   ],
+   "open_question": 11,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cultura é fator econômico, e a Lei Paulo Gustavo movimenta a cadeia produtiva dos territórios.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os Estados e Municípios precisam equipar auditórios e cineclubes nos territórios para que o cinema deixe de ser elitista",
+     "plain": "Precisamos que Estados e Municípios equipem auditórios e anfiteatros e comprem equipamentos para cineclubes nos territórios, para que o cinema deixe de ser elitista e a população se enxergue na tela."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "toda produção, de microporte ou de grande porte, movimenta a cadeia produtiva local, alugando espaços e contratando pessoas",
+     "plain": "Há uma bancada considerável nesta Casa que acha a Paulo Gustavo um desperdício financeiro. Toda produção, pequena ou grande, movimenta a cadeia produtiva local: aluga espaço e contrata atores, figurinistas e cenógrafos."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei apoia a economia criativa e solidária, e cabe fiscalizar, acompanhar e consumir o que for produzido",
+     "plain": "Precisamos reconhecer a Lei Paulo Gustavo como apoio à economia criativa e à economia solidária. Depois que os Estados implementarem, temos o compromisso de fiscalizar, acompanhar e também consumir o que for produzido."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que a convidada não conseguiu chegar à Câmara e vai falar do carro, pela sala virtual.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma, como conselheira nacional de políticas culturais, que a Lei Paulo Gustavo é uma vitória e uma conquista da sociedade civil.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Lei Paulo Gustavo é uma conquista da sociedade civil.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Lei Paulo Gustavo é uma vitória e uma conquista da sociedade civil",
+     "plain": "Minha manifestação é como representante da sociedade civil do Centro-Oeste, no conselho nacional que discute políticas culturais. A Lei Paulo Gustavo é uma vitória e uma conquista da sociedade civil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o microfone está fechado e que ninguém está ouvindo a convidada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A conselheira avisa que estava no mudo e pergunta quanto tempo tem de fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que o tempo de fala é de três minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A conselheira pergunta se foi ouvida antes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que ouviu uma parte da fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Registra que saiu uma instrução normativa sobre políticas afirmativas e clama, como sociedade civil, ao Ministério da Cultura e aos gestores.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A sociedade civil precisa cobrar do Ministério e dos gestores a aplicação das políticas afirmativas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "saiu uma instrução normativa sobre políticas afirmativas e a sociedade civil precisa clamar ao Ministério e aos gestores",
+     "plain": "Nos últimos dias foi lançada uma instrução normativa sobre políticas afirmativas, com fatores de desconto de Imposto de Renda. Como artista e como sociedade civil, precisamos clamar nesta audiência ao Ministério da Cultura e aos gestores."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a conexão falhou de novo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A conselheira pergunta se está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o som voltou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b026",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende acionar as instâncias de participação social para fiscalizar os recursos e transformar as leis de emergência em política permanente de cultura.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A participação social precisa ser acionada para que a Lei Paulo Gustavo vire política permanente.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso acionar as instâncias de participação social para fiscalizar e tornar esse processo mais didático",
+     "plain": "Precisamos acionar as instâncias de participação popular, social e cultural para fiscalizar. Já temos normas, mas é preciso regulamentar mais e deixar o processo de fiscalização mais didático."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os recursos precisam virar políticas de curto, médio e longo prazo que se possam medir, e a cultura precisa se profissionalizar",
+     "plain": "Quero garantir que esses recursos sejam direcionados e aplicados em políticas de curto, médio e longo prazo, e que a gente consiga medi-las. Como o Deputado Max Maciel lembrou, é preciso profissionalizar a cultura no País."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as leis de emergência precisam entrar no sistema de arte e cultura para que a política não se extinga a cada mudança de governo",
+     "plain": "A 4ª Conferência Nacional de Cultura está em andamento. Precisamos pensar juntos como levar as leis de emergência para o sistema de arte e cultura, para que a política não acabe a cada governo, e sim cresça com a participação social."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a conselheira e passa a palavra a Eneida Soller, com três minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do conselho de entidades culturais testa o microfone.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica como ligar o microfone, pelo botão preto do lado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b030",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do conselho de entidades culturais diz que está tentando ligar o microfone.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o microfone está ligado e que já a ouve.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Alerta que editais com valores muito altos dificultam o acesso dos artistas e pede que o dinheiro chegue às pequenas produtoras e aos grupos da ponta.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Se os editais tiverem valores muito altos, os artistas da ponta não vão conseguir acessar o dinheiro.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "os editais precisam garantir protagonismo democrático às artes e aos artistas nos 26 Estados e nos 5.500 Municípios",
+     "plain": "Agora a nossa atenção tem de estar nos editais, que precisam garantir protagonismo democrático às artes e aos artistas, nos 26 Estados e nos 5.500 Municípios."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os editais não podem atender só as grandes produtoras e precisam chegar ao hip-hop, ao teatro, à música e à dança",
+     "plain": "Os editais não podem ter um valor que atenda só as grandes produtoras de audiovisual. Nossa preocupação é que eles cheguem à ponta do hip-hop, do teatro, da música, da dança e das pequenas produtoras independentes."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "editais com valores muito altos dificultam o acesso dos artistas a um dinheiro criado para cobrir a emergência da pandemia",
+     "plain": "Temos ouvido que os Estados vão lançar editais com valores muito altos. Valores altos dificultam o acesso dos artistas a editais que foram criados para cobrir as emergências do nosso tempo de pandemia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência consulta o Deputado Aureo, que acabou de chegar, se quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que quer fazer uso da palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta o que tem dificultado a aplicação dos recursos e pede urgência no projeto que estende o prazo de execução até 30 de junho de 2024.",
+   "quote": [
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso prorrogar até 30 de junho de 2024 o prazo de execução da Lei Paulo Gustavo.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "até agora não foi possível aplicar os recursos no objetivo final da lei",
+     "plain": "Até agora não foi possível aplicar os recursos no seu objetivo final. Minha primeira pergunta é: o que tem dificultado a aplicação do dinheiro da Lei Paulo Gustavo em tempo exequível?"
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei nº 3.942, de 2023, estende até 30 de junho de 2024 o prazo para executar os recursos",
+     "plain": "Apresentei o Projeto de Lei nº 3.942, de 2023, para estender o prazo de execução dos recursos até 30 de junho de 2024, sem comprometer a transparência e a efetividade da lei."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a regulamentação só veio mais de 1 ano depois da lei, pelo decreto e pela instrução normativa do Ministério",
+     "plain": "A regulamentação veio pelo Decreto nº 11.525, de 11 de maio de 2023, e pela Instrução Normativa nº 5, de 10 de agosto de 2023, mais de 1 ano depois da lei. O Governo Federal pretende apoiar a prorrogação?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra do Ministério formas de facilitar a chegada do recurso à ponta e lembra que na periferia as pessoas têm dificuldade de apresentar um projeto.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 25,
+   "stance": {
+    "position": "contrario",
+    "claim": "O recurso ainda é difícil de acessar para quem faz cultura na periferia.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as periferias são ricas em cultura, mas as pessoas ali não conhecem o ritual da questão pública e têm dificuldade de apresentar projeto",
+     "plain": "As periferias são lugares ricos em cultura, como o Max disse. Só que ali as pessoas não conhecem o ritual da questão pública e têm dificuldade de apresentar um edital ou um projeto."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os CEUs levaram teatro e equipamento à periferia e os governos seguintes, em vez de ampliar, privatizaram",
+     "plain": "Quando os CEUs ganharam equipamentos bonitos, alguns achavam que era luxo e que a periferia não merecia aquilo, com teatro. Depois, os outros governos, em vez de ampliar, privatizaram os CEUs."
+    },
+    {
+     "id": "b037c3",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "um grupo faz sarau no Grajaú há 13 anos sem dinheiro público e o Ministério precisa facilitar a chegada do recurso à ponta",
+     "plain": "Sábado à noite eu estava no Grajaú, onde um grupo faz sarau há 13 anos sem dinheiro público, do jeito deles. Digo isso para o Ministério pensar em como facilitar a chegada do recurso lá na ponta."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b038",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde ao Deputado Aureo que o Ministério está aberto a discutir a execução e destaca a cota mínima de 20% para pessoas negras e 10% para indígenas nos editais.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A execução da Lei Paulo Gustavo depende da participação social, e os editais terão cotas mínimas.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a adesão só foi possível porque o muro entre Estado e sociedade civil caiu, e os Conselhos de Cultura são centrais na execução",
+     "plain": "Essa adesão só foi possível porque quebramos o muro que existe entre Estado e sociedade civil. Uma boa execução do dinheiro público também depende dessa participação, e os Conselhos de Cultura são centrais nisso."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      14
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todo edital do Brasil terá no mínimo 20% de vagas para pessoas negras e 10% para pessoas indígenas",
+     "plain": "A instrução normativa de política afirmativa garante que todo edital, em qualquer cidade do Brasil, tenha no mínimo 20% de vagas para pessoas negras e 10% para pessoas indígenas."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o Ministério considera válido o debate sobre a execução e está aberto a discutir com a Comissão e com os fóruns de secretários",
+     "plain": "Sobre a provocação do Deputado Aureo Ribeiro, acho superválido este debate. O Ministério está aberto a discutir com esta Comissão, com o fórum dos secretários estaduais e com o dos dirigentes municipais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 37,
+   "from_claim": "b006c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "O deputado confirma o que o Ministério tinha acabado de mostrar: com o decreto, o dinheiro saiu do papel e chegou à quase totalidade dos Municípios."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 37,
+   "from_claim": "b008c3",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "O deputado de Roraima repete o alcance anunciado pelo Ministério e diz que os recursos já chegam a mais de 90% dos Municípios."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 14,
+   "from_claim": "b008c3",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Dois deputados de partidos diferentes dão o mesmo número na mesma sessão: mais de 90% dos Municípios já acessaram o dinheiro."
+  },
+  {
+   "from": "b010",
+   "to": "b003",
+   "kind": "responde",
+   "from_sentence": 17,
+   "to_sentence": 6,
+   "from_claim": "b010c3",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "Responde à dúvida da presidência sobre como acessar o dinheiro: o Estado ou o Município se inscreve com um plano de ação e depois cada gestor lança o seu edital."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 16,
+   "from_claim": "b010c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O Ministério pega o argumento do deputado sobre o que o audiovisual gera e acrescenta o número: cada 1 real investido devolve 1 real e 59 centavos."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 14,
+   "from_claim": "b010c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Corrige o número que o deputado usou: a adesão não foi de 90%, foi de 98,12% dos Municípios."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 10,
+   "from_claim": "b010c2",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "A mesma correção vale para o deputado de Roraima, que falara em mais de 90% dos Municípios."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 19,
+   "from_claim": "b012c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "O deputado distrital confirma o caminho descrito pelo Ministério e mostra onde ele emperra: há prefeito com receio de pegar o recurso por não saber lançar edital."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 45,
+   "from_claim": "b014c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Retoma o argumento econômico do Ministério para responder a quem chama a Lei Paulo Gustavo de desperdício financeiro."
+  },
+  {
+   "from": "b026",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 21,
+   "from_claim": "b026c2",
+   "to_claim": "b014c3",
+   "strength": "media",
+   "note": "A conselheira cita o deputado distrital para dizer que a cultura precisa se profissionalizar e que os recursos têm de virar políticas que se possam medir."
+  },
+  {
+   "from": "b032",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 16,
+   "from_claim": "b032c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A entidade de artistas reforça, do lado da sociedade civil, o alerta do deputado distrital sobre a concentração do audiovisual longe da periferia."
+  },
+  {
+   "from": "b032",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 19,
+   "from_claim": "b032c3",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Onde o Ministério vê o caminho pronto, com o gestor lançando o edital, a entidade vê o risco de editais com valores altos demais para o artista da ponta."
+  },
+  {
+   "from": "b036",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 18,
+   "from_claim": "b036c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "O deputado diz que o dinheiro ainda não chegou ao seu destino final, enquanto o Ministério afirma que os recursos já estão na conta dos Municípios."
+  },
+  {
+   "from": "b037",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 16,
+   "from_claim": "b037c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A presidência retoma a fala sobre a periferia e acrescenta a dificuldade de quem está lá: gente que faz cultura mas não sabe apresentar um projeto."
+  },
+  {
+   "from": "b037",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 9,
+   "from_claim": "b037c3",
+   "to_claim": "b032c3",
+   "strength": "media",
+   "note": "A presidência encampa o alerta da entidade sobre editais altos e transforma em pedido ao Ministério: facilitar a chegada do recurso à ponta."
+  },
+  {
+   "from": "b038",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 3,
+   "from_claim": "b038c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "O Ministério assume o ponto da conselheira: a adesão recorde foi possível porque o muro entre Estado e sociedade civil caiu."
+  },
+  {
+   "from": "b038",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 1,
+   "from_claim": "b038c1",
+   "to_claim": "b026c1",
+   "strength": "media",
+   "note": "Ministério e conselheira concordam que sem participação social não há boa execução do dinheiro público, e que os conselhos são o lugar dessa fiscalização."
+  },
+  {
+   "from": "b038",
+   "to": "b036",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 5,
+   "from_claim": "b038c3",
+   "to_claim": "b036c3",
+   "strength": "media",
+   "note": "Ao pedido de prorrogação, o Ministério não diz sim nem não: chama o debate de válido e se coloca à disposição da Comissão e dos fóruns de secretários."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b006",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b002c2",
+    "b006c2",
+    "b008c3",
+    "b010c2"
+   ],
+   "note": "O Ministério da Cultura e deputados de PSOL e Republicanos concordam que o repasse chegou: os Estados aderiram e o dinheiro já está na conta de quase todos os Municípios."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b010",
+    "b014"
+   ],
+   "claims": [
+    "b002c3",
+    "b004c2",
+    "b010c1",
+    "b014c2"
+   ],
+   "note": "O Ministério, um músico do grupo de samba do Grajaú e um deputado distrital concordam que o dinheiro da cultura volta em emprego, renda e movimento na economia local."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b003",
+    "b004",
+    "b032",
+    "b037"
+   ],
+   "claims": [
+    "b003c1",
+    "b004c1",
+    "b032c1",
+    "b032c3",
+    "b037c1",
+    "b037c3"
+   ],
+   "note": "A presidência, o grupo cultural do Grajaú e o conselho de entidades culturais concordam que quem faz cultura na ponta ainda tem dificuldade de chegar ao dinheiro."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b012",
+    "b014",
+    "b032",
+    "b037"
+   ],
+   "claims": [
+    "b006c3",
+    "b012c2",
+    "b012c3",
+    "b014c1",
+    "b032c2",
+    "b037c2"
+   ],
+   "note": "Deputados, a entidade de artistas e a presidência concordam que o dinheiro do audiovisual tem de virar produção e equipamento nos territórios, e não ficar com quem já é grande."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b014",
+    "b016",
+    "b026",
+    "b038"
+   ],
+   "claims": [
+    "b014c3",
+    "b016c1",
+    "b026c1",
+    "b026c3",
+    "b038c1",
+    "b038c2"
+   ],
+   "note": "A conselheira, o Ministério e o deputado distrital concordam que a participação social é o que garante a execução e transforma a lei de emergência em política permanente."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b003",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": "b010",
+   "gist": "como prefeitura, artista e entidade da comunidade acessam os recursos",
+   "plain": "Como a Prefeitura, o artista sozinho e a entidade da comunidade fazem para acessar o dinheiro da lei?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b014",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quantos empregos a Lei Paulo Gustavo vai gerar",
+   "plain": "O Ministério já conseguiu medir quantos novos empregos a Lei Paulo Gustavo vai gerar?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b036",
+   "sentence": 2,
+   "addressed_to": "governo",
+   "answered_by": "b038",
+   "gist": "o que dificulta aplicar os recursos em tempo exequível",
+   "plain": "O que está travando a aplicação do dinheiro da Lei Paulo Gustavo dentro do prazo?",
+   "theme": "d7",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b036",
+   "sentence": 5,
+   "addressed_to": "governo",
+   "answered_by": "b038",
+   "gist": "se o Governo vai propor ou apoiar a prorrogação da lei",
+   "plain": "O Governo Federal pretende propor ou apoiar a prorrogação da Lei Paulo Gustavo?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b037",
+   "sentence": 25,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como facilitar a chegada do recurso à ponta",
+   "plain": "Como o Ministério pode facilitar a chegada do recurso a quem faz cultura na ponta?",
+   "theme": "d4",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 28,
+   "gist": "a lei destinou 3,8 bilhões de reais à cultura",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 37,
+   "gist": "aderiram 27 Estados, o DF e 98,12% dos Municípios",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 45,
+   "gist": "mais de 3% do PIB vem do setor cultural",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 82,
+   "gist": "só 100 Municípios optaram por não aderir",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 14,
+   "gist": "90% dos Municípios acessaram os planos de ação",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 15
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 4,
+   "gist": "grupo folclórico de Roraima fundado em 1998, há 25 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 10,
+   "gist": "recursos chegam a mais de 90% dos Municípios",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 15
+    }
+   ]
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 2,
+   "gist": "a Política Nacional Aldir Blanc terá 3 bilhões por ano, por 5 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 4,
+   "gist": "cada 1 real em cultura devolve 1 real e 59 centavos",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 11,
+   "gist": "só no Distrito Federal serão 48 milhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b012",
+   "sentence": 16,
+   "gist": "Ceilândia tem 400 mil habitantes e nenhuma sala de cinema",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b038",
+   "sentence": 14,
+   "gist": "todo edital terá 20% de vagas para negros e 10% para indígenas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo",
+   "parlamentar"
+  ],
+  "angle": "A matéria escolheu o tom de comemoração: o repasse foi concluído no dia da audiência e agora cada gestor lança o seu edital.",
+  "omitted": "Ficaram de fora o pedido de prorrogação do prazo feito pelo Deputado Aureo Ribeiro e o debate sobre participação social e fiscalização levantado pela conselheira."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A cultura devolve mais do que recebe",
+   "statement_plain": "Dinheiro posto em cultura volta em emprego, renda e movimento na economia da cidade, por isso a Lei Paulo Gustavo não é gasto, é investimento.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b004c2",
+    "b010c1",
+    "b014c2"
+   ],
+   "note": "Une o Ministério da Cultura, um deputado distrital e um músico de um grupo de samba da periferia de São Paulo no mesmo argumento econômico, gente de setores diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "Sem edital acessível, o dinheiro não chega à ponta",
+   "statement_plain": "Quem faz cultura na periferia não conhece o caminho do dinheiro público e não alcança editais de valor alto, então o recurso não chega a quem mais precisa.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b003c1",
+    "b004c1",
+    "b032c1",
+    "b032c3",
+    "b037c1",
+    "b037c3"
+   ],
+   "note": "Junta a presidência da audiência, um grupo cultural do Grajaú e um conselho de entidades culturais, que não são do mesmo setor e chegaram à mesma conclusão."
+  },
+  {
+   "id": "t3",
+   "title": "O repasse funcionou e o dinheiro já está na conta",
+   "statement_plain": "A adesão foi recorde, o dinheiro já está na conta dos Estados e Municípios e o caminho até o edital está montado, com apoio do Ministério a quem tem dúvida.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b006c2",
+    "b008c3",
+    "b010c2",
+    "b010c3"
+   ],
+   "note": "Coloca do mesmo lado o Ministério, um deputado do PSOL e um deputado do Republicanos, que quase nunca defendem a mesma coisa nesta Casa."
+  },
+  {
+   "id": "t4",
+   "title": "Sem participação social a política acaba com o governo",
+   "statement_plain": "Conselhos e conferências precisam acompanhar e fiscalizar o dinheiro da cultura, senão a política morre na troca de governo em vez de virar política de Estado.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b014c3",
+    "b016c1",
+    "b026c1",
+    "b026c3",
+    "b038c1"
+   ],
+   "note": "Cruza a sociedade civil e o próprio Ministério, que defende ser acompanhado pelos conselhos de cultura, e ainda traz um deputado distrital para o mesmo lado."
+  },
+  {
+   "id": "t5",
+   "title": "O audiovisual só muda se houver tela no território",
+   "statement_plain": "Não basta financiar filme: é preciso comprar equipamento e abrir cineclube onde não há sala nenhuma, para que a periferia produza e também se veja na tela.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b012c2",
+    "b012c3",
+    "b014c1",
+    "b032c2",
+    "b037c2"
+   ],
+   "note": "Deputados de mandatos diferentes, uma entidade de artistas e a presidência defendem a mesma ideia contra a concentração do dinheiro em grandes produtoras."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Lei Paulo Gustavo",
+   "fala": "b001",
+   "sentence": 0,
+   "plain": "lei de emergência que manda dinheiro do fundo federal de cultura a Estados e Municípios para socorrer o setor cultural depois da pandemia"
+  },
+  {
+   "term": "Decreto nº 11.525",
+   "fala": "b001",
+   "sentence": 0,
+   "plain": "norma do Governo Federal, de 2023, que detalhou como a Lei Paulo Gustavo seria aplicada por Estados e Municípios"
+  },
+  {
+   "term": "Requerimento",
+   "fala": "b001",
+   "sentence": 0,
+   "plain": "pedido formal que um deputado apresenta para que a comissão realize uma audiência ou tome alguma providência"
+  },
+  {
+   "term": "edital",
+   "fala": "b002",
+   "sentence": 29,
+   "plain": "aviso público com as regras de uma seleção, em que artistas e grupos se inscrevem para receber dinheiro público"
+  },
+  {
+   "term": "CLDF",
+   "fala": "b001",
+   "sentence": 10,
+   "plain": "Câmara Legislativa do Distrito Federal, o parlamento que faz as leis do DF e fiscaliza o governo local"
+  },
+  {
+   "term": "APAN",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "Associação de Profissionais do Audiovisual Negro, entidade que reúne profissionais negros do cinema e da televisão"
+  },
+  {
+   "term": "Lei Aldir Blanc",
+   "fala": "b006",
+   "sentence": 10,
+   "plain": "lei federal de emergência para a cultura na pandemia, aprovada antes da Lei Paulo Gustavo e batizada com o nome do compositor Aldir Blanc"
+  },
+  {
+   "term": "marco do fomento",
+   "fala": "b010",
+   "sentence": 7,
+   "plain": "projeto de lei que cria regras próprias para o Estado repassar dinheiro a projetos culturais, no lugar das regras de licitação de obras"
+  },
+  {
+   "term": "Transferegov",
+   "fala": "b010",
+   "sentence": 17,
+   "plain": "plataforma do Governo Federal em que Estados e Municípios se inscrevem e enviam seus planos para receber dinheiro da União"
+  },
+  {
+   "term": "plano de ação",
+   "fala": "b010",
+   "sentence": 17,
+   "plain": "documento em que o Estado ou o Município diz ao Ministério como pretende gastar o dinheiro que vai receber"
+  },
+  {
+   "term": "Conselho Nacional de Políticas Culturais",
+   "fala": "b016",
+   "sentence": 2,
+   "plain": "conselho em que governo e sociedade civil discutem juntos as políticas de cultura do País"
+  },
+  {
+   "term": "instrução normativa",
+   "fala": "b022",
+   "sentence": 1,
+   "plain": "norma que um ministério publica para detalhar como uma lei ou um decreto será aplicado no dia a dia"
+  },
+  {
+   "term": "CBEC",
+   "fala": "b032",
+   "sentence": 0,
+   "plain": "Conselho Brasileiro de Entidades Culturais, associação que reúne entidades de cultura, com sede em São Paulo"
+  },
+  {
+   "term": "Lei Complementar nº 195",
+   "fala": "b036",
+   "sentence": 0,
+   "plain": "o nome oficial da Lei Paulo Gustavo, de 8 de janeiro de 2022, que criou as ações de emergência para a cultura"
+  },
+  {
+   "term": "CEUs",
+   "fala": "b037",
+   "sentence": 16,
+   "plain": "Centros Educacionais Unificados, equipamentos públicos de São Paulo que reúnem escola, teatro e espaços de cultura na periferia"
+  }
+ ]
+}

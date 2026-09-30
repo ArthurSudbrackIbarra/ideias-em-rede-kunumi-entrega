@@ -1,0 +1,2582 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 80,
+ "model": "LLM lendo o prompt hearing-080 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T20:47:39Z",
+ "prompt_sha256": "8126780de6adc6b84f608b45b7b36af6c64f6138c8b9ecaf579e98ab0e363385",
+ "sentences_hash": "f4470fbe91cb3f43",
+ "review": {
+  "pairs_read": 55,
+  "pairs_fixed": 8
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Trabalho da Câmara ouviu confederações patronais, associações de profissionais de relações com o governo, entidades da sociedade civil e dois órgãos do Executivo sobre o Projeto de Lei 4.391, de 2021, que regula a representação privada de interesses junto ao poder público. Quase todos os convidados disseram que o país precisa de uma lei, mas divergiram sobre o quanto ela deve exigir de registro, de transparência e de controle. O relator anunciou que apresentaria um substitutivo aproveitando também o projeto do deputado Carlos Zarattini.",
+ "stakes": "O relator tinha de decidir se manteria o texto do Executivo ou se escreveria um substitutivo incorporando o PL 1.535, de 2022, com registro e transparência mais exigentes.",
+ "central_question": "Que tipo de regra o Brasil deve adotar para o lobby: um sistema leve, que apenas dê transparência sem burocracia, ou um sistema mais exigente, com registro e prestação de contas?",
+ "synopsis_plain": "A Câmara discutiu o projeto que cria regras para o lobby, o trabalho de quem procura deputados e órgãos do governo para defender interesses. Quase todos os convidados disseram que a lei é necessária. A briga foi sobre o tamanho das exigências: registro, transparência das agendas e do que se conversa. No fim o relator disse que vai juntar dois projetos num texto só.",
+ "stakes_plain": "O relator tinha de escolher entre manter o texto do governo como está ou escrever um novo, com regras mais exigentes de registro e transparência.",
+ "central_question_plain": "O lobby deve ter regras leves, só de transparência, ou regras mais duras, com registro e prestação de contas?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Necessidade de uma lei do lobby",
+   "description": "Se o país precisa de uma lei específica para o lobby ou se as leis que já existem bastam.",
+   "axis": {
+    "pro": "O país precisa de uma lei que reconheça e organize a representação de interesses.",
+    "contra": "As leis atuais já bastam e uma lei nova é desnecessária.",
+    "pro_plain": "O Brasil precisa de uma lei que trate o lobby como atividade legítima e dê regras a ele.",
+    "contra_plain": "Já existem leis que cuidam disso. Uma lei nova não é necessária."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Burocracia e peso das regras",
+   "description": "Quanto a nova lei pode exigir sem dificultar o acesso das pessoas e das entidades ao poder público.",
+   "axis": {
+    "pro": "A regra tem de ser leve, sem burocracia que dificulte o acesso ao poder público.",
+    "contra": "Sem exigências firmes a regra não produz transparência nem controle.",
+    "pro_plain": "A lei tem de ser leve. Burocracia demais fecha a porta em vez de abrir.",
+    "contra_plain": "Sem exigências firmes a lei não dá transparência nem controle de verdade."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Qualidade do PL 4.391 e dos projetos apensados",
+   "description": "Se o texto enviado pelo Executivo já serve ou se é preciso um substitutivo que aproveite os projetos anteriores da Câmara.",
+   "axis": {
+    "pro": "O PL 4.391 é o melhor texto já discutido e pode avançar como está.",
+    "contra": "O PL 4.391 é insuficiente e precisa incorporar o que já foi construído no Congresso.",
+    "pro_plain": "O texto enviado pelo governo é o melhor já discutido e pode ser aprovado.",
+    "contra_plain": "O texto do governo ficou fraco. Precisa aproveitar o que o Congresso já construiu."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Registro e profissão do lobista",
+   "description": "Se a lei deve criar registro, credenciamento ou uma profissão de lobista, ou se isso vira reserva de mercado.",
+   "axis": {
+    "pro": "É preciso registro ou credenciamento de quem faz representação de interesses.",
+    "contra": "Criar registro e profissão de lobista gera reserva de mercado e custo.",
+    "pro_plain": "Quem faz lobby tem de se registrar ou ter credencial, para se saber quem é quem.",
+    "contra_plain": "Criar uma profissão e um cadastro de lobista fecha a atividade para poucos."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Transparência de agendas e documentos",
+   "description": "O que tem de ser publicado sobre os encontros entre representantes de interesses e agentes públicos.",
+   "axis": {
+    "pro": "Encontros, prazos e documentos trocados devem ser publicados em base comparável.",
+    "contra": "Exigir registro prévio e publicação de tudo atrapalha o diálogo do dia a dia.",
+    "pro_plain": "Reunião, prazo e papel trocado têm de ir para um site público que dê para comparar.",
+    "contra_plain": "Registrar tudo antes e publicar tudo trava uma conversa que precisa ser rápida."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Isonomia no acesso ao poder público",
+   "description": "Quem deve ter acesso ao Congresso e ao governo: todos os interessados ou, de preferência, as entidades representativas.",
+   "axis": {
+    "pro": "O acesso tem de ser igual para todos os interessados, inclusive os menos organizados.",
+    "contra": "O acesso deve se dar de preferência por entidades que representam interesses coletivos.",
+    "pro_plain": "Todo mundo tem de poder chegar ao Congresso, e não só quem já sabe o caminho.",
+    "contra_plain": "É melhor que as pessoas cheguem por meio de entidades que representam muita gente."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Definição e alcance da atividade",
+   "description": "O que conta como lobby e quem fica sujeito à lei, das conversas por mensagem ao lobby do próprio governo.",
+   "axis": {
+    "pro": "Toda comunicação que busque influenciar a decisão conta, e a lei deve alcançar mais gente.",
+    "contra": "A lei deve se limitar a audiências e contatos formais, sem alcançar cada mensagem.",
+    "pro_plain": "Se o objetivo é influenciar quem decide, conta como lobby, seja e-mail ou rede social.",
+    "contra_plain": "A lei deve tratar de audiências e reuniões, não de cada mensagem trocada."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da reunião e relator do PL 4.391, de 2021",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata e tratado como Deputado Augusto Coutinho em b002.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Trabalho, Administração e Serviço Público da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "representante da CNI",
+   "org": "CNI",
+   "basis": "apresentada pelo presidente em b001.25",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Confederação Nacional da Indústria",
+   "org_plain": "entidade que reúne as indústrias do país e defende os interesses do setor industrial"
+  },
+  "s03": {
+   "role": "setor_privado",
+   "cargo": "representante da CNA",
+   "org": "CNA",
+   "basis": "apresentado em b001.5 e em b003.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Confederação da Agricultura e Pecuária do Brasil",
+   "org_plain": "entidade que representa os produtores rurais e o agronegócio no país"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "representante da ABRIG",
+   "org": "ABRIG",
+   "basis": "apresentada pelo presidente em b005.24",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Abrig, associação de relações institucionais",
+   "org_plain": "Associação Brasileira de Relações Institucionais e Governamentais, que reúne quem faz esse trabalho"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "consultora e coordenadora de grupo de trabalho da RAC",
+   "org": "RAC",
+   "basis": "apresentada em b001.5 e em b008.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Rede de Advocacy Colaborativo",
+   "org_plain": "rede que junta organizações da sociedade civil para levar propostas ao Congresso"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "representante da Secretaria de Acompanhamento Econômico",
+   "org": "Ministério da Economia",
+   "basis": "apresentada em b009.4 e em b010.2",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Economia",
+   "org_plain": "ministério que cuidava da política econômica e propôs o projeto junto com a CGU"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "consultor do Senado, representando o DIAP",
+   "org": "DIAP",
+   "basis": "apresentado pelo presidente em b007.11",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Diap, entidade que assessora sindicatos no Congresso",
+   "org_plain": "Departamento Intersindical de Assessoria Parlamentar, que acompanha o Congresso para os sindicatos"
+  },
+  "s08": {
+   "role": "setor_privado",
+   "cargo": "representante da CNT",
+   "org": "CNT",
+   "basis": "apresentado pelo presidente em b013.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Confederação Nacional do Transporte",
+   "org_plain": "entidade que representa as empresas de transporte de carga e de passageiros"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "chamado pelo presidente em b015.9 e registrado como REPUBLICANOS - MG",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais",
+   "org_plain": "Câmara dos Deputados, onde o projeto sobre o lobby está sendo analisado"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "representante da RAC e da Transparência Internacional Brasil",
+   "org": "RAC",
+   "basis": "apresentada em b017.7 e em b018.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Rede de Advocacy Colaborativo",
+   "org_plain": "rede de organizações da sociedade civil que levou emendas ao projeto do lobby"
+  },
+  "s11": {
+   "role": "setor_privado",
+   "cargo": "representante da CNC",
+   "org": "CNC",
+   "basis": "apresentado pelo presidente em b021.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Confederação Nacional do Comércio",
+   "org_plain": "entidade patronal que representa empresas de comércio, serviços e turismo"
+  },
+  "s12": {
+   "role": "setor_privado",
+   "cargo": "representante do IRELGOV",
+   "org": "IRELGOV",
+   "basis": "apresentado pelo presidente em b023.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Irelgov, instituto de relações governamentais",
+   "org_plain": "instituto que reúne profissionais e empresas que trabalham com relações com o governo"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "diretor-presidente do Instituto Ethos",
+   "org": "Instituto Ethos",
+   "basis": "apresentado pelo presidente em b025.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Instituto Ethos",
+   "org_plain": "organização que trabalha com responsabilidade social de empresas e integra a RAC"
+  },
+  "s14": {
+   "role": "setor_privado",
+   "cargo": "representante do OPS",
+   "org": "OPS",
+   "basis": "apresentado pelo presidente em b027.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Observatório Político do Setor de Serviços",
+   "org_plain": "associação que reúne entidades nacionais do setor de serviços"
+  },
+  "s15": {
+   "role": "governo",
+   "cargo": "diretor de Informações para Prevenção da Corrupção da CGU",
+   "org": "CGU",
+   "basis": "apresentado em b001.5 e em b029.1",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Controladoria-Geral da União",
+   "org_plain": "órgão do governo federal que cuida de transparência e de prevenção à corrupção"
+  },
+  "s16": {
+   "role": "parlamentar",
+   "cargo": "deputada federal e presidente da Frente Parlamentar Mista Ética Contra a Corrupção",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada em b015.8 e frente citada em b032.20",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal por São Paulo",
+   "org_plain": "Câmara dos Deputados, onde tramita o projeto sobre o lobby"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.4
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "convidado",
+    "share": 0.05
+   }
+  ],
+  "basis": "lista de convidados e entidades lida pelo presidente em b001.5 e registro de mais de 200 interações na audiência em b031.3",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a reunião, lê a lista de convidados e fixa 5 minutos para cada exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende a regulamentação em nome da indústria e alerta para burocracia, acesso ao parlamentar e formas novas de comunicação.",
+   "quote": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A indústria apoia regulamentar a defesa de interesses, desde que a lei não burocratize nem dificulte o acesso ao Parlamento.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a CNI defende a regulamentação desde 1990 e publica há quase 27 anos a agenda com os projetos que interessam à indústria",
+     "plain": "A CNI, a confederação da indústria, sempre defendeu a regulamentação. Desde 1990 trabalhamos o assunto, e há quase 27 anos publicamos nossa agenda legislativa, dizendo que projetos interessam ao setor."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a primeira preocupação é a burocratização e a segunda é não dificultar o acesso ao parlamentar",
+     "plain": "Minha primeira preocupação é a burocratização. Qualquer projeto tem de cuidar para não burocratizar essa relação. A segunda é não criar dificuldade para chegar ao parlamentar."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "as novas formas de comunicação precisam entrar no projeto, porque exigir registro prévio tira a agilidade de uma conversa por WhatsApp",
+     "plain": "As formas novas de comunicação também têm de entrar no projeto. Falo de sessões on-line e de conversa por WhatsApp, que são rápidas e acabam comprometidas quando se exige registro prévio da reunião."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a representante da CNI e passa a palavra ao representante da CNA.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende, pelo agro, uma lei com transparência e critérios claros, sem excesso de exigências e sem deixar a atividade sem regra.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A representação de interesses precisa de regras claras e transparentes, nem de excesso de exigências nem da falta delas.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "discutir com o Congresso e com o setor público serve para dar transparência, e a lei traz segurança jurídica para todos os lados",
+     "plain": "Quando se discutem temas no Congresso ou com o setor público, discute-se para evoluir, desburocratizar e, acima de tudo, dar transparência. A lei vem para dar segurança jurídica a todos os lados."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o excesso de exigências atrapalha e a falta de exigência também não ajuda, o que precisa existir são critérios com regras claras",
+     "plain": "Não vou falar tecnicamente. O excesso de exigências não ajuda, atrapalha, e não ter exigência nenhuma também não ajuda. O que precisa existir são critérios com regras claras e transparentes."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o produtor rural precisa dessa transparência e um dos três países que mais vendem alimentos não pode ficar com regras do século passado",
+     "plain": "No setor do produtor rural, o que precisamos mesmo é dessa transparência. Imagine um país que está entre os três que mais vendem alimentos ao mundo ainda com regras do século passado?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra que o tema tramita desde 1980, diz que o debate já foi feito e anuncia que apresentará o relatório ainda naquele mês.",
+   "quote": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O tema já foi debatido por décadas e o que falta agora é aprovar uma lei que funcione.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ao projeto do Executivo está apensado um projeto do deputado Carlos Zarattini que aguarda o plenário desde 2018, e o tema tramita desde 1980",
+     "plain": "Este projeto é do Governo Federal. A ele está apensado um projeto do deputado Carlos Zarattini, já aprovado na CTASP e na CCJ, que aguarda o plenário desde 2018. A matéria tramita no Legislativo desde 1980."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o tema já foi debatido demais e o que falta agora é efetivar e fazer as coisas avançarem",
+     "plain": "Esse discurso de que falta debate não cabe. O assunto já se discutiu demais. O que falta agora é efetivar e fazer as coisas andarem."
+    },
+    {
+     "id": "b005c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não adianta fazer uma lei engessada que não funcione, e já há exemplos disso em outros países",
+     "plain": "Acho que não adianta fazer uma lei muito engessada, que acabe não funcionando. Já existem exemplos assim. O Nilson lembrou aqui há pouco que há experiências pelo mundo sobre isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma, pela ABRIG, que o debate amadureceu e que o PL 4.391 é o melhor texto, pedindo ajustes de nome, direito de petição e credenciamento.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    30
+   ],
+   "open_question": 27,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O texto do Executivo é o melhor já discutido e deve avançar, com ajustes pontuais de redação e de escopo.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o excesso de burocracia não favorece a transparência e acaba impedindo o acesso em vez de democratizar a profissão",
+     "plain": "É muito claro: burocracia demais não ajuda a transparência. Ela traz um efeito colateral danoso, que é impedir o acesso em vez de democratizar a profissão. A transparência não pode ser um fim em si mesma."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o PL 4.391 conversa com tudo o que foi discutido até agora e o debate está maduro para avançar na Câmara",
+     "plain": "O PL 4.391, apresentado no fim do ano passado pelo Executivo, conversa com tudo o que já foi discutido. Para a Abrig o debate está maduro. Ajustes fazem parte, mas chegou a hora de avançar nesta Casa."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      29
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é mais simples credenciar nas Casas legislativas quem faz lobby do que obrigar o registro de toda e qualquer conversa com parlamentares",
+     "plain": "Gostaríamos que houvesse credenciamento nas Casas legislativas. Quando se fala em transparência, é bem mais simples dar credencial a quem entra do que obrigar o registro de toda conversa com parlamentares."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência tenta resolver problemas de áudio e reorganiza a ordem das falas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Apresenta quatro das 11 emendas da RAC e defende que o projeto amplie a definição de lobby e garanta acesso igual aos grupos de interesse.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O texto do Executivo não alcança todas as formas de lobby nem garante acesso igual, e por isso precisa das emendas da rede.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a Emenda nº 1 institui revisão a cada 5 anos porque uma norma sem prazo de revisão pode ficar ineficaz depressa",
+     "plain": "A Emenda nº 1 institui um período de revisão de 5 anos. Ela segue o décimo princípio das recomendações da OCDE, porque o lobby é uma atividade complexa e uma norma sem prazo de revisão pode ficar ineficaz rápido."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o PL 4.391 poderia ter garantido acesso de todos os grupos de interesse à decisão, como pede o primeiro princípio da OCDE",
+     "plain": "A Emenda nº 7 trata de garantir acesso igual e direito de resposta na defesa de interesses. Entendemos que o PL 4.391 poderia ter garantido mais participação de todos os grupos no processo de decisão, como pede o primeiro princípio da OCDE."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto restringe a interação a audiências, mas o lobby é fluido e acontece por e-mail e por campanha nas redes sociais",
+     "plain": "O projeto restringe a interação pública às audiências presenciais ou por vídeo, e o lobby é fluido: mandar e-mail, curtir, fazer campanha nas redes. Se o objetivo é influenciar quem decide, isso também é lobby."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que as emendas da rede já foram recebidas e analisadas e que a maior parte precisa apenas de ajuste de redação.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "As emendas apresentadas pela rede cabem na ideia do projeto e precisam apenas de ajustes de redação.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "as emendas foram recebidas e analisadas e boa parte delas cabe na ideia do projeto, precisando só de ajuste de redação",
+     "plain": "Andréa, nós recebemos e analisamos as emendas. Boa parte delas está dentro da ideia do projeto e precisa apenas de alguns ajustes de redação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que o projeto nasceu da má nota do Brasil num índice da OCDE e busca regular a atividade, e não criar uma profissão de lobista.",
+   "quote": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto do Executivo aumenta a transparência e democratiza o acesso ao poder público sem criar uma classe profissional.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no índice PMR da OCDE, que mede a qualidade regulatória, o Brasil tem a menor nota entre 49 países na relação entre público e privado",
+     "plain": "Olhamos o PMR, indicador da OCDE que avalia a qualidade da regulação brasileira em vários setores. No ponto da relação entre público e privado, o Brasil tem a menor nota entre 49 países e está atrás da Argentina."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a ideia não é regulamentar a profissão, e sim a atividade, para que empresas pequenas e grupos pouco organizados também tenham acesso",
+     "plain": "Não queremos regulamentar a profissão, e sim a atividade em si. Buscamos que empresas pequenas e grupos pouco organizados também cheguem ao poder público, como já chegam os que sabem o caminho."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto busca aumentar a transparência, tirar barreiras e regular a atividade, e aprová-lo alinha o país às diretrizes da OCDE",
+     "plain": "Buscamos aumentar a transparência, democratizar pela ausência de barreiras e regular a atividade, não o profissional. Aprovar este projeto nos alinha às diretrizes da OCDE e facilita nossa entrada nessa organização."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Registra que a presidência concorda com a necessidade de regulamentar a atividade e chama o representante do DIAP.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A atividade precisa ser regulamentada.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a presidência concorda com a necessidade de regulamentar a atividade",
+     "plain": "Agradeço a participação à Natasha e ressalto que concordamos com a necessidade de regulamentar a atividade. Isso é importante."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que o texto do Executivo escolheu um sistema fracamente regulado e pede ao relator que aproveite o PL 1.535.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O projeto do Executivo não alcança um sistema medianamente regulado e deixa de fora exigências que a OCDE recomenda.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "desde 1984, quando Marco Maciel apresentou o primeiro projeto, houve pelo menos dez proposições sobre o tema e só três seguem em tramitação",
+     "plain": "Em 1984 o então senador Marco Maciel apresentou o primeiro projeto sobre o tema. De lá para cá foram ao menos dez propostas, nove projetos de lei e uma emenda à Constituição. Só três ainda tramitam."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o projeto do governo opta por um sistema fracamente regulado, inspirado no Chile, e não atende à OCDE quanto ao registro de lobistas",
+     "plain": "O projeto que o Governo mandou não chega a um sistema medianamente regulado. Ele opta pelo sistema fracamente regulado, inspirado no Chile, e não atende às recomendações da OCDE, por exemplo no registro de quem representa interesses."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      15
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "num levantamento da OCDE em 2020, de 22 países, 14 tinham registro obrigatório de lobistas e outros 3 tinham registro voluntário",
+     "plain": "Num levantamento que a OCDE fez em 2020, de 22 países, 14 adotavam registro obrigatório de lobistas e outros 3 adotavam registro voluntário da atividade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde ao DIAP que pretende aproveitar muita coisa do PL 1.535 e passa a palavra ao representante da CNT.",
+   "quote": [
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O substitutivo vai aproveitar boa parte do projeto apensado do deputado Carlos Zarattini.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o relator pretende aproveitar muita coisa do PL 1.535 no seu texto",
+     "plain": "Digo ao Luiz Alberto que pretendemos aproveitar muita coisa do PL 1.535."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta os números do transporte, sustenta que a legislação atual já preserva a ética e apoia a regra desde que não burocratize.",
+   "quote": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O transporte apoia a regulamentação, mas as leis atuais já bastam para preservar a ética da atividade.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a CNT representa 165 mil empresas de transporte com 2,3 milhões de trabalhadores, em 27 federações e 20 associações nacionais",
+     "plain": "A CNT representa hoje 165 mil empresas do setor, com 2,3 milhões de trabalhadores. Somam 27 federações, 5 sindicatos nacionais e 20 associações nacionais, em todos os modos de transporte."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Constituição, a Lei Anticorrupção e o Código de Conduta da Alta Administração já bastam para preservar a ética",
+     "plain": "A Constituição, a Lei Anticorrupção, o regime jurídico dos servidores e o Código de Conduta da Alta Administração já garantem que, cumpridas essas normas, a ética está preservada. Já temos leis suficientes."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a CNT apoia a regulamentação com transparência, ética e sem burocratizar, e se preocupa com emendas que burocratizam",
+     "plain": "Nos destaques do projeto vemos regras de transparência e o livre exercício da atividade. Nos preocupam as emendas que burocratizam. A CNT apoia a regulamentação com transparência, ética e sem burocracia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência interrompe os palestrantes para ouvir dois deputados e registra a presença da deputada Adriana Ventura.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que conseguiu estender seu prazo e ainda consegue ouvir mais dois palestrantes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o diretor do Instituto Ethos, não o encontra e passa a palavra à representante da RAC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que a rede não quer travar o projeto e defende emendas sobre penalidades, banco de dados único, sigilo e autoridades alcançadas.",
+   "quote": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O projeto é simples e necessário, mas precisa de ajustes para aproximar a sociedade civil do Parlamento.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto apresentado é simples e não estrangula a atividade, e é muito importante que o Brasil tenha uma lei que regule o lobby",
+     "plain": "O projeto apresentado é simples. Não é um texto que estrangula a atividade de lobby no Brasil. Achamos que há necessidade de uma lei e é muito importante que o Brasil tenha uma lei que regule o lobby."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a primeira emenda é sobre penalidades, porque o projeto só fala em penalidade administrativa e não em crime",
+     "plain": "Vou falar de quatro emendas. A primeira é simples e trata das penalidades. O projeto só fala em penalidade administrativa, e não em crime. Seria acrescentar que isso vale sem prejuízo de outras sanções cabíveis."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso um banco de dados único, porque a sociedade civil precisa comparar os dados, como recomenda a União Europeia",
+     "plain": "Sugerimos ainda um banco de dados único, porque isso importa para a sociedade civil poder comparar os dados. Uma das recomendações da União Europeia é justamente que haja comparação entre os dados expostos ali."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à representante da RAC e lembra que ela foi consultora da Casa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada responde brevemente ao comentário da presidência sobre sua aposentadoria.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da CNC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sustenta que as confederações cumprem dever constitucional ao representar interesses e alerta contra equiparar empresas de lobby às entidades.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    31
+   ],
+   "open_question": 27,
+   "stance": {
+    "position": "contrario",
+    "claim": "A representação de interesses deve se dar prioritariamente por entidades que reúnem interesses coletivos, e não por particulares isolados.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "ao defender os setores que representa, a confederação patronal cumpre um dever que a Constituição lhe dá no art. 8º, inciso III",
+     "plain": "Como confederação patronal, ao defender os setores econômicos que representamos, cumprimos um dever constitucional. É a Constituição que, no art. 8º, inciso III, diz que nos cabe defender os direitos da categoria."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a lei não pode pôr o interesse particular em pé de igualdade com o coletivo, e a representação deve se dar de preferência por uma entidade",
+     "plain": "É preciso cuidado para não pôr o interesse particular no mesmo pé do coletivo. Cidadão e empresa podem se fazer representar, mas de preferência por uma entidade que reúna seus pares. Assim prevalece o interesse coletivo."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a regulamentação não pode virar mais uma regulamentação de profissão nem tratar a representação como atividade privativa de uma categoria",
+     "plain": "A regra não pode virar pretexto para regulamentar mais uma profissão, a de lobista. Representar interesses não pode ser exclusividade de uma categoria, criando reserva de mercado. Isso engessaria tudo e não atenderia ao interesse público."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante da CNC e passa a palavra ao representante do IRELGOV.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende, pelo IRELGOV, regra que aumente transparência sem criar barreiras de entrada e discorda da CNC sobre quem pode acessar o Congresso.",
+   "quote": [
+    29,
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O acesso ao Congresso deve ser o mais democrático possível, inclusive para os profissionais que atuam na área.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a finalidade da regra deve ser aumentar a transparência e a reputação da atividade, sem criar barreiras de entrada",
+     "plain": "A finalidade de qualquer regulamentação deve ser aumentar a transparência e a reputação da atividade. Aqui há um peso e um contrapeso importante: queremos dar transparência, mas não podemos criar barreiras de entrada."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "toda barreira de entrada cria discrepância e o acesso à Câmara e ao Senado deve ser o mais democrático possível",
+     "plain": "Entendemos que toda barreira de entrada cria discrepâncias. Discordando um pouco do colega da CNC, achamos que o acesso à Câmara e ao Senado deve ser o mais aberto possível, inclusive aos profissionais da área."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o PL 4.391 é bem diferente do projeto do deputado Carlos Zarattini, é mais principiológico e se apoia nos princípios da OCDE",
+     "plain": "O PL 4.391 é uma opção legislativa bem diferente da que o deputado Carlos Zarattini trouxe. Como já se disse aqui, é um texto mais principiológico, apoiado nos princípios da OCDE. Achamos que é um ótimo começo e um bom parâmetro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência localiza o diretor do Instituto Ethos e lhe dá a palavra por 5 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apresenta três emendas da rede que obrigam o agente público a registrar encontros em 7 dias e a divulgar os documentos trocados.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 13,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Toda comunicação e todo documento que possam influenciar a decisão precisam ser divulgados.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a emenda acrescenta ao art. 11 que cabe ao agente público registrar o encontro em até 7 dias no site oficial de registro e publicidade",
+     "plain": "Trago três emendas: a nº 4, a nº 5 e a nº 9. A primeira acrescenta um parágrafo único ao art. 11 do projeto: cabe ao agente público registrar, em até 7 dias a partir do fato, no site oficial de registro e publicidade."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as recomendações da União Europeia e da OCDE pedem que toda comunicação direta ou indireta que possa influenciar a decisão seja transparente",
+     "plain": "A transparência é fundamental. As recomendações da União Europeia e da OCDE pedem que se olhe a interação real entre agente público e privado e que toda comunicação capaz de influenciar a decisão seja divulgada."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os documentos trocados durante e depois das audiências devem ser divulgados, para garantir isonomia e contraditório à sociedade",
+     "plain": "Outra emenda pede que os documentos trocados durante e depois das audiências entre agentes públicos e representantes de interesses sejam divulgados. Assim se garante isonomia para a sociedade participar e ter contraditório."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Observatório Político do Setor de Serviços e explica que deixou a CGU por último.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Recusa qualquer reserva de mercado na atividade, lembra que o Governo é um dos maiores lobistas e alerta contra tratar lobby como crime.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A atividade não pode virar reserva de mercado de uma categoria e precisa alcançar todos os que atuam nela.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a atividade não pode virar reserva de mercado e o ambiente tem de ser aberto aos quatro atores que atuam nela",
+     "plain": "Não podemos nos ater a uma reserva de mercado. Aqui fico um pouco contrário ao que a CNC diz: temos de abrir esse diapasão e construir esses ambientes para os quatro atores que estão aí."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "além das entidades e das empresas há os grupos de pressão, que não sabem como a Casa funciona, e há o Governo, um dos maiores lobistas",
+     "plain": "Há as entidades e as empresas que contratam consultorias. Há os grupos de pressão, de quem ninguém falou: não conhecem a estrutura da Casa e precisam de uma bússola. E há o Governo, um dos maiores lobistas da República."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "tratar o lobby como sinônimo de malfeito leva à criminalização do processo legislativo e do próprio parlamentar",
+     "plain": "Este é o país de Nelson Rodrigues, onde lobby é tido como malfeito. Isso leva à criminalização do processo legislativo e, junto, à criminalização do parlamentar. É uma verdade que precisa ser destruída."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da CGU e anuncia as falas finais dos deputados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende o texto do Executivo, rejeita criar profissão e credenciamento de lobista e apresenta o decreto de transparência de agendas.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O PL 4.391 atende aos princípios da OCDE e já está sendo posto em prática pelo Executivo Federal.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Executivo é contra criar a profissão de lobista e o credenciamento propostos no PL 1.535/22, e contra exigir curso",
+     "plain": "Alguns pontos são inegociáveis para o Executivo Federal. Somos contra criar uma profissão de lobista e contra o credenciamento, como aparece no PL 1.535/22. Também somos contra o cadastro do relatório e a exigência de curso."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto do Executivo cumpre os dez princípios de integridade e transparência da OCDE, o que vai facilitar a entrada do país",
+     "plain": "Todos sabem que precisamos entrar na OCDE. Hoje temos total convicção de que o PL 4.391 cumpre os dez princípios de integridade e transparência dessa organização. Isso vai facilitar a entrada do país."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o decreto de transparência de agendas teve cinco dos sete capítulos em vigor em 9 de fevereiro e os outros dois em 9 de outubro",
+     "plain": "O que está no projeto já vem sendo aplicado no Executivo pelo Decreto nº 10.889, de 2021, o decreto de transparência de agendas. Cinco dos sete capítulos valem desde 9 de fevereiro e os outros dois entram em 9 de outubro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia as falas dos dois deputados e registra mais de 200 interações do público na audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende tratar o tema às claras, dar transparência sem burocracia e aprovar logo o relatório, lembrando quem hoje consegue acesso.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    32
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A negociação de interesses precisa ser pública e aberta, sem burocracia que crie um novo balcão de negócios.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a negociação de interesses acontece e é bom que seja transparente, porque hoje o acesso é de quem grita muito e de quem tem dinheiro",
+     "plain": "A negociação de interesses acontece. É bom que seja feita de forma transparente, clara e pública, e que permita o acesso. Hoje quem chega é quem grita muito, quem está mobilizado e quem tem dinheiro."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dar transparência sem burocratizar e sem virar outro balcão de negócios é o começo para não dificultar",
+     "plain": "Dar essa transparência sem burocratizar, e sem transformar isso em outro balcão de negócios, com a conversa de que tem de ser esta profissão e de que tem de fazer esse curso, é o começo para não dificultar."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não dá para tapar o sol com a peneira, é preciso tratar do tema e aprovar logo o relatório, e avançar sem burocracia",
+     "plain": "Não dá para seguir tapando o sol com a peneira e passando a mão em hipocrisia. Precisamos tratar deste tema e aprovar logo esse relatório, e avançar sem burocracia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à deputada Adriana Ventura e passa a palavra ao deputado Lafayette de Andrada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que quem é afetado por uma decisão precisa ser ouvido e propõe juntar o PL 4.391 e o projeto anterior num texto só.",
+   "quote": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    32,
+    33,
+    34,
+    35
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A representação de interesses é necessária à democracia e precisa de uma lei que lhe dê transparência.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo e o Parlamento precisam escutar a sociedade, porque cada decisão tem repercussão fortíssima e o ramo atingido precisa ser ouvido",
+     "plain": "É preciso que o Governo e o Parlamento escutem a sociedade, porque cada decisão tomada aqui tem repercussão fortíssima. Quando ela atinge um ramo da economia ou um nicho, esse nicho precisa ser escutado. É disso que se trata o lobby."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "são pessoas atingidas pela decisão que vêm trazer sua visão e suas reclamações, e não há nada de não republicano nisso",
+     "plain": "São pessoas atingidas por aquela decisão que vêm trazer sua visão, seu ajuste, seu complemento e suas reclamações sobre a proposta em debate. Não há nada de não republicano nisso. Nada de incorreto."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "há dois projetos na Casa com focos diferentes e os dois precisam ser aglutinados, porque os dois têm coisas boas a aproveitar",
+     "plain": "Temos dois projetos na Casa: o PL 4.391/21, que tramita agora, e um anterior do deputado Carlos Zarattini, com foco diferente. Na minha visão os dois precisam ser juntados, porque ambos têm coisas boas a ajustar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Alerta que a influência das redes sociais é hoje problema maior e conta como uma versão sobre a PEC 13 se impôs na Casa.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Se o tema não for tratado com regras, a versão que se impõe é a das redes sociais.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "hoje existe um problema maior, a influência das redes sociais, e sem cuidar disso a versão que vem de cima para baixo é a delas",
+     "plain": "Precisamos mesmo fazer isso, porque hoje temos um problema muito maior: a influência das redes sociais. Se não cuidarmos disso, a coisa virá de cima para baixo, com as versões que saem das redes."
+    },
+    {
+     "id": "b035c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "vendeu-se à população a versão de que a PEC servia para políticos não serem acusados, e quem assinou o requerimento foi defenestrado",
+     "plain": "Vendeu-se à população a versão de que aquela PEC tinha sido apresentada para que políticos não pudessem ser acusados. Todo mundo engoliu isso. Virou um pandemônio na Casa, e quem assinou o requerimento favorável foi defenestrado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b036",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que a legenda da transmissão está mostrando o nome de outro parlamentar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Encerra dizendo que os projetos podem ser harmonizados e que a matéria não é de governo nem de oposição, mas do país.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os projetos em debate podem ser harmonizados num texto só, porque a matéria interessa ao país e não a um lado.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os projetos em debate podem ser harmonizados, e essa é a solução para avançar, porque não se trata de projeto de governo nem de oposição",
+     "plain": "Dá para harmonizar os projetos que estão em debate. Acho que essa é a saída para avançarmos. Não é projeto de Governo nem de Oposição. Este é um projeto do país."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso ter coragem de discutir com transparência e foi fundamental que o Governo, pela CGU, desse um caminho à discussão",
+     "plain": "Precisamos ter coragem de discutir com transparência. Quero parabenizar a CGU, porque foi fundamental que o Governo desse um caminho a esta discussão."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 8,
+   "from_claim": "b004c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A CNA se soma à linha da indústria: discutir com o poder público serve para dar transparência, e é isso que a confederação da indústria defende desde 1990."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 11,
+   "from_claim": "b005c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O relator repete o alerta do representante do agro contra o excesso de exigências e diz que uma lei engessada não funciona."
+  },
+  {
+   "from": "b005",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 27,
+   "from_claim": "b005c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A indústria pede que se estude melhor como o projeto trata o Legislativo e o relator responde que a matéria tramita desde 1980 e já foi debatida demais."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 13,
+   "from_claim": "b006c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "As duas apontam o mesmo risco: burocracia demais não produz transparência e acaba fechando a porta do poder público."
+  },
+  {
+   "from": "b009",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 7,
+   "from_claim": "b009c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Às emendas apresentadas pela rede, o relator responde que já as recebeu e analisou e que a maior parte precisa só de ajuste de redação."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 16,
+   "to_sentence": 11,
+   "from_claim": "b010c2",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "À cobrança de acesso igual para todos os grupos, o Ministério da Economia responde que o objetivo do projeto é justamente alcançar empresas pequenas e grupos menos organizados."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 20,
+   "from_claim": "b011c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A presidência endossa o ponto do Ministério da Economia e diz que concorda com a necessidade de regulamentar a atividade."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 12,
+   "from_claim": "b012c2",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O Diap retoma a crítica da rede e conclui que o texto do Executivo não cumpre as recomendações da OCDE."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 21,
+   "from_claim": "b012c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Enquanto o Ministério da Economia diz que aprovar o projeto alinha o país à OCDE, o Diap sustenta que ele escolheu um sistema fracamente regulado e não atende às recomendações."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 13,
+   "from_claim": "b013c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "À crítica de que o texto do Executivo é fraco, o relator responde que pretende aproveitar muita coisa do PL 1.535."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 13,
+   "from_claim": "b014c3",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "O transporte apoia a regra nos mesmos termos da indústria: transparência e ética, desde que a atividade não seja burocratizada."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 16,
+   "from_claim": "b022c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O Ministério da Economia quer acesso para grupos menos organizados, e a CNC sustenta que a representação deve se dar de preferência por entidades que reúnem interesses coletivos."
+  },
+  {
+   "from": "b022",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 29,
+   "from_claim": "b022c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A Abrig pede credenciamento de quem faz lobby nas Casas legislativas, e a CNC alerta que isso caminha para regulamentar uma profissão e criar reserva de mercado."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 30,
+   "to_sentence": 15,
+   "from_claim": "b024c2",
+   "to_claim": "b022c2",
+   "strength": "forte",
+   "note": "O Irelgov discorda em voz alta do colega da CNC: o acesso à Câmara e ao Senado deve ser o mais democrático possível, inclusive para os profissionais da área."
+  },
+  {
+   "from": "b024",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 9,
+   "from_claim": "b024c3",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "O Irelgov retoma a leitura da representante da rede de que o projeto é simples e principiológico, e conclui que é um bom começo."
+  },
+  {
+   "from": "b026",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 19,
+   "from_claim": "b026c2",
+   "to_claim": "b018c3",
+   "strength": "media",
+   "note": "Os dois representantes da rede apoiam a mesma exigência de transparência apoiada nas recomendações da União Europeia."
+  },
+  {
+   "from": "b028",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 15,
+   "from_claim": "b028c1",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "O Observatório do setor de serviços diz ficar contrário à CNC e defende abrir o ambiente para os quatro atores, e não só para as entidades representativas."
+  },
+  {
+   "from": "b028",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 25,
+   "from_claim": "b028c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "O Diap aponta que o projeto deixa o lobby do próprio governo de fora, e o Observatório lembra que o Governo é um dos maiores lobistas da República."
+  },
+  {
+   "from": "b030",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 14,
+   "from_claim": "b030c2",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "O Diap diz que o texto não atende às recomendações da OCDE e a CGU afirma ter total convicção de que ele atende aos dez princípios da organização."
+  },
+  {
+   "from": "b030",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 21,
+   "from_claim": "b030c2",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "Os dois órgãos do Executivo que escreveram o projeto sustentam juntos que ele segue as diretrizes da OCDE e ajuda o país a entrar na organização."
+  },
+  {
+   "from": "b030",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 14,
+   "to_sentence": 29,
+   "from_claim": "b030c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A Abrig pede credenciamento nas Casas legislativas e a CGU diz que ser contra o credenciamento do lobista é cláusula pétrea para o Executivo."
+  },
+  {
+   "from": "b032",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 14,
+   "from_claim": "b032c2",
+   "to_claim": "b030c1",
+   "strength": "media",
+   "note": "A deputada endossa a recusa da CGU a criar profissão e curso de lobista, e chama isso de novo balcão de negócios."
+  },
+  {
+   "from": "b032",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 31,
+   "from_claim": "b032c1",
+   "to_claim": "b028c3",
+   "strength": "media",
+   "note": "A deputada diz ter gostado da frase do Observatório sobre ambientes e sustenta que a negociação de interesses existe e precisa ser feita à luz do dia."
+  },
+  {
+   "from": "b034",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 12,
+   "from_claim": "b034c1",
+   "to_claim": "b032c1",
+   "strength": "media",
+   "note": "Os dois parlamentares defendem o mesmo ponto: quem é atingido por uma decisão precisa ser ouvido, e isso tem de acontecer de forma aberta."
+  },
+  {
+   "from": "b034",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 5,
+   "from_claim": "b034c3",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "O Diap lembra que o projeto do deputado Carlos Zarattini já foi aprovado em duas comissões e o deputado propõe juntar os dois textos num só."
+  },
+  {
+   "from": "b037",
+   "to": "b034",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 28,
+   "from_claim": "b037c1",
+   "to_claim": "b034c3",
+   "strength": "forte",
+   "note": "Ao pedido de juntar os dois projetos, o relator responde que há como harmonizá-los e que essa é a solução para avançar."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b011",
+    "b018",
+    "b034"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c3",
+    "b011c1",
+    "b018c1",
+    "b034c1",
+    "b034c2"
+   ],
+   "note": "A confederação do agro, a presidência da comissão, a rede de organizações da sociedade civil e um deputado concordam que o país precisa de uma lei que reconheça e organize a representação de interesses."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b005",
+    "b024",
+    "b032"
+   ],
+   "claims": [
+    "b002c2",
+    "b005c3",
+    "b024c1",
+    "b032c2"
+   ],
+   "note": "Indústria, instituto de relações governamentais, presidência e a deputada do Novo concordam que a regra tem de ser leve e que burocracia demais fecha o acesso em vez de abrir."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b010",
+    "b022",
+    "b028",
+    "b030"
+   ],
+   "claims": [
+    "b010c2",
+    "b022c3",
+    "b028c1",
+    "b030c1"
+   ],
+   "note": "Ministério da Economia, CGU, a confederação do comércio e o observatório do setor de serviços concordam em não criar uma profissão de lobista nem reserva de mercado."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b018",
+    "b026",
+    "b030"
+   ],
+   "claims": [
+    "b018c3",
+    "b026c1",
+    "b026c2",
+    "b030c3"
+   ],
+   "note": "As organizações da rede e a CGU concordam que os encontros entre agentes públicos e representantes de interesses têm de ser registrados e publicados."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 30,
+   "addressed_to": "parlamentar",
+   "answered_by": "b013",
+   "gist": "que o relator aproveite o PL 1.535 e corrija as falhas do texto do Executivo",
+   "plain": "O relator vai aproveitar o outro projeto para corrigir o que falta no texto do governo?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b008",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": "b010",
+   "gist": "por que o projeto não garante acesso igual a todos os grupos de interesse",
+   "plain": "Por que o projeto não garante que todos os grupos tenham o mesmo acesso a quem decide?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b006",
+   "sentence": 27,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que o texto retome a previsão do direito de petição",
+   "plain": "O texto vai trazer de volta o direito de petição, que é a base dessa atividade?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b026",
+   "sentence": 13,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que os documentos trocados nas audiências também sejam divulgados",
+   "plain": "Os documentos trocados durante e depois das reuniões também vão ser publicados?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b022",
+   "sentence": 27,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o poder público assuma os encargos burocráticos da nova regra",
+   "plain": "Quem vai arcar com o trabalho burocrático da nova regra, o poder público ou quem procura o poder público?",
+   "theme": "d2",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "a indústria publica a agenda legislativa há quase 27 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b005",
+   "sentence": 3,
+   "gist": "a matéria tramita no Legislativo brasileiro desde 1980",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b012",
+   "sentence": 4,
+   "gist": "desde 1984 houve pelo menos dez proposições sobre o tema",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b010",
+   "sentence": 7,
+   "gist": "o Brasil tem a menor nota entre 49 países no índice PMR",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 15,
+   "gist": "em 2020, 14 de 22 países tinham registro obrigatório de lobistas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b014",
+   "sentence": 4,
+   "gist": "a CNT representa 165 mil empresas e 2,3 milhões de trabalhadores",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 9,
+   "gist": "o SEST SENAT atendeu 10,6 milhões de trabalhadores em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b022",
+   "sentence": 2,
+   "gist": "a CNC representa mais de 5 milhões de empresas e 85% dos empregos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b022",
+   "sentence": 29,
+   "gist": "empresários gastam mais de 1.500 horas por ano com obrigações acessórias",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b024",
+   "sentence": 5,
+   "gist": "o Irelgov tem mais de 330 associados, pessoas físicas e jurídicas",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b030",
+   "sentence": 21,
+   "gist": "o PL 4.391 atende aos dez princípios da OCDE",
+   "disputed_by": [
+    {
+     "fala": "b012",
+     "sentence": 18
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b030",
+   "sentence": 24,
+   "gist": "cinco dos sete capítulos do decreto valem desde 9 de fevereiro",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "governo",
+   "sociedade_civil",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o anúncio do substitutivo pelo relator e o contraste entre o apoio do governo ao seu próprio texto e as críticas dos demais convidados.",
+  "omitted": "Ficaram de fora a recusa do Executivo ao credenciamento e à profissão de lobista e a divergência sobre quem deve ter acesso ao Congresso, entidades representativas ou também profissionais e grupos menores."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Transparência sim, burocracia e cadastro não",
+   "statement_plain": "A lei do lobby deve dar transparência com regras leves, sem criar burocracia, cadastro obrigatório nem uma profissão de lobista.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b024c1",
+    "b032c2",
+    "b002c2",
+    "b022c3",
+    "b030c1",
+    "b028c1"
+   ],
+   "note": "A ideia junta a indústria, o comércio, o instituto dos profissionais de relações com o governo, o observatório do setor de serviços, a CGU e uma deputada, e separa a CGU do Diap, que é da mesma roda de discussão."
+  },
+  {
+   "id": "t2",
+   "title": "O texto do Executivo ficou fraco demais",
+   "statement_plain": "O projeto do governo escolheu a regra mais frouxa possível. Falta registro de quem faz lobby, prazo de revisão e publicação do que se troca nas reuniões.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d4": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b012c2",
+    "b012c3",
+    "b008c1",
+    "b006c3",
+    "b026c1",
+    "b018c3"
+   ],
+   "note": "A ideia cruza setores: um consultor ligado aos sindicatos, duas organizações da sociedade civil e a associação dos profissionais de relações institucionais pedem mais exigências do que o próprio governo quer."
+  },
+  {
+   "id": "t3",
+   "title": "O PL 4.391 já atende à OCDE e deve avançar",
+   "statement_plain": "O texto enviado pelo governo é o melhor já discutido, segue os princípios da OCDE e já está sendo posto em prática pelo decreto das agendas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b030c2",
+    "b030c3",
+    "b010c3",
+    "b006c2",
+    "b005c1",
+    "b037c1"
+   ],
+   "note": "É a ideia que opõe dois órgãos do governo federal a um consultor do Senado, e que junta a CGU, o Ministério da Economia, a associação dos profissionais e a presidência da comissão."
+  },
+  {
+   "id": "t4",
+   "title": "Quem é atingido pela decisão precisa ser ouvido",
+   "statement_plain": "Ouvir quem é afetado por uma decisão faz parte da democracia. Tratar isso como coisa errada só empurra a conversa para trás da porta.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b034c1",
+    "b034c2",
+    "b004c1",
+    "b018c1",
+    "b011c1",
+    "b028c3"
+   ],
+   "note": "A ideia junta um deputado, a confederação do agro, uma rede de organizações da sociedade civil, o observatório do setor de serviços e a presidência, que são de lados opostos em quase tudo o mais."
+  },
+  {
+   "id": "t5",
+   "title": "Já existem leis de sobra, o risco é burocratizar",
+   "statement_plain": "A Constituição, a Lei Anticorrupção e os códigos de conduta já preservam a ética. Uma lei nova só vale se não burocratizar a atividade.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b014c2",
+    "b014c3",
+    "b006c1",
+    "b004c2",
+    "b005c3"
+   ],
+   "note": "É a ideia que divide o próprio setor privado: o transporte diz que as leis atuais bastam, enquanto o agro e a associação dos profissionais defendem a lei nova e só pedem que ela seja leve."
+  },
+  {
+   "id": "t6",
+   "title": "O acesso ao Congresso tem de ser aberto a todos",
+   "statement_plain": "Todo mundo deve poder chegar a quem decide, inclusive grupos pequenos e profissionais da área, e não só quem já sabe o caminho ou tem dinheiro.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b024c2",
+    "b032c1",
+    "b026c3",
+    "b008c2",
+    "b010c2"
+   ],
+   "note": "A ideia põe o Ministério da Economia, o instituto dos profissionais, o Instituto Ethos e uma deputada contra a confederação do comércio, que é do mesmo campo empresarial do instituto."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "lobby",
+   "fala": "b001",
+   "sentence": 4,
+   "plain": "trabalho de procurar deputados, senadores e órgãos do governo para defender um interesse e influenciar uma decisão"
+  },
+  {
+   "term": "PL 4.391",
+   "fala": "b008",
+   "sentence": 3,
+   "plain": "Projeto de Lei 4.391, de 2021, enviado pelo Executivo, que cria regras para quem representa interesses privados junto ao poder público"
+  },
+  {
+   "term": "OCDE",
+   "fala": "b008",
+   "sentence": 6,
+   "plain": "Organização para Cooperação e Desenvolvimento Econômico, grupo de países ricos que o Brasil quer integrar e que exige regras para o lobby"
+  },
+  {
+   "term": "advocacy",
+   "fala": "b008",
+   "sentence": 3,
+   "plain": "palavra em inglês para a defesa organizada de uma causa junto a quem decide, muito usada por organizações da sociedade civil"
+  },
+  {
+   "term": "DIAP",
+   "fala": "b007",
+   "sentence": 11,
+   "plain": "Departamento Intersindical de Assessoria Parlamentar, entidade que acompanha o Congresso em nome de sindicatos"
+  },
+  {
+   "term": "CGU",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "Controladoria-Geral da União, órgão do governo federal que cuida de transparência e de prevenção à corrupção"
+  },
+  {
+   "term": "benchmarking",
+   "fala": "b010",
+   "sentence": 13,
+   "plain": "comparação com o que outros já fazem, para usar as melhores experiências como parâmetro"
+  },
+  {
+   "term": "quarentena",
+   "fala": "b012",
+   "sentence": 29,
+   "plain": "tempo em que quem sai de um cargo público fica proibido de trabalhar defendendo interesses privados na mesma área"
+  },
+  {
+   "term": "vacatio legis",
+   "fala": "b012",
+   "sentence": 29,
+   "plain": "prazo entre a publicação de uma lei e o dia em que ela começa a valer"
+  },
+  {
+   "term": "substitutivo",
+   "fala": "b012",
+   "sentence": 30,
+   "plain": "texto novo que o relator escreve para substituir o projeto original, em geral juntando pedaços de outras propostas"
+  },
+  {
+   "term": "LGPD",
+   "fala": "b014",
+   "sentence": 26,
+   "plain": "Lei Geral de Proteção de Dados, que regula o uso de dados pessoais por empresas e pelo poder público"
+  },
+  {
+   "term": "LAI",
+   "fala": "b018",
+   "sentence": 27,
+   "plain": "Lei de Acesso à Informação, que diz o que o poder público tem de mostrar e o que pode ficar em sigilo"
+  },
+  {
+   "term": "portas giratórias",
+   "fala": "b028",
+   "sentence": 28,
+   "plain": "ir do cargo público direto para o setor privado, ou o contrário, aproveitando contatos e informações do cargo anterior"
+  },
+  {
+   "term": "cláusulas pétreas",
+   "fala": "b030",
+   "sentence": 13,
+   "plain": "pontos que quem propôs o texto considera inegociáveis, que não aceita mudar em nenhuma hipótese"
+  },
+  {
+   "term": "e-Agendas",
+   "fala": "b030",
+   "sentence": 26,
+   "plain": "sistema do governo federal em que as agendas de reuniões dos agentes públicos ficam abertas ao público"
+  }
+ ]
+}

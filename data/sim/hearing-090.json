@@ -1,0 +1,3348 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 90,
+ "model": "LLM lendo o prompt hearing-090 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:09:14Z",
+ "prompt_sha256": "b88a6edc6c31d0d1c2d61c316faacdace639027fd001cbcf6da9ebed58034c94",
+ "sentences_hash": "3d5679f0ffa8f019",
+ "review": {
+  "pairs_read": 63,
+  "pairs_fixed": 13
+ },
+ "warnings": [],
+ "synopsis": "A Comissão do Esporte ouviu a procuradoria do trabalho, os conselhos de psicologia e de educação física, um sindicato de atletas, um clube de ginástica e uma comissão de mulheres do jiu-jítsu sobre assédio e abuso sexual de crianças e adolescentes no esporte. Os convidados relataram que os casos são muitos e as denúncias poucas, e apresentaram medidas de prevenção, canais de denúncia e responsabilização das entidades. Também se pediu estrutura para os clubes de base.",
+ "stakes": "Que medidas a Comissão do Esporte vai cobrar de clubes, federações e do poder público para proteger jovens atletas do assédio e do abuso sexual.",
+ "central_question": "Como proteger crianças e adolescentes do assédio e do abuso sexual dentro do esporte?",
+ "synopsis_plain": "Deputados da Comissão do Esporte ouviram a procuradoria do trabalho, os conselhos de psicologia e de educação física, um sindicato de atletas, um clube de ginástica e uma comissão de mulheres do jiu-jítsu. Os convidados disseram que o abuso sexual de jovens atletas é comum e que quase ninguém denuncia, por medo de perder a chance de uma carreira.",
+ "stakes_plain": "O que a Comissão do Esporte vai cobrar de clubes, federações e do poder público para proteger jovens atletas do assédio sexual.",
+ "central_question_plain": "Como proteger crianças e adolescentes do assédio e do abuso sexual dentro do esporte?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Lei do silêncio e denúncias",
+   "description": "Discute-se por que quem sofre assédio no esporte não denuncia e o que fazer para que as denúncias cheguem.",
+   "axis": {
+    "pro": "O medo de perder a carreira cala as vítimas, e por isso é preciso criar canais que acolham e protejam quem denuncia.",
+    "contra": "As denúncias já têm caminho, e o silêncio das vítimas não é o principal obstáculo no esporte.",
+    "pro_plain": "As vítimas ficam caladas com medo de perder a carreira, e faltam canais que acolham e protejam quem denuncia.",
+    "contra_plain": "Já existem caminhos para denunciar, e o silêncio das vítimas não é o maior obstáculo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Conscientização e educação sexual",
+   "description": "Discute-se se informar e educar crianças, adolescentes, pais e profissionais é o caminho para prevenir o assédio.",
+   "axis": {
+    "pro": "Informar e educar sobre o que é o assédio é a principal ferramenta de prevenção no esporte.",
+    "contra": "As campanhas de informação são pequenas demais para o tamanho do esporte e não dão conta do problema.",
+    "pro_plain": "Explicar às crianças e aos pais o que é assédio é o melhor jeito de evitar que o abuso aconteça.",
+    "contra_plain": "As campanhas são pequenas demais para o tamanho do esporte no Brasil e não resolvem sozinhas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Profissionais e formação no esporte",
+   "description": "Discute-se se clubes e federações precisam de profissionais com formação adequada, como psicólogos e professores de educação física registrados.",
+   "axis": {
+    "pro": "O esporte precisa de profissionais com formação e código de ética para cuidar de crianças e adolescentes.",
+    "contra": "A boa vontade de quem já está no esporte basta, sem exigir formação especializada.",
+    "pro_plain": "Quem cuida de crianças no esporte precisa de formação e de regras de conduta da sua profissão.",
+    "contra_plain": "Basta a boa vontade de quem já trabalha no esporte, sem exigir formação especializada."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Responsabilização das entidades esportivas",
+   "description": "Discute-se se clubes, federações e confederações devem ter protocolos próprios e responder quando encobrem o abuso.",
+   "axis": {
+    "pro": "Clubes, federações e confederações têm de adotar protocolos e ser responsabilizados pelo que acontece neles.",
+    "contra": "A responsabilidade é do agressor, e as entidades já fazem o que lhes cabe.",
+    "pro_plain": "Clubes e federações precisam de regras próprias e devem responder quando escondem os casos.",
+    "contra_plain": "A culpa é de quem comete o abuso, e as entidades já fazem a parte delas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Olheiros e captação de jovens",
+   "description": "Discute-se o papel dos olheiros que escolhem meninos em cidades pequenas e se essa atividade deve ser profissionalizada.",
+   "axis": {
+    "pro": "Os olheiros devem ser profissionalizados, porque a captação de meninos é uma das portas do abuso.",
+    "contra": "O problema não está na captação, e em alguns esportes não existe a figura do olheiro.",
+    "pro_plain": "Quem escolhe meninos para os clubes precisa ser profissionalizado, porque é aí que o abuso começa.",
+    "contra_plain": "O problema não está em quem capta atletas, e em certos esportes não existe olheiro."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Clubes de base e atletas invisíveis",
+   "description": "Discute-se o que fazer com os clubes pequenos e com os atletas que treinam todo dia e não aparecem na mídia.",
+   "axis": {
+    "pro": "O cuidado tem de chegar aos clubes de base, e para isso eles precisam de estrutura e apoio público.",
+    "contra": "É nos clubes pequenos e nas escolinhas que o risco é maior, e ali falta olhar de perto e cobrança.",
+    "pro_plain": "Os clubes pequenos precisam de estrutura e apoio, senão a criança da periferia fica sem esporte.",
+    "contra_plain": "O risco maior está nos clubes pequenos e nas escolinhas, onde quase ninguém olha."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Resposta da Justiça aos casos",
+   "description": "Discute-se o tempo que a Justiça leva para concluir os casos de assédio e o que essa demora faz com quem denunciou.",
+   "axis": {
+    "pro": "A demora da Justiça e a falta de punição mantêm o agressor no esporte e afastam quem denunciou.",
+    "contra": "Os casos já recebem resposta em prazo razoável, e o afastamento da vítima tem outras causas.",
+    "pro_plain": "Enquanto o caso não é julgado, o agressor segue treinando e quem denunciou é que sai do esporte.",
+    "contra_plain": "Os casos já são resolvidos em tempo razoável, e quem sai do esporte sai por outros motivos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "Desigualdade de gênero no esporte",
+   "description": "Discute-se como a falta de mulheres nos espaços de decisão e a culpabilização das vítimas alimentam a violência no esporte.",
+   "axis": {
+    "pro": "A desigualdade de gênero alimenta a violência e tira meninas e mulheres do esporte.",
+    "contra": "A violência no esporte não tem relação com a desigualdade entre homens e mulheres.",
+    "pro_plain": "Enquanto as mulheres ficarem fora das decisões do esporte, a violência contra elas continua.",
+    "contra_plain": "A violência no esporte não tem a ver com a diferença de espaço entre homens e mulheres."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência e autor do requerimento",
+   "org": "Comissão do Esporte da Câmara dos Deputados",
+   "basis": "registro Presidente e apresentação do requerimento em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha os assuntos do esporte"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Procuradora do Trabalho, coordenadora do grupo de trabalho de atletas adolescentes",
+   "org": "MPT",
+   "basis": "apresentada pelo presidente em b001.4 e por ela mesma em b004.4",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério Público do Trabalho",
+   "org_plain": "órgão que fiscaliza o cumprimento das leis do trabalho e pode cobrar na Justiça quem viola direitos"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "2ª Secretária do Conselho Federal de Educação Física",
+   "org": "CONFEF",
+   "basis": "apresentada pelo presidente em b001.5 e por ela mesma em b008.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Conselho Federal de Educação Física",
+   "org_plain": "conselho que registra e fiscaliza os profissionais de educação física em todo o país"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Representante do Conselho Federal de Psicologia",
+   "org": "CFP",
+   "basis": "apresentado pelo presidente em b001.3 e convidado à Mesa em b001.12",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Federal de Psicologia",
+   "org_plain": "conselho que orienta e fiscaliza o trabalho dos psicólogos no Brasil"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Ex-goleiro, palestrante do Sindicato dos Atletas de São Paulo",
+   "org": "Sindicato dos Atletas de São Paulo",
+   "basis": "apresentado em b001.7 e por ele mesmo em b016.3 e b016.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "ex-goleiro, do Sindicato dos Atletas de São Paulo",
+   "org_plain": "sindicato que representa os jogadores profissionais no Estado de São Paulo"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente de clube de ginástica artística em Curitiba",
+   "org": "Grupo Ginástica Artística Paranaense",
+   "basis": "apresentada em b001.6 e por ela mesma em b032.0",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do grupo de ginástica artística do Paraná",
+   "org_plain": "clube que forma ginastas em Curitiba, no Paraná"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente e fundadora da Comissão de Direitos das Mulheres no Jiu-Jitsu",
+   "org": "Comissão de Direitos das Mulheres no Jiu-Jitsu",
+   "basis": "correção feita por ela mesma em b038.3 e b038.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Comissão de Direitos das Mulheres no Jiu-Jitsu",
+   "org_plain": "organização sem fins lucrativos que recebe denúncias e defende os direitos das mulheres no jiu-jítsu"
+  }
+ },
+ "audience": {
+  "estimate": 25,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "cumprimentos da mesa ao Comando da Aeronáutica, à Secretaria Nacional de Esporte, a assessores de deputados e uma salva de palmas no início",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a proteção de jovens contra o assédio no esporte e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A procuradora do trabalho cumprimenta a todos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá 10 minutos à procuradora do trabalho para a sua exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Aponta que o assédio sexual no esporte é mais comum do que se imagina e que o medo de perder a carreira cala as vítimas.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O medo de perder a carreira cala as vítimas, e o esporte precisa de medidas que acolham quem denuncia.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "apesar do alto índice de ocorrência do abuso, o índice de denúncias é muito baixo e há uma lei do silêncio",
+     "plain": "Apesar do alto índice desse abuso, o índice de denúncias ainda é muito baixo. Há uma verdadeira lei do silêncio, não só por ser tabu, mas pelo medo de a vítima perder a grande chance de uma carreira de sucesso."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a conscientização e a educação sexual fazem crianças e adolescentes identificarem as situações de abuso e violência",
+     "plain": "É preciso conscientizar sobre o que é assédio sexual e dar educação sexual a crianças e adolescentes, para que identifiquem o abuso. Por falta de informação, elas não entendem o que acontece e sentem culpa, vergonha e medo de denunciar."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as organizações esportivas devem ter protocolos próprios e ser responsabilizadas, com canais de denúncia e equipes de apoio",
+     "plain": "É preciso adotar políticas de prevenção e de punição, com canais em que a vítima se sinta ouvida e com equipes de psicólogos e assistentes sociais nos clubes. As entidades do esporte têm de ter protocolo próprio e ser responsabilizadas."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lembra que o combate ao abuso sexual de crianças não pode acontecer só no mês de maio, e sim o ano todo.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As campanhas contra o abuso sexual de crianças precisam acontecer todos os dias do ano.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o combate ao abuso e à exploração sexual não pode acontecer só no Maio Laranja, mas o ano todo",
+     "plain": "Estamos no Maio Laranja, mês dedicado ao combate do abuso e da exploração sexual de crianças e adolescentes. Mas esse combate não pode ficar só neste mês, tem de ser o ano todo, todos os dias."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do conselho de educação física pergunta se a sua apresentação aparece na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a apresentação está visível.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que informar crianças, pais e profissionais é a base, e lembra que a educação física é profissão regulamentada, com código de ética.",
+   "quote": [
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    27,
+    28
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A informação é a base da proteção das crianças no esporte, e o código de ética obriga quem trabalha com elas.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a educação física é profissão regulamentada porque o profissional tem relação direta com o corpo da pessoa",
+     "plain": "A educação física é uma profissão regulamentada. Isso acontece porque toda profissão regulamentada tem ligação estreita com a pessoa e com o corpo dela."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso informar crianças, adolescentes e pais e divulgar no meio profissional o código de conduta, porque a informação é a base",
+     "plain": "Temos de informar as crianças, os adolescentes, os pais e as mães, e também divulgar no meio profissional que esses profissionais estão submetidos ao código de conduta. A informação é a base de tudo."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      48
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o número de casos é enorme e o de denúncias é baixíssimo, porque as pessoas não encontram os canais",
+     "plain": "Como a procuradora disse, os casos são enormes em número e as denúncias são pouquíssimas. As pessoas não têm coragem, não sabem como fazer e não acham os canais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta o Comando da Aeronáutica e chama o representante do conselho de psicologia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Alerta que a maioria dos atletas treina todo dia e não chega às competições importantes, ficando invisibilizada e mais difícil de acolher.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O cuidado tem mais dificuldade de chegar aos atletas que não aparecem na mídia nem nos pódios.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os atletas que não aparecem na mídia nem nos pódios ficam invisibilizados e o cuidado com eles é mais difícil",
+     "plain": "Esses atletas nos preocupam muito, porque muitas vezes estão invisibilizados. O acesso e o cuidado a eles ficam mais difíceis, e às vezes eles não têm voz por não aparecerem nas grandes mídias nem nos pódios."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é muito difícil falar em público sobre o assunto porque o emprego fica em risco, e por isso o canal precisa proteger quem denuncia",
+     "plain": "É muito difícil as pessoas falarem em público sobre isso, porque o emprego acaba ficando em risco. Nós tentamos incentivar a denúncia de forma simples e direta, com canais transparentes que protejam quem denuncia."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nem 1% dos atletas da base chega ao topo, e por isso é preciso mais profissionais especializados também na base",
+     "plain": "Se fizermos a conta, talvez nem 1% dos atletas da base chegue a esse ponto, e ainda assim se promete o pódio. Isso mostra que precisamos de profissionais especializados não só no esporte profissional, mas também na base."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante do conselho de psicologia e chama o ex-goleiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ex-goleiro cumprimenta a todos e pergunta se está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se algum esportista já revelou ter sofrido ou estar sofrendo assédio ou abuso sexual no esporte.",
+   "quote": [
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer saber se algum esportista já revelou ter sofrido esses crimes.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber se algum esportista já revelou ter sofrido ou estar sofrendo assédio ou abuso sexual",
+     "plain": "Sabendo que você tem um compromisso, eu gostaria que na sua fala você respondesse: sobre conscientização e combate ao assédio no esporte, algum esportista já revelou ter sofrido ou estar sofrendo esses crimes?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ex-goleiro pergunta se a pergunta é para ele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a pergunta é para o ex-goleiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que houve muitos casos revelados e conta que foi goleiro profissional por 20 anos e hoje fala sobre o tema no sindicato.",
+   "quote": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    4
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Muitos esportistas já revelaram ter sofrido assédio ou abuso no esporte.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "houve muitos esportistas que revelaram ter sofrido esses crimes",
+     "plain": "Houve muitos. Na minha fala eu vou responder a essa pergunta."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "foi goleiro profissional por 20 anos, encerrou em 2015 e escreveu um capítulo sobre o abuso no futebol",
+     "plain": "Fui goleiro profissional durante 20 anos e encerrei a carreira em 2015. Desde então falo sobre esse tema, e no meu livro sobre os bastidores do futebol dediquei um capítulo ao assédio e ao abuso."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta ao ex-goleiro se ele trabalha com um conhecido do sindicato.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ex-goleiro confirma e diz que ele acabou de passar por ali.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que mande um abraço a ele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que não existe atleta ou ex-atleta que não tenha vivido de perto o abuso sexual no futebol e que as campanhas ainda são pequenas.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O abuso sexual atinge de alguma forma todos os atletas, e o trabalho de prevenção ainda é pequeno.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não existe atleta ou ex-atleta que não tenha vivido de perto ou passado pelo abuso sexual no futebol",
+     "plain": "Não existe atleta ou ex-atleta que não tenha vivido de perto ou passado pelo abuso sexual no futebol. É uma fala pesada, mas é a realidade: em algum momento o atleta se depara com uma proposta ou uma tentativa de assédio."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "já falaram com mais de 2 mil atletas, mas isso é muito pouco perto do tamanho do futebol no Brasil",
+     "plain": "Nós falamos com mais de 2 mil atletas, jovens, treinadores e pais. Mas isso é pouco perto do tamanho do futebol no Brasil, e as campanhas ficam pequenas diante desse gigante."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      31
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "se o abuso acontece dentro de um clube estruturado, nas escolinhas de futebol há ainda mais gente aproveitando o sonho dos meninos",
+     "plain": "Se isso acontece dentro de um clube estruturado, imagine nas escolinhas de futebol quantas pessoas estão ali para assediar e para abusar, aproveitando-se desse sonho."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta se os falsos técnicos e olheiros prejudicam o futebol e se profissionalizar os olheiros vai reduzir os casos de abuso.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Profissionalizar os olheiros pode reduzir os casos de assédio e abuso sexual no esporte.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a profissionalização dos olheiros pode diminuir os casos de abuso e assédio sexual no esporte",
+     "plain": "Você acredita que os falsos técnicos e olheiros prejudicam o futebol brasileiro? E que profissionalizá-los vai reduzir os casos de abuso e de assédio sexual?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que não tem dúvida de que a resposta é sim, e tem a fala interrompida por problema de microfone.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A profissionalização dos olheiros reduziria os casos de abuso no esporte.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não tem dúvida de que a resposta à pergunta do deputado é sim",
+     "plain": "Eu não tenho dúvida de que a resposta é sim."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o ex-goleiro aproxime o microfone.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b024",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ex-goleiro ajusta o microfone e pergunta se melhorou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o som está bom agora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende profissionalizar os olheiros, porque pais entregam os filhos sem saber o histórico deles, e diz que o trabalho do sindicato ainda é pequeno.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os olheiros devem ser profissionalizados, porque a captação de meninos é uma das portas do abuso.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os olheiros devem ser profissionalizados, porque uma das situações de abuso e assédio se dá através deles",
+     "plain": "Eu não tenho dúvida de que sim, os olheiros devem ser profissionalizados, porque uma das abordagens de abuso e de assédio acontece justamente através deles."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os pais entregam os meninos ao olheiro que escolhe dois ou três, sem saber o histórico dele",
+     "plain": "Centenas de pais levam os filhos, e o olheiro escolhe dois ou três. Eles entregam os meninos na mão dele por um sonho, sem saber o histórico dessa pessoa. No trajeto da cidade até o clube pode acontecer o abuso sexual."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o trabalho do sindicato é de formiguinha e precisa de muito mais apoio de atletas, federações e diretores",
+     "plain": "Como eu falei, esse é um trabalho de formiguinha, que precisa de muito mais apoio de atletas, federações e diretores. Ele ainda é pouco, um grão de areia na praia, mas seguimos porque acreditamos no resultado."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao ex-goleiro e diz que a Comissão está na mesma luta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b028",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Diz que ações como a audiência são divisoras de águas, mas que ainda falta apoio ao trabalho de prevenção.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "As audiências ajudam a mudar o quadro, mas o trabalho de prevenção ainda carece de apoio.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "ações como esta audiência são divisoras de águas, mas ainda falta apoio para o trabalho de prevenção",
+     "plain": "Ações como esta, que não são de hoje, são importantíssimas, verdadeiras divisoras de águas. Mas o apoio ainda falta, e vai chegar justamente por meio dessas ações."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência se despede do ex-goleiro e chama a presidente do clube de ginástica artística.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente do clube de ginástica abre o microfone e pergunta se está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a convidada está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede que não se demonizem os clubes de base nem os profissionais e conta que o clube trata do assunto em reuniões semanais.",
+   "quote": [
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os clubes de base e os profissionais que trabalham neles precisam de cuidado, e não de demonização.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o clube faz reuniões diárias, semanais e mensais para que o tema seja incorporado por crianças, pais e equipe",
+     "plain": "No clube, fazemos reuniões diárias, semanais e mensais para que esse assunto entre na cabeça dos nossos membros, das crianças, dos pais e de toda a equipe. Isso é vivido no dia a dia."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se deve demonizar os clubes de base nem os profissionais, porque o assédio também atinge quem veio da base",
+     "plain": "É muito importante que não demonizemos os clubes de base, e também é preciso cuidado para não demonizar os profissionais. Quando se fala de assédio, ele pode acontecer também com o atleta que veio da base."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso cuidar também do profissional, porque o atleta que passou pela faculdade pode virar um profissional sério",
+     "plain": "Também temos de cuidar do profissional, porque precisamos de profissionais sérios. É difícil transformar um professor de educação física em professor de ginástica artística, mas é fácil formar quem foi atleta e passou pela faculdade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que ouve e vê a convidada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b034",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede ao deputado e aos governos que dêem estrutura aos clubes de base, para que o esporte chegue às crianças da periferia.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os clubes de base precisam de estrutura e de apoio dos governos para levar o esporte à periferia.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os clubes de base precisam de condição e de estrutura dos governos para chegar às crianças da periferia",
+     "plain": "Se pensarmos nos clubes de base e lhes dermos condição, eles chegam às crianças que precisam, na periferia, com profissionais capacitados. Peço que os deputados e os governos federal, estaduais e municipais deem essa estrutura."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é fácil chegar a um clube e exigir estrutura, mas para quem está começando isso é muito difícil",
+     "plain": "É muito fácil chegar a um clube e dizer que ele tem de ter estrutura, ter isso e aquilo. Mas para quem está começando é muito difícil. Pensemos nos clubes, nos profissionais e nos atletas que estão começando."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso dar condições para que o atleta também se torne um bom profissional, e não só proteger o atleta",
+     "plain": "Temos de dar condições a esses atletas não só para chegar a ser um grande atleta, mas também para ser um grande profissional. Gostaria que entrasse na pauta a proteção do atleta e também a construção do profissional."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde que a preocupação da Comissão é com todos os atletas brasileiros, do profissional ao jogador da várzea.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão se preocupa com todos os atletas brasileiros, inclusive os de clubes pequenos.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a preocupação da comissão é com o atleta brasileiro, seja profissional, iniciante, de clube pequeno ou da várzea",
+     "plain": "A preocupação desta Comissão é com os atletas brasileiros, não importa se o atleta é profissional, se está começando agora, se é de um clube pequeno ou se é da várzea. A nossa preocupação é com o atleta brasileiro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b036",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente do clube de ginástica concorda em responder às perguntas mais adiante.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à presidente do clube de ginástica e chama a convidada do jiu-jítsu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Relata 103 denúncias em 1 ano e meio e cobra que a Justiça conclua os casos, porque o agressor segue no esporte e a mulher sai.",
+   "quote": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": 30,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A demora da Justiça e a falta de punição pelas federações silenciam as vítimas e as afastam do esporte.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 1 ano e meio a ouvidoria recebeu 103 denúncias, com 3 casos de pedofilia sem julgamento e só 2 condenações",
+     "plain": "O primeiro pilar é a proteção, e criamos um canal de ouvidoria. Em 1 ano e meio recebemos 103 denúncias de assédio e outras violências no jiu-jítsu, sendo 3 casos de pedofilia sem julgamento. Só em 2 casos houve condenação e prisão."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o silenciamento das meninas está ligado à demora dos casos, e nesse tempo o treinador segue trabalhando e competindo",
+     "plain": "O silenciamento dessas meninas está ligado à demora para concluir os casos. Elas denunciam, vão à delegacia, e a solução demora muito. Enquanto isso, esses treinadores e atletas seguem no esporte, competindo e praticando seus crimes."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      28
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a falta de medidas punitivas das federações, em sua maioria dirigidas por homens, acoberta os criminosos",
+     "plain": "Esse silenciamento também vem da falta de medidas punitivas das entidades, principalmente das federações, que em sua maioria são dirigidas por homens e acabam acobertando esses criminosos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que o projeto sobre assédio no esporte foi aprovado na Comissão em 2018 e enviado ao Senado, e pergunta como a psicologia ajuda o jovem.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Já existe um projeto de lei sobre assédio no esporte aprovado na Comissão e agora em análise no Senado.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b039c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o PL 9.622/18 foi aprovado na Comissão do Esporte em novembro de 2018 e encaminhado ao Senado em 17 de maio de 2022",
+     "plain": "O PL 9.622/18 já foi aprovado na Comissão do Esporte em novembro de 2018, com relatoria minha. Ele seguiu para o Senado em 17 de maio de 2022 e agora precisa ser aprovado lá."
+    },
+    {
+     "id": "b039c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber como a psicologia ajuda a recuperar o rendimento do jovem que sofre abuso ou se ele desiste do esporte",
+     "plain": "Como a psicologia pode ajudar um jovem que sofreu abuso ou assédio sexual a voltar ao seu rendimento no esporte? Ou esse jovem sempre desiste?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b040",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do conselho de psicologia diz que esqueceu a primeira pergunta e pede desculpas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência repete a pergunta sobre como a psicologia ajuda o jovem que sofre abuso.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b042",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que a escuta com sigilo já ajuda o jovem atleta e alerta que só quem tem formação em saúde mental deve fazer essa escuta.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A escuta feita por quem tem formação adequada ajuda o jovem atleta a seguir no esporte.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criar um ambiente de escuta com sigilo e respeito já ajuda muito o jovem atleta a tirar de si a angústia",
+     "plain": "A abordagem mais simples é a escuta. Só o fato de criarmos um ambiente em que o jovem atleta seja ouvido com sigilo e respeito já ajuda muito, porque ele tira de si a angústia que lhe pesa."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem não tem formação adequada pode abrir quadros de ansiedade ao fazer a pessoa falar, e a escuta exige formação em saúde mental",
+     "plain": "Quando alguém sem formação adequada faz a pessoa falar sobre essas histórias, isso pode abrir quadros de ansiedade e gerar transtornos. Quem vai fazer essa escuta precisa de formação em saúde mental."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta à procuradora de que forma o Poder Judiciário tem ajudado na prevenção e no acompanhamento dos jovens atletas.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer saber como a Justiça atua na prevenção, e não só depois da denúncia.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b043c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber de que forma o Poder Judiciário tem ajudado na prevenção e no acompanhamento desses jovens atletas",
+     "plain": "Sabemos que o Poder Judiciário age a partir das denúncias que recebe. Mas de que forma ele tem ajudado na prevenção e no acompanhamento das crianças e dos adolescentes que praticam esporte de alto rendimento, nos casos de assédio e abuso?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b044",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o Ministério Público age a partir de denúncias, que podem ser feitas no site e ficam protegidas por sigilo.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As denúncias ao Ministério Público podem ser feitas pelo site e ficam protegidas por sigilo.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério Público é movido por denúncias, que podem ser feitas no site www.mpt.mp.br e resguardadas por sigilo",
+     "plain": "Na atuação repressiva e investigativa, o Ministério Público é movido por denúncias. Elas podem ser feitas no nosso site, o www.mpt.mp.br, e podem ser resguardadas por sigilo."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que a procuradora repita o endereço do site de denúncias.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b046",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Descreve a atuação de prevenção do Ministério Público, com campanhas, formação de profissionais e articulação da rede de proteção.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prevenção, e não só a punição, é o que traz transformação real na proteção dos atletas adolescentes.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há também uma atuação promocional, com campanhas de conscientização, formação qualificada dos profissionais e contato com as vítimas",
+     "plain": "Há também uma preocupação com as vítimas, e não só com a investigação. Temos uma atuação promocional, com campanhas de conscientização, formação qualificada dos profissionais e contato com as vítimas e com os atletas."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a rede de proteção junta conselho tutelar, juizado da infância, assistência social e clubes para encaminhar as vítimas",
+     "plain": "Esse sistema de garantia de direitos reúne o conselho tutelar, o Ministério Público do Estado, o juizado da infância, a assistência social e os clubes. Todos precisam estar articulados para encaminhar a vítima ao atendimento."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta à fundadora da comissão do jiu-jítsu que campanhas de prevenção existem contra o assédio no esporte.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer conhecer as campanhas de prevenção do assédio no esporte.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b047c1",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber que campanhas de prevenção existem contra o assédio e o abuso no esporte",
+     "plain": "Eu queria perguntar à senhora, da comissão de mulheres do jiu-jítsu: que campanhas de prevenção existem hoje contra o assédio e o abuso no esporte?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b048",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que a comissão faz campanhas nas academias, nas equipes e nas redes sociais para incentivar o esporte feminino.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão faz campanhas frequentes nas academias e nas redes sociais para incentivar o esporte feminino.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      0
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a comissão faz campanhas frequentes nas academias, nas equipes e nas mídias sociais para fomentar o esporte feminino",
+     "plain": "Nós fazemos campanhas com frequência nas academias, nas equipes e nas redes sociais, para incentivar o esporte feminino."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Pergunta como a comissão de mulheres do jiu-jítsu atende atletas de outras modalidades além do jiu-jítsu.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer saber se a comissão do jiu-jítsu atende mulheres de outros esportes.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b049c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber como a comissão do jiu-jítsu atende mulheres de outras modalidades esportivas",
+     "plain": "Outra pergunta que chegou aqui: a Comissão de Direitos das Mulheres no Jiu-Jitsu atende também atletas de outras modalidades?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b050",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Conta que a comissão passou a acolher outras modalidades e pessoas LGBTQIA+ e defende que o tema entre nos cursos de educação física.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão ampliou o acolhimento para outras modalidades porque as denúncias de violência cresceram.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b050c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a comissão começou no jiu-jítsu e passou a acolher meninas de outras modalidades, mulheres trans, homens trans e pessoas LGBTQIA+",
+     "plain": "Começamos só com o jiu-jítsu, mas vimos uma demanda muito grande de meninas de outras modalidades denunciando no nosso canal. Passamos a acolher essas meninas, mulheres trans, homens trans e pessoas da comunidade LGBTQIA+."
+    },
+    {
+     "id": "b050c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a comissão dá workshops e cursos gratuitos porque a educação é primordial para prevenir essas violências",
+     "plain": "Eu mesma vou às academias e dou workshop gratuito sobre proteção, defesa pessoal e prevenção. Também fazemos lives e cursos gratuitos, porque acreditamos que a educação é primordial para prevenir essas violências."
+    },
+    {
+     "id": "b050c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as universidades deveriam incluir nos cursos de educação física uma disciplina sobre a história das mulheres no esporte",
+     "plain": "Essas ações deveriam chegar às universidades, nos cursos de Educação Física. Elas deveriam ter no currículo uma disciplina sobre a história das mulheres no esporte, com ações para combater a desigualdade de gênero."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta ao conselho de educação física quais são as campanhas de conscientização para proteger crianças e adolescentes.",
+   "quote": [
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer conhecer as campanhas do conselho de educação física para proteger crianças e adolescentes.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b051c1",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber que campanhas de conscientização o conselho de educação física faz para as crianças",
+     "plain": "Quais campanhas de conscientização o Conselho de Educação Física faz para proteger crianças e adolescentes?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b052",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que o conselho não tem campanha específica sobre assédio sexual, mas trata do tema na disciplina de ética dos cursos.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    28
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O conselho ainda não tem campanha própria sobre assédio sexual, mas pretende criar uma.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b052c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o conselho não tem campanha específica sobre o tema, mas tem documentos no portal e vai propor uma campanha no Maio Laranja",
+     "plain": "Não temos uma campanha específica sobre esse tema, mas produzimos documentos e livros, e todos ficam disponíveis no nosso portal. Vou sugerir que o Maio Laranja passe a incorporar essa campanha."
+    },
+    {
+     "id": "b052c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a disciplina de ética dos cursos de educação física trata do assédio sexual, da violência de gênero e do assédio moral",
+     "plain": "Nos cursos de Educação Física temos a disciplina de ética. Nela falamos de todos esses tipos de violência: assédio sexual, abuso, violência de gênero, violência física, assédio moral e assédio psicológico."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao conselho de educação física e chama a presidente do clube de ginástica.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b054",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente do clube de ginástica diz que pode ouvir a pergunta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b055",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta qual a orientação para novos ginastas e tutores e se há olheiros cadastrados em federação na ginástica artística.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer saber se existem olheiros na ginástica artística e se eles são cadastrados.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b055c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber a orientação para os novos ginastas e seus tutores e se há olheiros cadastrados em federação",
+     "plain": "Qual é a sua orientação para os novos ginastas e para os tutores deles na proteção de crianças e adolescentes? Existem olheiros na ginástica artística? Eles são cadastrados em alguma federação?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b056",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que o clube trata do assunto sem tabu e explica que na ginástica o atleta evolui pelos clubes até a CBG, sem olheiros.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Na ginástica artística não existe a figura do olheiro, e o atleta avança pelos próprios clubes.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b056c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no clube não há tabu para falar da questão sexual, e todos são chamados semanalmente e mensalmente para tratar do tema",
+     "plain": "No nosso clube não temos nenhum tabu para falar dessa questão sexual. Chamamos todos, semanalmente e mensalmente, para tratar do assunto. A informação tem de vir em primeiro lugar, para os pais, os atletas e a direção."
+    },
+    {
+     "id": "b056c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "na ginástica artística existe uma hierarquia e o atleta evolui pelos clubes até a CBG, sem a figura do olheiro",
+     "plain": "Na ginástica artística existe uma hierarquia. O atleta que tem condições de participar de clubes mais avançados vai subindo pelos clubes até a CBG. Não haveria propriamente um olheiro, e sim a própria evolução do atleta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b057",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta quais ações institucionais viabilizam os projetos de lei e qual o comprometimento das entidades esportivas com o assunto.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A presidência quer saber o que as entidades esportivas têm feito de concreto sobre o assédio.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b057c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber quais ações institucionais viabilizam os projetos de lei e qual o comprometimento das entidades esportivas",
+     "plain": "Uma pergunta que chegou pelo portal: quais são as ações institucionais organizadas para viabilizar tantos projetos de lei propostos? E qual é o comprometimento real das entidades esportivas com o assunto?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b058",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reitera que clubes, federações e confederações precisam adotar medidas de prevenção e punição, e lembra que pactos feitos não foram cumpridos.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Clubes, federações e confederações precisam adotar e cumprir medidas de prevenção e punição do assédio.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b058c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as medidas preventivas e repressivas ao assédio precisam ser adotadas pelos clubes, pelas federações e pelas confederações",
+     "plain": "É importante que as medidas de prevenção e de punição do assédio sexual sejam adotadas pelos clubes, pelas federações e pelas confederações. Acredito que ainda não chegamos à situação ideal. Ainda há muito a ser feito."
+    },
+    {
+     "id": "b058c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pactos já foram feitos e não foram cumpridos, e é preciso buscar o cumprimento do que já foi adotado",
+     "plain": "Como eu disse, pactos já foram feitos, mas infelizmente não foram cumpridos. Temos de buscar de novo o cumprimento efetivo das medidas que já adotamos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b059",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à procuradora e chama o representante do conselho de psicologia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b060",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede atenção não só ao futebol, mas às outras modalidades e às escolinhas, onde estão os atletas que não aparecem.",
+   "quote": [
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A atenção precisa alcançar as modalidades e as escolinhas em que os atletas não aparecem.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b060c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a preocupação maior é com quem não aparece, e a atenção tem de alcançar as outras modalidades e suas escolinhas",
+     "plain": "Falamos muito de futebol, que é o esporte número 1 no Brasil e o que mais aparece na mídia. Mas quem mais nos preocupa são os que não aparecem. A atenção tem de alcançar as outras modalidades e as escolinhas."
+    },
+    {
+     "id": "b060c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os conselhos devem manter o diálogo com o governo, e quem tem experiência deve participar dos debates sobre saúde mental",
+     "plain": "A função dos conselhos é orientar, fiscalizar e regulamentar os profissionais, mas o ideal é manter o diálogo aberto com o governo. Quando se fala de saúde mental, quem tem experiência precisa estar no debate."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b061",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao conselho de psicologia e passa a palavra à representante da educação física.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b062",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede que os profissionais se capacitem e apela aos parlamentares sobre o projeto que trata da educação física escolar no Senado.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 17,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem trabalha com o corpo das crianças na escola precisa de formação e do código de ética da profissão.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b062c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quanto mais os profissionais se capacitarem e fizerem pós-graduação, melhores professores serão",
+     "plain": "Os profissionais precisam se capacitar cada vez mais, se informar e fazer pós-graduação. Quanto mais conhecimento tiverem, melhores professores serão. O representante da psicologia também falou dessa formação."
+    },
+    {
+     "id": "b062c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o PL 2.486/21 propõe tirar a educação física escolar da tutela dos conselhos, e isso ameaça o cuidado com as crianças",
+     "plain": "No Senado tramita o PL 2.486/21, que quer tirar a educação física da escola do controle do Conselho Federal e dos conselhos regionais. Esses profissionais lidam com o corpo das crianças e precisam seguir o código de ética."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b063",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência começa a agradecer e é interrompida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b064",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do conselho de psicologia agradece à Mesa e ao conselho de educação física pela parceria.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b065",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do conselho de educação física agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b066",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e manda um abraço ao conselho de educação física.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b067",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do conselho de educação física agradece de novo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b068",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra à presidente do clube de ginástica para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b069",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede que se olhe para os clubes de base, pilares dos clubes grandes, e que a burocracia não impeça as escolinhas de funcionar.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem os clubes de base, a criança da periferia não chega ao esporte, e a burocracia não pode travá-los.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b069c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os clubes de base são o pilar dos clubes grandes, e sem eles o atleta da periferia não tem acesso ao esporte",
+     "plain": "Pensem nos clubes de base, porque eles são o pilar dos clubes grandes. Sem eles, o aluno e o atleta da periferia não têm acesso ao esporte, e esse acesso já é muito difícil."
+    },
+    {
+     "id": "b069c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "as medidas devem ser estabelecidas, mas sem burocracia que impeça as escolinhas de base de se desenvolver",
+     "plain": "As medidas devem ser estabelecidas do jeito certo, mas é preciso facilitar o processo, sem burocracia que impeça as escolinhas e os clubes de base de trabalhar. Muitas vezes o futebol começa na cancha, com associações sem fins lucrativos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b070",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e manda um abraço ao grupo de ginástica artística do Paraná.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b071",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente do clube de ginástica agradece e diz que levará o abraço.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b072",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à convidada do jiu-jítsu para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b073",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Informa que a pesquisa sobre assédio nas lutas já entrevistou cerca de 500 mulheres, com meta de pelo menos 1.000.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pesquisa em andamento vai embasar as estratégias contra a violência que tira as mulheres do esporte.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b073c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a pesquisa sobre assédio nas lutas já entrevistou cerca de 500 mulheres e a meta é chegar a pelo menos 1.000",
+     "plain": "Nossa pesquisa sobre assédio nas lutas e nas artes marciais está sendo ampliada, em parceria com uma jornalista. Já entrevistamos cerca de 500 mulheres e queremos chegar a pelo menos 1.000."
+    },
+    {
+     "id": "b073c2",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a violência faz com que essas meninas não cresçam no esporte nem cheguem à faixa preta",
+     "plain": "Por causa disso, essas meninas não crescem no esporte, não chegam à faixa preta e não prosperam."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b074",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência comenta as medalhas que aparecem na tela e pergunta de quem são.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b075",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada do jiu-jítsu responde sobre as medalhas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b076",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta os atletas do jiu-jítsu do Rio de Janeiro e de todo o Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b077",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada do jiu-jítsu agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b078",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos, anuncia a próxima reunião da Comissão e encerra a sessão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 48,
+   "to_sentence": 20,
+   "from_claim": "b008c3",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O conselho de educação física retoma o ponto da procuradora: os casos são muitos e as denúncias pouquíssimas, porque as pessoas não encontram os canais."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 33,
+   "from_claim": "b010c2",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "O conselho de psicologia acrescenta à lista de medidas da procuradora que o canal de denúncia precisa proteger quem denuncia, porque o emprego fica em risco."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 54,
+   "to_sentence": 22,
+   "from_claim": "b010c3",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Os dois conselhos profissionais convergem: quem lida com o corpo da criança precisa de formação e de regras próprias, e isso vale também para os clubes da base."
+  },
+  {
+   "from": "b016",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 5,
+   "from_claim": "b016c1",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "À pergunta do deputado sobre revelações de atletas, o ex-goleiro responde de imediato que houve muitos casos."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 21,
+   "from_claim": "b020c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O que a procuradora descreve como lei do silêncio o ex-goleiro confirma pela experiência: em algum momento o atleta se depara com uma proposta ou uma tentativa."
+  },
+  {
+   "from": "b022",
+   "to": "b021",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b022c1",
+   "to_claim": "b021c1",
+   "strength": "media",
+   "note": "O ex-goleiro começa a responder que sim à pergunta sobre profissionalizar os olheiros, mas o microfone interrompe a explicação."
+  },
+  {
+   "from": "b026",
+   "to": "b021",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b026c1",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "Com o microfone ajustado, o ex-goleiro completa a resposta: os olheiros devem ser profissionalizados porque uma das portas do abuso passa por eles."
+  },
+  {
+   "from": "b032",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 31,
+   "from_claim": "b032c2",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "A presidente do clube de ginástica ouviu o ex-goleiro falar das escolinhas e responde que não se pode demonizar os clubes de base nem os profissionais deles."
+  },
+  {
+   "from": "b035",
+   "to": "b034",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b035c1",
+   "to_claim": "b034c1",
+   "strength": "media",
+   "note": "Ao pedido de estrutura para a base, a presidência responde que a preocupação da Comissão alcança todo atleta brasileiro, do clube pequeno à várzea."
+  },
+  {
+   "from": "b038",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 34,
+   "from_claim": "b038c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A cobrança da procuradora sobre responsabilizar as organizações ganha um exemplo concreto: as federações que não punem acabam acobertando os agressores."
+  },
+  {
+   "from": "b042",
+   "to": "b039",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 18,
+   "from_claim": "b042c1",
+   "to_claim": "b039c2",
+   "strength": "forte",
+   "note": "À pergunta sobre como a psicologia recupera o jovem, o conselho responde que o primeiro recurso é a escuta com sigilo e respeito."
+  },
+  {
+   "from": "b044",
+   "to": "b043",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b044c1",
+   "to_claim": "b043c1",
+   "strength": "forte",
+   "note": "A procuradora responde que a atuação repressiva depende de denúncia e indica onde fazê-la, com sigilo garantido."
+  },
+  {
+   "from": "b046",
+   "to": "b043",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 5,
+   "from_claim": "b046c1",
+   "to_claim": "b043c1",
+   "strength": "media",
+   "note": "Ainda sobre a pergunta da prevenção, a procuradora descreve a frente promocional: campanhas, formação de profissionais e contato com as vítimas."
+  },
+  {
+   "from": "b048",
+   "to": "b047",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b048c1",
+   "to_claim": "b047c1",
+   "strength": "media",
+   "note": "À pergunta sobre campanhas de prevenção, a comissão do jiu-jítsu responde que atua nas academias, nas equipes e nas redes sociais."
+  },
+  {
+   "from": "b050",
+   "to": "b049",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b050c1",
+   "to_claim": "b049c1",
+   "strength": "forte",
+   "note": "À pergunta sobre outras modalidades, a fundadora explica que a demanda de denúncias fez a comissão acolher além do jiu-jítsu."
+  },
+  {
+   "from": "b052",
+   "to": "b051",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 5,
+   "from_claim": "b052c1",
+   "to_claim": "b051c1",
+   "strength": "forte",
+   "note": "Perguntada sobre campanhas, a representante do conselho de educação física admite que não há uma campanha específica sobre o assédio sexual."
+  },
+  {
+   "from": "b052",
+   "to": "b050",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 9,
+   "from_claim": "b052c2",
+   "to_claim": "b050c3",
+   "strength": "media",
+   "note": "Ao pedido de que o tema entre nos cursos de educação física, o conselho responde que a disciplina de ética já trata dessas violências."
+  },
+  {
+   "from": "b052",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 3,
+   "from_claim": "b052c1",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "A representante do conselho acolhe a observação da presidência sobre o mês de maio e propõe incorporar a campanha ao Maio Laranja."
+  },
+  {
+   "from": "b056",
+   "to": "b055",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 1,
+   "from_claim": "b056c2",
+   "to_claim": "b055c1",
+   "strength": "forte",
+   "note": "À pergunta sobre olheiros na ginástica, a presidente do clube responde que ali o atleta sobe por hierarquia entre clubes até a confederação."
+  },
+  {
+   "from": "b056",
+   "to": "b026",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 4,
+   "from_claim": "b056c2",
+   "to_claim": "b026c2",
+   "strength": "media",
+   "note": "Onde o ex-goleiro descreve o olheiro que leva meninos de cidades pequenas, a ginástica artística diz não ter essa figura, e sim a evolução do atleta pelos clubes."
+  },
+  {
+   "from": "b058",
+   "to": "b057",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 2,
+   "from_claim": "b058c1",
+   "to_claim": "b057c1",
+   "strength": "forte",
+   "note": "À pergunta do portal sobre o comprometimento das entidades, a procuradora responde que as medidas precisam ser adotadas por clubes, federações e confederações."
+  },
+  {
+   "from": "b060",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 31,
+   "from_claim": "b060c1",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "O conselho de psicologia vai na mesma direção do sindicato: o risco maior está onde ninguém olha, nas escolinhas e nas modalidades que não aparecem."
+  },
+  {
+   "from": "b062",
+   "to": "b060",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 9,
+   "from_claim": "b062c1",
+   "to_claim": "b060c2",
+   "strength": "media",
+   "note": "A representante do conselho de educação física cita o colega da psicologia para reforçar que a formação do profissional é o que garante o bom trabalho."
+  },
+  {
+   "from": "b069",
+   "to": "b035",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 0,
+   "from_claim": "b069c1",
+   "to_claim": "b035c1",
+   "strength": "media",
+   "note": "Nas considerações finais, a presidente do clube volta ao compromisso da presidência com todo atleta e pede que o olhar chegue aos clubes de base."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b004c1",
+    "b008c3",
+    "b010c2"
+   ],
+   "note": "A procuradoria do trabalho, o conselho de educação física e o conselho de psicologia concordam que os casos são muitos, as denúncias poucas e que falta canal que proteja quem denuncia."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b008",
+    "b046",
+    "b050"
+   ],
+   "claims": [
+    "b004c2",
+    "b008c2",
+    "b046c1",
+    "b050c2"
+   ],
+   "note": "Procuradoria, conselho de educação física e a comissão do jiu-jítsu concordam que informar e educar crianças, pais e profissionais é o caminho para prevenir o abuso."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b038",
+    "b058"
+   ],
+   "claims": [
+    "b004c3",
+    "b038c3",
+    "b058c1",
+    "b058c2"
+   ],
+   "note": "A procuradoria e a comissão do jiu-jítsu concordam que clubes e federações têm de adotar medidas de prevenção e punição e responder pelo que acontece neles."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b032",
+    "b034",
+    "b035",
+    "b069"
+   ],
+   "claims": [
+    "b032c2",
+    "b034c1",
+    "b035c1",
+    "b069c1"
+   ],
+   "note": "A presidente do clube de ginástica e a presidência da Comissão concordam que o cuidado precisa chegar aos clubes pequenos, com estrutura para a base."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b013",
+   "sentence": 5,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b016",
+   "gist": "se algum esportista já revelou ter sofrido esses crimes",
+   "plain": "Algum esportista já revelou ter sofrido ou estar sofrendo assédio ou abuso sexual?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b021",
+   "sentence": 2,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b026",
+   "gist": "se profissionalizar os olheiros vai reduzir os casos de abuso",
+   "plain": "Profissionalizar os olheiros vai reduzir os casos de abuso e de assédio no esporte?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b039",
+   "sentence": 18,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b042",
+   "gist": "como a psicologia ajuda o jovem que sofreu abuso",
+   "plain": "Como a psicologia ajuda um jovem que sofreu abuso a recuperar o rendimento no esporte?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b043",
+   "sentence": 5,
+   "addressed_to": "governo",
+   "answered_by": "b044",
+   "gist": "de que forma a Justiça ajuda na prevenção e no acompanhamento",
+   "plain": "De que forma a Justiça tem ajudado na prevenção e no acompanhamento dos jovens atletas?",
+   "theme": "d7",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b047",
+   "sentence": 2,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b048",
+   "gist": "quais são as campanhas de prevenção do assédio no esporte",
+   "plain": "Quais são as campanhas de prevenção do assédio e do abuso sexual no esporte?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q6",
+   "from": "b049",
+   "sentence": 1,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b050",
+   "gist": "como a comissão do jiu-jítsu atende outras modalidades",
+   "plain": "Como a comissão de mulheres do jiu-jítsu atende atletas de outras modalidades?",
+   "theme": "d8",
+   "position": "neutro"
+  },
+  {
+   "id": "q7",
+   "from": "b051",
+   "sentence": 5,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b052",
+   "gist": "quais são as campanhas do conselho de educação física",
+   "plain": "Que campanhas de conscientização o conselho de educação física faz para proteger crianças e jovens?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q8",
+   "from": "b055",
+   "sentence": 1,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b056",
+   "gist": "se há olheiros na ginástica e se são cadastrados em federação",
+   "plain": "Existem olheiros na ginástica artística e eles são cadastrados em alguma federação?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q9",
+   "from": "b057",
+   "sentence": 2,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b058",
+   "gist": "que ações organizadas viabilizam os projetos de lei propostos",
+   "plain": "Que ações organizadas existem para viabilizar os projetos de lei e cobrar as entidades esportivas?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q10",
+   "from": "b034",
+   "sentence": 2,
+   "addressed_to": "parlamentar",
+   "answered_by": "b035",
+   "gist": "que deputados e governos dêem estrutura aos clubes de base",
+   "plain": "Os deputados e os governos vão dar estrutura aos clubes de base?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q11",
+   "from": "b038",
+   "sentence": 30,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "uma política pública que obrigue as federações a ser transparentes",
+   "plain": "Vai existir uma política pública que obrigue as federações a agir com clareza nos casos de assédio?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q12",
+   "from": "b062",
+   "sentence": 17,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que deputados e senadores aprovem o PL 2.486, de 2021",
+   "plain": "Os deputados e senadores vão aprovar o PL 2.486, de 2021, que está no Senado?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 35,
+   "gist": "a CPI da exploração sexual firmou um pacto em 2014",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b008",
+   "sentence": 25,
+   "gist": "a educação física foi regulamentada como profissão em 1998",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b008",
+   "sentence": 54,
+   "gist": "são 21 conselhos regionais de educação física no país",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b010",
+   "sentence": 53,
+   "gist": "nem 1% dos atletas da base chega ao topo",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b016",
+   "sentence": 3,
+   "gist": "foi goleiro profissional por 20 anos e parou em 2015",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b020",
+   "sentence": 2,
+   "gist": "as palestras já passaram por mais de 60 clubes",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b020",
+   "sentence": 28,
+   "gist": "já falaram com mais de 2 mil atletas e jovens",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b038",
+   "sentence": 10,
+   "gist": "103 denúncias em 1 ano e meio, 3 de pedofilia",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b038",
+   "sentence": 11,
+   "gist": "só 2 dos 103 casos terminaram em condenação e prisão",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b038",
+   "sentence": 13,
+   "gist": "mais de 61% das mulheres já sofreram assédio no jiu-jitsu",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b038",
+   "sentence": 15,
+   "gist": "259 entrevistadas, 159 relataram assédio, 70 pelo treinador",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b073",
+   "sentence": 1,
+   "gist": "cerca de 500 mulheres entrevistadas, meta de 1.000",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria organizou a audiência em torno das medidas sugeridas pelos debatedores, com o silêncio das vítimas como fio condutor e destaque para canais de denúncia e responsabilização das entidades.",
+  "omitted": "Ficaram de fora a agenda de igualdade de gênero da comissão do jiu-jítsu, com o selo e a parceria internacional, e o debate sobre projetos de lei, inclusive o que trata da educação física escolar."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Informar é a principal arma contra o abuso no esporte",
+   "statement_plain": "Explicar a crianças, pais e profissionais o que é assédio, com educação sexual e campanhas, é o que evita o abuso e faz a denúncia acontecer.",
+   "core_theme": "d2",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c2",
+    "b008c2",
+    "b046c1",
+    "b050c2"
+   ],
+   "note": "A ideia junta uma procuradora do Ministério Público do Trabalho, um conselho profissional e uma organização de atletas mulheres, que vêm de lugares diferentes e defendem a mesma coisa."
+  },
+  {
+   "id": "t2",
+   "title": "Campanha sozinha não dá conta do tamanho do problema",
+   "statement_plain": "As campanhas são pequenas perto do tamanho do esporte no Brasil. Sem apoio e sem cobrança de clubes e federações, o trabalho de prevenção não muda o quadro.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b020c2",
+    "b026c3",
+    "b058c1",
+    "b058c2"
+   ],
+   "note": "É uma ideia, e não um setor: o sindicato de atletas e a procuradoria do trabalho, que atuam em campos distintos, dizem que informação sem cobrança não resolve."
+  },
+  {
+   "id": "t3",
+   "title": "Sem punição rápida, quem sai do esporte é a vítima",
+   "statement_plain": "Enquanto o caso não é julgado e a federação não pune, o agressor segue treinando e competindo, e quem denunciou fica afastada do esporte, às vezes para sempre.",
+   "core_theme": "d7",
+   "positions": {
+    "d4": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b038c1",
+    "b038c2",
+    "b038c3",
+    "b004c3"
+   ],
+   "note": "A ideia atravessa setores: uma organização de atletas mulheres e a procuradoria do trabalho apontam a mesma falha na resposta às denúncias."
+  },
+  {
+   "id": "t4",
+   "title": "Cuidar da base é também cuidar de quem trabalha nela",
+   "statement_plain": "Os clubes de base precisam de estrutura e de apoio público, e não de demonização. Junto com a proteção do atleta, é preciso formar bons profissionais.",
+   "core_theme": "d6",
+   "positions": {
+    "d3": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b032c2",
+    "b034c1",
+    "b034c3",
+    "b035c1",
+    "b069c1"
+   ],
+   "note": "A ideia é sustentada por um clube pequeno de ginástica e pelo deputado que presidia a sessão, e contesta a leitura de que a base é sobretudo um lugar de risco."
+  },
+  {
+   "id": "t5",
+   "title": "O risco maior está nas escolinhas e na captação",
+   "statement_plain": "É nos clubes pequenos, nas escolinhas e na hora em que alguém escolhe um menino para levar embora que o abuso encontra espaço, porque ali ninguém olha.",
+   "core_theme": "d6",
+   "positions": {
+    "d5": "favoravel",
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b020c3",
+    "b060c1",
+    "b021c1",
+    "b026c1",
+    "b026c2"
+   ],
+   "note": "A ideia opõe-se à do apoio à base e reúne o sindicato de atletas, o conselho de psicologia e o próprio deputado, ou seja, gente de setores diferentes."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Ministério Público do Trabalho",
+   "fala": "b001",
+   "sentence": 4,
+   "plain": "órgão que fiscaliza o cumprimento das leis do trabalho e pode investigar e cobrar na Justiça quem viola direitos de quem trabalha"
+  },
+  {
+   "term": "e-Democracia",
+   "fala": "b001",
+   "sentence": 21,
+   "plain": "portal da Câmara dos Deputados em que qualquer pessoa manda perguntas e comentários para as audiências públicas"
+  },
+  {
+   "term": "categorias de base",
+   "fala": "b004",
+   "sentence": 18,
+   "plain": "times de crianças e jovens dos clubes, onde os atletas são formados antes de chegar ao time profissional"
+  },
+  {
+   "term": "CPI",
+   "fala": "b004",
+   "sentence": 35,
+   "plain": "Comissão Parlamentar de Inquérito: grupo de parlamentares que investiga um assunto e propõe medidas no fim dos trabalhos"
+  },
+  {
+   "term": "Maio Laranja",
+   "fala": "b005",
+   "sentence": 2,
+   "plain": "mês dedicado às campanhas contra o abuso e a exploração sexual de crianças e adolescentes"
+  },
+  {
+   "term": "CONFEF",
+   "fala": "b005",
+   "sentence": 5,
+   "plain": "Conselho Federal de Educação Física: conselho que registra e fiscaliza os profissionais de educação física no Brasil"
+  },
+  {
+   "term": "código de ética",
+   "fala": "b008",
+   "sentence": 26,
+   "plain": "conjunto de regras de conduta de uma profissão, com deveres, direitos e punições para quem descumpre"
+  },
+  {
+   "term": "COB",
+   "fala": "b008",
+   "sentence": 49,
+   "plain": "Comitê Olímpico Brasileiro: entidade que organiza a participação do Brasil nos Jogos Olímpicos"
+  },
+  {
+   "term": "Conselho Tutelar",
+   "fala": "b008",
+   "sentence": 49,
+   "plain": "órgão do município que recebe denúncias e protege crianças e adolescentes com direitos ameaçados"
+  },
+  {
+   "term": "Lei Joanna Maranhão",
+   "fala": "b010",
+   "sentence": 17,
+   "plain": "apelido da lei de 2012 que trata do abuso sexual e nasceu do caso de uma ex-atleta de natação, mas vale para toda a sociedade"
+  },
+  {
+   "term": "olheiros",
+   "fala": "b021",
+   "sentence": 1,
+   "plain": "pessoas que procuram jovens talentos para os clubes e escolhem quem vai sair da cidade para fazer teste"
+  },
+  {
+   "term": "ouvidoria",
+   "fala": "b038",
+   "sentence": 9,
+   "plain": "canal em que a pessoa registra uma reclamação ou denúncia e recebe orientação e encaminhamento"
+  },
+  {
+   "term": "CBG",
+   "fala": "b056",
+   "sentence": 4,
+   "plain": "Confederação Brasileira de Ginástica: entidade que organiza as competições de ginástica no país"
+  },
+  {
+   "term": "sub judice",
+   "fala": "b062",
+   "sentence": 12,
+   "plain": "expressão do direito que quer dizer que o assunto está sendo julgado e ainda não tem decisão final"
+  }
+ ]
+}

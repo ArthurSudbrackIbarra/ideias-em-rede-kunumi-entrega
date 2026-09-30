@@ -1,0 +1,1407 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 63,
+ "model": "LLM lendo o prompt hearing-063 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:39:00Z",
+ "prompt_sha256": "26af40049c63e2239bce6df562ed1eb11848be569196cabe23fa80fe6d0e4e77",
+ "sentences_hash": "2ba746412c822a95",
+ "review": {
+  "pairs_read": 24,
+  "pairs_fixed": 12
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t5: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa debateu o fortalecimento das instituições de longa permanência para idosos, a pedido do próprio presidente da Comissão. Entidades, o Ministério Público do Ceará e a Secretaria Nacional descreveram casas com estrutura inadequada, equipe insuficiente e orçamento precário, e um País que não sabe quantas são essas casas. Pediu-se cadastro nacional, financiamento permanente e vagas públicas.",
+ "stakes": "Se o Orçamento da União e a política de cuidados vão passar a prever dinheiro permanente para as instituições que abrigam pessoas idosas.",
+ "central_question": "O que o Estado brasileiro deve fazer pelas instituições de longa permanência para idosos?",
+ "synopsis_plain": "A Comissão que cuida dos direitos da pessoa idosa discutiu as casas onde pessoas idosas moram de forma permanente. Entidades, um promotor de justiça e o governo federal contaram que essas casas têm pouca equipe, pouco dinheiro e que ninguém sabe ao certo quantas são. Todos pediram que o Estado entre nessa conta.",
+ "stakes_plain": "Se o Orçamento da União vai passar a prever dinheiro fixo para as casas que abrigam pessoas idosas, em vez de socorro de vez em quando.",
+ "central_question_plain": "O que o Estado deve fazer pelas casas onde pessoas idosas moram de forma permanente?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Política nacional de cuidados",
+   "description": "Discute-se se o Brasil precisa de uma política nacional de cuidados de longa duração e de espaços em que a sociedade participe dessa decisão.",
+   "axis": {
+    "pro": "O Brasil precisa de uma política nacional de cuidados de longa duração, decidida com participação da sociedade civil.",
+    "contra": "As ações que já existem bastam e não é preciso criar uma política nacional de cuidados.",
+    "pro_plain": "O País precisa de uma política nacional de cuidado para quem envelhece, decidida junto com quem vive o problema.",
+    "contra_plain": "O que já existe hoje resolve, e não é preciso criar uma política nacional de cuidado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Conhecimento sobre as instituições",
+   "description": "Discute-se se o País sabe quantas instituições de longa permanência existem, onde estão e quem mora nelas, e se é preciso um cadastro nacional.",
+   "axis": {
+    "pro": "É preciso um cadastro nacional com dados oficiais sobre as instituições, sobre quem mora nelas e sobre os recursos.",
+    "contra": "Os censos e registros que já existem mostram o suficiente sobre essas instituições.",
+    "pro_plain": "Só dá para planejar depois de saber quantas casas existem, onde ficam e quem mora nelas.",
+    "contra_plain": "Os levantamentos que já existem mostram o bastante sobre essas casas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Dever do Estado e vagas",
+   "description": "Discute-se se o Estado cumpre o dever de amparar a pessoa idosa e se deve criar e manter instituições de natureza pública.",
+   "axis": {
+    "pro": "O Estado tem o dever de acolher a pessoa idosa e precisa criar e manter instituições públicas.",
+    "contra": "Acolher a pessoa idosa cabe à família e às entidades, e ao Estado cabem apenas os casos mais pobres.",
+    "pro_plain": "O Estado tem de acolher quem precisa e para isso tem de manter casas públicas.",
+    "contra_plain": "Quem deve cuidar é a família e as entidades, e o Estado só entra nos casos mais pobres."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Dinheiro para as instituições",
+   "description": "Discute-se se falta dinheiro para as instituições ou se o dinheiro já existe no País e está sendo aplicado no lugar errado.",
+   "axis": {
+    "pro": "As instituições precisam de repasse público permanente, previsto no Orçamento.",
+    "contra": "O dinheiro já existe no País e no mercado, o que falta é aplicá-lo onde é preciso.",
+    "pro_plain": "As casas de idosos precisam de dinheiro público fixo, previsto no Orçamento todo ano.",
+    "contra_plain": "O dinheiro já existe no País e no mercado, o problema é onde ele está sendo aplicado."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Fiscalização das instituições",
+   "description": "Discute-se como o poder público deve fiscalizar as casas de idosos: orientando e apoiando quem cuida ou cobrando e punindo.",
+   "axis": {
+    "pro": "A fiscalização deve orientar e apoiar a instituição antes de punir.",
+    "contra": "A fiscalização deve cobrar com rigor, porque existem casas que maltratam pessoas idosas.",
+    "pro_plain": "Quem fiscaliza deve chegar orientando e ajudando a casa a se ajeitar, e não brigando.",
+    "contra_plain": "Quem fiscaliza deve cobrar com rigor, porque existem casas que maltratam pessoas idosas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "A velhice e a imagem das instituições",
+   "description": "Discute-se o preconceito com a idade e a ideia, comum na sociedade, de que a instituição de longa permanência é um lugar de abandono.",
+   "axis": {
+    "pro": "A velhice é tempo de aprender e de atividade, e a instituição pode ser um lugar de vida digna.",
+    "contra": "A velhice é tempo de recolhimento e a instituição é o último recurso de quem não tem família.",
+    "pro_plain": "Envelhecer é tempo de aprender e de fazer coisas, e a casa de idosos pode ser um lugar de vida digna.",
+    "contra_plain": "Envelhecer é tempo de sossego, e a casa de idosos é o último recurso de quem não tem família."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Defesa dos Direitos da Pessoa Idosa, deputado federal pelo PSB do Ceará",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata e identificado como Denis Bezerra, PSB-CE",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão da Câmara dos Deputados que acompanha as políticas para as pessoas idosas"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Frente Nacional de Fortalecimento das ILPIs",
+   "org": "Frente Nacional de Fortalecimento das ILPIs",
+   "basis": "apresentada pela presidência em b001.8 e confirmada em b002.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Frente Nacional de Fortalecimento das ILPIs",
+   "org_plain": "movimento criado em 2020 que reúne instituições e pesquisadores em defesa das casas de idosos"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "assistente social, presidente da Associação Cearense Pró-Idosos",
+   "org": "ACEPI",
+   "basis": "apresentada pela presidência em b001.8 e confirmada em b004.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "assistente social, da Associação Cearense Pró-Idosos",
+   "org_plain": "associação do Ceará que atua na defesa dos direitos das pessoas idosas"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Promotor de Justiça, coordenador do Centro de Apoio Operacional da Cidadania",
+   "org": "Ministério Público do Ceará",
+   "basis": "apresentado pela presidência em b001.9 e confirmado em b006.3",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "promotor de justiça do Ministério Público do Ceará",
+   "org_plain": "órgão que fiscaliza o poder público e defende direitos coletivos no Estado do Ceará"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Promoção dos Direitos da Pessoa Idosa",
+   "org": "Secretaria Nacional de Promoção e Defesa dos Direitos da Pessoa Idosa",
+   "basis": "apresentado pela presidência em b001.9 e confirmado em b008.1",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional dos Direitos da Pessoa Idosa",
+   "org_plain": "órgão do governo federal encarregado de aplicar a Política Nacional do Idoso"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Departamento Nacional de Normatização e Orientação",
+   "org": "Sociedade de São Vicente de Paulo",
+   "basis": "apresentado pela presidência em b001.9 e confirmado em b010.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Sociedade de São Vicente de Paulo",
+   "org_plain": "entidade católica de caridade que mantém casas de acolhimento para pessoas idosas no Brasil"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "aluna do curso de Educador Político Social em Gerontologia",
+   "org": "UniSER, da UnB",
+   "basis": "anunciada pela presidência em b011.23 e confirmada em b012.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do curso de gerontologia da UniSER, da UnB",
+   "org_plain": "curso de formação em gerontologia da Universidade de Brasília, aberto a alunos a partir dos 45 anos"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "atriz e diretora de teatro, do Movimento Inclusive nas Artes",
+   "org": "Movimento Inclusive nas Artes",
+   "basis": "anunciada pela presidência em b011.23 e confirmada em b013.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "atriz, do Movimento Inclusive nas Artes",
+   "org_plain": "movimento que usa a arte para incluir pessoas idosas e pessoas com deficiência"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação dos Idosos do Varjão",
+   "org": "Associação dos Idosos do Varjão",
+   "basis": "presença agradecida pela presidência em b001.4 e cargo dito em b015.8",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Associação dos Idosos do Varjão",
+   "org_plain": "associação de pessoas idosas do Varjão, que veio assistir à audiência"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.8
+   },
+   {
+    "role": "governo",
+    "share": 0.05
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência agradece a presença da Associação dos Idosos do Varjão em b001.4, o promotor se dirige às pessoas idosas presentes em b006.2 e conversa com uma senhora de 86 anos, e a ata registra palmas em cinco falas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o fortalecimento das instituições de longa permanência e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que não existe política nacional de cuidados de longa duração, que o Estado descumpre o dever constitucional de amparar os idosos e cobra um cadastro nacional.",
+   "quote": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O País não tem uma política nacional de cuidados de longa duração e precisa criar uma.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não existe política nacional de cuidados de longa duração e o Estado não regula nem puxa a qualidade do cuidado",
+     "plain": "Hoje não existe uma política nacional de cuidados de longa duração, e por isso a oferta de instituições é pequena e desigual. Há muito desconhecimento e preconceito sobre elas, e o Estado não regula nem puxa a qualidade."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estado descumpre o dever do artigo 230 da Constituição de amparar os idosos com a sociedade e a família",
+     "plain": "Até agora o Estado não entra no cuidado da população idosa e descumpre o dever que a Constituição lhe dá no artigo 230, o de amparar os idosos junto com a sociedade e a família."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      58
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é urgente criar um cadastro nacional com dados oficiais sobre as instituições, a população assistida e os recursos",
+     "plain": "Deputado, precisamos com urgência de um cadastro nacional, com dados oficiais de municípios, regiões e do País, sobre essas instituições, sobre quem mora nelas e sobre os recursos humanos e o dinheiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Karla Giacomin e passa a palavra a Vejuse de Oliveira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que os recursos existem mas não estão alocados onde deveriam, mostra quantas unidades de acolhimento o País tem e lembra que o Ceará mantém uma só instituição.",
+   "quote": [
+    67,
+    68,
+    69
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado não acolhe quem precisa de acolhimento e isso é uma violação de direitos.",
+    "sentence": 80
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      54,
+      55,
+      56
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os recursos existem no País, o problema é que não estão alocados onde deveriam estar",
+     "plain": "E recursos nós sabemos que há. Disso não há dúvida. Os recursos existem, mas não estão alocados onde deveriam estar."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      67,
+      68,
+      69
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o sistema registra 2.047 unidades de acolhimento para pessoas idosas, das quais 32% são governamentais e 68% não são",
+     "plain": "O sistema registra hoje 2.047 unidades de acolhimento para pessoas idosas em todo o País. O que é isso para quem precisa? Dessas unidades, 32% são do governo e 68% não são."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      76,
+      77,
+      78
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ceará mantém uma só instituição de longa permanência, em Fortaleza, e ela já está com a capacidade esgotada",
+     "plain": "O Estado do Ceará mantém uma só instituição de longa permanência. Ela fica em Fortaleza e já está com a capacidade totalmente esgotada. Não há como alguém passar a morar nela."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Diz que o Conselho Nacional dos Direitos da Pessoa Idosa foi desvirtuado no início do Governo Bolsonaro e anuncia projeto de lei para recompô-lo.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Conselho Nacional dos Direitos da Pessoa Idosa precisa ser recomposto com participação da sociedade civil.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o conselho foi desvirtuado no início do Governo Bolsonaro e a sociedade civil foi tirada do lugar em que as políticas se discutem",
+     "plain": "No início do Governo Bolsonaro o conselho foi totalmente desvirtuado. Tiraram de lá a participação da sociedade civil, justamente no lugar feito para discutir políticas públicas. Como eu discuto algo sem ter os principais interessados?"
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      7
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há um projeto de lei na pauta da Comissão para recompor o Conselho Nacional dos Direitos da Pessoa Idosa",
+     "plain": "Também apresentamos um projeto de lei, que entra na pauta da Comissão na próxima semana, para recompor o Conselho Nacional dos Direitos da Pessoa Idosa e dar mais participação à sociedade civil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Cobra que se vá atrás das instituições privadas pequenas e se juntem os dados, diz que o País já tem recursos e vê no envelhecimento um mercado para quem quiser investir.",
+   "quote": [
+    88,
+    89,
+    90
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso cadastrar as instituições e juntar os dados para conhecer a realidade que hoje está escondida.",
+    "sentence": 90
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      89,
+      90
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as instituições privadas pequenas não são conhecidas e é preciso ir atrás delas, cadastrar e juntar os dados",
+     "plain": "As instituições privadas pequenas, onde podem acontecer coisas muito ruins, não são conhecidas. É preciso ir atrás, cadastrar e juntar os dados de todas, para conhecer a realidade que se esconde de nós."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      106
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o País tem condições, conhecimento, normas e também recursos para executar bem essa política pública",
+     "plain": "Nós temos condições e conhecimento, temos normas e temos recursos, sim, que podem ser bem aplicados para executar essa política pública como a Constituição manda."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      127,
+      128
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o aumento do número de pessoas idosas é mercado, porque muita gente pode pagar para ser bem atendida o resto da vida",
+     "plain": "Se a quantidade de pessoas idosas está aumentando no Brasil todo, isso é mercado. Quem tem a sua economia, o apoio da família, a pensão ou pelo menos o benefício pode pagar alguma coisa para ser muito bem atendido o resto da vida."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao promotor Élder Ximenes e passa a palavra a Renato Gomes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reconhece que a Secretaria não tinha informação sobre as instituições, conta o formulário nacional e defende financiamento permanente no orçamento e instituições públicas.",
+   "quote": [
+    64,
+    65
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": 59,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As instituições precisam de um modelo de financiamento permanente no orçamento, e não de auxílios pontuais.",
+    "sentence": 65
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Secretaria não tinha informação alguma sobre as instituições e só soube delas depois de um formulário com cerca de 6 mil respostas",
+     "plain": "Nós não tínhamos informação alguma sobre essas instituições. Lançamos um formulário nacional para que os responsáveis nos passassem os dados de que precisávamos e recebemos cerca de 6 mil respostas de todo o País."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os auxílios são pontuais e o que as instituições precisam é de um modelo de financiamento permanente, previsto no orçamento",
+     "plain": "Esses auxílios são pontuais. O que essas instituições precisam mesmo é de um modelo de financiamento permanente, previsto no orçamento, para que as necessidades básicas sejam atendidas e elas possam atender bem."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      68,
+      69,
+      70
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Secretaria defende criar instituições de longa permanência públicas e recebe demandas de vários Municípios",
+     "plain": "Sobre as vagas, a Secretaria defende criar instituições de longa permanência públicas. Essa pauta está em discussão e vários Municípios têm nos procurado, provocados por Ministérios Públicos locais, para criar as suas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Renato Gomes e passa a palavra a Sandro Poleto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reclama que a fiscalização cai com força desproporcional sobre as filantrópicas, compara o repasse público com o custo de um idoso e diz que idoso não é lucro.",
+   "quote": [
+    49,
+    50,
+    51,
+    52
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 64,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A fiscalização age com força desproporcional sobre as instituições filantrópicas, que precisam de apoio.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as fiscalizações agem com força desproporcional contra as instituições filantrópicas, que são entidades privadas e têm direitos",
+     "plain": "Como fazemos parte da rede do SUAS, o sistema público de assistência social, somos fiscalizados pelo Ministério Público, pelos conselhos e pela vigilância sanitária. Em geral eles agem com força desproporcional contra as filantrópicas."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o repasse médio por pessoa idosa na filantropia é de 250 reais",
+     "plain": "Sabem quanto é hoje, no Brasil, a média do repasse por uma pessoa idosa na filantropia? São 250 reais."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      73,
+      74,
+      75
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "estão surgindo mais instituições privadas porque dá lucro, e para os vicentinos o idoso não é lucro, é uma vida",
+     "plain": "Vocês viram nas estatísticas que estão surgindo mais instituições privadas porque aquilo dá lucro. Para nós vicentinos, o idoso não é lucro. É uma vida, é um ser humano que precisa ser cuidado."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Anuncia emenda de Comissão ao Orçamento da União para fortalecer as instituições, lembra que o Executivo não é obrigado a gastar e cobra pressão da população.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão aprovou emenda ao Orçamento da União para fortalecer as instituições, mas o Executivo não é obrigado a gastar esse dinheiro.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão aprovou emenda de 200 milhões de reais ao Orçamento da União para fortalecer as instituições, e isso não basta",
+     "plain": "Na última quarta-feira aprovamos aqui uma emenda de Comissão ao Orçamento da União, de 200 milhões de reais, para fortalecer as instituições de longa permanência. Sabemos que isso não é suficiente."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a emenda não é impositiva e o Executivo não será obrigado a gastar os 200 milhões de reais",
+     "plain": "O Executivo não terá a obrigação de gastar esses 200 milhões de reais, mesmo que o Relator os deixe no Orçamento da União. Vamos trabalhar para que essa previsão entre de verdade."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "essa visão só muda quando a população cobrar os parlamentares e o Executivo, e em alguns anos um quarto do País será idoso",
+     "plain": "Só vamos mudar essa visão quando a população cobrar de verdade os parlamentares e também o Executivo. Em alguns anos, um quarto da nossa população, 25%, será idosa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Conta que muitos idosos estão voltando à universidade e fazendo concurso público, e divulga o curso de gerontologia da UniSER.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Pessoas idosas estão voltando a estudar e a prestar concurso público.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "muitos idosos estão voltando à universidade e fazendo concurso público, e não são poucos",
+     "plain": "Tenho acompanhado muitos idosos voltando à universidade e se capacitando. Eu mesma faço concursos públicos e tenho visto idosos prestando concurso. Não está sendo pouco, não."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata que aprendeu no Japão outro olhar sobre a velhice e descreve as clínicas em que a pessoa idosa passa o dia ou mora.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O olhar brasileiro sobre a velhice invalida a pessoa idosa, ao contrário do que ela viu no Japão.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "cheguei ao Japão com o etarismo que temos no Brasil e aprendi que a nossa visão da velhice invalida e protege demais",
+     "plain": "Cheguei ao Japão com uma doença que temos aqui no Brasil em relação aos idosos, o etarismo, o preconceito por causa da idade. Aprendi este ano na UniSER que temos uma visão que invalida um pouco, que protege demais."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Japão as clínicas para idosos funcionam bem, com atividades no dia e a opção de morar lá",
+     "plain": "No Japão as clínicas para idosos funcionam muito bem. A pessoa pode passar um período do dia lá, com várias atividades, e também pode morar lá para sempre. É um cuidado respeitoso com a diferença na velhice."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Eunice Santos, da Associação dos Idosos do Varjão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b015",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra que, quando existia a Secretaria do Idoso, o idoso tinha lazer e vida, e diz que depois disso os idosos ficaram jogados.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quando existia a Secretaria do Idoso o cuidado chegava, e depois dela os idosos ficaram sem atenção.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando existia a Secretaria do Idoso o idoso era bem cuidado, e depois que acabaram com ela os idosos ficaram jogados",
+     "plain": "Quando existia a Secretaria do Idoso, o idoso era bem cuidado. Tinha lazer, passeio, vida. Depois que acabaram com ela, os nossos idosos ficaram jogados."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados, convida todos a ver a exposição de fotos e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 67,
+   "to_sentence": 27,
+   "from_claim": "b004c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Karla diz que o País desconhece quantas instituições existem. Vejuse traz os números do último Censo SUAS para mostrar o tamanho desse desconhecimento."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 95,
+   "from_claim": "b005c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Vejuse diz que o conselho nacional não representa a pessoa idosa. A presidência concorda e conta que ele foi desvirtuado no início do Governo Bolsonaro."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 89,
+   "to_sentence": 58,
+   "from_claim": "b006c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O promotor retoma a cobrança de Karla por um cadastro e acrescenta que as casas privadas pequenas, onde pode haver coisa ruim, são justamente as que ninguém conhece."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 106,
+   "to_sentence": 56,
+   "from_claim": "b006c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Os dois dizem a mesma coisa de lugares diferentes: o dinheiro existe, o que falta é aplicá-lo bem nessa política."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 27,
+   "from_claim": "b008c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O governo confirma o diagnóstico de Karla: até lançar o formulário nacional, a Secretaria não tinha informação alguma sobre as instituições."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 68,
+   "to_sentence": 123,
+   "from_claim": "b008c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "À cobrança de Vejuse, que mostra um Estado com uma só instituição no Ceará, o governo responde que a Secretaria defende criar instituições públicas."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 36,
+   "to_sentence": 41,
+   "from_claim": "b010c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Karla diz que o Ministério Público cobra pouco a participação do poder público. Sandro diz o contrário, que a fiscalização cai com força desproporcional sobre as filantrópicas."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 74,
+   "to_sentence": 127,
+   "from_claim": "b010c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "O promotor vê no aumento do número de pessoas idosas um mercado para quem quiser investir. Sandro responde que, para os vicentinos, o idoso não é lucro, e sim uma vida."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 65,
+   "from_claim": "b010c2",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O governo defende um financiamento permanente. Sandro mostra quanto é hoje o repasse médio por pessoa idosa nas casas filantrópicas."
+  },
+  {
+   "from": "b011",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 65,
+   "from_claim": "b011c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Ao pedido de um financiamento que esteja no orçamento, a presidência responde com a emenda que a Comissão acabou de aprovar para o Orçamento da União."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 77,
+   "from_claim": "b011c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Ao pedido de socorro das casas vicentinas aos deputados, a presidência responde com a emenda aprovada para o fortalecimento dessas instituições."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 15,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "As duas alunas do mesmo curso dizem o mesmo ponto por caminhos diferentes: a pessoa idosa segue aprendendo, e o que atrapalha é o olhar que a invalida."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b005"
+   ],
+   "claims": [
+    "b002c1",
+    "b005c1",
+    "b005c2"
+   ],
+   "note": "A Frente Nacional e a presidência da Comissão, de lados diferentes da sala, concordam que falta uma política nacional de cuidados e que a sociedade civil foi tirada do lugar em que ela se discute."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b006",
+    "b008"
+   ],
+   "claims": [
+    "b002c3",
+    "b006c1",
+    "b008c1"
+   ],
+   "note": "A Frente Nacional, o Ministério Público do Ceará e a Secretaria do governo federal concordam que o País não sabe quantas instituições existem e que é preciso cadastrar e juntar os dados."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b008",
+    "b015"
+   ],
+   "claims": [
+    "b002c2",
+    "b004c2",
+    "b004c3",
+    "b008c3",
+    "b015c1"
+   ],
+   "note": "Entidades de idosos, a Frente Nacional e a própria Secretaria do governo federal concordam que o Estado não acolhe quem precisa e que faltam instituições públicas."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b010",
+    "b011"
+   ],
+   "claims": [
+    "b008c2",
+    "b010c2",
+    "b010c3",
+    "b011c1"
+   ],
+   "note": "A Secretaria do governo federal, as casas vicentinas e a presidência da Comissão concordam que essas instituições precisam de dinheiro público previsto no orçamento, e não de socorro de vez em quando."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 123,
+   "addressed_to": "governo",
+   "answered_by": "b008",
+   "gist": "que o Estado execute as políticas de assistência social e ponha recursos nelas",
+   "plain": "O Estado vai executar as políticas de assistência social e colocar dinheiro nelas?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b008",
+   "sentence": 59,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "trazer aos próximos debates os Ministérios que têm o orçamento das políticas para idosos",
+   "plain": "Os próximos debates vão trazer também os Ministérios que estão diretamente envolvidos nessa política?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b010",
+   "sentence": 64,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "onde estão os direitos das instituições que cuidam das pessoas idosas",
+   "plain": "A lei fala dos deveres das instituições, mas onde estão os direitos delas?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 23,
+   "gist": "14% dos idosos têm alguma incapacidade, Pesquisa Nacional de Saúde de 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 29,
+   "gist": "queda de 23% nas vagas em instituições filantrópicas entre os censos",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 33,
+   "gist": "número de instituições privadas aumentou 146% entre os dois censos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 67,
+   "gist": "2.047 unidades de acolhimento para pessoas idosas no País inteiro",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 69,
+   "gist": "32% dessas unidades são governamentais e 68% não são",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 29,
+   "gist": "o formulário nacional recebeu cerca de 6 mil respostas",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 43,
+   "gist": "a segunda ação alcançou 2.117 instituições e quase 70 mil idosos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 44,
+   "gist": "as duas ações somaram 165 milhões de reais investidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 50,
+   "gist": "o repasse médio por pessoa idosa na filantropia é de 250 reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 52,
+   "gist": "um idoso custa em média 3 mil e 500 reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 26,
+   "gist": "a entidade já teve mais de mil casas e hoje tem pouco mais de 550",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b011",
+   "sentence": 9,
+   "gist": "emenda de Comissão destinou 200 milhões de reais ao Orçamento da União",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o coro das entidades cobrando o Estado e o reconhecimento do governo de que faltavam dados e de que o auxílio da pandemia foi pontual.",
+  "omitted": "Ficaram de fora a queixa das casas filantrópicas sobre fiscalização desproporcional, o contraste entre o repasse público e o custo real de uma pessoa idosa e as falas sobre o preconceito com a velhice."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Dinheiro permanente no orçamento, não socorro pontual",
+   "statement_plain": "As casas que abrigam pessoas idosas precisam de dinheiro público fixo, previsto no Orçamento, e não de auxílio de vez em quando, e o Estado também tem de criar as suas próprias casas.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b010c2",
+    "b010c3",
+    "b011c1",
+    "b008c3"
+   ],
+   "note": "Põe do mesmo lado a Secretaria do governo federal, uma entidade católica de caridade e a presidência da Comissão, que são setores diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "O dinheiro existe, falta ir para o lugar certo",
+   "statement_plain": "O País já tem recursos, normas e até mercado para cuidar de quem envelhece. O problema não é a falta de dinheiro, é que ele não está sendo aplicado onde deveria.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b006c2",
+    "b006c3"
+   ],
+   "note": "Uma assistente social de uma associação do Ceará e um promotor de justiça, de setores diferentes, sustentam isto contra o coro que pede mais orçamento."
+  },
+  {
+   "id": "t3",
+   "title": "Sem saber quantas são, não dá para planejar",
+   "statement_plain": "Antes de decidir o que fazer pelas casas de idosos é preciso saber quantas existem, onde estão, quem mora nelas e com que recursos elas contam.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b006c1",
+    "b008c1"
+   ],
+   "note": "Junta um movimento da sociedade civil, o Ministério Público do Ceará e a própria Secretaria do governo federal, que admite ter ficado sem dados até a pandemia."
+  },
+  {
+   "id": "t4",
+   "title": "O Estado tem o dever de acolher e hoje não acolhe",
+   "statement_plain": "Acolher a pessoa idosa que precisa é dever do Estado, escrito na Constituição. Hoje esse dever não é cumprido, e quem não pode pagar depende da caridade.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b004c2",
+    "b004c3",
+    "b015c1",
+    "b002c1",
+    "b005c1"
+   ],
+   "note": "Reúne a Frente Nacional, uma associação do Ceará, uma associação de moradores idosos e a presidência da Comissão, que é parlamentar."
+  },
+  {
+   "id": "t5",
+   "title": "Envelhecer é tempo de aprender e de atividade",
+   "statement_plain": "A velhice não é tempo vazio. Pessoas idosas voltam a estudar, prestam concurso e seguem ativas, e o que atrapalha é o preconceito por causa da idade.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b013c1",
+    "b013c2"
+   ],
+   "note": "Vem de duas alunas do mesmo curso de gerontologia, uma delas atriz, e contraria a ideia corrente de que a casa de idosos é lugar de abandono."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "instituições de longa permanência",
+   "plain": "casas onde pessoas idosas moram de forma permanente, com cuidado e apoio. Podem ser públicas, filantrópicas ou privadas",
+   "fala": "b001",
+   "sentence": 3
+  },
+  {
+   "term": "CIDOSO",
+   "plain": "apelido da Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados",
+   "fala": "b001",
+   "sentence": 3
+  },
+  {
+   "term": "cuidados de longa duração",
+   "plain": "o apoio contínuo de que uma pessoa mais velha precisa para o cuidado pessoal, as tarefas de casa e a vida social",
+   "fala": "b002",
+   "sentence": 9
+  },
+  {
+   "term": "idadismo",
+   "plain": "preconceito contra uma pessoa por causa da idade dela",
+   "fala": "b002",
+   "sentence": 10
+  },
+  {
+   "term": "IPEA",
+   "plain": "Instituto de Pesquisa Econômica Aplicada: órgão federal de pesquisa que produz estudos e dados sobre políticas públicas",
+   "fala": "b002",
+   "sentence": 29
+  },
+  {
+   "term": "SUAS",
+   "plain": "Sistema Único de Assistência Social: a rede pública de assistência social, onde ficam os serviços de acolhimento",
+   "fala": "b002",
+   "sentence": 29
+  },
+  {
+   "term": "ILPI",
+   "plain": "sigla de instituição de longa permanência para idosos: a casa onde pessoas de 60 anos ou mais moram, com cuidados e apoio",
+   "fala": "b004",
+   "sentence": 91
+  },
+  {
+   "term": "termo de fomento",
+   "plain": "acordo em que o poder público repassa dinheiro a uma entidade sem fins lucrativos para ela prestar um serviço",
+   "fala": "b006",
+   "sentence": 69
+  },
+  {
+   "term": "Estatuto do Idoso",
+   "plain": "a lei que reúne os direitos das pessoas de 60 anos ou mais no Brasil, hoje chamada Estatuto da Pessoa Idosa",
+   "fala": "b006",
+   "sentence": 80
+  },
+  {
+   "term": "ação civil pública",
+   "plain": "processo na Justiça para defender um direito que é de muita gente, movido por exemplo pelo Ministério Público",
+   "fala": "b006",
+   "sentence": 108
+  },
+  {
+   "term": "termos de ajustamento de conduta",
+   "plain": "acordo em que uma instituição se compromete com o Ministério Público a corrigir uma irregularidade dentro de um prazo",
+   "fala": "b006",
+   "sentence": 178
+  },
+  {
+   "term": "ANVISA",
+   "plain": "Agência Nacional de Vigilância Sanitária: órgão federal que fixa e fiscaliza regras de saúde e segurança",
+   "fala": "b008",
+   "sentence": 58
+  },
+  {
+   "term": "RDC",
+   "plain": "resolução da diretoria colegiada da Anvisa: a norma que diz como uma casa de idosos tem de funcionar",
+   "fala": "b008",
+   "sentence": 61
+  },
+  {
+   "term": "PPA",
+   "plain": "Plano Plurianual: o plano de quatro anos em que o governo registra quanto vai gastar em cada política",
+   "fala": "b008",
+   "sentence": 65
+  },
+  {
+   "term": "etarismo",
+   "plain": "preconceito por causa da idade, o mesmo que idadismo",
+   "fala": "b013",
+   "sentence": 5
+  }
+ ]
+}

@@ -1,0 +1,857 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 140,
+ "model": "LLM lendo o prompt hearing-140 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T17:33:08Z",
+ "prompt_sha256": "37c5750753b7f88d184725d6319a386dcdd8e064dd22c534fe7975eb5e6b42c7",
+ "sentences_hash": "f259eb039d33e2cb",
+ "review": {
+  "pairs_read": 12,
+  "pairs_fixed": 5
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Saúde ouviu o diretor da Organização Pan-Americana da Saúde sobre as lições da pandemia e o risco de surtos nas Américas. Ele apresentou o quadro da queda da cobertura vacinal, os números da desinformação e as barreiras que impedem as famílias de vacinar. Um deputado cobrou o enfrentamento do negacionismo e o registro individualizado de todas as vacinas.",
+ "stakes": "Estava em jogo o compromisso do Parlamento e dos gestores com a recuperação das coberturas vacinais e com o preparo do país para a próxima emergência sanitária.",
+ "central_question": "O que o Brasil precisa fazer para recuperar a cobertura vacinal e estar preparado para a próxima pandemia?",
+ "synopsis_plain": "A comissão ouviu o diretor da agência de saúde das Américas sobre o que a pandemia ensinou e o risco de novos surtos. Ele mostrou a queda da vacinação, os números da desinformação e o que impede as famílias de chegar ao posto. Um deputado cobrou o enfrentamento do negacionismo e o registro de todas as vacinas, dose por dose.",
+ "stakes_plain": "Se o Parlamento e os gestores vão assumir a recuperação da vacinação e o preparo do país para a próxima emergência.",
+ "central_question_plain": "O que o Brasil precisa fazer para a vacinação voltar a subir e estar pronto para a próxima pandemia?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Queda da cobertura vacinal",
+   "description": "Discute-se o tamanho e a causa da queda da vacinação nas Américas e no Brasil nos últimos anos.",
+   "axis": {
+    "pro": "A cobertura vacinal despencou e o retrocesso é grave, com milhões de crianças sem vacina.",
+    "contra": "A queda já vinha desde 2015 em toda a região e os dados mais recentes já mostram recuperação.",
+    "pro_plain": "A vacinação caiu muito e milhões de crianças ficaram sem vacina, e isso é um retrocesso grave.",
+    "contra_plain": "A queda vem de antes da pandemia e vale para toda a região, e os últimos dados já mostram recuperação."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Preparo para novas pandemias",
+   "description": "Discute-se o que o país precisa montar agora para responder melhor à próxima emergência sanitária.",
+   "axis": {
+    "pro": "É preciso fortalecer vigilância, laboratório e produção agora, porque a chance de uma nova pandemia é alta.",
+    "contra": "As capacidades que existem hoje já dão conta e não é preciso mudar o que está montado.",
+    "pro_plain": "É preciso reforçar agora a vigilância, os laboratórios e a produção, porque uma nova pandemia é provável.",
+    "contra_plain": "O que já existe dá conta e não precisa mudar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Desinformação e recusa vacinal",
+   "description": "Discute-se como lidar com quem espalha informação falsa sobre vacina e com quem ficou em dúvida.",
+   "axis": {
+    "pro": "É preciso enfrentar de frente o negacionismo e quem espalha informação falsa sobre vacinas.",
+    "contra": "A maioria não é contra a vacina, só tem dúvida, e o caminho é informar e conquistar a confiança.",
+    "pro_plain": "É preciso peitar quem espalha mentira sobre vacina, porque isso é negacionismo e faz estrago.",
+    "contra_plain": "Quase ninguém é contra a vacina, muita gente só tem dúvida, e o caminho é informar e ganhar confiança."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Barreiras de acesso à vacina",
+   "description": "Discute-se por que a vacina não chega a quem precisa mesmo estando disponível e de graça.",
+   "axis": {
+    "pro": "A vacina não chega porque existem barreiras de horário, de renda e de cultura, e a estratégia precisa mudar.",
+    "contra": "Se a vacina está disponível de graça e o posto está aberto, o problema não é de acesso.",
+    "pro_plain": "A vacina não chega porque há barreiras de horário, de renda e de cultura, e a estratégia precisa mudar.",
+    "contra_plain": "Se a vacina é de graça e o posto está aberto, o problema não é de acesso."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da reunião e autora do requerimento",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata, identificada como Iza Arruda, Bloco/MDB - PE, e autora do Requerimento nº 97, de 2023, em b001.6",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Saúde da Câmara dos Deputados, que acompanha as políticas e os projetos de lei sobre saúde"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor da Organização Pan-Americana da Saúde",
+   "org": "OPAS",
+   "basis": "anunciado pela presidência em b001.7 e convidado a compor a Mesa",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "diretor da Opas",
+   "org_plain": "Organização Pan-Americana da Saúde, o braço das Américas da Organização Mundial da Saúde"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal e membro da Comissão de Saúde",
+   "org": "Câmara dos Deputados",
+   "basis": "identificado como Jorge Solla, Bloco/PT - BA, na lista de oradores e chamado pela presidência em b003.16",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT da Bahia",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais fazem as leis"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.5
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.35
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "A presidência registra em b003.11 e b003.12 a presença de prefeitos, de secretarias municipais de saúde, da direção do CONASS e de vários técnicos da OPAS, e a ata marca palmas em quatro falas.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência e relata que 2,7 milhões de crianças estão sem vacina e que as Américas caíram para a segunda pior cobertura vacinal.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cobertura vacinal caiu a ponto de as Américas se tornarem a segunda pior região, com milhões de crianças sem vacina.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 2,7 milhões de crianças sem as vacinas de difteria, tétano e coqueluche, e as Américas caíram para a segunda pior cobertura",
+     "plain": "Há registros de 2,7 milhões de crianças que não tomaram as vacinas contra difteria, tétano e coqueluche. Em 2010 as Américas eram a região com a segunda maior cobertura vacinal, e hoje são a segunda pior."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta as lições da pandemia, a chance de uma nova emergência e os números da desinformação, e defende novas estratégias de vacinação em cada país.",
+   "quote": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "open_question": 209,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É o momento de implementar as lições da pandemia, fortalecendo vigilância, laboratório e coordenação em cada país.",
+    "sentence": 44
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      59,
+      60
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a chance de uma nova pandemia é de 22% a 28% em 10 anos, e a estimativa é até um pouco conservadora",
+     "plain": "A chance de uma nova pandemia em 1 ano é de 2,5% a 3,3%, nos próximos 10 anos de 22% a 28% e nos próximos 25 anos de 47% a 57%. E essa conta é até um pouco conservadora, porque o desmatamento e a urbanização aumentam o risco."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      80,
+      81,
+      82
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "entre 15% e 18% das pessoas têm dúvida sobre se vacinar, não são contra a vacina e só querem mais informação",
+     "plain": "A imunidade coletiva protegeria esse grupo. O problema é que, além dele, entre 15% e 18% das pessoas têm dúvida se devem se vacinar. Não são contra a vacina, elas só exigem mais informação."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      88,
+      89,
+      90
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as autoridades precisam convidar líderes religiosos e comunitários e traduzir em linguagem simples como a vacina é feita",
+     "plain": "É importante que as autoridades sanitárias convidem líderes religiosos para explicar como a vacina é fabricada, e também líderes comunitários. E é importante traduzir em linguagem compreensível como a vacina é produzida e testada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Agradece a exposição e relata que os programas do seu município levam a vacina à feira, à casa e ao horário estendido, aumentando as imunizações.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Programas que levam o cuidado à feira, à casa e ao horário estendido aumentaram muito a imunização no município.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os programas Feira Viva, Saúde em Casa e Saúde Até Mais Tarde aumentaram muito as imunizações",
+     "plain": "Temos o Programa Feira Viva, que leva esse cuidado aos feirantes. Temos ainda o Saúde em Casa e o Saúde Até Mais Tarde. Com eles, de fato aumentamos muito essas imunizações."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "preparar-se para as próximas pandemias exige planejamento, investimento e a participação de lideranças e dos profissionais de saúde",
+     "plain": "O senhor falou da importância de se preparar para as próximas pandemias, com esses pilares, planejamento, investimento, participação de lideranças religiosas e políticas e, sobretudo, dos profissionais de saúde."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a cobertura vacinal foi o maior estrago do período, cobra o enfrentamento do negacionismo e pede o registro individualizado de todas as vacinas.",
+   "quote": [
+    48,
+    49,
+    50
+   ],
+   "covered": true,
+   "evidence": [
+    19
+   ],
+   "open_question": 67,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A campanha antivacina é preocupante e é preciso se reestruturar para enfrentar o negacionismo científico.",
+    "sentence": 49
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a cobertura vacinal foi o maior estrago entre os indicadores de saúde, com retrocesso de 20 anos ou mais",
+     "plain": "De todos os indicadores de saúde que pioraram, a cobertura vacinal foi o maior estrago. Em vários outros o retrocesso foi de 8, 10, 15 anos. Na cobertura vacinal, em muitas situações, foi de 20 anos ou mais."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso se reestruturar para enfrentar o negacionismo científico no Parlamento e em todos os espaços da sociedade",
+     "plain": "Essa campanha antivacina é realmente preocupante. Mais do que nunca vamos precisar nos reestruturar para enfrentar esse negacionismo científico, não só aqui no Parlamento, mas em todos os espaços da sociedade."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "vacinar exigia 1 mês de reuniões com moradores, mães e igrejas para conquistar a confiança, e essa credibilidade se perdeu",
+     "plain": "Nas campanhas de pólio passávamos às vezes 1 mês em reuniões com associação de moradores, associações de mães e igrejas, para conquistar a confiança das pessoas. Essa credibilidade nós perdemos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor da Opas para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que a vacina não chega só por estar disponível, aponta as barreiras invisíveis e defende que nenhum preconceito impeça a vacina contra o câncer.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 34,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A vacina estar disponível e de graça não significa que não haja barreira para a família chegar até ela.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é um engano achar que, porque a vacina é de graça e o posto está aberto, não existe barreira",
+     "plain": "O nosso engano é achar que não existe barreira quando a vacina está disponível, o posto aberto e tudo de graça. Não é assim. Citei o caso da mulher que tem de ir de 10 a 12 vezes, se tudo correr bem."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      16
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dizer que criança bem nutrida não precisa de vacina não é medicina, é charlatanismo",
+     "plain": "Dizer que a criança bem nutrida dispensa a vacina, ou que a vacina seria um corpo estranho ao organismo, não é medicina, é charlatanismo puro. São fantasias que essas pessoas transmitem."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nenhum preconceito ou ideologia pode impedir as meninas de se protegerem de morrer de câncer do colo do útero",
+     "plain": "Temos a estratégia, mas, se não a implantamos rápido, quem é sanitarista se incomoda do ponto de vista ético. Nenhum preconceito ou ideologia pode impedir as meninas de se protegerem de morrer de câncer do colo do útero."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao diretor da Opas, anuncia o fórum sobre diabetes e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 80,
+   "to_sentence": 15,
+   "from_claim": "b002c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Diante do quadro de queda da cobertura apresentado pela presidência, explica que a maior parte das pessoas não é contra a vacina, apenas tem dúvida."
+  },
+  {
+   "from": "b003",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 88,
+   "from_claim": "b003c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Confirma os pilares apresentados pelo diretor da Opas, do planejamento à participação das lideranças e dos profissionais de saúde."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 15,
+   "from_claim": "b004c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Reforça o diagnóstico da presidência com outra medida: na cobertura vacinal o retrocesso foi de 20 anos ou mais."
+  },
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 55,
+   "to_sentence": 88,
+   "from_claim": "b004c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Concorda que o caminho é conquistar a confiança e lembra o mês de reuniões com moradores, mães e igrejas nas campanhas de pólio."
+  },
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 48,
+   "to_sentence": 81,
+   "from_claim": "b004c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Diante da leitura de que a maioria apenas tem dúvida, sustenta que a campanha antivacina exige enfrentamento do negacionismo científico."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 48,
+   "from_claim": "b006c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Acompanha o deputado no confronto e chama de charlatanismo a ideia de que criança bem nutrida não precisa de vacina."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 57,
+   "from_claim": "b006c1",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Responde ao relato das campanhas antigas mostrando que o obstáculo de hoje não é só a confiança, mas também as barreiras invisíveis de acesso."
+  },
+  {
+   "from": "b006",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 6,
+   "from_claim": "b006c1",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "Dá nome ao que os programas do município fazem: remover as barreiras invisíveis que impedem a família de chegar ao posto."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b004"
+   ],
+   "claims": [
+    "b001c1",
+    "b004c1"
+   ],
+   "note": "A presidência da comissão e o deputado concordam que a cobertura vacinal caiu de forma grave, com milhões de crianças sem vacina e retrocesso de duas décadas."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b003"
+   ],
+   "claims": [
+    "b002c1",
+    "b003c2"
+   ],
+   "note": "O diretor da Opas e a presidência da comissão concordam que é preciso se preparar agora para a próxima pandemia, com planejamento, investimento e profissionais de saúde."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b003",
+    "b006"
+   ],
+   "claims": [
+    "b003c1",
+    "b006c1"
+   ],
+   "note": "A presidência da comissão e o diretor da Opas concordam que a vacina não chega só por estar disponível, e que é preciso levar o serviço até as pessoas."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 209,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que o Parlamento e os gestores assumam a recuperação vacinal",
+   "plain": "O Parlamento e os gestores vão assumir o compromisso de recuperar as coberturas vacinais no Brasil?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 67,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "levar todas as vacinas para o registro individualizado",
+   "plain": "Por que o registro de cada dose, que já existe para uma das vacinas, ainda não vale para todas as outras?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b006",
+   "sentence": 34,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "não impedir as meninas de se protegerem do câncer",
+   "plain": "O Parlamento vai deixar de lado o debate moral que trava a vacina contra o câncer do colo do útero?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 14,
+   "gist": "2,7 milhões de crianças sem vacina de difteria e tétano",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 54,
+   "gist": "mais de 3,5 milhões de casos de dengue na região",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 59,
+   "gist": "22% a 28% de chance de pandemia em 10 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 76,
+   "gist": "1,5% da população pesquisada é antivacina",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 81,
+   "gist": "entre 15% e 18% têm dúvida sobre se vacinar",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b002",
+   "sentence": 121,
+   "gist": "32% das enfermeiras tinham dúvida sobre se vacinar",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b002",
+   "sentence": 123,
+   "gist": "21% dos médicos disseram a mesma coisa",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b002",
+   "sentence": 128,
+   "gist": "42% decidem pela orientação do profissional de saúde",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b002",
+   "sentence": 135,
+   "gist": "10 a 12 idas ao posto para todas as doses",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b002",
+   "sentence": 173,
+   "gist": "95% de cobertura bastam para a imunidade coletiva",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b002",
+   "sentence": 213,
+   "gist": "23% das crianças da pandemia deixaram de se vacinar",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b004",
+   "sentence": 11,
+   "gist": "retrocesso de 20 anos na cobertura vacinal",
+   "disputed_by": [
+    {
+     "fala": "b002",
+     "sentence": 207
+    }
+   ]
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil",
+   "parlamentar"
+  ],
+  "angle": "A matéria escolheu o alerta do diretor da Opas sobre fortalecer a vigilância e criar novas estratégias de vacinação, ligando a baixa cobertura às notícias falsas.",
+  "omitted": "Ficaram de fora as barreiras que impedem a família de chegar ao posto e todo o trecho sobre produção de vacinas e insumos na região."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O negacionismo tem de ser enfrentado de frente",
+   "statement_plain": "Quem espalha mentira sobre vacina precisa ser enfrentado, no Parlamento e fora dele, porque o que está em jogo é a vida de crianças e de meninas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c2",
+    "b006c3"
+   ],
+   "note": "Não é a ideia de um lado só da sala: o deputado e o diretor de um organismo internacional, que não costuma entrar em briga política, defendem o mesmo confronto."
+  },
+  {
+   "id": "t2",
+   "title": "A maioria não é contra a vacina, só tem dúvida",
+   "statement_plain": "Quase ninguém é antivacina de verdade: a maior parte das pessoas está em dúvida e precisa de informação e de gente em quem confiar para decidir.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b002c3",
+    "b004c3"
+   ],
+   "note": "O mesmo deputado que pede o enfrentamento também sustenta esta ideia quando lembra o mês de reuniões com moradores e igrejas: a divergência atravessa as pessoas, não os setores."
+  },
+  {
+   "id": "t3",
+   "title": "A vacina precisa ir até as pessoas",
+   "statement_plain": "A vacinação caiu de forma grave e não volta a subir só com o posto aberto: é preciso levar a vacina à feira, à casa e ao horário em que a família pode ir.",
+   "core_theme": "d4",
+   "positions": {
+    "d1": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b004c1",
+    "b003c1",
+    "b006c1"
+   ],
+   "note": "Junta a presidência da comissão, o deputado e o diretor da Opas, com a experiência concreta de um município pequeno sustentando a mesma ideia que o organismo internacional."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "OPAS",
+   "plain": "Organização Pan-Americana da Saúde, o braço das Américas da Organização Mundial da Saúde",
+   "fala": "b001",
+   "sentence": 7
+  },
+  {
+   "term": "cobertura vacinal",
+   "plain": "percentual da população que tomou determinada vacina, usado para saber se a proteção é suficiente",
+   "fala": "b001",
+   "sentence": 15
+  },
+  {
+   "term": "atenção primária",
+   "plain": "primeiro nível do atendimento de saúde, o posto e a equipe de saúde da família, porta de entrada do sistema",
+   "fala": "b002",
+   "sentence": 8
+  },
+  {
+   "term": "CONASS",
+   "plain": "Conselho Nacional de Secretários de Saúde, que reúne as secretarias estaduais de saúde",
+   "fala": "b002",
+   "sentence": 15
+  },
+  {
+   "term": "SUS",
+   "plain": "Sistema Único de Saúde, o sistema público de saúde brasileiro, gratuito para toda a população",
+   "fala": "b002",
+   "sentence": 204
+  },
+  {
+   "term": "Regulamento Sanitário Internacional",
+   "plain": "acordo que obriga os países a avisar e a responder a emergências de saúde que possam cruzar fronteiras",
+   "fala": "b002",
+   "sentence": 31
+  },
+  {
+   "term": "RNA mensageiro",
+   "plain": "tecnologia de vacina que ensina o corpo a produzir um pedaço do vírus para treinar a defesa",
+   "fala": "b002",
+   "sentence": 91
+  },
+  {
+   "term": "barreiras invisíveis",
+   "plain": "obstáculos que não aparecem à primeira vista, como horário do posto, perda de renda e distância, e que impedem a vacinação",
+   "fala": "b002",
+   "sentence": 133
+  },
+  {
+   "term": "Fundo Rotatório",
+   "plain": "mecanismo em que os países das Américas compram vacinas juntos, para pagar menos e garantir o abastecimento",
+   "fala": "b002",
+   "sentence": 134
+  },
+  {
+   "term": "microplanejamento",
+   "plain": "planejar a vacinação bairro a bairro, para achar onde estão as pessoas que não se vacinaram",
+   "fala": "b002",
+   "sentence": 141
+  },
+  {
+   "term": "imunidade coletiva",
+   "plain": "proteção que aparece quando tanta gente está vacinada que a doença não encontra caminho para se espalhar",
+   "fala": "b002",
+   "sentence": 165
+  },
+  {
+   "term": "doenças imunopreveníveis",
+   "plain": "doenças que podem ser evitadas com vacina, como sarampo, pólio e coqueluche",
+   "fala": "b002",
+   "sentence": 200
+  },
+  {
+   "term": "zero dose",
+   "plain": "crianças que não tomaram nenhuma dose de nenhuma vacina do calendário",
+   "fala": "b002",
+   "sentence": 211
+  },
+  {
+   "term": "HPV",
+   "plain": "vírus transmitido por via sexual que pode causar câncer do colo do útero e que é prevenido por vacina",
+   "fala": "b006",
+   "sentence": 26
+  }
+ ]
+}

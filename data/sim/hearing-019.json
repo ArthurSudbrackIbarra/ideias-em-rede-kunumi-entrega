@@ -1,0 +1,2045 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 19,
+ "model": "LLM lendo o prompt hearing-019 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T03:29:01Z",
+ "prompt_sha256": "72a70c7f669a6c3ef6af0381de591c0924c9d55cfea30ed286f24ca6779bf673",
+ "sentences_hash": "96e22f663bb6665d",
+ "review": {
+  "pairs_read": 46,
+  "pairs_fixed": 11
+ },
+ "warnings": [
+  "3 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "As Comissões de Saúde e de Viação e Transportes debateram juntas os efeitos de baixar os limites de velocidade nas vias urbanas, tema do Projeto de Lei nº 2.789, de 2023. Representantes do Ministério da Saúde, da Senatran, do Ministério das Cidades, do Ipea, da OPAS, do Observatório Nacional de Segurança Viária e do WRI Brasil apresentaram dados de mortes, internações e custos. A presidência propôs criar um grupo de trabalho para destravar a tramitação do projeto.",
+ "stakes": "Estava em jogo criar um grupo de trabalho na Câmara e pedir o desapensamento do projeto, para que ele fosse votado sozinho e mais rápido.",
+ "central_question": "O Brasil deve baixar por lei a velocidade máxima nas vias urbanas para reduzir as mortes no trânsito?",
+ "synopsis_plain": "Duas comissões da Câmara ouviram técnicos do governo, de institutos de pesquisa e da área de saúde sobre baixar a velocidade máxima nas ruas e avenidas das cidades. O projeto em discussão reduz de 60 para 50 quilômetros por hora nas vias arteriais. Os convidados trouxeram números de mortes, internações e custos, e o presidente da reunião propôs criar um grupo de trabalho para acelerar a votação.",
+ "stakes_plain": "Criar ou não um grupo de trabalho para tirar o projeto da fila e levá-lo mais rápido à votação no Plenário.",
+ "central_question_plain": "O Brasil deve reduzir por lei a velocidade máxima nas ruas e avenidas das cidades?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Limites de velocidade nas vias urbanas",
+   "description": "Discute-se baixar por lei a velocidade máxima permitida nas ruas e avenidas das cidades, como propõe o projeto em análise na Câmara.",
+   "axis": {
+    "pro": "Baixar os limites de velocidade nas vias urbanas reduz mortes e lesões.",
+    "contra": "Baixar os limites atrapalha o trânsito e não resolve o problema.",
+    "pro_plain": "Andar mais devagar na cidade faz morrer menos gente, e quem já fez isso não perdeu tempo de viagem.",
+    "contra_plain": "Reduzir a velocidade só atrasa quem dirige e não muda o número de acidentes."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Fiscalização e conscientização",
+   "description": "Discute-se o que muda o comportamento no trânsito: radar, multa e fiscalização, ou campanhas de educação e conscientização.",
+   "axis": {
+    "pro": "Sem radar, multa e fiscalização, a velocidade não cai.",
+    "contra": "A mudança vem da conscientização e da educação, não de mais radares.",
+    "pro_plain": "A regra só pega quando existe radar, multa e agente na rua para fazer valer.",
+    "contra_plain": "O que muda o trânsito é educar e convencer as pessoas, não encher a cidade de radar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Peso do trânsito na saúde pública",
+   "description": "Discute-se o tamanho do problema: quantas pessoas morrem e se internam por acidente de trânsito, quanto isso custa e se os números estão mesmo melhorando.",
+   "axis": {
+    "pro": "As mortes e internações do trânsito são uma emergência de saúde pública e seguem graves.",
+    "contra": "Os números vêm caindo e precisam ser lidos com cuidado antes de se falar em trânsito violento.",
+    "pro_plain": "O trânsito mata e interna tanta gente que virou um caso de saúde pública, e a conta chega ao SUS.",
+    "contra_plain": "As mortes caíram de verdade na última década, e é preciso comparar com cuidado antes de dizer que o país é o pior."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Mortes de motociclistas",
+   "description": "Discute-se por que os motociclistas concentram hoje as mortes e as internações do trânsito e o que fazer a respeito.",
+   "axis": {
+    "pro": "A moto está no centro do aumento das mortes e exige regras e espaço próprios.",
+    "contra": "Endurecer com a moto não resolve, porque ela é o meio de trabalho de muita gente.",
+    "pro_plain": "A moto virou a maior causa de morte e internação no trânsito, e precisa de regra e espaço próprios.",
+    "contra_plain": "Apertar a regra da moto não resolve, porque muita gente depende dela para trabalhar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Uso do dinheiro do trânsito",
+   "description": "Discute-se por que os fundos alimentados por multas, seguro e impostos do trânsito não são aplicados em prevenção, educação e obras.",
+   "axis": {
+    "pro": "O dinheiro existe, não é aplicado, e o Parlamento precisa cobrar.",
+    "contra": "Os recursos já são aplicados e o problema não é falta de dinheiro.",
+    "pro_plain": "O dinheiro da multa e dos impostos do trânsito está lá e não vira prevenção, e alguém precisa cobrar.",
+    "contra_plain": "O dinheiro já é usado como deve, e o problema do trânsito está em outro lugar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Espaço para bicicleta e pedestre",
+   "description": "Discute-se como redesenhar a cidade para quem anda a pé, de bicicleta e de transporte público, e o papel da velocidade nessa mudança.",
+   "axis": {
+    "pro": "Baixar a velocidade devolve espaço ao pedestre, ao ciclista e ao transporte público.",
+    "contra": "A segurança de pedestres e ciclistas depende de obras, não da velocidade dos carros.",
+    "pro_plain": "Com o carro mais devagar sobra espaço para quem anda a pé, de bicicleta e de ônibus.",
+    "contra_plain": "Quem anda a pé ou de bicicleta fica seguro com obra e ciclovia, não com carro mais devagar."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da reunião",
+   "org": "Câmara dos Deputados",
+   "basis": "abre os trabalhos como autor do requerimento em b001.1 e b001.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "reunião conjunta das Comissões de Saúde e de Viação e Transportes da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada pela presidência em b001.6",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro",
+   "org_plain": "casa do Congresso onde os deputados federais escrevem e votam as leis"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, autor do projeto",
+   "org": "Câmara dos Deputados",
+   "basis": "anunciado pela presidência em b003.0 como autor do projeto",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por São Paulo, autor do projeto",
+   "org_plain": "casa do Congresso onde os deputados federais escrevem e votam as leis"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "representante do Ministério da Saúde",
+   "org": "Ministério da Saúde",
+   "basis": "apresentada pela presidência em b001.4 e b005.14",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério que responde pelo SUS e acompanha os dados de mortes e internações no país"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Secretário Nacional de Trânsito",
+   "org": "SENATRAN",
+   "basis": "apresentado pela presidência em b007.1 e confirmado por ele em b008.22",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Senatran",
+   "org_plain": "secretaria do Ministério dos Transportes que coordena as regras de trânsito do país"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "representante da Secretaria Nacional de Mobilidade Urbana",
+   "org": "Ministério das Cidades",
+   "basis": "apresentado pela presidência em b009.22",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Mobilidade Urbana",
+   "org_plain": "área do Ministério das Cidades que cuida do transporte e da circulação dentro das cidades"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "representante do Observatório Nacional de Segurança Viária",
+   "org": "Observatório Nacional de Segurança Viária",
+   "basis": "apresentado pela presidência em b011.2, participando pelo Zoom",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Observatório Nacional de Segurança Viária",
+   "org_plain": "organização sem fins lucrativos que faz estudos e campanhas para reduzir mortes no trânsito"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "representante do WRI Brasil",
+   "org": "WRI Brasil",
+   "basis": "apresentado pela presidência em b013.2 e descrito por ele em b014.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do WRI Brasil",
+   "org_plain": "instituto de pesquisa que trabalha com cidades, clima e florestas junto a prefeituras e estados"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "técnico de planejamento e pesquisa do Ipea",
+   "org": "IPEA",
+   "basis": "apresentado pela presidência em b015.1",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ipea",
+   "org_plain": "instituto federal de pesquisa que estuda as políticas públicas e faz as contas delas"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "técnico em segurança viária",
+   "org": "OPAS",
+   "basis": "apresentado pela presidência em b017.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Organização Pan-Americana da Saúde",
+   "org_plain": "braço das Nações Unidas para a saúde nas Américas, que representa a OMS no Brasil"
+  }
+ },
+ "audience": {
+  "estimate": 25,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   }
+  ],
+  "basis": "menção à sociedade civil presente em b006.6, ao registro da vereadora em b005.9 e aos assessores e demais presentes em b027.12",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Abre o debate afirmando que as altas velocidades são o principal fator das mortes no trânsito e que a mudança virá da conscientização, não de mais radares.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A mudança no trânsito virá da conscientização da população, não do aumento de radares.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as altas velocidades nas cidades brasileiras são o principal fator das mortes no trânsito e nenhuma morte é aceitável",
+     "plain": "As altas velocidades permitidas aos carros nas nossas cidades são o principal fator das mortes e lesões no trânsito. Nenhuma morte no trânsito é aceitável. A segurança de pedestres e ciclistas tem de ser prioridade nas ações públicas."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a mudança no trânsito não virá do aumento de radares eletrônicos, mas da conscientização da população",
+     "plain": "Não é aumentando o número de radares eletrônicos que essa mudança vai acontecer. Ela vem da conscientização das pessoas sobre o ganho de um trânsito mais seguro para todos."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a velocidade é um dos maiores fatores de risco para a OMS, e no mundo o trânsito mata 1,2 milhão de pessoas por ano",
+     "plain": "Para a Organização Mundial da Saúde, a velocidade é um dos principais riscos do trânsito, e quem mais morre são pedestres, ciclistas e motociclistas. No mundo, o trânsito mata cerca de 1,2 milhão de pessoas por ano."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que os acidentes de trânsito lotam os hospitais do Rio de Janeiro e aponta as motos em alta velocidade como causa da maior parte deles.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As motos em alta velocidade causam a maior parte dos acidentes no Rio de Janeiro e exigem regra própria.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nas capitais a velocidade mata o tempo todo e os acidentes de trânsito são o que mais lota os hospitais do Rio de Janeiro",
+     "plain": "Nas capitais, a velocidade mata o tempo todo e deixa gente com sequelas, que vai parar no hospital. Hoje, o que mais lota os hospitais do Rio de Janeiro são os acidentes de trânsito."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Rio de Janeiro 80% dos acidentes de trânsito são causados por motos em alta velocidade, e muitos condutores nem são habilitados",
+     "plain": "Fiz um balanço dos acidentes de moto no Rio de Janeiro. 80% dos acidentes de trânsito no estado têm como causa a moto em alta velocidade, de quem não respeita as leis e às vezes nem as conhece. Muitos nem são habilitados."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Código de Trânsito de 1997 é claro, mas a pessoa tira a carteira e não cumpre o que prometeu, e conscientizar é difícil",
+     "plain": "Foi muito difícil conscientizar aquela cidade a respeitar a faixa de pedestre, a velocidade e o agente de trânsito. A Lei nº 9.503, de 1997, o nosso Código, é bem clara, mas a pessoa tira a carteira e não cumpre o compromisso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Jilmar Tatto, de São Paulo, autor do projeto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que São Paulo adotou o limite de 50 quilômetros por hora, os acidentes caíram 35% e a fluidez melhorou, e defende a regra para o Brasil todo.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A redução da velocidade nas vias urbanas tem de virar norma no Brasil todo.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em São Paulo os acidentes caíram 35% de imediato, foram 75 vítimas a menos no primeiro ano e a fluidez melhorou",
+     "plain": "O número de acidentes caiu 35% de imediato. Só no ano em que a medida foi adotada, foram 75 vítimas a menos. E, por incrível que pareça, para o cidadão comum a fluidez melhorou."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a queda dos acidentes economizou o equivalente a um hospital de 380 leitos por ano e ainda poupou benefícios da Previdência",
+     "plain": "Com a redução de acidentes, economizamos o equivalente a um hospital de 380 leitos por ano, contando mortos e feridos. Depois, economizamos também na Previdência, com os benefícios de quem ficaria inválido."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as pessoas resistem à velocidade média porque o costume é frear no radar e acelerar depois, e é aí que acontece o acidente",
+     "plain": "As pessoas tendem a não aceitar a fiscalização pela velocidade média. O costume é reduzir só onde há radar e acelerar logo depois. E é ali que acontece o acidente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe criar um grupo de trabalho para destravar o projeto junto à Presidência da Câmara e relata os acidentes que chegam ao hospital da Baixada Fluminense.",
+   "quote": [
+    0
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara deve criar um grupo de trabalho para destravar o projeto.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Câmara deve criar um grupo de trabalho e procurar a Presidência da Casa para destravar o projeto",
+     "plain": "Vamos criar um grupo de trabalho, deputado. Podemos marcar com o presidente Arthur Lira e destravar o projeto onde ele estiver parado, por meio da Comissão."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na Baixada Fluminense, onde vivem quase 4 milhões de pessoas, o hospital enfrenta problemas graves nos fins de semana",
+     "plain": "Nós somos da Baixada Fluminense, onde há quase 4 milhões de pessoas, e enfrentamos problemas graves lá. O que a gente passa no hospital nos fins de semana! Temos feito conscientização e políticas públicas, mas vivemos isso de perto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta os números de mortes, internações e custos do trânsito no país e defende os 50 quilômetros por hora como a medida mais efetiva.",
+   "quote": [
+    48
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11,
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A redução para 50 quilômetros por hora é uma das medidas mais efetivas contra as mortes no trânsito.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2021 houve 33 mil mortes e 210 mil internações por acidente de trânsito, com 322 milhões de reais só de internação",
+     "plain": "No Brasil, em 2021, foram 33 mil mortes por acidente de trânsito e 210 mil internações. Só as internações custaram 322 milhões de reais. Em 2022 os dados são parecidos, ainda preliminares, com 32 mil mortes e 194 mil internações."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      48
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "reduzir a velocidade média em vias urbanas para 50 quilômetros por hora é uma das medidas mais efetivas contra mortes no trânsito",
+     "plain": "Somando as evidências da Organização Mundial da Saúde e da literatura científica, reduzir para 50 quilômetros por hora a velocidade média nas vias urbanas é uma das medidas mais efetivas contra acidentes graves e mortes."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      62,
+      63,
+      64
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um estudo recente de Fortaleza mostra que a readequação de velocidade não aumentou o tempo de viagem",
+     "plain": "Existe o mito de que, se a gente reduz a velocidade na cidade, o trânsito para de fluir. Um estudo recente de Fortaleza, feito pela autarquia de trânsito da cidade, mostra que a readequação de velocidade não mudou o tempo das viagens."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Adrualdo de Lima Catão, secretário nacional de Trânsito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que há consenso técnico sobre a eficácia dessas medidas, chama a indústria da multa de falso problema e aponta a falta de fiscalização como o maior problema.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A falta de fiscalização é o maior problema do trânsito brasileiro.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há consenso na área de trânsito sobre a eficácia dessas medidas, e elas já estão no plano nacional de redução de mortes",
+     "plain": "Na área de trânsito já dá para falar em consenso sobre a eficácia e a importância dessas medidas. As que estão no projeto do deputado Jilmar Tatto já fazem parte do PNATRANS, o plano nacional de redução de mortes no trânsito."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a indústria da multa é um falso problema, levantado nas redes sociais sem dados e sem comprovação",
+     "plain": "A indústria da multa é um daqueles falsos problemas que temos no Brasil. É um problema que não existe na prática, mas que é levantado nas redes sociais, sem dados e sem comprovação, e assusta as pessoas."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maior preocupação do trânsito é a falta de fiscalização, e ele diz isso como ex-diretor de Detran e secretário nacional",
+     "plain": "Eu fui diretor do Detran e hoje sou secretário nacional de Trânsito, do Ministério dos Transportes. Por isso posso dizer com tranquilidade que a maior preocupação do trânsito é, na verdade, a falta de fiscalização."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reconhece que o radar assusta as pessoas e que as secretarias reclamam, mas cobra mais fiscalização da Lei Seca, porque nos fins de semana o hospital colapsa.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "É preciso mais fiscalização da Lei Seca, mesmo que o radar assuste as pessoas.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Lei Seca é importante, mas é preciso cobrar mais fiscalização, porque no fim de semana o hospital colapsa",
+     "plain": "A Lei Seca é de alta importância, mas precisamos cobrar e botar mais fiscalização. Chega o fim de semana e o descontrole leva o hospital ao colapso. Pedimos às guardas municipais que atuem, e ainda assim é muito difícil."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "quando se fala em radar de velocidade todos se assustam, e as secretarias municipais de transportes reclamam muito disso",
+     "plain": "Quando se fala em radar de velocidade, todo mundo fica assustado. Eu tenho dito muito isso nos governos municipais, e as pessoas das secretarias de Transportes sempre vêm reclamar dessa questão."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Mostra que a redução de velocidade cumpre os princípios da lei de mobilidade urbana e é a medida mais rápida e barata que as prefeituras podem adotar.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A redução de velocidade é o caminho mais rápido e barato para melhorar a mobilidade urbana.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei nº 12.587, de 2012, dá os princípios de mobilidade das cidades, e a velocidade é um dos meios de cumpri-los",
+     "plain": "Essa solução está alinhada com uma lei federal, a Lei nº 12.587, de 2012, que criou a Política Nacional de Mobilidade Urbana. Ela dá os princípios que as cidades seguem, e a velocidade é um dos meios de cumprir esses princípios."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      27
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mudar o planejamento das cidades leva tempo, mas a velocidade se muda rápido, com custo baixo e resultado imediato",
+     "plain": "Mudar o planejamento das cidades e redesenhar as vias dá um trabalho enorme. Já a velocidade é uma coisa que a gente consegue fazer rápido, com custo mais baixo, e o resultado aparece de imediato."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      32
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "tratar da velocidade da via só melhora a mobilidade se vier junto com o transporte público",
+     "plain": "Além de tratar da velocidade da via, precisamos entender que a mobilidade só melhora se isso vier junto com o transporte público. Eu tenho que dar essa opção à população."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra, pelo Zoom, a Rodrigo Ribeiro, do Observatório Nacional de Segurança Viária.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apoia o projeto em nome do Observatório e cita estudo de Curitiba que mostra ganho de 8 segundos por quilômetro para quem excede a velocidade.",
+   "quote": [
+    27,
+    28
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Observatório Nacional de Segurança Viária apoia o projeto que reduz a velocidade.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Observatório nasceu na primeira década de ações da ONU e ainda existe porque a meta de redução não foi atingida",
+     "plain": "O Observatório Nacional de Segurança Viária nasceu na primeira década que a ONU marcou para reduzir as mortes e as lesões no trânsito. Ele ainda existe porque nós não atingimos essa meta, nem o poder público, nem a sociedade."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil é o terceiro país mais violento do mundo e essa é uma das principais causas de morte de crianças de 1 a 14 anos",
+     "plain": "O Brasil é o terceiro país mais violento do mundo. O trânsito é uma das principais causas de morte de crianças e adolescentes de 1 a 14 anos."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um estudo em Curitiba mostrou que quem excede o limite ganha 8 segundos por quilômetro, pouco diante das mortes e lesões",
+     "plain": "Um estudo naturalístico feito em Curitiba mostrou que quem excede o limite de velocidade ganha 8 segundos por quilômetro. É muito pouco diante do impacto que isso pode causar em mortes e lesões no trânsito."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Bruno Rizzon, representante do WRI Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Traz números da Organização Mundial da Saúde, da revista The Lancet e das experiências de Fortaleza e Bogotá para defender a aprovação do projeto.",
+   "quote": [
+    24,
+    25
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A aprovação do projeto é essencial para atingir a meta de reduzir pela metade as mortes no trânsito.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "segundo a OMS, reduzir 5% na velocidade média diminui em até 30% o número de mortes no trânsito",
+     "plain": "A Organização Mundial da Saúde indica que uma redução de 5% na velocidade média chega a diminuir em até 30% o número de mortes. É um resultado muito expressivo."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um estudo publicado no The Lancet aponta até 17 mil mortes a menos por ano no Brasil, o que daria cerca de 50 bilhões de reais",
+     "plain": "Um estudo recente da revista The Lancet indica que tratar bem a velocidade evitaria até 17 mil mortes por ano no trânsito do Brasil. Com o valor da vida estimado pelo Ipea, seriam cerca de 50 bilhões de reais por ano a menos em custos."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Fortaleza os sinistros fatais caíram 68% nas 16 vias que passaram de 60 para 50 quilômetros por hora, com 57 mortes evitadas",
+     "plain": "Fortaleza reduziu em 68% os sinistros fatais nas 16 vias que passaram de 60 para 50 quilômetros por hora, e em 29% os atropelamentos. O estudo mostrou 57 mortes evitadas e cerca de 135 milhões de reais economizados."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Carlos Henrique Ribeiro de Carvalho, do Ipea.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que a queda das mortes veio da crise econômica, mostra que as mortes de motociclistas dobraram e cobra o uso dos fundos do trânsito.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os fundos do trânsito não foram usados para reduzir mortes na última década.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mortes em acidente de motocicleta dobraram de uma década para a outra, de cerca de 60 mil para 120 mil",
+     "plain": "O que mais chama a atenção no estudo do Ipea é o número de mortes em acidente de motocicleta, que dobrou de uma década para a outra. Eram cerca de 60 mil e hoje são 120 mil. É um problema sério que precisa entrar na pauta."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a queda da mortalidade a partir de 2015 é uma armadilha, porque veio da crise econômica e pode se inverter",
+     "plain": "A queda da taxa de mortalidade a partir de 2015 é uma armadilha. Boa parte desse resultado veio da crise econômica que o país viveu de 2015 a 2019. Quando se diz que reduzimos 25% a mortalidade no trânsito, é preciso cuidado."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Funset arrecadou 13 bilhões na década e só 2,7 bilhões foram usados, menos de 20% do fundo das campanhas educativas",
+     "plain": "No Funset, principal fundo de educação de trânsito, arrecadamos 13 bilhões de reais na década e usamos só 2,7 bilhões, menos de 20%. E dois terços dos acidentes de trânsito estão ligados ao comportamento das pessoas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Victor Pavarino, da Organização Pan-Americana da Saúde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Diverge do peso dado à conscientização, afirma que sem fiscalização eletrônica não se controla a velocidade e sustenta que a queda de 25% não é pouca coisa.",
+   "quote": [
+    28,
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem meios eletrônicos de fiscalização não se controla a velocidade.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de todos os fatores de risco, a velocidade continua sendo de longe o principal, porque agrava todos os outros",
+     "plain": "De todos os fatores de risco que temos, de longe a velocidade continua sendo o principal a atacar. Ela atravessa todos os outros. Se a pessoa não usa capacete ou bebe e dirige, quanto maior a velocidade, pior a consequência."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a educação pode muito, mas não pode tudo, e é impossível controlar a velocidade sem os meios eletrônicos de fiscalização",
+     "plain": "Eu temo o peso que se dá à mera conscientização como tábua de salvação. A educação pode muito, mas não tudo, e digo isso como quem trabalhou com educação. Controlar a velocidade não é só radar, mas não se faz sem meio eletrônico."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      57,
+      58,
+      59
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a redução de 25% não é pouca coisa, porque boa parte dos países no máximo estabilizou seus números na década",
+     "plain": "A informação epidemiológica de melhor qualidade e o trabalho de todas as áreas ajudaram nessa redução de 25%, e isso não é pouca coisa. Boa parte dos países no máximo estabilizou seus números, e alguns pioraram."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reconhece que só se melhora com estrutura de radares e de mobilidade e faz três perguntas aos convidados sobre o papel do Parlamento.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A melhora depende de estrutura de radares e de mobilidade, com um grupo de trabalho na Comissão.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Brasil só se melhora com estrutura de radares e de mobilidade, como mostram Brasília e Fortaleza",
+     "plain": "Este é um momento importante para avançarmos com a pauta, pelo que aconteceu em Brasília e pelo que está acontecendo em Fortaleza. No Brasil temos que melhorar muito, e só se melhora com estrutura de radares e de mobilidade."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "só haverá resultado com um grupo de trabalho atuando fortemente na Comissão para aprovar as leis",
+     "plain": "É um conjunto de coisas que precisamos trabalhar, ajudando pelas comissões a aprovar as leis. Mas o resultado só vem com um grupo de trabalho atuando aqui com força."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Ipea pede a palavra para contribuir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza a contribuição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que o aumento das mortes vem das motos e pede que o Parlamento modernize a lei e fiscalize o uso dos recursos do trânsito.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19
+   ],
+   "open_question": 11,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O aumento das mortes no trânsito vem das motocicletas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos últimos 25 anos a participação das motos nas mortes do trânsito passou de menos de 5% para 30%",
+     "plain": "O principal motivo do aumento das mortes está claro, é a questão das motocicletas. Nos últimos 25 anos, elas passaram de menos de 5% para 30% das mortes por acidente de trânsito."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "tratar do problema das motos não é simples, porque há quem dependa da moto para levar comida para a família",
+     "plain": "Isso não é simples, é complexo e envolve muitas áreas. Há gente que depende da motocicleta para levar comida para a família. Então não é tão fácil assim."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cabe ao Parlamento fiscalizar o governo e a aplicação dos recursos do trânsito, que não são poucos",
+     "plain": "A outra providência necessária é fiscalizar o governo e a aplicação dos recursos, que não são poucos. Os recursos destinados a reduzir a velocidade e a melhorar o transporte estão mesmo sendo usados?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Bebeto, do Rio de Janeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende leis mais severas para o motorista temer a punição, cobra que o dinheiro das multas e do IPVA vá para a prevenção e pede educação de trânsito.",
+   "quote": [
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As punições de trânsito precisam ser mais severas para mudar o comportamento do motorista.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      9
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Parlamento precisa transformar as ideias em leis mais severas, porque as punições de hoje são mínimas diante do dano",
+     "plain": "Tudo o que trouxermos para discutir aqui e transformarmos em leis mais severas vale a pena, para que o motorista tenha medo de perder a carteira. As punições de hoje são mínimas diante do dano que se pode causar nas grandes cidades."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o dinheiro arrecadado com multa e IPVA deveria ir para prevenção e sinalização, mas as prefeituras não aplicam",
+     "plain": "Boa parte do dinheiro arrecadado no trânsito, em multa e em IPVA, teria que ser aplicada na prevenção de acidentes. As prefeituras não aplicam. Esse dinheiro deveria ir para sinalização, campanha educativa e mais agentes de trânsito."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      41
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "é preciso ter leis severas no Código de Trânsito e aplicá-las, mas sem educação de trânsito não se chega a lugar nenhum",
+     "plain": "O caminho é ter leis mais severas no Código de Trânsito Brasileiro e fazer valer, mas também educação de trânsito. Sem educação, nós não vamos chegar a nada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que falta efetivo e fiscalização e que a regra só dói quando há radar, multa e guarda na rua, e relata o efeito nos hospitais.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem efetivo, radar e multa, a regra não muda o comportamento.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta efetivo e fiscalização, e a mudança só dói quando há radar, multa e guarda multando todos os dias",
+     "plain": "Falta efetivo e falta fiscalização. A gente fala bem da cultura, mas isso só dói quando aparece o radar, a multa e o guarda na faixa, debaixo do sinal, multando todos os dias."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nos fins de semana os acidentes com motociclistas fazem o hospital parar a cirurgia que já estava marcada",
+     "plain": "O que a gente vê no fim de semana são os acidentes com motociclistas. Quem está no hospital tem que parar tudo, porque é emergência. A pessoa que estava marcada para uma cirurgia espera, para atender quem chegou quebrado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde sobre os ciclistas que a segurança não se resolve só com ciclovia e depende da velocidade, da iluminação e do desenho das vias.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A segurança do ciclista depende da velocidade das vias e do desenho urbano, não só de ciclovia.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "segurança para quem anda de bicicleta não é só construir ciclovia, depende da redução de velocidade, da iluminação e do desenho viário",
+     "plain": "Boa parte das pessoas entende que basta construir ciclovia e separar o ciclista, e não é. Vai muito além. A redução de velocidade é uma das ações, junto com iluminação pública, o desenho das vias e os cruzamentos."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dar segurança a quem anda de bicicleta não exige grande obra de engenharia, exige vontade",
+     "plain": "Convido quem vê o ciclista como uma pessoa frágil a entender qual é essa fragilidade. Dar segurança a ele não exige grandes trabalhos de engenharia. Exige vontade e enxergar a bicicleta como alternativa para as cidades."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência conta que é ciclista, convida o deputado Bebeto para um passeio e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 16,
+   "from_claim": "b004c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "O deputado que apresentou o projeto traz o caso de São Paulo para confirmar o diagnóstico da presidência de que a alta velocidade é o principal fator das mortes."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 62,
+   "to_sentence": 13,
+   "from_claim": "b006c3",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O estudo de Fortaleza confirma o que o deputado viu em São Paulo: baixar a velocidade não fez o trânsito parar."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 48,
+   "from_claim": "b008c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A Senatran diz que a eficácia dessas medidas é consenso na área de trânsito e que elas já estão no plano nacional, logo depois de a saúde apontar os 50 quilômetros por hora como a medida mais efetiva."
+  },
+  {
+   "from": "b009",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 23,
+   "from_claim": "b009c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "A presidência cobra mais fiscalização da Lei Seca logo depois de o secretário dizer que o maior problema do trânsito é a falta de fiscalização."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 48,
+   "from_claim": "b010c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Para o Ministério das Cidades, a velocidade é a medida que a prefeitura consegue adotar rápido e barato, o que reforça a indicação da saúde."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 62,
+   "from_claim": "b012c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "O estudo de Curitiba mostra que exceder o limite rende 8 segundos por quilômetro, o que sustenta a resposta ao mito do engarrafamento."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 48,
+   "from_claim": "b014c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "O WRI acrescenta a conta da Organização Mundial da Saúde: 5% a menos na velocidade média chegam a reduzir 30% das mortes."
+  },
+  {
+   "from": "b014",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 11,
+   "from_claim": "b014c3",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Fortaleza repete o resultado que São Paulo teve: onde o limite caiu, os sinistros fatais caíram junto."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 19,
+   "from_claim": "b016c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O Ipea diz que a queda de 25% citada pela saúde é uma armadilha, porque veio da crise econômica e pode se inverter quando o país voltar a crescer."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 57,
+   "to_sentence": 13,
+   "from_claim": "b018c3",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "Para a OPAS, a queda não está só na conta da economia: a informação epidemiológica e o debate público ajudaram, e 25% em um país continental conta."
+  },
+  {
+   "from": "b018",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 28,
+   "to_sentence": 18,
+   "from_claim": "b018c2",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A presidência abriu a reunião dizendo que a mudança vem da conscientização, e a OPAS responde que a educação não dá conta sozinha e que nenhum país resolveu isso sem fiscalização eletrônica."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 59,
+   "to_sentence": 23,
+   "from_claim": "b018c3",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A OPAS pede que se compare o Brasil por taxas, e não por números absolutos, antes de chamar o trânsito daqui de hiperviolento."
+  },
+  {
+   "from": "b018",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 23,
+   "from_claim": "b018c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "As duas falas se encontram na fiscalização: o secretário fala da ausência dela e a OPAS diz que sem meio eletrônico não se controla a velocidade."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 30,
+   "from_claim": "b019c1",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "Depois de ouvir a OPAS, a presidência passa a dizer que a melhora só vem com estrutura de radares e de mobilidade."
+  },
+  {
+   "from": "b022",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 14,
+   "from_claim": "b022c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "Responde à pergunta sobre os motivos do aumento das mortes: são as motocicletas."
+  },
+  {
+   "from": "b024",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 13,
+   "from_claim": "b024c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Responde à pergunta sobre o que o Parlamento pode fazer: leis mais severas, para o motorista temer a punição."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 10,
+   "from_claim": "b024c2",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "O deputado e o Ipea se juntam na mesma cobrança: o dinheiro das multas e dos impostos do trânsito existe e não chega à prevenção."
+  },
+  {
+   "from": "b025",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 30,
+   "from_claim": "b025c1",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "A presidência retoma o argumento da OPAS ao dizer que a regra só pega quando há radar, multa e guarda na rua."
+  },
+  {
+   "from": "b025",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 9,
+   "from_claim": "b025c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A presidência apoia o pedido de leis mais severas e acrescenta que falta efetivo para fiscalizar."
+  },
+  {
+   "from": "b026",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 15,
+   "from_claim": "b026c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Responde à pergunta sobre os ciclistas: a segurança deles depende da velocidade, da iluminação e do desenho das vias, não só de ciclovia."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b006",
+    "b008",
+    "b012",
+    "b014"
+   ],
+   "claims": [
+    "b004c1",
+    "b006c2",
+    "b006c3",
+    "b012c3",
+    "b014c3"
+   ],
+   "note": "O deputado autor do projeto, o Ministério da Saúde, a Senatran e duas organizações de fora do governo concordam que baixar o limite reduz mortes sem fazer o trânsito parar."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b008",
+    "b018",
+    "b019",
+    "b025"
+   ],
+   "claims": [
+    "b008c3",
+    "b018c2",
+    "b019c1",
+    "b025c1"
+   ],
+   "note": "A Senatran, a OPAS e a própria presidência da reunião chegam ao mesmo ponto: sem fiscalização de verdade a velocidade não cai."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b006",
+    "b012"
+   ],
+   "claims": [
+    "b002c1",
+    "b004c2",
+    "b006c1",
+    "b012c2"
+   ],
+   "note": "Dois deputados, o Ministério da Saúde e o Observatório concordam que o trânsito é um problema de saúde pública, com a conta chegando ao hospital."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b016",
+    "b022",
+    "b025"
+   ],
+   "claims": [
+    "b002c2",
+    "b016c1",
+    "b022c1",
+    "b025c2"
+   ],
+   "note": "Deputados e o pesquisador do Ipea concordam que a moto está hoje no centro das mortes e das internações do trânsito."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b016",
+    "b022",
+    "b024"
+   ],
+   "claims": [
+    "b016c3",
+    "b022c3",
+    "b024c2"
+   ],
+   "note": "O Ipea e um deputado concordam que o dinheiro do trânsito existe, não é aplicado em prevenção e precisa ser cobrado."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b019",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": "b022",
+   "gist": "como o Parlamento pode ajudar a reduzir as vítimas do trânsito",
+   "plain": "Como o Parlamento pode ajudar a diminuir o número de vítimas no trânsito?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b019",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": "b022",
+   "gist": "quais são os motivos do aumento anual de mortes no trânsito",
+   "plain": "Por que o número de mortes no trânsito cresce a cada ano?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b019",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "como dar mais segurança aos ciclistas nas vias urbanas",
+   "plain": "Como dar mais segurança a quem anda de bicicleta nas ruas e avenidas da cidade?",
+   "theme": "d6",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b022",
+   "sentence": 11,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "se os recursos do trânsito estão mesmo sendo usados",
+   "plain": "Os recursos destinados a reduzir a velocidade e a melhorar o transporte estão mesmo sendo usados?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b006",
+   "sentence": 11,
+   "gist": "33 mil mortes no trânsito em 2021, com 210 mil internações",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 13,
+   "gist": "em 2022, 32 mil mortes e 194 mil internações",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 19,
+   "gist": "a redução na década passada ficou em cerca de 25%",
+   "disputed_by": [
+    {
+     "fala": "b016",
+     "sentence": 13
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 31,
+   "gist": "3,9 milhões de vítimas com lesão no trânsito em 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 59,
+   "gist": "a 32 km/h sobrevivem 95%, a 64 km/h só 15%",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 11,
+   "gist": "os acidentes caíram 35% em São Paulo",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 27,
+   "gist": "exceder o limite rende 8 segundos por quilômetro",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 12,
+   "gist": "5% a menos de velocidade média reduz até 30% das mortes",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 14,
+   "gist": "até 17 mil mortes evitadas por ano no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 24,
+   "gist": "Fortaleza reduziu 68% dos sinistros fatais em 16 vias",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b016",
+   "sentence": 4,
+   "gist": "mortes de motociclistas foram de 60 mil a 120 mil",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b016",
+   "sentence": 19,
+   "gist": "o Funset arrecadou 13 bilhões e usou 2,7 bilhões",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o encaminhamento da reunião: a Câmara pode criar um grupo de trabalho para acelerar o projeto, com os debatedores todos a favor da redução.",
+  "omitted": "Ficou de fora a divergência sobre o peso da conscientização diante da fiscalização eletrônica, e também o debate sobre bicicleta e transporte público."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Baixar o limite salva vidas sem travar o trânsito",
+   "statement_plain": "Reduzir o limite de velocidade nas vias urbanas para 50 quilômetros por hora salva vidas, e as cidades que já fizeram isso não ficaram mais lentas.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b006c2",
+    "b012c3",
+    "b014c3",
+    "b018c1"
+   ],
+   "note": "A ideia juntou o deputado autor do projeto, o Ministério da Saúde, a OPAS e duas organizações de fora do governo, cada um com o dado de uma cidade diferente."
+  },
+  {
+   "id": "t2",
+   "title": "Sem radar e multa, a velocidade não cai",
+   "statement_plain": "A velocidade só cai quando existe fiscalização de verdade, com radar, multa e agente na rua. Campanha sozinha não muda o comportamento de quem dirige.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c3",
+    "b018c2",
+    "b019c1",
+    "b025c1",
+    "b009c1"
+   ],
+   "note": "Sustentaram a ideia o secretário nacional de Trânsito e a OPAS, e a presidência da reunião, que tinha começado do outro lado, terminou aqui."
+  },
+  {
+   "id": "t3",
+   "title": "A mudança vem da conscientização, não do radar",
+   "statement_plain": "O que muda o trânsito é conscientizar e educar as pessoas. Aumentar o número de radares não resolve, porque a lei já é clara e mesmo assim não é cumprida.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b002c3",
+    "b009c2"
+   ],
+   "note": "Não é um setor: quem sustentou isso foi a presidência da reunião e um deputado que já foi secretário de trânsito, enquanto os técnicos do governo ficaram do lado oposto."
+  },
+  {
+   "id": "t4",
+   "title": "O dinheiro do trânsito existe e não chega à ponta",
+   "statement_plain": "Os fundos alimentados por multas, seguro e impostos do trânsito não são aplicados em prevenção e educação, e o Parlamento precisa cobrar isso do governo e das prefeituras.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b022c3",
+    "b024c2"
+   ],
+   "note": "A ideia cruza setores: um pesquisador do Ipea e um deputado cobram o mesmo uso do dinheiro, um olhando para os fundos federais e o outro para as prefeituras."
+  },
+  {
+   "id": "t5",
+   "title": "A moto virou o centro das mortes no trânsito",
+   "statement_plain": "As motocicletas concentram hoje as mortes e as internações do trânsito, e isso exige regras, espaço e fiscalização próprios para elas.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b016c1",
+    "b022c1",
+    "b025c2"
+   ],
+   "note": "Dois deputados e um pesquisador do Ipea chegaram à mesma conclusão por caminhos diferentes, um pela emergência do hospital e o outro pelos dados de duas décadas."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SENATRAN",
+   "fala": "b001",
+   "sentence": 4,
+   "plain": "Secretaria Nacional de Trânsito, do Ministério dos Transportes, que coordena as regras de trânsito do país"
+  },
+  {
+   "term": "velocidade média",
+   "fala": "b004",
+   "sentence": 23,
+   "plain": "forma de medir a velocidade pelo tempo que o carro leva entre dois pontos da via, e não só no ponto onde está o radar"
+  },
+  {
+   "term": "desapensamento",
+   "fala": "b004",
+   "sentence": 30,
+   "plain": "pedido para separar um projeto dos outros a que ele foi juntado, para que possa ser votado sozinho"
+  },
+  {
+   "term": "anos de vida perdidos",
+   "fala": "b006",
+   "sentence": 10,
+   "plain": "conta de quantos anos de vida uma população deixa de viver por causa de mortes que chegam cedo demais"
+  },
+  {
+   "term": "Vigitel",
+   "fala": "b006",
+   "sentence": 42,
+   "plain": "pesquisa por telefone do Ministério da Saúde que acompanha hábitos e riscos da população nas capitais"
+  },
+  {
+   "term": "PNATRANS",
+   "fala": "b008",
+   "sentence": 5,
+   "plain": "Plano Nacional de Redução de Mortes e Lesões no Trânsito, onde estão as metas que o país se comprometeu a cumprir"
+  },
+  {
+   "term": "CONTRAN",
+   "fala": "b008",
+   "sentence": 9,
+   "plain": "Conselho Nacional de Trânsito, o colegiado que aprova as regras de trânsito válidas em todo o país"
+  },
+  {
+   "term": "Lei Seca",
+   "fala": "b008",
+   "sentence": 25,
+   "plain": "apelido da lei que proíbe dirigir depois de beber e prevê multa e perda da carteira"
+  },
+  {
+   "term": "RENAINF",
+   "fala": "b008",
+   "sentence": 26,
+   "plain": "registro nacional que reúne as infrações cometidas fora do estado onde o veículo está registrado"
+  },
+  {
+   "term": "sinistros",
+   "fala": "b008",
+   "sentence": 28,
+   "plain": "palavra usada por quem trabalha com trânsito para os acidentes, as batidas e os atropelamentos"
+  },
+  {
+   "term": "PL",
+   "fala": "b014",
+   "sentence": 2,
+   "plain": "sigla de projeto de lei, o texto que ainda precisa ser votado para virar lei"
+  },
+  {
+   "term": "vias arteriais",
+   "fala": "b014",
+   "sentence": 23,
+   "plain": "ruas e avenidas largas que ligam bairros e concentram o trânsito que atravessa a cidade"
+  },
+  {
+   "term": "FUNSET",
+   "fala": "b016",
+   "sentence": 19,
+   "plain": "Fundo Nacional de Segurança e Educação de Trânsito, dinheiro que vem das multas e deve bancar campanhas e educação"
+  },
+  {
+   "term": "DPVAT",
+   "fala": "b016",
+   "sentence": 23,
+   "plain": "seguro pago pelos donos de veículos que cobria indenizações a vítimas e ajudava a bancar o atendimento no SUS"
+  },
+  {
+   "term": "CIDE",
+   "fala": "b016",
+   "sentence": 25,
+   "plain": "contribuição cobrada sobre os combustíveis, usada para financiar obras e melhorias no transporte"
+  }
+ ]
+}

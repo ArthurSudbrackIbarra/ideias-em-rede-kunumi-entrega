@@ -1,0 +1,1513 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 41,
+ "model": "LLM lendo o prompt hearing-041 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T18:19:56Z",
+ "prompt_sha256": "ff37902b8acfbecd6ab4e86921d53547c3f8c6d1b5b675fdd26f45cdfb8fdff9",
+ "sentences_hash": "8923a87522b61304",
+ "review": {
+  "pairs_read": 25,
+  "pairs_fixed": 7
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t5: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa ouviu o Itamaraty, o Ministério Público Federal, a secretaria nacional da pessoa idosa, a academia e dois organismos internacionais sobre ratificar a convenção interamericana que protege direitos humanos de quem envelhece. O tratado foi assinado pelo Brasil em 2015 e o decreto legislativo que o incorpora está parado na Câmara. Todos pediram aprovação rápida e com quórum qualificado, mas divergiram sobre o que falta mais ao país: direito escrito ou política pública que aplique o que já existe.",
+ "stakes": "A Câmara decidir se pauta e aprova o Projeto de Decreto Legislativo nº 863, de 2017, e com qual quórum.",
+ "central_question": "O Brasil deve ratificar a Convenção Interamericana sobre os direitos das pessoas idosas com força de emenda constitucional?",
+ "synopsis_plain": "O Brasil assinou em 2015 um tratado das Américas sobre direitos das pessoas idosas, mas nunca o confirmou. O texto que faria isso está parado na Câmara. Na audiência, Itamaraty, Ministério Público, a secretaria do governo para a pessoa idosa, uma professora da USP e dois organismos internacionais pediram a aprovação rápida e com votação reforçada.",
+ "stakes_plain": "Se a Câmara vota o projeto que confirma o tratado, e se vota com o número reforçado de votos que dá a ele força de regra da Constituição.",
+ "central_question_plain": "O Brasil deve confirmar o tratado das Américas sobre direitos das pessoas idosas e dar a ele força de Constituição?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Ratificação da convenção",
+   "description": "A demora do Congresso em aprovar o texto que confirma a convenção assinada em 2015, e a pressa que os convidados pedem.",
+   "axis": {
+    "pro": "O Congresso deve aprovar sem mais demora o decreto que confirma a convenção.",
+    "contra": "A aprovação pode continuar esperando, porque o país já tem leis próprias sobre o assunto.",
+    "pro_plain": "O Congresso tem de votar logo o texto que confirma o tratado.",
+    "contra_plain": "Dá para esperar mais, porque o Brasil já tem leis próprias sobre pessoas idosas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Força de emenda constitucional",
+   "description": "Se a convenção deve ser aprovada pelo rito reforçado, com três quintos dos votos nas duas Casas, para valer como regra da Constituição.",
+   "axis": {
+    "pro": "A convenção tem de ser aprovada pelo rito reforçado, para ganhar força de emenda constitucional.",
+    "contra": "Basta a aprovação comum, que já coloca o tratado acima das leis ordinárias.",
+    "pro_plain": "O tratado tem de passar pela votação reforçada, para valer como regra da Constituição.",
+    "contra_plain": "A votação comum já basta, porque o tratado fica acima das leis mesmo assim."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Perfil do envelhecimento brasileiro",
+   "description": "O ritmo em que o Brasil envelhece e quem é a pessoa idosa brasileira de hoje e a dos próximos anos.",
+   "axis": {
+    "pro": "O Brasil envelhece depressa e a maioria chega à velhice com pouco estudo e pouca renda.",
+    "contra": "Viver mais é uma conquista, e os próximos idosos chegam com mais estudo e mais capazes de participar.",
+    "pro_plain": "O país envelhece rápido e a maioria chega à velhice com pouco estudo e pouco dinheiro.",
+    "contra_plain": "Viver mais é uma conquista, e quem vai envelhecer nos próximos anos chega com mais estudo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Lacunas da lei brasileira",
+   "description": "Se o que falta ao país é direito escrito, que a convenção acrescentaria, ou política pública que faça valer o que a lei já garante.",
+   "axis": {
+    "pro": "Falta direito escrito, e a convenção traz direitos que a lei brasileira não tem.",
+    "contra": "Os direitos essenciais já estão na lei, e o que falta é política pública e dinheiro para cumpri-los.",
+    "pro_plain": "Falta direito no papel, e o tratado traz direitos que a lei brasileira não tem.",
+    "contra_plain": "Os direitos já estão na lei. O que falta é política pública e dinheiro para cumpri-los."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Protagonismo internacional do Brasil",
+   "description": "O peso que ratificar ou não ratificar tem para a posição do Brasil nos foros internacionais de direitos humanos.",
+   "axis": {
+    "pro": "Ratificar confirma a liderança que o Brasil exerce na pauta dos direitos das pessoas idosas.",
+    "contra": "A atuação internacional do Brasil já basta, sem depender da ratificação.",
+    "pro_plain": "Confirmar o tratado mostra ao mundo que o Brasil leva a sério os direitos das pessoas idosas.",
+    "contra_plain": "O Brasil já atua bem lá fora, mesmo sem confirmar o tratado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Economia do envelhecimento",
+   "description": "O lugar da pessoa idosa na economia, o sistema nacional de cuidados e o que o envelhecimento exige do planejamento do país.",
+   "axis": {
+    "pro": "O planejamento do país tem de contar com a contribuição econômica de quem envelhece, e não só com a proteção.",
+    "contra": "Previdência e políticas de proteção já dão conta do que o envelhecimento exige.",
+    "pro_plain": "O país tem de planejar contando com o que a pessoa idosa ainda produz, e não só com a proteção.",
+    "contra_plain": "A aposentadoria e as políticas de proteção já dão conta do envelhecimento."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da Comissão",
+   "org": "Comissão de Defesa dos Direitos da Pessoa Idosa",
+   "basis": "registro 'Presidente' na ata. Abre como autor do requerimento em b001.1 e é chamado de Deputado Aliel Machado em b006.1. Em b007.7 anuncia que o Deputado Prof. Paulo Fernando assume a condução, e b010.1 e b012.2 já o saúdam na presidência",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida dos direitos das pessoas idosas"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "diplomata e assessora do Departamento de Direitos Humanos e Temas Sociais",
+   "org": "Ministério das Relações Exteriores",
+   "basis": "apresentada pela presidência em b001.25 e confirmada por ela mesma em b002.3",
+   "seat": "mesa",
+   "gov_level": "federal",
+   "byline": "do Ministério das Relações Exteriores",
+   "org_plain": "ministério que cuida das relações do Brasil com outros países e com organismos internacionais"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "analista de Programa em População e Desenvolvimento",
+   "org": "UNFPA Brasil",
+   "basis": "apresentado pela presidência em b001.25 e citado por ele mesmo em b004.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": "do Fundo de População das Nações Unidas",
+   "org_plain": "agência da ONU que acompanha dados de população e políticas de nascimento, migração e envelhecimento"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "professora da Escola de Artes Cênicas e Humanidades",
+   "org": "USP",
+   "basis": "apresentada pela presidência em b001.25 e por ela mesma em b006.5. Participa pela sala virtual, conforme b005.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professora da Universidade de São Paulo",
+   "org_plain": "universidade pública de São Paulo, onde ela pesquisa direitos das pessoas idosas no curso de Gerontologia"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Secretário Nacional dos Direitos da Pessoa Idosa",
+   "org": "MDHC",
+   "basis": "apresentado pela presidência em b001.25 e saudado como Secretário em b006.2",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "secretário nacional dos direitos da pessoa idosa",
+   "org_plain": "secretaria do Ministério dos Direitos Humanos e da Cidadania que cuida das políticas para pessoas idosas"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "diretor do Escritório da CEPAL",
+   "org": "CEPAL",
+   "basis": "apresentado pela presidência em b001.25 e de novo em b009.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do escritório da CEPAL no Brasil",
+   "org_plain": "comissão das Nações Unidas que estuda a economia da América Latina e do Caribe"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "procuradora regional da República e coordenadora de grupo de trabalho da PFDC",
+   "org": "Ministério Público Federal",
+   "basis": "apresentada pela presidência em b001.25 e por ela mesma em b012.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "procuradora regional da República",
+   "org_plain": "órgão que cobra do poder público o cumprimento de direitos dos cidadãos, dentro do Ministério Público Federal"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "o Secretário cumprimenta as pessoas idosas presentes em b008.4, a presidência registra o reitor da UEPG em b001.8 e há palmas em sete falas. A semana foi atípica e os Deputados estavam nos Estados, conforme b001.17",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência sobre a ratificação da convenção, relata a articulação com magistrados e com o Presidente da Câmara e cobra pressa na votação.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ratificação da convenção é uma necessidade do País e demora demais na pauta da Câmara.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "constrange ter a aprovação da convenção na pauta há tanto tempo sem que se consiga aprová-la",
+     "plain": "Acredito que esta audiência vai ficar registrada na história. Estamos articulando a aprovação, que é uma necessidade do nosso País, e nos constrange ter isso na pauta há tanto tempo sem conseguir."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Associação dos Magistrados do Brasil deu apoio irrestrito e o Presidente da Câmara se comprometeu a ajudar a pautar a matéria",
+     "plain": "Estive na Associação dos Magistrados do Brasil, que nos deu apoio irrestrito. E já me reuni com Arthur Lira, Presidente desta Casa, que se comprometeu a nos ajudar a pautar a matéria."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende a ratificação da convenção, único tratado internacional obrigatório sobre direitos das pessoas idosas, e lembra que o Brasil assinou primeiro e ainda não ratificou.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil precisa ratificar a convenção, o único instrumento internacional obrigatório sobre os direitos das pessoas idosas.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a convenção de 2015 é o único tratado internacional obrigatório sobre o tema e o Brasil ainda não a ratificou",
+     "plain": "O único instrumento internacional obrigatório hoje é essa convenção, de 2015. O Brasil foi um dos primeiros a assinar, com Argentina, Chile, Costa Rica e Uruguai. Muitos países já ratificaram. O Brasil ainda não."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      29
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o rol de direitos da convenção não está espelhado em nenhum outro tratado nem na legislação brasileira",
+     "plain": "A convenção reconhece a pessoa idosa como sujeito de direitos em todas as esferas da vida. Essa lista de direitos não está em nenhum outro instrumento internacional nem na nossa legislação interna."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ratificar seria um gesto concreto do compromisso do Estado brasileiro com os direitos dos idosos diante dos outros países",
+     "plain": "O Ministério das Relações Exteriores sempre defendeu a ratificação, porque o tratado aprofunda o que trabalhamos há anos aqui dentro e lá fora. Seria um gesto concreto do compromisso do Estado brasileiro com os direitos dos idosos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reforça que a posição do Brasil nessa pauta afeta a imagem do país e até as negociações econômicas, e agradece a contribuição do Itamaraty.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A posição do Brasil nessa pauta pesa na imagem do país e nas suas negociações econômicas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a imagem e o interesse do Brasil nessa pauta trazem impactos até nas negociações econômicas do país",
+     "plain": "Além do compromisso político desta Comissão, há por trás disso tudo a imagem e o interesse do Brasil, que trazem impactos até nas negociações econômicas do país. Nossa articulação passa pela responsabilidade do que assumimos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mostra, com dados da ONU, que o mundo e o Brasil envelhecem rápido e que muitos brasileiros chegam à velhice com pouco estudo.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O envelhecimento avança rápido no mundo e mais rápido ainda no Brasil.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2050, 1 em cada 5 pessoas no mundo terá mais de 60 anos, e no Brasil mais de 1 em cada 4",
+     "plain": "O envelhecimento da população é uma das maiores tendências do século XXI. Em 2050, 1 em cada 5 pessoas no mundo vai ter mais de 60 anos. No Brasil, a projeção da ONU indica mais de 1 em cada 4."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      32
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "viver mais também é motivo de celebração, porque todos vivem mais e melhor por causa de avanços em saúde e educação",
+     "plain": "Também há o que comemorar aqui. O envelhecimento traz desafios, mas todos nós vivemos mais e melhor por causa dos avanços na nutrição, no saneamento, na medicina e na educação."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      48
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ainda há um contingente expressivo de pessoas de idade mais avançada com pouca escolaridade, principalmente mulheres",
+     "plain": "Ainda existe um número muito grande de pessoas de idade mais avançada com pouco estudo, e são principalmente mulheres."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Carlos Henrique Mussi e Alexandre da Silva à mesa e passa a palavra à professora Bibiana Graeff.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que a lei brasileira ficou para trás, que 11 países já ratificaram a convenção e que o Estatuto não trata das diferenças entre as pessoas idosas.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A legislação brasileira deixou lacunas, e a convenção é hoje o instrumento mais completo sobre o tema.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil é o único dos primeiros signatários que não ratificou, e em 11 países as pessoas idosas já contam com direitos que aqui faltam",
+     "plain": "É inaceitável que o Brasil, que ajudou a escrever esse tratado e foi o primeiro a assiná-lo, seja o único dos primeiros a assinar que ainda não ratificou. 11 países já ratificaram, e as pessoas idosas de lá têm direitos que faltam aqui."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Constituição permite aprovar tratados com força de emenda por um rito especial, como ocorreu com a convenção das pessoas com deficiência",
+     "plain": "Nossa Constituição permite aprovar tratados com força de emenda constitucional, por um rito especial de quórum mais alto nas duas Casas. Espero que seja assim aqui, como foi com a convenção das pessoas com deficiência."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estatuto não diz nada específico sobre mulheres, indígenas, negros e LGBTQIA+, e a convenção obriga políticas para esses grupos",
+     "plain": "Se olharem o Estatuto da Pessoa Idosa, não vão achar nenhuma especificidade sobre mulheres, população LGBTQIA+, indígenas ou negros. É uma lacuna séria. A convenção obriga os Estados a adotar políticas para esses grupos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Reconhece que a convenção não é votada por uma interpretação equivocada do texto e promete pedir ajuda ao Itamaraty e ao Secretário sobre a tradução.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A convenção não avança por uma interpretação equivocada do texto, e esse erro pode ser corrigido.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a convenção não é votada por uma interpretação equivocada do texto, e esse erro pode ser corrigido",
+     "plain": "Nós temos um problema: não conseguimos votar a convenção por causa de uma interpretação preconceituosa e errada do texto. Mas é um erro que dá para corrigir, porque é questão de interpretação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pede a ratificação com quórum qualificado, como se fez para pessoas com deficiência, e alerta que a pessoa idosa brasileira tem em média 4 anos de estudo.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A convenção precisa ser aprovada com quórum qualificado, para ter status de emenda constitucional.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ratificação precisa de quórum qualificado para ter status de emenda constitucional, como já se fez para pessoas com deficiência",
+     "plain": "Precisamos de um movimento conjunto para aprovar a convenção com quórum qualificado, pelo § 3º do art. 5º da Constituição. Assim ela ganha status de emenda constitucional, como já se fez para pessoas com deficiência."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      41,
+      42,
+      43
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as pessoas idosas concentram a maior parte das pessoas analfabetas e têm em média 4 anos de escolaridade",
+     "plain": "Estamos falando de um grupo que concentra a maior parte das pessoas analfabetas. A média de anos de escolaridade é de 4 anos. Por isso precisamos pensar o letramento digital como forma de evitar violência."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o art. 5º da convenção garante proteção a quem envelhece já carregando vulnerabilidades e discriminações múltiplas",
+     "plain": "Quando falamos da convenção, falamos por exemplo do art. 5º. Ele trata da proteção a grupos que envelhecem já com vulnerabilidades e discriminações múltiplas, de gênero, de raça, de onde moram, do trabalho que fazem."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Secretário e chama Carlos Henrique Fialho Mussi, do escritório da CEPAL.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra que o país olhe também a contribuição econômica da pessoa idosa, prevê idosos mais escolarizados em 5 ou 10 anos e destaca o sistema nacional de cuidados.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O planejamento do país tem de contar com a contribuição econômica de quem envelhece, e não só com a proteção.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o debate precisa olhar também a contribuição do idoso, sua renda, seu trabalho e o que ele ainda acrescenta ao desenvolvimento",
+     "plain": "Aqui se fala muito dos direitos das pessoas idosas e dos deveres do Estado. Mas temos de ver também a contribuição do idoso, o que ele já fez e o que ainda pode dar ao País, além da renda, da proteção social e do trabalho."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      11
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "daqui a 5 ou 10 anos chega um novo grupo de idosos com mais escolaridade e mais domínio do mundo digital",
+     "plain": "Daqui a 5 ou 10 anos, vamos receber um novo grupo de idosos com mais escolaridade e mais conhecimento até das questões digitais. Ele poderá participar muito mais."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a base é o direito, mas é preciso ver a parte fiscal, os programas, os impostos e a empregabilidade do idoso",
+     "plain": "A base é a questão de direitos, claro. Mas temos de ver também a parte fiscal, quais são os programas e os impostos, e qual é a empregabilidade do idoso. É um certo desperdício não colocar esse capital humano de volta na sociedade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Carlos Henrique Mussi e passa a palavra a Caroline Maciel da Costa, do MPF.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Registra que a lei brasileira é adequada mas não sai do papel, e cobra a aprovação do decreto legislativo parado na Câmara desde 2018.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A aprovação do decreto legislativo que incorpora a convenção é urgente e prioritária.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a legislação brasileira sobre pessoas idosas é adequada, e o que falha é a política pública que deveria concretizá-la",
+     "plain": "A lei que temos sobre direitos das pessoas idosas é, de certa forma, adequada, e foi sendo reforçada nas últimas décadas. O problema é que as normas não se concretizam, por falta ou inadequação de políticas públicas."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "nos últimos anos as políticas de proteção à pessoa idosa foram sendo abandonadas, e os desafios vão da saúde à moradia",
+     "plain": "Não posso deixar de registrar os retrocessos dos últimos anos, em que as políticas de proteção às pessoas idosas foram sendo abandonadas. Os desafios estão na saúde, na previdência, na assistência, no transporte e na moradia."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a convenção foi aprovada pela OEA em junho de 2015 e o decreto legislativo está parado na Câmara desde 2018",
+     "plain": "A convenção foi aprovada pela OEA em junho de 2015, há 8 anos, e o Brasil esteve entre os primeiros a assiná-la. Ela entrou em vigor em janeiro de 2017, e desde 2018 o projeto de decreto legislativo está parado na Câmara."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as exposições e abre as considerações finais, começando pelo Secretário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Convida todas as pessoas e os parlamentares das duas Casas a apoiar a ratificação e a levar o tema adiante.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ratificação depende do apoio do Congresso e da mobilização de mais pessoas.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ratificação precisa do apoio dos parlamentares das duas Casas e de quem puder levar o tema adiante",
+     "plain": "Como Secretário, convido todas as pessoas a nos apoiarem para que essa ratificação aconteça. Peço aos Deputados, ao Senado e a quem está aqui que compartilhem isso com outras pessoas."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Carlos Henrique Mussi para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o Governo brasileiro e o Secretário estão empenhados na ratificação e coloca a CEPAL à disposição para o trabalho.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Governo brasileiro está empenhado na ratificação, e a CEPAL se coloca à disposição.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Secretário e o Governo brasileiro estão empenhados na ratificação e esse é um trabalho a fazer",
+     "plain": "O Secretário e o Governo brasileiro estão empenhados na ratificação. Eu acho que é um trabalho a fazer."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Bibiana Graeff para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A professora da USP parabeniza a Comissão e apoia o avanço da aprovação do tratado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede ao Secretário que leve ao Ministério a demanda sobre a ludopatia entre idosos e registra que a Comissão acompanha o decreto da convenção.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão acompanha o decreto legislativo que confirma a convenção e cobra política de prevenção à ludopatia.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      9
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão do Idoso acompanha o decreto legislativo de 2017 que confirma a convenção interamericana",
+     "plain": "A Comissão do Idoso acompanha de perto o projeto de decreto legislativo nº 863, de 2017. É ele que confirma a convenção interamericana sobre os direitos das pessoas idosas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 5,
+   "from_claim": "b002c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "Ao constrangimento do deputado com a demora, a diplomata responde com a posição do Brasil: assinou entre os primeiros e é o que não ratificou."
+  },
+  {
+   "from": "b003",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 47,
+   "from_claim": "b003c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Onde o Itamaraty fala em gesto de compromisso do Estado brasileiro, a presidência acrescenta que essa imagem chega até às negociações econômicas do país."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 5,
+   "from_claim": "b006c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "A professora dá nome ao constrangimento que o deputado descreveu: entre os primeiros países a assinar, só o Brasil não ratificou."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 18,
+   "from_claim": "b006c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "As duas contam a mesma sequência: os países vizinhos foram ratificando, e o Brasil ficou de fora depois de assinar primeiro."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 41,
+   "from_claim": "b007c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "À sugestão de rever a tradução do termo idosos, a presidência responde que o texto vem sendo lido de forma equivocada e que esse erro dá para corrigir."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 19,
+   "from_claim": "b008c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O secretário cita a colega do Itamaraty e transforma o diagnóstico dela em pedido: um movimento conjunto pela aprovação com quórum qualificado."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 48,
+   "from_claim": "b008c2",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "O analista da ONU aponta muitos idosos com pouco estudo, e o secretário põe número nisso: é o grupo que concentra mais pessoas analfabetas, com média de 4 anos de escola."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 27,
+   "from_claim": "b008c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A professora aponta que o Estatuto ignora as diferenças entre as pessoas idosas, e o secretário mostra qual artigo da convenção cobre exatamente isso."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 32,
+   "from_claim": "b010c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Os dois olham o envelhecimento pelo lado do ganho: um fala em motivo de celebração, o outro pede que se conte também o que a pessoa idosa ainda produz."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 42,
+   "from_claim": "b010c2",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Onde o secretário vê um grupo com 4 anos de estudo em média, o diretor da CEPAL diz que em 5 ou 10 anos chega um idoso mais escolarizado e mais à vontade no digital."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 19,
+   "from_claim": "b012c3",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A procuradora acrescenta as datas ao que a diplomata disse: aprovada pela OEA em 2015, em vigor desde 2017 e parada aqui desde 2018."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 9,
+   "from_claim": "b012c3",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "As duas descrevem a mesma paralisação: a professora pelo lado dos países que já ratificaram, a procuradora pelo lado do decreto travado na Câmara."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 26,
+   "from_claim": "b012c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Para a professora a lei brasileira deixou uma lacuna séria. Para a procuradora a lei é adequada, e o que não sai do papel é a política pública."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 18,
+   "from_claim": "b014c1",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "Depois de a procuradora mostrar o decreto parado, o secretário pede apoio das duas Casas e de quem está na sala para destravar a ratificação."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 21,
+   "from_claim": "b016c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "O diretor da CEPAL confirma o empenho do Governo brasileiro na ratificação que o secretário tinha pedido com quórum qualificado."
+  },
+  {
+   "from": "b019",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 18,
+   "from_claim": "b019c1",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "À cobrança da procuradora sobre o decreto travado, a presidência responde que a Comissão acompanha esse mesmo projeto de 2017."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b006",
+    "b012",
+    "b016"
+   ],
+   "claims": [
+    "b001c1",
+    "b002c1",
+    "b006c1",
+    "b012c3",
+    "b016c1"
+   ],
+   "note": "A presidência da Comissão, o Itamaraty, a professora da USP, o Ministério Público Federal e o escritório da CEPAL concordam que a aprovação está atrasada e precisa sair."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b008"
+   ],
+   "claims": [
+    "b006c2",
+    "b008c1"
+   ],
+   "note": "A professora da USP e o secretário nacional concordam que a convenção tem de passar pelo rito reforçado, como já ocorreu com o tratado das pessoas com deficiência."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b008"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c3",
+    "b008c2"
+   ],
+   "note": "O Fundo de População das Nações Unidas e a secretaria do governo concordam que o envelhecimento é rápido e que muita gente chega à velhice com pouco estudo."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b006",
+    "b008"
+   ],
+   "claims": [
+    "b002c2",
+    "b006c3",
+    "b008c3"
+   ],
+   "note": "O Itamaraty, a professora da USP e a secretaria do governo concordam que a convenção reconhece direitos e grupos que a lei brasileira não reconhece."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b003"
+   ],
+   "claims": [
+    "b002c3",
+    "b003c1"
+   ],
+   "note": "O Itamaraty e a presidência da Comissão concordam que ratificar pesa na posição do Brasil diante dos outros países."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b006",
+   "sentence": 40,
+   "addressed_to": "governo",
+   "answered_by": "b007",
+   "gist": "consultar o Itamaraty sobre mudar a tradução do termo idosos",
+   "plain": "Dá para consultar o Itamaraty sobre trocar o termo idosos por pessoas idosas no texto da convenção?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b008",
+   "sentence": 52,
+   "addressed_to": "parlamentar",
+   "answered_by": "b019",
+   "gist": "pede apoio do Congresso para avançar na ratificação",
+   "plain": "O Congresso vai dar à secretaria o apoio que ela pede para avançar na ratificação?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 26,
+   "addressed_to": "parlamentar",
+   "answered_by": "b019",
+   "gist": "pede aprovação urgente do decreto que incorpora a convenção",
+   "plain": "Os Deputados vão aprovar com urgência o decreto que traz a convenção para dentro da lei brasileira?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b019",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "destinar parte da arrecadação dos jogos à prevenção da ludopatia",
+   "plain": "O Governo vai destinar parte da arrecadação dos jogos à prevenção do vício em jogos entre as pessoas idosas?",
+   "theme": "d4",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 17,
+   "gist": "a convenção é de 2015 e o Brasil assinou entre os primeiros",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 20,
+   "gist": "em janeiro deste ano veio a décima ratificação",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 9,
+   "gist": "11 países já ratificaram ou aderiram à convenção",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 7,
+   "gist": "em 2050, 1 em cada 5 terá mais de 60 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 22,
+   "gist": "de 850 milhões em 2013 para 1,08 bilhão em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 24,
+   "gist": "no Brasil serão mais de 66 milhões em 2050",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b004",
+   "sentence": 26,
+   "gist": "para cada 100 mulheres de 60 anos ou mais, 83,4 homens",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 11,
+   "gist": "em 1980 a proporção de pessoas idosas era de 6,1%",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 19,
+   "gist": "em 2023 a PNAD aponta perto de 15,1%",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 42,
+   "gist": "a média de escolaridade é de 4 anos",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 74,
+   "gist": "o censo apontou 6 milhões a menos que o previsto",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b012",
+   "sentence": 18,
+   "gist": "o decreto está parado na Câmara desde 2018",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o pedido unânime de aprovação rápida e com quórum qualificado, com destaque para a data de outubro e para o que a convenção acrescenta à lei brasileira.",
+  "omitted": "Ficaram de fora o debate sobre a economia do envelhecimento e o sistema nacional de cuidados, e a divergência sobre se o que falta é direito escrito ou política pública que aplique o que já existe."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Ratificar já, e com força de emenda",
+   "statement_plain": "O Congresso tem de aprovar logo o texto que confirma o tratado, e com a votação reforçada que dá a ele força de regra da Constituição.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b002c1",
+    "b006c1",
+    "b006c2",
+    "b008c1",
+    "b012c3"
+   ],
+   "note": "É uma ideia e não um setor porque junta gente de origens diferentes: a presidência da Comissão, o Itamaraty, uma professora da USP, o Ministério Público Federal e a secretaria do governo."
+  },
+  {
+   "id": "t2",
+   "title": "A convenção traz direitos que a lei não tem",
+   "statement_plain": "Falta direito escrito no Brasil. A convenção reconhece direitos e grupos que a nossa lei não reconhece, e por isso ela acrescenta em vez de repetir o que já existe.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b006c3",
+    "b008c3"
+   ],
+   "note": "Quem sustenta esta ideia está em dois ministérios diferentes e na universidade, e ela é contestada por uma procuradora que também é do lado do Estado."
+  },
+  {
+   "id": "t3",
+   "title": "O buraco é a política pública, não a lei",
+   "statement_plain": "A lei brasileira já garante os direitos das pessoas idosas. O que falta é política pública, orçamento e programa para que essas regras saiam do papel.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b010c3"
+   ],
+   "note": "Divide quem quer ratificar: a procuradora e o diretor da CEPAL defendem a convenção e, ainda assim, dizem que o gargalo está na execução e no dinheiro, não no texto da lei."
+  },
+  {
+   "id": "t4",
+   "title": "O Brasil envelhece rápido e sem preparo",
+   "statement_plain": "O envelhecimento aqui é mais acelerado que no resto do mundo, e a maioria chega à velhice com pouco estudo. O país não está preparado para isso.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c3",
+    "b008c2"
+   ],
+   "note": "Cruza a ONU e o governo federal: o analista do Fundo de População e o secretário nacional chegam ao mesmo diagnóstico por caminhos diferentes."
+  },
+  {
+   "id": "t5",
+   "title": "Envelhecer é conquista, e o idoso contribui",
+   "statement_plain": "Viver mais é uma conquista. Quem vai envelhecer nos próximos anos chega com mais estudo, e o país tem de contar com o que essas pessoas produzem, não só com a proteção.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b010c1",
+    "b010c2"
+   ],
+   "note": "Divide o próprio analista da ONU, que sustenta esta ideia numa carta e o diagnóstico oposto sobre escolaridade em outra, e é a leitura que o diretor da CEPAL leva adiante."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "UNFPA",
+   "fala": "b001",
+   "sentence": 25,
+   "plain": "sigla do Fundo de População das Nações Unidas, agência da ONU que acompanha dados de população e políticas ligadas a nascimentos, migração e envelhecimento"
+  },
+  {
+   "term": "CEPAL",
+   "fala": "b001",
+   "sentence": 25,
+   "plain": "Comissão Econômica para a América Latina e o Caribe, órgão das Nações Unidas que estuda a economia da região e acompanha planos de governo"
+  },
+  {
+   "term": "Procuradoria Federal dos Direitos do Cidadão",
+   "fala": "b001",
+   "sentence": 25,
+   "plain": "área do Ministério Público Federal que cobra do poder público o cumprimento de direitos dos cidadãos"
+  },
+  {
+   "term": "Estatuto da Pessoa Idosa",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "lei brasileira de 2003 que reúne os direitos e as garantias de quem tem 60 anos ou mais. Antes se chamava Estatuto do Idoso"
+  },
+  {
+   "term": "Plano Internacional de Ação de Madrid sobre o Envelhecimento",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "acordo mundial de 2002 que orienta políticas para pessoas idosas. Não obriga ninguém, mas os países prestam contas do que fizeram"
+  },
+  {
+   "term": "comitê de peritos",
+   "fala": "b002",
+   "sentence": 20,
+   "plain": "grupo de especialistas indicados pelos países que recebe relatórios sobre o cumprimento da convenção e faz recomendações"
+  },
+  {
+   "term": "emenda constitucional",
+   "fala": "b002",
+   "sentence": 30,
+   "plain": "mudança no texto da Constituição. Um tratado aprovado pelo rito reforçado passa a valer com essa mesma força"
+  },
+  {
+   "term": "OEA",
+   "fala": "b006",
+   "sentence": 5,
+   "plain": "Organização dos Estados Americanos, entidade que reúne os países das Américas e onde a convenção foi negociada e aprovada"
+  },
+  {
+   "term": "cuidados paliativos",
+   "fala": "b006",
+   "sentence": 28,
+   "plain": "cuidados que aliviam a dor e o sofrimento de quem tem doença grave, sem a promessa de curar"
+  },
+  {
+   "term": "diretivas antecipadas",
+   "fala": "b006",
+   "sentence": 28,
+   "plain": "registro feito com antecedência em que a pessoa diz que tratamentos aceita ou recusa, caso não possa decidir depois"
+  },
+  {
+   "term": "BPC",
+   "fala": "b008",
+   "sentence": 13,
+   "plain": "Benefício de Prestação Continuada: um salário mínimo por mês para pessoa idosa ou com deficiência de família sem renda suficiente"
+  },
+  {
+   "term": "índice de envelhecimento",
+   "fala": "b008",
+   "sentence": 11,
+   "plain": "cálculo que compara o número de pessoas idosas com o de pessoas mais jovens numa população"
+  },
+  {
+   "term": "PNAD",
+   "fala": "b008",
+   "sentence": 19,
+   "plain": "Pesquisa Nacional por Amostra de Domicílios, levantamento do IBGE que visita casas para medir população, trabalho e renda"
+  },
+  {
+   "term": "decreto legislativo",
+   "fala": "b012",
+   "sentence": 18,
+   "plain": "texto que o Congresso aprova para que um tratado assinado pelo Brasil passe a valer dentro do país"
+  },
+  {
+   "term": "ludopatia",
+   "fala": "b019",
+   "sentence": 4,
+   "plain": "vício em jogos de aposta, tratado como problema de saúde"
+  }
+ ]
+}

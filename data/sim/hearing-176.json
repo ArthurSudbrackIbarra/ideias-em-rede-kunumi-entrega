@@ -1,0 +1,2199 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 176,
+ "model": "LLM lendo o prompt hearing-176 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T21:04:00Z",
+ "prompt_sha256": "2c7fe2e8b28683b58f168e089035deaeb7b1c621649cc7981d417412ed925b18",
+ "sentences_hash": "106d655422e82451",
+ "review": {
+  "pairs_read": 47,
+  "pairs_fixed": 8
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Educação avaliou como anda a aplicação da Lei Brasileira de Inclusão na escola. Convidados do governo federal, da Defensoria, de mandatos paulistas e de entidades de pessoas com deficiência apontaram o capacitismo, a falta de apoio na sala de aula, a falta de dados e a ausência de orçamento. No fim, a presidência listou os encaminhamentos, entre eles emendas ao orçamento e o acompanhamento de um projeto de lei sobre o apoio ao aluno.",
+ "stakes": "Que compromissos a comissão levaria para a discussão do orçamento do ano seguinte e para a tramitação do Projeto de Lei nº 3.035.",
+ "central_question": "O que impede que a Lei Brasileira de Inclusão chegue de fato à sala de aula?",
+ "synopsis_plain": "A comissão quis saber como anda, na prática, a lei que garante educação às pessoas com deficiência. Convidados do governo, da Defensoria, de mandatos de São Paulo e de entidades contaram o que trava: o preconceito contra quem tem deficiência, a falta de apoio dentro da sala, a falta de dados e a falta de dinheiro no orçamento. No fim, a comissão listou o que vai cobrar.",
+ "stakes_plain": "Que pedidos a comissão ia levar para o orçamento do ano seguinte e para o projeto de lei que muda o apoio ao aluno com deficiência.",
+ "central_question_plain": "O que impede que a lei da inclusão chegue de fato à sala de aula?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Capacitismo na escola",
+   "description": "Discute-se o preconceito contra a pessoa com deficiência e se a barreira está no corpo dela ou no ambiente que não a acolhe.",
+   "axis": {
+    "pro": "O capacitismo é a principal barreira, e a escola tem de ser transformada para eliminá-la.",
+    "contra": "A barreira está na deficiência da pessoa, e o que cabe é cuidar dela ou corrigi-la.",
+    "pro_plain": "O que atrapalha é o preconceito e o ambiente que não acolhe, não a pessoa com deficiência.",
+    "contra_plain": "O que atrapalha é a própria deficiência da pessoa, e o caminho é tratá-la."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Leis que não saem do papel",
+   "description": "Discute-se se o problema da inclusão é a falta de cumprimento das leis que já existem ou se as leis sozinhas não dão conta.",
+   "axis": {
+    "pro": "A legislação já é farta e o que falta é obrigar o poder público a cumpri-la.",
+    "contra": "A lei sozinha não resolve, porque faltam regulamentação, instrumentos e transformação da escola.",
+    "pro_plain": "As leis já existem. O que falta é fazer o poder público cumprir o que está escrito.",
+    "contra_plain": "Só a lei não basta. Falta regulamentar, dizer como se faz e mudar a escola por dentro."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Orçamento da inclusão",
+   "description": "Discute-se se a inclusão depende de garantir mais recursos no orçamento ou se o dinheiro já existe e falta decisão política.",
+   "axis": {
+    "pro": "Sem prioridade no orçamento e recursos garantidos, a inclusão não sai do papel.",
+    "contra": "O dinheiro já existe, e o que falta é decisão política de gastá-lo com a inclusão.",
+    "pro_plain": "Sem dinheiro reservado no orçamento, a inclusão não acontece.",
+    "contra_plain": "Dinheiro tem. O que falta é decidir gastar com a inclusão."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Apoio ao estudante na sala",
+   "description": "Discute-se que tipo de apoio o aluno com deficiência recebe dentro da sala de aula e quem paga por ele.",
+   "axis": {
+    "pro": "O apoio tem de ser qualificado e público, garantir aprendizagem e não servir para separar o aluno.",
+    "contra": "Basta garantir a matrícula, e o apoio pode ficar por conta da família ou do plano de saúde.",
+    "pro_plain": "O apoio na sala precisa ser bom e pago pelo poder público, e não pode separar o aluno dos colegas.",
+    "contra_plain": "Basta a vaga na escola. O apoio a família resolve como puder."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Quem é ouvido antes da lei",
+   "description": "Discute-se o Projeto de Lei nº 3.035 e se as pessoas com deficiência foram ouvidas antes de se legislar sobre a vida delas.",
+   "axis": {
+    "pro": "Nenhuma regra sobre pessoas com deficiência pode andar sem consulta ampla a elas próprias.",
+    "contra": "O projeto pode seguir com o debate que já teve.",
+    "pro_plain": "Nada que trate de pessoas com deficiência pode ser decidido sem ouvir essas pessoas.",
+    "contra_plain": "O projeto já foi debatido o suficiente e pode seguir."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Escola comum ou espaço separado",
+   "description": "Discute-se se o lugar do estudante com deficiência é a escola comum e o que fazer com as escolas e instituições especiais.",
+   "axis": {
+    "pro": "O lugar do estudante com deficiência é a escola comum, e os espaços separados devem ir diminuindo.",
+    "contra": "As escolas e instituições especiais fazem um trabalho necessário e precisam ser mantidas e financiadas.",
+    "pro_plain": "O lugar de quem tem deficiência é a mesma escola de todo mundo.",
+    "contra_plain": "As escolas especiais fazem um bom trabalho e não podem ser fechadas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Formação e quem atende o aluno",
+   "description": "Discute-se quem faz o atendimento educacional especializado e que formação essa pessoa precisa ter.",
+   "axis": {
+    "pro": "O atendimento exige profissional com formação na área e formação continuada para toda a escola.",
+    "contra": "O atendimento pode ser entregue a entidades contratadas ou a quem não tem formação na área.",
+    "pro_plain": "Quem atende o aluno com deficiência precisa ter formação, e a escola inteira precisa se formar.",
+    "contra_plain": "O atendimento pode ser passado para entidades contratadas, mesmo sem formação na área."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "Falta de dados",
+   "description": "Discute-se o fato de não se saber quantas são as pessoas com deficiência no País nem quantas estão na escola.",
+   "axis": {
+    "pro": "Sem saber quantas e quem são, não há como reivindicar nem desenhar política pública.",
+    "contra": "Os dados que já existem bastam para decidir.",
+    "pro_plain": "Sem saber quantos somos, não dá para pedir nem para planejar política nenhuma.",
+    "contra_plain": "O que já se sabe hoje é suficiente."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputada federal, presidindo a audiência e autora do requerimento",
+   "org": "Comissão de Educação",
+   "basis": "declara aberta a reunião e diz ser autora do requerimento em b001.0",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida dos assuntos de educação"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, presidente da Comissão Especial de Combate ao Câncer",
+   "org": "Câmara dos Deputados",
+   "basis": "apresenta-se em b004.0 e fala do mandato em Minas Gerais em b004.12",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais",
+   "org_plain": "casa do Congresso onde os deputados federais fazem as leis do país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Diretora de Direitos da Pessoa com Deficiência",
+   "org": "Secretaria Nacional dos Direitos da Pessoa com Deficiência, do Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentada pela presidência em b001.2 e por ela mesma em b006.2",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos",
+   "org_plain": "secretaria do governo federal que cuida da política para as pessoas com deficiência"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado estadual, membro da Comissão de Educação da Assembleia Legislativa de São Paulo",
+   "org": "Assembleia Legislativa de São Paulo",
+   "basis": "apresentado pela presidência em b001.3 e em b007.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "deputado estadual de São Paulo",
+   "org_plain": "assembleia onde os deputados estaduais de São Paulo fazem as leis do estado"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Defensora pública, coordenadora do núcleo de direitos da pessoa idosa e da pessoa com deficiência",
+   "org": "Defensoria Pública do Estado de São Paulo",
+   "basis": "apresentada pela presidência em b001.2 e por ela mesma em b010.3",
+   "seat": "mesa",
+   "gov_level": "estadual",
+   "byline": "da Defensoria Pública de São Paulo",
+   "org_plain": "órgão público que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Vereador, membro da Comissão de Educação da Câmara Municipal de São Paulo",
+   "org": "Câmara Municipal de São Paulo",
+   "basis": "apresentado pela presidência em b001.3 e em b011.16",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "vereador na cidade de São Paulo",
+   "org_plain": "câmara onde os vereadores fazem as leis da cidade de São Paulo"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor de Comunicação e Mobilização da ABRAÇA",
+   "org": "ABRAÇA",
+   "basis": "apresentado pela presidência em b001.3 e por ele mesmo em b014.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da associação que defende os direitos das pessoas autistas",
+   "org_plain": "associação brasileira que age pelos direitos das pessoas autistas"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Professora, presidente da Associação G-14 e coordenadora da Pastoral da Pessoa com Deficiência",
+   "org": "Associação G-14",
+   "basis": "apresentada pela presidência em b001.2 e por ela mesma em b018.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Associação G-14",
+   "org_plain": "associação que reúne e apoia pessoas que tiveram poliomielite e defende seus direitos"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Diretor de Políticas de Educação Especial na Perspectiva Inclusiva, na SECADI",
+   "org": "Ministério da Educação",
+   "basis": "apresentado pela presidência em b001.2 e em b019.2",
+   "seat": "mesa",
+   "gov_level": "federal",
+   "byline": "do Ministério da Educação",
+   "org_plain": "ministério do governo federal responsável pela política de educação no país"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   }
+  ],
+  "basis": "a reunião é semipresencial, com parte dos convidados pelo Zoom, e a mesa só registra a presença de um ex-deputado em b005.1",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a audiência dizendo que o espaço de todas as pessoas é a escola regular e que a luta agora é pelo financiamento, na lei orçamentária em discussão.",
+   "quote": [
+    46,
+    47
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A educação inclusiva só avança se for prioridade dentro do orçamento.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      38
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para chamar uma política de prioritária se ela não é prioritária dentro do orçamento",
+     "plain": "É a hora de avaliar como tem sido o direito à educação inclusiva e de juntar esforços pelo financiamento. Quando se fala em prioridade, uma política não é prioritária se ela não é prioritária dentro do orçamento."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o espaço de todas as pessoas é na escola regular e a luta é pelo financiamento",
+     "plain": "Para mim não há dúvida: o espaço de todas as pessoas é na escola regular. E a luta é pelo financiamento, com os valores do orçamento voltados para essa questão."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a falta de qualidade, de arquitetura e de currículo que sirvam a todos vem da não priorização no orçamento",
+     "plain": "O Brasil não se fortalece como nação sem enfrentar as políticas que combatem a desigualdade. Falta qualidade, a arquitetura e o currículo não servem a todos, e tudo isso vem da falta de prioridade no orçamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra fora da ordem prevista, porque foi chamado em outra comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda e passa a palavra ao deputado Weliton Prado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que a educação inclusiva é um direito, relata a luta que impediu o fechamento de escolas de educação especial em Minas Gerais e cobra recursos em todos os orçamentos.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A matrícula na escola regular é um direito, e as escolas de educação especial que existem não podem ser fechadas.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a educação inclusiva é um direito e o estudante com deficiência pode se matricular na escola regular",
+     "plain": "A educação inclusiva é um direito. Quem tem deficiência pode se matricular na escola regular, só que há muitas dificuldades e realidades diferentes pelo País."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "em Minas Gerais a luta impediu o fechamento de escolas de educação especial e garantiu o financiamento delas",
+     "plain": "Em Minas Gerais o Governo queria fechar escolas de educação especial por causa da legislação. Eram escolas que faziam um trabalho brilhante, e pais, estudantes e a comunidade lutaram contra o fechamento. Garantimos o financiamento delas."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em todos os orçamentos é preciso priorizar recursos para a inclusão, com ação das três esferas",
+     "plain": "Em todos os orçamentos nós priorizamos os recursos para fortalecer a inclusão. É preciso uma ação de Estado, com as esferas municipal, estadual e federal, para que a lei seja cumprida."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece, registra a presença de um ex-deputado e passa a palavra a Naira Gaspar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Define o capacitismo como preconceito ligado ao valor de produção, afirma que o lugar do estudante com deficiência é a escola comum e apresenta a regulamentação da avaliação biopsicossocial.",
+   "quote": [
+    32,
+    33
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Combater o capacitismo é o objetivo central, e a educação é o eixo dessa transformação.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o capacitismo é o preconceito que vê certas pessoas como de menor valor social e de produção",
+     "plain": "O capacitismo é um preconceito que nasce da ideia de que há pessoas com menor valor social e menor valor de produção. Ele se consolida com o capitalismo neoliberal, em que as pessoas precisam ter valor para o mercado."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "lugar de estudante com deficiência é a escola onde estão todos os outros, em igualdade de condições",
+     "plain": "Se a educação para todas as pessoas precisa acontecer nos territórios, ela também precisa acontecer para as pessoas com deficiência. O lugar do estudante com deficiência é a escola onde estão todos os outros, em igualdade de condições."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o objetivo é ter a convenção e a Lei Brasileira de Inclusão com todos os artigos regulamentados até o fim deste Governo",
+     "plain": "Queremos a convenção e a Lei Brasileira de Inclusão regulamentadas até o fim deste Governo. Trabalhamos na avaliação biopsicossocial, feita por equipe de várias profissões, que olha o corpo, o ambiente, a atividade e a participação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado estadual Carlos Giannazi, da Comissão de Educação paulista.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que a legislação é ampla e não é aplicada, cita a lei paulista que reduz o número de alunos por sala e denuncia a troca de professores por entidades contratadas.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 49,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As leis de inclusão já existem, e o que falta é pressionar o poder público a cumpri-las.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a legislação é ampla e não é aplicada, e o papel do parlamento já não é aprovar novas leis",
+     "plain": "Nós temos uma legislação ampla, mas ela não é aplicada. O nosso papel já não é aprovar leis, porque elas existem."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei paulista limita a sala a 20 alunos quando há um aluno com deficiência e a 15 quando há 2",
+     "plain": "A lei diz que, se houver um aluno com deficiência na sala, essa sala só pode ter 20 alunos. Se houver 2 alunos com deficiência, a sala só pode ter 15."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo paulista publicou decreto e resolução para trocar professores com formação em educação especial por entidades contratadas",
+     "plain": "O Governo de São Paulo publicou decreto e resolução para trocar os professores com formação em educação especial por ONGs terceirizadas. Vai passar esse atendimento para pessoas não preparadas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Acrescenta que o governo paulista também tentou extinguir a secretaria da pessoa com deficiência e recuou depois de muita mobilização.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O desmonte em São Paulo atinge os professores com formação e a própria estrutura de direitos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além de dispensar professores com formação em educação especial, o governo paulista tentou extinguir a secretaria da pessoa com deficiência",
+     "plain": "Está em curso não só esse desmonte, com o Estado querendo dispensar professoras e professores com formação em educação especial, mas também a extinção da Secretaria da Pessoa com Deficiência, que a mobilização impediu."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Explica que não basta o aluno estar na sala, relata as reclamações sobre falta de apoio e diz que sem a avaliação biopsicossocial não se sabe como oferecer esse apoio.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O aluno com deficiência precisa de apoio qualificado para aprender o currículo, e não de um apoio que o separe.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não basta o aluno com deficiência estar no mesmo espaço, ele precisa ter a chance de aprender o currículo",
+     "plain": "Não basta permitir que os alunos com deficiência estejam nos mesmos espaços que todo mundo. Ele precisa ter a oportunidade de aprender o currículo que está sendo dado. Esse é um dos maiores desafios que temos."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "chegam muitas reclamações de crianças que ficam na sala sem fazer nada, fora do conteúdo, por falta de apoio",
+     "plain": "Precisamos tornar a escola acessível para todas as deficiências e em todos os graus de suporte. Na Defensoria recebemos muitas reclamações sobre a falta de apoio, de crianças que ficam na sala sem fazer nada, fora do conteúdo da aula."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "mesmo com a Lei Brasileira de Inclusão não está claro como o apoio deve ser oferecido na sala, porque falta a avaliação biopsicossocial",
+     "plain": "Mesmo com a Lei Brasileira de Inclusão e a convenção, que tem força de emenda constitucional, ainda não está claro como esses apoios devem ser oferecidos dentro da sala. Por quê? Porque nem sequer temos a avaliação biopsicossocial."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Recolhe o alerta sobre a rede de apoio, diz que não há solução fácil e afirma que a priorização passa necessariamente pelo orçamento.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A inclusão exige um conjunto de medidas e prioridade no orçamento.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso um conjunto de medidas e priorização, e essa priorização passa pelo orçamento",
+     "plain": "Precisamos de um conjunto de medidas, de esforço e de priorização. E essa priorização passa necessariamente pelo orçamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que em São Paulo há dinheiro e falta prioridade, conta o caso do elevador quebrado desde 2019 e aponta a falta de auxiliares de vida escolar.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 37,
+   "stance": {
+    "position": "contrario",
+    "claim": "Na cidade de São Paulo o dinheiro existe, e o que falta é decisão política para a inclusão.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o problema não é de recursos financeiros, é de priorização, porque há dinheiro e falta prioridade para a educação",
+     "plain": "O problema não é de recursos financeiros, é de priorização das políticas públicas. Há dinheiro. O que falta é visão do Prefeito Ricardo Nunes e prioridade para a educação, inclusive para a educação inclusiva."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o elevador que levava as crianças com deficiência quebrou em 2019 e a prefeitura preferiu transferi-las de escola",
+     "plain": "O elevador quebrou no fim de 2019 e até hoje, em 2023, não foi consertado. A política do Prefeito foi transferir essas crianças com deficiência para outras escolas, longe de casa."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "faltam auxiliares de vida escolar e estagiários para dar suporte às crianças e aos professores na sala",
+     "plain": "Nas salas de aula não temos número suficiente de auxiliares de vida escolar, que dão suporte às crianças com maior grau de dependência. Também não temos estagiários que ajudem os professores."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a William de Jesus Silva, da associação de pessoas autistas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que o modelo biomédico culpa o indivíduo, apresenta o modelo social da deficiência e lembra o extermínio de pessoas com deficiência na Alemanha nazista.",
+   "quote": [
+    45,
+    46
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A deficiência é uma construção social, resultado das barreiras do ambiente, e não um defeito do corpo.",
+    "sentence": 45
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o modelo biomédico culpa o indivíduo, trata a deficiência como algo a curar e mede a dignidade pela produtividade",
+     "plain": "O modelo biomédico responsabiliza a pessoa, é quase uma criminalização da deficiência. Trata a deficiência como doença a ser curada a qualquer custo, como problema individual, e mede a dignidade pela produtividade do capitalismo."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o modelo social entende a deficiência como construção social, resultado da relação da pessoa com as barreiras do ambiente",
+     "plain": "Para enfrentar o modelo biomédico e o fascista surgiu o modelo social da deficiência, que trata a deficiência como construção social e a pessoa como sujeito de direitos. Ela resulta da relação da pessoa com o ambiente e suas barreiras."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no projeto Aktion T4, dezenas de milhares de pessoas com deficiência morreram em câmaras de gás",
+     "plain": "Hitler, pelo projeto Aktion T4, buscou a raça ariana matando pessoas com deficiência intelectual. Dezenas de milhares delas morreram em câmaras de gás ou em clínicas de eutanásia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que William conclua em 3 minutos e faça uma síntese.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Distingue a educação especial, que separa, da educação inclusiva, define capacitismo e cobra acessibilidade, tecnologia assistiva e adaptação do currículo.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não há educação inclusiva sem uma política que enfrente o capacitismo.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a educação especial separa o aluno com deficiência dos outros, e a inclusiva garante o acesso à escola para todos",
+     "plain": "A educação especial segue a linha de que os alunos com deficiência aprendem separados dos outros estudantes, ou seja, é um modelo de segregação. A educação inclusiva quer garantir o acesso à escola, tenha o aluno deficiência ou não."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "capacitismo é discriminação e opressão por causa da deficiência, em barreiras arquitetônicas, atitudinais e culturais",
+     "plain": "Para fazer uma política anticapacitista é preciso saber o que é capacitismo. É discriminação, é opressão por causa da deficiência. Aparece em barreiras arquitetônicas, atitudinais e até culturais e éticas."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      16
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não dá para falar de educação inclusiva sem acessibilidade, tecnologia assistiva e adaptação do currículo",
+     "plain": "Não podemos falar de educação inclusiva sem pensar numa educação anticapacitista e anticapitalista. E sem acessibilidade, comunicação alternativa, tecnologias assistivas e adaptação do currículo e da arquitetura."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Sandra Ramalhoso, da Associação G-14 e da pastoral.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta a própria trajetória escolar, afirma que a deficiência está no ambiente, aponta o capacitismo como barreira principal e denuncia a invisibilidade nos dados.",
+   "quote": [
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A barreira principal é a atitude das pessoas, e não o corpo de quem tem deficiência.",
+    "sentence": 93
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a deficiência não está nas pessoas, está no ambiente que não acolhe e impede a participação",
+     "plain": "A deficiência não está em nós. Está no ambiente que não nos acolhe, que não dá acessibilidade e que impede a nossa participação por inteiro."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      92,
+      93
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a principal barreira é a atitudinal, que é o capacitismo, o preconceito contra a pessoa com deficiência",
+     "plain": "Temos barreiras arquitetônicas e de comunicação. Mas acho que a principal barreira é a atitudinal, que é o capacitismo, o preconceito contra a pessoa com deficiência."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      72,
+      73,
+      74
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as pessoas com deficiência são invisíveis nos dados, 10% da população para o IBGE e 15% para a ONU",
+     "plain": "Temos um problema grande: as pessoas com deficiência são invisíveis nos dados. O IBGE diz que somos aproximadamente 10% da população. Para a ONU, somos 15% da população."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Décio Nascimento Guimarães, do Ministério da Educação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Diz que os três documentos legais já dão alicerce e falta mãos à obra, aponta a estrutura capacitista da escola e afirma que a barreira econômica é a principal.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A escola precisa ser transformada, porque os seus alicerces são capacitistas.",
+    "sentence": 55
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os três documentos legais dão um alicerce sólido e o que falta é pôr as mãos à obra",
+     "plain": "No Brasil temos três documentos legais importantes: a convenção da ONU, o Estatuto da Pessoa com Deficiência e a política nacional de educação especial inclusiva. Eles são um alicerce sólido. O que falta é mãos à obra."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      54,
+      55
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os alicerces da escola são uma estrutura capacitista e precisam ser desconstruídos com luta coletiva",
+     "plain": "A nossa presença significa luta coletiva, de movimentos sociais e da classe trabalhadora, porque precisamos desconstruir os alicerces da escola. Esses alicerces nada mais são do que uma estrutura capacitista."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei Brasileira de Inclusão não traz a principal barreira, que é a econômica",
+     "plain": "A Lei Brasileira de Inclusão traz muitas barreiras, mas, no meu modo de entender, não traz a principal, que é a barreira econômica. Quando se fala em adaptação razoável, o lado econômico predomina, e a grande prioridade é a dignidade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Anuncia os encaminhamentos: emendas ao orçamento, a demanda de dados ao Inep e ao IBGE e audiências nos territórios sobre a rede de apoio.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão vai cobrar dados, orçamento e debate sobre a rede de apoio.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      8
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a bancada vai lutar por emendas no orçamento para as políticas que garantem a inclusão",
+     "plain": "Vamos lutar pela efetivação de emendas no orçamento para as políticas públicas que garantem a inclusão, políticas que já estão escritas na nossa lei."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      9
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a demanda por dados do Censo vai ser levada ao Inep e ao IBGE",
+     "plain": "Vamos levar essa demanda que a Sandra trouxe, sobre os dados do Censo, para o Inep, o instituto que faz as pesquisas da educação, e também para o IBGE."
+    },
+    {
+     "id": "b021c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "serão propostas audiências nos territórios para discutir a rede de apoio com os governos locais",
+     "plain": "Vamos propor audiências públicas nos territórios, para discutir com os governos locais essa rede de apoio, como nos alertou a Defensora Renata Tibyriçá."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Lê o manifesto da associação contra o Projeto de Lei nº 3.035, critica a terapia ABA e lembra que a consulta deve ser feita a organizações de pessoas com deficiência.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto cria uma figura de apoio que desvincula a inclusão e foi escrito sem ouvir as pessoas com deficiência.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto cria a figura do atendente terapêutico e tira das escolas a responsabilidade pelo custo desse profissional",
+     "plain": "Um dos problemas desse projeto é a nova figura de apoio, o atendente terapêutico. O projeto determina a atuação dele, estabelece o vínculo e tira das escolas públicas e particulares a responsabilidade pelo custo desse profissional."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a terapia ABA é uma forma de controle de corpos, e muitos autistas denunciam o sofrimento que ela causa",
+     "plain": "A terapia ABA é uma forma de controle de corpos, que faz o autista imitar quem não é autista. Muitos autistas pelo mundo criticam essa terapia, principalmente os efeitos colaterais, e denunciam o sofrimento de se submeter a ela."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as organizações que devem ser consultadas na lei são as formadas e lideradas por pessoas com deficiência",
+     "plain": "Termino destacando o Comentário Geral nº 7: as organizações que devem ser consultadas quando se faz lei e política são as formadas e lideradas pelas próprias pessoas com deficiência, e não as de pais ou de profissionais da área."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à defensora Renata Tibyriçá para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Diz que o projeto de lei preocupa a Defensoria, cobra debate amplo com as pessoas com deficiência e lembra como a Lei Brasileira de Inclusão foi construída.",
+   "quote": [
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 11,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Uma lei que muda a vida de tanta gente precisava ter sido debatida de forma ampla e acessível.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei nº 3.035 preocupa a Defensoria, mesmo com os aprimoramentos feitos pelo relator",
+     "plain": "Esse Projeto de Lei nº 3.035 preocupa a Defensoria Pública. Houve aprimoramentos por parte do Deputado Duarte, mas nos preocupa que essas informações voltem de alguma forma ao projeto."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto precisava de debate amplo, como a Lei Brasileira de Inclusão, que ficou em consulta pública e em Libras",
+     "plain": "Esse projeto tinha que ser debatido de forma ampla com a população, com as pessoas com deficiência e com quem trabalha na educação especial. A Lei Brasileira de Inclusão ficou em consulta pública, traduzida em Libras e em áudio."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o investimento é primordial para haver educação de verdade para todas as pessoas com deficiência",
+     "plain": "É muito importante que haja investimento. Parabenizo a Deputada pela preocupação com o orçamento, porque isso é primordial para termos uma educação de verdade para todas as pessoas com deficiência."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 1 minuto a Sandra Ramalhoso para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Propõe trocar o lema por tudo conosco, sugere cotas para pessoas com deficiência nos conselhos e diz que a pastoral é contra o Projeto de Lei nº 3.035.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As pessoas com deficiência têm de participar de todas as fases das políticas públicas, não só das que falam delas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o lema deixa de ser nada sobre nós sem nós e passa a ser tudo conosco, porque tudo diz respeito a nós",
+     "plain": "Temos um lema: nada sobre nós sem nós. Mas eu queria mudar para tudo conosco, porque tudo é sobre nós. Qualquer movimento social ou político traz consequência para as pessoas com deficiência, porque estamos na sociedade."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "poderiam ser criadas cotas para a participação da pessoa com deficiência nos conselhos",
+     "plain": "Como é tão difícil participar, e agora dá para participar pela internet, poderiam ser criadas cotas em alguns conselhos de que ainda não fazemos parte. Cotas para a participação da pessoa com deficiência."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a pastoral discute o Projeto de Lei nº 3.035 e é contra, porque não quer perder nenhum direito",
+     "plain": "Sobre o Projeto de Lei nº 3.035, temos feito grandes discussões, também na pastoral. Não queremos prejuízo nenhum nem perder nenhum direito. Por isso somos contra."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Décio Nascimento Guimarães para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Anuncia recursos para salas de recursos multifuncionais, formação continuada para toda a escola e diz que o ministério é contra qualquer medida não debatida com as pessoas com deficiência.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O ministério vai financiar sala de recursos, formação continuada e tecnologia assistiva para o público da educação especial.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      4
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todas as escolas públicas vão receber recursos para montar salas de recursos multifuncionais",
+     "plain": "Vamos assegurar a todas as escolas públicas recursos, pelo programa que manda dinheiro direto para a escola, para que possam montar salas de recursos multifuncionais e garantir o atendimento educacional especializado."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      5
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "haverá 100% de formação continuada para professores regentes, do atendimento especializado e gestores",
+     "plain": "Vamos assegurar 100% de formação continuada a todas e todos: professores regentes, professores do atendimento educacional especializado e gestores de escola. Esse processo não pode deixar ninguém de fora."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Educação é contra qualquer iniciativa que não seja amplamente debatida com as pessoas com deficiência",
+     "plain": "Reafirmo publicamente: o Ministério da Educação é totalmente contra qualquer iniciativa que não seja amplamente debatida com o público da educação especial e com as pessoas com deficiência."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos palestrantes, convida para a reunião seguinte e encerra os trabalhos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 33,
+   "to_sentence": 9,
+   "from_claim": "b006c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O deputado conta que lutou para manter abertas escolas de educação especial. A diretora do ministério diz que o lugar do estudante com deficiência é a escola onde estão todos."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 6,
+   "from_claim": "b008c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Os dois dizem a mesma coisa sobre a lei, que existe e não é cumprida pelos governos."
+  },
+  {
+   "from": "b009",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 43,
+   "from_claim": "b009c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A presidência acrescenta à denúncia do deputado estadual que o mesmo governo tentou extinguir a secretaria da pessoa com deficiência."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 26,
+   "to_sentence": 11,
+   "from_claim": "b010c3",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Para o deputado estadual só falta cumprir as leis. Para a defensora a lei não basta, porque ninguém definiu como o apoio deve chegar à sala de aula."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 24,
+   "from_claim": "b011c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "A presidência recolhe o relato sobre a falta de apoio e diz que não há saída fácil, mas um conjunto de medidas com prioridade no orçamento."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 34,
+   "to_sentence": 10,
+   "from_claim": "b012c2",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "O vereador dá o caso do elevador quebrado como exemplo da lei que está escrita e não se cumpre."
+  },
+  {
+   "from": "b012",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 22,
+   "to_sentence": 49,
+   "from_claim": "b012c1",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "A presidência atribui as faltas à ausência de prioridade no orçamento. O vereador responde que em São Paulo o dinheiro está guardado e o que falta é decisão política."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 50,
+   "to_sentence": 24,
+   "from_claim": "b012c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A falta de apoio que chega à Defensoria aparece na cidade como falta de auxiliares de vida escolar e de estagiários na sala."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 46,
+   "to_sentence": 12,
+   "from_claim": "b014c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Os dois partem do mesmo ponto, o de que a deficiência nasce da relação com as barreiras do ambiente, e não do corpo."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 9,
+   "from_claim": "b016c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "O deputado defendeu as escolas de educação especial que não fecharam. Para a associação, esse modelo é justamente o que separa o aluno dos outros."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 93,
+   "to_sentence": 11,
+   "from_claim": "b018c2",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "Ela retoma a definição de capacitismo dada antes e diz que essa é a principal barreira, acima da arquitetura e da comunicação."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 24,
+   "from_claim": "b018c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Onde a diretora do ministério diz que o corpo com impedimento não define o sujeito, ela diz que a deficiência está no ambiente."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 10,
+   "from_claim": "b020c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "O diretor do ministério concorda que o alicerce legal está pronto e que o que falta é pôr as mãos à obra."
+  },
+  {
+   "from": "b020",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 64,
+   "to_sentence": 38,
+   "from_claim": "b020c3",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Ele diz que a barreira econômica é a que falta na lei, e a presidência havia dito que sem orçamento não existe prioridade."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 64,
+   "to_sentence": 22,
+   "from_claim": "b020c3",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "Para o vereador o problema não é de dinheiro. Para o diretor do ministério a barreira econômica é a principal de todas."
+  },
+  {
+   "from": "b021",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 72,
+   "from_claim": "b021c2",
+   "to_claim": "b018c3",
+   "strength": "forte",
+   "note": "A presidência assume a demanda de dados que a convidada trouxe e diz que vai levá-la ao Inep e ao IBGE."
+  },
+  {
+   "from": "b021",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 24,
+   "from_claim": "b021c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Ao alerta da defensora sobre a rede de apoio, a presidência responde com audiências públicas nos territórios."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 46,
+   "from_claim": "b022c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "A defensora se preocupa com o apoio pago pela família. A associação mostra que o projeto em tramitação tira esse custo das escolas."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 3,
+   "from_claim": "b024c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "A Defensoria confirma a preocupação da associação com o projeto de lei e com o que ele pode trazer de volta."
+  },
+  {
+   "from": "b024",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 8,
+   "from_claim": "b024c3",
+   "to_claim": "b021c1",
+   "strength": "media",
+   "note": "A defensora endossa a promessa de emendas ao orçamento e diz que sem investimento não há educação de verdade."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 3,
+   "from_claim": "b026c3",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "A pastoral e a associação chegam à mesma conclusão sobre o projeto de lei, a de que é preciso ser contra para não perder direito."
+  },
+  {
+   "from": "b026",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 7,
+   "from_claim": "b026c3",
+   "to_claim": "b024c2",
+   "strength": "media",
+   "note": "As duas dizem que o projeto foi pouco discutido, e a pastoral conta que também o debateu nas suas bases."
+  },
+  {
+   "from": "b028",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 25,
+   "from_claim": "b028c3",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "À cobrança de uma escuta ampla, o ministério responde que é contra qualquer medida que não seja debatida com as pessoas com deficiência."
+  },
+  {
+   "from": "b028",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 44,
+   "from_claim": "b028c2",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Onde o deputado estadual denuncia a troca de professores por entidades contratadas, o ministério anuncia formação continuada para todos."
+  },
+  {
+   "from": "b028",
+   "to": "b009",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 2,
+   "from_claim": "b028c2",
+   "to_claim": "b009c1",
+   "strength": "media",
+   "note": "À denúncia da dispensa de professores com formação, o ministério responde com a promessa de formação continuada para toda a escola."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b006",
+    "b014",
+    "b016",
+    "b018",
+    "b020"
+   ],
+   "claims": [
+    "b006c1",
+    "b014c1",
+    "b014c2",
+    "b016c2",
+    "b018c1",
+    "b018c2",
+    "b020c2"
+   ],
+   "note": "Dois ministérios e três entidades de pessoas com deficiência descrevem o mesmo problema, o de que a barreira está no ambiente e no preconceito, não no corpo."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b004",
+    "b011",
+    "b020",
+    "b021",
+    "b024"
+   ],
+   "claims": [
+    "b001c1",
+    "b001c3",
+    "b004c3",
+    "b011c1",
+    "b020c3",
+    "b021c1",
+    "b024c3"
+   ],
+   "note": "Mesa, deputado federal, Ministério da Educação e Defensoria concordam que sem prioridade no orçamento a inclusão não sai do papel."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b010",
+    "b012",
+    "b016",
+    "b021",
+    "b028"
+   ],
+   "claims": [
+    "b008c2",
+    "b010c1",
+    "b010c2",
+    "b012c3",
+    "b016c3",
+    "b021c3",
+    "b028c1"
+   ],
+   "note": "Parlamentares de dois níveis, a Defensoria, uma associação e o Ministério da Educação concordam que o aluno precisa de apoio qualificado dentro da sala."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b022",
+    "b024",
+    "b026",
+    "b028"
+   ],
+   "claims": [
+    "b022c1",
+    "b022c3",
+    "b024c1",
+    "b024c2",
+    "b026c1",
+    "b026c3",
+    "b028c3"
+   ],
+   "note": "Associação de autistas, pastoral, Defensoria e Ministério da Educação concordam que nada pode ser decidido sobre pessoas com deficiência sem ouvi-las."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b008",
+    "b009",
+    "b028"
+   ],
+   "claims": [
+    "b008c3",
+    "b009c1",
+    "b028c2"
+   ],
+   "note": "Deputado estadual, presidência e Ministério da Educação concordam que o atendimento exige profissional com formação, e não entidade contratada."
+  },
+  {
+   "theme": "d8",
+   "falas": [
+    "b018",
+    "b021"
+   ],
+   "claims": [
+    "b018c3",
+    "b021c2"
+   ],
+   "note": "A convidada mostra que ninguém sabe quantas pessoas com deficiência existem, e a presidência transforma isso em pedido ao Inep e ao IBGE."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b018",
+   "sentence": 77,
+   "addressed_to": "governo",
+   "answered_by": "b021",
+   "gist": "de onde virá o número de quantas pessoas com deficiência existem",
+   "plain": "De onde vamos tirar o número para saber quantas pessoas com deficiência somos?",
+   "theme": "d8",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b022",
+   "sentence": 25,
+   "addressed_to": "parlamentar",
+   "answered_by": "b028",
+   "gist": "escuta ampla dos movimentos de pessoas com deficiência antes de legislar",
+   "plain": "Quem faz a lei vai ouvir de forma ampla os movimentos das pessoas com deficiência?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b026",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "cotas para a pessoa com deficiência nos conselhos",
+   "plain": "Podem ser criadas cotas para a pessoa com deficiência participar dos conselhos?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b012",
+   "sentence": 37,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "uma solução para as crianças com deficiência voltarem à escola",
+   "plain": "O prefeito vai dar uma solução para essas crianças com deficiência acessarem a escola?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b008",
+   "sentence": 49,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "atuação do Ministério Público sobre o decreto paulista",
+   "plain": "O Ministério Público vai agir contra a troca dos professores de educação especial por entidades contratadas?",
+   "theme": "d7",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b008",
+   "sentence": 28,
+   "gist": "com um aluno com deficiência, a sala só pode ter 20 alunos",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b008",
+   "sentence": 29,
+   "gist": "com 2 alunos com deficiência, a sala só pode ter 15",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b008",
+   "sentence": 19,
+   "gist": "a Lei nº 15.830 foi aprovada em 2015 em São Paulo",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 56,
+   "gist": "a rede paulista tem 5 mil escolas e 3,5 milhões de alunos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 18,
+   "gist": "São Paulo tem orçamento de mais de 100 bilhões e 15 bilhões na educação",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 21,
+   "gist": "o dinheiro guardado gera 6 bilhões de reais em juros em 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 32,
+   "gist": "o elevador da escola quebrou no fim de 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 27,
+   "gist": "o Dia Nacional de Luta foi instituído em 2005",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b016",
+   "sentence": 2,
+   "gist": "no ano passado eram mais ou menos 50 milhões de pessoas com deficiência",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 73,
+   "gist": "para o IBGE somos aproximadamente 10% da população",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 74,
+   "gist": "para a ONU somos 15% da população",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b018",
+   "sentence": 103,
+   "gist": "há 217 estudantes com deficiência na USP",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d8"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o capacitismo como a grande barreira, com as falas das convidadas, e fechou com a promessa de emendas ao orçamento.",
+  "omitted": "Ficou de fora a disputa em torno do projeto de lei sobre o atendente terapêutico e da terapia ABA, e também os casos de São Paulo, do elevador quebrado à troca de professores por entidades contratadas."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A barreira é o preconceito, não o corpo",
+   "statement_plain": "Quem tem deficiência não é o problema. O problema é o ambiente que não acolhe e o preconceito que julga a pessoa antes de ela mostrar o que sabe fazer.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b014c1",
+    "b014c2",
+    "b016c2",
+    "b018c1",
+    "b020c2"
+   ],
+   "note": "A ideia junta dois ministérios, uma associação de autistas e uma pastoral, gente que chegou a ela por caminhos muito diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "A lei já existe, o que falta é cumprir",
+   "statement_plain": "O Brasil já tem convenção, estatuto e lei de educação que garantem a inclusão. Não é preciso lei nova, é preciso obrigar governos e prefeitos a cumprir o que está escrito.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b012c2",
+    "b020c1"
+   ],
+   "note": "A ideia é sustentada por dois mandatos paulistas e pelo Ministério da Educação, que poderiam se cobrar mutuamente e aqui dizem o mesmo."
+  },
+  {
+   "id": "t3",
+   "title": "Só a lei não chega à sala de aula",
+   "statement_plain": "Enquanto ninguém disser como o apoio deve ser oferecido e quem avalia cada aluno, a lei fica no papel e a criança continua sentada na sala sem aprender.",
+   "core_theme": "d4",
+   "positions": {
+    "d2": "contrario",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b010c3",
+    "b010c1",
+    "b010c2",
+    "b016c3"
+   ],
+   "note": "A ideia contraria a de que basta cumprir a lei e é defendida por quem atende as famílias todos os dias, da Defensoria à secretaria que regulamenta a avaliação."
+  },
+  {
+   "id": "t4",
+   "title": "Sem orçamento, a inclusão não sai do papel",
+   "statement_plain": "Uma política só é prioridade quando tem dinheiro reservado. Sem emendas e sem verba garantida, faltam apoio, acessibilidade e formação nas escolas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b001c3",
+    "b004c3",
+    "b011c1",
+    "b020c3",
+    "b024c3"
+   ],
+   "note": "A ideia cruza a mesa, um deputado de outro partido, o Ministério da Educação e a Defensoria, e é contestada por um vereador do mesmo campo da presidência."
+  },
+  {
+   "id": "t5",
+   "title": "Nada sobre nós sem nós",
+   "statement_plain": "Nenhuma regra que muda a vida das pessoas com deficiência pode ser votada sem consulta ampla a elas, em linguagem acessível e com tempo para se manifestarem.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b022c3",
+    "b024c2",
+    "b026c1",
+    "b026c3",
+    "b028c3"
+   ],
+   "note": "A ideia nasce nas entidades de pessoas com deficiência e é assumida pela Defensoria e pelo próprio Ministério da Educação."
+  },
+  {
+   "id": "t6",
+   "title": "O lugar é a escola de todo mundo",
+   "statement_plain": "O estudante com deficiência tem de estudar na mesma escola dos outros, em igualdade de condições, e os espaços separados precisam ir diminuindo.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c1",
+    "b006c2",
+    "b016c1"
+   ],
+   "note": "A ideia reúne a mesa, o governo federal e uma associação de autistas, e divide o próprio deputado que lutou para manter escolas especiais abertas."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Lei Brasileira de Inclusão",
+   "fala": "b001",
+   "sentence": 36,
+   "plain": "lei de 2015 que reúne os direitos das pessoas com deficiência, também chamada de Estatuto da Pessoa com Deficiência"
+  },
+  {
+   "term": "SECADI",
+   "fala": "b001",
+   "sentence": 2,
+   "plain": "secretaria do Ministério da Educação que cuida de inclusão, diversidade e educação de jovens e adultos"
+  },
+  {
+   "term": "ABRAÇA",
+   "fala": "b001",
+   "sentence": 3,
+   "plain": "associação brasileira que age pelos direitos das pessoas autistas, dirigida por pessoas autistas"
+  },
+  {
+   "term": "capacitismo",
+   "fala": "b006",
+   "sentence": 11,
+   "plain": "preconceito contra a pessoa com deficiência, que a trata como incapaz antes de ela mostrar o que sabe fazer"
+  },
+  {
+   "term": "avaliação biopsicossocial",
+   "fala": "b006",
+   "sentence": 21,
+   "plain": "avaliação feita por uma equipe de várias profissões, que olha o corpo, o ambiente, a atividade e a participação da pessoa"
+  },
+  {
+   "term": "tecnologia assistiva",
+   "fala": "b006",
+   "sentence": 45,
+   "plain": "equipamento ou programa que ajuda a pessoa com deficiência a estudar, trabalhar e se comunicar, como o leitor de tela"
+  },
+  {
+   "term": "desenho universal de aprendizagem",
+   "fala": "b010",
+   "sentence": 39,
+   "plain": "forma de planejar a aula e o currículo para servir a todos os alunos desde o começo, sem precisar de remendo depois"
+  },
+  {
+   "term": "plano educativo individualizado",
+   "fala": "b010",
+   "sentence": 41,
+   "plain": "plano escrito para um aluno, que diz de que apoio ele precisa para acompanhar o conteúdo da turma"
+  },
+  {
+   "term": "adaptações razoáveis",
+   "fala": "b010",
+   "sentence": 59,
+   "plain": "ajustes que a escola tem de fazer para a pessoa com deficiência participar em igualdade, como rampa, material em braile ou prova em outro formato"
+  },
+  {
+   "term": "AVEs",
+   "fala": "b012",
+   "sentence": 50,
+   "plain": "auxiliares de vida escolar, profissionais que apoiam na escola as crianças com maior grau de dependência"
+  },
+  {
+   "term": "modelo biomédico",
+   "fala": "b014",
+   "sentence": 36,
+   "plain": "forma de olhar a deficiência como doença a ser curada, colocando o problema na pessoa"
+  },
+  {
+   "term": "modelo social",
+   "fala": "b014",
+   "sentence": 45,
+   "plain": "forma de olhar a deficiência como resultado das barreiras do ambiente, e a pessoa como sujeito de direitos"
+  },
+  {
+   "term": "atendente terapêutico",
+   "fala": "b022",
+   "sentence": 3,
+   "plain": "profissional que acompanharia o aluno na sala de aula, figura criada pelo projeto de lei em discussão"
+  },
+  {
+   "term": "ABA",
+   "fala": "b022",
+   "sentence": 6,
+   "plain": "sigla em inglês de análise do comportamento aplicada, terapia usada com pessoas autistas e criticada por muitas delas"
+  }
+ ]
+}

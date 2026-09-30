@@ -1,0 +1,3069 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 142,
+ "model": "LLM lendo o prompt hearing-142 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T20:44:00Z",
+ "prompt_sha256": "71cbd5249b8da2cca3b5fa317491ab1b27bc10c54fd02f7777aa62a1f1b9020e",
+ "sentences_hash": "804d6269967e105a",
+ "review": {
+  "pairs_read": 66,
+  "pairs_fixed": 11
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Administração e Serviço Público ouviu entidades de servidores, bancos, correspondentes de crédito e o Governo sobre o Projeto de Lei 2.591, de 2023, que devolve ao servidor a escolha de como usar a margem de 45% do seu salário. Desde a derrubada do Veto 61 à Lei 14.509, de 2022, 5% dessa margem ficaram reservados ao cartão de benefício, que segue sem regulamentação, e muitos servidores ficaram com margem negativa. O relator pediu a audiência para reunir subsídios ao seu parecer.",
+ "stakes": "Estavam em jogo o parecer do relator sobre o PL 2.591/23 e a data do decreto que regulamenta o cartão consignado de benefício.",
+ "central_question": "O servidor público deve poder escolher se usa a sua margem consignável em empréstimo, em cartão de crédito ou em cartão de benefício?",
+ "synopsis_plain": "Entidades de servidores, bancos, correspondentes de crédito e o Governo discutiram um projeto que deixa o servidor escolher como usar os 45% do salário que podem ir para desconto de empréstimo. Hoje 5% ficam presos ao cartão de crédito. A regulamentação do novo cartão de benefício não saiu e muitos servidores ficaram sem margem para contratar nada.",
+ "stakes_plain": "O parecer do deputado relator sobre o projeto e a publicação do decreto que o Governo prometeu para a semana seguinte.",
+ "central_question_plain": "O servidor deve escolher se usa a margem do seu salário em empréstimo, em cartão de crédito ou em cartão de benefício?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Superendividamento e educação financeira",
+   "description": "Se o servidor público já está preso em dívidas que não consegue pagar e o que o poder público deve fazer para tirá-lo dessa situação.",
+   "axis": {
+    "pro": "O servidor público já está superendividado e precisa de renegociação e de política pública para sair da dívida.",
+    "contra": "O crédito consignado ajuda a reduzir o endividamento da família, e o problema está na má venda e na falta de educação financeira.",
+    "pro_plain": "O servidor já está afundado em dívida e precisa de ajuda do Governo para sair dela.",
+    "contra_plain": "O desconto em folha troca dívidas caras por uma mais barata, e o problema é a venda mal feita."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Salários e valorização do servidor",
+   "description": "Se a causa do endividamento é a perda salarial dos últimos anos e não a facilidade de contratar empréstimo.",
+   "axis": {
+    "pro": "O endividamento vem de 6 anos sem reajuste e da perda dos salários, e a saída é valorizar o servidor.",
+    "contra": "O endividamento vem da facilidade de contratar crédito e da falta de educação financeira de quem contrata.",
+    "pro_plain": "O servidor se endividou porque ficou 6 anos sem reajuste e o salário encolheu.",
+    "contra_plain": "O servidor se endividou porque o crédito é fácil de contratar e falta educação financeira."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Cartão de crédito consignado",
+   "description": "Se o cartão de crédito consignado, que reserva 5% do salário para pagar a fatura, gera uma dívida que o servidor não consegue quitar.",
+   "axis": {
+    "pro": "O cartão de crédito consignado gera uma dívida que o servidor não consegue pagar e não deveria ser obrigatório.",
+    "contra": "O cartão consignado é um meio de pagamento mais barato que o cartão comum e serve a quem sabe usá-lo.",
+    "pro_plain": "Com só 5% do salário para pagar a fatura, a dívida do cartão consignado não acaba.",
+    "contra_plain": "O cartão consignado cobra juros e anuidade menores que o cartão comum e serve para quem usa bem."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Escolha da margem consignável",
+   "description": "Se o servidor deve repartir como quiser a margem de 45% entre empréstimo, cartão de crédito e cartão de benefício, como propõe o PL 2.591/23.",
+   "axis": {
+    "pro": "O servidor deve escolher como usa a sua margem, e o projeto que lhe dá essa faculdade deve avançar.",
+    "contra": "O projeto recria um veto já derrubado pelo Congresso e troca uma dívida de curto prazo por uma de longo prazo.",
+    "pro_plain": "Quem escolhe onde usar os 45% do salário deve ser o servidor, e não a lei.",
+    "contra_plain": "O projeto desfaz o que o Congresso já decidiu e empurra o servidor para uma dívida mais longa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Taxas de juros do consignado",
+   "description": "Se os juros cobrados do servidor público no crédito consignado são altos demais e se o Governo deve rever o teto que fixa.",
+   "axis": {
+    "pro": "Os juros cobrados do servidor são altos, precisam cair e igualar-se aos dos aposentados do INSS.",
+    "contra": "A taxa do consignado do servidor já é a menor do mercado, e baixar o teto afasta gente do crédito.",
+    "pro_plain": "Os juros do servidor são mais altos que os do aposentado do INSS e precisam cair.",
+    "contra_plain": "O consignado do servidor já é o empréstimo mais barato, e um teto baixo demais tira gente do crédito."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Regulamentação do cartão de benefício",
+   "description": "Quando sai o decreto e a portaria que regulamentam o cartão consignado de benefício, e o que fazer com quem ficou sem margem nesses meses.",
+   "axis": {
+    "pro": "A regulamentação precisa sair logo, porque há meses os servidores estão com a margem travada.",
+    "contra": "Regulamentar o cartão de benefício não resolve e pode piorar a situação de quem já está sem margem.",
+    "pro_plain": "A regulamentação tem de sair logo, porque o servidor está há meses sem poder contratar nada.",
+    "contra_plain": "Regulamentar o cartão novo não resolve e pode deixar o servidor em situação pior."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Fiscalização da oferta de crédito",
+   "description": "Se a autorregulação dos bancos e a fiscalização de hoje bastam para conter a má venda e as empresas que descontam em folha sem responder ao Banco Central.",
+   "axis": {
+    "pro": "A autorregulação e a fiscalização de hoje não bastam para conter a má oferta e quem cobra juros abusivos.",
+    "contra": "A autorregulação já funciona, com sanções a correspondentes e queda no número de reclamações.",
+    "pro_plain": "As regras que o próprio mercado se dá não seguram a má venda nem quem cobra juros abusivos.",
+    "contra_plain": "O próprio mercado já se fiscaliza, pune correspondentes e vê as reclamações caírem."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência e relator do PL 2.591/23",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata e apresentado como Relator da matéria em b001.14",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Administração e Serviço Público da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor da Diretoria-Executiva",
+   "org": "CONDSEF",
+   "basis": "apresentado pelo presidente em b001.9 e por ele mesmo em b002.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da CONDSEF, a confederação dos servidores federais",
+   "org_plain": "Confederação dos Trabalhadores no Serviço Público Federal, que reúne sindicatos gerais de servidores federais"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Diretora do Departamento de Remuneração, Atenção à Saúde e Segurança do Trabalho",
+   "org": "Ministério da Gestão e da Inovação em Serviços Públicos",
+   "basis": "apresentada pelo presidente em b003.3",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Gestão e da Inovação",
+   "org_plain": "Ministério que cuida das regras de pessoal, de remuneração e de descontos em folha no serviço público federal"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Advogada",
+   "org": "ANSA",
+   "basis": "apresentada pelo presidente em b001.11 e em b009.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "advogada da ANSA, dos servidores da agricultura",
+   "org_plain": "Associação Nacional dos Servidores da Agricultura, que representa servidores dessa área"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "Diretor Adjunto de Produtos",
+   "org": "FEBRABAN",
+   "basis": "apresentado pelo presidente em b013.4 e por ele mesmo em b020.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da FEBRABAN, a federação dos bancos",
+   "org_plain": "Federação Brasileira de Bancos, entidade que reúne os bancos que operam no País"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Representante",
+   "org": "FASUBRA Sindical",
+   "basis": "apresentado pelo presidente em b001.8 e em b023.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da FASUBRA, dos servidores das universidades públicas",
+   "org_plain": "Federação de sindicatos dos técnico-administrativos das instituições públicas de ensino superior"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Diretor do Departamento de Proteção e Defesa do Consumidor",
+   "org": "SENACON",
+   "basis": "apresentado pelo presidente em b025.4",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Senacon, do Ministério da Justiça",
+   "org_plain": "Secretaria Nacional do Consumidor, órgão federal que coordena a defesa do consumidor junto com os Procons"
+  },
+  "s08": {
+   "role": "setor_privado",
+   "cargo": "Membro",
+   "org": "ANCCA",
+   "basis": "apresentado pelo presidente em b001.10 e por ele mesmo em b030.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ANCCA, dos correspondentes do Caixa Aqui",
+   "org_plain": "Associação Nacional de Correspondentes Caixa Aqui, das empresas que atendem clientes da Caixa no balcão"
+  },
+  "s09": {
+   "role": "setor_privado",
+   "cargo": "Presidente",
+   "org": "ANEPS",
+   "basis": "apresentado pelo presidente em b033.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ANEPS, das empresas que vendem crédito",
+   "org_plain": "Entidade das empresas e dos profissionais que promovem crédito e atuam como correspondentes bancários no País"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente",
+   "org": "ASFAM",
+   "basis": "apresentado pelo presidente em b035.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ASFAM, das famílias de policiais e bombeiros do DF",
+   "org_plain": "Associação da Família Policial e Bombeiro Militar do Distrito Federal"
+  }
+ },
+ "audience": {
+  "estimate": 175,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.15
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   }
+  ],
+  "basis": "em b025.1 a presidência registra 175 pessoas acompanhando ao vivo pela Internet, e as falas indicam plateia de servidores e de gente que trabalha com crédito",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o PL 2.591/23 e esclarece que o projeto não altera o teto da margem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata que o cartão de crédito consignado vira dívida impagável para o servidor, defende que o trabalhador escolha a modalidade e pede juros menores.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cartão de crédito consignado gera uma dívida sem fim e o servidor deveria poder escolher a modalidade que contrata.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um colega paga 300 e poucos reais por mês há muito tempo e o saldo devedor chegou a 12 mil reais",
+     "plain": "Perguntei a um colega quanto ele devia no cartão de crédito. Ele nunca tinha olhado. Tomou 2 mil, 3 mil reais há muito tempo, paga 300 e poucos por mês e hoje deve 12 mil reais."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalhador tem de poder escolher a modalidade que quer contratar, e ninguém escolheria o cartão de crédito",
+     "plain": "No mínimo, deixem a pessoa escolher que modalidade quer contratar. Tenho certeza de que, tendo opção, ninguém contrata o cartão de crédito, porque essa dívida vira uma bola de neve impagável."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os juros cobrados dos servidores públicos federais ficam acima dos cobrados dos aposentados do INSS",
+     "plain": "A queda dos juros não está no projeto, mas está no tema. Os juros cobrados dos servidores públicos federais são maiores do que os cobrados, por exemplo, dos aposentados do INSS."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a exposição e passa a palavra à representante do Ministério da Gestão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que a derrubada do veto obrigou a regulamentar o cartão de benefício, diz esperar o decreto e não vê óbice à escolha do servidor.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    4,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação do cartão de benefício depende de um decreto em fase final, e o ministério não vê óbice à escolha do servidor.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "com a derrubada do veto, 5% da margem foram destinados por lei ao cartão de benefício",
+     "plain": "Com a derrubada do veto, o cartão consignado de benefício entrou na lei, e 5% da margem foram para ele automaticamente. Para preservar os empréstimos já concedidos, mantivemos descontos que ficaram acima da margem de 35%."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso alterar o Decreto 8.690 para incluir o cartão de benefício e só depois regulamentar por portarias",
+     "plain": "É preciso mudar o Decreto 8.690 para incluir o cartão de benefício, e depois vêm as portarias. Estamos aguardando esse decreto para regulamentar de um jeito que atenda melhor o servidor."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ministério não vê óbice a que o servidor escolha entre cartão de crédito e cartão de benefício dentro dos 45%",
+     "plain": "O texto diz que, dos 45%, o servidor poderá usar no mínimo 5% em cartão de crédito ou 5% em cartão de benefício. Não vemos óbice a isso, porque quem precisa de empréstimo poderá escolher a modalidade que melhor lhe sirva."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pergunta ao Ministério se já existe prazo para a expedição do decreto e da portaria que os servidores esperam.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os servidores precisam de uma data para o decreto e para a portaria.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os servidores esperavam o decreto no Dia do Servidor Público, 28 de outubro, e ele não saiu",
+     "plain": "Muita gente está nos acompanhando pela Internet e quer saber se há previsão de data. Esperava-se esse presente no dia 28 de outubro, Dia do Servidor Público, e não foi possível. A senhora já tem prazo para o decreto e a portaria?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde que a expectativa é publicar o decreto na próxima semana e submeter a portaria em seguida.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto deve ser publicado na próxima semana, e a portaria vem em seguida.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a expectativa é que o decreto seja publicado na próxima semana e a portaria logo em seguida",
+     "plain": "Nossa expectativa é que o decreto seja publicado na próxima semana. Em seguida já submetemos a portaria para publicação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a resposta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Diz esperar a publicação ainda nesta semana, sem poder garantir, e acredita que saia no máximo até a semana seguinte.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": true,
+   "evidence": [
+    2
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A publicação deve sair nesta semana, mas não há como garantir a data.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a expectativa é que saia esta semana, mas não há como garantir",
+     "plain": "Nossa expectativa é que saia esta semana, mas não posso garantir. Acredito que, no máximo, até a próxima semana ela esteja publicada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que o decreto não altera a tramitação do projeto e chama a advogada da ANSA.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Denuncia que a derrubada do Veto 61 deixou servidores com margem negativa e cobra data para a regulamentação, parada há 7 meses.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os servidores estão fora do crédito desde abril e a regulamentação precisa de uma data.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem usou os 40% de margem em dezembro e já tinha 5% em cartão ficou com margem negativa depois do veto",
+     "plain": "A derrubada do Veto 61 causou vários prejuízos aos servidores, e não foi só baixar a margem para 35%. Em dezembro ela tinha ido a 40% para empréstimo, e quem usou esses 40% e já tinha 5% em cartão ficou com margem negativa."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os servidores estão fora do consignado desde abril, sem refinanciamento nem portabilidade, e 7 meses é muito tempo",
+     "plain": "Essas pessoas estão fora do crédito consignado. Não podem refinanciar, fazer portabilidade nem contratar. Isso é um absurdo, e elas pedem solução imediata, porque 7 meses é muito tempo para um problema desse tamanho."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o cartão não é o melhor produto, mas as pessoas estão sem nada e pedem ao menos a regulamentação",
+     "plain": "O cartão não é o melhor produto para as pessoas, mas elas estão sem nada. Pedem ao menos que essa regulamentação aconteça, porque a informação é sempre que vai sair, e não sai."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência observa que a representante do Ministério já respondeu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que o cartão de crédito consignado só beneficia os bancos e pede que a ANEPS diga se apoia o projeto de lei.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cartão de crédito consignado é um produto abusivo, que beneficia apenas os bancos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no cartão de crédito consignado a pessoa toma 2 mil reais, paga 8 mil ou 10 mil e continua devendo os 2 mil",
+     "plain": "Esse cartão de crédito faz mal à sociedade e beneficia só os bancos. A pessoa pega 2 mil reais emprestados, paga 8 mil ou 10 mil e ainda deve os mesmos 2 mil. Isso não existe!"
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ANEPS não disse em 7 meses se apoia o projeto e se é contra a exclusividade do cartão de crédito",
+     "plain": "A ANEPS, que se diz representante dos correspondentes e dos agentes de crédito, não disse em 7 meses se apoia ou não este projeto de lei. Peço que ela se manifeste e diga se é contra essa exclusividade dos cartões de crédito."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      9
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "muita gente que trabalha com crédito está sem emprego desde abril de 2023",
+     "plain": "Além dos servidores prejudicados, há muitas pessoas que trabalham com crédito sem emprego desde abril de 2023."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que a ANEPS terá a sua vez e passa a palavra ao diretor da FEBRABAN.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante dos bancos cumprimenta a todos e pergunta se está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que ele está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante dos bancos pede autorização para compartilhar uma apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza o compartilhamento da apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante dos bancos avisa que compartilhou a tela e pergunta se todos estão vendo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a apresentação está visível.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b020",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta dados do consignado, sustenta que é o empréstimo de menor custo, que serve para pagar dívidas mais caras e que a autorregulação pune quem erra.",
+   "quote": [
+    35,
+    36,
+    37
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O crédito consignado é o empréstimo mais barato e ajuda a reduzir o endividamento das famílias.",
+    "sentence": 35
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o consignado é usado sobretudo para pagar outras dívidas mais caras e ajuda a diminuir o endividamento das famílias",
+     "plain": "O uso principal do consignado é pagar outras dívidas. Grande parte das pessoas o toma para quitar uma dívida mais cara, e isso ajuda a diminuir o endividamento das pessoas e das famílias."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o consignado é a modalidade de empréstimo de menor custo para quem precisa complementar o orçamento da família",
+     "plain": "Vale destacar os pontos positivos do consignado. É o empréstimo de menor custo para o trabalhador, o servidor público ou o aposentado que precise complementar o orçamento da família."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      54
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a autorregulação já aplicou 1.265 sanções e suspendeu 47 correspondentes em definitivo",
+     "plain": "A autorregulação já aplicou 1.265 sanções a correspondentes que não atuavam de forma correta. Foram 47 correspondentes suspensos em definitivo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se a extinção da dívida na morte do contratante é regra do contrato ou depende de um seguro pago pelo cliente.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta esclarecer se a dívida extinta na morte do tomador vem do contrato ou de um seguro pago pelo cliente.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso saber se a dívida extinta na morte do contratante é regra do contrato ou um seguro pago pelo cliente",
+     "plain": "O senhor disse que, na morte do contratante, os herdeiros ficam livres da dívida. Isso é uma regra do contrato ou existe um seguro obrigatório que o cliente paga?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que a dívida não pode ser cobrada dos herdeiros, com ou sem seguro, e que o seguro prestamista não é obrigatório.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A dívida do consignado não é cobrada dos herdeiros, haja ou não seguro contratado.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "os herdeiros não podem ser cobrados pela dívida, exista ou não seguro contratado",
+     "plain": "Os herdeiros não podem ser cobrados por essa dívida, exista ou não seguro. Quando há o seguro prestamista, ele garante que tudo se encerre com a morte do tomador."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "nada pode ser cobrado além da taxa do consignado, do IOF e do seguro, e o seguro não é forçado",
+     "plain": "Além da taxa do consignado, do IOF e do seguro, quando contratado, não posso cobrar mais nada. Não forçamos ninguém a contratar o seguro, e na morte do tomador a dívida é extinta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os esclarecimentos e passa a palavra ao representante da FASUBRA.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que o endividamento vem de 6 anos sem reajuste e do desemprego na família, e que as regras do consignado foram feitas para os bancos.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O endividamento do servidor vem da perda salarial e da falta de políticas públicas, não da facilidade do crédito.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "foram 6 anos sem reajuste, com inflação na faixa de 50%, e o desemprego dos jovens caiu sobre a família",
+     "plain": "Foram 6 anos sem reajuste, e a inflação, na faixa de 50%, comeu os salários. E não é só isso. O povo está assolado pelo desemprego, principalmente o dos jovens."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei que reserva 5% da remuneração para o cartão de crédito não beneficia o servidor, e sim os bancos",
+     "plain": "Essa lei que reserva 5% da remuneração do servidor para pagar cartão de crédito e cartão consignado não é uma política para beneficiar o servidor. É mais uma política para beneficiar os bancos."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ideal seria discutir como não usar o empréstimo consignado e superar o endividamento do pessoal",
+     "plain": "O ideal seria estarmos discutindo como não usar o empréstimo consignado. É preciso uma política para superar esse endividamento tão grande do nosso pessoal."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa 175 pessoas acompanhando ao vivo e registra as ausências do IPSConsumo e do SINDSER.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b026",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende ampliar a escolha do consumidor, cobra educação financeira e lembra que quem tem desconto em folha não consegue renegociar.",
+   "quote": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "covered": true,
+   "evidence": [
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A proteção do consumidor superendividado exige prevenção, tratamento e mais possibilidade de escolha.",
+    "sentence": 46
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "qualquer projeto que amplie o conhecimento e a possibilidade de escolha do consumidor é bem visto pela Senacon",
+     "plain": "É essa a realidade do crédito hoje. Qualquer projeto de lei que amplie o conhecimento e a possibilidade de escolha do consumidor será sempre bem visto pela Secretaria Nacional do Consumidor."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "é preciso educar o consumidor para o crédito, num país em que cerca de 80% da população ativa está endividada",
+     "plain": "Para isso é preciso educação financeira, porque é preciso educar o consumidor para o uso do crédito. Cerca de 80% da população economicamente ativa do País está endividada."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem tem o empréstimo descontado em folha não consegue renegociar, porque as parcelas estão sempre em dia",
+     "plain": "Quando o empréstimo é descontado na folha de pagamento, o consumidor não consegue renegociar. Ele não negocia porque as parcelas estão em dia."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta quantas reclamações chegam aos órgãos de defesa do consumidor e relata ligações de oferta de crédito a aposentados.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As ligações de oferta de crédito a aposentados geram muitas reclamações e precisam ser enfrentadas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "chegam inúmeras reclamações de aposentados que recebem ligações de correspondentes oferecendo crédito",
+     "plain": "O senhor sabe quantas pessoas reclamaram por esse programa? Na Comissão e no meu gabinete chegam inúmeras reclamações, sobretudo de aposentados: o camarada recebe a aposentadoria de manhã e à tarde já recebe ligações oferecendo crédito."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Informa que o assédio de consumo é prática abusiva no Código de Defesa do Consumidor e pede que as denúncias cheguem à Senacon.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As ligações constantes de oferta de crédito configuram assédio de consumo e violam direitos do consumidor.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a atualização do Código de Defesa do Consumidor trata o assédio de consumo como prática abusiva",
+     "plain": "Como o representante da FEBRABAN mencionou, o Código de Defesa do Consumidor, já atualizado, trata o assédio de consumo como prática abusiva. Essas ligações constantes violam o direito do consumidor."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Senacon atualiza o acordo com a Agência Nacional de Proteção de Dados por causa das violações de dados",
+     "plain": "Estamos atualizando os termos do acordo com a Agência Nacional de Proteção de Dados, que é quem tem competência legal para isso. Vemos muita violação de dados no consumo para patrocinar o assédio."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da ANCCA, dos correspondentes do Caixa Aqui.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Mostra que empresa punida segue atuando, denuncia juros abusivos fora do Banco Central e defende o projeto que devolve a escolha ao servidor.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A autorregulação não basta para garantir a boa prática na oferta do crédito consignado.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma empresa penalizada continua atuando com outro CNPJ, o que mostra que a autorregulação não basta",
+     "plain": "Essa empresa tem vários processos judiciais e continua atuando no mercado com outro CNPJ. Só essa denúncia já mostra que a autorregulação não garante a boa prática na oferta do crédito consignado."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os juros dessas empresas ficam acima dos praticados pelos bancos e elas não respondem ao Banco Central",
+     "plain": "Além disso, os juros dessas empresas ficam acima dos praticados pelos bancos. Elas não seguem nem respondem ao Banco Central do Brasil."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o servidor está fora do crédito desde a derrubada do Veto 61 e liberar mais 5% passa dos 45% que a lei permite",
+     "plain": "Desde a derrubada do Veto 61 o servidor ficou de fora, sem refinanciar nem fazer portabilidade, e pode ser mais prejudicado se o cartão de benefício for regulamentado. Liberar 5% com 40% já comprometidos e mais 5% do antigo passa dos 45%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta se, no caso da SUSEP, não existe a quem recorrer contra as empresas de previdência denunciadas.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta esclarecer se há a quem recorrer quando a denúncia chega à SUSEP.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso saber se não há a quem recorrer quando a denúncia chega à SUSEP",
+     "plain": "Achei interessante o senhor ter falado da SUSEP. Quer dizer que ali não há revisão, não há para onde recorrer?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Responde que a SUSEP não pune as empresas de previdência que operam como banco e que o Procon também não as alcança.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A SUSEP não consegue punir as empresas de previdência que operam como bancos.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a SUSEP não tem como penalizar empresas que operam como banco sem responder como tal",
+     "plain": "No caso das previdências, não há. A gente liga e reclama na SUSEP, e eles não têm como punir essas empresas, que operam como banco mas não respondem como banco."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao último orador, o presidente da ANEPS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende o cartão consignado como meio de pagamento mais barato que o convencional e quer que o servidor escolha quanto da margem usar nele.",
+   "quote": [
+    58,
+    59,
+    60
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O cartão consignado é um meio de pagamento mais barato que o cartão convencional e não deve ser marginalizado.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "é preciso acelerar a liquidação do rotativo, com uma pequena redução do limite e sem mexer na margem",
+     "plain": "Primeiro é preciso acelerar a liquidação do rotativo, para a pessoa não cair naquela dívida sem fim. Como? Com uma pequena redução do limite, sem reduzir a margem, acelerando a dívida para não prejudicar o consumidor."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      44,
+      45,
+      46
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o cartão consignado costuma ser isento de anuidade e cobra 3,90%, contra 12% a 17% do cartão convencional",
+     "plain": "O cartão consignado costuma ser isento de anuidade. A taxa do cartão convencional é de 12% a 17%, e a do consignado está hoje em 3,90% na maioria dos bancos, quando o usuário não paga a fatura e entra no rotativo."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      63,
+      64,
+      65
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o portador deve escolher quanto da margem vai para o cartão e quanto vai para o empréstimo, mesmo que seja 100% no cartão",
+     "plain": "A advogada me perguntou a posição da ANEPS, e é esta. Numa posição um pouco mais radical, quem tem o cartão ou o empréstimo é que deve escolher quanto da margem vai para cada um. Se quiser 100% no cartão, pode ir."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre 3 minutos ao presidente da ASFAM, das famílias de policiais e bombeiros do DF.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata perdas de servidores por dívidas impagáveis, discorda da defesa do cartão e pede prazo maior e juros menores no consignado.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 20,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As dívidas impagáveis do cartão consignado estão custando vidas nas corporações de segurança.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cartão consignado chegou de maneira conturbada, com 5% a mais, e as pessoas se endividaram com esses 5%",
+     "plain": "Quando falo de cartão consignado, penso em quantas pessoas perdemos nas corporações por dívidas impagáveis. É difícil ouvir meu antecessor defender esse cartão, que chegou de forma conturbada, com 5% a mais para as pessoas se endividarem."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Distrito Federal alguns servidores financiam em até 144 meses, e o policial e o bombeiro, em 96",
+     "plain": "Aqui no Distrito Federal, alguns servidores do GDF financiam pela Secretaria de Fazenda em até 144 meses. No nosso caso, de policial e bombeiro militar, são 96 meses."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se querem ajudar o servidor, façam uma taxa de consignado decente, como os 9% ao ano do crédito imobiliário",
+     "plain": "No crédito imobiliário, acredito que o BRB pratique hoje uma taxa de 9% ao ano. Se querem mesmo ajudar o servidor público, façam uma taxa de consignado decente, que faça diferença na vida do pai de família."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz receber centenas de mensagens por dia e abre as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata servidores desesperados e sem alternativa, rebate que educação financeira não muda da noite para o dia e reforça o apoio ao projeto.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A maioria dos servidores da base está desesperada e sem alternativa diante do consignado.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um servidor conhecido disse que a família já passa fome se não diminuir ao menos mil reais do consignado",
+     "plain": "Na semana passada, um servidor público federal meu conhecido me disse em casa: se não diminuir ao menos mil reais do meu consignado... Minha família já está passando fome. Estou sem alternativa."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a maioria das pessoas não tem educação financeira e isso é cultural, não muda do dia para a noite",
+     "plain": "Sobre a alternativa que o representante da ANEPS trouxe, a maioria das pessoas não tem educação financeira. Isso não se resolve do dia para a noite, é uma questão cultural."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a CONDSEF apoia primeiro o projeto que retira a obrigatoriedade colocada hoje sobre o servidor",
+     "plain": "Reforço o posicionamento que trouxe no início: apoiamos primeiro o projeto que retira essa obrigatoriedade, essa compulsoriedade que está colocada."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à representante do Ministério da Gestão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que a taxa de juros já preocupa a Ministra, que só consigna quem é registrado no Banco Central e que o projeto é bem-vindo.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto que dá ao servidor a faculdade de escolher como usar a margem é bem-vindo e exequível.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a taxa de juros já é preocupação da Ministra e há estudos em curso para revisitar essa taxa",
+     "plain": "Ouvir todos traz insumo para as regulamentações que estamos fazendo nas portarias. A taxa de juros já é preocupação da nossa Ministra, e há estudos em curso para revisitar essa taxa."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no serviço público federal só consigna quem está registrado no Banco Central, e o limite de 45% não é ultrapassado",
+     "plain": "No serviço público federal só há consignação para quem é registrado no Banco Central do Brasil. A portaria em vigor exige isso. O teto é de 45%, e acima dele o servidor não consegue consignar."
+    },
+    {
+     "id": "b040c3",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto é bem-vindo ao permitir que o servidor escolha como usar a sua margem dentro dos 45%",
+     "plain": "O projeto, ao permitir que o servidor escolha a melhor forma de usar a sua margem dentro dos 45%, é bem-vindo e é possível de fazer. O servidor sabe qual é a sua maior necessidade e vai poder decidir."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra a publicação do decreto e da portaria e lembra que a competência é do Ministério, não do relator.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os servidores esperam a publicação do decreto e da portaria, que cabe ao Ministério.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b041c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os servidores aguardam ansiosamente o decreto e a portaria e cobram do relator o que é do Ministério",
+     "plain": "Os servidores aguardam ansiosamente a publicação do decreto e da portaria. Não aguento mais receber tanta mensagem, porque às vezes as pessoas pensam que a competência é minha."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b042",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Diz que o Ministério também aguarda e que vai resolver isso o quanto antes.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério também quer resolver a pendência o quanto antes.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o ministério também aguarda e vai resolver isso o quanto antes",
+     "plain": "Nós também aguardamos. Vamos resolver isso o quanto antes."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência espera a publicação até a Proclamação da República e chama a advogada da ANSA.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mostra que a taxa do cartão consignado é quatro vezes a do empréstimo e relata o caso de quem pagou 20 mil e ainda deve.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cartão de crédito consignado cobra taxa muito maior e não se paga com os 5% da margem.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cartão de crédito consignado tem taxa quatro vezes maior que a do empréstimo consignado",
+     "plain": "A taxa do cartão de crédito consignado é quatro vezes a do empréstimo consignado. E quem o usa não usa como cartão comum: desconta 5% por mês, que é o que consegue pagar."
+    },
+    {
+     "id": "b044c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para pagar a fatura por fora o servidor passaria dos 45% já comprometidos, e ainda tem aluguel e contas",
+     "plain": "Tirar outro valor do salário para pagar essa fatura compromete mais do que os 45%, como disse o colega. Se a pessoa já tem 45% comprometidos e ainda tem aluguel, água e outras contas, como é que ela paga essa fatura?"
+    },
+    {
+     "id": "b044c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma pessoa pegou 6 mil reais em 2016, já pagou 20 mil e continua devendo 6.150 na fatura",
+     "plain": "Trouxe aqui um caso. Em 2016 essa pessoa pegou 6 mil reais, já pagou 20 mil ao banco e ainda deve 6.150 reais na fatura."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor da FEBRABAN por 2 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Discorda de que o ideal seria não haver consignado e afirma que a taxa do servidor é a menor, com o teto do INSS afastando aposentados.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A taxa do consignado do servidor já é a menor do mercado, e um teto muito baixo afasta quem precisa de crédito.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "discorda de que o ideal seria não haver consignado, porque é preciso poder escolher um empréstimo de taxa baixa",
+     "plain": "O colega disse que o ideal seria não haver crédito consignado no mercado. Discordo um pouco disso, porque acho que temos de poder escolher, diante de uma necessidade no orçamento da família, um empréstimo de taxa baixa."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a taxa do consignado do servidor público é a menor que existe, e o teto do INSS vem afastando aposentados do crédito",
+     "plain": "No consignado do servidor público, a taxa de juros é a menor que existe hoje. O teto de taxa do INSS, que cai a cada reunião do Copom, tem um efeito colateral muito prejudicial: afasta parte dos aposentados."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da FASUBRA para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b048",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende superar o arrocho de 40% do salário indo para o banco, nega que falte educação financeira e pede revisão dos empréstimos.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso superar o endividamento do servidor, que já vive com 40% do salário indo direto para o banco.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "superar o consignado é superar o arrocho de viver com 40% do salário saindo direto para o banco",
+     "plain": "Superar o crédito consignado é superar o arrocho de já viver com 40% do salário saindo direto para o banco. É nisso que se deveria pensar, porque na base do serviço público há suicídio por causa do endividamento."
+    },
+    {
+     "id": "b048c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o endividamento veio de 6 anos sem reajuste, inflação de 50% e desemprego em casa, não da falta de educação financeira",
+     "plain": "Não existe esse negócio de educação financeira que segure isso. O que causou o endividamento extremo foram 6 anos sem reajuste, uma inflação de 50%, o desemprego dentro de casa e as aposentadorias rebaixadas."
+    },
+    {
+     "id": "b048c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso baixar os juros e rever os empréstimos de quem contratou um valor e já pagou cinco vezes ele",
+     "plain": "Para começar, é preciso uma política para baixar os juros e rever os empréstimos já consignados. Muita gente contratou um valor, já pagou cinco vezes esse valor e ainda deve duas ou três vezes."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor da Senacon para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b050",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que impedir a escolha do consumidor atrapalha a proteção e defende alfabetização financeira antes da educação financeira.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem o direito de escolha e sem informação, o consumidor não se protege do superendividamento.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b050c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando não se permite a faculdade de escolha ao consumidor, impede-se que ele se proteja do endividamento",
+     "plain": "Quando não permitimos a faculdade, o direito de escolha do consumidor, impedimos que essa proteção aconteça. Para ter um consumidor com clareza das suas alternativas, ele precisa ser esclarecido."
+    },
+    {
+     "id": "b050c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a educação financeira precisa ser mapeada e, em muitos casos, é preciso falar antes em alfabetização financeira",
+     "plain": "A educação financeira precisa ser mapeada e destinada ao consumidor conforme o conhecimento dele. No Brasil, em boas e não raras situações, é preciso falar antes em alfabetização financeira."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da ANCCA.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b052",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que tornar facultativos os 45% abre concorrência entre bancos e defende que o correspondente ofereça educação financeira.",
+   "quote": [
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Tornar facultativo o uso dos 45% abre concorrência entre os bancos e derruba a taxa de juros.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b052c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "os bancos deveriam treinar os representantes na ponta e oferecer educação financeira ao cliente, como faz a Caixa",
+     "plain": "A Caixa é um banco público e sempre serviu de parâmetro no crédito consignado. Os bancos deveriam seguir a mesma ideia: treinar os representantes na ponta e oferecer educação financeira ao cliente."
+    },
+    {
+     "id": "b052c2",
+     "sentences": [
+      4
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "tornar facultativos os 45% abre concorrência entre os bancos e reduz a taxa de juros pela portabilidade",
+     "plain": "Quando os 45% se tornam facultativos, mesmo que a pessoa use toda a margem em cartão ou em crédito, abre-se concorrência entre os bancos. A taxa de juros cai na busca do cliente pela portabilidade e pela compra de dívida."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da ANEPS para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b054",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Distingue tutela de proteção, defende que o consumidor opte pelo uso da margem e anuncia projeto de alfabetização financeira.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O consumidor deve ser protegido, mas a decisão sobre o uso da margem tem de ser dele.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b054c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "proteger o consumidor não é tutelá-lo, e a opção sobre o produto tem de ser dele",
+     "plain": "É fundamental não confundir tutela com proteção. O consumidor tem de ser protegido sempre, mas tutelar é tomar a decisão por ele, o que consideramos errado. Somos favoráveis a que ele faça a opção, neste e nos outros produtos."
+    },
+    {
+     "id": "b054c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "boa parte dos problemas do cartão vem da oferta maliciosa ou equivocada, que não esclarece o cliente",
+     "plain": "Como representante da categoria, reconheço que há gente boa e gente ruim, porque somos uma amostra da sociedade. Boa parte dos problemas do cartão nasce da oferta maliciosa ou equivocada, que não esclarece o benefício ao cliente."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b055",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conclui que o risco do cartão consignado cresce, com juros maiores, uso permanente do limite e fatura que não se paga com 5% da remuneração.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os riscos do crédito consignado no cartão de crédito e no cartão de benefício são cada vez maiores.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b055c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os riscos do consignado crescem nos cartões, onde os juros são superiores aos do consignado tradicional",
+     "plain": "Observamos de forma inequívoca que os riscos desse crédito consignado são cada vez maiores nos cartões de crédito e nos cartões de benefício. Em primeiro lugar, os juros são superiores aos do consignado tradicional."
+    },
+    {
+     "id": "b055c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o limite do cartão se restaura a cada parcela paga e incentiva novos gastos e mais endividamento",
+     "plain": "O cartão tem uso automático e permanente dentro do limite de cada usuário, o que pode virar um ciclo vicioso. Quando o titular paga a parcela, o limite se restaura e incentiva novos gastos e mais dívida."
+    },
+    {
+     "id": "b055c3",
+     "sentences": [
+      10
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com apenas 5% da remuneração para pagar o saldo devedor, a fatura não é paga inteira e a dívida vira bola de neve",
+     "plain": "O maior risco vem do descompasso entre o saldo devedor e a margem exclusiva. Com só 5% da remuneração para pagar o saldo, é comum a fatura não ser paga inteira, o que gera multa e mais juros sobre o que sobrou. É a bola de neve."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 35,
+   "from_claim": "b004c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O Ministério da Gestão diz não ver óbice justamente ao ponto que a CONDSEF pediu, que o servidor escolha a modalidade que contrata."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 6,
+   "from_claim": "b006c1",
+   "to_claim": "b005c1",
+   "strength": "forte",
+   "note": "À pergunta sobre prazo, o Ministério responde que espera publicar o decreto na próxima semana."
+  },
+  {
+   "from": "b008",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 6,
+   "from_claim": "b008c1",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "Completa a resposta sobre a portaria e avisa que a data é expectativa, não garantia."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 14,
+   "to_sentence": 0,
+   "from_claim": "b010c3",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Depois de ouvir a expectativa de publicação, a advogada diz que a promessa se repete há 7 meses e não se cumpre."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 21,
+   "from_claim": "b012c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Ao caso do saldo que virou 12 mil reais soma-se outro exemplo, de quem toma 2 mil e continua devendo os mesmos 2 mil."
+  },
+  {
+   "from": "b022",
+   "to": "b021",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 5,
+   "from_claim": "b022c1",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "Responde que a dívida não é cobrada dos herdeiros com ou sem seguro, e que o seguro prestamista tem custo e não é forçado."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 2,
+   "from_claim": "b024c2",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A FASUBRA chega à mesma conclusão da advogada: a reserva de 5% para o cartão foi feita para o banco, não para o servidor."
+  },
+  {
+   "from": "b026",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 35,
+   "from_claim": "b026c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "A Senacon diz que vê com bons olhos qualquer projeto que amplie a escolha, que é o pedido feito pela CONDSEF."
+  },
+  {
+   "from": "b028",
+   "to": "b027",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 4,
+   "from_claim": "b028c1",
+   "to_claim": "b027c1",
+   "strength": "forte",
+   "note": "À reclamação das ligações a aposentados, responde que o Código de Defesa do Consumidor já trata isso como assédio de consumo."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 43,
+   "from_claim": "b028c1",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "Confirma o que a FEBRABAN apresentou sobre o assédio comercial e diz onde isso está escrito na lei do consumidor."
+  },
+  {
+   "from": "b030",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 54,
+   "from_claim": "b030c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Contra as sanções que a FEBRABAN apresentou, mostra uma empresa bloqueada que segue atuando com outro CNPJ."
+  },
+  {
+   "from": "b032",
+   "to": "b031",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b032c1",
+   "to_claim": "b031c1",
+   "strength": "media",
+   "note": "Responde que na SUSEP não há a quem recorrer, porque ela não pune empresas que operam como banco sem responder como banco."
+  },
+  {
+   "from": "b034",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 63,
+   "to_sentence": 8,
+   "from_claim": "b034c3",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "A ANEPS enfim diz a sua posição, cobrada pela advogada: é favorável à livre escolha, e até a mais do que o projeto propõe."
+  },
+  {
+   "from": "b034",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 44,
+   "to_sentence": 39,
+   "from_claim": "b034c2",
+   "to_claim": "b024c2",
+   "strength": "forte",
+   "note": "Contra a ideia de que o cartão foi feito para o banco, compara taxas e anuidade com as do cartão convencional."
+  },
+  {
+   "from": "b036",
+   "to": "b034",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 44,
+   "from_claim": "b036c1",
+   "to_claim": "b034c2",
+   "strength": "forte",
+   "note": "Ouvir a defesa do cartão é difícil para quem conta perdas nas corporações por dívidas que não se pagam."
+  },
+  {
+   "from": "b038",
+   "to": "b034",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 79,
+   "from_claim": "b038c2",
+   "to_claim": "b034c2",
+   "strength": "media",
+   "note": "Contra a saída pela educação financeira, responde que a maioria não a tem e que isso é cultural, não muda do dia para a noite."
+  },
+  {
+   "from": "b040",
+   "to": "b030",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 23,
+   "from_claim": "b040c2",
+   "to_claim": "b030c2",
+   "strength": "forte",
+   "note": "O Ministério nega que empresas fora do Banco Central descontem em folha: só consigna quem é registrado lá, dentro dos 45%."
+  },
+  {
+   "from": "b040",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 35,
+   "from_claim": "b040c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Nas considerações finais o Ministério diz que o projeto é bem-vindo e possível, que é o que a CONDSEF pediu no início."
+  },
+  {
+   "from": "b042",
+   "to": "b041",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b042c1",
+   "to_claim": "b041c1",
+   "strength": "media",
+   "note": "À cobrança do relator pela publicação, o Ministério responde que também aguarda e vai resolver o quanto antes."
+  },
+  {
+   "from": "b044",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 43,
+   "from_claim": "b044c2",
+   "to_claim": "b030c3",
+   "strength": "forte",
+   "note": "A advogada retoma a conta do colega: pagar a fatura por fora faria o servidor passar dos 45% que a lei permite."
+  },
+  {
+   "from": "b046",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 53,
+   "from_claim": "b046c1",
+   "to_claim": "b024c3",
+   "strength": "forte",
+   "note": "A FEBRABAN discorda de que o ideal seria não haver consignado e defende manter a opção de um empréstimo de taxa baixa."
+  },
+  {
+   "from": "b046",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 39,
+   "from_claim": "b046c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Contra a queixa de que o servidor paga mais que o aposentado, a FEBRABAN diz que a taxa do servidor é a menor do consignado."
+  },
+  {
+   "from": "b048",
+   "to": "b026",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 24,
+   "from_claim": "b048c2",
+   "to_claim": "b026c2",
+   "strength": "forte",
+   "note": "Contra a aposta na educação financeira, aponta 6 anos sem reajuste, inflação de 50% e desemprego em casa como a causa da dívida."
+  },
+  {
+   "from": "b048",
+   "to": "b046",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b048c1",
+   "to_claim": "b046c1",
+   "strength": "forte",
+   "note": "Explica o que quis dizer com superar o consignado: superar o arrocho de viver com 40% do salário indo para o banco."
+  },
+  {
+   "from": "b050",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 35,
+   "from_claim": "b050c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A Senacon volta ao pedido de escolha e diz que impedir a faculdade impede a própria proteção do consumidor."
+  },
+  {
+   "from": "b052",
+   "to": "b034",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 60,
+   "from_claim": "b052c2",
+   "to_claim": "b034c3",
+   "strength": "media",
+   "note": "Apoia a livre escolha dos 45% com um argumento a mais: a concorrência entre bancos derrubaria a taxa pela portabilidade."
+  },
+  {
+   "from": "b054",
+   "to": "b052",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 4,
+   "from_claim": "b054c1",
+   "to_claim": "b052c2",
+   "strength": "media",
+   "note": "As duas entidades de correspondentes fecham do mesmo lado: quem decide o uso da margem tem de ser o cliente."
+  },
+  {
+   "from": "b055",
+   "to": "b044",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 4,
+   "from_claim": "b055c3",
+   "to_claim": "b044c2",
+   "strength": "forte",
+   "note": "O relator conclui pela mesma conta da advogada: com 5% para pagar o saldo, a fatura não fecha e a dívida cresce."
+  },
+  {
+   "from": "b055",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 39,
+   "from_claim": "b055c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O relator fecha com a mesma preocupação com os juros que a CONDSEF trouxe, agora apontando os juros dos cartões."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b024",
+    "b026",
+    "b038",
+    "b048"
+   ],
+   "claims": [
+    "b024c3",
+    "b026c3",
+    "b038c1",
+    "b048c1"
+   ],
+   "note": "A Senacon e as entidades de servidores concordam que o servidor já está preso na dívida e que quem tem desconto em folha não consegue renegociar."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b012",
+    "b044",
+    "b055"
+   ],
+   "claims": [
+    "b002c1",
+    "b012c1",
+    "b044c1",
+    "b055c2"
+   ],
+   "note": "Entidades de servidores, a advogada da ANSA e o relator concordam que o cartão de crédito consignado gera uma dívida que não se encerra."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b004",
+    "b026",
+    "b054"
+   ],
+   "claims": [
+    "b002c2",
+    "b004c3",
+    "b026c1",
+    "b054c1"
+   ],
+   "note": "Ministério da Gestão, Senacon, CONDSEF e a associação das empresas de crédito concordam que o servidor deve escolher como usa a sua margem."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b036",
+    "b048",
+    "b055"
+   ],
+   "claims": [
+    "b002c3",
+    "b036c3",
+    "b048c3",
+    "b055c1"
+   ],
+   "note": "Sindicatos, a associação de famílias de policiais e o relator concordam que os juros cobrados do servidor precisam cair."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b005",
+    "b010",
+    "b041"
+   ],
+   "claims": [
+    "b005c1",
+    "b010c1",
+    "b041c1"
+   ],
+   "note": "O relator e a advogada da ANSA concordam que o decreto e a portaria precisam sair logo, porque o servidor está travado desde abril."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b027",
+    "b028",
+    "b030",
+    "b054"
+   ],
+   "claims": [
+    "b027c1",
+    "b028c1",
+    "b030c1",
+    "b054c2"
+   ],
+   "note": "O relator, a Senacon e as duas associações de correspondentes concordam que a má oferta e o assédio na venda do crédito são problemas reais."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 41,
+   "addressed_to": "governo",
+   "answered_by": "b004",
+   "gist": "isonomia de juros com os aposentados do INSS",
+   "plain": "Os juros do consignado do servidor podem ficar iguais aos dos aposentados do INSS?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b002",
+   "sentence": 47,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "um programa como o Desenrola para os servidores federais",
+   "plain": "O Governo pode criar um programa como o Desenrola para os servidores públicos federais?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b005",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": "b006",
+   "gist": "prazo para a expedição do decreto e da portaria",
+   "plain": "Existe prazo para a publicação do decreto e da portaria do cartão de benefício?",
+   "theme": "d6",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b012",
+   "sentence": 8,
+   "addressed_to": "setor_privado",
+   "answered_by": "b034",
+   "gist": "se a ANEPS apoia ou não o projeto de lei",
+   "plain": "A ANEPS apoia este projeto de lei e é contra a exclusividade do cartão de crédito?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b027",
+   "sentence": 2,
+   "addressed_to": "governo",
+   "answered_by": "b028",
+   "gist": "quantas reclamações chegaram pelo programa de bloqueio de ligações",
+   "plain": "Quantos consumidores reclamaram aos órgãos de defesa do consumidor por esse programa?",
+   "theme": "d7",
+   "position": "neutro"
+  },
+  {
+   "id": "q6",
+   "from": "b036",
+   "sentence": 20,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "igualar o prazo de 144 meses e baixar as taxas",
+   "plain": "O Governo pode igualar o prazo de 144 meses aos servidores federais e baixar as taxas?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 9,
+   "gist": "cerca de 70% da base da CONDSEF está em consignado",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 23,
+   "gist": "tomou 2 mil ou 3 mil e hoje deve 12 mil reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b010",
+   "sentence": 5,
+   "gist": "em dezembro a margem de empréstimo foi a 40%",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b020",
+   "sentence": 9,
+   "gist": "o consignado atende cerca de 44 milhões de pessoas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b020",
+   "sentence": 12,
+   "gist": "servidores são mais de 50% do mercado de consignado",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b020",
+   "sentence": 16,
+   "gist": "empréstimo pessoal não consignado a 5,61% em média",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b020",
+   "sentence": 54,
+   "gist": "1.265 sanções e 47 correspondentes suspensos",
+   "disputed_by": [
+    {
+     "fala": "b030",
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "f8",
+   "fala": "b024",
+   "sentence": 12,
+   "gist": "6 anos sem reajuste e inflação na faixa de 50%",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b026",
+   "sentence": 25,
+   "gist": "cerca de 80% da população ativa está endividada",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b030",
+   "sentence": 15,
+   "gist": "a CREFISA é citada com 937% de juros ao ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b034",
+   "sentence": 46,
+   "gist": "cartão consignado a 3,90% na maioria dos bancos",
+   "disputed_by": [
+    {
+     "fala": "b044",
+     "sentence": 1
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b044",
+   "sentence": 8,
+   "gist": "pegou 6 mil em 2016, pagou 20 mil e deve 6.150",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o anúncio de que a regulamentação sai até a semana seguinte e, em torno dele, o endividamento dos servidores.",
+  "omitted": "Ficou de fora a disputa sobre a fiscalização das empresas que descontam em folha e a defesa do cartão feita pelas associações de correspondentes."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O servidor deve escolher como usa a sua margem",
+   "statement_plain": "Quem decide se a margem do salário vai para empréstimo, cartão de crédito ou cartão de benefício tem de ser o servidor, e não a lei.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b004c3",
+    "b026c1",
+    "b040c3",
+    "b054c1"
+   ],
+   "note": "É a ideia que cruza a sala inteira: o sindicato dos servidores, o Ministério da Gestão, a Senacon e a associação das empresas de crédito defendem a mesma coisa por motivos diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "O cartão consignado vira dívida que não se paga",
+   "statement_plain": "Com só 5% do salário para pagar a fatura, a dívida do cartão consignado cresce sozinha e a pessoa paga muito mais do que pegou sem se livrar dela.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b012c1",
+    "b036c1",
+    "b044c1",
+    "b055c2",
+    "b048c3"
+   ],
+   "note": "Reúne sindicato, advogada, associação de famílias de policiais e o próprio relator da matéria, gente de papéis diferentes em torno de um mesmo produto."
+  },
+  {
+   "id": "t3",
+   "title": "O consignado já é barato e já se fiscaliza",
+   "statement_plain": "O empréstimo descontado em folha é o mais barato do mercado, o cartão consignado custa menos que o cartão comum, e as regras e a fiscalização de hoje já dão conta.",
+   "core_theme": "d3",
+   "positions": {
+    "d1": "contrario",
+    "d3": "contrario",
+    "d5": "contrario",
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b020c1",
+    "b020c2",
+    "b020c3",
+    "b034c2",
+    "b046c2",
+    "b040c2"
+   ],
+   "note": "É a ideia contestada por quase toda a sala e cruza setores: a federação dos bancos, a associação das empresas de crédito e o Ministério da Gestão sustentam que o produto e as regras de hoje já funcionam."
+  },
+  {
+   "id": "t4",
+   "title": "A autorregulação dos bancos não basta",
+   "statement_plain": "As regras que o próprio mercado se dá não seguram a má venda do crédito nem as empresas que descontam do salário cobrando juros abusivos.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b027c1",
+    "b028c1",
+    "b030c1",
+    "b030c2",
+    "b054c2"
+   ],
+   "note": "Divide o próprio setor de crédito: duas associações de correspondentes cobram mais fiscalização, contra a autorregulação que a federação dos bancos apresentou, e o relator e a Senacon vão junto."
+  },
+  {
+   "id": "t5",
+   "title": "A dívida veio da perda de salário, não do crédito",
+   "statement_plain": "O servidor se endividou porque ficou 6 anos sem reajuste, com inflação de 50% e desemprego dentro de casa, e não por falta de educação financeira.",
+   "core_theme": "d2",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b024c1",
+    "b048c2",
+    "b024c3",
+    "b038c1",
+    "b026c3"
+   ],
+   "note": "Junta os sindicatos de servidores e o órgão federal de defesa do consumidor contra a explicação pela educação financeira, que veio do mercado."
+  },
+  {
+   "id": "t6",
+   "title": "A regulamentação atrasada travou a margem",
+   "statement_plain": "Enquanto o decreto e a portaria não saem, o servidor fica com margem negativa e não consegue contratar, refinanciar nem levar a dívida para outro banco.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b005c1",
+    "b006c1",
+    "b010c1",
+    "b010c2",
+    "b041c1"
+   ],
+   "note": "Coloca o relator, a advogada dos servidores da agricultura e a própria representante do Ministério do mesmo lado, cobrando a data de quem tem de assinar o decreto."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "crédito consignado",
+   "plain": "empréstimo cujas parcelas são descontadas direto do salário ou do benefício, antes de a pessoa receber",
+   "fala": "b001",
+   "sentence": 0
+  },
+  {
+   "term": "margem consignável",
+   "plain": "a parte do salário que pode ser comprometida com descontos de empréstimo, hoje até 45%",
+   "fala": "b030",
+   "sentence": 13
+  },
+  {
+   "term": "cartão de benefício",
+   "plain": "cartão consignado criado por lei em 2022, com 5% de margem própria, que ainda dependia de regulamentação",
+   "fala": "b004",
+   "sentence": 6
+  },
+  {
+   "term": "margem negativa",
+   "plain": "quando os descontos já tomaram todo o limite do salário e o servidor não consegue contratar mais nada",
+   "fala": "b010",
+   "sentence": 6
+  },
+  {
+   "term": "portabilidade",
+   "plain": "levar a dívida de um banco para outro que cobre juros menores",
+   "fala": "b010",
+   "sentence": 7
+  },
+  {
+   "term": "consignatárias",
+   "plain": "as instituições autorizadas a descontar parcelas na folha de pagamento do servidor",
+   "fala": "b004",
+   "sentence": 5
+  },
+  {
+   "term": "seguro prestamista",
+   "plain": "seguro contratado junto com o empréstimo, que quita a dívida em caso de morte do tomador",
+   "fala": "b022",
+   "sentence": 1
+  },
+  {
+   "term": "autorregulação",
+   "plain": "regras que as próprias instituições financeiras criam e fiscalizam entre si, fora da lei",
+   "fala": "b020",
+   "sentence": 45
+  },
+  {
+   "term": "rotativo",
+   "plain": "o crédito automático e mais caro que o cartão cobra quando a fatura não é paga por inteiro",
+   "fala": "b034",
+   "sentence": 46
+  },
+  {
+   "term": "SUSEP",
+   "plain": "Superintendência de Seguros Privados, órgão federal que fiscaliza seguradoras e previdência privada",
+   "fala": "b030",
+   "sentence": 24
+  },
+  {
+   "term": "SENACON",
+   "plain": "Secretaria Nacional do Consumidor, do Ministério da Justiça, que coordena a defesa do consumidor no País",
+   "fala": "b028",
+   "sentence": 0
+  },
+  {
+   "term": "Código de Defesa do Consumidor",
+   "plain": "lei de 1990 que protege o consumidor nas relações de compra, de crédito e de serviços",
+   "fala": "b026",
+   "sentence": 14
+  },
+  {
+   "term": "assédio de consumo",
+   "plain": "a oferta insistente de crédito, por ligação ou mensagem, que a lei do consumidor trata como prática abusiva",
+   "fala": "b028",
+   "sentence": 4
+  },
+  {
+   "term": "Desenrola",
+   "plain": "programa do Governo Federal que ajudou pessoas endividadas a renegociar dívidas com desconto",
+   "fala": "b002",
+   "sentence": 44
+  },
+  {
+   "term": "superendividados",
+   "plain": "pessoas cujas dívidas passaram do que a renda consegue pagar sem faltar o básico do mês",
+   "fala": "b026",
+   "sentence": 3
+  }
+ ]
+}

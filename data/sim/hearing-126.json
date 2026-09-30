@@ -1,0 +1,2711 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 126,
+ "model": "LLM lendo o prompt hearing-126 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T21:04:20Z",
+ "prompt_sha256": "0164844cdf849d96b0dc4e064fce0f0bdd37e75410183d2a61dd179f7ffceb18",
+ "sentences_hash": "95c97e403edefa49",
+ "review": {
+  "pairs_read": 52,
+  "pairs_fixed": 10
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t6: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Legislação Participativa ouviu associações de pacientes, médicos, químicos e o Ministério da Saúde sobre a regulamentação do uso medicinal da Cannabis e do cânhamo industrial. As associações que entregam o óleo de graça a milhares de famílias seguem sem nenhuma regulamentação, e quem as dirige responde a processo por tráfico. O Ministério da Saúde disse que a competência de regulamentar é dele e que está reunindo os elementos técnicos para fazê-lo.",
+ "stakes": "Estava em jogo se o Ministério da Saúde vai editar a norma que regulamenta as associações e o cultivo sem esperar uma nova lei do Congresso.",
+ "central_question": "Quem deve regulamentar o cultivo e as associações de Cannabis medicinal no Brasil, e quando essa norma vai sair?",
+ "synopsis_plain": "Associações de pacientes, médicos, químicos e o Ministério da Saúde discutiram como regulamentar o uso da maconha medicinal e o plantio do cânhamo. As associações entregam o remédio de graça a milhares de famílias, mas não têm nenhuma regra que as proteja, e quem as dirige responde por tráfico. O Ministério disse que a tarefa de regulamentar é dele.",
+ "stakes_plain": "Se o Ministério da Saúde vai publicar por conta própria a norma que regulamenta as associações e o cultivo, sem esperar uma lei nova.",
+ "central_question_plain": "Quem deve regulamentar o cultivo e as associações de maconha medicinal, e quando essa regra vai sair?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Regulamentação das associações",
+   "description": "Quem deve criar a regra que reconhece as associações de pacientes e o cultivo, e em quanto tempo isso pode sair.",
+   "axis": {
+    "pro": "A regulamentação das associações e do cultivo tem de sair já, e o Ministério da Saúde pode fazê-la por ato próprio.",
+    "contra": "O reconhecimento depende de critério técnico, da discussão da cadeia produtiva e da correlação de forças, e vai levar tempo.",
+    "pro_plain": "A regra que reconhece as associações tem de sair agora, e o Ministério da Saúde pode assinar isso.",
+    "contra_plain": "Reconhecer as associações exige estudo técnico e acordo político, e isso não sai de uma hora para outra."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Criminalização e reparação histórica",
+   "description": "Se a proibição da planta pesa sobre pessoas negras, pobres e pacientes, e se a regulamentação precisa vir com reparação.",
+   "axis": {
+    "pro": "A proibição criminaliza pacientes, mães e a população negra, e qualquer regulamentação precisa vir com reparação histórica.",
+    "contra": "A proibição protege a sociedade e deve continuar, com regras cada vez mais rigorosas.",
+    "pro_plain": "Proibir a planta prende mãe, paciente e principalmente gente negra e pobre, e isso pede reparação.",
+    "contra_plain": "A proibição protege a sociedade e as regras deveriam ficar ainda mais duras."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Cânhamo industrial e economia",
+   "description": "Quanto o País deixa de ganhar por não plantar cânhamo e por importar o insumo dos remédios.",
+   "axis": {
+    "pro": "Sem plantar aqui, o Brasil manda para fora o dinheiro do tratamento e perde emprego e receita com o cânhamo.",
+    "contra": "Liberar o plantio abre espaço para desvio da planta para outro fim.",
+    "pro_plain": "Sem plantar aqui, o dinheiro do remédio vai para fora e o País perde emprego e imposto.",
+    "contra_plain": "Liberar o plantio abriria caminho para a planta ser desviada para outro uso."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Acesso ao remédio e custo público",
+   "description": "Se o acesso deve vir da incorporação de remédios registrados no SUS ou do reconhecimento das associações, que já entregam de graça.",
+   "axis": {
+    "pro": "O caminho é incorporar ao SUS os produtos registrados, com critério técnico e de custo, para o SUS prescrever e fornecer.",
+    "contra": "Quem já dá acesso são as associações, de graça, e elas desoneram o SUS e a Previdência enquanto o Estado gasta com judicialização.",
+    "pro_plain": "O caminho é o SUS incluir na sua lista os remédios já registrados e passar a fornecer.",
+    "contra_plain": "Quem já entrega o remédio de graça são as associações, e isso poupa dinheiro do SUS."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "O lado político da pauta",
+   "description": "Se a maconha medicinal é um assunto de saúde acima dos campos políticos ou uma disputa em que há lado e interesse econômico.",
+   "axis": {
+    "pro": "É uma questão de saúde pública e de economia, que não pertence à direita nem à esquerda.",
+    "contra": "A disputa tem lado: o Parlamento punitivista e quem lucra com a proibição travam a pauta, e só a mobilização social a destrava.",
+    "pro_plain": "Isto é saúde e economia, não é pauta de direita nem de esquerda.",
+    "contra_plain": "A disputa tem lado, porque há quem lucre com a proibição, e só a mobilização social destrava."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Pesquisa e controle da planta",
+   "description": "Se a ciência brasileira já tem como certificar, rastrear e estudar a planta, e o que trava essa pesquisa hoje.",
+   "axis": {
+    "pro": "A química já certifica e rastreia cada planta, e falta recurso e autorização para pesquisar o que se planta aqui.",
+    "contra": "Faltam estudo e controle de qualidade para autorizar o cultivo e o uso.",
+    "pro_plain": "A química já sabe identificar e rastrear cada planta, falta dinheiro e autorização para pesquisar.",
+    "contra_plain": "Ainda faltam estudos e controle de qualidade para autorizar o plantio e o uso."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Comunidades terapêuticas e redução de danos",
+   "description": "Para onde vai o dinheiro público da política de drogas, se para as comunidades terapêuticas ou para a rede de atenção psicossocial.",
+   "axis": {
+    "pro": "O dinheiro que vai para as comunidades terapêuticas deveria ir para os CAPS e para a redução de danos.",
+    "contra": "As comunidades terapêuticas devem seguir financiadas, desde que fiscalizadas.",
+    "pro_plain": "O dinheiro das comunidades terapêuticas deveria ir para os centros de atenção psicossocial.",
+    "contra_plain": "As comunidades terapêuticas devem continuar recebendo dinheiro público, com fiscalização."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência, revezada entre três deputados",
+   "org": "Câmara dos Deputados",
+   "basis": "a ata registra como Presidente todas as falas da mesa, e os revezamentos aparecem em b019.1, b025.1 e b035.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Legislação Participativa da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Fundadora e organizadora da exposição sobre cânhamo",
+   "org": "Instituto InformaCann",
+   "basis": "apresentada pelo presidente em b001.15 e em b003.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto InformaCann",
+   "org_plain": "Instituto que informa sobre o uso da Cannabis e levou ao Congresso a exposição sobre o cânhamo"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Atenção Especializada",
+   "org": "Ministério da Saúde",
+   "basis": "apresentado pelo presidente em b003.2 e por ele mesmo em b006.29",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "Ministério que conduz a política de saúde e decide o que o SUS compra e fornece"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Fundadora e presidente",
+   "org": "APEPI",
+   "basis": "apresentada pelo presidente em b003.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da APEPI, associação de pacientes do Rio de Janeiro",
+   "org_plain": "Apoio à Pesquisa e Pacientes da Cannabis Medicinal, associação do Rio de Janeiro que cultiva e entrega o óleo"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "Presidente",
+   "org": "ABCCI",
+   "basis": "apresentado pelo presidente em b003.5 e por ele mesmo em b018.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação da Cannabis e do cânhamo industrial",
+   "org_plain": "Associação Brasileira da Cannabis e do Cânhamo Industrial, que reúne o setor produtivo do cânhamo"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora-Geral e médica psiquiatra",
+   "org": "SBEC",
+   "basis": "apresentada pelo presidente em b003.3 e por ela mesma em b020.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "psiquiatra e diretora da sociedade de estudos da Cannabis",
+   "org_plain": "Sociedade Brasileira de Estudos da Cannabis Sativa, entidade científica que estuda o uso da planta"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Fundador e presidente",
+   "org": "Associação Flor da Vida",
+   "basis": "apresentado pelo presidente em b005.2 e por ele mesmo em b022.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Flor da Vida, associação de Franca",
+   "org_plain": "Associação de pacientes de Franca, no interior de São Paulo, que cultiva e entrega o óleo de graça"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Conselheiro federal e coordenador do grupo de trabalho sobre Cannabis",
+   "org": "Conselho Federal de Química",
+   "basis": "apresentado pelo presidente em b023.1 e por ele mesmo em b024.15",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Federal de Química",
+   "org_plain": "Conselho que fiscaliza a profissão de químico no País e mantém um grupo de estudo sobre a planta"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Fundador e presidente",
+   "org": "CANNAB",
+   "basis": "apresentado pelo presidente em b025.20 e por ele mesmo em b026.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação de Cannabis medicinal de Salvador",
+   "org_plain": "Associação para Pesquisa e Desenvolvimento da Cannabis Medicinal no Brasil, sediada em Salvador"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da federação e da rede de mães",
+   "org": "FACT",
+   "basis": "apresentada pelo presidente em b025.22 e por ela mesma em b030.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da federação das associações de Cannabis terapêutica",
+   "org_plain": "Federação criada em 2023 que reúne dezenas de associações de Cannabis terapêutica do País"
+  },
+  "s11": {
+   "role": "sociedade_civil",
+   "cargo": "Dirigente de associação de pacientes",
+   "org": "Maria Flor",
+   "basis": "identificada pela própria fala em b032.4 e citada em b022.14",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação Maria Flor",
+   "org_plain": "Associação de pacientes que cultiva e entrega o óleo de Cannabis a milhares de famílias"
+  },
+  "s12": {
+   "role": "sociedade_civil",
+   "cargo": "Paciente",
+   "org": null,
+   "basis": "apresentada pelo presidente em b037.6 e por ela mesma em b038.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "paciente de uma doença rara de pele",
+   "org_plain": null
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "Representante",
+   "org": "True Hemp Community",
+   "basis": "apresentada pelo presidente em b039.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da True Hemp Community",
+   "org_plain": "Coletivo que trabalha com informação e divulgação sobre o cânhamo e a Cannabis"
+  },
+  "s14": {
+   "role": "sociedade_civil",
+   "cargo": "Integrante do grupo de trabalho sobre Cannabis",
+   "org": "Conselho Federal de Química",
+   "basis": "citado por Ubiracir em b024.17 e apresentado por ele mesmo em b042.0",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Federal de Química",
+   "org_plain": "Conselho que fiscaliza a profissão de químico no País e mantém um grupo de estudo sobre a planta"
+  },
+  "s15": {
+   "role": "sociedade_civil",
+   "cargo": "Médico reumatologista e especialista em saúde pública",
+   "org": null,
+   "basis": "apresentado pelo presidente em b043.1 e por ele mesmo em b044.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "médico reumatologista",
+   "org_plain": null
+  },
+  "s16": {
+   "role": "sociedade_civil",
+   "cargo": "Paciente, veterinária e biomédica",
+   "org": null,
+   "basis": "apresentada pelo presidente em b045.2 e por ela mesma em b046.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "paciente, veterinária e biomédica",
+   "org_plain": null
+  },
+  "s17": {
+   "role": "sociedade_civil",
+   "cargo": "Participante da plateia",
+   "org": null,
+   "basis": "chamado pelo presidente em b049.0, sem cargo declarado",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "filho de uma médica com fibromialgia",
+   "org_plain": null
+  }
+ },
+ "audience": {
+  "estimate": 80,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.85
+   },
+   {
+    "role": "governo",
+    "share": 0.05
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.05
+   }
+  ],
+  "basis": "a ata não traz contagem, mas registra palmas em quase todas as falas, a presença de várias associações e o grupo da marcha citado em b040.42",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a regulamentação da Cannabis terapêutica e do cânhamo industrial.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do instituto agradece ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida para a Mesa o Ministério da Saúde e três entidades, e avisa que haverá revezamento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Cobra regulamentação já, lembrando que a planta trata mais de 700 mil pessoas e que o dinheiro do tratamento sai do País.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação, a liberdade da planta e a reparação social precisam sair rapidamente.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o País criminaliza uma planta que já trata mais de 700 mil pessoas e movimentou mais de 700 milhões de reais neste ano",
+     "plain": "O mesmo Parlamento que facilita a entrada de agrotóxicos criminaliza uma planta medicinal que já trata mais de 700 mil pessoas no Brasil. Só neste ano ela movimentou mais de 700 milhões de reais, e esse dinheiro sai do País."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a regulamentação tem de vir já, junto com a liberdade da planta e a reparação social",
+     "plain": "Queremos uma regulamentação já. Queremos também a liberdade dessa planta e a reparação social."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o representante do Ministério da Saúde e lembra que cada fala tem 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que a competência de regular a produção para fins medicinais é do Ministério da Saúde e que a pasta reúne os elementos técnicos.",
+   "quote": [
+    32,
+    33,
+    34
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério da Saúde reivindica para si a condução dessa política e reconhece o potencial terapêutico dos produtos.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pela Lei 11.343 e pelo decreto que veio com ela, regular a produção para fins medicinais cabe ao Ministério da Saúde",
+     "plain": "O Ministério da Saúde reconhece o que está na Lei 11.343: cabe à União regular a produção para fins medicinais ou científicos. Um decreto da época diz que, dentro da União, essa tarefa é do Ministério da Saúde."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para o SUS comprar e fornecer é preciso incorporar o produto, porque o que existe hoje na Anvisa vale para o setor privado",
+     "plain": "Para o SUS comprar, fornecer e prescrever, é preciso incorporar o produto, ou seja, incluí-lo no sistema. O que existe hoje na Anvisa vale para o setor privado. Para o SUS, quem faz isso é o Ministério da Saúde."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o debate não pode ser separado da cadeia produtiva, para não repetir um modelo que gera exclusão e encarceramento",
+     "plain": "Esse debate não pode ser separado da cadeia produtiva. Não podemos repetir um modelo que gera exclusão, encarceramento e morte, dizendo que o remédio só vai ser entregue nas condições previstas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Ministério da Saúde e passa a palavra à presidente da APEPI.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente da APEPI agradece o convite e cumprimenta a Mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca que quem promete ser breve costuma falar por horas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que dirige uma associação que atende milhares de famílias e segue criminalizada, e defende que a regra venha do Ministério da Saúde.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9
+   ],
+   "open_question": 73,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As associações atendem milhares de famílias, desoneram o SUS e precisam de uma regra do Ministério da Saúde.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "das três formas de acesso ao remédio, só as associações, que atendem cerca de 180 mil famílias, não têm regulamentação",
+     "plain": "Hoje há três formas de acesso: o importado, o de farmácia e as associações, que não têm regulamentação nenhuma. Elas atendem cerca de 180 mil famílias, geram riqueza e desoneram o SUS, mas o Estado não reconhece essa atividade."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pela letra fria da lei, quem coordena uma associação e planta é traficante e criminosa",
+     "plain": "Para o Estado, pela letra fria da lei, eu sou traficante, eu sempre fui uma criminosa. Vocês estão diante de uma criminosa."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cânhamo talvez saia pelo PL 399, mas o caminho das associações é o Ministério da Saúde",
+     "plain": "Já passou da hora de o cânhamo ser regulamentado, talvez pelo Projeto de Lei 399. Mas as associações, não. Conversei com o Ministério da Saúde, e o caminho delas é por lá."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a psiquiatra à Mesa e passa a palavra ao representante do setor do cânhamo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do setor do cânhamo cumprimenta a sala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b013",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente da APEPI lembra que ele também é da banda Natiruts.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do setor do cânhamo confirma o detalhe.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente da APEPI insiste que o mais importante é ele ser da banda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do setor do cânhamo conta que veio da música, de uma banda de reggae de Brasília.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se ele tocou com Paul McCartney no Clube do Choro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que o paciente tem pressa, que a planta já pode ser rastreada e que o País perde receita ao não plantar cânhamo.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    25
+   ],
+   "open_question": 35,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O acesso ao medicamento é urgente e o País perde receita e emprego ao não plantar o cânhamo industrial.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "já dá para certificar cada planta com uma impressão digital e rastreá-la, o que impede o desvio de finalidade",
+     "plain": "Quando dizem que o plantio pode ter desvio de finalidade, há resposta técnica. Hoje se faz uma certificação, uma impressão digital de cada planta, e dá para rastreá-la. Com esse controle, não vai haver desvio."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil perde a oportunidade do cânhamo industrial, que rende mais de 25 mil produtos, e deixa de gerar receita e emprego",
+     "plain": "O Brasil perde uma grande oportunidade também no cânhamo industrial. Dá para fazer mais de 25 mil produtos com ele. Pensem na receita e nos empregos que deixamos de gerar."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o paciente tem pressa e não pode esperar, e o remédio precisa chegar a todo mundo",
+     "plain": "O paciente tem pressa. O paciente não pode esperar. Queremos ver isso andando, para o remédio chegar a todo mundo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a coordenação a outro deputado e registra a presença de mais um parlamentar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia que não pode prescrever óleo de associação enquanto prescreve um remédio de 3 mil reais da farmácia, e cobra um ato do Ministério.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "open_question": 68,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério da Saúde pode resolver isso por ato administrativo, porque a lei já permite.",
+    "sentence": 67
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      17
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é proibido prescrever óleo de associação, mas desde 2018 ela pode prescrever um remédio de farmácia que custa 3 mil reais",
+     "plain": "O Conselho Federal de Medicina entende que prescrever óleo de associação é proibido. Enquanto isso, desde 2018 eu posso prescrever o Mevatyl, que custa 3 mil reais no Brasil e já está na farmácia."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a proibição se sustenta numa pauta moral que muita gente usa para ganhar votos",
+     "plain": "Mas por quê? Porque os legisladores têm medo. E porque há uma pauta moral que muitos usam para ganhar votos, como se vê no dinheiro que hoje vai para as comunidades terapêuticas."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      66,
+      67,
+      68
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "basta um ato administrativo do Ministério, porque isso já está na lei",
+     "plain": "É só um ato administrativo, porque isso já está na lei. O Ministério tem de fazer isso. Por que não faz?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da associação Flor da Vida, último da Mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Compara os 23 milhões gastos por São Paulo na Justiça com os 4 mil pacientes que a associação atende de graça, e cobra regra para as associações.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As associações atendem milhares de pessoas de graça enquanto o Estado gasta milhões com processos.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "em São Paulo foram 23 milhões de reais para atender 840 pessoas, e a associação atende 4 mil de graça",
+     "plain": "Soubemos pela imprensa quanto São Paulo gastou na Justiça: se não me engano, 23 milhões para atender 840 pessoas. A nossa associação atende hoje 4 mil pessoas, de graça, sem apoio do Governo."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Anvisa negou o transporte das plantas por 180 quilômetros até a faculdade, mas autorizou plantas vindas do Paraguai",
+     "plain": "O pedido foi negado. Mesmo com publicação no Diário Oficial e com a assinatura do reitor, a Anvisa não deixou levar as plantas os 180 quilômetros que separam Franca de Araraquara. Mas autorizou a vinda de plantas do Paraguai."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      58,
+      59
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não existe nenhuma regulamentação para as associações, que brigam pela RDC 18/13",
+     "plain": "Como disse a colega, não existe nenhuma regulamentação para as associações. Elas estão brigando pela RDC 18/13, uma norma da Anvisa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao conselheiro do Conselho Federal de Química.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Mostra que a química consegue caracterizar e rastrear cada planta e diz que falta investimento em pesquisa para trabalhar com as plantas daqui.",
+   "quote": [
+    43,
+    44,
+    45,
+    46
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A química já tem ferramentas para certificar e rastrear a planta, e o que falta é investimento em pesquisa.",
+    "sentence": 46
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "aprofundar o isolamento e a caracterização das substâncias permite trabalhar com certificação e rastreabilidade",
+     "plain": "Se eu aprofundo esse trabalho de isolar e caracterizar as substâncias, consigo trabalhar com certificação e com rastreabilidade, como foi dito aqui. Não é um trabalho simples, mas existe."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o que falta é investimento em pesquisa para trabalhar com as plantas que temos aqui",
+     "plain": "Do que precisamos? De investimento em pesquisa, para podermos trabalhar com as plantas que temos aqui. Só isso."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      26
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "trata-se de saúde, de uma planta que, trabalhada corretamente, gera saúde para o cidadão",
+     "plain": "Estou falando de saúde. É uma planta que, trabalhada do jeito certo, vai gerar saúde para o cidadão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Observa que o Ministério poderia avançar pelo lado administrativo, sem depender de lei nova, e passa a coordenação a outro deputado.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério já tem amparo para decidir pelo lado administrativo, mesmo sem uma lei nova.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério poderia avançar pelo lado administrativo, porque já tem amparo para decidir sem lei nova",
+     "plain": "Diante de tudo o que foi dito aqui, o Ministério tem muitos desafios. Há questionamentos sobre o projeto e sobre o próprio Ministério, que poderia avançar pelo lado administrativo, mesmo sem lei, porque já tem amparo para isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Critica os 173 milhões liberados para comunidades terapêuticas e mostra que a apreensão se concentra num bairro e a morte, na comunidade vizinha.",
+   "quote": [
+    57,
+    58,
+    59
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 39,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O dinheiro que vai para as comunidades terapêuticas deveria ir para a redução de danos e para os CAPS.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a associação acolhe mais de 1.500 famílias de graça e fechou o ano passado com mais de 2.000 consultas gratuitas",
+     "plain": "Hoje acolhemos mais de 1.500 famílias de forma gratuita. No ano passado terminamos com mais de 2.000 consultas gratuitas, contando as de retorno, em que se ajusta a dose de cada paciente."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo liberou 173 milhões de reais para as comunidades terapêuticas, dinheiro que deveria ir para a redução de danos e os CAPS",
+     "plain": "O Governo atual liberou para as comunidades terapêuticas 173 milhões de reais, mais do que o Governo anterior. Para nós isso é estarrecedor. Um valor desses precisa ir para a redução de danos e para construir mais CAPS."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      57,
+      58,
+      59
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maior quantidade de droga está no bairro de classe média, onde não houve apreensão, e as mortes e prisões estão na comunidade vizinha",
+     "plain": "A pesquisa mostrou que a maior quantidade de droga em Salvador está no bairro onde eu moro, a Pituba, e lá não houve nenhuma apreensão. No bairro vizinho, que é uma comunidade, houve dezenas de mortes e centenas de prisões."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à representante da federação de associações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante da federação diz que prefere falar com as mãos livres, sem algemas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o cronômetro não é rígido e que o tempo será combinado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b030",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende o cultivo doméstico, esquecido no debate, e mostra que a maioria das associações não tem amparo legal para atender.",
+   "quote": [
+    50,
+    51
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cultivo doméstico e o das pequenas associações precisa entrar na conta da regulamentação.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ninguém falou do cultivo doméstico nem do cultivo das pequenas associações, que também precisam entrar no debate",
+     "plain": "Essa via do cultivo doméstico também precisa ser colocada aqui. Falamos muito de cultivo industrial, de associação e de importação, mas ninguém disse nada do cultivo em casa nem do das pequenas associações."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as associações tratam cerca de 80 mil pacientes, há pelo menos 130 com CNPJ e só 52 na federação, e a maioria não tem amparo legal",
+     "plain": "Juntas, as associações são responsáveis pelo tratamento de cerca de 80 mil pacientes. O número é bem maior: há pelo menos 130 associações com CNPJ, e só 52 estão na federação. A maioria não tem amparo legal para atender."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todos ali são criminalizados, e ela já tem cinco habeas corpus e enfrenta o sexto julgamento no ano que vem",
+     "plain": "Porém, todos nós somos criminalizados. Eu já tenho cinco habeas corpus e, no ano que vem, passo por mais um julgamento, o sexto."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a reta final e passa a palavra à representante da associação Maria Flor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Conta que foi presa com o marido por causa do remédio e mostra que as associações atendem 150 mil pacientes enquanto o Estado gasta na Justiça.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 44,
+   "stance": {
+    "position": "contrario",
+    "claim": "As associações atendem 150 mil pacientes e não podem continuar invisíveis para o Estado.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "são 23 milhões gastos por São Paulo para atender 840 pacientes, e as associações atendem 150 mil",
+     "plain": "Como mostrou o colega, São Paulo gastou 23 milhões no atendimento de 840 pacientes. Nós, das associações, atendemos 150 mil pacientes, e temos os cadastros e os documentos para entregar."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "foram presos com seis frascos de remédio, e o marido dela ficou preso 4 anos e 7 meses",
+     "plain": "Fomos presos, eu e meu esposo, com seis frascos de remédio. Eu fiquei presa e ele ficou preso por 4 anos e 7 meses."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se trata de direita ou esquerda, e sim de saúde pública e de economia para o País",
+     "plain": "Não se trata de direita ou de esquerda. A questão é de saúde pública e de economia para o País."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que a pauta também é de esquerda e direita, mostra que o gasto com comunidades terapêuticas chega à casa do bilhão e divide a sua dúvida.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A pauta também é uma disputa entre esquerda e direita, e o Parlamento vota toda semana na direção punitiva.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "essa é também uma questão de esquerda e direita, ainda que fosse melhor tratá-la com consenso entre as linhas ideológicas",
+     "plain": "Na minha avaliação, essa é também uma questão de esquerda e direita, infelizmente. Eu queria que não fosse, queria que tratássemos disso com consenso entre as várias linhas ideológicas."
+    },
+    {
+     "id": "b033c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o gasto acumulado com as comunidades terapêuticas não está na casa do milhão, e sim na do bilhão",
+     "plain": "Fui ao Ministério perguntar quantos milhões vão para as comunidades terapêuticas e a resposta me surpreendeu. Somando o acumulado e o que há para pagar, não é a casa do milhão, é a do bilhão. Se a lógica for essa, vai faltar dinheiro."
+    },
+    {
+     "id": "b033c3",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "ao exigir que a fiscalização das comunidades terapêuticas seja do Ministério, corre-se o risco de legitimar o gasto com elas",
+     "plain": "Entramos com uma proposta para que a fiscalização das comunidades terapêuticas não seja terceirizada e fique com o Ministério da Saúde. Mas bate a dúvida: dizendo isso, não estamos legitimando a existência delas e todo esse dinheiro?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Concorda que a pauta está emparedada entre direita e esquerda e pede assinaturas para criar uma comissão mista em defesa da regulamentação.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A pauta está presa na divisão entre direita e esquerda, e é preciso juntar assinaturas para criar uma comissão mista.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a pauta está emparedada no negócio de direita e esquerda, e uma saída é juntar assinaturas para uma comissão mista",
+     "plain": "Pegando um gancho no que o deputado disse, estamos sim emparedados nesse negócio de direita e esquerda. Um trabalho de formiguinha é juntar assinaturas para criar uma comissão mista em defesa da regulamentação da Cannabis e do cânhamo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a sala foi liberada, que haverá mais falas e devolve a condução ao autor do pedido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que o cultivo em casa custa menos de 20 reais por mês e que prevenção e redução de danos são a saída para a questão das drogas.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cultivo em casa custa quase nada e é muito mais barato que o da indústria.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cultivo doméstico não custa nem 20 reais por mês, muito menos do que o de qualquer indústria",
+     "plain": "O cultivo em casa não custa nem 20 reais por mês. Sai muito mais barato do que o de qualquer indústria."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a única solução eficaz para a questão das drogas é a prevenção e a redução de danos, feita com diálogo franco",
+     "plain": "Sobre a questão das drogas, a única coisa real e eficaz que vemos funcionar é a prevenção e a redução de danos. E só se faz prevenção com diálogo franco, sincero e aberto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a reta final e passa a palavra a uma paciente, por até 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que as lesões da sua doença rara zeraram um mês depois de usar o óleo doado e voltaram piores quando ficou sem ele.",
+   "quote": [
+    24,
+    25
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O óleo que fez as lesões desaparecerem veio de doação, e não do sistema de saúde.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "um mês depois de usar o óleo que ganhou de uma amiga, as inflamações zeraram e não houve mais lesão no corpo",
+     "plain": "No meu laudo médico estão as inflamações, e o médico viu como elas estavam. Um mês depois de usar o óleo que ganhei de uma amiga, elas zeraram. Não tive mais nenhuma lesão pelo corpo."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quando ficou sem o óleo a doença voltou bem mais severa, e agora ela recebe o remédio por doação de uma associação",
+     "plain": "Passado um tempo, eu não consegui mais o óleo, e a doença voltou muito mais severa. Agora consegui de novo, graças ao pessoal de uma associação que fez a doação para mim."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o depoimento e passa a palavra à representante de um coletivo do cânhamo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que mães e associações repetem o óbvio há dez anos contra uma lei racista, e pede a liberdade do corpo e da planta.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O preconceito com a planta vem de anos de lei racista e de políticas discriminatórias.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mães e associações mostram crianças e idosos saindo de crises, e ainda assim o preconceito segue, vindo de uma lei racista",
+     "plain": "Mães dão depoimentos, o pessoal das associações também, mostramos crianças e idosos saindo de crises, e mesmo assim o preconceito continua enorme. São anos de história, de uma lei racista, de políticas discriminatórias."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a planta livre dá para ter o cultivo em casa, as associações e o produto na farmácia, para quem for",
+     "plain": "Chega! Temos de ser livres, e a planta também. Se ela for livre, dá para ter o cultivo em casa, as associações e o produto na farmácia, para o rico e para quem quer plantar no quintal."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que há 1 minuto para encerrar e abre a palavra a quem se inscreveu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b042",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Coloca o grupo do Conselho Federal de Química à disposição e lembra que um centro católico de Curitiba já prescreve canabidiol.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A química pode dar o subsídio técnico para rastrear a planta, e não se pode privar um país de um medicamento.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o grupo do Conselho Federal de Química dá o subsídio para gerar a impressão digital da planta e barrar o mau uso",
+     "plain": "No Conselho Federal de Química temos um grupo que dá subsídio técnico e científico aos pesquisadores para gerar a impressão digital da planta. A partir daí, o mau uso e o descaminho do material ficam restritos."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Curitiba a Santa Casa, que é católica, mantém um centro em que equipes médicas prescrevem canabidiol",
+     "plain": "Em Curitiba, na Santa Casa de Misericórdia, há um centro de acolhimento com canabidiol, onde equipes médicas prescrevem o tratamento. A Igreja Católica está à frente disso, e ela se diz de direita."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a um médico que quer dar um testemunho de um minuto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta o custo da fibromialgia para a Previdência e relata o resultado do canabidiol em pacientes que não se comunicavam.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Vale medir quanto a Cannabis pode poupar da Previdência, porque a fibromialgia afasta muita gente do trabalho.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a fibromialgia é uma das doenças que mais afastam do trabalho e atinge nove mulheres para cada homem",
+     "plain": "Vale levar isso à Previdência Social, porque a fibromialgia está entre as doenças que mais afastam pacientes hoje. O resultado da Cannabis na fibromialgia é excepcional, e ela atinge nove mulheres para cada homem."
+    },
+    {
+     "id": "b044c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "um paciente de 37 anos com quem ninguém mais conversava, com idade mental de 3 anos, hoje o chama de tio",
+     "plain": "Tenho um paciente de 37 anos, agitadíssimo, com quem ninguém mais conversava e que tinha idade mental de 3 anos. Hoje ele me chama de tio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a próxima será a última fala, de uma paciente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lembra que Cannabis é maconha e que a prescrição na veterinária também está no limbo.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Chamar a planta de Cannabis no tratamento e de maconha fora dele não muda o que ela é.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é tudo a mesma planta, e quem cura não é só a Cannabis de nome bonito, a maconha também cura",
+     "plain": "É tudo igual. Por que, quando falamos em tratamento médico, temos de dizer Cannabis? Cannabis é maconha, gente. Maconha cura, não é só a Cannabis que cura."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a prescrição na veterinária também está no limbo, sem regra nenhuma",
+     "plain": "Sou veterinária e também biomédica. Faço prescrição na veterinária, área que também está no limbo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a palavra para uma homenagem a um pesquisador que morreu há poucos dias.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b048",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Registra a morte de um pesquisador que escreveu sobre obesidade e Cannabis e defendeu a importância de pesquisar no País.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pesquisa sobre a planta no País precisa continuar, como defendia o pesquisador que morreu.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o pesquisador morto no acidente escreveu sobre obesidade e Cannabis e falou da importância de pesquisar no País",
+     "plain": "O médico e a família dele morreram num acidente na última segunda-feira. Ele escreveu um artigo sobre obesidade e Cannabis, fez uma revisão do tema e falou da importância de fazermos pesquisa neste País."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a palavra para um último registro da plateia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b050",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Conta que a mãe levou 16 anos para se aposentar por fibromialgia e sustenta que a pauta não passa com quem lucra com a proibição.",
+   "quote": [
+    26,
+    27,
+    28
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A luta tem lado, porque há gente ganhando dinheiro com a proibição.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b050c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a mãe dele tem fibromialgia desde 1994 e levou 16 anos para conseguir a aposentadoria",
+     "plain": "Minha mãe tem fibromialgia diagnosticada desde 1994. Ela demorou 16 anos para conseguir a aposentadoria, nessa luta para provar que a fibromialgia existe."
+    },
+    {
+     "id": "b050c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a pauta não passa com a direita, porque a direita lucra com a proibição, e não só moralmente",
+     "plain": "Quem sabe podemos repensar quando dizemos que não é questão de direita e de esquerda. Temos de lutar abertamente por esta pauta, mas ela não passa com a direita, porque a direita lucra com isso, e não só moralmente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Encerra dizendo que o Ministério sofre muita pressão, que vencer exige mobilização social e que a causa é difícil, mas não é invencível.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O Ministério da Saúde está atento ao que foi trazido, mas sofre pressões que só a mobilização social enfrenta.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b051c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "a nova equipe do Ministério sofre pressões, porque o Ministério da Saúde tem muitos recursos e é muito cobiçado",
+     "plain": "Vocês talvez não avaliem as pressões que a Ministra da Saúde e a nova equipe vêm sofrendo. O Ministério tem muitos recursos e por isso é tão cobiçado."
+    },
+    {
+     "id": "b051c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não é só querer para fazer, porque há muita pressão e jogo sujo, e vencer exige mobilização social",
+     "plain": "Não imaginem que é só querer para fazer. Enfrenta-se muita pressão, muita rasteira, muito jogo sujo nesse processo todo. Como disse o deputado, para vencer é preciso mobilização social e movimento vivo."
+    },
+    {
+     "id": "b051c3",
+     "sentences": [
+      25
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a causa da maconha medicinal e do cânhamo industrial é difícil, mas não é invencível",
+     "plain": "Saio daqui com a convicção mais forte de que a nossa causa, a da maconha medicinal e do cânhamo industrial, contra o proibicionismo estúpido e estreito, é uma causa difícil, mas não é invencível."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 42,
+   "to_sentence": 14,
+   "from_claim": "b010c3",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "A associação diz ter conversado com o Ministério e conclui o mesmo que ele: o caminho das associações passa pelo Ministério da Saúde, não por um projeto de lei."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 3,
+   "from_claim": "b018c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Ao dinheiro que sai do País soma-se a conta do cânhamo: mais de 25 mil produtos que o Brasil não fabrica e a receita que deixa de gerar."
+  },
+  {
+   "from": "b020",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 67,
+   "to_sentence": 15,
+   "from_claim": "b020c3",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Contra a ideia de reunir elementos técnicos antes de regulamentar, a médica responde que basta um ato administrativo, porque a lei já permite."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 58,
+   "to_sentence": 15,
+   "from_claim": "b022c3",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Confirma o ponto da colega e acrescenta em que norma as associações estão apostando enquanto nada é regulamentado."
+  },
+  {
+   "from": "b024",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 43,
+   "to_sentence": 17,
+   "from_claim": "b024c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "O químico confirma tecnicamente o que o expositor anterior havia dito: dá para certificar e rastrear cada planta."
+  },
+  {
+   "from": "b025",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 67,
+   "from_claim": "b025c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "A mesa endossa a cobrança da médica e diz que o Ministério já tem amparo para decidir sem lei nova."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 23,
+   "from_claim": "b026c1",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "Outra associação traz os seus próprios números de atendimento gratuito, na mesma direção do gasto público comparado pelo colega."
+  },
+  {
+   "from": "b026",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 51,
+   "from_claim": "b026c2",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "Ao dinheiro das comunidades terapêuticas citado pela médica, ele acrescenta o valor liberado pelo Governo atual."
+  },
+  {
+   "from": "b030",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 59,
+   "from_claim": "b030c3",
+   "to_claim": "b026c3",
+   "strength": "forte",
+   "note": "Depois do retrato das prisões na comunidade, ela mostra a outra ponta da mesma política, a criminalização de quem cultiva para tratar."
+  },
+  {
+   "from": "b032",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 22,
+   "from_claim": "b032c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "Retoma os números que o colega trouxe sobre o gasto de São Paulo e soma o total de pacientes atendidos pelas associações."
+  },
+  {
+   "from": "b033",
+   "to": "b032",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 52,
+   "from_claim": "b033c1",
+   "to_claim": "b032c3",
+   "strength": "forte",
+   "note": "Contra a ideia de que o assunto não é de direita nem de esquerda, o deputado responde que, na avaliação dele, é também disso que se trata."
+  },
+  {
+   "from": "b033",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 35,
+   "from_claim": "b033c2",
+   "to_claim": "b026c2",
+   "strength": "forte",
+   "note": "O deputado confirma a denúncia sobre o financiamento e diz que o acumulado chega à casa do bilhão."
+  },
+  {
+   "from": "b034",
+   "to": "b033",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b034c1",
+   "to_claim": "b033c1",
+   "strength": "forte",
+   "note": "A dirigente que antes dizia que a pauta não era de direita nem de esquerda pega o gancho e concorda que a pauta está emparedada nessa divisão."
+  },
+  {
+   "from": "b038",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 17,
+   "from_claim": "b038c2",
+   "to_claim": "b026c1",
+   "strength": "media",
+   "note": "O relato da paciente mostra na prática o atendimento gratuito das associações: o óleo que ela usa hoje veio de doação."
+  },
+  {
+   "from": "b040",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 23,
+   "from_claim": "b040c2",
+   "to_claim": "b030c1",
+   "strength": "media",
+   "note": "Retoma o ponto do cultivo em casa e o junta às associações e à farmácia, como vias que só existem se a planta for livre."
+  },
+  {
+   "from": "b042",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 43,
+   "from_claim": "b042c1",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "O colega de conselho confirma o trabalho apresentado e diz que o grupo está à disposição dos pesquisadores."
+  },
+  {
+   "from": "b044",
+   "to": "b038",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 25,
+   "from_claim": "b044c2",
+   "to_claim": "b038c1",
+   "strength": "media",
+   "note": "Ao relato da paciente soma-se o do médico, com pacientes que voltaram a se comunicar depois do tratamento."
+  },
+  {
+   "from": "b046",
+   "to": "b040",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 36,
+   "from_claim": "b046c1",
+   "to_claim": "b040c2",
+   "strength": "media",
+   "note": "Ao pedido de liberdade da planta ela acrescenta que o nome não muda nada, porque é a mesma planta que cura."
+  },
+  {
+   "from": "b050",
+   "to": "b044",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 13,
+   "from_claim": "b050c1",
+   "to_claim": "b044c1",
+   "strength": "forte",
+   "note": "O relato sobre a mãe dá um caso concreto ao custo previdenciário da fibromialgia levantado pelo médico."
+  },
+  {
+   "from": "b050",
+   "to": "b033",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 1,
+   "from_claim": "b050c2",
+   "to_claim": "b033c1",
+   "strength": "forte",
+   "note": "Vai além do deputado no mesmo ponto: a pauta tem lado, e quem lucra com a proibição não vai deixá-la passar."
+  },
+  {
+   "from": "b051",
+   "to": "b033",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 40,
+   "from_claim": "b051c2",
+   "to_claim": "b033c1",
+   "strength": "forte",
+   "note": "O encerramento repete a conclusão do colega: sem mobilização social e movimento vivo, a pressão sobre o Ministério vence."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b006",
+    "b010",
+    "b022",
+    "b030"
+   ],
+   "claims": [
+    "b006c1",
+    "b010c1",
+    "b022c3",
+    "b030c2"
+   ],
+   "note": "O Ministério da Saúde e três associações de pacientes concordam que falta a regra que reconheça quem cultiva e atende, e que ela cabe ao Ministério."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b010",
+    "b026",
+    "b030",
+    "b040"
+   ],
+   "claims": [
+    "b006c3",
+    "b010c2",
+    "b026c3",
+    "b030c3",
+    "b040c1"
+   ],
+   "note": "Governo e movimento concordam que a proibição pesa sobre pessoas negras, pobres e pacientes, e que regulamentar sem reparação repete o mesmo modelo."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b018"
+   ],
+   "claims": [
+    "b004c1",
+    "b018c2"
+   ],
+   "note": "O instituto de informação e a entidade do setor do cânhamo concordam que o País manda o dinheiro para fora e perde emprego por não plantar aqui."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b033",
+    "b034",
+    "b050",
+    "b051"
+   ],
+   "claims": [
+    "b033c1",
+    "b034c1",
+    "b050c2",
+    "b051c2"
+   ],
+   "note": "Dois deputados da mesa, uma dirigente de associação e um participante concordam que a pauta tem lado político e que só a mobilização social a destrava."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b018",
+    "b024",
+    "b042"
+   ],
+   "claims": [
+    "b018c1",
+    "b024c1",
+    "b042c1"
+   ],
+   "note": "A entidade do cânhamo e os dois químicos concordam que já existe como certificar e rastrear cada planta, o que responde ao medo do desvio."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b026",
+    "b033",
+    "b036"
+   ],
+   "claims": [
+    "b026c2",
+    "b033c2",
+    "b036c2"
+   ],
+   "note": "Uma associação, um deputado e a federação concordam que o dinheiro que vai para as comunidades terapêuticas deveria ir para os CAPS e a redução de danos."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b010",
+   "sentence": 73,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "até quando esperar o Ministério da Saúde apresentar a regulamentação",
+   "plain": "Até quando vamos esperar o Ministério da Saúde apresentar a regulamentação?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b018",
+   "sentence": 35,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "por que não se pode plantar cânhamo industrial no País",
+   "plain": "Por que não se pode plantar aqui o cânhamo industrial, que não é psicoativo?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b020",
+   "sentence": 68,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que o Ministério não faz o ato administrativo que a lei permite",
+   "plain": "Por que o Ministério da Saúde não faz o ato administrativo que a lei já permite?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b026",
+   "sentence": 39,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que o Governo libera essa verba para as comunidades terapêuticas",
+   "plain": "Por que o Governo libera uma verba dessas para as comunidades terapêuticas?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b032",
+   "sentence": 44,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quando o Estado vai olhar para as associações que atendem de graça",
+   "plain": "O Estado pode olhar para as associações que atendem de graça?",
+   "theme": "d4",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 2,
+   "gist": "mais de 700 mil pessoas já tratadas com a planta",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 3,
+   "gist": "mais de 700 milhões de reais movimentados neste ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 21,
+   "gist": "29 projetos de lei sobre o tema nas duas Casas",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 22,
+   "gist": "nove Estados já têm lei sobre cultivo e dispensação",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 7,
+   "gist": "a associação tem 8 mil associados e 70 funcionários",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 16,
+   "gist": "as associações atendem cerca de 180 mil famílias",
+   "disputed_by": [
+    {
+     "fala": "b030",
+     "sentence": 43
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b018",
+   "sentence": 20,
+   "gist": "o cânhamo industrial rende mais de 25 mil produtos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b020",
+   "sentence": 17,
+   "gist": "o Mevatyl custa 3 mil reais na farmácia",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b020",
+   "sentence": 64,
+   "gist": "mais de 200 produtos importados e mais de 20 em farmácia",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b022",
+   "sentence": 22,
+   "gist": "São Paulo gastou 23 milhões para atender 840 pessoas",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b026",
+   "sentence": 35,
+   "gist": "173 milhões liberados para comunidades terapêuticas",
+   "disputed_by": [
+    {
+     "fala": "b033",
+     "sentence": 14
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b036",
+   "sentence": 2,
+   "gist": "o cultivo em casa não custa nem 20 reais por mês",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu a tese de que só a regulamentação das associações democratiza o acesso, com o anúncio do Ministério da Saúde de que a tarefa é dele.",
+  "omitted": "Ficaram de fora o dinheiro público das comunidades terapêuticas, a defesa do cultivo em casa e a pesquisa de química que a Anvisa barrou."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem regulamentar as associações não há acesso",
+   "statement_plain": "Só uma regra que reconheça as associações e o cultivo vai abrir o acesso ao remédio para quem não pode pagar o importado nem o de farmácia.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b010c1",
+    "b022c3",
+    "b030c2",
+    "b040c2"
+   ],
+   "note": "Junta o Ministério da Saúde, três associações de pacientes e um coletivo do cânhamo em volta da mesma ideia, o reconhecimento de quem já entrega o remédio."
+  },
+  {
+   "id": "t2",
+   "title": "Quem dá acesso hoje são as associações, de graça",
+   "statement_plain": "As associações já tratam de graça mais gente do que o Estado alcança gastando milhões na Justiça, e é esse trabalho que precisa ser reconhecido e comprado.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b022c1",
+    "b026c1",
+    "b032c1",
+    "b038c2",
+    "b044c1"
+   ],
+   "note": "A ideia aparece em números de gasto público e em relato de quem só tem o óleo porque alguém doou, e opõe associações e pacientes ao caminho oficial."
+  },
+  {
+   "id": "t3",
+   "title": "O caminho é o SUS incorporar com critério técnico",
+   "statement_plain": "O acesso passa por o Estado incluir os produtos no SUS, com critério técnico e de custo, e por uma norma do Ministério da Saúde que organize a produção.",
+   "core_theme": "d4",
+   "positions": {
+    "d1": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c2",
+    "b025c1"
+   ],
+   "note": "É a ideia do Governo, endossada por um deputado da mesa, e a que divide a sala: para ela a via é o Estado, e não o reconhecimento imediato das associações."
+  },
+  {
+   "id": "t4",
+   "title": "A proibição é racista e cobra reparação",
+   "statement_plain": "A proibição da planta prende mãe, paciente e principalmente gente negra e pobre, e nenhuma regulamentação pode sair sem reparação histórica.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b010c2",
+    "b026c3",
+    "b030c3",
+    "b040c1"
+   ],
+   "note": "Cruza o governo e o movimento: o próprio Ministério da Saúde e as associações dizem que regulamentar sem reparação repete o modelo que prende e mata."
+  },
+  {
+   "id": "t5",
+   "title": "A pauta tem lado e exige mobilização",
+   "statement_plain": "A maconha medicinal é uma disputa política com lado definido, porque há quem lucre com a proibição, e só a mobilização social destrava a pauta.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b033c1",
+    "b034c1",
+    "b050c2",
+    "b051c2"
+   ],
+   "note": "Divide o próprio movimento: uma dirigente de associação que dizia que a pauta não é de direita nem de esquerda muda de lado depois de ouvir o deputado."
+  },
+  {
+   "id": "t6",
+   "title": "Isto é saúde, não é direita nem esquerda",
+   "statement_plain": "O uso medicinal da planta é assunto de saúde pública e de economia, e não pertence a nenhum campo político, como mostra quem o defende dos dois lados.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b024c3",
+    "b032c3",
+    "b042c2"
+   ],
+   "note": "Reúne uma associação de pacientes, o Conselho Federal de Química e o exemplo de um hospital católico, gente de origens opostas dizendo que o assunto é de saúde."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Cannabis",
+   "plain": "nome científico da maconha, a planta usada tanto no tratamento de doenças quanto na indústria",
+   "fala": "b001",
+   "sentence": 9
+  },
+  {
+   "term": "cânhamo industrial",
+   "plain": "variedade da maconha sem efeito psicoativo, usada para fibra, papel, tecido, alimento e outros produtos",
+   "fala": "b001",
+   "sentence": 9
+  },
+  {
+   "term": "canabidiol",
+   "plain": "o CBD, substância da planta usada em remédios, que não provoca efeito psicoativo",
+   "fala": "b006",
+   "sentence": 45
+  },
+  {
+   "term": "incorporação",
+   "plain": "a decisão que inclui um remédio ou procedimento na lista do que o SUS pode comprar e fornecer",
+   "fala": "b006",
+   "sentence": 38
+  },
+  {
+   "term": "RDC",
+   "plain": "resolução da diretoria colegiada da Anvisa, a norma que a agência publica para regular um produto",
+   "fala": "b010",
+   "sentence": 15
+  },
+  {
+   "term": "THC",
+   "plain": "substância da maconha que altera a percepção e que também tem uso terapêutico em doses controladas",
+   "fala": "b010",
+   "sentence": 27
+  },
+  {
+   "term": "redução de danos",
+   "plain": "forma de cuidar de quem usa drogas sem exigir que pare, para diminuir os riscos do uso",
+   "fala": "b020",
+   "sentence": 8
+  },
+  {
+   "term": "CAPS",
+   "plain": "Centro de Atenção Psicossocial, serviço do SUS que atende saúde mental sem internar a pessoa",
+   "fala": "b020",
+   "sentence": 8
+  },
+  {
+   "term": "salvo-conduto",
+   "plain": "autorização da Justiça que impede a pessoa de ser presa por cultivar ou transportar o seu remédio",
+   "fala": "b020",
+   "sentence": 20
+  },
+  {
+   "term": "comunidades terapêuticas",
+   "plain": "locais de internação para dependentes químicos, em geral privados, que recebem dinheiro público",
+   "fala": "b020",
+   "sentence": 51
+  },
+  {
+   "term": "efeito comitiva",
+   "plain": "ideia de que as substâncias da planta funcionam melhor juntas do que isoladas em um só composto",
+   "fala": "b022",
+   "sentence": 44
+  },
+  {
+   "term": "farmácias vivas",
+   "plain": "programa em que a própria rede pública cultiva plantas medicinais e prepara remédios com elas",
+   "fala": "b022",
+   "sentence": 60
+  },
+  {
+   "term": "cromatogramas",
+   "plain": "gráficos que mostram quais substâncias existem em uma amostra da planta e em que quantidade",
+   "fala": "b024",
+   "sentence": 52
+  },
+  {
+   "term": "habeas corpus",
+   "plain": "ordem da Justiça que protege a pessoa de ser presa, aqui usada por quem cultiva para tratar alguém",
+   "fala": "b030",
+   "sentence": 28
+  },
+  {
+   "term": "reparação histórica",
+   "plain": "medidas que compensam quem foi preso e perseguido pela proibição da planta ao longo dos anos",
+   "fala": "b030",
+   "sentence": 74
+  }
+ ]
+}

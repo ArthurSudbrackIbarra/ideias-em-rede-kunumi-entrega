@@ -1,0 +1,2019 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 136,
+ "model": "LLM lendo o prompt hearing-136 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T16:08:04Z",
+ "prompt_sha256": "e9ac5277b56414e285bf7e0bea16cc9b442d9c1b8abaacfc4fe6bcaf88b95508",
+ "sentences_hash": "212d9c056258275a",
+ "review": {
+  "pairs_read": 47,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "Duas comissões da Câmara ouviram lideranças indígenas e órgãos do Governo sobre o Projeto de Lei 4.347/21, que transforma em lei a PNGATI, criada por decreto em 2012. Os convidados pediram rapidez na tramitação, orçamento próprio e um fundo para a política. A presidência fechou a audiência com encaminhamentos para o relatório do projeto.",
+ "stakes": "Se o relatório do projeto sai da Comissão de Meio Ambiente ainda neste ano, e com que pontos.",
+ "central_question": "A política de gestão das terras indígenas deve deixar de ser decreto e virar lei, e com que recursos?",
+ "synopsis_plain": "A PNGATI é a política que organiza o cuidado com as terras indígenas. Ela existe desde 2012, mas só como decreto, que um governo pode desfazer. O projeto de lei 4.347/21 quer transformá-la em lei. Nesta audiência, lideranças indígenas e órgãos do Governo pediram pressa na votação e dinheiro no orçamento, porque sem recursos a política não sai do papel.",
+ "stakes_plain": "Se o relator fecha o parecer ainda neste ano e o projeto segue para as outras comissões.",
+ "central_question_plain": "A política das terras indígenas deve virar lei, e de onde vem o dinheiro para colocá-la de pé?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Lei em vez de decreto",
+   "description": "Se a PNGATI, criada por decreto em 2012, deve ser transformada em lei pelo Projeto de Lei 4.347/21.",
+   "axis": {
+    "pro": "A política precisa de lei para ter governança e continuidade garantidas.",
+    "contra": "O decreto que criou a política já basta e ela pode seguir como está.",
+    "pro_plain": "Só uma lei garante que a política continue de pé quando o governo muda.",
+    "contra_plain": "O decreto que criou a política já é suficiente para mantê-la."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Orçamento e fundo da política",
+   "description": "De onde saem os recursos para implementar a PNGATI nos territórios indígenas.",
+   "axis": {
+    "pro": "A implementação exige orçamento público próprio, com linhas definidas no plano plurianual.",
+    "contra": "A implementação pode seguir apoiada em fundos e na cooperação internacional.",
+    "pro_plain": "Sem dinheiro reservado no orçamento do Governo, a política não chega aos territórios.",
+    "contra_plain": "Os fundos que já existem e a ajuda de fora dão conta de financiar a política."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Governança e transversalidade",
+   "description": "Quem responde pela política dentro do Governo e como os comitês, os estados e os municípios entram nela.",
+   "axis": {
+    "pro": "A política é responsabilidade de vários ministérios e entes, com os comitês em funcionamento.",
+    "contra": "A política se resolve dentro da FUNAI e do Ministério dos Povos Indígenas.",
+    "pro_plain": "Vários ministérios, estados e municípios precisam responder pela política, com os comitês funcionando.",
+    "contra_plain": "Basta a FUNAI e o Ministério dos Povos Indígenas cuidarem da política."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Ataques aos direitos territoriais",
+   "description": "Como a audiência responde aos projetos e aos discursos que reduzem os direitos sobre os territórios indígenas.",
+   "axis": {
+    "pro": "Os direitos territoriais estão sob ataque no Congresso e precisam ser defendidos.",
+    "contra": "Os territórios indígenas atrapalham a produção e o desenvolvimento.",
+    "pro_plain": "Os direitos sobre a terra estão sendo atacados no Congresso e precisam de defesa.",
+    "contra_plain": "As terras indígenas atrapalham quem produz e travam o desenvolvimento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Sobreposição com unidades de conservação",
+   "description": "O que fazer onde parques e outras unidades de conservação federais ficam em cima de terras indígenas.",
+   "axis": {
+    "pro": "A sobreposição é dupla proteção e pede gestão conjunta com o ICMBio.",
+    "contra": "A sobreposição é um conflito a resolver, não uma oportunidade de gestão.",
+    "pro_plain": "Onde o parque e a terra indígena se sobrepõem, a área ganha duas camadas de proteção.",
+    "contra_plain": "Onde o parque fica em cima da terra indígena existe um conflito a resolver."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Terras não demarcadas e biomas",
+   "description": "Se a política alcança as terras ainda não demarcadas e todos os biomas, e não só a Amazônia.",
+   "axis": {
+    "pro": "A política tem de alcançar as terras ainda não demarcadas e todos os biomas.",
+    "contra": "A política vale para as terras já homologadas e tem foco na Amazônia.",
+    "pro_plain": "A política precisa valer também onde a terra ainda não foi demarcada, em todos os biomas.",
+    "contra_plain": "A política vale onde a terra já está regularizada, sobretudo na Amazônia."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Mulheres indígenas e garimpo",
+   "description": "Se o plano de gestão trata do protagonismo das mulheres e do estrago que o garimpo e a mineração fazem nos territórios.",
+   "axis": {
+    "pro": "O plano precisa tratar do protagonismo das mulheres e do impacto do garimpo e da mineração.",
+    "contra": "O plano deve se ater à gestão territorial e ambiental.",
+    "pro_plain": "O plano tem de dar lugar às mulheres e enfrentar o estrago do garimpo e da mineração.",
+    "contra_plain": "O plano deve cuidar só da gestão da terra e do meio ambiente."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "Autonomia e dever do Estado",
+   "description": "Se o caminho é dar autonomia econômica aos territórios ou cobrar do Estado a saúde e a educação que faltam.",
+   "axis": {
+    "pro": "Os territórios precisam de autonomia e de sustentabilidade econômica própria.",
+    "contra": "Os povos precisam que o Estado cumpra o dever de garantir saúde e educação.",
+    "pro_plain": "O caminho é dar autonomia aos territórios e apoiar a produção que já existe neles.",
+    "contra_plain": "O Estado tem o dever de garantir saúde e educação, e os povos precisam desse apoio."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão da Amazônia e dos Povos Originários e Tradicionais",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada na ata como Presidente, Célia Xakriabá, Bloco/PSOL - MG, e identificada em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que trata da Amazônia e dos povos originários e tradicionais"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador executivo",
+   "org": "APIB",
+   "basis": "apresentado pela presidência em b001.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Articulação dos Povos Indígenas do Brasil",
+   "org_plain": "organização que reúne as articulações regionais dos povos indígenas de todo o país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Diretor de Gestão Ambiental, Territorial e Promoção ao Bem Viver Indígena",
+   "org": "Ministério dos Povos Indígenas",
+   "basis": "apresentado pela presidência em b001.10",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Povos Indígenas",
+   "org_plain": "ministério do Governo Federal responsável pelas políticas voltadas aos povos indígenas"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Gestão Socioambiental",
+   "org": "ICMBio",
+   "basis": "apresentado pela presidência em b001.12 e em b005.4",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do ICMBio",
+   "org_plain": "instituto federal que cuida dos parques nacionais e das demais unidades de conservação"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Representante do Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+   "org": "MDA",
+   "basis": "apresentada pela presidência em b001.12 e por ela mesma em b008.1",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério do Desenvolvimento Agrário",
+   "org_plain": "ministério federal que cuida da agricultura familiar e da assistência técnica no campo"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenação executiva",
+   "org": "COIAB",
+   "basis": "apresentada pela presidência em b001.12 e em b009.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da COIAB",
+   "org_plain": "organização que reúne os povos indígenas da Amazônia brasileira"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Coordenação-Geral de Gestão Ambiental",
+   "org": "FUNAI",
+   "basis": "apresentado pela presidência em b001.11 e por ele mesmo em b012.6",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da FUNAI",
+   "org_plain": "órgão federal encarregado da demarcação das terras indígenas e da política indigenista"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da Articulação Nacional das Mulheres Indígenas",
+   "org": "ANMIGA",
+   "basis": "apresentada pela presidência em b013.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Articulação Nacional das Mulheres Indígenas",
+   "org_plain": "articulação das mulheres indígenas guerreiras da ancestralidade, presente em todos os biomas"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Coordenador",
+   "org": "COIAB",
+   "basis": "dito por ele mesmo em b016.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "vice-coordenador da COIAB, do território Raposa Serra do Sol",
+   "org_plain": "organização que reúne os povos indígenas da Amazônia brasileira"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Liderança do povo paresi-haliti",
+   "org": null,
+   "basis": "apresentada pela presidência em b019.14",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "liderança do povo paresi-haliti",
+   "org_plain": null
+  }
+ },
+ "audience": {
+  "estimate": 50,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.8
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   }
+  ],
+  "basis": "A presidência agradece a presença das delegações da APIB e da ANMIGA em b001.3, cita a caravana de gabinete em gabinete em b003.6 e a presença do povo paresi em b019.3. Há dois registros de palmas.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência conjunta sobre a PNGATI e defende que a política deixe de ser decreto e vire lei, com tramitação rápida nas comissões.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política precisa de uma lei que lhe dê sustentação, no lugar do decreto.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a política precisa deixar de ser decreto e virar lei, com tramitação rápida também na CCJ",
+     "plain": "Queremos pressa também na CCJ, a Comissão de Constituição e Justiça. Esta audiência serve para continuarmos o debate e chegarmos a uma lei que sustente a política, no lugar de um decreto."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      20
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão aprovou ontem três emendas orçamentárias de meta para o Plano de Gestão Territorial e Ambiental",
+     "plain": "Ontem aprovamos nesta Comissão três emendas orçamentárias de meta para o Plano de Gestão Territorial e Ambiental, feito junto com o Ministério dos Povos Indígenas. Aprovamos também uma emenda para indígena isolado e para a Amazônia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que a PNGATI vire lei e cobra do Governo os recursos da política, que é de Estado e hoje depende da sociedade civil e da cooperação internacional.",
+   "quote": [
+    32,
+    33
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política é de Estado e cabe ao Governo garantir os recursos para implementá-la.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a política atravessa vários ministérios e precisa de responsabilidade conjunta, para além da FUNAI, do MPI e do MMA",
+     "plain": "As propostas da política envolvem vários ministérios, por isso acho importante retomar o Comitê Gestor da PNGATI. A responsabilidade tem de ser conjunta, para além da FUNAI, do Ministério dos Povos Indígenas e do Meio Ambiente."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "temos pouco mais de 3 anos para tirar a PNGATI do papel e ela precisa ser constituída por lei",
+     "plain": "Temos pouco mais de 3 anos para tirar a PNGATI do papel, ainda no formato do decreto de 2012. Um ponto muito debatido no seminário foi este: a política precisa ser criada por lei."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a política é de Estado e cabe ao Governo garantir os recursos para implementá-la",
+     "plain": "Precisamos inverter a lógica. A sociedade civil e a cooperação internacional são parceiras importantes, mas o Governo tem de entender que essa política é de Estado e garantir os recursos para implementá-la."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Anuncia um chamamento maior quando o projeto chegar à Comissão e conta que a caravana de gabinetes mudou a leitura de parlamentares sobre os povos indígenas.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A tramitação do projeto não pode demorar, porque o quadro favorável é deste ano.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quando o projeto chegar à Comissão haverá um chamamento maior, porque este ano a CCJ tem um quadro favorável",
+     "plain": "Quando o projeto chegar à nossa Comissão, faremos um chamamento maior, com as contribuições colhidas aqui. Não pode demorar, porque temos este ano para a passagem pela CCJ, a Comissão de Constituição e Justiça."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a visita de gabinete em gabinete desfaz a ideia de que os povos indígenas querem retomar as cidades",
+     "plain": "Os parlamentares que recebem a nossa visita nunca mais pensam do mesmo jeito, para o bem ou para o mal. Desfazemos a ideia de que queremos retomar as cidades e de que somos contra a economia. Queremos bioeconomia, e a PNGATI trata disso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata a retomada do Comitê Gestor pelo Ministério dos Povos Indígenas e pede que os Comitês Regionais da FUNAI, extintos no governo passado, também voltem.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 15,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A governança da política precisa avançar, e os Comitês Regionais da FUNAI têm de ser retomados.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a política nasce das comunidades indígenas e por isso o Governo tem de pensá-la a partir dos territórios",
+     "plain": "Este ano retomamos o Comitê Gestor. A PNGATI nasce das comunidades indígenas e vem dos territórios, então precisamos pensar a partir deles também quando ocupamos espaços de Governo."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os Comitês Regionais da FUNAI fazem parte da governança da PNGATI e foram extintos no Governo passado",
+     "plain": "O Comitê Gestor voltou, mas a governança ainda precisa avançar. Os Comitês Regionais da FUNAI, que são parte dessa governança, foram extintos no Governo passado. Faço um apelo para pensarmos como retomá-los."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o momento é favorável para alcançar todos os biomas e garantir aos povos a autogestão dos seus territórios",
+     "plain": "O momento é favorável para implementar a política em todos os biomas e territórios. Assim os povos terão a autogestão dos seus territórios e a posse plena deles, com o que eles quiserem para o próprio espaço."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência alterna presentes e participantes on-line e passa a palavra ao representante do ICMBio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta mais de 70 áreas em que unidades de conservação federais e terras indígenas se sobrepõem e defende a gestão conjunta, que chama de dupla proteção.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As áreas de sobreposição pedem gestão ambiental e territorial conjunta, com respeito aos modos de vida dos povos.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "um grupo de trabalho entre FUNAI e ICMBio achou mais de 70 sobreposições, com 7,5 milhões de hectares",
+     "plain": "Tivemos um grupo de trabalho entre a FUNAI e o ICMBio em 2015 e 2016 que identificou essas sobreposições. São mais de 70 casos de unidades de conservação federais em cima de terras indígenas, com 7,5 milhões de hectares."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a sobreposição representa uma dupla proteção, porque a área é terra indígena e também unidade de conservação",
+     "plain": "Entendemos que essas situações são uma dupla proteção. Além de protegidas como terras indígenas, as áreas ganham mais uma camada por serem parques nacionais e outras unidades de conservação."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      13
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a tramitação do projeto é positiva e a PNGATI deve ser estabelecida como lei",
+     "plain": "Também achamos muito positivo que este projeto esteja tramitando, para que a PNGATI vire lei."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante do Ministério do Desenvolvimento Agrário e Agricultura Familiar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra que o Ministério do Desenvolvimento Agrário atua em todos os eixos da política e apoia a retomada dos colegiados territoriais e dos planos de gestão.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política é importante e parte dos territórios, e o ministério atua em todos os seus eixos.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério do Desenvolvimento Agrário atua em todos os eixos da PNGATI, sobretudo no eixo 5",
+     "plain": "Nós atuamos em todos os eixos da PNGATI, sobretudo no eixo 5. Em gestões anteriores criamos o selo de certificação de origem indígena do Brasil e levamos assistência técnica e extensão rural aos povos indígenas."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os planos de gestão são um mapa das políticas que vão alcançar cada povo, com seu conhecimento e seu modo de produzir",
+     "plain": "Reforço o que o Bruno Potiguara disse sobre retomar os colegiados territoriais e formular os planos de gestão. Nós os vemos como um mapa de quais políticas vão chegar de verdade a cada povo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede sensibilidade dos parlamentares na relatoria e diz que este é o momento de corrigir as deficiências do projeto, como a falta de agentes ambientais.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O período de relatoria é a hora de corrigir o que falta no projeto.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o período de relatoria é a hora de corrigir as deficiências do projeto, como a falta do agente ambiental",
+     "plain": "Contamos com a sensibilidade dos parlamentares na relatoria, porque sempre aparecem falhas: faltou agente ambiental, faltou agente florestal. Este é o momento de fazer as alterações."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Conta que a COIAB já implementa a política nos territórios pelos planos de gestão e reforça que ela importa a todos os territórios, não só na Amazônia.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política importa aos povos indígenas de todos os territórios do país, não só da Amazônia.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a COIAB acompanha a PNGATI há tempos e luta para que ela se torne uma política de verdade",
+     "plain": "Para nós da COIAB, a organização dos povos indígenas da Amazônia brasileira, é importante participar, porque já acompanhamos a PNGATI. Ela ainda não virou política, e estamos lutando para que isso aconteça."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a política já está sendo implementada nos territórios pelos planos de gestão e importa a todos eles, não só à Amazônia",
+     "plain": "De certa forma já estamos implementando a política nos nossos territórios, principalmente pelos planos de gestão. Ela é importante para os povos indígenas de todos os territórios do Brasil, não só da Amazônia."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Diz que as organizações precisam marcar posição dentro da Câmara e que a PNGATI não é só defesa, mas avanço na gestão e na proteção dos territórios.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política não é só defesa dos territórios, é avanço na gestão e na proteção deles.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a PNGATI é uma política de ataque, que avança na gestão e na proteção do território",
+     "plain": "Mas a PNGATI também é uma política de artilheiros. Não é só jogar na defesa, é avançar na gestão e na proteção do território."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Compara a PNGATI com políticas ambientais criadas por lei, que mantiveram sua governança, e defende um fundo próprio previsto na futura lei.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Avançar na lei da PNGATI é fundamental para fortalecer a política nos anos seguintes.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos últimos anos a PNGATI ficou engavetada na FUNAI, com o comitê gestor extinto e a governança parada",
+     "plain": "Nos últimos anos a PNGATI ficou engavetada dentro da FUNAI, com o comitê gestor extinto e a governança sem funcionar. Nesse contexto, foi muito difícil para o Estado brasileiro continuar a política nos territórios."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as políticas ambientais criadas por lei mantiveram a governança funcionando, e por isso a PNGATI precisa de lei",
+     "plain": "A Política Nacional do Meio Ambiente e a política de patrimônio genético mantiveram sua governança funcionando porque foram criadas por lei. Como lei, a PNGATI fica mais forte e ganha continuidade. Avançar nela é fundamental."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o Fundo Amazônia, o Fundo Clima e o PNUD já financiaram a política, mas a lei precisa prever um fundo específico",
+     "plain": "Vários programas e projetos da PNGATI foram financiados pelo Fundo Amazônia, pelo Fundo Clima e pelo PNUD, o Programa das Nações Unidas para o Desenvolvimento. Mesmo assim, a lei precisa prever um fundo específico."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Liga a política à compra de alimentos dos territórios, lembra que o Cerrado já vende mais de 200 produtos e abre duas inscrições.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A implementação da política tem de ser dialogada e andar junto com o que já está no plano plurianual.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "do Cerrado já podem ser vendidos mais de 200 produtos, que também podem ir para a escola",
+     "plain": "Do Cerrado já podem ser vendidos mais de 200 produtos, que também podem ir para a escola. Por isso importa a implementação dialogada, que já consta no PPA, o plano plurianual do orçamento, junto com a PNGATI."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Cobra que a política reconheça o protagonismo das mulheres indígenas e respeite os territórios ainda não demarcados, que não cabem num plano de gestão igual.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 16,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política precisa rever o lugar das mulheres e respeitar a diversidade dos povos e dos territórios.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso rever o protagonismo das mulheres na PNGATI e valorizar a ciência que elas produzem nos territórios",
+     "plain": "Quando falamos de sustentabilidade pelo olhar das mulheres, pensamos também em valorizar a ciência que elas produzem nos nossos territórios. Há uma necessidade muito grande de rever o protagonismo das mulheres na PNGATI."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para pensar um plano de gestão igual para terras demarcadas e para territórios em retomada",
+     "plain": "Precisamos discutir a PNGATI respeitando a diversidade dos povos. Ainda há territórios não demarcados e territórios em retomada, e não dá para pensar o mesmo plano de gestão para essas realidades."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a FUNAI e o Ministério dos Povos Indígenas têm de colocar as mulheres no protagonismo, porque elas detêm a maior parte dos conhecimentos",
+     "plain": "Isso é responsabilidade da FUNAI e do Ministério dos Povos Indígenas: colocar as mulheres nesse protagonismo. Somos nós que guardamos a maior parte dos conhecimentos, da roça ao cuidado da casa."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Observa que o plano de gestão discutia pouco o garimpo e a mineração, relata o que ouviu de mulheres krenak e pede um olhar para todos os biomas.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política do bem viver precisa também enfrentar o impacto do garimpo e da mineração.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o plano de gestão discutia o desmatamento, mas quase não tratava do garimpo e da mineração",
+     "plain": "Naquela época eu via muito pouco no plano de gestão sobre o enfrentamento do garimpo e da mineração. A PNGATI é uma política do bem viver que não discute o impacto do mal viver. Precisamos ter esse diálogo."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as mulheres krenak contam que, com a mineração, o trabalho dobra e a água fica longe",
+     "plain": "As mulheres do povo krenak me diziam que, com a mineração, tudo fica mais difícil e o trabalho dobra. Antes a água ficava pertinho. Agora dá muito mais trabalho buscar água para cozinhar e para os meninos tomarem banho."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o sistema agroflorestal precisa ser pensado para a Mata Atlântica, o Cerrado, a Caatinga, o Pampa, o Pantanal e a Amazônia",
+     "plain": "O sistema agroflorestal precisa ser pensado para realidades diferentes: Mata Atlântica, Cerrado, Caatinga, Pampa, Pantanal e também a Amazônia. Ninguém imaginou que a Amazônia precisaria ser reflorestada."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Defende que os territórios ganhem autonomia, mostra que a merenda escolar de Roraima sai das terras indígenas e pede aos deputados que mantenham o veto.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 24,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não basta proteger os territórios, é preciso dar autonomia a eles.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não basta proteger os territórios, é preciso dar autonomia a eles",
+     "plain": "No cenário de hoje, com um Congresso contra o direito dos povos indígenas, é fundamental fazer essa pressão. Não basta proteger os territórios, é preciso dar autonomia a eles."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Roraima a comida das escolas estaduais saiu dos territórios indígenas, mas o censo do Governo não conta isso",
+     "plain": "Em Roraima, um Estado muito anti-indígena, dizem que os territórios atrapalham o desenvolvimento. Mas a comida das escolas estaduais, indígenas e não indígenas, saiu dos territórios, e o censo do Governo não conta. Falta incentivo."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os deputados devem manter o veto no dia 24, senão haverá mais brigas e mortes nos territórios",
+     "plain": "Peço aos deputados que mantenham o veto no dia 24. Se não, vai haver mais briga e mais morte dentro dos nossos territórios. Resistimos há 523 anos e não vamos abrir mão do nosso direito."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Encaminha a alocação de recursos próprios no plano plurianual, o reconhecimento dos agentes ambientais indígenas e a articulação com educação e saúde.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Nenhuma política se faz sem orçamento, por isso o encaminhamento é reservar recursos no plano plurianual.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os alimentos dos territórios indígenas não são contabilizados porque quem produz em grande escala os chama de improdutivos",
+     "plain": "Quando se fala de alimento sem veneno, sabem por que a comida que vem do território indígena não é contabilizada? Porque quem produz em grande escala diz que os territórios indígenas são improdutivos."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nenhuma política se faz sem orçamento, e o encaminhamento é alocar recursos do PPA com linhas definidas",
+     "plain": "Nenhuma política se faz sem orçamento. Um dos encaminhamentos daqui é reservar recursos próprios no PPA, o plano plurianual, para a PNGATI, com linhas orçamentárias definidas e valor suficiente para implementá-la."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso reconhecer os agentes ambientais indígenas e articular a PNGATI com a educação escolar e a saúde indígena",
+     "plain": "É preciso reconhecer o papel dos agentes ambientais indígenas e regulamentá-lo. A PNGATI deve andar junto com a educação escolar indígena e a saúde indígena, com orçamento compatível com as comunidades."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede que a lei diga como aplicar a política em terras ainda não homologadas, garanta faixas de amortecimento e concorda com a aprovação do relatório.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei precisa garantir instrução mínima para aplicar a política em terras ainda não homologadas.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto precisa dizer como aplicar a PNGATI em terras ainda não homologadas ou sem processo de demarcação",
+     "plain": "Um ponto a olhar no projeto é como garantir instrução mínima para aplicar a PNGATI em terras indígenas ainda não homologadas, em fase de demarcação ou sem processo aberto. Foi uma discussão forte no seminário."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei pode garantir as faixas de amortecimento, porque sem elas o impacto sobre as terras indígenas é muito grande",
+     "plain": "A companheira do ICMBio falou das unidades de conservação e das sobreposições. Podemos garantir na lei a retomada das faixas de amortecimento, as faixas de proteção das terras indígenas, porque sem elas o impacto lá dentro é muito grande."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      18
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "concordo em aprovar o relatório na Comissão de Meio Ambiente para avançar logo na CPOVOS e na CCJ",
+     "plain": "Concordo com o encaminhamento de aprovarmos juntos o relatório na Comissão de Meio Ambiente. Precisamos avançar logo na CPOVOS e chegar à CCJ num cenário melhor, e depois articular no Plenário."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Quer no relatório a situação dos territórios não regularizados e rebate a ideia de que os povos indígenas querem agroindígena e são contra a economia.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os povos indígenas fazem bioeconomia e não aceitam o trator por cima dos seus direitos.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o relatório precisa dizer como ficam os povos cujo território não está regularizado e os que estão em área de retomada",
+     "plain": "Quero essas anotações no relatório, para melhorá-lo. Preciso entender sobretudo como ficam os povos indígenas cujo território não está totalmente regularizado e os que estão em área de retomada."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 3 mil mulheres na III Marcha e quase 7 mil indígenas no acampamento disseram que não queriam agroindígena",
+     "plain": "Neste plenário já houve audiências sobre economia agroindígena. Eu respondia que mais de 3 mil mulheres na III Marcha e quase 7 mil indígenas no acampamento diziam que não queriam isso. 100 ou 200 pessoas não falam pela maioria."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os povos indígenas não são contra a bioeconomia, são contra passar o trator por cima dos seus direitos",
+     "plain": "Não somos contra a bioeconomia, nós estamos fazendo bioeconomia. O que não queremos é o trator passando por cima dos nossos direitos. De que serve um trator se arrancam o território?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Afirma que o povo paresi luta pela demarcação de suas terras, relata sete mortes em 1 semana e pede apoio do Governo para saúde e educação.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O povo paresi luta pela demarcação do seu território e precisa do apoio do Governo na saúde e na educação.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o povo paresi luta pela demarcação do seu território, hoje a Ponte de Pedra, o Uirapuru e a Estação",
+     "plain": "A fala que colocam na nossa boca quase nunca é verdadeira. O paresi também luta muito pelo seu território e pela demarcação dele. As terras que queremos demarcadas são a Ponte de Pedra, o Uirapuru e a Estação."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o povo paresi perdeu sete pessoas em 1 semana, entre elas um ancião e crianças",
+     "plain": "Lutamos pela nossa saúde, que hoje está precária. Hoje às 14 horas temos reunião com o Secretário Weibe Tapeba para dizer que, em 1 semana, perdemos sete pessoas, entre elas um ancião e crianças."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o paresi precisa do apoio do governo na saúde e na educação, porque esse é dever do Estado, e não é autônomo",
+     "plain": "Precisamos do apoio do governo para ter educação e saúde de qualidade. Esse é dever do Estado, não é nosso. Dizem que somos autônomos, mas o paresi não é, porque somos indígenas e vivemos de outro jeito."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde ao pedido por saúde e educação, diz que isso não significa abrir mão do território e repudia a PEC 59/23, protocolada durante a audiência.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Lutar por saúde e educação não significa abrir mão do território, que sustenta a vida e a identidade.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a cobrança por saúde e educação é feita o tempo inteiro, como disse a parenta",
+     "plain": "Quando a parenta fala que queremos saúde e educação, é isso mesmo que temos cobrado o tempo inteiro. Queremos saúde e educação."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "lutar por saúde e educação não é abrir mão do território, que é o que sustenta a vida e a identidade",
+     "plain": "Estão confundindo a cabeça das pessoas para dizer que, ao lutar por educação e saúde, abrimos mão do território. Não abrimos. Abrir mão do território seria abrir mão da vida e da identidade. É o território que sustenta quem somos."
+    },
+    {
+     "id": "b021c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "foi protocolada no Senado a PEC 59/23, que passa a demarcação de terras indígenas para o Congresso Nacional",
+     "plain": "Enquanto estamos nesta audiência, soubemos que foi protocolada no Senado a PEC 59/23, assinada por vários senadores. Ela passa a demarcação de terras indígenas para o Congresso Nacional. Isso é mais uma provocação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b003",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 18,
+   "from_claim": "b003c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Ao pedido de que a política seja criada por lei, a presidência responde com o calendário: chamamento maior quando o projeto chegar à Comissão, sem demora, porque o quadro na CCJ é deste ano."
+  },
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 11,
+   "from_claim": "b004c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O Ministério dos Povos Indígenas confirma o que a APIB pediu sobre governança: o Comitê Gestor foi retomado neste ano."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 18,
+   "from_claim": "b006c3",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "O ICMBio se soma à APIB e diz que também vê como positivo o projeto que transforma a política em lei."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 14,
+   "from_claim": "b008c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O Ministério do Desenvolvimento Agrário reforça o apelo do Ministério dos Povos Indígenas para retomar os colegiados e os planos de gestão."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 4,
+   "from_claim": "b010c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "A COIAB dá o exemplo concreto do que o Ministério defendeu: nos territórios, a política já está sendo posta em prática pelos planos de gestão."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 11,
+   "from_claim": "b012c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A FUNAI confirma por dentro o que a APIB apontou: com o comitê gestor extinto, a governança da política parou de funcionar."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 14,
+   "from_claim": "b012c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Os dois órgãos do Governo descrevem o mesmo desmonte: o comitê gestor e os comitês regionais foram extintos e a governança ficou sem instância."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 3,
+   "from_claim": "b015c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "A presidência aceita a cobrança das mulheres indígenas e acrescenta uma lacuna que viu no plano: o garimpo e a mineração quase não apareciam nele."
+  },
+  {
+   "from": "b016",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 2,
+   "from_claim": "b016c2",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "A presidência falou dos produtos dos biomas que chegam à escola, e a COIAB mostra o mesmo em Roraima, onde a merenda estadual saiu das terras indígenas."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 16,
+   "from_claim": "b017c1",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "À pergunta de por que essa produção não entra na conta do Governo, a presidência responde que quem produz em grande escala chama os territórios de improdutivos."
+  },
+  {
+   "from": "b017",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 33,
+   "from_claim": "b017c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "A cobrança da APIB por recursos públicos vira encaminhamento da audiência: reservar linhas próprias no plano plurianual."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 10,
+   "from_claim": "b018c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A APIB pega a dupla proteção descrita pelo ICMBio e propõe ir além dela, garantindo em lei as faixas de amortecimento."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 4,
+   "from_claim": "b018c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "As duas falas do movimento indígena pedem a mesma coisa em lugares diferentes do texto: a política precisa alcançar as terras que ainda não foram demarcadas."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 43,
+   "from_claim": "b018c3",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A presidência perguntou à mesa se havia acordo sobre os encaminhamentos, e a APIB responde que concorda com a aprovação do relatório."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 6,
+   "from_claim": "b019c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "A presidência assume o ponto da APIB e manda registrar no relatório a situação dos povos com território ainda não regularizado."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 5,
+   "from_claim": "b020c1",
+   "to_claim": "b019c2",
+   "strength": "forte",
+   "note": "A presidência disse que colocam na boca dos paresis uma voz que não é deles, e a liderança paresi confirma: o povo também luta pela demarcação."
+  },
+  {
+   "from": "b021",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 16,
+   "from_claim": "b021c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Ao pedido paresi de apoio do Governo na saúde e na educação, a presidência responde que essa cobrança é feita o tempo inteiro pela Comissão."
+  },
+  {
+   "from": "b021",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 15,
+   "from_claim": "b021c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A COIAB contou como em Roraima se diz que os territórios atrapalham, e a presidência descreve a outra face do mesmo discurso, que opõe território a saúde e educação."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b006",
+    "b012"
+   ],
+   "claims": [
+    "b001c1",
+    "b002c2",
+    "b006c3",
+    "b012c2"
+   ],
+   "note": "A presidência, a APIB, o ICMBio e a FUNAI concordam que o decreto não basta e que a política precisa ser criada por lei."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b002",
+    "b017"
+   ],
+   "claims": [
+    "b001c2",
+    "b002c3",
+    "b017c2"
+   ],
+   "note": "A APIB e a presidência da Comissão concordam que a política é de Estado e precisa de recursos próprios no orçamento, e não só do apoio da sociedade civil e da cooperação internacional."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b008",
+    "b012",
+    "b017"
+   ],
+   "claims": [
+    "b002c1",
+    "b004c1",
+    "b004c2",
+    "b008c2",
+    "b012c1",
+    "b017c3"
+   ],
+   "note": "Movimento indígena, três órgãos do Governo e a presidência concordam que a política é de vários ministérios e que os comitês precisam voltar a funcionar."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b018"
+   ],
+   "claims": [
+    "b006c2",
+    "b018c2"
+   ],
+   "note": "O ICMBio e a APIB concordam que a sobreposição entre unidade de conservação e terra indígena protege duas vezes a mesma área e pede gestão conjunta."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b010",
+    "b014",
+    "b015",
+    "b018",
+    "b019"
+   ],
+   "claims": [
+    "b010c2",
+    "b014c2",
+    "b015c3",
+    "b018c1",
+    "b019c1"
+   ],
+   "note": "COIAB, ANMIGA, APIB e a presidência concordam que a política tem de valer em todos os biomas e também onde a terra ainda não foi demarcada."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b014",
+    "b015"
+   ],
+   "claims": [
+    "b014c1",
+    "b015c1"
+   ],
+   "note": "A ANMIGA e a presidência concordam que falta ao plano de gestão o lugar das mulheres e o enfrentamento do garimpo e da mineração."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b016",
+    "b019",
+    "b020"
+   ],
+   "claims": [
+    "b016c3",
+    "b019c3",
+    "b020c1"
+   ],
+   "note": "COIAB, povo paresi e a presidência concordam que os direitos sobre a terra estão sob ataque e que nenhum benefício substitui o território."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 15,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "como retomar os Comitês Regionais da FUNAI, extintos no governo passado",
+   "plain": "Como retomar os Comitês Regionais da FUNAI, que eram parte da governança da política e foram extintos?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b014",
+   "sentence": 16,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se o plano atende às meninas e mulheres que sofrem violência",
+   "plain": "O plano de gestão atende às meninas e às mulheres indígenas que têm sofrido violência?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b016",
+   "sentence": 24,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que os deputados mantenham o veto no dia 24",
+   "plain": "Os deputados vão manter o veto no dia 24, para evitar mais brigas e mortes nos territórios?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b017",
+   "sentence": 43,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b018",
+   "gist": "se a mesa concorda com os encaminhamentos e com a carta de pontos prioritários",
+   "plain": "Os integrantes da mesa concordam com o encaminhamento e com a carta de pontos prioritários?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b020",
+   "sentence": 19,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b021",
+   "gist": "que as autoridades e as organizações olhem para o povo paresi",
+   "plain": "As autoridades e as organizações vão olhar para o povo paresi e fortalecer essa luta?",
+   "theme": "d8",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 13,
+   "gist": "a política foi instituída pelo Decreto 7.747, de 2012",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 17,
+   "gist": "restam pouco mais de 3 anos para tirar a política do papel",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 30,
+   "gist": "mais de 290 instrumentos de gestão já foram construídos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 37,
+   "gist": "o plano integrado com metas foi construído em meados de 2015",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 7,
+   "gist": "mais de 70 sobreposições somam 7,5 milhões de hectares",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 5,
+   "gist": "o ministério atua em todos os eixos, sobretudo no eixo 5",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 28,
+   "gist": "o Plano Plurianual 2024-2027 avançou junto com o ministério",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b013",
+   "sentence": 2,
+   "gist": "o Cerrado já pode vender mais de 200 produtos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b016",
+   "sentence": 25,
+   "gist": "são 523 anos de resistência nesses territórios",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b019",
+   "sentence": 5,
+   "gist": "mais de 3 mil mulheres na III Marcha recusaram o agroindígena",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b020",
+   "sentence": 13,
+   "gist": "sete pessoas morreram em 1 semana entre os paresis",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b021",
+   "sentence": 26,
+   "gist": "a PEC 59/23 foi protocolada no Senado Federal",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria conta o pedido das lideranças indígenas por rapidez na aprovação do projeto e por orçamento, e mostra os órgãos do Governo apoiando a lei.",
+  "omitted": "Ficaram de fora a cobrança das mulheres indígenas sobre o garimpo, o apelo pela manutenção do veto e a fala do povo paresi sobre saúde e demarcação."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A PNGATI só se sustenta como lei",
+   "statement_plain": "Enquanto for só um decreto, a política pode ser engavetada de novo. Como lei, ela mantém os comitês funcionando e continua de pé na troca de governo.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b006c3",
+    "b012c2",
+    "b012c1",
+    "b004c1"
+   ],
+   "note": "A ideia junta o movimento indígena e três órgãos do Governo, e a prova que sustenta ela vem de dentro da FUNAI, que conta o que aconteceu quando o comitê foi extinto."
+  },
+  {
+   "id": "t2",
+   "title": "Sem orçamento, a política não sai do papel",
+   "statement_plain": "A política é de Estado, então o dinheiro tem de estar no orçamento público, com linhas próprias, e não depender de doação, de fundo de fora ou de emenda avulsa.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b002c3",
+    "b017c2"
+   ],
+   "note": "É uma ideia sobre de onde vem o dinheiro, não um pedido de um setor: a APIB e a presidência da Comissão dizem a mesma coisa, e a FUNAI prefere o caminho do fundo específico."
+  },
+  {
+   "id": "t3",
+   "title": "A política tem de alcançar todos os territórios",
+   "statement_plain": "A política não pode valer só onde a terra já está demarcada e só na Amazônia. Ela precisa chegar aos territórios em retomada e a todos os biomas do país.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b014c2",
+    "b015c3",
+    "b018c1",
+    "b019c1"
+   ],
+   "note": "A ideia cruza quatro organizações e a mesa, e vem primeiro de quem é da Amazônia, que pede alcance para os biomas onde não vive."
+  },
+  {
+   "id": "t4",
+   "title": "O território sustenta a vida e a identidade",
+   "statement_plain": "Nenhum benefício substitui a terra. Quando se tira o território, tira-se o alimento, a saúde e a identidade, e por isso os ataques a esse direito são o assunto de fundo.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b017c1",
+    "b019c3",
+    "b020c1",
+    "b021c2"
+   ],
+   "note": "A ideia é sustentada por uma liderança de Roraima, pela liderança paresi e pela presidência, gente que a Casa costuma colocar em lados opostos no debate sobre produção."
+  },
+  {
+   "id": "t5",
+   "title": "Os territórios precisam de autonomia",
+   "statement_plain": "O que falta não é tutela, é incentivo. Os territórios já produzem e já se organizam, e a política deve garantir a autogestão e a economia própria deles.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b016c1",
+    "b016c2"
+   ],
+   "note": "A ideia junta um diretor do Ministério dos Povos Indígenas e o vice-coordenador da COIAB, e é contestada por outra liderança indígena na mesma sala."
+  },
+  {
+   "id": "t6",
+   "title": "Saúde e educação são dever do Estado",
+   "statement_plain": "O povo paresi não é autônomo e não tem como se sustentar sozinho. O Estado tem o dever de garantir saúde e educação de qualidade, e é isso que está faltando.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "contrario"
+   },
+   "claims_chave": [
+    "b020c2",
+    "b020c3",
+    "b021c1"
+   ],
+   "note": "A ideia divide o próprio movimento indígena, porque a COIAB pede autonomia e a liderança paresi diz que o seu povo não é autônomo, e a presidência fica deste lado."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "PNGATI",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "sigla de Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas: como se cuida do território e do meio ambiente nas terras indígenas"
+  },
+  {
+   "term": "APIB",
+   "fala": "b001",
+   "sentence": 3,
+   "plain": "Articulação dos Povos Indígenas do Brasil: organização que reúne as articulações regionais dos povos indígenas do país"
+  },
+  {
+   "term": "ANMIGA",
+   "fala": "b001",
+   "sentence": 3,
+   "plain": "Articulação Nacional das Mulheres Indígenas Guerreiras da Ancestralidade: organização nacional das mulheres indígenas"
+  },
+  {
+   "term": "CCJ",
+   "fala": "b001",
+   "sentence": 6,
+   "plain": "Comissão de Constituição e Justiça da Câmara: por ela passam quase todos os projetos, para dizer se cabem na Constituição"
+  },
+  {
+   "term": "FUNAI",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "órgão federal encarregado da demarcação das terras indígenas e da política do Governo para os povos indígenas"
+  },
+  {
+   "term": "COIAB",
+   "fala": "b001",
+   "sentence": 12,
+   "plain": "Coordenação das Organizações Indígenas da Amazônia Brasileira: reúne os povos indígenas da Amazônia"
+  },
+  {
+   "term": "ICMBio",
+   "fala": "b001",
+   "sentence": 12,
+   "plain": "Instituto Chico Mendes de Conservação da Biodiversidade: instituto federal que cuida dos parques nacionais e das outras unidades de conservação"
+  },
+  {
+   "term": "PGTA",
+   "fala": "b001",
+   "sentence": 17,
+   "plain": "Plano de Gestão Territorial e Ambiental: o plano que cada povo faz para dizer como quer cuidar e usar o seu território"
+  },
+  {
+   "term": "Comitê Gestor da PNGATI",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "grupo com governo e povos indígenas que acompanha a política e decide sobre ela. Ficou extinto e foi retomado em 2023"
+  },
+  {
+   "term": "MPI",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "Ministério dos Povos Indígenas, do Governo Federal"
+  },
+  {
+   "term": "unidades de conservação",
+   "fala": "b006",
+   "sentence": 4,
+   "plain": "áreas protegidas por lei, como parques nacionais e reservas, onde o uso da natureza segue regras próprias"
+  },
+  {
+   "term": "PNUD",
+   "fala": "b012",
+   "sentence": 14,
+   "plain": "Programa das Nações Unidas para o Desenvolvimento: braço da ONU que financia e apoia projetos em vários países"
+  },
+  {
+   "term": "PPA",
+   "fala": "b012",
+   "sentence": 33,
+   "plain": "plano plurianual: a lei que define, de quatro em quatro anos, onde o Governo vai gastar e quanto"
+  },
+  {
+   "term": "faixas de amortecimento",
+   "fala": "b018",
+   "sentence": 12,
+   "plain": "faixa de terra em volta de uma área protegida, com uso limitado, para segurar o impacto que vem de fora"
+  },
+  {
+   "term": "PEC 59/23",
+   "fala": "b021",
+   "sentence": 26,
+   "plain": "proposta de emenda à Constituição apresentada no Senado que passa a demarcação de terras indígenas para o Congresso Nacional"
+  }
+ ]
+}

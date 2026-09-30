@@ -1,0 +1,4030 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 124,
+ "model": "LLM lendo o prompt hearing-124 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T20:34:04Z",
+ "prompt_sha256": "445bbdec5e81596c6e8cd8440f41126c0c5470df7fd44766161d447f295a3756",
+ "sentences_hash": "d067369d505f675c",
+ "review": {
+  "pairs_read": 60,
+  "pairs_fixed": 15
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t3: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Integração Nacional e Desenvolvimento Regional ouviu o presidente do Incra e a diretora de governança fundiária do Ministério do Desenvolvimento Agrário sobre o Decreto 11.688, de setembro de 2023, que mudou o processo de regularização de terras da União na Amazônia Legal. A autora do requerimento levou quatorze perguntas sobre a parada dos processos, a sobreposição com florestas públicas e o atendimento da superintendência em Mato Grosso.",
+ "stakes": "Estava em jogo se o decreto e os dois ofícios do Incra param a fila da regularização de quem ocupa gleba pública federal na Amazônia Legal.",
+ "central_question": "O Decreto 11.688 trava a regularização de quem ocupa terra pública na Amazônia Legal ou apenas faz cumprir o que a lei já exigia?",
+ "synopsis_plain": "Um decreto de setembro de 2023 mudou o jeito de dar título a quem ocupa terra da União na Amazônia. O Incra parou os processos por um tempo para adequar o sistema, e isso assustou quem espera o documento. Na audiência, o Incra e o ministério disseram que a fila voltou a andar e que nada mudou na lei.",
+ "stakes_plain": "Saber se o decreto e os ofícios do Incra param a fila de quem espera o título de uma terra pública na Amazônia.",
+ "central_question_plain": "O decreto trava o título de quem ocupa terra pública na Amazônia ou só faz cumprir a lei?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Decreto 11.688 e a lei",
+   "description": "Discute-se se o decreto de setembro criou regra nova para a regularização de terras ou apenas repetiu o que a Lei 11.952 já exigia.",
+   "axis": {
+    "pro": "O decreto apenas organiza o que a lei já exigia e não cria regra nova.",
+    "contra": "O decreto cria exigência que a lei não prevê e aperta quem pede o título.",
+    "pro_plain": "O decreto só organiza o que a lei já mandava fazer, sem criar exigência nova.",
+    "contra_plain": "O decreto cria uma exigência que a lei não previa e aperta quem pede o título."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Andamento dos processos",
+   "description": "Discute-se se os ofícios do Incra e o decreto pararam a fila da regularização ou se ela seguiu e já foi retomada.",
+   "axis": {
+    "pro": "A regularização não foi paralisada e os processos já voltaram a andar.",
+    "contra": "Os ofícios travaram os processos e deixaram sem resposta quem pediu o título.",
+    "pro_plain": "A fila não parou e os pedidos já voltaram a andar.",
+    "contra_plain": "Os ofícios travaram os pedidos e deixaram sem resposta quem espera o título."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Florestas públicas e floresta em pé",
+   "description": "Discute-se o que acontece com a área do ocupante quando ela se sobrepõe a floresta pública e o que conta como floresta em pé.",
+   "axis": {
+    "pro": "Área sobreposta a floresta pública fica fora do título, porque a lei proíbe vendê-la.",
+    "contra": "A exigência tira do produtor área que ele usa, sem dizer o que ele recebe em troca.",
+    "pro_plain": "Terra que é floresta pública não pode virar propriedade de ninguém, porque a lei proíbe.",
+    "contra_plain": "A regra tira do produtor a área que ele já usa, e ninguém diz o que ele ganha em troca."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Glebas em estudo da Funai",
+   "description": "Discute-se o efeito de marcar no sistema do Incra glebas que a Funai pediu para estudar, antes de se saber se são terra indígena.",
+   "axis": {
+    "pro": "Marcar a área para estudo é praxe antiga e não transforma a terra em área indígena.",
+    "contra": "A marcação trava o pequeno proprietário em área que ninguém confirmou ser indígena.",
+    "pro_plain": "Marcar a área para estudo é praxe antiga e não faz dela uma terra indígena.",
+    "contra_plain": "A marcação trava o pequeno proprietário numa área que ninguém confirmou ser indígena."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Estrutura e imparcialidade do Incra",
+   "description": "Discute-se a falta de sede do Incra em Mato Grosso e a denúncia de que o atendimento na superintendência passa por filtro partidário.",
+   "axis": {
+    "pro": "O Incra é órgão de Estado, atende todo mundo e está recompondo a estrutura que perdeu.",
+    "contra": "Na ponta falta sede e o atendimento depende de vínculo com um partido.",
+    "pro_plain": "O Incra atende todo mundo igual e está recompondo a estrutura que perdeu.",
+    "contra_plain": "Na ponta falta sede, e ser atendido depende de vínculo com um partido."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Plano fundiário para a Amazônia",
+   "description": "Discute-se o plano nacional de regularização e a parceria com os estados para dar conta da fila de terras na Amazônia Legal.",
+   "axis": {
+    "pro": "A Amazônia precisa de um plano e de órgãos estruturados que titulem sem derrubar floresta.",
+    "contra": "Um novo plano não resolve, porque o problema está na falta de vontade de titular.",
+    "pro_plain": "A Amazônia precisa de um plano e de órgãos com gente para titular sem derrubar floresta.",
+    "contra_plain": "Um plano novo não resolve nada, porque o que falta é vontade de dar o título."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência pública",
+   "org": "Câmara dos Deputados",
+   "basis": "registro Presidente na ata: o Deputado Daniel Agrobom preside a reunião a convite da autora do requerimento, agradecido em b004.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Integração Nacional e Desenvolvimento Regional da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "deputada federal, autora do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "apresentada pela presidência em b001.5 e b001.12, como participante remota",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "deputada federal pelo PL de Mato Grosso",
+   "org_plain": "Câmara dos Deputados, casa do Congresso que faz leis e fiscaliza o governo federal"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "presidente do Incra",
+   "org": "INCRA",
+   "basis": "apresentado pela presidência em b001.1 e b001.2",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "presidente do Incra",
+   "org_plain": "Autarquia federal que cuida da reforma agrária e da regularização de terras públicas"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "diretora da Secretaria de Governança Fundiária, Desenvolvimento Territorial e Socioambiental",
+   "org": "MDA",
+   "basis": "apresentada pela presidência em b001.4 e por ela mesma em b007.1",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Desenvolvimento Agrário",
+   "org_plain": "Ministério que cuida da agricultura familiar e da política de terras no país"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença agradecida pela presidência em b005.2 e pista de partido na lista de oradores",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Rio Grande do Sul",
+   "org_plain": "Câmara dos Deputados, casa do Congresso que faz leis e fiscaliza o governo federal"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada pelo presidente do Incra em b008.0 e pela presidência em b009.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo MDB do Pará",
+   "org_plain": "Câmara dos Deputados, casa do Congresso que faz leis e fiscaliza o governo federal"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.6
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.15
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "o presidente do Incra lista em b006.9 a b006.11 a equipe do Incra e do MDA presente na sala, e a deputada registra em b037.0 que só um deputado estava no plenário, sem menção a delegações nem a palmas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o Decreto 11.688 e convida o presidente do Incra e a diretora do ministério.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada cumprimenta a presidência e pergunta se o som dela está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a deputada está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada agradece e pede que o presidente do Incra fale primeiro, antes dos questionamentos dela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença do deputado Bohn Gass e concede 20 minutos ao presidente do Incra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Explica que o sobrestamento durou menos de 40 dias úteis, que as superintendências já retomaram a regularização e que o decreto não é inconstitucional.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    8,
+    9,
+    10,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de regularização não foi paralisada e os processos já voltaram a andar.",
+    "sentence": 51
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o processo é automatizado e as exigências do decreto ainda não estão no sistema, por isso houve o sobrestamento temporário",
+     "plain": "Todo o processo de regularização é automatizado, e as exigências que o decreto trouxe ainda não estão no sistema. Por isso paramos por um tempo, para não cometer nenhuma irregularidade."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "entre um ofício e outro não passaram mais de 40 dias úteis e as superintendências já voltaram a tocar os processos",
+     "plain": "Entre um ofício e outro não passaram mais de 40 dias úteis. Hoje as superintendências regionais estão orientadas a retomar a regularização e a buscar informações sobre embargos com os órgãos dos estados."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2023 o Incra emitiu 1.359 títulos em glebas públicas e cerca de 45 mil documentos ao todo",
+     "plain": "Em 2023 já emitimos 1.359 títulos em glebas públicas, cerca de 5 mil títulos definitivos em assentamentos e cerca de 40 mil contratos de concessão de uso. São quase 45 mil documentos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que o trabalho na Amazônia vem de antes, cita 170 mil imóveis georreferenciados e diz que o decreto não parou a regularização.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de regularização na Amazônia está sendo retomada e cabe junto com a proteção ambiental.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      8
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Amazônia Legal tem 170 mil imóveis medidos, cerca de 64 milhões de hectares",
+     "plain": "Na Amazônia Legal há 170 mil imóveis georreferenciados, em torno de 64 milhões de hectares. Nos governos Lula e Dilma foram investidos 461 milhões de reais nesse trabalho."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o decreto não parou a regularização fundiária e as duas políticas se completam",
+     "plain": "A ideia é ampliar a regularização com um plano nacional. O decreto não parou a regularização, mas foi preciso nos adequarmos ao momento. Uma política não é contrária à outra, elas se completam."
+    },
+    {
+     "id": "b007c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o trabalho está sendo retomado com atenção à questão ambiental, ao crédito e à assistência técnica",
+     "plain": "Este é um trabalho que está sendo retomado agora, com um olhar novo. Um olhar preocupado com a questão ambiental, com o crédito e com a assistência técnica."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra cumprimenta o deputado Henderson e devolve a palavra à presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência recebe os dois ofícios do Incra e passa a palavra à autora do requerimento, por até 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Diz que o ofício do Incra causou transtorno e temor, e critica a ideia de que o órgão só voltou a trabalhar no governo Lula.",
+   "quote": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O ofício do Incra travou os processos e assustou quem espera o título.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o ofício citado pelo Incra causou transtorno para todos e deixou as pessoas temerosas",
+     "plain": "Nós temos vários questionamentos sobre a função da Funai nas glebas. E esse ofício de que se falou tem causado transtorno para todos, e ficamos temerosos."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Incra não pode ser uma instituição que serve só a governos e não à população",
+     "plain": "Dizem que, depois de Lula e Dilma, o Incra agora voltou a trabalhar. Quer dizer que ele não trabalhou nesses últimos 4 anos? É uma instituição que serve só a governos, e não à população."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que a diretora do ministério se chama Shirley Abreu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pede para fazer as perguntas uma a uma e solicita que se some o tempo de liderança do partido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda com o formato pedido pela deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se o Incra participou da elaboração do Decreto 11.688, de 2023.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se o Incra participou da elaboração do decreto.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "está em questão se o Incra participou da elaboração do Decreto 11.688, de 2023",
+     "plain": "O Incra participou da elaboração do Decreto 11.688, de 2023?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Confirma que o Incra participou da elaboração do decreto.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Incra participou da elaboração do decreto.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Incra participou da elaboração do decreto",
+     "plain": "Sim, o Incra participou da elaboração do decreto."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se há consenso na equipe do Incra sobre aplicar o decreto diante do que prevê a Lei 11.952, de 2009.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se a própria equipe do Incra concorda sobre aplicar o decreto.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "está em questão se a equipe do Incra concorda que o decreto cabe dentro da Lei 11.952, de 2009",
+     "plain": "Existe consenso na equipe do Incra sobre aplicar o que o decreto diz, diante do que prevê a Lei 11.952, de 2009?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o consenso ainda está sendo construído, mas que já existe acordo sobre o decreto organizar a câmara técnica.",
+   "quote": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O consenso sobre as implicações do decreto ainda está em construção.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o consenso sobre as implicações do decreto ainda está sendo construído entre os órgãos",
+     "plain": "Esse consenso está sendo construído. Estamos debatendo o que o decreto muda nas atribuições de cada órgão que trabalha na câmara técnica, o grupo que reúne quem cuida de terras."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta se a regra do decreto que barra a regularização em sobreposição a floresta pública cabe na Lei 11.952, de 2009.",
+   "quote": [
+    0
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A regra do decreto sobre floresta pública pode não caber no que a lei permite.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "está em questão se a regra que impede regularizar ocupação sobreposta a floresta pública cabe na Lei 11.952, de 2009",
+     "plain": "A regra nova do decreto impede regularizar quem ocupa gleba pública federal em sobreposição a floresta pública do tipo B. Isso está de acordo com a Lei 11.952, de 2009?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado levanta questão de ordem e sugere que a deputada faça toda a fala de uma vez.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b020",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada recusa a sugestão do colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b021",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado insiste que a regra é fazer toda a fala antes das respostas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada responde que o tempo é dela e reclama da interrupção.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b023",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado responde que a questão de ordem não atrapalha a colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b024",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada explica que tem dez perguntas e prefere fazê-las uma a uma.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b025",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que dirige a questão de ordem à presidência, por direito regimental.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pede que parem de contar o tempo dela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b027",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que se mantenha a prática de ouvir todas as perguntas antes das respostas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência decide que a deputada pode seguir fazendo as perguntas uma a uma.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b029",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se o convidado é tratado como depoente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência esclarece que o presidente do Incra está ali como convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b031",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado sugere que a presidência pergunte ao convidado como ele prefere responder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda com a sugestão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b033",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pede a palavra à presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra à deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b035",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada teme ficar sem resposta a alguns pontos se fizer as dez perguntas de uma vez só.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b036",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que a deputada tem direito a réplica.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b037",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada argumenta que perguntar uma a uma ajuda quem acompanha a audiência a entender o tema.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza a deputada a continuar como começou, já que o convidado concordou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b039",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra avisa que vai consultar a equipe presente se não souber alguma resposta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b040",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada concorda que o debate seja feito ponto a ponto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência devolve a palavra à deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b042",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra para fazer uma sugestão à colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado sugere perguntas em blocos de três e avisa que tem outra agenda na Casa às 11h30min.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que o prazo da deputada é o mesmo em qualquer formato e devolve a ela a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b046",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada diz que só quatro perguntas são mais complexas e retoma a terceira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b047",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra confirma que tem a pergunta anotada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b048",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pede que lhe devolvam os minutos consumidos pela questão de ordem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda em devolver o tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b050",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra começa a responder e é interrompido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b051",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada insiste na devolução dos minutos perdidos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b052",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra concorda em esperar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que a deputada terá mais 6 minutos como vice-líder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b054",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pede também os 2 minutos perdidos com a interrupção.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b055",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência manda devolver o tempo perdido nos 10 minutos da deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b056",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado contesta a conta e diz que a interrupção durou 30 segundos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b057",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra registra de novo o desejo de manter o melhor diálogo possível.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b058",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b059",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o decreto não traz inovação em relação à lei.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto não inova em relação à Lei 11.952.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b059c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto não traz inovação em relação à lei",
+     "plain": "Sobre a sua terceira questão, o decreto não traz nada de novo em relação à lei. Para mim, esse é o ponto."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b060",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta quantas ocupações ficam sem regularização pela sobreposição com floresta pública e quantas famílias serão atingidas.",
+   "quote": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 0,
+   "stance": {
+    "position": "contrario",
+    "claim": "Ninguém sabe quantas famílias perdem a regularização por causa da floresta pública.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b060c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "está em questão quantas ocupações em glebas públicas federais ficam sem regularização pela sobreposição com floresta pública",
+     "plain": "O Incra tem levantamento de quantas ocupações em glebas públicas federais vão ficar sem regularização por causa da sobreposição com floresta pública? Se tem, quantas famílias serão atingidas?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b061",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Informa que não tem ali o levantamento das ocupações atingidas e oferece providenciá-lo para a deputada.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O Incra não trouxe à audiência o levantamento pedido.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b061c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o Incra não tem ali o levantamento pedido e pode providenciá-lo",
+     "plain": "Eu não tenho esse levantamento aqui. Posso providenciar para a senhora, se for importante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b062",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada diz que o dado é importante e agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b063",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Informa que dos 600 requerimentos em análise em Brasília 200 já serão assinados e 400 passarão pela checagem do decreto.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O efeito dos ofícios se concentra nos requerimentos em análise em Brasília.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b063c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dos 600 requerimentos em análise em Brasília, 200 vão para assinatura e 400 passam pela checagem dos três itens",
+     "plain": "O que eu trouxe foi o efeito sobre os 600 requerimentos que estão para análise aqui em Brasília. Desses, 200 nós já vamos assinar. Nos outros 400, vamos checar os três itens do decreto."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b064",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o decreto não mudou a legislação e que todas as famílias que cumprirem a lei serão regularizadas.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto não mudou a legislação da regularização fundiária.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b064c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não houve mudança na legislação com o decreto e quem cumprir a lei será regularizado",
+     "plain": "Não houve nenhuma mudança na legislação com o decreto. Todas as famílias que cumprirem a lei da regularização fundiária serão regularizadas."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b065",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta se o Decreto 11.688 trava a regularização de quem ocupa gleba pública federal.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O decreto pode estar travando a regularização de quem ocupa gleba pública federal.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b065c1",
+     "sentences": [
+      2
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "está em questão se o Decreto 11.688 trava a regularização de quem ocupa gleba pública federal",
+     "plain": "Minha quinta pergunta: o novo Decreto 11.688 trava a regularização fundiária de quem ocupa gleba pública federal?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b066",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que o decreto não trava a regularização e que os pontos dele foram tratados nos dois ofícios.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    3
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto não trava a regularização fundiária.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b066c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto não trava a regularização, apenas traz questões que os dois ofícios orientaram",
+     "plain": "Não, ele não trava. Traz algumas questões, e sobre elas demos orientação nos dois ofícios que entreguei aqui. Estamos trabalhando nisso, mas não trava."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b067",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta quantos títulos foram emitidos em glebas públicas federais nos anos de 2022 e 2023.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber quantos títulos o Incra emitiu em glebas públicas nos dois últimos anos.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b067c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "está em questão quantos títulos foram emitidos em glebas públicas federais em 2022 e em 2023",
+     "plain": "Quantos títulos em glebas públicas federais o Incra emitiu em 2022 e agora em 2023? O senhor sabe dizer o número?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b068",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra procura a planilha e confirma o recorte da pergunta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b069",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada confirma que a pergunta é sobre glebas, como trata o texto do decreto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b070",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Informa que foram 1.359 requerimentos regularizados em glebas públicas e que o governo anterior regularizou 37.779 glebas, não 402 mil.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os números de glebas públicas do governo anterior são menores do que se divulga.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b070c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "foram 1.359 requerimentos de regularização atendidos em glebas públicas",
+     "plain": "Em glebas públicas, nós regularizamos 1.359 requerimentos."
+    },
+    {
+     "id": "b070c2",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo anterior regularizou 37.779 glebas, e das 402 mil citadas 320 mil são contratos de concessão de uso",
+     "plain": "Sou servidor do Incra há 22 anos. Nos 4 anos do governo anterior foram regularizadas 37.779 glebas. Falaram em 402 mil, mas 320 mil são contratos de concessão de uso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b071",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra que o Incra defina o que é floresta em pé e diga se o proprietário perde área, é compensado ou recebe algum benefício.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A definição de floresta em pé precisa ser esclarecida, porque dela depende o título do produtor.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b071c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "está em questão como o Incra vai definir floresta em pé na regularização",
+     "plain": "Eu queria que o senhor deixasse claro o que é essa regularização que busca proteger o meio ambiente e trata de floresta em pé. Como vai ser definida essa floresta em pé?"
+    },
+    {
+     "id": "b071c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "dizem que até uma mangueira plantada na propriedade conta como floresta em pé e deixa de pertencer ao dono",
+     "plain": "Falaram que, se o proprietário tiver uma mangueira plantada na propriedade dele, isso já conta como floresta em pé e deixa de ser dele."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b072",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o decreto não altera a lei, lembra que floresta pública vem de uma lei de 2006 e diz que a regularização segue como antes.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto não mudou a lei e a regularização segue como já era feita.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b072c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto não faz alteração nenhuma na lei, apenas cumpre as outras leis e a Constituição",
+     "plain": "Quero deixar bem claro que o nosso decreto não muda a lei. Estamos apenas cumprindo o que já está nas outras leis e na Constituição."
+    },
+    {
+     "id": "b072c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "floresta pública vem de uma lei de 2006 e não é invenção do decreto",
+     "plain": "Floresta pública é uma lei de 2006, não é invenção nossa do decreto. Vamos continuar fazendo a regularização fundiária como já fazíamos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b073",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada interrompe para perguntar sobre floresta pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b074",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que só tem números até 2018 porque o Terra Legal, programa de regularização na Amazônia Legal, foi extinto naquele ano.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Os números de regularização na Amazônia Legal param em 2018, quando o programa acabou.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b074c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o Terra Legal, que cuidava da regularização na Amazônia Legal, foi extinto em 2018",
+     "plain": "O Terra Legal, o programa que cuidava da regularização fundiária na Amazônia Legal, foi extinto em 2018. Por isso eu só tenho números dos governos anteriores."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b075",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pergunta se a diretora é servidora efetiva ou ocupa cargo de confiança.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b076",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A diretora responde que ocupa cargo de confiança e estuda regularização fundiária há mais de 20 anos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b077",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Insiste que a pergunta não foi respondida e quer saber se o produtor perde o título da área em uso sem ser indenizado.",
+   "quote": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O produtor pode perder área em uso por causa da regra de floresta em pé, sem indenização.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b077c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "está se tratando como floresta em pé toda árvore dentro da propriedade, e o produtor pode perder a área em uso sem indenização",
+     "plain": "As perguntas vêm porque qualquer árvore dentro da propriedade está sendo tratada como floresta em pé. Que segurança o proprietário tem? Ele perde o título de uma área que usava, sem indenização?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b078",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Garante que o proprietário será regularizado e cita o projeto Florestas Produtivas, para produzir com a floresta em pé.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regra de floresta em pé não impede a regularização do ocupante.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b078c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o proprietário vai ser regularizado, porque não houve mudança na legislação",
+     "plain": "Não, deputada, muito pelo contrário. Ele vai ser regularizado, sim. Não há nenhuma mudança na legislação."
+    },
+    {
+     "id": "b078c2",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto Florestas Produtivas quer mostrar que a floresta em pé pode ser sustentável e ajudar os agricultores",
+     "plain": "O ministro Paulo Teixeira está lançando o projeto Florestas Produtivas, para reforçar que na Amazônia a floresta em pé pode ser sustentável e ajudar os agricultores familiares, médios e grandes a produzir."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b079",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Incra pede para complementar a resposta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b080",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta o que é floresta em pé para o pequeno produtor.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Falta dizer ao pequeno produtor o que conta como floresta em pé.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b080c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "está em questão o que é floresta em pé para o pequeno produtor",
+     "plain": "O que é floresta em pé para o pequeno produtor?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b081",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que o artigo 4º da Lei 11.952 lista o que não pode ser vendido e que essas regras serão respeitadas como sempre foram.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lista do que não pode ser titulado já está no artigo 4º da Lei 11.952.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b081c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o artigo 4º da Lei 11.952 diz o que não pode ser vendido, e aí estão as florestas públicas",
+     "plain": "Vai ser usado o artigo 4º da Lei 11.952. Lá está escrito o que não pode ser vendido: terras da administração militar, terras ocupadas por população indígena, as florestas públicas e terras de quilombos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b082",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta ofício sobre glebas reivindicadas pela Funai que, sem confirmação de serem áreas indígenas, impede pequenos proprietários de comercializar a produção.",
+   "quote": [
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As glebas marcadas a pedido da Funai travam o pequeno proprietário antes de qualquer confirmação.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b082c1",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há glebas marcadas no Sigef a pedido da Funai sem confirmação de que são áreas indígenas, e isso impede o pequeno proprietário de vender",
+     "plain": "São áreas ainda reivindicadas pela Funai, que nem foram confirmadas como indígenas. Já há uma relação de glebas identificadas no Sigef, o sistema de terras, e isso impede o pequeno proprietário de vender o que produz."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b083",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Explica que as áreas foram enviadas à Funai apenas para estudos, dentro de uma prática antiga da câmara técnica de destinação.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As glebas foram enviadas para estudo e não estão destinadas a áreas indígenas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b083c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as áreas foram apresentadas à Funai para estudos e não estão destinadas em definitivo a áreas indígenas",
+     "plain": "Essas áreas foram apresentadas à Funai para estudos, deputada. Elas não estão destinadas em definitivo a áreas indígenas. São áreas para estudo."
+    },
+    {
+     "id": "b083c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "colocar áreas em estudo e consulta na câmara técnica de destinação é prática antiga",
+     "plain": "Elas foram encaminhadas à câmara técnica de destinação para ficarem no Sigef, em estudo e consulta de outros órgãos federais. Essa prática não é nova, acontece desde que a câmara foi criada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b084",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a deputada entrou no tempo de liderança e pede que ela conclua.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b085",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada diz que ainda tem 4 minutos e que faltam duas perguntas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b086",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que, no tempo de liderança, as respostas virão só no final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b087",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada insiste na importância do tema do sistema de terras, que atinge áreas no estado dela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b088",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que a deputada conclua dentro do tempo dela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b089",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta se foi a diretora do ministério quem encaminhou as glebas para ficarem registradas no sistema de terras.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Falta saber quem mandou marcar essas glebas no sistema.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b089c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "está em questão quem encaminhou as glebas para serem colocadas no Sigef",
+     "plain": "Sobre essa questão do Sigef, foi a senhora que encaminhou essas áreas para serem colocadas lá?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b090",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência repete que as respostas virão ao final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b091",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada diz que ainda está no tempo dela e que faltam duas perguntas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b092",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência libera as perguntas, com resposta ao final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b093",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Denuncia que a superintendência do Incra em Mato Grosso não tem sede e condiciona o atendimento a filiação partidária, e cobra que o órgão não seja partidário.",
+   "quote": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Incra em Mato Grosso não atende a população de forma igual e não tem sede.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b093c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Incra em Mato Grosso não tem sede e o superintendente atende no gabinete de um deputado estadual do PT",
+     "plain": "Onde está o Incra em Mato Grosso, que até hoje não tem sede? O atendimento é feito no gabinete de um deputado estadual do PT, e quem quiser falar com o superintendente tem de pedir bênção a esse deputado."
+    },
+    {
+     "id": "b093c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há informação de que o superintendente do Incra exige filiação ao PT para atender quem vive nas glebas",
+     "plain": "Faço aqui uma denúncia. Disseram-me que o superintendente do Incra só atende quem vive nas glebas se a pessoa for filiada ao PT. Eu gostaria que o senhor apurasse esses fatos."
+    },
+    {
+     "id": "b093c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Incra precisa atender todo mundo, sem olhar partido, porque existe para atender os pequenos produtores",
+     "plain": "O Incra precisa ser um órgão de governo, que atenda todas as pessoas, seja qual for o partido delas. Ele existe para atender os pequenos produtores."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b094",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a licitação da nova sede em Mato Grosso está em fase final, lembra que o Incra foi sucateado e diz que vai verificar a denúncia.",
+   "quote": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A falta de sede em Mato Grosso vem de antes e está sendo resolvida por licitação.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b094c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Incra abriu processo para licitar o aluguel da sede em Mato Grosso, pelo rito da Lei de Licitações",
+     "plain": "Abrimos processo para licitar o aluguel de uma sede do Incra em Mato Grosso. Ele cumpre todo o rito da Lei de Licitações. O dono apresenta o imóvel, que é avaliado antes de alugarmos."
+    },
+    {
+     "id": "b094c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Incra em Mato Grosso não tem sede e foi sucateado nos últimos anos, e isso não começou neste ano",
+     "plain": "Em Mato Grosso o Incra realmente não tem sede, e nos últimos anos o órgão foi sucateado. Mas isso não é um problema que começou de janeiro para cá."
+    },
+    {
+     "id": "b094c3",
+     "sentences": [
+      24
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "vai verificar a denúncia de vínculo entre o superintendente e um deputado estadual de Mato Grosso",
+     "plain": "Quanto à acusação de que o meu superintendente esteja ligado a um deputado estadual em Mato Grosso, eu vou apurar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b095",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 3 minutos ao deputado Bohn Gass.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b096",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede o tempo de liderança e avisa que usará os 3 minutos enquanto aguarda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b097",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que, segundo a secretaria, o deputado não é vice-líder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b098",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que a formalização está sendo providenciada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b099",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a consulta está sendo feita.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b100",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que só falará como líder depois da autorização formal e usa os 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b101",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b102",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que o Incra foi sucateado no governo passado, a ponto de não deixar sede em Mato Grosso, e diz que o caso é de investigação.",
+   "quote": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O esvaziamento do Incra no governo anterior precisa ser investigado.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b102c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nem sede deixaram, houve um sucateamento total do Incra e o caso é de investigação",
+     "plain": "Nem sede deixaram. O Incra sofreu um sucateamento total. Esse é um caso para investigar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b103",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Concorda que o abandono do Incra precisa ser investigado.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O abandono do Incra precisa mesmo ser investigado.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b103c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o caso tem mesmo que ser investigado",
+     "plain": "Isso tem que ser investigado mesmo, deputado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b104",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que está com a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b105",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede à deputada que aguarde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b106",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada intervém para dizer que a obra foi mal feita e que houve gasto de dinheiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b107",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que o debate é sobre a Lei 11.952, parabeniza o decreto e sustenta que o embargo ambiental do estado tem de entrar na análise.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto apenas faz cumprir a lei ao incluir o embargo estadual na análise.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b107c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei 11.952 estabelece que as florestas públicas têm de ser conservadas",
+     "plain": "Não estamos falando do Decreto 11.688. Estamos avaliando a Lei 11.952, que diz com clareza que as florestas públicas têm de ser conservadas."
+    },
+    {
+     "id": "b107c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a regularização fundiária tem de ir para quem está dentro da lei, e não para quem está fora dela",
+     "plain": "A regularização fundiária tem de ser dada a quem está dentro da lei, não a quem está fora dela. Quero parabenizar o governo pelo decreto que fez."
+    },
+    {
+     "id": "b107c3",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto manda avaliar também o embargo do estado, que antes não era olhado na titulação",
+     "plain": "O decreto diz que, se um estado tem embargo sobre uma área, isso tem de ser avaliado. Antes, para titular, só se olhava o embargo federal. Se o órgão ambiental do estado embargou, isso tem de ser visto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b108",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 3 minutos ao deputado Henderson Pinto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b109",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Lembra a ocupação incentivada da Amazônia, aponta a falta de estrutura dos órgãos e propõe uma força-tarefa que titule terras produtivas e preserve a floresta.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Amazônia precisa de um plano de regularização e de órgãos estruturados.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b109c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 40 ou 50 anos o governo federal incentivou produtores de todo o país a ocupar a Amazônia",
+     "plain": "Há 40 ou 50 anos houve uma decisão federal de ocupar a Amazônia. Produtores de vários lugares do país foram incentivados a ir para a região, com o lema de integrar para não entregar, para proteger o território."
+    },
+    {
+     "id": "b109c2",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há terra para o indígena, o quilombola e os produtores, e falta um plano de regularização junto com o da reforma agrária",
+     "plain": "Nós temos terra para todo mundo: para o indígena, para o quilombola, para o pequeno, o médio e o grande produtor e para o minerador. Falta fazer um plano de regularização junto com o plano da reforma agrária."
+    },
+    {
+     "id": "b109c3",
+     "sentences": [
+      29
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o Brasil tem de preservar a floresta e, ao mesmo tempo, garantir o título das terras produtivas da Amazônia",
+     "plain": "Estamos às vésperas de uma COP 30. Temos de dar o exemplo para o mundo e preservar a floresta, mas mantendo a garantia de título das terras produtivas da Amazônia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b110",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 6 minutos ao deputado Bohn Gass como vice-líder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b111",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se haverá mais questões ou se a reunião caminha para o encerramento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b112",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que a reunião caminha para o encerramento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b113",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o decreto fechou a lacuna do embargo estadual, explica que a checagem manual atrasou os processos e cobra os dados de titulação do governo anterior.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto fechou uma lacuna da lei ao incluir o embargo ambiental do estado.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b113c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto adequou a lei, que tinha a lacuna de não olhar os embargos ambientais dos estados na titulação",
+     "plain": "O decreto veio para ajustar a lei, que a meu ver tinha uma lacuna grande. Queríamos titular, mas ninguém olhava se o estado tinha embargo ambiental. Agora isso entrou na análise."
+    },
+    {
+     "id": "b113c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a checagem não estava no sistema e teve de ser feita à mão, e por isso o processo atrasou",
+     "plain": "Isso não andou de forma mais ágil por causa do sistema, e esse é um problema. Se o sistema nacional conversasse com a realidade dos estados, daria para agilizar. Como não estava no sistema, foi feito à mão e atrasou."
+    },
+    {
+     "id": "b113c3",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "das 420 mil regularizações citadas, 320 mil seriam contratos de cessão de uso e só 37 mil seriam titulações",
+     "plain": "O senhor traz aqui que, das 420 mil regularizações, 320 mil teriam sido contratos de cessão de uso. Contrato de cessão de uso não é titulação. As titulações efetivas foram só 37 mil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b114",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente do Incra para responder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b115",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que o Incra é órgão de Estado e atende todos, propõe diálogo entre as assessorias e abre os números de regularização do governo anterior.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Incra é órgão de Estado e deve atender todos da mesma forma.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b115c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Incra é órgão de Estado, não se vincula a partido nem a parlamentar e tem de atender todos igualmente",
+     "plain": "O Incra é órgão de Estado. Ele não pode ficar preso a um partido ou a um parlamentar. Temos de atender todo mundo do mesmo jeito, os pequenos e os grandes."
+    },
+    {
+     "id": "b115c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "as demandas que chegarem ao gabinete da deputada podem ser repassadas ao Incra, que orientará a superintendência",
+     "plain": "Se a assessoria da senhora falar com a nossa e nos passar as demandas que chegarem ao seu gabinete, nós vamos orientar a superintendência regional. Se ainda não houver espaço na sede, veremos uma sala improvisada."
+    },
+    {
+     "id": "b115c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "das 402 mil regularizações, 37.779 foram em glebas públicas e 43.762 em assentamentos, e o resto são títulos precários",
+     "plain": "Foram 402 mil regularizações, sendo 37.779 fora de assentamentos, ou seja, em glebas públicas, e 43.762 em assentamentos. O restante são títulos precários, contratos de concessão de uso que não vão a cartório."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b116",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 3 minutos ao presidente do Incra para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b117",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Compromete-se a responder por escrito, uma a uma, as 14 perguntas da deputada e a voltar à comissão se restar dúvida.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "As perguntas da deputada serão respondidas por escrito, uma a uma.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b117c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "as 14 perguntas da deputada serão respondidas por escrito, uma a uma",
+     "plain": "A presidência da mesa me passou as 14 perguntas da senhora. Vamos fazer a resposta por escrito, uma a uma, e entregar aqui."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b118",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao presidente do Incra e concede mais 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b119",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada agradece à presidência, ao deputado Henderson e ao presidente do Incra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b120",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 3 minutos à diretora do ministério para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b121",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Anuncia que o sistema usado pelo Pará será a base do plano nacional e que os mutirões de regularização voltam aos estados da Amazônia Legal.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O plano nacional de regularização será feito em parceria com os estados.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b121c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o sistema de regularização que o Pará usa vai ser a base para todos os estados, por acordo com o governo paraense",
+     "plain": "O sistema de regularização fundiária que o Pará usa hoje vai ser a base para todos os estados. Já assinamos um acordo de cooperação com o governo do Pará para adaptar esse sistema."
+    },
+    {
+     "id": "b121c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a regularização não se faz sozinho e os mutirões vão voltar nos estados da Amazônia Legal",
+     "plain": "O nosso governo está retomando a parceria com os estados, porque não fazemos a regularização sozinhos. Vamos retomar os mutirões de regularização nos estados da Amazônia Legal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b122",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Incra, ao ministério e aos deputados e declara encerrada a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b015c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "O presidente do Incra confirma à deputada que o órgão participou da elaboração do decreto."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 0,
+   "from_claim": "b017c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "A pergunta era se a equipe já concorda sobre aplicar o decreto, e a resposta é que esse consenso ainda está sendo construído."
+  },
+  {
+   "from": "b059",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b059c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "A deputada perguntou se a regra sobre floresta pública cabe na Lei 11.952, e o presidente do Incra responde que o decreto não inova em relação à lei."
+  },
+  {
+   "from": "b061",
+   "to": "b060",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b061c1",
+   "to_claim": "b060c1",
+   "strength": "media",
+   "note": "O Incra não tem na audiência o levantamento das ocupações atingidas que a deputada pediu."
+  },
+  {
+   "from": "b063",
+   "to": "b060",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b063c1",
+   "to_claim": "b060c1",
+   "strength": "media",
+   "note": "Sem o levantamento pedido, o presidente do Incra dá o número que trouxe, o dos 600 requerimentos em análise em Brasília."
+  },
+  {
+   "from": "b064",
+   "to": "b063",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 0,
+   "from_claim": "b064c1",
+   "to_claim": "b063c1",
+   "strength": "media",
+   "note": "A diretora do ministério completa a conta do presidente do Incra, dizendo que os requerimentos em checagem não deixam de ser regularizados."
+  },
+  {
+   "from": "b066",
+   "to": "b065",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b066c1",
+   "to_claim": "b065c1",
+   "strength": "forte",
+   "note": "A deputada perguntou se o decreto trava a regularização, e a resposta do Incra é que não trava."
+  },
+  {
+   "from": "b070",
+   "to": "b067",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b070c1",
+   "to_claim": "b067c1",
+   "strength": "forte",
+   "note": "O número que a deputada pediu é dado na hora: 1.359 requerimentos regularizados em glebas públicas."
+  },
+  {
+   "from": "b070",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 2,
+   "from_claim": "b070c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A deputada ironizou que o Incra só teria voltado a trabalhar com Lula, e o presidente do órgão responde com os números do governo anterior."
+  },
+  {
+   "from": "b072",
+   "to": "b071",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b072c1",
+   "to_claim": "b071c1",
+   "strength": "forte",
+   "note": "A deputada pediu que se explicasse a regra de floresta em pé, e a diretora responde que o decreto não mexeu em lei nenhuma."
+  },
+  {
+   "from": "b072",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 0,
+   "from_claim": "b072c2",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "À dúvida sobre a regra de floresta pública, a diretora lembra que floresta pública vem de uma lei de 2006, anterior ao decreto."
+  },
+  {
+   "from": "b074",
+   "to": "b070",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b074c1",
+   "to_claim": "b070c2",
+   "strength": "media",
+   "note": "A diretora explica por que os números do governo anterior param em 2018, quando o programa da Amazônia Legal foi extinto."
+  },
+  {
+   "from": "b078",
+   "to": "b077",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b078c1",
+   "to_claim": "b077c1",
+   "strength": "forte",
+   "note": "A deputada perguntou se o produtor perde a área em uso sem indenização, e a diretora garante que ele será regularizado."
+  },
+  {
+   "from": "b081",
+   "to": "b080",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 0,
+   "from_claim": "b081c1",
+   "to_claim": "b080c1",
+   "strength": "forte",
+   "note": "À pergunta sobre o que é floresta em pé para o pequeno produtor, o Incra responde apontando a lista do artigo 4º da lei."
+  },
+  {
+   "from": "b083",
+   "to": "b082",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 6,
+   "from_claim": "b083c1",
+   "to_claim": "b082c1",
+   "strength": "forte",
+   "note": "A deputada disse que as glebas marcadas travam o pequeno proprietário, e a diretora responde que elas foram enviadas à Funai apenas para estudo."
+  },
+  {
+   "from": "b083",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 0,
+   "from_claim": "b083c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "A deputada abriu dizendo que tinha questionamentos sobre a Funai nas glebas, e a diretora responde que essas áreas foram enviadas para estudo."
+  },
+  {
+   "from": "b094",
+   "to": "b093",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 1,
+   "from_claim": "b094c1",
+   "to_claim": "b093c1",
+   "strength": "forte",
+   "note": "À cobrança pela falta de sede em Mato Grosso, o presidente do Incra responde que há licitação em andamento para alugar o imóvel."
+  },
+  {
+   "from": "b102",
+   "to": "b093",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 1,
+   "from_claim": "b102c1",
+   "to_claim": "b093c1",
+   "strength": "forte",
+   "note": "O deputado do PT toma a falta de sede em Mato Grosso, denunciada pela deputada do PL, como prova do esvaziamento do Incra."
+  },
+  {
+   "from": "b102",
+   "to": "b094",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 6,
+   "from_claim": "b102c1",
+   "to_claim": "b094c2",
+   "strength": "forte",
+   "note": "O deputado endossa a explicação do presidente do Incra de que o órgão foi sucateado nos últimos anos."
+  },
+  {
+   "from": "b103",
+   "to": "b102",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 6,
+   "from_claim": "b103c1",
+   "to_claim": "b102c1",
+   "strength": "media",
+   "note": "A deputada do PL concorda com o deputado do PT que o abandono do Incra precisa ser investigado."
+  },
+  {
+   "from": "b107",
+   "to": "b018",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 0,
+   "from_claim": "b107c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "A deputada questionou a regra sobre florestas públicas, e o deputado responde que conservá-las é o que a própria Lei 11.952 determina."
+  },
+  {
+   "from": "b107",
+   "to": "b071",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 7,
+   "from_claim": "b107c2",
+   "to_claim": "b071c2",
+   "strength": "media",
+   "note": "Enquanto a deputada teme que uma árvore na propriedade vire floresta em pé, o deputado sustenta que o título só pode ir para quem está dentro da lei."
+  },
+  {
+   "from": "b107",
+   "to": "b059",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 0,
+   "from_claim": "b107c3",
+   "to_claim": "b059c1",
+   "strength": "forte",
+   "note": "O deputado reforça a resposta do Incra de que o decreto não muda a lei, e detalha o que ele manda olhar, o embargo do estado."
+  },
+  {
+   "from": "b113",
+   "to": "b064",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b113c1",
+   "to_claim": "b064c1",
+   "strength": "forte",
+   "note": "O deputado apoia a diretora do ministério: o decreto não muda a lei, apenas fecha a lacuna do embargo ambiental do estado."
+  },
+  {
+   "from": "b113",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 37,
+   "from_claim": "b113c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "O deputado confirma o que o Incra explicou: como o sistema ainda não fazia a checagem nova, ela foi feita à mão e o processo atrasou."
+  },
+  {
+   "from": "b113",
+   "to": "b070",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 3,
+   "from_claim": "b113c3",
+   "to_claim": "b070c2",
+   "strength": "forte",
+   "note": "O deputado retoma os números do presidente do Incra e conclui que boa parte das regularizações do governo anterior era contrato de cessão de uso."
+  },
+  {
+   "from": "b109",
+   "to": "b078",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 4,
+   "from_claim": "b109c3",
+   "to_claim": "b078c2",
+   "strength": "forte",
+   "note": "O deputado do Pará e a diretora do ministério chegam ao mesmo ponto: dá para preservar a floresta e garantir o título das terras produtivas."
+  },
+  {
+   "from": "b115",
+   "to": "b093",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 17,
+   "from_claim": "b115c1",
+   "to_claim": "b093c3",
+   "strength": "forte",
+   "note": "O presidente do Incra concorda com a deputada que o órgão é de Estado e tem de atender todos igualmente, sem vínculo com partido."
+  },
+  {
+   "from": "b115",
+   "to": "b113",
+   "kind": "responde",
+   "from_sentence": 13,
+   "to_sentence": 33,
+   "from_claim": "b115c3",
+   "to_claim": "b113c3",
+   "strength": "forte",
+   "note": "O deputado pediu os dados de titulação, e o presidente do Incra abre as três parcelas das 402 mil regularizações."
+  },
+  {
+   "from": "b117",
+   "to": "b093",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 27,
+   "from_claim": "b117c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "A deputada cobrou resposta formal às perguntas dela, e o presidente do Incra assume o compromisso de respondê-las por escrito."
+  },
+  {
+   "from": "b121",
+   "to": "b109",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 26,
+   "from_claim": "b121c1",
+   "to_claim": "b109c2",
+   "strength": "forte",
+   "note": "O deputado pediu um plano de regularização para a Amazônia, e a diretora anuncia que o sistema do Pará será a base do plano nacional."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b059",
+    "b064",
+    "b072",
+    "b107",
+    "b113"
+   ],
+   "claims": [
+    "b059c1",
+    "b064c1",
+    "b072c1",
+    "b107c3",
+    "b113c1"
+   ],
+   "note": "O Incra, o ministério e dois deputados concordam que o decreto não mudou a lei e só organiza o que ela já exigia."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b072",
+    "b078",
+    "b081",
+    "b107"
+   ],
+   "claims": [
+    "b072c2",
+    "b078c1",
+    "b078c2",
+    "b081c1",
+    "b107c1",
+    "b107c2"
+   ],
+   "note": "O Incra, o ministério e um deputado concordam que as florestas públicas ficam fora da titulação por força da lei, e que isso não impede regularizar quem está dentro dela."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b094",
+    "b102",
+    "b103",
+    "b115"
+   ],
+   "claims": [
+    "b094c1",
+    "b094c2",
+    "b102c1",
+    "b103c1",
+    "b115c1"
+   ],
+   "note": "O presidente do Incra e deputados de partidos opostos concordam que o órgão perdeu estrutura nos últimos anos e que precisa atender todo mundo igualmente."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b007",
+    "b109",
+    "b121"
+   ],
+   "claims": [
+    "b007c1",
+    "b007c3",
+    "b109c1",
+    "b109c2",
+    "b121c1",
+    "b121c2"
+   ],
+   "note": "A diretora do ministério e o deputado do Pará concordam que a Amazônia precisa de um plano de regularização feito junto com os estados."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b060",
+   "sentence": 0,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quantas ocupações ficam sem título pela sobreposição com floresta pública",
+   "plain": "Quantas ocupações em glebas públicas federais vão ficar sem regularização por causa da floresta pública?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b071",
+   "sentence": 10,
+   "addressed_to": "governo",
+   "answered_by": "b081",
+   "gist": "o que o Incra entende por floresta em pé",
+   "plain": "O que é floresta em pé para o Incra, e o produtor perde área por causa dessa regra?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b082",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": "b083",
+   "gist": "quem marcou no sistema as glebas pedidas pela Funai",
+   "plain": "Quem encaminhou essas glebas para o sistema de terras, a pedido da Funai?",
+   "theme": "d4",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b093",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": "b094",
+   "gist": "apurar a denúncia sobre o superintendente em Mato Grosso",
+   "plain": "O Incra vai apurar a denúncia de que o superintendente em Mato Grosso exige filiação partidária?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b093",
+   "sentence": 27,
+   "addressed_to": "governo",
+   "answered_by": "b117",
+   "gist": "resposta formal à comissão sobre floresta em pé",
+   "plain": "O Incra vai mandar por escrito à comissão o que entende por floresta em pé e como fica o pequeno produtor?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q6",
+   "from": "b113",
+   "sentence": 30,
+   "addressed_to": "governo",
+   "answered_by": "b115",
+   "gist": "os números reais de titulação do governo anterior",
+   "plain": "Quais são os números reais de titulação do governo anterior?",
+   "theme": "d2",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b006",
+   "sentence": 48,
+   "gist": "menos de 40 dias úteis entre os dois ofícios",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 52,
+   "gist": "1.359 títulos em glebas públicas em 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 57,
+   "gist": "267 títulos refeitos em Mato Grosso do Sul",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 67,
+   "gist": "23.753 processos na plataforma automatizada",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 69,
+   "gist": "655 processos prontos para assinatura",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b007",
+   "sentence": 8,
+   "gist": "170 mil imóveis georreferenciados na Amazônia Legal",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b063",
+   "sentence": 1,
+   "gist": "200 requerimentos para assinar e 400 para checar",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b070",
+   "sentence": 2,
+   "gist": "37.779 glebas regularizadas nos 4 anos anteriores",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b074",
+   "sentence": 1,
+   "gist": "Terra Legal extinto a partir de 2018",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b109",
+   "sentence": 18,
+   "gist": "29 milhões e 700 mil brasileiros na Amazônia",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b109",
+   "sentence": 34,
+   "gist": "mais de 50% dos pedidos de lavra garimpeira no Pará",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b113",
+   "sentence": 31,
+   "gist": "420 mil regularizações no governo passado",
+   "disputed_by": [
+    {
+     "fala": "b115",
+     "sentence": 14
+    }
+   ]
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3"
+  ],
+  "roles_quoted": [
+   "governo",
+   "parlamentar"
+  ],
+  "angle": "A matéria escolheu a garantia do presidente do Incra de que a regularização foi retomada e não será paralisada, com os números do ano e a troca política entre os deputados.",
+  "omitted": "Ficaram de fora a discussão sobre o que conta como floresta em pé, as glebas marcadas no sistema a pedido da Funai e a denúncia sobre o atendimento da superintendência em Mato Grosso."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O decreto só manda cumprir a lei que já existia",
+   "statement_plain": "O decreto não criou regra nova. Ele manda checar o que a lei já exigia, como o embargo ambiental do estado e a floresta pública, e por isso nada muda para quem está regular.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b059c1",
+    "b064c1",
+    "b072c1",
+    "b107c3",
+    "b113c1"
+   ],
+   "note": "A ideia atravessa a mesa e a bancada: o Incra, o ministério e um deputado que não participou da edição do decreto sustentam a mesma leitura do texto da lei."
+  },
+  {
+   "id": "t2",
+   "title": "Regularizar e conservar a floresta andam juntos",
+   "statement_plain": "Dá para dar o título a quem ocupa a terra e ao mesmo tempo manter a floresta de pé. A floresta pública fica fora do título porque a lei proíbe vendê-la, e isso não atrapalha quem está regular.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b078c2",
+    "b081c1",
+    "b107c1",
+    "b121c2",
+    "b109c2"
+   ],
+   "note": "Junta gente de lugares diferentes da sala: o Incra, o ministério, um deputado do PT e um deputado do MDB do Pará defendem a mesma ideia."
+  },
+  {
+   "id": "t3",
+   "title": "O título do produtor não pode ficar esperando",
+   "statement_plain": "O produtor da Amazônia precisa do título da terra que ele já usa. A exigência sobre floresta em pé tira área dele sem dizer o que ele recebe em troca, e a fila precisa andar.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b018c1",
+    "b071c2",
+    "b077c1",
+    "b109c1",
+    "b109c2"
+   ],
+   "note": "Cruza os dois lados da sala: a deputada que pediu a audiência e um deputado do Pará que apoia o plano do governo defendem a mesma coisa, que o produtor precisa do título."
+  },
+  {
+   "id": "t4",
+   "title": "A regularização não parou e já foi retomada",
+   "statement_plain": "A fila da regularização não parou. Houve um ajuste de sistema, os ofícios orientaram as superintendências e os processos já voltaram a andar, com títulos sendo assinados.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b006c3",
+    "b007c2",
+    "b063c1",
+    "b066c1"
+   ],
+   "note": "É uma ideia sobre o ritmo do trabalho, sustentada pelo Incra e pelo ministério, e contestada pela deputada que pediu a audiência."
+  },
+  {
+   "id": "t5",
+   "title": "O Incra é órgão de Estado e atende todos",
+   "statement_plain": "O Incra não pertence a governo nem a partido. Ele perdeu estrutura nos últimos anos e precisa voltar a atender todo mundo da mesma forma, pequenos e grandes.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b094c2",
+    "b102c1",
+    "b103c1",
+    "b115c1"
+   ],
+   "note": "É a ideia em que a deputada do PL e o deputado do PT se encontram, junto com o presidente do Incra, mesmo discordando de quase todo o resto."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "INCRA",
+   "plain": "Instituto Nacional de Colonização e Reforma Agrária, autarquia federal que cuida da reforma agrária e da regularização de terras.",
+   "fala": "b001",
+   "sentence": 1
+  },
+  {
+   "term": "regularização fundiária",
+   "plain": "Processo em que o Estado reconhece quem ocupa uma terra pública e lhe dá o título de propriedade.",
+   "fala": "b001",
+   "sentence": 1
+  },
+  {
+   "term": "Amazônia Legal",
+   "plain": "Região definida em lei que reúne nove estados do país e concentra a floresta amazônica brasileira.",
+   "fala": "b001",
+   "sentence": 1
+  },
+  {
+   "term": "MDA",
+   "plain": "Ministério do Desenvolvimento Agrário e Agricultura Familiar, que cuida da agricultura familiar e da política de terras.",
+   "fala": "b006",
+   "sentence": 5
+  },
+  {
+   "term": "Câmara Técnica",
+   "plain": "Grupo em que os órgãos que cuidam de terras se reúnem para decidir juntos o destino de áreas públicas.",
+   "fala": "b006",
+   "sentence": 29
+  },
+  {
+   "term": "CAR",
+   "plain": "Cadastro Ambiental Rural, registro em que o dono do imóvel declara a situação ambiental da área dele.",
+   "fala": "b006",
+   "sentence": 35
+  },
+  {
+   "term": "florestas públicas",
+   "plain": "Florestas em terras da União ou dos estados que a lei manda destinar a conservação, uso comunitário ou concessão, e não à venda.",
+   "fala": "b006",
+   "sentence": 35
+  },
+  {
+   "term": "sobrestamento",
+   "plain": "Suspensão temporária de um processo, que fica parado até que se resolva a questão que o travou.",
+   "fala": "b006",
+   "sentence": 36
+  },
+  {
+   "term": "concessão de uso",
+   "plain": "Contrato em que o poder público deixa alguém usar a terra, sem transferir a propriedade dela.",
+   "fala": "b006",
+   "sentence": 52
+  },
+  {
+   "term": "ANOREG",
+   "plain": "Associação que reúne os cartórios de registro do país.",
+   "fala": "b006",
+   "sentence": 55
+  },
+  {
+   "term": "FUNAI",
+   "plain": "Fundação Nacional dos Povos Indígenas, órgão federal que cuida da demarcação e da proteção das terras indígenas.",
+   "fala": "b010",
+   "sentence": 0
+  },
+  {
+   "term": "glebas",
+   "plain": "Grandes áreas de terra pública, ainda não divididas em lotes com dono definido.",
+   "fala": "b010",
+   "sentence": 0
+  },
+  {
+   "term": "floresta em pé",
+   "plain": "Expressão usada para a mata que continua conservada dentro ou ao redor de uma propriedade.",
+   "fala": "b071",
+   "sentence": 1
+  },
+  {
+   "term": "Terra Legal",
+   "plain": "Programa federal criado para regularizar terras públicas na Amazônia Legal, extinto em 2018.",
+   "fala": "b074",
+   "sentence": 1
+  },
+  {
+   "term": "SIGEF",
+   "plain": "Sistema de Gestão Fundiária, a plataforma do Incra em que se pede e se acompanha a regularização de uma terra.",
+   "fala": "b082",
+   "sentence": 1
+  }
+ ]
+}

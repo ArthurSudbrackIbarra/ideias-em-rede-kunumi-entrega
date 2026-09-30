@@ -1,0 +1,1672 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 69,
+ "model": "LLM lendo o prompt hearing-069 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T22:39:25Z",
+ "prompt_sha256": "9976fd0bc5ccaaef2e62e126b17143dc5ea62de4e0758a0f0381347cd1fb4f1b",
+ "sentences_hash": "acc808682f54ae2f",
+ "review": {
+  "pairs_read": 36,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Educação reuniu o Tribunal Superior Eleitoral, o movimento Todos pela Educação, a Universidade do Estado da Bahia, a Polícia Federal, a UNE e a UBES para discutir o engajamento do jovem eleitor às vésperas das eleições de 2022. Os debatedores trataram do alistamento recorde de jovens de 16 e 17 anos, da formação para a cidadania na escola e do efeito da desinformação sobre quem quer participar. Pediu-se que essa formação continue fora do período eleitoral.",
+ "stakes": "Estava em jogo que compromisso a Comissão de Educação assume com a formação política do jovem fora do calendário eleitoral e com a defesa das urnas.",
+ "central_question": "Como fazer o jovem entrar e permanecer no processo político e eleitoral num ambiente de desinformação e de ataque às instituições?",
+ "synopsis_plain": "A Comissão de Educação chamou o tribunal eleitoral, entidades de estudantes, uma universidade, um movimento de educação e um delegado da Polícia Federal para falar do jovem eleitor, pouco antes das eleições de 2022. Discutiram o número recorde de jovens de 16 e 17 anos que tiraram título, a formação para a cidadania na escola e o efeito das notícias falsas sobre quem quer participar.",
+ "stakes_plain": "Estava em jogo o que a comissão e as instituições vão fazer para manter o jovem na política fora do período de eleição e para defender as urnas.",
+ "central_question_plain": "Como trazer o jovem para a política e mantê-lo lá, num ambiente de notícias falsas e de ataque às instituições?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Engajamento eleitoral da juventude",
+   "description": "Discute-se o que levou o jovem de 16 e 17 anos a tirar o título de eleitor e como manter essa participação depois da eleição.",
+   "axis": {
+    "pro": "As campanhas das instituições e das entidades estudantis conseguem trazer o jovem para o processo eleitoral.",
+    "contra": "O alistamento não basta e o jovem segue afastado da política.",
+    "pro_plain": "As campanhas do tribunal eleitoral e das entidades de estudantes conseguem trazer o jovem para a eleição.",
+    "contra_plain": "Tirar o título não basta, o jovem continua longe da política."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Educação para a cidadania",
+   "description": "Discute-se o papel da escola e das humanidades na formação política do jovem, dentro e fora do período eleitoral.",
+   "axis": {
+    "pro": "A formação cidadã e as humanidades precisam estar na escola e fora do calendário eleitoral.",
+    "contra": "Basta a formação técnica e a mobilização no período de eleição.",
+    "pro_plain": "A escola precisa formar para a cidadania o ano inteiro, com humanidades na grade.",
+    "contra_plain": "Basta a formação técnica e a campanha no período de eleição."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Desinformação e fake news",
+   "description": "Discute-se o que é a desinformação nas redes e como ela afeta a eleição e a vontade do jovem de participar.",
+   "axis": {
+    "pro": "A desinformação é violência contra o debate público e precisa ser enfrentada.",
+    "contra": "Enfrentar a desinformação é restringir a liberdade de expressão.",
+    "pro_plain": "A notícia falsa é violência contra o debate e precisa ser enfrentada.",
+    "contra_plain": "Combater a notícia falsa é limitar a liberdade de falar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Polarização e respeito no debate",
+   "description": "Discute-se como conviver com quem pensa diferente e se os dois lados da polarização brasileira são equivalentes.",
+   "axis": {
+    "pro": "O caminho é o respeito à ideia do outro e a convivência entre quem discorda.",
+    "contra": "Os dois lados não são iguais, porque a violência está em um deles.",
+    "pro_plain": "O caminho é respeitar a ideia do outro e conviver com quem discorda.",
+    "contra_plain": "Os dois lados não são iguais, a violência está só de um lado."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Inclusão e representação política",
+   "description": "Discute-se quem fica de fora da escola e do poder e o que isso significa para a cidadania de jovens trans, negros e pobres.",
+   "axis": {
+    "pro": "Sem incluir quem está fora da escola e do poder, não há como cobrar cidadania.",
+    "contra": "A cidadania depende do esforço de cada um, não de política de inclusão.",
+    "pro_plain": "Sem incluir quem está fora da escola e do poder, não dá para cobrar cidadania.",
+    "contra_plain": "A cidadania depende do esforço de cada um, não de política de inclusão."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Defesa das urnas eletrônicas",
+   "description": "Discute-se o ataque às urnas eletrônicas e à Justiça Eleitoral e o compromisso com o resultado das eleições.",
+   "axis": {
+    "pro": "As urnas eletrônicas são confiáveis e o resultado das eleições deve ser respeitado.",
+    "contra": "As urnas eletrônicas não são confiáveis.",
+    "pro_plain": "A urna eletrônica é confiável e o resultado da eleição deve ser respeitado.",
+    "contra_plain": "A urna eletrônica não merece confiança."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da audiência e autora do requerimento",
+   "org": "Comissão de Educação da Câmara dos Deputados",
+   "basis": "abre a reunião e se identifica como autora do Requerimento nº 12 em b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que discute e vota projetos sobre educação"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "ministra substituta do Tribunal Superior Eleitoral",
+   "org": "TSE",
+   "basis": "anunciada pela presidência em b001.4",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Tribunal Superior Eleitoral",
+   "org_plain": "tribunal que organiza e fiscaliza as eleições em todo o país"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "líder de relações governamentais",
+   "org": "Todos pela Educação",
+   "basis": "anunciado pela presidência em b001.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do movimento Todos pela Educação",
+   "org_plain": "organização que acompanha políticas de educação e cobra melhora na aprendizagem das escolas"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "secretário de articulação interinstitucional da reitoria",
+   "org": "UNEB",
+   "basis": "anunciado pela presidência em b001.4 e confirmado por ele em b006.42",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Universidade do Estado da Bahia",
+   "org_plain": "universidade pública baiana com campi espalhados pelo interior do estado"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "delegado da superintendência regional",
+   "org": "Polícia Federal no Ceará",
+   "basis": "anunciado pela presidência em b001.4 e b001.5",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Polícia Federal no Ceará",
+   "org_plain": "polícia da União, que investiga crimes federais, entre eles os crimes cometidos pela internet"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "diretora de relações institucionais",
+   "org": "UNE",
+   "basis": "anunciada pela presidência em b001.4 e se apresenta em b010.36",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da União Nacional dos Estudantes",
+   "org_plain": "entidade que representa os estudantes universitários do Brasil"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "responsável pela pasta LGBTQIAP+",
+   "org": "UBES",
+   "basis": "chamada pela presidência em b015.2 e se apresenta em b018.2 e b018.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da União Brasileira de Estudantes Secundaristas",
+   "org_plain": "entidade que representa os estudantes do ensino médio e fundamental no Brasil"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "a sessão é híbrida e a mesa não anuncia delegações nem registra palmas, só menciona internautas no chat em b001.14",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o jovem eleitor, anuncia a mesa de debates e explica as regras de tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta os projetos da Justiça Eleitoral para a juventude e informa que 2.042.817 jovens do voto facultativo se alistaram entre janeiro e maio.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Justiça Eleitoral consegue engajar a juventude quando leva formação cívica às escolas e conversa com ela nas redes.",
+    "sentence": 59
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o tribunal eleitoral tem uma escola própria de formação, com 20 anos, replicada em todos os tribunais regionais",
+     "plain": "O Tribunal Superior Eleitoral tem uma escola própria, a Escola Judiciária Eleitoral, que faz 20 anos neste ano. Ela foi criada pelo Ministro Sálvio de Figueiredo Teixeira e hoje existe em todos os tribunais regionais."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em municípios com prefeitas as meninas se alistam mais, segundo uma pesquisa do Insper",
+     "plain": "Uma pesquisa do Insper mostrou que, em municípios com prefeitas, as nossas meninas se alistam mais. Onde as mulheres veem que o poder político também lhes pertence, as meninas se engajam mais por vontade própria."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "2.042.817 jovens do voto facultativo se alistaram entre janeiro e maio para as eleições",
+     "plain": "Foram 2.042.817 jovens a mais, que não tinham obrigação de se alistar e mesmo assim tiraram o título. Esse alistamento aconteceu entre janeiro e maio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao TSE e passa a palavra ao representante do movimento Todos pela Educação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que melhorar as escolas e a aprendizagem melhora também a qualidade da democracia e pede educação crítica fora do período eleitoral.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Melhorar a escola e a aprendizagem melhora também a qualidade da democracia.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "melhorar a educação melhora os indicadores de saúde, de criminalidade e da economia, e melhora a qualidade da democracia",
+     "plain": "Melhorar a educação melhora os indicadores de saúde, de criminalidade e de violência, reduz o comportamento de risco e melhora o desenvolvimento econômico. Também melhora a qualidade da nossa democracia."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os jovens querem participar do debate sobre o projeto do país e fazem questão de ser ouvidos",
+     "plain": "Nessa conversa com professores e principalmente com estudantes, percebemos um desejo forte dos jovens de participar do debate sobre o projeto do país. A juventude faz questão de ser ouvida e representada."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      24
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "essas iniciativas precisam acontecer também fora do período eleitoral, com educação crítica e debate plural em sala de aula",
+     "plain": "Achamos fundamental que essas iniciativas aconteçam, mas também que aconteçam fora do período eleitoral. É preciso reforçar a educação crítica e o debate plural dentro da sala de aula, para que o jovem escolha melhor na hora de votar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao professor José Ricardo Moreno Pinho, representante da UNEB.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Destaca o papel transformador da juventude, alerta que a instituição eleitoral vem sendo ameaçada e conta como a inclusão mudou a UNEB.",
+   "quote": [
+    33,
+    34
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A juventude tem papel transformador e a universidade precisa se somar à campanha por mais participação.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o jovem tem papel revolucionário e transformador e é capaz de movimentar a sociedade e mudar a realidade",
+     "plain": "Cito esse exemplo para destacar o papel revolucionário e transformador que os jovens têm. O jovem consegue movimentar a sociedade e transformar a realidade."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a instituição eleitoral tem sido muito ameaçada e por isso é preciso o papel transformador da juventude",
+     "plain": "Parabenizo o Tribunal Superior Eleitoral pelo papel importante que vem cumprindo na defesa da democracia. A instituição eleitoral vem sendo muito ameaçada, e neste momento precisamos do papel transformador da juventude."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      50,
+      51,
+      52
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os estudantes da UNEB são em grande maioria muito pobres e as políticas de inclusão fazem uma revolução na universidade",
+     "plain": "Nossos estudantes são, na grande maioria, muito pobres. A universidade vem ampliando a inclusão dessa juventude mais necessitada no ensino superior, e a entrada deles pelas políticas de inclusão faz uma revolução na universidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Carlos Eduardo Sobral, da Polícia Federal, para falar das fake news.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta que as fake news são violência para espantar o debate e afirma que o jovem deve aprender a discordar sem odiar quem pensa diferente.",
+   "quote": [
+    28,
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A desinformação é violência que afasta o jovem do debate público e precisa ser enfrentada sem fechar a arena.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "todos confiam no processo eleitoral brasileiro e o trabalho do TSE contra a desinformação é fundamental",
+     "plain": "Todos nós confiamos no nosso processo eleitoral, que tem reconhecimento nacional e internacional. O trabalho do TSE, o tribunal eleitoral, contra a desinformação e na formação dos jovens é fundamental para termos eleições mais saudáveis."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a desinformação é violência usada para destruir a arena pública e impedir a fala e a participação das pessoas",
+     "plain": "Estamos tratando de violência, do uso da desinformação para destruir a arena pública onde o debate deve acontecer, da violência que quer espantar o bom debate e impedir as pessoas de falar e participar. Isso é muito preocupante."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o debate democrático permite o dissenso mas não permite o ódio ao diferente",
+     "plain": "O debate democrático permite a discussão e permite discordar, mas não permite o ódio ao outro, o ódio ao diferente. Ele deixa as diferenças aparecerem, para construir acordos e confirmar desacordos, convivendo com quem pensa diferente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Thaís Falone Bernardes, da UNE, e anuncia que depois abrirá as perguntas dos internautas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que a UNE mobilizou estudantes pelo título de eleitor e que numa única manhã em Luziânia saíram 300 novos títulos.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A mobilização estudantil levou um número recorde de jovens a tirar o título para estas eleições.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o voto aos 16 anos foi conquista da mobilização da UNE, da UBES e da ANPG junto aos constituintes",
+     "plain": "O voto aos 16 anos foi e continua sendo uma conquista histórica, fruto da luta da União Nacional dos Estudantes, a UNE. Fomos nós que mobilizamos as entidades estudantis, com a UBES e a ANPG, para convencer os constituintes."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "numa escola de Luziânia, no entorno do DF, saíram 300 títulos de eleitor numa única manhã",
+     "plain": "Fui a Luziânia, cidade do entorno do DF, o Distrito Federal, e fiz um debate com estudantes numa sala de aula. Naquela manhã conseguimos 300 títulos de eleitor, porque o sistema do TSE deixa tirar o título pelo celular."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a mobilização da UNE por títulos de eleitor foi uma campanha para tirar Bolsonaro, o maior inimigo da juventude",
+     "plain": "Enquanto eu estava aqui, o resto da diretoria fazia a mesma mobilização no país todo: tirar título de eleitor para tirar Bolsonaro. Essa foi a nossa campanha, porque não há hoje inimigo maior da juventude do que o Governo Bolsonaro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende que formar a juventude nos valores democráticos prepara a sociedade contra a desinformação e lembra que fake news é crime.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação democrática da juventude é o caminho para enfrentar a desinformação nas redes.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a criança de hoje já nasce conectada e uma boa formação democrática prepara a sociedade para enfrentar a desinformação",
+     "plain": "A criança de hoje já nasce conectada e vira rápido uma \"especialista\" em redes sociais. Por isso, formar bem a juventude no debate e nos valores democráticos prepara a sociedade para enfrentar as fake news e a desinformação."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o alistamento subiu de 2 milhões para 2 milhões e 417 mil jovens e o acesso à página do TSE cresceu 45%",
+     "plain": "O alistamento de jovens subiu de 2 milhões para 2 milhões e 417 mil para esta eleição. E o acesso à página de informações eleitorais do TSE, o Tribunal Superior Eleitoral, cresceu 45%."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      25
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando a notícia falsa domina a eleição ela distorce a opinião e cria estelionato eleitoral, e fake news é crime",
+     "plain": "A fake news, a notícia falsa, quando domina o processo eleitoral, distorce a formação de opinião e gera desigualdade e estelionato eleitoral. Fake news é crime."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta a retirada de sociologia e filosofia da grade e defende que a formação política também se faz no exercício da cidadania.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 12,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação política do jovem depende das humanidades na grade e do exercício concreto da cidadania.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a educação vem sofrendo ataques, com a retirada do ensino de sociologia e filosofia da grade curricular",
+     "plain": "A Deputada sabe, e vive isso no Congresso, dos ataques que a educação vem sofrendo. Um deles é a retirada do ensino de sociologia e de filosofia da grade curricular da formação dos nossos jovens."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a formação política do jovem não se dá só na sala de aula, mas fazendo, e entidades como a UNE são essenciais",
+     "plain": "Essa formação política do jovem não acontece só no banco da escola, sentado assistindo à aula. Acontece fazendo, em luta, e por isso entidades como a UNE e as organizações estudantis são essenciais para a cidadania."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na universidade os estudantes votam para reitor e para diretores, e esse exercício também educa politicamente",
+     "plain": "Na nossa universidade, os estudantes votam diretamente para reitor ou reitora e para os diretores de departamento. Esse exercício de cidadania também ajuda a formar e a educar politicamente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra a filosofia entre as disciplinas citadas e passa a palavra a Carlos Eduardo Sobral.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende a formação em humanidades como avanço civilizatório e pede o fim do tabu de que política não se discute.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação em humanidades e o hábito de discutir política são essenciais para a cidadania.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a formação humana e em humanidades é essencial e não se pode abrir mão dela",
+     "plain": "A formação em humanidades e a formação humana são fundamentais para a vida de todo mundo. A formação técnica importa, mas não podemos abrir mão dessa conquista, desse avanço civilizatório que é a formação em humanidades."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é na participação que a pessoa se reconhece como parte e como ator da construção de algo",
+     "plain": "Concordo com a importância de exercer a cidadania de forma ativa, participando. É participando que a gente se reconhece como parte e como ator da construção de alguma coisa."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso eliminar o tabu de que política não se discute, em casa, na rua, na rede social ou na escola",
+     "plain": "Acho fundamental acabar com o tabu de que política não se discute, nem em casa, nem na rua, nem no clube, nem na rede social, nem na escola. Política tem que ser discutida."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a representante da UBES, Yaminah Nala, e avisa que ainda há uma pergunta a fazer.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante da UBES avisa que está presente, mas não consegue liberar a câmera.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que o áudio está bom mesmo sem a câmera e libera a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata que a evasão escolar trans começa aos 13 anos e que só 0,02% chegaram à universidade, e cobra representação para corpos excluídos.",
+   "quote": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não dá para cobrar cidadania de quem não tem acesso a ela, e a juventude trans e negra segue fora da escola e da representação.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é a primeira travesti na pasta LGBTQIAP+ da UBES, e não se pode cobrar cidadania de quem não tem acesso a ela",
+     "plain": "Eu sou a primeira travesti na pasta LGBTQIAP+ da UBES, a entidade dos estudantes secundaristas. Ser a primeira não é orgulho, é apagamento, e não dá para cobrar cidadania de um segmento que não tem acesso a ela."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na comunidade trans a evasão escolar ocorre aos 13 anos e só 0,02% chegaram à universidade",
+     "plain": "Na comunidade trans, a evasão escolar acontece aos 13 anos. Só 0,02% das pessoas trans conseguiram entrar na universidade, e 56% saíram da escola no ensino fundamental."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil é o país com mais mulheres e o mais negro fora da África, mas elas não estão representadas no poder",
+     "plain": "Por que o Brasil, sendo o país com mais mulheres, não as tem representadas no lugar onde se decide? E por que o país mais negro fora da África não tem pessoas negras representadas como deveria?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que o maior desafio é o respeito e lembra que o Presidente da República foi eleito pelas urnas eletrônicas que agora ataca.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O respeito à ideia do outro é o que sustenta o debate democrático neste momento.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o maior desafio do momento é o respeito, que é o desafio da democracia",
+     "plain": "Para mim, o maior desafio que temos agora é o respeito. É esse o desafio da democracia."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ataque às urnas eletrônicas parte do Presidente da República, que foi eleito por elas em 27 anos de mandato",
+     "plain": "A discussão das eleições no Brasil virou uma discussão sobre se a urna eletrônica é confiável, e o ataque parte do Presidente da República. Mas ele foi eleito por esse mesmo sistema nos 27 anos em que foi parlamentar."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o momento pede racionalidade e respeito à ideia do outro, ganhando no argumento e não no xingamento",
+     "plain": "O momento pede racionalidade e respeito à ideia do outro. Não se ganha no grito, se ganha no debate democrático, no argumento, não no xingamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Contesta a ideia de dois extremos iguais e sustenta que a violência e o desrespeito estão em apenas um lado da polarização.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A polarização existe, mas os dois lados não são iguais: a violência está em um deles.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a ideia de dois polos extremos e violentos é falsa, não é bem assim",
+     "plain": "Quero chamar atenção para não confundirmos essa falsa ideia do que chamamos de polarização. Vendem a imagem de dois polos extremos e violentos, e na verdade não é bem assim."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "de um lado há quem use a violência como método e do outro há quem clame pelo diálogo e pelo respeito",
+     "plain": "De um lado há um extremo que insinua a violência, a agressão e o desrespeito como método. Do outro não há um extremo igual, mas algo que pede diálogo e respeito às instituições e ao processo democrático."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a polarização existe, mas a violência e o desrespeito estão só de um dos lados dela",
+     "plain": "Não dá para negar que a polarização existe. Mas a violência e o desrespeito estão em um dos lados dela."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que há um ataque aos valores democráticos e anuncia carta em defesa da democracia com mais de 100 mil assinaturas para 11 de agosto.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A sociedade brasileira responde ao ataque à democracia reafirmando o compromisso com as urnas e com o resultado das eleições.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o que há no Brasil não é só disputa eleitoral, é um ataque aos valores democráticos e uma sociedade que resiste",
+     "plain": "O que há no Brasil não é só uma disputa eleitoral. É um campo que ataca os valores democráticos e uma parte grande da sociedade que resiste, e por isso será lançada uma carta em defesa da democracia no dia 11 de agosto."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      2
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a carta em defesa da democracia já tem mais de 100 mil assinaturas, de profissionais liberais a artistas",
+     "plain": "Mais de 100 mil pessoas já assinaram a carta, entre gente comum, profissionais liberais, advogados, médicos, empresários grandes e pequenos, artistas e músicos."
+    },
+    {
+     "id": "b021c3",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é hora de reafirmar o compromisso com as urnas eletrônicas e com o respeito ao resultado das eleições",
+     "plain": "Reafirmamos aqui o nosso compromisso com as urnas eletrônicas e com as eleições brasileiras. Respeitamos todos os resultados das eleições no Brasil até aqui e vamos continuar respeitando."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 53,
+   "from_claim": "b006c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O professor da UNEB endossa o resultado apresentado pelo TSE e diz que o tribunal cumpre um papel de defesa da democracia num momento em que a própria instituição eleitoral é ameaçada."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 13,
+   "from_claim": "b008c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "O delegado da Polícia Federal diz que o trabalho de formação da Justiça Eleitoral é o que permite um processo eleitoral mais saudável, retomando a escola do tribunal descrita pela ministra."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 53,
+   "from_claim": "b010c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "A UNE conta o outro lado do número do TSE: os títulos saíram na escola porque o sistema do tribunal permitia emitir pelo celular na hora."
+  },
+  {
+   "from": "b011",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 53,
+   "from_claim": "b011c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A presidência repete o salto de alistamento trazido pelo TSE, com números próprios: de 2 milhões para 2 milhões e 417 mil jovens."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 14,
+   "from_claim": "b011c2",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "A presidência credita o crescimento do cadastramento à campanha cidadã da UNE e dos coletivos de juventude, e põe o número geral atrás do caso contado na escola."
+  },
+  {
+   "from": "b011",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 27,
+   "from_claim": "b011c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "A presidência vai um passo além do alerta do delegado: além de violência contra o debate, a notícia falsa no processo eleitoral é crime."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 38,
+   "from_claim": "b012c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "À pergunta do internauta sobre como incluir o jovem sem ensino dos três Poderes, o professor responde que essa formação não se dá só na sala de aula, mas fazendo."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 3,
+   "from_claim": "b014c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "O delegado complementa o professor: a formação em humanidades é um avanço civilizatório de que não se pode abrir mão."
+  },
+  {
+   "from": "b014",
+   "to": "b011",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 38,
+   "from_claim": "b014c3",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Ainda sobre a pergunta do internauta, o delegado responde que o primeiro passo é acabar com o tabu de que política não se discute."
+  },
+  {
+   "from": "b019",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 32,
+   "from_claim": "b019c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "A presidência chega à mesma conclusão do delegado ao responder sobre polarização: o desafio da democracia é o respeito a quem pensa diferente."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 9,
+   "from_claim": "b020c1",
+   "to_claim": "b019c3",
+   "strength": "forte",
+   "note": "O professor acompanha o apelo ao respeito, mas contesta a leitura de dois polos equivalentes: para ele a violência está em um lado só."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 27,
+   "from_claim": "b020c2",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Ao opor barbárie e processo civilizatório, o professor retoma o alerta do delegado sobre a desinformação usada para destruir o espaço do debate."
+  },
+  {
+   "from": "b021",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b021c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "A presidência assume a leitura do professor e a traduz em fato: não é só disputa eleitoral, é ataque à democracia, e a resposta é a carta de 11 de agosto."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b006",
+    "b010",
+    "b011"
+   ],
+   "claims": [
+    "b002c1",
+    "b002c3",
+    "b006c1",
+    "b010c1",
+    "b011c2"
+   ],
+   "note": "O TSE, a UNEB, a UNE e a presidência da comissão concordam que a formação cívica e a campanha pelo título trouxeram um número recorde de jovens para esta eleição."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b012",
+    "b014"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c3",
+    "b012c2",
+    "b014c1"
+   ],
+   "note": "O Todos pela Educação, a UNEB e o delegado da Polícia Federal concordam que a formação cidadã e as humanidades precisam estar na escola, e não só na época da eleição."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b008",
+    "b011"
+   ],
+   "claims": [
+    "b008c2",
+    "b011c1",
+    "b011c3"
+   ],
+   "note": "O delegado da Polícia Federal e a presidência da comissão concordam que a desinformação é violência contra o debate público e que enfrentá-la passa pela formação da juventude."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b006",
+    "b018"
+   ],
+   "claims": [
+    "b002c2",
+    "b006c3",
+    "b018c1"
+   ],
+   "note": "O TSE, a UNEB e a UBES concordam que sem incluir quem está fora da escola e do poder não há como cobrar cidadania dessa juventude."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b006",
+    "b008",
+    "b019",
+    "b021"
+   ],
+   "claims": [
+    "b006c2",
+    "b008c1",
+    "b019c2",
+    "b021c3"
+   ],
+   "note": "A UNEB, a Polícia Federal e a presidência concordam que a instituição eleitoral está sob ataque e que o compromisso é com a urna eletrônica e com o resultado das eleições."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b011",
+   "sentence": 38,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b012",
+   "gist": "como incluir o jovem sem ensino sobre os três Poderes e as identidades políticas",
+   "plain": "Como incluir o jovem na política se ele não aprende, em linguagem simples, o que fazem os três Poderes e o que são direita e esquerda?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b019",
+   "sentence": 3,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b020",
+   "gist": "como criar bom ambiente de debate num momento de tanta polarização",
+   "plain": "Num momento de tanta polarização, como criar um bom ambiente de debate em que ideias contrárias possam conviver sem conflito?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 12,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que o Congresso defenda as disciplinas retiradas das grades curriculares",
+   "plain": "O Congresso vai lutar para devolver às grades curriculares as disciplinas que foram retiradas da formação dos jovens?",
+   "theme": "d2",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 53,
+   "gist": "2.042.817 jovens do voto facultativo se alistaram entre janeiro e maio",
+   "disputed_by": [
+    {
+     "fala": "b011",
+     "sentence": 20
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 56,
+   "gist": "o eleitorado jovem cresceu 47% desde 2018",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 50,
+   "gist": "os acessos à página do TSE subiram 47% com as recomendações",
+   "disputed_by": [
+    {
+     "fala": "b011",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 13,
+   "gist": "a Escola Judiciária Eleitoral do TSE faz 20 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 11,
+   "gist": "o Todos pela Educação esteve em 14 Estados em 6 meses",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 23,
+   "gist": "a Ação Popular foi fundada em 1963",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 16,
+   "gist": "há 30 anos ele virou eleitor, no tempo dos caras-pintadas",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 14,
+   "gist": "300 jovens tiraram o título numa única manhã",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b018",
+   "sentence": 8,
+   "gist": "só 0,02% das pessoas trans entraram na universidade",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 10,
+   "gist": "72% das pessoas trans não concluíram o ensino fundamental",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b019",
+   "sentence": 8,
+   "gist": "o Presidente exerceu 27 anos de mandato parlamentar",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b021",
+   "sentence": 2,
+   "gist": "a carta em defesa da democracia tem mais de 100 mil assinaturas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil",
+   "mesa"
+  ],
+  "angle": "A matéria escolheu o ângulo da educação como caminho para o engajamento do jovem e abriu com o crescimento do eleitorado de 16 e 17 anos.",
+  "omitted": "Ficaram de fora a fala da UBES sobre a exclusão de estudantes trans e negros e toda a parte final sobre polarização e defesa das urnas eletrônicas."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Educar para a cidadania é o que engaja o jovem",
+   "statement_plain": "O jovem se engaja na política quando a escola e as instituições o formam para a cidadania, e não só no período das eleições.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c3",
+    "b002c1",
+    "b012c2",
+    "b014c1"
+   ],
+   "note": "A ideia junta o TSE, o Todos pela Educação, a UNEB e a Polícia Federal, que vêm de setores diferentes e chegam à mesma conclusão sobre a escola."
+  },
+  {
+   "id": "t2",
+   "title": "A mobilização estudantil trouxe o jovem para a urna",
+   "statement_plain": "Quem trouxe o jovem para esta eleição foi a mobilização das entidades estudantis nas escolas, e não só a campanha das instituições.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c2",
+    "b010c3",
+    "b006c1",
+    "b011c2"
+   ],
+   "note": "A UNE, a UNEB e a presidência da comissão sustentam a mesma ideia, embora ocupem lugares diferentes na sala."
+  },
+  {
+   "id": "t3",
+   "title": "O debate se ganha no respeito, não no grito",
+   "statement_plain": "Num momento de polarização, o caminho é o respeito à ideia do outro e a convivência entre quem discorda, sem ódio.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b008c3",
+    "b019c1",
+    "b019c3"
+   ],
+   "note": "O delegado da Polícia Federal e a presidência da comissão, de papéis diferentes, defendem a mesma saída para o debate público."
+  },
+  {
+   "id": "t4",
+   "title": "Os dois lados da polarização não são iguais",
+   "statement_plain": "A polarização existe, mas não há dois extremos equivalentes: de um lado está a violência como método, do outro o apelo ao diálogo.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b020c1",
+    "b020c2",
+    "b020c3",
+    "b021c1"
+   ],
+   "note": "A ideia divide a própria mesa: o professor da UNEB e a presidência contestam a leitura de simetria que a própria presidência tinha acabado de oferecer."
+  },
+  {
+   "id": "t5",
+   "title": "Sem acesso à cidadania não dá para cobrar cidadania",
+   "statement_plain": "Não dá para cobrar participação de quem está fora da escola e fora da representação. Incluir esses jovens é parte do engajamento.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b018c1",
+    "b018c2",
+    "b018c3",
+    "b006c3",
+    "b002c2"
+   ],
+   "note": "A UBES, a UNEB e o TSE, de setores diferentes, dizem a mesma coisa sobre quem fica de fora da cidadania."
+  },
+  {
+   "id": "t6",
+   "title": "Fake news é violência contra o debate, e é crime",
+   "statement_plain": "A desinformação não é só mentira. É violência que afasta as pessoas do debate público, e no processo eleitoral ela é crime.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b011c1",
+    "b011c3"
+   ],
+   "note": "O delegado da Polícia Federal e a relatora da CPMI das Fake News, de papéis diferentes, sustentam a mesma leitura sobre a desinformação."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Escola Judiciária Eleitoral",
+   "fala": "b002",
+   "sentence": 13,
+   "plain": "escola de formação do Tribunal Superior Eleitoral, que dá cursos e ações de educação sobre eleições e cidadania"
+  },
+  {
+   "term": "Eleitor do Futuro",
+   "fala": "b002",
+   "sentence": 17,
+   "plain": "projeto das escolas da Justiça Eleitoral que leva formação sobre voto e cidadania a crianças e adolescentes nas escolas"
+  },
+  {
+   "term": "voto facultativo",
+   "fala": "b002",
+   "sentence": 33,
+   "plain": "voto que a pessoa escolhe dar ou não, sem obrigação. É o caso de quem tem 16 e 17 anos"
+  },
+  {
+   "term": "Insper",
+   "fala": "b002",
+   "sentence": 33,
+   "plain": "instituição de ensino e pesquisa de São Paulo que faz estudos em economia e políticas públicas"
+  },
+  {
+   "term": "accountability",
+   "fala": "b002",
+   "sentence": 29,
+   "plain": "prestação de contas: o dever de quem administra explicar o que fez com o dinheiro e o poder públicos"
+  },
+  {
+   "term": "fake news",
+   "fala": "b004",
+   "sentence": 23,
+   "plain": "notícia falsa espalhada de propósito, principalmente pela internet, para enganar quem lê"
+  },
+  {
+   "term": "Base Nacional Comum Curricular",
+   "fala": "b004",
+   "sentence": 23,
+   "plain": "documento que define o que todas as escolas do país precisam ensinar em cada etapa"
+  },
+  {
+   "term": "UNE",
+   "fala": "b004",
+   "sentence": 18,
+   "plain": "União Nacional dos Estudantes, entidade que representa os estudantes universitários do Brasil"
+  },
+  {
+   "term": "UBES",
+   "fala": "b004",
+   "sentence": 18,
+   "plain": "União Brasileira de Estudantes Secundaristas, entidade que representa os estudantes do ensino médio e fundamental"
+  },
+  {
+   "term": "multicampi",
+   "fala": "b006",
+   "sentence": 48,
+   "plain": "universidade que funciona em vários campi, espalhados por cidades diferentes de um estado"
+  },
+  {
+   "term": "CPMI das Fake News",
+   "fala": "b008",
+   "sentence": 4,
+   "plain": "comissão parlamentar mista de inquérito que investigou no Congresso a disseminação de notícias falsas"
+  },
+  {
+   "term": "ANPG",
+   "fala": "b010",
+   "sentence": 5,
+   "plain": "Associação Nacional de Pós-Graduandos, entidade que representa quem faz mestrado e doutorado no Brasil"
+  },
+  {
+   "term": "estelionato eleitoral",
+   "fala": "b011",
+   "sentence": 25,
+   "plain": "expressão usada para quem promete uma coisa na campanha e faz outra depois de eleito"
+  },
+  {
+   "term": "LGBTQIAP+",
+   "fala": "b018",
+   "sentence": 3,
+   "plain": "sigla que reúne lésbicas, gays, bissexuais, travestis, transexuais, queer, intersexo, assexuais, pansexuais e outras identidades"
+  }
+ ]
+}

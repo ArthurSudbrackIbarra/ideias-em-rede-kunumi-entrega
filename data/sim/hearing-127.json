@@ -1,0 +1,2783 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 127,
+ "model": "LLM lendo o prompt hearing-127 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T21:07:24Z",
+ "prompt_sha256": "1fd4159ca97ac275c76cb626d0886641e94bef06e589f82075d0f5556ed01d4b",
+ "sentences_hash": "fd1756bdeed65d39",
+ "review": {
+  "pairs_read": 50,
+  "pairs_fixed": 9
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Direitos Humanos reuniu duas mesas para avaliar os 20 anos do Estatuto da Pessoa Idosa e discutir a política nacional de cuidado integral para quem envelhece. Professoras, conselhos, um fórum da sociedade civil, uma defensora pública, um sindicato de professores e dois órgãos do Executivo mostraram números de violações, de pobreza e de sobrecarga de quem cuida. O Ministério do Desenvolvimento Social explicou que a política de cuidados estava em construção e prometeu uma proposta para maio de 2024.",
+ "stakes": "A comissão precisava definir que encaminhamentos cobrar do governo na construção da Política Nacional de Cuidados e que espaço garantir no orçamento para as políticas da pessoa idosa.",
+ "central_question": "Vinte anos depois do Estatuto, o que falta para que a pessoa idosa tenha o cuidado e os direitos que a lei já promete?",
+ "synopsis_plain": "A Câmara discutiu os 20 anos do Estatuto da Pessoa Idosa e a política de cuidados que o governo estava montando. Os convidados mostraram números de violência, de pobreza e de mulheres que cuidam sozinhas e adoecem. O governo disse que a proposta da política de cuidados sairia em maio de 2024. Quase todos cobraram orçamento e mais informação para quem envelhece.",
+ "stakes_plain": "A comissão tinha de decidir o que cobrar do governo na política de cuidados e quanto dinheiro pedir no orçamento.",
+ "central_question_plain": "O que falta para a pessoa idosa ter na prática o cuidado e os direitos que a lei já promete?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Efetivação do Estatuto da Pessoa Idosa",
+   "description": "O que falta para a lei de 20 anos sair do papel, começando pelo direito de a pessoa saber que tem direitos.",
+   "axis": {
+    "pro": "A lei só se realiza com divulgação, controle social e fluxos que funcionem.",
+    "contra": "A lei já garante os direitos e basta aplicar o que está escrito.",
+    "pro_plain": "A lei só vira realidade se as pessoas souberem dela e se houver quem cobre.",
+    "contra_plain": "A lei já garante tudo. Basta aplicar o que está escrito nela."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Enfrentamento da violência contra a pessoa idosa",
+   "description": "Como registrar, punir e prevenir as violações, das denúncias no Disque 100 à estrutura de delegacias e varas.",
+   "axis": {
+    "pro": "A proteção exige rede, dados e formação em todos os serviços que atendem a pessoa idosa.",
+    "contra": "Bastam equipamentos especializados, como a delegacia e a vara do idoso.",
+    "pro_plain": "Toda delegacia e todo serviço precisa saber atender a pessoa idosa.",
+    "contra_plain": "Basta ter uma delegacia e uma vara só para o idoso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Responsabilidade pelo cuidado",
+   "description": "De quem é o cuidado da pessoa idosa que não pode se cuidar sozinha: do Estado, da família ou de todos juntos.",
+   "axis": {
+    "pro": "Quando a pessoa idosa e a família não têm condições, o cuidado é dever do Estado.",
+    "contra": "O cuidado deve ser dividido entre Estado, famílias, mercado e empresas.",
+    "pro_plain": "Quando a família não dá conta, cuidar é obrigação do Estado.",
+    "contra_plain": "Cuidar é de todos: Estado, família, mercado e empresas, cada um com sua parte."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Orçamento e fundos para a pessoa idosa",
+   "description": "Quanto dinheiro está previsto para as políticas da pessoa idosa e se ele chega onde deveria chegar.",
+   "axis": {
+    "pro": "Sem orçamento próprio e protegido não existe política para a pessoa idosa.",
+    "contra": "O dinheiro já previsto dá conta do que as políticas precisam.",
+    "pro_plain": "Sem dinheiro no orçamento, a política da pessoa idosa não sai do papel.",
+    "contra_plain": "O que já está previsto no orçamento é suficiente."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Renda, aposentadoria e assistência",
+   "description": "O peso da renda, do BPC e da aposentadoria na vida de quem envelhece, e o efeito das reformas sobre elas.",
+   "axis": {
+    "pro": "Renda garantida por fundo público é a base do direito de envelhecer.",
+    "contra": "As reformas da previdência e da administração são caminho necessário.",
+    "pro_plain": "Sem renda garantida pelo Estado não há direito de envelhecer com dignidade.",
+    "contra_plain": "As reformas da previdência e do serviço público são necessárias."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Protagonismo, desigualdade e etarismo",
+   "description": "Se a pessoa idosa é tratada como sujeito de direitos e como o preconceito de idade se junta a outros.",
+   "axis": {
+    "pro": "A pessoa idosa é sujeito de direitos e envelhece de formas muito desiguais.",
+    "contra": "Decidir pela pessoa idosa e tratá-la como quem já cumpriu sua função é natural.",
+    "pro_plain": "Quem envelhece decide por si, e ninguém envelhece igual num país desigual.",
+    "contra_plain": "É normal que outros decidam pela pessoa idosa, que já cumpriu sua função."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Trabalho de cuidar e quem atende",
+   "description": "O reconhecimento de quem cuida, remunerado ou não, e a estrutura de quem atende a pessoa idosa.",
+   "axis": {
+    "pro": "Cuidar é trabalho e quem cuida precisa de direitos, remuneração e estrutura.",
+    "contra": "O cuidado é um dever familiar e afetivo, que não precisa de contrato.",
+    "pro_plain": "Cuidar é trabalho. Quem cuida precisa de direitos e de quem a ajude.",
+    "contra_plain": "Cuidar é dever de família e de afeto, não precisa de contrato."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência, exercida pelo deputado Luiz Couto e depois pela deputada Luizianne Lins",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado em b001.4 e a troca anunciada em b029.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "secretária dos Direitos Humanos do Ceará",
+   "org": "Secretaria dos Direitos Humanos do Ceará",
+   "basis": "apresentada pela presidência em b005.2",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "da Secretaria dos Direitos Humanos do Ceará",
+   "org_plain": "secretaria do governo do Ceará que cuida das políticas de direitos humanos no Estado"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "doutora em patologia molecular e professora associada da UniSER-UnB",
+   "org": "UniSER-UnB",
+   "basis": "apresentada pela presidência em b001.17",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Universidade do Envelhecer, na UnB",
+   "org_plain": "programa da Universidade de Brasília voltado a ensino e pesquisa sobre o envelhecimento"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "deputada federal e presidente da comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Bloco/PT - CE e citada como presidente da comissão em b029.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Ceará",
+   "org_plain": "Câmara dos Deputados, onde preside a Comissão de Direitos Humanos"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "secretária substituta da Secretaria Nacional em Defesa da Pessoa Idosa",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentada pela presidência em b011.0",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional em Defesa da Pessoa Idosa",
+   "org_plain": "secretaria do Ministério dos Direitos Humanos voltada às políticas para a pessoa idosa"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "presidente do Conselho Nacional dos Direitos da Pessoa Idosa",
+   "org": "CNDI",
+   "basis": "apresentado pela presidência em b013.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Conselho Nacional dos Direitos da Pessoa Idosa",
+   "org_plain": "conselho que reúne governo e sociedade civil para acompanhar as políticas para a pessoa idosa"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "doutor em sociologia, professor emérito da UnB e representante do fórum distrital",
+   "org": "Fórum Distrital da Sociedade Civil em Defesa dos Direitos da Pessoa Idosa",
+   "basis": "apresentado pela presidência em b001.24",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do fórum distrital em defesa dos direitos da pessoa idosa",
+   "org_plain": "fórum de entidades da sociedade civil do Distrito Federal que defende os direitos da pessoa idosa"
+  },
+  "s08": {
+   "role": "governo",
+   "cargo": "defensora pública do Distrito Federal, no núcleo de direitos humanos",
+   "org": "Defensoria Pública do Distrito Federal",
+   "basis": "apresentada pela presidência em b001.21 e confirmada em b026.5",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "da Defensoria Pública do Distrito Federal",
+   "org_plain": "órgão que dá assistência jurídica gratuita a quem não pode pagar um advogado"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "deputada federal, autora do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "autoria dos requerimentos citada em b001.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Distrito Federal",
+   "org_plain": "Câmara dos Deputados, onde pediu esta audiência pública"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "conselheira nacional de saúde e representante da ABRAz",
+   "org": "Conselho Nacional de Saúde",
+   "basis": "apresentada em b044.12 e detalhada por ela em b047.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Nacional de Saúde",
+   "org_plain": "conselho que delibera e acompanha as políticas do SUS, com participação da sociedade"
+  },
+  "s11": {
+   "role": "governo",
+   "cargo": "representante da Secretaria Nacional da Política de Cuidados e Família",
+   "org": "MDS",
+   "basis": "apresentada pela presidência em b048.2",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional da Política de Cuidados e Família",
+   "org_plain": "secretaria do Ministério do Desenvolvimento Social encarregada de criar a política de cuidados"
+  },
+  "s12": {
+   "role": "sociedade_civil",
+   "cargo": "diretora do SINPRO e coordenadora da Secretaria de Assuntos para Aposentados",
+   "org": "SINPRO-DF",
+   "basis": "apresentada pela presidência em b050.8 e confirmada em b051.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Sindicato dos Professores no Distrito Federal",
+   "org_plain": "sindicato que representa os professores do Distrito Federal e cuida também dos aposentados"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "professora e cocoordenadora do Coletivo Filhas da Mãe",
+   "org": "Coletivo Filhas da Mãe",
+   "basis": "apresentada pela presidência em b052.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Coletivo Filhas da Mãe",
+   "org_plain": "movimento social que apoia mulheres que cuidam de familiares com demência, entre elas o Alzheimer"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "deputado federal e ex-secretário-adjunto nacional da pessoa idosa",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada em b054.9 e cargo anterior citado por ele em b059.4",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Distrito Federal",
+   "org_plain": "Câmara dos Deputados, onde integra a comissão de defesa dos direitos da pessoa idosa"
+  }
+ },
+ "audience": {
+  "estimate": 35,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "convidado",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "registros de palmas ao longo da sessão, a presença de professoras do sindicato citada em b051.8 e a plateia de ex-alunos e colegas mencionada em b016.2",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência, faz a audiodescrição e convida a primeira mesa sobre o Estatuto da Pessoa Idosa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária avisa que está presente e que participa da primeira mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que chamará primeiro quem está no plenário e passa a palavra à professora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe divulgar os direitos em linguagem simples, cobra orçamento à altura no Plano Plurianual e defende formação em todas as delegacias.",
+   "quote": [
+    82,
+    83,
+    84
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estatuto só sai do papel com divulgação, fluxos rápidos e formação de quem atende a pessoa idosa.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso ampliar o conhecimento da lei, porque quem não sabe que tem o direito não sabe como fazer valer esse direito",
+     "plain": "O primeiro ponto em que temos de trabalhar duro é ampliar o conhecimento e a aplicação da lei, sobretudo entre os idosos e as famílias. Quem não conhece a lei não sabe como fazer valer esses direitos, porque nem sabe que os tem."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      64,
+      65,
+      66
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o valor destinado ao tema no Plano Plurianual é baixo demais e não vai responder às demandas dos próximos 4 anos",
+     "plain": "Esta Casa aprovou há pouco o Plano Plurianual do Governo. Peço que olhem quanto foi destinado a este tema. O valor é um absurdo e não vai dar conta das demandas que teremos nos próximos 4 anos."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      81,
+      82,
+      83
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criar uma delegacia só para idosos não resolve, o que resolve é formação em todas as delegacias do país",
+     "plain": "Quando o dano já aconteceu, vem a ideia de criar uma delegacia só para idosos. Isso não resolve. O que tem de haver é formação em todas as delegacias, para que qualquer uma saiba atender o idoso que chegar lá."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de dois convidados virtuais e explica o tempo de 7 minutos por exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta os números das violações registradas no Ceará pelo Disque 100 e comemora a lei estadual que proíbe empréstimo oferecido por telefone.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A proteção da pessoa idosa precisa de dados e de leis que barrem as violações mais comuns.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Ceará o Disque 100 e o Observatório registram 6.782 violações contra a pessoa idosa e 2.548 vítimas",
+     "plain": "No Estado do Ceará, pelo Disque 100 e pelo nosso Observatório, chegamos a um total de 6.782 violações contra a pessoa idosa. Separamos as vítimas, porque uma denúncia costuma trazer várias violações: são 2.548 vítimas."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as violações são classificadas por tipo e 2.787 delas são por negligência, como deixar o pai com demência num ponto de ônibus",
+     "plain": "Temos as violações separadas por município e por tipo, como negligência e abandono. É o caso de filhos que deixam o pai já com demência numa parada de ônibus e vão embora. São 2.787 violações por negligência."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ceará acaba de aprovar um projeto que proíbe oferecer e fechar empréstimo por telefone com aposentados e pensionistas",
+     "plain": "Bato palmas aos Estados que já têm lei proibindo empréstimo por telefone para a pessoa idosa. O Ceará aprovou hoje de manhã um projeto que proíbe oferecer e fechar por telefone empréstimo com aposentados e pensionistas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à secretária do Ceará e prefere chamar as pessoas idosas de gente com juventude acumulada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária comemora a expressão usada pela presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida a presidente da comissão a assumir os trabalhos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada avisa que ficará onde está durante a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à secretária substituta da Secretaria Nacional em Defesa da Pessoa Idosa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sustenta que a pessoa idosa tem de ser vista como sujeito de direitos, lembra que ninguém envelhece igual num país desigual e convida à consulta pública sobre cuidados.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    11,
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pessoa idosa tem de ser tratada como sujeito de direitos, com autonomia respeitada e olhando as desigualdades entre quem envelhece.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ninguém envelhece da mesma forma num país tão desigual, e o que se defende é o direito de envelhecer com dignidade e igualdade de condições",
+     "plain": "Pensamos as políticas com o idoso como sujeito que tem autonomia respeitada, porque ninguém envelhece da mesma forma num País tão desigual. O que defendemos é o direito de envelhecer com dignidade e em igualdade de condições."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o IBGE aponta 15,8% de população idosa em 2022, e é urgente ver a pessoa idosa como sujeito de direitos, e não como o terceiro",
+     "plain": "Os dados mais recentes do IBGE mostram a população idosa em 15,8% no ano de 2022, e neste ano devemos ter chegado a 16%. É urgente tratar a pessoa idosa como sujeito de direitos. Ela não é o terceiro, por quem os outros escolhem."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso divulgar os direitos em linguagem simples e fazer chegar às pessoas idosas, para que não seja sempre um terceiro a lutar por elas",
+     "plain": "Concordando de novo com a Margô, o que precisamos é divulgar isso em linguagem simples e fazer chegar às pessoas idosas, para que não seja sempre um terceiro a lutar por elas. Isso vale também dentro da família, para evitar violações."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à secretária e chama o presidente do Conselho Nacional dos Direitos da Pessoa Idosa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende fortalecer os conselhos por lei, estruturar varas e delegacias para atender a pessoa idosa e lembra que não há política pública sem orçamento.",
+   "quote": [
+    30,
+    31
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estatuto só se torna efetivo com controle social forte, sistema de justiça preparado e orçamento garantido.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o primeiro passo para tornar o estatuto efetivo é fortalecer o controle social, com conselhos em condições de funcionar nos três níveis",
+     "plain": "Um primeiro passo para tornar o estatuto mais efetivo é fortalecer as estruturas de controle social, com a sociedade civil organizada. Isso se faz com conselhos nacionais, estaduais e municipais em condições reais de funcionar."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso estruturar o sistema de justiça com varas especializadas e fazer com que todas as delegacias atendam a pessoa idosa",
+     "plain": "É importante estruturar os equipamentos do sistema de justiça, para agir com agilidade, criando varas especializadas e delegacias. E não só a delegacia do idoso: toda delegacia precisa atender a pessoa idosa que procure proteção."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não existe política pública sem orçamento para executá-la",
+     "plain": "Por último, é preciso destacar a importância do orçamento. Não existe política pública sem orçamento para ser executada."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência conta a história do Papa João XXIII e passa a palavra ao representante do Fórum Distrital.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende a renda garantida por fundo público, denuncia o uso dos fundos da pessoa idosa para outros fins e cobra a aprovação da Convenção Interamericana.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16
+   ],
+   "open_question": 38,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem renda garantida por fundo público e sem orçamento próprio não há direito humano para quem envelhece.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a principal questão para a vida das pessoas idosas é ter renda garantida com fundo público, e ainda assim elas são tratadas como um peso",
+     "plain": "A principal questão para a vida das pessoas idosas é ter renda, e renda garantida com fundo público. O estatuto assegura isso, mas é uma questão fundamental, porque ainda se considera a pessoa idosa um peso."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso assegurar o orçamento da pessoa idosa e impedir que governadores tirem dinheiro do fundo para cobrir o orçamento do Estado",
+     "plain": "Como o Raphael já disse, é preciso assegurar o orçamento para a pessoa idosa e não deixar que usurpem esses fundos. Muitos governadores estão metendo a mão no fundo da pessoa idosa e sacando dinheiro dele para cobrir o orçamento do Estado."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Convenção Interamericana, que a OEA concluiu em 2015, está no PDL 863/17 e é travada por causa do art. 5º",
+     "plain": "A Convenção Interamericana sobre os direitos humanos dos idosos, de 2015, precisa ser aprovada logo. Ela está no PDL 863/17 e partidos de extrema direita a travam por causa do art. 5º, que trata de viver com o gênero que a pessoa escolher."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca com a conta das idades e pergunta a idade do expositor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O expositor responde que está com 82 anos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência soma os dois algarismos da idade e diz que ele está na infância.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária entra na brincadeira e pergunta a própria conta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que ela mesma faça a conta e pergunta sua idade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária diz que tem 80 anos e pergunta em que idade ficou na conta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência completa a brincadeira com a própria idade e a dos convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O expositor comenta que o limite da idade é o que se constrói socialmente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à defensora pública do Distrito Federal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Faz a autodescrição, apresenta o núcleo de direitos humanos e cobra mais defensores, porque um só fica sobrecarregado com tantas causas.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A defesa da pessoa idosa precisa de mais defensores públicos dedicados a ela.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um só defensor público fica sobrecarregado com as causas das pessoas com deficiência e das pessoas idosas, que são muito demandadas",
+     "plain": "Atuo no ofício que defende as pessoas com deficiência e as pessoas idosas, e hoje acumulamos esse ofício. Uma das minhas lutas é ter mais defensores para a causa, porque a demanda é grande e um defensor sozinho fica sobrecarregado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária responde com um agradecimento carinhoso à defensora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b028",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra que o Estado assuma o cuidado quando a família não tem condições e denuncia a sobrecarga das mulheres da geração sanduíche.",
+   "quote": [
+    66,
+    67
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 70,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cuidado não pode ser jogado só na família, o Estado tem responsabilidade direta de garantir o que o estatuto promete.",
+    "sentence": 67
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      44,
+      45,
+      46
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pelo art. 14, se a pessoa idosa e a família não têm condições de prover o sustento, cabe ao poder público fazê-lo",
+     "plain": "Quero lembrar o art. 14, de que ainda não se falou aqui. Se a pessoa idosa e seus familiares não tiverem condições econômicas de prover o próprio sustento, cabe ao poder público esse provimento, dentro da assistência social."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ao se pedir assistência social para uma pessoa idosa, a primeira resposta é perguntar se ela tem família, sem olhar o contexto",
+     "plain": "Quando peço assistência social para uma pessoa idosa, a primeira resposta da secretaria é uma pergunta: tem família? Se tem, não é com eles. E ninguém olha o contexto dessa família nem faz um estudo do caso."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      66,
+      67
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há uma geração de mulheres que cuidam de filhos e pais ao mesmo tempo, a geração sanduíche, com acesso negado à assistência social",
+     "plain": "Temos uma geração inteira de mulheres sobrecarregadas, que cuidam dos filhos e dos pais ao mesmo tempo, a chamada geração sanduíche, e que têm o acesso à assistência social negado. Efetivar o que o estatuto promete é dever direto do Estado."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra a primeira mesa e anuncia que a segunda será presidida pela deputada Luizianne Lins.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pergunta se a secretária do Ceará está acompanhando a transmissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b031",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária confirma que está vendo a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b032",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada quebra o protocolo para homenagear a secretária do Ceará pelos 80 anos e pela trajetória no serviço público.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b033",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária agradece a homenagem, emocionada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b034",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada entrega as flores da homenagem e combina de levar as fotos pessoalmente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b035",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária recebe as flores e retribui o carinho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b036",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que só um expositor da primeira mesa segue na segunda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b037",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária comenta a surpresa da homenagem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b038",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do conselho parabeniza a homenageada e endossa as palavras da deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b039",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária agradece ao presidente do conselho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b040",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do conselho manda mais um cumprimento à homenageada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b041",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária agradece de novo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b042",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do conselho se despede e avisa que vai acompanhar a reunião por outro link.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o debate da primeira mesa e chama a autora do requerimento para abrir a segunda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a segunda mesa defendendo que a política de cuidado integral atravesse educação, renda, saúde e cultura, e apresenta os convidados.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de cuidado integral só funciona se costurar várias políticas públicas em torno dos direitos da pessoa idosa.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "política integral quer dizer diálogo com educação, geração de renda, saúde e cultura, todas voltadas aos direitos da pessoa idosa",
+     "plain": "Política integral quer dizer diálogo com várias políticas públicas: a educação, a geração de renda, a saúde, a cultura. São muitas, e todas precisam ser trançadas com foco nos direitos da pessoa idosa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Define cuidado como ter direitos e zelar por eles, recusa reduzir o cuidado ao trabalho da mulher e defende contrato de trabalho para quem cuida.",
+   "quote": [
+    37,
+    38,
+    39
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cuidar é efetivar direitos e também é trabalho, e por isso quem cuida precisa ter direitos assegurados.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b045c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "proteger é ter direitos e zelar por eles, e zelar significa serviços, benefícios e uma rede de proteção",
+     "plain": "Proteger é ter direitos e zelar pelos direitos. Na nossa legislação não há proteção sem direito e sem zelo pelos direitos. E zelar pelos direitos significa serviços, benefícios e também uma rede de proteção."
+    },
+    {
+     "id": "b045c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "confunde-se o cuidado com a atuação da mulher, mas o cuidado é também do homem, do jovem, do treinador, do zelador e do síndico",
+     "plain": "Na sociologia a relação de serviço aparece sobretudo no caso da mulher, ligada ao care. Muitas vezes se confunde cuidado com trabalho de mulher, mas cuidam também o homem, o jovem, o atleta, o treinador, o zelador, o síndico."
+    },
+    {
+     "id": "b045c3",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalho de cuidar precisa entrar na política, e o cuidador e a cuidadora precisam ter direitos assegurados num contrato de trabalho",
+     "plain": "É preciso que o trabalho de cuidar entre também na política. Esse é um direito de quem exerce o cuidado. Quem cuida precisa ter direitos garantidos num contrato de trabalho."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b046",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata a aprovação da aposentadoria das mães cuidadoras aos 62 anos e sustenta que o cuidar não pode ser apropriado pelo mercado.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cuidar é trabalho e tem de ter a pessoa no centro, sem virar mercadoria.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão de Previdência aprovou a aposentadoria das mães cuidadoras aos 62 anos, reconhecendo que cuidar é trabalho",
+     "plain": "Acabamos de aprovar na Comissão de Previdência um projeto que garante às mães cuidadoras o direito de se aposentar aos 62 anos, com parcelamento do débito previdenciário. Aprovamos reconhecendo que há trabalho no cuidar."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais do que administrar é preciso cuidar, com as pessoas no centro, e o cuidar não pode ser apropriado pelo mercado",
+     "plain": "Lembro de Lula dizendo que, mais do que administrar, precisamos cuidar, e cuidar com a pessoa no centro. O cuidar não pode ser apropriado pelo mercado. Às vezes se cuida mais das mercadorias do que das pessoas, e se mercantiliza a pessoa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra que cerca de 80% dos idosos usam o SUS, que nem todo mundo envelhece igual, e pede apoio ao projeto sobre cuidado a pessoas com demência.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 42,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cuidado precisa chegar pelo SUS a todas as velhices, inclusive às pessoas com demência e suas famílias.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b047c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil está envelhecendo, mas nem todo mundo envelhece do mesmo jeito, e é preciso respeitar as diferenças regionais",
+     "plain": "Já se comentou aqui que o Brasil envelhece, mas não é do mesmo jeito para todo mundo. Temos de respeitar as diferenças regionais: há povos indígenas, povos ribeirinhos, gente que envelhece na cidade e gente que envelhece no campo."
+    },
+    {
+     "id": "b047c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Política Nacional do Idoso, de 1994, assegura atenção integral à saúde pelo SUS, e cerca de 80% das pessoas idosas acessam o SUS",
+     "plain": "A Política Nacional do Idoso, de 1994, serviu de referência para o Estatuto e diz que a atenção integral à saúde da pessoa idosa é assegurada pelo SUS, o Sistema Único de Saúde. Cerca de 80% da população idosa acessa o SUS."
+    },
+    {
+     "id": "b047c3",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto sobre cuidado integral às pessoas com demência já passou pelo Senado e pelas comissões da Câmara e precisa ir a plenário",
+     "plain": "Trabalhamos para aprovar a política nacional de cuidado integral para pessoas com demência e suas famílias, projeto do senador Paulo Paim já aprovado no Senado e em todas as comissões da Câmara. Peço o apoio dos senhores."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b048",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à conselheira de saúde e passa a palavra à representante do Ministério do Desenvolvimento Social.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b049",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta os números do Cadastro Único e explica que a política de cuidados vai partir das ofertas que já existem para achar as lacunas.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de cuidados deve organizar e completar o que já existe, com responsabilidade dividida entre Estado, famílias e empresas.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b049c1",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dos cerca de 97 milhões no Cadastro Único, 12 milhões são idosos, quase 40% das pessoas idosas do país",
+     "plain": "Das mais ou menos 97 milhões de pessoas no Cadastro Único, 12 milhões são pessoas idosas. Isso é quase 40% das pessoas idosas do Brasil, ou seja, gente em situação de vulnerabilidade, de pobreza ou de extrema pobreza."
+    },
+    {
+     "id": "b049c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a política quer garantir o direito ao cuidado, valorizar quem cuida e dividir a responsabilidade entre família, Estado, mercado e empresas",
+     "plain": "Queremos garantir o direito ao cuidado, valorizar quem cuida, sobretudo as mulheres, e dividir a responsabilidade entre família, Estado, mercado e empresas. Como disse o professor, é preciso garantir condições de trabalho a quem atua ali."
+    },
+    {
+     "id": "b049c3",
+     "sentences": [
+      30
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ideia não é criar uma política do zero, mas achar as lacunas entre o que já se oferece e o que a população demanda",
+     "plain": "A expectativa não é criar uma política do zero. É identificar, no que já se oferece e no que a população demanda, quais são as lacunas: o que precisamos qualificar, regulamentar e financiar. Criar programas novos é o último caso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b050",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que a comissão aprovou no Plano Plurianual um aporte para começar a implementar a política de cuidados e diz que o país está atrasado.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de cuidados precisa de dinheiro previsto no orçamento para sair do papel.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b050c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a comissão aprovou no Plano Plurianual um aporte de recursos para começar a implementar a política de cuidados",
+     "plain": "Informo que aprovamos nesta Comissão, no Plano Plurianual, um aporte de recursos para começar a implementar a política dos cuidados. Fazemos isso porque o Brasil está atrasado, se comparado a boa parte da América Latina."
+    },
+    {
+     "id": "b050c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o tema do cuidado caiu no ENEM e muita gente não sabia do que se tratava, porque o país ainda está engatinhando nessa política",
+     "plain": "O assunto até caiu no ENEM e muita gente não entendeu do que se tratava, porque ainda estamos no começo dessa política. Por isso priorizamos um valor no orçamento do ministério, para começar a calcular esse cuidado dentro do PIB."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b051",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Mostra a pesquisa do sindicato com aposentados endividados e adoecidos e alerta contra a reforma administrativa em tramitação.",
+   "quote": [
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os aposentados estão envelhecendo endividados e doentes, e novas reformas pioram esse quadro.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b051c1",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na pesquisa do sindicato, 65% dos respondentes têm vida financeira deficitária e 83% têm problemas de saúde",
+     "plain": "Responderam quase mil pessoas, mais de 10% dos aposentados sindicalizados. Dessas, 65% se sentem com a vida financeira deficitária, e 83% têm problemas de saúde, sendo 47% transtornos ansiosos. É gente que envelhece endividada e adoecida."
+    },
+    {
+     "id": "b051c2",
+     "sentences": [
+      13
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a PEC 32, da reforma administrativa, que tramita na Casa, é um ataque direto ao serviço público e também às aposentadorias",
+     "plain": "Tramita nesta Casa a PEC 32, que trata da reforma administrativa. Ela é um ataque direto ao serviço público e também às aposentadorias."
+    },
+    {
+     "id": "b051c3",
+     "sentences": [
+      40,
+      41
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso orçamento para as políticas públicas da pessoa idosa, e para consegui-lo é preciso lutar junto",
+     "plain": "Precisamos conversar. Alguém aqui falou em orçamento. Precisamos de orçamento para as políticas públicas da pessoa idosa, e para isso precisamos dar as mãos e lutar juntos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b052",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à dirigente sindical e passa a palavra à última convidada inscrita.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b053",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Trata cuidado, autocuidado e informação como direitos humanos, relata um caso de recusa de proteção pela idade e fala das cuidadoras que adoecem.",
+   "quote": [
+    44,
+    45,
+    46
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 36,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cuidar, ser cuidado e ter informação são direitos humanos, e quem cuida sem remuneração está adoecendo.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b053c1",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cuidado, autocuidado e informação são direitos humanos, porque sem informação ninguém sabe o que diz o Estatuto da Pessoa Idosa",
+     "plain": "Consideramos direitos humanos o cuidado, o autocuidado, o direito de cuidar e de ser cuidado e o envelhecimento digno. E a informação também, porque sem ela ninguém sabe o que diz o Estatuto da Pessoa Idosa."
+    },
+    {
+     "id": "b053c2",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um juiz negou a proteção da Lei Maria da Penha a uma mulher idosa, como se ela deixasse de ser mulher aos 60 anos",
+     "plain": "Recentemente um juiz negou a proteção da Lei Maria da Penha a uma mulher que sofreu violência doméstica e estava muito machucada, porque ela é idosa. Ela deixou de ser mulher. Para esse juiz, o estatuto de mulher acabou aos 60 anos."
+    },
+    {
+     "id": "b053c3",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além das cuidadoras familiares há as amigas e vizinhas, cuidadoras invisíveis, todas sem remuneração e adoecendo física e emocionalmente",
+     "plain": "Falamos das mulheres cuidadoras familiares, mas quero falar também das amigas e das vizinhas, que são cuidadoras invisíveis, nem sequer vistas e reconhecidas. Todas elas são mulheres sem remuneração, que adoecem física e emocionalmente."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b054",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Avalia que o sonho de envelhecer com cuidado virou desamparo e conta a experiência dos CAPS implantados quando foi prefeita.",
+   "quote": [
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso olhar o que andou e o que não andou no Estatuto e preparar a sociedade para o envelhecimento.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b054c1",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o que poderia ser o sonho de envelhecer com qualidade de vida, descanso e cuidado virou um espaço de desamparo, abandono e violação",
+     "plain": "Para termos uma ideia: aquilo que poderia ser o sonho de envelhecer com qualidade de vida, descanso e cuidado virou espaço de desamparo, de abandono e de violação."
+    },
+    {
+     "id": "b054c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em 8 anos de prefeitura foram implantados 14 CAPS, e isso foi importante sobretudo para quem não pode pagar tratamento de saúde mental",
+     "plain": "Fui prefeita de Fortaleza e sempre cito a nossa política dos CAPS, os Centros de Atenção Psicossocial. Foram 8 anos de prefeitura e implantamos 14 CAPS. Vimos como isso foi importante para quem não pode pagar tratamento de saúde mental."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b055",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O expositor completa a frase da presidência sobre viver muito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b056",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Observa que o país não aproveita a experiência de quem envelhece e cita o crescimento da população de 60 anos ou mais em dez anos.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A sociedade brasileira ainda não aprendeu a aproveitar a experiência de quem envelhece.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b056c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em 10 anos as pessoas com 60 anos ou mais passaram de 11,3% para 14,7% da população, e o país não aproveita essa experiência",
+     "plain": "Falta no Brasil o costume de aproveitar a experiência de quem está envelhecendo. Pela pesquisa de domicílios do IBGE, em 10 anos as pessoas com 60 anos ou mais passaram de 11,3% para 14,7% da população."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b057",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O expositor aparta com duas palavras sobre proteção social.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b058",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta como está envelhecendo a população mais vulnerável, lembra o decreto que mudou o conselho e aponta o orçamento como desafio imediato.",
+   "quote": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem respaldo orçamentário e sem recorte da pessoa idosa em todas as políticas, o Estatuto não se realiza.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b058c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a pergunta que o Parlamento deve fazer é como está envelhecendo a população mais vulnerável, sobre a qual os preconceitos se somam",
+     "plain": "A pergunta que o Parlamento precisa fazer agora é esta: como anda o envelhecimento, sobretudo o da parte mais vulnerável? Essa gente muitas vezes não tem condição social de envelhecer com dignidade, e aí os preconceitos se somam."
+    },
+    {
+     "id": "b058c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Decreto nº 11.483, de 2023, ampliou as competências do conselho, mas falta até o conhecimento da população idosa sobre o seu estatuto",
+     "plain": "Houve uma mudança importante no conselho nacional da pessoa idosa. Pelo Decreto nº 11.483, de 2023, ele ganhou mais competências e mais democracia. Ainda assim falta muita coisa, e falta a população idosa conhecer o seu estatuto."
+    },
+    {
+     "id": "b058c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desafio que bate à porta é o orçamento, construir respaldo orçamentário para implementar as políticas públicas",
+     "plain": "Também é preciso ter ações práticas. Mas neste momento temos um desafio batendo à nossa porta: o Orçamento. Precisamos construir respaldo orçamentário para implementar essas políticas públicas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b059",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata que pediu debate sobre o aumento do suicídio entre idosos e propõe ampliar o tempo de confirmação do voto na urna.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Pequenas mudanças práticas ajudam a incluir e a valorizar a pessoa idosa na sociedade.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b059c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o suicídio entre idosos vem aumentando, muitas vezes porque a pessoa acha que já cumpriu sua missão, ou pela aposentadoria e pela viuvez",
+     "plain": "Apresentei na Comissão do Idoso um requerimento sobre o suicídio entre idosos. Os dados mostram que o número aumenta, muitas vezes porque a pessoa acha que já cumpriu a missão, ou pela aposentadoria, pela falta dos amigos, pela viuvez."
+    },
+    {
+     "id": "b059c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "muitos idosos apertam duas vezes o primeiro número do candidato e o voto vira de legenda, por isso o tempo de confirmação deveria aumentar",
+     "plain": "Nas eleições, muitos idosos, ao digitar o número do candidato, apertam duas vezes o primeiro número, e o voto acaba indo para a legenda. Sugeri uma audiência com a Corregedoria do TSE para aumentar o tempo de confirmação do voto."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b060",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Encerra defendendo recorte da pessoa idosa em editais, cotas e trabalho, e lembra que o etarismo anda junto com outras discriminações.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Todas as políticas públicas precisam de um recorte da pessoa idosa, para romper a invisibilidade e o etarismo.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b060c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todas as políticas públicas precisam de recorte para os idosos, nos editais, nas cotas e no acesso ao trabalho, para romper a invisibilidade",
+     "plain": "Penso que todas as políticas públicas devem ter esse recorte: recorte nos editais, recorte nas cotas, recorte para o acesso ao mercado de trabalho. É assim que se rompe a invisibilidade e a solidão, porque muitas vezes há solidão."
+    },
+    {
+     "id": "b060c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "várias discriminações caminham grudadas na discriminação à pessoa idosa, como se a sociedade achasse que o idoso já cumpriu a sua função",
+     "plain": "São várias discriminações que se aliam e caminham grudadas na discriminação contra a pessoa idosa: a LGBTfóbica, a racial, a social, a sexista, a machista. É como se a sociedade achasse que o idoso já cumpriu a sua função."
+    },
+    {
+     "id": "b060c3",
+     "sentences": [
+      22
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a sociedade impõe solidão às mulheres ao tratar o cuidar como função delas, quando cuidar é de todo mundo e de quem ocupa cargo público",
+     "plain": "Esta sociedade impõe solidão, sobretudo às mulheres, ao dizer que a função delas é a doméstica. Como lembrou o Vicente Faleiros, parece que só a mulher cuida. Mas cuidar é tarefa de todos, e em especial de quem ocupa cargo público."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 21,
+   "from_claim": "b012c3",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "A secretária concorda com a professora: é preciso divulgar os direitos em linguagem simples, porque quem não sabe que tem o direito não cobra nada."
+  },
+  {
+   "from": "b014",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 83,
+   "from_claim": "b014c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Os dois defendem o mesmo ponto: não basta uma delegacia do idoso, toda delegacia precisa saber atender quem chega pedindo proteção."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 38,
+   "from_claim": "b016c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "O professor retoma o alerta do conselho sobre orçamento e acrescenta que o dinheiro dos fundos da pessoa idosa está sendo usado para outros fins."
+  },
+  {
+   "from": "b028",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 46,
+   "to_sentence": 9,
+   "from_claim": "b028c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Onde o professor diz que a renda é a questão central, a defensora lembra o artigo do estatuto que obriga o poder público a prover o sustento."
+  },
+  {
+   "from": "b028",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 67,
+   "to_sentence": 22,
+   "from_claim": "b028c3",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "As duas sustentam que o direito de envelhecer com dignidade só existe se o Estado garantir na prática o que o estatuto promete."
+  },
+  {
+   "from": "b046",
+   "to": "b045",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 39,
+   "from_claim": "b046c1",
+   "to_claim": "b045c3",
+   "strength": "forte",
+   "note": "Ao pedido de contrato de trabalho para quem cuida, a mesa responde com a aposentadoria das mães cuidadoras aprovada na Comissão de Previdência."
+  },
+  {
+   "from": "b047",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 20,
+   "from_claim": "b047c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "A conselheira de saúde repete o ponto da secretária de que ninguém envelhece igual e acrescenta as diferenças entre campo, cidade, indígenas e ribeirinhos."
+  },
+  {
+   "from": "b049",
+   "to": "b045",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 39,
+   "from_claim": "b049c2",
+   "to_claim": "b045c3",
+   "strength": "forte",
+   "note": "O ministério acolhe o ponto do professor e inclui na política a garantia de condições de trabalho para quem atua no cuidado."
+  },
+  {
+   "from": "b049",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 14,
+   "to_sentence": 46,
+   "from_claim": "b049c2",
+   "to_claim": "b028c1",
+   "strength": "forte",
+   "note": "À cobrança de que o Estado assuma o cuidado quando a família não tem condições, o ministério responde propondo dividir a responsabilidade entre família, Estado, mercado e empresas."
+  },
+  {
+   "from": "b050",
+   "to": "b049",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 30,
+   "from_claim": "b050c1",
+   "to_claim": "b049c3",
+   "strength": "media",
+   "note": "À política em construção no ministério, a mesa responde que a comissão já aprovou no Plano Plurianual um aporte para começar a implementá-la."
+  },
+  {
+   "from": "b051",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 32,
+   "from_claim": "b051c3",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A dirigente sindical retoma a cobrança de orçamento feita pelo professor e diz que só se consegue isso com luta conjunta."
+  },
+  {
+   "from": "b051",
+   "to": "b049",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 19,
+   "from_claim": "b051c1",
+   "to_claim": "b049c1",
+   "strength": "media",
+   "note": "Os números do ministério sobre pobreza entre idosos encontram eco na pesquisa do sindicato, que mostra aposentados endividados e adoecidos."
+  },
+  {
+   "from": "b053",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 10,
+   "from_claim": "b053c2",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "O professor diz que a pessoa idosa ainda é tratada como um peso, e ela dá o exemplo do juiz que negou proteção a uma mulher por ela ter mais de 60 anos."
+  },
+  {
+   "from": "b053",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 21,
+   "from_claim": "b053c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "As duas tratam a informação como parte do direito: sem saber o que diz o estatuto, a pessoa idosa não consegue exigir nada."
+  },
+  {
+   "from": "b053",
+   "to": "b045",
+   "kind": "apoia",
+   "from_sentence": 45,
+   "to_sentence": 39,
+   "from_claim": "b053c3",
+   "to_claim": "b045c3",
+   "strength": "forte",
+   "note": "Onde o professor pede direitos para quem cuida, ela mostra quem são essas pessoas: mulheres sem remuneração, inclusive amigas e vizinhas, que adoecem."
+  },
+  {
+   "from": "b053",
+   "to": "b047",
+   "kind": "apoia",
+   "from_sentence": 45,
+   "to_sentence": 41,
+   "from_claim": "b053c3",
+   "to_claim": "b047c3",
+   "strength": "media",
+   "note": "O coletivo que apoia cuidadoras de pessoas com demência reforça o projeto de política de cuidado para essas famílias defendido pela conselheira."
+  },
+  {
+   "from": "b054",
+   "to": "b047",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 21,
+   "from_claim": "b054c2",
+   "to_claim": "b047c2",
+   "strength": "media",
+   "note": "A conselheira lembra que quase toda a população idosa depende do SUS, e a mesa conta que os CAPS foram decisivos para quem não pode pagar saúde mental."
+  },
+  {
+   "from": "b058",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 21,
+   "from_claim": "b058c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Ao fim do debate a mesa chega à mesma conclusão da professora: falta a própria população idosa conhecer o seu estatuto."
+  },
+  {
+   "from": "b058",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 32,
+   "from_claim": "b058c3",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "A mesa assume como desafio imediato a cobrança do professor e do conselho: construir respaldo orçamentário para as políticas."
+  },
+  {
+   "from": "b058",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 22,
+   "from_claim": "b058c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A mesa retoma o ponto da secretária sobre desigualdade e pergunta como está envelhecendo a parte mais vulnerável da população."
+  },
+  {
+   "from": "b060",
+   "to": "b059",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 7,
+   "from_claim": "b060c2",
+   "to_claim": "b059c1",
+   "strength": "media",
+   "note": "O deputado liga o aumento do suicídio à ideia de que a missão já foi cumprida, e a mesa diz que a sociedade mesma trata o idoso como quem já cumpriu sua função."
+  },
+  {
+   "from": "b060",
+   "to": "b045",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 24,
+   "from_claim": "b060c3",
+   "to_claim": "b045c2",
+   "strength": "forte",
+   "note": "A mesa cita o professor para dizer que o cuidar não é exclusivo das mulheres e que cuidar também é obrigação de quem ocupa cargo público."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b012",
+    "b014",
+    "b053",
+    "b058"
+   ],
+   "claims": [
+    "b004c1",
+    "b012c3",
+    "b014c1",
+    "b053c1",
+    "b058c2"
+   ],
+   "note": "A professora da UnB, a secretaria nacional, o conselho nacional, um coletivo de cuidadoras e a mesa concordam que o estatuto não se realiza enquanto a própria população idosa não conhecer os seus direitos."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b028",
+    "b044",
+    "b045",
+    "b046",
+    "b054"
+   ],
+   "claims": [
+    "b028c1",
+    "b028c3",
+    "b045c1",
+    "b046c2",
+    "b054c2"
+   ],
+   "note": "A defensoria pública, o fórum da sociedade civil e a mesa concordam que o cuidado é dever do Estado e não pode ser deixado por conta da família nem do mercado."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b014",
+    "b016",
+    "b050",
+    "b051",
+    "b058"
+   ],
+   "claims": [
+    "b004c2",
+    "b014c3",
+    "b016c2",
+    "b050c1",
+    "b051c3",
+    "b058c3"
+   ],
+   "note": "Academia, conselho nacional, fórum da sociedade civil, sindicato e a mesa concordam que sem orçamento próprio e protegido nenhuma política para a pessoa idosa acontece."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b016",
+    "b049",
+    "b051"
+   ],
+   "claims": [
+    "b016c1",
+    "b049c1",
+    "b051c1"
+   ],
+   "note": "O fórum da sociedade civil, o ministério e o sindicato concordam que a renda garantida pelo poder público é a base da vida de quem envelhece, e que boa parte dessa população está em situação de pobreza."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b012",
+    "b047",
+    "b053",
+    "b058",
+    "b060"
+   ],
+   "claims": [
+    "b012c1",
+    "b012c2",
+    "b047c1",
+    "b053c2",
+    "b058c1",
+    "b060c1"
+   ],
+   "note": "A secretaria nacional, o conselho de saúde, um coletivo de cuidadoras e a mesa concordam que a pessoa idosa é sujeito de direitos e que o etarismo se soma a outras discriminações."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b026",
+    "b045",
+    "b046",
+    "b053"
+   ],
+   "claims": [
+    "b026c1",
+    "b045c3",
+    "b046c1",
+    "b053c3"
+   ],
+   "note": "A defensoria pública, o fórum da sociedade civil, a mesa e o coletivo de cuidadoras concordam que cuidar é trabalho e que quem cuida e quem atende precisam de direitos e de estrutura."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 65,
+   "addressed_to": "parlamentar",
+   "answered_by": "b050",
+   "gist": "quanto o Plano Plurianual destinou ao tema da pessoa idosa",
+   "plain": "Quanto o Plano Plurianual destinou para o tema da pessoa idosa?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 38,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "quando a Câmara vai aprovar a Convenção Interamericana",
+   "plain": "Quando a Câmara vai levar a plenário a Convenção Interamericana sobre os direitos das pessoas idosas?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b028",
+   "sentence": 70,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que a Casa ajude a ouvir as pessoas idosas em situação de vulnerabilidade",
+   "plain": "A Câmara pode ajudar a defensoria a ouvir as pessoas idosas que estão sendo excluídas?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b047",
+   "sentence": 42,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "apoio para levar a plenário o projeto sobre cuidado a pessoas com demência",
+   "plain": "Os deputados vão apoiar a ida a plenário do projeto sobre cuidado às pessoas com demência?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b053",
+   "sentence": 36,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "formação permanente para gestores e juízes sobre pessoa idosa",
+   "plain": "Quem vai garantir formação permanente para gestores e juízes sobre os direitos da pessoa idosa?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b006",
+   "sentence": 3,
+   "gist": "o Estatuto da Pessoa Idosa é a Lei nº 10.741, de 2003",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 20,
+   "gist": "6.782 violações contra a pessoa idosa registradas no Ceará",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 24,
+   "gist": "2.787 dessas violações são por negligência",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b012",
+   "sentence": 9,
+   "gist": "a população idosa era 15,8% em 2022, pelo IBGE",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b016",
+   "sentence": 38,
+   "gist": "a Convenção Interamericana foi concluída pela OEA em 2015",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b046",
+   "sentence": 2,
+   "gist": "aprovada a aposentadoria das mães cuidadoras aos 62 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b047",
+   "sentence": 19,
+   "gist": "a Política Nacional de Saúde da Pessoa Idosa foi aprovada em 2006",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b047",
+   "sentence": 21,
+   "gist": "cerca de 80% das pessoas idosas acessam o SUS",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b049",
+   "sentence": 19,
+   "gist": "quase 40% das pessoas idosas estão no Cadastro Único",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b049",
+   "sentence": 21,
+   "gist": "quase 5% dos idosos do país estão acamados em casa",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b049",
+   "sentence": 27,
+   "gist": "proposta da política de cuidados prevista para maio de 2024",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b056",
+   "sentence": 6,
+   "gist": "em 10 anos, os de 60 anos ou mais passaram de 11,3% a 14,7%",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d3",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "governo",
+   "parlamentar",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu os números do Ministério do Desenvolvimento Social e a cobrança por uma política nacional de cuidados que passe da família para o Estado e outros setores.",
+  "omitted": "Ficou de fora quase toda a primeira mesa, com as violações registradas no Ceará, a cobrança de orçamento e o relato das cuidadoras que adoecem. A matéria também atribuiu à deputada que pediu a audiência uma frase sobre o cuidar que foi dita pelo deputado que presidia a mesa."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Quando a família não dá conta, cuidar é dever do Estado",
+   "statement_plain": "O cuidado da pessoa idosa não pode ser jogado na conta da família. Quando a pessoa e a família não têm condições, é o poder público que tem de prover.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b028c1",
+    "b028c2",
+    "b028c3",
+    "b046c2",
+    "b054c2",
+    "b060c3"
+   ],
+   "note": "É uma ideia, não um setor: quem a defende é uma defensora pública, que é do Estado, contra a própria prática da assistência social, e a mesa da Câmara entra do mesmo lado."
+  },
+  {
+   "id": "t2",
+   "title": "Cuidado dividido entre Estado, família e empresas",
+   "statement_plain": "A política de cuidados deve partir do que já existe e dividir a responsabilidade entre família, Estado, mercado e empresas, com orçamento próprio para começar.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b049c2",
+    "b050c1",
+    "b058c3"
+   ],
+   "note": "É a ideia que divide o próprio campo governista: o ministério propõe dividir o cuidado com o mercado e as empresas, enquanto a mesa da comissão diz que o cuidar não pode ser apropriado pelo mercado."
+  },
+  {
+   "id": "t3",
+   "title": "Sem saber o que diz a lei, não há direito",
+   "statement_plain": "O Estatuto da Pessoa Idosa só sai do papel quando a própria pessoa idosa e sua família souberem, em linguagem simples, quais são os seus direitos.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b012c3",
+    "b014c1",
+    "b053c1",
+    "b058c2"
+   ],
+   "note": "A ideia junta a academia, a secretaria nacional do governo, o conselho nacional, um coletivo de cuidadoras e a própria mesa, que são de lugares bem diferentes."
+  },
+  {
+   "id": "t4",
+   "title": "Ninguém envelhece igual, e o etarismo vem colado",
+   "statement_plain": "Num país desigual as pessoas envelhecem de formas muito diferentes, e o preconceito de idade se soma ao de raça, de gênero e de classe.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b047c1",
+    "b053c2",
+    "b058c1",
+    "b060c2"
+   ],
+   "note": "A ideia atravessa o governo federal, um conselho de saúde, um coletivo do Distrito Federal e a mesa da comissão, e é sustentada com dados e com relatos."
+  },
+  {
+   "id": "t5",
+   "title": "Sem orçamento não existe política para o idoso",
+   "statement_plain": "Não há política pública para a pessoa idosa sem dinheiro previsto no orçamento, e o dinheiro dos fundos precisa ser usado só para isso.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b014c3",
+    "b016c2",
+    "b051c3",
+    "b058c3",
+    "b050c1"
+   ],
+   "note": "É uma ideia que cruza a academia, um conselho ligado ao Executivo, um fórum da sociedade civil, um sindicato e a própria mesa da comissão, e que cobra tanto o Plano Plurianual quanto governos estaduais."
+  },
+  {
+   "id": "t6",
+   "title": "Cuidar é trabalho e quem cuida precisa de direitos",
+   "statement_plain": "Cuidar é trabalho, e quem cuida, com ou sem salário, precisa de direitos, de contrato e de gente para dividir a tarefa.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b026c1",
+    "b045c3",
+    "b046c1",
+    "b053c3"
+   ],
+   "note": "A ideia junta um professor de sociologia, uma defensora pública, um coletivo de cuidadoras e a mesa, e trata como trabalho o que a sala vinha chamando de dever de família."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Estatuto da Pessoa Idosa",
+   "fala": "b001",
+   "sentence": 0,
+   "plain": "lei de 2003 que reúne os direitos das pessoas de 60 anos ou mais e as obrigações do Estado, da família e da sociedade"
+  },
+  {
+   "term": "LIBRAS",
+   "fala": "b001",
+   "sentence": 9,
+   "plain": "Língua Brasileira de Sinais, usada por pessoas surdas, com intérprete nas reuniões da Câmara"
+  },
+  {
+   "term": "etarismo",
+   "fala": "b004",
+   "sentence": 77,
+   "plain": "preconceito contra alguém por causa da idade, em geral contra pessoas mais velhas"
+  },
+  {
+   "term": "Disque 100",
+   "fala": "b006",
+   "sentence": 17,
+   "plain": "canal de telefone do governo federal para denunciar violações de direitos humanos, inclusive contra pessoas idosas"
+  },
+  {
+   "term": "interseccionalidades",
+   "fala": "b012",
+   "sentence": 20,
+   "plain": "forma de olhar como raça, gênero, classe e idade se somam na vida de uma pessoa e mudam o que ela enfrenta"
+  },
+  {
+   "term": "familismo",
+   "fala": "b028",
+   "sentence": 43,
+   "plain": "jogar na família a responsabilidade por cuidados que deveriam ser do poder público"
+  },
+  {
+   "term": "geração sanduíche",
+   "fala": "b028",
+   "sentence": 66,
+   "plain": "quem cuida dos filhos e dos pais ao mesmo tempo, em geral mulheres, ficando prensada entre as duas tarefas"
+  },
+  {
+   "term": "SUS",
+   "fala": "b047",
+   "sentence": 9,
+   "plain": "Sistema Único de Saúde, a rede pública de saúde que atende qualquer pessoa de graça"
+  },
+  {
+   "term": "idadismo",
+   "fala": "b047",
+   "sentence": 30,
+   "plain": "o mesmo que etarismo, o preconceito por causa da idade, que também aparece nas regras e nos serviços"
+  },
+  {
+   "term": "capacidade funcional",
+   "fala": "b047",
+   "sentence": 18,
+   "plain": "o quanto a pessoa consegue fazer sozinha as tarefas do dia a dia, como se vestir, comer e andar"
+  },
+  {
+   "term": "BPC",
+   "fala": "b049",
+   "sentence": 20,
+   "plain": "Benefício de Prestação Continuada, um salário mínimo por mês pago a idosos e pessoas com deficiência de baixa renda"
+  },
+  {
+   "term": "Cadastro Único",
+   "fala": "b049",
+   "sentence": 18,
+   "plain": "registro do governo federal com as famílias de baixa renda, usado para conceder benefícios sociais"
+  },
+  {
+   "term": "SUAS",
+   "fala": "b049",
+   "sentence": 29,
+   "plain": "Sistema Único de Assistência Social, a rede pública que atende quem está em situação de pobreza ou de risco"
+  },
+  {
+   "term": "PEC 32",
+   "fala": "b051",
+   "sentence": 13,
+   "plain": "proposta de emenda à Constituição que muda as regras do serviço público, conhecida como reforma administrativa"
+  },
+  {
+   "term": "CAPS",
+   "fala": "b054",
+   "sentence": 23,
+   "plain": "Centros de Atenção Psicossocial, serviços públicos de saúde mental que atendem sem internação"
+  }
+ ]
+}

@@ -1,0 +1,2128 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 203,
+ "model": "LLM lendo o prompt hearing-203 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T23:45:11Z",
+ "prompt_sha256": "75255019f0dfd824e71b45259a4dd0c8acb1a220f21e4173f903c5e50f2cd49b",
+ "sentences_hash": "ac10180c3a55dfee",
+ "review": {
+  "pairs_read": 48,
+  "pairs_fixed": 14
+ },
+ "warnings": [],
+ "synopsis": "Audiência conjunta da Comissão de Direitos Humanos com a Comissão de Defesa dos Direitos da Mulher sobre o aumento dos casos de violência contra as mulheres no Brasil, dias depois de sair o Anuário Brasileiro de Segurança Pública de 2023. Convidadas do INESC, da Fundação João Pinheiro, da Marcha Mundial das Mulheres, do Ministério das Mulheres e do Ministério da Igualdade Racial apresentaram dados e explicações para a alta. A sala discutiu o que explica o aumento e o que fazer com a rede de proteção.",
+ "stakes": "Que prioridade o Congresso e o Executivo vão dar à recomposição do orçamento e da rede de proteção às mulheres.",
+ "central_question": "O que explica o aumento da violência contra as mulheres no Brasil e o que é preciso fazer para reverter esse quadro?",
+ "synopsis_plain": "Dias depois de sair o anuário de segurança pública de 2023, com alta dos feminicídios e dos estupros, duas comissões da Câmara chamaram pesquisadoras, movimentos de mulheres e dois ministérios para explicar por que a violência contra as mulheres cresceu. As convidadas apontaram o corte do orçamento, o fim de órgãos de política para mulheres e o avanço de grupos ultraconservadores.",
+ "stakes_plain": "Quanto dinheiro e que prioridade o Congresso e o governo vão dar à rede que atende mulheres em situação de violência.",
+ "central_question_plain": "Por que a violência contra as mulheres aumentou no Brasil e o que é preciso fazer para mudar isso?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Orçamento e desmonte das políticas",
+   "description": "Se a queda do orçamento e o fim dos órgãos de política para mulheres explicam o aumento da violência dos últimos anos.",
+   "axis": {
+    "pro": "O corte do orçamento e o desmonte dos órgãos de política para mulheres explicam o aumento da violência.",
+    "contra": "O aumento da violência não tem relação com o dinheiro e a estrutura dessas políticas.",
+    "pro_plain": "O corte do dinheiro e o fim dos órgãos de política para mulheres explicam o aumento da violência.",
+    "contra_plain": "O aumento da violência não tem relação com o dinheiro e a estrutura dessas políticas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Ultraconservadorismo e armas",
+   "description": "Se o avanço dos movimentos ultraconservadores e a maior circulação de armas explicam a alta da violência contra as mulheres.",
+   "axis": {
+    "pro": "O avanço dos movimentos ultraconservadores e o armamento da sociedade alimentam a violência contra as mulheres.",
+    "contra": "A alta se explica por outros fatores, sem relação com esse movimento.",
+    "pro_plain": "O avanço dos grupos ultraconservadores e mais armas em circulação alimentam a violência contra as mulheres.",
+    "contra_plain": "A alta se explica por outras razões, sem relação com esse movimento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "A origem da violência",
+   "description": "O que está na raiz do crime contra a mulher: a desigualdade construída entre homens e mulheres ou o terreno subjetivo da relação entre duas pessoas.",
+   "axis": {
+    "pro": "A violência contra a mulher é uma construção social apoiada na desigualdade entre homens e mulheres.",
+    "contra": "O crime contra a mulher é subjetivo, movido por sentimento e por obsessão, e não um problema objetivo.",
+    "pro_plain": "A violência contra a mulher é construída pela sociedade e se apoia na desigualdade entre homens e mulheres.",
+    "contra_plain": "O crime contra a mulher nasce do sentimento e da obsessão, e não de uma causa objetiva."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Rede de proteção ou lei e pena",
+   "description": "Onde colocar o esforço: em ampliar e integrar a rede que atende a mulher ou em endurecer as leis e as penas.",
+   "axis": {
+    "pro": "O esforço tem de ir para a rede de atendimento e a prevenção, porque a lei só age depois do fato.",
+    "contra": "É preciso leis específicas e penas mais duras para conter a violência contra as mulheres.",
+    "pro_plain": "O esforço tem de ir para a rede que atende a mulher, porque a lei só age depois do fato.",
+    "contra_plain": "É preciso mais leis específicas e penas mais duras para conter a violência contra as mulheres."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "O que os números mostram",
+   "description": "Se os números divulgados retratam a violência que acontece de fato ou se subestimam o problema por subnotificação e falha de registro.",
+   "axis": {
+    "pro": "Os números divulgados mostram violência que acontece de fato, e não apenas mais registro.",
+    "contra": "Os números subestimam a violência, porque há subnotificação e o registro ainda falha.",
+    "pro_plain": "Os números divulgados mostram violência que acontece de fato, e não só mais registro.",
+    "contra_plain": "Os números ficam abaixo da realidade, porque muita gente não denuncia e o registro ainda falha."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Recorte racial dos dados",
+   "description": "Se as informações disponíveis permitem ver quem são as vítimas por raça e cor e orientar políticas a partir disso.",
+   "axis": {
+    "pro": "As vítimas são em maioria jovens e negras, e falta recorte de raça nos dados para orientar a política.",
+    "contra": "Os dados já disponíveis bastam para orientar a política, sem recorte de raça.",
+    "pro_plain": "A maioria das vítimas é jovem e negra, e falta o recorte de raça nos dados para guiar a política.",
+    "contra_plain": "Os dados que já existem bastam para guiar a política, sem separar por raça."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Independência econômica das mulheres",
+   "description": "Se dar renda própria e trabalho à mulher em situação de violência é o caminho para romper o ciclo.",
+   "axis": {
+    "pro": "Romper o ciclo da violência passa por dar à mulher renda própria e um lugar para ir.",
+    "contra": "A independência econômica não é o caminho central para romper esse ciclo.",
+    "pro_plain": "Romper o ciclo passa por dar à mulher renda própria e um lugar para ir.",
+    "contra_plain": "A independência econômica não é o caminho central para romper esse ciclo."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência, que abre com a deputada Luizianne Lins e segue com a deputada Ana Pimentel",
+   "org": "Câmara dos Deputados",
+   "basis": "a ata registra as duas como Presidente, e a passagem da presidência está dita em b001.61",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Direitos Humanos da Câmara, que fez a audiência com a Comissão de Defesa dos Direitos da Mulher"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, autor do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "apontado como autor do requerimento em b001.3 e chamado a falar em b001.72",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pela Paraíba, autor do requerimento",
+   "org_plain": "Câmara dos Deputados, onde ele pediu a realização desta audiência"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "assessora política",
+   "org": "INESC",
+   "basis": "apresentada pela presidência em b001.11 e por ela mesma em b004.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do INESC, que acompanha o orçamento público",
+   "org_plain": "Instituto de Estudos Socioeconômicos, organização que monitora e analisa o orçamento público federal"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "pesquisadora",
+   "org": "Fundação João Pinheiro",
+   "basis": "apresentada pela presidência em b001.19, participa por vídeo",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "pesquisadora da Fundação João Pinheiro",
+   "org_plain": "instituição de pesquisa e ensino que produz estudos e estatísticas sobre segurança pública"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "coordenador-geral de monitoramento e avaliação",
+   "org": "Ministério da Igualdade Racial",
+   "basis": "apresentado pela presidência em b001.18 e por ele mesmo em b010.4",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Igualdade Racial",
+   "org_plain": "ministério do governo federal que coordena as políticas de promoção da igualdade racial"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "secretária de enfrentamento à violência contra as mulheres",
+   "org": "Ministério das Mulheres",
+   "basis": "apresentada pela presidência em b001.15",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério das Mulheres",
+   "org_plain": "ministério do governo federal criado para coordenar e executar as políticas para as mulheres"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "integrante da Marcha Mundial das Mulheres e advogada",
+   "org": "Marcha Mundial das Mulheres",
+   "basis": "apresentada pela presidência em b001.13 e diz ser advogada da área em b014.24",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Marcha Mundial das Mulheres",
+   "org_plain": "movimento feminista internacional que organiza mulheres em torno de direitos e igualdade"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "deputada federal, presidente da Comissão de Defesa dos Direitos da Mulher",
+   "org": "Câmara dos Deputados",
+   "basis": "apresentada pela presidência em b017.1 e fala da própria trajetória no Executivo em b018.10",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal por Goiás, que preside a Comissão da Mulher",
+   "org_plain": "Comissão de Defesa dos Direitos da Mulher da Câmara dos Deputados, que ela preside"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "registros de palmas em oito falas, a saudação da mesa às convidadas em b001.57 e a menção às companheiras na plenária em b026.1",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência com os dados do Fórum Brasileiro de Segurança Pública e liga o aumento da violência ao desmonte das políticas para mulheres.",
+   "quote": [
+    40,
+    41
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O desmonte das políticas para mulheres está na origem do aumento da violência.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      28
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os dados de 2023 mostram aumento de 13,7% nas medidas protetivas concedidas e de 61,1% nos feminicídios contra mulheres negras",
+     "plain": "Os dados do Fórum de Segurança Pública de 2023 mostram aumento de 13,7% nas medidas protetivas concedidas, de 8,2% nos casos de estupro e de 61,1% nos feminicídios praticados contra mulheres negras."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      40,
+      41
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desmonte do Ministério das Mulheres derrubou políticas também nos Estados e nos Municípios",
+     "plain": "A violência doméstica e familiar se intensificou na pandemia e num governo que negou os direitos das mulheres. A política que desmontou o Ministério das Mulheres derrubou também políticas nos Estados e Municípios."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "os números são alarmantes, mas o maior desafio ainda é a primeira denúncia, porque a violência é subnotificada",
+     "plain": "Por mais alarmantes que sejam os números do Fórum, o maior desafio continua sendo a primeira denúncia. Essa violência é muito subestimada e subnotificada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta os números da violência doméstica em 2022 e defende que o enfrentamento não acaba na denúncia, porque a raiz é o machismo estrutural.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A violência contra a mulher é resultado de um machismo estrutural, e não se resolve só com denúncia e punição.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      5
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2022 o Brasil registrou 230.861 agressões por violência doméstica e 370.209 medidas protetivas concedidas",
+     "plain": "Em 2022, segundo o Fórum Brasileiro de Segurança Pública, houve 230.861 agressões por violência doméstica e 597.623 ameaças no Brasil. As medidas protetivas de urgência concedidas foram 370.209, um crescimento de 13,6%."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o enfrentamento não acaba na denúncia nem na punição do agressor, porque a violência vem de um machismo estrutural",
+     "plain": "O enfrentamento da violência contra a mulher precisa ser visto por uma ótica feminista. Ele não acaba na denúncia nem na punição do agressor, porque é resultado de um machismo estrutural na sociedade."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      17
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso aparelhar o Estado com juizados, delegacias e abrigos para que a vítima se sinta segura para denunciar",
+     "plain": "É preciso aparelhar ainda mais o Estado, com juizados, delegacias e abrigos. Assim a vítima se sente segura para denunciar o agressor, que quase sempre tem uma relação com ela."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre as exposições e passa a palavra a Carmela Zigoni, do INESC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que o orçamento das políticas para mulheres caiu 75% entre 2014 e 2019 e liga o corte ao aumento da violência.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A queda do orçamento e o desmonte das políticas para mulheres explicam o aumento da violência.",
+    "sentence": 45
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo anterior extinguiu o programa das políticas para as mulheres e as colocou num guarda-chuva ligado à família",
+     "plain": "O governo anterior extinguiu o Programa 2016, das políticas para as mulheres, e criou o Programa 5034, um guarda-chuva. As mulheres perderam a programação própria no orçamento e passaram a ser vistas só pelo vínculo com a família."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a execução caiu de 185 milhões de reais em 2014 para 46 milhões em 2019, uma redução de 75% em termos reais",
+     "plain": "A execução financeira de 2014 foi de 185 milhões de reais, e em 2019 caiu para 46 milhões. É uma redução de 75% em termos reais. O pior ano foi 2019, com queda de 83% ante 2015."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      45,
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há ligação direta entre o aumento da violência, a redução do orçamento e o desmonte das políticas públicas",
+     "plain": "Nós fazemos, sim, uma ligação direta entre o aumento da violência, a queda do orçamento e o desmonte das políticas. Na CPI do Distrito Federal vimos que a rede não funciona. O desafio é enorme e é preciso investimento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Letícia Godinho, da Fundação João Pinheiro, que participa por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Comenta os dados do anuário e propõe somar homicídios e feminicídios, porque a lei do feminicídio ainda é recente.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "Os dados mostram um cenário de crescimento, mas precisam de uma leitura mais cautelosa.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      10
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os homicídios de mulheres subiram 1,2% e os feminicídios, 6,1%, segundo o anuário",
+     "plain": "Pelo anuário, os homicídios de mulheres subiram 1,2% e os feminicídios subiram 6,1%."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é preciso somar homicídios e feminicídios, porque a lei do feminicídio é de 2015 e o registro ainda está em aprendizado",
+     "plain": "Adotamos uma leitura mais cautelosa e somamos homicídios e feminicídios. Esperamos um aumento natural dos feminicídios, porque a lei é de 2015 e as polícias dos Estados ainda estão aprendendo a enquadrar os casos."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "são quase 500 mil medidas protetivas no Brasil, e isso é violência que acontece de fato, não só registro",
+     "plain": "No Brasil são quase 500 mil medidas protetivas, o que mostra o tamanho do problema. Não estamos falando só de registro nem de adaptação da Justiça à lei, estamos falando de violência que acontece de fato."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o tempo acabou e deixa Letícia Godinho concluir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta o ultraconservadorismo e a circulação de armas como explicações para o aumento e lembra que as vítimas são jovens e negras.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O período de ultraconservadorismo e a circulação de armas explicam o aumento da violência contra as mulheres.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maioria das vítimas são jovens e negras, e são elas as que mais procuram os serviços",
+     "plain": "Quero ressaltar o perfil das vítimas: a maioria são jovens e negras. As pesquisas de vitimização mostram que são elas as que mais procuram os serviços."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o período de ultraconservadorismo explica o aumento, porque em 2022 os registros deveriam cair com o fim do isolamento e subiram",
+     "plain": "Concordo com quem falou antes de mim e chamo a atenção para o período de ultraconservadorismo que vivemos. Em 2022 esperávamos redução com o fim do isolamento, a COVID arrefeceu, mas os registros aumentaram."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a série histórica indicava cerca de 50% das mortes por arma de fogo, e agora são 69% dos homicídios de mulheres",
+     "plain": "A série histórica indicava que mais ou menos 50% dessas mortes vinham do uso de arma de fogo. O anuário deste ano traz 69% dos homicídios de mulheres por arma de fogo. É um número muito acima do que conhecíamos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Luciano Pereira da Silva, do Ministério da Igualdade Racial.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que os dados de mortalidade são os mais confiáveis, mas não separam o feminicídio nem trazem recorte de raça.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta recorte de raça nos dados sobre feminicídio, e isso limita as políticas de apoio.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os dados do sistema de mortalidade são os mais confiáveis, mas não permitem identificar os casos de feminicídio",
+     "plain": "Esses dados do sistema de informação sobre mortalidade são os mais confiáveis em termos técnicos. Mas ainda não dá para filtrar os casos de feminicídio, como a lei define esse crime."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os dados sobre feminicídio existem, mas falta um recorte claro por raça e há subnotificação",
+     "plain": "O Fórum Brasileiro de Segurança Pública disponibiliza bons microdados sobre feminicídio, mas ainda há gargalos, como a pauta racial. Os dados mostram o aumento, sem filtro de raça claro e com subnotificação."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a taxa de homicídio de mulheres não negras caiu enquanto a de mulheres negras aumentou",
+     "plain": "Os dados oficiais mostram queda na taxa de homicídio de mulheres não negras e aumento na taxa de homicídio de mulheres negras. Mas não conseguimos separar por raça quando o crime é tipificado como feminicídio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Denise Motta Dau, do Ministério das Mulheres.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lista as hipóteses para o aumento, do desfinanciamento ao ultraconservadorismo, e anuncia 40 novas Casas da Mulher Brasileira.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ascensão dos movimentos ultraconservadores e o desfinanciamento das políticas levaram a esses dados.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desfinanciamento das políticas e a ascensão dos movimentos ultraconservadores, que motivam crimes de ódio, explicam esses dados",
+     "plain": "As hipóteses são o desfinanciamento das políticas de proteção à mulher e a menor alocação de orçamento em 10 anos. Somam-se a pandemia e a ascensão dos ultraconservadores, que tratam a igualdade de gênero como inimigo principal."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "países da América Latina que derrubaram a criminalidade não reduzem o feminicídio, então é preciso política com foco em gênero",
+     "plain": "Muitos países da América Latina que conseguiram derrubar a criminalidade e os homicídios não reduzem os casos de feminicídio. Não basta política de segurança geral, é preciso política afirmativa que fale de gênero."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "estão previstas 40 novas Casas da Mulher Brasileira, e hoje só sete estão em funcionamento",
+     "plain": "O programa prevê a construção de 40 novas Casas da Mulher Brasileira. Hoje só há sete delas funcionando no país."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Denise Motta Dau e chama Wilma dos Reis, da Marcha Mundial das Mulheres.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a causa real está numa sociedade capitalista, patriarcal e racista, e relata os desmontes dos últimos 7 anos.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 38,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A causa real do aumento da violência está na estrutura de uma sociedade capitalista, patriarcal e racista.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o debate para nos números e não chega à causa real, que é uma sociedade capitalista, patriarcal e racista",
+     "plain": "Quando falamos em aumento da violência, debatemos os números e não a causa real. Vivemos numa sociedade capitalista, patriarcal, racista, LGBTfóbica e capacitista, que usa várias opressões para explorar cada vez mais as mulheres."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos últimos 7 anos o avanço do conservadorismo veio com desmonte das políticas públicas e da rede de enfrentamento",
+     "plain": "Nos últimos 7 anos houve o avanço do conservadorismo e várias retiradas de direito: trabalho precário, mais desemprego, desmonte das políticas públicas e da rede de enfrentamento. Não foi só no Governo Federal, foi em muitos Estados."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "muitos casos de tentativa de feminicídio são registrados como lesão ou ameaça, e a subnotificação é muito grande",
+     "plain": "Quantos casos de tentativa de feminicídio aparecem no registro como lesão ou ameaça, e não como o crime real? Como advogada da área, tenho a sensação de que tentam reduzir a punição desses homens. A subnotificação é muito grande."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa a Wilma dos Reis que já se passaram 8 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pede ampliação da rede de enfrentamento, fortalecimento das leis específicas e políticas de autonomia econômica para as mulheres.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rede de enfrentamento precisa ser ampliada e alcançar todos os espaços por onde a mulher passa.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a rede de enfrentamento tem de incluir todos os espaços por onde a mulher passa, como saúde e educação",
+     "plain": "Falo da ampliação das políticas públicas e de que elas sejam mais eficazes. A rede de enfrentamento não é só o lugar que atende a mulher em situação de violência, é também a saúde, a educação, todos os espaços por onde ela passa."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      5
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "é preciso fortalecer as leis específicas, além da Lei Maria da Penha, como a que qualifica o feminicídio",
+     "plain": "Temos de fortalecer as leis específicas. Além da Lei Maria da Penha, há a qualificação do feminicídio e outras leis que garantem direitos e tentam conter as várias formas de violência."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando a mulher tem o próprio salário e como se sustentar, ela consegue romper o ciclo da violência",
+     "plain": "É fundamental promover políticas de autonomia econômica para as mulheres. Quando a mulher tem o salário dela na conta e como se sustentar, ela consegue romper esse ciclo e ter uma vida melhor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à deputada Lêda Borges, que preside a Comissão da Mulher.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende a rede de proteção em todas as cidades, descreve o crime contra a mulher como subjetivo e aposta na independência econômica.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    24,
+    25,
+    26,
+    27
+   ],
+   "open_question": 64,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A aposta não é só na legislação, é na rede de proteção em todas as cidades brasileiras.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a aposta é na rede de proteção, com delegacia da mulher em todas as cidades brasileiras, e não só nas maiores",
+     "plain": "Eu creio na rede de proteção. Não me digam que delegacia só deve existir em cidade de porte médio ou maior. Precisamos de DEAMs, as delegacias de atendimento à mulher, em todas as cidades brasileiras."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o crime contra a mulher é subjetivo, movido por ciúme e por ela ser mulher, e a letra da lei esconde os motivos reais",
+     "plain": "A lei e a pena agem sobre o crime objetivo, como matar para roubar. O crime contra a mulher é subjetivo: eu mato porque é uma mulher, porque tenho ciúme. A lei do Estado é fundamental, mas a letra fria esconde os motivos reais."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quebrar o ciclo da violência pela independência econômica da mulher já é contribuir de forma objetiva",
+     "plain": "Na minha visão, quebrar o ciclo da violência pela independência econômica da mulher já é uma contribuição objetiva."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra a aprovação do Protocolo Não é Não e abre a rodada final de 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reforça que há mulheres concretas por trás dos dados e cobra investimento na integração dos serviços da rede.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 10,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rede só funciona com investimento na gestão e na integração entre os serviços.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "por trás dos dados há mulheres concretas, e esse caldo social trata a violência como se fosse a norma",
+     "plain": "Quero reforçar o que a Wilma disse: por trás dos dados há mulheres concretas, e esse aumento da violência vai minando a nossa capacidade de lutar. Esse caldo social é propício a uma visão que trata a violência como norma."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as escolas não estão preparadas para receber o filho órfão de um feminicídio, que vive esse trauma",
+     "plain": "Um tema que apareceu muito na CPI do Feminicídio do Distrito Federal foi o dos órfãos. As escolas não estão preparadas para receber o aluno que vive esse trauma. Vale pensar essa rede também."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta integração na rede, porque cada serviço tem uma cultura própria e muitas vezes eles nem conversam",
+     "plain": "Além de os equipamentos não receberem dinheiro de custeio e de faltar pessoal, cada serviço tem uma cultura própria e uma formação diferente. Como fazer a integração se muitas vezes eles nem conversam?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Letícia Godinho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que os registros do fórum estão subnotificados e que a violência contra a mulher não é pilar da política de segurança.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os registros divulgados estão subnotificados e o cenário real é muito maior.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os dados do fórum são registros e, fora os de mortes, quase todos estão subnotificados",
+     "plain": "Os dados do fórum são registros. Fora os que se referem a mortes, quase todos estão provavelmente subnotificados. O cenário real é bem maior do que o que aparece nas notificações."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o fórum registra um estupro a cada 7 minutos, e a pesquisa do IPEA estima dois estupros a cada minuto",
+     "plain": "O fórum traz um estupro a cada 7 minutos. Uma pesquisa de vitimização do IPEA estima que sejam, na verdade, dois estupros a cada minuto no Brasil. O dado mostra o tamanho dessa diferença."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os Estados e Municípios não tratam a violência contra a mulher como pilar da política de segurança pública",
+     "plain": "Não pensamos a política de segurança pública a partir do pilar da violência contra a mulher. Ela se organiza em torno do tráfico e do crime patrimonial. Estados e Municípios não colocam essa violência como pilar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Luciano Pereira da Silva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata o esforço do Ministério da Igualdade Racial para mapear a rede de apoio e espera os dados do Censo por raça e cor.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Dados melhores por raça e cor permitem fortalecer a rede de apoio.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ideia é usar o sistema que mapeia equipamentos públicos para incluir centros de referência e delegacias de combate ao racismo",
+     "plain": "O MOPS é um sistema que mapeia equipamentos públicos. Estamos buscando uma cooperação técnica para incluir nele as localizações de centros de referência e de delegacias de combate ao racismo."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      14
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o IBGE prevê divulgar em agosto e setembro os dados por raça, cor, sexo e idade",
+     "plain": "O IBGE informa que nos próximos meses, agosto e setembro, deve divulgar os dados por raça, cor, sexo e idade. Isso vai permitir sistemas de monitoramento que sustentem essas políticas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Wilma dos Reis, da Marcha Mundial das Mulheres.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Chama à resistência diante do fortalecimento do conservadorismo e critica a legítima defesa da honra.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O conservadorismo fortalecido exige que os movimentos de mulheres sigam na resistência.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso seguir na resistência, porque o fascismo e o conservadorismo se fortaleceram e querem derrubar as mulheres",
+     "plain": "Temos de seguir na resistência, agora mais do que nunca. O fascismo e o conservadorismo se fortaleceram e querem nos derrubar de todas as formas."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "espaços como este são importantes para a sociedade civil avançar nas propostas e na aplicação da lei",
+     "plain": "Registro a importância de sempre termos espaços como este para dialogar e apresentar os nossos pontos de vista como sociedade civil. É assim que avançamos nas propostas e também na aplicação da lei."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é inadmissível que em 2023 ainda exista a legítima defesa da honra e que se precise lembrar ao Estado os direitos das mulheres",
+     "plain": "É inadmissível que em pleno século XXI, em 2023, ainda tenhamos a legítima defesa da honra. Isso é arcaico. E é inadmissível ter de lembrar ao Estado os direitos que temos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Registra que a Comissão de Defesa dos Direitos da Mulher reservou 1 milhão de reais do Orçamento para a Marcha das Margaridas.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão reservou orçamento próprio para a Marcha das Margaridas.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      0
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão de Defesa dos Direitos da Mulher reservou 1 milhão de reais do Orçamento para a Marcha das Margaridas",
+     "plain": "A Comissão de Defesa dos Direitos da Mulher reservou no Orçamento 1 milhão de reais para a Marcha das Margaridas, e nós ratificamos isso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Denise Motta Dau para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Destaca as políticas de emprego e renda para as mulheres e anuncia campanha nacional contra a misoginia.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As políticas de emprego e renda para as mulheres são fundamentais no enfrentamento da violência.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as políticas de emprego e renda para as mulheres têm sido fundamentais nesse contexto",
+     "plain": "Nesse contexto, as políticas de emprego e renda para as mulheres têm sido fundamentais. O Governo faz políticas gerais de crescimento e de desenvolvimento social e também políticas afirmativas para as mulheres."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto garante no mínimo 8% das vagas para mulheres em situação de violência nas empresas que prestam serviço ao governo",
+     "plain": "Além do envio da Convenção 190 da OIT a esta Casa, ontem consolidamos um projeto de lei vindo de dois pilotos. Ele garante no mínimo 8% das vagas para mulheres em situação de violência nas empresas que prestam serviço ao Governo."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o foco é enfrentar o ódio e a misoginia, que colocam a mulher em lugar de inferioridade e autorizam a violência",
+     "plain": "O foco é enfrentar o ódio, o preconceito e a misoginia, que desvaloriza as mulheres e tenta colocá-las em lugar de inferioridade e de subordinação. É isso que autoriza todas essas violências."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Encerra dizendo que a violência não é natural, é construção social fundada na desigualdade estrutural entre homens e mulheres.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A violência contra a mulher é uma construção social apoiada na desigualdade estrutural entre homens e mulheres.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ascensão dos movimentos ultraconservadores coloca o gênero como alvo e as mulheres como inimigo a ser combatido",
+     "plain": "A fala da Denise ressaltou a ascensão dos movimentos ultraconservadores e como o gênero vira alvo e as mulheres viram o inimigo a combater. Some-se o armamento da sociedade e o desmonte dos organismos de políticas de mulheres."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a violência não é natural, é construção social fundada na desigualdade estrutural entre homens e mulheres",
+     "plain": "A violência não é natural, ela não foi construída naturalmente. É uma construção social, fundada na desigualdade estrutural entre homens e mulheres. A base material disso é a divisão sexual do trabalho, que deixa o cuidado com elas."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sempre que as mulheres ousam sair dos papéis em que foram aprisionadas, elas sofrem violências",
+     "plain": "Sempre que as mulheres ousam sair desses lugares, elas sofrem as mais variadas violências. Falar dessas causas e dessa desigualdade estrutural e histórica é importante para pensar como superá-las."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 45,
+   "from_claim": "b008c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A pesquisadora diz concordar com quem falou antes dela e acrescenta o ultraconservadorismo à ligação que o INESC faz entre a queda do orçamento e o aumento da violência."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 13,
+   "from_claim": "b010c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "As duas pessoas que trabalham com dados chegam ao mesmo cuidado por caminhos diferentes: ela soma homicídios e feminicídios, ele lembra que o sistema de mortalidade não separa o feminicídio."
+  },
+  {
+   "from": "b010",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 28,
+   "from_claim": "b010c3",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "O dado do Ministério da Igualdade Racial confirma o que a abertura apontou: a taxa de homicídio cai entre mulheres não negras e sobe entre mulheres negras."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 45,
+   "from_claim": "b012c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A secretária cita a redução de orçamento apresentada pelo INESC como um dos fatores e soma a ela a pandemia e o ultraconservadorismo."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 7,
+   "from_claim": "b012c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "A pesquisadora aponta o ultraconservadorismo como explicação e o Ministério das Mulheres repete a hipótese, com o foco desses setores sobre a igualdade de gênero."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 6,
+   "from_claim": "b014c2",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A Marcha Mundial das Mulheres soma ao quadro do Ministério das Mulheres o que viu nos últimos 7 anos: trabalho precário, desemprego e desmonte da rede em muitos Estados."
+  },
+  {
+   "from": "b014",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 50,
+   "from_claim": "b014c3",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "A advogada dá o caso concreto da subnotificação que a abertura apontou: tentativa de feminicídio que fica registrada como lesão ou ameaça."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 5,
+   "from_claim": "b018c1",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A Marcha Mundial das Mulheres pede o fortalecimento das leis específicas, e a deputada responde que não acredita apenas na legislação, e sim na rede de proteção."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 6,
+   "from_claim": "b018c2",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "A Marcha Mundial das Mulheres lê a violência como produto de um sistema econômico e patriarcal, e a deputada a descreve como crime subjetivo, de ciúme e de sentimento."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 10,
+   "from_claim": "b018c3",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "À secretária, que pede política de segurança com foco em gênero, a deputada acrescenta o caminho que considera mais palpável: a independência econômica da mulher."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b020c1",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "O INESC reforça o ponto da Marcha Mundial das Mulheres de que o debate para nos números e não chega às mulheres concretas que estão por trás deles."
+  },
+  {
+   "from": "b022",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 50,
+   "from_claim": "b022c1",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "A pesquisadora confirma o que a presidência disse na abertura: fora os registros de mortes, quase todos os outros dados estão subnotificados."
+  },
+  {
+   "from": "b022",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 10,
+   "from_claim": "b022c3",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "As duas dizem o mesmo sobre a política de segurança: sem tratar a violência contra a mulher como pilar próprio, a queda da criminalidade geral não chega às mulheres."
+  },
+  {
+   "from": "b024",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 3,
+   "from_claim": "b024c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Ao perfil de vítimas jovens e negras apresentado pela pesquisadora, o Ministério da Igualdade Racial responde com o esforço de pôr no mesmo mapa centros de referência e delegacias de combate ao racismo."
+  },
+  {
+   "from": "b029",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 21,
+   "from_claim": "b029c1",
+   "to_claim": "b018c3",
+   "strength": "forte",
+   "note": "A secretária confirma à deputada que as políticas de emprego e renda para as mulheres têm sido fundamentais, o caminho que a deputada apontou como o mais palpável."
+  },
+  {
+   "from": "b029",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 6,
+   "from_claim": "b029c1",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "O mesmo ponto veio antes da Marcha Mundial das Mulheres: quando a mulher tem renda própria, ela consegue romper o ciclo."
+  },
+  {
+   "from": "b030",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 6,
+   "from_claim": "b030c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "A presidência retoma a análise da secretária sobre a ascensão dos movimentos ultraconservadores e sobre o gênero colocado como alvo."
+  },
+  {
+   "from": "b030",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 6,
+   "from_claim": "b030c2",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "A presidência fecha com a mesma leitura da Marcha Mundial das Mulheres: a violência não é natural, ela vem de uma desigualdade construída."
+  },
+  {
+   "from": "b030",
+   "to": "b018",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 18,
+   "from_claim": "b030c2",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "Onde a deputada vê um crime subjetivo, de sentimento e de obsessão, a presidência vê uma construção social ancorada na divisão sexual do trabalho."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b004",
+    "b014",
+    "b027"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c2",
+    "b004c3",
+    "b014c2",
+    "b027c1"
+   ],
+   "note": "A presidência, o INESC, a Marcha Mundial das Mulheres e a deputada que preside a Comissão da Mulher concordam que o corte de orçamento e o fim dos organismos de política para mulheres estão na origem do aumento da violência."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b008",
+    "b012",
+    "b029",
+    "b030"
+   ],
+   "claims": [
+    "b008c2",
+    "b012c1",
+    "b029c3",
+    "b030c1"
+   ],
+   "note": "Pesquisadora, Ministério das Mulheres e presidência apontam a mesma causa: a ascensão dos movimentos ultraconservadores e da misoginia, que tratam a igualdade de gênero como inimigo."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b001",
+    "b006",
+    "b010",
+    "b022"
+   ],
+   "claims": [
+    "b001c3",
+    "b006c2",
+    "b010c1",
+    "b022c1"
+   ],
+   "note": "A presidência, as duas pessoas que trabalham com dados e o Ministério da Igualdade Racial concordam que os números divulgados ficam abaixo da violência real."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b008",
+    "b010",
+    "b024"
+   ],
+   "claims": [
+    "b008c1",
+    "b010c2",
+    "b010c3",
+    "b024c2"
+   ],
+   "note": "A pesquisadora e o Ministério da Igualdade Racial concordam que as vítimas são em maioria jovens e negras e que falta recorte de raça nos dados."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b016",
+    "b018",
+    "b029"
+   ],
+   "claims": [
+    "b016c3",
+    "b018c3",
+    "b029c1",
+    "b029c2"
+   ],
+   "note": "A Marcha Mundial das Mulheres, a deputada que preside a Comissão da Mulher e o Ministério das Mulheres concordam que a independência econômica é o caminho para romper o ciclo."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b014",
+   "sentence": 38,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Ministério realize uma nova conferência nacional de políticas para mulheres",
+   "plain": "O Ministério vai realizar uma nova conferência nacional de políticas para as mulheres?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b018",
+   "sentence": 15,
+   "addressed_to": "governo",
+   "answered_by": "b029",
+   "gist": "que o governo priorize a independência econômica para romper o ciclo",
+   "plain": "O governo vai priorizar a independência econômica da mulher para quebrar o ciclo da violência?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b018",
+   "sentence": 64,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Governo Federal adote o Grupo Reflexivo para homens agressores",
+   "plain": "O Governo Federal pode adotar o Grupo Reflexivo para homens agressores, como se faz em Goiás?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b020",
+   "sentence": 10,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como integrar os serviços da rede para que colaborem entre si",
+   "plain": "Como fazer a integração dos serviços da rede para que eles colaborem entre si?",
+   "theme": "d4",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 28,
+   "gist": "aumento de 61,1% nos feminicídios contra mulheres negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 5,
+   "gist": "230.861 agressões por violência doméstica registradas em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 21,
+   "gist": "execução caiu para 46 milhões de reais em 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 39,
+   "gist": "proposta previa apenas 13 milhões de reais para políticas de mulheres",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 42,
+   "gist": "a recomposição do orçamento chegou a 120 milhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 10,
+   "gist": "aumento de 1,2% nos homicídios de mulheres e 6,1% nos feminicídios",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 28,
+   "gist": "quase 500 mil medidas protetivas concedidas no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 14,
+   "gist": "69% dos homicídios dolosos de mulheres por arma de fogo",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 17,
+   "gist": "só sete Casas da Mulher Brasileira em funcionamento hoje",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 34,
+   "gist": "o Governo Federal vai construir mais 46 Casas da Mulher Brasileira",
+   "disputed_by": [
+    {
+     "fala": "b012",
+     "sentence": 16
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 51,
+   "gist": "mais de 500 mil órfãos do feminicídio hoje no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b022",
+   "sentence": 5,
+   "gist": "o IPEA estima dois estupros a cada minuto no Brasil",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "parlamentar",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu a explicação das debatedoras para o aumento da violência: o desmonte das políticas de proteção e a ascensão do ultraconservadorismo.",
+  "omitted": "Ficou de fora quase todo o debate sobre o recorte racial dos dados e a falta de informação por raça e cor, que foi o eixo da fala do Ministério da Igualdade Racial."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O corte de orçamento e a rede desfeita explicam a alta",
+   "statement_plain": "O corte do dinheiro, o fim dos órgãos de política para mulheres e a rede desfeita explicam o aumento da violência contra as mulheres.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c2",
+    "b004c3",
+    "b014c2",
+    "b012c3",
+    "b020c3"
+   ],
+   "note": "Cruza a mesa, uma organização que monitora orçamento, um movimento feminista e o Ministério das Mulheres, que chegam ao mesmo ponto pela capacidade do Estado."
+  },
+  {
+   "id": "t2",
+   "title": "O ultraconservadorismo alimenta a violência",
+   "statement_plain": "O avanço dos movimentos ultraconservadores e da misoginia, que tratam a igualdade de gênero como inimigo, alimenta a violência contra as mulheres.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b012c1",
+    "b026c1",
+    "b029c3",
+    "b030c1",
+    "b030c2"
+   ],
+   "note": "Uma pesquisadora que trabalha com estatística, um ministério e um movimento de rua chegam à mesma explicação por caminhos diferentes."
+  },
+  {
+   "id": "t3",
+   "title": "A violência vem da desigualdade estrutural",
+   "statement_plain": "A violência contra a mulher não é natural, é uma construção social que se apoia na desigualdade entre homens e mulheres e na divisão do trabalho de cuidado.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b014c1",
+    "b026c3",
+    "b030c2",
+    "b030c3"
+   ],
+   "note": "Um deputado, a presidência e um movimento feminista descrevem a mesma origem para a violência, e não uma causa individual."
+  },
+  {
+   "id": "t4",
+   "title": "Os números mostram violência real, não só registro",
+   "statement_plain": "Os números divulgados mostram violência que acontece de fato, e não apenas um aumento dos registros feitos pela polícia e pela Justiça.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b002c1",
+    "b006c1",
+    "b006c3"
+   ],
+   "note": "A mesa, um deputado e a própria pesquisadora que pede cautela na leitura sustentam que o crescimento não é efeito de melhora do registro."
+  },
+  {
+   "id": "t5",
+   "title": "Os dados subestimam a violência contra a mulher",
+   "statement_plain": "Os dados divulgados ficam abaixo da realidade, porque muita gente não denuncia e porque o registro do feminicídio ainda não é confiável.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b006c2",
+    "b010c1",
+    "b014c3",
+    "b022c1",
+    "b022c2"
+   ],
+   "note": "A mesma pesquisadora aparece nos dois lados deste tema, e ao lado dela estão a presidência, o Ministério da Igualdade Racial e uma advogada de movimento."
+  },
+  {
+   "id": "t6",
+   "title": "A independência econômica quebra o ciclo",
+   "statement_plain": "Romper o ciclo da violência passa por dar à mulher renda própria, trabalho e um lugar para ir quando ela sai de casa.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b018c3",
+    "b029c1",
+    "b029c2"
+   ],
+   "note": "É a ideia que atravessa a sala inteira: um movimento feminista, a deputada do partido de oposição que preside a Comissão da Mulher e o Ministério das Mulheres."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Fórum Brasileiro de Segurança Pública",
+   "plain": "organização que reúne e publica os dados de crimes de todo o país, no Anuário Brasileiro de Segurança Pública",
+   "fala": "b001",
+   "sentence": 24
+  },
+  {
+   "term": "medidas protetivas",
+   "plain": "ordens que a Justiça dá para afastar o agressor e proibir que ele chegue perto da mulher que denunciou",
+   "fala": "b001",
+   "sentence": 28
+  },
+  {
+   "term": "Lei Maria da Penha",
+   "plain": "lei que criou medidas de proteção e de punição para a violência doméstica e familiar contra a mulher, em vigor há 17 anos",
+   "fala": "b001",
+   "sentence": 29
+  },
+  {
+   "term": "feminicídio",
+   "plain": "crime de matar uma mulher por ela ser mulher, seja em violência doméstica, seja por desprezo à condição de mulher",
+   "fala": "b001",
+   "sentence": 44
+  },
+  {
+   "term": "subnotificação",
+   "plain": "quando o número real de casos é muito maior do que o registrado, porque muita gente não denuncia",
+   "fala": "b002",
+   "sentence": 7
+  },
+  {
+   "term": "plano plurianual",
+   "plain": "plano que o governo faz a cada 4 anos dizendo que programas vão existir e quanto se pretende gastar com cada um",
+   "fala": "b004",
+   "sentence": 7
+  },
+  {
+   "term": "Casa da Mulher Brasileira",
+   "plain": "prédio que reúne num só lugar delegacia, defensoria, ministério público e atendimento social para a mulher em situação de violência",
+   "fala": "b004",
+   "sentence": 14
+  },
+  {
+   "term": "Ligue 180",
+   "plain": "central de atendimento por telefone que recebe denúncias e orienta mulheres em situação de violência",
+   "fala": "b004",
+   "sentence": 14
+  },
+  {
+   "term": "interseccionalidade",
+   "plain": "olhar que cruza gênero, raça e renda para entender como as desigualdades se somam na vida de uma pessoa",
+   "fala": "b004",
+   "sentence": 13
+  },
+  {
+   "term": "restos a pagar",
+   "plain": "contas que o governo assume num ano e vai deixando para pagar nos anos seguintes",
+   "fala": "b004",
+   "sentence": 23
+  },
+  {
+   "term": "vitimização",
+   "plain": "pesquisa que pergunta às pessoas se sofreram crime, em vez de contar só os casos registrados na polícia",
+   "fala": "b006",
+   "sentence": 34
+  },
+  {
+   "term": "DATASUS",
+   "plain": "banco de dados do sistema de saúde, que reúne informações de todo o país, entre elas as declarações de óbito",
+   "fala": "b010",
+   "sentence": 12
+  },
+  {
+   "term": "legítima defesa da honra",
+   "plain": "argumento usado em julgamentos para justificar a morte de uma mulher pelo companheiro, declarado inconstitucional pelo Supremo",
+   "fala": "b014",
+   "sentence": 3
+  },
+  {
+   "term": "DEAMs",
+   "plain": "delegacias especializadas de atendimento à mulher, com equipe preparada para receber denúncias de violência",
+   "fala": "b018",
+   "sentence": 13
+  },
+  {
+   "term": "divisão sexual do trabalho",
+   "plain": "forma como a sociedade separa as tarefas entre homens e mulheres e deixa o trabalho de cuidar com elas",
+   "fala": "b030",
+   "sentence": 8
+  }
+ ]
+}

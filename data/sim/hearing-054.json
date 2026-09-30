@@ -1,0 +1,1332 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 54,
+ "model": "LLM lendo o prompt hearing-054 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T17:19:08Z",
+ "prompt_sha256": "f3057fcbed6f15b21fba8a3eacbd0642892c0c767053178427eeabe777a2c78c",
+ "sentences_hash": "9f5629544359bd0a",
+ "review": {
+  "pairs_read": 23,
+  "pairs_fixed": 12
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Cultura ouviu dois especialistas em dependência tecnológica, a pedido do deputado que preside a sessão. Eles descreveram o que é a nomofobia, os efeitos das telas sobre as crianças e a falta de dados no Brasil. Ao fim, a sala convergiu para criar um grupo de trabalho e destravar um projeto de lei de 2015.",
+ "stakes": "Estava em jogo se a Comissão de Cultura criaria um grupo de trabalho e daria andamento ao Projeto de Lei 2.498, de 2015, parado sem relator.",
+ "central_question": "O que o Congresso deve fazer diante da dependência tecnológica?",
+ "synopsis_plain": "Dois especialistas em dependência de celular e internet foram ouvidos na Comissão de Cultura. Eles explicaram quando o uso vira doença, mostraram os efeitos sobre as crianças e disseram que o Brasil não sabe quantas pessoas são afetadas. O deputado que pediu o debate cobrou andamento para um projeto de lei de 2015 e saiu da reunião com a proposta de criar um grupo de trabalho.",
+ "stakes_plain": "Se a comissão criaria um grupo de trabalho e daria andamento ao projeto de lei parado desde 2015.",
+ "central_question_plain": "O que o Congresso deve fazer diante do vício em celular e internet?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Tamanho do problema no Brasil",
+   "description": "Quanto o uso de telas cresceu no país e se isso já é um problema de saúde de grande alcance.",
+   "axis": {
+    "pro": "O uso de telas no Brasil já é um dos maiores do mundo e produz danos graves.",
+    "contra": "O uso de telas é alto, mas os danos são pontuais e não formam um problema coletivo.",
+    "pro_plain": "O Brasil está entre os países que mais usam telas, e isso já faz mal a muita gente.",
+    "contra_plain": "O uso é grande, mas os casos graves são poucos e não viram um problema de todos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Efeitos sobre crianças e adolescentes",
+   "description": "Que efeito a exposição precoce às telas tem sobre a linguagem, a atenção e a convivência das crianças.",
+   "axis": {
+    "pro": "A exposição precoce às telas prejudica a linguagem, a atenção e a socialização.",
+    "contra": "A exposição precoce não é o que explica esses prejuízos nas crianças.",
+    "pro_plain": "Telas cedo demais atrapalham a fala, a atenção e a convivência da criança.",
+    "contra_plain": "Não é a tela cedo demais que explica esses problemas da criança."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Origem da dependência",
+   "description": "Se a dependência nasce do jeito como a tecnologia é feita ou de um transtorno que a pessoa já tinha.",
+   "axis": {
+    "pro": "A tecnologia é desenhada para prender e é ela que produz a dependência.",
+    "contra": "A dependência é sinal de um transtorno anterior da própria pessoa.",
+    "pro_plain": "Os aplicativos são feitos para prender, e é isso que cria a dependência.",
+    "contra_plain": "A dependência é o sinal de um problema de saúde que a pessoa já tinha."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Identificação e tratamento",
+   "description": "Se já há critérios e tratamento conhecidos para a dependência tecnológica ou se o problema sequer é reconhecido.",
+   "axis": {
+    "pro": "Há critérios claros para identificar a dependência e tratamento conhecido para ela.",
+    "contra": "O problema não é reconhecido nem registrado, e nem os profissionais de saúde o conhecem.",
+    "pro_plain": "Já se sabe como reconhecer o vício em tela e como tratar quem sofre dele.",
+    "contra_plain": "O problema não é registrado em lugar nenhum e quase ninguém sabe reconhecê-lo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Conscientização e políticas públicas",
+   "description": "Que ações de governo e de escola poderiam informar a população e prevenir o uso abusivo das tecnologias.",
+   "axis": {
+    "pro": "O poder público precisa de campanhas, de escola e de treinamento de profissionais.",
+    "contra": "Essas ações não são necessárias ou não cabem ao poder público.",
+    "pro_plain": "O governo precisa fazer campanhas, levar o tema à escola e treinar profissionais.",
+    "contra_plain": "Não cabe ao governo tratar disso com campanhas e programas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Legislação e grupo de trabalho",
+   "description": "Se a Câmara deve criar um grupo de trabalho e aprovar uma lei específica sobre dependência tecnológica.",
+   "axis": {
+    "pro": "A Câmara precisa de um grupo de trabalho e de lei específica sobre o tema.",
+    "contra": "A Câmara não precisa de grupo novo nem de lei específica para isso.",
+    "pro_plain": "A Câmara precisa montar um grupo de trabalho e aprovar uma lei sobre o assunto.",
+    "contra_plain": "Não é preciso um grupo novo nem uma lei só para esse assunto."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Peso das plataformas",
+   "description": "Quanto as grandes empresas de tecnologia moldam o uso das pessoas e o andamento das leis sobre o tema.",
+   "axis": {
+    "pro": "As grandes empresas moldam o uso e travam a regra sobre o tema.",
+    "contra": "As empresas não têm esse peso sobre o uso nem sobre as leis.",
+    "pro_plain": "As grandes empresas de tecnologia prendem o usuário e emperram as leis.",
+    "contra_plain": "As empresas não têm tanto peso assim sobre o uso nem sobre as leis."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado federal, presidente da audiência",
+   "org": "Comissão de Cultura da Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e diz que o requerimento é de sua autoria. A pista de cargo da ata traz Aureo Ribeiro, Bloco/SOLIDARIEDADE - RJ",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata de cultura, comunicação e temas ligados a eles"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Psicóloga clínica e terapeuta cognitivo-comportamental",
+   "org": null,
+   "basis": "apresentada pela presidência em b001.3 e convidada à mesa em b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "psicóloga clínica e terapeuta cognitivo-comportamental",
+   "org_plain": null
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Grupo de Dependência Tecnológica",
+   "org": "Hospital das Clínicas da Universidade de São Paulo",
+   "basis": "apresentado pela presidência em b001.2 e em b003.6. Participa pelo sistema híbrido, como diz b003.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Hospital das Clínicas da Universidade de São Paulo",
+   "org_plain": "maior hospital público universitário do país, ligado à Universidade de São Paulo"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada pela presidência em b003.4. A pista de cargo da ata traz Bloco/REPUBLICANOS - DF",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Distrito Federal",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   }
+  ],
+  "basis": "A transcrição não menciona delegações, entidades presentes nem palmas. A presidência só agradece quem acompanha pela TV Câmara em b015.4",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre dependência tecnológica e convida Aline Paz para compor a mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que há duas dependências da tecnologia, a natural e a patológica, descreve a nomofobia e o tratamento e pede campanhas públicas e debate na escola.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A dependência patológica do celular é sinal de um transtorno que a pessoa já tinha.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "existe uma dependência natural, sem sofrimento na ausência, e uma patológica, com medo e angústia sem acesso",
+     "plain": "Há uma dependência natural, a de quem usa o celular e o computador para as tarefas do dia e não sofre muito quando fica sem. E há a patológica, que traz medo, angústia, ansiedade e até pavor quando não se consegue acessar."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a nomofobia é apenas um sinal de um transtorno primário, como no paciente de pânico que só sai de casa com o celular",
+     "plain": "A nomofobia é só um sinal de que existe outro transtorno por trás. Há relatos de pacientes com transtorno de pânico que só se sentiam seguros para sair de casa com o celular na mão."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além do tratamento, são precisas campanhas do Ministério da Saúde e debate na escola desde as séries iniciais",
+     "plain": "Além do remédio e da terapia, é preciso política pública para conscientizar a população. Isso pode vir de campanhas do Ministério da Saúde, da atenção primária e do debate na escola desde as séries iniciais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece Aline Paz e passa a palavra a Cristiano Nabuco, que participa por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que o Brasil é o segundo país que mais acessa tecnologia, aponta efeitos sobre a saúde e propõe grupo de trabalho, lei específica e dia do detox digital.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O uso de telas no Brasil é um dos maiores do mundo e os efeitos sobre a saúde já são graves.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil é o segundo país que mais acessa tecnologia, com 10 horas e 19 minutos por dia por usuário",
+     "plain": "O Brasil é hoje o segundo país que mais acessa tecnologia no mundo. São 10 horas e 19 minutos por dia por usuário, em dados que já estão defasados, o que dá aproximadamente 110 dias por ano olhando para as telas."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as empresas mudam o programa a cada 24 horas para que a pessoa navegue cada vez mais",
+     "plain": "Essas empresas mudam o programa a cada 24 horas para que a pessoa navegue cada vez mais. Um teórico inglês disse que os únicos comércios do mundo que chamam seus clientes de usuários seriam os das drogas e das tecnologias."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      67,
+      68,
+      69
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso um grupo de trabalho, uma lei específica, treinamentos e um dia do detox digital no Brasil",
+     "plain": "Precisamos de um grupo de trabalho, de programas de orientação que juntem saúde, educação e direito, e de uma lei específica. Também é preciso treinar profissionais, e um bom começo seria criar o dia do detox digital no Brasil."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata o caso de violência na plataforma Discord, lembra o projeto de lei que apresentou e acolhe a proposta de criar um grupo de trabalho na comissão.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara precisa criar um grupo de trabalho e dar andamento ao projeto sobre dependência tecnológica.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criminosos usaram a plataforma Discord para atacar adolescentes, e é preciso deixar claros os limites da tecnologia",
+     "plain": "Recebi com tristeza a notícia do estupro virtual contra adolescentes na plataforma Discord, onde criminosos instigam violência, abuso sexual e até suicídio. A tecnologia é importante, mas precisamos deixar claros os seus limites."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      9
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto de lei sobre o tema tramita na Câmara e o debate com especialistas serve para aprofundá-lo",
+     "plain": "Apresentei um projeto de lei sobre o assunto, que tramita na Câmara dos Deputados. A ideia é ouvir especialistas em audiências como esta e aprofundar um tema importante para a sociedade."
+    },
+    {
+     "id": "b005c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criar um grupo de trabalho na Câmara para discutir a lei e enfrentar um problema que não é só do Brasil",
+     "plain": "A sugestão de Cristiano Nabuco é fundamental para a Câmara dos Deputados: criar um grupo de trabalho para discutir a lei brasileira e como enfrentar esse problema, que não é só do Brasil, mas do mundo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Convida o presidente para a frente parlamentar sobre uso saudável das tecnologias e pede acesso ao material de detox digital feito na gestão anterior.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 12,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O trabalho de detox digital começado no Ministério deve continuar e chegar à comissão.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Frente Parlamentar Mista do Uso Saudável das Tecnologias Digitais está sendo lançada e o presidente já a subscreveu",
+     "plain": "Estamos lançando, eu e a Senadora Damares, a Frente Parlamentar Mista do Uso Saudável das Tecnologias Digitais, que o senhor já subscreveu. Convido-o desde já para a nossa diretoria."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a dependência das crianças preocupa, com déficit de atenção, hiperatividade e efeitos sobre os bebês na gestação",
+     "plain": "Esse assunto nos preocupa muito, principalmente a dependência das crianças. O expositor falou de déficit de atenção e de hiperatividade, e também me chamou a atenção o efeito sobre os bebês na gestação."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Detox Digital Brasil já tinha sido começado pela Secretaria da Família na gestão passada do Ministério",
+     "plain": "Sobre o Detox Digital Brasil, na gestão passada o Ministério da Mulher, da Família e dos Direitos Humanos tinha a Secretaria da Família, com a Dra. Angela Gandra, e essa equipe já começou o trabalho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Aline Paz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que a dependência afasta as pessoas do convívio, lista três critérios para identificá-la e recomenda adiar o contato da criança com as telas até os 2 anos.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Há critérios claros para identificar a dependência patológica e caminhos conhecidos para tratá-la.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as ruas tinham mais crianças brincando 15 anos ou 20 anos atrás, e é na troca que a criança aprende limites",
+     "plain": "Basta comparar as relações de hoje com as de 15 anos ou 20 anos atrás. As ruas tinham muito mais crianças brincando, e é nessa troca que a criança aprende a negociar e a lidar com limites."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "três critérios identificam a dependência patológica: a intensidade, o impacto e a recorrência dos sintomas",
+     "plain": "É importante olhar três critérios: a intensidade, o impacto e a recorrência. Vez ou outra podemos ficar angustiados porque o celular descarregou. Quando a angústia é constante e forte, aí já se pode pensar em dependência patológica."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a criança não deve ter contato com o celular e o computador até os 2 anos e, depois disso, só aos poucos",
+     "plain": "A recomendação é que a criança não tenha contato nenhum com o celular e o computador até os 2 anos. Depois disso, o contato deve ser aos poucos, nunca constante, para preservar a saúde dela."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece Aline Paz e passa a palavra a Cristiano Nabuco.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta o estudo francês sobre perda de linguagem em crianças, o recuo do QI mundial e a ausência de notificação da dependência tecnológica na rede de saúde.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A exposição precoce às telas prejudica a linguagem e o raciocínio das crianças.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "crianças francesas com 50 minutinhos por dia no celular dos pais deixaram de escutar 850 mil palavras em 2 anos",
+     "plain": "Crianças francesas que passavam em média 50 minutinhos por dia no celular dos pais deixaram de escutar 850 mil palavras em 2 anos. Só a exibição passiva já compromete o desenvolvimento da linguagem."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a dependência tecnológica não é notificada à Vigilância Epidemiológica e ninguém conhece o tamanho do problema",
+     "plain": "A dependência tecnológica fica de fora dessa notificação. Ninguém sabe o que ela é, nada é notificado à Vigilância Epidemiológica e por isso não se conhece o tamanho do problema."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um menino de 15 anos fica conectado 55 horas e a tecnologia ativa circuitos parecidos com os do álcool ou das drogas",
+     "plain": "Recebi um menino de 15 anos que fica conectado 55 horas. Ele não sai para comer e faz as necessidades na roupa, para não parar de jogar. A tecnologia ativa circuitos cerebrais parecidos com os do álcool ou das drogas."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Informa que o projeto de 2015 está parado sem relator pela força das big techs e anuncia grupo de trabalho na comissão e frente parlamentar no Congresso.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O peso das grandes empresas de tecnologia é o que mantém o projeto parado há quase 8 anos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei 2.498, de 2015, está há quase 8 anos sem relator pela força das big techs",
+     "plain": "O Projeto de Lei 2.498, de 2015, é meu, já passou pela Comissão de Ciência e Tecnologia e está na Comissão de Saúde. Pela força das big techs, as grandes empresas de tecnologia, ainda não tem relator depois de quase 8 anos."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "haverá um grupo de trabalho na Comissão de Cultura sobre dependência tecnológica e uma frente parlamentar no Congresso",
+     "plain": "Vou me reunir hoje com a minha assessoria para criar um grupo de trabalho na Comissão de Cultura sobre dependência tecnológica. Convido o Deputado Paulo, e podemos criar também uma frente parlamentar no Congresso Nacional."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que a infância e a juventude estão adoecendo e pede que o debate se transforme em ações públicas concretas para toda a população.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O debate precisa virar ação pública para alcançar a infância e a juventude.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a infância e a juventude estão adoecendo depressa e o debate precisa alcançar todas as camadas da sociedade",
+     "plain": "Este debate é urgente e precisa alcançar todas as camadas da sociedade, desde a infância. A nossa infância e a nossa juventude estão adoecendo depressa."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o debate precisa virar ação pública para reduzir os efeitos que atingem toda a população",
+     "plain": "Espero que este debate vire ação pública e iniciativas concretas, para tentar reduzir os efeitos que têm recaído sobre toda a população."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Cristiano Nabuco para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Agradece a iniciativa e afirma que a saúde pública e a saúde mental precisam com urgência de ações efetivas para reduzir os efeitos do problema.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A saúde pública precisa de ações efetivas com urgência.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a saúde pública e a saúde mental precisam com urgência de ações efetivas",
+     "plain": "Nós, da saúde pública e da saúde mental, temos muita urgência de que ações efetivas sejam tomadas para reduzir os efeitos disso."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os participantes, convoca a reunião do dia 28 de junho e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 67,
+   "to_sentence": 34,
+   "from_claim": "b004c3",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Os dois pedem que o poder público entre no assunto. Ela quer campanhas e escola, ele quer grupo de trabalho e lei."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 67,
+   "from_claim": "b005c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A presidência acolhe a proposta do coordenador do hospital e a chama de fundamental para a Câmara."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 14,
+   "from_claim": "b006c1",
+   "to_claim": "b005c3",
+   "strength": "media",
+   "note": "O deputado responde ao apoio ao grupo de trabalho contando que já lança uma frente parlamentar sobre o mesmo tema."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 69,
+   "from_claim": "b006c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "À sugestão de criar um dia do detox digital, o deputado responde que o Ministério já tinha começado esse trabalho."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 18,
+   "from_claim": "b008c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Ele mede quanto tempo se passa na tela. Ela descreve o que se perde nesse tempo: a criança que não brinca na rua não aprende a negociar."
+  },
+  {
+   "from": "b008",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 15,
+   "to_sentence": 18,
+   "from_claim": "b008c2",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À pergunta sobre como identificar a dependência, ela responde com os três critérios: intensidade, impacto e recorrência."
+  },
+  {
+   "from": "b010",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 16,
+   "to_sentence": 26,
+   "from_claim": "b010c2",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À pergunta sobre os desafios de diagnóstico, ele responde que a dependência tecnológica não é notificada e por isso ninguém sabe o tamanho dela."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 8,
+   "from_claim": "b010c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Ela descreve dois tipos de dependência já identificados e tratáveis. Ele diz que ninguém sabe o que é dependência tecnológica, nem os profissionais de saúde."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 21,
+   "from_claim": "b010c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Ela recomenda adiar o contato até os 2 anos. Ele traz o estudo francês que mede o que a criança perde de linguagem com pouco tempo de tela."
+  },
+  {
+   "from": "b011",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 67,
+   "from_claim": "b011c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A presidência transforma a sugestão do coordenador do hospital em compromisso: reunião com a assessoria no mesmo dia para montar o grupo."
+  },
+  {
+   "from": "b011",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 3,
+   "from_claim": "b011c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A presidência acolhe a frente parlamentar do outro deputado e o convida para o grupo de trabalho da Comissão de Cultura."
+  },
+  {
+   "from": "b012",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 9,
+   "from_claim": "b012c1",
+   "to_claim": "b005c2",
+   "strength": "media",
+   "note": "Ela apoia a iniciativa do projeto e das audiências dizendo que o debate é urgente e precisa alcançar toda a sociedade."
+  },
+  {
+   "from": "b014",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b014c1",
+   "to_claim": "b011c2",
+   "strength": "media",
+   "note": "Logo depois do anúncio do grupo de trabalho, ele reforça que a saúde pública precisa de ações efetivas com urgência."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b006c2",
+    "b008c1",
+    "b008c3",
+    "b010c1"
+   ],
+   "note": "Um deputado, a psicóloga e o coordenador do hospital concordam que a tela cedo demais prejudica a criança e que o contato deve ser adiado."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b006",
+    "b012",
+    "b014"
+   ],
+   "claims": [
+    "b002c3",
+    "b006c3",
+    "b012c1",
+    "b014c1"
+   ],
+   "note": "Os dois especialistas e um deputado concordam que o poder público precisa agir com campanhas, escola e o material de detox digital já produzido."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b004",
+    "b005",
+    "b006",
+    "b011"
+   ],
+   "claims": [
+    "b004c3",
+    "b005c2",
+    "b005c3",
+    "b006c1",
+    "b011c2"
+   ],
+   "note": "A presidência, um deputado e o coordenador do hospital concordam que a Câmara precisa de grupo de trabalho, frente parlamentar e lei específica."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b005",
+   "sentence": 18,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b008",
+   "gist": "como identificar a dependência e quando ela vira doença",
+   "plain": "Como saber se o uso do celular já virou uma dependência de verdade?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b005",
+   "sentence": 23,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b008",
+   "gist": "até quando adiar o contato das crianças com os eletrônicos",
+   "plain": "Até que idade é melhor adiar o contato da criança com celular e computador?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b005",
+   "sentence": 32,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b010",
+   "gist": "que recomendações dar aos governos e órgãos reguladores",
+   "plain": "O que os governos e os órgãos reguladores deveriam fazer diante da dependência tecnológica?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b006",
+   "sentence": 12,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "dar acesso ao material de detox digital da gestão passada",
+   "plain": "O Ministério vai entregar à comissão o material de detox digital feito na gestão passada?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 8,
+   "gist": "8,01 bilhões de pessoas e 5,44 bilhões com celular",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 12,
+   "gist": "média mundial em torno de 7 horas por dia",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 17,
+   "gist": "Brasil acessa 10 horas e 19 minutos por dia",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 18,
+   "gist": "cerca de 110 dias por ano olhando telas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 32,
+   "gist": "celular na barriga e aborto espontâneo em 14 semanas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 35,
+   "gist": "estudo em cinco países com 85 pares de mães e crianças",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 4,
+   "gist": "50 minutinhos por dia e 850 mil palavras a menos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 10,
+   "gist": "QI sobe 3 pontos por geração e recua desde 1996",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 28,
+   "gist": "menino de 15 anos conectado 55 horas seguidas",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 31,
+   "gist": "mais de 150 hospitais chineses tratam o problema",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b008",
+   "sentence": 21,
+   "gist": "nenhum contato com telas até os 2 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b011",
+   "sentence": 3,
+   "gist": "projeto de 2015 há quase 8 anos sem andamento",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu as propostas que saíram da sala: grupo de trabalho, lei específica e o projeto do deputado que pediu o debate.",
+  "omitted": "Ficaram de fora o caso de violência na plataforma Discord, relatado pela presidência, e o material de detox digital produzido na gestão anterior do Ministério."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A tecnologia é feita para prender quem usa",
+   "statement_plain": "Os aplicativos são desenhados para que a pessoa fique cada vez mais tempo na tela, e as grandes empresas ainda seguram as leis que tratariam disso.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b010c3",
+    "b005c1",
+    "b011c1"
+   ],
+   "note": "Junta o coordenador do hospital, que fala do desenho dos aplicativos, e a presidência, que fala do projeto parado e do caso da plataforma Discord."
+  },
+  {
+   "id": "t2",
+   "title": "O vício é sinal de um transtorno que já existia",
+   "statement_plain": "A dependência patológica avisa que há outro transtorno por trás, e já existem critérios para identificá-la e tratamento conhecido para quem sofre dela.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d3": "contrario",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b008c2",
+    "b008c3",
+    "b010c1",
+    "b006c2"
+   ],
+   "note": "A psicóloga e o coordenador do hospital são os dois da área de saúde e divergem: para ela o transtorno vem antes da tela, para ele a tela é que age como droga. Um deputado sustenta a mesma preocupação com as crianças."
+  },
+  {
+   "id": "t3",
+   "title": "Ninguém sabe o tamanho do problema no Brasil",
+   "statement_plain": "A dependência tecnológica não é registrada em lugar nenhum, então não se sabe quantas pessoas ela atinge, e por isso o país precisa informar e formar gente.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b002c3",
+    "b012c1",
+    "b014c1",
+    "b006c3"
+   ],
+   "note": "Contraria a ideia de que o quadro já está mapeado. Reúne os dois profissionais de saúde da mesa e o deputado que cobra o material da gestão passada, não um setor."
+  },
+  {
+   "id": "t4",
+   "title": "A Câmara precisa de lei e de grupo de trabalho",
+   "statement_plain": "O tema só avança se a Câmara criar um grupo de trabalho, montar uma frente parlamentar e aprovar uma lei específica sobre dependência tecnológica.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b005c2",
+    "b005c3",
+    "b006c1",
+    "b011c2"
+   ],
+   "note": "Cruza a mesa, a bancada e a saúde: o coordenador do hospital propõe, o deputado de outro partido e a presidência assumem."
+  },
+  {
+   "id": "t5",
+   "title": "Adiar as telas protege a infância",
+   "statement_plain": "Quanto mais tarde a criança tiver contato com celular e computador, melhor, e o poder público já tem material de detox digital pronto para usar nisso.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c3",
+    "b010c1",
+    "b006c2",
+    "b006c3"
+   ],
+   "note": "A psicóloga, o coordenador do hospital e um deputado de outro partido defendem a mesma ideia por caminhos diferentes."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "nomofobia",
+   "fala": "b001",
+   "sentence": 8,
+   "plain": "medo de ficar sem o celular ou sem contato com a internet, a ponto de causar angústia"
+  },
+  {
+   "term": "transtorno obsessivo compulsivo",
+   "fala": "b002",
+   "sentence": 23,
+   "plain": "transtorno em que a pessoa repete pensamentos e atos sem conseguir parar, mesmo sabendo que são exagerados"
+  },
+  {
+   "term": "terapia cognitivo comportamental",
+   "fala": "b002",
+   "sentence": 28,
+   "plain": "tipo de psicoterapia que trabalha os pensamentos e os comportamentos da pessoa por exercícios práticos"
+  },
+  {
+   "term": "TCC",
+   "fala": "b002",
+   "sentence": 28,
+   "plain": "sigla de terapia cognitivo comportamental, a psicoterapia que trabalha pensamentos e comportamentos"
+  },
+  {
+   "term": "psicoeducação",
+   "fala": "b002",
+   "sentence": 31,
+   "plain": "parte do tratamento em que a pessoa recebe informação sobre o próprio problema para entender o que sente"
+  },
+  {
+   "term": "atenção primária",
+   "fala": "b002",
+   "sentence": 34,
+   "plain": "a porta de entrada do sistema de saúde, os postos de saúde e as equipes de família"
+  },
+  {
+   "term": "campos eletromagnéticos",
+   "fala": "b004",
+   "sentence": 31,
+   "plain": "ondas invisíveis emitidas por aparelhos elétricos, entre eles o telefone celular"
+  },
+  {
+   "term": "big techs",
+   "fala": "b004",
+   "sentence": 51,
+   "plain": "as maiores empresas de tecnologia do mundo, donas das redes sociais e dos sistemas dos celulares"
+  },
+  {
+   "term": "TDAH",
+   "fala": "b008",
+   "sentence": 20,
+   "plain": "sigla de transtorno de déficit de atenção e hiperatividade, quando a pessoa não consegue manter a atenção e fica muito agitada"
+  },
+  {
+   "term": "QI",
+   "fala": "b010",
+   "sentence": 9,
+   "plain": "sigla de quociente de inteligência, a nota de um teste que tenta medir capacidades de raciocínio"
+  },
+  {
+   "term": "notificação compulsória",
+   "fala": "b010",
+   "sentence": 14,
+   "plain": "obrigação de o profissional de saúde comunicar certos casos às autoridades, para que entrem nas estatísticas"
+  },
+  {
+   "term": "Vigilância Epidemiológica",
+   "fala": "b010",
+   "sentence": 17,
+   "plain": "serviço público que acompanha os casos de doença no país para saber onde e quanto eles acontecem"
+  },
+  {
+   "term": "heroína digital",
+   "fala": "b010",
+   "sentence": 31,
+   "plain": "expressão usada por grupos chineses para dizer que a tela prende como uma droga prende"
+  }
+ ]
+}

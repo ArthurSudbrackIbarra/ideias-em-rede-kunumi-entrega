@@ -1,0 +1,2162 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 38,
+ "model": "LLM lendo o prompt hearing-038 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T17:58:47Z",
+ "prompt_sha256": "924b13a5fe3229ddae159e51717ff98e75a692765aa905d5622b935b3b370eb9",
+ "sentences_hash": "b798edd0a279d725",
+ "review": {
+  "pairs_read": 40,
+  "pairs_fixed": 8
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Turismo debateu a criação da Zona Franca da Uva e do Vinho, prevista no Projeto de Lei 1.378, de 2019, que isenta de IPI, PIS e COFINS o vinho vendido em municípios da Serra Gaúcha. Produtores, enólogos, hotelaria, comércio e o Ministério do Turismo apoiaram a proposta e apontaram a carga tributária como a causa de o vinho nacional ter só 10% do mercado de vinho fino. Pediram também que o vinho seja tratado como alimento na reforma tributária.",
+ "stakes": "Estava em jogo o apoio da Comissão de Turismo ao projeto da zona franca e a defesa do setor na reforma tributária que seguia para o Senado.",
+ "central_question": "A isenção tributária numa zona franca da uva e do vinho é o caminho para o vinho brasileiro competir no próprio mercado?",
+ "synopsis_plain": "A Comissão de Turismo discutiu um projeto que cria uma zona franca da uva e do vinho na Serra Gaúcha, com isenção de três impostos federais sobre o vinho vendido ali. Produtores, enólogos, hotéis e o Ministério do Turismo apoiaram. Disseram que o imposto passa de 60% do preço e que o vinho nacional tem só 10% do mercado de vinho fino. Pediram que o vinho seja tratado como alimento.",
+ "stakes_plain": "Se a Comissão de Turismo apoia a zona franca do vinho e se o setor consegue proteção na reforma tributária que vai ao Senado.",
+ "central_question_plain": "Tirar imposto numa zona franca é o caminho para o vinho brasileiro competir no próprio mercado?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Carga tributária sobre o vinho",
+   "description": "Discute o peso dos impostos no preço do vinho brasileiro e se reduzi-los custa ou rende arrecadação.",
+   "axis": {
+    "pro": "O imposto é o que tira a competitividade do vinho brasileiro e precisa cair.",
+    "contra": "Reduzir imposto é renúncia de receita e abre exceção difícil de sustentar.",
+    "pro_plain": "O imposto é o que deixa o vinho brasileiro caro e precisa baixar.",
+    "contra_plain": "Tirar imposto é abrir mão de dinheiro público e criar uma exceção difícil de justificar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Zona Franca da Uva e do Vinho",
+   "description": "Discute o projeto que isenta de impostos federais o vinho vendido em municípios da Serra Gaúcha e quem ele alcança.",
+   "axis": {
+    "pro": "A zona franca deve ser criada para dar condição de venda ao pequeno produtor.",
+    "contra": "A zona franca é um privilégio regional que não se sustenta no desenho tributário.",
+    "pro_plain": "A zona franca tem de ser criada para o pequeno produtor conseguir vender.",
+    "contra_plain": "É um privilégio de uma região só, difícil de encaixar no sistema de impostos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Enoturismo e venda na vinícola",
+   "description": "Discute o peso do turismo do vinho nas vendas das vinícolas e o que o turista consegue comprar na porta do produtor.",
+   "axis": {
+    "pro": "O enoturismo é o principal canal de venda do pequeno produtor e precisa de incentivo.",
+    "contra": "O esforço deveria ir para o mercado nacional e o atacado, não para a venda no balcão.",
+    "pro_plain": "A venda na porta da vinícola é o que sustenta o pequeno produtor e precisa de incentivo.",
+    "contra_plain": "O esforço deveria ir para o mercado nacional e as grandes vendas, não para o balcão."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Concorrência do vinho importado",
+   "description": "Discute por que o vinho estrangeiro domina o mercado brasileiro e o papel dos acordos internacionais e do descaminho.",
+   "axis": {
+    "pro": "O vinho importado entra em condição desigual e ocupa o mercado que seria do nacional.",
+    "contra": "O importado ganha mercado por preço e escala, e o problema do nacional é outro.",
+    "pro_plain": "O vinho de fora entra em vantagem desleal e toma o lugar do brasileiro.",
+    "contra_plain": "O de fora ganha por preço e escala, e o problema do brasileiro é outro."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Vinho como alimento",
+   "description": "Discute classificar o vinho como alimento, e não como bebida destilada, para mudar a tributação e o consumo.",
+   "axis": {
+    "pro": "O vinho é alimento e não pode ser tributado como bebida destilada.",
+    "contra": "O vinho é bebida alcoólica e deve receber a tributação das bebidas.",
+    "pro_plain": "O vinho é alimento e não pode ser taxado como bebida destilada.",
+    "contra_plain": "O vinho é bebida alcoólica e deve pagar imposto como as outras bebidas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Reforma tributária e imposto seletivo",
+   "description": "Discute o risco de o vinho cair no imposto seletivo na reforma tributária que seguia para o Senado.",
+   "axis": {
+    "pro": "A reforma tributária precisa proteger o vinho do imposto seletivo.",
+    "contra": "O vinho entra nas regras gerais da reforma como qualquer bebida alcoólica.",
+    "pro_plain": "A reforma tributária tem de proteger o vinho do imposto que pune produtos nocivos.",
+    "contra_plain": "O vinho entra na regra geral da reforma, como qualquer bebida alcoólica."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Cadeia produtiva e agricultura familiar",
+   "description": "Discute como o setor se descreve: pequena produção familiar e artesanal ou indústria já modernizada e tecnificada.",
+   "axis": {
+    "pro": "A cadeia é de agricultura familiar e trabalho artesanal, e é isso que o benefício protege.",
+    "contra": "O setor já se modernizou, tem colheita mecanizada e compete por qualidade.",
+    "pro_plain": "É uma cadeia de famílias pequenas e trabalho à mão, e é isso que o benefício protege.",
+    "contra_plain": "O setor já se modernizou, tem colheita por máquina e compete por qualidade."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência, exercida por dois deputados federais",
+   "org": "Comissão de Turismo da Câmara dos Deputados",
+   "basis": "o registro Presidente reúne dois oradores: o Deputado Romero Rodrigues abre em b001.1 e o Deputado Carlos Gomes assume a condução a partir de b007.4",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha o setor de turismo"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal, autor do requerimento e do Projeto de Lei 1.378, de 2019",
+   "org": "Republicanos",
+   "basis": "citado como autor do requerimento em b001.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio Grande do Sul",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "PL",
+   "basis": "saudado pela presidência em b003.32 e b003.33",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio Grande do Sul",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Sócia-diretora do Spa do Vinho Hotel e Condomínio Vitivinícola e diretora da APROVALE",
+   "org": "APROVALE",
+   "basis": "apresentada pela presidência em b003.22 e se apresenta em b010.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da APROVALE, do Vale dos Vinhedos",
+   "org_plain": "associação que reúne as vinícolas e os empreendimentos de turismo do Vale dos Vinhedos"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Atração de Investimentos",
+   "org": "Ministério do Turismo",
+   "basis": "apresentada pela presidência em b003.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Turismo",
+   "org_plain": "ministério responsável pela política federal de turismo"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação Brasileira de Enologia",
+   "org": "ABE",
+   "basis": "apresentado pela presidência em b003.20 e em b013.10",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Associação Brasileira de Enologia",
+   "org_plain": "entidade que reúne os enólogos, os profissionais que conduzem a produção do vinho"
+  },
+  "s07": {
+   "role": "setor_privado",
+   "cargo": "Diretor da CNC e presidente da Federação Nacional de Hotéis e Restaurantes",
+   "org": "CNC",
+   "basis": "apresentado em b003.10 e se apresenta em b016.1 e b016.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Confederação Nacional do Comércio",
+   "org_plain": "confederação patronal que representa o comércio, os serviços e o turismo"
+  },
+  "s08": {
+   "role": "setor_privado",
+   "cargo": "Presidente da União Brasileira de Vitivinicultura",
+   "org": "UVIBRA",
+   "basis": "apresentado pela presidência em b003.14 e em b019.0",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da UVIBRA",
+   "org_plain": "entidade que representa as empresas de vinho fino e espumante do país"
+  },
+  "s09": {
+   "role": "setor_privado",
+   "cargo": "Diretor de Operações da ABIH Nacional e hoteleiro",
+   "org": "ABIH Nacional",
+   "basis": "apresentado em b003.18 e se apresenta em b022.15",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Associação Brasileira da Indústria de Hotéis",
+   "org_plain": "entidade que representa os hotéis brasileiros"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal e relator do projeto na Comissão de Desenvolvimento Econômico",
+   "org": "Republicanos",
+   "basis": "anunciado pela presidência em b023.27 e b023.54",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Espírito Santo",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.4
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.25
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.15
+   }
+  ],
+  "basis": "não há registro de palmas. A presidência cita em b003.24 e b003.26 um vereador e representantes da Superintendência de Trânsito, e quatro dos seis convidados participam de forma remota",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Abre a audiência sobre a zona franca e sustenta que ela cria um ambiente tributário favorável e fortalece a vinicultura gaúcha e o turismo de visitação.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A zona franca cria o ambiente tributário que a vinicultura gaúcha precisa e reforça o turismo da região.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a zona franca surgiu para criar um ambiente favorável de tributação e fortalecer a vinicultura e o turismo de visitação",
+     "plain": "A proposta da zona franca surgiu para criar um ambiente favorável na tributação e, com isso, fortalecer a vinicultura no Rio Grande do Sul. Não tenho dúvida de que ela reforça o turismo de visitação e a produção de uva e vinho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que haverá convites do pessoal da Serra Gaúcha.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida os debatedores, registra presenças e anuncia a agenda da Comissão para a semana seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Destaca que o espumante gaúcho conquista espaço no mundo e que o turismo do vinho cresce a cada dia.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O espumante gaúcho ganha mercado no exterior e puxa junto o turismo do vinho.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o espumante gaúcho conquista cada dia mais espaço no mundo e o enoturismo cresce junto",
+     "plain": "A vitivinicultura tem o seu berço principal no Rio Grande do Sul. Sem menosprezar os outros Estados, o vinho espumante gaúcho conquista cada dia mais espaço no mundo, e o turismo do vinho é muito forte. O enoturismo cresce a cada dia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca com a ausência da degustação de vinho na reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado responde que as caixas de vinho estão do lado de fora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata a tramitação do projeto, aprovado em duas comissões, e conta que o Governo retirou o acordo que levaria a urgência ao plenário.",
+   "quote": [
+    32,
+    33,
+    34
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto já passou por duas comissões e precisa de acordo político para andar.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto já foi aprovado em duas comissões e hoje aguarda parecer na Comissão de Finanças e Tributação",
+     "plain": "Esse projeto já foi aprovado em duas comissões, a de Integração Nacional e a de Desenvolvimento Econômico, Indústria, Comércio e Serviço. Hoje ele está com o parecer do relator na Comissão de Finanças e Tributação."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      34,
+      35
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo retirou o acordo do Colégio de Líderes que aprovaria a urgência e levaria o projeto ao plenário",
+     "plain": "Na época, o Governo desfez o acordo do Colégio de Líderes que aprovaria a urgência e levaria o projeto ao plenário. Outros requerimentos de urgência passaram, esse não."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada confirma que está ouvindo e pergunta se é ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma o áudio e passa a palavra à representante da APROVALE por dez minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apoia o projeto, descreve a isenção que ele cria e sustenta que o imposto supera 60% do preço e que a renúncia se paga no resto da cadeia.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A zona franca dá competitividade ao produtor e não custa arrecadação ao poder público.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto integra mais de 30 municípios gaúchos e isenta de IPI, PIS e COFINS os vinhos, sucos e espumantes vendidos na zona franca",
+     "plain": "O projeto integra mais de 30 Municípios gaúchos em áreas delimitadas, com isenção da pesada carga de IPI, PIS e COFINS para vinhos, sucos de uva e espumantes produzidos em todo o território nacional e vendidos dentro da zona franca."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      16
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o imposto cobrado do vinho passa de 60% do valor de venda e o maior sócio do produtor é o próprio Governo",
+     "plain": "O imposto cobrado do vinho brasileiro passa de 60% do valor de venda. O maior sócio de cada produtor é o próprio Governo, nas três esferas. Com esse preço, o consumidor vai ao vinho estrangeiro, muitas vezes de descaminho."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há perda de receita, porque o resto da cadeia arrecada mais e cobre a pequena isenção concedida",
+     "plain": "Esse aumento da atividade econômica na região vai elevar a arrecadação de tributos. Não há que se falar em perda de receita para nenhuma instância de governo, porque o resto da cadeia arrecada mais e cobre a pequena isenção."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à representante do Ministério do Turismo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Diz que o projeto tem aderência e pode atrair investimento, aponta concorrência desleal do vinho importado e pede que outros municípios entrem na lista.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 31,
+   "stance": {
+    "position": "condicional",
+    "claim": "O Ministério apoia o projeto, mas a lista de municípios precisa acompanhar o Mapa do Turismo.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto tem total aderência e pode incentivar o turismo e atrair investimentos para a região",
+     "plain": "Sobre o projeto de lei, acreditamos que ele tem total aderência e pode, sim, incentivar o turismo na região. Com certeza, vai incentivar também a atração de investimentos para lá."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a concorrência dos vinhos importados é desleal, sobretudo do argentino e do chileno, que chegam com preços bem menores",
+     "plain": "Concordamos que a concorrência dos vinhos importados é desleal, principalmente a do vinho argentino e a do chileno, que chegam ao nosso mercado com preços bem mais reduzidos."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "há outros 12 municípios na rota turística da uva e do vinho que ficaram de fora do projeto de lei",
+     "plain": "Em compensação, há outros 12 Municípios na rota turística da uva e do vinho, dentro do Mapa do Turismo, que ficaram fora do projeto de lei. Seria ótimo se fossem abarcados."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que dá para cruzar as listas e levar ao relator, porque ainda cabe alteração, e cita municípios gaúchos que precisam entrar.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lista de municípios ainda pode ser corrigida na próxima comissão.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dá para cruzar as listas e levar ao relator, porque ainda cabe alteração, e há municípios gaúchos com vinícolas consolidadas fora do projeto",
+     "plain": "Sobre os Municípios, podemos cruzar os dados e levar ao relator, porque ainda cabe mudança na próxima comissão. Existem Municípios no Rio Grande do Sul que precisam entrar. Alto Feliz e Vacaria já têm vinícolas consolidadas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Lembra que boa parte da vitivinicultura é agricultura familiar, que outros países dão subsídio e que o setor passou por uma revolução tecnológica.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O produtor brasileiro banca sozinho o investimento que outros países subsidiam.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "boa parte da vinicultura da região é agricultura familiar, com peso econômico e cultural muito grande",
+     "plain": "Vale ressaltar que boa parte dessa vinicultura é agricultura familiar. Isso vale tanto para os produtores de uva quanto para os de vinho e para quem hoje vive do enoturismo. Ela tem peso econômico e cultural muito grande na região."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em outros países há incentivos e subsídios para a vitivinicultura, e no Brasil o investimento é bancado pelo próprio produtor",
+     "plain": "Comparando com o cenário mundial, sabemos que em outros países existem incentivos e subsídios importantes para a vitivinicultura ser sustentável. No Brasil não temos isso. Tecnologia, vinhedo e estrutura são bancados pelo próprio produtor."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "houve uma grande revolução tecnológica no setor e hoje os vinhos e espumantes não devem nada aos de outros países",
+     "plain": "Nos últimos anos tivemos uma grande revolução tecnológica no setor. Hoje conseguimos entregar vinho, espumante e suco de excelente qualidade, que não ficam atrás dos produtos de outros países."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o representante dos enólogos e passa a palavra ao diretor da CNC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende tornar o vinho brasileiro alimento, sustenta que a tributação inibe o consumo do nacional e mostra o peso do setor no emprego gaúcho.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A tributação excessiva é o que inibe o consumo do vinho nacional e precisa ser corrigida na reforma.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "tornar o vinho brasileiro alimento evita as circunstâncias que empurram a tributação para cima",
+     "plain": "Eu acrescentaria outra tese que defendo, a de tornar o vinho brasileiro alimento. Se conseguirmos colocá-lo como alimento, evitamos uma série de circunstâncias que atrapalham as propostas de uma tributação mais baixa."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só no Rio Grande do Sul, de 70 a 80 mil pessoas e cerca de 15 mil famílias vivem da produção vitivinícola",
+     "plain": "Só no Rio Grande do Sul, de 70 a 80 mil pessoas, cerca de 15 mil famílias, trabalham na produção vitivinícola. É geração de emprego importante e evita que a mão de obra migre para as cidades."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o brasileiro passou a querer vinho de qualidade, mas a tributação excessiva inibe o consumo do nacional",
+     "plain": "O brasileiro passou a demandar vinho de qualidade, mas algo joga o consumo do vinho nacional para baixo, e é a tributação que ele sofre. Não é só o regime do Mercosul nem só o descaminho. É a carga excessiva sobre o produto brasileiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Defende incluir vinho e suco de uva na cesta básica e descreve a produção de uva como artesanal, feita por 15 a 20 mil produtores familiares.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A produção de uva é artesanal e familiar, e exige atenção tributária especial.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há entre 15 mil e 20 mil produtores de uva, quase todos da agricultura familiar, num processo basicamente artesanal",
+     "plain": "Na área primária há entre 15 mil e 20 mil produtores de uva, na grande maioria de agricultura familiar. O processo é basicamente artesanal. Até hoje nunca vi ninguém colher uva com máquina, tem de ser mão a mão."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      2
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há também a frente de inserir os vinhos e os sucos de uva na cesta básica, com tributação diferenciada",
+     "plain": "Há outras frentes andando junto, como a alteração da reforma tributária e a iniciativa de inserir os vinhos e os sucos de uva na cesta básica, que passariam a ter tributação diferenciada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado confirma que está pronto para falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência apresenta o representante da UVIBRA e lhe dá a palavra por dez minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Alerta que o vinho está entrando no imposto seletivo, mostra que só 10% do mercado de vinho fino é nacional e que o enoturismo sustenta as vinícolas.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O imposto seletivo é o maior risco da reforma tributária para a cadeia do vinho.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      10
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o vinho está caindo no imposto seletivo, e isso é muito ruim para a cadeia inteira",
+     "plain": "A nossa preocupação principal é com a reforma tributária. O setor brasileiro de vinho está entrando no campo do imposto seletivo, e isso é muito maléfico para a cadeia como um todo."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "apenas 10% do mercado de vinho fino e espumante é brasileiro, e isso não tem a ver com qualidade, porque o setor deu um salto em tecnologia",
+     "plain": "Na categoria de vinho fino e espumante, apenas 10% do mercado é de vinho brasileiro. Isso não tem nada a ver com qualidade. Nos últimos 20 anos o setor deu um salto gigante em tecnologia, principalmente no manejo do vinhedo."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      6
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cerca de 80% das vinícolas do Vale dos Vinhedos dependem diretamente da venda feita no enoturismo",
+     "plain": "Hoje estimamos que 80% das vinícolas do Vale dos Vinhedos, que é uma das regiões produtoras, dependem diretamente da venda feita no enoturismo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra que a cada dez garrafas vendidas no Brasil oito ou nove eram importadas e pergunta se a proporção continua a mesma.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O vinho importado dominava quase toda a venda no Brasil e é preciso saber se isso mudou.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um tempo atrás, a cada dez garrafas vendidas no Brasil, oito ou nove eram importadas",
+     "plain": "Um tempo atrás, a cada dez garrafas vendidas aqui, oito ou nove eram estrangeiras. Não sei como está essa relação hoje, se ainda continua assim."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sugere apoiar o projeto na tese de isenção para desenvolvimento regional, concorda com o vinho como alimento e declara o apoio da hotelaria.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A hotelaria apoia a zona franca porque o país precisa de uma região competitiva no vinho.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há uma tese de doutorado de um ministro do STJ sobre isenção tributária para o desenvolvimento regional que serviria de base ao projeto",
+     "plain": "Queria citar um livro sobre isenção tributária para desenvolvimento regional, tese de doutorado de um ministro do STJ que é meu conterrâneo. Talvez fosse um bom adendo para a Comissão de Turismo."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a associação que representa mais de 20 mil hotéis é favorável à zona franca, porque o país precisa de uma região competitiva",
+     "plain": "Encerro dizendo que a nossa entidade, que reúne mais de 20 mil hotéis no País, apoia a zona franca. O cobertor é curto, nós sabemos, mas também sabemos da importância de ter uma região competitiva."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "concorda com a ideia do vinho como alimento e lembra que o consumo por pessoa no Brasil é muito baixo",
+     "plain": "Concordo plenamente com a ideia do vinho como alimento, como o Alexandre colocou aqui. Temos de olhar o consumo de vinho por pessoa no Brasil diante de outros países, porque sabemos que esse consumo é muito baixo."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Explica que a lei quer fazer o turista comprar na zona franca com isenção, conta o histórico do limite de garrafas e alerta para o acordo com a União Europeia.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": 48,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A isenção na venda ao turista é o que dá sobrevida às vinícolas pequenas.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o objetivo é que o turista compre dentro da zona, e o projeto previa nove garrafas por CPF com isenção de PIS, COFINS e IPI",
+     "plain": "O objetivo maior da lei é fazer com que todo turista que chegue ao Município da zona compre o vinho. No começo o projeto previa nove garrafas por CPF, com isenção de PIS, COFINS e IPI, para motivar o turista a levar essa quantidade."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "hoje o turista compra de uma a seis garrafas, porque seis é o que cabe na cabine do avião sem despachar",
+     "plain": "Quem visita essas regiões hoje leva de uma a seis garrafas. Param em seis porque é o que conseguem carregar na cabine do avião, sem despachar."
+    },
+    {
+     "id": "b023c3",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se o acordo do Mercosul com a União Europeia passar, o vinho de lá chega com apoio de governo e o setor pode ser desmontado",
+     "plain": "O Mercosul negocia um acordo com a União Europeia em que também entram vinhos. Se ele for chancelado e esses vinhos chegarem a custo de produção, com apoio dos governos deles, perdemos competitividade e podemos desmontar o setor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Conta que produtores do Espírito Santo procuraram a relatoria ao saber que qualquer produtor do País pode vender na zona franca.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto beneficia produtores de todo o País, não só os da Serra Gaúcha.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "produtores do Espírito Santo procuraram a relatoria ao saber que qualquer produtor do País pode comercializar na zona franca",
+     "plain": "Depois da aprovação na comissão, vários produtores do meu Estado, de vinho e de uva, nos procuraram para entender o projeto. Quando eu disse que qualquer produtor do País pode vender na zona franca, eles ficaram maravilhados."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a relatoria abriu um diálogo com o instituto federal capixaba e destinou emenda para apoiar os produtores do Estado",
+     "plain": "A partir daí começamos um diálogo para que o Instituto Federal do Espírito Santo, pelo curso de Química, fizesse um trabalho maior com esses produtores. Também destinamos emenda e estamos apoiando a produção no Estado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o relator e consulta quem quer usar a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que a maior parte do imposto é estadual, que o Rio Grande do Sul assumiu o compromisso de reduzir e que o vinho virou moeda de troca em acordos.",
+   "quote": [
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": 6,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem faz a renúncia é o próprio Estado, e ela é pequena diante do que a cadeia passa a arrecadar.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maior carga tributária do vinho é dos Estados, e o Rio Grande do Sul já se comprometeu a reduzir o que for estadual",
+     "plain": "Do jeito que o comércio de vinho funciona no Brasil, a maior carga tributária é arrecadada pelos Estados. O Governo do Rio Grande do Sul já assumiu o compromisso de fazer a maior redução ou isenção possível nos impostos estaduais."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      5
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem faz a renúncia é o próprio Rio Grande do Sul, e ela é pequena diante do aumento de arrecadação no resto da cadeia",
+     "plain": "Quem fará a renúncia é o próprio Rio Grande do Sul, ciente de que ela é pequena diante de um comércio que ainda é pequeno, e de que virá grande aumento de arrecadação no resto da cadeia."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o vinho brasileiro foi usado como moeda de troca em acordos internacionais, sobretudo no Mercosul, e isso deixou o produtor em desvantagem",
+     "plain": "Assim como uma política de cotas corrige uma distorção, aqui o vinho brasileiro virou moeda de troca em vários acordos internacionais, sobretudo com os países irmãos do Mercosul. Isso nos deixou em desvantagem no mercado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da UVIBRA e retoma a pergunta sobre a proporção de vinhos finos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Confirma a proporção, explica que a margem no importado afasta o importador do vinho nacional e afirma que já há colheita mecanizada no Brasil.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Enquanto o importado der margem maior, o importador não vai escolher o vinho brasileiro.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o importador não tem aversão ao vinho brasileiro, mas enquanto o importado der 100%, 200% ou 300% de lucro ele não vai optar pelo nacional",
+     "plain": "O importador daqui não tem aversão ao vinho brasileiro. Ele tem um negócio nas mãos e, enquanto o importado permitir 100%, 200% ou 300% de lucro, nunca vai escolher o nacional. Reduzir a carga é o que torna o negócio atrativo."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Portugal se consomem mais de 50 litros por pessoa contra 2 litros no Brasil, e chegar a 50 acabaria com a produção mundial",
+     "plain": "Em Portugal o consumo passa de 50 litros por pessoa. No Brasil são 2 litros por pessoa. Com o nosso potencial, se chegássemos a 50 litros, acabaríamos com a produção mundial de vinho."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "já existe colheita mecanizada no Brasil, no Vale do São Francisco e na Campanha Gaúcha, onde o terreno é mais plano",
+     "plain": "Só para comentar com o senhor, Deputado, hoje já temos, sim, colheita mecanizada no Brasil, e a Serra Gaúcha é pioneira nisso. No Vale do São Francisco e na Campanha Gaúcha o terreno é mais plano e a máquina entra."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que ainda prefere colher a uva com a tesoura, na vindima.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b030",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da UVIBRA brinca que vinho bom é aquele que a pessoa gosta de tomar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência esclarece que falava da colheita artesanal e consulta os demais convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que o projeto tem tudo para ir adiante na Câmara e que a luta maior será no Senado.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto passa na Câmara e o obstáculo real está no Senado.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto tem tudo para ir adiante na Câmara e a luta maior será no Senado",
+     "plain": "Acho que esse projeto tem tudo para andar. Com a sua liderança, Deputado, o senhor aprova. A luta maior vai ser no Senado."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca com o apelido dos potiguares e chama o representante da UVIBRA.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b034",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da UVIBRA dispensa a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante da APROVALE.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Convida o novo relator a visitar o Rio Grande do Sul e diz que um pequeno incentivo permite ao setor fazer muito.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Um incentivo pequeno é suficiente para o setor do vinho avançar muito.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com um pequeno incentivo o setor do vinho brasileiro consegue fazer muito, e falta o voto de confiança do Governo e dos deputados",
+     "plain": "Temos fé de que o Governo e os deputados vão olhar com carinho para a situação em que estamos e dar um voto de confiança ao vinho brasileiro. Com um pequeno incentivo, vamos poder fazer muito."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao representante dos enólogos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede que o vinho chegue ao consumidor a preço acessível para promover a cultura do consumo moderado, apontado por estudos como benéfico.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O vinho precisa chegar acessível para que se construa uma cultura de consumo moderado.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso que o vinho chegue ao consumidor de forma acessível para promover a cultura do consumo moderado",
+     "plain": "Agora é fazer com que os nossos vinhos cheguem ao consumidor a preço acessível, para promover a cultura do consumo moderado, que, como o Daniel disse, é benéfico para a saúde e já foi comprovado por estudos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os palestrantes, convoca a próxima reunião e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b010",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 8,
+   "from_claim": "b010c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Ao ambiente favorável que a abertura prometeu, a representante dos produtores dá o desenho concreto: mais de 30 Municípios e isenção de três impostos federais na venda."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 3,
+   "from_claim": "b012c1",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "O Ministério do Turismo se soma ao pedido do setor e diz que o projeto tem aderência e atrai investimento para a região."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 25,
+   "from_claim": "b013c1",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "À lista de Municípios que o Ministério apontou como faltando, a presidência responde que dá para cruzar as informações e levar ao relator, porque ainda cabe alteração."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 16,
+   "from_claim": "b014c2",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Onde ela mostra o imposto passando de 60% do preço, a associação dos enólogos acrescenta o outro lado da conta: lá fora há subsídio, e aqui o produtor banca tudo sozinho."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 7,
+   "from_claim": "b016c3",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "A confederação do comércio confirma o diagnóstico dos enólogos e nomeia o que trava o consumo do vinho nacional: não é só o Mercosul nem o descaminho, é a carga tributária."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 28,
+   "from_claim": "b017c1",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "Aos 70 a 80 mil trabalhadores contados pela confederação, a presidência soma o retrato da ponta: entre 15 mil e 20 mil produtores de uva, quase todos familiares."
+  },
+  {
+   "from": "b020",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 16,
+   "from_claim": "b020c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A UVIBRA leva a queixa da carga tributária para o que está em jogo agora: o vinho entrando no imposto seletivo da reforma."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 11,
+   "from_claim": "b020c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "As duas entidades dizem a mesma coisa: o problema do vinho brasileiro não é qualidade, porque o setor deu um salto tecnológico nos últimos anos."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 12,
+   "from_claim": "b022c3",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "A hotelaria adere à tese de classificar o vinho como alimento e acrescenta o argumento do consumo por pessoa, muito baixo no Brasil."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 3,
+   "from_claim": "b022c2",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "A entidade dos hotéis declara apoio ao mesmo projeto, com a ressalva de que o cobertor é curto, mas que o país precisa de uma região competitiva."
+  },
+  {
+   "from": "b023",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 13,
+   "to_sentence": 6,
+   "from_claim": "b023c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Aos 80% de vinícolas que vivem do enoturismo, a presidência responde com o desenho da lei: fazer o turista comprar dentro da zona, com isenção."
+  },
+  {
+   "from": "b023",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 18,
+   "from_claim": "b023c3",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "À concorrência desleal apontada pelo Ministério, a presidência acrescenta o risco seguinte: o acordo do Mercosul com a União Europeia trazendo vinho apoiado por governo."
+  },
+  {
+   "from": "b024",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 13,
+   "from_claim": "b024c1",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "O relator confirma pelo caso do próprio Estado que o benefício não é só gaúcho: produtores capixabas procuraram o gabinete ao saber que poderiam vender na zona."
+  },
+  {
+   "from": "b026",
+   "to": "b023",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 13,
+   "from_claim": "b026c1",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "À isenção federal que a presidência descreveu, a produtora responde onde está o grosso do imposto: nos Estados, e o Rio Grande do Sul já se comprometeu a abrir mão."
+  },
+  {
+   "from": "b028",
+   "to": "b021",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 1,
+   "from_claim": "b028c1",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "À pergunta sobre a proporção de garrafas importadas, a UVIBRA confirma que continua a mesma e explica o motivo: a margem de lucro do importado afasta o importador do vinho nacional."
+  },
+  {
+   "from": "b028",
+   "to": "b017",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 6,
+   "from_claim": "b028c3",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "A presidência disse que nunca viu colher uva com máquina e que o processo é artesanal. A UVIBRA corrige: já há colheita mecanizada no Vale do São Francisco e na Campanha Gaúcha."
+  },
+  {
+   "from": "b036",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 5,
+   "from_claim": "b036c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A produtora agradece a relatoria que ampliou o alcance do projeto e diz que basta um pequeno incentivo para o setor fazer muito."
+  },
+  {
+   "from": "b038",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 23,
+   "from_claim": "b038c1",
+   "to_claim": "b028c2",
+   "strength": "media",
+   "note": "Os enólogos citam a UVIBRA para ligar o preço acessível à cultura do consumo moderado, que estudos apontam como benéfica."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b010",
+    "b014",
+    "b016",
+    "b026"
+   ],
+   "claims": [
+    "b010c2",
+    "b010c3",
+    "b014c2",
+    "b016c3",
+    "b026c1",
+    "b026c2"
+   ],
+   "note": "Produtores, enólogos e a confederação do comércio concordam que a carga tributária é o que tira competitividade do vinho brasileiro e que reduzi-la não custa arrecadação."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b010",
+    "b012",
+    "b022",
+    "b024"
+   ],
+   "claims": [
+    "b001c1",
+    "b010c1",
+    "b012c1",
+    "b022c2",
+    "b024c1"
+   ],
+   "note": "A presidência, os produtores, o Ministério do Turismo, a hotelaria e o relator concordam que a zona franca deve ser criada e que ela alcança produtores de todo o País."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b012",
+    "b021",
+    "b023",
+    "b026",
+    "b028"
+   ],
+   "claims": [
+    "b012c2",
+    "b021c1",
+    "b023c3",
+    "b026c3",
+    "b028c1"
+   ],
+   "note": "O Ministério do Turismo, a presidência e os produtores concordam que o vinho importado ocupa o mercado brasileiro em condição desigual, por acordo internacional e por margem de lucro."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b016",
+    "b017",
+    "b022",
+    "b038"
+   ],
+   "claims": [
+    "b016c1",
+    "b017c2",
+    "b022c3",
+    "b038c1"
+   ],
+   "note": "A confederação do comércio, a presidência, a hotelaria e os enólogos concordam que o vinho deve ser tratado como alimento e ter tributação diferente da de bebida destilada."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b014",
+    "b016",
+    "b017",
+    "b024"
+   ],
+   "claims": [
+    "b014c1",
+    "b016c2",
+    "b017c1",
+    "b024c2"
+   ],
+   "note": "Enólogos, confederação do comércio, presidência e o relator concordam que a cadeia é de agricultura familiar e que é esse produtor que o benefício quer alcançar."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 31,
+   "addressed_to": "parlamentar",
+   "answered_by": "b013",
+   "gist": "que os outros municípios da rota da uva e do vinho entrem no projeto",
+   "plain": "Os outros Municípios da rota da uva e do vinho vão entrar no projeto de lei?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b021",
+   "sentence": 2,
+   "addressed_to": "setor_privado",
+   "answered_by": "b028",
+   "gist": "se a proporção de garrafas importadas continua a mesma",
+   "plain": "A cada dez garrafas vendidas no Brasil, oito ou nove ainda são importadas?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b023",
+   "sentence": 48,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "atuar junto aos senadores para proteger o setor na reforma",
+   "plain": "Os senadores vão dar ao vinho as proteções necessárias na reforma tributária?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b026",
+   "sentence": 6,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que o Governo Federal e a Câmara liberem as matérias de incentivo",
+   "plain": "O Governo Federal e a Câmara vão liberar as matérias para que Estados e Municípios deem os incentivos?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b010",
+   "sentence": 5,
+   "gist": "30 vinícolas fazem 17% dos vinhos finos nacionais",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b010",
+   "sentence": 16,
+   "gist": "imposto supera 60% do valor de venda do vinho",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b012",
+   "sentence": 25,
+   "gist": "12 municípios da rota turística fora do projeto",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b016",
+   "sentence": 21,
+   "gist": "consumo de bebida subiu 22% em 20 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b016",
+   "sentence": 25,
+   "gist": "400 mil visitantes por ano no Vale dos Vinhedos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b016",
+   "sentence": 28,
+   "gist": "70 a 80 mil pessoas na produção gaúcha, 15 mil famílias",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b016",
+   "sentence": 34,
+   "gist": "safra anual beirando 60 mil toneladas",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b017",
+   "sentence": 4,
+   "gist": "entre 15 mil e 20 mil produtores de uva no país",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b020",
+   "sentence": 6,
+   "gist": "80% das vinícolas do Vale dependem do enoturismo",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b020",
+   "sentence": 14,
+   "gist": "só 10% do mercado de vinho fino é brasileiro",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b020",
+   "sentence": 19,
+   "gist": "30% do cigarro consumido no Brasil vem do descaminho",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b028",
+   "sentence": 22,
+   "gist": "Portugal passa de 50 litros por pessoa, Brasil tem 2",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "setor_privado",
+   "parlamentar",
+   "mesa"
+  ],
+  "angle": "A matéria tratou a audiência como uma defesa do setor por tributação especial, com o dado de que o imposto responde por 60% do preço final e o nacional fica com 10% do mercado.",
+  "omitted": "Ficaram de fora o pedido do Ministério do Turismo para incluir outros doze municípios, a divergência sobre a colheita mecanizada, a retirada do acordo de urgência pelo Governo e o alerta sobre o imposto seletivo."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O imposto é o que trava o vinho brasileiro",
+   "statement_plain": "O vinho nacional não perde por qualidade, perde por preço, e o preço é alto porque o imposto passa de 60% do valor de venda enquanto outros países subsidiam os seus produtores.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b014c2",
+    "b016c3",
+    "b028c1",
+    "b026c3"
+   ],
+   "note": "A ideia junta produtores, enólogos e a confederação patronal do comércio, e desloca a explicação do fracasso comercial da qualidade do produto para a regra tributária."
+  },
+  {
+   "id": "t2",
+   "title": "A zona franca não custa arrecadação, ela gera",
+   "statement_plain": "Isentar a venda do vinho numa área delimitada não tira dinheiro de ninguém, porque o movimento que ela cria no turismo, no comércio e na hotelaria arrecada mais do que a isenção custa.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c3",
+    "b026c1",
+    "b022c1",
+    "b012c1",
+    "b024c1"
+   ],
+   "note": "A ideia cruza setores: a associação de produtores, a entidade dos hotéis, o Ministério do Turismo e um deputado de outro Estado sustentam a mesma conta de arrecadação."
+  },
+  {
+   "id": "t3",
+   "title": "O vinho é alimento, não é bebida destilada",
+   "statement_plain": "O vinho deve ser classificado como alimento, e não como destilado, porque é consumido com moderação e carrega uma cultura, e essa classificação é o que muda a tributação.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b017c2",
+    "b022c3",
+    "b038c1",
+    "b028c2"
+   ],
+   "note": "A tese nasce na confederação do comércio e é encampada pela presidência da mesa, pela hotelaria, pelos enólogos e pelos produtores, ou seja, por todos os lados da sala."
+  },
+  {
+   "id": "t4",
+   "title": "É uma cadeia familiar e artesanal que se protege",
+   "statement_plain": "Quem está na ponta são milhares de famílias que colhem uva à mão, e é esse produtor pequeno, e não a grande indústria, que o benefício tributário quer manter na terra.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b016c2",
+    "b017c1",
+    "b024c2"
+   ],
+   "note": "É a imagem que sustenta o pedido de exceção, defendida por enólogos, pela confederação patronal, pela presidência e pelo relator do projeto."
+  },
+  {
+   "id": "t5",
+   "title": "O setor já deu o salto e compete por qualidade",
+   "statement_plain": "O vinho brasileiro não é mais produção de fundo de quintal: houve revolução tecnológica, já existe colheita mecanizada e o produto ganha prêmio fora, o que falta é preço.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b014c3",
+    "b020c2",
+    "b028c3"
+   ],
+   "note": "O mesmo setor que se apresenta como artesanal para pedir exceção se apresenta como moderno para defender o produto, e a UVIBRA chega a corrigir a presidência sobre a colheita com máquina."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Zona Franca da Uva e do Vinho",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "área delimitada de municípios onde o vinho vendido ficaria livre de impostos federais, como acontece na Zona Franca de Manaus"
+  },
+  {
+   "term": "CNC",
+   "fala": "b003",
+   "sentence": 10,
+   "plain": "sigla da Confederação Nacional do Comércio de Bens, Serviços e Turismo, entidade que representa os patrões desses setores"
+  },
+  {
+   "term": "UVIBRA",
+   "fala": "b003",
+   "sentence": 14,
+   "plain": "sigla da União Brasileira de Vitivinicultura, entidade que reúne as empresas de vinho fino e espumante"
+  },
+  {
+   "term": "vitivinicultura",
+   "fala": "b004",
+   "sentence": 4,
+   "plain": "a atividade que vai do cultivo da uva à produção do vinho, tratada como uma cadeia só"
+  },
+  {
+   "term": "enoturismo",
+   "fala": "b004",
+   "sentence": 6,
+   "plain": "turismo feito em torno do vinho, com visita a vinícolas, degustação e compra na própria propriedade"
+  },
+  {
+   "term": "APROVALE",
+   "fala": "b010",
+   "sentence": 1,
+   "plain": "sigla da Associação dos Produtores de Vinhos Finos do Vale dos Vinhedos, que administra a região certificada"
+  },
+  {
+   "term": "IPI",
+   "fala": "b010",
+   "sentence": 3,
+   "plain": "Imposto sobre Produtos Industrializados, cobrado pela União sobre o que sai da fábrica"
+  },
+  {
+   "term": "COFINS",
+   "fala": "b010",
+   "sentence": 3,
+   "plain": "contribuição federal cobrada sobre o faturamento das empresas para financiar a seguridade social"
+  },
+  {
+   "term": "denominação de origem",
+   "fala": "b010",
+   "sentence": 8,
+   "plain": "selo que certifica que o produto vem de uma região determinada e segue as regras dela, como acontece com vinhos europeus"
+  },
+  {
+   "term": "descaminho",
+   "fala": "b010",
+   "sentence": 16,
+   "plain": "entrada de mercadoria estrangeira no país sem pagar o imposto devido, diferente do contrabando de produto proibido"
+  },
+  {
+   "term": "enólogos",
+   "fala": "b014",
+   "sentence": 13,
+   "plain": "profissionais formados para conduzir a produção do vinho, da uva à garrafa"
+  },
+  {
+   "term": "indicações geográficas",
+   "fala": "b014",
+   "sentence": 18,
+   "plain": "registro que liga um produto ao lugar onde ele é feito e protege esse nome"
+  },
+  {
+   "term": "imposto seletivo",
+   "fala": "b020",
+   "sentence": 10,
+   "plain": "imposto previsto na reforma tributária para produtos considerados nocivos à saúde ou ao meio ambiente, com alíquota mais alta"
+  },
+  {
+   "term": "substituição tributária",
+   "fala": "b020",
+   "sentence": 23,
+   "plain": "regra em que uma empresa da cadeia recolhe antecipadamente o imposto devido pelas outras, o que costuma encarecer o produto"
+  }
+ ]
+}

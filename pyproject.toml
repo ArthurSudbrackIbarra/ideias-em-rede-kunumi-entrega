@@ -1,0 +1,35 @@
+[project]
+name = "ideias-em-rede-kunumi"
+version = "0.1.0"
+description = "Ideias em Rede (Instituto Kunumi) — pipelines sobre o dataset PublicHearingBR"
+requires-python = ">=3.10"
+# O downloader e a divisão da transcrição em falas e sentenças usam só a biblioteca padrão;
+# build_scene valida o hearing-sim com jsonschema; annotate_sim fala com a API pelo pacote anthropic. Qualquer dependência nova entra aqui via `uv add <pacote>`.
+dependencies = [
+    "anthropic>=1.5.0",
+    "jsonschema>=4.26.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.6",
+]
+
+[tool.uv]
+# Repositório de scripts, não um pacote instalável: `uv sync` só cria o .venv.
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+# load_dataset.py é código dos autores do dataset, baixado pelo script; não é nosso.
+extend-exclude = ["data"]
+
+[tool.ruff.lint]
+# Conjunto padrão do ruff (erros de sintaxe/pyflakes): pega bug, não estilo.
+select = ["E4", "E7", "E9", "F"]

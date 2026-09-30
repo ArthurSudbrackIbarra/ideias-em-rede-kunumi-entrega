@@ -1,0 +1,2041 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 158,
+ "model": "LLM lendo o prompt hearing-158 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:24:02Z",
+ "prompt_sha256": "68a3377008a26224b78346b3fa9a9b52b0f2c282c20e7209083bf68dce80779a",
+ "sentences_hash": "6996e37f6eb1ae9c",
+ "review": {
+  "pairs_read": 35,
+  "pairs_fixed": 23
+ },
+ "warnings": [],
+ "synopsis": "A Comissão da Amazônia e dos Povos Originários e Tradicionais ouviu lideranças extrativistas e indígenas, dois órgãos do Executivo federal, um instituto de clima e uma certificadora sobre a regulamentação do mercado de carbono. O debate girou em torno do substitutivo do PL 412, de 2022, que está em relatoria no Senado, e das garantias para quem vive na floresta. Pediu-se que as sugestões saídas da audiência fossem sistematizadas e entregues à relatora.",
+ "stakes": "Que mudanças no PL 412 a Comissão levaria à relatora no Senado antes de o projeto entrar em pauta.",
+ "central_question": "Como regulamentar o mercado de carbono sem que as comunidades que preservam a floresta fiquem na ponta mais fraca da negociação?",
+ "synopsis_plain": "Deputados ouviram lideranças extrativistas e indígenas, dois órgãos do Governo Federal, um instituto de clima e uma certificadora sobre como regular a compra e a venda de crédito de carbono no Brasil. O projeto que cria essas regras está no Senado. Quase todos querem a lei, mas divergem sobre quem decide o que acontece dentro dos territórios e sobre quem fica com o dinheiro.",
+ "stakes_plain": "Que mudanças no projeto de lei do mercado de carbono a Comissão vai pedir à relatora no Senado antes da votação.",
+ "central_question_plain": "Como criar regras para o mercado de carbono sem que as comunidades que cuidam da floresta saiam perdendo?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Urgência da regulamentação",
+   "description": "Discute-se se o mercado de carbono precisa de uma lei federal agora ou se pode seguir como está, no mercado voluntário e em regras de cada Estado.",
+   "axis": {
+    "pro": "O mercado de carbono precisa de uma lei federal aprovada agora.",
+    "contra": "O mercado pode seguir sem lei federal, com as regras voluntárias e as iniciativas estaduais.",
+    "pro_plain": "É preciso aprovar logo uma lei nacional para o mercado de carbono.",
+    "contra_plain": "Dá para seguir sem lei nacional, com o mercado voluntário e as regras de cada Estado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Estoques de floresta no mercado",
+   "description": "Discute-se se o mercado deve pagar pela floresta que segue em pé, e não só pelo desmatamento evitado ou pelas emissões de instalações.",
+   "axis": {
+    "pro": "O mercado deve remunerar os estoques de floresta preservados e a conservação, não só o desmatamento evitado.",
+    "contra": "O sistema de comércio deve ficar nas emissões de instalações, e a floresta se trata por outra política.",
+    "pro_plain": "Quem manteve a floresta em pé também tem de receber, não só quem evita desmatamento.",
+    "contra_plain": "O mercado de emissões cuida de fábricas e instalações. A floresta se resolve por outra política."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Riscos dos contratos nas comunidades",
+   "description": "Discute-se o que fazer com os contratos de crédito de carbono que chegam às comunidades sem que elas entendam o que estão assinando.",
+   "axis": {
+    "pro": "Os contratos que chegam às comunidades são inseguros e exigem regras, salvaguardas e preparação antes da assinatura.",
+    "contra": "A governança das empresas, as salvaguardas do contrato e a tecnologia já bastam para fazer esses projetos com segurança.",
+    "pro_plain": "Sem regra e sem preparo, a comunidade assina um contrato que não entende e sai perdendo.",
+    "contra_plain": "Com contrato claro, acompanhamento e tecnologia, o projeto já pode ser feito com segurança."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Decisão sobre projetos nos territórios",
+   "description": "Discute-se quem decide se um projeto de carbono acontece num território: a própria comunidade ou o órgão público que administra a área.",
+   "axis": {
+    "pro": "A decisão é da comunidade, com a consulta prévia respeitada e sem tutela de órgão público.",
+    "contra": "Projeto em área pública depende de plano de manejo e da anuência prévia do órgão gestor.",
+    "pro_plain": "Quem decide se o projeto entra no território é a própria comunidade.",
+    "contra_plain": "Como a área é pública, o órgão que administra precisa autorizar o projeto antes."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Desenho do mercado regulado",
+   "description": "Discute-se como a lei organiza o mercado, com cotas, créditos verificados e órgão gestor, e em que momento se define quais fontes entram na regulação.",
+   "axis": {
+    "pro": "A lei deve criar a estrutura e deixar para a regulamentação, com dados, quem entra e quem fica fora.",
+    "contra": "A lei já deveria dizer quais setores são regulados, com o agronegócio incluído.",
+    "pro_plain": "A lei monta a estrutura agora. Quem entra e quem fica fora se decide depois, com dados.",
+    "contra_plain": "A lei já tinha de dizer quem é regulado, inclusive o agronegócio."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Governança e participação",
+   "description": "Discute-se se os espaços de decisão do mercado de carbono dão assento real à sociedade civil, aos povos indígenas e às comunidades tradicionais.",
+   "axis": {
+    "pro": "A governança precisa de assento e de poder real para comunidades e sociedade civil, além da comissão de REDD+.",
+    "contra": "Os espaços já previstos, como a comissão de REDD+ e o órgão gestor, dão conta dessa participação.",
+    "pro_plain": "Comunidades e sociedade civil precisam de lugar de verdade nas decisões desse mercado.",
+    "contra_plain": "Os espaços que já existem na lei bastam para ouvir comunidades e sociedade civil."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Potencial econômico dos territórios",
+   "description": "Discute-se se o carbono guardado nas reservas extrativistas e nos territórios tradicionais pode virar renda para quem vive neles.",
+   "axis": {
+    "pro": "O carbono desses territórios pode virar renda para quem vive neles, com projetos viáveis no Brasil.",
+    "contra": "Esse potencial atende mais ao mercado do que às comunidades, que ficam alheias ao processo.",
+    "pro_plain": "O carbono guardado nesses territórios pode virar renda para quem vive lá.",
+    "contra_plain": "Esse dinheiro tende a ficar com o mercado, e as comunidades ficam de fora."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência e autor do requerimento",
+   "org": "Comissão da Amazônia e dos Povos Originários e Tradicionais",
+   "basis": "registro 'Presidente' na ata e autoria do Requerimento nº 72, de 2023, dita em b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata da Amazônia e dos povos originários e tradicionais"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Instituto de Estudos Amazônicos",
+   "org": "IEA",
+   "basis": "apresentada pela presidência em b001.5 e por ela mesma em b004.12",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto de Estudos Amazônicos",
+   "org_plain": "organização que dá apoio técnico e jurídico às comunidades extrativistas da Amazônia"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Conselho Nacional das Populações Extrativistas",
+   "org": "CNS",
+   "basis": "apresentado pela presidência em b001.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Nacional das Populações Extrativistas",
+   "org_plain": "entidade que representa as populações extrativistas da Amazônia, como seringueiros e ribeirinhos"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador Executivo da Articulação dos Povos Indígenas do Brasil",
+   "org": "APIB",
+   "basis": "apresentado pela presidência em b001.7 e por ele mesmo em b008.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Articulação dos Povos Indígenas do Brasil",
+   "org_plain": "articulação nacional que reúne as organizações indígenas do país"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral da Secretaria de Economia Verde, Descarbonização e Bioindústria",
+   "org": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+   "basis": "apresentada pela presidência em b001.8",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria de Economia Verde do MDIC",
+   "org_plain": "ministério da indústria e do comércio, que participou do grupo de trabalho que redigiu a proposta"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "representante do Departamento de Políticas de Mitigação, Adaptação e Instrumentos de Implementação",
+   "org": "Secretaria Nacional de Mudança do Clima",
+   "basis": "apresentado pela presidência em b001.10 e por ele mesmo em b020.2",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Mudança do Clima",
+   "org_plain": "secretaria do Ministério do Meio Ambiente e Mudança do Clima que cuida da política de clima"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Instituto Talanoa",
+   "org": "Instituto Talanoa",
+   "basis": "apresentada pela presidência em b001.11 e por ela mesma em b014.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Instituto Talanoa",
+   "org_plain": "organização que acompanha e analisa a política brasileira de clima"
+  },
+  "s08": {
+   "role": "setor_privado",
+   "cargo": "CEO da Lux Carbon Standard",
+   "org": "Lux Carbon Standard",
+   "basis": "apresentado pela presidência em b001.12 e por ele mesmo em b016.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Lux Carbon Standard",
+   "org_plain": "empresa que certifica projetos de carbono no mercado voluntário, segundo ele a primeira brasileira"
+  },
+  "s09": {
+   "role": "convidado",
+   "cargo": "assessora da Liderança do PSOL na pauta socioambiental",
+   "org": "Liderança do PSOL na Câmara dos Deputados",
+   "basis": "apresentada por ela mesma em b018.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "assessora da Liderança do PSOL",
+   "org_plain": "equipe que assessora os deputados do PSOL na Câmara nos temas de meio ambiente"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.15
+   }
+  ],
+  "basis": "Sem menção a delegações ou palmas. A mesa registra a presença de um deputado em b009.2 e cita assessorias da Comissão e de liderança em b005.2 e b017.13.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende a regulamentação federal do mercado de carbono, afirma que sem regra os mais fracos perdem e pede que os estoques de floresta também sejam pagos.",
+   "quote": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "open_question": 60,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O mercado de carbono precisa de regulamentação federal, e sem ela as populações mais frágeis perdem.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem regulamentação nacional e nos Estados tudo fica frágil e os mais fracos sempre perdem",
+     "plain": "Falo de regulamentação nacional e também nos Estados. Para mim, tudo o que não tem regra é frágil, e assim quem é mais fraco sempre perde."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desmatamento é 15% das emissões no mundo e 50% das emissões brasileiras",
+     "plain": "Peguei alguns dados: o desmatamento é apenas 15% das emissões no mundo. Na realidade brasileira já muda: ele é 50% das emissões. Falar de floresta, para o Brasil, pesa muito."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil deveria levantar a bandeira dos estoques preservados, e não só a do desmatamento evitado",
+     "plain": "Na COP, se concordarmos, poderíamos levantar a bandeira não só do desmatamento evitado, mas dos estoques preservados por nós historicamente, inclusive povos indígenas e ribeirinhos. Seria um movimento até a COP 30, na Amazônia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada agradece o convite e observa que 8 minutos é pouco para um tema tão complexo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que às vezes o tempo de fala é flexibilizado um pouco.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Mostra que as reservas extrativistas guardam 2 bilhões de toneladas de carbono e defende que as comunidades decidam sobre os projetos, com repartição de benefícios clara.",
+   "quote": [
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7,
+    8,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Desenvolver projetos de crédito de carbono nas reservas extrativistas é uma oportunidade, desde que as comunidades decidam e sejam ouvidas.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as reservas extrativistas guardam 2 bilhões de toneladas de carbono na vegetação",
+     "plain": "As reservas tinham 2,1 bilhões de toneladas de carbono na vegetação, acima e abaixo do solo. O desmatamento já fez perder 74 milhões de toneladas. Nós temos, então, 2 bilhões de toneladas de carbono."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "chegam às comunidades contratos confusos, em inglês, assinados às vezes por quem não tem poder para assinar",
+     "plain": "Na mídia aparecem, a todo momento, contratos confusos, em inglês, que ninguém entende, às vezes assinados por quem não pode assinar. Por isso a regulamentação e as oficinas importam: o que parece solução é armadilha."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      65,
+      66
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as comunidades é que decidem se querem um projeto de crédito de carbono, com consentimento consciente",
+     "plain": "Quem decide se quer ou não um projeto de crédito de carbono devem ser as comunidades. Elas precisam dar consentimento consciente, saber do que se trata e aprovar juntas o projeto no território."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Determina que tudo o que se referir ao projeto de lei seja sistematizado nesta audiência e entregue pessoalmente à relatora no Senado.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O que se disser nesta audiência sobre o projeto deve ser sistematizado e entregue à relatora.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o que se disser aqui sobre o projeto será sistematizado e entregue à relatora",
+     "plain": "Já sai daqui o primeiro encaminhamento: tudo o que nesta audiência se referir ao projeto deve ser sistematizado. Depois eu mesmo posso entregar esse resultado à relatora, junto com os colegas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende diretrizes inegociáveis para projetos de carbono em comunidades tradicionais, com respeito à Convenção 169, e relata pré-contratos que compram o monopólio do crédito.",
+   "quote": [
+    23,
+    24,
+    25
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Qualquer projeto de carbono em comunidade tradicional precisa de diretrizes inegociáveis e de consulta prévia.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso fixar diretrizes inegociáveis para qualquer projeto de carbono em comunidade tradicional",
+     "plain": "Nas conferências e oficinas que fazemos há mais de 1 ano, discutimos a necessidade de fixar diretrizes inegociáveis para qualquer projeto de carbono em comunidade tradicional. Vou lhe entregar esse documento."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Convenção 169 tem de ser respeitada e no Brasil ela nunca é levada em consideração",
+     "plain": "Um ponto central do documento é respeitar a Convenção 169 da OIT, a Organização Internacional do Trabalho. Historicamente no Brasil ela nunca é levada em conta, apesar da importância na consulta prévia, livre e informada."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há pré-contratos de até 500 mil reais que já entregam à empresa o monopólio do crédito da comunidade",
+     "plain": "São assinados pré-contratos que repassam até 500 mil reais a associações que às vezes não têm dinheiro nem para um pacote de café. Aceitam 400 mil ou 500 mil para começar a mobilização, e a empresa já leva o monopólio do crédito."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece as contribuições de Júlio Barbosa e passa a palavra a Kleber Karipuna.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Coloca a autodeterminação dos povos indígenas como primeiro pressuposto e pede ouvidoria e fiscalização de órgãos como o Ministério Público Federal nos projetos de carbono.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O projeto ficou mais próximo das salvaguardas pedidas, mas só serve se a decisão sobre o projeto no território for do povo indígena.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os povos indígenas decidem, por autodeterminação e autonomia, se querem um projeto de carbono em suas terras",
+     "plain": "Chamamos atenção para a autodeterminação e a autonomia dos povos para decidir se querem ou não trabalhar um projeto de carbono em suas terras. Para nós, esse é o primeiro pressuposto fundamental."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os chamados caubóis do carbono chegam às comunidades oferecendo mundos e fundos e as garantias não ficam claras",
+     "plain": "Nossa preocupação é com quem assedia, os famosos caubóis do carbono, que chegam oferecendo mundos e fundos às comunidades. Elas às vezes não conhecem esse debate e acabam cedendo. As garantias necessárias não estão claras para elas."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso uma ouvidoria ligada ao Ministério Público Federal e à Fundação Nacional dos Povos Indígenas",
+     "plain": "Propomos um mecanismo próprio, uma ouvidoria ligada a órgãos que atuam com os povos indígenas. Para isso destaco duas instâncias de fiscalização: o Ministério Público Federal e a Fundação Nacional dos Povos Indígenas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença do deputado Amom Mandel, do Amazonas, e chama Beatriz Soares Silva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica a estrutura do mercado regulado, com cotas, créditos verificados e órgão gestor, e afirma que a lei é programática e deixa as decisões difíceis para a regulamentação.",
+   "quote": [
+    43,
+    44,
+    45
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei cria a estrutura do mercado e deixa para a regulamentação as decisões sobre quem entra e que metodologias valem.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o mercado começa por um Plano Nacional de Alocação que divide o orçamento de carbono em cotas de 1 tonelada",
+     "plain": "O mercado de carbono começa pelo Plano Nacional de Alocação. Com os dados de emissões e uma meta de redução, forma-se um orçamento de carbono dividido em cotas de 1 tonelada, as Cotas Brasileiras de Emissão."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei é programática e deixa para a regulamentação, com dados, quem fica dentro e quem fica fora",
+     "plain": "A lei é programática. Não quisemos tomar as decisões difíceis dentro dela. Criamos a estrutura e vamos à regulamentação com projeções e dados para decidir quem está dentro, quem está fora e que metodologias valem."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei fixa salvaguardas, repartição de benefícios e programas de apoio para proteger quem está sendo assediado",
+     "plain": "Tentamos fixar os marcos mais importantes para proteger quem está sendo assediado e evitar as coisas dos cowboys do carbono. Ficou na lei que tem de haver salvaguardas, repartição de benefícios e programas de apoio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência comenta o desenho de gestão apresentado e passa a palavra a Leandro Gomes Cardoso.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Detalha as condições para um crédito voluntário entrar no sistema regulado e aponta que o plano de manejo e a anuência dos órgãos podem ser alterados.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto equilibra os princípios do sistema e condiciona a entrada de créditos a metodologias credenciadas e verificação independente.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      7
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o crédito só entra no sistema regulado com metodologia credenciada, verificação independente e registro central",
+     "plain": "Qualquer pessoa pode ofertar crédito de carbono no mercado voluntário. Para entrar no sistema regulado, ele precisa de metodologia credenciada pelo órgão gestor, de verificação por entidade independente e de inscrição no registro central."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o crédito de REDD+ fica condicionado às diretrizes da comissão em que povos e comunidades têm assento",
+     "plain": "O reconhecimento de créditos de REDD+ fica condicionado aos limites da convenção do clima da ONU e às diretrizes da CONAREDD, onde povos indígenas e comunidades tradicionais têm assento. Isso evita contar o crédito duas vezes."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a exigência de plano de manejo e a anuência dos órgãos gestores podem ser alteradas por sugestão desta Comissão",
+     "plain": "Houve falas sobre a exigência de plano de manejo e sobre a manifestação dos órgãos que administram as áreas. Talvez sejam os pontos que esta Comissão possa sugerir mudar, e reunir as sugestões para a relatora seria produtivo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece Leandro Gomes Cardoso e chama Natalie Unterstell, que participa on-line.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende aprovar logo a regulação de emissões, porque hoje ninguém paga para poluir, e lembra que o sistema de comércio regula instalações, não desmatamento evitado.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulação das emissões precisa ser aprovada o quanto antes, porque hoje quem polui não paga a conta.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem regulação ninguém paga para poluir e quem polui acaba subsidiado pelos contribuintes",
+     "plain": "No cenário de hoje, sem regulação, ninguém paga para poluir. Quem polui está até sendo subsidiado, porque nós, contribuintes, gastamos impostos com os efeitos disso. Se quem polui não paga, todos nós pagamos."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      20
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um preço de carbono nesse sistema é uma das três medidas que podem levar o Brasil a 2030 com 60% a 80% menos emissões",
+     "plain": "Cenários da Universidade Federal do Rio de Janeiro, com contribuições do Talanoa, mostram que um preço de carbono neste sistema é uma das três medidas que podem levar o Brasil a 2030 com 60% a 80% menos emissões."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o que se regula aqui são instalações, e desmatamento evitado precisa de tratamento em outra política",
+     "plain": "Aqui se fala de regular instalações. Não se fala de regular arroto de boi nem desmatamento evitado. Essas questões precisam de tratamento na política de clima, mas não necessariamente pelo sistema de comércio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece Natalie Unterstell e chama o último palestrante, Pedro Guilherme Kraus, por 8 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta uma certificadora brasileira com projetos a partir de 5 hectares, foco em conservação e não em desmatamento evitado, e crédito da comunidade separado por blockchain.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Projetos de carbono no Brasil devem pagar pela conservação e caber em áreas pequenas, em todos os biomas.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um projeto sai a partir de 200 mil a 450 mil dólares e o brasileiro não tem como pagar taxa internacional",
+     "plain": "Nesses projetos é preciso área grande e muitos créditos, porque o serviço vem importado dos Estados Unidos, da Inglaterra ou da Suíça. Um projeto sai a partir de 200 mil a 450 mil dólares, e o brasileiro não paga taxa internacional."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o foco não é só desmatamento evitado, mas conservação ambiental, e em áreas menores",
+     "plain": "Trabalhamos forte para diminuir o tamanho dessas áreas. E não focamos apenas no desmatamento evitado, focamos na conservação ambiental."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "quando o contrato reserva 30% dos créditos à comunidade indígena, a plataforma já separa esses créditos",
+     "plain": "Suponha que investidores definam que 30% dos créditos da área ficam com a comunidade indígena, cumpridos os trâmites legais. No registro, a própria plataforma já separa esses créditos, e isso evita casos recentes."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Encaminha o envio imediato de uma síntese com as proposições à relatora e pede uma reunião da Comissão com ela.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A síntese com as proposições da audiência tem de chegar logo à relatora, porque o projeto pode ser votado rápido.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto pode entrar em pauta rápido, então a síntese com as proposições precisa ser enviada logo",
+     "plain": "Esse projeto pode entrar em pauta rápido, pelo andar da carroça. Então não vamos esperar para marcar reunião: enviemos logo a síntese com as proposições."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Questiona a garantia de participação da sociedade civil na comissão de REDD+ e cobra se o agronegócio, maior emissor do País, vai ficar fora da regulação.",
+   "quote": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A participação das comunidades e da sociedade civil na gestão do mercado não está garantida no projeto.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a comissão nacional de REDD+ teve as cadeiras da sociedade civil reduzidas de duas para uma, dividida com a iniciativa privada",
+     "plain": "Essa Comissão Nacional para REDD+ perdeu cadeiras da sociedade civil: antes eram duas, hoje é uma só, dividida com a iniciativa privada. Onde está a garantia de participação dessas comunidades na gestão prevista no projeto?"
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no Brasil o principal emissor não é a indústria e sim o agronegócio, com 25% de toda a emissão em 2022",
+     "plain": "No Brasil o principal foco de emissão de gases de efeito estufa não está na indústria, está no agronegócio. Só em 2022 ele respondeu por 25% de toda a emissão feita no País."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Letícia e pede que o Ministério do Meio Ambiente responda à primeira pergunta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica por que citou a comissão de REDD+ e diz que não tem como responder sobre a garantia de participação, por ser de outra secretaria.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A comissão de REDD+ aparece na lei porque os projetos em terras indígenas terão de seguir a estratégia nacional de REDD+.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      4
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a comissão de REDD+ está na lei porque projetos em terras indígenas terão de seguir a estratégia nacional",
+     "plain": "Eu só citei a CONAREDD+ porque ela está na lei: os projetos em terras indígenas e de comunidades tradicionais terão de seguir a Estratégia Nacional para REDD+. E essa comissão tem representação mais ampla do que só o Governo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a preocupação com a participação da sociedade civil e passa a palavra a Beatriz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Esclarece que a lei nasceu horizontal e vale para qualquer fonte acima de 25 mil toneladas, sem dizer se é indústria, energia ou agro.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei é uma regulação horizontal, que alcança qualquer fonte acima do limite, e a definição de quem entra fica para a regulamentação.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "qualquer fonte que emita mais de 25 mil toneladas pode entrar, sem dizer se é indústria, energia ou agro",
+     "plain": "Fonte, na lei, é qualquer atividade ou processo que emite gases de efeito estufa. Pode entrar qualquer fonte que emita mais de 25 mil toneladas. Não dissemos que é a indústria, a energia ou o agro, nem que não é."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      7
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem fica dentro e quem fica fora ficou para a regulamentação, porque na lei isso atrasaria mais 10 anos",
+     "plain": "As decisões difíceis, e quem fica dentro ou fora talvez seja a mais difícil, deixamos para a regulamentação. Se trouxéssemos isso para dentro da lei, ficaríamos mais 10 anos sem aprovar nada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se mais alguém quer falar e dá a palavra a Mary Allegretti.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Considera limitada a representação na comissão de REDD+ e defende espaços institucionais menos rígidos para o debate com a sociedade civil.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão de REDD+ não pode ser o único espaço de consulta à sociedade civil nesse debate.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a representação na comissão de REDD+ é limitada e não pode ser o único espaço de consulta",
+     "plain": "Acho a representação na CONAREDD+ muito limitada. Ela não pode ser o único instrumento de consulta e debate com a sociedade civil, porque os temas são complexos. A sociedade civil deveria pedir espaços menos rígidos e com mais debate."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pergunta o que ela chama de espaço institucional menos rígido.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A mesa pede que ela explique o que entende por espaço institucional menos rígido.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "quer saber o que ela chama de espaço menos rígido",
+     "plain": "O que a senhora chama de menos rígido?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que uma comissão de assentos fixos é um espaço rígido e lembra que este é o primeiro convite às comunidades em 2 anos de trabalho.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 2,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O espaço institucional desse debate é limitado demais diante da complexidade do tema.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há desequilíbrio de poder porque o projeto reconhece o papel das comunidades mas não na institucionalidade",
+     "plain": "Acho que há um desequilíbrio de poder aí. A sociedade civil tem um papel enorme, sobretudo as comunidades indígenas e tradicionais. O projeto reconhece isso, mas não na hora de montar a institucionalidade e definir as regras."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "este é o primeiro evento que ouve diretamente as comunidades, depois de 2 anos de trabalho no tema",
+     "plain": "Este é o primeiro evento para ouvir diretamente as comunidades e quem as representa. Já são 2 anos em que trabalhamos o tema, e só agora veio o convite. Então é muito pouco."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os convidados, convoca reunião para 10 de outubro e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 47,
+   "to_sentence": 23,
+   "from_claim": "b004c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Responde à provocação sobre a fragilidade de quem fica sem regra mostrando o que já chega às comunidades: contratos confusos e em inglês."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 95,
+   "from_claim": "b005c1",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Ao pedido de participação das comunidades na regulamentação, a mesa responde com um encaminhamento: sistematizar o que se disse aqui e levar à relatora."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 86,
+   "from_claim": null,
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Reforça a leitura sobre o contrato de concessão: como a gestão da reserva é da associação, a decisão sobre o projeto também é dela."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 52,
+   "to_sentence": 2,
+   "from_claim": null,
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "Aceita o encaminhamento da mesa e pede que os comentários do conselho cheguem de fato à relatora do projeto."
+  },
+  {
+   "from": "b008",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 21,
+   "to_sentence": 24,
+   "from_claim": "b008c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "Retoma a pergunta sobre o que acontece com os povos sem regra e coloca a autodeterminação como primeiro pressuposto."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 65,
+   "from_claim": null,
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Soma à exigência de consentimento das comunidades o respeito à Convenção 169 e aos protocolos próprios de consulta."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 25,
+   "from_claim": "b008c2",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Concorda com o relato do conselho: as comunidades muitas vezes não conhecem esse debate e acabam cedendo às ofertas de dinheiro."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 48,
+   "to_sentence": 5,
+   "from_claim": "b010c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Responde à denúncia do assédio dizendo que a lei fixou salvaguardas, repartição de benefícios e programas de apoio justamente para isso."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 86,
+   "from_claim": "b012c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Reconhece que a exigência de plano de manejo e a anuência dos órgãos gestores, criticadas pelo instituto, são pontos que a Comissão pode pedir para mudar."
+  },
+  {
+   "from": "b012",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 3,
+   "from_claim": "b012c3",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "Apoia o encaminhamento da mesa de reunir as sugestões e levá-las à relatora no Senado."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 45,
+   "from_claim": "b012c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Detalha o desenho apresentado antes: as escolhas difíceis ficam na regulamentação e o órgão gestor credencia as metodologias aceitas."
+  },
+  {
+   "from": "b014",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 22,
+   "from_claim": "b014c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Vai na mesma direção da abertura: sem regra, quem polui não paga, e a conta fica com todos os contribuintes."
+  },
+  {
+   "from": "b014",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 31,
+   "to_sentence": 52,
+   "from_claim": "b014c3",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "Diverge da expectativa sobre os estoques: o sistema de comércio regula instalações, e floresta e desmatamento evitado vão por outra política."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 43,
+   "to_sentence": 12,
+   "from_claim": null,
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Endossa o ponto da Convenção 169 e dos protocolos de consulta prévia levantado pelo conselho extrativista."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 37,
+   "to_sentence": 21,
+   "from_claim": null,
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Apoia o pedido indígena: o reconhecimento dos direitos coletivos no capítulo sobre terras federais é decisivo."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 5,
+   "from_claim": null,
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Reforça a explicação do desenho: a regra define quem tem de medir e reduzir emissões, não autoriza poluir."
+  },
+  {
+   "from": "b016",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 52,
+   "from_claim": "b016c2",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "Encontra-se com a mesa no ponto dos estoques: a certificadora diz que não foca só desmatamento evitado, mas conservação."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 34,
+   "to_sentence": 33,
+   "from_claim": "b016c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Diz que a plataforma evita casos como os pré-contratos relatados, porque a parte da comunidade fica separada no registro."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 32,
+   "to_sentence": 5,
+   "from_claim": "b016c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Responde à preocupação com o assédio dizendo que o contrato define o percentual da comunidade e a plataforma já o separa."
+  },
+  {
+   "from": "b017",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 3,
+   "from_claim": "b017c1",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "Confirma e acelera o encaminhamento anunciado na abertura: enviar logo a síntese com as proposições, sem esperar reunião."
+  },
+  {
+   "from": "b018",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 35,
+   "from_claim": "b018c2",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "Contesta o quadro de emissões da abertura: para ela o principal emissor no Brasil não é a indústria, é o agronegócio."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 43,
+   "from_claim": "b018c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Cobra o que a lei programática deixou de fora: se a definição dos setores fica para depois, o maior emissor pode escapar."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 13,
+   "from_claim": "b018c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Contesta que a comissão de REDD+ garanta a participação: as cadeiras da sociedade civil caíram de duas para uma, dividida com a iniciativa privada."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 8,
+   "from_claim": "b020c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "Explica por que citou a comissão de REDD+ e diz que a garantia de participação depende de outra secretaria, que responderá por escrito."
+  },
+  {
+   "from": "b022",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 12,
+   "from_claim": "b022c1",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "Responde à cobrança sobre o agronegócio: a regulação é horizontal e alcança qualquer fonte acima do limite, sem nomear setor."
+  },
+  {
+   "from": "b024",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 8,
+   "from_claim": "b024c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Concorda com a crítica da assessoria: a representação nessa comissão é limitada e não pode ser o único espaço de consulta."
+  },
+  {
+   "from": "b024",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 4,
+   "from_claim": "b024c1",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "Contrapõe-se ao ministério: para ela o assento nessa comissão é estreito e não basta como espaço de consulta à sociedade civil."
+  },
+  {
+   "from": "b026",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 13,
+   "from_claim": "b026c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Diverge do desenho do ministério: o projeto reconhece o papel das comunidades, mas concentra o debate num espaço estreito."
+  },
+  {
+   "from": "b026",
+   "to": "b025",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": null,
+   "to_claim": "b025c1",
+   "strength": "media",
+   "note": "Explica o que chama de espaço rígido: uma comissão com número de assentos muito definido e nada além dela."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b014"
+   ],
+   "claims": [
+    "b001c1",
+    "b014c1"
+   ],
+   "note": "O deputado que pediu a audiência e o instituto de clima concordam que a falta de regra deixa a conta com os mais frágeis e que a lei precisa sair agora."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b016"
+   ],
+   "claims": [
+    "b001c2",
+    "b001c3",
+    "b016c2"
+   ],
+   "note": "O deputado e a certificadora privada concordam que o pagamento não pode olhar só o desmatamento evitado, e que a floresta em pé e a conservação valem."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b006",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b004c2",
+    "b006c3",
+    "b008c2",
+    "b010c3"
+   ],
+   "note": "O instituto, o conselho extrativista, a articulação indígena e o ministério da indústria concordam que os contratos chegam sem segurança e exigem regra e preparação."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b006",
+    "b008",
+    "b012"
+   ],
+   "claims": [
+    "b004c3",
+    "b006c2",
+    "b008c1",
+    "b012c3"
+   ],
+   "note": "Comunidades extrativistas, povos indígenas e o ministério do clima concordam que a decisão sobre o projeto é do território e que a anuência prévia precisa ser revista."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b008",
+    "b018",
+    "b024",
+    "b026"
+   ],
+   "claims": [
+    "b008c3",
+    "b018c1",
+    "b024c1",
+    "b026c1"
+   ],
+   "note": "A articulação indígena, a assessoria de uma liderança partidária e o instituto concordam que os espaços de participação previstos são estreitos para esse debate."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b004",
+    "b016"
+   ],
+   "claims": [
+    "b004c1",
+    "b016c1"
+   ],
+   "note": "O instituto e a certificadora concordam que existe um potencial de carbono grande nesses territórios e que ele hoje é travado por custo e escala de projeto."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b001",
+   "sentence": 24,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b004",
+   "gist": "o que muda para indígenas e extrativistas se o mercado voluntário seguir dando as cartas",
+   "plain": "O que acontece com indígenas, comunidades tradicionais e agricultores se o mercado voluntário continuar dando as cartas?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b001",
+   "sentence": 60,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "se o Brasil deve cobrar pagamento pelos estoques, e não só pelo desmatamento evitado",
+   "plain": "O Brasil deve cobrar pagamento pelos estoques de floresta já preservados, e não só pelo desmatamento evitado?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b001",
+   "sentence": 69,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b014",
+   "gist": "qual é o papel da sociedade civil no controle desse mercado",
+   "plain": "Que papel a sociedade civil vai ter no controle desse mercado de carbono?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b018",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "onde está a garantia de participação das comunidades na gestão do projeto",
+   "plain": "Onde está a garantia de que comunidades e entidades vão participar da gestão proposta no projeto?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b018",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": "b022",
+   "gist": "se o agronegócio vai ser ignorado na regulação do carbono",
+   "plain": "O agronegócio vai ser simplesmente ignorado na regulação do mercado de carbono?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q6",
+   "from": "b026",
+   "sentence": 2,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "para onde vão as questões levantadas aqui e quem vai recebê-las",
+   "plain": "Para onde vão as questões colocadas nesta audiência e quem vai recebê-las?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 28,
+   "gist": "reservas com 2,1 bilhões de toneladas de carbono na vegetação",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 15,
+   "gist": "78 reservas florestais e 28 marinhas, 14 milhões de hectares",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 17,
+   "gist": "uso comunitário soma 11% do território amazônico",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b001",
+   "sentence": 36,
+   "gist": "desmatamento é 15% das emissões globais",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 32,
+   "gist": "pré-contratos de até 500 mil reais com associações",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b014",
+   "sentence": 46,
+   "gist": "60 projetos de REDD em terras indígenas em 2,5 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 20,
+   "gist": "preço de carbono ajuda a cortar 60% a 80% até 2030",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 27,
+   "gist": "obrigação acima de 10 mil toneladas, redução acima de 25 mil",
+   "disputed_by": [
+    {
+     "fala": "b018",
+     "sentence": 14
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b016",
+   "sentence": 7,
+   "gist": "projeto de REDD custa de 200 mil a 450 mil dólares",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b016",
+   "sentence": 17,
+   "gist": "projetos a partir de 5 hectares, e não 500",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 13,
+   "gist": "agronegócio com 25% das emissões do País em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b010",
+   "sentence": 79,
+   "gist": "a lei dá mais 1 ano para montar as estruturas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu a cobrança por regulamentação e a proteção das comunidades, com as falas das lideranças extrativistas e indígenas e do deputado que pediu o debate.",
+  "omitted": "Ficaram de fora o desenho do mercado explicado pelos dois órgãos do Governo, a discussão sobre quais fontes serão reguladas e a cobrança sobre o agronegócio e a governança."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem lei, quem tem floresta assina no escuro",
+   "statement_plain": "Enquanto não houver lei federal do mercado de carbono, quem vive da floresta assina contrato sem entender e sem proteção, e sai perdendo.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b014c1",
+    "b004c2",
+    "b006c3",
+    "b010c3"
+   ],
+   "note": "A ideia junta a mesa que pediu a audiência, um instituto de clima, duas entidades de comunidades e um ministério da área econômica, ou seja, cruza governo, sociedade civil e Parlamento."
+  },
+  {
+   "id": "t2",
+   "title": "Quem decide o projeto é o território",
+   "statement_plain": "Nenhum projeto de carbono entra num território sem que a própria comunidade entenda, aprove e decida, com a consulta prévia respeitada e assento nas decisões.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b006c2",
+    "b008c1",
+    "b018c1",
+    "b026c1"
+   ],
+   "note": "É uma ideia sobre quem decide, não um setor: reúne extrativistas, povos indígenas e a assessoria de uma liderança partidária, e é contestada na parte do governo que defende a anuência prévia dos órgãos gestores."
+  },
+  {
+   "id": "t3",
+   "title": "Regular instalações, e a floresta por outra via",
+   "statement_plain": "O mercado de comércio de emissões serve para cobrar de quem emite em instalações. Floresta e desmatamento evitado precisam de outra política, não desse sistema.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b014c3",
+    "b014c2",
+    "b010c2",
+    "b012c1",
+    "b022c1"
+   ],
+   "note": "Coloca do mesmo lado um instituto de clima e dois órgãos do Executivo federal, e se opõe à ideia, defendida na mesa e pela certificadora privada, de pagar pelos estoques de floresta."
+  },
+  {
+   "id": "t4",
+   "title": "Floresta em pé também tem de ser paga",
+   "statement_plain": "Quem preservou a floresta tem de receber pelo carbono que guardou, e não só quem evita desmatamento agora. Esse estoque pode virar renda para quem vive lá.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b001c3",
+    "b016c2",
+    "b004c1",
+    "b016c1"
+   ],
+   "note": "A ideia cruza setores improváveis: o deputado que pediu a audiência, uma certificadora privada e o instituto que assessora as reservas extrativistas, contra a leitura do instituto de clima."
+  },
+  {
+   "id": "t5",
+   "title": "Contrato e tecnologia já protegem a comunidade",
+   "statement_plain": "Com contrato claro, acompanhamento por satélite e registro do crédito em plataforma, o projeto já pode ser feito sem prejudicar a comunidade, mesmo antes de nova regra.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b016c1",
+    "b004c1"
+   ],
+   "note": "É a ideia que a sala mais contestou: a certificadora sustenta que o contrato e a plataforma bastam, enquanto as entidades das comunidades e o governo dizem que só a regra protege."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "REDD+",
+   "plain": "programa internacional que paga por emissões evitadas com a redução do desmatamento e da degradação da floresta",
+   "fala": "b006",
+   "sentence": 7
+  },
+  {
+   "term": "RESEX",
+   "plain": "apelido de reserva extrativista: área pública onde comunidades vivem do que a floresta dá e cuidam dela",
+   "fala": "b004",
+   "sentence": 56
+  },
+  {
+   "term": "Convenção 169",
+   "plain": "acordo internacional da Organização Internacional do Trabalho que obriga a consulta prévia a povos indígenas e tradicionais",
+   "fala": "b006",
+   "sentence": 12
+  },
+  {
+   "term": "plano de manejo",
+   "plain": "documento que define o que pode e o que não pode ser feito dentro de uma unidade de conservação",
+   "fala": "b004",
+   "sentence": 78
+  },
+  {
+   "term": "concessão de direito real de uso",
+   "plain": "contrato pelo qual o poder público entrega a uma associação de moradores o direito de usar e administrar a área",
+   "fala": "b004",
+   "sentence": 56
+  },
+  {
+   "term": "Cotas Brasileiras de Emissão",
+   "plain": "autorizações de 1 tonelada cada, distribuídas às atividades reguladas, que devem ser devolvidas ao fim do ano",
+   "fala": "b010",
+   "sentence": 7
+  },
+  {
+   "term": "RVEs",
+   "plain": "créditos de projetos voluntários que, depois de verificados e registrados, passam a valer dentro do mercado regulado",
+   "fala": "b010",
+   "sentence": 26
+  },
+  {
+   "term": "linha de base",
+   "plain": "estimativa do que seria emitido se o projeto não existisse, usada para calcular quanto ele evitou",
+   "fala": "b010",
+   "sentence": 33
+  },
+  {
+   "term": "MRVs",
+   "plain": "regras de medir, relatar e verificar emissões, para que o número declarado por uma empresa possa ser conferido",
+   "fala": "b010",
+   "sentence": 40
+  },
+  {
+   "term": "SBCE",
+   "plain": "Sistema Brasileiro de Comércio de Emissões, o mercado regulado de carbono que o projeto de lei cria",
+   "fala": "b012",
+   "sentence": 7
+  },
+  {
+   "term": "CONAREDD",
+   "plain": "comissão do Governo Federal que define as regras de REDD+ e tem assento para sociedade civil e povos indígenas",
+   "fala": "b012",
+   "sentence": 13
+  },
+  {
+   "term": "carbon offsets",
+   "plain": "compensação: em vez de reduzir a própria emissão, a empresa paga por uma redução feita em outro lugar",
+   "fala": "b012",
+   "sentence": 9
+  },
+  {
+   "term": "dupla contagem",
+   "plain": "quando o mesmo crédito de carbono é contado duas vezes, por dois países ou por duas empresas",
+   "fala": "b012",
+   "sentence": 14
+  },
+  {
+   "term": "blockchain",
+   "plain": "registro digital compartilhado em que cada lançamento fica gravado e não pode ser apagado depois",
+   "fala": "b016",
+   "sentence": 33
+  }
+ ]
+}

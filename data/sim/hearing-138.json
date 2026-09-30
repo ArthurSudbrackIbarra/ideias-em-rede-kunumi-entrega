@@ -1,0 +1,2605 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 138,
+ "model": "LLM lendo o prompt hearing-138 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T16:54:46Z",
+ "prompt_sha256": "20cb0303859f8f9b32199436229df4988d478eebd04aac58d186d857f498bbe4",
+ "sentences_hash": "a9cc3f945dbbe68e",
+ "review": {
+  "pairs_read": 58,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A comissão que fiscaliza as contas públicas ouviu o diretor-presidente da ANPD sobre os vazamentos recentes de dados da população brasileira. A agência apresentou seu modelo de atuação e pediu concurso público, carreira própria e mais orçamento. O deputado que propôs o debate cobrou punição às empresas que deixam os dados vazar.",
+ "stakes": "Estava em jogo o apoio da Câmara ao pedido de concurso público e de reestruturação da ANPD, e a cobrança de respostas mais rápidas nos casos de vazamento.",
+ "central_question": "A ANPD tem estrutura e instrumentos para punir quem vaza dados pessoais no Brasil?",
+ "synopsis_plain": "A comissão da Câmara que fiscaliza contas públicas chamou a agência de proteção de dados para explicar os vazamentos recentes. A agência contou como trabalha e pediu concurso público, carreira própria e mais dinheiro. O deputado que pediu o debate cobrou punição às empresas que deixam os dados vazar.",
+ "stakes_plain": "Se a Câmara vai apoiar o concurso e a reestruturação da agência de proteção de dados, e se vai cobrar respostas mais rápidas nos vazamentos.",
+ "central_question_plain": "A agência de proteção de dados tem gente e instrumentos para punir quem deixa os dados vazarem?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Prejuízo do cidadão com vazamentos",
+   "description": "Discute-se o que acontece com a pessoa comum quando seus dados são compartilhados sem autorização ou vazam.",
+   "axis": {
+    "pro": "O uso indevido e o vazamento de dados atingem o cidadão e ele fica sem reparação.",
+    "contra": "O prejuízo ao cidadão é pontual e já está coberto pelas regras atuais.",
+    "pro_plain": "Quando os dados vazam ou são usados sem autorização, quem paga a conta é a pessoa comum, e ela não é reparada.",
+    "contra_plain": "O problema é pontual e as regras que já existem dão conta dele."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Punição aos vazamentos de dados",
+   "description": "Discute-se se a agência tem de punir com rapidez e firmeza quem vaza dados ou se o caminho é levar antes ao cumprimento da lei.",
+   "axis": {
+    "pro": "A agência precisa punir com rapidez e firmeza as empresas e os órgãos que vazam dados.",
+    "contra": "A punição depende de provas e de um processo demorado, e o caminho principal é levar ao cumprimento da lei antes de multar.",
+    "pro_plain": "Sem punição rápida e firme, quem vaza dados não muda de comportamento.",
+    "contra_plain": "Antes de multar é preciso provar quem causou o vazamento, e o melhor caminho é levar ao cumprimento da lei."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Estrutura e pessoal da agência",
+   "description": "Discute-se se a ANPD tem pessoal, carreira e orçamento suficientes para fiscalizar o uso de dados pessoais no país.",
+   "axis": {
+    "pro": "A agência precisa de concurso público, carreira própria e mais orçamento para dar conta do trabalho.",
+    "contra": "Aumentar quadro e orçamento não resolve enquanto faltarem instrumentos e sanções efetivas.",
+    "pro_plain": "A agência precisa de concurso, carreira própria e mais dinheiro para dar conta do trabalho.",
+    "contra_plain": "Aumentar o quadro não adianta enquanto faltarem instrumentos e punição de verdade."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Responsabilidade pelo vazamento",
+   "description": "Discute-se de quem é a responsabilidade quando dados vazam e o que precisa ser apurado antes de responsabilizar alguém.",
+   "axis": {
+    "pro": "A empresa que guarda os dados é sempre a responsável pelo vazamento, venha ele de dentro ou de fora.",
+    "contra": "A responsabilidade só se define depois de apurar a origem do vazamento, o que depende da perícia da Polícia Federal.",
+    "pro_plain": "Quem guarda os dados responde pelo vazamento, tenha ele vindo de dentro ou de um invasor.",
+    "contra_plain": "Só dá para responsabilizar alguém depois de descobrir de onde saiu o vazamento, com perícia da polícia."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Monetização de dados pessoais",
+   "description": "Discute-se se o Brasil deveria permitir que a pessoa negocie o uso dos próprios dados pessoais.",
+   "axis": {
+    "pro": "O Brasil deveria permitir que o titular negocie o uso dos seus dados pessoais.",
+    "contra": "A monetização de dados pessoais é complexa e hoje não é permitida no Brasil.",
+    "pro_plain": "A pessoa deveria poder negociar o uso dos próprios dados, como acontece em outros países.",
+    "contra_plain": "Negociar dados pessoais é complicado e hoje não é permitido no Brasil."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Blockchain na proteção de dados",
+   "description": "Discute-se se a tecnologia de registros encadeados ajuda a proteger dados pessoais ou se esbarra nos direitos previstos na lei.",
+   "axis": {
+    "pro": "O blockchain pode contribuir muito para a proteção de dados e para a confiabilidade dos registros.",
+    "contra": "O blockchain esbarra no direito de corrigir e apagar dados pessoais e precisa de inovações.",
+    "pro_plain": "A tecnologia de registros encadeados pode ajudar a proteger dados e a dar confiança ao que fica registrado.",
+    "contra_plain": "Essa tecnologia esbarra no direito de corrigir e apagar os dados pessoais."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da reunião e autor do requerimento",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado como Caio Vianna, Bloco/PSD - RJ, na lista de oradores, e autor do requerimento em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão da Câmara dos Deputados que acompanha o uso do dinheiro público e a execução do orçamento"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretor-Presidente da ANPD",
+   "org": "ANPD",
+   "basis": "convidado a compor a Mesa como Diretor-Presidente da ANPD em b001.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "diretor-presidente da ANPD",
+   "org_plain": "agência federal que fiscaliza o uso de dados pessoais e pode aplicar sanções a empresas e órgãos"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Assessor da ANPD",
+   "org": "ANPD",
+   "basis": "convidado a participar da Mesa como assessor em b001.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "assessor da ANPD",
+   "org_plain": "agência federal que fiscaliza o uso de dados pessoais e pode aplicar sanções a empresas e órgãos"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "A transcrição não registra delegações, entidades presentes nem palmas, e a mesa só cumprimenta quem acompanha de forma remota ou presencial em b002.7.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência, relata que empresas compartilham dados sem autorização e que órgãos públicos também vazam informações, e pede apoio do Parlamento à ANPD.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Empresas usam e compartilham dados do cidadão além do que foi autorizado, e o Parlamento precisa apoiar a agência de proteção de dados.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as empresas compartilham os dados do cadastro além da finalidade autorizada e outras passam a oferecer serviços",
+     "plain": "Quando fazemos um cadastro, autorizamos a empresa a usar nossos dados só para aquela finalidade. Mas elas acabam compartilhando, e logo o telefone toca com outra empresa, com a qual não fizemos cadastro, oferecendo serviço."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os vazamentos também acontecem no setor público, como no Ministério da Saúde e em prefeituras",
+     "plain": "Isso acontece também no setor público, em grande escala. No Ministério da Saúde vazaram informações de milhões de brasileiros, e em prefeituras e órgãos menores os vazamentos são frequentes."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os dados são hoje um dos maiores ativos que existem, às vezes mais valiosos que o petróleo, e proteger isso exige investimento",
+     "plain": "Os dados são hoje um dos maiores ativos que temos, às vezes considerado mais valioso do que o petróleo. Precisamos de investimento e de momentos como este para avançar na proteção de dados."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta as atribuições e o modelo de atuação da ANPD e pede ao Governo carreira própria, concurso público e mais orçamento para a agência.",
+   "quote": [
+    96,
+    97
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência completou três anos sem nenhum concurso e precisa de carreira própria, pessoal e orçamento para dar conta da sua missão.",
+    "sentence": 97
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a agência não quer uma indústria de multas e busca trazer empresas e órgãos para o cumprimento da lei",
+     "plain": "Nossa ideia não é criar uma indústria de multas. Buscamos sempre trazer empresas e órgãos públicos para o cumprimento da lei, e isso foi decidido pelo Conselho Diretor."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      90,
+      91
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Coordenação de Fiscalização tem 16 servidores e as divisões de monitoramento e de fiscalização têm 3 e 5 pessoas",
+     "plain": "A Coordenação de Fiscalização tem 16 servidores, praticamente 10% do quadro. Na Divisão de Monitoramento são 3 servidores, na de Fiscalização 5 e na de Tratamento de Comunicados de Incidentes, 5."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      96,
+      97
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo precisa dar à agência carreira própria e concurso público para que ela aplique mais sanções",
+     "plain": "De modo geral, faltam profissionais. O Governo precisa olhar para a ANPD, que precisa de carreira própria e de concurso público, para aplicar não só uma sanção por mês, mas dez, vinte, quantas forem precisas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta como a ANPD atesta a segurança dos sistemas usados para proteger os dados pessoais em todo o país.",
+   "quote": [
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A agência precisa dizer como verifica a segurança dos sistemas que guardam dados pessoais.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      4
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "cabe à agência dizer como atesta a segurança dos sistemas usados para proteger dados pessoais",
+     "plain": "A ANPD é o órgão que fiscaliza o cumprimento da lei de proteção de dados no país inteiro. Como a agência atesta a segurança dos sistemas usados para proteger esses dados?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Explica que o controlador é o responsável pelo vazamento e que a ANPD só atua depois de a perícia da Polícia Federal identificar a origem.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A responsabilidade é do controlador, mas a agência só atua depois de a Polícia Federal apurar de onde veio o vazamento.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a agência não impõe solução de tecnologia e o controlador é quem tem a obrigação e a responsabilidade pelo vazamento",
+     "plain": "Nós não vamos impor uma solução de tecnologia ao controlador, que é a empresa ou o órgão que guarda os dados. É ele que tem a obrigação e a responsabilidade se houver algum vazamento."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a agência depende da perícia da Polícia Federal para saber quem é o controlador e de onde veio o vazamento",
+     "plain": "Quando há um problema, recorremos à perícia da Polícia Federal, porque não temos essa capacidade. Esperamos a conclusão dela para saber quem é o controlador e de onde veio o vazamento."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a agência só entra depois de identificado o controlador que provocou o incidente",
+     "plain": "A atuação da ANPD começa depois de identificado o controlador de dados que causou o incidente."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta quantos vazamentos a ANPD acompanhou neste ano e quantas sanções ou multas a agência aplicou.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": true,
+   "evidence": [
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A agência precisa informar quantos vazamentos acompanhou e quantas sanções aplicou.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a agência deve informar quantos vazamentos acompanhou neste ano e quantas sanções ou multas aplicou",
+     "plain": "O senhor tem o número de quantos vazamentos vocês acompanharam neste ano e de quantos vocês estudaram? E quantas sanções ou multas vocês aplicaram?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Informa que a agência aplicou três sanções, duas em órgãos públicos e uma em empresa privada, e que nenhuma delas foi por vazamento de dados.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As sanções por vazamento dependem de prova da origem e o processo é lento, por isso nenhuma saiu até agora.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "a agência aplicou três sanções até agora, duas em órgãos públicos e uma numa empresa privada",
+     "plain": "A ANPD aplicou três sanções em toda a sua existência: duas em órgãos públicos e uma numa empresa privada do Rio Grande do Sul."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o processo por vazamento só começou em fevereiro e é lento porque exige provas de quem causou o vazamento",
+     "plain": "Esse tipo de processo só começou em fevereiro, quando foi sancionada a nossa dosimetria, a regra que define o tamanho da sanção. É mais lento, porque preciso provar que houve vazamento e quem o causou."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "não houve até agora nenhuma sanção por causa de vazamento",
+     "plain": "Acho que não houve nenhuma até agora, não é, Jeferson? Não houve nenhuma sanção por causa de vazamento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta se a empresa é a responsável quando o vazamento vem de falha dela ou do sistema, e não de um agente externo.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Se o vazamento vem de uma falha da empresa ou do sistema, a empresa é a responsável.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quando o vazamento vem de falha da empresa ou do sistema, a responsável seria a empresa",
+     "plain": "Quero aprofundar este ponto. O vazamento pode ser causado por alguém de dentro ou de fora. Para ser classificado como interno, teria de haver falha da empresa ou do sistema. Então a empresa seria a responsável?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que a empresa é o controlador dos dados e, por isso, é a responsável pelo vazamento.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa é o controlador e, por isso, é a responsável.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a empresa é o controlador dos dados e, por isso, é a responsável",
+     "plain": "A empresa é o controlador dos dados, e o controlador é quem responde."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência apenas confirma para que o convidado continue.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b010",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-presidente começa a falar em falha técnica e não conclui a frase.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": true,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se nunca houve nenhuma falha técnica.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que não pode afirmar se houve falha técnica, porque a perícia policial ainda não concluiu a maioria dos casos de vazamento.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A agência ainda não pode afirmar que houve falha técnica, porque a maioria dos vazamentos não teve perícia concluída.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a maioria dos vazamentos ainda não teve conclusão de perícia policial e nenhuma falha gritante chegou à agência",
+     "plain": "Não, isso eu não posso afirmar. Na maioria dos vazamentos que estamos tendo ainda não houve conclusão de perícia policial. Não recebemos uma falha gritante até agora."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que a empresa é sempre responsável pelo vazamento, aponta a estrutura reduzida da agência e questiona aumentar o quadro sem que haja sanção.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa é sempre responsável pelo vazamento, e sem sanção as empresas não vão investir em segurança.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a empresa é sempre a responsável pelo vazamento, tenha ele vindo dela ou de um invasor de fora",
+     "plain": "Quando os dados são expostos e a segurança era responsabilidade daquela empresa, para mim pouco importa se o vazamento veio dela ou de um invasor de fora. A empresa sempre será a responsável."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a agência tem uma estrutura muito reduzida, com três pessoas no monitoramento, diante de cada vez mais sistemas em uso",
+     "plain": "Vocês têm uma estrutura muito reduzida para dar conta das atividades. Com o avanço da tecnologia há cada vez mais sistemas em uso pela população, e me assustei ao ver que há três pessoas no monitoramento."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não faz sentido aumentar o quadro da agência se não há sanção, porque sem punição as empresas continuam agindo do mesmo jeito",
+     "plain": "Também não acho razoável falar em aumentar o quadro se não há de fato uma sanção. Se as empresas que tiveram dados vazados nunca sofreram sanção, elas vão continuar agindo do mesmo jeito."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que o primeiro problema é cultural e que a parte mais difícil é descobrir de qual empresa saiu o vazamento, o que exige a Polícia Federal.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O problema maior é cultural, e descobrir de qual empresa veio o vazamento é a parte mais difícil do trabalho.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o primeiro problema é cultural, porque as pessoas não sabem quais são os seus direitos em proteção de dados",
+     "plain": "Vou pedir ao Jeferson que complete depois com a parte técnica, mas o nosso primeiro problema é cultural: saber quais são os nossos direitos em proteção de dados."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a parte mais difícil e demorada é descobrir de qual empresa saiu o vazamento, porque o titular deu dados a muitas",
+     "plain": "O mais difícil, quando existe um vazamento, é saber de qual empresa ele veio, porque só o titular sabe a quem forneceu os dados, e foram muitas empresas. Essa é a parte mais complicada e demorada."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "nesta fase a agência sempre precisa do apoio da Polícia Federal para ter certeza",
+     "plain": "Nesta fase, para ter certeza, nós sempre precisamos do apoio da Polícia Federal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que a autoridade precisa saber a origem do vazamento e afirma que apenas 16 funcionários fiscalizam todos os controladores de dados do país.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A autoridade está em estruturação e tem apenas 16 funcionários para fiscalizar todos os controladores do país.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a autoridade precisa saber a origem do vazamento para avaliar com o controlador se as medidas de segurança foram adequadas",
+     "plain": "Quando acontece um vazamento, e vemos muitos incidentes todos os dias, a autoridade precisa saber a origem para trabalhar de forma coerente. Só assim dá para ver, com o controlador, se as medidas foram adequadas."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      7
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a agência tem 16 processos em andamento por causa das normas publicadas que orientam o trabalho",
+     "plain": "A ANPD tem 16 processos em andamento, resultado das normas publicadas que orientam o trabalho da autoridade."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há apenas 16 funcionários para fiscalizar todos os controladores de dados, da padaria da esquina às grandes big techs",
+     "plain": "Há apenas 16 funcionários para avaliar todas as empresas do Brasil. Da padaria da esquina às grandes big techs, as maiores empresas de tecnologia, quem controla dado pessoal está sob a lei."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Questiona a ausência de punição às empresas que vazaram dados, cobra resposta mais efetiva da agência e pergunta o que foi feito no caso do ConecteSUS.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    13
+   ],
+   "open_question": 7,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não é razoável que não haja punição quando se identifica de qual empresa veio o vazamento.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não é razoável que não haja punição quando se identifica de qual empresa veio o vazamento",
+     "plain": "Não me parece razoável que não haja punição quando se identifica que o vazamento veio daquela empresa, tenha ela cometido uma falha muito grave ou não."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem medida enérgica contra as empresas, o cidadão não vê garantia de que o dinheiro dele está bem aplicado na agência",
+     "plain": "Como essas pessoas podem ser recompensadas pelos dados que vazaram? Como podem ter garantia de que o dinheiro delas, como contribuintes, está bem aplicado na ANPD, se não veem medida enérgica contra as empresas?"
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "falta aprimorar a legislação e a agência ainda não deu uma resposta mais efetiva aos vazamentos",
+     "plain": "Não sei se falta instrumento ou pessoal, mas acho que é preciso aprimorar a legislação. Ainda não vi da ANPD uma resposta mais efetiva a esses vazamentos, e nem falo em mão pesada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que o caso está em apuração complexa, que depende de resposta do Ministério da Saúde e que ainda não houve punição.",
+   "quote": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A apuração do caso do Ministério da Saúde é complexa, depende de resposta do ministério e ainda não houve punição.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a apuração do caso é complexa e depende de uma resposta do Ministério da Saúde",
+     "plain": "Esse processo está em apuração, e ela é bastante complexa. Preciso de uma resposta do Ministério da Saúde, é uma tratativa entre nós."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "o caso segue em apuração, sem punição, e o processo não foi encerrado",
+     "plain": "O caso ainda está em apuração e não houve punição. Mas o processo não se encerrou."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Alerta que prontuários digitais guardam dados sensíveis que podem vazar sem reparação e afirma que faltam instrumentos para a agência punir com rapidez.",
+   "quote": [
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Dados sensíveis de saúde podem vazar e o dano à pessoa nunca é reparado.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a digitalização dos prontuários coloca dados sensíveis de saúde num banco que pode vazar para empresas ou criminosos",
+     "plain": "Estamos digitalizando os prontuários, as fichas médicas, com mais informações sensíveis de pacientes. Imagine um exame seu, com uma doença que você não quer dividir nem com a família, ficar num banco e vazar."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem tem os dados vazados nunca é reparado pelo dano, e a agência, mesmo sendo fundamental, não está num plano satisfatório",
+     "plain": "Se isso vazar, aquela pessoa nunca mais vai ser reparada pelo dano que sofreu. Por isso eu entendo que a ANPD é fundamental, mas acho que ela não está num plano satisfatório."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não adianta dar mais recursos e pessoal à agência se faltam os instrumentos para ela punir com mais rapidez",
+     "plain": "Precisamos estudar como atuar, porque não adianta só colocar mais recursos e mais pessoal na ANPD se faltarem as ferramentas. Parece-me que faltam instrumentos para a agência ter mais rapidez até para punir."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que falta pessoal capacitado, que a agência perde requisitados para outros órgãos e que o processo com o Ministério da Saúde é quase forense.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta pessoal capacitado e a agência perde para outros órgãos os servidores que requisita e treina.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta pessoal capacitado e cada servidor requisitado leva cerca de 3 meses de capacitação",
+     "plain": "De forma direta, deputado: falta pessoal, pessoal capacitado. Normalmente nós requisitamos pessoal, e são mais ou menos 3 meses de capacitação."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem função comissionada a agência perde os requisitados, e há menos de 1 mês perdeu o coordenador de fiscalização",
+     "plain": "Como não temos função comissionada, o requisitado costuma ser atraído por outros órgãos e nós o perdemos. Há menos de 1 mês perdemos o próprio coordenador da área de fiscalização para outro órgão público."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "no caso do Ministério da Saúde uma resposta só não basta e o processo é praticamente forense",
+     "plain": "No diálogo com o Ministério da Saúde, uma resposta só não é suficiente. Ela costuma abrir outras questões, conforme as informações que recebemos. Nesse caso o processo é praticamente forense."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência começa a perguntar o que acontece quando se aplica uma multa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b021",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-presidente corrige e diz que já foi aplicada uma multa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se a multa já foi aplicada a uma empresa privada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b023",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-presidente confirma que a multa foi aplicada a uma empresa privada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta o que acontece quando se aplica uma multa e a quem a empresa paga.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b025",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-presidente explica que a empresa paga à União, para um fundo de várias agências.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se isso foi definido por decreto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b027",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-presidente responde que isso está na lei da agência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se o dinheiro vai para um fundo de educação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b029",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-presidente diz que o fundo é gerido pelo Ministério da Justiça, pela Senacon.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b030",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Informa que a agência propôs um projeto de reestruturação e um concurso público para 213 vagas, e que tudo aguarda aprovação do Ministério da Justiça.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência propôs um concurso público para 213 vagas e um projeto de reestruturação, tudo pendente de aprovação.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "mesmo com falta de pessoal a agência tem iniciativas, como um projeto de lei para reestruturar a autoridade",
+     "plain": "Mesmo com essa falta de pessoal, a ANPD não deixa de correr atrás para mudar o seu efetivo. Hoje temos várias iniciativas, como uma proposta de projeto de lei para reestruturar a própria autoridade."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a agência propôs um concurso público para 213 vagas, que aguarda aprovação do Ministério da Justiça",
+     "plain": "Temos também um concurso público para 213 vagas, para aumentar o nosso efetivo. Esse concurso aguarda aprovação do Ministério da Justiça."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a contratação de pessoal terceirizado também está pendente de aprovação",
+     "plain": "Além disso, há a contratação de pessoal terceirizado, para compor melhor a autoridade. Está tudo pendente de aprovação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta que preocupações de privacidade a monetização de dados traz, citando o projeto do deputado Arlindo Chinaglia sobre empoderamento de dados.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O Parlamento discute um projeto sobre monetização de dados e a agência precisa dizer que preocupações isso traz.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "há um projeto de lei sobre monetização de dados e é preciso saber que preocupações de privacidade ele traz",
+     "plain": "O deputado Arlindo Chinaglia apresentou o Projeto de Lei Complementar 243, de 2023, que cria a Lei Geral de Empoderamento de Dados e trata da monetização de dados. Que preocupações de privacidade isso traz?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O assessor responde que não tem conhecimento do projeto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se já existe algum estudo sobre monetização de dados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b034",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a monetização de dados não é permitida no Brasil, que o titular pode revogar o consentimento e que o tema ainda precisa ser votado.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A monetização de dados não é permitida no Brasil e o titular pode revogar o consentimento que deu.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a monetização de dados não é permitida hoje e o titular pode revogar o consentimento que deu",
+     "plain": "A monetização não é prevista nem permitida até agora. Para mim, os dados do titular são definitivos: quem dá o consentimento para usarem os seus dados pode depois revogar esse consentimento."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "nos Estados Unidos o titular pode liberar o uso dos dados em busca de desconto, o que o Brasil ainda não tem",
+     "plain": "Em outros países é diferente. Nos Estados Unidos, por exemplo, posso liberar o uso dos meus dados em busca de algum desconto, do jeito que se quiser. Nós ainda não temos essa facilidade."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a monetização precisa ser votada e aprovada e por enquanto é considerada ilícita",
+     "plain": "É algo que precisa ser votado e aprovado. No momento, ainda é considerado ilícito para nós."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se seria possível aplicar isso no Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b036",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que a monetização de dados é complexa e diz que é pessoalmente contrário a adotá-la no Brasil.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A monetização de dados é complexa e ele é pessoalmente contrário a ela.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a monetização de dados é bem complexa e ele é pessoalmente contrário a ela",
+     "plain": "Acho que essa parte de monetização é bem complicada, bem complexa. Eu, particularmente, sou contrário."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pergunta como a agência vê o uso do blockchain para proteger dados e garantir que eles sejam do cidadão, e não das empresas.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "É preciso saber se o blockchain pode contribuir para garantir que os dados sejam do cidadão.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso saber se o blockchain pode contribuir para a proteção de dados e garantir que os dados sejam do cidadão",
+     "plain": "Como a ANPD vê o uso do blockchain, a tecnologia de registros encadeados, para proteger os dados e garantir que eles sejam do cidadão, e não das empresas? Ele pode contribuir?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b038",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde que não existe ferramenta milagrosa e que o blockchain tem limitações para dados pessoais, porque a lei garante corrigir e apagar os dados.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A tecnologia ajuda, mas o blockchain tem limitações para dados pessoais e precisaria de inovações.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "não existe ferramenta milagrosa, senão países como Estados Unidos e Japão já não teriam vazamento de dados",
+     "plain": "As empresas precisam buscar as melhores ferramentas do mundo. Não existe ferramenta milagrosa, senão países como Estados Unidos, Japão e o bloco europeu já não teriam vazamento de dados."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o blockchain tem limitações para dados pessoais porque a lei garante corrigir e eliminar os dados",
+     "plain": "O blockchain tem várias vantagens, mas em dados pessoais apresenta limitações que teríamos de ajustar. A lei me dá o direito de manter meus dados corretos, de corrigi-los e de pedir que sejam eliminados."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a tecnologia precisa se atualizar sempre, porque amanhã o cibercriminoso terá uma ferramenta mais poderosa",
+     "plain": "As empresas precisam aplicar a tecnologia mais moderna, que se atualiza sempre. É um serviço vivo, porque a boa tecnologia de hoje não terá o mesmo desempenho amanhã, quando o cibercriminoso tiver ferramenta mais poderosa."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata implementações de blockchain no Tribunal de Contas da União e no Banco Central e afirma que as limitações da tecnologia podem ser corrigidas.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O blockchain pode trazer muitos benefícios, mas tem limitações na proteção de dados que podem ser corrigidas.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b039c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há implementações de blockchain de qualidade no Tribunal de Contas da União e no Banco Central",
+     "plain": "Participei há pouco de uma audiência pública sobre blockchain com o deputado e mostrei a visão da autoridade. Vimos implementações de qualidade, como as feitas no TCU, o Tribunal de Contas da União, e no Banco Central."
+    },
+    {
+     "id": "b039c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o blockchain pode trazer muitos benefícios, mas apresenta limitações ligadas à proteção de dados pessoais",
+     "plain": "Todos foram unânimes em apontar as limitações e as preocupações na implementação dessa tecnologia. O blockchain pode trazer muitos benefícios, mas tem limitações ligadas à proteção de dados pessoais."
+    },
+    {
+     "id": "b039c3",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as limitações do blockchain podem ser corrigidas e a agência poderá emitir recomendações sobre essa e outras tecnologias",
+     "plain": "Essas limitações podem ser corrigidas ou aperfeiçoadas, e já existem algumas soluções. A ANPD tem estudado muito o assunto e poderá até emitir recomendações sobre essa e outras tecnologias emergentes."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b040",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sustenta que o blockchain pode ajudar na confiabilidade e no rastreio dos dados e pede que a agência estude e promova esse debate.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O blockchain pode ajudar muito na proteção de dados, apesar da dificuldade maior na exclusão.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "toda tecnologia traz uma solução e também problemas, e precisa ir se aprimorando",
+     "plain": "Qualquer tecnologia precisa ir se aprimorando e evoluindo. Toda tecnologia traz uma solução, mas também traz problemas."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o blockchain pode ajudar muito na confiabilidade e no rastreio dos dados, embora a exclusão seja mais difícil",
+     "plain": "Acredito que o blockchain pode ajudar muito a resolver questões que temos hoje com os dados, inclusive na confiabilidade e no rastreio. Dá para fazer alterações, que ficam registradas, e a exclusão é mais difícil."
+    },
+    {
+     "id": "b040c3",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência está em posição de estudar e promover esse debate, porque o que existe hoje não é satisfatório",
+     "plain": "Precisamos estar atentos, e os senhores estão numa posição importante para estudar e promover esse debate. O que temos hoje não é satisfatório, e os bancos de dados relacionados também têm suas fraquezas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que a agência estuda cada nova tecnologia por meio da sua coordenação de pesquisa e pede para ser ouvida nos debates sobre dados pessoais.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência estuda cada nova tecnologia e produz relatórios e guias, como faz a agência espanhola.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b041c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência manda cada demanda de tecnologia para a sua coordenação de pesquisa, que produz relatório, guia ou estudo técnico",
+     "plain": "A ANPD repassa qualquer demanda desse tipo para a Coordenação-Geral de Tecnologia e Pesquisa, que estuda a tecnologia e apresenta um relatório. Daí pode sair um guia ou um estudo técnico."
+    },
+    {
+     "id": "b041c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso estudar não só o blockchain, mas toda novidade, inclusive a inteligência artificial",
+     "plain": "É importante estudarmos não só o blockchain, mas toda novidade que aparece. E é importante estudar inteligência artificial de forma bem profunda."
+    },
+    {
+     "id": "b041c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência se antecipa às novas ferramentas e quer ser ouvida para mostrar o que vê de positivo e de negativo",
+     "plain": "Sempre que surgem novas ferramentas para as empresas, nós nos antecipamos para responder sobre elas. O importante é sermos ouvidos, para mostrar o que vemos de positivo e de negativo na proteção de dados."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b042",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados, cita a experiência da Estônia na saúde e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b003",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 4,
+   "from_claim": "b004c2",
+   "to_claim": "b003c1",
+   "strength": "media",
+   "note": "Ao ser perguntado como a agência atesta a segurança dos sistemas, responde que ela não impõe tecnologia e depende da perícia da Polícia Federal."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b006c1",
+   "to_claim": "b005c1",
+   "strength": "forte",
+   "note": "Responde ao pedido de números com o total de sanções: três, sendo duas em órgãos públicos e uma numa empresa privada."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "Confirma a leitura do deputado: como a empresa é o controlador dos dados, é ela quem responde pelo vazamento."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b012c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Mostra o efeito prático da dependência da perícia: na maioria dos vazamentos a conclusão policial ainda não saiu."
+  },
+  {
+   "from": "b013",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 0,
+   "from_claim": "b013c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "Vai além da resposta da agência e sustenta que a empresa é sempre a responsável, venha o vazamento dela ou de um invasor."
+  },
+  {
+   "from": "b013",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 6,
+   "from_claim": "b013c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Contesta a ideia de que a atuação só comece depois de identificado o controlador: para o deputado, pouco importa de onde veio o vazamento."
+  },
+  {
+   "from": "b013",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 16,
+   "to_sentence": 6,
+   "from_claim": "b013c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Diante da informação de que nenhuma sanção saiu por vazamento, argumenta que sem punição as empresas continuam agindo do mesmo jeito."
+  },
+  {
+   "from": "b013",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 91,
+   "from_claim": "b013c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Confirma o diagnóstico da própria agência sobre a estrutura reduzida e se espanta com as três pessoas do monitoramento."
+  },
+  {
+   "from": "b013",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 97,
+   "from_claim": "b013c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Responde ao pedido de concurso com uma objeção: aumentar o quadro não se justifica enquanto não houver sanção de fato."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 3,
+   "from_claim": "b014c2",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "Responde que, na prática, o mais difícil é descobrir de qual das muitas empresas saiu o vazamento."
+  },
+  {
+   "from": "b015",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 3,
+   "from_claim": "b015c1",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "Explica que a autoridade precisa da origem do vazamento para avaliar com o controlador se as medidas de segurança foram adequadas."
+  },
+  {
+   "from": "b015",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 1,
+   "from_claim": "b015c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Reforça que o processo sancionador é recente: são 16 processos em andamento, fruto de normas publicadas há pouco tempo."
+  },
+  {
+   "from": "b015",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 91,
+   "from_claim": "b015c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Acrescenta outro número ao quadro de pessoal: são 16 funcionários para fiscalizar todos os controladores de dados do país."
+  },
+  {
+   "from": "b016",
+   "to": "b015",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 10,
+   "from_claim": "b016c1",
+   "to_claim": "b015c3",
+   "strength": "media",
+   "note": "Ao exemplo da padaria e das grandes empresas de tecnologia, responde que os grandes vazamentos vêm dos bancos de dados maiores e que não punir não é razoável."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 6,
+   "from_claim": "b016c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Não aceita que nenhuma sanção tenha saído por vazamento e sustenta que a empresa identificada tem de ser punida."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 14,
+   "from_claim": "b016c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Contesta o modelo de levar ao cumprimento da lei antes de punir e diz que falta à agência uma resposta mais efetiva."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 13,
+   "from_claim": "b017c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "Responde à pergunta sobre o vazamento do ConecteSUS: a apuração é complexa, depende do Ministério da Saúde e ainda não houve punição."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "contradiz",
+   "from_sentence": 22,
+   "to_sentence": 3,
+   "from_claim": "b018c3",
+   "to_claim": "b017c2",
+   "strength": "forte",
+   "note": "Não aceita a demora do processo e diz que faltam instrumentos para a agência punir com mais rapidez."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 97,
+   "from_claim": "b018c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Ao pedido de concurso e orçamento, responde que mais recursos e mais pessoal não bastam se faltarem as ferramentas para punir."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 23,
+   "from_claim": "b019c1",
+   "to_claim": "b018c3",
+   "strength": "forte",
+   "note": "Responde de forma direta que o que falta é pessoal capacitado, e que os servidores requisitados são perdidos para outros órgãos."
+  },
+  {
+   "from": "b019",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 12,
+   "from_claim": "b019c3",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "Explica por que a resposta demora: no diálogo com o Ministério da Saúde, cada resposta abre outras questões."
+  },
+  {
+   "from": "b030",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 16,
+   "from_claim": "b030c2",
+   "to_claim": "b013c3",
+   "strength": "forte",
+   "note": "Mostra que a agência já pediu concurso para 213 vagas e um projeto de reestruturação, ambos parados à espera de aprovação."
+  },
+  {
+   "from": "b030",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 97,
+   "from_claim": "b030c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Complementa o pedido do diretor-presidente com as iniciativas que a própria agência já colocou de pé."
+  },
+  {
+   "from": "b034",
+   "to": "b031",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b034c1",
+   "to_claim": "b031c1",
+   "strength": "forte",
+   "note": "Responde que a monetização não é permitida hoje e que o titular pode revogar o consentimento que deu."
+  },
+  {
+   "from": "b036",
+   "to": "b031",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 2,
+   "from_claim": "b036c1",
+   "to_claim": "b031c1",
+   "strength": "media",
+   "note": "Fecha a resposta sobre o projeto dizendo que a monetização é complexa e que ele é pessoalmente contrário."
+  },
+  {
+   "from": "b038",
+   "to": "b037",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 1,
+   "from_claim": "b038c2",
+   "to_claim": "b037c1",
+   "strength": "forte",
+   "note": "Responde que o blockchain tem vantagens, mas esbarra no direito de corrigir e de apagar os dados pessoais."
+  },
+  {
+   "from": "b039",
+   "to": "b037",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b039c1",
+   "to_claim": "b037c1",
+   "strength": "media",
+   "note": "Acrescenta que já houve audiência sobre a tecnologia e cita implementações no Tribunal de Contas da União e no Banco Central."
+  },
+  {
+   "from": "b039",
+   "to": "b038",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 4,
+   "from_claim": "b039c2",
+   "to_claim": "b038c2",
+   "strength": "forte",
+   "note": "Confirma a leitura do diretor-presidente e lembra que a audiência sobre a tecnologia apontou as mesmas limitações."
+  },
+  {
+   "from": "b040",
+   "to": "b039",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 5,
+   "from_claim": "b040c2",
+   "to_claim": "b039c3",
+   "strength": "media",
+   "note": "Concorda que as limitações podem ser superadas e aposta na confiabilidade e no rastreio que a tecnologia traz."
+  },
+  {
+   "from": "b040",
+   "to": "b038",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 6,
+   "from_claim": "b040c2",
+   "to_claim": "b038c2",
+   "strength": "media",
+   "note": "Diante da limitação apontada para apagar dados, reconhece que a exclusão é mais difícil, mas mantém que a tecnologia ajuda."
+  },
+  {
+   "from": "b041",
+   "to": "b040",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 8,
+   "from_claim": "b041c1",
+   "to_claim": "b040c3",
+   "strength": "forte",
+   "note": "Responde ao pedido de estudo mostrando que a agência já encaminha cada tecnologia à sua coordenação de pesquisa."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b014",
+    "b018"
+   ],
+   "claims": [
+    "b001c1",
+    "b014c1",
+    "b018c2"
+   ],
+   "note": "A presidência da comissão e o diretor-presidente da agência concordam que o cidadão está desprotegido: ele não sabe quais são os seus direitos e não é reparado quando os dados vazam."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b013",
+    "b015",
+    "b030"
+   ],
+   "claims": [
+    "b002c2",
+    "b013c2",
+    "b015c3",
+    "b030c2"
+   ],
+   "note": "A presidência da comissão e os representantes da agência concordam que a estrutura de pessoal é pequena demais para o trabalho que a ANPD tem de fazer."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b007",
+    "b008",
+    "b013"
+   ],
+   "claims": [
+    "b007c1",
+    "b008c1",
+    "b013c1"
+   ],
+   "note": "A presidência da comissão e o diretor-presidente da agência concordam que o controlador, ou seja, quem guarda os dados, é o responsável pelo vazamento."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b039",
+    "b040"
+   ],
+   "claims": [
+    "b039c3",
+    "b040c2"
+   ],
+   "note": "O assessor da agência e a presidência da comissão concordam que o blockchain pode contribuir para a proteção de dados e que suas limitações podem ser corrigidas."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b003",
+   "sentence": 4,
+   "addressed_to": "governo",
+   "answered_by": "b004",
+   "gist": "como a agência atesta a segurança dos sistemas de dados",
+   "plain": "Como a agência de proteção de dados verifica se os sistemas que guardam dados pessoais são seguros?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b005",
+   "sentence": 1,
+   "addressed_to": "governo",
+   "answered_by": "b006",
+   "gist": "quantos vazamentos foram acompanhados e quantas sanções aplicadas",
+   "plain": "Quantos vazamentos a agência acompanhou neste ano e quantas sanções ou multas aplicou?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b013",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": "b014",
+   "gist": "que medidas a agência consegue implementar para evitar vazamentos",
+   "plain": "Que medidas a agência consegue colocar de pé para que o vazamento não aconteça?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b016",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": "b030",
+   "gist": "como a Câmara pode contribuir para fortalecer a agência",
+   "plain": "Como a Câmara dos Deputados pode contribuir para fortalecer a agência de proteção de dados?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b016",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como quem teve dados vazados pode ser recompensado",
+   "plain": "Como as pessoas que tiveram os dados vazados podem ser recompensadas por isso?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b016",
+   "sentence": 13,
+   "addressed_to": "governo",
+   "answered_by": "b017",
+   "gist": "se houve alguma sanção pelo vazamento do ConecteSUS",
+   "plain": "Houve alguma sanção ou providência da agência no caso do vazamento do ConecteSUS?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q7",
+   "from": "b018",
+   "sentence": 13,
+   "addressed_to": "governo",
+   "answered_by": "b019",
+   "gist": "se falta aprimorar a legislação ou se faltam recursos",
+   "plain": "Falta aprimorar a legislação ou faltam recursos para a agência agir sobre os vazamentos?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q8",
+   "from": "b031",
+   "sentence": 2,
+   "addressed_to": "governo",
+   "answered_by": "b034",
+   "gist": "que preocupações de privacidade a monetização de dados traz",
+   "plain": "Quais são as principais preocupações de privacidade na monetização de dados pessoais?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q9",
+   "from": "b037",
+   "sentence": 1,
+   "addressed_to": "governo",
+   "answered_by": "b038",
+   "gist": "se o blockchain pode contribuir para a proteção de dados",
+   "plain": "O blockchain é uma tecnologia que pode contribuir para a proteção de dados?",
+   "theme": "d6",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 89,
+   "gist": "120 requisitados e 152 funcionários na agência",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 90,
+   "gist": "16 servidores na Coordenação de Fiscalização",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 91,
+   "gist": "5 servidores na Divisão de Fiscalização",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 65,
+   "gist": "768 comunicados de incidentes desde a criação",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 68,
+   "gist": "13 processos de fiscalização e 9 sancionadores",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b002",
+   "sentence": 93,
+   "gist": "900 pessoas na proteção de dados do Reino Unido",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b002",
+   "sentence": 37,
+   "gist": "multa simples de até 50 milhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 0,
+   "gist": "três sanções em toda a existência da agência",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b015",
+   "sentence": 7,
+   "gist": "16 processos em andamento na agência",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b015",
+   "sentence": 9,
+   "gist": "16 funcionários avaliam todas as empresas do Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b019",
+   "sentence": 4,
+   "gist": "coordenador de fiscalização perdido há menos de 1 mês",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b030",
+   "sentence": 4,
+   "gist": "concurso público proposto para 213 vagas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo"
+  ],
+  "angle": "A matéria escolheu o pedido de concurso público e o tamanho mínimo das equipes de fiscalização da agência.",
+  "omitted": "Ficou de fora a discussão sobre de quem é a responsabilidade pelo vazamento e todo o debate sobre monetização de dados e blockchain."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem punição firme, as empresas não mudam",
+   "statement_plain": "Enquanto as empresas que deixam os dados vazar não forem punidas de verdade, elas não vão investir em segurança e o cidadão continua desprotegido.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b013c3",
+    "b016c1",
+    "b016c2",
+    "b018c3",
+    "b013c1",
+    "b008c1"
+   ],
+   "note": "É uma ideia, não um bloco: o próprio diretor-presidente da agência sustenta que o controlador é o responsável, no mesmo lado em que está a presidência da comissão, embora os dois divirjam sobre a rapidez da punição."
+  },
+  {
+   "id": "t2",
+   "title": "Punir exige prova, e antes vem o cumprimento da lei",
+   "statement_plain": "A agência precisa de prova e de perícia antes de multar, e o caminho principal é levar empresas e órgãos a cumprir a lei, deixando a sanção para quando isso falha.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b006c2",
+    "b017c1",
+    "b004c2",
+    "b014c2",
+    "b015c1"
+   ],
+   "note": "É a ideia que a agência sustentou do começo ao fim da audiência, com o diretor-presidente e o assessor, e é exatamente o lado que a presidência da comissão contestou."
+  },
+  {
+   "id": "t3",
+   "title": "A agência precisa de concurso e carreira própria",
+   "statement_plain": "A agência de proteção de dados precisa de concurso público, carreira própria e mais orçamento, porque hoje tem pouquíssimas pessoas para fiscalizar o país inteiro.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b002c3",
+    "b013c2",
+    "b015c3",
+    "b019c1",
+    "b030c2"
+   ],
+   "note": "Cruza os lados da audiência: quem cobra a agência o tempo todo defende, neste ponto, a mesma ideia que a direção da agência."
+  },
+  {
+   "id": "t4",
+   "title": "Quem tem dados vazados fica sem reparação",
+   "statement_plain": "Quem tem os dados vazados sai prejudicado e nunca é reparado, e as pessoas nem sabem quais são os seus direitos sobre os próprios dados.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b001c2",
+    "b018c1",
+    "b018c2",
+    "b014c1"
+   ],
+   "note": "Atravessa a divergência principal: a presidência da comissão e o diretor-presidente da agência, que discordam sobre punição, dizem a mesma coisa sobre o prejuízo do cidadão."
+  },
+  {
+   "id": "t5",
+   "title": "Novas tecnologias podem ajudar a proteger dados",
+   "statement_plain": "A tecnologia de registros encadeados e outras novidades podem ajudar a proteger dados, e por isso a agência precisa estudá-las e recomendar como usá-las.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b039c1",
+    "b039c3",
+    "b040c2",
+    "b040c3",
+    "b041c1",
+    "b041c2"
+   ],
+   "note": "Reúne a presidência da comissão, o assessor e o diretor-presidente da agência em torno de estudar e aplicar novas tecnologias, mesmo eles vendo limites diferentes nelas."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ANPD",
+   "plain": "agência federal que fiscaliza o uso de dados pessoais no Brasil e pode aplicar sanções a empresas e órgãos públicos",
+   "fala": "b001",
+   "sentence": 4
+  },
+  {
+   "term": "LGPD",
+   "plain": "sigla da Lei Geral de Proteção de Dados Pessoais, que define como empresas e órgãos podem coletar e usar dados de pessoas",
+   "fala": "b002",
+   "sentence": 12
+  },
+  {
+   "term": "titular",
+   "plain": "a pessoa a quem os dados pessoais pertencem",
+   "fala": "b002",
+   "sentence": 13
+  },
+  {
+   "term": "regulação responsiva",
+   "plain": "forma de fiscalizar que começa orientando e só chega à punição quando a orientação não funciona",
+   "fala": "b002",
+   "sentence": 17
+  },
+  {
+   "term": "incidentes de segurança",
+   "plain": "casos em que dados pessoais vazam, são perdidos ou são acessados por quem não podia",
+   "fala": "b002",
+   "sentence": 23
+  },
+  {
+   "term": "ACT",
+   "plain": "acordo de cooperação técnica, um acordo entre dois órgãos para trabalharem juntos num assunto",
+   "fala": "b002",
+   "sentence": 30
+  },
+  {
+   "term": "poder de polícia administrativa",
+   "plain": "poder de um órgão público de fiscalizar e aplicar sanções por conta própria, sem precisar de decisão da Justiça",
+   "fala": "b002",
+   "sentence": 36
+  },
+  {
+   "term": "dosimetria",
+   "plain": "regra que define o tamanho da sanção em cada caso, para que a multa não fique pequena demais nem exagerada",
+   "fala": "b002",
+   "sentence": 71
+  },
+  {
+   "term": "requisitados",
+   "plain": "servidores emprestados por outros órgãos públicos, que continuam ligados ao quadro de origem",
+   "fala": "b002",
+   "sentence": 89
+  },
+  {
+   "term": "autarquia especial",
+   "plain": "tipo de órgão público com mais autonomia para decidir e para gastar do que um órgão ligado direto ao governo",
+   "fala": "b002",
+   "sentence": 100
+  },
+  {
+   "term": "GDPR",
+   "plain": "sigla da lei europeia de proteção de dados pessoais, que serviu de referência para a lei brasileira",
+   "fala": "b002",
+   "sentence": 104
+  },
+  {
+   "term": "controlador",
+   "plain": "a empresa ou o órgão que decide como os dados pessoais são coletados e usados, e que responde se eles vazarem",
+   "fala": "b004",
+   "sentence": 1
+  },
+  {
+   "term": "ConecteSUS",
+   "plain": "aplicativo do Ministério da Saúde com dados de vacinação e de atendimento dos brasileiros",
+   "fala": "b016",
+   "sentence": 13
+  },
+  {
+   "term": "blockchain",
+   "plain": "tecnologia de registros encadeados em blocos, em que cada registro fica guardado e não pode ser apagado com facilidade",
+   "fala": "b037",
+   "sentence": 0
+  }
+ ]
+}

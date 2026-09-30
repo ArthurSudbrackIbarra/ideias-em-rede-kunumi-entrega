@@ -1,0 +1,2071 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 163,
+ "model": "LLM lendo o prompt hearing-163 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:47:29Z",
+ "prompt_sha256": "5ed93ca20201849816b50ee440ec64dbe2b9e948b57a5655fae99577fee0803c",
+ "sentences_hash": "9b3cb8dc102254ab",
+ "review": {
+  "pairs_read": 35,
+  "pairs_fixed": 12
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Educação ouviu oito convidadas sobre os desafios para garantir o direito à educação de meninas e mulheres negras. Ministérios e escolas de governo apresentaram programas e dados de sub-representação, e a sociedade civil trouxe pesquisas sobre pandemia, primeira infância, saúde mental e condições materiais das famílias. Saíram propostas de grupo de trabalho e de mudanças na legislação educacional.",
+ "stakes": "Se a comissão abriria um grupo de trabalho e apresentaria projetos com diretrizes raciais para a educação, a partir do que foi ouvido na audiência.",
+ "central_question": "O que o Congresso e o Executivo precisam fazer para garantir o direito à educação de meninas e mulheres negras?",
+ "synopsis_plain": "A Comissão de Educação ouviu oito mulheres negras sobre a educação de meninas e mulheres negras. Representantes de ministérios mostraram programas de bolsas e de cargos de chefia. Pesquisadoras e organizações mostraram o efeito da pandemia, o racismo que começa na creche, o adoecimento mental e a fome. Saíram pedidos de grupo de trabalho e de mudanças nas leis de educação.",
+ "stakes_plain": "Se a comissão vai abrir um grupo de trabalho e propor leis com diretrizes raciais para a educação.",
+ "central_question_plain": "O que o Congresso e o governo precisam fazer para garantir o direito à educação de meninas negras?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Desigualdade educacional de meninas negras",
+   "description": "Discute-se o tamanho da desigualdade entre meninas e mulheres negras e o resto da população no acesso e na permanência na educação.",
+   "axis": {
+    "pro": "A desigualdade educacional das meninas e mulheres negras é profunda e exige política própria.",
+    "contra": "Os avanços das últimas décadas já respondem ao problema e não pedem política específica.",
+    "pro_plain": "A distância entre meninas negras e o resto é grande e pede política feita para elas.",
+    "contra_plain": "O que já melhorou nas últimas décadas basta, sem precisar de política só para esse grupo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Racismo na primeira infância",
+   "description": "Discute-se se a política de educação tem de começar na creche e na educação infantil, onde a criança negra sofre o primeiro racismo.",
+   "axis": {
+    "pro": "O combate ao racismo tem de começar na creche e na educação infantil.",
+    "contra": "A prioridade deve ser os níveis mais altos de ensino e a entrada na universidade.",
+    "pro_plain": "A luta contra o racismo tem de começar na creche, com as crianças bem pequenas.",
+    "contra_plain": "O esforço deve ir para o ensino médio e a universidade, onde se decide o futuro."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Caminho legislativo para a equidade racial",
+   "description": "Discute-se se a mudança vem de novas normas e diretrizes raciais na legislação da educação ou de implementar e fiscalizar as leis que já existem.",
+   "axis": {
+    "pro": "A mudança virá de novas normas e diretrizes raciais que atravessem toda a legislação da educação.",
+    "contra": "A mudança virá de implementar e fiscalizar as leis que já existem, não de criar outras.",
+    "pro_plain": "Precisamos de novas regras, com a questão racial dentro de toda a legislação da educação.",
+    "contra_plain": "As leis já existem. O que falta é aplicá-las e cobrar quem não aplica."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Mulheres negras em espaços de poder",
+   "description": "Discute-se o que fazer para que mulheres negras cheguem aos cargos de chefia no serviço público e à alta qualificação acadêmica.",
+   "axis": {
+    "pro": "É preciso política afirmativa e meta de cargos para levar mulheres negras aos espaços de poder.",
+    "contra": "O concurso e a carreira já bastam e não precisam de meta nem de recorte racial.",
+    "pro_plain": "Sem cota e sem meta de cargos, mulher negra não chega às chefias nem à bolsa no exterior.",
+    "contra_plain": "O concurso e a carreira já dão a todos a mesma chance, sem precisar de meta racial."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Impacto da pandemia na escolarização",
+   "description": "Discute-se quanto a pandemia afastou as meninas negras da escola e por quais caminhos isso aconteceu.",
+   "axis": {
+    "pro": "A pandemia agravou a desigualdade e as meninas negras foram as mais prejudicadas na escola.",
+    "contra": "O prejuízo da pandemia foi geral e não recaiu de forma específica sobre as meninas negras.",
+    "pro_plain": "Na pandemia, quem mais perdeu escola foram as meninas negras, sem internet e com casa para cuidar.",
+    "contra_plain": "A pandemia tirou escola de todo mundo, sem diferença marcada para as meninas negras."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Violência racial e saúde mental na escola",
+   "description": "Discute-se o que o racismo vivido na escola faz com a saúde mental das meninas negras e o que a escola deve a elas.",
+   "axis": {
+    "pro": "O racismo vivido na escola adoece as meninas negras e a escola precisa acolher e proteger.",
+    "contra": "O sofrimento dessas meninas tem outras causas e não cabe à escola respondê-lo.",
+    "pro_plain": "O racismo na escola adoece a menina negra, e a escola tem de acolher e proteger.",
+    "contra_plain": "O sofrimento vem de fora da escola, e não é da escola que se deve cobrar isso."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Cissexismo na pauta da educação",
+   "description": "Discute-se se a identidade de gênero e o cissexismo devem entrar na discussão sobre a educação de meninas negras.",
+   "axis": {
+    "pro": "O cissexismo tem de entrar na pauta da educação de meninas negras, junto com racismo e sexismo.",
+    "contra": "A pauta deve ficar restrita a raça e sexismo, sem tratar de identidade de gênero.",
+    "pro_plain": "Racismo e sexismo não bastam. Falar de menina negra é falar também de menina trans.",
+    "contra_plain": "O debate deve ficar em raça e em sexismo, sem entrar na identidade de gênero."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "Condições materiais das famílias negras",
+   "description": "Discute-se se a educação da menina negra depende primeiro de renda, comida e menos trabalho de cuidado em casa.",
+   "axis": {
+    "pro": "Sem renda, comida e alívio do trabalho de cuidado, a menina negra não permanece na escola.",
+    "contra": "A política deve se concentrar na escola, e não na renda e nas condições da família.",
+    "pro_plain": "Sem dinheiro em casa, sem comida e com irmão para cuidar, a menina não fica na escola.",
+    "contra_plain": "O esforço deve ser dentro da escola, não na renda e nas condições de cada família."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência pública",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata e identificada como Reginete Bispo, Bloco/PT - RS",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Educação da Câmara dos Deputados, que debate as políticas de ensino do país"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Ações Afirmativas na Educação do Ministério da Igualdade Racial",
+   "org": "MIR",
+   "basis": "apresentada pela presidência em b001.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Igualdade Racial",
+   "org_plain": "pasta do governo federal criada para as políticas de combate ao racismo"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Ativista da educação e dos direitos das mulheres",
+   "org": null,
+   "basis": "apresentada pela presidência em b001.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "ativista da educação e dos direitos das mulheres",
+   "org_plain": null
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Capacitação de Altos Executivos da ENAP",
+   "org": "ENAP",
+   "basis": "apresentada pela presidência em b001.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Escola Nacional de Administração Pública",
+   "org_plain": "escola do governo federal que forma e capacita servidores públicos"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Professora de direito, doutora em direitos humanos e pesquisadora na USP",
+   "org": "GEPPIS",
+   "basis": "apresentada pela presidência em b001.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professora de direito e pesquisadora da USP",
+   "org_plain": "grupo de estudos da USP sobre políticas públicas para inclusão social"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Diretora de Políticas de Educação Étnico-Racial e de Educação Escolar Quilombola no MEC",
+   "org": "SECADI",
+   "basis": "apresentada pela presidência em b001.5 e em b017.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da SECADI, no Ministério da Educação",
+   "org_plain": "secretaria do Ministério da Educação que cuida de diversidade, inclusão e alfabetização de adultos"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Professora na UniRitter, psicóloga e doutoranda em Psicologia na UFRGS",
+   "org": "UniRitter",
+   "basis": "apresentada pela presidência em b001.5 e em b019.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professora e psicóloga, doutoranda na UFRGS",
+   "org_plain": "Centro Universitário Ritter dos Reis, universidade privada do Rio Grande do Sul"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora de Educação e Pesquisa do Geledés",
+   "org": "Geledés",
+   "basis": "apresentada pela presidência em b001.5 e em b021.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Geledés Instituto da Mulher Negra",
+   "org_plain": "organização da sociedade civil que defende os direitos das mulheres negras"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "convidado",
+    "share": 0.15
+   }
+  ],
+  "basis": "há palmas registradas em sete falas e a presidência afirma em b023.2 que nenhum parlamentar está presente, com três convidadas participando por vídeo",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência e aponta que os indicadores mostram desigualdade enorme entre brancos e negros, com as mulheres negras nos piores resultados.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A desigualdade educacional atinge as mulheres negras de forma mais dura e pede política própria.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mulheres negras apresentam invariavelmente os piores indicadores de anos de estudo, ensino médio e analfabetismo",
+     "plain": "Os indicadores educacionais mostram uma desigualdade enorme entre pessoas brancas e negras. Mesmo com melhorias nas últimas décadas, as mulheres negras seguem com os piores resultados em anos de estudo, ensino médio e analfabetismo."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      21
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na pandemia as mulheres negras tiveram menos acesso à educação e mais exposição, porque precisaram continuar trabalhando",
+     "plain": "A desigualdade na educação ficou muito mais grave na pandemia de COVID-19. As mulheres negras tiveram menos oportunidade de acesso à educação e ainda ficaram mais expostas, porque tiveram de se manter no trabalho."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os estereótipos sobre meninas negras encontram reforço na escola e é preciso superar isso desde a educação infantil",
+     "plain": "Meninas e mulheres negras ainda enfrentam estereótipos e preconceitos que, mesmo quando não começam na escola, encontram reforço nela. Queremos subsídios para superar o racismo e o machismo que nossas crianças vivem em sala de aula."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta o Atlânticas, primeiro programa federal só para mulheres cientistas negras, indígenas, quilombolas e ciganas, com cerca de 40 bolsas no exterior.",
+   "quote": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso política afirmativa própria para levar mulheres negras e indígenas à alta qualificação científica.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Atlânticas é o primeiro programa federal dirigido só a mulheres cientistas negras, indígenas, quilombolas e ciganas",
+     "plain": "O Atlânticas é o primeiro programa do governo federal dirigido só a mulheres cientistas negras, indígenas, quilombolas e ciganas. Ele vai oferecer cerca de 40 bolsas de doutorado sanduíche e pós-doutorado fora do Brasil."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mulheres negras são 4,9% das bolsistas de doutorado sanduíche e as brancas 31%, e não há indígena beneficiada",
+     "plain": "Nas bolsas de doutorado sanduíche em vigor no país, as mulheres negras são 4,9% das bolsistas e as brancas são 31%. Não há nenhuma indígena beneficiada, segundo o CNPq. No pós-doutorado fora, as negras são 12,6% e as brancas 37,7%."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      36
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso fortalecer a Lei 10.639, ferramenta para uma educação antirracista e para reduzir a evasão",
+     "plain": "Queremos fortalecer outros instrumentos legais além da Lei de Cotas, como a Lei 10.639. Ela é fundamental para construir uma educação antirracista e ajuda a enfrentar a desigualdade racial na escola e a evasão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e adota a alternância entre as convidadas presentes e as que estão no Zoom.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A ativista cumprimenta a Mesa e pede para compartilhar a apresentação antes de começar a narrativa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o som da convidada está um pouco baixo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A ativista diz que vai tentar resolver o volume do som.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que ouvem a convidada, mas com certa dificuldade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A ativista pergunta se o som melhorou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o som melhorou bastante.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A ativista pergunta se a imagem que ela compartilha aparece bem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a imagem aparece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Narra a própria trajetória de menina negra e trans na escola dos anos 70, relata o racismo que ouviu aos 8 anos e cobra que o cissexismo entre na pauta.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A educação de meninas negras não se discute sem o cissexismo e sem a primeira infância.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com 8 anos ouviu de uma colega branca que não andariam com ela porque tinha cor de sujeira",
+     "plain": "Com 8 anos, sentada na escola, uma menina branca me disse que não andariam comigo no intervalo porque eu tinha cor de sujeira. Disse que eu tinha a cor do papel que embrulha os cadernos, a cor que elas não queriam perto."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a sociedade não discute o cissexismo, a ideia de que o gênero de quem é cis vale mais que o de quem é trans",
+     "plain": "O problema é uma sociedade que não discute só misoginia e sexismo, mas também o cissexismo, a ideia de que o gênero de quem é cis vale mais que o de quem é trans. A criança se afirma no gênero na primeira infância."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os livros didáticos que a prefeitura não entregou na 1ª série chegaram pelas mãos da mãe, faxineira",
+     "plain": "Os livros didáticos da 1ª série o governo municipal não entregou. Minha mãe, faxineira, não desistiu e me entregou esses livros. Uma mulher negra não desistiu de outra."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o testemunho e passa a palavra à representante da ENAP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que a presença de mulheres negras no serviço público subiu de 5,2 para 15% em duas décadas e defende o decreto que reserva 30% dos cargos de poder.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O concurso e a meta de cargos de poder são estratégias de inclusão de mulheres negras no Estado.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a entrada de mulheres negras no serviço público passou de 5,2 para 15%, mas o grupo segue sub-representado",
+     "plain": "O estudo cobre o período entre 2000 e 2019. A entrada de mulheres negras no serviço público passa de 5,2 no início para 15% em 2020. Mesmo com essa variação, o grupo segue sub-representado nas carreiras de nível superior."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos primeiros 5 anos da política afirmativa, na Justiça Federal, ninguém entrou pelo sistema de cotas",
+     "plain": "Pesquiso esse tema desde 2018. Na Justiça Federal, nos 5 primeiros anos da política afirmativa, nenhuma pessoa negra entrou pelo sistema de cotas. As que entraram teriam entrado mesmo sem a política."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      45
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto que manda ocupar até 2025 pelo menos 30% dos cargos de poder por pessoas negras é uma medida estrutural",
+     "plain": "O Decreto 11.443 determina que até 2025 pelo menos 30% dos cargos de poder e decisão sejam ocupados por pessoas negras, privilegiando a equidade de gênero. É uma medida que pode transformar a estrutura da sociedade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à professora de direito e pesquisadora da USP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que a questão racial entre nas diretrizes da educação, lembra o peso da creche na vida da criança negra e propõe nacionalizar o Escola sem Racismo.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    8,
+    9
+   ],
+   "open_question": 24,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O combate ao racismo tem de começar nas idades mais tenras, na creche e na educação infantil.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é na creche que a criança negra tem alimentação e estímulo pedagógico e que a mãe negra acessa o trabalho",
+     "plain": "Falar dos primeiros anos é falar de como serão a vida e a morte dessa criança no futuro. A creche é o que muitas vezes permite à mulher negra acessar o mercado de trabalho, e é lá que a criança negra come e recebe estímulo pedagógico."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as leis de bases e diretrizes da educação precisam tratar a questão racial, para além das leis específicas",
+     "plain": "É urgente que a questão racial esteja nas nossas leis de bases e diretrizes da educação de forma significativa. Não só nas leis específicas sobre o ensino de africanidades, como a Lei 10.639, de 2003, conquista do movimento negro."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      24
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "propõe, como recomendação expressa, que o projeto Escola sem Racismo seja nacionalizado",
+     "plain": "Se me permite, deixo uma recomendação expressa: que o projeto Escola sem Racismo seja nacionalizado, pela importância do debate que já está construído."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que a assessoria anota as sugestões e passa a palavra à representante da SECADI.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que mulheres negras doutoras não chegam aos espaços acadêmicos de poder e relata que o Abdias Nascimento dirige a elas metade das ações.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 52,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso política pública para que mulheres negras com alta escolarização cheguem aos espaços de poder.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há muitas mulheres negras produzindo conhecimento, mas elas não alcançam os espaços acadêmicos de poder",
+     "plain": "Os dados mostram desigualdade de acesso e de ocupação de espaços pelas mulheres negras, principalmente nos estratos mais altos. Não é verdade que não existam mulheres negras produzindo conhecimento, elas só não chegam a esse lugar de poder."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      26
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa Abdias Nascimento dirige 50% das ações a mulheres negras, para alcançarem pós-graduação e bolsa no exterior",
+     "plain": "O Abdias Nascimento, um dos maiores programas lançados pelo MEC com a SECADI e a CAPES, tem recorte forte para mulheres negras: 50% das ações são dirigidas a elas, para chegarem à pós-graduação e à bolsa de pós-doutorado no exterior."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a legislação sobre currículo já existe e, para além dela, é preciso conquistar a equidade racial na educação",
+     "plain": "Nós já temos uma legislação e um artigo dizendo que as escolas precisam discutir história e cultura afro-brasileira no currículo. Mas a professora Zara tem insistido que, para além do currículo, temos de conquistar a equidade racial."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra os ataques sofridos pela SECADI e passa a palavra à professora e psicóloga do Rio Grande do Sul.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Aponta que a vulnerabilidade social das famílias negras bloqueia o acesso e a permanência na escola e mostra o adoecimento psíquico ligado ao racismo.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem enfrentar a vulnerabilidade social das famílias negras, a menina negra não permanece na escola.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "grande parte das famílias negras está em vulnerabilidade social, o que afeta o acesso e a permanência na escola",
+     "plain": "Partimos da ideia de que grande parte das famílias negras está em vulnerabilidade social. Isso afeta o acesso à educação, a permanência nela e outros direitos, inclusive a insegurança alimentar. Quem, com fome, consegue aprender?"
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a violência racial em torno do cabelo levou a menina do caso a um serviço de saúde mental",
+     "plain": "O que me chama atenção é o impacto da violência racial em torno do cabelo das meninas negras, experiência que quase todas nós vivemos. Aqui houve adoecimento psíquico extremo, que levou essa menina a um serviço de saúde mental."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso transversalizar as relações raciais em toda a legislação da educação, não apenas inseri-las",
+     "plain": "É importante fortalecer as leis do tema e, como disseram antes de mim, transversalizar as relações raciais em toda a legislação da educação. São necessárias também ações que reduzam a vulnerabilidade social dessas meninas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que o Geledés provocou este debate e passa a palavra à sua representante.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Mostra que na pandemia as meninas negras não acessavam as plataformas digitais, cobra a efetivação da Lei 10.639 e propõe uma renda básica permanente.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "open_question": 48,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Na pandemia as meninas negras foram as mais prejudicadas na vida escolar, e o efeito ainda dura.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a grande maioria das meninas negras não acessava as plataformas digitais e foram as que menos se dedicaram às tarefas",
+     "plain": "A pesquisa mostrou que a grande maioria delas não acessava as plataformas digitais, opção dos governos municipais e estaduais diante da inoperância do governo federal. As meninas negras foram as que menos se dedicaram às tarefas escolares."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "efetivar a Lei 10.639 é o caminho, e a pesquisa sobre a implementação nas secretarias mostra que falta compromisso",
+     "plain": "Efetivar a Lei 10.639, de 2003, é um caminho. Com o Instituto Alana, pesquisamos como a lei foi implementada nas secretarias municipais, e falta tudo. Sintetizando, falta compromisso."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso garantir o direito de cidadania às famílias negras, com uma renda básica permanente",
+     "plain": "Precisamos garantir o direito de cidadania às famílias negras. Estamos falando de uma renda básica permanente. Como dizemos das cotas, que devem durar enquanto forem necessárias, vamos pensar numa renda permanente."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra que não há parlamentar presente e abre as considerações finais, de 2 minutos cada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reafirma que o Ministério da Igualdade Racial está aberto a aprofundar o tema em todas as instâncias que o compõem.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O ministério assume o compromisso de seguir tratando o tema em todas as suas instâncias.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério da Igualdade Racial está aberto a aprofundar o tema em todas as instâncias que o compõem",
+     "plain": "Quero dizer mais uma vez que o Ministério da Igualdade Racial está aberto a discutir e aprofundar esse tema, e não apenas na secretaria de ações afirmativas, mas em todas as instâncias do ministério."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à ativista para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata que mães e enfermeiras falaram da dificuldade de atender meninas não cisgênero e do anseio delas pela morte, e pede a escola como lugar de pertencimento.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A escola precisa ser revisitada para virar lugar de pertencimento dessas meninas.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mães e enfermeiras relataram a dificuldade de atender meninas não cisgênero e o anseio delas pela morte",
+     "plain": "O que me chocou, nessa formação, foi ouvir mães e enfermeiras contarem como é difícil atender essas meninas não cisgênero. E as mães relatando o anseio delas pela morte, por suicídio."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a escola é, para muitas, o primeiro lugar de sobrevivência fora das agressões domésticas e precisa ser revisitada",
+     "plain": "A escola não é um lugar qualquer para nós. Para muitas, foi o primeiro lugar de sobrevivência longe das agressões de casa. Ela precisa ser revisitada, e a última reforma efetiva que teve foi na ditadura."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante da ENAP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Deixa uma mensagem de esperança e afirma que, mesmo com as vozes silenciadas, as mulheres negras existem e estão nesses espaços.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As mulheres negras estão nesses espaços de poder e é preciso dizer isso publicamente.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as vozes das mulheres negras são silenciadas e é preciso afirmar que elas existem e estão nesses espaços",
+     "plain": "Deixo como palavras finais uma missão de esperança, num contexto em que as nossas vozes são silenciadas e nós somos invisibilizadas. Perguntam se existem mulheres negras em Porto Alegre. Sim, nós existimos e estamos aqui."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à professora de direito para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o processo democrático ainda não se consolidou e que as pessoas negras ainda não acessaram os direitos previstos na Constituição.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A desigualdade continua porque as pessoas negras ainda não acessaram os direitos já escritos.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a democracia ainda não se consolidou no Brasil e as pessoas negras seguem sem acessar os direitos da Constituição",
+     "plain": "Acredito que a luta pela democracia é uma constante. No Brasil, a democracia ainda não se consolidou, e as pessoas negras seguem sem acessar os direitos que a Constituição prevê."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o desafio é construir uma sociedade justa para quem habita a atmosfera do não ser, pelas meninas que virão",
+     "plain": "Temos todas o desafio de construir, de forma efetiva, uma sociedade justa, livre e solidária para as pessoas que habitam a atmosfera do não ser. Que sejamos forças motrizes da luta e permaneçamos aqui pelas meninas que virão."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante da SECADI.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Anuncia o empenho do Ministério da Educação na CONAE, que vai definir o Plano Nacional de Educação, e a volta das comissões de participação popular.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 4,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O novo Plano Nacional de Educação precisa incorporar o que foi discutido nesta audiência.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Plano Nacional de Educação, definido na CONAE, precisa refletir as discussões trazidas nesta audiência",
+     "plain": "Estamos empenhadas para que a CONAE aconteça. É nela que o Plano Nacional de Educação vai ser definido, e esse plano precisa refletir o que trouxemos para esta audiência."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o ministro retomou as comissões de participação popular e nelas a questão de gênero está colocada",
+     "plain": "Acrescento algo que não mencionei: o ministro retomou as comissões de participação popular, e nelas a questão de gênero está posta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à professora e psicóloga para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Registra que, como professora de ensino superior privado, vê a demanda de acesso continuar presente também na vida adulta.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A desigualdade de acesso à educação continua presente na vida adulta das mulheres negras.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "como professora de ensino superior privado, vê essa demanda continuar presente na vida adulta",
+     "plain": "Do outro lado, como professora de ensino superior numa universidade privada, vejo que essa demanda continua bastante presente, ainda que na vida adulta. É uma questão fundamental para pensar um projeto de sociedade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante do Geledés para encerrar as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que meninas que nunca tinham tocado num tablet produziram trabalhos no curso e afirma que basta uma oportunidade.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Dada a oportunidade, as meninas negras produzem e vão além do que se espera delas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "meninas que nunca tinham tocado num tablet produziram trabalhos no curso, o que mostra que basta uma oportunidade",
+     "plain": "Quero destacar que, ao final do curso, algumas meninas que nunca tinham tocado num tablet produziram trabalhos maravilhosos. Basta uma oportunidade, como foi dada a nós que chegamos até aqui, para que elas realizem seus sonhos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Encerra dizendo que a educação continua sendo o único caminho possível e que as parlamentares vão continuar legislando para mudar essa realidade.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão vai continuar o debate e legislar para mudar a realidade educacional dessas meninas.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as parlamentares da educação e as parlamentares negras vão continuar trabalhando e legislando para alterar essa realidade",
+     "plain": "Nós parlamentares, especialmente as parlamentares da educação e as parlamentares negras, sabemos da importância disso. Este é o início do debate. Vamos continuar trabalhando e legislando para alterar essa realidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b012",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 23,
+   "from_claim": "b012c2",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "A presidência diz que o racismo aparece já na sala de aula das crianças pequenas, e Cunha mostra que é na primeira infância que a criança se afirma no gênero."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 22,
+   "from_claim": "b014c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "As duas apontam o mesmo padrão: mesmo com mais diplomas nas mãos, as mulheres negras seguem fora das bolsas no exterior e das carreiras de nível superior."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 36,
+   "from_claim": "b016c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O Ministério da Igualdade Racial quer fortalecer a Lei 10.639, e a pesquisadora acrescenta que a questão racial precisa estar também nas leis de bases e diretrizes."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 18,
+   "from_claim": "b018c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Ao programa de bolsas apresentado pelo Ministério da Igualdade Racial, a SECADI soma o Abdias Nascimento, com metade das ações dirigidas a mulheres negras."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 20,
+   "from_claim": "b018c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "A ENAP mostra a baixa mobilidade racial nas carreiras que exigem diploma, e a SECADI acrescenta que as doutoras negras não chegam aos espaços acadêmicos de poder."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 51,
+   "to_sentence": 14,
+   "from_claim": "b020c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Cunha relata o que ouviu na escola sobre a própria cor, e a psicóloga mostra um caso em que a violência racial sobre o cabelo levou a menina ao serviço de saúde mental."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 22,
+   "from_claim": "b022c1",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "A psicóloga liga a vulnerabilidade social ao acesso à escola, e o Geledés mostra que na pandemia essas meninas não conseguiam nem entrar nas plataformas digitais."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 51,
+   "to_sentence": 16,
+   "from_claim": "b022c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A pesquisadora quer o recorte racial nas leis de bases e diretrizes, e o Geledés aponta outro caminho: a Lei 10.639 já existe e o que falta é compromisso para aplicá-la."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 61,
+   "to_sentence": 15,
+   "from_claim": "b020c3",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "A psicóloga endossa a proposta da pesquisadora: o debate das relações raciais deve atravessar toda a legislação da educação, e não só as leis específicas."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 30,
+   "to_sentence": 16,
+   "from_claim": "b018c3",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A pesquisadora pede a questão racial nas diretrizes, e a SECADI lembra que a norma sobre currículo já existe e que o desafio agora é conquistar a equidade racial."
+  },
+  {
+   "from": "b022",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 51,
+   "to_sentence": 36,
+   "from_claim": "b022c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "As duas tratam a Lei 10.639 como a ferramenta central, uma para fortalecer a norma e a outra para cobrar a aplicação nas redes municipais."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 46,
+   "from_claim": "b026c2",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "O Geledés cobra o direito de cidadania para as famílias negras, e Cunha acrescenta que a escola é o primeiro lugar de sobrevivência fora das agressões em casa."
+  },
+  {
+   "from": "b026",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 51,
+   "from_claim": "b026c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "A psicóloga mostra o adoecimento psíquico ligado ao racismo na escola, e Cunha relata mães e enfermeiras falando do anseio de morte dessas meninas."
+  },
+  {
+   "from": "b030",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 46,
+   "from_claim": "b030c1",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "O Geledés cobra o direito de cidadania das famílias negras, e a pesquisadora diz que as pessoas negras ainda não acessaram os direitos escritos na Constituição."
+  },
+  {
+   "from": "b032",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 15,
+   "from_claim": "b032c1",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "A pesquisadora quer a questão racial nas diretrizes da educação, e a SECADI responde que o Plano Nacional de Educação, definido na CONAE, precisa refletir esse debate."
+  },
+  {
+   "from": "b034",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 18,
+   "from_claim": "b034c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "A SECADI aponta que mulheres negras com alta escolarização não alcançam os espaços acadêmicos, e a psicóloga confirma que a demanda segue viva no ensino superior."
+  },
+  {
+   "from": "b036",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 62,
+   "from_claim": "b036c1",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "A psicóloga pede ações que ampliem a chance de as meninas negras estudarem, e o Geledés conta que bastou uma oportunidade para elas produzirem no curso."
+  },
+  {
+   "from": "b037",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 24,
+   "from_claim": "b037c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "À proposta de nacionalizar o Escola sem Racismo, a presidência responde que este é o início do debate e que as parlamentares vão continuar legislando."
+  },
+  {
+   "from": "b028",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 19,
+   "from_claim": "b028c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "A SECADI diz que não faltam mulheres negras produzindo conhecimento, e a ENAP reforça que ainda se pergunta se elas existem."
+  },
+  {
+   "from": "b024",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 26,
+   "from_claim": "b024c1",
+   "to_claim": "b018c2",
+   "strength": "media",
+   "note": "À parceria do Abdias Nascimento lembrada pela SECADI, o Ministério da Igualdade Racial responde que segue aberto a aprofundar o tema em todas as suas instâncias."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b030",
+    "b034",
+    "b036",
+    "b037"
+   ],
+   "claims": [
+    "b001c1",
+    "b030c2",
+    "b034c1",
+    "b036c1",
+    "b037c1"
+   ],
+   "note": "A presidência da comissão, uma jurista, uma psicóloga e uma organização de mulheres negras concordam que a desigualdade atravessa toda a vida escolar e pede política própria."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b016",
+    "b020",
+    "b032"
+   ],
+   "claims": [
+    "b002c3",
+    "b016c2",
+    "b016c3",
+    "b020c3",
+    "b032c1"
+   ],
+   "note": "Dois órgãos do governo federal, uma jurista e uma psicóloga concordam que a questão racial precisa estar escrita nas normas e nos planos da educação."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b001",
+    "b012",
+    "b020",
+    "b026"
+   ],
+   "claims": [
+    "b001c3",
+    "b012c1",
+    "b020c2",
+    "b026c1",
+    "b026c2"
+   ],
+   "note": "A presidência, uma ativista e uma psicóloga concordam que o racismo vivido na escola adoece a menina negra e que a escola tem de acolher e proteger."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b016",
+   "sentence": 33,
+   "addressed_to": "parlamentar",
+   "answered_by": "b037",
+   "gist": "sistematizar um grupo de trabalho e medidas a encaminhar aos Poderes",
+   "plain": "Podemos sistematizar, depois desta audiência, um grupo de trabalho e medidas para encaminhar aos Poderes?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 24,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "nacionalizar o projeto Escola sem Racismo",
+   "plain": "O projeto Escola sem Racismo pode ser transformado em lei nacional?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b018",
+   "sentence": 52,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que os homens também se comprometam com a igualdade de gênero",
+   "plain": "Os homens que legislam e que estão no Executivo podem se comprometer também com essa igualdade?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b022",
+   "sentence": 48,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "pensar uma renda básica permanente para as famílias negras",
+   "plain": "O Parlamento pode pensar numa renda básica permanente para as famílias negras?",
+   "theme": "d8",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b032",
+   "sentence": 4,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "convoca a sociedade civil a participar da CONAE",
+   "plain": "A sociedade civil pode participar da CONAE, o encontro que define o Plano Nacional de Educação?",
+   "theme": "d3",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 19,
+   "gist": "o Atlânticas vai ofertar cerca de 40 bolsas no exterior",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 22,
+   "gist": "mulheres negras são 4,9% das bolsistas de doutorado sanduíche",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 24,
+   "gist": "no pós-doutorado fora, negras são 12,6% e brancas 37,7%",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b014",
+   "sentence": 19,
+   "gist": "mulheres negras no serviço público passam de 5,2 para 15%",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b014",
+   "sentence": 23,
+   "gist": "nos primeiros 5 anos, ninguém entrou por cotas na Justiça Federal",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b014",
+   "sentence": 44,
+   "gist": "em 2020, os DAS 6 tinham 2,4% de mulheres negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 45,
+   "gist": "o Decreto 11.443 exige 30% dos cargos de poder até 2025",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 50,
+   "gist": "em 2023 a ENAP formou 40 pessoas no curso de lideranças negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 58,
+   "gist": "o concurso unificado terá provas em 180 municípios",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 26,
+   "gist": "50% das ações do Abdias Nascimento vão para mulheres negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b020",
+   "sentence": 55,
+   "gist": "a população negra de Porto Alegre é de 24%",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b022",
+   "sentence": 28,
+   "gist": "a partir da 7ª série elas já percebiam as discriminações",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu a proposta de um grupo de trabalho na Câmara e organizou o resto por programas e pesquisas apresentados pelas convidadas.",
+  "omitted": "Ficou de fora o relato sobre cissexismo e identidade de gênero na escola, a dimensão da saúde mental e a proposta de uma renda básica permanente."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A questão racial tem de entrar nas diretrizes",
+   "statement_plain": "A questão racial precisa estar escrita nas leis de bases e diretrizes da educação e nos planos nacionais, e não só nas leis específicas sobre ensino de africanidades.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b016c2",
+    "b016c3",
+    "b020c3",
+    "b032c1",
+    "b002c3",
+    "b016c1"
+   ],
+   "note": "Cruza Executivo e sociedade civil: duas pastas do governo federal, uma jurista e uma psicóloga defendem a mesma rota legislativa."
+  },
+  {
+   "id": "t2",
+   "title": "As normas já existem, falta aplicá-las",
+   "statement_plain": "As leis e os direitos já estão escritos. O que falta é implementar, fiscalizar e cobrar compromisso de quem deveria aplicá-los, e não criar novas normas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b018c3",
+    "b022c2",
+    "b030c1"
+   ],
+   "note": "Divide o próprio campo: uma diretoria do Ministério da Educação, uma organização de mulheres negras e uma jurista apontam a aplicação, não a criação de normas."
+  },
+  {
+   "id": "t3",
+   "title": "Sem política afirmativa não se chega ao poder",
+   "statement_plain": "Sem cota, meta de cargos e programa de bolsas, mulheres negras não chegam às chefias do serviço público nem aos espaços de alta qualificação acadêmica.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b014c1",
+    "b014c3",
+    "b018c1",
+    "b018c2",
+    "b036c1"
+   ],
+   "note": "Junta três órgãos federais diferentes, uma escola de governo, o Ministério da Educação e o da Igualdade Racial, e uma organização de mulheres negras."
+  },
+  {
+   "id": "t4",
+   "title": "O racismo começa na creche e ali se enfrenta",
+   "statement_plain": "O racismo chega à criança negra antes do ensino fundamental, então é na creche e na educação infantil que a política precisa agir primeiro.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b001c3",
+    "b012c1",
+    "b020c2"
+   ],
+   "note": "Reúne a presidência da comissão, uma jurista, uma ativista e uma psicóloga em torno da primeira infância."
+  },
+  {
+   "id": "t5",
+   "title": "A escola tem de acolher a menina não cisgênero",
+   "statement_plain": "Falar da educação de meninas negras é falar também de cissexismo, porque a escola é para muitas o primeiro lugar de sobrevivência e hoje não acolhe.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b012c2",
+    "b026c1",
+    "b026c2",
+    "b020c2",
+    "b001c3"
+   ],
+   "note": "Traz para a pauta racial o cissexismo, defendido por uma ativista, por uma psicóloga que pesquisa infâncias negras e pela presidência da comissão."
+  },
+  {
+   "id": "t6",
+   "title": "Sem renda e comida, a menina não fica na escola",
+   "statement_plain": "A menina negra só permanece na escola se a família tiver renda, comida e alívio do trabalho de cuidado, então a política de educação passa pela renda.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b020c1",
+    "b012c3",
+    "b022c3",
+    "b022c1",
+    "b001c2"
+   ],
+   "note": "Liga a condição material à escola e junta uma ativista, uma psicóloga, uma organização de mulheres negras e a presidência da comissão."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SECADI",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "secretaria do Ministério da Educação que cuida de alfabetização de jovens e adultos, diversidade e inclusão"
+  },
+  {
+   "term": "ENAP",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "Escola Nacional de Administração Pública, que forma e capacita servidores do governo federal"
+  },
+  {
+   "term": "Geledés",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "Geledés Instituto da Mulher Negra, organização da sociedade civil que defende os direitos das mulheres negras"
+  },
+  {
+   "term": "CONAQ",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "entidade que articula as comunidades negras rurais quilombolas em todo o país"
+  },
+  {
+   "term": "MIR",
+   "fala": "b002",
+   "sentence": 3,
+   "plain": "Ministério da Igualdade Racial, pasta federal criada para as políticas de combate ao racismo"
+  },
+  {
+   "term": "SINAPIR",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "Sistema Nacional de Promoção da Igualdade Racial, a rede que liga União, estados e municípios nessa política"
+  },
+  {
+   "term": "CNPq",
+   "fala": "b002",
+   "sentence": 17,
+   "plain": "Conselho Nacional de Desenvolvimento Científico e Tecnológico, órgão federal que financia pesquisa e concede bolsas"
+  },
+  {
+   "term": "doutorado sanduíche",
+   "fala": "b002",
+   "sentence": 19,
+   "plain": "parte do doutorado feita em outro grupo de pesquisa, em geral no exterior, sem sair do curso no Brasil"
+  },
+  {
+   "term": "cissexismo",
+   "fala": "b012",
+   "sentence": 27,
+   "plain": "ideia de que o gênero de quem é cis vale mais do que o de quem é trans"
+  },
+  {
+   "term": "IPEA",
+   "fala": "b014",
+   "sentence": 14,
+   "plain": "Instituto de Pesquisa Econômica Aplicada, órgão federal que produz estudos e dados sobre políticas públicas"
+  },
+  {
+   "term": "DAS",
+   "fala": "b014",
+   "sentence": 44,
+   "plain": "cargos de direção e assessoramento superior, os postos de chefia do governo federal, numerados por nível"
+  },
+  {
+   "term": "epistemicídio",
+   "fala": "b016",
+   "sentence": 26,
+   "plain": "destruição ou desqualificação dos saberes de um povo, tratados como se não fossem conhecimento"
+  },
+  {
+   "term": "CAPSI",
+   "fala": "b020",
+   "sentence": 32,
+   "plain": "Centro de Atenção Psicossocial Infantil, serviço público de saúde mental para crianças e adolescentes"
+  },
+  {
+   "term": "VAAR",
+   "fala": "b022",
+   "sentence": 56,
+   "plain": "parte do dinheiro do FUNDEB paga por resultado, que premia a rede de ensino que melhora indicadores"
+  },
+  {
+   "term": "CONAE",
+   "fala": "b032",
+   "sentence": 2,
+   "plain": "Conferência Nacional de Educação, o encontro que define as bases do Plano Nacional de Educação"
+  }
+ ]
+}

@@ -1,0 +1,2269 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 56,
+ "model": "LLM lendo o prompt hearing-056 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T18:00:27Z",
+ "prompt_sha256": "3945a75ec375925a8fc057491052fa9aafb735465b3149a3d79f94edcc74bd87",
+ "sentences_hash": "2023309d2804d73d",
+ "review": {
+  "pairs_read": 46,
+  "pairs_fixed": 13
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Esportes ouviu seis convidados sobre o impacto da pandemia de COVID-19 no esporte. Eles mostraram o aumento do sedentarismo, o fechamento de academias e as baixas de registro de profissionais, e pediram que a atividade física passe a ser tratada como política de saúde. A sala divergiu sobre as medidas sanitárias adotadas durante a pandemia.",
+ "stakes": "Estava em jogo se a Câmara vai propor uma lei que torne a atividade física essencial e se a reforma tributária vai tratar o setor como saúde.",
+ "central_question": "O poder público deve tratar a atividade física como política de saúde?",
+ "synopsis_plain": "Especialistas foram ouvidos na Comissão de Esportes sobre o que a pandemia deixou para o esporte. Eles mostraram que o Brasil ficou mais parado, que academias fecharam e que profissionais de educação física devolveram o registro. Pediram que a atividade física seja tratada como saúde, e não como lazer. Os convidados divergiram sobre as medidas tomadas durante a pandemia.",
+ "stakes_plain": "Se a Câmara vai propor uma lei que torne a atividade física essencial e se a reforma tributária vai cobrar menos dela.",
+ "central_question_plain": "O poder público deve tratar a atividade física como saúde, e não como lazer?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Tamanho do sedentarismo no Brasil",
+   "description": "Quantos brasileiros pararam de se mexer, antes e depois da pandemia, e o que isso custa à saúde.",
+   "axis": {
+    "pro": "O sedentarismo já é um problema de saúde pública de grande alcance no Brasil.",
+    "contra": "O sedentarismo não tem a dimensão nem o custo que se afirma.",
+    "pro_plain": "Muita gente no Brasil não se mexe, e isso já adoece a população.",
+    "contra_plain": "O número de pessoas paradas não é tão grande nem custa tanto assim."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Fechamento de academias e o setor",
+   "description": "O que o fechamento dos estabelecimentos de atividade física fez com o setor e com quem trabalha nele.",
+   "axis": {
+    "pro": "O fechamento quebrou academias e tirou profissionais de educação física do mercado.",
+    "contra": "O fechamento não explica as perdas do setor.",
+    "pro_plain": "Fechar as academias quebrou o setor e tirou profissionais do trabalho.",
+    "contra_plain": "As perdas do setor não vieram do fechamento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Educação física como área da saúde",
+   "description": "Se a atividade física e quem a orienta devem ser tratados como saúde ou como entretenimento e lazer.",
+   "axis": {
+    "pro": "A atividade física é saúde e os estabelecimentos são essenciais.",
+    "contra": "A atividade física é entretenimento e lazer, como diz a classificação em vigor.",
+    "pro_plain": "Academia e educação física são saúde, e não diversão.",
+    "contra_plain": "Academia é lazer, como está na classificação que vale hoje."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Educação física escolar e infância",
+   "description": "Que lugar a educação física deve ter na escola e desde que idade a criança precisa de estímulo.",
+   "axis": {
+    "pro": "A educação física escolar é a principal política pública e deve começar na pré-escola.",
+    "contra": "A escola não é o lugar central dessa política.",
+    "pro_plain": "A educação física na escola, desde a creche, é o melhor caminho.",
+    "contra_plain": "Não é pela escola que se resolve isso."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Tributação e custo da atividade física",
+   "description": "Se o imposto e os custos cobrados do setor afastam as pessoas da atividade física.",
+   "axis": {
+    "pro": "Cobrar menos imposto da atividade física faz mais gente se exercitar.",
+    "contra": "O imposto não é o que afasta as pessoas da atividade física.",
+    "pro_plain": "Se a atividade física pagar menos imposto, mais gente vai se exercitar.",
+    "contra_plain": "Não é o imposto que faz a pessoa deixar de se exercitar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Política pública e orçamento do esporte",
+   "description": "Quanto o poder público deve investir no esporte e como fazer uma política que não mude a cada governo.",
+   "axis": {
+    "pro": "O esporte precisa de mais orçamento e de política que atravesse governos.",
+    "contra": "O orçamento e o desenho atuais do esporte já bastam.",
+    "pro_plain": "O esporte precisa de mais dinheiro público e de um plano que não mude a cada eleição.",
+    "contra_plain": "O que já existe de verba e de plano para o esporte é suficiente."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Telas e saúde de crianças e adolescentes",
+   "description": "O efeito do tempo de tela sobre o corpo e a cabeça de crianças e adolescentes depois da pandemia.",
+   "axis": {
+    "pro": "O tempo de tela cresceu e prejudica a saúde física e mental das crianças.",
+    "contra": "As telas não explicam os problemas de saúde das crianças.",
+    "pro_plain": "As crianças ficaram mais tempo na tela, e isso faz mal ao corpo e à cabeça.",
+    "contra_plain": "Não são as telas que explicam o que as crianças têm."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "As medidas sanitárias da pandemia",
+   "description": "Se fechar academias e impor restrições foi um erro ou se o caminho era negociar protocolos com as autoridades.",
+   "axis": {
+    "pro": "As restrições da pandemia foram um erro e tiveram motivação política.",
+    "contra": "O caminho certo foi negociar protocolos sanitários e vacinação com as autoridades.",
+    "pro_plain": "Fechar tudo foi um erro, e houve política por trás das decisões.",
+    "contra_plain": "O certo foi combinar regras de segurança com as autoridades para poder reabrir."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputados federais na presidência da audiência",
+   "org": "Comissão de Esportes da Câmara dos Deputados",
+   "basis": "o registro Presidente junta dois deputados: Diego Garcia abre em b001.3 e conduz até b011.136, quando passa a condução ao Deputado Dr. Luiz Ovando, que fala a partir de b011.139",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata de esporte e de atividade física"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Consultora e membro do conselho diretivo",
+   "org": "International Health, Racquet & Sportsclub Association",
+   "basis": "apresentada pela presidência em b001.5 e em b001.30, e ela própria se identifica em b002.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação internacional de academias e clubes",
+   "org_plain": "entidade internacional que reúne academias e clubes de atividade física"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Atleta olímpico, presidente de um instituto social de judô",
+   "org": null,
+   "basis": "apresentado pela presidência em b001.6 e em b003.2 como presidente do Instituto Tiago Camilo, campeão mundial de judô, e participa por videoconferência",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "ex-atleta olímpico e presidente de instituto de judô",
+   "org_plain": "projeto social que leva o judô a crianças de comunidades carentes"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do CREF4",
+   "org": "Conselho Regional de Educação Física de São Paulo",
+   "basis": "apresentado pela presidência em b001.7 e em b005.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do conselho de educação física de São Paulo",
+   "org_plain": "conselho que registra e fiscaliza os profissionais de educação física em São Paulo"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "Educador físico, ex-atleta de fisiculturismo e dono de academia",
+   "org": null,
+   "basis": "apresentado em b001.8 e em b007.5 a b007.7, onde a presidência diz que ele é conhecido como Panche e é proprietário de academia em Londrina",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "dono de academia em Londrina",
+   "org_plain": null
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do conselho regional de educação física",
+   "org": "Conselho Regional de Educação Física do Paraná",
+   "basis": "apresentado pela presidência em b001.9 e em b009.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do conselho de educação física do Paraná",
+   "org_plain": "conselho que registra e fiscaliza os profissionais de educação física no Paraná"
+  },
+  "s07": {
+   "role": "setor_privado",
+   "cargo": "Presidente da ACAD Brasil",
+   "org": "Associação Brasileira de Academias",
+   "basis": "apresentado pela presidência em b001.10 e chamado à palavra em b011.141",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Associação Brasileira de Academias",
+   "org_plain": "entidade que reúne as academias do país"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.35
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "governo",
+    "share": 0.05
+   }
+  ],
+  "basis": "a mesa registra vários presidentes de conselhos regionais presentes em b006.22 e b010.5, e há registro de palmas em b002, b011, b012, b013 e b031",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o impacto da pandemia no esporte e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que o Brasil era o quinto país mais sedentário em 2018 e propõe menos imposto sobre a atividade física e dedução no Imposto de Renda.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": 107,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O sedentarismo no Brasil já era enorme antes da pandemia e piorou depois dela.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2018 o Brasil era o quinto país mais sedentário do mundo, com 47% da população inativa",
+     "plain": "Em 2018 o Brasil foi classificado como o quinto país mais sedentário do mundo, com 47% da população inativa. Quase metade dos brasileiros não praticava nenhuma atividade física, e isso era antes da pandemia."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as políticas públicas precisam acompanhar a vida inteira, e não só a infância ou a velhice",
+     "plain": "Quem faz atividade física na juventude está construindo uma velhice mais feliz. Por isso as políticas públicas precisam acompanhar a vida inteira, não só a velhice ou a infância, mas também a fase adulta."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      86,
+      87,
+      88
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quanto menor o imposto sobre a atividade física, menor o número de pessoas paradas",
+     "plain": "Quanto menor o imposto sobre a atividade física, menos gente parada. Suécia, Suíça e Holanda têm imposto abaixo de 10% e inatividade abaixo de 30%. Alemanha, Itália e Portugal cobram 19, 22 e 23% e ficam em 45%."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece Monica Marques e passa a palavra a Tiago Camilo, por videoconferência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Relata o aumento do sedentarismo, do peso e do tempo de tela entre as crianças e cobra que o Brasil trate o esporte como política pública.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O tempo de tela e o sedentarismo cresceram entre as crianças e já aparecem no comportamento delas.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o sedentarismo, o peso e o tempo de tela aumentaram, e nas escolas os alunos estão inseguros e introvertidos",
+     "plain": "Vimos crescer o sedentarismo, o peso e o tempo de tela, e são direções que precisam ser revistas principalmente pelos pais. Nas escolas que visito, encontro alunos inseguros e introvertidos, com dificuldade de lidar com o outro."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil é o quinto país mais sedentário e o número 1 em ansiedade",
+     "plain": "A Monica já disse: o Brasil é o quinto país mais sedentário. E há outro dado: somos o número 1 em ansiedade, o país com mais crises de pânico."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil não trata o esporte como política pública, mesmo falando de educação, saúde e segurança",
+     "plain": "Eu não tenho visto o Brasil tratar o esporte como política pública. Fala-se de educação, saúde e segurança, mas quase não se fala em promover saúde pelo esporte."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede destaque para a audiência no portal da Câmara e passa a palavra a Nelson Leme.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta as baixas de registro e o fechamento de estabelecimentos em São Paulo e defende a lei que torna essencial a atividade física.",
+   "quote": [
+    43,
+    44,
+    45
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O fechamento dos estabelecimentos tirou milhares de profissionais de educação física do mercado.",
+    "sentence": 47
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2020, 4 mil profissionais pediram baixa e 456 estabelecimentos fecharam, e em 2021 mais 2.797 e 566",
+     "plain": "Em 2020, 4 mil profissionais de educação física pediram baixa do registro e 456 estabelecimentos fecharam as portas. Em 2021, foram mais 2.797 pessoas físicas e 566 empresas."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Conselho Nacional de Saúde classifica a educação física como área da saúde, mas o governo chama os estabelecimentos de entretenimento",
+     "plain": "O profissional de educação física é da área da saúde por resolução do Conselho Nacional de Saúde. Não dá para entender que os órgãos de governo chamem os nossos estabelecimentos de locais de entretenimento. Isso é inadmissível."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      102,
+      103
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "as academias só reabriram depois dos protocolos sanitários feitos pelo conselho",
+     "plain": "As academias reabriram em vários Estados depois que fizemos os protocolos sanitários. Sem protocolo, nós não orientamos a abertura de nenhum estabelecimento."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência apresenta Valter Brigido, conhecido como Panche, e passa a palavra a ele por videoconferência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Critica as decisões de prefeitos e governadores na pandemia, relata o fechamento de academias e cobra política pública de prevenção.",
+   "quote": [
+    75,
+    76
+   ],
+   "covered": true,
+   "evidence": [
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As medidas tomadas na pandemia foram políticas e deixaram a prevenção de fora.",
+    "sentence": 66
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      65,
+      66
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o prefeito de Londrina disse que as ações eram para segurar o presidente, e não era só questão de saúde",
+     "plain": "Numa das reuniões pela reabertura das academias, o Prefeito de Londrina afirmou que aquelas medidas serviam para segurar o Presidente Jair Messias Bolsonaro. Ali eu entendi que a questão não era só de saúde."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      75,
+      76
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma senhora foi presa em Araraquara por caminhar numa praça, e estudos pedem exercício no mínimo três vezes por semana",
+     "plain": "Não podemos esquecer a senhora que caminhava numa praça em Araraquara e foi presa por estar cuidando da saúde. Vários estudos mostram que é preciso se exercitar no mínimo três vezes por semana para manter a imunidade alta."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      84,
+      85
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "perto de 30% das academias do Brasil fecharam no período, com impacto nas famílias dos donos",
+     "plain": "O Ailton deve ter essa informação melhor do que eu, mas nesse período fecharam perto de 30% das academias do Brasil. Vejam o impacto nas famílias dos donos e em quem ficou sem lugar para se exercitar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o Panche e passa a palavra a Gustavo Chaves Brandão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aponta o atraso motor das crianças sem educação física e propõe que o esporte chegue a 3% do orçamento público.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 52,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O esporte precisa de mais orçamento e de uma política que não mude a cada governo.",
+    "sentence": 52
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "crianças sem educação física na rede municipal tinham atraso motor médio de 2,9 anos",
+     "plain": "Um aluno meu pesquisou a idade motora de crianças sem educação física na rede pública municipal e achou um atraso médio de 2,9 anos em relação à idade delas. Imaginem o que a pandemia fez com isso."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      50,
+      51,
+      52
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o investimento no esporte deve chegar a 3% do orçamento federal, estadual ou municipal",
+     "plain": "Faço uma proposição e um desafio: que o investimento no esporte chegue a 3% do orçamento, no âmbito federal, estadual ou municipal. Já foi dito aqui que investir em esporte reduz gasto com saúde e segurança."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      56
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a política do esporte precisa ser enraizada, e não transitória nem um plano de governo",
+     "plain": "Política pública não pode ser transitória nem virar plano de governo. Tem de ser enraizada, para a população ter acesso democrático ao esporte."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Anuncia que vai propor uma lei tornando a atividade física essencial e pede aos pais que desliguem as telas dos filhos.",
+   "quote": [
+    67,
+    68,
+    69
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As telas tomaram o lugar da educação dos filhos e o esporte precisa entrar nesse lugar.",
+    "sentence": 67
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso uma lei que coloque a atividade física como essencial no País",
+     "plain": "Antes mesmo de o Nelson e o Gustavo falarem, eu já tinha anotado para a minha assessoria: vamos pensar numa lei que coloque a atividade física como essencial no País. E que nunca mais passemos por isso."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      67
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "muitos pais terceirizaram a educação dos filhos para as telas e os vídeos",
+     "plain": "Infelizmente muitos pais terceirizaram a educação dos filhos para as telas, para o smartphone, o tablet, o computador e os vídeos no Youtube."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não adianta reformar ginásio e piscina sem uma política pública para as crianças que não podem pagar",
+     "plain": "A minha filha faz natação porque eu posso pagar. E as milhares de crianças que não têm essa condição? Não adianta o gestor reformar o ginásio e a piscina sem criar junto uma política pública para quem não pode pagar."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que academias são saúde e não entretenimento e explica que a classificação econômica do setor levou ao fechamento na pandemia.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 143,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As academias e os profissionais de educação física são um setor de saúde, não de lazer.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      89,
+      90
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os profissionais e as academias estão na classificação de entretenimento e lazer, e por isso foram fechados",
+     "plain": "Foi uma pena o que fizeram conosco por causa da CNAE, a Classificação Nacional de Atividades Econômicas: profissionais e estabelecimentos estão na faixa de entretenimento e lazer. Por isso fomos fechados."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      145,
+      146,
+      147
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as academias salvam vidas e foram proibidas de trabalhar, com mais de 30 mil delas fechadas",
+     "plain": "Nós salvamos vidas, mas fomos proibidos de trabalhar nesta pandemia. Mais de 30 mil postos de saúde foram fechados, ou seja, mais de 30 mil academias fechadas."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      153,
+      154
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "foram criados 42 protocolos de biossegurança e nada aconteceu quando as academias voltaram",
+     "plain": "Criamos exatos 42 protocolos de biossegurança. E o que houve quando as academias reabriram? Nada, porque estava tudo pronto."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Conta a experiência de cardiologista com a baixa adesão à atividade física e critica o lockdown, a máscara e a vacina.",
+   "quote": [
+    59,
+    60,
+    61
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As restrições da pandemia afastaram as pessoas e não resolveram o problema.",
+    "sentence": 59
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      49,
+      50,
+      51
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "apenas 10% dos pacientes se mantêm na atividade física, e é preciso fazer algo a mais para motivar",
+     "plain": "De todo esse pessoal, apenas 10% nós conseguimos manter de verdade na atividade física. É sempre um risco. Por isso é preciso fazer algo a mais para envolver e motivar essas pessoas."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      59,
+      60,
+      61
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o lockdown e a máscara não resolveram absolutamente nada, nem a vacina, e a academia virou plano terciário",
+     "plain": "Tudo isso levou a essa insanidade de afastar as pessoas. O lockdown e a tal da máscara não resolveram absolutamente nada, e nem a vacina resolveu. E a academia, que gera saúde, acabou colocada num terceiro plano."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      62,
+      63
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem está bem preparado fisicamente resiste mais às adversidades, como Darwin observou nas espécies",
+     "plain": "Darwin viu que os animais bem preparados fisicamente eram os que mais resistiam às adversidades. Foi isso que aconteceu na nossa sociedade, uma questão biológica e social que deixa certos grupos no descaso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que o estímulo vem do exemplo dos atletas e do profissional de educação física bem formado nos primeiros anos da escola.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O estímulo à criança começa na escola, com profissional formado para isso.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o atleta de ponta é importante porque inspira as pessoas a praticar",
+     "plain": "Precisamos do Tiago Camilo, um atleta de ponta, como inspirador. O atleta que está lá na ponta é muito importante, porque ele inspira."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o profissional de educação física nos primeiros anos da escola é quem estimula de forma correta",
+     "plain": "Quem inspira na base é o profissional de educação física, nos primeiros anos da escola, estimulando do jeito certo. Não dá para ter aquele que joga uma bola e diz para a molecada se virar. Isso é perda de tempo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Alerta que o hábito citado pelo expositor, o cigarro, voltou a aumentar.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O hábito que a campanha havia reduzido voltou a crescer.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o hábito citado pelo expositor voltou a aumentar",
+     "plain": "O senhor sabe que, infelizmente, isso está aumentando novamente."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica que o consumo caiu quando a tributação aumentou.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A tributação muda o consumo de um hábito.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quando a tributação aumentou, o consumo caiu",
+     "plain": "Aumentou a tributação, e o consumo caiu."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Lembra a campanha brasileira contra a AIDS nos anos 90 e propõe que o país volte a ser exemplo na atividade física.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil já fez campanha pública de sucesso e pode repetir isso na atividade física.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a campanha brasileira contra a AIDS nos anos 90 virou exemplo seguido pelo resto do mundo",
+     "plain": "Falo da campanha e das ações sociais no enfrentamento à AIDS. O senhor lembra o sucesso e o exemplo que o Brasil deu ao mundo nos anos 90? Foi seguido pelo resto do mundo."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil é o único país com um profissional da área da saúde à frente da atividade física",
+     "plain": "Por que o Brasil não ensina ao mundo de novo, já que somos o único país em que um profissional da saúde está à frente da atividade física?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se Gustavo quer complementar ou se cede a palavra a Monica Marques.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apresenta o plano global de atividade física da Organização Mundial da Saúde e lista as barreiras de custo que travam o acesso.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Derrubar as barreiras de custo é o que permite ampliar o acesso à atividade física.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criar condições para o setor privado oferecer atividade física mais barata alcança mulheres, idosos, crianças e deficientes",
+     "plain": "Fazer a população inteira se mexer custa muito caro. Se o setor privado tiver condições de oferecer atividade física mais barata, pensando em mulheres, idosos, crianças e deficientes físicos, damos um grande passo."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o IPTU inviabiliza piscinas e campos nas capitais, e o ECAD do Brasil é o mais caro do mundo",
+     "plain": "Por causa do IPTU, é impossível colocar uma piscina semiolímpica ou um campo gramado em várias áreas das grandes capitais. E pagamos o ECAD, o direito autoral de música, mais caro do mundo: por mês o que lá fora se paga por ano."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "contar só com o poder público é difícil porque o governo troca a cada 4 anos, 5 anos ou 6 anos",
+     "plain": "Em 2018 eles concluíram que contar só com o poder público é muito difícil: os governos trocam a cada 4 anos, 5 anos ou 6 anos, e todo o trabalho de conscientização recomeça."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Gustavo Chaves Brandão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b021",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende o estímulo à criança desde a primeira infância e cita o Agita São Paulo como política que atravessa governos.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A criança precisa do profissional de educação física desde a primeira infância.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o profissional de educação física precisa estar na vida da criança desde a primeira infância",
+     "plain": "Uma questão importante que estudamos é incentivar a criança a ser ativa e a participar de programas esportivos. O profissional de educação física precisa estar na vida da criança desde a primeira infância."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem política enraizada tudo muda a cada governo, e o Agita São Paulo é um exemplo que funciona",
+     "plain": "Como a Monica disse, entra governo e sai governo: sem política enraizada, tudo muda. Um exemplo interessante é o Agita São Paulo, que estimula as pessoas a se movimentarem."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se Nelson Leme quer comentar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b023",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que a escola é o único lugar que alcança todas as crianças e pede mais aulas de educação física escolar.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A educação física escolar é a principal política pública a implantar no País.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a escola é o único lugar onde a política pública alcança todas as crianças",
+     "plain": "A escola é o único lugar onde a política pública alcança a criança sem precisar ir buscá-la. No meu Município, Rio Claro, há educação física escolar da creche até o 9º ano do ensino fundamental."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a principal política pública é a educação física escolar, com mais aulas e mais horas com as crianças",
+     "plain": "A principal política pública do País é incentivar a educação física escolar, aumentando o número de aulas e de horas com as crianças. Infelizmente a maioria dos governos não faz essa política."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Conta que criou com Nelson Leme o lema mais esporte, menos tela.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O caminho é trocar tempo de tela por tempo de esporte.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o lema criado na audiência é mais esporte, menos tela",
+     "plain": "Eu e o Nelson conversamos durante as apresentações e criamos até um lema: mais esporte, menos tela."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cita o livro sobre menos remédio e mais ação e o provérbio sobre ensinar a criança no caminho certo.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O que se ensina à criança fica com ela até a velhice, e na atividade física é igual.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem pensa, convive e se exercita mais precisa de menos remédio antidepressivo",
+     "plain": "Existe um livro do Lou Marinoff, se não me engano, sobre menos Prozac e mais ação. É de filosofia e diz que, se você pensar, se reunir e se exercitar um pouco mais, vai precisar de menos remédio antidepressivo."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a criança ensinada no caminho certo não se desvia dele, e na atividade física é igual",
+     "plain": "Salomão diz em Provérbios 22:6 que a criança ensinada no caminho certo não se desvia dele nem quando envelhece. Na atividade física não é diferente: é preciso ensinar costumes, posturas, valores e princípios."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Compromete-se a publicar a audiência nos meios do conselho do Paraná e coloca a entidade à disposição para políticas públicas.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O conselho vai divulgar a audiência e ajudar a construir políticas públicas de esporte.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o conselho do Paraná vai publicar a audiência e fica à disposição para construir políticas públicas",
+     "plain": "Vamos fazer o que o Deputado Diego Garcia pediu: publicar esta audiência em todos os canais do conselho do Paraná, destacando os pontos importantes. O conselho fica à disposição para ajudar a construir políticas públicas de esporte."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Nelson Leme.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que profissionais estão fechando as portas por falta de reconhecimento e conta que superou a COVID pela condição física.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O profissional de educação física é essencial e precisa ser reconhecido como tal.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "profissionais competentes estão fechando as portas por dívidas e pela falta de reconhecimento das autoridades",
+     "plain": "Esta audiência nos deixou felizes porque pudemos trazer a realidade dos profissionais. Hoje há profissionais competentes fechando as portas por dívidas, pela falta de compreensão das autoridades sobre a essencialidade da profissão."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a educação física escolar é o celeiro de toda atividade física, da infância à fase final da vida",
+     "plain": "A educação física escolar é a nossa grande meta, o celeiro de toda atividade física, da primeira idade até a fase adulta e a fase final da vida."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ele só superou a COVID por causa da própria condição física",
+     "plain": "Eu venho aqui hoje depois de uma COVID. Sou testemunha viva disso: só superei a doença por causa da minha condição física."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Monica Marques.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que a COVID foi uma sindemia somada à pandemia do sedentarismo e que um quarto dos brasileiros terá mais de 65 anos.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pandemia do sedentarismo continua e é maior do que a do vírus.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a COVID foi uma sindemia somada à pandemia do sedentarismo, que mata 70% da população mundial",
+     "plain": "A COVID foi considerada uma sindemia: o vírus somado a uma pandemia que já existia, a do sedentarismo, que mata 70% da população mundial. Essa pandemia continua, e o modelo mental usado até aqui não tem sido eficaz."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em breve 25% dos brasileiros terão mais de 65 anos, e a saúde vem de uma vida ativa inteira",
+     "plain": "A população está envelhecendo, e num futuro breve 25% dos brasileiros terão mais de 65 anos. O que constrói saúde é uma vida ativa, desde pequeno, passando pela maturidade, até a terceira idade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a equipe e os participantes e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 5,
+   "from_claim": "b004c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Ele retoma o dado dela sobre o Brasil ser o quinto país mais sedentário e acrescenta que o país também lidera em ansiedade."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 37,
+   "to_sentence": 14,
+   "from_claim": "b010c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Ele traz a medida do atraso motor para o que o ex-atleta descreveu nas visitas às escolas."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 89,
+   "to_sentence": 44,
+   "from_claim": "b012c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Os dois dizem que a classificação oficial do setor como entretenimento contradiz o reconhecimento do profissional como da área da saúde."
+  },
+  {
+   "from": "b011",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 116,
+   "from_claim": "b011c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Ao pedido de uma lei de essencialidade, a presidência responde que já anotou a ideia para a assessoria."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 84,
+   "to_sentence": 48,
+   "from_claim": "b008c3",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Um mede o fechamento em São Paulo, o outro estima o fechamento no país inteiro."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 66,
+   "to_sentence": 103,
+   "from_claim": "b008c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "O conselho conta que negociou protocolos com as autoridades. O dono de academia diz que nunca foi ouvido e que a decisão era política."
+  },
+  {
+   "from": "b013",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 59,
+   "to_sentence": 103,
+   "from_claim": "b013c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Para o conselho, o protocolo sanitário foi a condição da reabertura. Para a presidência, as restrições não resolveram nada."
+  },
+  {
+   "from": "b013",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 59,
+   "to_sentence": 65,
+   "from_claim": "b013c2",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "Os dois sustentam que as decisões da pandemia foram equivocadas e tiveram motivação política."
+  },
+  {
+   "from": "b028",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 145,
+   "from_claim": "b028c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Um diz que o setor foi proibido de trabalhar, o outro conta que os profissionais seguem fechando as portas por dívidas."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 61,
+   "to_sentence": 147,
+   "from_claim": "b013c2",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "A presidência cita o expositor para dizer que a academia é um centro de geração de saúde que foi colocado em último plano."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 72,
+   "from_claim": "b014c2",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "À pergunta sobre como envolver a população, responde que o estímulo vem do atleta que inspira e do professor que ensina direito na base."
+  },
+  {
+   "from": "b019",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 72,
+   "from_claim": "b019c1",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "Ela responde pelo custo: fazer todo mundo se mexer é caro, então é preciso baratear a oferta privada."
+  },
+  {
+   "from": "b021",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 72,
+   "from_claim": "b021c1",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "Ele responde pela idade: o envolvimento começa quando o profissional entra na vida da criança na primeira infância."
+  },
+  {
+   "from": "b023",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 72,
+   "from_claim": "b023c1",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "Ele responde pelo lugar: a escola é onde se alcança a criança sem precisar ir buscá-la."
+  },
+  {
+   "from": "b023",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 3,
+   "from_claim": "b023c1",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "Os dois conselhos convergem: o profissional precisa estar com a criança desde cedo, e é na escola que isso acontece."
+  },
+  {
+   "from": "b025",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 5,
+   "from_claim": "b025c2",
+   "to_claim": "b023c2",
+   "strength": "media",
+   "note": "A presidência fecha a ênfase na infância com o provérbio sobre o que se ensina à criança ficar para a vida."
+  },
+  {
+   "from": "b024",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 67,
+   "from_claim": "b024c1",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "O lema criado na sala vira a versão curta do apelo da presidência contra a terceirização da educação para as telas."
+  },
+  {
+   "from": "b016",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b016c1",
+   "to_claim": "b015c1",
+   "strength": "media",
+   "note": "Logo depois de a presidência dizer que o hábito voltou a crescer, ela lembra que o consumo tinha caído quando a tributação subiu."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 53,
+   "to_sentence": 56,
+   "from_claim": "b011c3",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Um diz que a política não pode ser transitória, o outro que obra sem política pública é dinheiro jogado fora."
+  },
+  {
+   "from": "b017",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 56,
+   "from_claim": "b017c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "Ele oferece a campanha contra a AIDS como exemplo do tipo de política duradoura que o conselho pediu."
+  },
+  {
+   "from": "b030",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 51,
+   "from_claim": "b030c1",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "Ela concorda que é preciso algo a mais e diz que o modelo mental usado até aqui não tem sido eficaz."
+  },
+  {
+   "from": "b011",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 66,
+   "from_claim": "b011c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "A presidência diz que foi vendo essas injustiças de perto que decidiu propor a lei de essencialidade."
+  },
+  {
+   "from": "b011",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 67,
+   "to_sentence": 12,
+   "from_claim": "b011c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Os dois tratam o aumento do tempo de tela como a raiz do problema e cobram os pais."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 145,
+   "to_sentence": 30,
+   "from_claim": "b012c2",
+   "to_claim": "b011c1",
+   "strength": "forte",
+   "note": "Ele reforça o pedido de uma lei de essencialidade contando que o setor salva vidas e foi proibido de trabalhar."
+  },
+  {
+   "from": "b023",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 12,
+   "from_claim": "b023c2",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "Um pede o professor bem formado na base, o outro pede mais aulas e mais horas de educação física escolar."
+  },
+  {
+   "from": "b021",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 12,
+   "from_claim": "b021c1",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "Os dois colocam o profissional de educação física no começo da vida escolar da criança."
+  },
+  {
+   "from": "b025",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 67,
+   "from_claim": "b025c2",
+   "to_claim": "b011c2",
+   "strength": "media",
+   "note": "Quem assume a condução retoma o apelo do proponente sobre as telas pelo lado do que se ensina à criança."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b004",
+    "b030"
+   ],
+   "claims": [
+    "b002c1",
+    "b004c2",
+    "b030c1"
+   ],
+   "note": "A consultora do setor de academias e o ex-atleta olímpico concordam que o sedentarismo no Brasil já é enorme e continua crescendo."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b008",
+    "b012"
+   ],
+   "claims": [
+    "b006c1",
+    "b008c3",
+    "b012c2"
+   ],
+   "note": "O conselho profissional, o dono de academia e a entidade das academias concordam que o fechamento quebrou o setor e tirou profissionais do mercado."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b006",
+    "b011",
+    "b012",
+    "b013",
+    "b028"
+   ],
+   "claims": [
+    "b006c2",
+    "b011c1",
+    "b012c1",
+    "b013c3",
+    "b028c1",
+    "b028c3"
+   ],
+   "note": "A presidência, o conselho profissional e a entidade das academias concordam que a atividade física é saúde e que os estabelecimentos são essenciais."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b010",
+    "b014",
+    "b021",
+    "b023",
+    "b025",
+    "b028"
+   ],
+   "claims": [
+    "b010c1",
+    "b014c2",
+    "b021c1",
+    "b023c1",
+    "b023c2",
+    "b025c2",
+    "b028c2"
+   ],
+   "note": "Conselhos, entidade das academias e a presidência concordam que a escola e a primeira infância são o lugar da política pública de atividade física."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b002",
+    "b004",
+    "b010",
+    "b011",
+    "b021",
+    "b026",
+    "b030"
+   ],
+   "claims": [
+    "b002c2",
+    "b004c3",
+    "b010c2",
+    "b010c3",
+    "b011c3",
+    "b021c2",
+    "b026c1",
+    "b030c2"
+   ],
+   "note": "Setor privado, conselhos e a presidência concordam que o esporte precisa de mais orçamento e de uma política que atravesse governos."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b004",
+    "b011",
+    "b024"
+   ],
+   "claims": [
+    "b004c1",
+    "b011c2",
+    "b024c1"
+   ],
+   "note": "O ex-atleta, a presidência e o conselho do Paraná concordam que o tempo de tela cresceu demais e precisa dar lugar ao esporte."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b013",
+   "sentence": 72,
+   "addressed_to": "setor_privado",
+   "answered_by": "b014",
+   "gist": "como envolver a população na prática da atividade física",
+   "plain": "Como chamar a população para praticar atividade física, sabendo de tudo o que foi dito aqui?",
+   "theme": "d6",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b006",
+   "sentence": 115,
+   "addressed_to": "parlamentar",
+   "answered_by": "b011",
+   "gist": "aprovar lei que torne essenciais os estabelecimentos de atividade física",
+   "plain": "O Congresso vai aprovar uma lei que torne essenciais os estabelecimentos de atividade física?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b002",
+   "sentence": 107,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "deduzir as despesas com atividade física no Imposto de Renda",
+   "plain": "As despesas com atividade física vão poder ser deduzidas no Imposto de Renda?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b010",
+   "sentence": 52,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "levar o esporte a 3% do orçamento público",
+   "plain": "O orçamento do esporte vai chegar a 3% na União, nos Estados e nos Municípios?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b012",
+   "sentence": 143,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "tirar o setor do grupo de entretenimento na reforma tributária",
+   "plain": "A reforma tributária vai deixar de tratar as academias como entretenimento e lazer?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 5,
+   "gist": "quinto país mais sedentário em 2018, com 47% inativos",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "80% dos adolescentes são sedentários hoje",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 14,
+   "gist": "2,8 dólares de retorno para cada dólar investido",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 71,
+   "gist": "50 bilhões de reais a mais até 2027 com envelhecimento",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 91,
+   "gist": "Espanha quebrou 800 academias e 12 mil empregos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 21,
+   "gist": "26,8% dos adolescentes param de praticar até os 15 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 22,
+   "gist": "360 mil profissionais e 37.500 estabelecimentos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 47,
+   "gist": "4 mil profissionais pediram baixa de registro em 2020",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 12,
+   "gist": "o uso das telas aumentou em mais de 52%",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 84,
+   "gist": "perto de 30% das academias do Brasil fecharam",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 37,
+   "gist": "atraso motor médio de 2,9 anos nas crianças",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b012",
+   "sentence": 45,
+   "gist": "300 dólares investidos retornam 341 dólares em 1 ano",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o diagnóstico e a proposta central: o sedentarismo cresceu com a pandemia e a educação física deveria ser tratada como política de saúde.",
+  "omitted": "Ficaram de fora a disputa sobre a tributação da atividade física e a divergência da sala sobre as medidas sanitárias da pandemia."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "As medidas da pandemia foram um erro não corrigido",
+   "statement_plain": "Fechar academias e afastar as pessoas foi um erro com motivação política, e o setor de atividade física paga essa conta até hoje.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c2",
+    "b013c2",
+    "b008c3",
+    "b012c2"
+   ],
+   "note": "Divide o próprio setor da atividade física: o dono de academia de Londrina e o deputado que assume a condução tratam as medidas como erro político, enquanto os conselhos preferem lembrar os protocolos que negociaram."
+  },
+  {
+   "id": "t2",
+   "title": "O caminho foi negociar protocolo com as autoridades",
+   "statement_plain": "A saída na pandemia foi construir protocolos sanitários com as autoridades, e é assim que se prova que a atividade física é área da saúde.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "contrario",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b012c3",
+    "b006c2",
+    "b012c1",
+    "b028c1"
+   ],
+   "note": "Junta o conselho de São Paulo e a entidade das academias, que são de papéis diferentes, contra a leitura de que as regras sanitárias foram inúteis."
+  },
+  {
+   "id": "t3",
+   "title": "Academia é saúde, não entretenimento",
+   "statement_plain": "Academias e profissionais de educação física devem ser tratados como setor de saúde, e não como lazer, porque é disso que depende a saúde da população.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b011c1",
+    "b013c3",
+    "b028c3",
+    "b017c2",
+    "b006c1",
+    "b012c2"
+   ],
+   "note": "Cruza a mesa, o conselho profissional e a entidade patronal das academias em torno da mesma ideia, cada um por um caminho."
+  },
+  {
+   "id": "t4",
+   "title": "A escola alcança a criança que a política não busca",
+   "statement_plain": "A educação física escolar, desde a creche, é a principal política pública possível, porque é o único lugar onde se alcança toda criança.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b023c1",
+    "b023c2",
+    "b021c1",
+    "b014c2",
+    "b010c1",
+    "b021c2"
+   ],
+   "note": "Reúne os dois conselhos regionais e a entidade das academias, que disputam espaço em outros pontos, na mesma aposta pela escola."
+  },
+  {
+   "id": "t5",
+   "title": "Baratear a atividade física faz o país se mexer",
+   "statement_plain": "Imposto e custo alto afastam as pessoas do exercício, e onde a atividade física é mais barata há menos gente parada.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b019c1",
+    "b019c2",
+    "b016c1",
+    "b010c2",
+    "b010c3"
+   ],
+   "note": "É a ideia do setor privado, mas o conselho do Paraná a sustenta pelo lado do orçamento público, o que tira a tese do campo de um setor só."
+  },
+  {
+   "id": "t6",
+   "title": "Menos tela e mais esporte para a infância",
+   "statement_plain": "O tempo de tela tomou a infância e precisa dar lugar ao esporte e ao que se ensina à criança desde cedo.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel",
+    "d4": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b011c2",
+    "b024c1",
+    "b025c2",
+    "b028c2",
+    "b004c2"
+   ],
+   "note": "Junta um ex-atleta, dois deputados na presidência e dois conselhos de Estados diferentes, que chegaram ao mesmo lema dentro da sala."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "CREFs",
+   "fala": "b002",
+   "sentence": 1,
+   "plain": "sigla dos conselhos regionais de educação física, que registram e fiscalizam os profissionais da área em cada Estado"
+  },
+  {
+   "term": "Global Action Plan on Physical Activity",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "plano de ação global da Organização Mundial da Saúde para promover atividade física e combater o sedentarismo"
+  },
+  {
+   "term": "doenças crônicas não transmissíveis",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "doenças que duram anos e não se pegam de outra pessoa, como diabetes, hipertensão e obesidade"
+  },
+  {
+   "term": "absenteísmo",
+   "fala": "b002",
+   "sentence": 16,
+   "plain": "falta ao trabalho, em geral por doença, que gera custo para a empresa e para o país"
+  },
+  {
+   "term": "osteopenia",
+   "fala": "b002",
+   "sentence": 49,
+   "plain": "perda de massa óssea menor que a da osteoporose, que deixa o osso mais fraco e sujeito a fraturas"
+  },
+  {
+   "term": "IVA",
+   "fala": "b002",
+   "sentence": 85,
+   "plain": "sigla de imposto sobre valor agregado, cobrado sobre o que é acrescentado em cada etapa até a venda"
+  },
+  {
+   "term": "VAT",
+   "fala": "b002",
+   "sentence": 85,
+   "plain": "nome em inglês do imposto sobre valor agregado, usado na maior parte dos países europeus"
+  },
+  {
+   "term": "IPI",
+   "fala": "b002",
+   "sentence": 99,
+   "plain": "sigla de Imposto sobre Produtos Industrializados, cobrado sobre o que sai da fábrica ou é importado"
+  },
+  {
+   "term": "lay-off",
+   "fala": "b006",
+   "sentence": 76,
+   "plain": "suspensão temporária do contrato de trabalho, sem demitir, para atravessar um período de crise"
+  },
+  {
+   "term": "idade motora",
+   "fala": "b010",
+   "sentence": 35,
+   "plain": "medida de quanto a criança domina os movimentos do corpo, comparada com a idade que ela tem"
+  },
+  {
+   "term": "presenteísmo",
+   "fala": "b012",
+   "sentence": 41,
+   "plain": "quando a pessoa vai trabalhar mas não consegue produzir direito, em geral por causa de saúde"
+  },
+  {
+   "term": "CNAE",
+   "fala": "b012",
+   "sentence": 89,
+   "plain": "sigla da Classificação Nacional de Atividades Econômicas, o código que diz de que ramo é cada negócio"
+  },
+  {
+   "term": "ECAD",
+   "fala": "b019",
+   "sentence": 12,
+   "plain": "escritório que cobra e distribui os direitos autorais da música tocada em locais abertos ao público"
+  },
+  {
+   "term": "sindemia",
+   "fala": "b030",
+   "sentence": 0,
+   "plain": "quando duas epidemias se somam e uma agrava a outra, como o vírus e o sedentarismo"
+  }
+ ]
+}

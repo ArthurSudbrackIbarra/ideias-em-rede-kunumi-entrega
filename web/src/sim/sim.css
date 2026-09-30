@@ -1,0 +1,899 @@
+/*
+  Simulador de Audiência Pública, redesenho "direção B, tribuna" (2026-09-14, rodada de 2026-09-15).
+  Dois materiais: chassi de tinta para tudo o que é controle, papel só para o que se lê.
+  Tokens de handoff/tokens.css. Uma família só, Lexend, autohospedada (decisão do autor em 2026-09-15): onde o
+  pacote pedia uma serifa (nome na placa, título de documento, rótulo gravado), é Lexend 500 ou 600.
+*/
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('./assets/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: block;
+}
+
+/* ============================================================ tokens */
+.sim {
+  --chassis-hi: #1c1813;
+  --chassis-lo: #121009;
+  --panel: #221e19;
+  --panel-raised: #2b2620;
+  --panel-sunken: #1b1814;
+  --hair: #3a332b;
+  --hair-soft: #2b2620;
+  --key: #cfc7b6;
+  --key-hover: #ddd6c6;
+
+  --bone: #f6f1e7;
+  --bone-2: #e8e2d6;
+  --mute: #a89d8f;
+  --mute-2: #8d8177;
+  --engrave: #7d736a;
+
+  --paper: #faf6ee;
+  --paper-2: #efe7d8;
+  --paper-player: #fffcf6;
+  --paper-reaction: #f6efe2;
+  --ink: #2b2621;
+  --ink-hover: #3d3832;
+  --ink-soft: #6a6157;
+  --ink-faint: #8a8077;
+  --line: #e4dcce;
+  --line-2: #d8cfc0;
+
+  --scrim-top: rgba(12, 10, 8, 0.88);
+  --scrim-panel: rgba(12, 10, 8, 0.55);
+  --scrim-floor: rgba(12, 10, 8, 0.5);
+  --scrim-original: rgba(12, 10, 8, 0.35);
+
+  --role-mesa: #8d8177;
+  --role-parlamentar: #3a6ea5;
+  --role-governo: #b5533c;
+  --role-sociedade: #4f9d69;
+  --role-privado: #c9a227;
+  --role-convidado: #9a9a9a;
+
+  --rel-apoia: #2a5f3d;
+  --rel-responde: #3f5f80;
+  --rel-contradiz: #8b2e22;
+  --rel-consenso: #8a6a15;
+  --rel-apoia-dark: #9fd8b1;
+  --rel-responde-dark: #a9c6e0;
+  --rel-contradiz-dark: #f2a797;
+  --rel-consenso-dark: #f0d47a;
+
+  --verd-ok-bg: #eaf3ec; --verd-ok-ink: #2a5f3d;
+  --verd-bad-bg: #f7e9e6; --verd-bad-ink: #8b2e22;
+  --verd-sharp-bg: #f6eed6; --verd-sharp-ink: #7a6520;
+  --notice-bg: #241a12; --notice-line: #4a3520; --notice-ink: #e0c07a;
+
+  --font-ui: 'Lexend', system-ui, sans-serif;
+  /* o pacote previa uma segunda família aqui; o autor preferiu uma só, então documento é Lexend com peso */
+  --font-doc: 'Lexend', system-ui, sans-serif;
+
+  --size-speech: 25px; --lh-speech: 1.38;
+  --size-speech-long: 21px; --lh-speech-long: 1.42;
+  --size-speech-xlong: 19px;
+  --size-body: 15px; --lh-body: 1.5;
+  --size-engrave: 12px; --track-engrave: 0.08em;
+
+  --r-balloon: 12px; --r-panel: 10px; --r-sheet: 14px; --r-control: 8px; --r-card: 8px; --r-tag: 4px;
+  --h-control: 40px; --h-action: 44px; --h-rail: 116px; --h-scrim: 112px;
+
+  --lift-balloon: drop-shadow(0 22px 48px rgba(0, 0, 0, 0.6));
+  --lift-panel: 0 22px 50px rgba(0, 0, 0, 0.55);
+  --lift-sheet: 0 -22px 60px rgba(0, 0, 0, 0.55);
+  --lift-rail: 0 -18px 40px rgba(0, 0, 0, 0.45);
+  --lift-card: 0 2px 0 var(--line);
+
+  --t-fast: 120ms; --t-base: 200ms; --t-slow: 320ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  font-family: var(--font-ui);
+  font-size: var(--size-body);
+  line-height: var(--lh-body);
+  color: var(--bone-2);
+  background: var(--chassis-lo);
+}
+@media (prefers-reduced-motion: reduce) {
+  .sim { --t-fast: 0ms; --t-base: 0ms; --t-slow: 0ms; }
+}
+
+/* ============================================================ base */
+body.sim-body { overflow: hidden; }
+.sim-canvas { position: absolute; inset: 0; }
+.sim-canvas canvas { display: block; cursor: grab; }
+.sim-canvas canvas:active { cursor: grabbing; }
+body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
+@keyframes sim-shake {
+  0% { transform: translate(0, 0); }
+  12.5% { transform: translate(-3px, 0); }
+  37.5% { transform: translate(3px, 0); }
+  62.5% { transform: translate(-3px, 0); }
+  87.5% { transform: translate(3px, 0); }
+  100% { transform: translate(0, 0); }
+}
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes fade-up-center { from { opacity: 0; transform: translate(-50%, 6px); } to { opacity: 1; transform: translate(-50%, 0); } }
+@keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes slide-in { from { transform: translateX(12px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes delta-in { 0% { opacity: 0; transform: translateY(4px); } 12% { opacity: 1; transform: none; } 80% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes tw-blink { 50% { opacity: 0; } }
+
+.sim button, .sim-home button, .sim-catalog button {
+  font: inherit; color: inherit; border: 0; background: none; padding: 0; cursor: pointer; text-align: inherit;
+}
+.sim button:focus-visible, .sim a:focus-visible, .sim-home a:focus-visible, .sim-catalog button:focus-visible, .sim-catalog a:focus-visible {
+  outline: none; box-shadow: inset 0 0 0 2px var(--role-mesa);
+}
+.sim h1, .sim h2, .sim h3 { margin: 0; }
+.sim .icon { display: inline-block; vertical-align: -0.12em; flex: none; }
+.sim i.dot, .sim .dots i, .sim .who i, .sim .roles i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; vertical-align: middle; flex: none; }
+.sim .spacer { flex: 1 1 auto; min-width: 0; }
+.sim .ref { font: 500 12px/1.2 var(--font-ui); font-variant-numeric: tabular-nums; letter-spacing: 0.02em; white-space: nowrap; }
+.sim .tabular, .sim .num { font-variant-numeric: tabular-nums; }
+/* o rótulo gravado, em versalete: a única caixa alta do sistema, e é rótulo de máquina, não texto de jogo */
+.sim .engrave { font: 500 var(--size-engrave)/1.3 var(--font-doc); letter-spacing: var(--track-engrave); text-transform: uppercase; color: var(--engrave); }
+/* o rótulo de campo no papel */
+.sim .label { font: 500 12px/1.3 var(--font-ui); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-faint); }
+.sim kbd { font: 400 12px/1 var(--font-ui); font-variant-numeric: tabular-nums; color: var(--mute-2); }
+
+/* balão de explicação, para controles do chassi que precisam de uma frase (o modo guiado) */
+.sim [data-tip] { position: relative; }
+.sim [data-tip]::after {
+  content: attr(data-tip); position: absolute; right: 0; bottom: calc(100% + 10px); z-index: 40; width: max-content; max-width: 320px;
+  padding: 10px 12px; border-radius: 8px; background: var(--panel-raised); box-shadow: inset 0 0 0 1px var(--hair), 0 14px 30px rgba(0, 0, 0, 0.5);
+  font: 400 13px/1.45 var(--font-ui); letter-spacing: 0; text-transform: none; text-align: left; color: var(--bone-2); white-space: normal;
+  opacity: 0; visibility: hidden; transform: translateY(4px); transition: opacity var(--t-fast) var(--ease), transform var(--t-fast) var(--ease), visibility var(--t-fast); pointer-events: none;
+}
+.sim [data-tip]:hover::after, .sim [data-tip]:focus-visible::after, .sim [data-tip]:focus-within::after { opacity: 1; visibility: visible; transform: none; }
+.sim [data-tip].on-paper::after { background: var(--ink); box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3); color: var(--paper); }
+
+/* barras de rolagem próprias */
+.sim-scroll, .sim .sim-scroll { scrollbar-width: thin; scrollbar-color: rgba(43, 38, 33, 0.35) transparent; }
+.sim-scroll::-webkit-scrollbar, .sim .sim-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.sim-scroll::-webkit-scrollbar-thumb, .sim .sim-scroll::-webkit-scrollbar-thumb { background: rgba(43, 38, 33, 0.35); border-radius: 8px; }
+.sim-scroll::-webkit-scrollbar-track, .sim .sim-scroll::-webkit-scrollbar-track { background: transparent; }
+.sim .dark-scroll { scrollbar-color: rgba(232, 226, 214, 0.25) transparent; }
+.sim .dark-scroll::-webkit-scrollbar-thumb { background: rgba(232, 226, 214, 0.25); }
+
+/* controle do chassi: 40 de altura, raio 8, fio de 1px, ícone à esquerda, tecla dentro */
+.sim .ctl {
+  height: var(--h-control); display: inline-flex; align-items: center; gap: 8px; padding: 0 14px; border-radius: var(--r-control);
+  background: var(--panel); box-shadow: inset 0 0 0 1px var(--hair); color: var(--bone-2); font: 400 15px/1 var(--font-ui);
+  white-space: nowrap; flex: none; transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease);
+}
+.sim .ctl .icon { color: #c9b899; }
+.sim .ctl kbd { margin-left: 2px; }
+.sim .ctl:hover:not(:disabled):not(.on):not([aria-pressed='true']) { background: var(--panel-raised); }
+.sim .ctl.raised { background: var(--panel-raised); box-shadow: inset 0 0 0 1px #4d453a; font-weight: 500; color: #f2ece0; padding: 0 15px; }
+.sim .ctl.raised:hover:not(:disabled) { background: #332d26; }
+.sim .ctl.on, .sim .ctl[aria-pressed='true'] { background: var(--key); color: var(--chassis-lo); font-weight: 500; box-shadow: none; }
+.sim .ctl.on:hover, .sim .ctl[aria-pressed='true']:hover { background: var(--key-hover); }
+.sim .ctl.on kbd, .sim .ctl[aria-pressed='true'] kbd, .sim .ctl.on .icon, .sim .ctl[aria-pressed='true'] .icon { color: #5b5349; }
+.sim .ctl:disabled { background: var(--panel-sunken); box-shadow: inset 0 0 0 1px var(--hair-soft); color: var(--engrave); cursor: default; }
+.sim .ctl:disabled .icon, .sim .ctl:disabled kbd, .sim .ctl:disabled .pct { color: #5f574e; }
+.sim .ctl:focus-visible { box-shadow: inset 0 0 0 2px var(--role-mesa); }
+
+/* botão no papel: 44 de altura */
+.sim .btn {
+  height: var(--h-action); display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 22px; border-radius: var(--r-control);
+  font: 500 16px/1 var(--font-ui); white-space: nowrap; text-decoration: none; transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease);
+}
+.sim .btn.primary { background: var(--ink); color: var(--bone); padding: 0 24px; }
+.sim .btn.primary:hover:not(:disabled) { background: var(--ink-hover); }
+.sim .btn.primary:disabled { background: #cdc3b2; color: var(--ink-faint); cursor: default; }
+.sim .btn.secondary { box-shadow: inset 0 0 0 1.5px var(--ink); color: var(--ink); }
+.sim .btn.secondary:hover { background: var(--paper-2); }
+.sim .btn.soft { background: var(--paper-2); color: var(--ink); }
+.sim .btn.soft:hover { background: #e6dcc9; }
+.sim .btn:focus-visible { box-shadow: inset 0 0 0 2px var(--role-mesa); }
+
+/* marcas de relação: no papel a cor cheia, sobre o chassi a variante clara */
+.sim .rel-tag { display: inline-flex; align-items: center; gap: 7px; font: 500 14px/1.3 var(--font-ui); }
+.sim .rel-tag .icon { vertical-align: 0; }
+.sim .rel-apoia, .sim .rel-defende, .sim .rel-concorda { color: var(--rel-apoia); }
+.sim .rel-responde, .sim .rel-cobra, .sim .rel-respondida, .sim .rel-cobranca { color: var(--rel-responde); }
+.sim .rel-contradiz { color: var(--rel-contradiz); }
+.sim .rel-consenso { color: var(--rel-consenso); }
+.sim .rel-tag.plate { padding: 4px 10px; border-radius: 5px; font-size: 13px; gap: 8px; white-space: nowrap; }
+.sim .rel-tag.plate.rel-apoia, .sim .rel-tag.plate.rel-defende, .sim .rel-tag.plate.rel-concorda { background: #1e3326; color: var(--rel-apoia-dark); }
+.sim .rel-tag.plate.rel-contradiz { background: #3a1f1a; color: var(--rel-contradiz-dark); }
+.sim .rel-tag.plate.rel-responde, .sim .rel-tag.plate.rel-cobra, .sim .rel-tag.plate.rel-respondida, .sim .rel-tag.plate.rel-cobranca { background: #1f2a36; color: var(--rel-responde-dark); }
+.sim .rel-tag.plate.rel-consenso { background: #3a3017; color: var(--rel-consenso-dark); }
+.sim .on-chassis .rel-apoia, .sim .on-chassis .rel-defende, .sim .on-chassis .rel-concorda { color: var(--rel-apoia-dark); }
+.sim .on-chassis .rel-responde, .sim .on-chassis .rel-cobra, .sim .on-chassis .rel-respondida, .sim .on-chassis .rel-cobranca { color: var(--rel-responde-dark); }
+.sim .on-chassis .rel-contradiz { color: var(--rel-contradiz-dark); }
+.sim .on-chassis .rel-consenso { color: var(--rel-consenso-dark); }
+
+/* véu sobre a cena: a vez de falar, os painéis de consulta, o texto original */
+.sim-scrim { position: absolute; inset: 0; z-index: 7; pointer-events: none; background: transparent; transition: background var(--t-base) var(--ease); }
+.sim-scrim.floor { background: var(--scrim-floor); }
+.sim-scrim.panel { background: var(--scrim-panel); }
+.sim-scrim.original { background: var(--scrim-original); }
+
+/* ============================================================ topo da sessão: um véu com informação */
+.sim-top { position: absolute; left: 0; right: 0; top: 0; height: var(--h-scrim); z-index: 5; pointer-events: none; background: linear-gradient(var(--scrim-top), transparent); }
+.sim-top .row { display: flex; align-items: flex-start; gap: 24px; padding: 16px 24px 0; }
+.sim-top .left { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.sim-top .engrave { color: #9b9085; }
+.sim-top .title { font-size: 15px; color: #e2dbcd; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-top .right { width: 300px; flex: none; text-align: right; display: flex; flex-direction: column; gap: 3px; }
+.sim-top .tese { font: 500 15px/1.25 var(--font-ui); color: #f2ece0; }
+.sim-top .track { position: absolute; left: 24px; right: 24px; top: 74px; height: 5px; border-radius: 3px; background: rgba(12, 10, 8, 0.55); }
+.sim-top .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; background: var(--key); transition: width 0.4s var(--ease); }
+.sim-top .mark { position: absolute; top: -3px; width: 11px; height: 11px; margin-left: -5px; border-radius: 50%; background: var(--mute-2); box-shadow: 0 0 0 2px rgba(12, 10, 8, 0.7); }
+.sim-top .mark.now { background: var(--role-privado); }
+.sim-top .mark.past { background: var(--key); }
+.sim[data-desk='1'] .sim-top .engrave { color: #d3c7b3; }
+.sim[data-desk='1'] .sim-top .title { color: #f0e9dc; }
+
+/* ============================================================ balão: placa de tinta + corpo de papel */
+.sim-balloon {
+  position: absolute; z-index: 10; width: 520px; max-width: calc(100vw - 48px); max-height: calc(100vh - 260px); overflow: visible;
+  display: flex; flex-direction: column; color: var(--ink); filter: var(--lift-balloon);
+  --tail: var(--paper);
+  transition: left var(--t-base) var(--ease), top var(--t-base) var(--ease); will-change: left, top;
+  animation: fade-up var(--t-base) var(--ease);
+}
+.sim-balloon.kind-player { width: 660px; --tail: var(--paper-player); }
+.sim-balloon.kind-reaction { --tail: var(--paper-reaction); }
+.sim-balloon.original { --tail: var(--paper-2); }
+.sim-balloon .tail { position: absolute; left: 60px; bottom: -14px; width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 14px solid var(--tail); }
+.sim-balloon[data-dock='left'] .tail, .sim-balloon[data-dock='right'] .tail { top: 50%; bottom: auto; margin-top: -7px; }
+.sim-balloon[data-dock='top'] .tail, .sim-balloon[data-dock='self'] .tail { display: none; }
+
+.sim-balloon .plate {
+  /* quebra em duas linhas quando o nome é longo: o lado do modo guiado e a referência não cabem cortados */
+  flex: none; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 11px; min-width: 0; padding: 12px 20px; border-radius: var(--r-balloon) var(--r-balloon) 0 0;
+  background: linear-gradient(#26221c, #1b1814); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07); color: var(--bone);
+}
+.sim-balloon .plate .dot { width: 10px; height: 10px; }
+.sim-balloon .plate .name { font: 600 18px/1.2 var(--font-doc); color: var(--bone); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; max-width: 62%; }
+.sim-balloon.kind-player .plate .name { font-size: 17px; }
+.sim-balloon .plate .byline { font-size: 14px; color: var(--mute); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 1 1 0; }
+.sim-balloon .plate .spacer { flex: 0 1 12px; }
+.sim-balloon .plate .ref { color: var(--mute-2); flex: none; }
+.sim-balloon .plate .tag { flex: none; padding: 3px 8px; border-radius: var(--r-tag); background: #3f3830; font: 500 11px/1.3 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; color: #e0d6c2; }
+.sim-balloon .plate .side { flex: none; font: 500 12px/1.3 var(--font-ui); padding: 3px 8px; border-radius: var(--r-tag); background: #3f3830; color: var(--bone-2); }
+.sim-balloon .plate .side.s-aliada, .sim-balloon .plate .side.s-evidencia { color: var(--rel-apoia-dark); }
+.sim-balloon .plate .side.s-adversaria, .sim-balloon .plate .side.s-contraevidencia { color: var(--rel-contradiz-dark); }
+
+.sim-balloon .body { display: flex; flex-direction: column; min-height: 0; padding: 18px 20px 14px; border-radius: 0 0 var(--r-balloon) var(--r-balloon); background: var(--paper); }
+.sim-balloon.kind-reaction .body { background: var(--paper-reaction); padding-top: 16px; }
+.sim-balloon.kind-player .body { background: var(--paper-player); padding: 20px 22px 16px; }
+.sim-balloon.original .body { background: var(--paper-2); }
+.sim-balloon .orgplain { flex: none; font: 400 13px/1.4 var(--font-ui); color: var(--ink-soft); }
+.sim-balloon .body .rel-tag.body { flex: none; }
+
+.sim-balloon .fala {
+  margin: 0; padding: 14px 0 18px; min-height: 0; flex: 1 1 auto; overflow-y: auto; overflow-wrap: anywhere;
+  font: 400 var(--size-speech)/var(--lh-speech) var(--font-ui); color: var(--ink); text-wrap: pretty;
+}
+.sim-balloon .fala.long { font-size: var(--size-speech-long); line-height: var(--lh-speech-long); }
+.sim-balloon .fala.verylong { font-size: var(--size-speech-xlong); }
+.sim-balloon.kind-player .fala { padding: 0; font-weight: 500; line-height: 1.4; color: var(--ink); }
+.sim-balloon.kind-player.rel-apoia .fala { color: var(--rel-apoia); }
+.sim-balloon.kind-player.rel-contradiz .fala { color: var(--rel-contradiz); }
+.sim-balloon.kind-player.rel-cobra .fala { color: var(--rel-responde); }
+.sim-balloon.kind-player .fala.long { font-size: 24px; }
+.sim-balloon.kind-player .fala.verylong { font-size: 21px; }
+.sim-balloon .fala .tw-cursor { display: inline-block; width: 0.5em; height: 1em; margin-left: 2px; vertical-align: -0.12em; background: currentColor; animation: tw-blink 0.9s steps(1) infinite; }
+.sim-balloon .gl { border-bottom: 2px dotted #b3a894; cursor: help; outline: none; }
+.sim-balloon .gl:focus-visible { box-shadow: inset 0 0 0 2px var(--ink); border-radius: 2px; }
+/* o balão do glossário mora fora da área que rola (senão ele é cortado pela fala) e acima de tudo no balão */
+.sim-balloon .gl-tip {
+  position: absolute; z-index: 40; width: min(320px, 70vw); padding: 10px 12px; border-radius: 8px; transform: translate(-50%, -100%);
+  background: var(--ink); color: var(--paper); font: 400 13px/1.45 var(--font-ui); text-align: left; pointer-events: none;
+  animation: fade-up var(--t-fast) var(--ease);
+}
+.sim-balloon .gl-tip.below { transform: translate(-50%, 0); }
+
+.sim-balloon .orig { display: flex; flex-direction: column; min-height: 0; }
+.sim-balloon .orig .fala { padding: 2px 0 18px; font-size: 21px; line-height: 1.45; cursor: pointer; }
+.sim-balloon .orig blockquote { margin: 0 0 10px; padding: 0; font: 400 19px/1.45 var(--font-ui); color: var(--ink); }
+.sim-balloon .orig blockquote .who { display: block; font: 500 13px/1.4 var(--font-ui); color: var(--ink-soft); }
+.sim-balloon .orig blockquote .ref { display: block; margin-top: 2px; color: var(--ink-faint); }
+.sim-balloon .pages { flex: none; display: flex; align-items: center; gap: 6px; padding-bottom: 14px; }
+.sim-balloon .pages i { display: block; width: 26px; height: 3px; border-radius: 2px; background: #cfc3ae; }
+.sim-balloon .pages i.on { background: var(--ink); }
+.sim-balloon .pages i.past { background: var(--ink-soft); }
+.sim-balloon .pages .n { font-size: 12px; color: var(--ink-faint); margin-left: 4px; white-space: nowrap; }
+
+.sim-balloon .fonte {
+  flex: 0 1 auto; min-height: 0; max-height: 168px; overflow-y: auto; margin-top: 18px; padding-top: 14px;
+  border-top: 1px dotted var(--line-2); display: flex; flex-direction: column; gap: 6px;
+}
+.sim-balloon .fonte .src { font: 400 14px/1.5 var(--font-ui); color: #3d3832; }
+.sim-balloon .fonte .src b { font-weight: 500; }
+.sim-balloon .fonte .src .ref { color: var(--ink-faint); margin-left: 4px; }
+
+.sim-balloon .bf { flex: none; display: flex; align-items: center; gap: 18px; margin-top: 14px; padding-top: 13px; border-top: 1px solid var(--line); }
+.sim-balloon.original .bf { border-top-color: #ddd2bf; }
+.sim-balloon .bf .link { display: inline-flex; align-items: baseline; gap: 6px; font: 400 14px/1.3 var(--font-ui); color: var(--ink-soft); border-bottom: 1px dotted #a89d8f; white-space: nowrap; }
+.sim-balloon .bf .link:hover { color: var(--ink); border-bottom-style: solid; }
+.sim-balloon .bf .link kbd { color: var(--ink-faint); }
+.sim-balloon .bf .orig-label { font: 500 12px/1.3 var(--font-ui); color: var(--ink-faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sim-balloon .bf .note-btn { display: inline-flex; align-items: center; gap: 6px; font: 400 14px/1.3 var(--font-ui); white-space: nowrap; }
+.sim-balloon .bf .note-btn:hover:not(:disabled) { text-decoration: underline dotted; text-underline-offset: 3px; }
+.sim-balloon .bf .note-btn:disabled { cursor: default; }
+.sim-balloon .bf .note-btn kbd { color: var(--ink-faint); }
+.sim-balloon .bf .continue, .sim-relcard .continue {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 7px; background: var(--ink); color: var(--paper);
+  font: 500 15px/1.2 var(--font-ui); white-space: nowrap; transition: background var(--t-fast) var(--ease);
+}
+.sim-balloon .bf .continue:hover { background: var(--ink-hover); }
+.sim-balloon.kind-player .bf .continue { padding: 9px 18px; }
+.sim-balloon .bf .back { background: #dcd0ba; color: var(--ink); }
+.sim-balloon .bf .back:hover { background: #cfc3ae; }
+.sim-balloon .applause { flex: none; margin-top: 8px; font: 500 12px/1.3 var(--font-ui); letter-spacing: 0.02em; color: var(--ink-soft); }
+
+/* ato da mesa e linha de sistema: só a placa */
+.sim-balloon.kind-mesa, .sim-balloon.kind-system { width: 560px; filter: none; }
+.sim-balloon .plate.solo { flex-wrap: wrap; gap: 14px; padding: 14px 22px; border-radius: var(--r-panel); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55), inset 0 0 0 1px #4a4239; }
+.sim-balloon .plate.solo .engrave { color: var(--mute-2); flex: none; }
+.sim-balloon .plate.solo .fala { flex: 1 1 200px; padding: 0; font: italic 400 16px/1.45 var(--font-ui); color: #f2ece0; }
+.sim-balloon .plate.solo .bf { flex-basis: 100%; margin-top: 0; padding-top: 10px; border-top: 1px solid var(--hair-soft); color: var(--mute-2); }
+.sim-balloon .bf .continue, .sim-balloon .bf .back { margin-left: auto; }
+.sim-balloon .bf .back + .continue { margin-left: 0; }
+.sim-balloon .plate.solo .bf .continue { background: var(--panel-raised); color: var(--bone); box-shadow: inset 0 0 0 1px #4d453a; }
+.sim-balloon .plate.solo .bf .continue:hover { background: #332d26; }
+
+/* veredito, dentro do balão da cadeira vaga: o antes e depois */
+.sim-balloon .verdict {
+  flex: none; margin-top: 16px; padding: 16px 18px; border-radius: 9px; background: var(--v-bg); color: var(--v-ink);
+  --v-bg: var(--paper-2); --v-ink: var(--ink-soft); --v-soft: var(--ink-faint); --v-old: #a89d8f; --v-track: #ded3bf; --v-mid: #b8ab97; --v-text: #4a443d;
+  animation: fade-up var(--t-base) var(--ease);
+}
+.sim-balloon .verdict.v-coerente { --v-bg: var(--verd-ok-bg); --v-ink: var(--verd-ok-ink); --v-soft: #4a6b55; --v-old: #7d938a; --v-track: #d3e2d7; --v-mid: #9dbfa9; --v-text: #3d4f43; }
+.sim-balloon .verdict.v-contradicao, .sim-balloon .verdict.v-par_invalido, .sim-balloon .verdict.v-repetida, .sim-balloon .verdict.v-ja_respondida {
+  --v-bg: var(--verd-bad-bg); --v-ink: var(--verd-bad-ink); --v-soft: #8a5a52; --v-old: #a98b85; --v-track: #e7d2ce; --v-mid: #c08b82; --v-text: #4a3733;
+}
+.sim-balloon .verdict.v-certeiro { --v-bg: var(--verd-sharp-bg); --v-ink: var(--verd-sharp-ink); --v-soft: #8a7a4a; --v-old: #a89a75; --v-track: #e8dcb8; --v-mid: #c9b878; --v-text: #4a4020; }
+.sim-balloon .verdict .top { display: flex; align-items: center; gap: 20px; }
+.sim-balloon .verdict .kind { display: inline-flex; align-items: center; gap: 9px; font: 600 17px/1.3 var(--font-ui); }
+.sim-balloon .verdict .change { margin-left: auto; display: inline-flex; align-items: center; gap: 10px; }
+.sim-balloon .verdict .change .m { font-size: 13px; color: var(--v-soft); }
+.sim-balloon .verdict .nums { display: inline-flex; align-items: center; gap: 8px; font: 500 20px/1 var(--font-ui); font-variant-numeric: tabular-nums; }
+.sim-balloon .verdict .nums .old { color: var(--v-old); }
+.sim-balloon .verdict .badge { padding: 3px 8px; border-radius: 5px; background: var(--v-ink); color: var(--v-bg); font: 500 13px/1.3 var(--font-ui); font-variant-numeric: tabular-nums; }
+.sim-balloon .verdict .bar { position: relative; margin-top: 12px; height: 5px; border-radius: 3px; background: var(--v-track); overflow: hidden; }
+.sim-balloon .verdict .bar i { position: absolute; top: 0; bottom: 0; border-radius: 3px; }
+.sim-balloon .verdict .bar .base { left: 0; background: var(--v-mid); }
+.sim-balloon .verdict .bar .step { background: var(--v-ink); border-radius: 0 3px 3px 0; transform-origin: left; animation: grow var(--t-slow) var(--ease) 200ms both; }
+.sim-balloon .verdict .why { margin: 12px 0 0; font: 400 15px/1.5 var(--font-ui); color: var(--v-text); }
+
+/* ============================================================ cartão de relação, encostado na bancada */
+.sim-relcard {
+  position: absolute; left: 50%; bottom: 158px; z-index: 12; transform: translateX(-50%); width: 640px; max-width: calc(100vw - 48px);
+  padding: 16px 22px; border-radius: var(--r-panel); background: linear-gradient(#221e19, #181511); color: var(--bone-2);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.6), inset 0 0 0 1px #4a4239; animation: fade-up-center var(--t-base) var(--ease); pointer-events: none;
+}
+.sim-relcard .row { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.sim-relcard .who { display: inline-flex; align-items: center; gap: 8px; font: 500 15px/1.3 var(--font-ui); color: #f2ece0; }
+.sim-relcard .who i { width: 9px; height: 9px; }
+.sim-relcard p { margin: 10px 0 0; text-align: center; font: 400 15px/1.5 var(--font-ui); color: #b3a898; }
+.sim-relcard .refs { margin-top: 10px; display: flex; justify-content: center; align-items: center; gap: 12px; color: var(--engrave); }
+.sim-relcard .continue { pointer-events: auto; padding: 6px 14px; background: var(--panel-raised); color: var(--bone); box-shadow: inset 0 0 0 1px #4d453a; font-size: 14px; }
+.sim-relcard .continue:hover { background: #332d26; }
+
+/* ============================================================ a bancada */
+.sim-rail {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 8; height: var(--h-rail); display: flex; align-items: stretch;
+  background: linear-gradient(var(--chassis-hi), var(--chassis-lo)); border-top: 1px solid var(--hair); box-shadow: var(--lift-rail); color: var(--bone-2);
+}
+.sim-rail .meters { flex: none; display: flex; align-items: center; gap: 26px; padding: 0 24px; border-right: 1px solid var(--hair-soft); }
+.sim-rail .meter { position: relative; }
+.sim-rail .meter .name { display: block; font-size: 13px; color: #9b9085; }
+.sim-rail .meter .value { display: flex; align-items: baseline; font: 500 30px/1.1 var(--font-ui); font-variant-numeric: tabular-nums; color: var(--bone); }
+.sim-rail .meter .value small { font: 400 17px/1 var(--font-ui); color: var(--mute-2); }
+.sim-rail .meter .bar { display: block; margin-top: 4px; width: 78px; height: 3px; border-radius: 2px; background: #0e0c0a; overflow: hidden; }
+.sim-rail .meter .bar i { display: block; height: 3px; border-radius: 2px; background: var(--key); transition: width var(--t-slow) var(--ease); }
+.sim-rail .meter .segs { display: flex; gap: 2px; width: 78px; margin-top: 4px; }
+.sim-rail .meter .segs i { flex: 1; height: 3px; border-radius: 2px; background: #0e0c0a; }
+.sim-rail .meter .segs i.on { background: var(--key); }
+.sim-rail .meter.low .value { color: var(--notice-ink); }
+.sim-rail .meter.low .bar i { background: var(--notice-ink); }
+.sim-rail .meter .delta {
+  position: absolute; left: calc(100% + 8px); top: 22px; z-index: 1; padding: 3px 8px; border-radius: 5px; white-space: nowrap;
+  font: 500 12px/1.3 var(--font-ui); font-variant-numeric: tabular-nums; animation: delta-in 1.2s var(--ease) both;
+}
+.sim-rail .meter .delta.up { background: var(--verd-ok-ink); color: var(--verd-ok-bg); }
+.sim-rail .meter .delta.down { background: var(--verd-bad-ink); color: var(--verd-bad-bg); }
+.sim-rail .controls { flex: 1; min-width: 0; display: flex; align-items: center; justify-content: flex-end; gap: 8px; padding: 0 24px; }
+.sim-notice {
+  position: absolute; left: 24px; bottom: 128px; z-index: 9; height: var(--h-control); display: inline-flex; align-items: center; gap: 8px; padding: 0 14px;
+  border-radius: var(--r-control); background: var(--notice-bg); box-shadow: inset 0 0 0 1px var(--notice-line), 0 8px 20px rgba(0, 0, 0, 0.4);
+  font: 400 14px/1 var(--font-ui); color: var(--notice-ink); white-space: nowrap; max-width: calc(100vw - 48px); animation: fade-up var(--t-base) var(--ease);
+}
+.sim-notice .icon { flex: none; }
+.sim-rail .divider { width: 1px; height: 26px; background: #332d26; margin: 0 3px; flex: none; }
+.sim-rail .ctl .pct { font-size: 13px; color: var(--role-privado); font-variant-numeric: tabular-nums; font-weight: 400; }
+.sim-rail .ctl .n { font-size: 13px; color: var(--mute-2); font-variant-numeric: tabular-nums; }
+.sim-rail .seg { height: var(--h-control); display: flex; align-items: stretch; border-radius: var(--r-control); background: var(--panel); box-shadow: inset 0 0 0 1px var(--hair); overflow: hidden; flex: none; }
+.sim-rail .seg button { display: flex; align-items: center; padding: 0 13px; font-size: 14px; color: var(--mute-2); transition: background var(--t-fast) var(--ease); }
+.sim-rail .seg button:hover:not(.on) { background: var(--panel-raised); color: var(--bone-2); }
+.sim-rail .seg button.on { background: var(--key); color: var(--chassis-lo); font-weight: 500; }
+.sim-rail .seg button:focus-visible { box-shadow: inset 0 0 0 2px var(--role-mesa); }
+.sim-rail .speed { height: var(--h-control); display: flex; align-items: center; gap: 2px; padding: 0 4px; border-radius: var(--r-control); background: var(--panel); box-shadow: inset 0 0 0 1px var(--hair); flex: none; }
+.sim-rail .speed button { width: 26px; height: 32px; border-radius: 6px; text-align: center; font-size: 16px; color: #cdc4b6; transition: background var(--t-fast) var(--ease); }
+.sim-rail .speed button:hover { background: var(--panel-raised); }
+.sim-rail .speed b { min-width: 40px; text-align: center; font: 500 14px/1 var(--font-ui); font-variant-numeric: tabular-nums; color: var(--bone-2); }
+
+/* ============================================================ a vez de falar: uma folha com a trilha dos passos */
+.sim-floor {
+  position: absolute; left: 48px; right: 48px; bottom: var(--h-rail); z-index: 14; height: min(620px, calc(100vh - 156px));
+  display: flex; flex-direction: column; overflow: hidden; background: var(--paper); color: var(--ink);
+  border-radius: var(--r-sheet) var(--r-sheet) 0 0; box-shadow: var(--lift-sheet); animation: sheet-up var(--t-slow) var(--ease);
+}
+.sim-floor.interject { height: min(420px, calc(100vh - 156px)); }
+.sim-floor > header { flex: none; display: flex; align-items: flex-start; gap: 20px; padding: 20px 28px 0; }
+.sim-floor .titles { flex: 1; min-width: 0; display: flex; align-items: baseline; gap: 12px; }
+.sim-floor h2 { font: 600 28px/1.2 var(--font-doc); }
+.sim-floor .counter { font-size: 15px; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.sim-floor .defend { flex: none; max-width: 340px; text-align: right; display: flex; flex-direction: column; gap: 2px; }
+.sim-floor .defend b { font: 500 15px/1.3 var(--font-ui); color: var(--ink); }
+.sim-floor .trail { flex: none; list-style: none; margin: 16px 28px 0; padding: 0; display: flex; align-items: center; border-bottom: 1px solid var(--line); }
+.sim-floor .trail li { display: flex; }
+.sim-floor .trail li > * { display: flex; align-items: center; gap: 9px; padding: 0 16px 12px; font: 400 16px/1.3 var(--font-ui); color: var(--ink-faint); text-align: left; transition: color var(--t-fast) var(--ease); }
+.sim-floor .trail button:hover { color: var(--ink); }
+.sim-floor .trail button:hover .mark { box-shadow: inset 0 0 0 1.5px var(--ink-faint); }
+.sim-floor .trail li.done button:hover .mark { box-shadow: none; }
+.sim-floor .trail .mark { width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font: 500 13px/1 var(--font-ui); box-shadow: inset 0 0 0 1.5px #c3b8a6; color: var(--ink-faint); flex: none; }
+.sim-floor .trail li.now > * { color: var(--ink); font-weight: 500; }
+.sim-floor .trail li.now { border-bottom: 3px solid var(--ink); margin-bottom: -1px; }
+.sim-floor .trail li.now .mark { background: var(--ink); color: var(--paper); box-shadow: none; }
+.sim-floor .trail li.done > * { color: #4a7c58; font-weight: 500; }
+.sim-floor .trail li.done .mark { background: #4f9d69; color: var(--paper); box-shadow: none; }
+.sim-floor .body { flex: 1; min-height: 0; padding: 24px 28px; display: flex; flex-direction: column; gap: 16px; overflow-y: auto; }
+.sim-floor .q { font: 500 16px/1.4 var(--font-ui); color: var(--ink); }
+.sim-floor .hint { margin: 0; font: 400 15px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-floor .moves { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.sim-floor .moves button {
+  display: flex; align-items: flex-start; gap: 12px; padding: 15px 18px; border-radius: 9px; background: var(--paper-player); box-shadow: inset 0 0 0 1px #e0d6c5;
+  transition: background var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease);
+}
+.sim-floor .moves button:hover { background: #fff; }
+.sim-floor .moves button.on { box-shadow: inset 0 0 0 2px var(--ink); }
+.sim-floor .moves kbd { width: 24px; height: 24px; flex: none; border-radius: 6px; background: var(--paper-2); color: var(--ink); font: 500 14px/24px var(--font-ui); text-align: center; }
+.sim-floor .moves .t { display: block; font: 500 18px/1.3 var(--font-ui); color: var(--ink); }
+.sim-floor .moves small { display: block; margin-top: 2px; font: 400 14px/1.4 var(--font-ui); color: var(--ink-soft); }
+.sim-floor .hand { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; align-content: start; padding: 2px; }
+.sim-floor .hand.two { grid-template-columns: 1fr 1fr; }
+.sim-floor .split { display: flex; align-items: flex-start; gap: 20px; }
+.sim-floor .split > .field { width: 420px; flex: none; }
+.sim-floor .split > .rest { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.sim-floor .fields { display: flex; gap: 16px; align-items: flex-start; }
+.sim-floor .fields > .field { flex: 1; min-width: 0; }
+.sim-floor .field { padding: 14px; border-radius: 9px; background: var(--paper-2); display: flex; flex-direction: column; gap: 9px; }
+.sim-floor .field .label { color: var(--ink-soft); }
+.sim-floor .field.cite { background: var(--verd-sharp-bg); }
+.sim-floor .field.cite .label { color: var(--verd-sharp-ink); }
+.sim-floor .field .remove { align-self: flex-start; display: inline-flex; align-items: center; gap: 7px; font: 400 14px/1.3 var(--font-ui); color: var(--ink-soft); }
+.sim-floor .field .remove:hover { color: var(--ink); }
+.sim-floor .field .cands { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 2px; }
+.sim-floor .preview { padding: 16px 18px; border-radius: 9px; background: var(--paper-player); box-shadow: inset 0 0 0 1px #e0d6c5; }
+.sim-floor .preview p { margin: 8px 0 0; font: 400 19px/1.45 var(--font-ui); color: var(--ink); text-wrap: pretty; }
+.sim-floor .empty { margin: 0; font: 400 16px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-floor > footer { flex: none; display: flex; align-items: center; gap: 14px; padding: 14px 28px; background: var(--paper-2); }
+.sim-floor > footer .why { margin-left: auto; display: inline-flex; align-items: center; gap: 7px; font: 400 14px/1.4 var(--font-ui); color: var(--ink-soft); text-align: right; }
+.sim-floor > footer .why kbd { padding: 2px 6px; border-radius: 4px; background: #e2d8c6; font-size: 12px; color: var(--ink); }
+.sim-floor > footer button.why:hover { color: var(--ink); }
+
+/* ============================================================ carta do caderno */
+/* `.sim` na frente para a carta-botão não perder o recheio para o reset de button (era o que a deixava colada) */
+.sim .sim-card {
+  position: relative; display: flex; flex-direction: column; text-align: left; padding: 14px 16px; border-radius: var(--r-card);
+  background: var(--paper-player); color: var(--ink); box-shadow: var(--lift-card), inset 0 0 0 1px #e9e1d2;
+  transition: background var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease);
+}
+button.sim-card:hover:not(:disabled) { background: #fff; }
+.sim-card:not(button) { cursor: default; }
+.sim-card .top { display: flex; flex-wrap: wrap; align-items: center; gap: 3px 7px; min-width: 0; }
+.sim-card .top .who { flex: 1; min-width: 0; font: 500 13px/1.3 var(--font-ui); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-card .top .byline { font: 400 12px/1.3 var(--font-ui); color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }
+.sim-card .top .kind { flex: none; padding: 2px 6px; border-radius: var(--r-tag); background: #ece3d2; font: 400 11px/1.3 var(--font-ui); color: var(--ink-soft); }
+.sim-card.k-pergunta .top .kind { background: #dfe6ec; color: var(--rel-responde); }
+.sim-card .gist { margin-top: 8px; font: 400 15px/1.4 var(--font-ui); color: var(--ink); }
+.sim-card.compact .gist { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.sim-card .foot .theme { color: var(--ink-soft); }
+.sim-card.slot .gist { font-size: 16px; }
+.sim-card .foot { margin-top: 9px; display: flex; flex-wrap: wrap; gap: 4px 12px; font: 400 12px/1.3 var(--font-ui); color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.sim-card .foot .ref { font-weight: 400; color: var(--ink-faint); }
+.sim-card .foot .side { font-weight: 500; }
+.sim-card .foot .side.s-aliada, .sim-card .foot .side.s-evidencia { color: var(--rel-apoia); }
+.sim-card .foot .side.s-adversaria, .sim-card .foot .side.s-contraevidencia { color: var(--rel-contradiz); }
+/* candidata a citação de outro tema: só entra porque o grafo registra que uma respondeu à outra */
+.sim-card .foot .cross { font: 500 11px/1.3 var(--font-ui); color: var(--rel-responde); }
+.sim-card.selected { box-shadow: inset 0 0 0 2px var(--ink); }
+.sim-card.cited { box-shadow: inset 0 0 0 2px var(--role-privado); }
+.sim-card.disabled, .sim-card:disabled { background: #f5f0e6; box-shadow: inset 0 0 0 1px var(--line); opacity: 0.55; cursor: default; }
+.sim-card:focus-visible { box-shadow: inset 0 0 0 2px var(--role-mesa); }
+
+/* ============================================================ o caderno, sobre a mesa */
+.sim-desk {
+  position: absolute; left: 104px; right: 104px; top: 110px; bottom: 140px; z-index: 9; display: flex; flex-direction: column; overflow: hidden;
+  padding: 28px 34px; background: var(--paper); color: var(--ink); border-radius: var(--r-panel); box-shadow: 0 26px 60px rgba(0, 0, 0, 0.5);
+  animation: fade-up var(--t-slow) var(--ease);
+}
+.sim-desk .paper { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.sim-desk .head { flex: none; display: flex; align-items: baseline; gap: 16px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
+.sim-desk .head b { font: 600 26px/1.2 var(--font-doc); color: var(--ink); }
+.sim-desk .statement { flex: none; margin: 0; padding-top: 10px; font: 400 15px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-desk .cols { flex: 1; min-height: 0; margin-top: 22px; display: flex; gap: 34px; }
+.sim-desk .col { flex: 1; min-width: 0; overflow-y: auto; padding-right: 4px; }
+.sim-desk .col.thread { width: 400px; flex: none; }
+.sim-desk .vr { width: 1px; background: var(--line); flex: none; }
+.sim-desk h3 { font: 600 22px/1.2 var(--font-doc); color: var(--ink); }
+.sim-desk .sec { display: flex; align-items: baseline; gap: 10px; }
+.sim-desk .sec small { font: 400 14px/1.3 var(--font-ui); color: var(--ink-faint); }
+.sim-desk .sec.mt { margin-top: 22px; }
+.sim-desk .cards { margin-top: 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.sim-desk .empty { margin: 10px 0 0; font: 400 15px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-desk .questions { margin: 10px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font: 400 15px/1.45 var(--font-ui); color: var(--ink); }
+.sim-desk .questions b { font-weight: 500; }
+.sim-desk .questions .ref { color: var(--ink-faint); font-weight: 400; }
+.sim-desk .questions .status { display: block; margin-top: 2px; font: 500 13px/1.3 var(--font-ui); color: var(--rel-apoia); }
+.sim-desk .questions .status.mine { color: var(--rel-responde); }
+.sim-desk .thread ol { margin: 14px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; }
+.sim-desk .thread li { display: flex; gap: 10px; min-width: 0; }
+.sim-desk .thread .dot { width: 9px; height: 9px; margin-top: 6px; flex: none; border-radius: 50%; display: inline-block; }
+.sim-desk .thread .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; border: 0; padding: 0; }
+.sim-desk .thread .who { font: 500 15px/1.4 var(--font-ui); color: var(--ink); }
+.sim-desk .thread .rel { display: inline-flex; align-items: center; gap: 5px; font: 500 13px/1.3 var(--font-ui); }
+.sim-desk .thread .note { display: block; font: 400 14px/1.45 var(--font-ui); color: #3d3832; }
+.sim-desk .thread .ref { display: block; margin-top: 2px; color: var(--ink-faint); font-weight: 400; }
+
+/* ============================================================ painéis de consulta, docados à direita */
+.sim-dock {
+  position: absolute; right: 24px; top: 24px; bottom: 140px; width: 420px; z-index: 13; display: flex; flex-direction: column; overflow: hidden;
+  border-radius: var(--r-balloon); box-shadow: var(--lift-panel); animation: slide-in var(--t-base) var(--ease);
+}
+.sim-dock .dock-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex: none; }
+.sim-dock .dock-head h3 { font: 600 22px/1.2 var(--font-doc); color: var(--bone); }
+.sim-dock .close { display: inline-flex; align-items: center; gap: 7px; font: 400 13px/1 var(--font-ui); color: var(--mute-2); }
+.sim-dock .close:hover { color: var(--bone); }
+.sim-dock .close kbd { padding: 3px 7px; border-radius: var(--r-tag); background: var(--hair-soft); box-shadow: inset 0 0 0 1px #3f3830; color: var(--bone-2); }
+/* legenda e ajuda: chassi inteiro, documentação da máquina */
+.sim-legend { background: linear-gradient(#1f1b17, #17140f); box-shadow: var(--lift-panel), inset 0 0 0 1px var(--hair); color: var(--bone-2); }
+.sim-legend .inner { flex: 1; min-height: 0; overflow-y: auto; padding: 22px 24px; display: flex; flex-direction: column; gap: 20px; }
+.sim-legend .rows { margin-top: 10px; display: flex; flex-direction: column; gap: 9px; }
+.sim-legend .rows .row { display: flex; gap: 12px; align-items: baseline; }
+.sim-legend .rows .k { width: 120px; flex: none; display: inline-flex; align-items: center; gap: 7px; font: 500 15px/1.3 var(--font-ui); }
+.sim-legend .rows .d { font: 400 14px/1.4 var(--font-ui); color: var(--mute); }
+.sim-legend .v-coerente { color: var(--rel-apoia-dark); }
+.sim-legend .v-contradicao { color: var(--rel-contradiz-dark); }
+.sim-legend .v-certeiro { color: var(--rel-consenso-dark); }
+.sim-legend .roles { margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+.sim-legend .roles div { display: flex; align-items: center; gap: 9px; font: 400 14px/1.3 var(--font-ui); color: #cdc4b6; }
+.sim-legend .roles i { width: 9px; height: 9px; }
+.sim-legend .keys .rows { gap: 7px; }
+.sim-legend .keys .k { width: 96px; display: flex; flex-wrap: wrap; gap: 4px; }
+.sim-legend .keys kbd { padding: 3px 8px; border-radius: 5px; background: var(--hair-soft); box-shadow: inset 0 0 0 1px #3f3830; font: 500 12px/1.3 var(--font-ui); color: var(--bone-2); white-space: nowrap; }
+/* glossário: placa de chassi e corpo de papel, conteúdo da audiência */
+.sim-glossary .plate { flex: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 22px; background: linear-gradient(#26221c, #1b1814); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07); }
+.sim-glossary .plate h3 { font: 600 20px/1.2 var(--font-doc); color: var(--bone); }
+.sim-glossary .paper { flex: 1; min-height: 0; overflow-y: auto; background: var(--paper); color: var(--ink); padding: 18px 22px 22px; display: flex; flex-direction: column; gap: 16px; }
+.sim-glossary .hint { margin: 0; padding-bottom: 16px; border-bottom: 1px solid var(--line); font: 400 14px/1.45 var(--font-ui); color: var(--ink-soft); }
+.sim-glossary .term .t { display: flex; align-items: baseline; gap: 8px; }
+.sim-glossary .term b { font: 600 17px/1.3 var(--font-ui); color: var(--ink); }
+.sim-glossary .term .ref { color: var(--ink-faint); font-weight: 400; }
+.sim-glossary .term p { margin: 3px 0 0; font: 400 15px/1.45 var(--font-ui); color: #3d3832; }
+
+/* ============================================================ escolha da tese: o dossiê, uma ideia por vez */
+.sim-tese {
+  position: absolute; inset: 0; z-index: 20; display: flex; flex-direction: column; overflow: hidden; padding: 32px 56px 28px;
+  background: radial-gradient(120% 90% at 70% 0%, #1f1b16, #100e0c 70%); color: var(--bone-2);
+}
+.sim .back-link { display: inline-flex; align-items: center; gap: 8px; font: 400 14px/1.3 var(--font-ui); color: var(--mute); text-decoration: none; border-radius: 4px; }
+.sim .back-link:hover { color: var(--bone); }
+.sim-tese .head { flex: none; display: flex; align-items: flex-end; gap: 28px; }
+.sim-tese .head .what { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 5px; align-items: flex-start; }
+.sim-tese .head .title { font: 400 17px/1.4 var(--font-ui); color: #cdc4b6; max-width: 52ch; }
+.sim-tese .head .ask { width: 520px; flex: none; text-align: right; }
+.sim-tese .head .ask p { margin: 5px 0 0; font: 500 18px/1.4 var(--font-ui); color: #f0d9a3; text-wrap: pretty; }
+
+.sim-tese .dossier { flex: 1; min-height: 0; margin-top: 22px; display: flex; align-items: center; gap: 20px; }
+.sim-tese .arrow {
+  flex: none; width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  background: var(--panel); box-shadow: inset 0 0 0 1px var(--hair); color: var(--bone-2); transition: background var(--t-fast) var(--ease), opacity var(--t-fast) var(--ease);
+}
+.sim-tese .arrow.fwd { background: var(--panel-raised); box-shadow: inset 0 0 0 1px #4d453a; color: var(--bone); }
+.sim-tese .arrow:hover:not(:disabled) { background: #332d26; }
+.sim-tese .arrow:disabled { opacity: 0.4; cursor: default; }
+
+.sim-tese .sheet {
+  flex: 1; min-width: 0; align-self: stretch; margin: 6px 0; display: flex; flex-direction: column; overflow: hidden;
+  padding: 34px 40px; border-radius: var(--r-balloon); background: var(--paper); color: var(--ink); box-shadow: var(--lift-panel);
+}
+.sim-tese .sheet.swap { animation: fade-in var(--t-base) var(--ease); }
+.sim-tese .pos { flex: none; display: flex; align-items: baseline; gap: 14px; }
+.sim-tese .pos .engrave { font-size: 13px; letter-spacing: 0.08em; color: var(--ink-faint); }
+.sim-tese .pos .times { font: 400 13px/1.3 var(--font-ui); color: var(--ink-faint); }
+.sim-tese .sheet h2 { flex: none; margin-top: 12px; font: 600 40px/1.15 var(--font-ui); letter-spacing: -0.01em; color: var(--ink); max-width: 22ch; text-wrap: pretty; }
+.sim-tese .sheet .statement { flex: none; margin: 14px 0 0; max-width: 58ch; font: 400 19px/1.55 var(--font-ui); color: #3d3832; text-wrap: pretty; }
+.sim-tese .cols { flex: 1; min-height: 0; margin-top: 30px; display: flex; gap: 44px; overflow-y: auto; padding-right: 4px; }
+.sim-tese .cols .col { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.sim-tese .orgs { margin: 9px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.sim-tese .orgs.tight { gap: 4px; }
+.sim-tese .orgs li { display: flex; align-items: center; gap: 10px; font: 400 15px/1.35 var(--font-ui); color: var(--ink); }
+.sim-tese .orgs li i { width: 8px; height: 8px; flex: none; }
+.sim-tese .orgs li.none { color: var(--ink-faint); }
+.sim-tese .said { width: 330px; flex: none; display: flex; flex-direction: column; padding-left: 44px; border-left: 1px solid #e7dfd0; }
+.sim-tese .said blockquote { margin: 9px 0 0; font: 400 18px/1.5 var(--font-ui); color: var(--ink); }
+.sim-tese .said .by { flex: none; margin-top: 9px; font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint); }
+.sim-tese .said .by .ref { color: var(--ink-faint); }
+.sim-tese .said .orig-btn {
+  flex: none; align-self: flex-start; margin-top: 8px; font: 400 13px/1.3 var(--font-ui); color: var(--ink-soft);
+  border-bottom: 1px dotted #a89d8f;
+}
+.sim-tese .said .orig-btn:hover { color: var(--ink); border-bottom-style: solid; }
+.sim-tese .sheet footer { flex: none; margin-top: 22px; padding-top: 18px; border-top: 1px solid #e7dfd0; display: flex; align-items: center; gap: 16px; }
+.sim-tese .rule { margin: 0; flex: 1; min-width: 0; font: 400 14px/1.45 var(--font-ui); color: var(--ink-soft); }
+.sim-tese .defend { height: 46px; padding: 0 24px; }
+
+/* o modo guiado, ao lado de Defender esta ideia (decisão do autor em 2026-09-15): mesmo controle, no papel */
+.sim-tese .guided {
+  position: relative; flex: none; display: inline-flex; align-items: center; gap: 9px; height: 46px; padding: 0 16px; border-radius: var(--r-control);
+  background: var(--paper-2); box-shadow: inset 0 0 0 1px var(--line-2); font: 400 15px/1 var(--font-ui); color: var(--ink); cursor: pointer;
+  transition: background var(--t-fast) var(--ease);
+}
+.sim-tese .guided:hover { background: #e6dcc9; }
+.sim-tese .guided input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.sim-tese .guided .sw { position: relative; display: inline-block; width: 26px; height: 14px; border-radius: 7px; background: #c3b8a6; flex: none; transition: background var(--t-fast) var(--ease); }
+.sim-tese .guided .sw::after { content: ''; position: absolute; left: 2px; top: 2px; width: 10px; height: 10px; border-radius: 50%; background: var(--paper); transition: transform var(--t-fast) var(--ease), background var(--t-fast) var(--ease); }
+.sim-tese .guided input:checked ~ .sw { background: var(--ink); }
+.sim-tese .guided input:checked ~ .sw::after { transform: translateX(12px); background: var(--paper); }
+.sim-tese .guided input:focus-visible ~ .sw { box-shadow: 0 0 0 2px var(--role-mesa); }
+
+.sim-tese .strip { flex: none; margin-top: 18px; display: flex; align-items: stretch; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.sim-tese .strip::-webkit-scrollbar { height: 0; }
+.sim-tese .strip button {
+  flex: 1 1 0; min-width: 150px; height: 62px; box-sizing: border-box; padding: 0 14px; border-radius: var(--r-control);
+  background: var(--panel-sunken); box-shadow: inset 0 0 0 1px var(--hair-soft); display: flex; flex-direction: column; justify-content: center; gap: 3px;
+  transition: background var(--t-fast) var(--ease);
+}
+.sim-tese .strip button:hover:not(.on) { background: var(--panel); }
+.sim-tese .strip .n { font: 400 12px/1 var(--font-ui); font-variant-numeric: tabular-nums; color: var(--engrave); }
+.sim-tese .strip .t { font: 400 14px/1.3 var(--font-ui); color: var(--mute-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-tese .strip button.on { background: var(--key); box-shadow: none; }
+.sim-tese .strip button.on .n { color: #5b5349; }
+.sim-tese .strip button.on .t { color: var(--chassis-lo); font-weight: 500; }
+
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* ============================================================ prelúdio */
+.sim-prelude {
+  position: absolute; inset: 0; z-index: 30; display: flex; align-items: center; justify-content: center; background: #0e0c0a; color: #f2ece0; cursor: pointer;
+  transition: opacity 0.6s var(--ease);
+}
+.sim-prelude.fade { opacity: 0; pointer-events: none; }
+.sim-prelude .lines { max-width: 860px; padding: 24px; text-align: center; }
+.sim-prelude .kicker { margin: 0; font: 500 14px/1.5 var(--font-doc); letter-spacing: 0.1em; text-transform: uppercase; color: var(--mute-2); }
+.sim-prelude .title { margin: 28px 0 0; font: 600 44px/1.25 var(--font-doc); color: #f2ece0; text-wrap: pretty; }
+.sim-prelude .date { margin: 26px 0 0; font: 400 17px/1.4 var(--font-ui); color: var(--mute-2); font-variant-numeric: tabular-nums; }
+.sim-prelude .tw-cursor { display: inline-block; width: 14px; height: 34px; margin-left: 6px; vertical-align: -6px; background: var(--key); animation: tw-blink 0.9s steps(1) infinite; }
+.sim-prelude .kicker .tw-cursor { width: 8px; height: 14px; vertical-align: -2px; margin-left: 4px; }
+.sim-prelude .date .tw-cursor { width: 9px; height: 17px; vertical-align: -3px; margin-left: 4px; }
+.sim-prelude .skip { position: absolute; right: 28px; bottom: 24px; font: 400 13px/1 var(--font-ui); color: #4f4842; }
+
+/* ============================================================ início */
+.sim-home {
+  /* o bloco fica no terço de cima da tela, não centrado (pedido do autor, 2026-09-15: título e Jogar estavam baixos demais) */
+  position: fixed; inset: 0; overflow: auto; display: flex; flex-direction: column; justify-content: flex-start; padding: 8vh 120px 40px;
+  background: radial-gradient(110% 80% at 18% 8%, #1f1b16, #100e0c 68%); color: var(--bone-2); font-family: var(--font-ui);
+}
+/* o crédito abre a tela com o símbolo do Instituto Kunumi à direita do texto. `align-self: flex-start` porque a home é
+   um flex column: sem ele a linha estica na largura toda e o símbolo desgarra do texto */
+.sim-home .brand { align-self: flex-start; display: flex; align-items: center; gap: 12px; }
+/* o símbolo é uma máscara, não uma imagem, para pegar a cor do chassi pelo currentColor e envelhecer com o sistema */
+.sim-home .kunumi {
+  flex: none; width: 22px; height: 22px; color: var(--mute-2); background: currentColor;
+  -webkit-mask: url('./assets/kunumi.svg') left center / contain no-repeat;
+  mask: url('./assets/kunumi.svg') left center / contain no-repeat;
+}
+.sim-home h1 { margin: 20px 0 0; font: 500 74px/1.02 var(--font-ui); letter-spacing: -0.025em; color: var(--bone); max-width: 18ch; }
+/* "Uai-Tchê": a marca do nome, em branco sobre o chassi escuro, como a página em branco do caderno que não se quer deixar vazia */
+.sim-home h1 .mark {
+  display: inline-grid; padding: 0 0.22em 0.04em; border-radius: 0.22em; background: #fff; color: #100e0c;
+  font-family: var(--font-serif, Georgia, serif); font-style: italic; font-weight: 500; letter-spacing: -0.01em; line-height: 1;
+  box-shadow: 0 2px 0 #cfc6b8, 0 10px 30px rgba(0, 0, 0, 0.35); transform: rotate(-1.5deg); vertical-align: 0.02em;
+}
+/* a marca alterna entre "Uai-Tchê" e "White": as duas palavras ocupam a mesma célula, centradas (a caixa não muda de
+   largura, e a palavra curta fica no meio), e trocam a cada 2 s com um fade cruzado de 0,4 s e um leve deslize vertical. Com
+   movimento reduzido, fica só "Uai-Tchê". */
+.sim-home h1 .mark .a, .sim-home h1 .mark .b { grid-area: 1 / 1; justify-self: center; white-space: nowrap; animation: mark-swap 4s ease-in-out infinite; }
+.sim-home h1 .mark .b { animation-delay: -2s; }
+@keyframes mark-swap {
+  0%, 40% { opacity: 1; transform: translateY(0); }
+  50%, 90% { opacity: 0; transform: translateY(0.18em); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sim-home h1 .mark .a, .sim-home h1 .mark .b { animation: none; }
+  .sim-home h1 .mark .b { opacity: 0; }
+}
+.sim-home .subtitle { margin: 26px 0 0; font: 500 15px/1.4 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase; color: #8d8177; }
+.sim-home .lead { margin: 30px 0 0; max-width: 56ch; font: 400 16px/1.6 var(--font-ui); color: #b3a898; text-wrap: pretty; }
+/* `flex: none` porque a home é um flex column: sem ele, o botão é o único item de altura fixa e é ele que encolhe quando a janela é baixa */
+.sim-home .play {
+  margin-top: 30px; align-self: flex-start; flex: none; display: inline-flex; align-items: center; gap: 12px; height: 54px; padding: 0 32px; border-radius: var(--r-control);
+  background: var(--key); color: var(--chassis-lo); font: 500 18px/1 var(--font-ui); text-decoration: none; transition: background var(--t-fast) var(--ease);
+}
+.sim-home .play:hover { background: var(--key-hover); }
+/* a nota de rodapé fica no pé quando há espaço e desce com o fluxo quando não há (nunca por cima do texto) */
+.sim-home .foot { margin: 56px 0 0; margin-top: auto; padding-top: 56px; max-width: 64ch; font: 400 13px/1.6 var(--font-ui); color: #6f665c; }
+
+/* ============================================================ escolher a audiência: mestre e detalhe */
+.sim-catalog {
+  position: fixed; inset: 0; display: flex; flex-direction: column; overflow: hidden; padding: 34px 48px 30px;
+  background: radial-gradient(120% 90% at 80% 0%, #1d1a16, #100e0c 70%); color: var(--bone-2); font-family: var(--font-ui);
+}
+.sim-catalog .head { flex: none; display: flex; align-items: flex-end; gap: 20px; }
+.sim-catalog .head .l { flex: 1; min-width: 0; }
+.sim-catalog h1 { margin: 8px 0 0; font: 600 30px/1.2 var(--font-doc); color: var(--bone); }
+.sim-catalog .count { flex: none; font: 400 14px/1.3 var(--font-ui); color: var(--mute-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sim-catalog .tools { flex: none; margin-top: 20px; display: flex; align-items: center; gap: 8px; }
+.sim-catalog .search { flex: 1; min-width: 0; height: 44px; display: flex; align-items: center; gap: 10px; padding: 0 15px; border-radius: var(--r-control); background: var(--panel-sunken); box-shadow: inset 0 0 0 1px var(--hair); color: var(--engrave); }
+.sim-catalog .search:focus-within { box-shadow: inset 0 0 0 2px var(--role-mesa); }
+.sim-catalog .search input { flex: 1; min-width: 0; border: 0; outline: none; background: none; font: 400 15px/1 var(--font-ui); color: var(--bone-2); }
+.sim-catalog .search input::placeholder { color: #6f665c; }
+.sim-catalog .filter {
+  position: relative; flex: none; height: 44px; display: inline-flex; align-items: center; gap: 10px; padding: 0 15px; border-radius: var(--r-control);
+  background: var(--panel); box-shadow: inset 0 0 0 1px var(--hair); font: 400 15px/1 var(--font-ui); color: var(--bone-2); cursor: pointer; transition: background var(--t-fast) var(--ease);
+}
+.sim-catalog .filter:hover { background: var(--panel-raised); }
+.sim-catalog .filter:focus-within { box-shadow: inset 0 0 0 2px var(--role-mesa); }
+.sim-catalog .filter b { font-weight: 400; color: var(--mute-2); max-width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-catalog .filter .icon { color: var(--mute-2); }
+.sim-catalog .filter select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.sim-catalog .main { flex: 1; min-height: 0; margin-top: 20px; display: flex; gap: 28px; }
+.sim-catalog .list { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.sim-catalog .list-head { flex: none; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--hair-soft); }
+.sim-catalog .order { display: inline-flex; align-items: center; gap: 8px; font: 400 13px/1 var(--font-ui); color: var(--mute-2); }
+.sim-catalog .order:hover { color: var(--bone); }
+.sim-catalog .scroll { flex: 1; min-height: 0; position: relative; }
+/* a lista rola só na vertical: o título e a comissão são cortados com reticências, então nada empurra a
+   linha para fora da coluna e o fio de cada linha vai de margem a margem */
+.sim-catalog .rows { height: 100%; overflow-y: auto; overflow-x: hidden; display: flex; flex-direction: column; padding-bottom: 70px; }
+.sim-catalog .row {
+  flex: none; display: flex; align-items: center; gap: 16px; height: 74px; padding: 0 16px; border-bottom: 1px solid var(--panel); color: #cdc4b6; width: 100%;
+  transition: background var(--t-fast) var(--ease);
+}
+.sim-catalog .row:hover { background: var(--panel-sunken); }
+.sim-catalog .row.on { background: var(--panel); border-radius: var(--r-control); box-shadow: inset 0 0 0 1px #4d453a; border-bottom-color: transparent; color: #f2ece0; }
+.sim-catalog .row .when { width: 92px; flex: none; overflow: hidden; }
+.sim-catalog .row .date { display: block; font: 400 15px/1.3 var(--font-ui); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sim-catalog .row.on .date { font-weight: 500; }
+.sim-catalog .row .num { display: block; font: 400 13px/1.3 var(--font-ui); color: #6f665c; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sim-catalog .row.on .num { color: var(--mute-2); }
+.sim-catalog .row .what { flex: 1; min-width: 0; overflow: hidden; }
+.sim-catalog .row .name { display: block; font: 400 16px/1.3 var(--font-ui); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-catalog .row.on .name { font-weight: 500; color: var(--bone); }
+.sim-catalog .row .com { display: block; font: 400 13px/1.3 var(--font-ui); color: #7d736a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sim-catalog .row.on .com { color: var(--mute); }
+.sim-catalog .veil { position: absolute; left: 0; right: 12px; bottom: 0; height: 70px; background: linear-gradient(rgba(16, 14, 12, 0), #131110); pointer-events: none; }
+.sim-catalog .none { padding: 24px 16px; font: 400 15px/1.5 var(--font-ui); color: var(--mute-2); }
+.sim-catalog .detail { width: 480px; flex: none; display: flex; flex-direction: column; min-height: 0; overflow-y: auto; padding-bottom: 12px; }
+.sim-catalog .detail.empty { align-items: center; justify-content: center; }
+.sim-catalog .dossier { flex: none; filter: drop-shadow(0 20px 44px rgba(0, 0, 0, 0.5)); }
+.sim-catalog .dossier .plate { display: flex; align-items: center; gap: 12px; padding: 11px 20px; border-radius: var(--r-panel) var(--r-panel) 0 0; background: linear-gradient(#26221c, #1b1814); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07); }
+.sim-catalog .dossier .plate .num { font: 500 15px/1.3 var(--font-ui); color: #f2ece0; }
+.sim-catalog .dossier .plate .vr { width: 1px; height: 14px; background: #4d453a; }
+.sim-catalog .dossier .plate .date { font: 400 14px/1.3 var(--font-ui); color: var(--mute); font-variant-numeric: tabular-nums; }
+.sim-catalog .dossier .paper { background: var(--paper); color: var(--ink); border-radius: 0 0 var(--r-panel) var(--r-panel); padding: 22px 24px 20px; }
+.sim-catalog .dossier .com { font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint); }
+.sim-catalog .dossier h2 { margin: 8px 0 0; font: 600 26px/1.2 var(--font-doc); color: var(--ink); text-wrap: pretty; }
+.sim-catalog .facts { margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 7px; }
+.sim-catalog .facts div { display: flex; align-items: baseline; gap: 12px; font: 400 15px/1.4 var(--font-ui); color: #3d3832; }
+.sim-catalog .facts dt { width: 180px; flex: none; color: var(--ink-faint); }
+.sim-catalog .facts dd { margin-left: auto; font-variant-numeric: tabular-nums; }
+.sim-catalog .enter-row { margin-top: 18px; display: flex; align-items: center; justify-content: flex-end; gap: 14px; }
+.sim-catalog .enter-row .why { flex: 1; min-width: 0; font: 400 14px/1.4 var(--font-ui); color: var(--ink-soft); }
+.sim-catalog .enter { height: 46px; padding: 0 22px; font-size: 16px; }
+.sim-catalog .detail .note { flex: none; margin: 18px 0 0; font: 400 14px/1.55 var(--font-ui); color: var(--engrave); }
+.sim-catalog .loading { padding: 24px 16px; font: 400 15px/1.5 var(--font-ui); color: var(--mute-2); }
+
+/* ============================================================ ata: a tela é a folha */
+.sim-ata { position: absolute; inset: 0; z-index: 20; overflow-y: auto; background: var(--paper); color: var(--ink); }
+.sim-ata .sheet { min-height: 100%; display: flex; flex-direction: column; padding: 54px 96px 40px; }
+.sim-ata .label { letter-spacing: 0.06em; }
+.sim-ata .head { flex: none; display: flex; align-items: flex-start; gap: 64px; }
+.sim-ata .head .l { flex: 1; min-width: 0; }
+.sim-ata h1 { margin-top: 12px; font: 600 40px/1.12 var(--font-doc); color: var(--ink); max-width: 46ch; text-wrap: pretty; }
+.sim-ata .opening { margin: 12px 0 0; max-width: 58ch; font: 400 20px/1.5 var(--font-doc); color: var(--ink-soft); }
+.sim-ata .score { width: 330px; flex: none; text-align: right; }
+.sim-ata .score .n { margin-top: 2px; font: 400 92px/1 var(--font-doc); color: var(--ink); font-variant-numeric: tabular-nums; }
+.sim-ata .score .facts { margin: 10px 0 0; display: flex; flex-direction: column; gap: 4px; font: 400 13px/1.45 var(--font-ui); color: var(--ink-soft); }
+.sim-ata .cols { flex: 1; margin-top: 32px; display: grid; grid-template-columns: minmax(0, 1fr) 1px 420px; gap: 0 48px; }
+.sim-ata .vr { background: #e7dfd0; }
+.sim-ata .tese-title { margin-top: 6px; font: 600 24px/1.3 var(--font-doc); color: var(--ink); }
+.sim-ata .statement { margin: 8px 0 0; max-width: 72ch; font: 400 15px/1.55 var(--font-ui); color: #3d3832; }
+.sim-ata .inroom { margin: 10px 0 0; max-width: 80ch; font: 400 14px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-ata .label.mt { display: block; margin-top: 34px; }
+.sim-ata .real .label.mt { margin-top: 28px; }
+.sim-ata .played { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 28px; }
+.sim-ata .entry .row { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.sim-ata .turn { font: 500 14px/1.3 var(--font-ui); color: var(--ink-faint); }
+.sim-ata .v { display: inline-flex; align-items: center; gap: 8px; font: 600 15px/1.3 var(--font-ui); }
+.sim-ata .delta { font: 500 15px/1.3 var(--font-ui); font-variant-numeric: tabular-nums; }
+.sim-ata .v-coerente { color: var(--rel-apoia); }
+.sim-ata .v-certeiro { color: var(--rel-consenso); }
+.sim-ata .v-contradicao, .sim-ata .v-par_invalido, .sim-ata .v-repetida { color: var(--rel-contradiz); }
+.sim-ata .v-ja_respondida { color: var(--rel-responde); }
+.sim-ata .v-neutro, .sim-ata .v-consenso { color: var(--ink-soft); }
+.sim-ata .said { margin: 10px 0 0; padding-left: 18px; border-left: 2px solid #ded3bf; max-width: 72ch; font: 400 17px/1.55 var(--font-doc); color: var(--ink); }
+.sim-ata .why { margin: 10px 0 0; max-width: 72ch; font: 400 15px/1.5 var(--font-ui); color: #3d3832; }
+.sim-ata .room { margin: 6px 0 0; max-width: 72ch; font: 400 14px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-ata .src { margin-top: 10px; font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint); }
+.sim-ata .src summary { display: flex; align-items: center; gap: 16px; cursor: pointer; list-style: none; }
+.sim-ata .src summary::-webkit-details-marker { display: none; }
+.sim-ata .src summary .ref { font-weight: 400; color: var(--ink-faint); }
+.sim-ata .src .see { color: var(--ink-soft); border-bottom: 1px dotted #a89d8f; }
+.sim-ata .src summary:hover .see { color: var(--ink); }
+.sim-ata .src blockquote { margin: 8px 0 0; padding-left: 18px; border-left: 2px solid #ded3bf; max-width: 72ch; font: 400 14px/1.5 var(--font-ui); color: #3d3832; }
+.sim-ata .empty { margin: 14px 0 0; font: 400 15px/1.5 var(--font-ui); color: var(--ink-soft); }
+.sim-ata .real p { margin: 8px 0 0; font: 400 15px/1.55 var(--font-ui); color: #3d3832; text-wrap: pretty; }
+.sim-ata .real p.muted { margin-top: 6px; font-size: 14px; color: var(--ink-soft); }
+.sim-ata .qs { margin: 10px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.sim-ata .qs p { margin: 0; font: 400 15px/1.45 var(--font-ui); color: var(--ink); }
+.sim-ata .qs b { font-weight: 500; }
+.sim-ata .qs .ref { font-weight: 400; color: var(--ink-faint); }
+.sim-ata .qs .status { display: block; margin-top: 2px; font: 500 13px/1.3 var(--font-ui); color: var(--rel-contradiz); }
+.sim-ata .qs li.closed .status { color: var(--rel-apoia); }
+.sim-ata .bars { margin: 12px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.sim-ata .bars li { display: flex; align-items: center; gap: 12px; }
+.sim-ata .bars .name { width: 104px; flex: none; font: 400 14px/1.3 var(--font-ui); color: #3d3832; }
+.sim-ata .bars .bar { flex: 1; height: 5px; border-radius: 3px; background: #ece3d2; overflow: hidden; }
+.sim-ata .bars .bar i { display: block; height: 5px; border-radius: 3px; }
+.sim-ata .bars .n { width: 48px; flex: none; text-align: right; font: 400 13px/1.3 var(--font-ui); color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.sim-ata footer { flex: none; margin-top: 56px; display: flex; align-items: center; justify-content: flex-end; gap: 12px; }
+.sim-ata .textbtn { height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: var(--r-control); font: 400 15px/1 var(--font-ui); color: var(--ink-soft); text-decoration: none; transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease); }
+.sim-ata .textbtn:hover { background: var(--paper-2); color: var(--ink); }
+.sim-ata footer .btn { font-size: 15px; }
+
+.sim-error { padding: 40px; font-family: var(--font-ui); color: var(--bone-2); background: #15120f; min-height: 100vh; }
+.sim-error a { color: var(--key); }
+
+/* ============================================================ telas estreitas: degrada por corte, não por reflow */
+@media (max-width: 1100px) {
+  .sim-rail .controls { overflow-x: auto; justify-content: flex-start; }
+  .sim-rail .meters { gap: 16px; }
+  .sim-floor { left: 16px; right: 16px; }
+  .sim-desk { left: 24px; right: 24px; }
+  .sim-tese .head .ask { width: 380px; }
+  .sim-tese .said { width: 260px; padding-left: 28px; }
+  .sim-tese .cols { gap: 28px; }
+  .sim-home, .sim-catalog { padding-left: 48px; padding-right: 48px; }
+  .sim-catalog .detail { width: 400px; }
+  .sim-ata .sheet { padding: 40px 40px 32px; }
+  .sim-ata .cols { grid-template-columns: minmax(0, 1fr); }
+  .sim-ata .vr { display: none; }
+}
+
+/* ============================================================ menos movimento: a informação nunca depende dele */
+@media (prefers-reduced-motion: reduce) {
+  .sim-balloon { transition: none; animation: none; }
+  .sim-balloon .fala .tw-cursor, .sim-prelude .tw-cursor { animation: none; }
+  body.sim-shake .sim-canvas { animation: none; }
+  .sim-balloon.kind-reaction.rel-contradiz .body { box-shadow: inset 0 0 0 2px var(--rel-contradiz); }
+  .sim-prelude { transition: none; }
+  .sim-balloon .verdict .bar .step { animation: none; }
+  .sim-rail .meter .delta { animation: none; }
+  .sim-floor, .sim-desk, .sim-dock, .sim-relcard, .sim-notice, .sim-tese .sheet, .sim-balloon .gl-tip { animation: none; }
+}
+
+/* a relação anotada era com a fala inteira, não com este trecho (âncora de fala, 2026-09-15) */
+.sim-relcard .anchor { display: block; margin-top: 6px; text-align: center; font: 400 12px/1.4 var(--font-ui); color: var(--mute-2); }
+
+/* com o alternador simples/original (2026-09-15) a bancada só cabe inteira acima de 1600px: abaixo disso as
+   teclas saem dos botões (continuam na legenda) e os segmentos apertam, para nada invadir os medidores */
+@media (max-width: 1600px) {
+  .sim-rail .controls { gap: 6px; padding: 0 16px; }
+  .sim-rail .ctl kbd { display: none; }
+  .sim-rail .seg button { padding: 0 11px; }
+}

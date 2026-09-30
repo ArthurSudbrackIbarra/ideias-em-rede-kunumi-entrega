@@ -1,0 +1,24 @@
+/* Base global mínima. Toda a tipografia e os painéis do simulador vivem em sim/sim.css. */
+
+:root { color-scheme: light; }
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  background: #15120f;
+  color: #f7f2e8;
+  font-family: 'Lexend', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+a { color: inherit; }
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}

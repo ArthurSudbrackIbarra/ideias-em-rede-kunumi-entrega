@@ -1,0 +1,1418 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 113,
+ "model": "LLM lendo o prompt hearing-113 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T19:48:54Z",
+ "prompt_sha256": "40199b528f92ed178608f77180f8d45b1b4773a33a5e574b8d421c462ab0775d",
+ "sentences_hash": "cd8b4f17aec1b845",
+ "review": {
+  "pairs_read": 26,
+  "pairs_fixed": 7
+ },
+ "warnings": [],
+ "synopsis": "A Comissão Especial de Prevenção e Auxílio a Desastres ouviu representantes do Ministério do Desenvolvimento e Assistência Social e do Ministério das Cidades sobre o que o Governo Federal faz antes e depois dos desastres. Os deputados cobraram mais contratos de contenção de encostas, orçamento próprio para a prevenção e orientação aos Municípios, que muitas vezes não sabem acessar os recursos.",
+ "stakes": "Estava em jogo o que a Comissão vai escrever no relatório que deve criar um arcabouço legal de prevenção e socorro a desastres.",
+ "central_question": "O que o Governo Federal precisa mudar para que o dinheiro da prevenção chegue antes do desastre e alcance os Municípios?",
+ "synopsis_plain": "Dois ministérios foram à Câmara contar o que fazem antes e depois de enchentes, deslizamentos e secas. O Ministério das Cidades falou das obras de contenção de encostas e o Ministério do Desenvolvimento Social, do dinheiro para acolher quem fica desabrigado. Os deputados disseram que é pouco, que falta orçamento próprio para a prevenção e que os Municípios não sabem como pedir esses recursos.",
+ "stakes_plain": "Decidir o que a Comissão vai propor no relatório que deve criar uma lei de prevenção e socorro a desastres.",
+ "central_question_plain": "O que precisa mudar para o dinheiro da prevenção chegar antes do desastre e alcançar os Municípios?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Prevenção antes do desastre",
+   "description": "Discute-se se a lei e o dinheiro chegam antes ou depois do desastre, e o que a Comissão tem de propor para mudar isso.",
+   "axis": {
+    "pro": "A lei e o dinheiro têm de chegar antes do desastre, com fontes de recursos próprias para a prevenção.",
+    "contra": "O esforço maior continua sendo a resposta depois que o desastre acontece.",
+    "pro_plain": "O dinheiro e a lei precisam chegar antes do desastre, não depois que ele já aconteceu.",
+    "contra_plain": "Na prática o esforço maior continua sendo socorrer depois que o desastre acontece."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Quem a assistência atende",
+   "description": "Discute-se se a assistência social na emergência deve seguir focada nos desastres climáticos ou atender também outras situações.",
+   "axis": {
+    "pro": "A lei tem de mudar para atender também estiagem, crise migratória, ianomâmis e pessoas em situação de rua.",
+    "contra": "A assistência deve seguir focada nos desastres climáticos e no público já previsto.",
+    "pro_plain": "A lei precisa valer também para a seca, para os migrantes e para quem vive na rua.",
+    "contra_plain": "A assistência deve continuar concentrada nas enchentes, nos deslizamentos e no público já previsto."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Obras de contenção de encostas",
+   "description": "Discute-se se o caminho é obra que segure a encosta e mantenha a família no lugar, ou retirar a família da área de risco.",
+   "axis": {
+    "pro": "A obra é feita para a família que mora ali, para dar segurança à moradia e evitar a remoção.",
+    "contra": "O recurso tem de garantir também a retirada das famílias que moram em área de risco.",
+    "pro_plain": "A obra serve para a família continuar na sua casa, com mais segurança.",
+    "contra_plain": "O dinheiro também tem de servir para tirar a família da área de risco."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Chegar o recurso ao Município",
+   "description": "Discute-se por que os apoios federais não chegam aos Municípios: falta de informação, falta de gente habilitada e gargalos no repasse.",
+   "axis": {
+    "pro": "Os Municípios não conseguem acessar os recursos e o Governo tem de orientar, capacitar e destravar o repasse.",
+    "contra": "As orientações já estão publicadas e o Ministério tem os dados, basta o Município procurar.",
+    "pro_plain": "Os Municípios não sabem como pedir o dinheiro, e o Governo precisa ensinar e destravar o caminho.",
+    "contra_plain": "As orientações já estão publicadas e o Ministério tem os dados, basta o Município pedir."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Fontes de recursos e orçamento",
+   "description": "Discute-se se o dinheiro disponível para prevenção dá conta da demanda dos Municípios e de onde devem vir novas fontes.",
+   "axis": {
+    "pro": "O que há hoje é pouco diante da demanda e é preciso mais orçamento e fontes próprias.",
+    "contra": "O orçamento disponível já dá conta e o problema está na execução, não no valor.",
+    "pro_plain": "O dinheiro para prevenir desastres é pouco perto do que os Municípios pedem.",
+    "contra_plain": "O dinheiro já existe e o problema é tocar as obras, não o tamanho do orçamento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Repasse para alojamentos provisórios",
+   "description": "Discute-se se o repasse por grupo de pessoas acolhidas em alojamento provisório dá conta do socorro imediato às famílias.",
+   "axis": {
+    "pro": "O repasse mensal por grupo de pessoas acolhidas, com os adicionais, sustenta o acolhimento.",
+    "contra": "O valor é baixo diante do tamanho da necessidade das famílias desabrigadas.",
+    "pro_plain": "O repasse por grupo de pessoas acolhidas dá conta de manter o alojamento funcionando.",
+    "contra_plain": "O valor é baixo perto do que uma família desabrigada precisa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Aluguel social e perda da casa",
+   "description": "Discute-se se o país precisa de uma regra nacional para o aluguel social pago a quem perde a casa num desastre.",
+   "axis": {
+    "pro": "É preciso um regramento nacional para o aluguel social, hoje insuficiente e sem reajuste.",
+    "contra": "O aluguel social é assunto de cada Município e não precisa de regra nacional.",
+    "pro_plain": "Quem perde a casa precisa de uma regra nacional para o aluguel social.",
+    "contra_plain": "Cada Município resolve o aluguel social do seu jeito, sem regra nacional."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da Comissão Especial de Prevenção e Auxílio a Desastres e Calamidades Naturais",
+   "org": "Câmara dos Deputados",
+   "basis": "o registro `Presidente` junta dois deputados: Leo Prates abre a reunião em b001.0, avisa em b001.27 que vai se ausentar e convida em b001.33 o autor do requerimento, o Deputado Gilson Daniel, para presidir a audiência, que se identifica em b005.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão especial da Câmara criada para estudar como prevenir e socorrer diante de desastres e calamidades"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenadora de Serviços de Proteção em Calamidades Públicas e Emergências, da Secretaria Nacional de Assistência Social",
+   "org": "MDS",
+   "basis": "apresentada pela presidência em b001.18 e se identifica em b002.1 a b002.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Desenvolvimento e Assistência Social",
+   "org_plain": "ministério federal responsável pela assistência social, pelo Bolsa Família e pelo combate à fome"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Obras e diretor substituto do departamento, na Secretaria Nacional de Periferias",
+   "org": "Ministério das Cidades",
+   "basis": "apresentado pela presidência em b001.19 e se identifica em b004.8 a b004.11",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério das Cidades",
+   "org_plain": "ministério federal que cuida de moradia, saneamento, mobilidade urbana e obras nas periferias"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata (Jorge Goetten. PL - SC) e a fala b006.3, em que se dirige aos colegas de Comissão",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Santa Catarina",
+   "org_plain": "casa do Congresso Nacional em que os deputados fazem e votam as leis"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata (Tarcísio Motta. Bloco/PSOL - RJ) e b009.11, em que fala da sua cidade do Rio de Janeiro",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional em que os deputados fazem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.4
+   },
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   }
+  ],
+  "basis": "não há registro de plateia nem de palmas. A única pista é b004.2, em que o expositor cumprimenta os cidadãos presentes, os assessores e os servidores da Casa",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência da Comissão Especial e cobra fontes de recursos próprias para a prevenção, porque as medidas provisórias só chegam depois que o desastre acontece.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    22,
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país precisa de fontes de recursos próprias para a prevenção e de uma lei que proteja os mais vulneráveis.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desafio da Comissão é criar um arcabouço legal que proteja os mais vulneráveis nas enchentes e nas secas",
+     "plain": "O nosso grande desafio é criar uma lei que proteja os mais vulneráveis nessas enchentes e nessas secas. Nós imaginamos o que é não chegar a um médico na Amazônia porque os rios secaram, ou perder no Sul o comércio da família."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o país precisa organizar fontes de recursos próprias para a prevenção, porque as medidas provisórias só chegam depois do desastre",
+     "plain": "O País precisa organizar fontes de recursos próprias para a prevenção de desastres. Ao longo dos anos só nos chegam medidas provisórias depois que o desastre aconteceu, depois que se perdem vidas e patrimônio."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      39
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "é preciso levar aos Estados recursos que garantam a segurança e também a retirada das famílias que moram em área de risco",
+     "plain": "A nossa intenção é levar aos Estados que mais sofrem com desastres o dinheiro que dê segurança às famílias moradoras de área de risco e que permita tirar essas famílias de lá."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta o papel da assistência social na emergência e defende mudar a lei para atender também estiagem, crise migratória, ianomâmis e pessoas em situação de rua.",
+   "quote": [
+    74,
+    75,
+    76
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei da assistência social precisa ser mudada para atender todas as situações de emergência, e não só os desastres climáticos.",
+    "sentence": 83
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      74,
+      75,
+      76
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "desastre não é só tempestade ou ciclone: é também a estiagem severa do Norte e a crise migratória dos venezuelanos",
+     "plain": "Desastre não é só tempestade ou ciclone. É também a estiagem, como a estiagem severa que atingiu a Região Norte no último semestre do ano passado. E é a crise migratória que temos hoje, com o atendimento dos venezuelanos."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o repasse é de 20 mil reais por grupo de 50 pessoas acolhidas, por mês, durante os 6 meses da emergência e mais 12 se preciso",
+     "plain": "São 20 mil reais para cada grupo de 50 pessoas. O dinheiro vai todo mês para o gestor enquanto houver famílias nos alojamentos, durante os 6 meses da emergência, e pode ser prorrogado por mais 12 meses."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      82,
+      83
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a legislação hoje está focada nos desastres climáticos e o Ministério trabalha para alterá-la e ampliar o atendimento",
+     "plain": "A nossa legislação hoje só olha para os desastres climáticos, porque o dinheiro que mandamos aos Municípios é para manter alojamentos provisórios. Estamos mudando essa lei para ampliar o atendimento e não ficar só nesse ponto."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Vera Campelo e passa a palavra a Pedro Henrique Lopes Batista, do Ministério das Cidades.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que as obras de contenção de encostas são para as famílias que moram na área de risco e mostra que a demanda supera em muito o orçamento do novo PAC.",
+   "quote": [
+    45,
+    46,
+    47
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A obra de contenção de encosta serve para manter a família na moradia com segurança, e não para removê-la.",
+    "sentence": 45
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as obras de contenção de encostas são para as famílias que moram na área de risco, porque qualificam a moradia e evitam a remoção",
+     "plain": "A obra de contenção de encosta não é feita para a encosta, é feita para as famílias que moram ali, na área de risco. Ela é o nosso Minha Casa, Minha Vida, porque dá segurança à moradia e evita que a família seja removida."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ninguém escolhe morar em área de risco e não se pode deixar que as famílias sejam removidas e fiquem desalojadas",
+     "plain": "Ninguém está em área de risco porque escolheu estar. Quem não tem outra opção precisa que o poder público lhe dê uma. Não podemos deixar que essas famílias sejam removidas e fiquem desalojadas."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      88,
+      89,
+      90
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 513 propostas somando cerca de 9 bilhões de reais e o novo PAC tem 1,6 bilhão, então ainda é preciso cortar muito",
+     "plain": "Estamos analisando as propostas do novo PAC. São 513 propostas, somando cerca de 9 bilhões de reais, e o programa tem 1,6 bilhão. Para chegar nesse valor ainda temos que cortar muito, porque a demanda dos Municípios é enorme."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a apresentação, registra a presença dos deputados e abre a palavra para as perguntas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra que as informações sobre os apoios federais cheguem aos Municípios, que muitas vezes não sabem que essas ajudas existem.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os apoios do Governo não chegam aos Municípios porque falta informação sobre como pedi-los.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      1
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os Municípios têm dificuldade de saber dos apoios que o Governo oferece, e essas ajudas não chegam por falta de informação",
+     "plain": "Precisamos levar essas informações aos nossos Municípios. Muitas vezes eles têm dificuldade de saber dos apoios que o Governo e o Ministério oferecem, e essas ajudas não chegam por falta de informação."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o trabalho da Comissão deve resultar em políticas públicas que ataquem as causas desses eventos climáticos",
+     "plain": "Esta Comissão tem um papel muito importante. Acredito que o trabalho dela vai resultar em políticas públicas que ataquem, principalmente, as causas desses eventos climáticos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta sobre o repasse de 20 mil reais, sugere vídeo instrucional aos Municípios e diz que 38 contratos de encostas é muito pouco.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério das Cidades precisa avançar muito além dos 38 contratos de contenção de encostas em andamento.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o valor é baixo para 50 pessoas desabrigadas, mas ajuda o Município a comprar alimentos, colchões e materiais básicos",
+     "plain": "Eu fui Prefeito por 8 anos e sei que o Município muitas vezes não sabe como captar esse recurso. É um valor baixo para 50 pessoas desabrigadas, mas ajuda quem tem dificuldade financeira a comprar alimentos e colchões."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério deveria fazer um vídeo instrucional com o passo a passo para os Municípios acessarem os recursos em caso de desastre",
+     "plain": "Sugiro que o Ministério do Desenvolvimento Social faça um vídeo instrucional para mandar aos Municípios, com o passo a passo de como acessar os recursos em caso de desastre. A deficiência técnica nos Municípios é muito grande."
+    },
+    {
+     "id": "b007c3",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "38 contratos é muito pouco para o tamanho das calamidades no país e o Ministério das Cidades tem de avançar mais",
+     "plain": "38 contratos é muito pouco para o que estamos vivendo no País. Basta ver São Paulo, o Rio de Janeiro, o Rio Grande do Sul, Santa Catarina e o meu Espírito Santo. O Ministério das Cidades tem de avançar mais nisso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Detalha a conta do repasse aos alojamentos provisórios, com adicionais de até 40%, e lembra que as orientações ao gestor já estão publicadas.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O repasse mensal por grupo de pessoas acolhidas, com os adicionais, é o que sustenta o alojamento provisório.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com 200 pessoas num alojamento provisório o Município recebe 80 mil reais por mês, na conta de 20 mil para cada 50",
+     "plain": "O repasse é de 20 mil reais para cada grupo de 50 pessoas. Se o Município estiver atendendo 200 pessoas num alojamento provisório, ele recebe 80 mil reais por mês."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "somando o público vulnerável e a Lei de Benefícios Eventuais, o Município pode chegar a um acréscimo de 40% sobre o valor",
+     "plain": "Se mais de 50% das pessoas acolhidas forem público vulnerável, o Município ganha mais 10%. Se ele for contemplado pela Lei de Benefícios Eventuais, mais 10%. Ao todo, pode chegar a 40% de acréscimo sobre o valor."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      18
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Ministério já divulgou o primeiro fascículo da revista Emergências no SUAS com o passo a passo para o gestor municipal",
+     "plain": "Em dezembro do ano passado já divulgamos o primeiro fascículo da revista Emergências no SUAS: o que fazer? Ela traz, em linguagem simples, o passo a passo do que o gestor municipal precisa fazer e a documentação necessária."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pede a lista dos contratos e cobra um regramento nacional para o aluguel social, que no Rio de Janeiro é de 400 reais desde 2010.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 12,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país precisa de uma regra para o aluguel social, hoje insuficiente e sem reajuste.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso um regramento para o aluguel social, um dos poucos instrumentos de quem perde a casa até ter nova moradia digna",
+     "plain": "Precisamos avançar com o Governo Federal e com esta Câmara em algum regramento para o aluguel social. Ele é um dos poucos instrumentos que existem para quem perde a casa e ainda espera por uma nova moradia digna."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o valor do aluguel social é insuficiente e nunca sobe, e no Rio de Janeiro é de 400 reais, o mesmo valor desde 2010",
+     "plain": "O valor do aluguel social é insuficiente e nunca sobe. No Rio de Janeiro, o IPTU aumenta todo ano, mas o aluguel social continua em 400 reais, o mesmo valor desde 2010. Precisamos de alguma regra sobre isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Deputado Tarcísio Motta e devolve a palavra a Pedro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b011",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a carteira já chegou a 75 instrumentos de repasse e aponta o gargalo do repasse pela Caixa Econômica Federal.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A carteira de contratos precisa crescer, e o repasse do recurso hoje trava no caminho até o Município.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a carteira já chegou a 75 instrumentos de repasse, que somavam 2,2 bilhões de reais, e hoje restam 38",
+     "plain": "A nossa carteira já foi maior, chegou a 75 instrumentos de repasse, que somavam 2,2 bilhões de reais, e mesmo isso era pouco. Executamos quase a metade e sobraram esses 38 instrumentos. Precisamos de mais."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há gargalos no repasse pela Caixa Econômica Federal, mandatária da União, e por isso é bem difícil repassar o recurso",
+     "plain": "Há gargalos na operação que fazemos junto à Caixa Econômica Federal, que é a mandatária da União para descentralizar os recursos. Todos os programas do Ministério das Cidades passam pela Caixa, e também temos problemas com ela."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "boa parte dos 38 contratos vem das seleções antigas do PAC, de 2010, 2011 e 2012, e parou por problemas com a Prefeitura",
+     "plain": "Boa parte desses 38 contratos vem das seleções antigas do PAC, de 2010, 2011 e 2012. Eles evoluíram bem por um tempo, mas pararam por problemas com a Prefeitura na tomada de recursos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Propõe um seminário na Marcha dos Prefeitos para orientar Municípios sobre os recursos da COVID parados em conta e pergunta se o Ministério tem esse levantamento.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os Municípios precisam de orientação presencial para aplicar os recursos que já estão parados em conta.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Marcha dos Prefeitos reúne mais de 5 mil Prefeitos e poderia abrigar um seminário que oriente os Municípios a aplicar esses recursos",
+     "plain": "A Marcha dos Prefeitos em Brasília reúne mais de 5 mil Prefeitos e gestores. Dentro dela poderíamos fazer um seminário para os profissionais de assistência social e para os gestores de convênios, orientando como aplicar esses recursos."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há Municípios com milhões de reais do recurso da COVID parados em conta que não sabem como aplicá-los",
+     "plain": "Vou sugerir ao presidente da CNM que a Marcha dos Prefeitos trate também do recurso da COVID na saúde, e não só na assistência social, porque há Municípios com milhões de reais parados em conta que não sabem como aplicá-los."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "uma emenda aprovada em plenário priorizou, no repasse do FNDE para obras paralisadas, os Municípios em calamidade e emergência",
+     "plain": "Fiz uma emenda a uma medida provisória sobre a retomada de obras paralisadas do FNDE, como creches e escolas. Ela prioriza no repasse as Prefeituras de Municípios em calamidade e emergência, e foi aprovada em plenário."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Confirma que o Ministério tem a relação dos Municípios com recurso em conta e que basta solicitá-la.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Ministério já tem a relação detalhada por Município e basta o pedido para entregá-la.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Ministério tem a relação e todas as informações detalhadas por Município, basta solicitá-las",
+     "plain": "Sim, Deputado, nós temos essa relação. É só pedir ao Ministério: ele tem tudo detalhado por Município."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados e aos deputados e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 74,
+   "to_sentence": 28,
+   "from_claim": "b002c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "A presidência pôs como desafio criar uma lei que proteja os vulneráveis nas enchentes e nas secas, e o Ministério amplia a lista do que conta como desastre, incluindo a estiagem e a crise migratória."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 47,
+   "to_sentence": 39,
+   "from_claim": "b004c2",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "A presidência falou em levar recursos que garantam também a retirada das famílias das áreas de risco, e o Ministério das Cidades sustenta o contrário: a obra existe justamente para que a família não seja removida."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 88,
+   "to_sentence": 37,
+   "from_claim": "b004c3",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A presidência disse que falta fonte de recurso para a prevenção, e o Ministério mostra o tamanho do buraco: as propostas somam cerca de 9 bilhões e o programa tem 1,6 bilhão."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 28,
+   "from_claim": "b006c2",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "A presidência abriu dizendo que o desafio é criar uma lei de proteção, e o deputado catarinense aposta que o trabalho da Comissão vai virar política pública contra as causas dos eventos climáticos."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 1,
+   "from_claim": "b007c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O deputado catarinense disse que os apoios não chegam por falta de informação, e a presidência confirma pela experiência de prefeito que o Município não sabe como captar o recurso."
+  },
+  {
+   "from": "b007",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 35,
+   "from_claim": "b007c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "O Ministério explicou o repasse por grupo de pessoas acolhidas, e a presidência diz que o valor é baixo, mas ainda assim ajuda o Município a comprar alimentos e colchões."
+  },
+  {
+   "from": "b007",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 89,
+   "from_claim": "b007c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "O Ministério disse que ainda terá de cortar muito para caber no orçamento do programa, e a presidência vai além: 38 contratos é pouco demais para o tamanho das calamidades no país."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "À pergunta da presidência sobre o repasse, o Ministério detalha a conta: com 200 pessoas num alojamento o Município recebe 80 mil reais por mês."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 1,
+   "from_claim": "b008c3",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Ao reparo de que os apoios não chegam por falta de informação, o Ministério responde que já publicou o primeiro fascículo da revista com o passo a passo para o gestor."
+  },
+  {
+   "from": "b009",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 47,
+   "from_claim": "b009c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O Ministério das Cidades defendeu que a família não seja removida, e o deputado do Rio lembra o outro lado: quem perde a casa depende do aluguel social até ter moradia digna."
+  },
+  {
+   "from": "b011",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 23,
+   "from_claim": "b011c1",
+   "to_claim": "b007c3",
+   "strength": "forte",
+   "note": "À cobrança de que 38 contratos é pouco, o Ministério das Cidades responde que a carteira já chegou a 75 instrumentos, com 2,2 bilhões de reais, e que mesmo assim era pouco."
+  },
+  {
+   "from": "b011",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 1,
+   "from_claim": "b011c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "O deputado disse que as ajudas não chegam aos Municípios, e o Ministério das Cidades aponta um gargalo do lado de cá: o repasse passa todo pela Caixa e é bem difícil."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 18,
+   "from_claim": "b012c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "O Ministério lembrou que já publicou o passo a passo, e a presidência propõe levar essa orientação à Marcha dos Prefeitos, onde o corpo técnico das Prefeituras estará reunido."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 21,
+   "from_claim": "b013c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "À pergunta sobre o levantamento dos Municípios que ainda têm recurso da COVID em conta, o Ministério responde que tem essa relação e que basta pedir."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b006"
+   ],
+   "claims": [
+    "b001c1",
+    "b001c2",
+    "b006c2"
+   ],
+   "note": "A presidência e o deputado catarinense concordam que o trabalho da Comissão tem de virar lei e política pública que ataquem as causas, e não só socorram depois do desastre."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b007",
+    "b011",
+    "b012"
+   ],
+   "claims": [
+    "b006c1",
+    "b007c2",
+    "b011c2",
+    "b012c1"
+   ],
+   "note": "Deputado, presidência e o próprio Ministério das Cidades concordam que o recurso federal trava antes de chegar ao Município, por falta de informação e por gargalo no repasse."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b007",
+    "b011",
+    "b012"
+   ],
+   "claims": [
+    "b004c3",
+    "b007c3",
+    "b011c1",
+    "b012c3"
+   ],
+   "note": "O Ministério das Cidades e a presidência concordam que o dinheiro disponível não dá conta, porque a demanda dos Municípios é muitas vezes maior do que a carteira em andamento."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b002",
+    "b007",
+    "b008"
+   ],
+   "claims": [
+    "b002c2",
+    "b008c1",
+    "b008c2"
+   ],
+   "note": "O Ministério e a presidência tratam o repasse por alojamento provisório como o instrumento de socorro imediato, mesmo com a presidência achando o valor baixo."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b007",
+   "sentence": 5,
+   "addressed_to": "governo",
+   "answered_by": "b008",
+   "gist": "um vídeo instrucional para orientar os Municípios a acessar os recursos",
+   "plain": "O Ministério vai fazer um vídeo com o passo a passo para os Municípios acessarem os recursos?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b007",
+   "sentence": 12,
+   "addressed_to": "governo",
+   "answered_by": "b008",
+   "gist": "uma nota orientando os Municípios sobre os saldos da COVID",
+   "plain": "O Ministério vai publicar uma nota dizendo aos Municípios o que fazer com o dinheiro da COVID parado em conta?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b007",
+   "sentence": 26,
+   "addressed_to": "governo",
+   "answered_by": "b011",
+   "gist": "financiar os planos de redução de risco dos Municípios que não os têm",
+   "plain": "O Ministério vai financiar os planos de redução de risco dos Municípios que não conseguem fazê-los?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b009",
+   "sentence": 12,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "um regramento nacional para o aluguel social",
+   "plain": "Vai haver uma regra nacional para o aluguel social de quem perde a casa num desastre?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b012",
+   "sentence": 21,
+   "addressed_to": "governo",
+   "answered_by": "b013",
+   "gist": "o levantamento dos Municípios que ainda têm recurso da COVID em conta",
+   "plain": "O Ministério tem o levantamento dos Municípios que ainda têm recurso da COVID parado em conta?",
+   "theme": "d4",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 47,
+   "gist": "o Fundo Nacional para Calamidades foi criado em 1969",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 49,
+   "gist": "50% das apostas não reclamadas em 90 dias vão ao fundo",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 35,
+   "gist": "20 mil reais para cada grupo de 50 pessoas acolhidas",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 37,
+   "gist": "o repasse pode ser prorrogado por mais 12 meses",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 44,
+   "gist": "a carteira do novo PAC Encostas é de 1,6 bilhão de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 74,
+   "gist": "38 termos de compromisso somam 1,7 bilhão de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b004",
+   "sentence": 81,
+   "gist": "19 milhões de reais para soluções baseadas na natureza",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b004",
+   "sentence": 88,
+   "gist": "513 propostas do novo PAC somam cerca de 9 bilhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b004",
+   "sentence": 99,
+   "gist": "20 planos municipais de redução de riscos com a FIOCRUZ",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 12,
+   "gist": "o acréscimo sobre o valor pode chegar a 40%",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b009",
+   "sentence": 11,
+   "gist": "o aluguel social no Rio é de 400 reais desde 2010",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b011",
+   "sentence": 4,
+   "gist": "75 instrumentos de repasse somavam 2,2 bilhões de reais",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "governo",
+   "mesa"
+  ],
+  "angle": "A matéria escolheu o balanço dos dois ministérios, com destaque para os contratos de contenção de encostas em execução e para os repasses de socorro à população.",
+  "omitted": "Ficou de fora a cobrança do deputado do Rio por uma regra nacional de aluguel social, parado em 400 reais desde 2010, e o gargalo do repasse pela Caixa."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A obra existe para a família ficar, não para sair",
+   "statement_plain": "A obra de contenção de encosta é feita para as famílias que moram ali, para dar segurança à moradia e evitar que elas sejam removidas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c2",
+    "b009c1",
+    "b009c2"
+   ],
+   "note": "Cruza o Ministério das Cidades e um deputado do Rio de Janeiro, que chegam ao mesmo ponto por caminhos diferentes: manter a família na moradia ou ampará-la até a nova casa."
+  },
+  {
+   "id": "t2",
+   "title": "Tirar as famílias da área de risco é parte da saída",
+   "statement_plain": "É preciso levar aos Estados recursos que garantam a segurança de quem mora em área de risco e também a retirada dessas famílias.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b001c1",
+    "b001c2",
+    "b006c2"
+   ],
+   "note": "É a leitura da presidência da Comissão, acompanhada pelo deputado catarinense na parte da lei, e é o ponto em que o Ministério das Cidades discorda na sala."
+  },
+  {
+   "id": "t3",
+   "title": "Desastre não é só o desastre climático",
+   "statement_plain": "A lei da assistência social precisa mudar para atender também a estiagem, a crise migratória e quem vive na rua, e não só tempestade e ciclone.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b001c1"
+   ],
+   "note": "Junta o Ministério do Desenvolvimento Social, que quer mudar a própria lei, e a presidência, que abriu a audiência falando das secas da Amazônia."
+  },
+  {
+   "id": "t4",
+   "title": "O dinheiro trava antes de chegar ao Município",
+   "statement_plain": "Os apoios federais existem, mas não chegam: falta informação no Município, falta gente habilitada e o repasse emperra no caminho.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b007c2",
+    "b011c2",
+    "b012c1",
+    "b012c2",
+    "b011c3"
+   ],
+   "note": "É a tese que mais cruza a sala: um deputado, a presidência e o próprio Ministério das Cidades apontam o mesmo entrave, cada um do seu lado do balcão."
+  },
+  {
+   "id": "t5",
+   "title": "Falta fonte de dinheiro para a prevenção",
+   "statement_plain": "O país precisa de fontes de recursos próprias para a prevenção, porque a demanda dos Municípios é muitas vezes maior do que o que há no programa.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b007c3",
+    "b011c1",
+    "b012c3",
+    "b001c2"
+   ],
+   "note": "Cruza o balcão: quem executa o programa é quem traz o número que sustenta a cobrança da Comissão por mais orçamento."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "PAC",
+   "fala": "b001",
+   "sentence": 45,
+   "plain": "Programa de Aceleração do Crescimento, o pacote federal de obras de infraestrutura, com dinheiro do Orçamento e de financiamento"
+  },
+  {
+   "term": "Fundo Nacional para Calamidades Públicas",
+   "fala": "b001",
+   "sentence": 46,
+   "plain": "fundo federal que junta dinheiro para socorrer Estados e Municípios atingidos por desastres"
+  },
+  {
+   "term": "SUAS",
+   "fala": "b002",
+   "sentence": 3,
+   "plain": "Sistema Único de Assistência Social, a rede pública de serviços e benefícios de assistência, nos moldes do SUS"
+  },
+  {
+   "term": "calamidade pública",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "reconhecimento oficial de que o desastre passou da capacidade do Município e que libera regras e recursos especiais"
+  },
+  {
+   "term": "alojamentos provisórios",
+   "fala": "b002",
+   "sentence": 34,
+   "plain": "lugares onde as famílias desabrigadas ficam até poder voltar para casa, como escolas, ginásios, casas alugadas ou pousadas"
+  },
+  {
+   "term": "BPC",
+   "fala": "b002",
+   "sentence": 47,
+   "plain": "Benefício de Prestação Continuada, um salário mínimo por mês pago a pessoas idosas e a pessoas com deficiência de baixa renda"
+  },
+  {
+   "term": "Defesa Civil",
+   "fala": "b002",
+   "sentence": 58,
+   "plain": "órgão que coordena a resposta a desastres, do alerta ao socorro e à volta à normalidade"
+  },
+  {
+   "term": "FGTS",
+   "fala": "b004",
+   "sentence": 71,
+   "plain": "Fundo de Garantia do Tempo de Serviço, a poupança que o empregador deposita em nome do trabalhador e que também financia habitação"
+  },
+  {
+   "term": "Pró-Moradia",
+   "fala": "b004",
+   "sentence": 71,
+   "plain": "linha de financiamento com dinheiro do FGTS para obras de moradia e urbanização em áreas pobres"
+  },
+  {
+   "term": "soluções baseadas na natureza",
+   "fala": "b004",
+   "sentence": 77,
+   "plain": "obras que imitam a natureza, com mais infiltração de água e mais áreas verdes, para a cidade aguentar melhor as chuvas"
+  },
+  {
+   "term": "SBN",
+   "fala": "b004",
+   "sentence": 77,
+   "plain": "sigla de soluções baseadas na natureza, as obras que imitam a natureza para a cidade aguentar melhor as chuvas"
+  },
+  {
+   "term": "SINAPI",
+   "fala": "b004",
+   "sentence": 123,
+   "plain": "tabela oficial de preços de obras usada para orçar quanto o Governo Federal paga em cada serviço"
+  },
+  {
+   "term": "aluguel social",
+   "fala": "b009",
+   "sentence": 8,
+   "plain": "ajuda em dinheiro para quem perdeu a casa pagar um aluguel até ter outra moradia"
+  },
+  {
+   "term": "mandatária da União",
+   "fala": "b011",
+   "sentence": 7,
+   "plain": "banco que a União contrata para cuidar do repasse e da fiscalização do dinheiro das obras"
+  },
+  {
+   "term": "PMRRs",
+   "fala": "b011",
+   "sentence": 12,
+   "plain": "sigla de planos municipais de redução de riscos, os mapas que mostram onde o Município corre risco de deslizamento e enchente"
+  }
+ ]
+}

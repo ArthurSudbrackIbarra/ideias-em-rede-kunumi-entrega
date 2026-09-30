@@ -1,0 +1,2208 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 128,
+ "model": "LLM lendo o prompt hearing-128 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T22:20:20Z",
+ "prompt_sha256": "f8b2e64c0c8e77b3844da2c97d8374fb09b9862b714b718af88e80838118f8a3",
+ "sentences_hash": "3dbb42988e8b29d2",
+ "review": {
+  "pairs_read": 45,
+  "pairs_fixed": 10
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Desenvolvimento Econômico debateu a Portaria nº 3.665, de 2023, editada pelo Ministério do Trabalho e Emprego, que retirou a autorização permanente para o comércio abrir aos domingos e feriados e passou a exigir convenção coletiva. Entidades patronais, a representante dos comerciários e três deputados discutiram se a mudança traz insegurança jurídica ou devolve o tema à negociação entre sindicatos. O ministério foi convidado e não compareceu.",
+ "stakes": "Se a Câmara derruba a portaria pelo projeto que já teve urgência aprovada ou espera a mesa de negociação aberta até março.",
+ "central_question": "A abertura do comércio aos domingos e feriados deve depender de convenção coletiva ou valer em caráter permanente por lei?",
+ "synopsis_plain": "Uma comissão da Câmara discutiu a portaria do Ministério do Trabalho que tirou a autorização permanente do comércio para abrir aos domingos e feriados e passou a exigir acordo entre sindicatos. Entidades de empresas, a representante dos comerciários e três deputados divergiram sobre se isso cria insegurança ou devolve o assunto à negociação. O ministério não foi à audiência.",
+ "stakes_plain": "Se a Câmara derruba a portaria ou espera a mesa de negociação aberta até março.",
+ "central_question_plain": "Abrir o comércio no domingo e no feriado deve depender de acordo entre sindicatos ou valer sempre, por lei?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Impacto da portaria na economia",
+   "description": "O efeito de fechar o comércio nos feriados sobre as vendas, o emprego, a arrecadação e a rotina de quem consome e de quem trabalha.",
+   "axis": {
+    "pro": "Fechar o comércio nos feriados tira venda, emprego e arrecadação.",
+    "contra": "O domingo e o feriado são o descanso e o convívio familiar do trabalhador, e isso também pesa.",
+    "pro_plain": "Loja fechada no feriado é menos venda, menos vaga de emprego e menos imposto.",
+    "contra_plain": "O domingo e o feriado são o descanso e o tempo com a família de quem trabalha no comércio."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Negociação coletiva e autorização permanente",
+   "description": "Se abrir no feriado depende de uma convenção coletiva negociada antes, ou se a autorização deve valer de forma permanente, dada por lei.",
+   "axis": {
+    "pro": "Abrir aos domingos e feriados depende de convenção coletiva negociada antes.",
+    "contra": "A autorização para funcionar aos domingos e feriados deve valer em caráter permanente, por lei.",
+    "pro_plain": "Só dá para abrir no feriado se o sindicato do trabalhador e o do patrão combinarem antes.",
+    "contra_plain": "A lei deveria liberar de uma vez, e a empresa abre quando quiser, sem depender de nova negociação."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Segurança jurídica da portaria",
+   "description": "Se a portaria deixou o comércio sem saber se pode funcionar, ou se apenas tirou do governo o poder de listar quais atividades podem abrir.",
+   "axis": {
+    "pro": "A portaria criou insegurança jurídica e precisa ser derrubada.",
+    "contra": "A portaria não cria insegurança, ela tira do ministério o poder de intervir.",
+    "pro_plain": "Depois da portaria, o comerciante não sabe mais se pode abrir, e isso trava investimento.",
+    "contra_plain": "A portaria não confunde nada. Ela só impede o governo de dizer quem pode e quem não pode abrir."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Método de edição da portaria",
+   "description": "A publicação da portaria na véspera de um feriado, sem consulta prévia às entidades e sem prazo para negociar.",
+   "axis": {
+    "pro": "A portaria saiu sem consulta prévia e sem prazo, e esse é o erro central.",
+    "contra": "O procedimento foi adequado e a mudança podia valer desde logo.",
+    "pro_plain": "A portaria saiu de surpresa, na véspera de um feriado, sem ouvir ninguém e sem dar prazo.",
+    "contra_plain": "O jeito como a portaria foi publicada não tem problema, e a regra podia valer logo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Atividades essenciais e funcionamento contínuo",
+   "description": "Quais atividades precisam poder funcionar todos os dias, e se a distinção entre essencial e não essencial ainda faz sentido.",
+   "axis": {
+    "pro": "Hoje quase toda atividade do comércio e da indústria precisa poder funcionar todos os dias.",
+    "contra": "A autorização permanente deve ficar restrita às atividades realmente essenciais.",
+    "pro_plain": "Transporte, saúde e indústria funcionam todo dia. O comércio e o serviço também deveriam poder.",
+    "contra_plain": "Só quem é mesmo essencial, como farmácia e supermercado, deveria poder abrir sempre."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Papel do Congresso e da lei",
+   "description": "Se cabe ao Congresso sustar a portaria e resolver o assunto por lei, ou se a definição pertence à mesa de negociação entre sindicatos.",
+   "axis": {
+    "pro": "Cabe ao Congresso sustar a portaria e resolver o assunto por lei.",
+    "contra": "A definição pertence à negociação entre sindicatos, e não a uma lei do Congresso.",
+    "pro_plain": "É o Congresso que tem de derrubar a portaria e escrever uma lei clara sobre o assunto.",
+    "contra_plain": "Quem tem de definir isso são os sindicatos de trabalhadores e de patrões, na mesa de negociação."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Desenvolvimento Econômico",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata, identificada como Daniela Reinehr, PL - SC, autora do requerimento em b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que discute temas de economia, comércio e atividade produtiva"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Vice-Presidente da ABRAS, representando a UNECS",
+   "org": "UNECS",
+   "basis": "apresentado pela presidência em b001.15 e por ele mesmo em b004.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Unecs, entidade do comércio e serviços",
+   "org_plain": "entidade que reúne associações de supermercados, atacadistas, bares e lojistas do comércio e serviços"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, coautor do requerimento",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Saulo Pedroso, Bloco/PSD - SP, e citado como coautor em b001.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSD de São Paulo",
+   "org_plain": "Casa do Congresso que faz as leis e fiscaliza o governo federal"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Presidente em exercício do SINDILOJAS-SP e diretor suplente da FECOMERCIO-SP",
+   "org": "FECOMERCIO-SP",
+   "basis": "apresentado pela presidência em b001.14",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Fecomercio de São Paulo",
+   "org_plain": "federação que reúne os sindicatos patronais do comércio, serviços e turismo no Estado de São Paulo"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Assessora jurídica parlamentar da FECOMERCIARIOS-SP e representante da CNTC",
+   "org": "CNTC",
+   "basis": "apresentada pela presidência em b001.13 e por ela mesma em b010.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da confederação dos trabalhadores no comércio",
+   "org_plain": "Confederação Nacional dos Trabalhadores no Comércio, entidade sindical que representa os comerciários"
+  },
+  "s06": {
+   "role": "setor_privado",
+   "cargo": "Gerente de assuntos trabalhistas da CNI",
+   "org": "CNI",
+   "basis": "apresentado pela presidência em b001.12",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da confederação da indústria",
+   "org_plain": "Confederação Nacional da Indústria, entidade que representa as indústrias brasileiras"
+  },
+  "s07": {
+   "role": "setor_privado",
+   "cargo": "Advogado da divisão jurídica e sindical da CNC",
+   "org": "CNC",
+   "basis": "apresentado pela presidência em b001.11",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da confederação do comércio",
+   "org_plain": "Confederação Nacional do Comércio de Bens, Serviços e Turismo, entidade patronal do setor"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal e presidente da Federação do Comércio do Ceará",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Luiz Gastão, Bloco/PSD - CE, e por ele mesmo em b016.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSD do Ceará",
+   "org_plain": "Casa do Congresso que faz as leis e fiscaliza o governo federal"
+  }
+ },
+ "audience": {
+  "estimate": 25,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.45
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.25
+   }
+  ],
+  "basis": "a presidência registra a presença dos Deputados Adriana Ventura, Chiodini, Bia Kicis e Luiz Gastão, quase todos os convidados participam por videoconferência e não há registro de palmas",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência dizendo que a portaria invade a economia às vésperas do Natal e que o tema cabe ao empregado e ao empregador, pela lei do trabalho.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria interfere na economia e na relação entre empregado e empregador.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria invade a economia de forma muito agressiva, bem no momento em que todos se preparam para o Natal",
+     "plain": "Esta portaria nos traz uma preocupação muito séria, porque invade a nossa economia de forma muito agressiva. E ela deixa todos preocupados justamente quando todo mundo se prepara para o Natal e para outras datas especiais."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o tema cabe ao empregado e ao empregador entrarem em acordo respeitando a lei, como tem sido feito até hoje",
+     "plain": "Continuamos entendendo que este tema cabe ao empregado e ao empregador, que entram em acordo respeitando a lei do trabalho, como tem sido feito até hoje. Não dá para deixar passar algo que interfere tanto nessa relação e na economia."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério do Trabalho avisou na véspera que não viria, e a audiência foi mantida assim mesmo",
+     "plain": "O Ministério do Trabalho e Emprego foi convidado e avisou ontem que não viria, porque o Ministro e a equipe estariam no Senado. Pela importância do tema, decidimos manter a audiência mesmo assim."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Unecs agradece o convite e pede autorização para abrir a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": true,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência interrompe e pede que Marcio Milan aumente o volume de voz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que a portaria saiu na véspera de um feriado, que a Lei nº 10.101 já resolve o domingo e que fechar no feriado tira venda e emprego.",
+   "quote": [
+    38,
+    39
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria é um retrocesso que atinge parte significativa do comércio e da economia.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      9
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria foi editada na véspera de um feriado, em 14 de novembro, e trouxe insegurança grande ao comércio",
+     "plain": "O que nos surpreendeu foi a portaria ter sido editada na véspera de um feriado, em 14 de novembro. Ela trouxe uma insegurança bastante grande para o comércio inteiro."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sobre os domingos a Lei nº 10.101, de 2000, já autoriza o comércio a abrir, observada a lei do Município",
+     "plain": "Sobre os domingos, está pacificado que o comércio pode abrir sem restrição, observada a lei do Município. É o que diz a Lei nº 10.101, de 2000, com a redação da Lei nº 11.603, de 2007."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o bônus pedido pelos sindicatos para abrir no feriado pode inviabilizar a abertura e levar a desemprego e menos arrecadação",
+     "plain": "O bônus que os sindicatos pedem para abrir no feriado pode inviabilizar a abertura, e quem perde é o consumidor. Isso pode levar a desemprego, queda de vendas e menos tributo municipal e estadual. Quem não abre não precisa do mesmo quadro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida o Deputado Saulo Pedroso, coautor do requerimento, para a mesa e lhe passa a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Critica a falta de previsibilidade do Governo, cobra que mudanças não sejam feitas por portaria publicada em feriado e informa que propôs um projeto para sustar a norma.",
+   "quote": [
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria foi editada sem diálogo e mostra falta de previsibilidade do Governo.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria mostra falta de previsibilidade do Governo e afeta a segurança de quem procura o Brasil para investir",
+     "plain": "Isso sinaliza muito mal, ainda mais vindo do Ministério do Trabalho, porque mostra falta de previsibilidade e afeta quem procura o Brasil para investir. O Governo precisa mostrar o máximo de tranquilidade, clareza e objetividade."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se houver mudança, que não seja publicando uma portaria num feriado e perto das festas, quando o comércio esquenta",
+     "plain": "Se houver mudança a fazer, que não seja desse jeito, publicando uma portaria num feriado, e logo na proximidade das festas, quando o comércio esquenta. E sobre um assunto que para nós aqui já está pacificado."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério do Trabalho não veio explicar o objetivo da portaria, e por isso propus um PDL para sustar os efeitos dela",
+     "plain": "É uma pena que nenhum representante do Ministério do Trabalho esteja aqui para dizer qual era o objetivo da portaria. Essa ausência cobra do Parlamento uma posição dura, e eu propus um PDL para sustar os efeitos dela."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Aldo Macri, da Fecomercio de São Paulo, por videoconferência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a portaria infringe leis já existentes, porque decreto não vale contra lei, e defende autorização permanente para todo o comércio e serviço.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria trouxe instabilidade jurídica e não pode se sobrepor à lei.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Portaria nº 3.665, de 2023, trouxe transtorno jurídico e instabilidade para o pequeno e o grande comerciante",
+     "plain": "A Portaria nº 3.665, de 2023, trouxe transtorno e preocupação jurídica para todos. Ela atinge o dia a dia do pequeno e até do grande comerciante, com instabilidade completa no andamento e no crescimento do País."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria esbarra em infringir as leis, e nenhum decreto pode valer contra uma lei",
+     "plain": "Ela esbarra num ponto fundamental, que é infringir as leis. Nenhum decreto e nenhuma portaria podem valer contra uma lei."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a autorização para o domingo e o feriado tem de ser permanente, porque hoje todo comércio e serviço é essencial",
+     "plain": "Acho que a autorização para trabalhar no domingo e no feriado tem de ser permanente para todo o comércio e serviço. Existem ramos essenciais, mas hoje todo comércio e serviço é essencial para o consumidor, o mais prejudicado."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra dois deputados, informa a ausência do Sebrae e passa a palavra a Zilmara de Alencar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que a portaria devolve a negociação coletiva ao seu lugar, lembra a lei do comerciário e pede que o convívio familiar do trabalhador seja considerado.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A abertura no feriado é objeto típico de negociação coletiva prévia entre sindicatos.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria inverte o ponto de partida e põe a negociação coletiva antes da abertura do comércio no feriado",
+     "plain": "A portaria inverte o ponto de partida: antes de abrir o comércio no feriado, trabalhadores e empregadores precisam fazer a negociação coletiva."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei nº 12.790, de 2013, manda negociar antes qualquer mudança de jornada que afete a saúde e a segurança",
+     "plain": "Concordamos com o teor da portaria, que incentiva a negociação coletiva para definir as regras do feriado. A Lei nº 12.790, de 2013, que rege o comerciário, manda negociar antes qualquer mudança de jornada que afete saúde e segurança."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é preciso incentivar o convívio familiar, para que no feriado e no domingo o trabalhador tenha saúde mental e física",
+     "plain": "Acima de tudo, é preciso incentivar o convívio familiar, para que no feriado e no domingo o trabalhador possa de fato aproveitar a família e ter saúde mental e física adequada."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença da Deputada Bia Kicis e passa a palavra a Pablo Carneiro, da CNI.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Invoca a Lei da Liberdade Econômica, alerta que autorização permanente por portaria é precária e mostra que muitas atividades hoje precisam funcionar sem parar.",
+   "quote": [
+    35
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Toda atividade deveria ter autorização legal permanente para funcionar aos domingos e feriados.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Lei da Liberdade Econômica dá a toda pessoa jurídica o direito de funcionar em qualquer dia da semana, feriados incluídos",
+     "plain": "A Lei nº 13.874, de 2019, a Lei da Liberdade Econômica, diz no artigo 3º que toda pessoa jurídica pode exercer atividade econômica em qualquer horário ou dia da semana, feriados incluídos, sem encargo adicional."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mesmo permanente, a autorização é precária, porque pode ser cancelada a qualquer momento e deixa a indústria em insegurança",
+     "plain": "Mesmo a título permanente, essa autorização é precária, porque pode ser cancelada a qualquer momento. Isso é muito negativo para a indústria que investiu alto em máquina e não pode parar, e que de repente fica em insegurança jurídica."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      33
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a tecnologia e a integração dos mercados, muitas atividades passaram a precisar funcionar sem parar, sob risco de perder matéria-prima",
+     "plain": "Com a mudança das tecnologias e a integração dos mercados, muitas atividades passaram a precisar funcionar sem parar. Interromper a produção às vezes inviabiliza a atividade e faz perder matéria-prima e danificar equipamento."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença do Deputado Luiz Gastão e passa a palavra a Antônio Lisboa, da CNC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra segurança jurídica para o empresário investir, lembra que o tribunal do trabalho exigiu convenção coletiva para o feriado e apoia o projeto que elimina a portaria.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria só trouxe insegurança jurídica a um tema que a lei já resolvia.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso segurança jurídica para o empresário investir sabendo que vai poder exercer a sua atividade",
+     "plain": "Se a portaria deixa os próprios Poderes sem previsibilidade, imaginem a insegurança que ela provoca na relação de trabalho da iniciativa privada. Precisamos de segurança jurídica para o empresário investir sabendo que vai poder funcionar."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a SDC do TST decidiu por unanimidade que, no comércio, o trabalho em feriado só pode ser definido por convenção coletiva",
+     "plain": "Tivemos há pouco uma decisão da SDC do TST, a seção do tribunal do trabalho que julga dissídios coletivos, com a CNC defendendo essa posição. Ela foi unânime: no comércio, o trabalho em feriado só se define por convenção coletiva."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só suspender ou adiar os efeitos da portaria não resolve, porque a insegurança e a falta de previsibilidade continuam",
+     "plain": "Por isso o projeto que elimina a portaria é muito interessante. Só suspender ou adiar os efeitos dela não resolve, porque a insegurança jurídica e a falta de previsibilidade continuam."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as exposições, abre os debates e passa a palavra ao Deputado Luiz Gastão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta que o erro do ministério foi não dar prazo, mostra que a diária maior favorece a empresa grande e pergunta por que o comércio não pode abrir sempre.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": 21,
+   "stance": {
+    "position": "condicional",
+    "claim": "Cada segmento deveria poder abrir todos os dias, desde que a flexibilização venha com convenção coletiva.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério do Trabalho só errou no período de vigência, porque um prazo de 6 meses teria aberto espaço para negociar",
+     "plain": "Acho que o Ministério do Trabalho só errou num ponto da portaria, o período de vigência. Se tivesse dado um prazo, por exemplo de 6 meses até entrar em vigor, teria aberto espaço para discutir e negociar."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a empresa grande paga uma diária muito maior para abrir no feriado, e isso cria condição desproporcional contra a micro e a pequena",
+     "plain": "A empresa grande consegue pagar uma diária muito maior para abrir no feriado e no domingo, e a pequena e a micro não conseguem pagar o mesmo. Isso cria uma condição desproporcional, que favorece quem já tem mais poder econômico."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "transporte, saúde e indústria funcionam 24 horas, e não faz sentido discriminar o comércio e o serviço",
+     "plain": "Tenho sempre dito que transporte, saúde e indústria funcionam 24 horas. Por que a discriminação do comércio e do serviço, que não podem funcionar 24 horas? Ninguém aqui está defendendo obrigação de abrir."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Deputado Saulo Pedroso.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Afirma que a legislação já permite o trabalho permanente, conta o caso da estância turística que governou e pergunta quem foi ouvido antes da portaria.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 20,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria foi editada sem que as entidades fossem chamadas a discutir a necessidade dela.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      5
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o País já tem um conjunto de leis que deixa clara a possibilidade de as atividades funcionarem de maneira permanente",
+     "plain": "Mas temos no País um conjunto de leis que esclarece muito bem essa situação e deixa clara a possibilidade de as atividades funcionarem de maneira permanente."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a cidade turística que governei recebe 30% a mais do que a sua população nos fins de semana, o que aquece o comércio e o emprego",
+     "plain": "Fui Prefeito de uma estância turística do interior, uma cidade que nos fins de semana recebe 30% a mais do que a sua população. É um incentivo para aquecer o comércio, manter as vagas de emprego e abrir novas."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ninguém explicou para que serve a portaria, por que a seletividade, e se as entidades foram convidadas a discutir antes",
+     "plain": "A pergunta que fica é: para que serve essa portaria? Qual é o objetivo e por que essa seletividade? E as entidades de trabalhadores e de patrões foram convidadas a discutir a necessidade dela antes de ela sair?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confere se há mais deputados inscritos e abre as considerações finais dos expositores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b020",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que a portaria anterior restringia a negociação, que quem defende Estado não interventor deveria apoiá-la, e reconhece que o modo abrupto pode ser questionado.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria resgata a negociação coletiva e retira a intervenção do Estado no ambiente de trabalho.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria anterior restringia a negociação coletiva, quando o que se precisa é incentivar as entidades a negociar",
+     "plain": "O que tínhamos antes era uma portaria que restringia a negociação coletiva, quando o que precisamos é incentivar as entidades a negociar."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem defende um Estado que não intervém tem de defender esta portaria, que tira do ministério o poder de listar atividades",
+     "plain": "Tivemos um Estado interventor, que chega e diz que esta atividade é permanente e não precisa de negociação. Quem defende um Estado que não intervém tem de defender esta portaria, que tira do ministério o poder de listar."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o modo abrupto pode ser questionado, e o Ministro Luiz Marinho recuou e adiou a portaria a pedido das entidades",
+     "plain": "O modo abrupto pode ser questionado. Tanto que o Ministro Luiz Marinho recuou, depois de um pedido assinado em conjunto por entidades de trabalhadores e de empregadores, que a CNTC também subscreveu, e adiou a portaria."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Zilmara de Alencar conclua, porque o tempo acabou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b022",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Propõe resolver o tema por projeto de lei, contesta deixar só às entidades a definição do que é permanente e pede clareza na legislação.",
+   "quote": [
+    36,
+    37,
+    38
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 29,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Congresso deve tratar o tema por projeto de lei, e não deixá-lo só à mesa das entidades.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o caminho é debater o assunto por um projeto de lei e aprofundar o conjunto da nossa legislação",
+     "plain": "Por que não debater isso por meio de um projeto de lei? Por que não aprofundar o conjunto da nossa legislação?"
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "deixar só as entidades definirem o que é permanente é uma restrição, porque isso muda de cidade para cidade",
+     "plain": "Vejo como uma restrição deixar que só a mesa das entidades defina o que é permanente e o que não é. Isso depende da dinâmica de cada cidade, porque o que precisa ser permanente numa talvez não precise na outra."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso clareza na legislação e nas convenções, para o empresário saber a que deve obedecer para funcionar",
+     "plain": "O que precisamos é de clareza na legislação e tranquilidade para o investimento acontecer. Nas convenções coletivas e nas leis que amparam o trabalhador tem de ficar claro a que o empresário deve obedecer para funcionar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Antônio Lisboa, da CNC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Constata que a concordância é geral quanto à intempestividade, afirma que quem quer funcionar sempre tem de negociar e diz que a portaria só gerou confusão.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem quer funcionar de forma permanente tem de negociar, e a portaria não muda isso.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a concordância é geral quanto à intempestividade da portaria, porque nenhuma entidade patronal nem de trabalhadores foi ouvida antes",
+     "plain": "De fato, acho que a concordância é geral quanto à intempestividade da portaria. Nenhuma entidade patronal, nem as de trabalhadores, como a Dra. Zilmara colocou, foi ouvida antes sobre a necessidade de editá-la."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nós já queremos negociar, e quem quer funcionar de forma permanente tem de negociar",
+     "plain": "Nós já queremos negociar, e precisamos negociar. Quem quer funcionar de forma permanente tem de negociar."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "suspender essas atividades não vai gerar mais negociação, vai gerar insegurança jurídica e confusão",
+     "plain": "Para que dizer que essas atividades não podem funcionar de forma permanente? Isso não vai gerar mais negociação, vai gerar insegurança jurídica e confusão, como de fato aconteceu."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se os demais expositores querem falar e pede que Marcio Milan abra o microfone.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Unecs confirma que o microfone está aberto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o som voltou e devolve a palavra a Marcio Milan.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Registra preocupação com o prazo e pede que o diálogo continue, para que o setor tenha segurança jurídica e siga gerando emprego e renda.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 3,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O prazo dado pela portaria é apertado e o diálogo precisa continuar.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o prazo determinado põe o comércio de novo numa condição de aperto, e não se sabe se o debate cabe nesse período",
+     "plain": "Queria registrar nossa preocupação com o prazo que foi determinado, que nos põe de novo numa condição de aperto. A pergunta que faço aos colegas é se vamos conseguir vencer todo esse debate nesse período."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a falta de conhecimento e de planejamento gerou a movimentação na imprensa, e é preciso manter o diálogo por segurança jurídica",
+     "plain": "Houve uma movimentação muito grande, principalmente na imprensa, talvez por falta de conhecimento mais profundo e de planejamento. Reforço a necessidade de manter o diálogo, para termos segurança jurídica e seguir gerando emprego e renda."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se Aldo Macri quer usar a palavra de novo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a hierarquia das leis deve ser respeitada e que o feriado já é permitido em lei, desde que autorizado em convenção coletiva.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Uma portaria não pode alterar o que a lei já autoriza para o comércio.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a hierarquia das leis tem de ser respeitada, e a portaria não pode alterar a lei que já autoriza o comércio aos domingos",
+     "plain": "A Fecomercio entende que a hierarquia das leis tem de ser respeitada. Esta portaria não pode alterar as leis que já existem. O trabalho aos domingos e o comércio em geral já estão autorizados em lei."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalho em feriados é permitido em lei, desde que negociado entre patrões e empregados e autorizado em convenção coletiva",
+     "plain": "O trabalho em feriados também é permitido em lei, desde que negociado entre patrões e empregados pelos seus sindicatos e autorizado em convenção coletiva. Essa é a nossa pedra principal."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Aldo Macri e passa a palavra a Pablo Carneiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede que o Congresso libere por lei o funcionamento em qualquer dia da semana e lembra que a indústria defende a negociação coletiva ao mesmo tempo.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Congresso deve aprovar leis que liberem o funcionamento das empresas em qualquer dia da semana.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Congresso precisa liberar por lei o funcionamento das empresas em qualquer dia da semana, pelo PDL e pelo PL 5.520",
+     "plain": "Temos proposto a este Congresso liberar o funcionamento das empresas em qualquer dia da semana, em linha com a Lei da Liberdade Econômica. Por isso importa não só o PDL, mas também o PL 5.520 deste ano, da Deputada Adriana Ventura."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a CNI defende a negociação coletiva, mas defende também que a empresa possa funcionar livremente em qualquer dia da semana",
+     "plain": "A CNI sempre defendeu a negociação coletiva e o negociado sobre o legislado como forma principal de fixar as regras do ambiente de trabalho. Mas sempre defendeu também que a empresa possa funcionar livremente em qualquer dia da semana."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Informa que a urgência do projeto foi aprovada e a portaria sustada, e sustenta que sustar não basta porque falta previsibilidade para planejar.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sustar a portaria não devolve a segurança jurídica que o setor precisa para planejar.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a urgência do PDL foi aprovada e a portaria foi sustada, mas sustar não traz a segurança jurídica suficiente para planejar",
+     "plain": "Conseguimos aprovar a urgência do PDL no plenário, e logo depois o Ministério do Trabalho sustou a portaria. Mas sustar não traz a segurança jurídica suficiente para o empreendedor e o consumidor planejarem, com previsibilidade."
+    },
+    {
+     "id": "b033c2",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a portaria foi apenas sustada até março, e no recesso parlamentar, com as Casas paradas, muita coisa pode acontecer",
+     "plain": "Preocupa muito que tenha sido apenas sustado, a princípio até março, com um recesso parlamentar pela frente, em que as Casas param. Muita coisa pode acontecer nesse período."
+    },
+    {
+     "id": "b033c3",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria pegou todos de surpresa, sem amplo debate, num período em que o consumo naturalmente aumenta com as compras de Natal",
+     "plain": "Pela surpresa que a portaria trouxe a todos, não houve amplo debate nem considerações, e ainda num período em que o consumo naturalmente aumenta, com as compras de Natal e de fim de ano."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 9,
+   "from_claim": "b006c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Os dois reclamam do mesmo ponto: a portaria saiu publicada num feriado, às vésperas do período de maior movimento no comércio."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 23,
+   "from_claim": "b008c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Aldo Macri retoma a lei citada pelo representante dos supermercados para dizer que uma portaria não pode valer contra ela."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 23,
+   "from_claim": "b010c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Para o comércio a lei já resolveu o assunto. Para a representante dos comerciários a portaria apenas recoloca a negociação antes da abertura."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 26,
+   "from_claim": "b010c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Onde a federação paulista pede autorização permanente para todo o comércio, a representante dos comerciários põe a negociação prévia como condição."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 11,
+   "from_claim": "b012c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A indústria opõe o direito de funcionar em qualquer dia, escrito na Lei da Liberdade Econômica, à exigência de negociar antes."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 7,
+   "from_claim": "b012c2",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Os dois dizem que a autorização, do jeito que está, pode ser cancelada de uma hora para outra e por isso gera instabilidade."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 11,
+   "from_claim": "b014c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O advogado da confederação do comércio confirma o ponto da representante dos trabalhadores: no comércio, o feriado só se define por convenção coletiva."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 3,
+   "from_claim": "b014c1",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Mesmo concordando sobre a negociação, ele nega o efeito que ela atribui à portaria: para ele a norma só tira do empresário a certeza de que pode funcionar."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 29,
+   "from_claim": "b014c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Comércio e indústria dizem a mesma coisa: sem regra firme, quem investe não sabe se vai poder funcionar."
+  },
+  {
+   "from": "b016",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 33,
+   "from_claim": "b016c3",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "Os dois listam atividades que já funcionam sem parar e concluem que o comércio não deveria ser tratado de outro jeito."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 9,
+   "from_claim": "b016c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Para Saulo Pedroso o erro foi o modo inteiro de fazer. Para Luiz Gastão o ministério errou em um ponto só, que foi não dar prazo."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 4,
+   "from_claim": "b018c3",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Saulo Pedroso acompanha o colega no ponto do prazo e acrescenta a pergunta sobre quem foi ouvido antes de a portaria sair."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 3,
+   "from_claim": "b018c1",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "À tese da inversão, o deputado responde que o conjunto de leis já deixava clara a possibilidade de funcionar de maneira permanente."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 5,
+   "from_claim": "b020c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Ela devolve a provocação dizendo que a norma anterior é que restringia a negociação, e que o mecanismo de negociar já está no ordenamento."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 9,
+   "from_claim": "b020c2",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "Onde o advogado do comércio vê insegurança criada pela portaria, ela vê o Estado deixando de intervir e devolvendo a decisão aos sindicatos."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 21,
+   "from_claim": "b020c2",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "À liberdade econômica invocada pela indústria, ela responde que quem defende um Estado que não intervém deveria apoiar esta portaria."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 6,
+   "from_claim": "b022c2",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "Para ela o caminho é a mesa das entidades. Para o deputado, deixar só a essa mesa a definição do que é permanente é criar uma restrição."
+  },
+  {
+   "from": "b022",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 9,
+   "from_claim": "b022c3",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "Os dois põem a clareza da regra como a condição de que o investimento depende."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 26,
+   "to_sentence": 24,
+   "from_claim": "b024c3",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "Ao pedido de regra clara, o advogado responde que suspender atividades não gera negociação nenhuma, só confusão."
+  },
+  {
+   "from": "b024",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 6,
+   "from_claim": "b024c3",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "Ela diz que a portaria incentiva as entidades a negociar. Ele responde que ela não vai produzir mais negociação, e sim insegurança."
+  },
+  {
+   "from": "b024",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 6,
+   "from_claim": "b024c2",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "No mérito, porém, ele diz o mesmo que ela: quem quiser funcionar de forma permanente tem de sentar e negociar."
+  },
+  {
+   "from": "b024",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 3,
+   "from_claim": "b024c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Ele registra que a concordância da sala é justamente sobre o ponto levantado por Luiz Gastão, o momento em que a portaria saiu."
+  },
+  {
+   "from": "b030",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 11,
+   "from_claim": "b030c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A federação paulista do comércio também diz que o feriado depende de convenção coletiva, mesmo atacando a portaria."
+  },
+  {
+   "from": "b030",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 9,
+   "from_claim": "b030c1",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "Os dois sustentam que uma portaria não pode alterar a lei e que o resultado disso é insegurança jurídica."
+  },
+  {
+   "from": "b032",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 8,
+   "from_claim": "b032c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "A indústria acompanha o deputado na ideia de resolver o assunto por lei e cita os projetos que já estão na Casa."
+  },
+  {
+   "from": "b032",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 6,
+   "from_claim": "b032c2",
+   "to_claim": "b020c1",
+   "strength": "media",
+   "note": "A indústria diz defender a negociação coletiva, mas não aceita que dela dependa a própria possibilidade de a empresa abrir."
+  },
+  {
+   "from": "b033",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 44,
+   "from_claim": "b033c1",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "A presidência fecha repetindo o ponto do advogado do comércio: sustar a portaria não devolve a segurança jurídica."
+  },
+  {
+   "from": "b033",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 5,
+   "from_claim": "b033c3",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "Ela retoma o argumento do deputado de que a legislação brasileira já trata do tema, e que a portaria reabriu o que estava resolvido."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b004",
+    "b018"
+   ],
+   "claims": [
+    "b001c1",
+    "b004c3",
+    "b018c2"
+   ],
+   "note": "A presidência, o representante dos supermercados e o deputado paulista concordam que fechar o comércio no feriado tira venda, emprego e arrecadação."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b010",
+    "b014",
+    "b024",
+    "b030"
+   ],
+   "claims": [
+    "b010c2",
+    "b014c2",
+    "b024c2",
+    "b030c2"
+   ],
+   "note": "A confederação dos trabalhadores, a do comércio e a federação paulista concordam que abrir no feriado depende de convenção coletiva, mesmo divergindo sobre a portaria."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b008",
+    "b014",
+    "b022",
+    "b033"
+   ],
+   "claims": [
+    "b008c1",
+    "b014c1",
+    "b022c3",
+    "b033c1"
+   ],
+   "note": "Entidades do comércio, o deputado autor do requerimento e a presidência concordam que a portaria deixou o empresário sem saber se pode funcionar."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b016",
+    "b020",
+    "b024"
+   ],
+   "claims": [
+    "b006c2",
+    "b016c1",
+    "b020c3",
+    "b024c1"
+   ],
+   "note": "Deputados, a representante dos comerciários e a confederação do comércio concordam que a portaria saiu sem consulta prévia e sem prazo para negociar."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b008",
+    "b012",
+    "b016"
+   ],
+   "claims": [
+    "b008c3",
+    "b012c3",
+    "b016c3"
+   ],
+   "note": "A federação paulista, a indústria e o deputado cearense concordam que hoje quase toda atividade precisa poder funcionar todos os dias."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b006",
+    "b014",
+    "b022",
+    "b032"
+   ],
+   "claims": [
+    "b006c3",
+    "b014c3",
+    "b022c1",
+    "b032c1"
+   ],
+   "note": "Deputados, a confederação do comércio e a da indústria concordam que só uma lei do Congresso resolve o assunto, e não uma portaria."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b006",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "explicar qual foi o intuito e o objetivo da portaria",
+   "plain": "Qual foi o intuito e o objetivo dessa portaria do Ministério do Trabalho?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 21,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "levantar as cláusulas das convenções em cada Estado e porte de empresa",
+   "plain": "Quais são as cláusulas das convenções coletivas em cada Estado e para cada porte de empresa?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b018",
+   "sentence": 20,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "dizer se as entidades de trabalhadores e de patrões foram convidadas a debater",
+   "plain": "Na elaboração da portaria, as entidades de trabalhadores e de patrões foram convidadas a debater?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b022",
+   "sentence": 29,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "dizer que retrocesso a liberação de todas as atividades provocou",
+   "plain": "Que retrocesso a lei que liberou todas as atividades provocou para o trabalhador?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b028",
+   "sentence": 3,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "dizer se o debate vai caber no prazo aberto pelo adiamento",
+   "plain": "Vamos conseguir vencer todo esse debate dentro do prazo que foi aberto?",
+   "theme": "d4",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 2,
+   "gist": "os segmentos da Unecs somam 67% do PIB do setor",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 3,
+   "gist": "o setor detém 57% dos postos de trabalho no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 4,
+   "gist": "o setor tem 77% dos estabelecimentos ativos do País",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 9,
+   "gist": "portaria editada na véspera do feriado, em 14 de novembro",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 14,
+   "gist": "28 milhões de consumidores vão a supermercados por dia",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 22,
+   "gist": "5,7 milhões de empresas de comércio no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b004",
+   "sentence": 36,
+   "gist": "75% dos brasileiros acham importante abrir nos feriados",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 5,
+   "gist": "vigência da portaria adiada para 1º de março",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 24,
+   "gist": "44 setores da indústria com autorização permanente",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b016",
+   "sentence": 7,
+   "gist": "o deputado é sindicalista há mais de 20 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 6,
+   "gist": "a cidade recebe 30% a mais de gente nos fins de semana",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b020",
+   "sentence": 7,
+   "gist": "nos últimos 5 anos caiu a negociação sobre jornada e saúde",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "parlamentar",
+   "setor_privado",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria montou o texto em torno da insegurança jurídica e do impacto nas vendas de Natal, com o contraponto da representante dos comerciários no fim.",
+  "omitted": "Ficaram de fora a divergência entre a confederação da indústria e a do comércio sobre a exigência de convenção coletiva, a ausência do ministério na audiência e o ponto do deputado cearense sobre a diária que só a empresa grande consegue pagar."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A portaria trouxe insegurança e precisa cair",
+   "statement_plain": "Depois da portaria, o comerciante não sabe mais se pode abrir no feriado. Adiar não resolve, e só derrubar a norma devolve a previsibilidade de que o investimento depende.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b014c1",
+    "b022c3",
+    "b033c1",
+    "b014c3",
+    "b006c3"
+   ],
+   "note": "É uma ideia e não um bloco: juntam-se nela entidades patronais, dois deputados de partidos diferentes e a presidência da comissão, cada um por um caminho."
+  },
+  {
+   "id": "t2",
+   "title": "A portaria devolve o tema à negociação coletiva",
+   "statement_plain": "A portaria não tira direito de ninguém. Ela tira do governo o poder de listar quem pode abrir e devolve essa decisão à mesa onde sindicato de trabalhador e de patrão negociam.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c2",
+    "b020c1",
+    "b020c2",
+    "b014c2",
+    "b030c2"
+   ],
+   "note": "É a ideia que divide o setor patronal: a confederação do comércio e a federação paulista sustentam a mesma exigência de convenção coletiva que a entidade dos trabalhadores."
+  },
+  {
+   "id": "t3",
+   "title": "Toda atividade deveria poder funcionar todo dia",
+   "statement_plain": "Transporte, saúde e indústria funcionam todos os dias. O comércio e o serviço deveriam ter a mesma liberdade por lei, sem depender de uma nova negociação a cada vez.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b008c3",
+    "b012c3",
+    "b016c3",
+    "b012c1",
+    "b032c2",
+    "b022c2"
+   ],
+   "note": "É uma ideia que cruza a sala: a indústria, a federação paulista do comércio e dois deputados a defendem, e ela contraria a confederação do comércio no ponto da convenção."
+  },
+  {
+   "id": "t4",
+   "title": "O erro foi publicar sem aviso e sem prazo",
+   "statement_plain": "O problema principal não é o conteúdo, é o modo. A portaria saiu na véspera de um feriado, sem ouvir as entidades e sem dar prazo para que elas negociassem.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b016c1",
+    "b020c3",
+    "b024c1",
+    "b028c1",
+    "b033c3"
+   ],
+   "note": "É a única ideia que atravessa a sala inteira: deputados, entidades patronais e a representante dos comerciários dizem a mesma coisa sobre o modo de fazer."
+  },
+  {
+   "id": "t5",
+   "title": "Fechar no feriado custa venda, emprego e imposto",
+   "statement_plain": "Quando a loja não abre no feriado, o comércio deixa de vender, não precisa do mesmo quadro de funcionários e o Município e o Estado arrecadam menos.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b004c3",
+    "b018c2"
+   ],
+   "note": "É uma ideia sustentada por quem preside a comissão, por uma entidade de supermercados e por um deputado que foi prefeito de cidade turística."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Portaria nº 3.665",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "a norma do Ministério do Trabalho, de 2023, que passou a exigir convenção coletiva para o comércio abrir aos domingos e feriados"
+  },
+  {
+   "term": "Convenção Coletiva de Trabalho",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "acordo assinado entre o sindicato dos trabalhadores e o dos patrões de um setor, que vale para todas as empresas daquele setor"
+  },
+  {
+   "term": "CNC",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "Confederação Nacional do Comércio de Bens, Serviços e Turismo, entidade que representa os patrões do comércio"
+  },
+  {
+   "term": "CNI",
+   "fala": "b001",
+   "sentence": 12,
+   "plain": "Confederação Nacional da Indústria, entidade que representa as indústrias do País"
+  },
+  {
+   "term": "CNTC",
+   "fala": "b001",
+   "sentence": 13,
+   "plain": "Confederação Nacional dos Trabalhadores no Comércio, entidade sindical dos comerciários"
+  },
+  {
+   "term": "UNECS",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "União Nacional de Entidades do Comércio e Serviços, que reúne associações de supermercados, atacadistas, bares e lojistas"
+  },
+  {
+   "term": "Lei nº 10.101",
+   "fala": "b004",
+   "sentence": 23,
+   "plain": "lei de 2000 que autoriza o trabalho aos domingos no comércio, observada a lei do Município"
+  },
+  {
+   "term": "repouso semanal remunerado",
+   "fala": "b004",
+   "sentence": 25,
+   "plain": "o dia de folga por semana a que o trabalhador tem direito sem perder o salário, de preferência no domingo"
+  },
+  {
+   "term": "CLT",
+   "fala": "b008",
+   "sentence": 15,
+   "plain": "Consolidação das Leis do Trabalho, o conjunto de regras de 1943 que organiza o contrato de trabalho no Brasil"
+  },
+  {
+   "term": "PDL",
+   "fala": "b006",
+   "sentence": 16,
+   "plain": "projeto de decreto legislativo: o instrumento com que o Congresso derruba um ato do governo que passou do que a lei permite"
+  },
+  {
+   "term": "Lei da Liberdade Econômica",
+   "fala": "b012",
+   "sentence": 20,
+   "plain": "lei de 2019 que lista direitos da atividade econômica, entre eles o de funcionar em qualquer horário ou dia da semana"
+  },
+  {
+   "term": "Portaria nº 671",
+   "fala": "b012",
+   "sentence": 24,
+   "plain": "norma de 2021 que listava as atividades com autorização permanente para trabalhar aos domingos e feriados"
+  },
+  {
+   "term": "SDC do TST",
+   "fala": "b014",
+   "sentence": 21,
+   "plain": "Seção de Dissídios Coletivos do Tribunal Superior do Trabalho, a parte do tribunal que julga conflitos entre sindicatos"
+  },
+  {
+   "term": "acordo coletivo",
+   "fala": "b014",
+   "sentence": 23,
+   "plain": "acerto firmado entre o sindicato dos trabalhadores e uma empresa só, diferente da convenção, que vale para o setor inteiro"
+  },
+  {
+   "term": "alvará",
+   "fala": "b018",
+   "sentence": 12,
+   "plain": "licença que a prefeitura dá para um estabelecimento funcionar, com o horário e os dias permitidos"
+  }
+ ]
+}

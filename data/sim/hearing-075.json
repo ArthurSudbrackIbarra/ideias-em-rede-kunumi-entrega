@@ -1,0 +1,2832 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 75,
+ "model": "LLM lendo o prompt hearing-075 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T20:42:36Z",
+ "prompt_sha256": "d35f01c5a0942956f7f1a3d5866ec56d83432f677f6b00328b512b601fb78093",
+ "sentences_hash": "e0d717e1acc17863",
+ "review": {
+  "pairs_read": 55,
+  "pairs_fixed": 15
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t3: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (setor_privado); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Mulher ouviu catorze convidadas e convidados sobre a Medida Provisória 1.116, de 2022, que criou o Programa Emprega + Mulheres e Jovens. O Ministério do Trabalho apresentou as medidas do texto e as demais expositoras apontaram o que deveria ser corrigido antes da votação do relatório. O ponto mais atacado foi o uso do FGTS para pagar creche.",
+ "stakes": "Que pontos da Medida Provisória 1.116 o relatório a ser votado até agosto deveria manter, alterar ou excluir.",
+ "central_question": "A Medida Provisória 1.116 amplia o emprego das mulheres ou transfere a elas e ao seu FGTS o custo de cuidar dos filhos?",
+ "synopsis_plain": "A Comissão de Defesa dos Direitos da Mulher da Câmara ouviu catorze convidados sobre a medida provisória que criou o programa Emprega + Mulheres e Jovens. O Ministério do Trabalho explicou o texto. Procuradoras, sindicatos e entidades da indústria e dos bancos disseram o que, para elas, precisa ser corrigido antes da votação.",
+ "stakes_plain": "Que partes da medida provisória o relatório, que seria votado até agosto, deveria manter, mudar ou tirar.",
+ "central_question_plain": "A medida ajuda a mulher a conseguir emprego ou joga no bolso dela o custo de cuidar dos filhos?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Emprego e qualificação das mulheres",
+   "description": "Discute-se por que menos mulheres do que homens estão empregadas e se qualificação e horários flexíveis mudam esse quadro.",
+   "axis": {
+    "pro": "Apoio à parentalidade, horários flexíveis e cursos de qualificação elevam a participação das mulheres no mercado de trabalho.",
+    "contra": "A desigualdade é estrutural e anterior à pandemia, e só recua com investimento público e divisão do cuidado entre homens e mulheres.",
+    "pro_plain": "Cursos, horários flexíveis e apoio a quem tem filho pequeno fazem mais mulheres conseguir e manter emprego.",
+    "contra_plain": "O problema é antigo e profundo. Só muda com dinheiro público e com homens dividindo o cuidado da casa e dos filhos."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Uso do FGTS para creche e curso",
+   "description": "Discute-se se a trabalhadora pode sacar parte do FGTS para pagar creche do filho ou curso de qualificação.",
+   "axis": {
+    "pro": "Liberar parcelas do FGTS dá à trabalhadora uma opção a mais para pagar creche e qualificação.",
+    "contra": "Usar o FGTS para isso desvirtua o fundo e passa ao trabalhador uma obrigação que é do Estado.",
+    "pro_plain": "Poder sacar parte do FGTS é uma opção a mais para a mulher pagar a creche do filho ou um curso.",
+    "contra_plain": "O FGTS é a reserva de quem trabalha. Pagar creche com ele tira do Estado uma obrigação que é dele."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Creche como dever do Estado",
+   "description": "Discute-se de quem é a obrigação de garantir creche: do Estado, da empresa no local de trabalho ou de um reembolso pago à empregada.",
+   "axis": {
+    "pro": "Creche é serviço público e a empresa tem de manter local para guarda dos filhos, como manda a CLT.",
+    "contra": "O reembolso-creche pago pela empresa substitui o local de guarda e já é aceito há décadas.",
+    "pro_plain": "Creche é dever do Estado, e a empresa tem de manter um lugar para os filhos de quem trabalha ali.",
+    "contra_plain": "Pagar de volta à empregada o que ela gastou com creche já é aceito e funciona melhor do que exigir creche na empresa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Suspensão do contrato e licença parental",
+   "description": "Discute-se se suspender o contrato de trabalho para qualificação ou cuidado dos filhos, e dividir a licença entre pai e mãe, ajuda ou tira direitos.",
+   "axis": {
+    "pro": "Suspender o contrato e compartilhar a licença amplia o tempo de cuidado dos pais e a qualificação da mulher.",
+    "contra": "A suspensão tira salário, tempo de aposentadoria e a participação do sindicato, e o compartilhamento encurta a licença da mãe.",
+    "pro_plain": "Parar o contrato por um tempo e dividir a licença com o pai dá mais tempo de cuidado e de estudo.",
+    "contra_plain": "Quem tem o contrato parado não recebe salário nem conta tempo para se aposentar, e a mãe fica com menos licença."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Selo Emprega + Mulher e assédio",
+   "description": "Discute-se se um selo que reconhece boas práticas das empresas basta para melhorar o trabalho da mulher ou se são precisas regras obrigatórias.",
+   "axis": {
+    "pro": "Reconhecer boas práticas com um selo muda a cultura das empresas e vale mais do que impor condutas.",
+    "contra": "Sem exigir política contra o assédio e sem ratificar a Convenção 190 da OIT, o selo não protege as mulheres.",
+    "pro_plain": "Um selo que reconhece a empresa boa muda a cultura e funciona melhor do que obrigar por lei.",
+    "contra_plain": "Selo não impede assédio. Sem regra obrigatória contra violência no trabalho, a vaga não fica segura."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Obrigações impostas ao Sistema S",
+   "description": "Discute-se se a lei pode obrigar entidades como Sesi, Senai e Sest a manter creches e reservar vagas, ou se isso fere a autonomia delas.",
+   "axis": {
+    "pro": "A lei pode obrigar os serviços sociais a manter creches e a priorizar mulheres vítimas de violência.",
+    "contra": "Impor essas obrigações fere a autonomia de gestão que a Constituição garante a essas entidades privadas.",
+    "pro_plain": "As entidades mantidas pelas empresas podem ser obrigadas por lei a oferecer creche e vagas para mulheres.",
+    "contra_plain": "Sesi, Senai e Sest são privados e se administram sozinhos. A lei não pode mandar neles desse jeito."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Idade e forma do auxílio-creche",
+   "description": "Discute-se até que idade do filho o benefício vale, se cobre babá e filho com deficiência, e se é auxílio pago antes ou reembolso pago depois.",
+   "axis": {
+    "pro": "O benefício deve ir do nascimento aos 6 anos, cobrir babá e filho com deficiência e continuar sendo auxílio.",
+    "contra": "Basta o que a medida prevê: reembolso-creche de 4 meses a 5 anos, a critério do empregador.",
+    "pro_plain": "O benefício devia valer do nascimento aos 6 anos, cobrir babá e filho com deficiência e ser pago como auxílio.",
+    "contra_plain": "O texto já resolve: reembolso do gasto com creche, dos 4 meses aos 5 anos, se o empregador quiser."
+   },
+   "contested": true
+  },
+  {
+   "id": "d8",
+   "name": "Medida provisória como caminho",
+   "description": "Discute-se se mudar regras do trabalho por medida provisória é adequado, já que ela passa a valer antes de ser votada e teve pouco debate.",
+   "axis": {
+    "pro": "A medida provisória traz para a lei o que estava em portaria e dá mais segurança jurídica ao tema.",
+    "contra": "Relações de trabalho exigem debate no Congresso com trabalhadores e empregadores, e não uma medida provisória.",
+    "pro_plain": "Escrever na lei o que estava só em portaria dá mais segurança a empresas e trabalhadoras.",
+    "contra_plain": "Mexer em direitos do trabalho pede debate no Congresso com sindicatos e empresas, não uma medida provisória."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da audiência, deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião em b001.1 e é tratada como Deputada Bia Kicis em b002.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa dos Direitos da Mulher da Câmara dos Deputados, que debate leis e políticas para mulheres"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "assessora da Secretaria de Trabalho",
+   "org": "Ministério do Trabalho e Previdência",
+   "basis": "apresentada pela presidência em b001.8",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Trabalho e Previdência",
+   "org_plain": "ministério federal que cuida das regras do trabalho e da previdência"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "procuradora regional do Trabalho e coordenadora nacional do COORDIGUALDADE",
+   "org": "Ministério Público do Trabalho",
+   "basis": "apresentada pela presidência em b001.8",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério Público do Trabalho",
+   "org_plain": "órgão público que fiscaliza o cumprimento das leis do trabalho e pode processar quem as descumpre"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "juíza do Trabalho e vice-presidente da ANAMATRA",
+   "org": "ANAMATRA",
+   "basis": "apresentada pela presidência em b001.8 e chamada para falar por vídeo em b007.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Anamatra, a associação dos juízes do trabalho",
+   "org_plain": "associação que reúne os juízes e as juízas do trabalho do Brasil"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "procuradora do Trabalho e vice-presidente da ANPT",
+   "org": "ANPT",
+   "basis": "apresentada pela presidência em b001.8 e chamada para falar por vídeo em b009.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ANPT, a associação dos procuradores do trabalho",
+   "org_plain": "associação que reúne os procuradores e as procuradoras do trabalho do Brasil"
+  },
+  "s06": {
+   "role": "setor_privado",
+   "cargo": "gerente de relações institucionais",
+   "org": "FEBRABAN",
+   "basis": "apresentada pela presidência em b001.8 e chamada à mesa em b011.8",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Febraban, a federação dos bancos",
+   "org_plain": "entidade que reúne os bancos que atuam no Brasil"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "diretora do Departamento de Políticas das Mulheres e Relações Sociais",
+   "org": "Ministério da Mulher, da Família e dos Direitos Humanos",
+   "basis": "apresentada pela presidência em b017.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Mulher, da Família e dos Direitos Humanos",
+   "org_plain": "ministério federal responsável por políticas para mulheres, famílias e direitos humanos"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "auditora-fiscal do Trabalho e diretora do SINAIT",
+   "org": "SINAIT",
+   "basis": "apresentada pela presidência em b019.14 e por ela mesma em b020.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Sinait, o sindicato dos auditores-fiscais do trabalho",
+   "org_plain": "sindicato nacional dos auditores-fiscais do trabalho, servidores que fiscalizam as empresas"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "dirigente nacional",
+   "org": "CUT",
+   "basis": "apresentada pela presidência em b023.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da CUT, a Central Única dos Trabalhadores",
+   "org_plain": "central que reúne sindicatos de trabalhadores de vários setores no Brasil"
+  },
+  "s10": {
+   "role": "setor_privado",
+   "cargo": "gestora do Programa SENAI de Ações Inclusivas",
+   "org": "SENAI",
+   "basis": "apresentada pela presidência em b027.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Senai, a rede de escolas técnicas da indústria",
+   "org_plain": "rede de escolas de formação profissional mantida pela indústria"
+  },
+  "s11": {
+   "role": "setor_privado",
+   "cargo": "advogada",
+   "org": "CNI",
+   "basis": "apresentada pela presidência em b031.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da CNI, a confederação da indústria",
+   "org_plain": "entidade que representa a indústria brasileira em todo o país"
+  },
+  "s12": {
+   "role": "setor_privado",
+   "cargo": "diretora-executiva nacional do SEST/SENAT",
+   "org": "CNT",
+   "basis": "apresentada pela presidência em b033.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Sest/Senat, os serviços sociais do transporte",
+   "org_plain": "entidades do setor de transporte que oferecem saúde e cursos aos trabalhadores"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "coordenadora da Secretaria Executiva",
+   "org": "RNPI",
+   "basis": "apresentada pela presidência em b035.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Rede Nacional da Primeira Infância",
+   "org_plain": "rede de mais de 270 organizações que defendem os direitos das crianças pequenas"
+  },
+  "s14": {
+   "role": "sociedade_civil",
+   "cargo": "diretor-executivo",
+   "org": "Family Talks",
+   "basis": "apresentado pela presidência em b037.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ONG Family Talks",
+   "org_plain": "organização não governamental que trabalha com temas de família e primeira infância"
+  },
+  "s15": {
+   "role": "setor_privado",
+   "cargo": "superintendente de defesa de interesses",
+   "org": "FIEMG",
+   "basis": "presença registrada em b009.3 e chamada à mesa em b039.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Fiemg, a federação das indústrias de Minas Gerais",
+   "org_plain": "entidade que representa as indústrias do estado de Minas Gerais"
+  }
+ },
+ "audience": {
+  "estimate": 50,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.25
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "A mesa cita o público no plenário e no Zoom em b001.6, a presença de uma representante do Ministério da Educação e dos jovens aprendizes do Centro Salesiano do Aprendiz em b007.3 e b007.4, e a ata registra palmas em várias falas.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a Medida Provisória 1.116 e apresenta as convidadas e os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta, pelo Ministério do Trabalho, os números que motivaram a medida: menos mulheres na liderança, mais horas de cuidado em casa e queda do emprego quando têm filhos.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A medida provisória responde a um quadro em que ter filho pequeno derruba o emprego da mulher.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "as mulheres são mais de 50% da população mas ocupam 37% dos cargos de liderança, contra 62% dos homens",
+     "plain": "Esta medida nasceu num quadro em que as mulheres são mais de 50% da população do País e mesmo assim têm a menor taxa de ocupação em cargos de liderança. O homem ocupa 62% desses cargos, a mulher, 37%."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o homem dedica cerca de 11 horas por semana aos cuidados com o lar e a mulher, 21,4 horas",
+     "plain": "O homem dedica em torno de 11 horas por semana aos cuidados da casa. A mulher dedica, em média, 21,4 horas."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a média de emprego da mulher sem filhos é de 67% e cai para 54,6% quando ela tem filhos até 3 anos",
+     "plain": "A participação cai ainda mais quando a mulher tem filho. A média de emprego entre mulheres sem filhos é de 67% e cai para 54,6% quando elas têm filhos de até 3 anos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência prorroga por mais 5 minutos o tempo da representante do Ministério do Trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Descreve as medidas do texto: reembolso-creche na lei, saque do FGTS para creche e curso, creches dos serviços sociais, jornada flexível e licença compartilhada.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Trazer para a lei o reembolso-creche e liberar o FGTS dá mais segurança jurídica e mais opções à trabalhadora.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o reembolso de creche já é permitido pela Lei nº 8.212, de 1991, e a inovação é trazê-lo da portaria para a lei",
+     "plain": "O reembolso de creche aos pais já é permitido pela Lei nº 8.212, de 1991, e também pela CLT, a lei do trabalho. Os critérios estão na Portaria nº 671. O que fizemos de novo foi levar para a lei o que já estava na portaria."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a medida libera parcelas do FGTS para creche de filhos de até 5 anos, e o Conselho Curador do FGTS ainda vai definir as regras",
+     "plain": "Na medida prevemos liberar parcelas do FGTS, o dinheiro que a empresa deposita em nome de quem trabalha, para gastos com creche de filhos de até 5 anos. As regras do saque ainda serão definidas pelo Conselho Curador do FGTS."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a medida obriga os serviços sociais SESI, SESC e SEST a manter e custear creches, e o SEST é a novidade",
+     "plain": "A medida obriga os serviços sociais SESI, SESC e SEST, mantidos pelas empresas, a manter e pagar escolas de educação infantil. A CLT já previa isso, e a novidade é a entrada do SEST."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à procuradora regional do Trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta, pelo Ministério Público do Trabalho, que a medida não é o caminho, que a suspensão do contrato tira direitos e que creche é serviço público.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Creche é obrigação do Estado e do empregador, e não deve ser paga com o fundo de garantia da trabalhadora.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "medida provisória não é o meio adequado para tratar de relações de trabalho, que exigem debate público",
+     "plain": "No Ministério Público do Trabalho entendemos que medida provisória não é o meio certo para mexer em relações de trabalho. Isso exige debate público, próprio do processo de fazer leis, com trabalhadores e empregadores."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a medida tira o sindicato da suspensão do contrato e deixa a trabalhadora com bolsa abaixo do salário mínimo",
+     "plain": "Pela CLT, suspender o contrato exige o sindicato, e a medida tira isso. A trabalhadora passa a receber uma bolsa de qualificação abaixo do salário mínimo, sem direitos, e só conta tempo de aposentadoria se pagar do próprio bolso."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "creche é serviço público que cabe ao Estado, e a CLT manda o empregador ter creche no espaço de trabalho",
+     "plain": "Vemos o fundo de garantia sendo usado para pagar creche. Creche é serviço público e cabe ao Estado oferecer. A CLT manda o empregador ter creche no local de trabalho ou montar creches de bairro, com apoio do Sesi e do Sesc."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a presença de uma representante do MEC e de jovens aprendizes e chama a próxima convidada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta, pela Anamatra, que o selo não garante vaga livre de assédio e defende a ratificação da Convenção 190 da OIT pelo Brasil.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    27,
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Um selo de boas práticas só protege a mulher se exigir política contra assédio e vier com norma obrigatória.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o selo precisa exigir medidas contra violência e assédio, porque a vaga sem qualidade não protege a mulher",
+     "plain": "Precisamos olhar a qualidade dessas vagas, para que as mulheres não sofram violência e assédio, ainda mais depois das denúncias recentes em empresas públicas federais. O selo teria de exigir também medidas que garantam isso."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "numa pesquisa de março de 2022, quarenta por cento já sofreram ou conhecem quem sofreu assédio moral e só 30% denunciaram",
+     "plain": "Uma pesquisa de março de 2022, do IPESP com a Febraban, mostrou que quarenta por cento já sofreram ou conhecem quem sofreu assédio moral, e 38%, assédio sexual. Só 30% denunciaram essas violências."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a medida deveria exigir política clara contra assédio e o Brasil deveria ratificar a Convenção nº 190, da OIT",
+     "plain": "Não dá para esconder os índices altos de violência. A medida deveria exigir política clara contra o assédio, e o Brasil deveria ratificar a Convenção nº 190 da OIT, a Organização Internacional do Trabalho."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença da superintendente da Fiemg e passa a palavra à procuradora do Trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Critica, pela ANPT, a troca da creche pública por reembolso e a suspensão do contrato sem sindicato, e elogia o debate sobre divisão do trabalho doméstico.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": 7,
+   "stance": {
+    "position": "contrario",
+    "claim": "Trocar creche pública por reembolso e suspender o contrato sem sindicato não recoloca a mulher no emprego.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os governos se eximem de dar creche e escola de qualidade e trocam isso por um reembolso que às vezes não cobre a creche",
+     "plain": "Os governos federal, estadual e municipal, que deveriam dar à mulher creches e escolas de qualidade, se esquivam e trocam isso por um simples reembolso, que às vezes nem cobre a creche do bairro dela e dificulta a ida ao trabalho."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a suspensão do contrato é feita por acordo individual, sem sindicato e no interesse do empregador",
+     "plain": "A suspensão do contrato nos preocupa: acordo individual, sem sindicato, sem garantir o salário inteiro, decidida pelo empregador. Foi pensada para a mulher ou só para o patrão cortar custos, com prejuízo na aposentadoria dela?"
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "pela primeira vez uma lei abre a discussão sobre a divisão do trabalho entre homens e mulheres",
+     "plain": "Um ponto positivo: pela primeira vez uma lei começa a discutir a divisão do trabalho entre os sexos, em que a mulher cuida da casa e dos filhos e o homem fica com o trabalho pago. Dividir isso por igual é condição para igualar o emprego."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Destaca que pela primeira vez uma proposta deixa de responsabilizar só a mulher e abre a partilha dos afazeres entre pai e mãe.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A medida acerta ao propor que o cuidado da casa e dos filhos seja dividido entre pai e mãe.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "pela primeira vez uma proposta deixa de responsabilizar só a mulher e abre a partilha dos afazeres entre os pais",
+     "plain": "Pela primeira vez vemos uma proposta de lei, no caso uma medida provisória, que não joga certas tarefas só na conta da mulher e abre a possibilidade de pai e mãe dividirem os afazeres."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Propõe, pela Febraban, ampliar o auxílio-creche do nascimento aos 6 anos, incluir filho com deficiência e manter o auxílio-babá.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O benefício de creche deve ir do nascimento aos 6 anos e incluir babá e filho com deficiência.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a medida paga o auxílio-creche dos 4 meses aos 5 anos e a convenção dos bancários paga do nascimento aos 6 anos",
+     "plain": "Nossa primeira proposta é ampliar a idade do auxílio-creche. Pela medida, ele é pago dos 4 meses aos 5 anos. A convenção coletiva dos bancários, que vale no país inteiro, paga do nascimento aos 6 anos, toda a primeira infância."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na convenção dos bancários o auxílio vale sem limite de idade para filho com deficiência, e a medida não prevê isso",
+     "plain": "Na nossa convenção, o bancário tem direito ao auxílio sem limite de idade quando se comprova a necessidade de acompanhamento permanente. A medida não traz isso. São mais de 5 mil pessoas com deficiência beneficiadas."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o auxílio-babá está na convenção dos bancários há mais de 40 anos e deixa a empregada escolher entre creche e babá",
+     "plain": "Propomos também o auxílio-babá. Ele está na nossa convenção há mais de 40 anos e deixa a empregada escolher o que precisa: o auxílio-creche ou o pagamento de uma pessoa para cuidar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Responde que a lei não impede empresas com mais capacidade de oferecer benefício maior do que a faixa de 4 meses a 5 anos.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Não é preciso mudar a faixa etária no texto, porque a lei não impede a empresa de oferecer mais.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a faixa de 4 meses a 5 anos não impede que empresas com capacidade continuem dando benefício maior",
+     "plain": "Mesmo que a medida vire lei com a faixa dos 4 meses aos 5 anos, nada impede que as empresas com condição de dar mais continuem dando, como já acontece. A lei não põe esse limite."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Adverte que, sem a ampliação das faixas etárias, os valores pagos a mais viram verbas trabalhistas e passam a ter tributo.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem ampliar a faixa de idade na lei, o benefício extra vira verba trabalhista tributada.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem ampliar as faixas etárias, o que a empresa paga a mais vira verba trabalhista e passa a pagar tributo",
+     "plain": "Deputada, se a medida não ampliar as faixas de idade, o que a empresa pagar além disso vai ser tratado como verba trabalhista, com tributo em cima."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Sugere incluir no texto uma ressalva dizendo que o prazo da lei pode ser prorrogado conforme a capacidade da empresa.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O texto pode ganhar uma ressalva que permita prorrogar o prazo conforme a capacidade da empresa.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o texto pode trazer uma ressalva dizendo que o prazo da lei pode ser prorrogado conforme a capacidade da empresa",
+     "plain": "Dá para pôr no texto uma ressalva: esse é o prazo da lei, mas ele pode ser prorrogado conforme a capacidade da empresa, com os mesmos direitos garantidos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante da Febraban agradece a resposta da presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que preside a pedido da relatora e passa a palavra ao Ministério da Mulher.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Aponta, pelo Ministério da Mulher, avanços da medida na flexibilização da jornada e na qualificação, e cita o Pró-Equidade como selo já existente.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A medida traz avanços para a mulher na jornada flexível, na qualificação e no reconhecimento de boas práticas.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a medida abre teletrabalho, redução de jornada e compensação especial de jornada, e isso é avanço para as mulheres",
+     "plain": "A medida deixa o regime de trabalho mais flexível. Abre trabalho em casa, redução de jornada e um regime especial de compensação de horas. São avanços para as mulheres."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sacar o FGTS para se qualificar é opcional, e a própria mulher decide se quer ou não",
+     "plain": "Na qualificação também há avanço, mesmo sendo facultativo: a mulher escolhe se saca ou não o FGTS para estudar. Nem todos veem isso com bons olhos, mas muitos enxergam o lado positivo de poder se capacitar."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério da Mulher já tem o Programa Pró-Equidade, com os mesmos objetivos do selo, em vigor há 16 anos",
+     "plain": "O Ministério da Mulher, da Família e dos Direitos Humanos já faz algo muito parecido com esse selo. É o Programa Pró-Equidade, com os mesmos objetivos, e ele funciona bem há 16 anos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende que transformar a cultura das empresas por meio do selo dá resultado mais duradouro do que impor condutas por medidas coercitivas.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Reconhecer boas práticas com um selo muda a cultura das empresas e vale mais do que impor condutas.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "trabalhar na transformação da cultura dá resultado mais duradouro do que medidas que obrigam",
+     "plain": "Acho muito mais saudável trabalhar na base, mudando a cultura, do que trabalhar com medidas que obrigam. O resultado dura muito mais."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Selo Emprega + Mulher estimula a mudança de cultura e faz a empresa ver que o olhar da sociedade afeta a venda e o lucro",
+     "plain": "Com o Selo Emprega + Mulher, a medida estimula a sensibilização e a mudança de cultura, como o Ministério da Mulher já faz. A empresa percebe que o selo atrai a simpatia da sociedade, e isso chega à venda e ao lucro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta, pelo Sinait, que a medida faz nova reforma trabalhista, desobriga a empresa de manter local para os filhos e mete a mão no FGTS.",
+   "quote": [
+    66,
+    67,
+    68
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": 26,
+   "stance": {
+    "position": "contrario",
+    "claim": "A medida tenta uma nova reforma trabalhista, desobriga a empresa da creche e desvia o FGTS do seu objetivo.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      5
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a medida propõe abertamente desobrigar a empresa de manter local para guardar os filhos de empregadas que amamentam",
+     "plain": "O primeiro ponto propõe abertamente tirar a obrigação de a empresa manter um lugar adequado para guardar e cuidar dos filhos das empregadas no período de amamentação."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o Sinait concorda com o reembolso-creche, de natureza indenizatória, porque o Estado oferece poucas creches",
+     "plain": "O Sinait concorda, sim, com um dos pontos mais importantes da medida, o reembolso-creche, que tem caráter de indenização. Por quê? Porque no País o Estado oferece poucas creches."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      66,
+      67,
+      68
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "formar o empregado é obrigação da empresa, e o risco do negócio não pode cair sobre o trabalhador nem sobre o FGTS",
+     "plain": "Formar melhor o empregado é obrigação da empresa. Não se pode jogar nas costas do trabalhador o risco do negócio. Quem tem de bancar isso é o empregador, e não meter a mão no FGTS."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a Ordem do Dia vai começar e pede atenção ao tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b022",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A diretora do Sinait agradece e reforça que a visão apresentada é a dos auditores-fiscais do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra que desde os anos 1980 uma portaria do Ministério do Trabalho já aceita trocar o local de guarda por reembolso de creche.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Trocar o local de guarda pelo reembolso de creche já é aceito há décadas e é o que a maioria das empresas faz.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "desde os anos 1980 uma portaria já aceita trocar o local de guarda por reembolso de creche, e a maioria das empresas usa isso",
+     "plain": "Desde os anos 1980 uma portaria do Ministério do Trabalho já aceita trocar o local de guarda e amamentação pelo reembolso de creche. Isso vale até hoje e a maioria das empresas usa, porque às vezes é impossível manter o espaço."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma, pela CUT, que pagar creche e curso com o FGTS é obrigação do Estado, e cobra auxílio-creche e auxílio-babá em vez de reembolso.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Pagar creche e qualificação com o FGTS da trabalhadora transfere a ela uma obrigação do Estado.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      20
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a mulher vai trabalhar mais se pagar a própria creche e a própria qualificação com o FGTS, e isso é obrigação do Estado",
+     "plain": "Essa medida diz à mulher: você vai trabalhar mais se pagar a sua creche e a sua qualificação com o seu FGTS. Isso é obrigação do Estado."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a medida fala só de reembolso, e a CUT defende o auxílio-creche e o auxílio-babá",
+     "plain": "Faço uma observação sobre a medida: ela fala só de reembolso. Nós defendemos o auxílio-creche e também o auxílio-babá."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "numa pesquisa com 414 mulheres no Brasil, 47,12% dizem que já sofreram assédio sexual",
+     "plain": "Tenho aqui uma pesquisa feita com 414 mulheres, que não foi feita por nós e tem o LinkedIn envolvido. Das 414 que responderam no Brasil, 47,12% dizem já ter sofrido assédio sexual, quase metade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede rigor com o tempo, porque a Ordem do Dia vai começar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b026",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Defende, pela CUT, que a medida provisória seja devolvida ou profundamente alterada.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A medida provisória deve ser devolvida ou mudada a fundo.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a CUT defende que a medida provisória seja devolvida ou então profundamente alterada",
+     "plain": "Por fim, quero dizer que a CUT defende a devolução dessa medida provisória, ou então uma mudança profunda no texto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à gestora do Programa Senai de Ações Inclusivas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta, pelo Senai, os números de matrículas de mulheres e o acordo com o Ministério da Economia para levar qualificação a bairros vulneráveis.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rede do Senai já garante acesso e permanência de mulheres na educação profissional.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o Senai faz cerca de 2 milhões e 300 mil matrículas por ano e de 37% a 38% são de mulheres",
+     "plain": "No Senai são cerca de 2 milhões e 300 mil matrículas por ano. Desse total, de 37% a 38% são de mulheres."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as matrículas de mulheres subiram cerca de 36% de um ano para o outro e a presença delas nas graduações tecnológicas subiu 140%",
+     "plain": "Há cada vez mais interesse de mulheres pelas profissões da indústria 4.0. As matrículas subiram cerca de 36% de um ano para o outro, e a presença de mulheres nas graduações tecnológicas cresceu 140%."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Senai e o Sesi assinaram em 24 de maio um acordo com o Ministério da Economia para levar qualificação a bairros vulneráveis",
+     "plain": "Em 24 de maio o Senai e o Sesi assinaram com o Ministério da Economia o Programa Brasil pra Elas, de empreendedorismo feminino. Levamos carretas com cursos aos bairros mais vulneráveis, e já no primeiro dia a mulher sai sabendo fazer algo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que a convidada ganhou 3 minutos cedidos por outra expositora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b030",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Oferece as parcerias e os cursos do Senai a quem quiser propor formações voltadas a demandas das mulheres.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Senai está aberto a criar cursos que atendam demandas apontadas pelas mulheres.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Senai tem parcerias com governo, CRAS e Defensoria e oferece mais de mil cursos em 39 áreas tecnológicas",
+     "plain": "Temos parcerias com o Governo Federal, os CRAS, a Defensoria Pública e organizações sociais. Recebemos pedidos de curso que as mulheres demandem e que ainda não existam nas 39 áreas tecnológicas que oferecemos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a advogada da Confederação Nacional da Indústria.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Argumenta, pela CNI, que a Constituição garante autogestão ao Sesi e ao Senai e que dois artigos da medida impõem obrigações a eles.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 22,
+   "stance": {
+    "position": "contrario",
+    "claim": "A medida não pode impor creche e reserva de vagas aos serviços sociais, que se administram por conta própria.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Senai e o Sesi são privados e têm autonomia de gestão reconhecida pelo art. 240 da Constituição",
+     "plain": "A adesão voluntária vem de dois pontos da Constituição: o Senai e o Sesi são entidades privadas e se administram sozinhos. O art. 240 da Constituição reconhece essa autonomia."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Supremo Tribunal Federal reconheceu essa autonomia no RE 789.874 e medidas que a violem podem ser questionadas na Justiça",
+     "plain": "O Supremo Tribunal Federal já reconheceu isso no julgamento do RE 789.874, que vale para casos iguais. Medidas que ferem essa autonomia contrariam a Constituição e podem virar processo."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o art. 7º, sobre educação infantil, e o art. 18, sobre vítimas de violência, impõem condutas aos serviços sociais",
+     "plain": "Dois artigos passam desse limite, ainda que com boa intenção, porque impõem condutas aos serviços sociais de um lado só: o art. 7º, sobre educação infantil, e o art. 18, sobre preferência para mulheres vítimas de violência."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à diretora-executiva do Sest/Senat, da Confederação Nacional do Transporte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Apoia, pelo Sest/Senat, a medida na parentalidade e na qualificação, mas ressalva a liberdade de atuação do Sistema S prevista na Constituição.",
+   "quote": [
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A medida é bem-vinda, mas não pode criar obrigações para o Sistema S, que tem liberdade garantida pela Constituição.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "no setor de transporte apenas 17% são mulheres, e entre janeiro e maio de 2022 abriram mais de 45 mil vagas",
+     "plain": "No transporte, apenas 17% são mulheres. Nosso olhar é otimista, porque há muitas vagas a preencher num setor estratégico. Entre janeiro e maio de 2022 abriram mais de 45 mil vagas, sobretudo no transporte de cargas."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      15
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Sest/Senat apoia a medida no apoio à parentalidade, na qualificação de mulheres e no reconhecimento de boas práticas",
+     "plain": "Por isso apoiamos a medida provisória, em especial no apoio à parentalidade, na qualificação de mulheres e no reconhecimento de boas práticas de emprego feminino."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Constituição garante ao Sistema S liberdade de atuação, e obrigações de gratuidade não lhe dizem respeito",
+     "plain": "Como a CNI disse, há o ponto de atenção da liberdade de atuação que a Constituição dá ao Sistema S, principalmente na política de gratuidade e nas obrigações criadas, que não são nossas. Isso teria de ser feito pelo Governo também."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à coordenadora da Rede Nacional da Primeira Infância.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Critica, pela Rede Nacional da Primeira Infância, a falta de diálogo na medida, o uso do FGTS para creche e a saída do Governo como provedor.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "contrario",
+    "claim": "Creche é dever do Estado, e pagá-la com um fundo do trabalhador tira do Governo esse papel.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a medida foi construída sem diálogo, e diálogo é imprescindível para montar uma política pública",
+     "plain": "Nossa primeira preocupação foi a falta de diálogo na construção do texto. É medida provisória, e esse tem sido o jeito de fazer. Para montar uma política pública, ouvir quem ocupa cada lugar é imprescindível."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o FGTS é a poupança e a segurança da família, e a medida tira dele esse papel ao usá-lo para pagar creche",
+     "plain": "Um ponto é usar o FGTS para pagar a creche. Para nós, o FGTS é uma poupança, uma segurança da família. A medida tira dele esse papel."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "creche é dever do Estado, opção da família e direito da criança, e a medida tira do Governo o papel de provedor",
+     "plain": "Creche é política pública: dever do Estado, opção da família e direito das crianças. Quando a medida põe a creche para ser paga por um fundo, ela tira do Governo o lugar de quem provê."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o diretor-executivo da ONG Family Talks para compor a mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Avalia, pela ONG Family Talks, que dividir a licença entre pai e mãe é inovação da medida, mas lembra que a adesão ao Empresa Cidadã é baixa.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "Dividir a licença entre pai e mãe é um avanço, desde que a iniciativa seja sempre do trabalhador.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o art. 23 implanta a licença parental no Brasil ao permitir que a prorrogação de 4 para 6 meses seja compartilhada",
+     "plain": "O art. 23 implanta a licença parental no Brasil, ao deixar que a prorrogação da licença-maternidade de 4 para 6 meses seja dividida para cuidar do bebê. É o que a OIT, a Organização Internacional do Trabalho, recomenda."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a iniciativa de dividir a licença tem de ser sempre do empregado, e não do empregador, para não virar abuso",
+     "plain": "Um ponto a melhorar: o texto deve dizer que a iniciativa de dividir a licença é sempre do empregado, nunca do empregador. A empresa dá a possibilidade, mas quem decide é o trabalhador. Sem isso, pode haver abuso."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "só 160 mil empresas podem entrar no Programa Empresa Cidadã e a adesão delas é de apenas 14%",
+     "plain": "A flexibilização parece interessante, com a ressalva dos 6 meses de amamentação exclusiva e do alcance: só 160 mil empresas podem entrar no Programa Empresa Cidadã, e dessas apenas 14% aderiram, segundo a Receita Federal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que precisa encerrar e chama a superintendente da Fiemg.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s15",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A superintendente da Fiemg cumprimenta a presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência retribui o cumprimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b042",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sustenta, pela Fiemg, que passar ao Sistema S responsabilidade do Estado fere a Constituição e que trocar auxílio por reembolso prejudica as empregadas.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 38,
+   "stance": {
+    "position": "contrario",
+    "claim": "A medida fere a Constituição ao repassar ao Sistema S obrigação do Estado e põe em risco benefícios já consolidados.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "passar às entidades do serviço social uma responsabilidade que é do Estado viola frontalmente a Constituição",
+     "plain": "Mesmo que a medida traga pontos relevantes e modernize a lei trabalhista no que toca ao emprego das mulheres, um aspecto fere de frente a Constituição: passar às entidades do serviço social uma responsabilidade que é do Estado."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "trocar o nome de auxílio-creche para reembolso-creche muda a forma de conceder o benefício e traz risco às empresas",
+     "plain": "A medida troca o nome de auxílio-creche por reembolso-creche. Essa sutileza traz um risco enorme para as empresas, porque mudar essa prática histórica, na micro, na pequena e na grande empresa, muda a forma de conceder o benefício."
+    },
+    {
+     "id": "b042c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o auxílio-creche deve voltar do nascimento aos 4 anos e também entre 5 e 6 anos, porque a primeira infância termina aos 6 anos",
+     "plain": "Pedimos a volta do auxílio-creche do nascimento aos 4 anos, sem limite, para não desestimular essas mulheres. E também entre 5 e 6 anos, como disseram a CUT e a Febraban, porque a primeira infância termina aos 6 anos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que a expositora encerre.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b044",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Conclui que há sutilezas escondidas na medida que, em vez de proteger, desestimulam e prejudicam as mulheres.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Detalhes pouco visíveis do texto acabam prejudicando as mulheres em vez de protegê-las.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há sutilezas escondidas na medida que, em vez de proteger, desestimulam e prejudicam as mulheres",
+     "plain": "Esse era o ponto central. A medida tem sutilezas escondidas que, no lugar de proteger, vão desestimular e prejudicar essas mulheres."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece, informa que as perguntas do e-Democracia não serão lidas e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 16,
+   "from_claim": "b006c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "O Ministério do Trabalho propõe liberar parcelas do FGTS para creche e o Ministério Público do Trabalho responde que creche é serviço público e cabe ao Estado."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 21,
+   "from_claim": null,
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A Anamatra diz que não vai repetir os argumentos e se associa ao que a procuradora do Ministério Público do Trabalho sustentou sobre a medida."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 16,
+   "from_claim": "b010c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "As duas procuradoras apontam o mesmo defeito na suspensão do contrato: ela é feita por acordo individual, sem a participação do sindicato."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 11,
+   "from_claim": "b010c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Ao reembolso que o governo apresenta como já permitido em lei, a ANPT responde que ele é a forma de os governos se esquivarem de dar creche."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 16,
+   "from_claim": "b011c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A presidência recolhe o único elogio da procuradora e reforça que é a primeira vez que uma proposta abre a partilha dos afazeres entre pai e mãe."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 15,
+   "from_claim": "b012c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "A Febraban confronta a faixa de idade do texto do governo com a da convenção coletiva dos bancários, que vai do nascimento aos 6 anos."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 13,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "À proposta de ampliar a idade, a presidência responde que a lei não põe teto e a empresa com capacidade pode continuar pagando mais."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 7,
+   "from_claim": "b014c1",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "A Febraban explica por que a lei importa: o que a empresa pagar além da faixa vira verba trabalhista e passa a ter tributo."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b015c1",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "A presidência aceita a advertência sobre os tributos e propõe uma ressalva no texto que permita prorrogar o prazo."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 20,
+   "from_claim": "b018c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Ao uso do fundo de garantia que o Ministério Público critica, o Ministério da Mulher responde que o saque é facultativo e quem decide é a trabalhadora."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 21,
+   "from_claim": "b018c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O Ministério da Mulher endossa a flexibilização da jornada que o Ministério do Trabalho apresentou e a trata como avanço para as mulheres."
+  },
+  {
+   "from": "b019",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 18,
+   "from_claim": "b019c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "À exigência de medidas obrigatórias contra assédio, a presidência responde que mudar a cultura na base dá resultado mais duradouro do que obrigar."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 33,
+   "from_claim": "b019c2",
+   "to_claim": "b018c3",
+   "strength": "media",
+   "note": "A presidência usa o Pró-Equidade, citado pelo Ministério da Mulher, como prova de que um selo de boas práticas funciona."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 11,
+   "from_claim": "b020c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O Sinait diz que escrever o reembolso na lei tem outro efeito: desobrigar a empresa de manter lugar para os filhos das empregadas."
+  },
+  {
+   "from": "b020",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 67,
+   "to_sentence": 21,
+   "from_claim": "b020c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "O sindicato dos auditores-fiscais retoma o argumento do Ministério Público: o risco do negócio e a formação do empregado não podem sair do FGTS."
+  },
+  {
+   "from": "b023",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b023c1",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "À acusação de que a medida desobriga a empresa, a presidência responde que a troca do local de guarda pelo reembolso já vale por portaria desde os anos 1980."
+  },
+  {
+   "from": "b024",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 16,
+   "from_claim": "b024c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "À liberação do FGTS, a CUT responde que a medida só promete mais trabalho à mulher que pagar a própria creche e a própria qualificação."
+  },
+  {
+   "from": "b024",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 20,
+   "from_claim": "b024c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A central sindical repete o ponto do Ministério Público: usar o fundo de garantia para creche empurra ao trabalhador uma obrigação do Estado."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 45,
+   "to_sentence": 20,
+   "from_claim": "b024c2",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "A CUT e a federação dos bancos pedem a mesma coisa: manter o auxílio-creche e o auxílio-babá, e não só o reembolso."
+  },
+  {
+   "from": "b024",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 68,
+   "from_claim": "b024c1",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "A central sindical e o sindicato dos auditores usam o mesmo argumento contra o saque do fundo de garantia para curso e creche."
+  },
+  {
+   "from": "b026",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 2,
+   "from_claim": "b026c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A CUT leva ao extremo o argumento do Ministério Público sobre o instrumento errado e pede a devolução da medida provisória."
+  },
+  {
+   "from": "b032",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 22,
+   "from_claim": "b032c1",
+   "to_claim": "b028c3",
+   "strength": "media",
+   "note": "A CNI trata os programas que o Senai apresentou como prova de que essas ações nascem de parceria voluntária, e não de imposição."
+  },
+  {
+   "from": "b032",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 19,
+   "from_claim": "b032c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "À obrigação de os serviços sociais custearem creche, a indústria responde que o artigo impõe conduta de um lado só e passa do limite constitucional."
+  },
+  {
+   "from": "b034",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 17,
+   "from_claim": "b034c3",
+   "to_claim": "b032c3",
+   "strength": "forte",
+   "note": "O Sest/Senat endossa o alerta da indústria sobre a liberdade de atuação que a Constituição dá ao Sistema S."
+  },
+  {
+   "from": "b034",
+   "to": "b026",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 2,
+   "from_claim": "b034c2",
+   "to_claim": "b026c1",
+   "strength": "forte",
+   "note": "Enquanto a central sindical pede que a medida seja devolvida, o Sest/Senat diz que a apoia na parentalidade e na qualificação."
+  },
+  {
+   "from": "b036",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 16,
+   "from_claim": "b036c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "À creche paga por um fundo, a rede da primeira infância responde que isso tira do Governo o lugar de quem provê a política pública."
+  },
+  {
+   "from": "b036",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 21,
+   "from_claim": "b036c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "As duas dizem o mesmo sobre creche: é política pública e dever do Estado, não um gasto a ser reembolsado."
+  },
+  {
+   "from": "b036",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 20,
+   "from_claim": "b036c2",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A rede da primeira infância dá o motivo que faltava ao argumento da CUT: o FGTS é a poupança que dá segurança à família."
+  },
+  {
+   "from": "b036",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 2,
+   "from_claim": "b036c1",
+   "to_claim": "b026c1",
+   "strength": "media",
+   "note": "As duas rejeitam o caminho escolhido: uma pede a devolução do texto, a outra aponta que ele foi escrito sem diálogo."
+  },
+  {
+   "from": "b036",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 67,
+   "from_claim": "b036c2",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "A rede da primeira infância e o sindicato dos auditores defendem o mesmo: o FGTS não pode bancar o que cabe ao Estado e à empresa."
+  },
+  {
+   "from": "b038",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 16,
+   "from_claim": "b038c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Os dois apontam a mesma falha: a decisão fica na mão do empregador, e deveria ser do trabalhador."
+  },
+  {
+   "from": "b038",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 30,
+   "from_claim": "b038c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A ONG destaca como inovação positiva a licença compartilhada que o Ministério do Trabalho apresentou, por seguir a recomendação da OIT."
+  },
+  {
+   "from": "b042",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 17,
+   "from_claim": "b042c1",
+   "to_claim": "b032c3",
+   "strength": "forte",
+   "note": "A federação mineira reforça o ponto da CNI e o formula como violação frontal da Constituição."
+  },
+  {
+   "from": "b042",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 19,
+   "from_claim": "b042c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "À obrigação atribuída aos serviços sociais, a indústria mineira responde que é responsabilidade do Estado sendo passada a entidade privada."
+  },
+  {
+   "from": "b042",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 13,
+   "from_claim": "b042c3",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "A Fiemg cita a Febraban ao pedir o benefício até os 6 anos, porque a primeira infância termina nessa idade."
+  },
+  {
+   "from": "b042",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 45,
+   "from_claim": "b042c3",
+   "to_claim": "b024c2",
+   "strength": "forte",
+   "note": "A federação das indústrias cita a central sindical e pede a mesma coisa: auxílio-creche, e não reembolso, até os 6 anos."
+  },
+  {
+   "from": "b042",
+   "to": "b013",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 7,
+   "from_claim": "b042c2",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "À ideia de que a lei não limita nada, a Fiemg responde que a troca de auxílio por reembolso cria insegurança e risco de autuação."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b010",
+    "b011"
+   ],
+   "claims": [
+    "b010c3",
+    "b011c1"
+   ],
+   "note": "A associação dos procuradores do trabalho e a presidência da sessão concordam que é a primeira vez que uma proposta de lei abre a partilha do cuidado entre pai e mãe."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b020",
+    "b024",
+    "b036"
+   ],
+   "claims": [
+    "b020c3",
+    "b024c1",
+    "b036c2"
+   ],
+   "note": "O Ministério Público do Trabalho, o sindicato dos auditores-fiscais, a central sindical e a rede da primeira infância concordam que pagar creche e curso com o FGTS empurra ao trabalhador uma obrigação do Estado."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b006",
+    "b010",
+    "b020",
+    "b036"
+   ],
+   "claims": [
+    "b006c3",
+    "b010c1",
+    "b020c1",
+    "b036c3"
+   ],
+   "note": "Procuradoras do trabalho, o sindicato dos auditores-fiscais e a rede da primeira infância concordam que creche é dever do Estado e que a empresa não pode ser desobrigada do lugar de guarda."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b010"
+   ],
+   "claims": [
+    "b006c2",
+    "b010c2"
+   ],
+   "note": "O Ministério Público do Trabalho e a associação dos procuradores concordam que suspender o contrato por acordo individual, sem sindicato, tira direitos da trabalhadora."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b018",
+    "b019"
+   ],
+   "claims": [
+    "b018c3",
+    "b019c1",
+    "b019c2"
+   ],
+   "note": "O Ministério da Mulher e a presidência da sessão concordam que reconhecer boas práticas por selo muda a cultura das empresas, e citam um programa parecido em vigor há 16 anos."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b012",
+    "b024",
+    "b042"
+   ],
+   "claims": [
+    "b012c1",
+    "b012c3",
+    "b024c2",
+    "b042c3"
+   ],
+   "note": "A federação dos bancos, a central sindical e a federação das indústrias de Minas concordam que o benefício deve ir até os 6 anos e continuar sendo auxílio, não simples reembolso."
+  },
+  {
+   "theme": "d8",
+   "falas": [
+    "b006",
+    "b026",
+    "b036"
+   ],
+   "claims": [
+    "b006c1",
+    "b026c1",
+    "b036c1"
+   ],
+   "note": "O Ministério Público do Trabalho, a central sindical e a rede da primeira infância concordam que medida provisória não é o caminho para mudar relações de trabalho."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b010",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como o saque do FGTS recoloca no emprego quem já foi demitida",
+   "plain": "Como sacar o FGTS ajuda a voltar ao emprego uma mulher que já foi demitida e já usou esse dinheiro?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b020",
+   "sentence": 26,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que a medida não formaliza apoio aos arranjos informais de cuidado",
+   "plain": "Por que a medida não cria um apoio formal para a avó, a tia ou a vizinha que cuidam da criança?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b032",
+   "sentence": 22,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "ajustar os dois artigos que impõem condutas aos serviços sociais",
+   "plain": "Os dois artigos que criam obrigações para o Sesi e o Senai vão ser ajustados no texto final?",
+   "theme": "d6",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b036",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que a medida foi escrita sem diálogo com quem atua na área",
+   "plain": "Por que a medida provisória foi escrita sem ouvir quem trabalha com a primeira infância?",
+   "theme": "d8",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b042",
+   "sentence": 38,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "rever a passagem do limite do benefício para o Executivo",
+   "plain": "Por que tirar do Legislativo e passar ao Executivo a competência de limitar o valor do benefício?",
+   "theme": "d7",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "homem dedica 11 horas semanais ao lar, mulher 21,4",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 14,
+   "gist": "emprego da mulher cai de 67% para 54,6% com filhos",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 6,
+   "gist": "em 2019 a ocupação das mulheres era de 46,2%",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 27,
+   "gist": "em 2021 a carga tributária foi de 33,9% do PIB",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 22,
+   "gist": "38% sofreram ou conhecem quem sofreu assédio sexual",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 4,
+   "gist": "o setor tem 452 mil bancários e 48% são mulheres",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b020",
+   "sentence": 47,
+   "gist": "mais de 15 milhões de mulheres com carteira acima de 16 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b024",
+   "sentence": 12,
+   "gist": "há mais de 10 milhões de desempregados no País",
+   "disputed_by": [
+    {
+     "fala": "b034",
+     "sentence": 24
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b024",
+   "sentence": 26,
+   "gist": "47,12% de 414 mulheres já sofreram assédio sexual",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b028",
+   "sentence": 5,
+   "gist": "o Senai faz 2 milhões e 300 mil matrículas por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b038",
+   "sentence": 17,
+   "gist": "o tempo médio de amamentação exclusiva é de 54 dias",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b042",
+   "sentence": 18,
+   "gist": "44% das 46 milhões de mulheres empregadas estão na indústria",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria montou a notícia como um embate entre as críticas ao uso do FGTS para pagar creche e a defesa do programa pelo governo.",
+  "omitted": "Ficou de fora toda a disputa sobre as obrigações impostas ao Sistema S, levantada pela indústria e pelo transporte, e o pedido para manter o auxílio-creche no lugar do reembolso."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Creche é dever do Estado, não do FGTS de quem trabalha",
+   "statement_plain": "Pagar creche e curso com o FGTS passa ao trabalhador uma obrigação do Estado, e a empresa não pode ser desobrigada de manter lugar para os filhos das empregadas.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b020c1",
+    "b020c3",
+    "b024c1",
+    "b036c2",
+    "b036c3"
+   ],
+   "note": "É uma ideia, não um bloco: junta um órgão do próprio governo federal, um sindicato de servidores, uma central sindical e uma rede de organizações da infância, contra outro órgão do mesmo governo."
+  },
+  {
+   "id": "t2",
+   "title": "O selo muda a cultura das empresas",
+   "statement_plain": "Reconhecer boas práticas com um selo muda a cultura das empresas e protege mais o trabalho da mulher do que regras que obrigam as empresas a agir.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b018c3",
+    "b019c1",
+    "b019c2"
+   ],
+   "note": "É uma ideia sobre como se muda o comportamento das empresas, defendida da cadeira da presidência e por um ministério que já usa um programa parecido."
+  },
+  {
+   "id": "t3",
+   "title": "Selo sem regra contra assédio não protege ninguém",
+   "statement_plain": "Sem exigir política clara contra o assédio e sem ratificar a Convenção 190 da Organização Internacional do Trabalho, um selo de boas práticas não protege as mulheres.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c2",
+    "b008c3",
+    "b024c3"
+   ],
+   "note": "É a ideia oposta à do selo voluntário, e une a associação dos juízes do trabalho a uma central sindical, que discordam em outros pontos da audiência."
+  },
+  {
+   "id": "t4",
+   "title": "A lei não pode mandar no Sistema S",
+   "statement_plain": "A Constituição garante ao Sesi, ao Senai e ao Sest administrar a si mesmos, e por isso a medida não pode impor a eles creche nem reserva de vagas.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b032c1",
+    "b032c2",
+    "b032c3",
+    "b034c3",
+    "b042c1"
+   ],
+   "note": "É uma ideia jurídica sobre limites da lei, sustentada por quem apoia e por quem critica o resto do texto, e contrária ao ministério que quer a obrigação escrita."
+  },
+  {
+   "id": "t5",
+   "title": "Direito do trabalho não se muda por medida provisória",
+   "statement_plain": "Mexer em direitos do trabalho exige debate no Congresso com trabalhadores e empregadores, e não uma medida provisória escrita sem diálogo.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "contrario"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b026c1",
+    "b036c1"
+   ],
+   "note": "É uma ideia sobre o instrumento, e não sobre o conteúdo: reúne um órgão público, uma central sindical e uma rede da primeira infância que divergem sobre o mérito."
+  },
+  {
+   "id": "t6",
+   "title": "O benefício de creche tem de ir até os 6 anos",
+   "statement_plain": "O auxílio-creche deve valer do nascimento aos 6 anos, cobrir babá e filho com deficiência e continuar sendo pago como auxílio, e não como reembolso.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b012c3",
+    "b024c2",
+    "b042c2",
+    "b042c3"
+   ],
+   "note": "É a ideia que mais cruza setores na sala: a federação dos bancos, uma central sindical e uma federação de indústrias pedem a mesma mudança, contra o texto do governo."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "FGTS",
+   "fala": "b004",
+   "sentence": 16,
+   "plain": "Fundo de Garantia do Tempo de Serviço: dinheiro que a empresa deposita todo mês numa conta em nome de quem trabalha, sacado em casos previstos em lei"
+  },
+  {
+   "term": "CLT",
+   "fala": "b004",
+   "sentence": 11,
+   "plain": "Consolidação das Leis do Trabalho: o conjunto de regras que vale para quem tem carteira assinada no Brasil"
+  },
+  {
+   "term": "Portaria nº 671",
+   "fala": "b004",
+   "sentence": 12,
+   "plain": "norma do Ministério do Trabalho que hoje define os critérios do reembolso de creche, sem força de lei"
+  },
+  {
+   "term": "reembolso-creche",
+   "fala": "b004",
+   "sentence": 15,
+   "plain": "dinheiro que a empresa devolve à empregada depois que ela pagou a creche do filho e apresentou o recibo"
+  },
+  {
+   "term": "Conselho Curador do FGTS",
+   "fala": "b004",
+   "sentence": 17,
+   "plain": "grupo com governo, empresas e trabalhadores que decide as regras de uso do fundo de garantia"
+  },
+  {
+   "term": "SESI",
+   "fala": "b004",
+   "sentence": 19,
+   "plain": "Serviço Social da Indústria: entidade mantida pelas indústrias que oferece escola, saúde e lazer a trabalhadores e famílias"
+  },
+  {
+   "term": "SEST",
+   "fala": "b001",
+   "sentence": 8,
+   "plain": "Serviço Social do Transporte: entidade mantida pelo setor de transporte que oferece saúde e cursos aos trabalhadores"
+  },
+  {
+   "term": "primeira infância",
+   "fala": "b004",
+   "sentence": 9,
+   "plain": "os primeiros anos de vida da criança, contados no Brasil até os 6 anos de idade"
+  },
+  {
+   "term": "Programa Empresa Cidadã",
+   "fala": "b004",
+   "sentence": 29,
+   "plain": "programa em que a empresa ganha desconto de imposto para estender a licença-maternidade de 4 para 6 meses"
+  },
+  {
+   "term": "Sistema S",
+   "fala": "b004",
+   "sentence": 38,
+   "plain": "conjunto de entidades como Sesi, Senai, Sesc e Sest, mantidas por contribuição das empresas, que oferecem cursos e serviços sociais"
+  },
+  {
+   "term": "Selo Emprega + Mulher",
+   "fala": "b004",
+   "sentence": 39,
+   "plain": "reconhecimento que a empresa recebe quando adota práticas que ajudam a contratar e promover mulheres"
+  },
+  {
+   "term": "bolsa de qualificação",
+   "fala": "b006",
+   "sentence": 17,
+   "plain": "valor pago a quem tem o contrato suspenso para fazer curso, no lugar do salário, e que hoje é menor que o salário mínimo"
+  },
+  {
+   "term": "ANAMATRA",
+   "fala": "b001",
+   "sentence": 8,
+   "plain": "Associação Nacional dos Magistrados da Justiça do Trabalho: entidade que reúne os juízes do trabalho do país"
+  },
+  {
+   "term": "serviços sociais autônomos",
+   "fala": "b032",
+   "sentence": 13,
+   "plain": "nome jurídico das entidades do Sistema S, que são privadas e se administram sozinhas, embora vivam de contribuição obrigatória"
+  },
+  {
+   "term": "RAIS",
+   "fala": "b020",
+   "sentence": 47,
+   "plain": "Relação Anual de Informações Sociais: cadastro que as empresas entregam todo ano ao governo com dados de quem trabalha nelas"
+  }
+ ]
+}

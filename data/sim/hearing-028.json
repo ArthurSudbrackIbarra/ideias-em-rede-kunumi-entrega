@@ -1,0 +1,2369 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 28,
+ "model": "LLM lendo o prompt hearing-028 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T17:45:40Z",
+ "prompt_sha256": "0a66822cba72259d55190b596d0ac645fd9e007f196159d00be07dda6ef4e2d6",
+ "sentences_hash": "73a1afea834c70cb",
+ "review": {
+  "pairs_read": 50,
+  "pairs_fixed": 25
+ },
+ "warnings": [
+  "tese t3: todas as cartas-chave vêm de um só papel (setor_privado); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Defesa do Consumidor debateu o monopólio dos softwares de reparo de veículos pelas concessionárias. Os sindicatos das oficinas, a Senacon e as parlamentares defenderam o direito do consumidor de escolher onde consertar o carro. A associação das montadoras aceitou discutir, mas condicionou o acesso aos códigos a credenciamento, treinamento e ferramenta adequada.",
+ "stakes": "Estava em jogo o desenho do projeto de lei que a presidência da comissão anunciou que vai escrever sobre o acesso a equipamentos e softwares de diagnóstico.",
+ "central_question": "O acesso aos códigos e softwares de reparo deve ser aberto às oficinas independentes e em que condições?",
+ "synopsis_plain": "A comissão discutiu por que só as concessionárias têm os programas que abrem o computador do carro. Os sindicatos das oficinas, o órgão federal de defesa do consumidor e as parlamentares defenderam que o dono do carro escolha onde consertar. A associação das montadoras aceitou discutir, mas quis que a oficina seja credenciada e treinada antes.",
+ "stakes_plain": "Como vai ser escrito o projeto de lei sobre o acesso aos programas e equipamentos que consertam o carro.",
+ "central_question_plain": "As oficinas independentes devem poder abrir o computador do carro, e com que condições?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Direito de reparar o veículo",
+   "description": "Discute-se se o dono do carro pode escolher livremente onde consertá-lo, e não só na rede da marca.",
+   "axis": {
+    "pro": "Quem compra um veículo tem direito de escolher onde consertá-lo, e travar essa escolha é venda casada.",
+    "contra": "O reparo deve ficar na rede autorizada da marca, que é quem responde pelo veículo.",
+    "pro_plain": "Quem compra um carro escolhe onde consertar, como escolhe o médico, e prender essa escolha é venda casada.",
+    "contra_plain": "O conserto deve ficar na rede autorizada da marca, que é quem responde pelo carro."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Acesso aos códigos e softwares",
+   "description": "Discute-se se e como os programas e equipamentos de diagnóstico do veículo devem ser abertos a quem não é da rede da marca.",
+   "axis": {
+    "pro": "Os códigos, as ferramentas de diagnóstico e o manual de reparo devem ser abertos às oficinas independentes.",
+    "contra": "O acesso só pode ser dado com critérios e responsabilidades definidos, e não de forma ampla.",
+    "pro_plain": "Os códigos, o equipamento de diagnóstico e o manual do reparo devem ficar abertos às oficinas independentes.",
+    "contra_plain": "O acesso só pode ser dado com regras e responsáveis definidos, e não de forma solta."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Risco de segurança no reparo",
+   "description": "Discute-se se abrir os códigos do veículo aumenta o risco de acidente, poluição e furto, ou se o risco já existe hoje.",
+   "axis": {
+    "pro": "Mexer nos códigos pode desligar o airbag, piorar as emissões e abrir espaço para chave pirata.",
+    "contra": "A falha também acontece na concessionária, e quem faz o reparo responde por ele.",
+    "pro_plain": "Mexer nos códigos do carro pode desligar o airbag, piorar a poluição e abrir espaço para chave falsa.",
+    "contra_plain": "A falha também acontece na concessionária, e quem faz o conserto responde por ele."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Preço e espera do consumidor",
+   "description": "Discute-se o que o consumidor paga e quanto tempo espera quando só a rede da marca pode consertar o carro.",
+   "axis": {
+    "pro": "A rede de concessionárias não dá conta: o consumidor espera meses por peça e paga preço alto.",
+    "contra": "A rede autorizada atende a demanda e o preço reflete a qualidade da peça original.",
+    "pro_plain": "A rede das marcas não dá conta: o consumidor espera meses por uma peça e paga caro demais.",
+    "contra_plain": "A rede autorizada dá conta da demanda e o preço reflete a qualidade da peça original."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Credenciamento das oficinas",
+   "description": "Discute-se se a saída é a montadora credenciar e treinar a oficina independente ou se isso mantém o vínculo com a marca.",
+   "axis": {
+    "pro": "A oficina independente deve seguir o mesmo rito da concessionária, com credenciamento, treinamento e ferramenta da montadora.",
+    "contra": "Credenciar pela montadora mantém o vínculo com a marca, e os profissionais já são formados pelo Senai.",
+    "pro_plain": "A oficina independente deve passar pelo mesmo rito da concessionária, credenciada e treinada pela montadora.",
+    "contra_plain": "Credenciar pela marca prende a oficina à marca, e o Senai já forma os mesmos profissionais dos dois lados."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da comissão e autor dos requerimentos",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado como Jorge Braz, Bloco/REPUBLICANOS - RJ, e autor dos requerimentos em b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa do Consumidor da Câmara dos Deputados, que trata dos direitos de quem compra"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenador da Secretaria de Desenvolvimento Industrial, Inovação, Comércio e Serviços",
+   "org": "MDIC",
+   "basis": "apresentado pela presidência em b001.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Desenvolvimento, Indústria e Comércio",
+   "org_plain": "ministério federal que cuida das políticas de indústria, comércio e serviços"
+  },
+  "s03": {
+   "role": "setor_privado",
+   "cargo": "Presidente do SINDIREPA",
+   "org": "SINDIREPA",
+   "basis": "apresentado pela presidência em b001.7, participando on-line, e tratado como presidente do Sindirepa Nacional em b037.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Sindirepa, sindicato das oficinas de reparação",
+   "org_plain": "sindicato das empresas que consertam veículos e vendem acessórios"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Diretor do Departamento de Proteção e Defesa do Consumidor da SENACON",
+   "org": "SENACON",
+   "basis": "apresentado pela presidência em b001.5, participando on-line",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Senacon, do Ministério da Justiça",
+   "org_plain": "Secretaria Nacional do Consumidor, órgão federal que protege os direitos do consumidor"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "Assessor Especial do SINDIREPA Brasil",
+   "org": "SINDIREPA Brasil",
+   "basis": "apresentado pela presidência em b001.6, participando on-line",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Sindirepa Brasil",
+   "org_plain": "entidade nacional que reúne os sindicatos das oficinas de reparação de veículos"
+  },
+  "s06": {
+   "role": "setor_privado",
+   "cargo": "Gerente de Assuntos Técnicos da ANFAVEA",
+   "org": "ANFAVEA",
+   "basis": "apresentado pela presidência em b001.8",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Anfavea, entidade das montadoras de veículos",
+   "org_plain": "associação que reúne os fabricantes de veículos que produzem no Brasil"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal e membro da comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "identificada como Gisela Simona, Bloco/UNIÃO - MT, na lista de oradores e registrada pela presidência em b001.13",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo União de Mato Grosso",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais fazem as leis"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.55
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "A presidência só registra em b001.13 a presença da deputada Gisela Simona e de outros presentes, sem nomear delegações, e a ata não marca palmas.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência sobre o monopólio dos softwares de reparo, apresenta o movimento do direito de reparar e sustenta que o Brasil está atrasado no tema.",
+   "quote": [
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As pessoas precisam ter mais acesso ao direito de reparar, e o Brasil está atrasado nessa discussão.",
+    "sentence": 49
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei de Massachusetts garantiu o conserto por mecânico independente com peças oficiais, sem prejudicar os fabricantes",
+     "plain": "A lei aprovada em Massachusetts, conhecida como Outright Repair, garantiu o direito ao conserto e deu aos mecânicos independentes acesso às peças oficiais do fabricante, sem prejudicar os fabricantes."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil não tem lei específica, mas o direito de reparar já encontra amparo no Código de Defesa do Consumidor",
+     "plain": "O Brasil ainda não tem lei específica sobre o tema. Mas o direito de reparar já encontra amparo no Código de Defesa do Consumidor, que assegura liberdade de escolha e igualdade nas contratações."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil está atrasado e as pessoas precisam ter mais acesso ao seu direito de reparar",
+     "plain": "Estamos atrasados nisso. O Brasil é enorme e se move sobre veículos, e as pessoas precisam ter um pouco mais de acesso ao seu direito de reparar."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata que a discussão começou na Europa há mais de 10 anos e informa que o ministério ainda não tem posição fechada sobre o tema.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O ministério ainda não tem posição fechada, porque o tema atravessa indústria, concorrência, propriedade intelectual e consumidor.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a discussão começou na Europa há mais de 10 anos, junto com uma nova fase do controle de emissões",
+     "plain": "Essa discussão começou na Europa há mais de 10 anos, junto com uma nova fase do programa de controle de emissões. Começou pelo acesso à informação para reparo e manutenção dos veículos."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o ministério ainda não tem posição fechada porque o tema envolve concorrência, propriedade intelectual e consumidor",
+     "plain": "No Ministério ainda não temos uma posição fechada, porque o tema envolve vários departamentos, não só o industrial, mas serviços e defesa da concorrência, além de propriedade intelectual e direito do consumidor."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao ministério e, sem conexão do convidado da Senacon, passa a palavra ao Sindirepa do Rio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o consumidor tem direito ao reparo correto, alerta para o risco de o reparador não ter informação e lembra que as concessionárias não dão conta.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O consumidor tem direito de levar o carro para consertar onde quiser, e sem informação o reparador põe vidas em risco.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o consumidor tem direito ao reparo correto, e sem informação o reparador põe em risco quem dirige",
+     "plain": "Mesmo reconhecendo que a Anfavea pensa diferente neste caso, para nós o consumidor tem o direito de ver o carro dele consertado do jeito certo. Sem informação, o reparador pode pôr em risco quem dirige e quem passa pela via."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as concessionárias só dão conta dos carros de 1 ou 2 anos na garantia, e por isso surgem as oficinas independentes",
+     "plain": "As concessionárias não conseguem reparar os veículos que existem hoje. Pegam só os carros de 1 ano, de 2 anos, os da garantia, e nem isso conseguem mais, por falta de peça e de mão de obra. Daí surgem as oficinas independentes."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o dono do carro tem direito de consertar onde quiser, assim como escolhe o médico e o transporte",
+     "plain": "O dono do veículo tem direito de levar o carro para consertar onde quiser, assim como escolhe o médico que quiser, o tipo de televisão que quiser e o transporte que quiser."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Sindirepa do Rio e passa a palavra ao diretor da Senacon.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que a situação afronta a liberdade de escolha, um dos alicerces da defesa do consumidor, e que é urgente permitir o conserto onde o dono quiser.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Impedir que o consumidor leve o veículo a quem ele confia ofende a liberdade de escolha protegida pelo Código de Defesa do Consumidor.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a situação afronta a liberdade de escolha, um dos alicerces da defesa do consumidor, e a venda casada é proibida",
+     "plain": "A defesa do consumidor se estrutura em segurança, informação, liberdade de escolha e participação. A situação em debate afronta um dos alicerces, que é a liberdade de escolha. O que se chama de venda casada é proibido."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      9
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "impedir o consumidor de levar o carro a quem ele confia ofende o Código de Defesa do Consumidor",
+     "plain": "Quando o consumidor compra um veículo e não pode escolher levá-lo a quem tem confiança, para que os códigos sejam acessados por alguém da sua escolha, há ofensa ao Código de Defesa do Consumidor."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é urgente permitir que quem comprou um veículo faça o conserto onde quiser, pela sua livre escolha",
+     "plain": "Além de prudente, é urgente avançar. Lamentamos que isso ainda precise ser discutido. Temos de permitir que quem comprou um veículo tenha a liberdade de fazer consertos onde quiser, pela sua livre escolha."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à Senacon e passa a palavra ao assessor do Sindirepa Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que o Brasil é o quarto maior mercado de reposição do mundo e que a rede de concessionárias é insuficiente, com carros esperando meses por peças.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rede de concessionárias é insuficiente para a frota e o consumidor espera meses por uma peça.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o país é o quarto do mundo em reposição automotiva, só atrás de Estados Unidos, China e Japão",
+     "plain": "Em reposição automotiva, o país é o quarto do mundo, só atrás de Estados Unidos, China e Japão. Isso já mostra o peso do setor na economia brasileira."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 5.570 Municípios e, já em 2010, a rede de concessionárias atendia no máximo 20% da frota",
+     "plain": "O País tem 5.570 Municípios. Hoje a venda e os serviços são terceirizados a uma rede de concessionárias insuficiente para a demanda. Em 2010, a presidência da Fenabrave disse que a rede atendia no máximo 20% da frota."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      19
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há carros que esperam até 6 meses por peças, por causa da insuficiência da rede de concessionárias",
+     "plain": "De lá para cá caiu o número de concessionárias, e há carro que fica até 6 meses à espera de uma peça, por causa dessa rede insuficiente."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Sindirepa Brasil e passa a palavra ao gerente técnico da Anfavea.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que o veículo virou um computador sobre rodas, alerta que mexer nos códigos pode desligar o airbag e propõe treinamento e ferramenta adequada.",
+   "quote": [
+    61,
+    62,
+    63
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O acesso aos códigos é possível, mas exige critérios, responsabilidade e ferramenta adequada, porque o veículo é um computador.",
+    "sentence": 67
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o carro virou um computador sobre rodas, acessado por uma tomada única chamada porta OBD",
+     "plain": "O carro virou um computador sobre rodas. E se chega a esse computador por uma tomada só, a porta OBD."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      61,
+      62,
+      63
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se o código de acionamento do airbag for deletado no reparo, ele não dispara no acidente",
+     "plain": "Esse código pode ser o que aciona o airbag. O carro vai para o conserto e alguém apaga, por algum motivo, um código que não devia sair. O dono pega o carro, bate e o airbag não dispara."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      70,
+      71,
+      72
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a oficina independente precisa de treinamento e da ferramenta adequada, e não de uma ferramenta paralela",
+     "plain": "Uma proposta seria pensar em treinamento, para que a oficina independente onde será feito o reparo saiba mexer naquela ferramenta e conheça de programação. Outro ponto é ter a ferramenta adequada, e não uma paralela."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que não dá para deixar o serviço com meia dúzia de autorizados e anuncia que é autor de um projeto de lei ainda em construção.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Deixar o serviço com meia dúzia de autorizados tira a abrangência do Código de Defesa do Consumidor.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para deixar o serviço com meia dúzia de autorizados, porque isso tira a abrangência do Código de Defesa do Consumidor",
+     "plain": "Não podemos deixar o serviço só na mão de meia dúzia de autorizados. Isso encolhe o alcance do nosso Código de Defesa do Consumidor, que é muito bom."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "já há um projeto de lei na Casa e ele quer construí-lo com as entidades e com os técnicos da Câmara",
+     "plain": "Já temos um projeto de lei sobre o assunto na Casa, e eu sou autor de um que ainda está em construção. A ideia é fazer isso com eficácia, com a visão dos senhores e dos nossos técnicos da Casa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra que montadoras e concessionárias se submetem ao Código de Defesa do Consumidor, relata falhas nas próprias concessionárias e cobra o cumprimento da lei.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A falha de manutenção também acontece na concessionária, e o que vale é o cumprimento do Código de Defesa do Consumidor.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "montadoras e concessionárias têm de se submeter ao Código de Defesa do Consumidor, que veda a venda casada",
+     "plain": "Estamos em território brasileiro, e aqui existe um Código de Proteção e Defesa do Consumidor com direitos que montadoras e concessionárias precisam respeitar. Falo da venda casada, proibida pela Lei 8.078, de 1990."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "falhas de manutenção e de códigos também acontecem nas concessionárias, como ela observou no Procon",
+     "plain": "Mesmo numa concessionária estamos sujeitos a falhas de manutenção e à descodificação de códigos, o que é muito comum. Eu venho do Procon, e nós observamos muitas falhas causadas por concessionárias também."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      13
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o consumidor espera 5 ou 6 meses por uma peça, mesmo havendo técnicos habilitados no País",
+     "plain": "Hoje o consumidor fica numa situação muito ruim: às vezes espera 5 meses, 6 meses por uma peça e pela concessionária, sendo que temos outros técnicos devidamente habilitados no Brasil para fazer esse conserto."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o representante da Anfavea responda ao questionamento da deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a concessionária responde pelo erro porque é credenciada e defende que a oficina independente siga o mesmo rito, com software e ferramentas da montadora.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A oficina independente precisa de credenciamento, treinamento e ferramenta adequada para reparar com o mínimo de erro.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a concessionária responde pelo erro porque tem credenciamento da montadora que define como ela deve fazer",
+     "plain": "A concessionária também pode codificar errado, e quando isso acontece ela responde, porque é credenciada pela montadora e segue o que a montadora manda fazer."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a oficina independente precisa seguir o mesmo rito da concessionária, com credenciamento, software e ferramentas da montadora",
+     "plain": "Se as oficinas independentes podem fazer os códigos de reparo, é preciso que sigam o mesmo rito das concessionárias, com credenciamento, software e ferramentas fornecidos pela montadora, para reduzir o erro."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nos Estados Unidos o software é fornecido por compra, e a padronização entre concessionária e oficina é o caminho",
+     "plain": "Entendo que é isso que os grandes mercados fazem com o direito de reparar nos Estados Unidos, com sistemáticas de fornecimento de software por compra, como nas concessionárias. A padronização é o caminho."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se mais algum expositor quer fazer uso da palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta como é feita a limitação do credenciamento, já que são pouquíssimas as oficinas habilitadas hoje.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "São pouquíssimas as oficinas habilitadas e não se sabe que regra define a expansão do credenciamento.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "são pouquíssimas as oficinas habilitadas e não se sabe que regra interna define a expansão do credenciamento",
+     "plain": "Como é feita essa limitação, se são pouquíssimas as oficinas hoje habilitadas com esse credenciamento? Eu não sei quais são as regras internas nem se existe uma forma de vocês deliberarem sobre essa expansão."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a Lei Ferrari já permite à montadora autorizar assistência técnica credenciada e aposta num consenso entre reparadores, fabricantes e defesa do consumidor.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei já permite o credenciamento e as três partes podem chegar a um consenso sobre como fazê-lo.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      2
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei Ferrari já permite que a montadora autorize uma assistência técnica credenciada",
+     "plain": "No caso do credenciamento, a Lei Ferrari já autoriza a montadora a dar a uma concessionária tanto a venda quanto uma assistência técnica credenciada."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o sindicato dos reparadores, os fabricantes e a defesa do consumidor chegam a um consenso sobre o credenciamento",
+     "plain": "Com o aprofundamento do estudo, vamos chegar a um denominador comum, juntando o sindicato dos reparadores, a Anfavea, do lado dos fabricantes, e a defesa do consumidor. Essas três partes chegam a um consenso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se mais algum expositor quer se posicionar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O assessor do Sindirepa Brasil pede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b021",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Sindirepa também pede a palavra para depois.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Lembra que a Lei Monti, de 2003, garantiu o acesso à reparação na Europa e argumenta que o credenciamento proposto continua vinculando a oficina à marca.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O credenciamento pela montadora continua vinculante, enquanto na Europa o direito à reparação já vale sem esse vínculo.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Lei Monti, de 2003, autorizou o acesso à reparação e acabou com o monopólio da garantia na Europa",
+     "plain": "Na Europa existe a Lei Monti, aprovada em 2003, que autorizava o acesso à reparação. Lá não existe o monopólio da garantia, como aqui, onde é preciso carimbar o manual do carro na concessionária para manter a garantia."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "na Europa o credenciamento existe, mas não é vinculante, porque o direito à reparação já está garantido",
+     "plain": "Essa proposta da Anfavea já existe na Europa desde 2003, com as montadoras credenciando oficinas. Mas, como existe o direito à reparação, ela não é vinculante: ninguém é obrigado a se credenciar a uma marca para reparar."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o modelo da Anfavea atende em parte, mas continua vinculante, ao contrário do que já vale na Europa",
+     "plain": "Para mim, o modelo da Anfavea resolve só uma parte, porque segue prendendo a oficina à marca. Na Europa já existe decisão judicial mostrando que esse vínculo não se impõe."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Sindirepa Brasil e pergunta se mais alguém quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente do Sindirepa pede novamente a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao presidente do Sindirepa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Argumenta que o Senai já forma e treina o profissional, que concessionárias terceirizam serviços para oficinas independentes e que não faz sentido proibir o acesso.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os profissionais já são formados pelo Senai e as concessionárias já terceirizam serviços, então não faz sentido proibir o acesso à informação.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Senai já forma e treina o profissional para usar essas ferramentas de reparo",
+     "plain": "Existe o Senai, ligado às federações e à Confederação Nacional da Indústria. É ele que forma o profissional e o treina justamente para usar essas ferramentas."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "concessionárias já terceirizam o serviço para oficina independente, então não faz sentido proibir o acesso dela",
+     "plain": "Várias concessionárias já passam o serviço delas para uma oficina independente, que conserta o carro com aquele mesmo equipamento. Proibir essa oficina de ver a informação não se sustenta."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "não dá para esperar mais 20 anos para voltar a discutir, se a lei europeia é de 2003",
+     "plain": "Se a lei europeia é de 2003, o que não podemos é ficar mais 20 anos à espera para retomar o assunto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e concede a palavra ao representante do ministério.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Avalia que o credenciamento pode ser a solução, lembra a responsabilidade solidária da montadora e cita a inspeção veicular obrigatória da Europa.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O credenciamento pode ser uma solução adequada, com responsabilidade solidária da montadora por quem ela credenciar.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o credenciamento pode ser a solução, mas traz responsabilidade solidária da montadora pelo credenciado",
+     "plain": "Credenciar talvez seja um caminho adequado para o tema andar. E vem junto a responsabilidade solidária: ao credenciar uma empresa, se o credenciado agir errado, a montadora também responde."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      5
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o reparo exige acesso à ferramenta de diagnóstico, às ferramentas de conserto e ao manual de reparo",
+     "plain": "Para fazer um reparo, seria preciso acesso pelo menos à ferramenta de diagnóstico, às ferramentas para o conserto adequado e também ao manual de reparo."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na Europa há inspeção veicular obrigatória, e no Brasil isso está no Código de Trânsito de 1998 sem regulamentação",
+     "plain": "Na Europa, apesar da abertura maior, existe uma inspeção técnica veicular, em geral anual e obrigatória pelo menos a cada 2 anos. Aqui isso está no Código de Trânsito de 1998, mas até hoje não foi regulamentado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Chama a atenção para o preço das peças na concessionária, cita uma peça de 18 mil reais e afirma que o ponto principal é liberar o acesso aos códigos.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O preço na concessionária é absurdo e o ponto principal é liberar o acesso aos códigos e às peças.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o preço na concessionária vai lá para cima e o preço das peças é absurdo",
+     "plain": "Quando o automóvel vai parar numa concessionária, o preço dispara. O que se cobra por uma peça é absurdo."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a peça de um técnico custou 18 mil reais na concessionária, o preço de um carro popular na época",
+     "plain": "Um dos técnicos que nos ajudam levou o carro à concessionária com um defeito. Cobraram 18 mil reais pela peça, faz um bom tempo, valor que na época comprava um carro popular."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ponto principal é liberar o acesso aos códigos e às peças, com segurança e treinamento",
+     "plain": "É preciso seguir passos de segurança, de aprimoramento e de treinamento, mas o ponto principal é a liberação do acesso a esses códigos e a essas peças, além do treinamento de pessoas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Levanta a dúvida sobre a partir de quando a obrigação de abrir os softwares valeria, se apenas para projetos novos ou também para os antigos.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 3,
+   "stance": {
+    "position": "neutro",
+    "claim": "É preciso definir a partir de quando a obrigação de abrir o software passaria a valer.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso definir se a obrigação de abrir o software valeria só para projetos novos ou também para os antigos",
+     "plain": "À medida que avançarmos, outro assunto debatido em outros países é: quando esse acesso a determinados softwares ou informações de reparo se torna obrigatório, a partir de que momento vale? Só para projetos novos ou retroage?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao ministério e passa a palavra à Senacon para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o direito do consumidor deve prevalecer, com liberdade de escolha informada, e lembra que a oficina responde se apagar o comando do airbag.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O direito do consumidor deve prevalecer, com liberdade de escolha, desde que as informações sejam claras.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o direito do consumidor deve prevalecer, com liberdade de escolha, desde que a informação seja clara",
+     "plain": "Ouvindo as falas que vieram antes e as que virão depois, continuo sustentando que o direito do consumidor vem na frente. Ele deve poder escolher, desde que receba informação clara."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o consumidor deve escolher mesmo sabendo dos riscos, porque a oficina que apagar o comando do airbag responde",
+     "plain": "O consumidor precisa saber o que arrisca ao apagar um comando. Ainda assim, a escolha é dele, até porque a oficina que apagar o comando do airbag vai responder por isso."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à Senacon e passa a palavra ao assessor do Sindirepa Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra que o Senai forma os dois lados, alerta que o dado do veículo já vai direto para a nuvem e afirma que as peças de reposição são as mesmas.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O dado do veículo já vai direto para a nuvem sem passar pelo consumidor, e quem gera esse dado é o motorista.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os mesmos professores do Senai formam o mecânico independente e o da concessionária, então não há déficit de qualificação",
+     "plain": "Quem forma os técnicos das montadoras é o Senai do Ipiranga, em São Paulo. Os professores que formam o mecânico independente são os mesmos que formam o da rede. Em qualificação, não devemos nada."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a nova trava eletrônica o dado do carro vai direto para a nuvem sem passar pelo consumidor, e quem o gera é o motorista",
+     "plain": "Veio aqui a porta OBD2, mas já existe um passo à frente, o Securite Gateway. Aquela porta não existe mais, e o dado sobe direto para a nuvem, sem passar pelo consumidor. Quem gera esse dado é o motorista."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as peças são as mesmas, porque em 25 anos ele não viu fabricante com duas linhas de montagem",
+     "plain": "As peças são absolutamente idênticas, são as mesmas peças. Em 25 anos na indústria, eu desconheço fabricante que tenha duas linhas de montagem, uma para a montadora e outra para o mercado de reposição."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao presidente do Sindirepa para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Lista as unidades do Senai que formam tanto o pessoal das montadoras quanto o das oficinas e cobra que a informação seja aberta agora.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 14,
+   "stance": {
+    "position": "contrario",
+    "claim": "Profissionais treinados já existem, e o que falta é abrir a informação, sem esperar mais 20 anos.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as mesmas unidades do Senai formam o pessoal das montadoras e o das oficinas, então profissionais treinados já existem",
+     "plain": "O Senai do Ipiranga forma os profissionais, o Senai de Jacarepaguá forma profissionais, o Senai de Resende forma o pessoal das montadoras, e são os mesmos que formam quem vai para as oficinas. Profissionais treinados nós temos."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "ou se abre a informação, ou se espera alguém morrer por um freio que não funcionou",
+     "plain": "O que precisamos é abrir essa informação, ou esperar que alguém morra porque a informação foi feita de forma errada, num freio que não funcionou? Se podemos simplificar, não precisamos dificultar."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Sindirepa e passa a palavra ao representante da Anfavea.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Conclui que código de falha e software são assuntos deste momento, não de 20 anos atrás, e que o consumidor deve ter acesso a uma oficina segura.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "É o momento dessa discussão, desde que o consumidor tenha acesso a uma oficina segura para reparar o veículo.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "código de falha e software não são assunto de 20 anos atrás, são deste momento, como na Europa e nos Estados Unidos",
+     "plain": "É importante olhar o que Europa e Estados Unidos estão fazendo. Costuma-se dizer que o assunto é de 20 anos atrás, mas código de falha e software são pauta de agora."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "é o momento da discussão, pensando em dar ao consumidor acesso a uma oficina segura",
+     "plain": "Acho que é o momento, sim, desta discussão, sempre com a preocupação de que o dono do carro possa repará-lo numa oficina segura."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia uma reunião fechada com os expositores para redigir o projeto e encerra os trabalhos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 49,
+   "from_claim": "b004c3",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "Traduz o direito de reparar em exemplos do dia a dia: escolher onde consertar o carro é como escolher o médico ou o transporte."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 31,
+   "from_claim": "b006c1",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "Dá base jurídica ao ponto da presidência: a liberdade de escolha é um dos alicerces do Código de Defesa do Consumidor."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 8,
+   "from_claim": "b008c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Põe número no diagnóstico do sindicato: já em 2010 a rede de concessionárias atendia no máximo 20% da frota."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 61,
+   "to_sentence": 6,
+   "from_claim": "b010c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Inverte o argumento da segurança: para a Anfavea, é o acesso malfeito aos códigos que pode desligar o airbag do consumidor."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 70,
+   "to_sentence": 19,
+   "from_claim": "b010c3",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Diante da espera do consumidor, propõe o caminho do treinamento e da ferramenta adequada para a oficina independente."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 70,
+   "from_claim": "b011c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Diante da proposta de credenciar, alerta que não dá para deixar o serviço com meia dúzia de autorizados."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 61,
+   "from_claim": "b012c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Rebate o risco apontado pela Anfavea: falhas de manutenção e de códigos também acontecem dentro das concessionárias."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 8,
+   "from_claim": "b012c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Retoma a proibição da venda casada, agora com a lei que a veda, apoiando a leitura da defesa do consumidor."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 10,
+   "from_claim": "b014c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Responde que a concessionária erra, mas responde pelo erro, porque tem credenciamento da montadora que define como fazer."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 70,
+   "from_claim": "b014c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Fecha a proposta da Anfavea: a oficina independente segue o mesmo rito, com credenciamento, software e ferramenta da montadora."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 4,
+   "from_claim": "b016c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "Cobra o outro lado do credenciamento: hoje são pouquíssimas as oficinas habilitadas e não se sabe que regra define a expansão."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 0,
+   "from_claim": "b017c1",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "Responde que a Lei Ferrari já permite à montadora autorizar uma assistência técnica credenciada."
+  },
+  {
+   "from": "b022",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 4,
+   "from_claim": "b022c3",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "Aponta o limite da proposta: o credenciamento da montadora continua vinculando a oficina à marca."
+  },
+  {
+   "from": "b022",
+   "to": "b017",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 2,
+   "from_claim": "b022c2",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "Mostra que na Europa o credenciamento existe desde 2003, mas não é vinculante, porque o direito à reparação já está garantido."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 1,
+   "from_claim": "b026c3",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "Acompanha o exemplo europeu e cobra pressa: não dá para esperar mais 20 anos para voltar ao assunto."
+  },
+  {
+   "from": "b026",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 70,
+   "from_claim": "b026c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Lembra que concessionárias já terceirizam o serviço para oficinas independentes, o que enfraquece a exigência de credenciamento."
+  },
+  {
+   "from": "b028",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 4,
+   "from_claim": "b028c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "Apoia o credenciamento e acrescenta a responsabilidade solidária da montadora por quem ela credenciar."
+  },
+  {
+   "from": "b028",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 1,
+   "from_claim": "b028c3",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "Acrescenta ao exemplo europeu a contrapartida da inspeção veicular obrigatória, que no Brasil nunca foi regulamentada."
+  },
+  {
+   "from": "b029",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 19,
+   "to_sentence": 70,
+   "from_claim": "b029c3",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Aceita os passos de segurança e de treinamento, mas diz que o ponto principal é liberar o acesso aos códigos e às peças."
+  },
+  {
+   "from": "b029",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 13,
+   "from_claim": "b029c2",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "Junta o preço à espera: a peça de um técnico custou 18 mil reais na concessionária."
+  },
+  {
+   "from": "b032",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 61,
+   "from_claim": "b032c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Aceita o risco descrito pela Anfavea, mas conclui o contrário: o consumidor escolhe e a oficina responde se apagar o comando."
+  },
+  {
+   "from": "b034",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 1,
+   "from_claim": "b034c1",
+   "to_claim": "b026c1",
+   "strength": "forte",
+   "note": "Detalha a formação: os mesmos professores do Senai formam o mecânico independente e o da rede de concessionárias."
+  },
+  {
+   "from": "b034",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 45,
+   "from_claim": "b034c2",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Atualiza o quadro técnico: com a nova trava eletrônica já não há a porta de diagnóstico, e o dado vai direto para a nuvem."
+  },
+  {
+   "from": "b036",
+   "to": "b034",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 2,
+   "from_claim": "b036c1",
+   "to_claim": "b034c1",
+   "strength": "forte",
+   "note": "Lista as unidades do Senai que formam tanto o pessoal das montadoras quanto o das oficinas independentes."
+  },
+  {
+   "from": "b036",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 14,
+   "to_sentence": 61,
+   "from_claim": "b036c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Devolve o argumento da segurança: sem abrir a informação, o risco é alguém morrer por um freio que não funcionou."
+  },
+  {
+   "from": "b038",
+   "to": "b029",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 19,
+   "from_claim": "b038c2",
+   "to_claim": "b029c3",
+   "strength": "forte",
+   "note": "Fecha pela Anfavea aceitando a discussão, desde que o consumidor tenha acesso a uma oficina segura."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b004",
+    "b006",
+    "b012",
+    "b032"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c3",
+    "b006c2",
+    "b012c1",
+    "b032c1"
+   ],
+   "note": "A presidência da comissão, o sindicato das oficinas, a Senacon e a deputada concordam que o consumidor tem direito de escolher onde consertar o carro e que a venda casada é proibida."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b028",
+    "b029",
+    "b034",
+    "b038"
+   ],
+   "claims": [
+    "b028c2",
+    "b029c3",
+    "b034c2",
+    "b038c1"
+   ],
+   "note": "O ministério, a presidência, o Sindirepa e a própria Anfavea concordam que o acesso aos códigos e ao manual de reparo precisa ser tratado agora, e não daqui a anos."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b012",
+    "b032"
+   ],
+   "claims": [
+    "b012c2",
+    "b032c2"
+   ],
+   "note": "A deputada e a Senacon concordam que a falha também acontece na concessionária e que quem faz o reparo responde por ela."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b012",
+    "b029"
+   ],
+   "claims": [
+    "b008c3",
+    "b012c3",
+    "b029c1"
+   ],
+   "note": "O sindicato das oficinas, a deputada e a presidência concordam que o consumidor espera meses por uma peça e paga preço alto na concessionária."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b010",
+    "b014",
+    "b017",
+    "b028"
+   ],
+   "claims": [
+    "b010c3",
+    "b014c2",
+    "b017c1",
+    "b028c1"
+   ],
+   "note": "A Anfavea e o Ministério do Desenvolvimento concordam que o caminho é credenciar e treinar a oficina independente, com ferramenta adequada e responsabilidade definida."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 9,
+   "addressed_to": "setor_privado",
+   "answered_by": "b014",
+   "gist": "o que fazer para que a lei brasileira seja cumprida",
+   "plain": "O que deve ser feito para que a lei brasileira seja cumprida nesse caso?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 0,
+   "addressed_to": "setor_privado",
+   "answered_by": "b017",
+   "gist": "como é feita a limitação do credenciamento das oficinas",
+   "plain": "Como é feita essa limitação, se são pouquíssimas as oficinas habilitadas hoje?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b029",
+   "sentence": 19,
+   "addressed_to": "setor_privado",
+   "answered_by": "b038",
+   "gist": "liberar o acesso aos códigos e às peças",
+   "plain": "As montadoras vão liberar o acesso aos códigos e às peças, com treinamento e segurança?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b030",
+   "sentence": 3,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "se a obrigação valeria só para projetos novos",
+   "plain": "A obrigação de abrir o software valeria só para os projetos novos ou também para os carros antigos?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b036",
+   "sentence": 14,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "gist": "abrir a informação ou esperar que alguém morra",
+   "plain": "Vamos abrir essa informação ou esperar que alguém morra por um freio que não funcionou?",
+   "theme": "d3",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 22,
+   "gist": "movimento começou em 2017 em 18 Estados americanos",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 24,
+   "gist": "11 anos desde o início nos Estados Unidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 18,
+   "gist": "o assunto perdura há no mínimo 20 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 8,
+   "gist": "Brasil é o quarto maior mercado de reposição",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 12,
+   "gist": "Repair Act com aderência de 37 dos 50 Estados",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 16,
+   "gist": "o País tem 5.570 Municípios",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 17,
+   "gist": "rede atendia no máximo 20% da frota em 2010",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 19,
+   "gist": "carros esperam até 6 meses por peças",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 7,
+   "gist": "venda casada vedada pela Lei 8.078, de 1990",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b022",
+   "sentence": 1,
+   "gist": "Lei Monti aprovada na Europa em 2003",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b028",
+   "sentence": 6,
+   "gist": "inspeção veicular europeia pelo menos a cada 2 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b029",
+   "sentence": 13,
+   "gist": "peça de concessionária custou 18 mil reais",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o pedido de uma lei sobre equipamentos e softwares de diagnóstico e o argumento de que a falta de norma prejudica o consumidor e a livre concorrência.",
+  "omitted": "Ficou de fora a divergência sobre o credenciamento ser ou não vinculante à marca e a questão do dado do veículo que já vai direto para a nuvem."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O consumidor escolhe onde conserta o carro",
+   "statement_plain": "Quem compra um carro tem o direito de escolher onde consertá-lo, como escolhe o médico, e travar essa escolha é venda casada, proibida pelo Código de Defesa do Consumidor.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c3",
+    "b006c2",
+    "b012c1",
+    "b032c1"
+   ],
+   "note": "Cruza a sala inteira: a presidência, o sindicato das oficinas, o órgão federal de defesa do consumidor e uma deputada de outro partido sustentam a mesma ideia."
+  },
+  {
+   "id": "t2",
+   "title": "Credenciar e treinar é o caminho seguro",
+   "statement_plain": "A oficina independente só deve mexer nos códigos se passar pelo mesmo rito da concessionária, com credenciamento da montadora, treinamento e ferramenta adequada.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b010c3",
+    "b014c2",
+    "b014c3",
+    "b017c1",
+    "b028c1"
+   ],
+   "note": "Divide o lado de fora do Parlamento: a associação das montadoras e o Ministério do Desenvolvimento defendem o credenciamento, e o sindicato das oficinas é contra."
+  },
+  {
+   "id": "t3",
+   "title": "Credenciar pela montadora mantém o vínculo",
+   "statement_plain": "Credenciar a oficina pela montadora mantém o vínculo com a marca: na Europa o direito de reparar já vale sem isso, e o Senai já forma os mesmos profissionais dos dois lados.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b022c1",
+    "b022c2",
+    "b022c3",
+    "b026c1",
+    "b026c2",
+    "b034c1"
+   ],
+   "note": "É a ideia do sindicato das oficinas, sustentada com o exemplo europeu e com a formação do Senai, contra a proposta que a Anfavea e o ministério apoiam."
+  },
+  {
+   "id": "t4",
+   "title": "Abrir os códigos traz risco real",
+   "statement_plain": "Mexer nos códigos do carro pode desligar o airbag, piorar as emissões e abrir espaço para chave falsa, e por isso o acesso não pode ser solto.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b014c1",
+    "b028c3"
+   ],
+   "note": "Junta a associação das montadoras e o Ministério do Desenvolvimento, que acrescenta a inspeção veicular obrigatória como contrapartida da abertura."
+  },
+  {
+   "id": "t5",
+   "title": "O erro acontece dos dois lados e quem repara responde",
+   "statement_plain": "A falha também acontece na concessionária, e quem faz o reparo responde por ele: travar o acesso não protege ninguém, e a demora é que custa vidas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b012c2",
+    "b032c2",
+    "b036c2"
+   ],
+   "note": "Junta a deputada, que veio do Procon, o órgão federal de defesa do consumidor e o sindicato das oficinas contra o argumento de risco da indústria."
+  },
+  {
+   "id": "t6",
+   "title": "O consumidor paga caro e espera meses",
+   "statement_plain": "A rede de concessionárias não dá conta da frota: o consumidor espera meses por uma peça e paga preço absurdo, e as peças são as mesmas do mercado de reposição.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b008c3",
+    "b012c3",
+    "b029c1",
+    "b029c2",
+    "b034c3"
+   ],
+   "note": "Junta o sindicato das oficinas, uma deputada e a presidência da comissão em torno do preço e da espera, que é o que o consumidor sente no bolso."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SENACON",
+   "plain": "Secretaria Nacional do Consumidor, órgão do Ministério da Justiça que protege os direitos do consumidor",
+   "fala": "b001",
+   "sentence": 5
+  },
+  {
+   "term": "SINDIREPA",
+   "plain": "sindicato das empresas que consertam veículos e vendem acessórios",
+   "fala": "b001",
+   "sentence": 6
+  },
+  {
+   "term": "ANFAVEA",
+   "plain": "associação que reúne os fabricantes de veículos que produzem no Brasil",
+   "fala": "b001",
+   "sentence": 8
+  },
+  {
+   "term": "right to repair",
+   "plain": "direito de reparar: a ideia de que quem compra um produto pode consertá-lo onde quiser, e não só na assistência da marca",
+   "fala": "b001",
+   "sentence": 22
+  },
+  {
+   "term": "economia circular",
+   "plain": "modelo em que os produtos são reparados, reutilizados e reciclados para durar mais e gerar menos lixo",
+   "fala": "b001",
+   "sentence": 27
+  },
+  {
+   "term": "CDC",
+   "plain": "sigla do Código de Defesa do Consumidor, a lei que define os direitos de quem compra produtos e serviços",
+   "fala": "b001",
+   "sentence": 31
+  },
+  {
+   "term": "venda casada",
+   "plain": "quando a compra de um produto obriga o cliente a contratar outro serviço junto, o que a lei proíbe",
+   "fala": "b006",
+   "sentence": 8
+  },
+  {
+   "term": "código de falha",
+   "plain": "aviso que o computador do carro registra quando alguma peça ou sistema não funciona como foi programado",
+   "fala": "b010",
+   "sentence": 10
+  },
+  {
+   "term": "porta OBD",
+   "plain": "tomada do veículo por onde o computador de bordo é acessado para diagnóstico e reparo",
+   "fala": "b010",
+   "sentence": 45
+  },
+  {
+   "term": "scan tool",
+   "plain": "aparelho ligado à tomada de diagnóstico que lê os códigos do computador do carro",
+   "fala": "b010",
+   "sentence": 48
+  },
+  {
+   "term": "Lei Ferrari",
+   "plain": "lei de 1979 que organiza a relação entre as montadoras e as concessionárias no Brasil",
+   "fala": "b010",
+   "sentence": 77
+  },
+  {
+   "term": "Lei Monti",
+   "plain": "lei europeia de 2003 que garantiu o acesso à reparação e acabou com o monopólio da garantia",
+   "fala": "b022",
+   "sentence": 1
+  },
+  {
+   "term": "Securite Gateway",
+   "plain": "trava eletrônica mais nova que substitui a tomada de diagnóstico e manda os dados do carro direto para a nuvem",
+   "fala": "b034",
+   "sentence": 5
+  },
+  {
+   "term": "LGPD",
+   "plain": "Lei Geral de Proteção de Dados, que define quem pode usar dados pessoais e para quê",
+   "fala": "b034",
+   "sentence": 7
+  }
+ ]
+}

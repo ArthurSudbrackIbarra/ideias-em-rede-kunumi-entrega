@@ -1,0 +1,3104 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 3,
+ "model": "LLM lendo o prompt hearing-003 (sim-annotations-v3), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-15T17:21:51Z",
+ "prompt_sha256": "1c99a9b8bdc0b567efe6b04483f1493ca0e8a942911cc7c19b5443d4a49c46f0",
+ "sentences_hash": "f9ea12057fafbef1",
+ "review": {
+  "pairs_read": 28,
+  "pairs_fixed": 6
+ },
+ "warnings": [
+  "5 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t2: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado",
+  "tese t5: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "O ministro do Trabalho e Emprego levou à Comissão de Trabalho o plano do Ministério para 2024 e defendeu acabar com o saque-aniversário do FGTS, trocando-o por um crédito consignado descontado da folha de pagamento e operado pelo eSocial. O autor do requerimento e a oposição responderam que o dinheiro é do trabalhador e que o saque já pôs bilhões na economia, enquanto deputados da base cobraram a volta da ultratividade e da homologação da demissão nos sindicatos. O debate ainda se estendeu ao projeto que regulamenta os motoristas de aplicativo, do qual o governo tinha acabado de retirar o regime de urgência.",
+ "stakes": "O governo queria saber se um projeto para extinguir o saque-aniversário e criar o consignado em folha teria aderência no Congresso antes de ser enviado.",
+ "central_question": "O saque-aniversário do FGTS deve ser extinto e substituído por um crédito consignado descontado da folha de pagamento?",
+ "synopsis_plain": "O ministro do Trabalho foi à Comissão de Trabalho apresentar o plano de 2024 e defendeu acabar com o saque-aniversário do FGTS, pondo no lugar um empréstimo descontado da folha de pagamento. A oposição respondeu que o dinheiro é do trabalhador e que o saque movimentou a economia. O debate também alcançou o projeto que regulamenta os motoristas de aplicativo, que acabara de perder a urgência.",
+ "stakes_plain": "Estava em jogo se o governo mandaria ao Congresso um projeto para acabar com o saque-aniversário e criar um empréstimo descontado da folha.",
+ "central_question_plain": "O saque-aniversário do FGTS deve acabar e dar lugar a um empréstimo descontado da folha de pagamento?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Saque-aniversário e o FGTS",
+   "description": "O que o saque-aniversário fez com a conta de quem é demitido e com a capacidade do fundo de financiar habitação, saneamento e infraestrutura.",
+   "axis": {
+    "pro": "O saque-aniversário deve acabar para o FGTS voltar a proteger quem perde o emprego e a financiar obras.",
+    "contra": "O saque-aniversário é dinheiro do trabalhador e deve continuar existindo.",
+    "pro_plain": "Acabar com o saque-aniversário devolve ao FGTS o papel de amparar quem perde o emprego e de financiar obras.",
+    "contra_plain": "O dinheiro do saque-aniversário é do trabalhador, e ele deve continuar podendo sacar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Consignado em folha",
+   "description": "A proposta de um empréstimo descontado da folha de pagamento, operado pelo eSocial num leilão de taxas entre bancos, no lugar do crédito garantido pelo FGTS.",
+   "axis": {
+    "pro": "O consignado em folha dá crédito tão barato quanto o do fundo e não trava o saldo do trabalhador.",
+    "contra": "Os dois produtos deviam coexistir, e o consignado privado é mais caro e mais arriscado.",
+    "pro_plain": "O empréstimo descontado da folha é tão barato quanto o do fundo e não prende o saldo do trabalhador.",
+    "contra_plain": "Os dois deviam existir juntos, e o novo empréstimo é mais caro e mais arriscado."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Trabalho por aplicativo",
+   "description": "O projeto que cria uma categoria autônoma com piso por hora, contribuição à Previdência e direito de organização para motoristas de aplicativo.",
+   "axis": {
+    "pro": "A regulamentação dá direitos mínimos a quem hoje trabalha sem nenhuma proteção.",
+    "contra": "O projeto encarece a corrida, reduz o número de motoristas e beneficia só sindicatos e governo.",
+    "pro_plain": "A regra dá direitos mínimos a quem hoje dirige por aplicativo sem nenhuma proteção.",
+    "contra_plain": "O projeto encarece a corrida, tira motorista da rua e só interessa a sindicatos e ao governo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Reconstrução do Ministério do Trabalho",
+   "description": "A recriação do Ministério, o concurso para auditores fiscais e o combate ao trabalho análogo à escravidão e ao trabalho infantil.",
+   "axis": {
+    "pro": "Recriar o Ministério e repor auditores é o que devolve fiscalização e proteção a quem trabalha.",
+    "contra": "A estrutura do Ministério não muda a vida de quem trabalha, porque quem gera emprego é a iniciativa privada.",
+    "pro_plain": "Recriar o Ministério e contratar auditores é o que devolve fiscalização e proteção a quem trabalha.",
+    "contra_plain": "A estrutura do Ministério não muda a vida de quem trabalha, porque quem gera emprego é a iniciativa privada."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Salário mínimo, emprego e renda",
+   "description": "A política de valorização do salário mínimo, o saldo de empregos do CAGED, a rotatividade no mercado e a percepção da população sobre a economia.",
+   "axis": {
+    "pro": "A política de valorização do salário mínimo elevou a renda e sustenta a geração de emprego.",
+    "contra": "O aumento do salário mínimo foi pequeno e a inflação já o consumiu.",
+    "pro_plain": "A política de valorização do salário mínimo levantou a renda e ajuda a gerar emprego.",
+    "contra_plain": "O aumento do salário mínimo foi pequeno e a inflação já comeu esse ganho."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Sindicatos e reforma trabalhista",
+   "description": "A cobrança para recuperar a ultratividade, a homologação da demissão nos sindicatos e a contribuição negocial retiradas pela reforma trabalhista.",
+   "axis": {
+    "pro": "É preciso devolver aos sindicatos a ultratividade, a homologação e a contribuição negocial.",
+    "contra": "Fortalecer o sindicato por lei interessa ao próprio sindicato, e não a quem trabalha.",
+    "pro_plain": "É preciso devolver aos sindicatos o acordo que continua valendo, a homologação e a contribuição das categorias.",
+    "contra_plain": "Dar força ao sindicato por lei interessa ao próprio sindicato, e não a quem trabalha."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Igualdade salarial e mulheres",
+   "description": "A lei da igualdade salarial, o decreto legislativo que questiona a sua regulamentação e a disputa sobre quantas mulheres ocupam cargos no governo.",
+   "axis": {
+    "pro": "A lei da igualdade salarial e a presença de mulheres no primeiro escalão são avanços reais.",
+    "contra": "A igualdade já estava na lei há décadas, e a defesa das mulheres pelo governo é só discurso.",
+    "pro_plain": "A lei da igualdade salarial e as mulheres nos cargos mais altos são avanços de verdade.",
+    "contra_plain": "A igualdade já estava na lei há décadas, e a defesa das mulheres pelo governo é só discurso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d8",
+   "name": "Desinformação e debate público",
+   "description": "Por que a rejeição ao projeto dos aplicativos cresceu, o peso das versões que circulam sobre as propostas, a consulta feita no site da Câmara e a falha de comunicação do governo.",
+   "axis": {
+    "pro": "A rejeição ao projeto vem de mentira e de falha de comunicação, não do conteúdo dele.",
+    "contra": "A rejeição da população é real, e é ela que tem de ser respeitada.",
+    "pro_plain": "A rejeição ao projeto vem de mentira e de falha de comunicação, não do que está escrito nele.",
+    "contra_plain": "A rejeição da população é real, e é ela que tem de ser respeitada."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado Lucas Ramos (PSB-PE), presidente da Comissão de Trabalho",
+   "org": "Comissão de Trabalho",
+   "basis": "lista de oradores da ata e abertura em b001.0 a b001.4",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida de trabalho e emprego. O presidente dela dirigiu a audiência"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Ministro de Estado do Trabalho e Emprego",
+   "org": "Ministério do Trabalho e Emprego",
+   "basis": "anunciado pela presidência em b001.3 e b001.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Trabalho e Emprego",
+   "org_plain": "ministério do governo federal que cuida das regras do trabalho, da fiscalização das empresas e do emprego"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal (PDT-GO), presidente da Subcomissão de Trabalho por Aplicativos",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e autoapresentação em b006.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PDT de Goiás",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PL-AM), autor do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro da presidência em b007.18",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Amazonas",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-RS)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b001.8",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Rio Grande do Sul",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-RJ)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b001.8",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-PA), ex-presidente da Comissão de Trabalho",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e menção da presidência em b017.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Pará",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-SP), relator da Subcomissão de Trabalho por Aplicativos",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e menção em b006.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de São Paulo",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-RS)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b001.8",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Rio Grande do Sul",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-SP)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b001.8",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de São Paulo",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-MG), vice-líder do governo",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e reconhecimento da presidência em b036.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de Minas Gerais",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PL-PB), falou pela liderança da Minoria",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro da presidência em b043.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL da Paraíba",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s13": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (REDE-PE)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro da presidência em b030.4",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pela Rede de Pernambuco",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal (Solidariedade-SP)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b007.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Solidariedade de São Paulo",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s15": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PDT-BA)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b007.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PDT da Bahia",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s16": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-MG)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b007.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de Minas Gerais",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s17": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal (PT-DF)",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e registro em b007.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PT do Distrito Federal",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.25
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.05
+   }
+  ],
+  "basis": "faixas de motoristas de aplicativo citadas em b002.176, equipe e cinco secretários do Ministério anunciados de b007.10 a b007.15, imprensa e servidores cumprimentados em b002.1, deputados registrados em b001.8 e b007.7 e duas marcações de palmas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a reunião, registra presenças e explica que o ministro terá 40 minutos, prorrogáveis por 20.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta o plano do Ministério para 2024, defende acabar com o saque-aniversário e propõe no lugar um empréstimo descontado da folha pelo eSocial.",
+   "quote": [
+    163,
+    164
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    4,
+    7,
+    8,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério está sendo reconstruído e precisa repor auditores para voltar a fiscalizar o país inteiro.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      136,
+      137,
+      138
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "esses 8 milhões e pouco de trabalhadores teriam 22 bilhões, mas restam 4 bilhões e 600 milhões",
+     "plain": "Esses 8 milhões e pouco de trabalhadores teriam algo na ordem de 22 bilhões. Só que, na verdade, esses 22 bilhões hoje são 4 bilhões e 600 milhões, porque o resto já foi comprometido com os bancos."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      145
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 100 bilhões comprometidos, e o fundo poderia ter esse lastro a mais para habitação, saneamento e infraestrutura",
+     "plain": "Somando demitidos e não demitidos, o que está comprometido é da ordem de 100 bilhões. O Fundo de Garantia poderia ter 100 bilhões de reais a mais de lastro para investir em habitação, saneamento e infraestrutura."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      164,
+      165
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dá para oferecer um empréstimo descontado da folha pelo eSocial tão barato quanto o do Fundo de Garantia",
+     "plain": "Queremos oferecer outra saída de crédito: o empréstimo descontado da folha de pagamento, pelo eSocial, o sistema em que a empresa informa os dados do trabalhador. Com a folha dada em garantia, ele sai tão barato quanto o do fundo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a retirada da urgência e explica que o projeto dos aplicativos só chega a esta Comissão em maio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada pede a palavra para uma questão de ordem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra à deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada lembra que a Subcomissão dos aplicativos vai seguir com audiências públicas enquanto o projeto não chega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra presenças, apresenta os secretários do Ministério e organiza os blocos de oradores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende a manutenção do saque-aniversário, afirma que ele é o 14º salário do trabalhador e sustenta que o fundo cresceu desde a criação dele.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O saque-aniversário é dinheiro do próprio trabalhador e acabar com ele seria uma crueldade.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "acabar com o saque-aniversário seria cruel, porque ele é como um 14º salário e o dinheiro é do trabalhador",
+     "plain": "Eu diria, conversando com os trabalhadores do meu país, que acabar com o saque-aniversário seria cruel e até maligno. Ele é como um 14º salário. Não falo de empréstimo, falo do dinheiro que ele saca. O senhor mesmo disse que é dele."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "34,5 milhões de trabalhadores já usaram o saque-aniversário e puseram 75 bilhões de reais na economia",
+     "plain": "Em 2020, quando o saque-aniversário foi criado, 34,5 milhões de trabalhadores já o usaram. Não sei quantas mensagens o senhor recebeu, mas garanto que não foram 34 milhões. E esses 34,5 milhões puseram 75 bilhões na economia."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o FGTS não está sendo prejudicado, porque de 2020 a 2023 o fundo aumentou 14,3%",
+     "plain": "É preciso mostrar este número à população: o FGTS não está sendo prejudicado pelo saque-aniversário. De 2020, quando ele foi criado, até 2023, o fundo aumentou 14,3%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência atende o pedido e soma ao orador o tempo de liderança.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede que o ministro abandone o fim do saque-aniversário e alerta que o piso por hora do projeto dos aplicativos encarece a corrida e reduz o número de motoristas.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O projeto dos aplicativos encarece a corrida e acaba reduzindo o número de motoristas na rua.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "em Manaus só 25% da população tem tratamento de esgoto e o dinheiro do fundo é muito mal usado",
+     "plain": "Em Manaus, minha cidade, apenas 25% das pessoas têm tratamento de esgoto. Não sei se é incompetência do prefeito, que não vai ao BNDES buscar o dinheiro do fundo, ou se é falta de projeto. Esse recurso está sendo muito mal usado."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o piso de 32 reais por hora fica abaixo dos 50 reais de Palmas e dos 46 reais de São Paulo",
+     "plain": "O projeto traz a criação de sindicato e um piso de 32 reais para a hora trabalhada. Mas, quando estudo a hora trabalhada em alguns municípios, vejo Palmas pagar 50 reais e São Paulo pagar em média 46 reais."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "menos gente usando o aplicativo significa menos motoristas e mais desemprego, e o projeto não pode criar desemprego",
+     "plain": "Se menos gente usa o aplicativo, são menos motoristas trabalhando e mais desemprego no país. Não podemos fazer um projeto que cria desemprego."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica o tempo do autor do requerimento, registra uma presença e anuncia o próximo bloco.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede para falar antes, por causa de uma reunião marcada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência inverte a ordem e passa a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Celebra a volta do Ministério do Trabalho, cobra o concurso de auditores e defende que o trabalhador de aplicativo tenha direitos e que o fundo ampare quem é demitido.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A reconstrução do Ministério e o concurso de auditores são urgentes para conter a precarização do trabalho.",
+    "sentence": 35
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o fundo existe para amparar quem perde o emprego, e sacar todo ano é o mesmo que acabar com ele",
+     "plain": "O Fundo de Garantia nasceu com um objetivo claro: amparar quem fica desempregado até arrumar outro emprego. Sacar sem critério, ou sacar todo ano no aniversário, seria o mesmo que criar um prêmio mensal e acabar com o fundo."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalhador de aplicativo deveria ter 13º salário, férias, seguro e aviso prévio, porque arca com todos os custos",
+     "plain": "Eu sou dos que defendem que o trabalhador por aplicativo deveria receber 13º salário, férias, seguro e aviso prévio. Ele tem todos os custos, e o outro lado manda nas regras e fica com o lucro, sem transparência."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o número de auditores fiscais caiu de mais de 3.000 para pouco mais de 1.400, e isso faz o trabalho escravo voltar",
+     "plain": "O desmonte teve efeito na ponta: o número de auditores fiscais caiu de mais de 3.000 para pouco mais de 1.400. Isso faz o país retroceder ao trabalho parecido com escravidão, que precisamos varrer daqui."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica o tempo usado e passa a palavra ao próximo orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta a contradição entre a renda e o emprego em alta e a percepção ruim da população, e pede que o crescimento econômico vire o centro do governo.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "Os números do emprego melhoraram, mas o crescimento econômico precisa virar o centro do governo.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a renda por pessoa subiu 16% em 2023 e passou de 1.625 reais para 1.893 reais",
+     "plain": "A renda por pessoa no Brasil subiu 16% em 2023. Não é pouca coisa para 1 ano. Ela passou de 1.625 reais para 1.893 reais."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na Pesquisa Atlas 19% acham o emprego bom e 57% acham ruim, mesmo com desemprego baixo e renda em alta",
+     "plain": "Na última Pesquisa Atlas, sobre como as pessoas veem o emprego, 19% dizem que está bom e 57% dizem que está ruim. E isso com o desemprego lá embaixo e a renda subindo."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o crescimento de 2023 foi 2,9%, com 0,9% de carregamento e 45% dos 2% restantes vindos do agro e do petróleo",
+     "plain": "O crescimento da economia em 2023 foi de 2,9%. Desse total, 0,9% é carregamento estatístico e 45% dos 2% restantes vêm do setor agropecuário e da extração de petróleo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao próximo orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece a manutenção da Subcomissão dos aplicativos e cumprimenta o ministro pela presença.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede silêncio no plenário e devolve o tempo ao orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede ao ministro que explique a origem do FGTS, elogia a formalização de quem recebe o Bolsa Família e cobra as entregas do Ministério em 2024.",
+   "quote": [
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 18,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O fundo tem de proteger quem sai do emprego, e liberar o saldo agora desprotege essa pessoa.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "liberar o dinheiro porque ele é do trabalhador deixa a pessoa sem proteção na hora em que sai do emprego",
+     "plain": "Ministro, com toda a ponderação da oposição sobre o FGTS, eu queria que o senhor contasse qual é a origem do fundo. Vamos liberar o dinheiro agora, em nome de ele ser do trabalhador, e deixar essa pessoa sem proteção ao sair do emprego?"
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem recebe Bolsa Família e arruma emprego já não precisa pedir ao patrão para não assinar a carteira",
+     "plain": "Parabenizo o avanço de garantir que quem recebe o Bolsa Família e arruma um emprego não precise pedir ao patrão, como primeiro pedido, para não assinar a carteira. Isso é muito importante para gerar emprego e formalidade no país."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Congresso não pode usar o debate sobre os aplicativos como enrolação para não aprovar a regulamentação",
+     "plain": "Nós não podemos enrolar. O Congresso não pode tomar isso como enrolação para não aprovar. Talvez, para a oposição, não seja bom regulamentar essas relações neste governo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao próximo orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Lembra a política de recuperação do salário mínimo, afirma que o trabalho escravo persiste e mostra a queda do emprego com carteira na região do ABC.",
+   "quote": [
+    34,
+    35,
+    36
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As reformas reduziram o emprego com carteira assinada e é preciso reforçar de novo o movimento sindical.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a política de recuperação do salário mínimo mais do que dobrou o valor dele no passado e foi ótima para a economia",
+     "plain": "Um ponto é a política de recuperação do poder de compra do salário mínimo. É uma grande conquista, que no passado mais do que dobrou o valor do salário mínimo. Isso era ótimo para a economia."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o trabalho escravo continua no país mesmo com a lei, e isso atende ao interesse de deputados contrários aos projetos dos trabalhadores",
+     "plain": "Nós sabemos que o trabalho escravo continua neste país, mesmo existindo a lei. E, enquanto ele continua, atende ao interesse de muitos deputados daqui que são contra os projetos em defesa da classe trabalhadora."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no ABC o emprego com carteira assinada caiu de 363 mil para 180 mil por causa das reformas",
+     "plain": "Na região do ABC, de onde viemos, éramos 363 mil trabalhadores com carteira assinada, com sindicato, 13º, Fundo de Garantia e aviso prévio. Esse número caiu para 180 mil antes da pandemia, e isso é resultado dessas reformas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao último orador do bloco.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra a volta da ultratividade, da homologação nos sindicatos e da contribuição negocial, e credita ao reajuste acima da inflação o valor do salário mínimo de hoje.",
+   "quote": [
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso desfazer os efeitos da reforma trabalhista e devolver força aos sindicatos.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso recuperar a ultratividade, porque hoje o acordo acaba no fim do ano e tudo tem de ser renegociado",
+     "plain": "Existe o tema da ultratividade, a regra do acordo coletivo que acaba no fim do ano e obriga a renegociar tudo. Ministro, nós precisamos recuperar a ultratividade nas negociações."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso trazer de volta a homologação nos sindicatos e a contribuição negocial das categorias",
+     "plain": "Ministro, precisamos trabalhar para ter de volta a homologação da demissão nos sindicatos. E precisamos voltar com a contribuição negocial das categorias. Ela tem de ser respeitada."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem o reajuste acima da inflação em 2013 o salário mínimo hoje seria 800 reais, e não 1.412",
+     "plain": "Se Lula não tivesse dado o reajuste acima da inflação, lá em 2013, junto com Dilma, quanto seria o salário mínimo hoje? Seria 800 reais. E hoje é 1.412, que ainda é pouco."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra o primeiro bloco e devolve a palavra ao ministro por até 18 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ministro agradece as perguntas e lamenta que o autor do requerimento já não esteja no plenário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b027",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado interrompe para reclamar que o autor do requerimento falou e foi embora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o ministro seja ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b029",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o consignado em folha mantém crédito barato sem travar o fundo, nega motivo político para a mudança e sustenta que o piso por hora puxa as médias para cima.",
+   "quote": [
+    77,
+    78
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O consignado em folha substitui o saque-aniversário sem tirar crédito de quem trabalha.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o empréstimo descontado da folha pelo eSocial mantém um crédito tão barato quanto o do fundo, sem prejuízo ao trabalhador",
+     "plain": "Não estamos deixando o trabalhador à própria sorte. Queremos devolver ao Fundo de Garantia o seu papel e oferecer um empréstimo descontado da folha, gerido pelo eSocial, tão barato quanto o do fundo. Não há prejuízo a quem trabalha."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a mudança no saque-aniversário não é porque a regra foi aprovada no governo anterior",
+     "plain": "Por favor, não digam, como se colocou aqui, que nós queremos mexer nisso porque foi aprovado durante o Governo Bolsonaro. Não é isso. Não é isso mesmo."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criar um piso de 32 reais faz subir as médias de 50 reais de São Paulo, 42 do Rio Grande do Norte e 29 de Manaus",
+     "plain": "Quando se cria um mínimo, que hoje não existe, a média sobe. Com o piso de 32 reais, a média de 50 reais de São Paulo cresce, a de 42 reais do Rio Grande do Norte cresce e a de 29 reais de Manaus também cresce."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a ordem do segundo bloco e passa a palavra ao próximo orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Compara os aplicativos às antigas peruas clandestinas, desmente boatos sobre a Previdência e pergunta por que a isenção do Imposto de Renda vai até 11 mil reais.",
+   "quote": [
+    28,
+    29,
+    30
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação dos aplicativos é necessária, e a desinformação atrapalha o debate sobre ela.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nenhuma prefeitura conseguiu regularizar os aplicativos, que funcionam como um sistema de exploração",
+     "plain": "Surge agora uma nova categoria, a dos aplicativos. Algumas prefeituras tentam regularizar e, que eu saiba, nenhuma conseguiu até hoje. É exploração, é um regime de escravidão, e todos sabemos disso."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "se o motorista contribui para a Previdência, esse tempo conta como tempo de serviço",
+     "plain": "O motorista me pergunta como vai se aposentar quando fizer 65 anos, 70 anos. E eu respondo: se você está contribuindo para a Previdência, isso conta como tempo de serviço, sim."
+    },
+    {
+     "id": "b031c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ninguém aqui pergunta quanto lucram a Uber e a 99, só se pergunta o que os trabalhadores vão perder",
+     "plain": "Não vi ninguém aqui questionar o lucro da Uber, da 99, dos grandes aplicativos. Ninguém sabe quanto eles lucram. Só se vem aqui perguntar o que os trabalhadores vão perder."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede ao deputado que faça o encaminhamento final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b033",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Conta o que ouviu de um motorista sobre o piso por hora e atribui à desinformação a ideia de que o projeto é ruim.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A desinformação faz o motorista acreditar que o piso vai reduzir o que ele ganha.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o motorista acha que com a proposta vai ganhar 32 reais numa corrida de 100 reais, e isso é desinformação",
+     "plain": "O motorista com quem viajei me disse assim: a sua corrida está dando 100 reais e, com essa proposta, eu só vou ganhar 32 reais. É a desinformação que faz eles acharem que o projeto é ruim."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e chama o próximo orador inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b035",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede o tempo de governo por estar falando na condição de vice-líder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b036",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede mais 8 minutos ao vice-líder do governo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b037",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece e diz que não vai usar todo o tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o deputado seja ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b039",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado oferece a vez a outro parlamentar e diz que pode aguardar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b040",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado recusa a vez e pede que o colega fale primeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência restabelece o tempo do orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b042",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende o sindicato como porto seguro de quem trabalha, sustenta que a regulamentação dá aos motoristas contrato coletivo anual e lista os avanços do Ministério em 2023.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O sindicato e o contrato coletivo são o que protege quem trabalha, inclusive nos aplicativos.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem o sindicato o trabalhador não disputa de igual para igual com o patrão, que é quem emprega e demite",
+     "plain": "É preciso ter consciência de trabalhador. Sem ela, a pessoa não disputa de igual para igual com o patrão, que tem os meios de produção e é quem emprega e também demite. O sindicato é esse porto seguro."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      76,
+      77
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a regulamentação dá aos motoristas um direito essencial, o contrato coletivo de trabalho anual",
+     "plain": "Por isso tem de haver regulamentação. Ela vai dar a esses trabalhadores um direito essencial: o contrato coletivo de trabalho a cada ano, para dizerem às empresas o que precisam para melhorar a própria vida."
+    },
+    {
+     "id": "b042c3",
+     "sentences": [
+      92
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2023 houve reajuste real do mínimo, 306 mil postos no CAGED de fevereiro e um concurso com 900 vagas de auditor",
+     "plain": "Ao longo de 2023 tivemos reajuste real do salário mínimo, volta do emprego formal e mais resgates de trabalhadores em situação de escravidão. O CAGED de fevereiro registrou mais 306 mil postos, e o concurso dará 900 vagas de auditor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e chama o próximo orador, que falará também pela liderança da Minoria.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que quem gera emprego é a iniciativa privada, nega ganho real no salário mínimo e afirma que o projeto dos aplicativos só beneficia sindicatos e governo.",
+   "quote": [
+    42,
+    43,
+    44
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os indicadores da economia pioraram e o projeto dos aplicativos não beneficia o motorista.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem gera emprego é a iniciativa privada, e não houve avanço no salário mínimo",
+     "plain": "Todos sabemos que quem gera emprego, de fato, é a iniciativa privada. O Governo Lula, com essa ânsia de arrecadar, não pensa no trabalhador, principalmente em quem ganha salário mínimo. Não houve avanço no mínimo, aumentou uma mixaria."
+    },
+    {
+     "id": "b044c2",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o projeto dos aplicativos beneficia só os sindicatos e o governo, e não os motoristas",
+     "plain": "Ministro, eu respeito a decisão dos senhores, mas, resumindo o projeto, só dois setores vão se beneficiar: os sindicatos e o governo. Os motoristas não vão se beneficiar."
+    },
+    {
+     "id": "b044c3",
+     "sentences": [
+      42,
+      43,
+      44
+     ],
+     "type": "precedente",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "várias pessoas disseram numa audiência que não querem o projeto, e a prova é que o governo tirou a urgência",
+     "plain": "No plenário da Câmara houve uma audiência muito disputada, e muita gente disse que não quer esse projeto. A prova é que o governo recuou: havia posto urgência, que daria 45 dias à Câmara, e depois a retirou."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Contesta em aparte a afirmação sobre as mulheres e diz que elas ocupam postos no Ministério, não a assessoria.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As mulheres do governo ocupam postos no Ministério, e não apenas a assessoria.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b045c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "elas estão no Ministério, e não na assessoria",
+     "plain": "Cabo, elas estão no Ministério. Não estão na assessoria, e sim no Ministério."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b046",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede calma e diz que está com a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o orador com a palavra seja ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b048",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que também escutou os colegas em silêncio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b049",
+   "speaker": "s13",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado justifica o aparte dizendo que respondia a uma pergunta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b050",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência observa que o deputado foi citado, mas pede ordem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b051",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado responde que também pode citar colegas, porque foi citado antes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b052",
+   "speaker": "s13",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que estava apenas respondendo ao colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b053",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta os números do saque-aniversário e da antecipação e pergunta por que o governo não mantém os dois produtos junto com o consignado privado.",
+   "quote": [
+    40,
+    41,
+    42,
+    43
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 41,
+   "stance": {
+    "position": "contrario",
+    "claim": "O saque-aniversário e a antecipação deveriam ser mantidos ao lado de qualquer novo crédito consignado.",
+    "sentence": 42
+   },
+   "claims": [
+    {
+     "id": "b053c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o saque-aniversário já pagou cerca de 44,7 bilhões e cerca de 35 milhões de trabalhadores aderiram a ele",
+     "plain": "O total sacado no saque-aniversário, do início das operações até junho do ano passado, chegou a cerca de 44,7 bilhões. Cerca de 35 milhões de trabalhadores aderiram a essa modalidade, mais ampla, menos burocrática e com juro menor."
+    },
+    {
+     "id": "b053c2",
+     "sentences": [
+      25
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o consignado privado é mais arriscado, com taxas mais altas, e ainda é incerto para as instituições financeiras",
+     "plain": "A antecipação vem ajudando milhões de brasileiros, em especial os mais pobres. E o governo quer acabar com as duas para criar o consignado privado, uma operação mais arriscada, com taxas mais altas e ainda incerta para os bancos."
+    },
+    {
+     "id": "b053c3",
+     "sentences": [
+      36
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "75% de quem usa a antecipação está endividado e saca para pagar boletos e comprar alimentos",
+     "plain": "Pesquisas apontam que 75% de quem usa a antecipação está endividado e usa esse dinheiro para pagar boletos e comprar alimentos. É um jeito rápido de chegar ao FGTS sem esperar a data de saque escolhida."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b054",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à próxima oradora inscrita.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b055",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Chama a atenção para a consulta popular do site da Câmara e sustenta que a disputa de narrativas atrapalha o debate sobre resultados.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A disputa de narrativas prejudica o debate sobre resultados, e a população precisa de educação política.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b055c1",
+     "sentences": [
+      3
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a vontade da população aparece nos 95% das 19 mil pessoas que participaram da consulta do site da Câmara",
+     "plain": "Quero dar ênfase à vontade da população, que está no requerimento do autor da convocação: 95% das 19 mil pessoas que participaram da consulta no site oficial da Câmara dos Deputados."
+    },
+    {
+     "id": "b055c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o debate sobre o resultado das políticas públicas fica prejudicado porque é contaminado pela questão ideológica",
+     "plain": "Aqui fica prejudicado qualquer debate voltado ao resultado das políticas públicas, que é o que mais importa para a sociedade, porque ele vem contaminado pela questão ideológica. Isso é próprio da política, mas fica a minha reflexão."
+    },
+    {
+     "id": "b055c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "se basta uma conversa para o trabalhador ver que o projeto é bom para ele, a culpa da confusão também é nossa",
+     "plain": "Se o povo não entende o projeto de lei e, com um pouco de conversa, o trabalhador se convence de que ele é bom, a culpa também é nossa e dessa guerra de narrativas que toma conta do nosso trabalho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b056",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao próximo orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b057",
+   "speaker": "s15",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que seja somado ao seu tempo o tempo da liderança do bloco.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b058",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma o ofício e soma 5 minutos ao tempo do orador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b059",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Louva a abertura do debate pelo governo, mas pede que os próprios motoristas digam o que é melhor para eles antes de o projeto avançar.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O projeto dos aplicativos é bem-vindo, mas precisa ouvir os próprios motoristas antes de avançar.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b059c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "vale o nada sobre nós sem nós, e são os motoristas que têm de dizer o que é melhor para eles",
+     "plain": "No movimento dos direitos da pessoa com deficiência, a primeira frase que se ouve é: nada sobre nós sem nós. Eu concordo muito com ela. Precisamos ter certeza de que os motoristas vão dizer o que é melhor para eles."
+    },
+    {
+     "id": "b059c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "muitos jornalistas, engenheiros e enfermeiros dirigem por aplicativo só para completar a renda",
+     "plain": "Aqui não é um emprego, é a chance de um jovem dirigir um carro. Há muitos jornalistas, engenheiros, e eu sou engenheiro de formação, e enfermeiros que dirigem por aplicativo para completar a renda."
+    },
+    {
+     "id": "b059c3",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o governo teve coragem de abrir um debate que estava adormecido sobre a vida de quem trabalha no trânsito",
+     "plain": "Eu louvo a intenção do governo de melhorar a vida de quem trabalha no trânsito, porque teve coragem de abrir esse debate. Bom governo não é o que é pautado, é o que pauta, e esta pauta estava adormecida."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b060",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e anuncia os dois próximos oradores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b061",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Aprova a retirada da urgência, relata a dúvida dos motoristas entre hora e quilômetro e pede que a Subcomissão volte a funcionar antes da votação.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A retirada da urgência foi acertada e a Subcomissão deve aprofundar o debate antes da votação.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b061c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "retirar a urgência foi acertado, porque entre os motoristas há dúvida sobre valor por hora e quilômetro rodado",
+     "plain": "O ministro tem razão ao retirar a urgência, para aprofundarmos o debate, porque há dúvidas. Quando pego um carro de aplicativo, pergunto ao motorista o que ele acha melhor. Entre eles há dúvida sobre valor por hora e quilômetro rodado."
+    },
+    {
+     "id": "b061c2",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a Subcomissão criada no ano passado deve funcionar com audiências para definir o melhor momento e a melhor redação",
+     "plain": "Acho que podemos fazer a Subcomissão criada no ano passado voltar a funcionar, com audiências públicas e debates, para chegar à melhor conclusão sobre quando votar o projeto e sobre a melhor redação para ele."
+    },
+    {
+     "id": "b061c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o ministro pode falar mais sobre o saque-aniversário e assim dispensar a votação de um requerimento de informação",
+     "plain": "Queria me adiantar e pedir informações sobre o saque-aniversário. O ministro já tratou bem do tema, mas podia falar mais no tempo final. Assim não precisaríamos votar um requerimento para pedir essas informações."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b062",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia os dois últimos oradores e a resposta final do ministro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b063",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Atribui a rejeição ao projeto às notícias falsas, lista as ministras nomeadas e sugere apresentar outro texto, já que o atual está marcado.",
+   "quote": [
+    30,
+    31
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O projeto garante direitos, mas está tão marcado pela rejeição que seria melhor recomeçar de outro texto.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b063c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "regulamentar a profissão de motorista de aplicativo é necessário porque essas pessoas adoecem e sofrem acidentes",
+     "plain": "Regulamentar a profissão de motorista de aplicativo é necessário para assegurar direitos a essas pessoas. Elas adoecem, sofrem acidentes e precisam ter seus direitos garantidos."
+    },
+    {
+     "id": "b063c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o presidente nomeou 11 ministras e há ainda duas mulheres na presidência da Caixa Econômica e do Banco do Brasil",
+     "plain": "Foram 11 ministras nomeadas pelo presidente Lula. Além disso, há duas mulheres na presidência de bancos públicos, a Caixa Econômica e o Banco do Brasil."
+    },
+    {
+     "id": "b063c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é melhor apresentar outro projeto, porque o PLP 12 já está carimbado como ruim e a rejeição dos motoristas é grande",
+     "plain": "O ministro e a equipe deram um passo atrás para ver onde está o erro. Eu sugiro darmos outro passo atrás e apresentarmos outro projeto, porque o PLP 12 já está carimbado como algo ruim e a rejeição dos motoristas é muito grande."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b064",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica o tempo usado e chama a última oradora inscrita.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b065",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Elogia o concurso de auditores e a retirada da urgência, e sustenta que quem perde o emprego não pode ficar impedido de sacar o próprio dinheiro.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A fiscalização do trabalho e a proteção do saque em caso de demissão são o centro da gestão do Ministério.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b065c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há reajuste real do mínimo, volta do emprego com carteira e mais resgates de trabalho parecido com escravidão",
+     "plain": "Temos muitos dados para divulgar: o reajuste real do salário mínimo, a volta do crescimento do emprego com carteira assinada e mais resgates de trabalhadores em situação parecida com a escravidão. O concurso de auditores é fundamental."
+    },
+    {
+     "id": "b065c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem perde o emprego não pode ficar impedido de sacar o dinheiro que é dele, e o fundo sustenta políticas públicas",
+     "plain": "Não podemos permitir que o trabalhador, no momento mais difícil da vida, quando perde o emprego, fique impedido de sacar o dinheiro que é dele. E o FGTS é fundamental para as políticas públicas que chegam a quem trabalha."
+    },
+    {
+     "id": "b065c3",
+     "sentences": [
+      12
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a falta de moradia no país atinge sobretudo quem ganha até 3 salários mínimos",
+     "plain": "A falta de moradia neste país atinge, na esmagadora maioria, a parte da população que ganha até 3 salários mínimos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b066",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência consulta o plenário sobre emendar a reunião deliberativa e devolve a palavra ao ministro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b067",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Detalha a composição do piso por hora e a isenção do Imposto de Renda, reafirma o fim do saque-aniversário e explica por que os dois créditos não podem coexistir.",
+   "quote": [
+    87,
+    88
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    8,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O piso por hora aumenta a retirada do motorista, e o saque-aniversário deve acabar para o fundo se recompor.",
+    "sentence": 88
+   },
+   "claims": [
+    {
+     "id": "b067c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dos 32 reais e 10 centavos, 75% é recomposição de custos e 25% é salário, com isenção do Imposto de Renda até cerca de 11.200 reais",
+     "plain": "A composição dos 32 reais e 10 centavos é assim: 75% são recomposição, para cobrir custos, e os outros 25% são remuneração. Com jornada acima de 8 horas e de 5 dias, até cerca de 11.200 reais ele fica isento do Imposto de Renda."
+    },
+    {
+     "id": "b067c2",
+     "sentences": [
+      86,
+      87,
+      88
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o saque-aniversário tira mais de 100 bilhões de reais de lastro do fundo, e o melhor é acabar com ele",
+     "plain": "O saque-aniversário tira do fundo mais de 100 bilhões de reais de lastro para habitação, saneamento e infraestrutura. Estou convencidíssimo de que o melhor é acabar com ele e o fundo voltar a proteger quem fica desempregado."
+    },
+    {
+     "id": "b067c3",
+     "sentences": [
+      92,
+      93
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "manter o saque-aniversário junto com o consignado privado levaria o trabalhador a um endividamento alto",
+     "plain": "Por que não dá para manter o saque-aniversário e o consignado privado ao mesmo tempo? Porque isso levaria a classe trabalhadora a um endividamento alto. Ao ser demitido, essa pessoa estaria superendividada e sem como sobreviver."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b068",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que o projeto não recebe emenda na Comissão e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 4,
+   "from_claim": "b014c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "Para o autor do requerimento o saque-aniversário é dinheiro do trabalhador. O deputado seguinte responde que o fundo nasceu para amparar quem fica desempregado."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 6,
+   "from_claim": "b020c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "A ideia de que o dinheiro é do trabalhador é devolvida como pergunta: liberar agora deixa essa pessoa sem proteção quando ela sair do emprego."
+  },
+  {
+   "from": "b024",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 41,
+   "to_sentence": 9,
+   "from_claim": null,
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Enquanto um vê no saque-aniversário um ganho do trabalhador, o outro sustenta que a medida favoreceu o patrão, porque reduz a base da multa na demissão."
+  },
+  {
+   "from": "b029",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 30,
+   "to_sentence": 9,
+   "from_claim": "b029c2",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "O ministro nega o motivo político atribuído a ele e diz que a mudança não se deve ao fato de a regra ter sido criada no governo anterior."
+  },
+  {
+   "from": "b029",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 61,
+   "to_sentence": 23,
+   "from_claim": "b029c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O deputado comparou o piso de 32 reais com médias municipais mais altas. O ministro responde que o piso puxa essas médias para cima, em vez de rebaixá-las."
+  },
+  {
+   "from": "b029",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 92,
+   "to_sentence": 12,
+   "from_claim": null,
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "À pergunta sobre a percepção ruim apesar dos números, o ministro responde que o saldo de empregos convive com salários baixos e que por isso o mínimo importa."
+  },
+  {
+   "from": "b029",
+   "to": "b024",
+   "kind": "responde",
+   "from_sentence": 106,
+   "to_sentence": 21,
+   "from_claim": null,
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "Sobre a cobrança da ultratividade, o ministro concorda que o fim dela prejudica as contratações coletivas, mas diz não ver acolhimento na Casa para o tema."
+  },
+  {
+   "from": "b031",
+   "to": "b029",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 61,
+   "from_claim": null,
+   "to_claim": "b029c3",
+   "strength": "media",
+   "note": "O deputado reforça o argumento do ministro de que os 32 reais por hora são um piso, e não um teto para o que o motorista recebe."
+  },
+  {
+   "from": "b033",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 36,
+   "from_claim": "b033c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "À tese de que o projeto encarece a corrida e reduz motoristas, o relato do outro deputado opõe a desinformação como causa da rejeição."
+  },
+  {
+   "from": "b042",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 21,
+   "from_claim": "b042c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "Os dois defendem a mesma ideia: sem instrumento coletivo o trabalhador não negocia de igual para igual com quem emprega."
+  },
+  {
+   "from": "b042",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 92,
+   "to_sentence": 36,
+   "from_claim": "b042c3",
+   "to_claim": "b014c3",
+   "strength": "media",
+   "note": "Um aponta a queda no número de auditores, o outro apresenta o concurso de 900 vagas como resposta a essa mesma queda."
+  },
+  {
+   "from": "b044",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 18,
+   "from_claim": "b044c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "Um deputado credita à política do salário mínimo a duplicação do valor dele. O outro sustenta que não houve avanço e que o aumento foi mínimo."
+  },
+  {
+   "from": "b044",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 22,
+   "to_sentence": 49,
+   "from_claim": "b044c1",
+   "to_claim": "b024c3",
+   "strength": "forte",
+   "note": "Contra o cálculo de que sem o reajuste acima da inflação o mínimo seria bem menor, vem a resposta de que o aumento atual não muda a vida de ninguém."
+  },
+  {
+   "from": "b044",
+   "to": "b042",
+   "kind": "contradiz",
+   "from_sentence": 36,
+   "to_sentence": 76,
+   "from_claim": "b044c2",
+   "to_claim": "b042c2",
+   "strength": "forte",
+   "note": "Para um, a regulamentação dá ao motorista o contrato coletivo anual. Para o outro, o projeto beneficia os sindicatos e o governo, e não o motorista."
+  },
+  {
+   "from": "b045",
+   "to": "b044",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 68,
+   "from_claim": "b045c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À afirmação de que só há homens em volta do ministro, o aparte responde que as mulheres do governo ocupam postos no Ministério."
+  },
+  {
+   "from": "b053",
+   "to": "b029",
+   "kind": "contradiz",
+   "from_sentence": 25,
+   "to_sentence": 27,
+   "from_claim": "b053c2",
+   "to_claim": "b029c1",
+   "strength": "forte",
+   "note": "O ministro dissera que o empréstimo descontado da folha sai tão barato quanto o do fundo. O deputado responde que é operação mais arriscada e de taxa mais alta."
+  },
+  {
+   "from": "b055",
+   "to": "b033",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 3,
+   "from_claim": "b055c1",
+   "to_claim": "b033c1",
+   "strength": "media",
+   "note": "Contra a explicação pela desinformação, a deputada pede que se olhe o que a consulta do site da Câmara registrou como vontade da população."
+  },
+  {
+   "from": "b059",
+   "to": "b055",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 10,
+   "from_claim": null,
+   "to_claim": null,
+   "strength": "media",
+   "note": "O deputado retoma a fala anterior para dizer que é o próprio motorista quem sabe o que é melhor para ele."
+  },
+  {
+   "from": "b061",
+   "to": "b059",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 25,
+   "from_claim": "b061c1",
+   "to_claim": "b059c3",
+   "strength": "media",
+   "note": "Os dois aprovam a retirada da urgência e pedem mais tempo de escuta dos motoristas antes de o projeto ser votado."
+  },
+  {
+   "from": "b063",
+   "to": "b031",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 8,
+   "from_claim": "b063c1",
+   "to_claim": "b031c1",
+   "strength": "media",
+   "note": "Os dois sustentam que o trabalho por aplicativo hoje é exploração e que regulamentar a profissão é o caminho para garantir direitos."
+  },
+  {
+   "from": "b063",
+   "to": "b044",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 68,
+   "from_claim": "b063c2",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À pergunta sobre onde estão as mulheres do governo, o deputado responde com o número de ministras nomeadas e as presidências de bancos públicos."
+  },
+  {
+   "from": "b065",
+   "to": "b029",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 28,
+   "from_claim": "b065c2",
+   "to_claim": "b029c1",
+   "strength": "forte",
+   "note": "A deputada endossa a posição do ministro de que ninguém pode ficar impedido de sacar o próprio dinheiro justamente ao perder o emprego."
+  },
+  {
+   "from": "b067",
+   "to": "b031",
+   "kind": "responde",
+   "from_sentence": 14,
+   "to_sentence": 26,
+   "from_claim": "b067c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "Ao pedido de explicação sobre a isenção do Imposto de Renda, o ministro detalha como o piso por hora se divide entre recomposição de custos e salário."
+  },
+  {
+   "from": "b067",
+   "to": "b053",
+   "kind": "responde",
+   "from_sentence": 92,
+   "to_sentence": 42,
+   "from_claim": "b067c3",
+   "to_claim": "b053c2",
+   "strength": "forte",
+   "note": "À pergunta sobre por que os dois produtos não podem coexistir, o ministro responde que manter os dois levaria o trabalhador a um endividamento alto."
+  },
+  {
+   "from": "b067",
+   "to": "b061",
+   "kind": "responde",
+   "from_sentence": 146,
+   "to_sentence": 26,
+   "from_claim": null,
+   "to_claim": "b061c3",
+   "strength": "media",
+   "note": "Ao pedido de mais informações sobre o saque-aniversário, o ministro responde que o assunto já foi bastante esgotado na audiência."
+  },
+  {
+   "from": "b067",
+   "to": "b059",
+   "kind": "responde",
+   "from_sentence": 121,
+   "to_sentence": 16,
+   "from_claim": null,
+   "to_claim": "b059c1",
+   "strength": "media",
+   "note": "O ministro aceita que os motoristas sabem o que é bom para eles, mas diz que o que os afasta do projeto é a versão que circula, e não o texto."
+  },
+  {
+   "from": "b067",
+   "to": "b063",
+   "kind": "contradiz",
+   "from_sentence": 147,
+   "to_sentence": 33,
+   "from_claim": null,
+   "to_claim": "b063c3",
+   "strength": "media",
+   "note": "À sugestão de recomeçar com outro projeto, o ministro responde que é melhor construir a mudança na própria Câmara do que o governo mandar um texto novo."
+  },
+  {
+   "from": "b067",
+   "to": "b055",
+   "kind": "responde",
+   "from_sentence": 115,
+   "to_sentence": 5,
+   "from_claim": null,
+   "to_claim": "b055c2",
+   "strength": "media",
+   "note": "O ministro acolhe a reflexão sobre a efetividade do trabalho da classe política, mas condiciona a saída ao fim da mentira no debate."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d3",
+   "falas": [
+    "b059",
+    "b061",
+    "b067"
+   ],
+   "claims": [
+    "b059c1",
+    "b061c1",
+    "b061c2"
+   ],
+   "note": "Dois deputados e o ministro concordam que retirar a urgência foi acertado e que é preciso mais escuta dos motoristas antes de votar o projeto."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b014",
+    "b065"
+   ],
+   "claims": [
+    "b014c3",
+    "b065c1"
+   ],
+   "note": "O ministro e duas bancadas concordam que recriar o Ministério e concluir o concurso de auditores é o que devolve fiscalização ao mundo do trabalho."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b016",
+   "sentence": 12,
+   "addressed_to": "governo",
+   "answered_by": "b029",
+   "gist": "Por que a percepção sobre o emprego é ruim com bons números?",
+   "plain": "Por que as pessoas acham o emprego ruim, se o desemprego caiu e a renda subiu?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b020",
+   "sentence": 18,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "Quais são as entregas do Ministério do Trabalho em 2024?",
+   "plain": "Qual é a expectativa do Ministério do Trabalho e Emprego para as entregas de 2024?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b031",
+   "sentence": 26,
+   "addressed_to": "governo",
+   "answered_by": "b067",
+   "gist": "Por que a isenção do Imposto de Renda vai até 11 mil reais?",
+   "plain": "Por que a isenção do Imposto de Renda do motorista vai até 11 mil reais?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b053",
+   "sentence": 32,
+   "addressed_to": "governo",
+   "answered_by": "b067",
+   "gist": "Por que acabar com o crédito de juro mais baixo do mercado?",
+   "plain": "Por que o governo quer acabar com o crédito de juro mais baixo do mercado, que atende famílias em dificuldade?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b053",
+   "sentence": 41,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "Por que o novo crédito só sairia pela Caixa no começo?",
+   "plain": "Por que, no primeiro momento, o novo crédito só seria operado por meio da Caixa?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q6",
+   "from": "b061",
+   "sentence": 26,
+   "addressed_to": "governo",
+   "answered_by": "b067",
+   "gist": "O ministro pode detalhar mais o saque-aniversário?",
+   "plain": "O ministro pode falar mais sobre o saque-aniversário no tempo final da fala dele?",
+   "theme": "d1",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 145,
+   "gist": "100 bilhões de lastro a menos no fundo de investimento",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 138,
+   "gist": "dos 22 bilhões restam 4 bilhões e 600 milhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b008",
+   "sentence": 10,
+   "gist": "34,5 milhões de trabalhadores usaram o saque desde 2020",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 13,
+   "gist": "57% usam o dinheiro para pagar dívidas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 21,
+   "gist": "de 2020 a 2023 o fundo aumentou 14,3%",
+   "disputed_by": [
+    {
+     "fala": "b029",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b014",
+   "sentence": 36,
+   "gist": "de mais de 3.000 auditores para pouco mais de 1.400",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b016",
+   "sentence": 6,
+   "gist": "renda por pessoa de 1.625 para 1.893 reais",
+   "disputed_by": [
+    {
+     "fala": "b044",
+     "sentence": 29
+    }
+   ]
+  },
+  {
+   "id": "f8",
+   "fala": "b016",
+   "sentence": 15,
+   "gist": "crescimento da economia em 2023 foi de 2,9%",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b022",
+   "sentence": 36,
+   "gist": "no ABC, de 363 mil para 180 mil com carteira",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b053",
+   "sentence": 17,
+   "gist": "44,7 bilhões sacados até junho do ano passado",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b063",
+   "sentence": 17,
+   "gist": "11 ministras nomeadas pelo presidente",
+   "disputed_by": [
+    {
+     "fala": "b044",
+     "sentence": 69
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b067",
+   "sentence": 38,
+   "gist": "o mínimo de 1.412 reais seria 1.492 reais",
+   "disputed_by": [
+    {
+     "fala": "b044",
+     "sentence": 24
+    }
+   ]
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2"
+  ],
+  "roles_quoted": [
+   "governo",
+   "parlamentar"
+  ],
+  "angle": "A matéria monta a audiência como um duelo de duas falas sobre o saque-aniversário, com o ministro defendendo a troca pelo crédito em folha e o autor do requerimento defendendo a manutenção, e fecha explicando a regra em vigor.",
+  "omitted": "Ficam de fora o debate inteiro sobre o projeto dos motoristas de aplicativo, a cobrança pela volta da ultratividade e da homologação nos sindicatos, a disputa sobre o salário mínimo e a discussão sobre desinformação e consulta popular."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O FGTS tem de voltar a proteger e a financiar obras",
+   "statement_plain": "O saque-aniversário deve acabar. O FGTS precisa voltar a amparar quem perde o emprego e a servir de lastro para habitação, saneamento e infraestrutura, com crédito em folha no lugar do saque.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b014c1",
+    "b065c2",
+    "b067c2",
+    "b029c1"
+   ],
+   "note": "É uma ideia sobre a função do fundo, e não um bloco: quem a defende vai do ministro a deputados de bancadas diferentes, e a divergência interna é sobre o que fazer com o crédito, não sobre a função."
+  },
+  {
+   "id": "t2",
+   "title": "O dinheiro do FGTS é do trabalhador e ele decide",
+   "statement_plain": "O saque-aniversário e a antecipação devem continuar. O dinheiro é do trabalhador, ele sabe como usar, e esse é o crédito com o juro mais baixo a que ele tem acesso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c3",
+    "b053c1",
+    "b053c2",
+    "b010c1"
+   ],
+   "note": "A ideia é sobre quem decide o uso do dinheiro. Ela se opõe ponto a ponto à tese de que o fundo precisa de lastro, e é defendida por deputados de dois estados e de mandatos distintos."
+  },
+  {
+   "id": "t3",
+   "title": "Sem regra, o motorista de aplicativo fica sozinho",
+   "statement_plain": "Quem dirige por aplicativo trabalha sem nenhuma proteção. Uma lei com piso por hora, contribuição à Previdência e direito de se organizar é o que dá a essas pessoas um piso de direitos.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b014c2",
+    "b042c2",
+    "b063c1",
+    "b031c1",
+    "b029c3"
+   ],
+   "note": "A ideia atravessa o governo e a bancada: o ministério e deputados de partidos diferentes a sustentam, e o que os separa é o quanto a lei deve chegar perto da carteira assinada."
+  },
+  {
+   "id": "t4",
+   "title": "Regra demais tira motorista da rua",
+   "statement_plain": "Um piso por hora e novos encargos encarecem a corrida. Com corrida mais cara, menos gente usa o aplicativo, menos motoristas trabalham e o resultado é mais desemprego.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b010c3",
+    "b044c2"
+   ],
+   "note": "É uma ideia sobre o efeito econômico da regra, sustentada por dois deputados de estados distintos, e se opõe diretamente à tese de que a lei protege quem dirige."
+  },
+  {
+   "id": "t5",
+   "title": "A rejeição da população é real e tem de pesar",
+   "statement_plain": "A maioria das pessoas ouvidas é contrária ao projeto dos aplicativos. Essa rejeição não é invenção, e por isso o texto precisa ser refeito ou derrubado, e não apenas explicado melhor.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "contrario"
+   },
+   "claims_chave": [
+    "b055c1",
+    "b063c3",
+    "b044c3"
+   ],
+   "note": "A ideia divide o próprio campo governista: quem a sustenta inclui um deputado que defende o mérito do projeto e um que faz oposição frontal ao governo."
+  },
+  {
+   "id": "t6",
+   "title": "O que trava o projeto é a mentira, não o conteúdo",
+   "statement_plain": "A rejeição às propostas vem do que se diz sobre elas, não do que está escrito. Quando as pessoas leem o texto, mudam de opinião, e a falha de comunicação também é de quem defende a proposta.",
+   "core_theme": "d8",
+   "positions": {
+    "d8": "favoravel"
+   },
+   "claims_chave": [
+    "b029c2",
+    "b033c1",
+    "b031c2",
+    "b016c2",
+    "b055c3"
+   ],
+   "note": "A ideia junta o ministro e deputados que discordam entre si sobre o mérito do projeto, e se opõe à tese de que a rejeição medida na consulta deve prevalecer."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "FUNDACENTRO",
+   "plain": "órgão ligado ao Ministério do Trabalho que estuda condições de trabalho e doenças causadas pelo trabalho",
+   "fala": "b002",
+   "sentence": 9
+  },
+  {
+   "term": "CAGED",
+   "plain": "cadastro em que o governo registra todo mês as admissões e as demissões com carteira assinada no país",
+   "fala": "b002",
+   "sentence": 29
+  },
+  {
+   "term": "PDL",
+   "plain": "projeto de decreto legislativo: proposta com que o Congresso pode derrubar uma regra criada pelo governo",
+   "fala": "b002",
+   "sentence": 53
+  },
+  {
+   "term": "Saque-Aniversário",
+   "plain": "opção em que o trabalhador saca parte do FGTS todo ano, no mês do aniversário, e perde o direito de sacar o saldo se for demitido",
+   "fala": "b002",
+   "sentence": 110
+  },
+  {
+   "term": "consignado",
+   "plain": "empréstimo descontado direto da folha de pagamento, que costuma ter juro menor porque o pagamento fica garantido",
+   "fala": "b002",
+   "sentence": 153
+  },
+  {
+   "term": "eSocial",
+   "plain": "sistema do governo em que as empresas informam salários, contratos e recolhimentos dos seus empregados",
+   "fala": "b002",
+   "sentence": 164
+  },
+  {
+   "term": "leilão reverso",
+   "plain": "disputa ao contrário: em vez de dar o maior lance, os bancos oferecem taxas e o trabalhador fica com a menor",
+   "fala": "b002",
+   "sentence": 171
+  },
+  {
+   "term": "CLT",
+   "plain": "Consolidação das Leis do Trabalho: o conjunto de regras da carteira assinada, com férias, 13º e aviso prévio",
+   "fala": "b002",
+   "sentence": 176
+  },
+  {
+   "term": "FGTS",
+   "plain": "Fundo de Garantia do Tempo de Serviço: conta em que a empresa deposita todo mês uma parte do salário, para o trabalhador sacar quando é demitido",
+   "fala": "b008",
+   "sentence": 7
+  },
+  {
+   "term": "ultratividade",
+   "plain": "regra que mantinha valendo o acordo coletivo anterior até que um novo fosse fechado, e que a reforma trabalhista derrubou",
+   "fala": "b024",
+   "sentence": 20
+  },
+  {
+   "term": "dissídio coletivo",
+   "plain": "negociação anual entre o sindicato e as empresas sobre reajuste e condições de trabalho de toda uma categoria",
+   "fala": "b042",
+   "sentence": 20
+  },
+  {
+   "term": "Antecipação",
+   "plain": "empréstimo em que o banco adianta ao trabalhador as parcelas futuras do saque-aniversário e fica com elas como garantia",
+   "fala": "b053",
+   "sentence": 20
+  },
+  {
+   "term": "PLP 12",
+   "plain": "número do projeto de lei complementar que regulamenta o trabalho dos motoristas de aplicativo",
+   "fala": "b063",
+   "sentence": 33
+  },
+  {
+   "term": "PEC da Transição",
+   "plain": "mudança na Constituição aprovada no fim de 2022 que liberou gastos fora do teto no primeiro ano do novo governo",
+   "fala": "b067",
+   "sentence": 101
+  },
+  {
+   "term": "FAT",
+   "plain": "Fundo de Amparo ao Trabalhador: fundo que banca o seguro-desemprego, o abono salarial e programas de qualificação",
+   "fala": "b067",
+   "sentence": 89
+  }
+ ]
+}

@@ -1,0 +1,2209 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 78,
+ "model": "LLM lendo o prompt hearing-078 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:35:48Z",
+ "prompt_sha256": "3cf19a2223a358a2dfe7b2211e59434834f7934e6a08f43060df08aaced4f743",
+ "sentences_hash": "022cb4c09579b623",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 10
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t6: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Desenvolvimento Econômico debateu a venda da SIX, a usina de xisto da Petrobras em São Mateus do Sul, no Paraná, contratada com a canadense Forbes & Manhattan. Um vereador do município, um pesquisador do Ineep, o coordenador da FUP e o presidente da Anapetro apontaram preço abaixo do valor, perda de arrecadação, entrega da tecnologia Petrosix e suspeita de direcionamento. Pediram que a Câmara enfrente e investigue as privatizações de refinarias.",
+ "stakes": "Estava em jogo se a Câmara vai atuar para barrar a venda da SIX e investigar as privatizações de refinarias da Petrobras.",
+ "central_question": "A venda da SIX e das refinarias da Petrobras atende ao interesse público?",
+ "synopsis_plain": "A Petrobras fechou contrato para vender a SIX, a usina de xisto de São Mateus do Sul, no Paraná, a uma empresa canadense. Na audiência, um vereador da cidade, um pesquisador, um dirigente sindical e o presidente da associação de pequenos acionistas disseram que o preço foi baixo, que o município perde impostos e que o processo foi feito sob medida para o comprador.",
+ "stakes_plain": "Saber se a Câmara vai agir para segurar a venda da usina de xisto e investigar as vendas de refinarias da Petrobras.",
+ "central_question_plain": "Vender a usina de xisto e as refinarias da Petrobras é bom para o país?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Preço da venda da SIX",
+   "description": "Quanto a SIX foi vendida e se esse valor corresponde ao que a unidade e o que ela produz valem.",
+   "axis": {
+    "pro": "A SIX foi vendida por um valor muito abaixo do que ela vale.",
+    "contra": "O preço não é o ponto principal, o que pesa é o efeito da venda sobre o parque de refino.",
+    "pro_plain": "A usina foi vendida barato demais, por menos do que ela dá de lucro em um ano.",
+    "contra_plain": "O preço é o menor problema, o que pesa é a perda do parque de refino e os monopólios."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Tecnologia Petrosix e pesquisa",
+   "description": "O que acontece com a tecnologia de processamento do xisto e com os laboratórios de pesquisa da unidade depois da venda.",
+   "axis": {
+    "pro": "A tecnologia e os laboratórios são um patrimônio que a venda entrega sem estar no preço.",
+    "contra": "A tecnologia e a pesquisa continuam à disposição do país mesmo com a venda.",
+    "pro_plain": "A técnica de tratar o xisto e os laboratórios foram junto no negócio, sem entrar na conta.",
+    "contra_plain": "A técnica e a pesquisa continuam servindo ao país mesmo com a usina nas mãos de outro dono."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Arrecadação de São Mateus do Sul",
+   "description": "O efeito da venda sobre os impostos, os royalties e o emprego no município e no estado do Paraná.",
+   "axis": {
+    "pro": "A venda tira do município e do estado uma arrecadação que eles não têm como repor.",
+    "contra": "O município e o estado mantêm a arrecadação com a nova dona da unidade.",
+    "pro_plain": "A cidade e o estado perdem dinheiro de imposto que não têm de onde tirar de novo.",
+    "contra_plain": "A cidade e o estado continuam arrecadando o mesmo com o novo dono da usina."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Privatização do refino e abastecimento",
+   "description": "Se vender as refinarias da Petrobras traz concorrência ou cria monopólios regionais e risco de faltar combustível.",
+   "axis": {
+    "pro": "Vender as refinarias cria monopólios regionais e aumenta o risco de faltar combustível.",
+    "contra": "Vender as refinarias traz concorrência e não ameaça o abastecimento.",
+    "pro_plain": "Vender as refinarias deixa uma empresa só mandando em cada região e pode faltar combustível.",
+    "contra_plain": "Vender as refinarias aumenta a concorrência e não põe o abastecimento em risco."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Regularidade do processo de venda",
+   "description": "Se a venda da SIX foi conduzida sob medida para o comprador e se precisa ser investigada.",
+   "axis": {
+    "pro": "O processo de venda foi direcionado ao comprador e precisa ser investigado.",
+    "contra": "O processo seguiu as regras e não há o que investigar.",
+    "pro_plain": "A venda foi feita sob medida para quem comprou e precisa ser apurada.",
+    "contra_plain": "A venda seguiu as regras e não há nada a apurar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Investimento em refino e dividendos",
+   "description": "Se a Petrobras deixou de investir em refinarias para distribuir lucro aos acionistas e o que isso causa.",
+   "axis": {
+    "pro": "A empresa trocou investimento em refino por dividendos e por isso o país depende de importação.",
+    "contra": "A distribuição de lucro aos acionistas não prejudica o refino nem o abastecimento.",
+    "pro_plain": "A empresa parou de investir em refinaria para pagar os donos das ações, e o país passou a importar.",
+    "contra_plain": "Pagar os donos das ações não atrapalha o refino nem o abastecimento do país."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da audiência pública",
+   "org": "Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços",
+   "basis": "registro de Presidente na ata e a abertura em b001.15",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que discute economia, indústria, comércio e serviços"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "vereador e presidente da Câmara Municipal de São Mateus do Sul",
+   "org": "Câmara Municipal de São Mateus do Sul",
+   "basis": "apresentado pela presidência em b001.21",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "vereador em São Mateus do Sul, no Paraná",
+   "org_plain": "casa legislativa da cidade do Paraná onde fica a usina de xisto"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "economista e pesquisador",
+   "org": "Ineep",
+   "basis": "apresentado pela presidência em b001.22",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "economista e pesquisador do Ineep",
+   "org_plain": "instituto de pesquisa sobre petróleo, gás natural e biocombustíveis, criado pela federação dos petroleiros"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registro na ata como Enio Verri, PT - PR",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Paraná",
+   "org_plain": "casa do Congresso Nacional onde a audiência foi realizada"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registro na ata como Marco Brasil, PP - PR, e cumprimento em b025.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP do Paraná",
+   "org_plain": "casa do Congresso Nacional onde a audiência foi realizada"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "coordenador-geral",
+   "org": "FUP",
+   "basis": "apresentado pela presidência em b001.23",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da FUP, a Federação Única dos Petroleiros",
+   "org_plain": "federação que reúne sindicatos dos trabalhadores do petróleo no Brasil"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "presidente e trabalhador da unidade de São Mateus do Sul",
+   "org": "Anapetro",
+   "basis": "apresentado pela presidência em b001.24 e vínculo dito em b037.27",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "presidente da Anapetro",
+   "org_plain": "associação dos pequenos acionistas da Petrobras que são petroleiros"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.85
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "governo",
+    "share": 0.05
+   }
+  ],
+  "basis": "menção à Brigada Petroleira presente em Brasília e às assessorias em b028.11 e b028.12, e a observação em b040.10 de que faltavam pessoas de outros setores",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Abre a audiência e sustenta que privatizar a Petrobras não aumenta a concorrência, apenas passa o monopólio público para o privado, com a experiência da Bahia como prova.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A privatização das refinarias não traz concorrência e faz o combustível custar mais caro à população.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o argumento de que privatizar melhora a concorrência não vale no setor de energia, onde existem grandes oligopólios",
+     "plain": "O argumento de que privatizar melhora a concorrência e baixa o preço não corresponde à realidade. No setor de petróleo e de energia o que existe são grandes oligopólios."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "privatizar a Petrobras não aumenta a concorrência e só transfere o monopólio público para o privado",
+     "plain": "Privatizar a Petrobras não aumenta a concorrência. Só passa o monopólio público para a mão privada, e a experiência da Bahia mostra que o privado custa mais caro ao povo, porque põe o lucro à frente do que é melhor para a população."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta que São Mateus do Sul depende da SIX e que a venda da estatal significa perder cerca de 40% dos impostos do município, sem como repor.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": 10,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A saída da estatal tira do município uma arrecadação que ele não tem como repor.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o município depende muito da SIX e perde cerca de 40% dos impostos com a venda da estatal",
+     "plain": "Nosso município ainda depende muito da SIX. Calculamos que a perda da estatal significa cerca de 40% dos nossos impostos, um vazio que não teremos como repor."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o governo federal e o governo do estado precisam demonstrar ao município a perda que a venda causa",
+     "plain": "O governo federal e o governo do estado precisam mostrar ao nosso município qual é essa perda."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência checa se o vereador continua na transmissão e pede um minuto enquanto a conexão volta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O vereador avisa que a conexão voltou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência devolve a palavra ao vereador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Questiona a venda da SIX por 33 milhões de dólares, o equivalente a 55% do lucro de 1 ano, e o acordo que corta pela metade os royalties do município.",
+   "quote": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A SIX é lucrativa e está sendo vendida por um preço muito abaixo do que vale.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as tecnologias criadas na SIX deram lucro à Petrobras e estão hoje em todas as refinarias do mundo",
+     "plain": "Nós sempre demos lucro, porque as invenções e as tecnologias criadas no nosso município renderam dinheiro à Petrobras. Procedimentos inventados pelos funcionários da SIX estão hoje na tecnologia de todas as refinarias do mundo."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a SIX vai ser vendida por 33 milhões de dólares, o que dá 55% do lucro de 1 ano",
+     "plain": "A nossa grande preocupação é esta: a empresa vai ser vendida por 33 milhões de dólares, o que corresponde a 55% do lucro de 1 ano."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o acordo da ANP com a Petrobras corta 50% da multa dos royalties e faz o município perder 88 milhões de reais",
+     "plain": "A ANP, a agência que regula o petróleo, fez com a Petrobras um acordo que tira 50% da multa dos royalties devidos ao nosso município. Com isso o município perde 88 milhões de reais e o estado, 300 milhões."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Esclarece que a reportagem citada pelo vereador é da revista CartaCapital, de 8 de junho de 2022, e trata da venda da SIX.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Há uma reportagem publicada que trata da venda da SIX como fraudulenta.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a reportagem citada é da CartaCapital, edição 1211, de 8 de junho de 2022, e trata da venda fraudulenta da SIX",
+     "plain": "A reportagem que o vereador citou fala da venda da SIX, a usina de xisto do município, como fraudulenta. Saiu na revista CartaCapital, edição 1211, de 8 de junho de 2022, nas páginas 34 a 37."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador cumprimenta a mesa e pergunta se está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o áudio está bom.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador agradece o convite e lembra os depoimentos que deu na CPI dos Fundos de Pensão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o registro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador pede para compartilhar a apresentação que preparou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza o compartilhamento da apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador procura o arquivo e pergunta se a apresentação já aparece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a apresentação está na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b016",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador pede para usar o tempo que sobrou do orador anterior.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda com o pedido de tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b018",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador avisa que a apresentação é curta, de sete lâminas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que ele fique à vontade para começar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reconstrói os antecedentes da privatização das refinarias e sustenta que a venda de porteira fechada cria monopólios regionais e que a chancela do Cade foi buscada pela própria Petrobras.",
+   "quote": [
+    167,
+    168,
+    169
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A venda das refinarias desmonta o parque integrado e cria monopólios regionais.",
+    "sentence": 110
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      109,
+      110
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "vender a refinaria de porteira fechada, com terminais e dutos, cria um monopólio regional para o comprador",
+     "plain": "A regra foi vender de porteira fechada: a refinaria vai junto com os terminais, os oleodutos e os gasodutos. Isso cria um monopólio regional, porque o comprador fica com o refino e também com a estocagem e o transporte."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      143,
+      144
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Cade só obrigou a venda porque a Petrobras já a tinha anunciado e queria essa chancela",
+     "plain": "A Petrobras precisava do aval do Cade, o órgão que cuida da concorrência, para dizer à sociedade que vendia por obrigação. Foi o contrário: o Cade só obrigou porque a empresa já tinha anunciado a venda antes."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      168,
+      169
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o preço é o menor problema, o maior é o monopólio local, a destruição do parque integrado e o risco de faltar combustível",
+     "plain": "Na minha avaliação o preço aqui é o menor problema. O maior é a criação de monopólios locais, a destruição do parque integrado e o risco de faltar combustível, como falta diesel agora no Brasil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede atenção ao horário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b022",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador pede mais 5 minutos para fechar a exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede mais 5 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lista os problemas da venda da SIX, entre eles o aluguel dos laboratórios, a queda dos royalties de 10% para 5% e o potencial de fertilizantes que não entrou no preço.",
+   "quote": [
+    27,
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A SIX foi vendida sem que os laboratórios, os royalties e o potencial de fertilizantes entrassem na conta.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Petrobras vendeu os laboratórios mais modernos de pesquisa de petróleo da América Latina e vai pagar aluguel para usá-los",
+     "plain": "A SIX tem os laboratórios de pesquisa de petróleo mais modernos da América Latina. A Petrobras vendeu e agora vai pagar aluguel à compradora para usar laboratórios que eram dela."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Petrobras pagava 10% de royalties por exigência da ANP e o comprador vai pagar 5%",
+     "plain": "A ANP obrigou a Petrobras a pagar 10% de royalties. O novo comprador vai pagar só 5%."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Petrobras investiu bilhões para produzir fertilizantes na planta de xisto e vendeu sem pôr esse potencial no preço",
+     "plain": "A Petrobras investiu bilhões para usar a planta de xisto na produção de fertilizantes. Estamos precisando de fertilizantes agora, e mesmo assim a empresa vendeu sem colocar esse potencial no preço."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece a exposição do pesquisador e cumprimenta o colega paranaense que chega à reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece e diz que é um prazer representar o Paraná nesta Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao coordenador-geral da Federação Única dos Petroleiros.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta risco real de desabastecimento de diesel com a privatização das refinarias e critica o uso de dinheiro público para sustentar os dividendos da Petrobras.",
+   "quote": [
+    49,
+    50,
+    51
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 32,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Privatizar as refinarias quebra o parque integrado e aumenta o risco de faltar combustível no país.",
+    "sentence": 49
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      44,
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o parque de refino integrado abastece e regula o mercado, e vender sem regulação quebra essa cadeia",
+     "plain": "Essas refinarias servem para regular e abastecer o mercado de combustíveis. Em quase 70 anos a Petrobras montou um parque de refino integrado, e vender assim, na bacia das almas e sem regulação, quebra essa cadeia."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      49,
+      50,
+      51
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o risco de faltar diesel é real, porque o Brasil importa entre 20% e 25% do diesel de refinarias dos Estados Unidos",
+     "plain": "O primeiro risco é o desabastecimento, e ele é real. Pode faltar diesel por causa dos bloqueios à Rússia e da guerra na Ucrânia, e o Brasil importa entre 20% e 25% do diesel das refinarias dos Estados Unidos."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      41
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dinheiro público que iria para saúde e educação sustenta dividendos de 101 bilhões de reais aos acionistas",
+     "plain": "Querem usar dinheiro público, que iria para saúde e educação, para manter os dividendos da Petrobras: 101 bilhões de reais aos acionistas no ano passado, 47 bilhões deles a minoritários, e 48 bilhões no primeiro trimestre."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pede que o debate deixe de lado a disputa política e vá ao cerne do problema, e diz que a privatização da Petrobras merecia a Casa cheia.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O debate sobre a privatização é importante e deveria ficar longe da disputa partidária.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a discussão deveria deixar de lado a disputa política e ir ao cerne do problema, que é buscar a solução",
+     "plain": "Acho que deveríamos deixar um pouco de lado a disputa política e ir ao cerne do problema, que é achar a solução para o nosso povo. Vejo que o senhor puxa muito para o lado político e não vai direto ao ponto."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a privatização de uma empresa como a Petrobras é assunto importante e a Casa deveria estar cheia para debatê-lo",
+     "plain": "A privatização de uma empresa como a Petrobras é assunto muito importante. Esta Casa deveria estar cheia, com todo mundo atento, porque isso importa muito ao povo brasileiro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que os deputados têm prioridade e que a palavra será aberta depois dos convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b031",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado brinca que chegou no meio do debate.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde à brincadeira e garante que a palavra voltará ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b033",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência devolve a palavra ao convidado para concluir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b035",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Enumera os riscos da privatização: desabastecimento até de gás de cozinha, manutenção do preço de paridade de importação e impacto forte nas economias locais.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As refinarias privatizadas preferem exportar a abastecer o mercado interno, e isso aumenta o risco de faltar combustível.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a refinaria privatizada da Bahia prefere exportar a abastecer o mercado interno e as outras podem fazer o mesmo",
+     "plain": "A refinaria da Bahia, hoje do fundo Mubadala, de Abu Dhabi, prefere exportar o óleo combustível de navios a abastecer o mercado interno. As outras podem fazer o mesmo, e o risco de desabastecimento é real."
+    },
+    {
+     "id": "b035c2",
+     "sentences": [
+      17
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ANP avisou que privatizar essas refinarias, com a SIX e a REPAR, traz risco grave de faltar gás de cozinha",
+     "plain": "A ANP já nos avisou que, se essas refinarias forem privatizadas, junto com a SIX e a REPAR, no Paraná, haverá risco grave de faltar gás de cozinha."
+    },
+    {
+     "id": "b035c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a privatização precariza o trabalho, reduz empregos e deixa menos salário circulando na economia local",
+     "plain": "O trabalho fica precário. Vamos ter menos empregos e empregos de péssima qualidade, e com isso menos salário circulando na economia local."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b036",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da Anapetro, com 15 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b037",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia que a SIX foi vendida por 170 milhões de reais, pouco mais de 50% do lucro de um ano, e que o processo foi direcionado ao comprador canadense.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A SIX foi vendida abaixo do que vale e em um processo direcionado a uma empresa já investigada pela Petrobras.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a SIX saiu por 170 milhões de reais, pouco mais de 50% do lucro de 250 milhões que ela teve em 2021",
+     "plain": "A unidade saiu por 170 milhões de reais, o equivalente a 33 milhões de dólares. Em 2021 a SIX teve 250 milhões de reais de lucro, então ela foi entregue por pouco mais de 50% do lucro de um ano."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      56,
+      57,
+      58
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o conhecimento de anos de pesquisa vai junto na venda e a Petrobras vai ter que alugar o que era dela",
+     "plain": "Todo esse conhecimento, de anos de pesquisa, vai junto na venda da planta. E a Petrobras vai arrendar essas plantas, porque precisa pesquisar. Ela vai ter que alugar o que era dela."
+    },
+    {
+     "id": "b037c3",
+     "sentences": [
+      69,
+      70,
+      71
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o banco canadense recebeu informações privilegiadas entre 2007 e 2012 e a comissão da Petrobras recomendou nunca negociar com ele",
+     "plain": "O banco canadense participou da internacionalização do Petrosix de 2007 a 2012, recebeu informações privilegiadas e chegou à espionagem industrial. A comissão da Petrobras apurou a culpa e recomendou nunca negociar com a Forbes & Manhattan."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as exposições e abre os debates ao deputado presente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b039",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lamenta que o xisto do Paraná esteja sendo doado e diz que a usina é maior do que qualquer político.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O xisto do Paraná está sendo entregue por um valor que não corresponde ao que ele representa.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b039c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o xisto do Paraná está sendo doado e essa usina é maior do que qualquer político",
+     "plain": "Vejo com tristeza o xisto, uma coisa do nosso Paraná, sendo doado a outras pessoas. Essa usina é muito maior do que qualquer político e está acima de qualquer ideal."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b040",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que o Paraná perde arrecadação, emprego e capacidade de inovação com a venda da SIX e da REPAR, e chama os outros parlamentares do estado para a defesa.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Paraná perde arrecadação, emprego e capacidade de inovação com a venda da SIX.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o que está em jogo no Paraná é a perda de arrecadação, na SIX e também na REPAR",
+     "plain": "Vou na linha do deputado e deixo de lado a análise de conjuntura nacional. O que preocupa é o Paraná: a pauta de hoje é a SIX, mas, se olharmos também a REPAR, veremos que estamos perdendo arrecadação."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as cidades de São Mateus do Sul e de Araucária perdem arrecadação, e o xisto gera receita, emprego e desenvolvimento",
+     "plain": "Estamos perdendo arrecadação de um estado que já tem dificuldades financeiras. São Mateus do Sul e Araucária perdem com esse processo, e o xisto gera receita, emprego e desenvolvimento no Paraná."
+    },
+    {
+     "id": "b040c3",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "perder a capacidade de inovação tecnológica custa ao Paraná o espaço que ele tem no Brasil e no mundo",
+     "plain": "Se perdermos a capacidade de inovar em tecnologia, o Paraná perde o espaço que tem no Brasil e no mundo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Compara a venda a um carro velho com ouro no porta-malas e pergunta quem entrega uma tecnologia única por 55% do lucro de 1 ano.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 20,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O negócio entrega a unidade de pesquisa e deixa com a Petrobras um passivo ambiental que ninguém contou.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b041c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o negócio esconde o aluguel da maior unidade de pesquisa da América Latina e um passivo ambiental enorme que a Petrobras vai pagar",
+     "plain": "O ouro escondido no negócio é o aluguel da maior unidade de pesquisa da América Latina e o passivo ambiental, enorme, que a Petrobras terá de recompor com dinheiro público depois que a Manhattan tirar o nosso minério."
+    },
+    {
+     "id": "b041c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não se entrega uma tecnologia única por 55% do lucro de 1 ano",
+     "plain": "Quem tem uma tecnologia única entrega essa tecnologia por 55% do lucro de 1 ano?"
+    },
+    {
+     "id": "b041c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a SIX vendida por 55% do lucro valeria mais no ferro-velho do que os 33 milhões de dólares",
+     "plain": "Como vereador me preocupo com a perda de arrecadação, mas, como petroleiro, tenho vergonha de ver a SIX vendida por 55% do lucro. Se eu levasse tudo aquilo ao ferro-velho, valeria mais do que os 33 milhões de dólares."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b042",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao vereador e passa a palavra ao pesquisador do Ineep.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b043",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O pesquisador cede o tempo final aos outros convidados e se coloca à disposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b044",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao pesquisador e chama o representante da FUP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b045",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende uma CPI para investigar as privatizações da Petrobras e lembra que a RLAM valia bem mais do que o preço pelo qual foi vendida.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As vendas de ativos da Petrobras precisam ser investigadas por uma comissão parlamentar de inquérito.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b045c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso uma CPI sobre as vendas de ativos e privatizações da Petrobras, difícil de abrir neste governo",
+     "plain": "Precisamos de uma CPI sobre essas vendas de ativos e privatizações da Petrobras. Talvez não seja possível neste governo, porque a composição da Câmara é muito controlada por ele."
+    },
+    {
+     "id": "b045c2",
+     "sentences": [
+      9
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os casos da Reman e da Lubnor mostram indícios fortes de favorecimento a grupos que querem monopólio regional",
+     "plain": "Nos casos da Reman e da Lubnor citamos indícios fortíssimos de corrupção e de favorecimento a grupos específicos, que querem um monopólio regional a um preço baixíssimo."
+    },
+    {
+     "id": "b045c3",
+     "sentences": [
+      10
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a RLAM valia até 4 bilhões de dólares e saiu por 1 bilhão e 850 milhões",
+     "plain": "A RLAM, na Bahia, valia de 3,6 bilhões a 4 bilhões de dólares, segundo a XP Investimentos, o BTG Pactual e o Ineep, e foi vendida por 1 bilhão e 850 milhões de dólares."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b046",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da Anapetro, por 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b047",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Critica a distribuição de quase 150 bilhões de reais em dividendos em 1 ano e 3 meses e a falta de investimento em refino no país.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa trocou o investimento em refino pela distribuição de lucro aos acionistas.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b047c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Petrobras distribuiu quase 150 bilhões de reais em 1 ano e 3 meses, o que daria para construir três refinarias",
+     "plain": "A empresa deixou de investir e distribuiu 101 bilhões de reais de lucro no ano passado e mais 46 bilhões no primeiro trimestre. São quase 150 bilhões em 1 ano e 3 meses, e dava para construir três refinarias."
+    },
+    {
+     "id": "b047c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o desabastecimento viria da falta de investimento em refino no Brasil",
+     "plain": "O Deyvid falou que pode haver desabastecimento. Isso viria da falta de investimento em refino no Brasil."
+    },
+    {
+     "id": "b047c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Petrobras exporta petróleo e importa diesel quando poderia refinar aqui",
+     "plain": "A Petrobras quer virar uma empresa que só extrai matéria-prima e compra o produto acabado. Ela exporta petróleo e importa diesel, quando poderia muito bem refinar aqui."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b048",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença de todos e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b020",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 110,
+   "to_sentence": 8,
+   "from_claim": "b020c1",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "O pesquisador mostra o mecanismo do que a presidência tinha afirmado na abertura: vender a refinaria com terminais e dutos entrega ao comprador um monopólio na região."
+  },
+  {
+   "from": "b024",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 17,
+   "from_claim": "b024c2",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "O vereador falou da queda dos royalties devidos ao município e o pesquisador confirma o número: eram 10% pagos pela Petrobras e passam a 5% com o comprador."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 169,
+   "from_claim": "b028c2",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "O dirigente da FUP retoma o risco de falta de combustível levantado pelo pesquisador e diz que ele já se materializa na ameaça de faltar diesel."
+  },
+  {
+   "from": "b028",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 46,
+   "to_sentence": 8,
+   "from_claim": "b028c1",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "Onde a presidência vê transferência de monopólio, o dirigente da FUP vê a quebra da cadeia integrada que abastece o mercado de combustíveis."
+  },
+  {
+   "from": "b029",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 54,
+   "from_claim": "b029c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O deputado responde ao tom da exposição e pede que a discussão saia da disputa política e vá ao problema em si."
+  },
+  {
+   "from": "b035",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 157,
+   "from_claim": "b035c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Os dois contam o mesmo caso da refinaria da Bahia, que exporta a produção em vez de abastecer o mercado interno, e tiram dele o mesmo aviso para as próximas vendas."
+  },
+  {
+   "from": "b037",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 57,
+   "to_sentence": 4,
+   "from_claim": "b037c2",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "O presidente da Anapetro confirma o ponto do pesquisador de que a Petrobras vai pagar para usar laboratórios que eram dela."
+  },
+  {
+   "from": "b037",
+   "to": "b007",
+   "kind": "apoia",
+   "from_sentence": 69,
+   "to_sentence": 3,
+   "from_claim": "b037c3",
+   "to_claim": "b007c1",
+   "strength": "media",
+   "note": "A presidência tinha apontado a reportagem sobre a venda e o presidente da Anapetro conta o episódio de 2007 a 2012 que, segundo ele, está por trás dela."
+  },
+  {
+   "from": "b037",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 11,
+   "from_claim": "b037c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Os dois dão a mesma conta do preço, um em dólares e outro em reais, e chegam ao mesmo resultado: pouco mais da metade do lucro de um ano."
+  },
+  {
+   "from": "b039",
+   "to": "b037",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 37,
+   "from_claim": "b039c1",
+   "to_claim": "b037c1",
+   "strength": "media",
+   "note": "Depois de ouvir o preço da venda, o deputado do PP diz que vê o xisto do Paraná sendo doado."
+  },
+  {
+   "from": "b040",
+   "to": "b029",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b040c1",
+   "to_claim": "b029c1",
+   "strength": "media",
+   "note": "A presidência aceita o pedido do deputado e abre mão da análise de conjuntura para tratar do que atinge o Paraná."
+  },
+  {
+   "from": "b040",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 8,
+   "from_claim": "b040c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A presidência cita o vereador para dizer que a perda de arrecadação não fica só em São Mateus do Sul e alcança também Araucária."
+  },
+  {
+   "from": "b041",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 3,
+   "from_claim": "b041c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "O vereador chama de ouro escondido no negócio justamente a unidade de pesquisa que o pesquisador apontou como a mais moderna da América Latina."
+  },
+  {
+   "from": "b041",
+   "to": "b037",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 38,
+   "from_claim": "b041c3",
+   "to_claim": "b037c1",
+   "strength": "media",
+   "note": "O vereador reforça a conta do presidente da Anapetro dizendo que só o material da usina valeria mais do que o preço pago."
+  },
+  {
+   "from": "b045",
+   "to": "b037",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 37,
+   "from_claim": "b045c3",
+   "to_claim": "b037c1",
+   "strength": "media",
+   "note": "O dirigente da FUP põe a venda da SIX na mesma série da refinaria da Bahia, que saiu bem abaixo do valor estimado por bancos e pelo instituto."
+  },
+  {
+   "from": "b047",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 41,
+   "from_claim": "b047c1",
+   "to_claim": "b028c3",
+   "strength": "forte",
+   "note": "Os dois voltam ao mesmo dado dos dividendos pagos pela empresa e o presidente da Anapetro acrescenta o que esse dinheiro teria construído."
+  },
+  {
+   "from": "b047",
+   "to": "b035",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 16,
+   "from_claim": "b047c2",
+   "to_claim": "b035c1",
+   "strength": "media",
+   "note": "O presidente da Anapetro concorda que pode faltar combustível e atribui isso à falta de investimento em refino."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b006",
+    "b024",
+    "b037",
+    "b039"
+   ],
+   "claims": [
+    "b006c2",
+    "b024c3",
+    "b037c1",
+    "b039c1"
+   ],
+   "note": "Um vereador, um deputado do PP, o pesquisador do Ineep e o presidente da Anapetro dizem a mesma coisa sobre o preço: a SIX saiu por menos do que ela vale."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b024",
+    "b040",
+    "b041"
+   ],
+   "claims": [
+    "b024c1",
+    "b040c3",
+    "b041c1"
+   ],
+   "note": "A presidência, o pesquisador e o vereador concordam que a tecnologia e os laboratórios são um patrimônio que saiu do país sem entrar na conta da venda."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b024",
+    "b035",
+    "b040"
+   ],
+   "claims": [
+    "b002c1",
+    "b024c2",
+    "b035c3",
+    "b040c2"
+   ],
+   "note": "O vereador, o pesquisador, o dirigente da FUP e a presidência concordam que o município e o estado perdem imposto, royalties e emprego com a venda."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b001",
+    "b020",
+    "b028",
+    "b035"
+   ],
+   "claims": [
+    "b001c2",
+    "b020c1",
+    "b028c2",
+    "b035c1"
+   ],
+   "note": "A presidência, o pesquisador e o dirigente da FUP concordam que vender as refinarias cria monopólio regional e aumenta o risco de faltar combustível."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b007",
+    "b037",
+    "b045"
+   ],
+   "claims": [
+    "b007c1",
+    "b037c3",
+    "b045c1"
+   ],
+   "note": "A presidência, o presidente da Anapetro e o dirigente da FUP concordam que o processo de venda precisa ser apurado, por reportagem, por comissão interna ou por CPI."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 10,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o governo federal e o estadual mostrem a perda do município",
+   "plain": "O governo federal e o governo do estado vão mostrar ao município quanto ele perde com a venda?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b006",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "o que justifica vender a SIX por 55% do lucro de 1 ano",
+   "plain": "O que a Petrobras mostra para justificar vender a usina por 55% do lucro de 1 ano?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b028",
+   "sentence": 32,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que a Petrobras mostre o que havia no celular entregue pelo ex-presidente",
+   "plain": "A Petrobras vai mostrar à sociedade o que havia no celular que o ex-presidente entregou ao sair?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b041",
+   "sentence": 20,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quem participou das reuniões fechadas que decidiram a venda",
+   "plain": "Quem fez as reuniões de porta fechada que levaram à venda da usina de xisto?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 8,
+   "gist": "a perda da SIX equivale a cerca de 40% dos impostos do município",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 12,
+   "gist": "o preço da SIX corresponde a 55% do lucro de 1 ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 18,
+   "gist": "o município perde 88 milhões de reais e o estado, 300 milhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b024",
+   "sentence": 29,
+   "gist": "a Petrobras pagava royalties de 10% e o comprador vai pagar 5%",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b020",
+   "sentence": 59,
+   "gist": "distribuiu 110 milhões aos acionistas e lucrou 107 milhões em 2 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b028",
+   "sentence": 41,
+   "gist": "101 bilhões de reais em dividendos no ano passado, 47 bilhões a minoritários",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b028",
+   "sentence": 51,
+   "gist": "o Brasil importa entre 20% e 25% do diesel de refinarias dos Estados Unidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b037",
+   "sentence": 38,
+   "gist": "a SIX teve 250 milhões de reais de lucro em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b037",
+   "sentence": 40,
+   "gist": "de 2004 a 2016 foram 20 milhões de dólares no xisto agrícola",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b045",
+   "sentence": 10,
+   "gist": "a RLAM valia até 4 bilhões de dólares e saiu por 1 bilhão e 850 milhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b047",
+   "sentence": 6,
+   "gist": "quase 150 bilhões de reais em dividendos em 1 ano e 3 meses",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria reuniu as críticas feitas na audiência à venda da usina de xisto, com foco no preço, nos royalties, na tecnologia e no efeito sobre o município.",
+  "omitted": "Ficou de fora o histórico das outras refinarias já vendidas, o risco de desabastecimento de diesel e de gás de cozinha e o pedido de uma CPI sobre as privatizações."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A SIX foi vendida por bem menos do que vale",
+   "statement_plain": "A usina de xisto saiu por um preço menor do que o lucro que ela dá em um ano, e nem os laboratórios nem o potencial de fertilizantes entraram nessa conta.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b024c3",
+    "b037c1",
+    "b039c1",
+    "b045c3"
+   ],
+   "note": "A ideia junta um vereador do interior do Paraná, um deputado do PP, um pesquisador, um dirigente sindical e o presidente de uma associação de acionistas, gente de origens bem diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "O preço é o menor problema, o monopólio é o maior",
+   "statement_plain": "Discutir só o preço da venda esconde o que pesa de verdade: o parque de refino deixa de funcionar junto e cada comprador fica dono do combustível da sua região.",
+   "core_theme": "d4",
+   "positions": {
+    "d1": "contrario",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b020c3",
+    "b020c1",
+    "b028c1",
+    "b035c1",
+    "b001c2"
+   ],
+   "note": "É a ideia que divide quem está do mesmo lado na sala: o pesquisador tira o foco do preço que o vereador e o presidente da Anapetro colocam no centro."
+  },
+  {
+   "id": "t3",
+   "title": "A tecnologia do xisto foi entregue sem preço",
+   "statement_plain": "A técnica de processar o xisto e os laboratórios de pesquisa são únicos e foram junto no negócio sem ninguém calcular quanto valem.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b024c1",
+    "b037c2",
+    "b040c3",
+    "b041c1"
+   ],
+   "note": "A ideia é sustentada por um vereador, por um pesquisador, pelo presidente da Anapetro e pela presidência da Comissão, que chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t4",
+   "title": "São Mateus do Sul perde o que não tem como repor",
+   "statement_plain": "A cidade e o estado perdem imposto, royalties e emprego com a saída da estatal, e não têm de onde tirar esse dinheiro de novo.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b024c2",
+    "b035c3",
+    "b040c2"
+   ],
+   "note": "A ideia cruza a prefeitura e a Câmara da cidade, o instituto de pesquisa e o sindicato dos petroleiros, que contam a mesma perda por contas diferentes."
+  },
+  {
+   "id": "t5",
+   "title": "A venda foi direcionada e precisa ser investigada",
+   "statement_plain": "O processo que vendeu a usina foi conduzido a favor de uma empresa que a própria Petrobras já tinha investigado, e isso precisa ser apurado.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b007c1",
+    "b020c2",
+    "b037c3",
+    "b045c1",
+    "b045c2"
+   ],
+   "note": "A ideia junta a presidência da Comissão, um pesquisador, um dirigente sindical e o presidente de uma associação de acionistas em torno de uma apuração, e não de um setor."
+  },
+  {
+   "id": "t6",
+   "title": "Faltou investimento em refino e sobrou dividendo",
+   "statement_plain": "A Petrobras parou de investir em refinaria e pagou bilhões aos donos das ações, e é por isso que o país exporta petróleo e importa combustível.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b028c3",
+    "b047c1",
+    "b047c2",
+    "b047c3"
+   ],
+   "note": "A ideia é sobre a escolha de onde a empresa põe o dinheiro, e não sobre quem é dono dela, e por isso aparece tanto no sindicato quanto na associação de acionistas."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SIX",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "unidade da Petrobras em São Mateus do Sul, no Paraná, que processa xisto e faz pesquisa"
+  },
+  {
+   "term": "Petrosix",
+   "fala": "b024",
+   "sentence": 1,
+   "plain": "nome da tecnologia criada pela Petrobras para tirar óleo do xisto, usada só na unidade do Paraná"
+  },
+  {
+   "term": "royalties",
+   "fala": "b006",
+   "sentence": 17,
+   "plain": "parte do valor do que se extrai do solo que a empresa paga ao município, ao estado e à União"
+  },
+  {
+   "term": "ANP",
+   "fala": "b006",
+   "sentence": 17,
+   "plain": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis, o órgão federal que regula o setor"
+  },
+  {
+   "term": "CADE",
+   "fala": "b020",
+   "sentence": 2,
+   "plain": "Conselho Administrativo de Defesa Econômica, órgão federal que julga casos de concorrência entre empresas"
+  },
+  {
+   "term": "CNPE",
+   "fala": "b020",
+   "sentence": 107,
+   "plain": "Conselho Nacional de Política Energética, colegiado do governo que define as diretrizes de energia do país"
+  },
+  {
+   "term": "PPI",
+   "fala": "b020",
+   "sentence": 76,
+   "plain": "preço de paridade de importação: cobrar aqui pelo combustível o mesmo preço de quem o traz de fora"
+  },
+  {
+   "term": "impairment",
+   "fala": "b020",
+   "sentence": 42,
+   "plain": "redução contábil do valor de um bem, feita quando a empresa entende que ele vai render menos"
+  },
+  {
+   "term": "bunker",
+   "fala": "b020",
+   "sentence": 154,
+   "plain": "óleo combustível usado por navios, vendido conforme especificação internacional"
+  },
+  {
+   "term": "monopsônio",
+   "fala": "b024",
+   "sentence": 6,
+   "plain": "situação em que existe um comprador só para um produto, e quem vende não tem para quem mais vender"
+  },
+  {
+   "term": "teaser",
+   "fala": "b028",
+   "sentence": 39,
+   "plain": "documento curto que a empresa publica para anunciar um ativo à venda e atrair interessados"
+  },
+  {
+   "term": "bacia das almas",
+   "fala": "b028",
+   "sentence": 40,
+   "plain": "expressão para a venda feita por preço muito abaixo do valor, como quem se desfaz da mercadoria"
+  },
+  {
+   "term": "INEEP",
+   "fala": "b001",
+   "sentence": 22,
+   "plain": "instituto de pesquisa sobre petróleo, gás natural e biocombustíveis, criado pela federação dos petroleiros"
+  }
+ ]
+}

@@ -1,0 +1,2085 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 168,
+ "model": "LLM lendo o prompt hearing-168 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T20:37:06Z",
+ "prompt_sha256": "e4637d0cb657a3ee4ff4129ddbdfaab9bdc4453205f787df72fae5403cdd1fb2",
+ "sentences_hash": "c422ed5ce6d24857",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 8
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Educação ouviu a associação dos pós-graduandos, a CAPES, o CNPq e a Secretaria de Educação Superior do MEC sobre as condições de quem faz mestrado e doutorado no Brasil. Os convidados descreveram a ausência de direitos previdenciários e trabalhistas, a perda de talentos e a concentração regional dos cursos. Pediu-se decisão do Congresso e do Governo sobre previdência, licença parental e orçamento.",
+ "stakes": "Definir se o Congresso vai garantir direitos previdenciários e licença parental aos pós-graduandos e recompor o orçamento de 2024 da educação e da ciência.",
+ "central_question": "Que direitos e que financiamento o Brasil precisa garantir para tornar o mestrado e o doutorado atrativos e aproveitar os mestres e doutores que forma?",
+ "synopsis_plain": "Quem faz mestrado e doutorado no Brasil trabalha como pesquisador, mas não tem previdência nem direitos de trabalhador. Na Comissão de Educação, a associação dos pós-graduandos, a CAPES, o CNPq e o Ministério da Educação mostraram números sobre bolsas, evasão e desigualdade entre as regiões, e pediram uma decisão do Congresso sobre esses direitos e sobre o orçamento de 2024.",
+ "stakes_plain": "Se o Congresso vai criar previdência e licença parental para quem faz mestrado e doutorado e recompor o orçamento da educação e da ciência em 2024.",
+ "central_question_plain": "Que direitos e quanto dinheiro o Brasil precisa garantir para que valha a pena fazer mestrado e doutorado?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Proteção social do pós-graduando",
+   "description": "Discute-se se quem faz mestrado e doutorado deve ter previdência, licença e outros direitos, e não apenas a bolsa.",
+   "axis": {
+    "pro": "Os pós-graduandos devem ter direitos previdenciários e trabalhistas reconhecidos por lei.",
+    "contra": "A relação deve seguir sendo só a de estudante com bolsa, sem direitos de trabalhador.",
+    "pro_plain": "Quem faz mestrado e doutorado também trabalha, e por isso deve ter previdência e licença.",
+    "contra_plain": "O pós-graduando é estudante e recebe bolsa, e não deve ter direitos de trabalhador."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Vínculo de trabalho do pós-graduando",
+   "description": "Discute-se se o doutorando deve passar a ter contrato de trabalho por tempo determinado, em lugar da bolsa.",
+   "axis": {
+    "pro": "O doutorando deve ser contratado por tempo determinado, com carteira assinada e contagem de tempo.",
+    "contra": "O caminho é manter a bolsa e apenas incluir esse tempo na previdência.",
+    "pro_plain": "Quem faz doutorado deveria ter contrato de trabalho com prazo, e não bolsa.",
+    "contra_plain": "Melhor manter a bolsa como é e garantir que esse tempo conte para a aposentadoria."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "De onde sai o dinheiro dos direitos",
+   "description": "Discute-se de qual fonte viria o dinheiro para pagar previdência e outros direitos aos pós-graduandos.",
+   "axis": {
+    "pro": "Os recursos podem vir dos fundos de ciência e tecnologia e dos royalties do pré-sal.",
+    "contra": "Os recursos devem sair do Orçamento e da área do trabalho, sem tirar dos fundos de ciência.",
+    "pro_plain": "O dinheiro pode sair do fundo da ciência e de parte do que o pré-sal paga ao país.",
+    "contra_plain": "O dinheiro deve sair do Orçamento e da área do trabalho, sem mexer no fundo da ciência."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Atratividade e perda de talentos",
+   "description": "Discute-se se a carreira científica perdeu atratividade e se o país está perdendo os mestres e doutores que forma.",
+   "axis": {
+    "pro": "A falta de direitos e o valor das bolsas afastam talentos e fazem o país perder mestres e doutores.",
+    "contra": "O programa brasileiro de pós-graduação é exitoso e as comparações com outros países enganam.",
+    "pro_plain": "Sem direitos e com bolsa baixa, os jovens desistem e os doutores vão para outras profissões.",
+    "contra_plain": "O programa brasileiro deu certo e formou quase todos os professores das universidades."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Doutores no setor produtivo",
+   "description": "Discute-se como levar mestres e doutores para empresas, indústria e administração pública, e não só para a universidade.",
+   "axis": {
+    "pro": "É preciso formar e absorver mestres e doutores fora da universidade, no setor produtivo.",
+    "contra": "A formação deve seguir voltada à pesquisa acadêmica, onde ela já dá resultado.",
+    "pro_plain": "Mestres e doutores precisam trabalhar também em empresas, na indústria e no serviço público.",
+    "contra_plain": "O lugar de mestres e doutores continua sendo a universidade e a pesquisa."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Expansão e desigualdade regional",
+   "description": "Discute-se levar cursos de qualidade ao Norte, Nordeste e Centro-Oeste e financiar as universidades estaduais e municipais.",
+   "axis": {
+    "pro": "A expansão precisa ser induzida para o interior e para as regiões que formam menos doutores.",
+    "contra": "O sistema deve crescer sozinho, onde já existe qualidade, sem indução.",
+    "pro_plain": "O país precisa abrir cursos bons no interior e no Norte, Nordeste e Centro-Oeste.",
+    "contra_plain": "Os cursos devem crescer onde já há qualidade, sem o governo empurrar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Orçamento da ciência e da educação",
+   "description": "Discute-se recompor o dinheiro cortado da educação e da ciência na lei orçamentária de 2024.",
+   "axis": {
+    "pro": "O Congresso deve recompor o orçamento da educação, da ciência e da tecnologia.",
+    "contra": "O gasto da área deve caber nos limites fiscais já definidos.",
+    "pro_plain": "O Congresso precisa devolver ao orçamento o dinheiro cortado da educação e da ciência.",
+    "contra_plain": "A área tem de caber no limite de gastos que já está valendo."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência pública e autora do requerimento",
+   "org": "Comissão de Educação da Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata, identificada como Alice Portugal, Bloco/PCdoB - BA, autora do requerimento em b001.4",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Educação da Câmara dos Deputados, que discute e vota os projetos de ensino"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação Nacional de Pós-Graduandos",
+   "org": "ANPG",
+   "basis": "apresentado pela presidência em b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ANPG, a associação dos pós-graduandos",
+   "org_plain": "entidade nacional que representa os estudantes de mestrado e doutorado do país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Presidente da CAPES",
+   "org": "CAPES",
+   "basis": "apresentada pela presidência em b001.15",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da CAPES",
+   "org_plain": "órgão federal que avalia a pós-graduação e paga as bolsas de mestrado e doutorado"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Presidente do CNPq",
+   "org": "CNPq",
+   "basis": "apresentado pela presidência em b001.11",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do CNPq",
+   "org_plain": "conselho federal que financia pesquisa e paga bolsas de iniciação científica e de pós-graduação"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Articulação Institucional da SESU/MEC",
+   "org": "SESU/MEC",
+   "basis": "apresentado pela presidência em b001.17",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria de Educação Superior do MEC",
+   "org_plain": "secretaria do Ministério da Educação que cuida das universidades e do ensino superior"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Presidenta da ANPG e mestranda em sociologia",
+   "org": "ANPG",
+   "basis": "apresentada por ela mesma em b010.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "vice-presidenta da ANPG",
+   "org_plain": "entidade nacional que representa os estudantes de mestrado e doutorado do país"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Reitor da UNEAL e Presidente da ABRUEM",
+   "org": "UNEAL",
+   "basis": "apresentado pela presidência em b011.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "reitor da UNEAL e presidente da ABRUEM",
+   "org_plain": "universidade estadual de Alagoas. A ABRUEM reúne os reitores das universidades estaduais e municipais"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Secretária da SBPC",
+   "org": "SBPC",
+   "basis": "apresentada pela presidência em b013.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da SBPC",
+   "org_plain": "Sociedade Brasileira para o Progresso da Ciência, entidade que reúne pesquisadores de todas as áreas"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Chefe da Assessoria de Participação Social e Diversidade do MCTI",
+   "org": "MCTI",
+   "basis": "apresentada pela presidência em b005.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Ciência, Tecnologia e Inovação",
+   "org_plain": "ministério federal que cuida das políticas de ciência, tecnologia e inovação"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "apresentado pela presidência em b011.2, do PP de Alagoas",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP de Alagoas",
+   "org_plain": "Câmara dos Deputados, onde os deputados escrevem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.65
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   }
+  ],
+  "basis": "a mesa registra delegações e entidades presentes em b005 e b011, há palmas em oito falas e o presidente da ANPG conta em b008.14 que convidou estudantes em sala de aula",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência, recorda a retração de recursos dos últimos 6 anos e lista os projetos que já apresentou sobre licença e aposentadoria do pós-graduando.",
+   "quote": [
+    47,
+    48,
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão deve garantir ao pós-graduando licença ampliada e contagem de tempo para a aposentadoria.",
+    "sentence": 57
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nos últimos 6 anos a pós-graduação sofreu retração de recursos e intervenções indevidas, e agora é hora de reconstruir",
+     "plain": "Nesses últimos 6 anos a pós-graduação teve grande retração de recursos e intervenções indevidas na formação e na criação. Essa etapa está vencida. Agora é restaurar e reconstruir o País."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão já legislou para a pós-graduanda manter a bolsa na licença-maternidade e o projeto virou lei",
+     "plain": "Aqui na Comissão de Educação nós já legislamos sobre a pós-graduanda que não podia manter a bolsa durante a licença-maternidade. Foi de uma escuta como esta que eu fiz o projeto, e hoje ele é lei."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      57,
+      58
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "contar o tempo de pós-graduação para a aposentadoria, como já vale para os médicos residentes, já virou projeto em tramitação",
+     "plain": "Também discutimos contar esse tempo para a aposentadoria, como já foi feito com os médicos residentes. A ANPG apontou isso como necessário, eu apresentei o projeto e ele já está tramitando."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Descreve o limbo do pós-graduando entre estudante e trabalhador, aponta a perda de talentos e pede uma cesta de direitos estudantis, trabalhistas e previdenciários.",
+   "quote": [
+    43,
+    44,
+    45
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os pós-graduandos precisam de uma cesta de direitos estudantis, trabalhistas e previdenciários.",
+    "sentence": 62
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o pós-graduando vive no limbo entre estudante e professor e o seu trabalho não tem proteção social além da bolsa",
+     "plain": "O pós-graduando vive num limbo, porque é estudante e professor ao mesmo tempo. Somos cidadãos que exercem um trabalho, mas esse trabalho não tem nenhuma proteção social além da bolsa de estudos."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil tritura os diplomas que titulou, porque os mestres e doutores migram para profissões de menor adensamento científico",
+     "plain": "Na prática, o Brasil está triturando os diplomas que titulamos. Nossos mestres e doutores estão migrando para profissões de menor adensamento científico e tecnológico. Estão tendo que trabalhar com a Uber ou fazer docinho para sobreviver."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      75,
+      76,
+      77
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o dinheiro pode sair do Fundo Nacional de Desenvolvimento Científico e Tecnológico e do projeto que destina 25% dos royalties do pré-sal",
+     "plain": "Uma das fontes é o Fundo Nacional de Desenvolvimento Científico e Tecnológico. E uma terceira é aprovar aqui o Projeto de Lei 5.876, de 2016, do deputado Celso Pansera, que manda 25% dos royalties do pré-sal para ciência e tecnologia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao presidente da ANPG e passa a palavra à presidente da CAPES.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Apresenta o tamanho do sistema de pós-graduação, mostra a desigualdade entre as regiões, defende expansão induzida e anuncia apoio da CAPES aos direitos previdenciários.",
+   "quote": [
+    76,
+    77,
+    78
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    34,
+    35,
+    36
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O sistema de pós-graduação precisa se expandir de forma induzida para as regiões que formam menos doutores.",
+    "sentence": 77
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Sudeste e o Sul formam mais doutores por 100 mil habitantes que a média, e Centro-Oeste, Nordeste e Norte ficam abaixo",
+     "plain": "No Sudeste e no Sul formamos mais doutores por 100 mil habitantes do que a média nacional. No Centro-Oeste, no Nordeste e sobretudo no Norte ficamos abaixo dela. Temos de subir esse número e enfrentar a desigualdade regional."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      80,
+      81,
+      82
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se pode formar mestres e doutores só para a universidade, e os cursos precisam ter aderência ao mundo do trabalho",
+     "plain": "Hoje está claro que não podemos formar mestres e doutores só para a universidade. Essa formação precisa chegar aos outros setores da economia. Precisamos de cursos com aderência ao mundo do trabalho fora da academia."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      104,
+      105
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a CAPES apoia o reconhecimento dos direitos previdenciários e já discute com a ANPG e outros ministérios uma norma para garanti-los",
+     "plain": "O ponto mais importante, e que nos une aqui, é o apoio ao reconhecimento dos direitos previdenciários de quem faz pós-graduação. A procuradoria da CAPES já conversa com a ANPG e com outros ministérios para escrever essa norma."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença do MCTI, do reitor da UNEAL e da SBPC e chama o presidente do CNPq.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende que faltam doutores nas empresas, mostra números da área de tecnologia da informação e propõe contrato temporário para quem termina o doutorado.",
+   "quote": [
+    56,
+    57,
+    58
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país precisa formar e colocar doutores nas empresas, e não apenas na universidade.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há cerca de 330 mil professores nas universidades e 240 mil têm doutorado, o que mostra o êxito do programa",
+     "plain": "Hoje temos algo como 330 mil professores nas universidades brasileiras, e cerca de 240 mil deles têm doutorado. Comparado com a década de 60, o aumento foi enorme. Podemos nos orgulhar desse programa na formação dos professores."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      56,
+      57,
+      58
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil tem cerca de 800 mil profissionais de TI e só 0,4% deles tem doutorado e 1,1% tem mestrado",
+     "plain": "Segundo a BRASSCOM, a associação das empresas de tecnologia da informação, o País tem cerca de 800 mil profissionais de TI, e faltam de 100 mil a 150 mil. Desses 800 mil, só 0,4% tem doutorado e 1,1% tem mestrado."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      107,
+      108,
+      109
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o doutorando pode ser contratado por tempo determinado, com CLT e contagem de tempo, porque é um profissional de pesquisa",
+     "plain": "Podemos criticar a legislação do Governo Temer, mas ela abre espaço para contrato temporário, com CLT e contagem de tempo, depois do doutorado. O Vinícius tem razão: o doutorando não é aluno, é um profissional de pesquisa."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da Secretaria de Educação Superior do MEC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata o trabalho do MEC com as residências e a expansão, liga a evasão à baixa atratividade da carreira e declara apoio aos direitos previdenciários.",
+   "quote": [
+    65,
+    66,
+    67
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O MEC apoia a ampliação dos direitos trabalhistas e previdenciários dos pós-graduandos.",
+    "sentence": 67
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há mais de 14 mil bolsas de residência, 9.500 delas médicas, e é preciso levar aos multiprofissionais os direitos já previstos em lei",
+     "plain": "São mais de 14 mil bolsas de residência, e 9.500 delas são de residência médica, que tem regulamentação desde os anos 80, muitas vezes não cumprida. Precisamos estender aos residentes multiprofissionais o que a lei já garante aos médicos."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      65,
+      66
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a evasão é maior nas áreas em que o mercado capta talentos, e isso vem da baixa atratividade da carreira científica",
+     "plain": "Vimos na apresentação da professora Mercedes que a evasão é maior nas áreas em que o mercado capta talentos, às vezes antes de terminar o curso. Isso vem da baixa atratividade da carreira, sem os direitos que outras profissões têm."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      67
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Educação apoia o pleito de ampliar os direitos trabalhistas e previdenciários de quem faz pós-graduação",
+     "plain": "Nós apoiamos, sim, todo o pleito de ampliar os direitos trabalhistas e previdenciários de quem faz pós-graduação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre 3 minutos por representação e chama a vice-presidenta da ANPG.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o pós-graduando é estudante e trabalhador ao mesmo tempo, liga a reforma da Previdência ao desânimo dos jovens e cobra lugar para a ciência no Orçamento.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O pós-graduando é estudante e trabalhador e deve ter os direitos dos dois.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o pós-graduando é híbrido, estudante e trabalhador, e luta ao mesmo tempo por assistência estudantil e por previdência",
+     "plain": "Somos estudantes em formação e também pesquisadores e trabalhadores. Lutamos por direitos que os estudantes já têm, como a assistência estudantil, e por direitos que os trabalhadores já têm, como a Previdência."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a reforma da Previdência atingiu sobretudo a juventude e faz os jovens deixarem de sonhar com a pós-graduação",
+     "plain": "Nesse período de desmonte de direitos houve uma reforma da Previdência, e quem mais sofreu com ela fomos nós, a juventude. Isso faz os jovens pararem de sonhar com a pós-graduação, num cenário de nunca se aposentar e trabalhar até morrer."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o valor da ciência e do pesquisador brasileiro precisa aparecer no Orçamento, e não só nas falas",
+     "plain": "Nós perguntamos: quanto vale a ciência do Brasil e quanto vale o pesquisador brasileiro? Achamos que isso precisa aparecer no Orçamento, e não só nas nossas falas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência saúda o deputado Daniel Barbosa e passa a palavra ao reitor da UNEAL.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pede apoio ao financiamento das universidades estaduais e defende dar vínculo de trabalho ao pós-graduando, que chega sem experiência profissional.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O pós-graduando deveria ter vínculo de trabalho, e as universidades estaduais precisam de financiamento.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as universidades estaduais têm muitos alunos na pós-graduação e precisam de apoio no financiamento e na assistência estudantil",
+     "plain": "Nossas universidades estaduais têm hoje muitos alunos na pós-graduação. Pedimos apoio desta Câmara no financiamento e na assistência estudantil, para fortalecer um sistema nacional de educação superior, e não só federal."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o aluno que chega pelos concursos públicos é um excelente pesquisador, mas não traz experiência profissional no currículo",
+     "plain": "O aluno que chega às nossas universidades pelo concurso público às vezes não tem nenhuma experiência profissional. Ele é um excelente pesquisador, mas não traz essa experiência no currículo."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "colocar o pós-graduando na CLT ou dar-lhe um vínculo empregatício permitiria que ele concorresse a concursos com experiência profissional",
+     "plain": "Talvez funcione o que o presidente Ricardo falou, colocar o aluno na CLT ou criar um documento que gere vínculo empregatício. Assim ele concorreria num concurso com a experiência profissional de quem atua no laboratório."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à secretária da SBPC, Fernanda Sobral.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que a assembleia da SBPC aprovou por unanimidade uma moção pelos direitos previdenciários e defende também licença-maternidade para não bolsistas.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A SBPC defende os direitos previdenciários, a licença-maternidade para não bolsistas e a assistência estudantil.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a assembleia da SBPC em julho, em Curitiba, aprovou por unanimidade uma moção pelos direitos previdenciários, proposta pela ANPG",
+     "plain": "A proposta dos direitos previdenciários saiu de debates com vários especialistas. Depois, na nossa assembleia de julho, em Curitiba, uma moção pedindo esses direitos foi aprovada por unanimidade, a partir de proposta da ANPG."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "além da previdência, é importante a licença-maternidade inclusive para não bolsistas e uma política de assistência estudantil efetiva",
+     "plain": "Além dos direitos previdenciários, acho muito importante a licença-maternidade, inclusive para quem não tem bolsa, e uma política de assistência estudantil que funcione."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante do MCTI e avisa que a votação vai começar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Saúda a audiência em nome do MCTI e lembra que o reajuste das bolsas foi uma das primeiras ações da gestão, com atenção às mulheres na ciência.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O reajuste das bolsas e a inclusão de mulheres na ciência são ações que valorizam o pesquisador.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "uma das primeiras ações da gestão foi o reajuste das bolsas anunciado pela Ministra Luciana junto com MEC, CAPES e CNPq",
+     "plain": "Uma das primeiras ações desta gestão foi o reajuste das bolsas, anunciado pela Ministra Luciana junto com o MEC, a CAPES e o CNPq. Há atenção especial à participação de meninas e mulheres na ciência."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Daniel Barbosa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Conta que votou para tirar o Ministério da Ciência do teto de gastos e sustenta que ciência e tecnologia são investimento, não gasto.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Ciência, tecnologia e inovação são investimento e devem ficar fora do teto de gastos.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ciência, tecnologia e inovação são investimento e não gasto, e por isso o Ministério deve ficar fora do teto de gastos",
+     "plain": "Eu fui a favor de tirar do teto de gastos o Ministério da Ciência, Tecnologia e Inovação, porque sei a importância de investir aí. Se tivéssemos investido há 2 anos, poderíamos ter enfrentado melhor a pandemia. É investimento, não gasto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Assume a tarefa da licença parental, diz que a natureza contratual precisa amadurecer e pergunta ao CNPq sobre isenção fiscal para empresas que qualificam seus quadros.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "open_question": 22,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara deve transformar a licença-maternidade das bolsistas em licença parental ampla e estudar incentivos às empresas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a presidência assume a tarefa de ampliar a licença-maternidade das bolsistas para uma licença parental, com bolsa ou sem bolsa",
+     "plain": "O que mais me chama a atenção é o abrigo previdenciário e trabalhista do pós-graduando. Fico com a tarefa de ampliar a licença-maternidade, hoje só das bolsistas, para uma licença parental mais ampla, com bolsa ou sem bolsa."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a natureza contratual ou não contratual do pós-graduando ainda precisa ser amadurecida",
+     "plain": "Acho que a questão de haver ou não um contrato para o pós-graduando é algo que ainda precisamos amadurecer."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a isenção fiscal para a empresa que eleva a qualidade técnica e tecnológica dos seus quadros seria uma opção",
+     "plain": "Dr. Galvão, seria uma opção dar isenção fiscal a quem eleva a qualidade técnica e tecnológica dos seus quadros? E por que não? Estamos dando isenção a quem não deixa nada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que a pauta da pós-graduação é de desenvolvimento nacional, e não corporativista, e convida todos a assinar o abaixo-assinado da ANPG.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pauta da pós-graduação é de desenvolvimento nacional e atrai novos talentos para a ciência.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a pauta da pós-graduação não é corporativista, é de desenvolvimento nacional, e atrai novos talentos para a ciência",
+     "plain": "Sempre dizemos que essa pauta da pós-graduação não é corporativista, é uma pauta de desenvolvimento nacional. Ela leva direitos aos pós-graduandos e atrai novos talentos para a produção científica."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que ainda falta votar a urgência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente da ANPG agradece à CAPES, ao CNPq e ao MEC e pede que se aproveite a janela de oportunidade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência parabeniza o presidente da ANPG pelo aniversário e chama a presidente da CAPES.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pede atenção à proposta orçamentária de 2024, que traz a CAPES com menos dinheiro que em 2023, e aponta a dificuldade de repasse às universidades estaduais.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Congresso deve recompor o orçamento da CAPES para 2024.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a CAPES vem na proposta orçamentária de 2024 com orçamento menor que o de 2023, embora o sistema esteja crescendo",
+     "plain": "Na proposta de lei orçamentária, a CAPES vem para 2024 com orçamento menor que o de 2023, mesmo com o sistema de pós-graduação crescendo. Isso aperta o acompanhamento dos novos programas que entram."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      14
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a CAPES tem dificuldade de repassar recursos às estaduais por convênio e é preciso dar acesso mais rápido aos recursos federais",
+     "plain": "A CAPES tem muita dificuldade para repassar recursos às universidades estaduais pelos convênios. Precisamos trabalhar juntos para que as estaduais e as municipais cheguem mais rápido aos recursos federais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente do CNPq, Ricardo Galvão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Recusa que os 500 milhões de reais saiam do FNDCT, lembra a retirada de 13 bilhões no Ciência sem Fronteiras e pede que o dinheiro venha do Orçamento.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os 500 milhões de reais devem sair do Orçamento, e não do fundo da ciência e tecnologia.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "das três alternativas apresentadas para os 500 milhões, a única em que não se deveria insistir é usar o FNDCT",
+     "plain": "O Vinícius deu três alternativas para conseguir os 500 milhões destinados à área social. A única em que eu não gostaria que se insistisse é usar o FNDCT, o fundo da ciência e tecnologia. Nossa experiência com ele é terrível."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no Ciência sem Fronteiras tiraram 13 bilhões de reais do FNDCT, dinheiro essencial para os laboratórios de pesquisa",
+     "plain": "Tiraram 13 bilhões de reais do FNDCT no Ciência sem Fronteiras, dinheiro essencial para os laboratórios de pesquisa. Depois destes últimos 4 anos, os laboratórios estão em situação terrível."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "tirar 500 milhões de reais do Orçamento é simples e essa carga não deve ser posta no FNDCT",
+     "plain": "Deputada, tirar 500 milhões de reais do Orçamento é só fazer assim com os dedos. Peço que não coloquem essa carga no FNDCT."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência propõe uma ida à Comissão de Orçamento e chama o representante da SESU.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Reforça o pedido de avanços no financiamento da educação e da ciência antes das definições orçamentárias de 2024.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O financiamento da educação e da ciência precisa avançar nas definições orçamentárias de 2024.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com as definições orçamentárias de 2024 a caminho, é preciso avançar no financiamento da educação e da ciência",
+     "plain": "Reforço o pedido, porque em breve teremos as definições orçamentárias para 2024. Precisamos avançar no financiamento da educação e da ciência e tecnologia. No que depender do MEC, contem conosco como parceiros."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Encerra propondo que o Estado pague a parte patronal da previdência do pós-graduando, como faz com o médico residente, e cobra recomposição do orçamento.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado deve pagar a parte patronal da previdência do pós-graduando, como faz com o médico residente.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não se conseguiu tirar a ciência e a tecnologia do arcabouço fiscal, e só o FUNDEB ficou de fora",
+     "plain": "Não conseguimos tirar a ciência e a tecnologia do arcabouço fiscal, a regra que limita os gastos. Nós tentamos. Conseguimos retirar pelo menos o FUNDEB, o fundo da educação básica, mas a ciência e a tecnologia ficaram dentro."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a previdência do pós-graduando deve sair do orçamento do trabalho, com o Estado pagando a parte patronal como faz com os residentes",
+     "plain": "Vamos trabalhar para que a previdência dos pós-graduandos saia do orçamento do mundo do trabalho. Se agora não houver decisão sobre contrato, o Estado precisa pagar a parte patronal, como já faz com os médicos residentes."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pagar a parte patronal e trabalhista do pós-graduando, como se faz com o médico residente, garante a contagem de tempo para a aposentadoria",
+     "plain": "É pagar a parte patronal e a parte trabalhista do pós-graduando, como já se faz com o médico residente. É uma forma simplificada, mas que garante a contagem de tempo para a aposentadoria, com garantia em dinheiro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 104,
+   "to_sentence": 19,
+   "from_claim": "b004c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A CAPES diz que o reconhecimento dos direitos previdenciários é o ponto que une a mesa, logo depois de a ANPG descrever o trabalho sem proteção social."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 109,
+   "to_sentence": 18,
+   "from_claim": "b006c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O CNPq dá razão à ANPG no ponto essencial: quem faz doutorado não é aluno, é profissional de pesquisa."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 30,
+   "to_sentence": 44,
+   "from_claim": "b006c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Ao quadro de diplomas triturados, o CNPq contrapõe o êxito do programa, que formou cerca de 240 mil doutores entre os professores das universidades."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 56,
+   "to_sentence": 80,
+   "from_claim": "b006c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Os números da área de tecnologia da informação confirmam o que a CAPES disse: os doutores ainda não chegam aos setores fora da universidade."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 67,
+   "to_sentence": 19,
+   "from_claim": "b008c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A Secretaria de Educação Superior do MEC declara apoio ao pleito de direitos trabalhistas e previdenciários que a ANPG apresentou."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 65,
+   "to_sentence": 68,
+   "from_claim": "b008c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O MEC retoma os dados de evasão da apresentação da CAPES e liga a evasão à captação de talentos pelo mercado."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 17,
+   "from_claim": "b010c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A vice-presidenta da ANPG repete o caráter híbrido do pós-graduando e o traduz em duas lutas, a estudantil e a trabalhista."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 108,
+   "from_claim": "b012c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "O reitor adere à proposta do CNPq de dar contrato ao pós-graduando, porque isso lhe daria experiência profissional para concursos."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 43,
+   "from_claim": "b012c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "O reitor confirma a assimetria regional mostrada pela CAPES e acrescenta o peso das universidades estaduais nesse mapa."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 19,
+   "from_claim": "b014c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A SBPC lembra que sua assembleia já aprovou por unanimidade a moção pelos direitos previdenciários proposta pela ANPG."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 17,
+   "from_claim": "b018c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Ao pedido de que a ciência apareça no Orçamento, o deputado responde que ciência e tecnologia são investimento e não gasto."
+  },
+  {
+   "from": "b019",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 58,
+   "from_claim": "b019c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A presidência assume a cesta de direitos que a ANPG pediu e começa pela ampliação da licença para quem não tem bolsa."
+  },
+  {
+   "from": "b019",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 106,
+   "from_claim": "b019c1",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "A presidência responde ao pedido da CAPES e assume a proposta de transformar a licença-maternidade em licença parental."
+  },
+  {
+   "from": "b019",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 108,
+   "from_claim": "b019c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Sobre o contrato sugerido pelo CNPq, a presidência diz que a natureza contratual do pós-graduando ainda precisa amadurecer."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 66,
+   "from_claim": "b020c1",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Ao diagnóstico do MEC sobre a baixa atratividade, a ANPG responde que a pauta é de desenvolvimento nacional e serve para atrair novos talentos."
+  },
+  {
+   "from": "b024",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 4,
+   "from_claim": "b024c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "A CAPES repete a demanda que o CNPq já fizera sobre os cortes e mostra que a proposta de 2024 vem menor que a de 2023."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 14,
+   "to_sentence": 7,
+   "from_claim": "b024c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Ao pedido de apoio do reitor, a CAPES reconhece a dificuldade de repassar recursos federais às universidades estaduais por convênio."
+  },
+  {
+   "from": "b026",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 75,
+   "from_claim": "b026c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O CNPq recusa uma das fontes propostas pela ANPG: o fundo da ciência e tecnologia não deve pagar essa conta."
+  },
+  {
+   "from": "b028",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 8,
+   "from_claim": "b028c1",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "O MEC reforça o pedido da CAPES por avanços no financiamento antes das definições orçamentárias de 2024."
+  },
+  {
+   "from": "b029",
+   "to": "b026",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 8,
+   "from_claim": "b029c2",
+   "to_claim": "b026c3",
+   "strength": "forte",
+   "note": "À recusa do CNPq de usar o fundo da ciência, a presidência responde que a conta deve sair do orçamento do mundo do trabalho."
+  },
+  {
+   "from": "b029",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 65,
+   "from_claim": "b029c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A presidência adota o modelo que a ANPG apontou: pagar a parte patronal como se faz com o médico residente e garantir a contagem de tempo."
+  },
+  {
+   "from": "b029",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 8,
+   "from_claim": "b029c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A presidência confirma o quadro descrito pela CAPES e diz que ciência e tecnologia continuaram dentro do arcabouço fiscal."
+  },
+  {
+   "from": "b029",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 1,
+   "from_claim": "b029c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "A presidência conta que a tentativa de tirar ciência e tecnologia do limite de gastos, defendida pelo deputado, não passou."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b004",
+    "b008",
+    "b010",
+    "b014",
+    "b019",
+    "b029"
+   ],
+   "claims": [
+    "b001c2",
+    "b002c1",
+    "b004c3",
+    "b008c3",
+    "b010c1",
+    "b014c1"
+   ],
+   "note": "A associação dos pós-graduandos, a CAPES, a Secretaria de Educação Superior do MEC, a SBPC e a presidência da Comissão concordam que quem faz mestrado e doutorado precisa de direitos previdenciários e trabalhistas reconhecidos."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b002c2",
+    "b008c2",
+    "b010c2"
+   ],
+   "note": "A associação dos pós-graduandos e o Ministério da Educação concordam que a falta de direitos derruba a atratividade da carreira e faz o país perder os mestres e doutores que forma."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b006",
+    "b019"
+   ],
+   "claims": [
+    "b004c2",
+    "b006c2",
+    "b019c3"
+   ],
+   "note": "A CAPES, o CNPq e a presidência da Comissão concordam que mestres e doutores precisam ser absorvidos fora da universidade, nas empresas e nos outros setores da economia."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b004",
+    "b012",
+    "b024"
+   ],
+   "claims": [
+    "b004c1",
+    "b012c1",
+    "b024c2"
+   ],
+   "note": "A CAPES e o reitor de uma universidade estadual concordam que a expansão tem de chegar às regiões que formam menos doutores e que o dinheiro federal precisa alcançar as estaduais."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b001",
+    "b010",
+    "b018",
+    "b024",
+    "b028",
+    "b029"
+   ],
+   "claims": [
+    "b001c1",
+    "b010c3",
+    "b018c1",
+    "b024c1",
+    "b028c1",
+    "b029c1"
+   ],
+   "note": "A presidência da Comissão, um deputado do PP, a vice-presidenta da ANPG, a CAPES e o MEC concordam que o orçamento da educação e da ciência precisa ser recomposto em 2024."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b019",
+   "sentence": 22,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se a isenção fiscal serviria para empresas que qualificam seus quadros",
+   "plain": "Dar isenção fiscal à empresa que eleva a qualidade técnica e tecnológica dos seus quadros seria uma opção?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b002",
+   "sentence": 72,
+   "addressed_to": "parlamentar",
+   "answered_by": "b029",
+   "gist": "decisão do Congresso e do Governo sobre os direitos dos pós-graduandos",
+   "plain": "O Congresso e o Governo vão tomar a decisão de garantir esses direitos aos pós-graduandos?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b004",
+   "sentence": 72,
+   "addressed_to": "parlamentar",
+   "answered_by": "b019",
+   "gist": "que a deputada adote o projeto de licença parental da CAPES",
+   "plain": "A deputada vai adotar o projeto que transforma a licença-maternidade em licença parental?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b012",
+   "sentence": 7,
+   "addressed_to": "parlamentar",
+   "answered_by": "b024",
+   "gist": "apoio da Câmara ao financiamento das universidades estaduais",
+   "plain": "A Câmara vai apoiar o financiamento e a assistência estudantil nas universidades estaduais?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b010",
+   "sentence": 19,
+   "addressed_to": "parlamentar",
+   "answered_by": "b018",
+   "gist": "ajuda da Casa na divulgação do abaixo-assinado da ANPG",
+   "plain": "Os deputados vão ajudar a divulgar o abaixo-assinado nas universidades?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b026",
+   "sentence": 8,
+   "addressed_to": "parlamentar",
+   "answered_by": "b029",
+   "gist": "tirar os 500 milhões do Orçamento e não do FNDCT",
+   "plain": "Os 500 milhões de reais não poderiam sair do Orçamento, em vez de sair do fundo da ciência?",
+   "theme": "d3",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 13,
+   "gist": "pós-graduandos respondem por 90% da ciência do País",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 21,
+   "gist": "licença-maternidade é de 1943, e de 2007 para bolsistas",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 46,
+   "gist": "de 2019 para 2020 deixou de titular 4 mil doutores",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 47,
+   "gist": "evasão na graduação é de 60%, segundo o INEP",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 68,
+   "gist": "500 milhões por ano cobririam 320 mil pós-graduandos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 27,
+   "gist": "mais de 4 mil e 500 programas e quase 7 mil cursos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b004",
+   "sentence": 64,
+   "gist": "bolsa ia a 40% e hoje cobre um terço dos alunos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b004",
+   "sentence": 97,
+   "gist": "reajuste chegou a cerca de 40% nas bolsas menores",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b006",
+   "sentence": 30,
+   "gist": "330 mil professores e cerca de 240 mil com doutorado",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b006",
+   "sentence": 58,
+   "gist": "só 0,4% dos profissionais de TI tem doutorado",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b006",
+   "sentence": 125,
+   "gist": "orçamento do CNPq é da ordem de 1,6 bilhão de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b026",
+   "sentence": 6,
+   "gist": "Ciência sem Fronteiras tirou 13 bilhões do FNDCT",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil",
+   "governo"
+  ],
+  "angle": "A matéria escolheu a perda de talentos e a pouca interação da academia com o mercado produtivo, com os compromissos assumidos pela deputada que pediu a audiência.",
+  "omitted": "Ficou de fora a divergência sobre de onde sairia o dinheiro, inclusive a recusa do CNPq de usar o fundo da ciência, e a proposta de dar contrato de trabalho a quem faz doutorado."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Previdência para o pós-graduando, sem trocar a bolsa",
+   "statement_plain": "Quem faz mestrado e doutorado deve ter previdência e licença garantidas por lei, mantendo a bolsa, e o dinheiro pode vir dos fundos de ciência e dos royalties do pré-sal.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "contrario",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b010c1",
+    "b014c1",
+    "b008c3",
+    "b004c3"
+   ],
+   "note": "É uma ideia, não um bloco: junta a associação dos pós-graduandos, a SBPC, a CAPES e o Ministério da Educação, e opõe a CAPES ao CNPq, que é do mesmo governo federal."
+  },
+  {
+   "id": "t2",
+   "title": "Doutorando contratado, com CLT e contagem de tempo",
+   "statement_plain": "Em vez de bolsa, quem termina o doutorado deveria ter contrato de trabalho por tempo determinado, com carteira assinada e contagem de tempo, porque já é um profissional de pesquisa.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b012c2",
+    "b012c3"
+   ],
+   "note": "Atravessa setores: defendem-na o presidente do CNPq, do governo federal, e o reitor de uma universidade estadual, contra a preferência da associação dos pós-graduandos."
+  },
+  {
+   "id": "t3",
+   "title": "Sem direitos, o país perde os doutores que forma",
+   "statement_plain": "A falta de direitos e o valor das bolsas derrubam a atratividade da carreira e fazem o Brasil perder os mestres e doutores que formou.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b008c2",
+    "b010c2",
+    "b020c1",
+    "b016c1",
+    "b008c3"
+   ],
+   "note": "A associação dos pós-graduandos, o Ministério da Educação e o Ministério da Ciência descrevem o mesmo efeito, enquanto o CNPq contrapõe o êxito do programa brasileiro."
+  },
+  {
+   "id": "t4",
+   "title": "Doutor também tem de trabalhar fora da universidade",
+   "statement_plain": "O Brasil precisa formar e absorver mestres e doutores nas empresas, na indústria e na administração pública, e não só na universidade.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c2",
+    "b019c3"
+   ],
+   "note": "A ideia junta a CAPES, o CNPq e a presidência da Comissão, que acrescenta a proposta de isenção fiscal para a empresa que qualifica seus quadros."
+  },
+  {
+   "id": "t5",
+   "title": "O dinheiro dos direitos não sai do fundo da ciência",
+   "statement_plain": "Os direitos previdenciários devem ser pagos pelo Orçamento e pela área do trabalho, sem tirar dinheiro do fundo da ciência e da tecnologia.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b026c1",
+    "b026c2",
+    "b026c3",
+    "b029c2",
+    "b029c3"
+   ],
+   "note": "O CNPq e a presidência da Comissão defendem os mesmos direitos e ao mesmo tempo recusam a fonte proposta pela associação dos pós-graduandos."
+  },
+  {
+   "id": "t6",
+   "title": "Recompor o orçamento da ciência e da educação",
+   "statement_plain": "O Congresso deve recompor na lei orçamentária de 2024 o dinheiro cortado da educação, da ciência e da tecnologia, porque isso é investimento e não gasto.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b010c3",
+    "b018c1",
+    "b024c1",
+    "b028c1",
+    "b029c1"
+   ],
+   "note": "Reúne um deputado do PP de Alagoas, a CAPES, a Secretaria de Educação Superior, a vice-presidenta da ANPG e a presidência da Comissão, que é de outro partido."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ANPG",
+   "fala": "b001",
+   "sentence": 7,
+   "plain": "Associação Nacional de Pós-Graduandos, entidade que representa os estudantes de mestrado e doutorado do país"
+  },
+  {
+   "term": "CNPq",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "Conselho Nacional de Desenvolvimento Científico e Tecnológico, órgão federal que financia pesquisa e paga bolsas"
+  },
+  {
+   "term": "CAPES",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "órgão federal que avalia os cursos de mestrado e doutorado e paga a maior parte das bolsas"
+  },
+  {
+   "term": "SESU",
+   "fala": "b001",
+   "sentence": 17,
+   "plain": "Secretaria de Educação Superior do Ministério da Educação, que cuida das universidades"
+  },
+  {
+   "term": "lato sensu",
+   "fala": "b002",
+   "sentence": 10,
+   "plain": "cursos de especialização feitos depois da graduação, como os MBA, que não dão título de mestre ou doutor"
+  },
+  {
+   "term": "stricto sensu",
+   "fala": "b002",
+   "sentence": 10,
+   "plain": "os cursos de mestrado e doutorado, que dão título e exigem pesquisa e defesa de trabalho"
+  },
+  {
+   "term": "Parecer Sucupira",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "texto de 1965 que organizou a pós-graduação brasileira e definiu como ela funciona até hoje"
+  },
+  {
+   "term": "doutorados-sanduíches",
+   "fala": "b002",
+   "sentence": 27,
+   "plain": "doutorado em que o estudante passa parte do tempo pesquisando numa universidade de fora do país"
+  },
+  {
+   "term": "adicional de insalubridade",
+   "fala": "b002",
+   "sentence": 58,
+   "plain": "dinheiro a mais pago a quem trabalha em ambiente que faz mal à saúde, como alguns laboratórios"
+  },
+  {
+   "term": "PLOA",
+   "fala": "b006",
+   "sentence": 3,
+   "plain": "proposta de lei orçamentária anual, o projeto que o governo manda ao Congresso dizendo quanto cada área vai receber"
+  },
+  {
+   "term": "PNPD",
+   "fala": "b004",
+   "sentence": 92,
+   "plain": "Programa Nacional de Pós-Doutorado, que paga bolsa a quem já é doutor e segue pesquisando"
+  },
+  {
+   "term": "PNPG",
+   "fala": "b004",
+   "sentence": 119,
+   "plain": "Plano Nacional de Pós-Graduação, o plano que define as metas da área para alguns anos"
+  },
+  {
+   "term": "PNAES",
+   "fala": "b008",
+   "sentence": 46,
+   "plain": "Plano Nacional de Assistência Estudantil, que paga moradia, alimentação e transporte a estudantes"
+  },
+  {
+   "term": "FNDCT",
+   "fala": "b026",
+   "sentence": 4,
+   "plain": "Fundo Nacional de Desenvolvimento Científico e Tecnológico, o fundo que banca laboratórios e projetos de pesquisa"
+  },
+  {
+   "term": "arcabouço fiscal",
+   "fala": "b029",
+   "sentence": 4,
+   "plain": "conjunto de regras que limita quanto o governo pode gastar a cada ano"
+  }
+ ]
+}

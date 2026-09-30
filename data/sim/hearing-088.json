@@ -1,0 +1,1851 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 88,
+ "model": "LLM lendo o prompt hearing-088 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:51:00Z",
+ "prompt_sha256": "e21f68de98458cad86c93d6c3629267b8444da743704f595941d496ba72a7ff3",
+ "sentences_hash": "90610b334ccddc28",
+ "review": {
+  "pairs_read": 33,
+  "pairs_fixed": 14
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t3: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t5: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Ciência e Tecnologia debateu a Medida Provisória nº 1.112, de 2022, que deixa as empresas de petróleo abaterem, do dinheiro que a lei manda aplicar em pesquisa, o que gastarem no desmonte de caminhões velhos. Cinco convidados de universidades, academias e entidades de servidores disseram que a medida desmonta a rede de pesquisa erguida com a cláusula dos contratos de petróleo. O pedido foi suprimir o artigo que faz o desvio, ou rejeitar a medida inteira.",
+ "stakes": "Dependia desta audiência o encaminhamento do Congresso sobre o artigo 12 da medida provisória, que autoriza o desconto no dinheiro obrigatório de pesquisa.",
+ "central_question": "Os recursos que as petroleiras são obrigadas a aplicar em pesquisa podem financiar a renovação da frota de caminhões?",
+ "synopsis_plain": "A comissão discutiu uma medida provisória que deixa as empresas de petróleo descontarem, do dinheiro que a lei manda investir em pesquisa, o que gastarem desmontando caminhões velhos. Convidados de universidades e de entidades de cientistas disseram que isso desmonta a rede de pesquisa do país. Uns pediram só a queda do artigo, outros a queda da medida inteira.",
+ "stakes_plain": "Estava em jogo o artigo que deixa as petroleiras abaterem do dinheiro da pesquisa o que gastarem com o desmonte de caminhões.",
+ "central_question_plain": "O dinheiro que as empresas de petróleo têm de investir em pesquisa pode ser usado para trocar caminhões velhos?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Desvio de recursos para o Renovar",
+   "description": "Discute-se se o dinheiro que as petroleiras devem aplicar em pesquisa pode ser abatido pelo que gastarem no desmonte de caminhões.",
+   "axis": {
+    "pro": "Os recursos da cláusula de pesquisa devem continuar na pesquisa.",
+    "contra": "Esses recursos podem ser redirecionados para renovar a frota de caminhões.",
+    "pro_plain": "O dinheiro que a lei reserva para pesquisa tem de continuar na pesquisa.",
+    "contra_plain": "Esse dinheiro pode ser usado para trocar caminhões velhos por novos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Destino da medida provisória",
+   "description": "Discute-se se basta derrubar os artigos que desviam os recursos ou se o Congresso deve rejeitar toda a medida provisória.",
+   "axis": {
+    "pro": "Basta suprimir os artigos que desviam os recursos e buscar outra fonte.",
+    "contra": "O Congresso deve rejeitar a medida provisória inteira.",
+    "pro_plain": "Basta derrubar o artigo que tira o dinheiro da pesquisa e achar outra fonte.",
+    "contra_plain": "O Congresso tem de rejeitar a medida provisória inteira."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Petróleo, tecnologia e soberania",
+   "description": "Discute-se o que a cláusula de pesquisa dos contratos de petróleo construiu em laboratórios, tecnologia e produção.",
+   "axis": {
+    "pro": "A cláusula de pesquisa do petróleo deu ao país a tecnologia de águas profundas.",
+    "contra": "Os resultados do setor não vêm desse investimento em pesquisa.",
+    "pro_plain": "Foi o dinheiro de pesquisa do petróleo que deu ao Brasil a tecnologia de águas profundas.",
+    "contra_plain": "Os resultados do setor não vêm desse dinheiro de pesquisa."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Financiamento da ciência",
+   "description": "Discute-se o tamanho do dinheiro público para ciência, as bolsas, as agências de fomento e o orçamento.",
+   "axis": {
+    "pro": "O dinheiro público para ciência está em queda e precisa crescer.",
+    "contra": "O que já se gasta em ciência é suficiente.",
+    "pro_plain": "O dinheiro público para ciência caiu demais e precisa crescer.",
+    "contra_plain": "O que já se gasta com ciência dá conta."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Carreira científica e formação",
+   "description": "Discute-se a saída de pesquisadores do país, a falta de bolsas e as condições de quem trabalha com ciência.",
+   "axis": {
+    "pro": "Sem condições e sem bolsas o país perde os pesquisadores que forma.",
+    "contra": "A carreira científica no país não enfrenta problema relevante.",
+    "pro_plain": "Sem bolsa e sem condições de trabalho, quem o país forma vai embora.",
+    "contra_plain": "A carreira de pesquisa no país vai bem."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Distribuição regional dos recursos",
+   "description": "Discute-se por que o Rio de Janeiro concentra parte dos recursos de pesquisa do petróleo e o que isso significa.",
+   "axis": {
+    "pro": "A concentração no Rio tem explicação histórica e o saber se espalhou pelo país.",
+    "contra": "A concentração dos recursos no Rio é um privilégio a corrigir.",
+    "pro_plain": "O Rio concentra recursos por causa da história, e esse saber se espalhou pelo país.",
+    "contra_plain": "A concentração no Rio é um privilégio que deveria ser corrigido."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputada federal, presidindo a audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "declara aberta a reunião em b001.1 e diz ser Vice-Presidente da comissão em b013.6",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Ciência e Tecnologia, Comunicação e Informática da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do CONFIES",
+   "org": "CONFIES",
+   "basis": "apresentado pela presidência em b001.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Confies, o conselho das fundações de apoio à pesquisa",
+   "org_plain": "conselho que reúne as fundações que administram projetos de pesquisa das universidades públicas"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Reitor da Universidade Federal de Uberlândia, representando a ANDIFES",
+   "org": "ANDIFES",
+   "basis": "apresentado pela presidência em b001.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "reitor da Universidade Federal de Uberlândia, pela Andifes",
+   "org_plain": "associação que reúne os dirigentes das 69 universidades federais do país"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor da Academia Brasileira de Ciências",
+   "org": "ABC",
+   "basis": "apresentado pela presidência em b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Academia Brasileira de Ciências",
+   "org_plain": "entidade que reúne cientistas de destaque do país e se manifesta sobre política científica"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Representante do Fórum Nacional das Entidades Representativas dos Servidores das Carreiras de Ciência e Tecnologia",
+   "org": "Fórum de C&T",
+   "basis": "apresentado pela presidência em b001.8",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Fórum de C&T, das entidades de servidores da área",
+   "org_plain": "fórum que reúne cerca de 30 a 35 entidades de servidores públicos que atuam em ciência e tecnologia"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Secretário Executivo da ICTP.Br",
+   "org": "ICTP.Br",
+   "basis": "apresentado pela presidência em b001.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Iniciativa para a Ciência e Tecnologia no Parlamento",
+   "org_plain": "conjunto de instituições científicas criado em 2019 para acompanhar o Congresso em temas de ciência"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   }
+  ],
+  "basis": "A ata registra palmas depois de cada exposição e a mesa é presencial, mas não lista delegações nem entidades na plateia.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a Medida Provisória nº 1.112 e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que o artigo da medida provisória financia um programa meritório tirando dinheiro da pesquisa e pede que o Congresso o suprima e busque outra fonte.",
+   "quote": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    12,
+    13
+   ],
+   "open_question": 61,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O artigo que desvia o dinheiro da pesquisa deve ser suprimido, e o Congresso deve buscar outra fonte.",
+    "sentence": 117
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as empresas estrangeiras dão 1% do faturamento para pesquisa no Brasil, e essa contrapartida foi uma inteligência brasileira",
+     "plain": "As empresas estrangeiras dão, como contrapartida, 1% do seu faturamento para a pesquisa no Brasil. Isso foi uma inteligência nossa: você pode furar o meu petróleo, que é da União, mas paga royalty aqui, paga 1%."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      45,
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o artigo financia um programa meritório, renovar a frota, mas tira dinheiro da pesquisa, que não tem nada a ver com isso",
+     "plain": "Esse artigo financia um programa que é meritório, porque renovar a frota é bom para todos. Só que ele tira dinheiro da pesquisa, de um setor que não tem nada a ver com aquilo. O caminho deveria ser o inverso."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "desde 2020, 3 mil pesquisadores deixaram o país e quem fica encara desemprego ou serviço de baixa especialização",
+     "plain": "Desde 2020, segundo os dados que reunimos, 3 mil pesquisadores já deixaram o país. Quem fica enfrenta o desemprego, porque faltam bolsas, ou vai para serviços de baixa especialização, como dirigir transporte alternativo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao representante dos reitores das federais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que as universidades federais acumulam cortes há mais de 5 anos, lembra os prédios financiados pela Petrobras e diz que desviar recursos da pesquisa não é aceitável.",
+   "quote": [
+    31,
+    32,
+    33
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os recursos da pesquisa não podem ser desviados para outras áreas.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as universidades federais têm restrições orçamentárias há mais de 5 anos e o fomento do CNPq ficou seriamente comprometido",
+     "plain": "As universidades federais sofrem restrições e cortes no orçamento há mais de 5 anos, e as agências oficiais de fomento estão com pouco dinheiro. No CNPq as bolsas se mantiveram, mas o fomento ficou muito comprometido."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a universidade do reitor tem dois prédios financiados pela Petrobras, com pesquisas do pré-sal dentro deles",
+     "plain": "Na minha universidade temos dois prédios financiados pela Petrobras. O que há dentro deles são muitos dólares por metro cúbico, em pesquisas do pré-sal."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 90% da pesquisa brasileira é feita nas universidades públicas e desviar recursos dela não é aceitável",
+     "plain": "Mais de 90% da pesquisa científica e tecnológica brasileira é feita nas universidades públicas, e mais de 70% nas federais. Desviar recursos da pesquisa para outras áreas não é aceitável para nós."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o representante do Ministério não virá e passa a palavra ao próximo expositor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Compara o Brasil com outros países em inovação e investimento, mostra como a medida redireciona recursos até 2027 e pede a supressão dos artigos 7º e 12.",
+   "quote": [
+    72,
+    73
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os artigos que redirecionam o dinheiro da pesquisa devem ser suprimidos para preservar o setor de óleo e gás.",
+    "sentence": 73
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil investe 1% do PIB em pesquisa, enquanto os países de referência investem 2,5%, 3% ou 4% e os mais competitivos, 5%",
+     "plain": "Estamos na 57ª posição em inovação e na 71ª em competitividade. O Brasil aplica 1% do seu PIB em pesquisa, enquanto os países de referência aplicam 2,5%, 3% ou 4%, e os mais competitivos chegam a 5%."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      65,
+      66
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos artigos 7º e 12 a medida desvia até 2027 os recursos das petroleiras que deviam ir para pesquisa em óleo e gás",
+     "plain": "Nos artigos 7º e 12, essa medida redireciona recursos que vêm das empresas de petróleo e deveriam ir para pesquisa e desenvolvimento em óleo e gás. O desvio iria até 2027 e valeria até para valores devidos antes de 2022."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      73,
+      74
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Academia Brasileira de Ciências pede a supressão dos artigos 7º e 12 para preservar o setor de óleo e gás",
+     "plain": "A posição da Academia Brasileira de Ciências só pode ser uma: pedir a supressão dos artigos 7º e 12, sobretudo do artigo 12, para preservar o setor de óleo e gás, um dos maiores patrimônios tecnológicos do país."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante da Academia e passa a palavra ao próximo expositor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Argumenta que o governo achou um problema real e a solução errada, propõe que as montadoras beneficiadas contribuam e pede que o Congresso rejeite a medida provisória.",
+   "quote": [
+    39,
+    40
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    23,
+    24
+   ],
+   "open_question": 68,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Retirar dinheiro da ciência para transformar caminhão em sucata é uma solução paliativa.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "deixamos de investir em áreas que formam gente e geram soluções para transformar caminhão em sucata, e a saída é paliativa",
+     "plain": "Retirar investimento de ciência e tecnologia para transformar caminhão em sucata não é uma solução portadora de futuro. Deixamos de investir em áreas que formam gente e geram soluções, e a saída é paliativa."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      68,
+      69,
+      70
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as montadoras, que serão beneficiadas pela renovação da frota e vão vender mais, também poderiam contribuir",
+     "plain": "Por que a lei não diz que as montadoras podem contribuir com essa renovação da frota? Elas vão ser as beneficiárias e vão vender mais. Não digo penalizar a indústria, mas ela pode contribuir."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      78,
+      79
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Congresso deve rejeitar a medida provisória, porque o governo não precisava tratar disso por medida provisória",
+     "plain": "Faço coro aos colegas para que o Congresso rejeite esta medida provisória. Não havia necessidade de o Governo baixar isso por medida provisória."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao último expositor, com uma brincadeira sobre o sobrenome dele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mapeia a rede de instituições financiada pela cláusula de pesquisa do petróleo e mostra que 26 bilhões de reais em 22 anos equivalem a 24 dias de produção.",
+   "quote": [
+    86,
+    87
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cláusula de pesquisa dos contratos de petróleo montou uma rede nacional que a medida desestrutura.",
+    "sentence": 86
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      63,
+      64
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Rio de Janeiro vira um polo de conhecimento para o país inteiro, e São Paulo o ultrapassa no fomento em outras áreas",
+     "plain": "O Rio de Janeiro vira um polo de conhecimento para o Brasil inteiro, por razões óbvias. A Petrobras tem ali os seus poços, e a massa crítica criada no Rio nas últimas 3 décadas é enorme. São Paulo ultrapassa o Rio em outras áreas."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      82,
+      83,
+      84
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de 1999 a 2021 as concessionárias investiram 26 bilhões de reais em pesquisa, o que equivale a 24 dias de produção de petróleo",
+     "plain": "De 1999 a 2021 as concessionárias investiram 26 bilhões de reais em pesquisa, desenvolvimento e inovação. Esses 26 bilhões, gastos em 22 anos, equivalem hoje a 24 dias de produção de petróleo no Brasil."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      79,
+      80
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para as entidades da iniciativa no Parlamento a medida é de grande risco, e o problema não está nos objetivos dela, mas na fonte",
+     "plain": "Essa medida é de grande risco para o desenvolvimento científico e tecnológico, na avaliação das entidades da Iniciativa para a Ciência e Tecnologia no Parlamento. O problema não está nos objetivos dela, mas na fonte do dinheiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência começa a agradecer as palavras do último expositor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado brinca que é Fábio Guedes e não Paulo Guedes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que a comissão assumiu a tarefa de buscar recursos para aumentar bolsas e fomento e lembra o descongestionamento dos recursos do FUST e da FNDC.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão vai trabalhar pelo aumento das bolsas e pelo fomento na discussão do Orçamento da União.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a comissão vai buscar recursos para aumentar o valor das bolsas e acompanhar de perto a discussão do Orçamento da União",
+     "plain": "A comissão ficou responsável por ajudar nos recursos para aumentar o valor das bolsas e o fomento. Vamos acompanhar de perto a discussão do Orçamento da União, para valorizar a ciência e a pesquisa."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Câmara já deu um passo importante ao descongestionar os recursos do FUST e da FNDC",
+     "plain": "Acho que a Câmara já deu um passo importante ao descongestionar os recursos do FUST e da FNDC. Esse é um passo importante do nosso trabalho aqui."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede para comentar o gráfico do último expositor e pergunta se há alguma prática não republicana no volume de recursos que vai para o Rio de Janeiro.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não há prática antirrepublicana no fato de o Rio de Janeiro receber aquela parcela de recursos.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não há nenhuma prática antirrepublicana no fato de o Rio de Janeiro receber aquela quantidade de recursos",
+     "plain": "Queria comentar o gráfico do Fábio Guedes, que talvez não tenha chamado atenção. Não existe nenhuma prática não republicana no fato de o Rio de Janeiro receber aquela quantidade de recursos?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde, em tom de brincadeira, que há ciúmes dessa concentração de recursos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que a Petrobras nasceu no Rio de Janeiro e que o petróleo está em Campos e em Macaé.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A concentração no Rio de Janeiro vem de a Petrobras ter nascido ali e de o petróleo estar em Campos e em Macaé.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Petrobras nasceu no Rio de Janeiro e o petróleo está em Campos e em Macaé",
+     "plain": "Primeiro, a Petrobras nasceu ali. Segundo, Deus botou o petróleo em Campos e em Macaé, como compensação para uma terra ainda muito tumultuada pela violência."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que o petróleo também está chegando a Santa Catarina.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Conta que a COPPE nasceu de uma demanda da Petrobras e sustenta que as instituições científicas do Rio de Janeiro espalham desenvolvimento pelo país.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As instituições científicas do Rio de Janeiro espalham desenvolvimento pelo país.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a UFRJ é a universidade mais antiga e a COPPE nasceu da demanda do petróleo, chamada pela direção da Petrobras",
+     "plain": "A universidade mais antiga é a UFRJ, com mais de cem anos. A COPPE, o instituto de engenharia dela, nasceu da demanda do petróleo, quando a direção da Petrobras chamou os melhores calculistas da engenharia civil."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "antes chamaram a universidade para resolver um problema tecnológico e hoje se tira dinheiro dessa riqueza nacional",
+     "plain": "Vejam como as pessoas são diferentes. Hoje se tira dinheiro dessa riqueza nacional, mas ontem chamaram a universidade para resolver um problema tecnológico. As instituições do Rio espalham desenvolvimento."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca que o expositor é um agregado da comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata que dirigentes de fundações universitárias respondem a processos e diz que seria preciso um seguro de vida especial para cuidar da ciência no país.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Trabalhar com ciência no país virou uma atividade de risco para quem a administra.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é cruel trabalhar com ciência neste país e seria preciso um seguro de vida especial para cuidar dela",
+     "plain": "É uma coisa cruel trabalhar nesse país. Para cuidar da ciência seria preciso ganhar um seguro de vida especial, além de enfrentar todos esses problemas."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência completa a frase do expositor sobre dar garantia à vida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que a parcela do Rio de Janeiro no gráfico vem das reservas e de instituições de excelência cujo saber se espalhou pelas universidades de engenharia.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A parcela do Rio de Janeiro se explica pelas reservas e pelas instituições de excelência que se espalharam.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a concentração se explica pelas reservas e por instituições de excelência, e a COPPE espalhou mestres e doutores pelo país",
+     "plain": "Não houve nada de diferente aqui. O que temos são reservas que Deus nos colocou e instituições científicas de excelência que se multiplicaram. Hoje a COPPE tem mestres e doutores em quase toda universidade de engenharia."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a COPPE espalhou o seu saber para criar uma rede de pesquisa, e é isso que explica os 22% dos recursos no Rio",
+     "plain": "Espalhamos o saber da COPPE para criar uma rede ampla entre instituições. Tomem-nos como uma matriz que se espalhou para todos. Era esse o esclarecimento sobre o gráfico em que o Rio de Janeiro aparece com 22% dos recursos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao representante dos reitores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que educação, ciência e tecnologia trazem justiça social e atraem jovens para a pesquisa, e pede que não tirem o oxigênio do sistema.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ciência e a educação atraem jovens para a pesquisa e trazem justiça social ao país.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "educação, ciência e tecnologia podem trazer justiça social e chamam para a pesquisa jovens que senão vão para o exterior",
+     "plain": "Tenho certeza de que a educação, a ciência e a tecnologia são capazes de trazer justiça social, melhores condições de trabalho, emprego e renda. Elas atraem para a pesquisa jovens que senão vão para o exterior ou se perdem aqui."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      15
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não se pode tirar o oxigênio do sistema, que são os recursos da pesquisa",
+     "plain": "Não tirem o oxigênio do sistema, que são os recursos da pesquisa!"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante da Academia para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Academia agradece e se junta à preocupação dos colegas com a medida provisória.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": true,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência completa o elogio do expositor citando a universidade dos dois.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b028",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra as instituições criadas nas últimas décadas, recusa o remanejamento de recursos que já deram resultado e defende elevar o investimento em pesquisa.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país precisa elevar o investimento em pesquisa e não pode remanejar recursos que já deram resultado.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      5
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nas últimas décadas criamos instituições estáveis, o Sistema Nacional de Ciências e Tecnologia e o de Pós-Graduação",
+     "plain": "Talvez tenhamos feito o mais difícil nas últimas décadas. Erguemos instituições fortes e estáveis. Montamos o Sistema Nacional de Ciências e Tecnologia, e também o Sistema Nacional de Pós-Graduação, que talvez não tenha igual no mundo."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se pode aceitar o remanejamento de recursos que em mais de 30 anos fizeram do Brasil referência em petróleo e gás",
+     "plain": "Não podemos aceitar que esses recursos sejam remanejados. Em mais de 30 anos de história eles mostraram a sua eficiência num setor que fez do Brasil uma das referências mundiais em petróleo e gás."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o investimento em pesquisa está em torno de 1% ou 1,1% do PIB e deveria passar para 1,2%, ainda longe de 2,5% ou 3%",
+     "plain": "O nosso investimento em pesquisa está em torno de 1% ou 1,1% do Produto Interno Bruto. Defendemos que ele passe para 1,2%, ainda muito atrás de uma boa referência, que seria 3% ou 2,5%."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao expositor e passa a palavra ao último convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que a medida é tão indefensável que o governo não mandou representante e repete que o investimento brasileiro em ciência está aquém do de outros países.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A medida provisória é indefensável e a comissão precisa seguir monitorando o tema.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a medida provisória é tão indefensável que nem o governo mandou representante para defendê-la aqui",
+     "plain": "Essa medida provisória é tão indefensável que até o Governo não mandou o seu representante, porque seria muito constrangedor vir aqui defendê-la."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "1% ou 1,2% do PIB é muito pouco para o Brasil contribuir com o mundo naquilo em que tem competência",
+     "plain": "Como o professor Prata falou, já estamos aquém de outros países no investimento em ciência em relação ao PIB. 1% ou 1,2% é muito pouco para o Brasil, se ele quiser mesmo contribuir com o mundo naquilo em que tem competência."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Conta o seu histórico na área de educação, defende preparar as crianças para o novo mundo e promete procurar o relator da medida provisória.",
+   "quote": [
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão vai atrás do relator da medida provisória para ajudar a ciência e a tecnologia do país.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "só vamos avançar na ciência se as crianças e os estudantes estiverem preparados para esse novo mundo",
+     "plain": "Nós só vamos avançar na área de ciência se as nossas crianças e os nossos estudantes estiverem preparados para esse novo mundo."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a comissão vai atrás de quem será o relator da medida provisória para ajudar a ciência e tecnologia do país",
+     "plain": "Podem contar conosco. Vou procurar quem for o relator da medida provisória e cuidar de toda a parte burocrática da Casa, para ajudar a ciência e a tecnologia do nosso país."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 47,
+   "from_claim": "b004c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O reitor endossa a recusa ao desvio e acrescenta que são as universidades públicas que fazem a maior parte da pesquisa do país."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 65,
+   "to_sentence": 45,
+   "from_claim": "b006c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "A Academia repete o mesmo ponto: o programa de renovação da frota é louvável, mas não pode ser pago com o dinheiro da pesquisa."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 5,
+   "from_claim": "b006c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Os dois descrevem o mesmo quadro de falta de dinheiro, um pelos cortes nas universidades federais e o outro pela comparação com outros países."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 47,
+   "from_claim": "b008c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O representante dos servidores repete a troca que os dois recusam, tirar dinheiro da ciência para transformar caminhão em sucata."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 66,
+   "from_claim": "b008c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Ele parte do mesmo desvio descrito pela Academia para concluir que a solução é apenas paliativa."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 78,
+   "to_sentence": 45,
+   "from_claim": "b008c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Enquanto o conselho das fundações quer suprimir só o artigo e manter o resto da medida, o fórum dos servidores pede que o Congresso rejeite a medida inteira."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 78,
+   "to_sentence": 73,
+   "from_claim": "b008c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A Academia pede a supressão de dois artigos, o fórum dos servidores vai além e pede a rejeição de toda a medida provisória."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 80,
+   "to_sentence": 45,
+   "from_claim": "b010c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Retoma o argumento de que o problema não está no objetivo do programa, e sim em de onde sai o dinheiro."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 80,
+   "to_sentence": 39,
+   "from_claim": "b010c3",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Cita o representante dos servidores ao dizer que a discordância está na fonte do dinheiro, não no que a medida pretende fazer."
+  },
+  {
+   "from": "b013",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 7,
+   "from_claim": "b013c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "À queixa de que há bolsa sem fomento, a presidência responde que a comissão ficou responsável por buscar recursos para as duas coisas."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 63,
+   "from_claim": "b014c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Ao gráfico que mostra o Rio como polo de conhecimento, o expositor devolve a pergunta sobre haver ou não privilégio nessa distribuição."
+  },
+  {
+   "from": "b016",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 64,
+   "from_claim": "b016c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Explica a concentração mostrada no gráfico pelo lugar onde a Petrobras nasceu e onde estão os campos de petróleo."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 63,
+   "from_claim": "b018c2",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Completa a explicação do gráfico contando que foi a Petrobras que chamou a universidade para resolver um problema tecnológico."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 63,
+   "from_claim": "b022c2",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Fecha a explicação do gráfico dizendo que a parcela do Rio vem de instituições cujo saber se espalhou pelas universidades do país."
+  },
+  {
+   "from": "b024",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 9,
+   "from_claim": "b024c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Retoma a saída dos jovens para o exterior ou para outra ocupação, que o primeiro expositor tinha descrito."
+  },
+  {
+   "from": "b028",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 47,
+   "from_claim": "b028c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "A Academia insiste que esses recursos não podem ser remanejados, porque em décadas fizeram do Brasil referência em petróleo e gás."
+  },
+  {
+   "from": "b028",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 39,
+   "from_claim": "b028c2",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Os dois recusam a mesma troca, entregar recursos que já mostraram resultado em nome de uma solução de curto prazo."
+  },
+  {
+   "from": "b030",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 11,
+   "from_claim": "b030c2",
+   "to_claim": "b028c3",
+   "strength": "forte",
+   "note": "Cita o expositor anterior para dizer que o percentual do PIB investido em ciência é pouco para o que o país pode oferecer."
+  },
+  {
+   "from": "b030",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 78,
+   "from_claim": "b030c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Acompanha o pedido de rejeição dizendo que a medida é tão indefensável que nem o governo veio defendê-la na audiência."
+  },
+  {
+   "from": "b031",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 26,
+   "to_sentence": 78,
+   "from_claim": "b031c2",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Ao pedido para que o Congresso se mova sobre a medida, a presidência responde que vai atrás de quem será o relator."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b006",
+    "b008",
+    "b024",
+    "b028",
+    "b031"
+   ],
+   "claims": [
+    "b004c3",
+    "b006c2",
+    "b008c1",
+    "b024c2",
+    "b028c2",
+    "b031c2"
+   ],
+   "note": "A associação dos reitores, a Academia Brasileira de Ciências, o fórum dos servidores e a presidência da comissão concordam que os recursos reservados à pesquisa não podem financiar o desmonte de caminhões."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b006",
+    "b013",
+    "b028",
+    "b030"
+   ],
+   "claims": [
+    "b004c1",
+    "b006c1",
+    "b013c1",
+    "b013c2",
+    "b028c1",
+    "b028c3",
+    "b030c2"
+   ],
+   "note": "Convidados de universidades e academias e a presidência da comissão concordam que o dinheiro público para ciência está baixo demais e precisa crescer."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b020",
+    "b024",
+    "b031"
+   ],
+   "claims": [
+    "b002c3",
+    "b020c1",
+    "b024c1",
+    "b031c1"
+   ],
+   "note": "O conselho das fundações de apoio, a associação dos reitores e a presidência da comissão concordam que sem condições de trabalho e sem formação o país perde os pesquisadores que forma."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 61,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que não buscar o dinheiro no BNDES",
+   "plain": "Por que não buscar no BNDES o dinheiro para o programa, em vez de tirá-lo da pesquisa?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b008",
+   "sentence": 68,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "por que a lei não prevê contribuição das montadoras",
+   "plain": "Por que a lei não prevê que as montadoras beneficiadas contribuam com a renovação da frota?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b024",
+   "sentence": 15,
+   "addressed_to": "parlamentar",
+   "answered_by": "b031",
+   "gist": "que não tirem o oxigênio do sistema, que são os recursos",
+   "plain": "Os recursos da pesquisa podem ser preservados, em vez de retirados do sistema?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 8,
+   "gist": "desde 2020, 3 mil pesquisadores deixaram o país",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 13,
+   "gist": "há 880 pesquisadores para cada milhão de habitantes",
+   "disputed_by": [
+    {
+     "fala": "b006",
+     "sentence": 52
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 55,
+   "gist": "quase 20 bilhões de reais ao longo da série histórica",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 71,
+   "gist": "165 laboratórios e 282 laboratórios reformados estão em risco",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 5,
+   "gist": "cortes nas universidades federais por mais de 5 anos seguidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 31,
+   "gist": "mais de 90% da pesquisa é feita nas universidades públicas",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 49,
+   "gist": "o Brasil investe 1% do PIB em pesquisa e desenvolvimento",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 52,
+   "gist": "mil cientistas e pesquisadores por 1 milhão de habitantes",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 25,
+   "gist": "o CNPq teve 45 milhões de reais para fomento em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 35,
+   "gist": "quase 9,5 bilhões de reais do FNDCT estão parados",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 82,
+   "gist": "de 1999 a 2021 foram 26 bilhões de reais em pesquisa",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b010",
+   "sentence": 85,
+   "gist": "a produção saltou de 866 mil para 3 milhões de barris por dia",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o alerta dos pesquisadores de que a medida provisória tira dinheiro da pesquisa para financiar a troca da frota de caminhões.",
+  "omitted": "Ficaram de fora a discussão sobre a concentração dos recursos no Rio de Janeiro e a divergência entre suprimir apenas o artigo ou rejeitar a medida inteira."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O dinheiro do petróleo tem de continuar na pesquisa",
+   "statement_plain": "A parte do faturamento das petroleiras que a lei reserva à pesquisa não pode financiar o desmonte de caminhões velhos.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b006c2",
+    "b008c1",
+    "b031c2",
+    "b002c1",
+    "b010c2"
+   ],
+   "note": "A ideia atravessa o conselho das fundações de apoio, a associação dos reitores, a Academia de Ciências, o fórum dos servidores, a iniciativa no Parlamento e a própria presidência da comissão."
+  },
+  {
+   "id": "t2",
+   "title": "Basta tirar o artigo que desvia o dinheiro",
+   "statement_plain": "O programa de renovação da frota é bom. O que precisa cair é o artigo que tira o dinheiro da pesquisa, e o Congresso deve buscar outra fonte.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b006c3",
+    "b010c3"
+   ],
+   "note": "Quem sustenta isso diz em voz alta que não é contra a medida inteira, e é nesse ponto que se separa de gente da mesma mesa que pede a rejeição."
+  },
+  {
+   "id": "t3",
+   "title": "O Congresso deve rejeitar a medida provisória",
+   "statement_plain": "A medida é indefensável e não se resolve com um remendo. O Congresso deve rejeitá-la e discutir a renovação da frota com quem vai ser beneficiado por ela.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b008c3",
+    "b030c1"
+   ],
+   "note": "Divide a mesa por dentro, porque o fórum dos servidores e a iniciativa no Parlamento vão além dos colegas que só querem suprimir o artigo."
+  },
+  {
+   "id": "t4",
+   "title": "Sem dinheiro público não há ciência nem pesquisador",
+   "statement_plain": "O Brasil investe pouco do que produz em pesquisa, corta as universidades federais e deixa as bolsas para trás. Sem reverter isso, os jovens vão embora.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b006c1",
+    "b028c3",
+    "b013c1",
+    "b002c3",
+    "b024c1"
+   ],
+   "note": "Junta a presidência da comissão, que é deputada, aos convidados de universidades e academias, e por isso não é a ideia de um setor só."
+  },
+  {
+   "id": "t5",
+   "title": "A parcela do Rio tem explicação e se espalha",
+   "statement_plain": "O Rio de Janeiro concentra parte dos recursos porque a Petrobras nasceu ali e porque instituições de excelência se formaram lá, e esse saber se espalhou pelo país.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b014c1",
+    "b016c1",
+    "b018c2",
+    "b022c1",
+    "b022c2"
+   ],
+   "note": "É a única ideia da sessão que trata de dinheiro entre Estados, e nasce de um convidado explicando o gráfico apresentado por outro."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "medida provisória",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "norma que o presidente edita com força de lei imediata e que o Congresso precisa aprovar num prazo curto"
+  },
+  {
+   "term": "COPPE",
+   "fala": "b002",
+   "sentence": 23,
+   "plain": "instituto de pós-graduação e pesquisa em engenharia da Universidade Federal do Rio de Janeiro"
+  },
+  {
+   "term": "ICTs",
+   "fala": "b002",
+   "sentence": 27,
+   "plain": "sigla de instituições científicas e tecnológicas, os centros públicos e privados que fazem pesquisa"
+  },
+  {
+   "term": "ANP",
+   "fala": "b002",
+   "sentence": 101,
+   "plain": "Agência Nacional do Petróleo, o órgão que regula o setor e fixa as regras dos contratos de exploração"
+  },
+  {
+   "term": "ANDIFES",
+   "fala": "b004",
+   "sentence": 2,
+   "plain": "Associação Nacional dos Dirigentes das Instituições Federais de Ensino Superior, que reúne os reitores das federais"
+  },
+  {
+   "term": "CNPq",
+   "fala": "b004",
+   "sentence": 6,
+   "plain": "agência federal que paga bolsas de pesquisa e financia projetos de ciência e tecnologia"
+  },
+  {
+   "term": "brain drain",
+   "fala": "b004",
+   "sentence": 10,
+   "plain": "expressão em inglês para a saída de cientistas formados no país para trabalhar no exterior"
+  },
+  {
+   "term": "RENOVAR",
+   "fala": "b006",
+   "sentence": 62,
+   "plain": "programa do governo para substituir caminhões velhos por novos e aumentar a produtividade da frota"
+  },
+  {
+   "term": "CAPES",
+   "fala": "b008",
+   "sentence": 12,
+   "plain": "agência federal que avalia e financia os cursos de mestrado e doutorado do país"
+  },
+  {
+   "term": "CEITEC",
+   "fala": "b008",
+   "sentence": 54,
+   "plain": "empresa pública criada para produzir chips no Brasil, citada como aposta em uma solução própria"
+  },
+  {
+   "term": "LOA",
+   "fala": "b010",
+   "sentence": 16,
+   "plain": "Lei Orçamentária Anual, a lei que define quanto cada ministério pode gastar no ano"
+  },
+  {
+   "term": "FNDCT",
+   "fala": "b010",
+   "sentence": 30,
+   "plain": "Fundo Nacional de Desenvolvimento Científico e Tecnológico, uma das maiores fontes federais de dinheiro para pesquisa"
+  },
+  {
+   "term": "concessionárias",
+   "fala": "b010",
+   "sentence": 41,
+   "plain": "empresas que ganham o direito de explorar um campo de petróleo em contrato com a agência reguladora"
+  },
+  {
+   "term": "PD&I",
+   "fala": "b010",
+   "sentence": 42,
+   "plain": "sigla de pesquisa, desenvolvimento e inovação, as atividades que a lei manda as petroleiras financiar"
+  },
+  {
+   "term": "INCTs",
+   "fala": "b024",
+   "sentence": 9,
+   "plain": "Institutos Nacionais de Ciência e Tecnologia, redes de laboratórios financiadas por editais federais"
+  }
+ ]
+}

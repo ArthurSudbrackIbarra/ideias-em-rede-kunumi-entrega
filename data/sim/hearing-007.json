@@ -1,0 +1,2383 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 7,
+ "model": "LLM lendo o prompt hearing-007 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-15T22:31:15Z",
+ "prompt_sha256": "03cde2e0561479103afaf1008044818c2373c1c67760d79fa20515eac9c6d1b5",
+ "sentences_hash": "4cabad275be3a6e1",
+ "review": {
+  "pairs_read": 53,
+  "pairs_fixed": 29
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado",
+  "tese t3: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Desenvolvimento Econômico ouviu os presidentes de quatro frentes parlamentares, o relator da reforma tributária e um procurador de estado sobre os 13 projetos de regulamentação que o Parlamento apresentou antes do governo. O debate girou em torno do ritmo da votação, do tamanho da cesta básica desonerada e de quem vai julgar o novo imposto. O secretário do governo faltou porque a proposta do Executivo ainda não tinha sido entregue.",
+ "stakes": "Definir se a Câmara vota a regulamentação ainda neste semestre e sobre qual texto, o das frentes parlamentares ou o que o governo ainda não enviou.",
+ "central_question": "Como regulamentar a reforma tributária sem desfigurar o que foi acordado na emenda constitucional, e em que ritmo fazer isso?",
+ "synopsis_plain": "Quatro frentes de deputados apresentaram 13 projetos para detalhar a reforma tributária antes que o governo mandasse os seus. Na audiência eles discutiram se a votação deve ser rápida ou demorada, quais alimentos ficam mais baratos, se é melhor devolver imposto às famílias pobres e quem vai julgar as brigas sobre o novo imposto. O representante do governo não veio.",
+ "stakes_plain": "Se a Câmara vota a regulamentação ainda neste semestre, e se parte do texto das frentes ou do texto do governo.",
+ "central_question_plain": "Como detalhar a reforma tributária sem mudar o que já foi acordado, e com que pressa isso deve ser feito?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Ritmo da regulamentação",
+   "description": "Se a Câmara deve concluir a votação das leis da reforma ainda neste semestre ou tomar todo o tempo necessário para não errar.",
+   "axis": {
+    "pro": "É preciso pressa e foco para concluir a regulamentação antes do calendário eleitoral.",
+    "contra": "É preciso tempo e prudência, porque uma lei açodada causa dano maior do que a demora.",
+    "pro_plain": "O país não pode esperar. É preciso concentrar esforços e votar logo.",
+    "contra_plain": "Melhor demorar e acertar do que votar correndo e errar numa lei tão grande."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Cesta básica e devolução do imposto",
+   "description": "Se o melhor jeito de proteger quem ganha pouco é tirar imposto de uma lista de alimentos ou devolver dinheiro às famílias de baixa renda.",
+   "axis": {
+    "pro": "Devolver o imposto às famílias de baixa renda protege melhor do que reduzir a alíquota para todos.",
+    "contra": "É melhor tirar o imposto dos alimentos, porque comida mais barata na prateleira beneficia todo mundo.",
+    "pro_plain": "Devolver o dinheiro do imposto a quem ganha pouco protege mais do que baratear para todos.",
+    "contra_plain": "Melhor tirar imposto da comida, porque assim o preço cai na prateleira para todo mundo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Iniciativa do Parlamento",
+   "description": "Se o Congresso fez bem em montar grupos próprios e apresentar projetos antes de o governo mandar os dele.",
+   "axis": {
+    "pro": "O Parlamento fez bem em se antecipar e ouvir a sociedade em grupos abertos.",
+    "contra": "A antecipação fragmenta o debate e não substitui o texto que o Executivo tem de enviar.",
+    "pro_plain": "O Congresso fez bem em se adiantar e chamar a sociedade para escrever os projetos.",
+    "contra_plain": "Adiantar-se assim espalha o debate em textos demais e não substitui o projeto do governo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Julgamento do novo imposto",
+   "description": "Quem decide as brigas sobre o imposto que passa a ser dos estados e municípios ao mesmo tempo, e quem cobra na Justiça.",
+   "axis": {
+    "pro": "É preciso um foro único e nacional, porque dois órgãos não podem julgar o mesmo fato.",
+    "contra": "A primeira instância deve ficar nos estados e municípios, com o comitê gestor uniformizando depois.",
+    "pro_plain": "Precisa haver um lugar único para julgar, senão dois órgãos decidem o mesmo caso de formas opostas.",
+    "contra_plain": "Quem julga primeiro deve ser o estado ou o município, e o comitê gestor uniformiza depois."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Carga tributária e competitividade",
+   "description": "O peso e a confusão do sistema atual, e o quanto simplificar os impostos pode destravar investimento e emprego.",
+   "axis": {
+    "pro": "O sistema atual é caro e confuso demais, e simplificá-lo é o que destrava o crescimento.",
+    "contra": "O problema do país não está no sistema de impostos, e mexer nele não resolve o crescimento.",
+    "pro_plain": "O sistema de impostos é caro e confuso, e arrumá-lo é o que pode destravar o crescimento.",
+    "contra_plain": "O problema não está nos impostos, e mexer neles não vai resolver o crescimento do país."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Justiça fiscal e tributação da renda",
+   "description": "Se a reforma deve ir além do consumo e cobrar mais de quem tem renda e patrimônio, e o peso da agenda ambiental nisso.",
+   "axis": {
+    "pro": "É preciso cobrar mais de renda e patrimônio e aliviar o consumo, que é o imposto mais injusto.",
+    "contra": "Mexer na renda agora atrapalha a reforma do consumo e deve ficar para outro momento.",
+    "pro_plain": "Quem tem mais renda e mais bens deveria pagar mais, e quem consome deveria pagar menos.",
+    "contra_plain": "Mexer no imposto de renda agora só atrapalha. Primeiro é preciso terminar o do consumo."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da comissão",
+   "org": "Comissão de Desenvolvimento Econômico",
+   "basis": "abre a reunião em b001.0 e é identificado pelo nome em b002.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata de economia, indústria e comércio"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, presidente da Frente Parlamentar da Agropecuária",
+   "org": "PP",
+   "basis": "apresentado pela presidência em b001.4 como presidente da frente da agropecuária",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP do Paraná",
+   "org_plain": "Progressistas, um dos maiores partidos do centro do Congresso"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, presidente da Frente Parlamentar Mista do Empreendedorismo",
+   "org": "PL",
+   "basis": "apresentado pela presidência em b001.5 como presidente da frente do empreendedorismo",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Pará",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, presidente da Frente Parlamentar Mista pelo Brasil Competitivo",
+   "org": "Cidadania",
+   "basis": "apresentado pela presidência em b001.4 e descrito por ele mesmo em b008.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "deputado federal pelo Cidadania de São Paulo",
+   "org_plain": "partido de centro, herdeiro do antigo PPS"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, presidente da Frente Parlamentar em Defesa do Comércio e Serviços",
+   "org": "PL",
+   "basis": "apresentado pela presidência em b001.4 como presidente da frente do comércio e serviços",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de Minas Gerais",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "presidente da ANAPE e procurador do Estado do Ceará",
+   "org": "ANAPE",
+   "basis": "apresentado pela presidência em b001.6 como presidente da associação dos procuradores dos estados e identificado como procurador do Ceará em b028.1",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "presidente da associação dos procuradores dos estados",
+   "org_plain": "entidade que reúne os advogados públicos que cobram e defendem os impostos dos estados"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, relator da reforma tributária",
+   "org": "PP",
+   "basis": "apresentado pela presidência em b001.4 como relator da matéria",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP da Paraíba e relator da reforma",
+   "org_plain": "Progressistas, um dos maiores partidos do centro do Congresso"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, coordenador da Frente Parlamentar Ambientalista",
+   "org": "PT",
+   "basis": "listado na ata como Bloco/PT - SP e apresentado por ele mesmo em b018.4",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de São Paulo",
+   "org_plain": "Partido dos Trabalhadores, o partido do presidente Lula"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PP",
+   "basis": "listado na ata como Bloco/PP - PB",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP da Paraíba",
+   "org_plain": "Progressistas, um dos maiores partidos do centro do Congresso"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, ex-presidente da comissão",
+   "org": "União Brasil",
+   "basis": "listado na ata como Bloco/UNIÃO - AM e apresentado pela presidência em b021.1 como ex-presidente da comissão",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo União Brasil do Amazonas",
+   "org_plain": "partido de centro nascido da fusão do DEM com o PSL"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PSDB",
+   "basis": "listado na ata como Bloco/PSDB - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSDB de São Paulo",
+   "org_plain": "Partido da Social Democracia Brasileira, legenda de centro"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, ex-secretário da Fazenda do Ceará",
+   "org": "PDT",
+   "basis": "listado na ata como Bloco/PDT - CE e identificado como ex-secretário da Fazenda em b032.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PDT do Ceará",
+   "org_plain": "Partido Democrático Trabalhista, legenda de centro-esquerda"
+  },
+  "s13": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Podemos",
+   "basis": "listado na ata como Bloco/PODE - PR e citado em b026.29 como autor histórico da reforma",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Podemos do Paraná",
+   "org_plain": "partido de centro, antes chamado PTN"
+  }
+ },
+ "audience": {
+  "estimate": 50,
+  "composition": [
+   {
+    "role": "parlamentar",
+    "share": 0.3
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.3
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.2
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   }
+  ],
+  "basis": "a presidência registra a comitiva do prefeito de Piedade em b025.1, a presença do presidente da ANFIP em b019.1 e a aglomeração na porta em b023.1, e há palmas em seis falas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a audiência, explica que o secretário do governo adiou a vinda porque a proposta não chegou, e apresenta os 13 projetos das frentes parlamentares.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A união das frentes parlamentares com a sociedade coloca o pagador de imposto dentro do debate.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o secretário do governo adiou a vinda porque a proposta do Executivo não foi apresentada no dia 15",
+     "plain": "Ele tinha acertado comigo a data, na expectativa de que a proposta do governo saísse no dia 15, na segunda-feira passada. O governo não apresentou e deixou para a próxima segunda, dia 22. Por isso ele pediu para remarcar."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os 13 projetos das frentes nascem de uma união inédita entre a sociedade organizada e o Parlamento",
+     "plain": "Esta audiência abre a discussão da regulamentação no Congresso, passo essencial para destravar investimento com um sistema mais simples e seguro. Vamos discutir os 13 projetos das frentes, numa união inédita com a sociedade."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      33
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a carga tributária é excessiva sobre o setor produtivo e impede o país de crescer e gerar emprego",
+     "plain": "Precisamos de uma legislação compatível com este novo momento. A carga de impostos é excessiva e pesa principalmente sobre o setor produtivo. É isso que impede o Brasil de crescer, de gerar emprego e de ter economia sustentável."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta os projetos da frente da agropecuária, defende tirar imposto dos alimentos em vez de devolver dinheiro e pede uma lista de cesta básica curta.",
+   "quote": [
+    41
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Baratear o alimento na prateleira protege mais o consumidor do que devolver imposto depois.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "alimento mais barato na prateleira significa mais consumo e melhores preços para o consumidor",
+     "plain": "No grupo da cesta básica nosso trabalho foi claro contra o cashback, a devolução do imposto, e contra tributar a cesta: alimento mais barato na prateleira significa mais consumo e preço melhor para quem compra."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      41
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o texto permite ao governo reduzir já as alíquotas de PIS e COFINS dos produtos da cesta nacional",
+     "plain": "O texto permite que o governo reduza desde já as alíquotas de PIS e COFINS dos produtos da cesta nacional de alimentos que criamos. Estamos numa alta de preço da comida e o governo pode enfrentar isso imediatamente por ato próprio."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "uma cesta básica com mais de mil produtos vira disputa de lobbies e não beneficia a população",
+     "plain": "Uma cesta básica com mais de mil produtos não adianta nada, não resolve para ninguém. Vira disputa de lobbies para ver quem paga menos imposto. Precisamos de uma lista que beneficie mesmo a população."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao deputado Pedro Lupion.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece à equipe da frente parlamentar que elaborou os textos dos projetos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a exposição, saúda deputados presentes e chama Joaquim Passarinho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que as frentes montaram grupos paralelos porque o governo não abriu os seus, cobra os prazos perdidos e lembra que a conquista da reforma é a não cumulatividade.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    24,
+    25,
+    26,
+    29,
+    32
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As frentes abriram grupos paralelos porque o governo fechou os seus à sociedade e à Câmara.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as frentes fizeram grupos paralelos, e não antagônicos, porque os grupos do governo não se abriram",
+     "plain": "Quando o governo montou seus 19 grupos de trabalho e não abriu espaço para a sociedade nem para a Casa, decidimos fazer grupos paralelos, não antagônicos, usando a mesma estratégia e ouvindo a sociedade e o setor produtivo."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o prazo da reforma do Imposto de Renda venceu sem que o projeto chegasse",
+     "plain": "O governo tem perdido alguns prazos. O prazo da reforma do Imposto de Renda já venceu e o projeto não chegou. Nossa preocupação é que isso caia em cima da votação e nos pegue desinformados."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a grande conquista da reforma é a não cumulatividade, e o risco é voltar a ter imposto em cascata",
+     "plain": "Por isso montamos outro grupo: para que, no esforço de ajustar uma coisa, não ultrapassássemos a carga de hoje nem criássemos impostos que se acumulam em cascata. A grande conquista desta reforma é justamente a não cumulatividade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de deputados e chama Arnaldo Jardim.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta as duas diretivas da frente do Brasil Competitivo, o cuidado com a não cumulatividade e o não aumento da carga, e defende a iniciativa do Legislativo.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação não pode reintroduzir imposto em cascata nem aumentar a carga já votada.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na regulamentação, com tantos dispositivos, há risco de o imposto em cascata reaparecer",
+     "plain": "A primeira diretiva, como o deputado Joaquim Passarinho já disse, é o cuidado com a não cumulatividade. Quando se entra nesta fase da regulamentação, com tantos dispositivos diferentes, corre-se o risco de isso voltar. Cuidado, então."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso manter o que foi votado nas duas Casas, sem acúmulo e sem aumento da carga tributária",
+     "plain": "A segunda diretiva é manter aquilo que foi votado aqui e no Senado, ou seja, nada de acúmulo e nada de aumento da carga tributária. Essas duas questões orientaram a nossa participação nos grupos."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Legislativo respeita o poder de propor do Executivo, mas não abre mão da própria iniciativa",
+     "plain": "Respeitamos a função do Executivo de propor, mas o Legislativo não abre mão de ter iniciativa própria e de ser proativo. É isso que celebramos aqui, frentes que se juntam. Não é recorte de governo e oposição."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de mais deputados e chama Domingos Sávio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede que a regulamentação não seja açodada, defende justiça fiscal pela renda e critica a devolução individualizada do imposto dentro do tributo sobre o consumo.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    33,
+    34,
+    35,
+    36
+   ],
+   "open_question": 31,
+   "stance": {
+    "position": "contrario",
+    "claim": "Gastar toda a legislatura para fazer bem a reforma não seria exagero nenhum.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "se a Constituição levou uma legislatura inteira, gastar uma legislatura na reforma não seria exagero",
+     "plain": "A nossa responsabilidade é enorme, e o espírito cívico precisa estar nos debates. A Constituição levou uma legislatura inteira. Se gastarmos a legislatura inteira para fazer uma reforma tributária plena, não haverá exagero nenhum."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      53,
+      54,
+      55
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso fazer justiça fiscal também na renda, tributando mais quem tem mais",
+     "plain": "Sim, é preciso tratar do Imposto de Renda. Precisamos fazer justiça fiscal neste país, inclusive na renda. O Imposto de Renda serve para tributar mais quem tem mais e nada de quem não tem, até para o governo amparar quem precisa."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      56,
+      57,
+      58
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "colocar devolução de imposto dentro do tributo sobre consumo é transformá-lo em imposto de renda",
+     "plain": "Alguns insistem em colocar a devolução do imposto dentro de um programa de consumo, com um artigo que no fundo tenta distribuir renda. Ora, isto é imposto de consumo. Vamos transformá-lo numa espécie de Imposto de Renda? Para quem?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia a prudência da fala anterior e chama o procurador Vicente Braga.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que o sistema atual é incompreensível, pergunta quem vai cobrar e julgar o novo imposto e defende um órgão único para isso.",
+   "quote": [
+    30,
+    31,
+    32
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Um imposto de dois entes precisa de um órgão único para julgar e cobrar, senão a briga não termina.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o sistema atual tem 27 ICMS, mais quatro impostos dentro dele, o ISS e diversas contribuições",
+     "plain": "Convivemos com um sistema que nenhum especialista consegue entender, nem de dentro nem de fora do país. Quando recebemos um estudioso estrangeiro, ele vê que não temos 27 estados e sim 27 ICMS, com mais quatro impostos dentro, além do ISS."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um tributo com dois entes legitimados a cobrar precisa de um órgão jurisdicional único",
+     "plain": "Temos que avançar, enfrentar os problemas e buscar soluções. Se agora um mesmo tributo tem dois entes com direito de cobrar, precisamos pensar num órgão de Justiça único para conduzir a cobrança judicial."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "87% das cobranças judiciais de imposto não andam e quase 3% chegam a ser pagas",
+     "plain": "Deputado, 87% dos processos de cobrança judicial de imposto não conseguem andar. Quase 3% chegam a ser pagos, e isso é o mínimo. Infelizmente o sonegador se aproveita disso e aposta no insucesso das advocacias públicas."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Traz o dado da sonegação no setor de combustíveis e sustenta que a simplificação reduz custo, aumenta competitividade e diminui a evasão.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A simplificação barateia o custo das empresas e reduz a sonegação de impostos.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só no setor de combustível a sonegação estimada passou de 60 bilhões em 2022",
+     "plain": "Tenho aqui um dado de 2022, do Instituto Combustível Legal. Só no setor de combustível, a sonegação estimada passou de 60 bilhões em 2022, com jogo de notas e subfaturamento."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com a simplificação o custo das empresas cai, a competitividade sobe e a sonegação diminui",
+     "plain": "Com a simplificação, o custo das empresas diminui e a competitividade aumenta, o que pode ampliar investimento e emprego. Ao mesmo tempo, como disse o procurador, a reforma pode reduzir a sonegação e a evasão de impostos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta que, além da pressa, há o risco de fragmentação e descoordenação entre os projetos das frentes e os do governo.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A iniciativa das frentes precisa vir acompanhada de coordenação, para não fragmentar o debate.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "além do risco da pressa há o risco da fragmentação, já que não se sabe quantos projetos virão",
+     "plain": "Há pouco o deputado Domingos Sávio falou do risco da pressa. Acho que temos outro risco, e por isso quero perguntar ao deputado Aguinaldo Ribeiro sobre o risco da fragmentação ou da falta de coordenação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença de outros deputados e passa a palavra a Aguinaldo Ribeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conta como a emenda foi aprovada, elogia a antecipação das frentes e defende um debate coordenado entre Executivo e Legislativo diante do calendário eleitoral.",
+   "quote": [
+    43,
+    44,
+    45
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação tem de reproduzir os princípios e os acordos aprovados na emenda constitucional.",
+    "sentence": 43
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desafio é manter os princípios aprovados na Emenda Constitucional 132 e reproduzir os acordos feitos",
+     "plain": "O nosso desafio é este: manter os princípios e os conceitos aprovados naquela construção longa, que é a Emenda Constitucional 132, de 2023, e fazer com que eles fiquem preservados. É preciso que os acordos se reproduzam na regulamentação."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a antecipação das frentes parlamentares foi sadia e ajuda a preservar o que a emenda constituiu",
+     "plain": "Quero parabenizar as frentes parlamentares, que se anteciparam. Elas foram fundamentais. Vejo essa antecipação como algo muito sadio, porque o entendimento é preservar tudo aquilo que construímos na emenda constitucional."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      69
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "com o calendário eleitoral de julho, a estratégia precisa ser coordenada pelo Executivo e pelo Legislativo",
+     "plain": "Temos pela frente um calendário eleitoral que chega em julho. Toda a estratégia precisa ser coordenada pelo Executivo e pelo Legislativo, para fazermos com serenidade e segurança o debate maduro do que foi construído."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as exposições, abre os debates com 3 minutos por deputado e chama os inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende justiça tributária e o papel indutor do Estado, liga a reforma à agenda climática e pede que não se perca a oportunidade aberta pela emenda.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A reforma tem de ser discutida pela perspectiva de quem consome, e não só de quem paga imposto.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem paga imposto reclama do quanto paga, mas o Parlamento também olha para quem consome",
+     "plain": "Precisamos fazer este debate a partir daquilo de que a população precisa, porque quem paga imposto reclama do quanto paga. Por outro lado, este Parlamento olha pela perspectiva de quem consome os produtos que a reforma pode fomentar."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a reforma é oportuna porque ajuda o país a reduzir as emissões que provocam o aquecimento global",
+     "plain": "É neste contexto que discutimos a reforma, e ela é oportuna porque coloca o que o país tem de enfrentar para reduzir as emissões que provocam o aquecimento global. É uma agenda de oportunidades, com sol, vento e biodiversidade."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se pode perder o tempo e a oportunidade abertos pelos avanços do ano passado",
+     "plain": "Agora não podemos perder o tempo e a oportunidade que estão postos, depois de todos os avanços do ano passado e da aprovação da emenda. Precisamos seguir nesta toada, sem perder a chance que se abre para o país."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença do presidente do conselho da ANFIP e chama Mersinho Lucena.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lembra os desafios das leis complementares e pede que a condução mantenha o diálogo e a abertura que houve no ano passado.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação precisa manter o diálogo e a abertura que marcaram a votação da emenda.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a condução das leis complementares precisa manter o diálogo e a abertura do ano passado",
+     "plain": "Sabemos dos desafios que ainda temos pela frente com as leis complementares. É importante ficarmos atentos e conduzir como se conduziu no ano passado, com diálogo e abertura, ouvindo as pessoas e fazendo os ajustes necessários."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência homenageia um ex-presidente da comissão e lhe concede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Diz que veio ouvir as frentes e que a Câmara aguarda os projetos de lei complementar que vão regulamentar a emenda.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os grupos de trabalho cumpriram seu papel, e agora a Câmara espera os projetos do governo.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Câmara aguarda os projetos que vão regulamentar a Emenda Constitucional 132",
+     "plain": "Quero dizer que no momento estamos esperando os projetos de lei complementar que vão regulamentar a Emenda Constitucional 132. Acredito que os grupos de trabalho fizeram o seu papel."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede silêncio na porta do plenário e devolve o tempo ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b024",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Reclama que os parlamentares não conhecem o texto que o governo vai enviar, lembra as comissões de reforma desde 1992 e pede que se trabalhe sem pressa.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O adiamento dos projetos já é sinal de problema, e a Câmara não deve trabalhar com pressa.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os parlamentares não tomaram conhecimento do texto que espera para ser enviado à Câmara",
+     "plain": "Quero dizer aos coordenadores das frentes que em nenhum momento tomamos conhecimento daquilo que foi elaborado e que espera para ser enviado à Câmara, isto é, os projetos de lei. Fizeram um trabalho muito fechado, com compromisso de sigilo."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "adiar a entrega dos projetos à Câmara já é sinal de que haverá problemas",
+     "plain": "Ouvi aqui o deputado Domingos Sávio falar de algo que para mim é fundamental: não podemos ter pressa. Adiar a entrega destes projetos de lei à Câmara já é, para mim, sinal de que teremos problemas."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "desde 1992 houve várias comissões de reforma tributária, e ele acompanhou quase todas",
+     "plain": "Não foi uma tentativa só. Tivemos várias comissões que trataram de reforma tributária. Em 1992 participei da primeira delas, há 32 anos, com Roberto Campos, Delfim Netto e outros, e acompanhei todas as que vieram depois, menos a de 2022."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência saúda a comitiva do prefeito de Piedade e chama o deputado Vitor Lippi.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b026",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que o sistema tributário é o que trava o crescimento do país e cita o anúncio de investimento do setor automotivo como primeiro efeito da reforma.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O sistema tributário é o maior obstáculo à competitividade e ao crescimento do Brasil.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil cresceu menos que o mundo porque tem o sistema tributário mais complexo e mais caro",
+     "plain": "Todos sabemos que o Brasil cresceu menos do que o mundo. Estamos melhor do que há 20 ou 30 anos, mas o mundo cresceu muito mais. O maior problema da competitividade é termos o pior e mais caro sistema tributário do mundo."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o país virou exportador de commodities porque a indústria não consegue competir com o mundo",
+     "plain": "Isso prejudica muito as nossas indústrias e empresas, e por isso o Brasil virou o país das commodities. Conseguimos vender commodities, mas não conseguimos deixar a indústria e as cadeias produtivas competitivas diante do mundo."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      32
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o anúncio de investimento do setor automotivo já passou de 120 bilhões de reais graças à reforma",
+     "plain": "Só para dar uma ideia: tivemos o anúncio do maior investimento da história do setor automotivo no país, que já passou de 120 bilhões de reais para os próximos anos, graças à reforma, que melhora o ambiente de negócio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o deputado Mauro Benevides Filho, seu antigo professor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Critica o tamanho da cesta básica desonerada, questiona quem vai julgar o novo imposto e alerta para os conflitos na definição de saúde e educação.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 46,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Uma cesta básica com centenas de produtos custa caro demais e não protege quem é pobre.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o primeiro grau de julgamento deve ficar nos estados e municípios, e o segundo deve uniformizar",
+     "plain": "Sobre o IBS há divergência. Estão querendo deixar no comitê gestor a primeira e a segunda instância de julgamento, o que para mim é muito estranho. Acho que o primeiro grau tem de ser nos estados e municípios, e o segundo grau uniformiza."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 1.341 produtos na cesta básica, entre eles queijo suíço, filé mignon e salmão",
+     "plain": "Durante anos nenhum presidente ou ministro teve coragem de tirar 1.341 produtos da cesta básica. Para mim cesta básica era arroz, feijão, açúcar e sal, o básico de quem é pobre. Fui estudar e achei lá queijo suíço, filé mignon e salmão."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      29
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a cesta básica deixa hoje de cobrar 34,4 bilhões de reais em impostos",
+     "plain": "Temos que tratar disso com muita seriedade, porque haverá diferenças e impactos de entendimento. A cesta básica hoje no Brasil deixa de cobrar 34,4 bilhões de reais em impostos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência conta uma lembrança pessoal e chama o deputado Luiz Carlos Hauly.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende a devolução individualizada do imposto às famílias de baixa renda, nega que o governo esteja atrasado e alerta que reduzir a alíquota de uns itens encarece os outros.",
+   "quote": [
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Devolver o imposto às famílias de baixa renda é melhor do que reduzir a alíquota para todos.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o governo está dentro do prazo, porque teria 6 meses e anunciou a entrega para segunda-feira",
+     "plain": "Eu acho que o governo está no prazo. Ele anunciou a entrega para segunda-feira porque quis. Teria 6 meses para fazer isso."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "devolver o imposto às famílias de baixa renda é muito melhor do que reduzir a alíquota para todos",
+     "plain": "Sou defensor da devolução individualizada do imposto. Agora temos de provar que devolver o dinheiro às famílias de baixa renda é infinitamente melhor do que reduzir a alíquota para todo mundo."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "reduzir a alíquota de 10 mil itens obriga a realocar a alíquota nos outros 90 mil",
+     "plain": "Um exemplo simples: a população consome 100 mil itens. Se reduzimos a alíquota de 10 mil deles, é preciso realocar a alíquota nos outros 90 mil. No fim do ano as famílias vão pagar a mesma carga, os 13% do PIB."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra a fala dos deputados e abre as considerações finais dos palestrantes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que o comitê gestor não pode dar a última palavra sobre entendimentos e pergunta quem vai gerir o contencioso do novo imposto.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O comitê gestor não pode ser a última palavra sobre a interpretação do novo imposto.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o conselho gestor não pode dar a última palavra sobre entendimentos, que hoje cabe aos órgãos estaduais",
+     "plain": "Precisamos definir, sim, como vai funcionar a discussão administrativa. O conselho gestor não pode ser o responsável pela última palavra sobre entendimentos, coisa que hoje cabe aos órgãos de fazenda de cada estado."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não se sabe como será o primeiro grau nem quem vai gerir o órgão que julga o novo imposto",
+     "plain": "E no primeiro grau, como fica, se o IBS pertence ao estado e ao município ao mesmo tempo? Quem vai gerir esse órgão que julga? São dúvidas que precisam ser esclarecidas."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Devolve a pergunta ao procurador e questiona se a primeira instância nos estados com a segunda no conselho não resolveria a padronização.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Primeira instância nos estados e municípios com segunda no conselho já padronizaria o entendimento.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a primeira instância nos estados e municípios com a segunda no conselho atenderia à padronização",
+     "plain": "Como ficaria, então, a ideia de deixar a primeira instância com estados e municípios e a segunda com o conselho? Isso não resolveria a padronização que buscamos?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que dois órgãos não podem julgar o mesmo fato gerador, mostra o conflito entre a instância estadual e a federal e pede que o exportador use seus créditos.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Dois órgãos diferentes não podem julgar o mesmo fato gerador do novo imposto.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se pode ter dois órgãos distintos julgando a mesma situação do novo imposto",
+     "plain": "Deputado, não dá para ter dois órgãos distintos julgando a mesma situação. Se eu questiono o IBS e se o fato gerador ocorreu, a autuação feita pelo Estado do Ceará já beneficia Fortaleza, se for ali o lugar de consumo."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se o órgão estadual disser que o fato gerador não ocorreu e o federal disser que sim, não se sabe qual prevalece",
+     "plain": "O que nos preocupa é o mesmo fato gerador valer para a CBS e o IBS. Se o órgão do estado disser que ele não ocorreu e o órgão federal disser que ocorreu, qual dos dois vai prevalecer?"
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não se deve exportar tributo, e os créditos do exportador precisam poder ser usados",
+     "plain": "Não se exportam tributos, e não se deve exportar tributos, para os nossos bens competirem melhor lá fora. Temos que permitir que o exportador use de fato os seus créditos, em vez de ficar esperando sem receber."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência destaca a riqueza do debate e chama o relator para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe um rito comum entre o Executivo e as duas Casas, esclarece de onde vieram os prazos e defende tratar da renda depois de concluir o consumo.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "Com um rito combinado dá para votar sem açodamento e sem deixar de cumprir o calendário.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "com um rito comum entre o Executivo e as duas Casas dá para votar sem açodamento e no prazo",
+     "plain": "Com a chegada dessas matérias na próxima semana, o Executivo e os presidentes das duas Casas devem combinar um rito. Chegando a um rito comum, dá para votar sem correria, com discussão madura, e ainda assim cumprir o calendário."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      26
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "foi o Senado que fixou 90 dias para a lei da renda e 180 dias para a lei do consumo",
+     "plain": "Foi o Senado que colocou um prazo maior para a lei do consumo e um menor para a lei da renda: 90 dias para a renda e 180 para o consumo. Mexer nisso faria o texto voltar ao Senado, e por isso achei melhor manter."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "depois do consumo é preciso discutir a carga total, para aliviar o consumo e taxar renda e patrimônio",
+     "plain": "Sou a favor de tratar da renda, todos somos, mas também de encerrar este primeiro capítulo antes. Depois poderemos discutir a carga total, para reduzir a do consumo, que é a mais injusta, e ter carga justa sobre renda e patrimônio."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Encerra defendendo pressa, propõe parar a pauta da Câmara por 15 dias para concluir a reforma e cita fábricas fechadas no Ceará por falta de competitividade.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O tempo exige pressa, e a Câmara deveria parar a pauta para concluir a reforma neste semestre.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Guararapes demitiu 2 mil costureiras em Fortaleza e a Paquetá fechou mais de 5 mil empregos no interior",
+     "plain": "Vemos indústrias fechando por falta de competitividade. A Guararapes, em Fortaleza, demitiu 2 mil costureiras. Agora a Paquetá, no Vale do Curu, fechou mais de 5 mil empregos. São oportunidades perdidas por falta de competitividade lá fora."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tempo exige pressa, e a Câmara deveria parar tudo por 15 dias para concluir a reforma",
+     "plain": "Tenho uma convicção clara, diferente da de alguns: o tempo exige pressa. O futuro do Brasil tem de ser hoje. Minha proposta é parar as demais ações da Câmara por uns 15 dias e cuidar só da reforma, para votá-la ainda neste semestre."
+    },
+    {
+     "id": "b037c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as festas juninas e as eleições municipais atrapalham o cronograma do semestre",
+     "plain": "O calendário deste semestre me preocupa. Todo mundo sabe que as festas juninas e as eleições municipais atrapalham o cronograma de trabalho do Parlamento. Por isso precisamos dessa agilidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 44,
+   "from_claim": "b008c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Arnaldo Jardim reitera o alerta de Joaquim Passarinho: a conquista da reforma é o fim do imposto em cascata, e é justamente na regulamentação que ele pode voltar."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 18,
+   "from_claim": "b014c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Ao alerta de Domingos Sávio contra a pressa, Arnaldo Jardim soma um segundo risco: o de os projetos ficarem espalhados e sem coordenação."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 69,
+   "to_sentence": 3,
+   "from_claim": "b016c3",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "Ao risco de fragmentação levantado por Arnaldo Jardim, o relator responde que a estratégia toda precisa ser coordenada entre o Executivo e o Legislativo."
+  },
+  {
+   "from": "b016",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 69,
+   "to_sentence": 16,
+   "from_claim": "b016c3",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "O relator acolhe o pedido de responsabilidade feito por Domingos Sávio e pede um debate maduro, feito com serenidade apesar do calendário eleitoral."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 61,
+   "to_sentence": 14,
+   "from_claim": "b016c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O relator chama de sadia a antecipação que Joaquim Passarinho explicou como resposta ao fechamento dos grupos do governo."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 18,
+   "from_claim": "b018c3",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Enquanto Domingos Sávio diz que gastar uma legislatura inteira não seria exagero, o deputado do PT responde que não se pode perder o tempo e a oportunidade abertos pela emenda."
+  },
+  {
+   "from": "b024",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 18,
+   "from_claim": "b024c2",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Pauderney Avelino cita Domingos Sávio e acrescenta que o adiamento da entrega dos projetos já é, por si, sinal de problema."
+  },
+  {
+   "from": "b024",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 14,
+   "from_claim": "b024c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "O deputado reforça a queixa de Passarinho sobre o processo fechado e diz que nem os parlamentares souberam o que os grupos escreveram."
+  },
+  {
+   "from": "b026",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 33,
+   "from_claim": "b026c1",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "Vitor Lippi dá a razão econômica do que a presidência abriu: é o peso e a confusão do sistema tributário que explicam o país ter crescido menos que o mundo."
+  },
+  {
+   "from": "b028",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 24,
+   "from_claim": "b028c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Contra a ideia de um órgão de Justiça único defendida pelo procurador, o deputado sustenta que julgar em primeiro grau cabe aos estados e municípios."
+  },
+  {
+   "from": "b028",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 37,
+   "from_claim": "b028c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Pedro Lupion defendeu tirar imposto da cesta em vez de devolver dinheiro, e Mauro Benevides responde mostrando o que entrou nessa cesta, do queijo suíço ao salmão."
+  },
+  {
+   "from": "b030",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 29,
+   "from_claim": "b030c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Joaquim Passarinho disse que o governo perdeu prazos, e Hauly responde que ele está dentro do prazo e que a Constituição lhe dava 6 meses."
+  },
+  {
+   "from": "b030",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 25,
+   "to_sentence": 38,
+   "from_claim": "b030c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Hauly defende exatamente o que Lupion rejeitou: devolver o imposto a quem ganha pouco, em vez de baratear o produto para todo mundo."
+  },
+  {
+   "from": "b030",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 26,
+   "to_sentence": 56,
+   "from_claim": "b030c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Para Domingos Sávio a devolução vira um imposto de renda disfarçado, e Hauly responde que devolver a quem é pobre protege mais do que reduzir alíquota para todos."
+  },
+  {
+   "from": "b030",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 34,
+   "to_sentence": 19,
+   "from_claim": "b030c3",
+   "to_claim": "b028c2",
+   "strength": "forte",
+   "note": "Hauly reforça a crítica de Benevides à lista extensa com uma conta: reduzir a alíquota de alguns itens obriga a subir a dos outros, e a carga volta ao mesmo lugar."
+  },
+  {
+   "from": "b032",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 8,
+   "from_claim": "b032c1",
+   "to_claim": "b028c1",
+   "strength": "forte",
+   "note": "O procurador responde ao deputado que o conselho gestor não pode dar a última palavra sobre entendimentos, coisa que hoje cabe aos órgãos de fazenda dos estados."
+  },
+  {
+   "from": "b033",
+   "to": "b032",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b033c1",
+   "to_claim": "b032c1",
+   "strength": "media",
+   "note": "O deputado devolve a questão ao procurador: com a primeira instância nos estados e a segunda no conselho, a padronização já não estaria resolvida?"
+  },
+  {
+   "from": "b034",
+   "to": "b033",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b034c1",
+   "to_claim": "b033c1",
+   "strength": "forte",
+   "note": "O procurador responde que dois órgãos distintos não podem julgar a mesma situação, porque a autuação de um estado já alcança o município onde houve o consumo."
+  },
+  {
+   "from": "b036",
+   "to": "b030",
+   "kind": "responde",
+   "from_sentence": 26,
+   "to_sentence": 6,
+   "from_claim": "b036c2",
+   "to_claim": "b030c1",
+   "strength": "forte",
+   "note": "O relator esclarece a origem do prazo citado por Hauly: foi o Senado que fixou 90 dias para a lei da renda e 180 para a do consumo."
+  },
+  {
+   "from": "b036",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 54,
+   "from_claim": "b036c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O relator concorda com Domingos Sávio que é preciso fazer justiça fiscal na renda, mas pede para encerrar antes o capítulo do consumo."
+  },
+  {
+   "from": "b036",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 12,
+   "from_claim": "b036c1",
+   "to_claim": "b024c2",
+   "strength": "media",
+   "note": "Ao pedido de Pauderney para não ter pressa, o relator responde com um caminho: um rito combinado entre as duas Casas e o Executivo permite votar sem correria."
+  },
+  {
+   "from": "b037",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 18,
+   "from_claim": "b037c2",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "Contra a ideia de que gastar uma legislatura inteira não seria exagero, a presidência fecha a audiência dizendo que o tempo exige pressa e propõe parar a pauta por 15 dias."
+  },
+  {
+   "from": "b037",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 13,
+   "from_claim": "b037c2",
+   "to_claim": "b024c2",
+   "strength": "media",
+   "note": "Pauderney pediu que não houvesse pressa, e a presidência responde que o futuro do país não pode mais ser amanhã."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d5",
+   "falas": [
+    "b001",
+    "b006",
+    "b008",
+    "b012",
+    "b026"
+   ],
+   "claims": [
+    "b001c3",
+    "b006c3",
+    "b008c1",
+    "b012c1",
+    "b026c1"
+   ],
+   "note": "A presidência, deputados de partidos diferentes e o procurador convidado concordam que o sistema de hoje é caro e confuso demais e que é ele que trava a competitividade do país."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b006",
+    "b016",
+    "b020"
+   ],
+   "claims": [
+    "b001c2",
+    "b006c1",
+    "b016c2",
+    "b020c1"
+   ],
+   "note": "A mesa, os presidentes de frentes e o relator concordam que a antecipação do Parlamento, com projetos escritos junto da sociedade, foi acertada."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b010",
+   "sentence": 31,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como a transição vai impactar as cidades e as empresas já instaladas",
+   "plain": "Como vai se dar a transição e como ela impacta as cidades e as empresas já instaladas?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b012",
+   "sentence": 19,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "quem será o ente competente para cobrar o novo imposto na Justiça",
+   "plain": "Quem vai ser o ente competente para cobrar na Justiça um imposto que é de dois entes ao mesmo tempo?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b028",
+   "sentence": 46,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "o que a lei complementar vai considerar saúde para a alíquota reduzida",
+   "plain": "O que vai ser considerado saúde na lei complementar, para ter direito à alíquota reduzida?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b033",
+   "sentence": 1,
+   "addressed_to": "governo",
+   "answered_by": "b034",
+   "gist": "se a primeira instância nos estados e a segunda no conselho padroniza",
+   "plain": "Deixar a primeira instância com estados e municípios e o conselho em segundo grau não resolveria a padronização?",
+   "theme": "d4",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 9,
+   "gist": "23 frentes parlamentares participaram dos grupos de trabalho",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 33,
+   "gist": "produtor rural com até 3,6 milhões de reais não será contribuinte",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 19,
+   "gist": "biocombustível pagará no máximo 30% do imposto do fóssil",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 18,
+   "gist": "mais de 500 pessoas e entidades participaram dos 19 grupos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 25,
+   "gist": "a transição para os novos tributos leva 10 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 30,
+   "gist": "87% das cobranças judiciais de imposto não conseguem andar",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b013",
+   "sentence": 3,
+   "gist": "sonegação acima de 60 bilhões no setor de combustível em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b026",
+   "sentence": 32,
+   "gist": "investimento do setor automotivo já passou de 120 bilhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b028",
+   "sentence": 18,
+   "gist": "há 1.341 produtos hoje na cesta básica desonerada",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b028",
+   "sentence": 29,
+   "gist": "a cesta básica deixa de arrecadar 34,4 bilhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b030",
+   "sentence": 18,
+   "gist": "o PIB cresceu 2% ao ano em 40 anos, contra 6,3% antes",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b030",
+   "sentence": 6,
+   "gist": "o governo teria 6 meses para enviar a regulamentação",
+   "disputed_by": [
+    {
+     "fala": "b006",
+     "sentence": 30
+    }
+   ]
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "parlamentar"
+  ],
+  "angle": "A matéria tratou a audiência como a apresentação dos 13 projetos das frentes parlamentares, com destaque para a cesta básica, a não cumulatividade e os prazos perdidos pelo governo.",
+  "omitted": "Ficou de fora todo o debate sobre quem vai julgar e cobrar o novo imposto, trazido pelo procurador convidado, e a divergência aberta sobre devolver imposto às famílias de baixa renda."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O tempo exige pressa: votar ainda neste semestre",
+   "statement_plain": "O país não pode esperar mais. A Câmara deveria concentrar esforços na reforma e votar a regulamentação antes que o calendário eleitoral atrapalhe.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b037c2",
+    "b037c3",
+    "b018c3"
+   ],
+   "note": "Junta quem preside a comissão e um deputado do PT que raramente votam junto, os dois com pressa pelo mesmo motivo: a janela de julho."
+  },
+  {
+   "id": "t2",
+   "title": "Melhor demorar e acertar do que votar correndo",
+   "statement_plain": "Uma lei tão grande não pode ser feita às pressas. Se for preciso gastar a legislatura inteira para acertar, não há exagero nenhum nisso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b024c2",
+    "b024c3",
+    "b006c2"
+   ],
+   "note": "Reúne deputados de PL, União Brasil e PL do Pará, e é a ideia que a própria presidência da comissão contestou ao encerrar a audiência."
+  },
+  {
+   "id": "t3",
+   "title": "Devolver o imposto a quem ganha pouco",
+   "statement_plain": "Em vez de tirar imposto de uma lista enorme de produtos, é melhor devolver o dinheiro do imposto direto às famílias de baixa renda.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b030c2",
+    "b030c3",
+    "b028c2",
+    "b028c3"
+   ],
+   "note": "Dois deputados de partidos diferentes, um do Podemos e outro do PDT, chegam à mesma conclusão por caminhos distintos, a conta da alíquota e a conta do orçamento."
+  },
+  {
+   "id": "t4",
+   "title": "Comida mais barata na prateleira para todos",
+   "statement_plain": "O melhor caminho é tirar o imposto dos alimentos, porque o preço cai na prateleira e beneficia todo mundo que compra, sem depender de cadastro.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b010c3"
+   ],
+   "note": "Divide a própria oposição: o presidente da frente da agropecuária e o presidente da frente do comércio defendem isto contra colegas que querem devolução individualizada."
+  },
+  {
+   "id": "t5",
+   "title": "O Parlamento fez bem em se antecipar",
+   "statement_plain": "O Congresso acertou ao montar grupos próprios, ouvir a sociedade e apresentar projetos antes do governo, em vez de esperar um texto pronto.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b016c2",
+    "b020c1",
+    "b022c1",
+    "b001c2"
+   ],
+   "note": "Atravessa a comissão inteira: a presidência, presidentes de frentes de oposição e o relator da reforma, que é da base, dizem a mesma coisa."
+  },
+  {
+   "id": "t6",
+   "title": "Simplificar o consumo e cobrar mais da renda",
+   "statement_plain": "O sistema atual é caro, confuso e injusto. É preciso simplificar o imposto sobre o consumo e, depois, cobrar mais de quem tem renda e patrimônio.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b018c1",
+    "b036c3",
+    "b026c1",
+    "b012c1"
+   ],
+   "note": "É a ideia que cruza a sala inteira: um deputado do PL, um do PT, o relator do PP, um do PSDB e o procurador convidado defendem a mesma coisa."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "IBS",
+   "fala": "b006",
+   "sentence": 24,
+   "plain": "Imposto sobre Bens e Serviços: o novo imposto que substitui o ICMS dos estados e o ISS dos municípios"
+  },
+  {
+   "term": "CBS",
+   "fala": "b006",
+   "sentence": 24,
+   "plain": "Contribuição sobre Bens e Serviços: o novo tributo federal que substitui PIS e COFINS"
+  },
+  {
+   "term": "cashback",
+   "fala": "b002",
+   "sentence": 38,
+   "plain": "devolução de parte do imposto pago, em dinheiro, para famílias cadastradas de baixa renda"
+  },
+  {
+   "term": "Imposto Seletivo",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "imposto extra cobrado de produtos considerados prejudiciais à saúde ou ao meio ambiente, como cigarro e bebida"
+  },
+  {
+   "term": "não cumulatividade",
+   "fala": "b008",
+   "sentence": 5,
+   "plain": "regra que impede o mesmo imposto de ser cobrado de novo a cada etapa da produção, o chamado imposto em cascata"
+  },
+  {
+   "term": "alíquota de referência",
+   "fala": "b028",
+   "sentence": 41,
+   "plain": "o percentual padrão do novo imposto, do qual se calculam as reduções dadas a certos setores"
+  },
+  {
+   "term": "execução fiscal",
+   "fala": "b012",
+   "sentence": 19,
+   "plain": "processo na Justiça pelo qual o Estado cobra de quem não pagou o imposto devido"
+  },
+  {
+   "term": "fato gerador",
+   "fala": "b012",
+   "sentence": 20,
+   "plain": "o acontecimento que faz nascer o imposto, como vender uma mercadoria ou prestar um serviço"
+  },
+  {
+   "term": "comitê gestor",
+   "fala": "b002",
+   "sentence": 14,
+   "plain": "órgão que vai administrar o novo imposto dos estados e municípios e repartir o dinheiro entre eles"
+  },
+  {
+   "term": "ICMS",
+   "fala": "b012",
+   "sentence": 8,
+   "plain": "imposto estadual sobre circulação de mercadorias e serviços, hoje com uma lei diferente em cada estado"
+  },
+  {
+   "term": "ISS",
+   "fala": "b012",
+   "sentence": 8,
+   "plain": "imposto que os municípios cobram sobre serviços"
+  },
+  {
+   "term": "PIS/COFINS",
+   "fala": "b028",
+   "sentence": 21,
+   "plain": "duas contribuições federais cobradas sobre o faturamento das empresas, que a reforma substitui pela CBS"
+  },
+  {
+   "term": "lei complementar",
+   "fala": "b010",
+   "sentence": 44,
+   "plain": "lei que detalha o que a Constituição definiu em linhas gerais e precisa de maioria absoluta para ser aprovada"
+  }
+ ]
+}

@@ -1,0 +1,432 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ideias-em-rede-kunumi/shared/hearing-sim.schema.json",
+  "title": "HearingSim",
+  "description": "Contrato hearing-sim-v2 entre src/sim/build_scene.py e o simulador em web/src/sim. Uma audiência pública pronta para ser jogada: elenco, plateia, a cadeira vaga, as teses, a linha do tempo em páginas (versão em palavras simples + original verbatim), o baralho de cartas (afirmações e perguntas), fatos, consensos, glossário e o enquadramento da imprensa. Todo texto atribuído a uma pessoa nomeada é verbatim ou traz o original verbatim ao lado, sempre com a referência de origem (ref).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version", "id", "name", "date", "committee", "words", "synopsis", "stakes", "central_question",
+    "synopsis_plain", "stakes_plain", "central_question_plain", "themes", "cast", "audience", "player", "teses",
+    "timeline", "deck", "facts", "consensus", "glossario", "press", "meta"
+  ],
+  "properties": {
+    "version": { "const": "hearing-sim-v2" },
+    "id": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string" },
+    "date": { "type": ["string", "null"] },
+    "committee": { "type": ["string", "null"] },
+    "words": { "type": "integer", "minimum": 0 },
+    "synopsis": { "type": "string" },
+    "stakes": { "type": "string" },
+    "central_question": { "type": "string" },
+    "synopsis_plain": { "type": "string" },
+    "stakes_plain": { "type": "string" },
+    "central_question_plain": { "type": "string" },
+    "themes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Theme" } },
+    "cast": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/CastMember" } },
+    "audience": { "$ref": "#/$defs/Audience" },
+    "player": { "$ref": "#/$defs/Player" },
+    "teses": { "type": "array", "minItems": 3, "maxItems": 6, "items": { "$ref": "#/$defs/Tese" } },
+    "timeline": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Event" } },
+    "deck": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Card" } },
+    "facts": { "type": "array", "items": { "$ref": "#/$defs/Fact" } },
+    "consensus": { "type": "array", "items": { "$ref": "#/$defs/Consensus" } },
+    "glossario": { "type": "array", "items": { "$ref": "#/$defs/GlossaryTerm" } },
+    "press": { "$ref": "#/$defs/Press" },
+    "meta": { "$ref": "#/$defs/Meta" }
+  },
+  "$defs": {
+    "Role": { "type": "string", "enum": ["mesa", "parlamentar", "governo", "sociedade_civil", "setor_privado", "convidado"] },
+    "Position": { "type": "string", "enum": ["favoravel", "contrario", "condicional", "neutro"] },
+    "Side": { "type": "string", "enum": ["favoravel", "contrario"] },
+    "QuestionPosition": { "type": "string", "enum": ["favoravel", "contrario", "neutro"] },
+    "ClaimType": { "type": "string", "enum": ["dado", "principio", "experiencia", "juridico", "economico", "precedente"] },
+    "Strength": { "type": "string", "enum": ["forte", "media"] },
+    "Tone": { "type": "string", "enum": ["tecnico", "emotivo", "juridico", "politico"] },
+    "Seat": { "type": "string", "enum": ["mesa", "bancada", "debatedores", "remoto"] },
+    "RelationKind": { "type": "string", "enum": ["apoia", "contradiz", "responde"] },
+    "MesaMove": {
+      "type": "string",
+      "enum": ["abre", "apresenta", "passa_palavra", "pede_conclusao", "corta", "anuncia_presenca", "audiodescricao", "ordem", "microfone", "cortesia", "encerra"]
+    },
+    "Ref": { "type": "string", "description": "origem verbatim: fala.sentença ou fala.início-fim", "pattern": "^b[0-9]{3}\\.[0-9]+(-[0-9]+)?$" },
+    "FalaId": { "type": "string", "pattern": "^b[0-9]{3}$" },
+    "SpeakerId": { "type": "string", "pattern": "^s[0-9]{2,3}$" },
+    "Original": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "ref"],
+      "properties": {
+        "text": { "type": "string", "maxLength": 600, "description": "trecho verbatim da transcrição" },
+        "ref": { "$ref": "#/$defs/Ref" }
+      }
+    },
+    "Theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "description", "axis", "contested"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "axis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pro", "contra", "pro_plain", "contra_plain"],
+          "properties": {
+            "pro": { "type": "string" },
+            "contra": { "type": "string" },
+            "pro_plain": { "type": "string" },
+            "contra_plain": { "type": "string" }
+          }
+        },
+        "contested": { "type": "boolean" }
+      }
+    },
+    "CastMember": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "role", "cargo", "org", "byline", "org_plain", "seat", "seat_index", "remote", "falas", "words"],
+      "properties": {
+        "id": { "$ref": "#/$defs/SpeakerId" },
+        "name": { "type": "string", "description": "como está na ata" },
+        "role": { "$ref": "#/$defs/Role" },
+        "cargo": { "type": "string" },
+        "org": { "type": ["string", "null"] },
+        "byline": { "type": ["string", "null"], "description": "como a pessoa é referida numa frase: 'do Ibama'; null para a mesa" },
+        "org_plain": { "type": ["string", "null"], "description": "o que é a instituição, em palavras simples" },
+        "seat": { "$ref": "#/$defs/Seat" },
+        "seat_index": { "type": "integer", "minimum": 0, "description": "posição dentro do grupo de assentos" },
+        "remote": { "type": "boolean" },
+        "falas": { "type": "array", "items": { "$ref": "#/$defs/FalaId" }, "description": "falas substantivas desta pessoa" },
+        "words": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "Audience": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["estimate", "rows", "composition", "confidence"],
+      "properties": {
+        "estimate": { "type": "integer", "minimum": 0 },
+        "rows": { "type": "integer", "minimum": 0 },
+        "composition": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "count"],
+            "properties": { "role": { "$ref": "#/$defs/Role" }, "count": { "type": "integer", "minimum": 0 } }
+          }
+        },
+        "confidence": { "type": "string", "enum": ["alta", "media", "baixa"] }
+      }
+    },
+    "Player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["seat", "seat_index", "slots", "moves_per_floor"],
+      "properties": {
+        "seat": { "$ref": "#/$defs/Seat" },
+        "seat_index": { "type": "integer", "minimum": 0 },
+        "slots": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "anyOf": [{ "$ref": "#/$defs/FalaId" }, { "type": "null" }] },
+          "description": "depois de que fala a presidência concede a palavra à cadeira vaga; null = depois da última fala"
+        },
+        "moves_per_floor": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "RoleCount": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mesa": { "type": "integer", "minimum": 0 },
+        "parlamentar": { "type": "integer", "minimum": 0 },
+        "governo": { "type": "integer", "minimum": 0 },
+        "sociedade_civil": { "type": "integer", "minimum": 0 },
+        "setor_privado": { "type": "integer", "minimum": 0 },
+        "convidado": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "Tese": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "statement_plain", "core_theme", "positions", "claims_chave", "note", "defenders", "opponents", "defender_orgs", "opponent_orgs", "rivals", "aligned_cards", "opposed_cards"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "statement_plain": { "type": "string" },
+        "core_theme": { "type": "string" },
+        "positions": { "type": "object", "minProperties": 1, "additionalProperties": { "$ref": "#/$defs/Side" }, "description": "tema -> lado que a tese toma" },
+        "claims_chave": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "note": { "type": "string" },
+        "defenders": { "$ref": "#/$defs/RoleCount", "description": "oradores distintos com ao menos uma carta alinhada, por papel" },
+        "opponents": { "$ref": "#/$defs/RoleCount" },
+        "defender_orgs": { "type": "array", "items": { "type": "string" }, "description": "instituições (nunca nomes de pessoas), por ordem de fala" },
+        "opponent_orgs": { "type": "array", "items": { "type": "string" } },
+        "rivals": { "type": "array", "items": { "type": "string" }, "description": "teses com posição oposta em algum tema comum" },
+        "aligned_cards": { "type": "integer", "minimum": 0 },
+        "opposed_cards": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "Page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "card", "plain", "original", "seconds"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["claim", "pergunta"] },
+        "card": { "type": "string", "description": "id da carta (claim) ou da pergunta (pergunta) no baralho" },
+        "plain": { "type": ["string", "null"], "description": "versão em palavras simples; null = mostrar o original" },
+        "original": { "$ref": "#/$defs/Original" },
+        "seconds": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "Event": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "id", "move", "speaker", "text", "original", "seconds"],
+          "properties": {
+            "kind": { "const": "mesa" },
+            "id": { "$ref": "#/$defs/FalaId" },
+            "move": { "$ref": "#/$defs/MesaMove" },
+            "speaker": { "$ref": "#/$defs/SpeakerId" },
+            "text": { "type": "string", "maxLength": 160, "description": "o cartão da mesa, em palavras simples e em 3ª pessoa (resumo do ato)" },
+            "original": { "$ref": "#/$defs/Original" },
+            "seconds": { "type": "number", "minimum": 0 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "id", "speaker", "theme", "seconds", "t0", "summary", "stance", "applause", "covered", "interrupted", "tone", "pages"],
+          "properties": {
+            "kind": { "const": "fala" },
+            "id": { "$ref": "#/$defs/FalaId" },
+            "speaker": { "$ref": "#/$defs/SpeakerId" },
+            "theme": { "type": "string" },
+            "seconds": { "type": "number", "minimum": 0 },
+            "t0": { "type": "number", "minimum": 0, "maximum": 1, "description": "momento na sessão real (fração)" },
+            "summary": { "type": "string", "description": "resumo gerado por modelo; exibir sempre rotulado como resumo" },
+            "stance": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["position", "claim", "ref"],
+              "properties": {
+                "position": { "$ref": "#/$defs/Position" },
+                "claim": { "type": "string" },
+                "ref": { "$ref": "#/$defs/Ref" }
+              }
+            },
+            "applause": { "type": "integer", "minimum": 0 },
+            "covered": { "type": "boolean" },
+            "interrupted": { "type": "boolean" },
+            "tone": { "$ref": "#/$defs/Tone" },
+            "pages": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Page" } }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "slot", "after"],
+          "properties": {
+            "kind": { "const": "floor" },
+            "slot": { "type": "integer", "minimum": 1 },
+            "after": { "$ref": "#/$defs/FalaId" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "text", "original", "speaker"],
+          "properties": {
+            "kind": { "const": "close" },
+            "text": { "type": ["string", "null"], "maxLength": 160 },
+            "original": { "anyOf": [{ "$ref": "#/$defs/Original" }, { "type": "null" }] },
+            "speaker": { "anyOf": [{ "$ref": "#/$defs/SpeakerId" }, { "type": "null" }] }
+          }
+        }
+      ]
+    },
+    "Reaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "fala", "speaker", "role", "card", "anchor", "plain", "text", "ref", "note", "strength"],
+      "properties": {
+        "kind": { "$ref": "#/$defs/RelationKind" },
+        "fala": { "$ref": "#/$defs/FalaId" },
+        "speaker": { "$ref": "#/$defs/SpeakerId" },
+        "role": { "$ref": "#/$defs/Role" },
+        "card": { "type": ["string", "null"], "description": "a carta do outro lado da relação: num gatilho, a carta de quem reage (from_claim ou a carta de from_sentence); numa asserção, a carta atingida (to_claim ou a carta de to_sentence). null quando a sentença não pertence a carta" },
+        "anchor": { "enum": ["carta", "fala"], "description": "carta: a relação aponta esta carta. fala: aponta a fala inteira, sem carta, e a reação repete em todas as cartas da fala" },
+        "plain": { "type": ["string", "null"], "description": "versão simples da carta a que a sentença pertence, se houver" },
+        "text": { "type": "string", "maxLength": 600 },
+        "ref": { "$ref": "#/$defs/Ref" },
+        "note": { "type": "string" },
+        "strength": { "$ref": "#/$defs/Strength" }
+      }
+    },
+    "Card": {
+      "oneOf": [{ "$ref": "#/$defs/ClaimCard" }, { "$ref": "#/$defs/QuestionCard" }]
+    },
+    "ClaimCard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "fala", "speaker", "role", "theme", "type", "strength", "position", "consensus", "gist", "plain", "text", "ref", "seconds", "fact", "triggers", "asserts"],
+      "properties": {
+        "kind": { "const": "claim" },
+        "id": { "type": "string" },
+        "fala": { "$ref": "#/$defs/FalaId" },
+        "speaker": { "$ref": "#/$defs/SpeakerId" },
+        "role": { "$ref": "#/$defs/Role" },
+        "theme": { "type": "string" },
+        "type": { "$ref": "#/$defs/ClaimType" },
+        "strength": { "$ref": "#/$defs/Strength" },
+        "position": { "$ref": "#/$defs/Position", "description": "posição desta carta no eixo do tema dela" },
+        "consensus": { "type": "boolean", "description": "a carta está listada em claims de um grupo de consensus" },
+        "gist": { "type": "string", "description": "oração que completa 'sustento o que disse X: que ...'" },
+        "plain": { "type": ["string", "null"] },
+        "text": { "type": "string", "maxLength": 600 },
+        "ref": { "$ref": "#/$defs/Ref" },
+        "seconds": { "type": "integer", "minimum": 1 },
+        "fact": { "type": ["string", "null"] },
+        "triggers": { "type": "array", "items": { "$ref": "#/$defs/Reaction" }, "description": "quem reage a esta carta (relações que chegam à fala de origem, e disputas de dado)" },
+        "asserts": { "type": "array", "items": { "$ref": "#/$defs/Reaction" }, "description": "o que esta carta faz a falas anteriores (relações que saem da fala de origem)" }
+      }
+    },
+    "QuestionCard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "fala", "speaker", "role", "theme", "position", "addressed_to", "gist", "plain", "text", "ref", "seconds", "answered_by_real"],
+      "properties": {
+        "kind": { "const": "pergunta" },
+        "id": { "type": "string" },
+        "fala": { "$ref": "#/$defs/FalaId" },
+        "speaker": { "$ref": "#/$defs/SpeakerId" },
+        "role": { "$ref": "#/$defs/Role" },
+        "theme": { "type": "string" },
+        "position": { "$ref": "#/$defs/QuestionPosition" },
+        "addressed_to": { "$ref": "#/$defs/Role" },
+        "gist": { "type": "string", "description": "a pergunta em palavras simples, sem o '?' final (para o molde)" },
+        "plain": { "type": "string" },
+        "text": { "type": "string", "maxLength": 600 },
+        "ref": { "$ref": "#/$defs/Ref" },
+        "seconds": { "type": "integer", "minimum": 1 },
+        "answered_by_real": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["fala", "card", "speaker", "plain", "text", "ref"],
+              "properties": {
+                "fala": { "$ref": "#/$defs/FalaId" },
+                "card": { "type": ["string", "null"] },
+                "speaker": { "$ref": "#/$defs/SpeakerId" },
+                "plain": { "type": ["string", "null"] },
+                "text": { "type": "string", "maxLength": 600 },
+                "ref": { "$ref": "#/$defs/Ref" }
+              }
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "Fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "fala", "speaker", "gist", "text", "ref", "disputed_by"],
+      "properties": {
+        "id": { "type": "string" },
+        "fala": { "$ref": "#/$defs/FalaId" },
+        "speaker": { "$ref": "#/$defs/SpeakerId" },
+        "gist": { "type": "string" },
+        "text": { "type": "string", "maxLength": 600 },
+        "ref": { "$ref": "#/$defs/Ref" },
+        "disputed_by": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["fala", "card", "speaker", "role", "plain", "text", "ref"],
+            "properties": {
+              "fala": { "$ref": "#/$defs/FalaId" },
+              "card": { "type": ["string", "null"] },
+              "speaker": { "$ref": "#/$defs/SpeakerId" },
+              "role": { "$ref": "#/$defs/Role" },
+              "plain": { "type": ["string", "null"] },
+              "text": { "type": "string", "maxLength": 600 },
+              "ref": { "$ref": "#/$defs/Ref" }
+            }
+          }
+        }
+      }
+    },
+    "Consensus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["theme", "falas", "cards", "roles", "note"],
+      "properties": {
+        "theme": { "type": "string" },
+        "falas": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/FalaId" } },
+        "cards": { "type": "array", "items": { "type": "string" }, "description": "as cartas marcadas como consenso por este grupo (claims da anotação)" },
+        "roles": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/Role" } },
+        "note": { "type": "string" }
+      }
+    },
+    "GlossaryTerm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["term", "plain", "ref"],
+      "properties": {
+        "term": { "type": "string", "description": "exatamente como aparece na transcrição" },
+        "plain": { "type": "string" },
+        "ref": { "$ref": "#/$defs/Ref" }
+      }
+    },
+    "Press": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["themes_covered", "roles_quoted", "angle", "omitted", "covered_falas"],
+      "properties": {
+        "themes_covered": { "type": "array", "items": { "type": "string" } },
+        "roles_quoted": { "type": "array", "items": { "$ref": "#/$defs/Role" } },
+        "angle": { "type": "string" },
+        "omitted": { "type": "string" },
+        "covered_falas": { "type": "array", "items": { "$ref": "#/$defs/FalaId" } }
+      }
+    },
+    "Meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "created", "prompt_sha256", "sentences_hash", "builder", "quote_max", "built", "plain_pages", "plain_dropped", "relations", "verify", "review"],
+      "properties": {
+        "model": { "type": "string" },
+        "created": { "type": "string" },
+        "prompt_sha256": { "type": "string" },
+        "sentences_hash": { "type": "string" },
+        "builder": { "type": "string" },
+        "quote_max": { "type": "integer" },
+        "built": { "type": "string" },
+        "plain_pages": { "type": "integer", "minimum": 0, "description": "páginas com versão simples" },
+        "plain_dropped": { "type": "integer", "minimum": 0, "description": "versões simples reprovadas pela verificação e trocadas pelo original" },
+        "relations": { "type": "integer", "minimum": 0, "description": "relações anotadas (o que o índice exibe)" },
+        "verify": {
+          "anyOf": [
+            { "type": "object", "additionalProperties": false, "required": ["model", "created"], "properties": { "model": { "type": "string" }, "created": { "type": "string" } } },
+            { "type": "null" }
+          ]
+        },
+        "review": {
+          "anyOf": [
+            { "type": "object", "additionalProperties": false, "required": ["pairs_read", "pairs_fixed"], "properties": { "pairs_read": { "type": "integer", "minimum": 0 }, "pairs_fixed": { "type": "integer", "minimum": 0 } } },
+            { "type": "null" }
+          ]
+        }
+      }
+    }
+  }
+}

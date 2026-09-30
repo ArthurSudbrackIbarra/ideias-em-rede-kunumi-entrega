@@ -1,0 +1,1728 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 139,
+ "model": "LLM lendo o prompt hearing-139 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:24:55Z",
+ "prompt_sha256": "2023b4482d0c838f64657f74c9733694fec96787a9bd450821e0ab793595fc3e",
+ "sentences_hash": "d5d7c001fc46d7ea",
+ "review": {
+  "pairs_read": 33,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão da Amazônia e dos Povos Originários e Tradicionais ouviu defensoras públicas, antropólogos e representantes do Executivo sobre o tratamento de pessoas indígenas presas no Brasil. Os expositores relataram falta de intérprete, ausência de laudo antropológico e registros que não anotam a identidade indígena, o que produz subnotificação nos dados oficiais. A presidência propôs construir, por consulta pública, uma legislação prisional específica para indígenas.",
+ "stakes": "Se a Comissão encaminha a construção de uma lei prisional específica para indígenas e os ofícios cobrados na audiência.",
+ "central_question": "Como o Estado brasileiro deve tratar as pessoas indígenas privadas de liberdade, e uma lei específica resolveria o problema?",
+ "synopsis_plain": "A Comissão da Amazônia e dos Povos Originários e Tradicionais ouviu defensoras públicas, antropólogos e representantes do governo sobre indígenas presos no Brasil. Eles contaram que falta tradutor, falta laudo de antropólogo e que o sistema não anota quem é indígena, o que esconde o tamanho do problema. A presidência propôs construir, por consulta pública, uma lei prisional só para indígenas.",
+ "stakes_plain": "Se o Congresso vai propor uma lei prisional específica para indígenas e o que a Comissão vai encaminhar a partir desta audiência.",
+ "central_question_plain": "Como o Brasil deve tratar as pessoas indígenas presas, e uma lei só para elas resolveria?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Indígenas presos em números",
+   "description": "Quantas pessoas indígenas estão presas no Brasil, onde estão e por que os registros oficiais não mostram isso.",
+   "axis": {
+    "pro": "O encarceramento de indígenas é desproporcional e os registros oficiais escondem parte dele.",
+    "contra": "Os números que o poder público publica já dão a dimensão real do problema.",
+    "pro_plain": "Há mais indígenas presos do que os registros mostram, porque o sistema não anota quem é indígena.",
+    "contra_plain": "Os números que o poder público já coleta mostram quantos indígenas estão presos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Lei prisional específica",
+   "description": "Se o Brasil precisa de uma lei própria sobre indígenas no sistema penitenciário ou se o problema não se resolve por norma.",
+   "axis": {
+    "pro": "O Brasil precisa de uma lei específica sobre indígenas no sistema penitenciário.",
+    "contra": "A norma por si só não resolve, o problema está na prática e na formação de quem aplica a lei.",
+    "pro_plain": "Falta uma lei sobre indígenas presos, e resolução do Conselho Nacional de Justiça não obriga ninguém.",
+    "contra_plain": "Criar mais norma não muda nada, porque o problema está em como a Justiça funciona e em como formam os juristas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Intérprete e laudo antropológico",
+   "description": "Se o indígena preso tem garantido o direito a tradutor e a laudo antropológico no processo, e quem paga por isso.",
+   "axis": {
+    "pro": "Todo processo contra indígena precisa de intérprete e de laudo antropológico pagos pelo Estado.",
+    "contra": "O processo segue sem intérprete e sem laudo quando o sistema não tem esses profissionais.",
+    "pro_plain": "Quem é indígena tem direito a tradutor e a um laudo de antropólogo no processo, e o Estado tem de pagar.",
+    "contra_plain": "Sem profissional disponível nem documento que comprove a língua, o processo acaba correndo sem tradutor."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Criminalização e luta pela terra",
+   "description": "Se prender e processar indígenas faz parte do conflito por território e da história de repressão contra esses povos.",
+   "axis": {
+    "pro": "A criminalização de indígenas é parte da disputa pela terra e serve para barrar direitos.",
+    "contra": "Os processos penais são casos individuais, sem relação com a disputa por território.",
+    "pro_plain": "Prender e processar indígenas é parte da briga pela terra e serve para impedir o acesso a direitos.",
+    "contra_plain": "Cada caso na Justiça é um caso individual e não tem a ver com a disputa por território."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Justiça etnocêntrica e formação jurídica",
+   "description": "Se o conceito de justiça e a formação dos juristas no Brasil ignoram os povos indígenas e o que mudaria isso.",
+   "axis": {
+    "pro": "O modelo de justiça e a formação dos juristas no Brasil são etnocêntricos e precisam mudar.",
+    "contra": "A Justiça é imparcial e a formação atual dá conta de julgar qualquer pessoa.",
+    "pro_plain": "A ideia de Justiça cega e a formação dos juristas foram feitas para um só tipo de gente e precisam mudar.",
+    "contra_plain": "A Justiça já é imparcial e a formação de hoje serve para julgar qualquer pessoa."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Cárcere e desencarceramento",
+   "description": "Se a saída é reduzir o encarceramento ou fortalecer a estrutura e a rede que atende quem está preso.",
+   "axis": {
+    "pro": "O caminho é reduzir o encarceramento, porque a prisão viola direitos.",
+    "contra": "O caminho é fortalecer a rede de atendimento e o recurso do sistema prisional.",
+    "pro_plain": "A prisão viola direitos, então o caminho é prender menos gente.",
+    "contra_plain": "O caminho é dar mais recurso e mais rede de atendimento ao sistema prisional."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Presença da Defensoria Pública",
+   "description": "Se há defensores públicos suficientes para atender os povos indígenas em todas as comarcas do País.",
+   "axis": {
+    "pro": "Faltam defensores públicos nas comarcas, e sem eles o indígena preso fica sem defesa.",
+    "contra": "A presença da Defensoria já é suficiente e ampliá-la não é a prioridade.",
+    "pro_plain": "Sem defensor público em cada comarca, o indígena preso fica sem quem o defenda.",
+    "contra_plain": "A Defensoria já chega onde precisa e ampliar o quadro não é o mais urgente."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da Comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "aberta por Célia Xakriabá em b001.0 e passada ao Deputado Defensor Stélio Dener em b005.19",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão da Amazônia e dos Povos Originários e Tradicionais, da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Defensora Pública da União, coordenadora do Grupo de Trabalho Povos Indígenas",
+   "org": "DPU",
+   "basis": "apresentada pela presidência em b001.8",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Defensoria Pública da União em Mato Grosso do Sul",
+   "org_plain": "órgão federal que faz a defesa gratuita de quem não pode pagar advogado"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "representante do Instituto das Irmãs da Santa Cruz e do Conselho Indigenista Missionário",
+   "org": "CIMI",
+   "basis": "apresentada pela presidência em b001.13",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Indigenista Missionário",
+   "org_plain": "entidade ligada à Igreja Católica que acompanha causas dos povos indígenas no Brasil"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "vice-coordenador do Comitê de Laudos Antropológicos",
+   "org": "ABA",
+   "basis": "apresentado pela presidência em b001.17",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Associação Brasileira de Antropologia",
+   "org_plain": "associação científica dos antropólogos do Brasil, que indica peritos para a Justiça"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "assessor da Secretaria-Executiva do Ministério dos Povos Indígenas",
+   "org": "MPI",
+   "basis": "apresentado pela presidência em b013.16",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Povos Indígenas",
+   "org_plain": "ministério do governo federal responsável pelas políticas voltadas aos povos indígenas"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Defensora Pública-Geral do Estado da Bahia e vice-presidente do CONDEGE",
+   "org": "DPE-BA",
+   "basis": "apresentada pela presidência em b005.17 e em b013.7",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "defensora pública-geral da Bahia",
+   "org_plain": "órgão do Estado da Bahia que faz a defesa gratuita de quem não pode pagar advogado"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Coordenadora Nacional de Assistência Social da Secretaria Nacional de Políticas Penais",
+   "org": "Senappen",
+   "basis": "apresentada pela presidência em b001.15",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Políticas Penais",
+   "org_plain": "órgão do Ministério da Justiça que cuida da política para presídios, antes chamado de Depen"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "antropólogo, representante da Associação Brasileira de Antropologia",
+   "org": "ABA",
+   "basis": "apresentado pela presidência em b001.18 e em b019.14",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "antropólogo, da Associação Brasileira de Antropologia",
+   "org_plain": "associação científica dos antropólogos do Brasil, que recebe pedidos de laudo antropológico"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   },
+   {
+    "role": "convidado",
+    "share": 0.05
+   }
+  ],
+  "basis": "palmas registradas em b001, b002, b004 e b016, a assessoria e os convidados citados em b001.4, as defensoras públicas presentes citadas em b016.5 e os representantes de organizações e movimentos saudados em b006.1",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Abre a audiência, apresenta dados de 2021 sobre indígenas presos, lembra a criminalização de lideranças e propõe uma legislação prisional específica por consulta pública.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O País precisa de uma legislação prisional específica para as questões indígenas, construída a partir de consulta pública.",
+    "sentence": 84
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2021 Mato Grosso do Sul detinha 40,9% das pessoas indígenas presas no Brasil, e os mais encarcerados eram guarani-kaiowá e macuxi",
+     "plain": "Dados de 2021 mostram que Mato Grosso do Sul tinha 40,9% de todas as pessoas indígenas presas no Brasil. Entre os povos mais encarcerados aparecem o guarani-kaiowá, com 17,6%, e o macuxi, com 13,2%."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      80,
+      81,
+      82
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quando tentaram matar o Cacique Babau não queriam matar só o corpo, porque já havia uma narrativa de criminalização contra ele",
+     "plain": "Foi muito violento o que vivemos com o Cacique Babau. Ele dizia que, quando tentaram matá-lo, não queriam matar só o corpo dele: já havia uma narrativa de criminalização e colocaram drogas no carro dele para matar a sua história."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      84
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o mandato dela fica à disposição para pensar, com a mesa e por consulta pública, uma legislação prisional específica para indígenas",
+     "plain": "Como encaminhamento desta audiência, coloco o nosso mandato à disposição, junto com a senhora e com quem está na Mesa, para pensarmos uma legislação prisional específica para as questões indígenas, a partir de uma consulta pública."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata que um terço dos indígenas presos no Brasil está em Mato Grosso do Sul e que, no mutirão de atendimento, quase ninguém teve tradutor ou perícia antropológica.",
+   "quote": [
+    40,
+    41,
+    42
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12,
+    13,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem tradutor e sem perícia antropológica, o processo penal desconsidera as diferenças culturais dos indígenas presos.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um terço dos presos indígenas do Brasil está em celas de Mato Grosso do Sul, e a imensa maioria é guarani-kaiowá",
+     "plain": "Um terço dos presos indígenas do Brasil está em celas de Mato Grosso do Sul. Isso é muito chocante, e a imensa maioria desse um terço é de guarani-kaiowá."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Resolução nº 287, de 2019, do Conselho Nacional de Justiça é um passo importante, mas no Brasil não existe uma legislação",
+     "plain": "A Resolução nº 287, de 2019, do Conselho Nacional de Justiça é um passo importante para reconhecer direitos e garantias. Mas no Brasil não existe, de fato, uma legislação sobre isso."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a imensa maioria não teve tradutor nem perícia antropológica, e alguns presos não sabiam por que estavam presos",
+     "plain": "Ali nós confirmamos algo que já sabíamos: a imensa maioria não teve o direito a tradutor respeitado, e quase todos ficaram sem perícia antropológica. O mais estarrecedor é que alguns nem sabiam por que estavam presos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Anuncia duas audiências em Mato Grosso do Sul, chama atenção para a violência contra as indígenas presas grávidas e lembra a pena que chegou sem tradução.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As indígenas presas sofrem uma violência adicional quando estão grávidas, e a pena chega sem tradução.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as indígenas encarceradas passam por outro processo de violência quando estão gestantes",
+     "plain": "Precisamos entender também a situação das mulheres encarceradas. Quando elas estão gestantes, há mais um processo de violência."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      8
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "presos indígenas não sabiam qual era a pena porque a tradução não havia comunicado",
+     "plain": "A senhora mesma contou que eles nem sabiam da pena, porque a tradução ainda não tinha comunicado qual seria."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Liga a criminalização de indígenas à luta pelo território, aponta sistemas que não registram a etnia e pede orçamento para intérpretes e laudos antropológicos.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19
+   ],
+   "open_question": 45,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A criminalização de indígenas tem sido usada para impedir o acesso ao território e a direitos.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      11
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando se debate o marco temporal e o direito ao território ancestral, a criminalização é usada para impedir o acesso a direitos",
+     "plain": "Quando debatemos pautas como o marco temporal e o direito ao território ancestral, a criminalização tem sido usada também para impedir esse acesso a direitos."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há sistemas no Brasil que não identificam a etnia, e a subnotificação também se deve à carga discriminatória da colonização e da ditadura",
+     "plain": "Há sistemas no Brasil que não dão conta de identificar a etnia. A subnotificação também se explica por uma carga discriminatória da colonização e da ditadura militar, e as pessoas não querem se identificar diante de quem prende."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além de identificar, é essencial ter dotação orçamentária para pagar intérpretes e os laudos antropológicos que qualificam o julgamento",
+     "plain": "Identificar é só o primeiro passo. É essencial ter dinheiro no orçamento para pagar intérpretes e para que quem faz laudo antropológico receba honorários, o que qualifica o julgamento do juiz."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra o Reformatório Krenak e a tortura de indígenas na ditadura, e alerta que nos últimos 4 anos se quis levantar indígenas presos para criminalizar.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A história de tortura de indígenas na ditadura explica o encarceramento de hoje, e os dados não podem servir para criminalizar.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Reformatório Krenak foi um campo de concentração indígena na ditadura militar, para onde indígenas eram levados e torturados",
+     "plain": "Eu venho de Minas Gerais, e poucas pessoas conhecem o Reformatório Krenak. Foi um campo de concentração para indígenas de todo o Brasil na ditadura militar, e eles eram levados para lá e torturados."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      10
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um estudo pesquisou 10 povos indígenas e, extrapolando, indica mais de 8 mil indígenas torturados na ditadura militar",
+     "plain": "A Comissão Nacional da Memória e da Verdade estudou apenas 10 povos indígenas. Se extrapolarmos esse número, houve mais de 8 mil indígenas torturados no tempo da ditadura militar."
+    },
+    {
+     "id": "b005c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "há dois problemas, a subnotificação e a tentativa, nos últimos 4 anos, de levantar indígenas presos para criminalizar esse povo",
+     "plain": "Existem dois problemas aqui: a subnotificação e a tentativa, nos últimos 4 anos, de levantar quantos indígenas estavam presos para criminalizar, para dizer que essa população comete crimes. Isso é muito perigoso para as questões indígenas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que o racismo e a colonialidade são um problema estrutural e que o racismo na esfera penal se agrava quando os povos indígenas lutam por direitos.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O racismo contra indígenas na esfera penal é estrutural e se agrava no contexto da luta por direitos.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o racismo e a colonialidade são um problema estrutural de fundo que dá sentido e unifica todos esses problemas",
+     "plain": "A questão de fundo que eu quero colocar é o racismo. Racismo e colonialidade são um problema estrutural que dá sentido a todos esses problemas e os unifica."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o racismo na esfera penal tem de ser lido no conflito por direitos, e esse estado penal é um estado de exceção que se agrava",
+     "plain": "Existe um racismo na esfera penal, e eu acho que ele tem de ser lido no contexto global de luta por direitos dos próprios povos indígenas. Esse estado penal é um estado de exceção que se agrava quando esses povos lutam por direitos."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há um ativismo discriminatório no Judiciário, no Estado e na sociedade civil, e também formas cotidianas de discriminação involuntárias",
+     "plain": "Há um ativismo discriminatório que pode estar no Poder Judiciário, no Estado e na administração pública, mas também na sociedade civil. Além da discriminação consciente e intencional, há formas cotidianas mais ou menos involuntárias."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se a conexão caiu e pede que Andrey continue.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O antropólogo se desculpa e diz que a conexão está instável.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Andrey continue a exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O antropólogo pergunta até onde conseguiram ouvi-lo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que se perderam apenas os últimos 20 segundos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O antropólogo diz que está bem, e a transmissão falha de novo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Andrey deixe só o áudio, chama Caíque e convida a defensora-geral da Bahia a falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Propõe três chaves de leitura, defende tirar a venda da Justiça, diz que a norma sozinha não dá conta e afirma que a subnotificação é escolhida.",
+   "quote": [
+    31,
+    32
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O conceito europeu de justiça cega precisa ser revisto, e a norma sozinha não resolve o encarceramento indígena.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pesquisas consolidadas mostram que gênero, raça e etnia são usados nas sentenças, normalmente para aumentar a pena",
+     "plain": "Vemos isso nas sentenças criminais. Há pesquisas bem consolidadas mostrando que gênero, raça e etnia entram na sentença, em geral para aumentar a pena, e é essa venda da Justiça que precisamos tirar."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      47,
+      48
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "várias normas já tratam do tema, mas a norma por si só não dá conta e provavelmente nunca deu",
+     "plain": "A Resolução nº 287, a Resolução nº 454, o Estatuto do Índio e a Resolução nº 13 já tratam do tema. Mas a norma sozinha não vai dar conta, e provavelmente nunca deu, então precisamos de um movimento de reflorestar."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a subnotificação não é aleatória, ela é escolhida, e gera invisibilização, o que impede política pública eficiente",
+     "plain": "A subnotificação não é aleatória, ela é escolhida, e o que ela gera é invisibilização. Assim não construímos política pública eficiente e mantemos a população indígena do cárcere na mesma lógica de sempre."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede à vice-presidente do CONDEGE que fale sobre a Defensoria Pública e o tema da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Relata que a Emenda Constitucional nº 80 não foi cumprida, mostra o déficit de defensores na Bahia e afirma que a Defensoria é contra o encarceramento.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Faltam defensores públicos para atender os povos indígenas em todas as comarcas, e a Defensoria defende o desencarceramento.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Emenda Constitucional nº 80, de 2014, deu 8 anos para a Defensoria estar em todas as comarcas, e a meta não foi atingida",
+     "plain": "A Emenda Constitucional nº 80, de 2014, deu prazo de 8 anos para a Defensoria Pública estar em todas as comarcas do Brasil. Não atingimos essa meta, e o Estado brasileiro tem esse débito com a sociedade e com os povos originários."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Bahia tem 417 municípios e 416 defensores em atuação para 583 cargos, e o IPEA indica que seriam necessários mais de 800",
+     "plain": "A Bahia tem 417 municípios e nós temos 416 defensores públicos em atuação, para 583 cargos. Pelos dados do IPEA, precisaríamos ser mais de 800 para chegar a todo o Estado com dignidade e com especialização."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Defensoria Pública é contra o encarceramento e é a instituição que mais tem defendido políticas desencarceradoras",
+     "plain": "A Defensoria Pública tem lado quando se fala de encarceramento: ela é totalmente contra o superencarceramento e contra o encarceramento. Talvez seja, no sistema de Justiça, a que mais tem defendido políticas desencarceradoras."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pede que a Comissão envie ofício contra o veto ao projeto que amplia a presença de defensores públicos da União nas comarcas.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 7,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O veto ao projeto reduziria a presença da Defensoria da União nas comarcas e prejudicaria as comunidades indígenas.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um veto da Presidência da República deixaria os defensores públicos da União em menos comarcas e atenderia menos as comunidades indígenas",
+     "plain": "A Defensoria da União corre o risco de um veto da Presidência da República a um projeto de lei que relatamos aqui. Se o veto vier, os defensores estarão em menos comarcas da Justiça Federal e atenderão menos as comunidades indígenas."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      7
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão deve enviar ofício ao Presidente da República e ao Ministro Flávio Dino pedindo que o projeto não seja vetado",
+     "plain": "Meu encaminhamento é enviar ofício ao Presidente da República e ao Ministro Flávio Dino, em nome desta Comissão, pedindo que o projeto não seja vetado, porque a Defensoria da União precisa chegar a mais comarcas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Informa que há 1.226 pessoas indígenas privadas de liberdade, reconhece a subnotificação nos Estados e diz que falta percentual mínimo de recurso para grupos vulneráveis.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A Secretaria Nacional de Políticas Penais coleta os dados de indígenas presos e enfrenta subnotificação e falta de recurso dirigido.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      9
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "há hoje 1.226 pessoas indígenas privadas de liberdade, 1.147 homens e 79 mulheres",
+     "plain": "Hoje temos 1.226 pessoas indígenas privadas de liberdade, sendo 1.147 homens e 79 mulheres."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "alguns Estados informam não haver indígenas custodiados, mas a Defensoria Pública consegue identificar essas pessoas",
+     "plain": "Quando coletamos esses dados, alguns Estados informam não haver pessoas indígenas custodiadas. Mas, em contato com as Defensorias Públicas, vemos que elas conseguem identificar essas pessoas e trabalhar as suas especificidades."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "não há hoje porcentagem mínima do Fundo Penitenciário Nacional para políticas voltadas a grupos vulneráveis",
+     "plain": "Cada Estado tem as suas condições de estrutura e de pessoal, e tentamos mostrar essa importância nos repasses do Fundo Penitenciário Nacional. Hoje não há porcentagem mínima desse recurso para políticas voltadas a grupos vulneráveis."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Cita o júri totalmente indígena realizado em Uiramutã e pergunta por que o Congresso não transforma práticas exitosas em proposições.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As práticas já existentes, como o júri indígena de Uiramutã, deveriam virar proposições no Congresso.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um juiz fez um júri totalmente indígena em Uiramutã, e práticas como essa poderiam virar proposições no Congresso",
+     "plain": "No meu Estado, um juiz interpretou o Código de Processo Penal e teve a coragem de realizar um júri inteiramente indígena em Uiramutã. Por que não olhamos para práticas como essa e tiramos proposições aqui no Congresso?"
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei diz que quem julga é a sociedade, e a sociedade são os pares de quem é julgado",
+     "plain": "A lei permite isso quando diz que quem julga é a sociedade, e a sociedade são os seus pares. Como colocar alguém da sede do Município, que nunca teve contato com a comunidade, para julgar quem vive distante, em outra realidade?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra processos que trocam a identidade indígena por parda, afirma que os dados oficiais não são confiáveis e relata a falta de intérpretes no Paraná.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 69,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O sistema de Justiça criminal apaga a identidade indígena, e por isso os dados oficiais não retratam a realidade.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no mesmo processo penal a cútis aparece primeiro como indígena e depois a pessoa vira parda",
+     "plain": "No processo de execução penal dessa pessoa a cútis aparece, no começo, como indígena. Isso é esquisito, porque cútis é só a parte externa da cor da pele, mas ali virou identidade, e mais à frente essa pessoa vira parda."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os dados oficiais não são confiáveis, e a Nota Técnica nº 77, de 2020, registrou zero indígena preso no Paraná",
+     "plain": "Os dados oficiais de hoje não são confiáveis, mesmo com o esforço de quem está no Ministério da Justiça. Em 2020 o Ministério fez a Nota Técnica nº 77 para levantar os indígenas presos, e no Paraná constava zero pessoa encarcerada."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      62,
+      63,
+      64
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Tribunal do Paraná exige documento de fluência, mas o kaingang é língua falada só na comunidade e esse documento não existe",
+     "plain": "No Tribunal de Justiça do Paraná, o intérprete precisa de um documento que comprove a fluência na língua. O kaingang é língua materna, falada só na comunidade, e não existe documento burocrático que comprove isso a um tribunal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra a reunião e convoca reunião deliberativa para 8 de novembro de 2023.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 84,
+   "from_claim": "b002c2",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "A defensora da União diz que a resolução do Conselho Nacional de Justiça é um passo, mas que falta legislação, e é justamente a lei prisional específica que a presidência acabara de propor como encaminhamento."
+  },
+  {
+   "from": "b003",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 42,
+   "from_claim": "b003c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A presidência retoma o relato do mutirão e destaca que havia presos que não sabiam da pena porque a tradução não havia chegado até eles."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 23,
+   "from_claim": "b004c2",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "Os dados que a presidência apresentou vêm de sistemas que, segundo o Conselho Indigenista Missionário, não conseguem registrar a etnia nem o povo de quem é preso."
+  },
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 40,
+   "from_claim": "b004c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Se no mutirão quase ninguém teve tradutor nem perícia, o Conselho Indigenista Missionário conclui que é preciso dinheiro no orçamento para pagar intérpretes e laudos antropológicos."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 43,
+   "from_claim": "b005c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O Conselho Indigenista Missionário citou o Reformatório Krenak ao fim da exposição e a presidência conta o que foi aquele lugar na ditadura militar."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 11,
+   "from_claim": "b006c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Os dois leem o racismo penal dentro da luta por direitos: a antropologia chama isso de estado de exceção que se agrava quando os povos lutam pelo território."
+  },
+  {
+   "from": "b014",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 47,
+   "to_sentence": 84,
+   "from_claim": "b014c2",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "Contra o encaminhamento de uma lei prisional específica, o Ministério dos Povos Indígenas lembra que várias normas já tratam do tema e sustenta que a norma sozinha não dá conta."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 47,
+   "to_sentence": 29,
+   "from_claim": "b014c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Onde a defensoria vê falta de legislação, o Ministério dos Povos Indígenas vê normas que já existem e que não bastaram, e diz que provavelmente nunca bastariam."
+  },
+  {
+   "from": "b014",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 50,
+   "to_sentence": 16,
+   "from_claim": "b014c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Os dois dizem que a subnotificação não é acidente: um a atribui a sistemas que não registram a etnia, o outro afirma que ela é escolhida e gera invisibilização."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 46,
+   "from_claim": "b016c3",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Onde o Conselho Indigenista Missionário pergunta por estratégias de desencarceramento, a defensoria da Bahia reforça que a instituição é contra o encarceramento e defende políticas desencarceradoras."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 12,
+   "from_claim": "b017c1",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "Com o débito de comarcas sem Defensoria que ela acabara de apontar, a presidência alerta que um veto deixaria os defensores da União em menos comarcas ainda."
+  },
+  {
+   "from": "b018",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 23,
+   "from_claim": "b018c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "A Secretaria Nacional de Políticas Penais traz o total atual do sistema de informações, 1.226 pessoas, ao lado dos percentuais de 2021 apresentados pela presidência."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 17,
+   "from_claim": "b018c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A própria Secretaria confirma a falha do registro: alguns Estados informam não haver indígena custodiado, e é a Defensoria que consegue identificar essas pessoas."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 21,
+   "to_sentence": 18,
+   "from_claim": "b018c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "À cobrança de dotação orçamentária para intérpretes e laudos, a Secretaria responde que hoje não existe porcentagem mínima do Fundo Penitenciário Nacional para grupos vulneráveis."
+  },
+  {
+   "from": "b019",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 32,
+   "from_claim": "b019c1",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "À crítica ao ideal de Justiça cega, a presidência acrescenta um caso concreto: um juiz que realizou um júri inteiramente indígena em Uiramutã."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "contradiz",
+   "from_sentence": 34,
+   "to_sentence": 9,
+   "from_claim": "b020c2",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "A antropologia sustenta que os dados oficiais não são confiáveis e lembra que no Paraná constava zero indígena preso, enquanto a Secretaria apresentara o total de 1.226 pessoas."
+  },
+  {
+   "from": "b020",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 62,
+   "to_sentence": 40,
+   "from_claim": "b020c3",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Ao relato de presos sem tradutor em Mato Grosso do Sul, a antropologia acrescenta por que falta intérprete: o tribunal exige um documento de fluência que não existe."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 16,
+   "from_claim": "b020c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O processo em que a pessoa aparece como indígena e depois vira parda mostra na prática os sistemas que não dão conta de registrar a etnia."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b004",
+    "b014",
+    "b018",
+    "b020"
+   ],
+   "claims": [
+    "b001c1",
+    "b002c1",
+    "b004c2",
+    "b014c3",
+    "b018c2",
+    "b020c2"
+   ],
+   "note": "A mesa, a Defensoria da União, o Conselho Indigenista Missionário, o Ministério dos Povos Indígenas, a Secretaria Nacional de Políticas Penais e a antropologia concordam que há mais indígenas presos do que os registros mostram."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b002"
+   ],
+   "claims": [
+    "b001c3",
+    "b002c2"
+   ],
+   "note": "A presidência e a Defensoria Pública da União concordam que a resolução do Conselho Nacional de Justiça não substitui uma lei e que falta legislação sobre indígenas no sistema penitenciário."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b003",
+    "b004",
+    "b020"
+   ],
+   "claims": [
+    "b002c3",
+    "b003c2",
+    "b004c3",
+    "b020c3"
+   ],
+   "note": "Defensoria da União, presidência, Conselho Indigenista Missionário e antropologia concordam que falta intérprete e laudo antropológico nos processos contra indígenas."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b005",
+    "b006"
+   ],
+   "claims": [
+    "b004c1",
+    "b005c1",
+    "b005c2",
+    "b006c1",
+    "b006c2"
+   ],
+   "note": "O Conselho Indigenista Missionário, a presidência e a Associação Brasileira de Antropologia concordam que a criminalização de indígenas vem da luta por território e da história de repressão."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b014",
+    "b019"
+   ],
+   "claims": [
+    "b006c3",
+    "b014c1",
+    "b019c1",
+    "b019c2"
+   ],
+   "note": "A antropologia, o Ministério dos Povos Indígenas e a presidência concordam que o sistema de Justiça trata indígenas de forma desigual e que a prática precisa mudar."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b016",
+    "b017"
+   ],
+   "claims": [
+    "b016c1",
+    "b016c2",
+    "b017c1",
+    "b017c2"
+   ],
+   "note": "A defensoria-geral da Bahia e a presidência concordam que faltam defensores públicos para atender os povos indígenas em todas as comarcas do País."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 18,
+   "addressed_to": "governo",
+   "answered_by": "b018",
+   "gist": "orçamento para pagar intérpretes e laudos antropológicos",
+   "plain": "De onde vem o dinheiro para pagar intérpretes e laudos antropológicos nos processos?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 45,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "reduzir danos na execução penal e cobrar mecanismos contra a tortura",
+   "plain": "Como reduzir os danos na execução penal e cobrar os mecanismos de combate à tortura?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b017",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "ofício pedindo que o projeto da Defensoria da União não seja vetado",
+   "plain": "A Presidência da República pode deixar de vetar o projeto que amplia a Defensoria da União?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b020",
+   "sentence": 69,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "ir aos Estados e às comunidades contar os indígenas presos",
+   "plain": "Quem vai aos Estados e às comunidades levantar quantos indígenas estão presos?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 23,
+   "gist": "Mato Grosso do Sul tinha 40,9% dos indígenas presos em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 25,
+   "gist": "22 mulheres indígenas presas em Mato Grosso do Sul em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 17,
+   "gist": "um terço dos presos indígenas está em celas sul-mato-grossenses",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 38,
+   "gist": "presídio de Dourados com mais de duas centenas de homens indígenas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 30,
+   "gist": "massacre no COMPAJ em 2017, pelo menos cinco indígenas mortos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b005",
+   "sentence": 10,
+   "gist": "mais de 8 mil indígenas torturados na ditadura, por extrapolação",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b016",
+   "sentence": 10,
+   "gist": "Emenda Constitucional nº 80, de 2014, deu prazo de 8 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b016",
+   "sentence": 15,
+   "gist": "Bahia tem 417 municípios e 416 defensores para 583 cargos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b016",
+   "sentence": 16,
+   "gist": "pelo IPEA, a Bahia precisaria de mais de 800 defensores",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 9,
+   "gist": "1.226 pessoas indígenas presas, 1.147 homens e 79 mulheres",
+   "disputed_by": [
+    {
+     "fala": "b020",
+     "sentence": 34
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "fala": "b020",
+   "sentence": 36,
+   "gist": "Nota Técnica nº 77 registrou zero indígena preso no Paraná",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b020",
+   "sentence": 46,
+   "gist": "indígena nivaclé andou mais de 600 quilômetros até ser internado",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu as denúncias de racismo e preconceito contra indígenas presos e a sugestão de uma lei prisional específica.",
+  "omitted": "Ficaram de fora a falta de defensores públicos nas comarcas, o apagamento da identidade indígena nos processos do Paraná e os dados apresentados pela Secretaria Nacional de Políticas Penais."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem lei própria, o indígena preso fica sem direito",
+   "statement_plain": "Falta uma lei que trate de indígenas no sistema prisional. Sem ela, tradutor e laudo de antropólogo não chegam a quem precisa, porque resolução não obriga ninguém.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b002c2",
+    "b002c3",
+    "b004c3",
+    "b020c3"
+   ],
+   "note": "A ideia junta a presidência da Comissão, a Defensoria Pública da União, uma entidade ligada à Igreja e a associação dos antropólogos, que são lados bem diferentes da mesa."
+  },
+  {
+   "id": "t2",
+   "title": "Mudar a lei não muda a Justiça que condena indígenas",
+   "statement_plain": "O problema não é falta de norma. Já existem resoluções e o Estatuto do Índio. O que precisa mudar é a prática da Justiça e a formação de quem julga.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b014c2",
+    "b014c1",
+    "b019c1",
+    "b019c2",
+    "b006c3"
+   ],
+   "note": "Um assessor de ministério e a presidência da Comissão, que é defensor público, apontam a prática e a formação, e não a falta de norma, contra a lei específica defendida na mesma mesa."
+  },
+  {
+   "id": "t3",
+   "title": "O número real de indígenas presos é muito maior",
+   "statement_plain": "Há mais indígenas presos do que os registros mostram. O sistema não anota a etnia, alguns Estados dizem não ter nenhum, e sem esse número não se faz política pública.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b004c2",
+    "b014c3",
+    "b018c2",
+    "b020c2"
+   ],
+   "note": "A mesa, uma entidade indigenista, um ministério, a antropologia e a própria secretaria que produz o dado dizem a mesma coisa sobre o dado dela."
+  },
+  {
+   "id": "t4",
+   "title": "Prender indígena é parte da disputa pela terra",
+   "statement_plain": "O encarceramento de indígenas não é caso isolado. Ele cresce quando esses povos lutam por território e tem raiz na repressão da ditadura e no racismo estrutural.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b005c1",
+    "b005c2",
+    "b006c1",
+    "b006c2"
+   ],
+   "note": "Uma entidade ligada à Igreja, a associação dos antropólogos e a própria mesa da Comissão sustentam a mesma leitura, cada uma com material diferente."
+  },
+  {
+   "id": "t5",
+   "title": "Sem defensor em cada comarca não há defesa indígena",
+   "statement_plain": "Faltam defensores públicos nas comarcas do País. Enquanto a Emenda Constitucional nº 80 não se cumpre, o indígena preso fica sem quem o defenda.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b016c2",
+    "b017c1",
+    "b017c2"
+   ],
+   "note": "A defensoria estadual traz os números e a presidência, que é defensor público e deputado, transforma isso em ofício contra um veto, unindo Estado e Congresso."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "CIMI",
+   "fala": "b001",
+   "sentence": 13,
+   "plain": "Conselho Indigenista Missionário, entidade ligada à Igreja Católica que acompanha as causas dos povos indígenas no Brasil"
+  },
+  {
+   "term": "ABA",
+   "fala": "b001",
+   "sentence": 17,
+   "plain": "Associação Brasileira de Antropologia, associação científica dos antropólogos do País, que indica peritos para a Justiça"
+  },
+  {
+   "term": "Resolução nº 287",
+   "fala": "b001",
+   "sentence": 38,
+   "plain": "norma de 2019 do Conselho Nacional de Justiça sobre como a Justiça deve tratar indígenas acusados ou presos"
+  },
+  {
+   "term": "laudo antropológico",
+   "fala": "b001",
+   "sentence": 39,
+   "plain": "estudo feito por antropólogo que explica ao juiz o modo de vida e a cultura da pessoa indígena acusada"
+  },
+  {
+   "term": "CNJ",
+   "fala": "b001",
+   "sentence": 40,
+   "plain": "Conselho Nacional de Justiça, órgão que fiscaliza os tribunais do País e edita normas para eles"
+  },
+  {
+   "term": "Estatuto do Índio",
+   "fala": "b001",
+   "sentence": 42,
+   "plain": "lei de 1973 que trata dos direitos dos povos indígenas, inclusive de como a pena deve ser cumprida"
+  },
+  {
+   "term": "estado de coisas inconstitucional",
+   "fala": "b001",
+   "sentence": 44,
+   "plain": "situação em que o Supremo Tribunal Federal reconhece que a violação de direitos é geral e contínua, como nos presídios"
+  },
+  {
+   "term": "SISDEPEN",
+   "fala": "b001",
+   "sentence": 61,
+   "plain": "sistema de informações do Departamento Penitenciário Nacional, onde ficam os dados de quem está preso no País"
+  },
+  {
+   "term": "DPU",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "Defensoria Pública da União, órgão federal que faz a defesa gratuita de quem não pode pagar advogado"
+  },
+  {
+   "term": "guarani-kaiowá",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "povo indígena que vive principalmente em Mato Grosso do Sul e é o mais encarcerado do Estado"
+  },
+  {
+   "term": "marco temporal",
+   "fala": "b004",
+   "sentence": 11,
+   "plain": "tese que só reconhece a terra indígena se o povo já estivesse nela em 5 de outubro de 1988"
+  },
+  {
+   "term": "medida de segurança",
+   "fala": "b004",
+   "sentence": 24,
+   "plain": "internação determinada pela Justiça quando entende que a pessoa não tinha condição de responder pelo ato"
+  },
+  {
+   "term": "CONDEGE",
+   "fala": "b013",
+   "sentence": 7,
+   "plain": "Colégio Nacional de Defensores Públicos-Gerais, que reúne os defensores-gerais dos Estados e do Distrito Federal"
+  },
+  {
+   "term": "DEPEN",
+   "fala": "b020",
+   "sentence": 10,
+   "plain": "Departamento Penitenciário Nacional, órgão federal que cuidava do sistema prisional e dos seus dados"
+  },
+  {
+   "term": "cútis",
+   "fala": "b020",
+   "sentence": 15,
+   "plain": "campo do processo que anota a cor da pele da pessoa, usado às vezes como se fosse a identidade dela"
+  }
+ ]
+}

@@ -1,0 +1,2946 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 29,
+ "model": "LLM lendo o prompt hearing-029 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T04:45:07Z",
+ "prompt_sha256": "832b02789484c8aa5b002318d4068daddcbec22f650d9b30cc555419f00f6c2c",
+ "sentences_hash": "cc41f7862f9a86e1",
+ "review": {
+  "pairs_read": 64,
+  "pairs_fixed": 21
+ },
+ "warnings": [
+  "tese t5: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "Na semana da Consciência Negra, a Comissão de Direitos Humanos reuniu três Ministérios, a Secretaria Nacional de Juventude, a Polícia Militar da Bahia, parlamentares e movimentos negros para discutir um pacto republicano pela redução dos homicídios de jovens negros e ouvir, antes do lançamento, o Plano Juventude Negra Viva. O governo apresentou o plano, o programa de prevenção do Ministério da Justiça e os cursos de letramento racial para agentes de segurança. Da sala vieram as cobranças: controle externo das polícias, revisão da lógica da abordagem, formação também na segurança privada, reparação às famílias e prazo para o que foi anunciado.",
+ "stakes": "O Plano Juventude Negra Viva seria lançado semanas depois, e a audiência disputava o que ele precisava conter e a que prazo o governo se comprometeria.",
+ "central_question": "O que o Estado brasileiro precisa fazer para parar de matar a juventude negra?",
+ "synopsis_plain": "Na semana da Consciência Negra, a Comissão de Direitos Humanos ouviu três Ministérios, a Secretaria Nacional de Juventude, a Polícia Militar da Bahia, parlamentares e movimentos negros sobre as mortes de jovens negros. O governo apresentou o Plano Juventude Negra Viva, que seria lançado em dezembro. A sala cobrou controle sobre as polícias, mudança na abordagem, reparação às famílias e prazo.",
+ "stakes_plain": "O governo ia lançar em dezembro um plano para a juventude negra, e a audiência discutia o que esse plano tinha de trazer e em que prazo.",
+ "central_question_plain": "O que o Estado precisa mudar para parar de matar os jovens negros?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Letalidade contra a juventude negra",
+   "description": "O tamanho e a marca racial das mortes de jovens negros no Brasil, e o que os números mostram sobre quem morre e quem mata.",
+   "axis": {
+    "pro": "As mortes de jovens negros têm marca racial e exigem uma política própria, feita para esse público.",
+    "contra": "A violência atinge a todos e se resolve com política de segurança geral, sem recorte de raça.",
+    "pro_plain": "As mortes de jovens negros têm cor, e por isso precisam de uma política feita para eles.",
+    "contra_plain": "A violência atinge todo mundo e se resolve com segurança para todos, sem separar por cor."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Racismo estrutural e vida plena",
+   "description": "Se a morte da juventude negra é produto de um racismo que está na estrutura do Estado e da sociedade, e o que isso exige de todas as políticas públicas.",
+   "axis": {
+    "pro": "O racismo está na estrutura do Estado, e por isso toda política pública precisa ser antirracista.",
+    "contra": "Basta aplicar bem as políticas que já existem, sem transformá-las em política de raça.",
+    "pro_plain": "O racismo está na estrutura do Estado, então toda política pública tem de ser antirracista.",
+    "contra_plain": "Basta aplicar bem as políticas que já existem, sem transformar cada uma em política de raça."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Plano Juventude Negra Viva",
+   "description": "O plano interministerial que o governo prepara para lançar, os programas que vêm junto e se eles vão sair do papel.",
+   "axis": {
+    "pro": "O plano e os programas anunciados são a maior resposta já montada e vão mudar as estatísticas.",
+    "contra": "Plano anunciado não basta: sem prazo, execução e compromisso firme, tudo fica no papel.",
+    "pro_plain": "O plano e os programas anunciados são a maior resposta já feita e vão mudar os números.",
+    "contra_plain": "Anunciar um plano não basta. Sem prazo e sem execução, tudo continua no papel."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Formação dos agentes de segurança",
+   "description": "Se formar e letrar policiais e vigilantes muda a forma como a segurança trata a população negra, ou se o problema está na estrutura e na lógica da abordagem.",
+   "axis": {
+    "pro": "Formar e letrar os agentes, públicos e privados, é o caminho para reduzir a violência racial.",
+    "contra": "A formação não basta: a doutrina, a estrutura e a lógica da abordagem é que produzem a violência.",
+    "pro_plain": "Ensinar os agentes de segurança, públicos e privados, é o caminho para reduzir a violência racial.",
+    "contra_plain": "Só ensinar não basta. O que produz a violência é a doutrina, a estrutura e o jeito de abordar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Controle externo das polícias",
+   "description": "Quem fiscaliza a atividade policial, o papel das ouvidorias, do Ministério Público e da sociedade civil, e o que acontece quando ninguém responde pelas mortes.",
+   "axis": {
+    "pro": "A polícia precisa de controle externo e social, com ouvidoria autônoma e responsabilização.",
+    "contra": "As polícias devem ganhar mais autonomia e prestar menos contas a quem está fora delas.",
+    "pro_plain": "A polícia precisa de gente de fora fiscalizando, com ouvidoria própria e punição para quem erra.",
+    "contra_plain": "As polícias devem ter mais autonomia e prestar menos contas a quem está fora delas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Reparação às famílias das vítimas",
+   "description": "O que o Estado deve às mães e às famílias de quem foi morto, entre acolhimento, memória, responsabilização e reparação.",
+   "axis": {
+    "pro": "O Estado tem de acolher, reparar e se responsabilizar diante das famílias das vítimas.",
+    "contra": "Ao Estado cabe apurar o caso, e não reparar ou acompanhar o luto de cada família.",
+    "pro_plain": "O Estado tem de acolher, reparar e assumir a responsabilidade diante das famílias das vítimas.",
+    "contra_plain": "Ao Estado cabe apurar o caso, e não reparar nem acompanhar o luto de cada família."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Disputa no Congresso sobre pautas raciais",
+   "description": "A correlação de forças na Câmara, os projetos de igualdade racial que travam e as leis de segurança que avançam.",
+   "axis": {
+    "pro": "A maioria da Casa barra as pautas de igualdade racial e aprova leis que agravam a letalidade.",
+    "contra": "A divergência faz parte da democracia e as leis aprovadas fortalecem as polícias.",
+    "pro_plain": "A maioria da Câmara trava as pautas de igualdade racial e aprova leis que pioram a letalidade.",
+    "contra_plain": "Divergir faz parte da democracia, e as leis aprovadas servem para fortalecer as polícias."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência, exercida pela Deputada Luizianne Lins (PT-CE), pela Deputada Benedita da Silva (PT-RJ) e pelo Deputado Paulão (PT-AL)",
+   "org": "Comissão de Direitos Humanos, Minorias e Igualdade Racial",
+   "basis": "abertura em b001.3, passagem da presidência em b001.37 e b001.99, e matéria a.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida de direitos humanos, minorias e igualdade racial"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenador de Projeto na Assessoria Especial de Assuntos Parlamentares e Federativos do Ministério dos Direitos Humanos e da Cidadania",
+   "org": "MDHC",
+   "basis": "apresentado pela presidência em b001.55 e b001.115",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério federal responsável pelas políticas de direitos humanos e de cidadania"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Assessor Especial de Defesa da Democracia, Memória e Verdade, ex-Ministro dos Direitos Humanos",
+   "org": "MDHC",
+   "basis": "apresentado pela presidência em b001.55 e b003.7, autoapresentação em b004.22",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "assessor especial do Ministério dos Direitos Humanos",
+   "org_plain": "ministério federal responsável pelas políticas de direitos humanos e de cidadania"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (PSOL-RJ)",
+   "org": "Câmara dos Deputados (PSOL-RJ)",
+   "basis": "cabeçalho da ata e registro da presença em b003.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro",
+   "org_plain": "deputado eleito pelo Rio de Janeiro, do PSOL"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Diretor de Políticas de Combate e Superação do Racismo",
+   "org": "Ministério da Igualdade Racial",
+   "basis": "apresentado pela presidência em b003.5, autoapresentação em b008.9",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Igualdade Racial",
+   "org_plain": "ministério federal criado para as políticas de igualdade racial e combate ao racismo"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Major da Polícia Militar da Bahia, representante da Secretaria de Segurança Pública do Estado, coordenador do Grupo de Trabalho Permanente pela Igualdade Racial",
+   "org": "Polícia Militar da Bahia / SSP-BA",
+   "basis": "apresentado pela presidência em b001.55 e b009.6, autoapresentação em b010.8",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "major da Polícia Militar da Bahia",
+   "org_plain": "polícia militar do Estado da Bahia, ligada à Secretaria de Segurança Pública do Estado"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Advogado e militante de direitos humanos, com passagem pelos Ministérios da Justiça e dos Direitos Humanos",
+   "org": null,
+   "basis": "apresentado pela presidência em b009.4 e b011.63",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "advogado e militante de direitos humanos",
+   "org_plain": null
+  },
+  "s08": {
+   "role": "governo",
+   "cargo": "Assessora especial do Ministro da Justiça e Segurança Pública e coordenadora do Pronasci",
+   "org": "Ministério da Justiça e Segurança Pública",
+   "basis": "apresentada pela presidência em b021.17, autoapresentação em b022.23, e matéria a.10",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Justiça e Segurança Pública",
+   "org_plain": "ministério federal que cuida da justiça e coordena as políticas nacionais de segurança pública"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Representante da Secretaria Nacional de Juventude da Secretaria-Geral da Presidência da República",
+   "org": "Secretaria Nacional de Juventude",
+   "basis": "apresentado pela presidência em b021.20 e b023.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Juventude",
+   "org_plain": "órgão da Presidência da República que articula as políticas para jovens"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Vereadora do Rio de Janeiro e cofundadora do Movimento Moleque, do movimento de familiares de vítimas",
+   "org": "Movimento Moleque",
+   "basis": "apresentada pela presidência em b021.20 e b025.4, autoapresentação em b026.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "cofundadora do Movimento Moleque, vereadora no Rio",
+   "org_plain": "movimento criado por mães do Rio de Janeiro que acompanham jovens no sistema socioeducativo"
+  },
+  "s11": {
+   "role": "sociedade_civil",
+   "cargo": "Dirigente da Frente Negra Gaúcha",
+   "org": "Frente Negra Gaúcha",
+   "basis": "apresentado pela presidência em b021.20, autoapresentação em b030.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Frente Negra Gaúcha",
+   "org_plain": "entidade do movimento negro do Rio Grande do Sul que atua pela ocupação de espaços de poder"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal (PT-DF), integrante da Comissão",
+   "org": "Câmara dos Deputados (PT-DF)",
+   "basis": "presença registrada em b023.1 e chamada em b033.5",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Distrito Federal",
+   "org_plain": "deputada eleita pelo Distrito Federal, do PT"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "Comunicador e Coordenador Nacional do Movimento Negro Evangélico",
+   "org": "Movimento Negro Evangélico",
+   "basis": "apresentado pela presidência em b021.20 e b027.3, autoapresentação em b036.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Movimento Negro Evangélico",
+   "org_plain": "movimento que enfrenta o racismo dentro das igrejas evangélicas e atua na segurança pública"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (Republicanos-DF)",
+   "org": "Câmara dos Deputados (Republicanos-DF)",
+   "basis": "presença registrada pela presidência em b041.2 e b041.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Distrito Federal",
+   "org_plain": "deputado eleito pelo Distrito Federal, do Republicanos"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.65
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "mesa",
+    "share": 0.05
+   }
+  ],
+  "basis": "jovens que chegaram depois da composição da Mesa, saudados em b004.1 e b004.41, militantes e representantes de Ministérios saudados em b008.8, e palmas registradas em quase todas as falas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata o medo das mães negras de que os filhos não voltem para casa e lembra que vários Parlamentares votaram contra a urgência do Dia da Consciência Negra.",
+   "quote": [
+    80,
+    81,
+    82
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    4
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As mães negras vivem com medo de perder os filhos para a prisão e para a morte.",
+    "sentence": 80
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      75,
+      76
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mães têm medo de deixar sair os filhos que usam trancinha no cabelo ou têm uma tatuagem",
+     "plain": "Nós temos medo de deixar sair nossos filhos que usam trancinha no cabelo ou têm uma tatuagem. Temos medo quando eles saem de casa com os colegas."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      85,
+      86
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "esses jovens são cidadãos sob suspeita, e primeiro se atira e mata, depois se justifica",
+     "plain": "Eles são cidadãos sob suspeita. Atiram, matam e só depois vem a justificativa."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      110
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só quatro das 27 Unidades da Federação reconhecem o Dia da Consciência Negra e vários Parlamentares votaram contra a urgência",
+     "plain": "Tramitou aqui um pedido de urgência para termos o Dia da Consciência Negra no Brasil. Só quatro das 27 Unidades da Federação reconhecem esse dia como feriado, e vários Parlamentares votaram contra."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Aponta que o Brasil concentra 20% dos assassinatos do mundo e critica as duas leis orgânicas que reduziram o controle externo das polícias.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A letalidade contra a população negra é um problema próprio do Brasil e exige prioridade e programas específicos.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil tem menos de 3% da população mundial e nele acontecem 20% dos assassinatos do mundo",
+     "plain": "Hoje o Brasil é o país com mais assassinatos em números absolutos no mundo. Temos menos de 3% da população mundial, mas aqui acontecem 20% dos assassinatos do planeta."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "num país em que se matam quase 40 mil pessoas negras por ano, quem fica não vive, sobrevive",
+     "plain": "Num país em que se matam quase 40 mil pessoas negras por ano, quem fica vivo não está vivendo: está sobrevivendo. A vida de um sobrevivente não permite viver com felicidade."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "83% das vítimas de morte por ação policial são negras e as duas leis orgânicas aprovadas reduzem o controle externo das polícias",
+     "plain": "No Brasil, 83% das vítimas de morte causada por ação policial são negras, e são negros 67% dos policiais assassinados. Aprovamos duas leis orgânicas que reduzem a participação social e o controle externo das polícias."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante do Ministério dos Direitos Humanos e chama Nilmário Miranda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Lembra que o projeto da Comissão de Direitos Humanos foi arquivado duas vezes antes de 1995 e afirma que um grupo grande da Casa ainda rejeita os direitos humanos.",
+   "quote": [
+    38,
+    39
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão de Direitos Humanos nasceu contra a resistência da própria Casa, e essa resistência continua.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto da Comissão de Direitos Humanos foi arquivado em 1987 e em 1991, e só na terceira tentativa, em 1995, ela saiu",
+     "plain": "O projeto que criava a Comissão de Direitos Humanos foi arquivado em 1987 e arquivado de novo em 1991. Só na terceira tentativa, com o projeto que apresentei em 1995, a Casa aceitou criar a Comissão."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há na Casa um grupo grande que não gosta ou até odeia os direitos humanos e quer reverter esse processo",
+     "plain": "Aqui há um grupo grande que não gosta dos direitos humanos, ou melhor, que os odeia, ou que dá a eles um alcance sem base na Constituição nem na trajetória internacional do pós-guerra. E ainda há quem queira reverter esse processo."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "direitos humanos é respeitar o outro, e o tema daqui é o desrespeito quase institucional à maioria negra",
+     "plain": "Se eu resumisse em uma frase, direitos humanos é respeitar o outro, sobretudo os diferentes. E o tema daqui é o desrespeito sistemático e quase institucional à maioria negra do País, que não é reconhecida como titular de direitos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência antecipa a fala do Deputado Pastor Henrique Vieira, que precisa pegar um voo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que o racismo mata e também constrói a narrativa que naturaliza essa morte, e ilustra com a reportagem sobre o tiroteio no Pavão-Pavãozinho.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O racismo mata e produz a narrativa que faz essa morte parecer aceitável.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o racismo mata e também é a narrativa que faz essa morte parecer aceitável para a sociedade",
+     "plain": "O racismo não só mata. Ele é também o processo cultural que legitima essa morte e a narrativa que faz a violência parecer aceitável para a sociedade."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a reportagem sobre o tiroteio na favela tinha como subtítulo que os vizinhos não conseguiram dormir",
+     "plain": "A reportagem falava de um tiroteio que teria durado a noite inteira na favela, uma realidade do Rio por causa de uma política de segurança equivocada e racista. Mas o subtítulo dela era que os vizinhos não conseguiram dormir."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a matéria naturaliza a vida de quem mora na favela e produz a invisibilidade que justifica um extermínio",
+     "plain": "O problema é o que a reportagem não diz: se aquela mulher tem medo, imagine quem mora na favela. Ela naturaliza a vida dessas pessoas e produz a invisibilidade que justifica um extermínio."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Deputado Pastor Henrique Vieira e chama Yuri Silva, do Ministério da Igualdade Racial.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Anuncia o Plano Juventude Negra Viva, construído com a escuta de 6.100 jovens e 18 Ministérios, e defende manter a juventude negra viva como pauta de desenvolvimento.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O plano que o governo vai lançar é a maior política federal já feita para a juventude negra.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "perder um jovem negro a cada 23 minutos impede o Brasil de ser uma nação desenvolvida",
+     "plain": "O Brasil perde um jovem negro a cada 23 minutos, e isso impede o País de ser uma nação desenvolvida. Mesmo pelas contas mais frias do capitalismo, perder a juventude negra é perder no campo social e econômico."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      11
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o plano foi construído em caravanas nos Estados, com a escuta de 6.100 jovens e um grupo de trabalho de 16 Ministérios",
+     "plain": "O Governo Federal vai lançar o que eu chamo, sem medo, de maior política já feita para a juventude negra. Ela foi construída em caravanas em todos os Estados e no Distrito Federal, com a escuta de 6.100 jovens, e por 16 Ministérios."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o plano reúne mais de 250 entregas de 18 Ministérios, em mais de 50 metas, e vai durar 12 anos",
+     "plain": "Os 18 Ministérios que entraram no plano somam mais de 250 entregas, divididas em mais de 50 metas, com um comitê gestor para acompanhar. O plano vai durar 12 anos e se renova a cada 4 anos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de Tamires Sampaio e de Narciso Fernandes e chama o major da Polícia Militar da Bahia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta o curso antirracista e a disciplina obrigatória criados na Polícia Militar da Bahia e defende a formação como caminho para mitigar o genocídio da juventude negra.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação antirracista dentro da corporação é o caminho para mitigar o genocídio da juventude negra.",
+    "sentence": 50
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "67% dos policiais assassinados são negros e 87,9% do efetivo da Polícia Militar da Bahia é de pretos e pardos",
+     "plain": "67% dos policiais assassinados nas cidades brasileiras são negros. E na Polícia Militar da Bahia, por dados novos, 87,9% do efetivo é de pretos e pardos, que sofrem as mesmas incongruências letais do racismo de cada dia."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Polícia Militar da Bahia formou a primeira turma do CAOPER, um curso de policiamento antirracista",
+     "plain": "Formamos agora a primeira turma de um curso de policiamento antirracista, e talvez seja a primeira do Brasil. É o CAOPER, o curso que prepara o policial para atender ocorrências que envolvem minorias étnico-raciais."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      49
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a corporação tornou obrigatória a disciplina de relações étnico-raciais e de gênero, do recruta ao tenente-coronel",
+     "plain": "Tornamos obrigatória, nos cursos de formação, a disciplina de educação para as relações étnico-raciais e de gênero. Do recruta ao tenente-coronel, quem faz formação ou especialização na corporação tem de estudá-la."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta a tutela das Forças Armadas sobre as polícias como o núcleo do problema e defende repensar a estrutura da segurança e a formação dos policiais.",
+   "quote": [
+    47,
+    48,
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Enquanto as polícias seguirem a doutrina das Forças Armadas, a formação sozinha não muda a letalidade.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as polícias ainda estão sob tutela das Forças Armadas e, enquanto isso não mudar, a segurança não muda",
+     "plain": "As polícias no Brasil ainda ficam sob tutela das Forças Armadas, como órgão auxiliar delas. Enquanto isso não mudar, eu entendo que dificilmente a situação vai mudar, porque falta o alicerce da democracia."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      30
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "enquanto as polícias militares dependerem da doutrina das Forças Armadas o problema continua, e isso passa pela formação",
+     "plain": "Enquanto tivermos polícias militares presas à doutrina das Forças Armadas, vamos continuar tendo problema. E isso passa pela formação."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a estrutura da segurança tem de ser repensada porque a população teme a polícia e a polícia teme a população",
+     "plain": "Essa estrutura de segurança tem de ser repensada. A população sente medo da polícia, e a polícia sente medo da população, porque a polícia comunitária, na prática, não existe."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Cobra do Ministério dos Direitos Humanos se voltou a pensar o controle social da atividade policial, que o Judiciário passou a ter e a polícia não tem.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A atividade policial precisa de controle social, como o Judiciário passou a ter com a Emenda 45.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Emenda 45 permitiu o controle externo do Judiciário, com a criação do CNJ e do CNMP, depois de o tema ser um tabu",
+     "plain": "Antes da Emenda 45, falar em controle externo do Judiciário era tabu. O Judiciário, o ente mais conservador do Estado, cedeu, e a emenda criou o Conselho Nacional de Justiça, o do Ministério Público e o da Justiça do Trabalho."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a atividade policial não tem controle social, só o controle institucional do Ministério Público",
+     "plain": "Nesses conselhos há participação da sociedade civil. Mas a atividade policial no Brasil não tem controle social: tem o controle do Ministério Público, que é institucional e vem de quem faz trabalho parecido com o da polícia."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o debate sobre controle social da polícia teve reuniões no Governo Dilma e parou ali",
+     "plain": "Quero saber se o tema voltou a ser pensado no Ministério dos Direitos Humanos, como foi no Governo Dilma. Houve reuniões com o Ministério Público, com associações de policiais militares e com o Ministério da Justiça, mas parou ali."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se há mais inscritos e devolve a palavra a Rafael Moreira da Silva de Oliveira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que o Ministério defende ampliar o controle externo das polícias e aposta em ouvidorias autônomas, ligadas à corregedoria para dar seguimento às denúncias.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O controle externo das polícias precisa crescer, e a ouvidoria externa autônoma é o caminho mais viável agora.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério defende ampliar a participação social e o controle externo das polícias e aposta nas ouvidorias externas",
+     "plain": "O Ministério dos Direitos Humanos e da Cidadania acha urgente ampliar a participação social e o controle externo das polícias, principalmente da Polícia Civil e da Militar. A aposta principal hoje são as ouvidorias externas."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ouvidoria da polícia precisa ser autônoma e não ligada ao comandante-geral, e a corregedoria tem de dar seguimento às denúncias",
+     "plain": "A ouvidoria da polícia tem de ser autônoma e não ficar ligada ao comandante-geral, porque isso trava a coleta de denúncias. E a corregedoria precisa dar seguimento ao que a ouvidoria apura, o que hoje não acontece."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o caminho que se segue hoje é o da autonomia das polícias, com menos prestação de contas e mais letalidade",
+     "plain": "O controle da atividade policial é essencial hoje, porque o caminho que se segue é o contrário: mais autonomia, cada vez menos prestação de contas e aumento da letalidade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Rafael faça as considerações finais antes de passar a palavra a Yuri Silva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Ministério dos Direitos Humanos agradece o convite e reafirma o compromisso do Ministério.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Yuri Silva para responder ao advogado e fazer as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apoia a posição do Ministério dos Direitos Humanos e diz que já produziu notas técnicas para que o Ministério Público exerça o controle externo das polícias.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério Público precisa cumprir o papel constitucional de controle externo das polícias.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "já produziram notas técnicas para que o Ministério Público cumpra seu papel constitucional de controle externo das polícias",
+     "plain": "Neste ano já produzimos notas técnicas defendendo que o Ministério Público cumpra o seu papel constitucional de controle externo das polícias."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "criticam os projetos que aumentam o punitivismo do Código Penal e acham possível aperfeiçoar pontos das leis orgânicas das polícias",
+     "plain": "Temos nos posicionado contra vários projetos que tramitam aqui e aumentam a força punitiva do Código Penal, e achamos complexas as leis orgânicas das polícias. Onde consideramos adequado, apoiamos e vemos como possível aperfeiçoar pontos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao major da Polícia Militar da Bahia para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que não se pode pensar o Estado nem a segurança pública sem considerar a lógica do racismo e coloca a corporação à disposição para ações conjuntas.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não se pode pensar segurança pública sem cruzá-la com a questão racial.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a luta antirracista dentro da corporação é o caminho para uma segurança pública cidadã",
+     "plain": "Como o Deputado Paulão disse, esta não é uma luta fácil, mas é necessária. É o caminho para uma segurança pública melhor, uma segurança pública cidadã."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para pensar o Estado nem a segurança pública sem olhar para a lógica do racismo",
+     "plain": "Faço minhas as palavras do Ministro Silvio Almeida: não dá para pensar o Estado nem qualquer setor da sociedade sem olhar para a lógica do racismo. E não dá para pensar segurança pública sem cruzar isso com a questão racial."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência desfaz a primeira Mesa e convida os integrantes da segunda, entre eles Tamires Sampaio e Monica Cunha.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b022",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta o Bolsa Formação e o Pronasci Juventude, programa de prevenção à morte violenta com foco em jovens negros em 163 Municípios prioritários.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério da Justiça constrói programas de prevenção com foco na juventude negra, junto com o Plano Juventude Negra Viva.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "hoje não se fala só de jovens homens negros, porque cresce o feminicídio contra mulheres jovens negras",
+     "plain": "Há uns 11 ou 12 anos, quando comecei a militar no movimento negro, o foco eram os jovens homens negros. Hoje falamos também das jovens mulheres negras, porque cresce o feminicídio contra elas."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Bolsa Formação começou em novembro e oferece aos agentes de segurança cursos de letramento racial e de enfrentamento ao racismo estrutural",
+     "plain": "Em novembro começou o Bolsa Formação, um programa de capacitação dos profissionais de segurança pública. Ele traz cursos de letramento racial e de enfrentamento ao racismo estrutural, um dos eixos prioritários do Pronasci."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério identificou 163 Municípios prioritários e formula o Pronasci Juventude, de prevenção à morte violenta de jovens negros",
+     "plain": "Como os indicadores mostram que a juventude negra é o principal alvo da morte violenta, identificamos 163 Municípios prioritários. E formulamos o Pronasci Juventude, um programa de prevenção à morte violenta com foco nesses jovens."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença da Deputada Erika Kokay e anuncia o tema da segunda Mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b024",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que entre 2008 e 2018 os homicídios caíram entre não negros e subiram entre jovens negros, e conta como o plano foi construído.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A queda dos homicídios no País não alcançou a juventude negra, e isso exige uma política própria.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "entre 2008 e 2018 os homicídios de não negros caíram quase 13% e os de jovens negros subiram 11,5%",
+     "plain": "Entre 2008 e 2018 os homicídios caíram no País, mas não para a população negra. Os homicídios de pessoas não negras caíram quase 13%, e no mesmo período os de jovens negros subiram 11,5%."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      16
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Secretaria Nacional de Juventude percorreu as 27 unidades federativas e ouviu mais de 3 mil jovens",
+     "plain": "Nós, da Secretaria Nacional de Juventude, percorremos as 27 unidades federativas do Brasil e ouvimos mais de 3 mil jovens sobre suas demandas, suas realidades e as dificuldades de acesso a direitos como educação e saúde."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "só se usufrui de saúde e de educação se as pessoas estiverem vivas, e não adianta ter direitos sem o direito à vida",
+     "plain": "Só vamos usufruir de saúde, de educação e dos outros direitos se estivermos vivos. Não adianta ter direitos se não houver o direito à vida."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que Débora Maria da Silva se ausentou e passa a palavra a Monica Cunha.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata ter perdido o filho assassinado em 2020 e cobra do poder público memória, verdade, justiça e reparação para as famílias das vítimas.",
+   "quote": [
+    34,
+    35
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado que mata o filho também destrói a mãe, e as famílias cobram memória, verdade, justiça e reparação.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é uma mãe negra que teve o filho assassinado em 2020 e conhece essa dor como as outras mães do movimento",
+     "plain": "Falo como parte do movimento de familiares de vítimas: sou uma mulher negra, uma mãe que teve o filho assassinado em 2020, como as companheiras do Mães de Manguinhos e do Mães de Maio. Conhecemos bem essa dor e essa saudade eterna."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os familiares de vítimas cobram memória, verdade, justiça e reparação psicossocial, financeira e da consciência",
+     "plain": "No ano que vem vamos falar outra vez de memória, verdade, justiça e reparação. É isso que os familiares de vítimas e o povo negro cobram de nós. Falo de reparação psicossocial, financeira e, principalmente, da consciência."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      34,
+      35
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando o Estado tira o filho de uma mãe, também tira a mãe dos filhos que ficam",
+     "plain": "Quando o Estado tira o filho de uma mãe, ele também tira a mãe de um filho. O filho que continua vivo perde um pouco dessa mãe, que adoece e muda a vida inteira por causa da luta."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Monica Cunha e chama João Carlos dos Santos, da Frente Negra Gaúcha.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Frente Negra Gaúcha avisa que está com problema no vídeo e pede para seguir pelo áudio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência repete o chamado a João Carlos dos Santos, da Frente Negra Gaúcha.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Alerta que a violência contra a população negra não vem só da segurança pública e propõe exigir educação antirracista na formação dos agentes privados.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 16,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação antirracista precisa alcançar também os agentes da segurança privada.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a violência contra a população negra não se restringe ao setor público, e o setor privado também é responsável",
+     "plain": "A violência da segurança pública contra a população negra é uma parte considerável do problema. Mas ela não fica só no setor público: o setor privado também é muito responsável."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "duas mortes recentes de pessoas negras vieram da segurança privada, e por isso querem mudar a lei que regula o setor",
+     "plain": "Tivemos aqui duas mortes recentes de pessoas negras por violência da segurança privada. Por isso estamos tentando construir um projeto para mudar a lei que hoje regula o setor privado de segurança no Brasil."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a formação é um dos caminhos, e a educação antirracista deveria entrar no curso dos agentes de segurança privada",
+     "plain": "No mesmo sentido do que disse o major Silvio do Rosário, acho que a formação é um dos caminhos. Queremos propor ao Ministério que a educação antirracista entre no curso de formação dos agentes de segurança privada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que houve um problema técnico com a imagem do participante.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Frente Negra Gaúcha confirma que a imagem sumiu e pede desculpas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra o painel sobre letalidade do Estado e passa a palavra à Deputada Erika Kokay.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra que as proposições da CPI do genocídio de jovens negros virem realidade e defende que todas as políticas públicas sejam antirracistas.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 18,
+   "stance": {
+    "position": "condicional",
+    "claim": "O plano e as conclusões da CPI só valem quando virarem realidade, inclusive por decretos e portarias.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há bala perdida no Brasil, porque elas sempre encontram os mesmos corpos",
+     "plain": "Há muito lamento das mães negras que perdem seus meninos para balas que alguns chamam de perdidas. Eu digo que não existe bala perdida no Brasil: elas sempre encontram os mesmos corpos."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a CPI do extermínio de jovens negros gerou proposições que ainda precisam se transformar em realidade",
+     "plain": "Fizemos aqui uma CPI para investigar o extermínio de jovens negros, e dela saiu uma série de proposições. Essas proposições precisam virar realidade."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      42,
+      43,
+      44
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todas as políticas públicas têm de ser antirracistas, da educação à saúde e ao direito das mulheres",
+     "plain": "Todas as políticas públicas têm de ser antirracistas. Não basta não serem racistas. É impossível pensar uma política de educação, de saúde ou de defesa dos direitos das mulheres que não seja antirracista."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Deputada Erika Kokay e passa a palavra a Jackson Augusto Marcelino Júnior.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta que 99% das buscas pessoais são infrutíferas e defende rever, além da formação, os processos de abordagem e a lógica da segurança pública.",
+   "quote": [
+    28,
+    29
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 45,
+   "stance": {
+    "position": "contrario",
+    "claim": "Rever a formação não basta: é a lógica da abordagem policial que precisa mudar.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os dados das Secretarias de Segurança e do STJ dizem que 99% das buscas pessoais são infrutíferas",
+     "plain": "Dados das próprias Secretarias de Segurança Pública e do Superior Tribunal de Justiça, o STJ, dizem que 99% das buscas pessoais não encontram nada. Só 1% dessas abordagens gera alguma autuação por ilegalidade."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "além de rever a formação dos policiais, é preciso rever os processos de abordagem e a lógica da segurança pública",
+     "plain": "Precisamos, sim, rever a formação dos policiais. Mas o racismo se naturaliza também pela estrutura, e por isso é preciso rever os processos de abordagem e a própria lógica da segurança pública."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      34
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a prova produzida numa abordagem feita por racismo não pode ser considerada válida",
+     "plain": "Não é admissível que uma abordagem policial feita comprovadamente por racismo produza prova válida. Nada do que se apura naquele momento deveria valer."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Jackson conclua a fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b038",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aponta a morosidade das corregedorias no indiciamento de policiais e defende reparação às famílias, com o Estado reconhecendo o que deve à população negra.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado deve reparar as famílias das vítimas e responder pela morosidade dos seus órgãos de controle.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os órgãos de controle são morosos e o indiciamento dos policiais envolvidos sai com incongruências",
+     "plain": "Quando o Estado vitima a juventude e a infância negra, os órgãos de controle são lentos. Nas corregedorias e nas investigações das polícias, o indiciamento dos policiais envolvidos sai com incongruências e demora."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estado tem de reparar essas famílias e reconhecer que deve algo à população e à juventude negra",
+     "plain": "É importante falar de reparação para essas famílias e para quem ficou, com o Estado se responsabilizando. E que o Estado brasileiro reconheça que deve algo à população negra e à juventude negra."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre espaço para perguntas do plenário e começa as considerações finais por Tamires Sampaio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que garantir direitos humanos exige definir quem é reconhecido como humano no Brasil, depois de séculos tratando pessoas negras como objetos.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Garantir direitos humanos no Brasil exige enfrentar quem a sociedade reconhece como humano.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para ter política de direitos humanos é preciso dizer quem é humano, num país com mais de dois terços da história marcados pela escravidão",
+     "plain": "Para garantir uma política de direitos humanos é fundamental destacar quem é considerado humano no Brasil. Mais de dois terços da história do Brasil foram marcados pela escravidão da população negra."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "por mais de 300 anos africanos e afrodescendentes foram tratados como objetos, e isso ainda se reflete na sociedade de hoje",
+     "plain": "As pessoas trazidas pelo tráfico negreiro não eram consideradas seres humanos. Por mais de 300 anos foram tratadas como objetos, e isso ainda se reflete na sociedade, na política, no direito e na economia."
+    },
+    {
+     "id": "b040c3",
+     "sentences": [
+      15
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "desde a posse do Presidente Lula o Governo Federal busca garantir acesso a direitos básicos, além do plano e do Pronasci",
+     "plain": "Desde 1º de janeiro, quando o Presidente Lula tomou posse, o Governo Federal tem buscado construir políticas de acesso a direitos básicos, como educação, saúde, emprego, renda, cultura e moradia digna, além do plano para a juventude negra."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Tamires Sampaio e registra a presença do Deputado Prof. Paulo Fernando.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b042",
+   "speaker": "s14",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado brinca que tem o mesmo nome de quem preside a sessão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Neilson Amaral Marques para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Destaca que a Secretaria Nacional de Juventude voltou à Presidência da República e retoma seu papel de articulação para os jovens brasileiros.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A volta da Secretaria Nacional de Juventude à Presidência mostra a prioridade dada aos jovens.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Secretaria Nacional de Juventude voltou ao centro do Governo e retoma o papel de articulação, para mais de 49 milhões de jovens",
+     "plain": "A Secretaria Nacional de Juventude voltou para o centro do Governo, na Presidência da República, o que mostra o compromisso com os mais de 49 milhões de jovens brasileiros. Ela retoma o papel de articulação que havia perdido."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Monica Cunha e Jackson Augusto Marcelino Júnior para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A vereadora se desculpa por uma dificuldade com a tecnologia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência retoma e passa a palavra a Monica Cunha para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b048",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que para pessoas negras a cor vem antes do cargo e do diploma e diz que a população negra quer viver, e não apenas sobreviver.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cor chega antes do cargo e do diploma, e a população negra quer viver, não sobreviver.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para as pessoas negras, com cargo ou diploma, o que vem na frente é sempre a cor",
+     "plain": "Para nós, pessoas negras, não importa ter um cargo ou um diploma: na frente vem sempre a cor. A nossa cor chega antes de tudo."
+    },
+    {
+     "id": "b048c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os privilégios do racismo têm dono, e de agora em diante a população negra quer viver e não sobreviver",
+     "plain": "Estamos dizendo de quem é a culpa desse racismo, quem se beneficia dele e quem é dono dos privilégios que nos deixaram só sobreviver. De agora em diante queremos viver, e não sobreviver."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Monica Cunha e passa a palavra a Jackson Augusto Marcelino Júnior.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b050",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que a normalidade do Estado brasileiro produz racismo e diz que o movimento negro não aceitará direitos negociados por questões políticas.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O movimento apoia os planos do Governo, mas não aceita direitos negociados por conveniência política.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b050c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a normalidade do Estado brasileiro é produzir racismo, e nela quem mais morre e é preso é o povo negro",
+     "plain": "Como diz Silvio de Almeida no livro Racismo Estrutural, a normalidade do Estado brasileiro é produzir racismo. Nessa normalidade, quem mais morre na fila do SUS, quem mais é assassinado pela polícia e quem mais é preso é o povo negro."
+    },
+    {
+     "id": "b050c2",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o movimento não vai mais aceitar políticas públicas e direitos negociados por questões políticas",
+     "plain": "Como movimento social, não vamos mais aceitar que políticas públicas ou direitos sejam negociados em nome da nossa vida por causa de questões políticas."
+    },
+    {
+     "id": "b050c3",
+     "sentences": [
+      9
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "insistem nos planos do Governo mas recusam a privatização de presídios e a anistia dos partidos sobre candidaturas negras",
+     "plain": "Devemos insistir nos planos do Governo e dialogar com o poder público. Mas também dizer que não admitimos a abordagem policial de hoje, a privatização de presídios nem a anistia aos partidos sobre candidaturas negras."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Jackson e anuncia a última fala, de João Carlos dos Santos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b052",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reitera que a segurança privada também produz violência contra a população negra e pede um projeto de formação antirracista para as empresas do setor.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação antirracista precisa alcançar as empresas de segurança privada, como alcança os serviços estaduais.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b052c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a segurança privada também produz violência contra a população negra, e a formação é uma das formas de diminuí-la",
+     "plain": "Reitero que a violência das forças de segurança não fica só na segurança pública. A segurança privada também produz violência contra a população negra, e uma das formas de diminuir isso é, sem dúvida, a formação."
+    },
+    {
+     "id": "b052c2",
+     "sentences": [
+      4
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "assim como o Pronasci forma os serviços estaduais, é preciso um projeto de formação antirracista para a segurança privada",
+     "plain": "Assim como o Pronasci propõe a formação dos serviços de segurança estaduais, é preciso criar formação antirracista também para as empresas e os prestadores de serviços de segurança privada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra prazo para as políticas apresentadas, lembra que a maioria da Casa boicotou o feriado da Consciência Negra e encerra dizendo que a luta continua.",
+   "quote": [
+    30,
+    31,
+    32
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 30,
+   "stance": {
+    "position": "contrario",
+    "claim": "A visão intersetorial precisa de prazo, ou o debate fica no campo teórico.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b053c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a visão intersetorial é fundamental, mas falta discutir prazo, porque o debate fica no campo teórico",
+     "plain": "Essa visão intersetorial é fundamental, mas temos de discutir uma coisa chamada prazo. Muitas vezes o debate fica no campo teórico, e é preciso ter prazo."
+    },
+    {
+     "id": "b053c2",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só quatro dos 27 Estados comemoram o Dia da Consciência Negra e a maioria da Casa boicotou a aprovação",
+     "plain": "Aprovamos aqui a urgência do projeto que cria o Dia da Consciência Negra. Só quatro Estados o comemoram, num total de 27 Unidades da Federação, e a maioria boicotou para que ele não fosse aprovado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 15,
+   "from_claim": null,
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O assessor do mesmo Ministério diz que veio para ouvir e apoiar, e assina embaixo do retrato de um país onde a população negra apenas sobrevive."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 15,
+   "from_claim": "b006c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Onde o Ministério diz que quem fica apenas sobrevive, o deputado mostra o mecanismo: o racismo mata e ainda produz a narrativa que faz a morte parecer aceitável."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 15,
+   "from_claim": "b008c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Os dois órgãos do governo chegam ao mesmo ponto por caminhos diferentes, um pela vida que vira sobrevivência, outro pela conta econômica de perder jovens."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 46,
+   "from_claim": "b010c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O major retoma o dado sobre os policiais negros assassinados e acrescenta a composição da própria corporação na Bahia."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 49,
+   "from_claim": "b011c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "A presidência reconhece a disciplina obrigatória criada na corporação e diz que a mudança passa mesmo pela formação."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 50,
+   "from_claim": "b011c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "Para a presidência, o letramento não resolve enquanto as polícias continuarem como órgão auxiliar e sob a doutrina das Forças Armadas."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 47,
+   "from_claim": "b012c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O advogado leva adiante a crítica às leis orgânicas e mostra que a polícia é a única atividade que ficou sem controle da sociedade."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 6,
+   "from_claim": "b014c1",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "À pergunta sobre o controle social da polícia, o Ministério responde que o tema voltou e que a aposta atual são as ouvidorias externas."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 5,
+   "from_claim": "b018c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Ao advogado que apontou a ausência de controle social, responde que o caminho cobrado é o Ministério Público exercer o papel que a Constituição já lhe dá."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 1,
+   "from_claim": "b018c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "O Ministério da Igualdade Racial diz ter a mesma posição do outro Ministério e já ter escrito notas técnicas defendendo esse controle."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 47,
+   "from_claim": "b018c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Os dois Ministérios convergem na crítica às leis orgânicas das polícias, embora a Igualdade Racial veja pontos que ainda podem ser aperfeiçoados."
+  },
+  {
+   "from": "b020",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 48,
+   "from_claim": "b020c1",
+   "to_claim": "b011c3",
+   "strength": "media",
+   "note": "O major concorda que a luta não é fácil e chama de segurança pública cidadã o que a presidência pediu como estrutura repensada."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 49,
+   "from_claim": "b022c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "O Ministério da Justiça responde à formação criada na Bahia com um programa nacional de letramento racial para agentes de segurança."
+  },
+  {
+   "from": "b024",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 10,
+   "from_claim": "b024c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Os dois usam números para o mesmo ponto: o problema brasileiro não é só o volume de mortes, é quem morre."
+  },
+  {
+   "from": "b026",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 23,
+   "from_claim": null,
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A vereadora retoma a reportagem contada pelo deputado e diz que ali se vê o tamanho do racismo contra esses corpos."
+  },
+  {
+   "from": "b030",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 49,
+   "from_claim": "b030c3",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "A Frente Negra Gaúcha diz seguir a mesma linha do major e quer levar a formação antirracista para fora da polícia."
+  },
+  {
+   "from": "b030",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 20,
+   "from_claim": "b030c3",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "A proposta é dirigida ao Ministério da Justiça: o que já se faz com os agentes públicos deveria valer para os vigilantes contratados por empresas."
+  },
+  {
+   "from": "b034",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 11,
+   "from_claim": "b034c1",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "Onde a Secretaria mostra que os homicídios só caíram para quem não é negro, a deputada diz que a bala nunca é perdida porque encontra sempre os mesmos corpos."
+  },
+  {
+   "from": "b034",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 44,
+   "to_sentence": 19,
+   "from_claim": "b034c3",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "A deputada leva adiante o eixo apresentado pelo Ministério: o antirracismo não pode ser um eixo a mais, tem de estar em todas as políticas."
+  },
+  {
+   "from": "b034",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 22,
+   "from_claim": "b034c2",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Diante das entregas e das metas anunciadas, a deputada lembra que a CPI também gerou proposições e que elas continuam no papel."
+  },
+  {
+   "from": "b036",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 31,
+   "to_sentence": 50,
+   "from_claim": "b036c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Contra a aposta do major no letramento, o movimento negro evangélico diz que é preciso mudar também os processos de abordagem e a lógica da segurança."
+  },
+  {
+   "from": "b036",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 32,
+   "to_sentence": 20,
+   "from_claim": "b036c2",
+   "to_claim": "b022c2",
+   "strength": "forte",
+   "note": "Os cursos de letramento racial do Ministério da Justiça não alcançam o que o movimento aponta como o problema, que é a própria lógica da abordagem."
+  },
+  {
+   "from": "b036",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 48,
+   "from_claim": "b036c2",
+   "to_claim": "b011c3",
+   "strength": "media",
+   "note": "A presidência já pedira que a estrutura da segurança fosse repensada, e o movimento chega ao mesmo ponto pela via da abordagem policial."
+  },
+  {
+   "from": "b038",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 9,
+   "from_claim": "b038c1",
+   "to_claim": "b014c3",
+   "strength": "media",
+   "note": "A morosidade das corregedorias é o outro lado do que o Ministério chamou de autonomia sem prestação de contas."
+  },
+  {
+   "from": "b040",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 32,
+   "from_claim": "b040c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "As duas falas se encontram na mesma ideia: antes da morte física vem a decisão sobre quem a sociedade conta como gente."
+  },
+  {
+   "from": "b048",
+   "to": "b040",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 10,
+   "from_claim": "b048c1",
+   "to_claim": "b040c2",
+   "strength": "media",
+   "note": "A vereadora dá a forma cotidiana do que a assessora descreveu como herança histórica: o que chega primeiro é a cor."
+  },
+  {
+   "from": "b050",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 28,
+   "from_claim": "b050c2",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "Para o movimento negro, o programa de prevenção só vale quando os direitos deixarem de ser moeda de troca política."
+  },
+  {
+   "from": "b052",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 18,
+   "from_claim": "b052c2",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "No fim da audiência, a Frente Negra Gaúcha volta a pedir que a formação do programa federal tenha equivalente nas empresas de segurança."
+  },
+  {
+   "from": "b053",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 30,
+   "to_sentence": 23,
+   "from_claim": "b053c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Ao plano de doze anos apresentado pelo Ministério da Igualdade Racial, a presidência responde que falta justamente o que ninguém fixou, o prazo."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b006",
+    "b024",
+    "b026",
+    "b034"
+   ],
+   "claims": [
+    "b002c1",
+    "b006c2",
+    "b024c1",
+    "b026c1",
+    "b034c1"
+   ],
+   "note": "O Ministério dos Direitos Humanos, a Secretaria Nacional de Juventude, dois mandatos parlamentares e o movimento de familiares de vítimas concordam que as mortes de jovens negros têm marca racial e não são violência comum."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b006",
+    "b020",
+    "b040",
+    "b048"
+   ],
+   "claims": [
+    "b002c2",
+    "b006c1",
+    "b020c2",
+    "b040c1",
+    "b048c1"
+   ],
+   "note": "Um major da polícia, dois Ministérios, um deputado e uma mãe do movimento de familiares dizem a mesma coisa: o racismo está na estrutura e decide quem é tratado como gente."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b010",
+    "b020",
+    "b022",
+    "b030",
+    "b052"
+   ],
+   "claims": [
+    "b010c2",
+    "b010c3",
+    "b020c1",
+    "b022c2",
+    "b030c3",
+    "b052c2"
+   ],
+   "note": "A Polícia Militar da Bahia, o Ministério da Justiça e a Frente Negra Gaúcha concordam que formar e letrar os agentes de segurança, públicos e privados, reduz a violência racial."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b012",
+    "b014",
+    "b018",
+    "b038"
+   ],
+   "claims": [
+    "b002c3",
+    "b012c2",
+    "b014c1",
+    "b018c1",
+    "b038c1"
+   ],
+   "note": "Os dois Ministérios, o advogado que abriu o tema e o movimento negro evangélico concordam que a atividade policial ficou sem controle de fora e que isso precisa mudar."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b001",
+    "b004",
+    "b053"
+   ],
+   "claims": [
+    "b001c3",
+    "b004c1",
+    "b004c2",
+    "b053c2"
+   ],
+   "note": "A presidência e o assessor do Ministério dos Direitos Humanos descrevem a mesma Casa, a que arquivou duas vezes a criação desta Comissão e a que barrou o feriado da Consciência Negra."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": "b014",
+   "gist": "se o controle da polícia pela sociedade voltou a ser pensado",
+   "plain": "O Ministério dos Direitos Humanos voltou a pensar o controle da atividade policial pela sociedade?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b030",
+   "sentence": 16,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Ministério da Justiça exija formação antirracista na segurança privada",
+   "plain": "O Ministério da Justiça vai exigir formação antirracista nos cursos dos agentes de segurança privada?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b034",
+   "sentence": 18,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que as proposições da CPI virem política de verdade",
+   "plain": "As proposições que saíram da CPI sobre o extermínio de jovens negros vão sair do papel?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b036",
+   "sentence": 45,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como o Estado se responsabiliza pelo acompanhamento das famílias",
+   "plain": "Como o Estado se responsabiliza pelo acompanhamento das famílias de quem foi morto por agentes públicos?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b053",
+   "sentence": 30,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o governo diga em que prazo as políticas saem do papel",
+   "plain": "Em que prazo as políticas apresentadas nesta audiência vão sair do papel?",
+   "theme": "d3",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "20% dos assassinatos do mundo acontecem no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 15,
+   "gist": "quase 40 mil pessoas negras são mortas por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 21,
+   "gist": "67% das crianças assassinadas no Brasil são negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 46,
+   "gist": "83% das vítimas de morte por ação policial são negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 22,
+   "gist": "87,9% do efetivo da Polícia Militar da Bahia é preto e pardo",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 11,
+   "gist": "6.100 jovens foram ouvidos nas caravanas estaduais",
+   "disputed_by": [
+    {
+     "fala": "b024",
+     "sentence": 16
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 15,
+   "gist": "um jovem negro é perdido a cada 23 minutos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 22,
+   "gist": "18 Ministérios somam mais de 250 entregas no plano",
+   "disputed_by": [
+    {
+     "fala": "b024",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b022",
+   "sentence": 27,
+   "gist": "163 Municípios prioritários foram identificados",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b024",
+   "sentence": 11,
+   "gist": "homicídios de jovens negros subiram 11,5% entre 2008 e 2018",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b036",
+   "sentence": 28,
+   "gist": "99% das buscas pessoais não encontram nada",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b001",
+   "sentence": 110,
+   "gist": "só quatro das 27 Unidades da Federação têm o feriado",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo"
+  ],
+  "angle": "A matéria escolheu as medidas que o governo anunciou e os números da desigualdade racial na segurança, com a homenagem à Deputada Benedita da Silva como abertura.",
+  "omitted": "Ficaram de fora a cobrança por controle externo das polícias, a crítica à lógica da abordagem policial, a proposta sobre a segurança privada e a reparação pedida pelas famílias das vítimas."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Formar e letrar os agentes muda a segurança",
+   "statement_plain": "Ensinar relações raciais a policiais e a vigilantes privados, do recruta ao tenente-coronel, muda a forma como a segurança trata a população negra.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b010c3",
+    "b022c2",
+    "b030c3",
+    "b052c2"
+   ],
+   "note": "Une um major da Polícia Militar, o Ministério da Justiça e uma entidade do movimento negro, que costumam ficar em lados opostos quando o assunto é polícia."
+  },
+  {
+   "id": "t2",
+   "title": "Sem mudar a estrutura, formar não basta",
+   "statement_plain": "A doutrina militar, a estrutura da segurança e a lógica da abordagem é que produzem a violência contra jovens negros, e nenhum curso resolve isso sozinho.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b011c1",
+    "b011c3",
+    "b036c1",
+    "b036c2"
+   ],
+   "note": "Quem preside a sessão é do mesmo campo do governo que aposta na formação, e mesmo assim sustenta com o movimento negro evangélico que o problema está antes do curso."
+  },
+  {
+   "id": "t3",
+   "title": "A polícia mata e ninguém responde",
+   "statement_plain": "A atividade policial ficou sem controle de fora, as corregedorias demoram e o Estado não repara as famílias. Sem responsabilização, as mortes continuam.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b012c2",
+    "b014c1",
+    "b018c1",
+    "b026c2",
+    "b038c2"
+   ],
+   "note": "Junta dois Ministérios, um advogado, uma vereadora do movimento de familiares e o movimento negro evangélico contra leis que a própria Câmara aprovou."
+  },
+  {
+   "id": "t4",
+   "title": "O plano não vale sem prazo e sem execução",
+   "statement_plain": "Já houve CPI e proposições antes. Enquanto o governo não fixar prazo e não tirar os direitos da negociação política, o plano continua no papel.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b034c2",
+    "b050c2",
+    "b050c3",
+    "b053c1"
+   ],
+   "note": "Uma deputada da base do governo, a presidência da sessão e o movimento negro cobram o mesmo governo que acabaram de elogiar."
+  },
+  {
+   "id": "t5",
+   "title": "O plano é a maior resposta já montada",
+   "statement_plain": "O plano reúne 18 Ministérios, mais de 250 entregas e 12 anos de duração, e é o que vai mudar as estatísticas de violência contra a juventude negra.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b008c3",
+    "b022c3",
+    "b024c2",
+    "b044c1"
+   ],
+   "note": "É a tese que o governo levou à sala, sustentada por três órgãos diferentes, e a única que trata o plano anunciado como resposta suficiente."
+  },
+  {
+   "id": "t6",
+   "title": "O racismo está na estrutura, não no caso isolado",
+   "statement_plain": "A morte de jovens negros não é falha de um agente: vem de um Estado que decide quem conta como gente. Por isso toda política pública tem de ser antirracista.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b020c2",
+    "b034c3",
+    "b040c1",
+    "b050c1",
+    "b034c1"
+   ],
+   "note": "Cruza um major da Polícia Militar, dois mandatos parlamentares de partidos diferentes, o Ministério da Justiça e o movimento negro evangélico."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "LIBRAS",
+   "fala": "b001",
+   "sentence": 12,
+   "plain": "Língua Brasileira de Sinais, usada por pessoas surdas. A audiência teve intérprete para quem acompanha por ela"
+  },
+  {
+   "term": "CDHMIR",
+   "fala": "b002",
+   "sentence": 2,
+   "plain": "sigla da Comissão de Direitos Humanos, Minorias e Igualdade Racial, a comissão da Câmara que promoveu esta audiência"
+  },
+  {
+   "term": "necropolítica",
+   "fala": "b002",
+   "sentence": 13,
+   "plain": "ideia de que o Estado escolhe de quem cuida e quem deixa morrer, e de que essa escolha tem cor"
+  },
+  {
+   "term": "socioeducativo",
+   "fala": "b002",
+   "sentence": 33,
+   "plain": "sistema que aplica as medidas a adolescentes que cometeram infração, com internação e acompanhamento. Não é polícia"
+  },
+  {
+   "term": "Lei Orgânica da Polícia Militar",
+   "fala": "b002",
+   "sentence": 45,
+   "plain": "lei que organiza carreira, disciplina e comando das polícias militares em todo o País"
+  },
+  {
+   "term": "AI-5",
+   "fala": "b002",
+   "sentence": 50,
+   "plain": "Ato Institucional nº 5, o ato mais duro da ditadura militar, que fechou o Congresso e suspendeu direitos"
+  },
+  {
+   "term": "CAOPER",
+   "fala": "b010",
+   "sentence": 32,
+   "plain": "curso da Polícia Militar da Bahia sobre atendimento a ocorrências que envolvem minorias étnico-raciais"
+  },
+  {
+   "term": "Emenda 45",
+   "fala": "b012",
+   "sentence": 2,
+   "plain": "mudança na Constituição que reformou o Judiciário e criou conselhos com gente de fora para fiscalizá-lo"
+  },
+  {
+   "term": "CNMP",
+   "fala": "b012",
+   "sentence": 3,
+   "plain": "Conselho Nacional do Ministério Público, órgão que fiscaliza promotores e procuradores"
+  },
+  {
+   "term": "ouvidorias externas",
+   "fala": "b014",
+   "sentence": 2,
+   "plain": "canais de denúncia sobre a polícia formados por gente de dentro e de fora dela, e não só por policiais"
+  },
+  {
+   "term": "PRONASCI",
+   "fala": "b022",
+   "sentence": 18,
+   "plain": "Programa Nacional de Segurança Pública com Cidadania, do Ministério da Justiça, que financia prevenção e formação"
+  },
+  {
+   "term": "CADÚNICO",
+   "fala": "b022",
+   "sentence": 34,
+   "plain": "cadastro do governo federal com os dados das famílias de baixa renda, usado para escolher quem entra nos programas"
+  },
+  {
+   "term": "EMLER",
+   "fala": "b036",
+   "sentence": 15,
+   "plain": "grupo de especialistas da ONU que avalia violência racial e brutalidade policial nos países"
+  },
+  {
+   "term": "ADPF 973",
+   "fala": "b036",
+   "sentence": 16,
+   "plain": "ação no Supremo Tribunal Federal que cobra do Estado brasileiro medidas contra o extermínio da população negra"
+  },
+  {
+   "term": "perfilamento racial",
+   "fala": "b036",
+   "sentence": 30,
+   "plain": "prática de escolher quem a polícia aborda pela cor da pele, e não por um indício concreto"
+  }
+ ]
+}

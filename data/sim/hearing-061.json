@@ -1,0 +1,2258 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 61,
+ "model": "LLM lendo o prompt hearing-061 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:12:12Z",
+ "prompt_sha256": "aa48567660f7618f1273c2aab58d3f16ef6284c54bc2e090fe89e1d591da7c79",
+ "sentences_hash": "bbd8da60c2ac4ddc",
+ "review": {
+  "pairs_read": 47,
+  "pairs_fixed": 8
+ },
+ "warnings": [],
+ "synopsis": "O Grupo de Trabalho de Política Industrial da Comissão de Desenvolvimento Econômico ouviu a CNI, a ABIMAQ, a ABIQUIM e a ELETROS sobre o que deveria estar numa política de retomada da indústria, para levar ao novo governo, às mesas do Congresso e ao BNDES. As quatro entidades entregaram documentos e convergiram em reforma tributária, crédito caro, falta de mão de obra qualificada e estímulo à exportação, enquanto a presidência cobrava propostas de solução e lembrava que o grosso dessas demandas depende do próprio Parlamento. A audiência também expôs o que separa a sala: o papel do Estado no fomento e o PDL 575, que pôs a indústria química contra a eletroeletrônica.",
+ "stakes": "O resultado deste grupo de trabalho seria votado na comissão e encaminhado à equipe de transição, às mesas da Câmara e do Senado e ao BNDES, e no mesmo dia estava na pauta o PDL 575.",
+ "central_question": "Que política industrial o Brasil deve adotar para retomar o peso da sua indústria, e o que nela depende do Parlamento?",
+ "synopsis_plain": "A comissão de economia da Câmara ouviu quatro entidades da indústria sobre o que fazer para a indústria brasileira voltar a crescer. Todas pediram reforma tributária, crédito mais barato, mão de obra qualificada e apoio à exportação. O presidente cobrou propostas, não só reclamações, e disse que a maior parte depende do Parlamento. Duas divergências apareceram: o papel do Estado e o PDL 575.",
+ "stakes_plain": "O trabalho do grupo ia virar um documento para a equipe de transição do novo governo, para as mesas do Congresso e para o BNDES.",
+ "central_question_plain": "Que política o Brasil deve adotar para a indústria voltar a crescer, e o que nisso depende do Parlamento?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Política industrial e papel do Estado",
+   "description": "Se o Brasil precisa de um plano industrial conduzido pelo Estado, com coordenação entre ministérios e apoio à inovação, ou se basta remover os entraves que o próprio Estado cria.",
+   "axis": {
+    "pro": "O Estado deve conduzir uma política industrial ativa, com coordenação entre ministérios e apoio à inovação.",
+    "contra": "O problema da indústria está fora dela, no Estado que atrapalha, e o caminho é destravar e deixar produzir.",
+    "pro_plain": "O Estado tem de conduzir um plano para a indústria, com apoio à inovação.",
+    "contra_plain": "O problema é o Estado atrapalhar. Basta tirar os entraves e deixar a indústria produzir."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Reforma tributária e Custo Brasil",
+   "description": "O peso dos tributos sobre a indústria, a ordem entre a reforma tributária e a administrativa e a parte que o próprio Parlamento tem no custo de produzir no País.",
+   "axis": {
+    "pro": "A reforma tributária é a primeira condição da competitividade, e a indústria é o setor mais onerado.",
+    "contra": "Antes da tributária vem a reforma administrativa, e o Parlamento precisa assumir a sua parte no Custo Brasil.",
+    "pro_plain": "Sem mudar os impostos primeiro, nenhuma política para a indústria funciona.",
+    "contra_plain": "Primeiro é preciso arrumar a máquina pública, e o Parlamento tem de assumir o custo que ele mesmo cria."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Crédito e financiamento da produção",
+   "description": "O custo do crédito para capital de giro, compra de máquinas e exportação, e o papel do BNDES como banco de fomento.",
+   "axis": {
+    "pro": "O país precisa de política de crédito, garantias à exportação e um BNDES voltado ao fomento.",
+    "contra": "O crédito caro é consequência da economia e não exige política própria de financiamento.",
+    "pro_plain": "Falta crédito barato para comprar máquina, girar a empresa e exportar.",
+    "contra_plain": "O crédito caro se resolve sozinho com a economia, sem política de financiamento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Mão de obra qualificada e educação",
+   "description": "A falta de profissionais para a indústria, da área de tecnologia ao chão de fábrica, e o que falta na educação básica, no ensino médio e nos cursos técnicos.",
+   "axis": {
+    "pro": "Falta mão de obra qualificada, e é preciso rever o ensino médio, os cursos técnicos e a formação em tecnologia.",
+    "contra": "O dinheiro da educação já cresceu, e o que falta é cobrar resultado, não ampliar o financiamento.",
+    "pro_plain": "Falta gente qualificada, e o ensino médio e os cursos técnicos precisam ser revistos.",
+    "contra_plain": "O dinheiro da educação já cresceu muito. O que falta é cobrar resultado."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Abertura comercial e mercado interno",
+   "description": "Se o caminho é integrar a indústria ao mercado mundial, com acesso a importados e foco na exportação, ou proteger o mercado interno e transformar aqui o que hoje se importa.",
+   "axis": {
+    "pro": "A indústria forte é a integrada ao mercado mundial, com acesso a importados e condições de exportar.",
+    "contra": "O horizonte tem de ser a proteção do mercado interno, porque se importa o que poderia ser produzido aqui.",
+    "pro_plain": "A indústria forte é a que compra e vende no mundo, e precisa de condições para exportar.",
+    "contra_plain": "O que importamos podia ser feito aqui. O mercado interno tem de ser protegido."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Interesse público e o PDL 575",
+   "description": "A regra que deixa o Governo afastar uma medida de defesa comercial em nome do interesse público, e o projeto que quer derrubá-la, em pauta na comissão naquele dia.",
+   "axis": {
+    "pro": "A ferramenta do interesse público deve ser mantida como está, e o PDL 575 rejeitado.",
+    "contra": "O PDL 575 deve ser aprovado, porque a medida dá arbitrariedade ao Ministério e prejudica a indústria.",
+    "pro_plain": "A regra do interesse público tem de continuar como está, e o projeto deve ser rejeitado.",
+    "contra_plain": "O projeto deve passar, porque hoje o Ministério decide com arbitrariedade contra a indústria."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Prioridade da indústria frente ao agro",
+   "description": "O peso da indústria no PIB, na arrecadação e na pesquisa, o que ela mostrou na pandemia e a comparação das condições que ela e o agro recebem.",
+   "axis": {
+    "pro": "A indústria deve receber as mesmas condições que o agro tem, pelo que representa na economia.",
+    "contra": "A vocação do Brasil é o agro, e a indústria não precisa de tratamento equivalente.",
+    "pro_plain": "A indústria tem de receber as mesmas condições que o agro recebe.",
+    "contra_plain": "A vocação do Brasil é o agro. A indústria não precisa do mesmo tratamento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "Amazônia, Zona Franca e infraestrutura",
+   "description": "A Zona Franca de Manaus e os Processos Produtivos Básicos, as rodovias que ligam a região e o gás do Amazonas como parte de uma política industrial.",
+   "axis": {
+    "pro": "A Amazônia deve ser tratada como ativo, com Zona Franca preservada, rodovias e gás aproveitados.",
+    "contra": "A região é um problema a ser contornado, e os seus benefícios travam as reformas nacionais.",
+    "pro_plain": "A Amazônia é um ativo: a Zona Franca, as estradas e o gás têm de ser aproveitados.",
+    "contra_plain": "A região é um problema, e os benefícios dela travam as reformas do País."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado federal (PSD-AM), presidente da Comissão de Desenvolvimento Econômico e do grupo de trabalho de política industrial",
+   "org": "Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços",
+   "basis": "cabeçalho da ata, abertura em b001.3 e matéria a.4",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que cuida de economia, indústria e comércio. O grupo de trabalho dela pediu esta audiência"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Gerente-executivo de assuntos legislativos da Confederação Nacional da Indústria",
+   "org": "CNI",
+   "basis": "apresentado em b001.7 e b001.8, matéria a.17",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da CNI, a confederação nacional da indústria",
+   "org_plain": "confederação que representa as indústrias brasileiras e as federações estaduais do setor"
+  },
+  "s03": {
+   "role": "setor_privado",
+   "cargo": "Diretora-executiva de mercado externo da Associação Brasileira da Indústria de Máquinas e Equipamentos",
+   "org": "ABIMAQ",
+   "basis": "apresentada em b001.8 e b001.9, matéria a.12",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ABIMAQ, a associação da indústria de máquinas",
+   "org_plain": "associação das fábricas de máquinas e equipamentos do Brasil"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Gerente de relações institucionais da Associação Brasileira da Indústria Química",
+   "org": "ABIQUIM",
+   "basis": "apresentado em b001.9 e b001.10, autoapresentação em b012.2 e b012.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ABIQUIM, a associação da indústria química",
+   "org_plain": "associação que representa as fábricas de produtos químicos no País"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "Presidente-executivo da Associação Nacional de Fabricantes de Produtos Eletroeletrônicos",
+   "org": "ELETROS",
+   "basis": "apresentado em b001.10 e b001.11, autoapresentação em b016.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ELETROS, a associação dos fabricantes eletroeletrônicos",
+   "org_plain": "associação das fábricas de eletrodomésticos e de produtos eletroeletrônicos do País"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PSDB-SP)",
+   "org": "Câmara dos Deputados (PSDB-SP)",
+   "basis": "cabeçalho da ata, b017.1 e matéria a.24",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por São Paulo, do PSDB",
+   "org_plain": "deputado eleito por São Paulo, do PSDB"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (Novo-SP), relator do PDL 537 na comissão",
+   "org": "Câmara dos Deputados (Novo-SP)",
+   "basis": "cabeçalho da ata, b012.21, b023.1 e matéria a.20",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por São Paulo, do Novo",
+   "org_plain": "deputado eleito por São Paulo, do Novo, que diz vir da indústria e ter indústria"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PSD-BA), vice-presidente da Comissão de Desenvolvimento Econômico",
+   "org": "Câmara dos Deputados (PSD-BA)",
+   "basis": "cabeçalho da ata e apresentação em b025.38",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pela Bahia, vice-presidente da comissão",
+   "org_plain": "deputado eleito pela Bahia, do PSD, vice-presidente desta comissão"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PT-BA), integrante do grupo de indústria da equipe de transição",
+   "org": "Câmara dos Deputados (PT-BA)",
+   "basis": "cabeçalho da ata, b028.2 e matéria a.25",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pela Bahia, do PT",
+   "org_plain": "deputado eleito pela Bahia, do PT, que integra a equipe de transição do novo governo"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.75
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.1
+   }
+  ],
+  "basis": "b031.5 descreve a mesa e as primeiras fileiras com quase todos homens e as mulheres ao fundo do plenário, b032.17 fala de representantes de outros setores sentados observando, e há um registro de palmas em b037",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a reunião do grupo de trabalho de política industrial e convida as quatro entidades à mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da CNI entrega o documento do plano de retomada da indústria e justifica a ausência de um colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca que é a primeira vez que ouve a expressão acordou com COVID.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta o documento da CNI sobre a retomada da indústria, com dados globais e as iniciativas para os 100 primeiros dias do novo Governo.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A retomada da indústria exige uma política industrial e medidas já nos 100 primeiros dias do novo Governo.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o documento compara a situação do Brasil com a do mundo e traz as políticas industriais e os planos estruturantes de outros países",
+     "plain": "Trago um documento sobre a indústria brasileira em perspectiva, com dados da economia global e um comparativo da nossa situação com o mundo. Ele trata das políticas industriais de outros países e das propostas para a retomada."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o documento aponta as iniciativas para os 100 primeiros dias do novo Governo, para a indústria voltar a gerar emprego e pagar imposto",
+     "plain": "Passamos pelas iniciativas que devem ser a preocupação dos 100 primeiros dias do novo Governo. São as medidas que podem criar ambiente para a indústria voltar a ter o papel que já teve, gerando empregos e pagando impostos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à CNI e concede a palavra à ABIMAQ.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que sem reforma tributária qualquer política industrial será inócua, e aponta o crédito caro e a falta de mão de obra qualificada.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem tratar antes a questão tributária, nenhuma política industrial trará competitividade ao setor.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem atacar primeiro a reforma tributária, qualquer política industrial será inócua ou terá um resultado pífio",
+     "plain": "Não é possível fazer uma política industrial sem atacar, junto e primeiro, a questão tributária. Qualquer política para o setor, horizontal ou por setores, sem tratar dos tributos, vai ser inócua ou vai ter um resultado pífio."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "80% das empresas de máquinas e equipamentos se financiam com capital próprio, segundo pesquisa repetida por 2 anos",
+     "plain": "Nossa pesquisa, repetida por 2 anos seguidos, constatou que 80% das nossas empresas se financiam com capital próprio. Elas pagam a máquina em 6 a 8 meses, mas com dinheiro delas mesmas."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há déficit de mão de obra disponível para a indústria, e uma política de novas tecnologias vai exigir gente qualificada",
+     "plain": "Hoje falta mão de obra que a indústria possa aproveitar. Se estamos falando de política industrial, de novas tecnologias e de inovação, vamos precisar de mão de obra qualificada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que a expositora continue.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A expositora da ABIMAQ avisa que vai tratar de outro tema.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Cobra das entidades propostas de solução, e não só o diagnóstico, e pergunta como a ABIMAQ vê o investimento do orçamento do Governo.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O debate precisa sair do diagnóstico e chegar a propostas de solução para a retomada da indústria.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a reforma tributária, o crédito e a qualificação já são consenso, e o que falta é ouvir as propostas de solução",
+     "plain": "Ouvimos muito a identificação dos problemas. O que queríamos era ouvir de vocês, também, as propostas de solução. A reforma tributária já é consenso, entre nós e na sociedade. A qualificação da mão de obra e o crédito também ouvimos muito."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele pergunta como a ABIMAQ vê a participação do orçamento do Governo em investimento para retomar a indústria de transformação",
+     "plain": "Como a ABIMAQ vê a participação do orçamento do Governo em investimento? Pergunto para sabermos o que fazer para retomar esse segmento, que é tão importante para a indústria de transformação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que a ABIMAQ também é propositiva, com propostas sobre a TLP, garantias à exportação e instrumentos de apoio à inovação.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ABIMAQ identifica os problemas e apresenta propostas de crédito, de exportação e de inovação.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a associação não só identifica o problema como aponta, pelo seu corpo técnico, a forma de corrigi-lo",
+     "plain": "Além de identificarmos o problema que causa prejuízo ao setor de máquinas e equipamentos, nós também somos propositivos. O corpo técnico da ABIMAQ aponta a forma como aquele problema pode ser corrigido."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a associação já tem proposta sobre a TLP e sobre garantias e financiamento às exportações",
+     "plain": "Na questão do crédito, a ABIMAQ já tem uma proposta em relação à TLP, a taxa de longo prazo. Sobre garantias às exportações e financiamento à exportação também já há proposta, que estamos juntando a esse documento."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso aprimorar os instrumentos de apoio à inovação, porque decisões de hoje prejudicam as empresas nesse quesito",
+     "plain": "Falta aprimorar os instrumentos de apoio à inovação, que é parte da política industrial. Hoje há decisões que afetam a inovação e prejudicam as nossas empresas, que precisam competir também no mercado internacional."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à ABIMAQ e concede a palavra à ABIQUIM.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Entrega as 23 propostas da indústria química em quatro eixos e pede audiência pública para discutir melhor o projeto que está na pauta.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A indústria química traz 23 propostas para o desenvolvimento do País, divididas em quatro eixos.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a indústria química traz 23 propostas em quatro eixos: energia, tributação, inserção internacional e desenvolvimento sustentável",
+     "plain": "São 23 propostas neste documento, divididas em quatro eixos: energia, tributação, inserção internacional e desenvolvimento sustentável."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      26
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a indústria química quer uma audiência pública para discutir melhor a proposta antes de ela ser levada ao Governo de transição",
+     "plain": "Com respeito ao presidente e ao Deputado Otto Filho, entendemos que precisamos de uma audiência pública para discutir melhor essa proposta, antes de ela ser levada ao Governo de transição."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede que o convite e o documento sejam oficializados e sustenta que o papel do BNDES é fomentar o desenvolvimento, não dar lucro.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O BNDES existe para fomentar o desenvolvimento, e não para dar lucro.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para a presidência e outro deputado, o BNDES não existe para dar lucro, e sim para fomentar o desenvolvimento",
+     "plain": "Eu e o Deputado Lippi conversávamos um dia desses: para nós, o BNDES não existe para dar lucro, e sim para fomentar o desenvolvimento. É essa discussão que nós queremos travar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da ABIQUIM concorda com os dois pedidos da presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao representante da ELETROS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende uma reforma tributária que atenda o País todo, propõe a reforma administrativa antes dela e pede a manutenção da ferramenta do interesse público.",
+   "quote": [
+    32,
+    33
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A indústria precisa de uma reforma tributária que atenda o País como um todo, precedida de reforma administrativa.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso uma reforma tributária que atenda o Brasil como um todo e que não onere ainda mais a indústria nem o consumidor",
+     "plain": "Precisamos de uma reforma tributária que atenda o País como um todo. Não basta uma que simplifique ou modernize o sistema: ela não pode onerar ainda mais a indústria, nem ainda mais o consumidor."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      51,
+      52
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "deveríamos ter primeiro a reforma administrativa e depois a tributária, para saber como o Estado gasta antes de definir como arrecada",
+     "plain": "Penso que deveríamos ter primeiro uma reforma administrativa e depois a tributária. Precisamos entender como vai funcionar a máquina pública e como gastar melhor, para depois sabermos como devemos arrecadar."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      152,
+      153,
+      154
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ELETROS já perdeu várias causas no interesse público e ainda assim considera fundamental manter essa ferramenta do jeito que está",
+     "plain": "Quem fala aqui representa um setor que já perdeu várias causas quando foram tratadas no interesse público. Mesmo assim, entendemos que é preciso manter essa ferramenta como está, porque ela interessa ao Governo Federal e à indústria."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à ELETROS e concede a palavra a um deputado de São Paulo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra o peso da indústria no PIB e na arrecadação e afirma que o problema do não crescimento está fora da indústria.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    21,
+    22,
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O entrave ao crescimento da indústria está fora dela, no ambiente de negócios e no sistema tributário.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o problema do não crescimento não está dentro da indústria, e o Brasil ocupa o 184º lugar no pior sistema tributário do mundo",
+     "plain": "O problema do não crescimento das indústrias no Brasil não está dentro da indústria, está fora dela, no ambiente de negócios. Ocupamos o 184º lugar no pior sistema tributário do mundo e o 124º no pior ambiente de negócios."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      7
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a indústria é cerca de 22% do PIB, quase 40% da arrecadação e quase 70% do financiamento da pesquisa e inovação",
+     "plain": "Hoje as indústrias representam cerca de 22% do PIB. Quase 40% da arrecadação do País vêm delas, e quase 70% do financiamento da pesquisa e da inovação no Brasil também."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "faltam profissionais de tecnologia da informação num momento em que todas as empresas estão cada vez mais digitalizadas",
+     "plain": "Na qualificação da mão de obra, estão faltando profissionais de TI, de tecnologia da informação. Estamos na era digital, as empresas estão cada vez mais digitalizadas e precisamos desses profissionais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência comenta que a COVID mostrou isso a todos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado confirma que a COVID mostrou isso a todos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cita a concentração na produção de chips, em trecho que a ata registra como inaudível.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta o reposicionamento das cadeias globais como oportunidade para o Brasil receber empresas que saem da Ásia.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil pode atrair os investimentos que saem da Ásia se estudar como recebê-los.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil pode se beneficiar do reposicionamento de investimentos e da saída de empresas da Ásia, e precisa estudar como recebê-las",
+     "plain": "O Brasil pode se beneficiar muito desse reposicionamento de investimentos, da saída de empresas da Ásia para o Brasil. O País precisa estudar como pode receber essas empresas e como se reposiciona diante disso."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em vez de só ampliar os programas sociais é preciso produzir mais, e a melhor agenda é o fortalecimento da indústria nacional",
+     "plain": "Em vez de só ampliarmos os programas sociais, que são muito importantes, mas não dão sustentabilidade, precisamos produzir mais e ser mais competitivos. A melhor agenda para o Brasil hoje é fortalecer a indústria nacional."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e concede a palavra a outro deputado de São Paulo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o Brasil não tem plano industrial, que só a indústria carrega os piores tributos e que o Estado é quem atrapalha.",
+   "quote": [
+    49,
+    50,
+    51,
+    52
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O que impede a indústria brasileira de ser competitiva é o Estado atrapalhando.",
+    "sentence": 52
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "existe o Plano Safra e um esforço para financiar as safras, mas não existe plano para financiar investimento em máquinas",
+     "plain": "Temos hoje o Plano Safra, mas não há um plano indústria. O Brasil faz todo um esforço para financiar as safras e não tem plano para financiar investimento em máquinas e equipamentos."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só a indústria tem ICMS, diferencial de alíquota e substituição tributária, e acaba pagando adiantado o imposto da cadeia inteira",
+     "plain": "Só a indústria tem ICMS, diferencial de alíquota e substituição tributária. Ela paga adiantado o imposto dos outros e banca a conta da cadeia inteira até o consumidor final. Assim não há como ser competitivo."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o que faz o Brasil não ser competitivo é o Estado atrapalhando, e sem isso estaria ótimo",
+     "plain": "O que nos faz não ser competitivos? Eu digo: o Estado atrapalhando. Se ele não atrapalhasse, estaria ótimo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que o grosso das demandas passa pelo Parlamento, cita benesses que encarecem a energia e cobra resultado do dinheiro da educação.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O grosso das demandas da indústria depende do próprio Parlamento, que aprova o que encarece a produção.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o grosso dessas demandas passa pelo Parlamento, e sem assumir essa responsabilidade os parlamentares vão sempre cobrar dos governos",
+     "plain": "O grosso destas demandas passa por este Parlamento. Se nós, deputados e senadores, não tomarmos essa responsabilidade para nós, vamos sempre cobrar dos governos o que foi discutido aqui."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "muito do custo energético que se cobra é responsabilidade do Parlamento, que fica aprovando benesses, e isso tem um custo",
+     "plain": "Boa parte do custo da energia que cobramos é responsabilidade deste Parlamento, que aprova benesses. E isso tem um custo, porque não existe almoço grátis."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o financiamento da educação hoje não se compara ao de 20 ou 30 anos atrás, e falta cobrar o resultado",
+     "plain": "A educação de 20, 30 anos atrás nem se compara, em valor de financiamento, com a de hoje. E o resultado? Cobrar isso é responsabilidade do Parlamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Declara que mantém o voto contra o PDL 575 e defende a ferramenta do interesse público, apoiado no que ouviu dos servidores do Ministério.",
+   "quote": [
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ferramenta do interesse público deve ser mantida, e o PDL 575 rejeitado.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os servidores concursados do Ministério mostraram que a ferramenta do interesse público, imperfeita, ainda é importante para avaliar dumping",
+     "plain": "O projeto 575 é discutido aqui há 2 anos e ouvimos todos os setores da indústria. A conversa mais importante foi com os funcionários concursados do Ministério: mostraram que a ferramenta, mesmo imperfeita, é importantíssima."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a decisão dele está tomada, é ficar contra o PDL 575, e foi uma decisão colegiada, não isolada",
+     "plain": "Diante de todos, posso dizer que a minha decisão está tomada e não vou mudá-la: vou ficar contra o PDL 575. Peço o apoio dos colegas, muitos dos quais estiveram nas reuniões. Não foi uma decisão minha, foi colegiada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o deputado do PT da Bahia e lhe concede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe comissão interministerial para importação e fomento, defende o BNDES como banco de desenvolvimento e põe a proteção do mercado interno no horizonte.",
+   "quote": [
+    44,
+    45,
+    46
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26,
+    27
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política industrial precisa de coordenação interministerial e de bancos públicos de fomento.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a política de importação tem de ser ministerial, e é preciso criar uma comissão interministerial para tratar do assunto",
+     "plain": "Essa política de importação, que está no texto da transição, tem de ser uma política ministerial. Devemos criar uma comissão interministerial para tratar do assunto, porque ele não é só de desenvolvimento econômico."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a função principal do BNDES é o desenvolvimento interno da indústria, do comércio e dos serviços, e não dar lucro",
+     "plain": "Eles queriam destruir o BNDES. A função principal dele é cuidar do desenvolvimento interno da indústria, do comércio e dos serviços do País, e não dar lucro."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      94,
+      95,
+      96
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "transformar aqui 10% do que a agroindústria importa geraria 110 mil empregos e mais de 3,2 bilhões de reais aos cofres públicos",
+     "plain": "O pessoal da indústria de alimentos levantou uma coisa interessante: se pegássemos 10% do que a agroindústria importa e transformássemos aqui dentro, geraríamos 110 mil empregos e mais de 3,2 bilhões de reais aos cofres públicos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência observa que o deputado passou do tempo e concede a palavra à ELETROS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Relata que a indústria nacional evitou o desabastecimento na pandemia e pede para a indústria as mesmas condições que o agro tem.",
+   "quote": [
+    36,
+    37
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 40,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A indústria deve receber as mesmas condições que o agro tem.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a dependência da China desabasteceu o mundo, e o Brasil foi um dos poucos países sem esse problema, por sua indústria forte",
+     "plain": "Há uma grande dependência da China, que bloqueou e deixou de atender à demanda mundial por televisor, geladeira, fogão, ar-condicionado e computador. O Brasil foi um dos pouquíssimos sem desabastecimento, pela sua forte indústria nacional."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      10
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o setor entrega em média 100 milhões ou 90 milhões de unidades por ano, e na pandemia entregou 120 milhões",
+     "plain": "Normalmente entregamos, em média, 100 milhões ou 90 milhões de unidades de produtos por ano. Na pandemia, foram 120 milhões."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dando à indústria as mesmas condições que o agro tem, o Brasil será uma potência mundial no setor industrial",
+     "plain": "Deem à indústria as mesmas condições que o agro tem, e que é legítimo que ele continue tendo. Os senhores verão a potência mundial que seremos no setor industrial, em todos os setores."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à ABIMAQ e nota que quase todos na mesa e nas primeiras fileiras são homens.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Põe previsibilidade e segurança jurídica como condição para atrair cadeias, cobra reestruturação do ensino médio e defende uma indústria integrada ao mundo.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Uma política industrial exige previsibilidade, segurança jurídica e uma revisão da educação brasileira.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso incentivar o jovem a querer trabalhar na indústria e reestruturar o ensino médio para formar engenheiros e técnicos",
+     "plain": "Temos que incentivar o jovem a se interessar por trabalhar numa indústria forte, que traz inovação. Precisamos de uma política de reestruturação do ensino médio, para termos engenheiros de tecnologia e técnicos no chão da indústria."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para atrair as cadeias globais é preciso primeiro um ambiente previsível e segurança jurídica, porque ninguém investe sem isso",
+     "plain": "Para atrairmos essas cadeias, precisamos primeiro de um ambiente previsível, com segurança jurídica. Ninguém investe em um país sem esses dois atributos, que são extremamente importantes."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma indústria forte é uma indústria integrada no mercado mundial, com acesso a novos fornecedores e a bens importados",
+     "plain": "Uma indústria forte é uma indústria integrada no mercado mundial. Precisamos ter acesso a novos fornecedores e a bens importados, e ter uma indústria que produz, que exporta e que vende no mercado interno."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à ABIMAQ e concede a palavra à ABIQUIM.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Compara a carga tributária da indústria com a do agro, trata do gás natural e discorda do colega ao apoiar o PDL 575.",
+   "quote": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O PDL 575 deve ser aprovado, porque a medida de interesse público dá arbitrariedade ao Ministério da Economia.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a medida se traveste de interesse público e dá arbitrariedade ao Ministério da Economia, o que prejudica a indústria nacional",
+     "plain": "A ABIQUIM é favorável ao PDL, com entendimento parecido com o do Deputado Zé Neto. Essa é uma abertura desmedida: a medida se traveste de interesse público e dá arbitrariedade ao Ministério da Economia, o que prejudica a indústria."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a carga tributária média da indústria é de 38%, contra 2% a 4% do agro, e isso precisa ser observado",
+     "plain": "Concordamos plenamente com os deputados na questão tributária: a indústria tem, em média, 38% de carga tributária, contra 2% a 4% do agro. Isso precisa ser observado, e entre as nossas propostas há um eixo de alterações tributárias."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o custo energético é um dos principais pontos para a indústria química, e o gás natural é energia e matéria-prima de fertilizante",
+     "plain": "O custo da energia é um dos principais pontos para a indústria química. O gás natural não é só fonte de energia: é também matéria-prima do fertilizante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra à CNI e pede brevidade, porque a reunião da comissão está atrasada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que a reforma tributária é a principal medida para destravar o crescimento e cita avanços da Casa em segurança jurídica.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A reforma tributária é a principal medida para destravar o crescimento da indústria e do País.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a reforma tributária é a principal medida para destravar e permitir o crescimento da indústria e do País como um todo",
+     "plain": "A reforma tributária é realmente a principal medida para destravar o crescimento, e não só o da indústria: é o do País inteiro."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há um projeto sobre aprendizagem tramitando na Casa que, aprovado de forma adequada, pode ser um grande passo na educação profissional",
+     "plain": "Na educação, estamos com um projeto sobre aprendizagem tramitando na Casa. Se for aprovado de forma adequada, pode ser um grande passo para começarmos a entender o que dá para fazer na educação profissional."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na segurança jurídica a Casa deu um exemplo, ao enviar à sanção a desconsideração da personalidade jurídica depois de décadas",
+     "plain": "Na segurança jurídica, que a Patrícia levantou, a Casa deu um excelente exemplo. Na semana passada, depois de décadas, a desconsideração da personalidade jurídica foi enviada à sanção. Isso é um espetáculo!"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Defende que a Amazônia seja tratada como ativo, cita as rodovias BR-163 e BR-319 e os 16 blocos de gás do Amazonas.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Amazônia deve ser tratada como um ativo, com infraestrutura e gás a aproveitar.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ele disse ao Presidente eleito que a Amazônia não pode ser tratada como um problema, e sim como um ativo",
+     "plain": "Ontem o meu partido foi convidado a uma reunião com o Presidente eleito, e eu disse a ele que a Amazônia não pode ser tratada como um problema, e sim como um ativo."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a BR-163 já diminui o gargalo dos portos de Santos e de Paranaguá, e a BR-319 vai interligar o Pacífico e o Atlântico",
+     "plain": "A BR-163 é o exemplo: ela diminui o gargalo do Porto de Santos e do de Paranaguá para os grãos do Centro-Oeste. A BR-319 vai permitir interligar o Pacífico, o Atlântico e grande parte da malha viária do País."
+    },
+    {
+     "id": "b037c3",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Amazonas, fora as áreas de conflito, há 16 blocos de gás para exploração, já em trabalho com a agência reguladora",
+     "plain": "No Estado do Amazonas, fora a área de conflito, sem a questão indígena e outras, temos 16 blocos de gás para explorar. Eles estão à disposição e já vêm sendo trabalhados junto com a agência reguladora."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b009",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 12,
+   "from_claim": "b009c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "A presidência responde às exposições dizendo que a reforma tributária já é consenso e que agora quer ouvir propostas de solução."
+  },
+  {
+   "from": "b010",
+   "to": "b009",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b010c1",
+   "to_claim": "b009c2",
+   "strength": "forte",
+   "note": "À cobrança de propostas, a ABIMAQ responde que identifica o problema e também aponta, pelo corpo técnico, a forma de corrigi-lo."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 12,
+   "from_claim": "b016c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A ELETROS ratifica a defesa da reforma tributária feita antes e acrescenta que ela precisa atender o País como um todo."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 51,
+   "to_sentence": 12,
+   "from_claim": "b016c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Diverge na ordem das reformas: para a ELETROS, a administrativa deveria vir antes da tributária, e não o contrário."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 32,
+   "from_claim": "b018c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "O deputado confirma o diagnóstico sobre o ambiente de negócios e dá a posição do Brasil no ranking do sistema tributário."
+  },
+  {
+   "from": "b024",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 6,
+   "from_claim": "b024c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Apoia o documento da CNI e resume a falta em uma frase: existe o Plano Safra, mas não existe plano para financiar a indústria."
+  },
+  {
+   "from": "b024",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 13,
+   "from_claim": "b024c2",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Detalha o que o colega apontou no sistema tributário: só a indústria tem ICMS, diferencial de alíquota e substituição tributária."
+  },
+  {
+   "from": "b025",
+   "to": "b024",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 52,
+   "from_claim": "b025c1",
+   "to_claim": "b024c3",
+   "strength": "forte",
+   "note": "À conclusão de que o Estado atrapalha, a presidência responde que o grosso dessas demandas passa pelo próprio Parlamento."
+  },
+  {
+   "from": "b025",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 21,
+   "to_sentence": 35,
+   "from_claim": "b025c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "À falta de mão de obra qualificada, a presidência responde que o financiamento da educação cresceu e pergunta pelo resultado."
+  },
+  {
+   "from": "b026",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 153,
+   "from_claim": "b026c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "O vice-presidente da comissão se apoia na ELETROS e nos servidores do Ministério para manter a ferramenta do interesse público."
+  },
+  {
+   "from": "b026",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 21,
+   "to_sentence": 26,
+   "from_claim": "b026c2",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Ao pedido de nova audiência pública, responde que a discussão já durou 2 anos, foi colegiada e que a decisão dele está tomada."
+  },
+  {
+   "from": "b028",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 24,
+   "from_claim": null,
+   "to_claim": "b024c2",
+   "strength": "media",
+   "note": "O deputado do PT concorda com o colega do Novo que o Custo Brasil é um absurdo, ainda que discordem em pontos ideológicos."
+  },
+  {
+   "from": "b028",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 6,
+   "from_claim": "b028c2",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "Retoma o ponto da presidência sobre o BNDES: a função dele é o desenvolvimento interno, e não dar lucro."
+  },
+  {
+   "from": "b030",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 16,
+   "from_claim": "b030c3",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "À falta de um plano para a indústria, a ELETROS responde pedindo para o setor as mesmas condições que o agro tem."
+  },
+  {
+   "from": "b030",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 7,
+   "from_claim": "b030c1",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "Confirma com o exemplo da pandemia a tese de que fortalecer a indústria nacional é a melhor agenda para o País."
+  },
+  {
+   "from": "b032",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 4,
+   "from_claim": "b032c2",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "Responde à provocação sobre as cadeias globais: para atrair essas cadeias é preciso antes previsibilidade e segurança jurídica."
+  },
+  {
+   "from": "b032",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 37,
+   "to_sentence": 95,
+   "from_claim": "b032c3",
+   "to_claim": "b028c3",
+   "strength": "forte",
+   "note": "À defesa de transformar aqui o que se importa, a ABIMAQ opõe a indústria integrada, com acesso a fornecedores e bens importados."
+  },
+  {
+   "from": "b034",
+   "to": "b026",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 21,
+   "from_claim": "b034c1",
+   "to_claim": "b026c2",
+   "strength": "forte",
+   "note": "A indústria química discorda do deputado e se declara favorável ao PDL 575, porque a medida dá arbitrariedade ao Ministério."
+  },
+  {
+   "from": "b034",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 153,
+   "from_claim": "b034c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "Duas entidades da indústria se separam: para a química, a medida apenas se traveste de interesse público e fere a concorrência."
+  },
+  {
+   "from": "b034",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 7,
+   "from_claim": "b034c2",
+   "to_claim": "b018c2",
+   "strength": "media",
+   "note": "Concorda com os deputados na questão tributária e compara a carga que recai sobre a indústria com a do agro."
+  },
+  {
+   "from": "b036",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 6,
+   "from_claim": "b036c3",
+   "to_claim": "b032c2",
+   "strength": "media",
+   "note": "A CNI responde à cobrança de segurança jurídica dizendo que a Casa deu um exemplo na semana passada."
+  },
+  {
+   "from": "b036",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 12,
+   "from_claim": "b036c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "A CNI ratifica que a reforma tributária é a principal medida para destravar o crescimento da indústria e do País."
+  },
+  {
+   "from": "b037",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b037c1",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "A presidência concorda com os novos arranjos das cadeias e diz que a Amazônia deve entrar neles como ativo."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b018",
+    "b024",
+    "b036"
+   ],
+   "claims": [
+    "b006c1",
+    "b018c1",
+    "b024c2",
+    "b036c1"
+   ],
+   "note": "As entidades da indústria e os dois deputados de São Paulo concordam que o peso e a complexidade dos tributos são o primeiro entrave da competitividade."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b006",
+    "b010",
+    "b013",
+    "b024",
+    "b028"
+   ],
+   "claims": [
+    "b006c2",
+    "b010c2",
+    "b013c1",
+    "b024c1",
+    "b028c2"
+   ],
+   "note": "A presidência, as entidades e deputados de partidos opostos concordam que falta financiamento para produzir e exportar e que o BNDES tem de ser banco de fomento."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b018",
+    "b032",
+    "b036"
+   ],
+   "claims": [
+    "b006c3",
+    "b018c3",
+    "b032c1",
+    "b036c2"
+   ],
+   "note": "Entidades e deputado concordam que falta mão de obra qualificada para a indústria e que a formação técnica e o ensino médio precisam ser revistos."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b018",
+    "b022",
+    "b030",
+    "b034"
+   ],
+   "claims": [
+    "b018c2",
+    "b022c2",
+    "b030c3",
+    "b034c2"
+   ],
+   "note": "Um deputado e duas entidades concordam que a indústria sustenta boa parte do PIB e da arrecadação e deveria receber as condições que o agro recebe."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b009",
+   "sentence": 4,
+   "addressed_to": "setor_privado",
+   "answered_by": "b010",
+   "gist": "como a ABIMAQ vê a participação do orçamento do Governo em investimento",
+   "plain": "Como a ABIMAQ vê a participação do orçamento do Governo em investimento para retomar a indústria de transformação?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b012",
+   "sentence": 26,
+   "addressed_to": "parlamentar",
+   "answered_by": "b026",
+   "gist": "fazer audiência pública antes de decidir a proposta que está na pauta",
+   "plain": "A comissão vai fazer uma audiência pública para discutir melhor essa proposta antes de levá-la ao Governo de transição?",
+   "theme": "d6",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b030",
+   "sentence": 40,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "dar à indústria as condições que outros setores já têm",
+   "plain": "Os senhores vão dar à indústria as condições que outros setores já têm?",
+   "theme": "d7",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b006",
+   "sentence": 27,
+   "gist": "80% das empresas de máquinas se financiam com capital próprio",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b016",
+   "sentence": 119,
+   "gist": "o REINTEGRA caiu para 0,1% no Brasil, contra até 20% fora",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b016",
+   "sentence": 132,
+   "gist": "22 das 34 associadas da ELETROS estão na Zona Franca",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b018",
+   "sentence": 4,
+   "gist": "cada emprego na indústria cria 2,6 empregos fora dela",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b018",
+   "sentence": 7,
+   "gist": "a indústria é 22% do PIB e quase 40% da arrecadação",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b018",
+   "sentence": 13,
+   "gist": "o Brasil é 184º em sistema tributário e 124º em ambiente de negócios",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b018",
+   "sentence": 23,
+   "gist": "produzir no Brasil custa 25% mais que a média do mundo",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b024",
+   "sentence": 26,
+   "gist": "lucro líquido e Imposto de Renda somam 34%, contra 25% no mundo",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b034",
+   "sentence": 2,
+   "gist": "carga de 38% na indústria, contra 2% a 4% no agro",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b028",
+   "sentence": 64,
+   "gist": "os Estados Unidos investiram 1,2 trilhão",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b028",
+   "sentence": 95,
+   "gist": "transformar aqui 10% do que a agroindústria importa geraria 110 mil empregos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b030",
+   "sentence": 10,
+   "gist": "o setor entregou 120 milhões de unidades na pandemia",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "setor_privado",
+   "parlamentar"
+  ],
+  "angle": "A matéria enquadra a audiência como a lista de demandas das entidades patronais, abre com a queda da participação da indústria brasileira na produção mundial e dá uma citação a cada entidade e a cada deputado.",
+  "omitted": "Fica de fora a divergência sobre o PDL 575 e a ferramenta do interesse público, que separou duas entidades da indústria e dois deputados. Também não entram a Zona Franca de Manaus, o gás do Amazonas e a cobrança da presidência sobre o resultado do dinheiro da educação."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O Estado tem de fomentar a indústria",
+   "statement_plain": "A retomada da indústria depende do Estado: um plano coordenado entre ministérios, apoio à inovação e bancos públicos que financiem o desenvolvimento, não que busquem lucro.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b028c1",
+    "b028c2",
+    "b013c1",
+    "b004c2",
+    "b010c3"
+   ],
+   "note": "A ideia cruza setores: um deputado do PT, a presidência da comissão e as entidades patronais pedem o mesmo fomento público, cada um pelo seu motivo."
+  },
+  {
+   "id": "t2",
+   "title": "O problema da indústria está fora dela",
+   "statement_plain": "A indústria brasileira não cresce por causa do que vem de fora do portão: tributos, ambiente de negócios e o próprio Estado atrapalhando quem quer produzir.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b024c3",
+    "b018c1",
+    "b024c2",
+    "b006c1",
+    "b036c1"
+   ],
+   "note": "Ideia oposta à do fomento estatal: para ela o entrave é o Estado e o sistema tributário, e junta um deputado do Novo às confederações e associações da indústria."
+  },
+  {
+   "id": "t3",
+   "title": "Antes da tributária, a reforma administrativa",
+   "statement_plain": "Não se arruma a arrecadação antes de arrumar o gasto. Primeiro é preciso saber como funciona a máquina pública, e o Parlamento tem de assumir o custo que ele mesmo cria.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b016c2",
+    "b025c1",
+    "b025c2"
+   ],
+   "note": "Divide o próprio bloco da indústria: a ELETROS quer a reforma administrativa antes da tributária, e a presidência diz que parte do Custo Brasil é obra do Parlamento."
+  },
+  {
+   "id": "t4",
+   "title": "Manter a ferramenta do interesse público",
+   "statement_plain": "A regra que deixa o Governo avaliar o interesse público nas medidas de defesa comercial precisa ser mantida como está, mesmo imperfeita, e o projeto que a derruba deve ser rejeitado.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b026c1",
+    "b026c2"
+   ],
+   "note": "A ideia junta uma entidade da indústria, que diz já ter perdido causas por essa regra, e o vice-presidente da comissão, que decide contra o projeto."
+  },
+  {
+   "id": "t5",
+   "title": "Indústria forte é indústria integrada ao mundo",
+   "statement_plain": "A indústria só fica forte integrada ao mercado mundial: com previsibilidade e segurança jurídica para atrair investimento, acesso a fornecedores de fora e condições de exportar.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b032c2",
+    "b032c3",
+    "b022c1",
+    "b036c3"
+   ],
+   "note": "A ideia opõe-se à defesa de transformar aqui o que hoje se importa, e reúne uma associação, uma confederação e um deputado."
+  },
+  {
+   "id": "t6",
+   "title": "A indústria merece as condições do agro",
+   "statement_plain": "A indústria sustenta boa parte do PIB, da arrecadação e da pesquisa e paga muito mais imposto que o agro. Dê a ela as mesmas condições e o País será potência industrial.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b030c3",
+    "b034c2",
+    "b018c2",
+    "b022c2"
+   ],
+   "note": "A ideia atravessa a sala: dois ramos da indústria e um deputado a sustentam com números, e ninguém na audiência defendeu o contrário."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "CNI",
+   "plain": "Confederação Nacional da Indústria, entidade que representa as indústrias do País e as federações estaduais do setor",
+   "fala": "b001",
+   "sentence": 7
+  },
+  {
+   "term": "ABIMAQ",
+   "plain": "Associação Brasileira da Indústria de Máquinas e Equipamentos, que reúne as fábricas de máquinas",
+   "fala": "b001",
+   "sentence": 8
+  },
+  {
+   "term": "ABIQUIM",
+   "plain": "Associação Brasileira da Indústria Química, que reúne as fábricas de produtos químicos",
+   "fala": "b001",
+   "sentence": 9
+  },
+  {
+   "term": "ELETROS",
+   "plain": "Associação Nacional de Fabricantes de Produtos Eletroeletrônicos, que reúne quem fabrica eletrodomésticos e eletrônicos",
+   "fala": "b001",
+   "sentence": 10
+  },
+  {
+   "term": "BNDES",
+   "plain": "Banco Nacional de Desenvolvimento Econômico e Social, o banco público que empresta dinheiro de longo prazo para investimento",
+   "fala": "b001",
+   "sentence": 4
+  },
+  {
+   "term": "TLP",
+   "plain": "Taxa de Longo Prazo, o juro que corrige os empréstimos do banco público de desenvolvimento",
+   "fala": "b010",
+   "sentence": 2
+  },
+  {
+   "term": "PDL 575",
+   "plain": "projeto de decreto legislativo que quer derrubar a regra do interesse público nas medidas de defesa comercial",
+   "fala": "b012",
+   "sentence": 23
+  },
+  {
+   "term": "Custo Brasil",
+   "plain": "conjunto de custos que só existem para quem produz no Brasil, como tributos, frete, energia e burocracia",
+   "fala": "b016",
+   "sentence": 57
+  },
+  {
+   "term": "REINTEGRA",
+   "plain": "programa que devolve parte dos impostos pagos por quem exporta, para o país não exportar tributo junto com o produto",
+   "fala": "b016",
+   "sentence": 118
+  },
+  {
+   "term": "Zona Franca de Manaus",
+   "plain": "área do Amazonas com impostos reduzidos, criada para atrair fábricas para a região",
+   "fala": "b016",
+   "sentence": 132
+  },
+  {
+   "term": "PPBs",
+   "plain": "Processos Produtivos Básicos, as etapas que uma fábrica tem de fazer no Brasil para ter os benefícios da Zona Franca",
+   "fala": "b016",
+   "sentence": 141
+  },
+  {
+   "term": "interesse público",
+   "plain": "regra que deixa o Governo afastar uma taxa de defesa comercial quando entende que ela prejudica o interesse do País",
+   "fala": "b016",
+   "sentence": 145
+  },
+  {
+   "term": "P&D",
+   "plain": "pesquisa e desenvolvimento, a área que cria produto e tecnologia nova dentro das empresas",
+   "fala": "b018",
+   "sentence": 14
+  },
+  {
+   "term": "dumping",
+   "plain": "quando um produto estrangeiro entra no país a preço abaixo do que custa produzir, para tomar o mercado",
+   "fala": "b026",
+   "sentence": 4
+  },
+  {
+   "term": "MP 1.095/21",
+   "plain": "medida provisória que virou lei e mexeu no regime especial de tributos da indústria química",
+   "fala": "b034",
+   "sentence": 7
+  }
+ ]
+}

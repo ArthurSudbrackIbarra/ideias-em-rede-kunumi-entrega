@@ -1,0 +1,3126 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 1,
+ "model": "LLM lendo o prompt hearing-001 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-15T22:11:59Z",
+ "prompt_sha256": "cfa26caa3b36d6f9bdf8ad01d0a787d2ad9b3b0e0b450a2c208ee2f1cdd59a58",
+ "sentences_hash": "4f120c47c03cb6c8",
+ "review": {
+  "pairs_read": 65,
+  "pairs_fixed": 29
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Relações Exteriores e de Defesa Nacional ouviu quatro jornalistas sobre as ordens do ministro Alexandre de Moraes para bloquear contas e perfis na rede social X, reveladas pelos arquivos internos da plataforma. Os convidados e a maioria dos deputados descreveram um sistema de bloqueios sigilosos, sem motivo escrito e sem direito de defesa. Dois deputados do PT responderam que decisão judicial se discute no processo e que quem ataca o país é o dono da plataforma.",
+ "stakes": "Decidir se a Câmara vai pedir o fim do sigilo desses processos e levar o caso ao plenário, em vez de tratá-lo apenas nesta comissão.",
+ "central_question": "Existe no Brasil um sistema de censura conduzido pelo Judiciário, ou o que existe são decisões judiciais que se discutem dentro do processo?",
+ "synopsis_plain": "Quatro jornalistas foram à Câmara falar de ordens do ministro Alexandre de Moraes que mandaram redes sociais bloquear contas de deputados, jornalistas e outras pessoas. Eles e a maioria dos deputados disseram que as ordens eram secretas, não davam o motivo e não davam chance de defesa. Dois deputados do PT discordaram: para eles não há censura, e quem ataca o país é o dono da rede X.",
+ "stakes_plain": "Se a Câmara vai pedir que esses processos deixem de ser secretos e levar o assunto para o plenário.",
+ "central_question_plain": "Existe censura no Brasil feita pelo Judiciário, ou são decisões de juiz que dá para discutir no próprio processo?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Censura e liberdade de expressão",
+   "description": "Se as ordens para bloquear contas e remover publicações configuram censura no Brasil e o que isso faz com quem quer falar.",
+   "axis": {
+    "pro": "Há um sistema de censura em curso no Brasil, conduzido sobretudo pelo Judiciário.",
+    "contra": "Não há censura, e sim decisões judiciais pontuais que podem ser contestadas nos autos.",
+    "pro_plain": "Existe censura no Brasil hoje, e quem manda calar é principalmente o Judiciário.",
+    "contra_plain": "Não existe censura. Há decisões de juiz que a pessoa pode contestar no processo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Devido processo e sigilo",
+   "description": "Se as ordens de bloqueio respeitam o direito de saber do que se é acusado e de se defender, e por que correm em segredo.",
+   "axis": {
+    "pro": "As ordens são sigilosas, sem motivação e sem defesa, e por isso violam o devido processo.",
+    "contra": "As decisões têm forma legal e podem ser contestadas por recurso no próprio tribunal.",
+    "pro_plain": "As ordens são secretas, não dizem o motivo e não dão chance de defesa.",
+    "contra_plain": "Quem discorda de uma decisão pode recorrer dentro do próprio processo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Mentira, ódio e crime",
+   "description": "Se mentir, odiar e espalhar desinformação devem ser tratados como crime, ou se a lei já pune o que precisa ser punido.",
+   "axis": {
+    "pro": "Mentir e odiar não devem ser crime, porque a lei já pune ameaça, calúnia e injúria.",
+    "contra": "Há mentiras e ameaças que exigem resposta do Estado e limites claros de convivência.",
+    "pro_plain": "Mentir e odiar não deveriam ser crime, a lei já pune ameaça e calúnia.",
+    "contra_plain": "Existem mentiras e ameaças graves que não podem ficar sem resposta."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Regulação das plataformas",
+   "description": "Se o Brasil precisa de uma lei nova para as redes sociais ou se o Marco Civil da Internet já dá conta do assunto.",
+   "axis": {
+    "pro": "Regular as plataformas protege os usuários e não se confunde com censura.",
+    "contra": "O Marco Civil já basta, e uma lei nova vira instrumento de mordaça.",
+    "pro_plain": "Uma lei para as redes protege quem usa e não é censura.",
+    "contra_plain": "A lei que já existe basta, e uma lei nova vira mordaça."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Privacidade e dados dos usuários",
+   "description": "Se os pedidos de dados de usuários feitos por tribunais, Ministério Público e polícia respeitaram a lei brasileira de Internet.",
+   "axis": {
+    "pro": "Os pedidos de dados feitos à plataforma violaram o Marco Civil e a privacidade dos usuários.",
+    "contra": "Os pedidos de dados seguiram a lei e tinham base em investigação regular.",
+    "pro_plain": "Os pedidos de dados dos usuários furaram a lei e a privacidade de quem posta.",
+    "contra_plain": "Os pedidos de dados seguiram a lei e faziam parte de investigações."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Soberania e atores estrangeiros",
+   "description": "Se a exposição do caso por jornalistas estrangeiros e pelo dono da rede X ajuda o país ou interfere nele.",
+   "axis": {
+    "pro": "A denúncia feita de fora expôs abusos reais e não fere a soberania brasileira.",
+    "contra": "O dono da plataforma e seus aliados atacam o Brasil e as instituições democráticas.",
+    "pro_plain": "A denúncia veio de fora, mas mostrou abusos reais e não feriu a soberania.",
+    "contra_plain": "O dono da rede X e quem o segue atacam o Brasil e suas instituições."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da comissão",
+   "org": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "basis": "identificado como Presidente na ata e citado pelo nome em b064.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida de política externa e de defesa nacional"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PT",
+   "basis": "listado na ata como Bloco/PT - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de São Paulo",
+   "org_plain": "Partido dos Trabalhadores, o partido do presidente Lula"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "jornalista",
+   "org": "Gazeta do Povo",
+   "basis": "apresentado pela presidência em b001.5 e identificado na ata como jornalista da Gazeta do Povo",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "jornalista da Gazeta do Povo",
+   "org_plain": "jornal brasileiro com sede em Curitiba, de linha conservadora"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "jornalista freelancer",
+   "org": null,
+   "basis": "apresentado pela presidência em b001.5 como jornalista político, em participação virtual",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "jornalista freelancer",
+   "org_plain": null
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "jornalista e colunista",
+   "org": "The Intercept",
+   "basis": "apresentado pela presidência em b001.5 e descrito por ele mesmo em b012.4 a b012.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "jornalista e colunista da Folha de S.Paulo",
+   "org_plain": "site de jornalismo investigativo que ele fundou com outros dois jornalistas em 2013"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "jornalista e escritor",
+   "org": "Breakthrough Institute",
+   "basis": "apresentado pela presidência em b001.5 como jornalista, escritor e cofundador do instituto",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "jornalista norte-americano",
+   "org_plain": "centro de estudos norte-americano que ele ajudou a fundar"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, autor do requerimento",
+   "org": "NOVO",
+   "basis": "listado na ata como NOVO - RS e apontado em b001.3 como autor do requerimento",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Novo do Rio Grande do Sul",
+   "org_plain": "Partido Novo, legenda de perfil liberal na economia"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PT",
+   "basis": "listado na ata como Bloco/PT - PI",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Piauí",
+   "org_plain": "Partido dos Trabalhadores, o partido do presidente Lula"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PL",
+   "basis": "listado na ata como PL - RN",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Rio Grande do Norte",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PL",
+   "basis": "listado na ata como PL - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de São Paulo",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PL",
+   "basis": "listado na ata como PL - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de São Paulo",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PL",
+   "basis": "listado na ata como PL - PR",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Paraná",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s13": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PL",
+   "basis": "listado na ata como PL - RS",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Rio Grande do Sul",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "deputada federal",
+   "org": "PL",
+   "basis": "listada na ata como PL - DF",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PL do Distrito Federal",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  },
+  "s15": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PP",
+   "basis": "listado na ata como Bloco/PP - RS",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP do Rio Grande do Sul",
+   "org_plain": "Progressistas, partido do centro do Congresso"
+  },
+  "s16": {
+   "role": "parlamentar",
+   "cargo": "deputada federal",
+   "org": "NOVO",
+   "basis": "listada na ata como NOVO - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Novo de São Paulo",
+   "org_plain": "Partido Novo, legenda de perfil liberal na economia"
+  },
+  "s17": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "PL",
+   "basis": "listado na ata como PL - ES",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Espírito Santo",
+   "org_plain": "Partido Liberal, legenda do ex-presidente Jair Bolsonaro"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "mesa",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência cita o público presencial em b001.2 e saúda os estudantes da Escola Vera Cruz em b035.1, e há registro de palmas em seis falas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre as denúncias de censura à rede X e explica as regras de tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra à presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Arlindo Chinaglia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado explica por que a convidada que ele indicou não virá e diz que faltará debate na sala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra o esclarecimento e passa a palavra ao jornalista Eli Vieira Araujo Júnior.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a lei brasileira não criminaliza desinformação nem discurso de ódio e que mentir ou odiar não devem virar crime.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei brasileira não criminaliza mentira nem discurso de ódio, e não deve passar a criminalizar.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei brasileira não trata como crime produzir ou espalhar desinformação e discurso de ódio",
+     "plain": "A lei brasileira não diz em lugar nenhum que produzir ou espalhar fake news, desinformação ou discurso de ódio seja crime. Esses termos vêm de uma visão política que quer usar a máquina do Estado para fazer valer sua opinião."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      24
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os arquivos do Twitter mostram parlamentares, promotores e ordens judiciais coletando dados privados sem respeitar a lei",
+     "plain": "Os arquivos do Twitter mostram que a lei está sendo desrespeitada. Parlamentares querem ler mensagens privadas, promotores recebem dados de grandes empresas de tecnologia sem ordem judicial, e há ordens de coleta em massa fora da lei."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Brasil mentir não é crime e não deve passar a ser",
+     "plain": "Mentir, por si só, não é crime no Brasil e não deveria ser. Posso mentir dizendo que sou bonito, inteligente e magro, e isso é um direito meu."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao jornalista David Ágape, que participa de forma virtual.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia que o Judiciário exige da plataforma dados de cidadãos fora do Marco Civil e que inquéritos do Supremo servem a perseguição em massa.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    36,
+    37,
+    38,
+    39
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Judiciário brasileiro tem exigido das plataformas atos fora da lei e conduz a censura no país.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Judiciário tem exigido que a plataforma descumpra a lei e entregue dados de cidadãos",
+     "plain": "Elon Musk não se recusa a cumprir a lei brasileira. Ele diz que o Judiciário exige do Twitter que descumpra a lei e entregue dados de cidadãos, fora do que permite o Marco Civil da Internet. Comprovamos isso nos arquivos."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      41,
+      42,
+      43
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os inquéritos das fake news e das milícias digitais nasceram ilegais e servem a perseguição em massa",
+     "plain": "O Judiciário é o principal ator da censura no Brasil, com os inquéritos das fake news e das milícias digitais, ilegais desde que nasceram. Eles perseguem em massa apoiadores de Jair Bolsonaro e são conduzidos com truculência."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      60,
+      61,
+      62
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um deputado que mentiu muito seguiu com a conta ativa, enquanto muitos de direita continuam bloqueados",
+     "plain": "Poucos no país mentiram tanto quanto o deputado André Janones. Mesmo tendo de tirar conteúdos do ar, a conta dele continuou ativa. Muitos de direita seguem bloqueados até hoje, e isso é censura prévia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o jornalista David Ágape encaminhe o encerramento da fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata que o TSE e a Polícia Federal caçaram autores de hashtags sem indício de crime e obrigaram a plataforma a entregar dados.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    36,
+    37
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os pedidos de dados feitos pelo TSE e pela Polícia Federal feriram o Marco Civil da Internet.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o TSE e a Polícia Federal tentaram descobrir quem publicou certas hashtags sem indício de crime",
+     "plain": "Cito a caça às hashtags feita pelo TSE, o Tribunal Superior Eleitoral, e pela Polícia Federal: queriam saber quem publicou certas hashtags, sem indício de crime. O Twitter tentou recusar, mas foi obrigado a entregar sob multa alta."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a plataforma recebeu exigências para suspender contas de parlamentares e jornalistas e não podia dizer de quem partiu a ordem",
+     "plain": "Termino com uma fala de Elon Musk. Ele diz que o Twitter recebeu do juiz Alexandre de Moraes exigências para suspender contas de parlamentares e jornalistas, e não podia dizer que era ordem dele: tinha de fingir que era regra sua."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "as acusações já são fortes, mas ainda se espera que Elon Musk apresente as provas que diz ter",
+     "plain": "Esperamos que Elon Musk apresente o quanto antes as provas desse material que ele diz ter. Mas as acusações e os indícios já são muito fortes e gravíssimos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede silêncio por causa do volume dos microfones e passa a palavra a Glenn Greenwald.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que o sistema de bloqueios do ministro Alexandre de Moraes não tem base legal e que esses poderes deveriam ter expirado em 2022.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não existe lei que sustente o sistema de ordens de bloqueio usado desde 2022.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o sistema brasileiro é bem mais extremo do que o de qualquer outro país democrático",
+     "plain": "Antes da eleição de 2022 o New York Times publicou artigos sobre os poderes do ministro Alexandre de Moraes e mostrou que o sistema brasileiro é bem mais extremo do que o de qualquer outro país democrático, inclusive Alemanha e Reino Unido."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há lei que governe esse sistema e o Congresso nunca aprovou nenhuma",
+     "plain": "Mesmo quem apoia esse sistema deveria querer uma base legal, e ela não existe. Não há lei que governe isso. Alguns deputados tentaram, mas não conseguiram os votos para aprovar uma lei."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os poderes deveriam expirar em 31 de outubro de 2022 e o ministro seguiu usando",
+     "plain": "Os ministros prometeram que esses poderes acabariam depois do segundo turno, em 31 de outubro de 2022. Não foi o que aconteceu: o ministro ignorou a data e usa esses poderes até hoje."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o documento está na tela e pede que o jornalista prossiga.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O jornalista pergunta se a primeira página do documento aparece na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a primeira página está visível.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra a ordem sigilosa de janeiro de 2023 que mandou seis plataformas banir contas em duas horas, sem aviso, sem motivo e sem defesa.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ordem baniu pessoas sem aviso, sem motivo escrito e sem chance de defesa.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ordem mandou seis plataformas banir contas inteiras em 2 horas, sob multa diária de 100 mil reais",
+     "plain": "O ministro mandou cumprir na hora: as seis plataformas tinham 2 horas para bloquear os canais, perfis e contas listados. Não era para tirar publicações, era para banir essas pessoas por inteiro, sob multa diária de 100 mil reais."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as pessoas banidas pela ordem não receberam nenhum aviso e só souberam quando os jornalistas ligaram",
+     "plain": "Nenhuma das pessoas que entrevistamos, banidas por essa ordem, recebeu qualquer aviso. Elas souberam que o Supremo mandava bani-las só no momento em que ligamos para entrevistá-las."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ordem não traz motivo nem publicação apontada, e ninguém teve chance de contestar a acusação",
+     "plain": "Não há nenhuma explicação na ordem, nenhum motivo para banir essas pessoas. Ninguém teve uma publicação apontada como ilegal, e ninguém pôde conhecer ou contestar a acusação. Tudo foi feito em segredo, sem processo."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que os convidados falarão de novo no fim e passa a palavra a Michael Shellenberger.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende que até nazistas e racistas tenham direito de falar, porque ideia ruim se vence no debate, e critica quem diz proteger a democracia com censura.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É melhor vencer as ideias ruins no debate do que calá-las.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nazistas, racistas e fascistas têm direito de falar e as ideias ruins deles devem ser vencidas no debate",
+     "plain": "Defender que nazistas, racistas e fascistas possam falar é dizer que eles têm direitos a respeitar. Queremos derrotar as ideias ruins deles no debate, porque palavra não é mágica. Ninguém ouve uma palavra e vira aquilo."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "defender a democracia com censura é a forma mais grave de desinformação",
+     "plain": "A ideia de defender a democracia com censura é a desinformação mais grave do mundo. É horrível querer proteger a democracia censurando. É incrível!"
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem liberdade de falar sobre a eleição, ninguém descobre se houve problema nela",
+     "plain": "Olho para o discurso de que é preciso defender a democracia censurando dúvidas sobre as eleições. Pergunto: como saber se houve um problema na eleição, se ninguém pode falar sobre eleição? Não dá."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre os debates e chama o deputado Marcel van Hattem, autor do requerimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado saúda os colegas e pergunta quanto tempo tem como autor do requerimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que o autor do requerimento tem tempo livre e os demais, 3 minutos cada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra a decisão do TSE que mandou remover do Twitter um vídeo que ele nunca postou lá e cobra o fim do sigilo desses processos.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ordem que me atingiu foi genérica, sigilosa e sem direito de defesa.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o vídeo removido criticava o Ministério Público do Trabalho e foi postado 1 dia antes da eleição",
+     "plain": "Isso é um absurdo já na narrativa: esse vídeo eu postei como crítica ao Ministério Público do Trabalho, e não ao TSE. E ele foi postado 1 dia antes da eleição."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ordem vai direto para a rede social em vez de pedir ao usuário, para não dar direito de defesa",
+     "plain": "Por que não pedem que eu mesmo retire? Por que mandam direto para a rede social fazer a censura? Para não dar direito de defesa, para que a gente não consiga nem tentar se defender."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      101,
+      102,
+      103
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o que o Brasil enfrenta também acontece na União Europeia, no Canadá, na Austrália e nos Estados Unidos",
+     "plain": "Encerro dizendo que temos aqui uma chance de fazer história para o mundo, porque o que enfrentamos no Brasil também aparece na União Europeia, na Escócia, na Irlanda, no Canadá, na Austrália e nos Estados Unidos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência saúda o senador Eduardo Girão, explica o tempo do autor e chama o primeiro inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b024",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado cumprimenta a mesa e os convidados antes de começar a fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": true,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta ao deputado se ele vai somar o tempo de líder ao da inscrição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado responde que vai usar o tempo somado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência ajusta o cronômetro e devolve a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b028",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Contesta que haja censura no Brasil, lembra que o país é dos que menos recebem pedidos de remoção e acusa o dono da rede X de atacar democracias.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Não há censura no Brasil, e quem ataca instituições democráticas é o dono da plataforma.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há mentiras que são ameaças, e imaginar que fiquem impunes é um erro grave de avaliação",
+     "plain": "Disseram aqui que no Brasil não é proibido mentir. Mas há mentiras e mentiras, principalmente as que são ameaças. Nos inquéritos há uma frase pedindo que estuprem e matem filhas de ministros. Imaginar que isso fique impune é um erro grave."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Brasil vem sendo atacado com dureza pelo dono da plataforma e por quem se identifica com ele",
+     "plain": "Em segundo lugar, o Brasil vem sendo atacado com dureza por Elon Musk e por quem se identifica com ele. Não sei quem trabalha ou não com ele, e assim por diante."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "de 2012 a 2021 o Brasil é o antepenúltimo da lista de pedidos de remoção recebidos pela plataforma",
+     "plain": "De 2012 a 2021, pelos dados da própria plataforma, o Japão soma cerca de 100 mil pedidos de remoção e a Turquia cerca de 60 mil. O Brasil é o antepenúltimo da lista. Dizer que aqui há censura é um exagero que vira mentira."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama os inscritos, pula os ausentes e chega ao deputado Florentino Neto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende que decisão judicial se discute no processo, nega ver censura nas decisões do ministro e pede regras para as plataformas.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Regular as plataformas protege os usuários e não significa implantar censura.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é no processo, pela lei processual, que se discutem as decisões judiciais",
+     "plain": "Sou partidário de que decisões judiciais e processos sejam discutidos conforme a lei processual. É no processo que se discute uma decisão judicial."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não há em nenhuma decisão do ministro um direcionamento para implantar censura no país",
+     "plain": "Não vejo em nenhuma decisão de nenhum magistrado, e principalmente do ministro Alexandre de Moraes, a intenção de implantar censura neste país. Tudo o que ele decide pode ser discutido e levado a recurso no próprio Supremo."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "proibir anúncio dirigido a menor e o uso de dados sigilosos não é ameaça de censura",
+     "plain": "Não vejo ameaça de censura em proibir anúncio dirigido a menor de idade. É isso que se busca ao regulamentar o assunto. Nem vejo censura em impedir que as plataformas usem dados sigilosos dos usuários."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado General Girão, pelo tempo regimental.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o país já vive sob censura, cita o jornalista português barrado na entrada e diz que a imunidade parlamentar está sendo relativizada.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil já vive sob censura, e nem a imunidade parlamentar está sendo respeitada.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "querer implantar censura no país é uma desobediência clara à Constituição de 1988",
+     "plain": "É lamentável ver uma desobediência tão clara à Constituição, com a tentativa de implantar censura no Brasil. O constituinte de 1988 proibiu a censura de forma radical e não imaginava que ministros do Supremo viessem a concordar com ela."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um jornalista português foi impedido de entrar no Brasil e só foi liberado depois da reação nas redes",
+     "plain": "Tivemos a situação de um jornalista português que quase não conseguiu entrar no Brasil. Depois da reação nas redes sociais, ele acabou liberado. Por isso digo que hoje, no Brasil, estamos vivendo a censura."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o deputado General Girão conclua em 3 minutos, como todos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b034",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede aos estudantes presentes que não se deixem comprar e busquem a própria verdade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência saúda os estudantes da Escola Vera Cruz e chama o deputado Mario Frias.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b036",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta que as decisões judiciais não citam a lei e se apoiam em expressões vazias, e pergunta quem vai definir o que é verdade.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 21,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As decisões que justificam a censura não se apoiam em lei, e sim em expressões vagas.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há jornalistas cerceados no seu direito, além de senadores e deputados, um deputado preso e jornalistas exilados",
+     "plain": "Há gente que entende muito de mentira e ignora que hoje existem jornalistas cerceados no seu direito, assim como senadores e deputados. Há até um deputado preso e jornalistas exilados."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as decisões não citam o Código Penal, a Constituição nem o Marco Civil e se apoiam em expressões vazias",
+     "plain": "Na construção das narrativas que justificam essa censura, o Judiciário não cita o Código Civil, o Código Penal, a Constituição nem o Marco Civil da Internet. Apoia-se em expressões vazias, como desordem informacional e milícias digitais."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se sabe quem vai dizer no país o que é verdade e o que é mentira",
+     "plain": "Quero saber quem vai dizer, neste país, o que é verdade e o que é mentira. Quem serão esses iluminados que vão traçar a fronteira do meu livre pensamento e do meu direito de me expressar?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que os convidados anotem as perguntas e chama o deputado Luiz Philippe de Orleans e Bragança.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Diz que a reação da imprensa e da política internacional mostra o choque com o caso e pergunta o que o Estado deve fazer diante da violação da lei.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O mundo observa o Brasil para saber se o país vai continuar sendo livre.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a imprensa e a política internacional reagem ao caso brasileiro porque o que acontece aqui choca",
+     "plain": "Como o deputado Marcel van Hattem colocou, a imprensa internacional e os sistemas políticos de fora estão reagindo ao Brasil porque isso choca. O mundo quer saber se vamos virar uma ditadura ou seguir sendo um país livre."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o deputado Filipe Barros e pergunta se ele vai usar o tempo de líder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b040",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado dispensa o tempo de líder e pergunta se pode usá-lo mais tarde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda e dá a palavra ao deputado pelo tempo regimental.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b042",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Argumenta que a afronta à soberania partiu do ministro ao obrigar empresas estrangeiras a violar a lei, e que o Marco Civil exige decisão motivada.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A afronta à soberania veio de dentro, ao obrigar empresas estrangeiras a descumprir a lei brasileira.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a esquerda não falou em afronta à soberania quando o mesmo jornalista publicou a vaza-jato",
+     "plain": "Quando os arquivos do Twitter vieram a público, a esquerda e parte da imprensa disseram que era afronta à soberania, porque dois jornalistas americanos interfeririam na política brasileira. Não vi essa crítica quando Glenn fez a vaza-jato."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um ministro obrigava empresas estrangeiras a afrontar a legislação brasileira, e isso sim fere a soberania",
+     "plain": "O que vemos é um ministro da mais alta Corte obrigando empresas estrangeiras a afrontar a legislação brasileira. Isso, sim, é uma afronta à soberania nacional."
+    },
+    {
+     "id": "b042c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Marco Civil manda tirar do ar a publicação específica com decisão motivada, e não foi isso que se viu",
+     "plain": "O Marco Civil da Internet é claro no artigo 19: se houver afronta à lei, tira-se do ar aquela publicação específica, por decisão judicial que diga o motivo. Não vimos isso. As decisões são genéricas e derrubam perfis sem prazo."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e chama o deputado Marcelo Moraes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Elogia a coragem do dono da rede X, relata a censura que viu na campanha de 2022 e levanta o impeachment do ministro.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As denúncias do dono da plataforma são corretas e o ministro deveria responder por elas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não é verdade que o empresário ataca o país, ele teve coragem de trazer a discussão à tona",
+     "plain": "Acompanho os discursos da esquerda que tentam desconstruir a imagem de Elon Musk, dizendo que o empresário ataca o nosso país. Discordo, e parabenizo o empresário pela coragem e pela forma assertiva com que trouxe a discussão à tona."
+    },
+    {
+     "id": "b044c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na campanha era proibido chamar Lula de ex-presidiário ou ligá-lo a Maduro",
+     "plain": "Ele fala da censura da eleição, quando éramos proibidos de chamar Lula de ex-presidiário, ele que passou 500 dias na cadeia, e de ligá-lo a Maduro. Musk o chama de ditador, e é difícil achar outro adjetivo para quem persegue direitistas."
+    },
+    {
+     "id": "b044c3",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "pedir remoção de perfis sem decisão judicial é grave e levanta a questão do impeachment do ministro",
+     "plain": "É muito grave a acusação de Elon Musk de que, mesmo sem decisão judicial, o ministro pede ao Twitter a remoção de perfis. Bolsonaro perdeu direitos políticos por abuso de poder. Será que não cabe o impeachment do ministro?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama os inscritos ausentes e passa a palavra à deputada Bia Kicis.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que conservadores sofrem banimentos sem explicação e que as ordens mandavam as plataformas esconder a origem da decisão.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem é de direita sofre banimentos e suspensões nas redes sem qualquer explicação.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "parlamentares europeus já sabiam o que acontece no Brasil por causa do trabalho desses jornalistas",
+     "plain": "Estive com uma comitiva de parlamentares no Parlamento Europeu. Fomos recebidos por gente que já sabia o que acontece no Brasil, graças ao trabalho desses jornalistas e à repercussão dada pelo dono do X."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem é de direita sofre banimento, retirada de publicação e página suspensa, tudo sem explicação",
+     "plain": "Hoje qualquer pessoa de direita, conservadora ou apoiadora de Bolsonaro sofre esse tipo de censura nas redes, com banimento, retirada de publicações e página suspensa, tudo sem explicação. Só agora ficamos sabendo o que estava na sombra."
+    },
+    {
+     "id": "b046c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as plataformas foram mandadas dizer que o banimento era por regra própria, escondendo a decisão judicial",
+     "plain": "Soubemos de ordens de um ministro, relator de um inquérito que já dura 5 anos, mandando as plataformas banir perfis de conservadores. E elas deveriam dizer que o banimento era por regra da própria plataforma, escondendo a decisão."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as inscrições e anuncia os três últimos deputados a falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b048",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Cobra a ausência da grande imprensa no debate e diz que o país está sufocado, com decisões de um ministro só.",
+   "quote": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O medo de falar tomou conta do país, e decisões de um ministro só decidem demais.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "está todo mundo sufocado, sem ímpeto, e ninguém se anima a postar",
+     "plain": "Está todo mundo sufocado. Tiraram das pessoas o ímpeto. Ninguém se anima a postar nada."
+    },
+    {
+     "id": "b048c2",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as decisões são monocráticas, de um ministro só, e um tribunal desses deveria ouvir a todos",
+     "plain": "Fala-se do Supremo e do ministro Alexandre. A maioria são decisões monocráticas, de um ministro só. Mas um tribunal desses tem que ouvir todo mundo para tomar decisões tão importantes."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à deputada Adriana Ventura, por 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b050",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Acusa o Supremo de não seguir o devido processo e o governo de usar a estrutura pública para punir quem critica.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Supremo não segue o devido processo legal e os demais ministros se calam.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b050c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Supremo, que deveria guardar a Constituição, não segue o devido processo e os outros ministros se calam",
+     "plain": "O que me choca é o conluio com a censura. O Supremo, que deveria ser o guardião da Constituição, adota medidas lamentáveis e não segue o devido processo legal. Mesmo quando a decisão é de um ministro, os outros se calam."
+    },
+    {
+     "id": "b050c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o projeto das fake news e a lei da mordaça não têm nada a ver com democracia",
+     "plain": "Vemos crescer o projeto das fake news, vemos criarem a lei da mordaça e vemos a censura acontecer. Nada disso tem a ver com democracia, cujo pilar central é a liberdade."
+    },
+    {
+     "id": "b050c3",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a estrutura do governo é usada para punir quem critica alguém",
+     "plain": "Eles usam a estrutura do governo, seja a Advocacia-Geral da União, seja a Defensoria Pública, para punir quem critica. Isso é vergonhoso e criminoso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o deputado Gilvan da Federal e avisa que depois os convidados respondem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b052",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Compara penas de traficantes e de acusados de vandalismo, defende a imunidade parlamentar e relata ter virado réu por criticar o presidente.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Já vivemos sob censura, e criticar quem está no poder virou processo.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b052c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "410 quilos de cocaína em Mato Grosso e 420 no Ceará, e os traficantes soltos em menos de 24 horas",
+     "plain": "No Mato Grosso apreenderam 410 quilos de cocaína. No Ceará foram 420 quilos. Em menos de 24 horas os traficantes estavam soltos. E vemos pessoas acusadas de vandalismo condenadas a 14 e a 17 anos de prisão."
+    },
+    {
+     "id": "b052c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "passaram 4 anos chamando o então presidente de genocida, e o deputado tem imunidade pela opinião",
+     "plain": "Durante 4 anos chamaram o presidente Jair Bolsonaro de genocida. Mesmo discordando disso, entendo que um deputado tem imunidade pela sua fala e pela sua opinião."
+    },
+    {
+     "id": "b052c3",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "chamei de ladrão um presidente condenado em três instâncias e virei réu no Supremo",
+     "plain": "Lula foi condenado por corrupção e lavagem de dinheiro em três instâncias. Eu disse que ele não é honesto e o chamei de ladrão. Virei réu no Supremo por isso e fui prestar esclarecimentos à Polícia Federal. Já vivemos a censura."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência amplia para 6 minutos o tempo das considerações finais dos convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b054",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde ao deputado que os arquivos já estavam com jornalistas desde 2022, concorda que incitar violência não é expressão livre e cobra o caso de uma youtuber.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 21,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os arquivos não foram planejados pelo dono da plataforma, e o problema não se resume a um ministro.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b054c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os arquivos já estavam com Shellenberger e outros jornalistas desde o fim de 2022",
+     "plain": "É falso. Esses arquivos já estavam com Shellenberger e com jornalistas como Matt Taibbi e Bari Weiss desde o fim de 2022."
+    },
+    {
+     "id": "b054c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "nenhum pai da ideia de liberdade de expressão acharia livre um chamado direto à violência",
+     "plain": "O deputado trouxe uma fala que era clara incitação à violência contra filhas e famílias. Nenhum pai da liberdade de expressão, nem John Milton, nem John Stuart Mill, nem George Orwell, acharia livre um chamado direto à violência."
+    },
+    {
+     "id": "b054c3",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma youtuber sem foro privilegiado está sendo julgada pela maior Corte do país",
+     "plain": "Gostaria que o deputado nos respondesse por que a dona de casa Barbara Destefani, uma youtuber que apoia Bolsonaro, é julgada pela maior Corte do país. Esse não é o juiz natural dela e o caso não é da competência do Supremo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b055",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao jornalista David Ágape para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b056",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que o tema não é de esquerda nem de direita e que os direitos de privacidade estão sendo violados por vários órgãos.",
+   "quote": [
+    26,
+    27,
+    28
+   ],
+   "covered": true,
+   "evidence": [
+    36,
+    37
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A violação da privacidade dos usuários atinge todos e precisa ser investigada a fundo.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b056c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o direito à liberdade de expressão alcança todos, e todos sofrem com as restrições a ela",
+     "plain": "Esta pauta não é sobre esquerda ou direita, como se vê na composição da nossa mesa. O direito à liberdade de expressão alcança todo mundo, e todo mundo sofre com as restrições a ela."
+    },
+    {
+     "id": "b056c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não é só censura, é uma questão de direitos civis, com a privacidade violada por vários órgãos",
+     "plain": "O último ponto importante é que aqui não se trata só de censura, e sim de direitos civis. Os direitos de privacidade da população estão sendo violados por vários órgãos. Precisamos dar atenção especial a isso."
+    },
+    {
+     "id": "b056c3",
+     "sentences": [
+      29
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a caça a hashtags feita a mando do TSE revelou dados cadastrais privados sem crime apontado",
+     "plain": "A denúncia dessa caça a hashtags, feita pela Polícia Federal a mando do TSE, sem justificativa plausível de crime, revelou quem eram os usuários e seus dados privados de cadastro no Twitter. É gravíssimo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b057",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o tempo acabou e pede que o jornalista conclua.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b058",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede atenção ao direito à privacidade e ao direito de as pessoas se manifestarem livremente.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A privacidade e a livre manifestação dos cidadãos precisam ser protegidas.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b058c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso atentar para a privacidade dos cidadãos e para o direito de se manifestar livremente",
+     "plain": "Prestem atenção na privacidade dos cidadãos e também no direito deles de se manifestar livremente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b059",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Glenn Greenwald para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b060",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Autoriza o uso do documento, conta que uma plataforma deixou o Brasil por excesso de ordens e diz que o caráter do empresário não muda o debate.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O volume de ordens de censura no Brasil não tem paralelo e independe de quem faz a denúncia.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b060c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há justificativa para manter a ordem sob sigilo, a não ser esconder o quanto o sistema é extremo",
+     "plain": "Autorizo o uso deste documento da ordem de censura como a comissão achar apropriado. O próprio Supremo deveria tê-lo divulgado desde o começo. Não vejo justificativa para o sigilo, a não ser esconder o quanto esse sistema é extremo."
+    },
+    {
+     "id": "b060c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a plataforma Rumble saiu do Brasil porque a quantidade de ordens de censura ficou impossível de processar",
+     "plain": "Sem uma VPN, quem está no Brasil não consegue assistir a nada no Rumble. A plataforma fez isso porque recebia tantas ordens de censura, muito mais do que em qualquer outro país, que ficou impossível dar conta."
+    },
+    {
+     "id": "b060c3",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o caráter de Elon Musk não tem relevância para o debate, e não é só ele quem denuncia o ministro",
+     "plain": "Mas qual é a relevância do caráter de Elon Musk para este debate? Absolutamente nenhuma. E não é só ele quem está denunciando o ministro Alexandre de Moraes."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b061",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra a Michael Shellenberger para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b062",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conta que corrigiu um erro seu e mesmo assim foi acusado de mentir, e alerta que acusar alguém de desinformação cria pretexto para censura.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Chamar de mentira o erro de alguém é o pretexto de que a censura precisa.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b062c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um advogado do PT disse que eu tinha mentido, e mentir é bem diferente de cometer um erro",
+     "plain": "Um advogado do PT afirmou que eu havia mentido, o que é bem diferente. Cometi o erro e fiquei envergonhado, porque não gosto de errar. Ainda assim ele disse que foi mentira."
+    },
+    {
+     "id": "b062c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "acusar alguém de desinformação vira pretexto para a censura",
+     "plain": "Acusar alguém de fazer desinformação é criar um pretexto para a censura. Imaginem um país em que juízes ou um núcleo de inteligência decidem, lendo a mente das pessoas, quem mentiu e quem apenas errou."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b063",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os convidados e passa a palavra ao autor do requerimento para concluir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b064",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conclui que o país já vive sob censura, relata a demora para habilitar seu advogado e defende que sem liberdade de expressão não há democracia.",
+   "quote": [
+    76,
+    77
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A censura já existe no Brasil e precisa acabar para que a democracia se sustente.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b064c1",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem negar que vivemos sob censura está sendo hipócrita e mentindo",
+     "plain": "Nós já vivemos em censura. O deputado Pazuello me dizia isso numa conversa lateral, sobre algo que foi votado e julgado no Tribunal Superior Eleitoral. Quem negar que vivemos em censura está sendo hipócrita e mentindo."
+    },
+    {
+     "id": "b064c2",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "levou mais de meio ano até o advogado conseguir se habilitar no processo",
+     "plain": "O processo que apresentei aqui eu já conhecia desde novembro de 2022, quando o Youtube me avisou, e não o Judiciário. Do Judiciário só tive satisfação em maio de 2023. Passou mais de meio ano sem que meu advogado pudesse se habilitar."
+    },
+    {
+     "id": "b064c3",
+     "sentences": [
+      76,
+      77
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem liberdade de expressão não há democracia, e sem devido processo legal também não",
+     "plain": "Vencendo esta situação, o recado ao mundo será forte: a censura não pode prevalecer e a liberdade de expressão tem que ser regra. Sem liberdade de expressão não há democracia, e sem devido processo legal também não."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b065",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos, convoca a reunião com o ministro da Defesa e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 33,
+   "from_claim": "b018c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Shellenberger sustenta o mesmo padrão amplo que Eli Vieira: mesmo a fala ruim tem direito de existir, e se vence no debate, não no silêncio."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 21,
+   "from_claim": "b022c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "O deputado traz o próprio caso como exemplo do que Greenwald descreveu: a ordem não aponta a publicação nem o motivo."
+  },
+  {
+   "from": "b028",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 32,
+   "from_claim": "b028c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Contra a tese de que mentir não é crime, Chinaglia lembra que há mentiras que são ameaças e cita uma frase dos autos que pede violência contra filhas de ministros."
+  },
+  {
+   "from": "b028",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 15,
+   "from_claim": "b028c3",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Greenwald diz que o sistema brasileiro é o mais extremo do mundo democrático, e Chinaglia responde com os dados da própria plataforma, que põem o Brasil no fim da lista de pedidos de remoção."
+  },
+  {
+   "from": "b030",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 23,
+   "from_claim": "b030c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Para Florentino Neto a falta de lei não é o problema, porque o lugar de discutir decisão judicial é o processo, com as regras processuais que já existem."
+  },
+  {
+   "from": "b030",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 7,
+   "from_claim": "b030c2",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "Diante da ordem que mandou banir contas inteiras em duas horas, o deputado responde que não vê em decisão nenhuma do ministro a intenção de implantar censura."
+  },
+  {
+   "from": "b032",
+   "to": "b030",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 8,
+   "from_claim": "b032c2",
+   "to_claim": "b030c2",
+   "strength": "forte",
+   "note": "Logo depois de Florentino Neto dizer que não vê censura, o General Girão responde com o caso do jornalista português barrado e afirma que a censura já é vivida hoje."
+  },
+  {
+   "from": "b036",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 6,
+   "from_claim": "b036c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Mario Frias soma ao argumento de Eli Vieira a observação de que as decisões não citam as leis que existem e se apoiam em expressões vagas."
+  },
+  {
+   "from": "b038",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 101,
+   "from_claim": "b038c1",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "Luiz Philippe retoma o ponto de van Hattem de que o caso brasileiro virou assunto internacional e diz que a reação de fora mostra o tamanho do choque."
+  },
+  {
+   "from": "b042",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 9,
+   "from_claim": "b042c1",
+   "to_claim": "b028c2",
+   "strength": "forte",
+   "note": "Filipe Barros responde à acusação de ataque ao país lembrando que ninguém falou em soberania quando o mesmo jornalista publicou a vaza-jato."
+  },
+  {
+   "from": "b042",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 20,
+   "from_claim": "b042c3",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "O deputado dá o nome jurídico ao que Greenwald mostrou: o Marco Civil manda tirar do ar a publicação específica com decisão motivada, e a ordem não traz motivo nenhum."
+  },
+  {
+   "from": "b044",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 9,
+   "from_claim": "b044c1",
+   "to_claim": "b028c2",
+   "strength": "media",
+   "note": "Marcelo Moraes discorda de que o empresário esteja atacando o país e diz que ele teve coragem de trazer a discussão à tona."
+  },
+  {
+   "from": "b044",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 10,
+   "from_claim": "b044c3",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "O deputado toma como grave a mesma denúncia relatada por David Ágape: pedidos de remoção de perfis feitos sem decisão judicial."
+  },
+  {
+   "from": "b046",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 11,
+   "from_claim": "b046c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Bia Kicis confirma o ponto de David Ágape sobre as plataformas serem obrigadas a atribuir o banimento às próprias regras, escondendo a decisão judicial."
+  },
+  {
+   "from": "b046",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 56,
+   "from_claim": "b046c3",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "A deputada reforça a queixa de van Hattem: a ordem vai direto à plataforma, e a pessoa atingida só descobre depois, sem chance de se defender."
+  },
+  {
+   "from": "b048",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 23,
+   "from_claim": "b048c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Afonso Hamm acrescenta à falta de base legal apontada por Greenwald o fato de as decisões serem monocráticas, tomadas por um ministro só."
+  },
+  {
+   "from": "b050",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 22,
+   "from_claim": "b050c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "Adriana Ventura chama de conluio o silêncio dos demais ministros diante de ordens como a que Greenwald mostrou, feitas sem processo."
+  },
+  {
+   "from": "b052",
+   "to": "b046",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 9,
+   "from_claim": "b052c3",
+   "to_claim": "b046c2",
+   "strength": "media",
+   "note": "Gilvan da Federal dá o próprio caso como exemplo do que Bia Kicis descreveu: criticar quem está no poder virou processo no Supremo."
+  },
+  {
+   "from": "b054",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 7,
+   "from_claim": "b054c2",
+   "to_claim": "b028c1",
+   "strength": "forte",
+   "note": "Ao exemplo da ameaça citada pelo deputado, Eli Vieira responde que nenhum defensor histórico da liberdade de expressão consideraria livre um chamado direto à violência."
+  },
+  {
+   "from": "b054",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 10,
+   "from_claim": "b054c1",
+   "to_claim": "b028c2",
+   "strength": "forte",
+   "note": "Contra a ideia de que os jornalistas trabalham para o dono da plataforma, Eli Vieira responde que os arquivos já estavam com outros jornalistas desde o fim de 2022."
+  },
+  {
+   "from": "b056",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 24,
+   "from_claim": "b056c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "David Ágape amplia o ponto de Eli Vieira sobre a coleta de dados: para ele o caso não é só de censura, é de direitos civis violados por vários órgãos."
+  },
+  {
+   "from": "b060",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 9,
+   "from_claim": "b060c3",
+   "to_claim": "b028c2",
+   "strength": "forte",
+   "note": "Greenwald responde que o caráter do empresário não muda nada no debate, porque a denúncia é feita também por jornalistas e deputados brasileiros."
+  },
+  {
+   "from": "b060",
+   "to": "b042",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 5,
+   "from_claim": "b060c3",
+   "to_claim": "b042c1",
+   "strength": "media",
+   "note": "O jornalista confirma o ponto de Filipe Barros: a denúncia não depende do dono da plataforma, e ele mesmo já era aplaudido pela esquerda ao fazer o mesmo tipo de reportagem."
+  },
+  {
+   "from": "b062",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 32,
+   "from_claim": "b062c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Shellenberger acrescenta ao argumento de Eli Vieira que chamar de mentira o erro de alguém é justamente o pretexto de que a censura precisa."
+  },
+  {
+   "from": "b064",
+   "to": "b030",
+   "kind": "contradiz",
+   "from_sentence": 33,
+   "to_sentence": 8,
+   "from_claim": "b064c1",
+   "to_claim": "b030c2",
+   "strength": "forte",
+   "note": "Van Hattem fecha a audiência respondendo a Florentino Neto que negar a censura é hipocrisia, e lembra que a própria ministra admitiu a censura ao votar a resolução."
+  },
+  {
+   "from": "b064",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 31,
+   "to_sentence": 13,
+   "from_claim": "b064c1",
+   "to_claim": "b028c3",
+   "strength": "forte",
+   "note": "Contra a leitura de que falar em censura é exagero retórico, o autor do requerimento afirma que a censura já é vivida e foi julgada no tribunal eleitoral."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b008",
+    "b016",
+    "b046",
+    "b060",
+    "b064"
+   ],
+   "claims": [
+    "b008c3",
+    "b016c1",
+    "b046c2",
+    "b060c2",
+    "b064c1"
+   ],
+   "note": "Jornalistas convidados e deputados de partidos diferentes concordam que existe hoje um sistema de bloqueios no Brasil, com contas banidas sem explicação e plataformas que preferiram sair do país."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b012",
+    "b016",
+    "b022",
+    "b042",
+    "b050"
+   ],
+   "claims": [
+    "b012c2",
+    "b016c3",
+    "b022c2",
+    "b042c3",
+    "b050c1"
+   ],
+   "note": "Jornalistas e deputados concordam que as ordens não dizem o motivo, não apontam a publicação e não dão chance de defesa, o que fere o devido processo."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b022",
+    "b042",
+    "b044",
+    "b054",
+    "b060"
+   ],
+   "claims": [
+    "b022c3",
+    "b042c1",
+    "b044c1",
+    "b054c1",
+    "b060c3"
+   ],
+   "note": "Deputados e jornalistas, inclusive estrangeiros, concordam que a repercussão internacional do caso não fere a soberania e que o problema apontado também existe em outros países."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b036",
+   "sentence": 21,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "se as ações ilegais pesaram na eleição de 2022",
+   "plain": "As ações ilegais reveladas pelos arquivos do Twitter pesaram na eleição de 2022?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b038",
+   "sentence": 24,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b054",
+   "gist": "qual deveria ser a providência do Estado diante da violação",
+   "plain": "Confirmada a violação da lei por um ministro, qual deveria ser a providência do Estado brasileiro?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b050",
+   "sentence": 24,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b060",
+   "gist": "qual é a postura da Suprema Corte no país de vocês",
+   "plain": "Qual é a postura da Suprema Corte no país de vocês?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b054",
+   "sentence": 21,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "por que uma youtuber é julgada pela maior Corte do país",
+   "plain": "Por que uma youtuber sem foro privilegiado está sendo julgada pelo Supremo?",
+   "theme": "d2",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b016",
+   "sentence": 8,
+   "gist": "multa diária de 100 mil reais às plataformas",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b012",
+   "sentence": 27,
+   "gist": "os poderes expirariam em 31 de outubro de 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b016",
+   "sentence": 0,
+   "gist": "a ordem foi emitida em 11 de janeiro de 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b028",
+   "sentence": 11,
+   "gist": "de 2012 a 2021 o Brasil é o antepenúltimo em remoções",
+   "disputed_by": [
+    {
+     "fala": "b064",
+     "sentence": 33
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 58,
+   "gist": "pelo menos 40 personalidades censuradas no período eleitoral",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b022",
+   "sentence": 44,
+   "gist": "multa de 150 mil reais fixada às plataformas",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b022",
+   "sentence": 97,
+   "gist": "multa de 20 mil reais por reiterar a publicação",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 37,
+   "gist": "Marco Civil aprovado em 2014, já com 10 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b060",
+   "sentence": 17,
+   "gist": "em 2023 o Rumble decidiu sair do Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b052",
+   "sentence": 3,
+   "gist": "410 quilos de cocaína em Mato Grosso e 420 no Ceará",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b022",
+   "sentence": 32,
+   "gist": "mais de 6 meses até o TSE habilitar o advogado",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b028",
+   "sentence": 40,
+   "gist": "Alemanha em 12º, Canadá em 13º e Austrália em 14º",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria montou o debate como acusação de censura feita pelos jornalistas convidados e resposta dos deputados governistas sobre a falta de contraditório e a necessidade de regras para as redes.",
+  "omitted": "Ficaram de fora os casos concretos de pedidos de dados à plataforma, como o do Ministério Público de São Paulo e a caça às hashtags, e os relatos pessoais de censura trazidos por vários deputados."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Há censura em curso no Brasil e ela precisa acabar",
+   "statement_plain": "Existe hoje no Brasil um sistema que manda bloquear contas e apagar publicações sem lei que o sustente, e isso precisa acabar.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b046c2",
+    "b008c3",
+    "b012c2",
+    "b022c1"
+   ],
+   "note": "Junta um jornalista americano de esquerda, um jornalista freelancer, uma deputada do PL e um deputado do Novo em torno da mesma leitura dos fatos."
+  },
+  {
+   "id": "t2",
+   "title": "Decisão de juiz se discute no processo, não é censura",
+   "statement_plain": "Não há censura no Brasil. O que existe são decisões judiciais que a pessoa atingida pode contestar por recurso, e quem ataca o país é o dono da rede X.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario",
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b030c2",
+    "b030c1",
+    "b028c3",
+    "b028c2"
+   ],
+   "note": "Foi sustentada só por dois deputados do PT, os únicos da sala a defender esse lado, e é a ideia que a audiência inteira tentou derrubar."
+  },
+  {
+   "id": "t3",
+   "title": "Mentir e odiar não devem ser crime",
+   "statement_plain": "A lei já pune ameaça, calúnia e injúria. Mentir ou odiar, por si só, não deve virar crime, e ideia ruim se vence no debate.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c3",
+    "b018c1",
+    "b036c3"
+   ],
+   "note": "Reúne dois jornalistas convidados e um deputado do PL, e foi contestada dentro da sala pelo deputado que lembrou das ameaças que estão nos autos."
+  },
+  {
+   "id": "t4",
+   "title": "A denúncia veio de fora e ajudou o Brasil",
+   "statement_plain": "A repercussão internacional do caso expôs abusos reais e não feriu a soberania, e o problema apontado aqui aparece também em outros países democráticos.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b042c1",
+    "b044c1",
+    "b054c1",
+    "b060c3",
+    "b022c3"
+   ],
+   "note": "Cruza a bancada e a mesa de convidados: dois deputados do PL, um do Novo, um jornalista brasileiro e um jornalista americano de esquerda dizem a mesma coisa."
+  },
+  {
+   "id": "t5",
+   "title": "O sigilo é o coração do problema",
+   "statement_plain": "O pior dessas ordens não é o conteúdo, é o segredo: a pessoa não sabe do que é acusada, não vê a decisão e não tem como se defender.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b022c2",
+    "b050c1",
+    "b048c2",
+    "b064c2"
+   ],
+   "note": "É a ideia que junta quem discorda em quase tudo o mais: o jornalista que obteve a ordem e deputados de três partidos diferentes, cada um por um caminho."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Twitter Files",
+   "fala": "b022",
+   "sentence": 2,
+   "plain": "conjunto de mensagens internas da plataforma X, antigo Twitter, divulgadas por jornalistas, com pedidos de remoção e de dados feitos por autoridades brasileiras"
+  },
+  {
+   "term": "Marco Civil da Internet",
+   "fala": "b006",
+   "sentence": 13,
+   "plain": "lei de 2014 que define direitos e deveres na Internet brasileira, inclusive quando um conteúdo pode ser retirado do ar e quando dados podem ser entregues"
+  },
+  {
+   "term": "fake news",
+   "fala": "b006",
+   "sentence": 5,
+   "plain": "expressão em inglês para notícia falsa. No debate público virou também o nome de projetos de lei sobre desinformação nas redes"
+  },
+  {
+   "term": "STF",
+   "fala": "b008",
+   "sentence": 20,
+   "plain": "Supremo Tribunal Federal, a mais alta corte do país, que dá a última palavra sobre a Constituição"
+  },
+  {
+   "term": "TSE",
+   "fala": "b008",
+   "sentence": 13,
+   "plain": "Tribunal Superior Eleitoral, o tribunal que organiza e fiscaliza as eleições no Brasil"
+  },
+  {
+   "term": "PGR",
+   "fala": "b008",
+   "sentence": 42,
+   "plain": "Procuradoria-Geral da República, órgão que acusa em nome do Estado perante o Supremo Tribunal Federal"
+  },
+  {
+   "term": "inquérito das milícias digitais",
+   "fala": "b008",
+   "sentence": 44,
+   "plain": "investigação aberta pelo Supremo sobre grupos organizados que atacariam instituições pela Internet"
+  },
+  {
+   "term": "censura prévia",
+   "fala": "b008",
+   "sentence": 62,
+   "plain": "proibir alguém de publicar antes mesmo de ver o que vai ser dito, em vez de responsabilizar depois pelo que foi dito"
+  },
+  {
+   "term": "devido processo legal",
+   "fala": "b046",
+   "sentence": 12,
+   "plain": "direito de saber do que se é acusado, de apresentar defesa e de ser julgado segundo regras conhecidas antes"
+  },
+  {
+   "term": "Lei Geral de Proteção de Dados",
+   "fala": "b036",
+   "sentence": 13,
+   "plain": "lei que diz como empresas e órgãos públicos podem coletar, guardar e usar dados pessoais das pessoas"
+  },
+  {
+   "term": "Lei de Abuso de Autoridade",
+   "fala": "b054",
+   "sentence": 49,
+   "plain": "lei de 2019 que define crimes cometidos por autoridades que usam o cargo além do que a lei permite"
+  },
+  {
+   "term": "decisões monocráticas",
+   "fala": "b048",
+   "sentence": 22,
+   "plain": "decisões tomadas por um único ministro do tribunal, sem passar pelo voto do colegiado"
+  },
+  {
+   "term": "foro privilegiado",
+   "fala": "b054",
+   "sentence": 24,
+   "plain": "regra que faz certas autoridades serem julgadas diretamente por tribunais superiores, e não pelo juiz comum"
+  }
+ ]
+}

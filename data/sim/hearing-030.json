@@ -1,0 +1,1716 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 30,
+ "model": "LLM lendo o prompt hearing-030 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T17:07:29Z",
+ "prompt_sha256": "45ff6a2f99bc4e1b2225b092aaa1382aa78f933c84b2542e51bc48faf42fad30",
+ "sentences_hash": "dc689a1f73c04ba2",
+ "review": {
+  "pairs_read": 34,
+  "pairs_fixed": 9
+ },
+ "warnings": [
+  "tese t5: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A comissão ouviu a coalizão da sociedade civil, o Unicef e três órgãos do governo sobre o orçamento público para a infância. Os debatedores pediram a inclusão de cinco emendas na Lei de Diretrizes Orçamentárias de 2024, entre elas a marcação de todas as despesas com crianças e adolescentes. A Secretaria de Orçamento Federal apresentou as inovações já feitas e ponderou em que camada do Orçamento a marcação deve valer.",
+ "stakes": "Estava em jogo a aprovação das cinco emendas à Lei de Diretrizes Orçamentárias de 2024, que seria votada pela Comissão Mista de Orçamento na mesma semana.",
+ "central_question": "Como fazer o Orçamento mostrar e garantir o dinheiro gasto na proteção de crianças e adolescentes?",
+ "synopsis_plain": "A comissão ouviu organizações da sociedade civil, o Unicef e três órgãos do governo sobre o dinheiro público gasto com crianças e adolescentes. Eles pediram cinco emendas à lei que dá as regras do Orçamento de 2024, entre elas marcar todas as despesas com crianças. O órgão que monta o Orçamento mostrou o que já mudou e discordou sobre onde a marcação deve valer.",
+ "stakes_plain": "Se as cinco emendas entram na lei de diretrizes do Orçamento de 2024, que seria votada pelo Congresso na mesma semana.",
+ "central_question_plain": "Como fazer o Orçamento mostrar quanto o país gasta para proteger crianças e adolescentes?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Articulação dos planos da infância",
+   "description": "Discute-se se os planos da área da criança, muitos deles vencidos, conversam entre si e com o ciclo do orçamento.",
+   "axis": {
+    "pro": "Sem articular os planos setoriais e revisar o Plano Decenal, o orçamento sozinho não muda os indicadores.",
+    "contra": "O ciclo do orçamento já traz avanços que permitem acompanhar e corrigir as políticas, mesmo com os planos em revisão.",
+    "pro_plain": "Enquanto os planos da área da criança estiverem vencidos e soltos uns dos outros, o dinheiro sozinho não muda nada.",
+    "contra_plain": "O próprio ciclo do orçamento já permite acompanhar e corrigir as políticas, mesmo com os planos em revisão."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Marcação do orçamento da criança",
+   "description": "Discute-se como e em que camada do Orçamento devem ser marcadas as despesas com crianças e adolescentes.",
+   "axis": {
+    "pro": "Todas as despesas com crianças e adolescentes devem ser marcadas no nível do plano orçamentário, para dar para somar e acompanhar.",
+    "contra": "A marcação que vale para a lei é a da camada legal, que chega ao Congresso, e não a do plano orçamentário, que os ministérios mudam.",
+    "pro_plain": "Toda despesa com criança e adolescente tem de ser etiquetada no nível mais detalhado, para dar para somar e acompanhar.",
+    "contra_plain": "O que vale para a lei é a camada que chega ao Congresso, porque a mais detalhada os ministérios mudam o tempo todo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Tamanho do investimento na infância",
+   "description": "Discute-se se a fatia do Orçamento destinada a crianças e adolescentes corresponde ao peso dessa população.",
+   "axis": {
+    "pro": "A fatia do Orçamento destinada a crianças e adolescentes é pequena e caiu em proporção do PIB.",
+    "contra": "O gasto está estável, cresceu em valores absolutos e o governo já mapeou e tornou visível o que financia a agenda.",
+    "pro_plain": "O dinheiro que vai para crianças e adolescentes é pouco e encolheu em relação ao tamanho da economia.",
+    "contra_plain": "O gasto se manteve, cresceu em reais e agora está mapeado, e o passo que falta é gastar melhor."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Proteção integral dos direitos",
+   "description": "Discute-se se é possível separar ou hierarquizar os direitos de crianças e adolescentes na hora de gastar.",
+   "axis": {
+    "pro": "Nenhum direito de criança e adolescente pode ser hierarquizado, e garantir todos eles exige orçamento público.",
+    "contra": "O orçamento precisa se concentrar numa agenda delimitada de crianças e adolescentes, e não em todos os direitos ao mesmo tempo.",
+    "pro_plain": "Nenhum direito da criança vale mais que outro, e garantir todos eles custa dinheiro público.",
+    "contra_plain": "O Orçamento precisa se concentrar numa lista definida de ações para crianças, e não em tudo ao mesmo tempo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Orçamento contra o trabalho infantil",
+   "description": "Discute-se se o plano e as políticas de erradicação do trabalho infantil têm o dinheiro de que precisam.",
+   "axis": {
+    "pro": "Sem orçamento destinado a cada responsável, o plano contra o trabalho infantil não sai do papel.",
+    "contra": "O tema já está coberto pelas ações gerais de proteção à infância e não precisa de recurso próprio.",
+    "pro_plain": "Sem dinheiro reservado para cada responsável, o plano contra o trabalho infantil não sai do papel.",
+    "contra_plain": "O assunto já está coberto pelas outras ações de proteção à infância."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da reunião e autora do requerimento",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata, identificada como Ana Paula Lima, Bloco/PT - SC, e autora do Requerimento nº 50, de 2023, em b001.7",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata de direitos humanos, infância, adolescência e família"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Secretário-Executivo da Coalizão Brasileira pelo Fim da Violência contra Crianças e Adolescentes",
+   "org": "Coalizão Brasileira pelo Fim da Violência contra Crianças e Adolescentes",
+   "basis": "apresentado pela presidência em b001.12 e b001.23",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Coalizão pelo Fim da Violência contra Crianças",
+   "org_plain": "rede que reúne organizações da sociedade civil contra a violência praticada com crianças e adolescentes"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Especialista em políticas sociais do UNICEF",
+   "org": "UNICEF",
+   "basis": "apresentado pela presidência em b001.13",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "especialista em políticas sociais do Unicef",
+   "org_plain": "Fundo das Nações Unidas pela Infância, organismo internacional que trabalha pelos direitos de crianças"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Enfrentamento do Trabalho Infantil da Secretaria Nacional dos Direitos da Criança e do Adolescente",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentado pela presidência em b001.10",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério federal responsável pelas políticas de direitos humanos, inclusive as de crianças e adolescentes"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral da Secretaria de Orçamento Federal",
+   "org": "Ministério do Planejamento e Orçamento",
+   "basis": "apresentada pela presidência em b001.11 e em b007.6",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria de Orçamento Federal",
+   "org_plain": "órgão do governo federal que monta e acompanha o Orçamento da União"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Coordenadora Substituta da CONAETI",
+   "org": "Ministério do Trabalho e Emprego",
+   "basis": "apresentada pela presidência em b001.16 e por ela mesma em b010.3",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da comissão de erradicação do trabalho infantil",
+   "org_plain": "comissão do Ministério do Trabalho que reúne governo, sindicatos e patrões contra o trabalho infantil"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Coordenador da CONAETI",
+   "org": "Ministério do Trabalho e Emprego",
+   "basis": "apresentado por Luiza Carvalho Fachin em b010.4 e em b020.0",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "coordenador da comissão de erradicação do trabalho infantil",
+   "org_plain": "comissão do Ministério do Trabalho que reúne governo, sindicatos e patrões contra o trabalho infantil"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "A transcrição não registra delegações, entidades presentes nem palmas, e a mesa só menciona a transmissão ao vivo em b001.3.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o orçamento da infância e convida os expositores a comporem a Mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que os planos da área da criança estão vencidos e soltos do ciclo do orçamento e defende a marcação no nível do plano orçamentário na LDO.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os planos setoriais estão vencidos e desarticulados, e o orçamento é discutido sem um rumo de 10 anos para os direitos da criança.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os planos setoriais deveriam se articular ao Plano Decenal, mas o Plano Plurianual andou sem que ele fosse reavaliado",
+     "plain": "Há uma diversidade de planos que deveriam estar articulados ao Plano Decenal, e ele deveria orientar o Plano Plurianual 2024/2027. Mas o Plano Plurianual andou sem que o Plano Decenal fosse reavaliado antes."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o país discute um plano plurianual sem ter um rumo de 10 anos para os direitos da criança e do adolescente",
+     "plain": "A ideia é olhar o orçamento público como forma de puxar as discussões dos outros ciclos da política pública. Estamos discutindo um plano plurianual sem ter um rumo de 10 anos para os direitos da criança."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      27
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é fundamental garantir na lei de diretrizes orçamentárias a marcação no nível do plano orçamentário",
+     "plain": "Achamos fundamental garantir na LDO, a lei que dá as diretrizes do Orçamento, a marcação no nível do plano orçamentário. Só assim se avança na discussão sobre quanto se investe na prevenção da violência."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à coalizão e passa a palavra ao especialista do Unicef.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta o mapeamento de 8 anos do orçamento federal, mostra que o investimento em crianças caiu de 1,6% para 1,2% do PIB e defende a marcação.",
+   "quote": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso marcar crianças e adolescentes no Orçamento de 2024, porque o investimento caiu em proporção do PIB.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso uma emenda que marque crianças e adolescentes no Orçamento de 2024",
+     "plain": "Estamos aqui com a coalizão para propor uma emenda que marque no Orçamento de 2024 as despesas com crianças e adolescentes. O Plano Plurianual já traz uma agenda transversal para crianças, o que é relevante."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a parcela do Orçamento federal para crianças ficou entre 99 bilhões e 120 bilhões em 8 anos e caiu em termos relativos",
+     "plain": "Nesses 8 anos, a parcela do Orçamento federal para as crianças ficou entre 99 bilhões e 120 bilhões. Em valores absolutos cresceu, mas em termos relativos diminuiu."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o investimento em crianças caiu de 1,6% do PIB em 2016 para 1,2% em 2022",
+     "plain": "Quando esse estudo começou, em 2016, o país investia 1,6% do PIB em crianças. No último ano completo, 2022, o valor caiu para 1,2% do PIB."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Informa que o relator do Orçamento acatou todas as emendas propostas e diz que a prioridade do Governo são as pessoas, pedindo vigilância da sociedade.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O relator acatou as emendas e a prioridade do Governo são as pessoas, mas é preciso ficar vigilante.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o relator acatou todas as emendas indicadas pelos convidados e é preciso ficar vigilante",
+     "plain": "A boa notícia é que o Relator acatou todas as emendas que vocês indicaram, principalmente aquela prevista na sua fala. Precisamos ficar sempre vigilantes."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a prioridade do Governo são as pessoas, e as organizações sociais ajudam a acompanhar o orçamento da infância",
+     "plain": "A prioridade do Governo são as pessoas, e isso diz respeito às nossas crianças e aos nossos adolescentes. É muito bom ter organizações sociais que ajudem a acompanhar o orçamento gasto na proteção da infância."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende que nenhum direito pode ser hierarquizado e mostra que o orçamento da secretaria, de 51 milhões de reais, sobe pouco para 58 milhões.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 29,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não é aceitável hierarquizar direitos, e garantir a prioridade absoluta exige orçamento público.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estado não pode hierarquizar direitos, porque todos têm a mesma importância",
+     "plain": "O Estado brasileiro não pode hierarquizar direitos, isso não é aceitável. Todos eles pesam igual. O que seria da educação sem alimentação, sem lazer, sem esporte e sem convivência familiar?"
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a secretaria tem 51 milhões de reais e o programa de proteção a ameaçados de morte está em 18 dos 27 Estados",
+     "plain": "Este ano o nosso orçamento está na casa de 51 milhões de reais, com cinco prioridades. O programa que protege crianças e adolescentes ameaçados de morte existe em 18 Estados e precisa chegar aos 27."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o orçamento vai de 51 para 58 milhões de reais, um acréscimo pequeno diante do que precisa ser fortalecido",
+     "plain": "O orçamento de 51 milhões de reais teve um acréscimo pequeno, para 58 milhões no próximo ano. Se queremos fortalecer os conselhos e universalizar os programas, precisamos potencializar esse orçamento."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que não dá para proteger crianças sem orçamento e passa a palavra à Secretaria de Orçamento Federal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta as inovações do Orçamento de 2024, informa 24,2 bilhões de reais mapeados na agenda de crianças e pondera que a marcação deve ficar na camada legal.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O governo mapeou as ações da agenda de crianças e criou a etiquetagem do gasto, mas a marcação que vale para a lei é a da camada legal.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o governo mapeou com os ministérios 24,2 bilhões de reais em ações que financiam a agenda de crianças e adolescentes",
+     "plain": "Conversamos com cada órgão da Esplanada e garimpamos as ações que podem financiar a Agenda Transversal Crianças e Adolescentes. Chegamos a um número final de 24,2 bilhões de reais."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      11
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a camada legal é mais relevante para a lei do que o plano orçamentário, que muda o tempo todo",
+     "plain": "Sobre a emenda no nível do plano orçamentário, considero mais relevante para a lei a camada legal, e não a gerencial, porque essa muda o tempo todo conforme a execução das políticas dos ministérios."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "haverá um painel em tempo real com as ações marcadas para a agenda de crianças e adolescentes",
+     "plain": "Promovemos a etiquetagem gerencial do gasto. Quando a Lei Orçamentária de 2024 entrar em execução, teremos um painel em tempo real com as ações marcadas para a agenda de crianças, aberto a qualquer tempo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante da comissão de erradicação do trabalho infantil, que participa por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica a retomada da comissão de erradicação do trabalho infantil e defende que o plano nacional só se cumpre com orçamento destinado a cada responsável.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 23,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O plano nacional contra o trabalho infantil só se cumpre com orçamento público destinado a cada responsável.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalho infantil é uma grave violação de direitos e é considerado uma forma de violência",
+     "plain": "O trabalho infantil é uma grave violação do direito de crianças e adolescentes. É considerado violência, em especial na exploração sexual e comercial e no trabalho em condições parecidas com a de escravo."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o trabalho infantil tem muitas causas e só se combate com a ação coordenada de vários ministérios e da sociedade",
+     "plain": "O trabalho infantil é um fenômeno com muitas causas, que não se combate com ações isoladas. Depende de vários ministérios, secretarias, trabalhadores, empregadores e da sociedade civil, e o plano serve para coordenar isso."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      23
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para eliminar as piores formas de trabalho infantil até 2025 é essencial destinar orçamento a cada responsável",
+     "plain": "O plano quer eliminar as piores formas de trabalho infantil até 2025, como pede a Meta 8.7 dos Objetivos de Desenvolvimento Sustentável. Para isso, é essencial destinar orçamento público a cada responsável."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta os números da violência contra crianças e sustenta que não se faz política pública sem garantir recursos no Orçamento para a infância.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os números da violência mostram que não se faz política pública sem garantir recursos para a infância.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Disque 100 registrou 69.300 denúncias e 397.000 violações de direitos de crianças e adolescentes em 2023",
+     "plain": "O Disque 100 registrou, de janeiro a abril de 2023, 69.300 denúncias e 397.000 violações de direitos de crianças e adolescentes. O Boletim do Ministério da Saúde contou 202.948 casos de violência sexual em 7 anos."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há cerca de 32.000 crianças abrigadas em 6.580 locais de acolhimento no País",
+     "plain": "Há cerca de 32.000 crianças abrigadas em 6.580 locais de acolhimento no País. Há casos de negligência, abandono, violência física, psicológica ou sexual, e a situação de rua deixa essas crianças em mais perigo."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      27
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a infância e a adolescência ficam com 5,6% do Orçamento da União, embora sejam 25% da população",
+     "plain": "Nos últimos 6 anos, os valores destinados à infância e à adolescência foram de 5,6% do Orçamento Geral da União, embora essa faixa da população represente 25% do País."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o País não avança contra a violência sem articulação entre os planos, governança interministerial, uso de evidências e transparência no Orçamento.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem articulação entre os planos, governança interministerial e transparência no orçamento, o país não avança contra a violência.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o País não avança contra a violência sem articulação entre os planos e governança interministerial",
+     "plain": "Não vamos avançar como País numa agenda de prevenção e resposta à violência contra crianças enquanto não houver articulação entre os planos e uma governança interministerial que junte todos eles."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso discutir a capacidade e a qualidade da execução, e investir em prevenção exige o uso de evidências",
+     "plain": "É preciso discutir a capacidade de executar essas ações e, principalmente, a qualidade dessa execução. Investir em prevenção exige o uso de evidências: o que de fato funciona?"
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem transparência no Orçamento não dá para identificar os investimentos nem acompanhar a qualidade da execução",
+     "plain": "Não avançaremos sem planejamento interministerial articulado, sem governança clara e sem transparência no Orçamento que permita identificar os investimentos e acompanhar a qualidade da execução."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à coalizão e passa a palavra ao Unicef para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reconhece os avanços da Secretaria de Orçamento Federal no monitoramento e se coloca à disposição para estender esse acompanhamento às políticas universais.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os avanços da Secretaria de Orçamento Federal no monitoramento dos direitos das crianças são positivos e podem ser ampliados.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o orçamento público para crianças é uma agenda global, movida pela Convenção sobre os Direitos da Criança",
+     "plain": "A agenda do orçamento público para crianças é uma agenda global, movida pela Convenção sobre os Direitos da Criança e parte do mandato do Unicef. Por isso estamos aqui."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há avanços na agenda de orçamento, no Plano Plurianual e no monitoramento feito pela Secretaria de Orçamento Federal",
+     "plain": "Quero cumprimentar a Clara pelos avanços na agenda de orçamento. Estamos num contexto de muitas notícias positivas, vindas do Plano Plurianual e do monitoramento que a Secretaria de Orçamento Federal tem feito."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o monitoramento pode se estender às políticas universais que também atendem crianças, como saúde e assistência social",
+     "plain": "Estamos à disposição para ampliar esse monitoramento a políticas mais universais que também atendem crianças e adolescentes, como atenção primária, atenção especializada e assistência social."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do Ministério dos Direitos Humanos e da Cidadania.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Reafirma que os direitos de crianças e adolescentes são indivisíveis e sustenta que o melhor lugar da criança é no orçamento público, em todos os níveis.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os direitos são indivisíveis e o melhor lugar da criança é no orçamento público, em todos os níveis da Federação.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a proteção integral vale porque os direitos de crianças e adolescentes são indivisíveis e interdependentes",
+     "plain": "Quero reafirmar o sentido da proteção integral dos direitos de crianças e adolescentes. Em Viena, a Conferência Mundial de Direitos Humanos afirmou que esses direitos são indivisíveis, interdependentes e precisam ser universais."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem dinheiro no orçamento público nenhum direito da criança se efetiva, e é ali que a criança precisa estar",
+     "plain": "Lembro que o Presidente Lula foi o primeiro a participar de uma conferência nacional da criança, em 2003. Eu era do CONANDA e disse a ele que, sem dinheiro no orçamento, não se efetivam direitos."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o orçamento não é só o do Governo Federal, porque Estados e Municípios também são corresponsáveis",
+     "plain": "O orçamento público aqui não é só o do Governo Federal. Vivemos numa Federação, com Estados e Municípios corresponsáveis, e é assim que se avança nesse sentido."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à Secretaria de Orçamento Federal e abre a palavra para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reitera que as inovações do orçamento seguem práticas internacionais, com etiquetagem do gasto em tempo real e relatório de execução da agenda em 2025.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As inovações da Secretaria de Orçamento Federal entregam mensagem, demonstrativo, etiquetagem e relatório de execução da agenda.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as inovações da Secretaria de Orçamento Federal seguem as melhores práticas internacionais de efetividade do orçamento",
+     "plain": "As inovações do Ministério do Planejamento e Orçamento e da Secretaria de Orçamento Federal seguem as melhores práticas internacionais de ampliação da efetividade do orçamento, e trazem o desempenho para dentro da execução."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a etiquetagem permite acompanhar o gasto em tempo real e em 2025 sai o relatório de execução da agenda",
+     "plain": "Promovemos a etiquetagem do gasto, que permitirá acompanhá-lo em tempo real pelo Portal do Orçamento. E vamos entregar em 2025 um relatório com a execução física e financeira da agenda de crianças."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o compromisso é melhorar onde o gasto é alocado, porque o gasto informa a necessidade de redesenhar as políticas",
+     "plain": "Estamos comprometidos com uma visão de desempenho ligada à melhoria de onde o gasto é alocado, porque o gasto informa e alimenta a necessidade de redesenhar as políticas públicas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se a convidada que participa por vídeo quer fazer as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A coordenadora substituta pede para chamar o coordenador da comissão, que acabou de entrar na reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda que o coordenador faça as considerações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A coordenadora substituta chama o coordenador pelo nome.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que 706 mil crianças e adolescentes estão nas piores formas de trabalho infantil e afirma que o orçamento é fundamental para executar o plano.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil tem 706 mil crianças nas piores formas de trabalho infantil e precisa de orçamento para o plano de erradicação.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 706 mil crianças e adolescentes brasileiros submetidos às piores formas de trabalho infantil",
+     "plain": "Segundo os últimos dados, há 706 mil crianças e adolescentes brasileiros submetidos às piores formas de trabalho infantil. Só no ano passado houve 3 mil acidentes de trabalho graves notificados envolvendo crianças."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o orçamento público é fundamental para executar o plano e tirar as crianças das piores formas de trabalho",
+     "plain": "O plano nacional e as políticas de prevenção e erradicação do trabalho infantil são instrumentos importantes para mudar essa realidade. O orçamento para executá-los é fundamental para tirar essas crianças dali."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados, anuncia a nova edição do Estatuto da Criança e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 27,
+   "from_claim": "b004c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Retoma o pedido da coalizão e apresenta a emenda que marca crianças e adolescentes no Orçamento de 2024."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 18,
+   "from_claim": "b005c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Responde ao pleito do Unicef informando que o relator do Orçamento acatou todas as emendas apresentadas."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 20,
+   "from_claim": "b006c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Traduz a falta de rumo dos planos numa exigência de princípio: o Estado não pode hierarquizar direitos."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 20,
+   "from_claim": "b006c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Chega ao mesmo diagnóstico por outro caminho: o orçamento da secretaria sobe pouco diante do que precisa ser fortalecido."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 19,
+   "from_claim": "b008c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Chega a outro número para a agenda de crianças, 24,2 bilhões de reais, porque o mapeamento do governo olha só a agenda específica, e não todo o orçamento."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 10,
+   "from_claim": "b008c3",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Concorda com a transparência pedida e anuncia um painel em tempo real com as ações marcadas para a agenda."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 27,
+   "from_claim": "b008c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Diverge do pedido da coalizão: para a Secretaria de Orçamento, a emenda deve valer na camada legal, e não no plano orçamentário, que muda o tempo todo."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 13,
+   "from_claim": "b010c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Chega ao mesmo ponto sobre articulação: o trabalho infantil só se combate com vários ministérios agindo de forma coordenada."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 29,
+   "from_claim": "b010c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Acrescenta que o plano contra o trabalho infantil também depende de orçamento destinado a cada responsável."
+  },
+  {
+   "from": "b011",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 22,
+   "from_claim": "b011c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Usa o dado do Unicef para mostrar a distância entre os 5,6% do Orçamento e os 25% da população que a infância representa."
+  },
+  {
+   "from": "b011",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 29,
+   "from_claim": "b011c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Junta os números da violência ao pedido do ministério por mais orçamento para a proteção da infância."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 8,
+   "from_claim": "b012c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Acrescenta ao pedido de marcação a pergunta seguinte: a capacidade e a qualidade da execução dessas ações."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 13,
+   "to_sentence": 13,
+   "from_claim": "b012c3",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Diante do painel anunciado pelo governo, insiste que só com transparência dá para identificar os investimentos e acompanhar a qualidade da execução."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 13,
+   "from_claim": "b014c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Reconhece publicamente os avanços da Secretaria de Orçamento Federal no monitoramento dos direitos das crianças."
+  },
+  {
+   "from": "b016",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 27,
+   "from_claim": "b016c2",
+   "to_claim": "b011c3",
+   "strength": "forte",
+   "note": "Concorda com a presidência de que sem orçamento público não se efetivam os direitos da criança."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 13,
+   "from_claim": "b018c2",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "Responde à cobrança por transparência com a etiquetagem do gasto e o relatório de execução previsto para 2025."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 8,
+   "from_claim": "b018c1",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "Retoma o reconhecimento do Unicef e reafirma que as inovações seguem as melhores práticas internacionais."
+  },
+  {
+   "from": "b023",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 23,
+   "from_claim": "b023c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Dá o tamanho do problema que o plano precisa enfrentar: 706 mil crianças e adolescentes nas piores formas de trabalho infantil."
+  },
+  {
+   "from": "b023",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 29,
+   "from_claim": "b023c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Reforça, pela comissão do trabalho infantil, que sem orçamento público o plano e as políticas não saem do papel."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b004",
+    "b008",
+    "b018"
+   ],
+   "claims": [
+    "b002c3",
+    "b004c1",
+    "b008c3",
+    "b018c2"
+   ],
+   "note": "A coalizão da sociedade civil, o Unicef e a Secretaria de Orçamento Federal concordam que as despesas com crianças e adolescentes precisam ser marcadas e acompanhadas em tempo real pela sociedade."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b006",
+    "b011"
+   ],
+   "claims": [
+    "b004c2",
+    "b004c3",
+    "b006c3",
+    "b011c3"
+   ],
+   "note": "O Unicef, o Ministério dos Direitos Humanos e a presidência da comissão concordam que a fatia do orçamento destinada a crianças e adolescentes é pequena diante do peso dessa população."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b011",
+    "b016"
+   ],
+   "claims": [
+    "b006c1",
+    "b016c2"
+   ],
+   "note": "O Ministério dos Direitos Humanos e a presidência da comissão concordam que não dá para separar os direitos da criança e que sem orçamento público nenhum deles se efetiva."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 27,
+   "addressed_to": "parlamentar",
+   "answered_by": "b005",
+   "gist": "assegurar na LDO a marcação no nível do plano orçamentário",
+   "plain": "A lei de diretrizes vai assegurar a marcação das despesas com crianças no nível do plano orçamentário?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 18,
+   "addressed_to": "parlamentar",
+   "answered_by": "b005",
+   "gist": "que a emenda já acatada seja apreciada da melhor forma",
+   "plain": "A emenda já acatada pelo relator vai ser apreciada da melhor forma possível?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b006",
+   "sentence": 29,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "potencializar o orçamento da secretaria da criança",
+   "plain": "O Congresso vai potencializar o orçamento da secretaria que cuida de crianças e adolescentes?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b010",
+   "sentence": 23,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "destinar orçamento a cada responsável pelo plano",
+   "plain": "Cada responsável pelo plano contra o trabalho infantil vai receber o orçamento necessário?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b012",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quanto o Brasil investe em prevenção à violência",
+   "plain": "Quanto o Brasil investe na prevenção da violência contra crianças e adolescentes?",
+   "theme": "d2",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 1,
+   "gist": "coalizão de 77 organizações da sociedade civil",
+   "disputed_by": [
+    {
+     "fala": "b011",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 19,
+   "gist": "orçamento para crianças entre 99 e 120 bilhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 21,
+   "gist": "1,6% do PIB investido em crianças em 2016",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 22,
+   "gist": "1,2% do PIB em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 27,
+   "gist": "7 bilhões a mais de gasto até outubro de 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 31,
+   "gist": "gasto de 5% do Orçamento geral",
+   "disputed_by": [
+    {
+     "fala": "b011",
+     "sentence": 27
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 19,
+   "gist": "orçamento da secretaria de 51 milhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 20,
+   "gist": "programa presente em 18 dos 27 Estados",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b006",
+   "sentence": 28,
+   "gist": "orçamento sobe para 58 milhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 4,
+   "gist": "24,2 bilhões de reais na agenda transversal",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b011",
+   "sentence": 8,
+   "gist": "202.948 casos de violência sexual em 7 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b023",
+   "sentence": 5,
+   "gist": "706 mil crianças nas piores formas de trabalho",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d3"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil",
+   "governo"
+  ],
+  "angle": "A matéria escolheu as cinco emendas à lei de diretrizes e a marcação das despesas com crianças e adolescentes no orçamento.",
+  "omitted": "Ficou de fora a divergência sobre marcar no plano orçamentário ou na camada legal, e todo o trecho sobre trabalho infantil."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Todo gasto com criança tem de aparecer no Orçamento",
+   "statement_plain": "Todas as despesas com crianças e adolescentes precisam ser marcadas e acompanhadas, para dar para ver quanto o país investe na prevenção da violência.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b004c1",
+    "b008c3",
+    "b018c2",
+    "b012c3",
+    "b014c2"
+   ],
+   "note": "Cruza os lados: a coalizão da sociedade civil, o Unicef e a própria Secretaria de Orçamento Federal defendem a mesma ideia de tornar visível o gasto com crianças."
+  },
+  {
+   "id": "t2",
+   "title": "O gasto já avançou, falta alocar melhor",
+   "statement_plain": "O gasto com crianças e adolescentes já está mapeado e cresceu em reais, e o passo que falta é alocar melhor esse dinheiro, e não apenas pedir mais.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b005c2",
+    "b008c1",
+    "b018c3"
+   ],
+   "note": "Não é um bloco de governo: a presidência da comissão, que cobra mais recursos em outros momentos, também sustenta que a prioridade já existe, ao lado da Secretaria de Orçamento Federal."
+  },
+  {
+   "id": "t3",
+   "title": "A fatia do Orçamento não cabe no tamanho da infância",
+   "statement_plain": "Crianças e adolescentes são 25% da população e ficam com pouco mais de 5% do Orçamento da União, e o investimento caiu em proporção do PIB.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b004c3",
+    "b006c3",
+    "b011c1",
+    "b011c3"
+   ],
+   "note": "Junta o Unicef, o Ministério dos Direitos Humanos e a presidência da comissão em torno do mesmo número, vindos de lugares diferentes da sala."
+  },
+  {
+   "id": "t4",
+   "title": "Sem articular os planos, o dinheiro não muda nada",
+   "statement_plain": "Enquanto os planos da área da criança estiverem vencidos e soltos uns dos outros, e não houver governança entre os ministérios, o orçamento sozinho não muda os indicadores.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b012c1",
+    "b012c2",
+    "b010c2"
+   ],
+   "note": "A ideia junta a coalizão da sociedade civil e a comissão do trabalho infantil, que é do governo, em torno da mesma exigência de coordenação."
+  },
+  {
+   "id": "t5",
+   "title": "Sem orçamento não se tira criança do trabalho",
+   "statement_plain": "O plano contra o trabalho infantil e as políticas de erradicação só tiram crianças das piores formas de trabalho se tiverem orçamento público destinado a cada responsável.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c3",
+    "b023c1",
+    "b023c2"
+   ],
+   "note": "É defendida pelas duas pessoas da comissão de erradicação do trabalho infantil, que trazem o tema para dentro da discussão do orçamento da infância."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Plano Decenal",
+   "plain": "plano de dez anos com as metas do país para os direitos humanos de crianças e adolescentes",
+   "fala": "b002",
+   "sentence": 8
+  },
+  {
+   "term": "CONANDA",
+   "plain": "Conselho Nacional dos Direitos da Criança e do Adolescente, que define diretrizes nacionais para a área",
+   "fala": "b002",
+   "sentence": 8
+  },
+  {
+   "term": "Plano Plurianual",
+   "plain": "plano de quatro anos que define as prioridades e os programas do governo federal",
+   "fala": "b002",
+   "sentence": 13
+  },
+  {
+   "term": "LDO",
+   "plain": "Lei de Diretrizes Orçamentárias, a lei anual que dá as regras para montar o Orçamento do ano seguinte",
+   "fala": "b002",
+   "sentence": 27
+  },
+  {
+   "term": "marcação orçamentária",
+   "plain": "etiqueta colocada em cada despesa do Orçamento para dar para somar quanto vai para um público, como crianças e adolescentes",
+   "fala": "b002",
+   "sentence": 27
+  },
+  {
+   "term": "plano orçamentário",
+   "plain": "camada mais detalhada do Orçamento, usada pelos ministérios para gerir as ações, abaixo do nível que vai ao Congresso",
+   "fala": "b002",
+   "sentence": 27
+  },
+  {
+   "term": "Siga Brasil",
+   "plain": "sistema público que permite consultar como o dinheiro do Orçamento da União é gasto",
+   "fala": "b004",
+   "sentence": 6
+  },
+  {
+   "term": "IPEA",
+   "plain": "Instituto de Pesquisa Econômica Aplicada, centro de pesquisa do governo federal sobre economia e políticas públicas",
+   "fala": "b004",
+   "sentence": 13
+  },
+  {
+   "term": "PPCAAM",
+   "plain": "Programa de Proteção a Crianças e Adolescentes Ameaçados de Morte",
+   "fala": "b006",
+   "sentence": 29
+  },
+  {
+   "term": "PLOA",
+   "plain": "Projeto de Lei Orçamentária Anual, a proposta de Orçamento que o governo manda ao Congresso todo ano",
+   "fala": "b008",
+   "sentence": 0
+  },
+  {
+   "term": "Agenda Transversal",
+   "plain": "conjunto de ações de vários ministérios que o Orçamento agrupa em torno de um mesmo público, como crianças e adolescentes",
+   "fala": "b008",
+   "sentence": 2
+  },
+  {
+   "term": "PO",
+   "plain": "plano orçamentário, a camada de gestão do Orçamento que cada ministério pode mudar durante o ano",
+   "fala": "b008",
+   "sentence": 10
+  },
+  {
+   "term": "etiquetagem",
+   "plain": "marcar cada gasto com uma etiqueta, para depois somar quanto foi para determinada agenda",
+   "fala": "b008",
+   "sentence": 12
+  },
+  {
+   "term": "CONAETI",
+   "plain": "Comissão Nacional de Erradicação do Trabalho Infantil, que reúne governo, sindicatos e patrões",
+   "fala": "b010",
+   "sentence": 2
+  }
+ ]
+}

@@ -1,0 +1,2298 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 31,
+ "model": "LLM lendo o prompt hearing-031 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T14:22:34Z",
+ "prompt_sha256": "ed8851833dc087cd44cea10033047a1ebd74da365f20e9b7e863d848af601285",
+ "sentences_hash": "afd12d07bfd47f29",
+ "review": {
+  "pairs_read": 49,
+  "pairs_fixed": 34
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Educação reuniu a Capes, três entidades nacionais da área, coordenadores do Parfor no Norte, no Nordeste e na Bahia e uma organização da sociedade civil para discutir o programa que dá curso superior a professores que já dão aula sem a formação certa. A Capes apresentou o alcance do programa e os impasses, e a sala cobrou que ele deixe de depender de cada governo. Da mesa vieram três nós concretos: o custeio que não cobre a viagem até as turmas mais distantes, o professor temporário que é dispensado no meio do curso e um regime de colaboração em que quem assina o pacto nem sempre cumpre a sua parte.",
+ "stakes": "O orçamento de 2024 e as novas diretrizes de formação de professores estavam sendo definidos, e a audiência disputava se o Parfor teria novo edital, mais custeio e status de política permanente.",
+ "central_question": "O Parfor deve deixar de ser um programa renovado a cada edital e virar uma política de Estado permanente?",
+ "synopsis_plain": "A Comissão de Educação ouviu a Capes, entidades de educação e coordenadores de universidades públicas sobre o Parfor, o programa que dá curso superior a professores que já dão aula sem a formação certa. Quase todos pediram que ele vire política permanente. Os nós apontados foram o dinheiro que não cobre a viagem até as turmas distantes e o professor temporário dispensado no meio do curso.",
+ "stakes_plain": "Estavam em jogo o orçamento de 2024 e as novas regras da formação de professores: se haveria novo edital, mais custeio e continuidade garantida.",
+ "central_question_plain": "O Parfor deve deixar de ser um programa que depende de cada governo e virar política permanente?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Programa de governo ou política de Estado",
+   "description": "Se o Parfor e os outros programas de formação devem continuar dependendo de editais e de cada governo, ou ganhar continuidade garantida por lei.",
+   "axis": {
+    "pro": "O Parfor tem de virar política de Estado permanente, com continuidade garantida e força de lei.",
+    "contra": "Basta manter o Parfor como programa, renovado a cada edital conforme a prioridade de cada governo.",
+    "pro_plain": "O Parfor tem de virar política permanente, com continuidade garantida por lei.",
+    "contra_plain": "Basta manter o Parfor como programa, renovado a cada edital, conforme a prioridade de cada governo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Custeio do programa e o custo amazônico",
+   "description": "Se o dinheiro do programa cobre o custo real de levar a formação às turmas mais distantes, sobretudo no Norte e no Nordeste.",
+   "axis": {
+    "pro": "O custeio está aquém do custo real e precisa crescer, com valor diferenciado para as áreas de difícil acesso.",
+    "contra": "O orçamento previsto já garante o que existe, e o programa deve caber no dinheiro que tem.",
+    "pro_plain": "O dinheiro do programa não cobre o custo real e precisa crescer, com valor maior onde chegar é mais caro.",
+    "contra_plain": "O orçamento já garante o que existe, e o programa tem de caber no dinheiro que tem."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Vínculo precário e fixação do professor",
+   "description": "O que acontece com o professor formado pelo programa quando ele tem contrato temporário, não há concurso e a carreira não valoriza a nova formação.",
+   "axis": {
+    "pro": "Sem concurso, estabilidade e carreira, formar o professor é enxugar gelo e o investimento se perde.",
+    "contra": "Formar o professor temporário vale por si, mesmo sem garantia de que ele permaneça na rede.",
+    "pro_plain": "Sem concurso e sem carreira, formar o professor é enxugar gelo e o dinheiro se perde.",
+    "contra_plain": "Formar o professor temporário já vale a pena, mesmo sem garantia de que ele fique na rede."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Quem o programa deve formar",
+   "description": "Se o Parfor deve atender apenas quem já dá aula sem a formação adequada ou também formar quem ainda vai entrar na rede.",
+   "axis": {
+    "pro": "O programa também deve formar quem ainda não é professor, para criar quadro e atrair gente para a carreira.",
+    "contra": "O programa é para quem já está em sala de aula sem a formação certa, e essa é a sua razão de existir.",
+    "pro_plain": "O programa também deve formar quem ainda não é professor, para criar quadro e atrair gente para a carreira.",
+    "contra_plain": "O programa é para quem já dá aula sem a formação certa, e é isso que o faz diferente."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Quem escreve as regras da formação",
+   "description": "A disputa sobre a nova resolução de diretrizes de formação de professores, elaborada no Conselho Nacional de Educação sem as entidades e as universidades.",
+   "axis": {
+    "pro": "As diretrizes têm de voltar ao debate público, com a retomada da Resolução nº 2, de 2015.",
+    "contra": "O Conselho Nacional de Educação pode concluir a nova resolução pelo caminho que já está seguindo.",
+    "pro_plain": "As regras da formação têm de voltar ao debate público, com a volta da resolução de 2015.",
+    "contra_plain": "O Conselho Nacional de Educação pode terminar a nova regra pelo caminho que já está seguindo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Qualidade da formação e a escola no centro",
+   "description": "O que faz uma boa formação de professor: a complexidade da docência, a escola como centro do curso e o avanço dos cursos a distância.",
+   "axis": {
+    "pro": "Formar professor é complexo e só funciona com a escola no centro e a prática dele como ponto de partida.",
+    "contra": "A formação a distância e mais simples dá conta de atender a demanda com escala e menor custo.",
+    "pro_plain": "Formar professor é complexo e só funciona com a escola no centro e a prática dele como ponto de partida.",
+    "contra_plain": "A formação a distância, mais simples, dá conta de atender muita gente por um custo menor."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Regime de colaboração entre os entes",
+   "description": "Quem responde pelo quê entre União, Estados e Municípios: quem valida a inscrição do professor, quem libera a sua carga horária e quem garante que ele fique na rede.",
+   "axis": {
+    "pro": "O pacto precisa ser repactuado, porque quem assina não cumpre a sua parte e deixa tudo com a União.",
+    "contra": "Cada ente já tem o seu papel, e garantir a permanência do professor está fora do que a União pode fazer.",
+    "pro_plain": "O pacto precisa ser refeito, porque quem assina não cumpre a sua parte e deixa tudo com a União.",
+    "contra_plain": "Cada um já tem o seu papel, e garantir que o professor fique não é o que a União pode resolver."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência, exercida pela Deputada Professora Goreth (PDT-AP) e, a partir de b003, pela Deputada Socorro Neri (PP-AC), autora do requerimento",
+   "org": "Comissão de Educação",
+   "basis": "abertura em b001.1, passagem da presidência em b003.3, e matéria a.3 e a.22",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha as políticas de educação"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretora de Formação de Professores da Educação Básica da Capes, professora da UFRJ",
+   "org": "Capes",
+   "basis": "apresentada pela presidência em b001.4, autoapresentação em b002.2, e matéria a.15",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Capes",
+   "org_plain": "agência federal do Ministério da Educação que cuida da pós-graduação e da formação de professores"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (PP-AL), titular da Comissão de Educação",
+   "org": "Câmara dos Deputados (PP-AL)",
+   "basis": "presença registrada em b003.1 e b003.31, e matéria a.22",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Alagoas",
+   "org_plain": "deputado eleito por Alagoas, do PP"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação Nacional pela Formação dos Profissionais da Educação",
+   "org": "ANFOPE",
+   "basis": "apresentada pela presidência em b001.5 e b005.10, e matéria a.6",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Anfope",
+   "org_plain": "associação nacional que reúne quem estuda e defende a formação dos profissionais da educação"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Fórum Nacional de Coordenadores Institucionais do Parfor, professor da Universidade Federal do Acre",
+   "org": "FORPARFOR",
+   "basis": "apresentado pela presidência em b001.6 e b007.8, vínculo com a universidade em b003.25, e matéria a.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Fórum Nacional de Coordenadores do Parfor",
+   "org_plain": "fórum que reúne quem coordena o Parfor dentro das universidades de todo o País"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor-executivo da Associação Nacional de Política e Administração da Educação",
+   "org": "ANPAE",
+   "basis": "apresentado pela presidência em b001.7 e b009.4, autoapresentação em b010.9, e matéria a.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Anpae",
+   "org_plain": "associação nacional de política e administração da educação, que reúne pesquisadores e gestores da área"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora de Políticas Educacionais do Instituto Península, formadora de professores há 30 anos",
+   "org": "Instituto Península",
+   "basis": "apresentada pela presidência em b001.8 e b011.4, autoapresentação em b012.9 e b012.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Península",
+   "org_plain": "organização da sociedade civil que trabalha com formação e valorização de professores"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Professor da Universidade Federal do Amazonas e coordenador do Parfor na instituição",
+   "org": "UFAM",
+   "basis": "autoapresentação em b014.2 e b014.8",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Universidade Federal do Amazonas",
+   "org_plain": "universidade pública federal com sede em Manaus, que oferece turmas do Parfor no interior do Estado"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora Adjunta do Parfor na Universidade Federal do Pará",
+   "org": "UFPA",
+   "basis": "autoapresentação em b015.2 e b015.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Universidade Federal do Pará",
+   "org_plain": "universidade pública federal do Pará, a que mais formou professores pelo Parfor no País"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Pró-reitor de graduação da Universidade do Estado do Pará",
+   "org": "UEPA",
+   "basis": "autoapresentação em b017.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Universidade do Estado do Pará",
+   "org_plain": "universidade pública estadual do Pará, que oferece turmas do Parfor inclusive em aldeias indígenas"
+  },
+  "s11": {
+   "role": "sociedade_civil",
+   "cargo": "Professora da Universidade Federal da Bahia e presidente do sindicato dos docentes APUB",
+   "org": "APUB Sindicato",
+   "basis": "autoapresentação em b018.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do sindicato dos professores das federais da Bahia",
+   "org_plain": "sindicato que representa os docentes de universidades públicas federais da Bahia"
+  },
+  "s12": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do CENPEC",
+   "org": "CENPEC",
+   "basis": "autoapresentação em b019.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Cenpec",
+   "org_plain": "organização da sociedade civil que trabalha contra as desigualdades na educação pública"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "Professora da Universidade do Estado da Bahia",
+   "org": "UNEB",
+   "basis": "autoapresentação em b020.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Universidade do Estado da Bahia",
+   "org_plain": "universidade pública estadual com campi em mais de 26 Municípios da Bahia"
+  }
+ },
+ "audience": {
+  "estimate": 35,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.75
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "mesa",
+    "share": 0.05
+   }
+  ],
+  "basis": "professoras da Universidade Federal do Acre registradas em b005.3 e b005.4, colegas saudados em b008.5, consultor da Câmara citado em b016.3, oito inscritos para falar em b013.22 a b013.29 e palmas em quase todas as exposições",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o Parfor, pedida pela Deputada Socorro Neri, e compõe a mesa de convidados.",
+   "quote": [],
+   "covered": true,
+   "evidence": [
+    2,
+    3
+   ],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta o Parfor, explica que ele atende quem já dá aula sem a formação certa e aponta a falta de concursos como o maior impasse do programa.",
+   "quote": [
+    108,
+    109,
+    110
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor é a principal ação de adequação da formação dos professores em exercício e precisa de orçamento para se manter e crescer.",
+    "sentence": 117
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o programa é destinado a quem já atua na rede pública e não tem a formação adequada para a disciplina que dá",
+     "plain": "O Parfor serve para adequar a formação inicial dos professores que já estão em serviço na rede pública. É um programa para quem já dá aula, mas não tem a formação certa para a disciplina que ministra."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      108,
+      109
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem concurso público, o professor formado é dispensado e entra outro sem formação, e o programa fica enxugando gelo",
+     "plain": "Temos hoje um problema sério no País, que é a falta de concurso público em muitos Estados e Municípios. Oferecemos a formação, o professor se forma, é dispensado, e entra no lugar dele outro sem formação adequada. Aí ficamos enxugando gelo."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Parfor Equidade podem formar quem ainda não é professor, se as vagas não forem preenchidas por quem já dá aula",
+     "plain": "No Parfor Equidade abrimos uma exceção: se as vagas não forem preenchidas por professores em exercício, podemos formar também quem ainda não é professor. Um levantamento mostrou que faltam professores indígenas em atuação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a condução da audiência à Deputada Socorro Neri e convida o Deputado Daniel Barbosa a falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende dar mais condições e um orçamento digno à Capes e pede que o debate sobre educação saia da disputa ideológica.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Capes precisa de mais condições e de um orçamento digno para dar conta da formação de professores.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      11
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Casa tem de dar mais condições e um orçamento digno para a Capes fazer o seu trabalho",
+     "plain": "Nós vamos trabalhar para sanar esses problemas. É preciso dar mais condições à Capes, com um orçamento melhor e digno, para que ela consiga fazer o seu trabalho de fato."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de duas professoras da Universidade Federal do Acre e chama a presidente da Anfope.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que o Parfor vire braço de uma política de Estado e denuncia que o Conselho Nacional de Educação escreve a nova resolução em gabinete.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor precisa se constituir como braço de uma política de Estado, e não seguir como programa à mercê de cada governo.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando a política é feita por programas, a descontinuidade depende do interesse de quem assume o governo a cada período",
+     "plain": "A Anfope reconhece a relevância do programa. Mas política feita por programas fica sujeita à descontinuidade, segundo o interesse de quem assume o governo. Por isso o Parfor precisa ser braço de uma política de Estado."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cerca de 45% ou 46% dos professores da educação básica têm contrato temporário, e em alguns Estados o índice chega a 70%",
+     "plain": "Os dados do Inep apontam que aproximadamente 45% ou 46% dos professores que hoje atuam na educação básica são contratados temporariamente ou terceirizados. Em alguns Estados esse percentual chega a 70%."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Conselho Nacional de Educação prepara em gabinete outra resolução, sem amplo debate, e não vai retomar a Resolução nº 2, de 2015",
+     "plain": "O Conselho Nacional de Educação está trabalhando, por uma comissão bicameral, em outra proposta de resolução, elaborada em gabinete e sem amplo debate. Anunciam que a revogação sai até dezembro, mas que a Resolução nº 2, de 2015, não volta."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presidente da Anfope e diz que a Comissão ficará atenta para que não haja retrocessos.",
+   "quote": [],
+   "covered": true,
+   "evidence": [
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata que professores com contrato provisório fazem o curso sem salário e podem não ser renovados, e pede repactuar o regime de colaboração.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O professor de contrato provisório faz o curso sem salário e não tem garantia de voltar no ano seguinte.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem tem contrato provisório não recebe salário durante a formação, é dispensado no fim do ano letivo e não sabe se volta",
+     "plain": "Quem tem contrato provisório não recebe salário no período em que está na formação conosco, porque o contrato é provisório. Termina o ano letivo e eles são dispensados. Muitos não têm garantia de que voltam no ano seguinte."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      32
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o regime de colaboração entre União, Estados e Municípios tem uma perna manca, porque só alguns assumem as contrapartidas",
+     "plain": "É urgente repensar os termos do regime de colaboração entre União, Estados e Municípios. Fica a impressão de que uma das pernas é manca: parte dos atores assume todas as contrapartidas e os outros não respondem pelo que se espera."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      51,
+      52
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o custeio toma como referência uma diária de 177 reais, mas a diária no Estado passou para 300 reais",
+     "plain": "O custeio de hoje está bem aquém do custo da Amazônia, agravado pelo decreto que mudou as diárias. Recebemos recurso calculado sobre diária de 177 reais, mas no Estado ela passou para 300 reais, e isso estoura o orçamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao presidente do Fórum de Coordenadores e passa a palavra ao representante da Anpae.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede que os deputados barrem a nova diretriz escrita em gabinete, defende a volta da Resolução nº 2, de 2015, e quer o Parfor como política de Estado.",
+   "quote": [
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9
+   ],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A nova diretriz de formação está sendo escrita em gabinete e precisa ser barrada, com a volta imediata da Resolução nº 2, de 2015.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a nova diretriz de formação está sendo feita sem as entidades e sem as universidades, e precisa ser barrada",
+     "plain": "Uma nova diretriz de formação de professores está sendo escrita sem as entidades e sem as universidades. Precisamos do apoio dos deputados ligados à educação para barrar essa discussão feita em gabinete."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Resolução nº 2, de 2015, orienta a maioria dos projetos de formação do País e precisa voltar imediatamente",
+     "plain": "Nós entendemos que a Resolução nº 2, de 2015, precisa voltar já. É ela que orienta a maioria dos projetos de formação de professores no País e que sustenta um compromisso com uma política de Estado."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Parfor, o Pibid e a residência precisam ser programas permanentes, e não políticas que mudam a cada governo",
+     "plain": "Precisamos tratar o Parfor, o Pibid e a residência como programas permanentes, políticas de Estado e não de governo. Não dá para, a cada edição e a cada governo, voltar a lutar pela manutenção deles."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante da Anpae e convida a diretora do Instituto Península.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Mostra que saber o conteúdo não basta para ensinar e defende a escola como centro da formação, contra cursos a distância que simplificam a docência.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Formar professor é tarefa complexa e exige a escola como centro, não um curso que simplifique a docência.",
+    "sentence": 47
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um grande matemático não é necessariamente um grande professor de matemática, porque a docência tem um saber próprio",
+     "plain": "Nem todo grande matemático é um grande professor de matemática, e o mesmo vale para o físico. Percebi que havia algo próprio do exercício da docência que os professores precisavam dominar."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      47,
+      48
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ter a escola como centro da formação deveria valer para qualquer programa que forme professores, e não só para o Parfor",
+     "plain": "A escola tem de ser o centro da formação. E isso não deveria valer só para o Parfor: deveria valer para qualquer programa de formação de professor, na etapa inicial e na continuada."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "alunos que se formam a distância, às vezes em cursos autoinstrucionais, dizem que não fazem nem as horas de estágio obrigatório",
+     "plain": "Alunos que hoje se formam a distância, muitas vezes em cursos autoinstrucionais, dizem que não fazem nem as horas de estágio obrigatório. Esse tipo de curso não tem preparado os alunos para os desafios da docência."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Apresenta dados do Consed mostrando que a formação a distância passou de três para seis em cada dez concluintes e critica os cursos aligeirados.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação de professores exige a vivência da sala de aula e não cabe em curso a distância aligeirado.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      8
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nesses últimos 10 anos, o esforço efetivo na formação de professores que restou foi o Parfor",
+     "plain": "Quero lembrar o alerta do professor Mark: nesses últimos 10 anos, aquilo que mostra resistência e esforço efetivo na formação de professores é o Parfor."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2010, três de cada dez concluintes das licenciaturas vinham da educação a distância, e em 2022 já eram seis",
+     "plain": "O Consed mostra que, em 2010, de cada dez concluintes dos cursos de pedagogia e licenciatura no País, três vinham da educação a distância. Em 2022, de cada dez, seis vinham da educação a distância."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a formação de professores depende da vivência da sala de aula e não de cursos a distância aligeirados e mal equipados",
+     "plain": "A professora Mariana mostrou como a relação de docência e a vivência da sala de aula são fundamentais. Essa formação é complexa e não cabe em curso a distância aligeirado e mal equipado, como os que temos no País."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta ao Ministério da Educação que ações garantirão que o professor formado atue no Município e relata o custo de 3 mil reais de passagem no Amazonas.",
+   "quote": [
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério da Educação precisa dizer que ações vai tomar para o professor formado pelo Parfor atuar no Município.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Amazonas é preciso pagar 3 mil reais de passagem para o professor chegar ao Município onde vai lecionar",
+     "plain": "Só para dar uma ideia: pagamos 3 mil reais de passagem para o professor chegar ao Município onde vai dar aula. O custo que recebemos hoje pelo Parfor em Manaus é baixíssimo."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta saber quais ações garantem que o professor formado pelo programa atue de fato no Município ou no Estado",
+     "plain": "Tenho uma pergunta pontual ao Ministério da Educação: que ações vão garantir que os professores formados pelo Parfor atuem mesmo no Município ou no Estado, com a formação que tiveram?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Ressalta que o Parfor é exitoso, com desistência abaixo de 20% na universidade, e que ele aproxima o ensino superior da escola básica.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor é um programa exitoso que mostra à universidade como se forma quem já é professor.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o programa tem potencial justamente para mostrar como se forma quem já é professor e colega de profissão",
+     "plain": "O Parfor não é um programa cheio de problemas. É um programa cheio de potencial, capaz de mostrar como se forma quem já é professor e já é colega de profissão. E isso feito na esfera pública."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na Universidade Federal do Pará a desistência no programa fica abaixo de 20%, o que é raro nas licenciaturas",
+     "plain": "Na Universidade Federal do Pará, o índice de desistência que temos é inferior a 20%. Isso é raro nas licenciaturas brasileiras, assim como é raro ver uma turma de física formar 30 egressos."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa aproxima o ensino superior da escola básica, porque a formação acontece no lugar onde essas professoras trabalham",
+     "plain": "Quero ressaltar a aproximação entre o ensino superior e a escola básica. Pelo programa conhecemos a vida das professoras da educação básica, que são a maioria nos lugares mais distantes. Fazemos formação em serviço onde elas trabalham."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica a conversa paralela com o consultor de educação da Câmara e pede palmas para ele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b017",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata que professores viajam de avião, carro e lancha até a aldeia e que o orçamento do edital não cobre esse custo.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O orçamento do último edital não cobre o custo de chegar às turmas mais distantes.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o lançamento do último edital foi uma conquista, mas o orçamento dele não deixa as universidades contentes",
+     "plain": "Acho que o último edital do Parfor foi uma conquista. Mas o orçamento dele não nos deixa muito contentes."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para chegar à turma indígena os professores vão de avião, depois por terra e depois de lancha, e o orçamento não cobre isso",
+     "plain": "Temos uma turma intercultural indígena em que os professores vão de avião até Santarém, seguem por terra e depois pegam uma lancha até a aldeia. O custo da passagem é altíssimo, e o orçamento não contempla esses gastos."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a formação de professores tem de ser tratada não como um programa, mas como um projeto de educação do País",
+     "plain": "Agradeço a oportunidade de discutir aqui a formação dos professores da educação básica. E que ela seja tratada não como um programa, mas como um projeto de educação do País."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que o Parfor associou a universidade pública à educação básica e pede mais recursos, tratando o programa como política de Estado.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor associou a universidade pública à educação básica e deve ser tratado como política de Estado, com mais recursos.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "houve uma experimentação que associou a universidade pública e a educação básica, e não a fabricação de certificados",
+     "plain": "Houve uma inovação, uma experimentação que associou a universidade pública e a educação básica. Isso valoriza tanto a formação feita na universidade quanto a dos professores da escola, e não serve para fabricar diploma."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso investir mais recursos nesses programas e tratá-los como política de Estado para que os professores completem a formação",
+     "plain": "Precisamos aperfeiçoar essas experiências sem pensar no professor como gente que faz, e sim investindo mais recursos nos programas. Eles devem ser tratados como política de Estado, para que os professores completem suas formações."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende a perenidade de uma política em vez de um programa e aponta que a evasão vem da falta de articulação com a carreira.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor é um bom programa, mas não está articulado com a carreira, e por isso o aluno sai no meio do caminho.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o que importa é a perenidade de uma política, e não de um programa, e a articulação entre elas",
+     "plain": "Quero destacar a importância de ter uma política que dure, e não um programa, e também de articulação."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa é bom mas não se articula com a carreira, e a evasão acontece porque o aluno deixa de fazer parte do quadro",
+     "plain": "Temos um bom programa, mas ele não é articulado com a carreira. Por isso vemos evasão, não por vontade dos alunos, que querem ficar, mas porque eles não fazem mais parte dos quadros. É até uma evasão de recursos."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a resolução elaborada em gabinete no Conselho Nacional de Educação ameaça o avanço que já foi feito",
+     "plain": "Reitero o nosso apoio ao enfrentamento da resolução que está sendo escrita em gabinete, dentro do Conselho Nacional de Educação. Ela ameaça todo o avanço que já foi feito."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Aponta o regime de colaboração como a maior fragilidade do programa quando o Município não cumpre o pacto nem faz concurso.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O regime de colaboração é a maior potência e a maior fragilidade do programa, porque o Município nem sempre cumpre o pacto.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      20
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "os currículos do programa não são de oferta contínua, porque não se está formando quem ainda vai ser professor",
+     "plain": "As universidades públicas têm feito no Parfor currículos que se aproximam das escolas. Eles não são de oferta contínua, porque não estamos formando professores que ainda vão ser professores, e isso muda a experiência da universidade."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tripé entre universidades, Municípios, Estados e Ministério só funciona quando o Município cumpre o pacto que assinou",
+     "plain": "A maior potência do programa é também a sua fragilidade: o regime de colaboração entre universidades, Municípios, Estados e Ministério. Sem plano de cargos, sem cumprir o pacto que assina e sem concurso, o Município enfraquece o programa."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é o primeiro programa que chega à escola pública, porque a formação acontece em contexto de trabalho",
+     "plain": "Na minha opinião, é o primeiro programa que chega até a escola pública, porque a formação acontece em contexto de trabalho. Os nossos projetos tomam como referência a prática pedagógica dos professores."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre as considerações finais e passa a palavra à diretora da Capes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que o orçamento de 2024 mantém as turmas mas não permite novo edital nem ampliar o custeio, e aponta os fóruns estaduais como caminho.",
+   "quote": [
+    24,
+    25
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Com o orçamento de 2024 dá para manter as turmas, mas não para abrir novo edital nem ampliar o custeio.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      14
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o governo tem restabelecido o diálogo com os entes federados e assumiu o compromisso de reorganizar os fóruns estaduais",
+     "plain": "Sobre como garantir que os professores fiquem na rede, não posso responder por completo. Mas o governo atual retomou o diálogo com os entes federados e assumiu o compromisso de reorganizar os fóruns estaduais."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "garantir a fixação dos professores é tarefa árdua e está fora do que a Capes pode propor sozinha",
+     "plain": "Achamos que assim teremos uma oferta mais equitativa e poderemos enfrentar o desafio de fixar os professores. Ainda que seja tarefa árdua e fora do escopo do que a Capes pode propor."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com o orçamento previsto para 2024 dá para manter as turmas, mas não para abrir novo edital nem ampliar o custeio",
+     "plain": "O que conseguimos hoje, com o orçamento previsto para 2024, é manter as turmas do Parfor e implementar o Parfor Equidade. Não conseguimos um novo edital nem ampliar o custeio, mas sabemos que é uma necessidade e temos conversado sobre isso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à diretora da Capes e chama a presidente da Anfope para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede a continuidade do Parfor como programa permanente, com mais financiamento e vagas, e critica a minuta escrita em gabinete.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor deve continuar como programa permanente, com mais financiamento e mais vagas, a partir de um diagnóstico dialogado.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa precisa continuar como permanente, com mais financiamento e mais vagas, a partir de um diagnóstico dialogado",
+     "plain": "Destaco a importância da continuidade do Parfor como programa permanente, com mais financiamento e mais vagas. Isso a partir de um diagnóstico construído entre os fóruns estaduais, as universidades, o Ministério da Educação e a Capes."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o compromisso das secretarias de educação é fundamental, e nessa relação de colaboração esses órgãos pecam em muitos momentos",
+     "plain": "O compromisso das secretarias de educação é fundamental nesse processo. E, lamentavelmente, percebemos que, no regime de colaboração, esses órgãos pecam em muitos momentos."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a minuta feita em gabinete é um equívoco, porque separa formação inicial e continuada e trata a docência de forma tecnicista",
+     "plain": "Diante da complexidade da formação de professores, não dá para separar a formação inicial da continuada. Por isso a minuta feita em gabinete é um equívoco: atende só a formação inicial e pensa a docência de modo tecnicista."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que a conexão caiu e chama o presidente do Fórum de Coordenadores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Propõe um edital robusto para 2025 e cobra que o gestor que valida a inscrição do professor não mude as regras depois.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 13,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem valida a inscrição do professor não pode mudar as regras depois que o curso começa.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mesmo sem novo edital agora, dá para construir desde já um edital robusto para 2025, que atenda às necessidades das redes",
+     "plain": "Mesmo com o aceno de que não dá para publicar agora um novo edital do Parfor, acho que dá para construir pontes com o que já acumulamos e pensar, quem sabe para 2025, um edital robusto que atenda às necessidades das redes."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem valida a inscrição do professor o autoriza a estudar e não pode mudar as regras depois que o jogo começa",
+     "plain": "Quando eu, como secretário, valido a inscrição de um professor, estou dizendo que ele está apto e o autorizo a estudar. Não dá para, depois que o jogo começa, mudar as regras que aceitei antes."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao presidente do Fórum e chama o representante da Anpae.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Propõe que o Parfor também forme quem ainda vai entrar na rede e defende um planejamento de longo prazo no lugar de editais sucessivos.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 12,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parfor também deve formar quem ainda vai entrar na rede, para criar quadro e atrair gente para a carreira.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há uma segunda frente possível, que é formar um quadro de professores nos Municípios e dar atratividade à carreira",
+     "plain": "A outra frente possível para o Parfor é formar um quadro de professores nos Municípios. Uma política assim daria atratividade à carreira, em vez de selecionar, a cada edital, um número que não bate com o dado do Inep."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa pode formar também quem ainda vai ingressar na rede, e não apenas quem já está nela",
+     "plain": "O Parfor também pode ser um espaço para fomentar a carreira docente no País. Não só para quem já está na rede, mas para quem pode e deve entrar nela já com a formação feita pelo próprio programa."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para continuar vivendo de editais, e o programa deve se constituir como política de Estado permanente",
+     "plain": "Não dá para seguir vivendo de editais. O Parfor precisa se constituir como política de Estado permanente. O que proponho é um planejamento de curto, médio e longo prazo para o programa."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante da Anpae e chama a diretora do Instituto Península.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Aponta que o concurso leva em média 6 anos, que a carreira fica achatada e que 60% dos professores dão aula em várias escolas.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 24,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem concurso e sem carreira atrativa, o esforço de formar professores pelo Parfor se perde.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o concurso leva em média 6 anos para sair, e não adianta o esforço do programa se não houver concurso para receber esses alunos",
+     "plain": "O tempo médio para a realização de concursos no Brasil é hoje de 6 anos. Nas redes estaduais é um tempo muito longo. Não adianta fazermos esse esforço no Parfor se não houver concursos para receber esses alunos."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além de remuneração justa é preciso carreira atrativa, porque quem está há 20 anos ganha o mesmo de quem acabou de entrar",
+     "plain": "Além da remuneração justa, precisamos de carreira atrativa. Não adianta o Estado e o Município pagarem o piso se a carreira fica achatada, com quem está há 20 anos ganhando o mesmo que o recém-chegado."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Pibid não pode continuar como programa e precisa virar política nacional que traga segurança ao jovem em formação",
+     "plain": "Precisamos trazer para a discussão o Pibid, o programa de bolsa de iniciação à docência. Ele é extremamente importante e não pode continuar como programa: precisa virar política nacional que traga segurança ao jovem em formação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os convidados, anuncia desdobramentos legislativos e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 108,
+   "from_claim": "b006c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Ao problema da falta de concursos apontado pela Capes, a Anfope acrescenta o tamanho dele: quase metade dos professores da educação básica tem contrato temporário."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 109,
+   "from_claim": "b008c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O que a Capes chamou de enxugar gelo aparece aqui pelo lado do professor, que faz o curso sem salário e é dispensado no fim do ano letivo."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 18,
+   "from_claim": "b008c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A Anfope trouxe o percentual de contratos temporários e o coordenador mostra o que esse percentual significa na vida de quem está em formação."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 42,
+   "from_claim": "b010c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A Anpae confirma a denúncia da Anfope e pede que os deputados barrem a diretriz que está sendo escrita sem as entidades e sem as universidades."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 49,
+   "from_claim": "b013c3",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "A presidência retoma a fala da formadora para dizer que a vivência da sala de aula não cabe em curso a distância aligeirado."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 51,
+   "from_claim": "b014c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "O custeio que o coordenador do Acre disse estar aquém aparece no Amazonas em um número: 3 mil reais de passagem para chegar ao Município."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 110,
+   "from_claim": "b014c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A Capes apontou que o professor formado nem sempre permanece na rede, e o coordenador devolve a pergunta ao Ministério: que ações garantem que ele fique?"
+  },
+  {
+   "from": "b015",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 18,
+   "from_claim": "b015c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A universidade do Pará confirma o recorte que a Capes definiu: o programa forma quem já é professor e já é colega de profissão."
+  },
+  {
+   "from": "b015",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 47,
+   "from_claim": "b015c3",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "A escola como centro da formação, defendida pela formadora, é o que a universidade do Pará diz praticar ao formar em serviço onde as professoras trabalham."
+  },
+  {
+   "from": "b017",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 52,
+   "from_claim": "b017c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A diária que não fecha a conta no Acre aparece no Pará como uma viagem de avião, estrada e lancha que o orçamento do edital não cobre."
+  },
+  {
+   "from": "b018",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 19,
+   "from_claim": "b018c1",
+   "to_claim": "b015c3",
+   "strength": "forte",
+   "note": "As duas universidades públicas descrevem o mesmo ganho: o programa aproximou a universidade da escola básica em vez de fabricar diploma."
+  },
+  {
+   "from": "b019",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 22,
+   "from_claim": "b019c2",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "A evasão que o Cenpec aponta tem a mesma raiz que o coordenador descreveu: o aluno sai porque deixou de fazer parte do quadro da rede."
+  },
+  {
+   "from": "b019",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 13,
+   "from_claim": "b019c3",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "O Cenpec soma seu apoio ao pedido da Anpae contra a resolução que está sendo escrita dentro do Conselho Nacional de Educação."
+  },
+  {
+   "from": "b019",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 43,
+   "from_claim": "b019c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A denúncia da Anfope sobre a minuta feita em gabinete recebe o apoio de uma organização que não é do campo das entidades de formação."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 32,
+   "from_claim": "b020c2",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O regime de colaboração que o coordenador chamou de perna manca aparece aqui pelo lado do Município que não faz concurso nem plano de carreira."
+  },
+  {
+   "from": "b022",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 14,
+   "to_sentence": 19,
+   "from_claim": "b022c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "À pergunta sobre a fixação dos professores, a Capes responde que o caminho é reorganizar os fóruns estaduais junto com os entes federados."
+  },
+  {
+   "from": "b022",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 51,
+   "from_claim": "b022c3",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A Capes confirma o que o coordenador disse sobre o custeio: o orçamento de 2024 mantém as turmas, mas não amplia o custeio nem abre novo edital."
+  },
+  {
+   "from": "b024",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 32,
+   "from_claim": "b024c2",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "A Anfope chama as secretarias de educação à responsabilidade dentro do mesmo regime de colaboração que o coordenador disse estar manco."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 47,
+   "from_claim": "b024c3",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "A complexidade da docência descrita pela formadora vira argumento contra uma minuta que trata apenas da formação inicial."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 25,
+   "from_claim": "b026c1",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "Contra o anúncio de que não há novo edital, o Fórum de Coordenadores propõe construir desde já um edital robusto para 2025."
+  },
+  {
+   "from": "b026",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 2,
+   "from_claim": "b026c2",
+   "to_claim": "b024c2",
+   "strength": "forte",
+   "note": "Quem valida a inscrição não pode mudar as regras depois, diz o Fórum, endossando a cobrança da Anfope às secretarias de educação."
+  },
+  {
+   "from": "b028",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 18,
+   "from_claim": "b028c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A Capes definiu o público do programa como quem já dá aula sem formação adequada, e a Anpae quer que ele forme também quem ainda vai entrar na rede."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 20,
+   "from_claim": "b028c2",
+   "to_claim": "b020c1",
+   "strength": "media",
+   "note": "Onde a universidade diz que não está formando quem ainda vai ser professor, a Anpae responde que é justamente isso que o programa também deveria fazer."
+  },
+  {
+   "from": "b028",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 32,
+   "from_claim": "b028c3",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "A proposta de um planejamento de longo prazo responde ao pedido de repactuar o regime de colaboração feito pelo Fórum de Coordenadores."
+  },
+  {
+   "from": "b028",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 24,
+   "from_claim": "b028c3",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "À notícia de que o orçamento só mantém o que existe, a Anpae responde que o problema de fundo é o programa depender de editais."
+  },
+  {
+   "from": "b030",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 108,
+   "from_claim": "b030c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O concurso que a Capes apontou como ausente leva em média 6 anos para sair, segundo o Instituto Península."
+  },
+  {
+   "from": "b030",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 17,
+   "from_claim": "b030c1",
+   "to_claim": "b019c2",
+   "strength": "media",
+   "note": "As duas organizações da sociedade civil ligam a evasão do programa à mesma causa: não há concurso nem carreira esperando esses alunos."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b006",
+    "b010",
+    "b013",
+    "b019",
+    "b024"
+   ],
+   "claims": [
+    "b006c1",
+    "b010c3",
+    "b013c1",
+    "b019c1",
+    "b024c1"
+   ],
+   "note": "A presidência da sessão, a Anfope, a Anpae e o Cenpec concordam que o Parfor não pode continuar dependendo de quem assume o governo e precisa de continuidade garantida."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b008",
+    "b017",
+    "b022"
+   ],
+   "claims": [
+    "b004c1",
+    "b008c3",
+    "b017c2",
+    "b022c3"
+   ],
+   "note": "Um deputado, dois coordenadores do programa e a própria Capes dizem a mesma coisa: o dinheiro de hoje não cobre o custo real de levar a formação até onde ela precisa chegar."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b006",
+    "b008",
+    "b030"
+   ],
+   "claims": [
+    "b002c2",
+    "b006c2",
+    "b008c1",
+    "b030c1"
+   ],
+   "note": "A Capes, a Anfope, o Fórum de Coordenadores e o Instituto Península concordam que sem concurso e sem carreira o professor formado não permanece na rede."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b012",
+    "b013",
+    "b015",
+    "b018"
+   ],
+   "claims": [
+    "b012c2",
+    "b013c3",
+    "b015c3",
+    "b018c1"
+   ],
+   "note": "A presidência da sessão, o Instituto Península e duas universidades públicas concordam que a formação só funciona com a escola no centro, e não em curso a distância aligeirado."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b008",
+    "b014",
+    "b020",
+    "b022",
+    "b024"
+   ],
+   "claims": [
+    "b008c2",
+    "b014c2",
+    "b020c2",
+    "b022c1",
+    "b024c2"
+   ],
+   "note": "Os coordenadores, a Anfope e a Capes concordam que o regime de colaboração precisa ser repactuado, porque quem assina o pacto nem sempre cumpre a sua parte."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b014",
+   "sentence": 19,
+   "addressed_to": "governo",
+   "answered_by": "b022",
+   "gist": "que ações garantem que o professor formado atue no Município",
+   "plain": "Que ações o Ministério da Educação vai tomar para o professor formado pelo Parfor atuar no Município?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 14,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que os deputados barrem a diretriz escrita em gabinete",
+   "plain": "Os deputados vão barrar a nova diretriz de formação que está sendo escrita sem as entidades?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b026",
+   "sentence": 13,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que a Capes reúna as instituições que entraram no último edital",
+   "plain": "A Capes vai reunir as instituições que entraram em 2022 para alinhar o que é operar o Parfor?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b028",
+   "sentence": 12,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que a Capes convoque os Municípios para rediscutir o pacto",
+   "plain": "A Capes vai convocar os Municípios para rediscutir o que cabe a cada um no pacto do programa?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b030",
+   "sentence": 24,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que os deputados defendam a dedicação do professor a uma escola só",
+   "plain": "Os deputados vão defender que o professor possa se dedicar a uma escola só?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 12,
+   "gist": "em 2007, mais de 700 mil professores sem licenciatura na área",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 87,
+   "gist": "112 mil matriculados e 62 mil formados entre 2009 e 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 88,
+   "gist": "manter as turmas e o Parfor Equidade custa 90 milhões por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 18,
+   "gist": "45% ou 46% dos professores da educação básica são temporários",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 19,
+   "gist": "em alguns Estados os temporários chegam a 70% do total",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 9,
+   "gist": "Norte e Nordeste ficaram com cerca de 52% das vagas do Edital 19",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 52,
+   "gist": "o custeio usa diária de 177 reais, mas a diária virou 300",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b013",
+   "sentence": 11,
+   "gist": "em 2022, seis de cada dez concluintes vinham do ensino a distância",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 11,
+   "gist": "3 mil reais de passagem para o professor chegar ao Município",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b015",
+   "sentence": 5,
+   "gist": "a universidade federal do Pará tem 10 mil egressos do programa",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b030",
+   "sentence": 12,
+   "gist": "o concurso leva em média 6 anos para ser realizado no País",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b030",
+   "sentence": 27,
+   "gist": "60% dos professores dos anos finais dão aula em 2 ou 3 escolas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu a defesa de transformar o programa em política de Estado e os dois entraves mais concretos apontados na sala, o professor temporário e a falta de dinheiro.",
+  "omitted": "Ficaram de fora a disputa sobre quem o programa deve formar, a defesa da escola como centro da formação e o relato das universidades públicas sobre o que o programa ensinou a elas."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O Parfor tem de virar política de Estado",
+   "statement_plain": "Enquanto for um programa renovado a cada edital e a cada governo, o Parfor pode acabar a qualquer momento. Ele precisa de continuidade garantida.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b010c3",
+    "b013c1",
+    "b019c1",
+    "b024c1",
+    "b028c3"
+   ],
+   "note": "Junta a presidência da sessão, três entidades nacionais de educação e uma organização que não é do campo sindical, todas contra depender do governo da vez."
+  },
+  {
+   "id": "t2",
+   "title": "Sem concurso, formar professor é enxugar gelo",
+   "statement_plain": "O professor faz o curso com contrato temporário e é dispensado no fim do ano. Sem concurso e sem carreira, o dinheiro gasto na formação se perde.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b006c2",
+    "b008c1",
+    "b019c2",
+    "b030c1",
+    "b020c2"
+   ],
+   "note": "A própria Capes usa a imagem de enxugar gelo, e entidades, coordenadores e uma organização da sociedade civil chegam ao mesmo ponto pelo lado do professor."
+  },
+  {
+   "id": "t3",
+   "title": "O programa também deve formar quem ainda vai dar aula",
+   "statement_plain": "Além de dar diploma a quem já está em sala, o Parfor deveria formar gente nova para os Municípios, criando quadro e tornando a carreira mais atrativa.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b028c1",
+    "b028c2"
+   ],
+   "note": "A Anpae propõe a segunda frente e a própria Capes já abriu essa exceção no Parfor Equidade, o que mostra que a fronteira do público não é intocável."
+  },
+  {
+   "id": "t4",
+   "title": "Formar professor exige a escola no centro",
+   "statement_plain": "Saber o conteúdo não basta para ensinar. A formação só funciona quando acontece dentro da escola e toma a prática do professor como ponto de partida.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b013c3",
+    "b015c3",
+    "b018c1",
+    "b020c3"
+   ],
+   "note": "Uma formadora de professores, a presidência da sessão e três universidades públicas chegam à mesma conclusão por caminhos diferentes."
+  },
+  {
+   "id": "t5",
+   "title": "O custeio não chega onde o custo é maior",
+   "statement_plain": "A diária e o custeio do programa foram calculados para outra realidade. No Norte, levar a turma até o Município custa muito mais do que o edital paga.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b008c3",
+    "b014c1",
+    "b017c2",
+    "b022c3",
+    "b026c1"
+   ],
+   "note": "Um deputado, coordenadores do Norte e a própria Capes dizem a mesma coisa sobre o orçamento, o que atravessa governo, parlamento e universidades."
+  },
+  {
+   "id": "t6",
+   "title": "O Parfor é para quem já está em sala",
+   "statement_plain": "O programa existe para dar formação a quem já dá aula sem o curso certo, e é isso que o torna diferente. Formar gente nova é tarefa de outro programa.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b015c1",
+    "b020c1"
+   ],
+   "note": "A Capes, que define o público, e duas universidades públicas que executam o programa ficam do mesmo lado contra a proposta da Anpae."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "PARFOR",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "programa federal que dá curso superior a professores que já dão aula sem a formação certa para a disciplina que ministram"
+  },
+  {
+   "term": "CAPES",
+   "fala": "b001",
+   "sentence": 4,
+   "plain": "agência federal do Ministério da Educação que coordena a pós-graduação e os programas de formação de professores"
+  },
+  {
+   "term": "ANFOPE",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "associação nacional que reúne quem estuda e defende a formação dos profissionais da educação"
+  },
+  {
+   "term": "ANPAE",
+   "fala": "b001",
+   "sentence": 7,
+   "plain": "associação nacional de política e administração da educação, que reúne pesquisadores e gestores da área"
+  },
+  {
+   "term": "LDB",
+   "fala": "b002",
+   "sentence": 8,
+   "plain": "Lei de Diretrizes e Bases da Educação, a lei de 1996 que organiza a educação brasileira"
+  },
+  {
+   "term": "licenciatura",
+   "fala": "b002",
+   "sentence": 8,
+   "plain": "curso superior que forma professor para dar aula, diferente do bacharelado, que não prepara para o ensino"
+  },
+  {
+   "term": "Meta 15",
+   "fala": "b002",
+   "sentence": 10,
+   "plain": "meta do Plano Nacional de Educação que manda dar curso superior na área certa a todo professor da educação básica"
+  },
+  {
+   "term": "regime de colaboração",
+   "fala": "b002",
+   "sentence": 10,
+   "plain": "divisão de tarefas e de custos entre União, Estados e Municípios, prevista em lei para as políticas de educação"
+  },
+  {
+   "term": "Educacenso",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "levantamento anual do governo federal com os dados de escolas, alunos e professores de todo o País"
+  },
+  {
+   "term": "Plataforma Freire",
+   "fala": "b002",
+   "sentence": 45,
+   "plain": "site do governo em que o professor se inscreve nos cursos e a secretaria de educação confirma a inscrição"
+  },
+  {
+   "term": "INEP",
+   "fala": "b002",
+   "sentence": 61,
+   "plain": "instituto federal que faz o censo escolar e as avaliações da educação, como o Enade e o Ideb"
+  },
+  {
+   "term": "CONAE",
+   "fala": "b006",
+   "sentence": 24,
+   "plain": "Conferência Nacional de Educação, encontro que reúne governo e sociedade para propor o Plano Nacional de Educação"
+  },
+  {
+   "term": "BNC-Formação",
+   "fala": "b006",
+   "sentence": 41,
+   "plain": "norma nacional que define o que os cursos de licenciatura devem ensinar. As entidades pedem que seja revogada"
+  },
+  {
+   "term": "PIBID",
+   "fala": "b010",
+   "sentence": 25,
+   "plain": "programa que paga bolsa ao estudante de licenciatura para ele acompanhar a escola desde cedo na formação"
+  },
+  {
+   "term": "IDEB",
+   "fala": "b020",
+   "sentence": 13,
+   "plain": "índice que mede a qualidade da educação básica juntando as notas das provas e o fluxo dos alunos"
+  }
+ ]
+}

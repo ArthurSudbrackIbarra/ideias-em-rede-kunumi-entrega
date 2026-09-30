@@ -1,0 +1,1428 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 125,
+ "model": "LLM lendo o prompt hearing-125 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T22:14:56Z",
+ "prompt_sha256": "39f52968a3e7d6772d1492a663bdcb87ad5691f05e53ff3e0b3534fcf9fbf9cf",
+ "sentences_hash": "8a9860a56b45450d",
+ "review": {
+  "pairs_read": 25,
+  "pairs_fixed": 5
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Educação debateu como os diretores de escola pública são escolhidos e formados no Brasil. Pesquisadoras apresentaram um levantamento mostrando que só um terço das secretarias exige curso de gestão e que um em cada dez diretores tem formação na área. Duas gestoras defenderam a eleição pela comunidade escolar, e o autor do requerimento cobrou o cumprimento da regra do Fundeb que obriga critérios técnicos.",
+ "stakes": "Estava em jogo o projeto de lei sobre a seleção e a indicação de diretores de escola pública, relatado pelo autor do requerimento na própria comissão.",
+ "central_question": "Como escolher e formar os diretores das escolas públicas para que a direção deixe de depender de indicação política?",
+ "synopsis_plain": "A comissão discutiu como os diretores de escola pública são escolhidos e preparados. Pesquisadoras mostraram que só um terço das secretarias exige curso de gestão e que um em cada dez diretores tem formação na área. Duas gestoras defenderam a eleição pela comunidade da escola, e o deputado que pediu o debate cobrou o cumprimento da regra do Fundeb.",
+ "stakes_plain": "O projeto de lei sobre como se escolhe o diretor de escola pública, que está na própria comissão.",
+ "central_question_plain": "Como escolher e preparar o diretor de escola pública para o cargo não depender de indicação política?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Formação dos diretores",
+   "description": "Discute-se se o diretor de escola pública chega ao cargo preparado e se os cursos oferecidos servem para o trabalho dele.",
+   "axis": {
+    "pro": "Falta formação específica em gestão e os cursos que existem não atendem ao que o diretor precisa.",
+    "contra": "A formação oferecida hoje dá conta do que o diretor precisa para conduzir a escola.",
+    "pro_plain": "Falta curso de gestão para quem dirige escola, e o que existe não serve para o trabalho do dia a dia.",
+    "contra_plain": "A formação que existe hoje dá conta do que o diretor precisa para tocar a escola."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Condicionalidade do Fundeb",
+   "description": "Discute-se se amarrar o repasse do Fundeb a critérios técnicos de seleção é suficiente para mudar a prática das redes.",
+   "axis": {
+    "pro": "Amarrar o dinheiro do Fundeb à seleção por critérios técnicos obriga os entes e muda a prática.",
+    "contra": "No papel todos vão dizer que cumprem, e sem fiscalização e sem condições nada muda.",
+    "pro_plain": "Ligar o dinheiro do Fundeb à seleção por critério técnico obriga Estados e Municípios a mudar.",
+    "contra_plain": "No papel todo mundo diz que cumpre, e sem fiscalização e sem condições nada muda de verdade."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Indicação política na escolha",
+   "description": "Discute-se o efeito de escolher o diretor por indicação de um político em vez de por mérito ou por eleição.",
+   "axis": {
+    "pro": "O diretor indicado politicamente não é respeitado pela equipe e a escola entrega resultados piores.",
+    "contra": "A indicação pelo gestor eleito é uma escolha legítima de quem responde pela rede.",
+    "pro_plain": "Diretor que chega pela mão de um político não é respeitado pelos professores, e a escola vai mal.",
+    "contra_plain": "Indicar o diretor é uma escolha legítima de quem foi eleito para responder pela rede."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Eleição ou seleção técnica",
+   "description": "Discute-se se o diretor deve ser eleito pela comunidade escolar ou aprovado num processo seletivo por critérios técnicos.",
+   "axis": {
+    "pro": "A eleição pela comunidade escolar é o processo mais democrático e precisa ser preservada.",
+    "contra": "O que garante qualidade é a seleção por critérios técnicos, com mais de uma etapa.",
+    "pro_plain": "A eleição com toda a comunidade da escola é o caminho mais democrático e não pode se perder.",
+    "contra_plain": "O que garante qualidade é uma seleção por critério técnico, com mais de uma etapa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Equidade na alocação",
+   "description": "Discute-se se as escolas mais vulneráveis estão ficando com os diretores menos preparados.",
+   "axis": {
+    "pro": "As escolas mais vulneráveis precisam dos melhores diretores e hoje ficam com os menos preparados.",
+    "contra": "A alocação atual trata todas as escolas de forma igual e isso basta.",
+    "pro_plain": "As escolas que mais precisam ficam com os diretores menos preparados, e isso tem de mudar.",
+    "contra_plain": "Tratar todas as escolas do mesmo jeito já resolve a alocação dos diretores."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da reunião, autor do requerimento e relator do projeto",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado como Idilvan Alencar, Bloco/PDT - CE, autor do Requerimento nº 165, de 2023, em b001.1, e coautor da lei do Fundeb em b001.26",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Educação da Câmara dos Deputados, que analisa os projetos de lei sobre ensino"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Vereadora de Fortaleza e ex-diretora escolar da rede estadual do Ceará",
+   "org": "Câmara Municipal de Fortaleza",
+   "basis": "apresentada pela presidência em b001.6 e em b001.72, participando por vídeo",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "vereadora de Fortaleza e ex-diretora escolar",
+   "org_plain": "câmara de vereadores de Fortaleza, onde se fazem as leis do município"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Professora de pedagogia e pesquisadora em gestão escolar",
+   "org": "UNIRIO",
+   "basis": "apresentada pela presidência em b001.7 e por ela mesma em b004.11",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "professora de pedagogia da Unirio",
+   "org_plain": "Universidade Federal do Estado do Rio de Janeiro, onde ela pesquisa gestão e liderança escolar"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor-Executivo da associação Dados para um Debate Democrático na Educação",
+   "org": "D3e",
+   "basis": "apresentado pela presidência em b001.8 e por ele mesmo em b010.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do D3e, associação de dados para a educação",
+   "org_plain": "associação sem fins lucrativos que reúne e divulga evidências científicas sobre políticas de educação"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Professora do Departamento de Gestão Pública e coordenadora do relatório",
+   "org": "FGV",
+   "basis": "apresentada pela presidência em b001.9 e por ela mesma em b012.19",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "professora da FGV e autora do estudo",
+   "org_plain": "Fundação Getulio Vargas, instituição de ensino e pesquisa que estuda políticas públicas"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Professora e ex-gestora escolar, hoje na Secretaria de Educação",
+   "org": "Secretaria Municipal de Educação de Salvador",
+   "basis": "apresentada pela presidência em b001.10 e por ela mesma em b016.6 e b016.22",
+   "seat": "remoto",
+   "gov_level": "municipal",
+   "byline": "da rede municipal de ensino de Salvador",
+   "org_plain": "secretaria que administra as escolas municipais de Salvador"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "A reunião é semipresencial, conforme b001.4, com três convidadas participando por vídeo, e a ata não registra delegações nem palmas.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a audiência, lembra que a lei do Fundeb tornou a seleção obrigatória e sustenta que diretor escolhido por político não é respeitado pelos professores.",
+   "quote": [
+    48,
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Diretor que chega pela mão de um político, e não por mérito, não é respeitado e leva a escola a resultados desastrosos.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "selecionar diretor virou obrigação, porque sem isso o Estado ou o Município perde dinheiro do Fundeb",
+     "plain": "A parte do Fundeb ligada a resultado vem com condições. Escolher diretor deixou de ser opção de gestão de Estado ou de Município e virou obrigação: ou se faz a seleção, ou se perde dinheiro."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "diretor escolhido por um político, e não por mérito, não é respeitado pelos professores e traz resultados desastrosos",
+     "plain": "Diretor que não chega por mérito e competência, e fica à mercê do que um político mandar, não leva a escola para a frente. Os professores não respeitam quem não tem competência, e vêm resultados desastrosos."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      62,
+      63
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "apesar de dividir a escola, a eleição é mil vezes melhor que uma indicação política",
+     "plain": "No começo eu tinha receio dessa eleição, porque via a escola ficar dividida depois dela: quem era de um lado ficava com raiva de quem era do outro. Ainda assim, a eleição é mil vezes melhor que uma indicação política."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata sua trajetória de gestora eleita e defende a eleição com toda a comunidade escolar, alertando que metade das escolas estaduais do Ceará perdeu esse processo.",
+   "quote": [
+    28,
+    29
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A escolha do gestor escolar por eleição, com toda a comunidade, é o processo democrático que precisa ser reafirmado.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a escola pública precisa escolher o gestor por processos claros e democráticos, e isso precisa ser reafirmado",
+     "plain": "Na escola pública temos a prerrogativa de ter um gestor ou uma gestora escolhido por caminhos claros e democráticos. Esses caminhos precisam ser reafirmados."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a eleição envolve toda a comunidade escolar, de alunos maiores de 12 anos a pais e servidores, e cria pertencimento",
+     "plain": "Quem tem interesse entra na eleição, que é bastante democrática e chama toda a comunidade: alunos maiores de 12 anos, professores efetivos e temporários, servidores, pais e mães. Isso cria pertencimento à escola."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      54,
+      55,
+      56
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "das cerca de 750 escolas estaduais do Ceará, só 397 terão eleição direta e secreta",
+     "plain": "São cerca de 750 escolas estaduais em todo o Ceará. Dessas, 397 terão eleição direta e secreta. As demais não vão passar por esse processo democrático."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à vereadora e passa a palavra à professora da universidade do Rio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que onde há indicação política o diretor tem formação mais frágil e que os cursos de formação continuada não atendem ao que o diretor precisa.",
+   "quote": [
+    28
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Onde há indicação política o diretor tem formação mais frágil, e os cursos existentes não dão conta do que ele precisa.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      28
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "onde há indicação política o diretor tem formação mais frágil, sem especialização e às vezes até sem curso superior",
+     "plain": "Nas redes onde o cargo de diretor vem por indicação, principalmente indicação política, encontramos diretores de formação mais frágil, sem curso de formação continuada ou de especialização e, às vezes, até sem curso superior."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os cursos de formação continuada trazem mais desafios do que avanços e têm alta evasão, porque não atendem ao que o diretor precisa",
+     "plain": "Na maior parte das vezes, esses cursos trazem mais desafio do que avanço, porque não entregam o que aquele diretor precisa para atuar. E há um índice alto de evasão e de abandono deles."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o diretor indicado politicamente tem reconhecimento de liderança pior do que o eleito ou aprovado em seleção técnica",
+     "plain": "Encontramos uma correlação forte entre o reconhecimento da liderança da gestão eleita, ou aprovada em seleção que comprova competência técnica, e a indicação política. Quem chega por indicação é menos reconhecido pelos professores."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Destaca que a formação técnica esquece a parte relacional e afirma que a regra do Fundeb funciona porque envolve perda de recurso.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Já passou da hora de o País levar a sério a formação dos diretores, inclusive a parte relacional.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a formação técnica esquece a parte relacional, e já passou da hora de o País levar a sério a formação de diretores",
+     "plain": "Os programas de formação técnica e a própria avaliação costumam esquecer a formação relacional, que é tão ou mais importante que a outra. Como você disse, o País já demorou demais para levar a sério a formação de diretores."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a regra do Fundeb ligada a resultado funciona, porque no País o movimento só acontece quando se fala em perder recurso",
+     "plain": "Essa regra ligada a resultados é uma ação muito forte. Neste País, quando se avisa que vai haver perda de recurso, o movimento acontece. Não era para ser assim, mas às vezes é."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado avisa que enviou uma apresentação e pergunta se dá para compartilhá-la.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que a equipe consegue projetar a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado agradece e pede que projetem a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a apresentação já está na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Situa o debate no contexto regulatório, lembra a Meta 19 do plano nacional e afirma que o diretor é o segundo fator que mais impacta a qualidade da educação.",
+   "quote": [
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O plano nacional e o novo Fundeb induzem os entes federados a adotar critérios técnicos na seleção dos diretores.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      16
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a atuação do diretor é o segundo fator que mais impacta a qualidade da educação, atrás só do professor",
+     "plain": "A literatura acadêmica mostra que a atuação do diretor é o segundo fator de maior impacto na qualidade da educação, ficando atrás só do professor, que está todo dia na sala de aula com os estudantes."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      22
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Meta 19 do plano nacional une gestão democrática a critérios técnicos e à consulta à comunidade escolar",
+     "plain": "Em 2014 o plano nacional trouxe a Meta 19, que manda assegurar em 2 anos a gestão democrática da educação, unida a critérios técnicos de mérito e de desempenho e à consulta à comunidade escolar."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      31
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "faltam candidatos qualificados e é complexo estruturar bem esses processos de seleção",
+     "plain": "Sabemos de algumas dificuldades para aplicar esses critérios na prática, como a pouca quantidade de candidatos qualificados ou bem formados para a função, e a própria complexidade de estruturar bem esses processos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o nível do debate e passa a palavra à professora da FGV.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta os dados do relatório sobre formação dos diretores e recomenda critérios técnicos com mais de uma etapa no processo seletivo.",
+   "quote": [
+    36,
+    37
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": 40,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta formação em gestão escolar e é dever do Estado garantir essa preparação aos diretores.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "12% dos diretores não têm ensino superior e no Nordeste 20% só têm ensino médio, justamente nas escolas mais vulneráveis",
+     "plain": "É um número relevante, mas 12% dos diretores seguem sem ensino superior. E isso pesa mais quando se olha onde eles estão: provavelmente nas escolas mais vulneráveis, que mais precisariam deles. No Nordeste, 20% só têm ensino médio."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só um em cada dez diretores declara ter curso de gestão escolar de mais de 80 horas",
+     "plain": "Na formação continuada, o cenário é este: um em cada dez diretores declarou ter curso de gestão escolar com mais de 80 horas. É muito pouco, ainda mais porque a formação inicial muitas vezes não prepara para a gestão da escola."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      67,
+      68
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o processo seletivo precisa de mais de uma etapa, porque uma só não dá conta de todos os critérios",
+     "plain": "Acrescento um ponto: é importante que o processo seletivo tenha mais de uma etapa. Com uma etapa só, dificilmente se dá conta de olhar todos os critérios que precisam ser observados para assumir um cargo de gestão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Destaca os dados de formação dos diretores e sustenta que são as escolas mais vulneráveis que ficam com os gestores menos preparados.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As escolas mais vulneráveis são as que ficam com os diretores sem formação e com indicação política.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é grave que 20% dos diretores do Nordeste só tenham ensino médio e chocante que só um em cada dez tenha formação em gestão",
+     "plain": "O seu relatório aponta que 20% dos diretores da Região Nordeste só têm ensino médio. É um dado bastante grave. E choca saber que apenas um em cada dez gestores tenha formação em gestão escolar."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é nas escolas mais vulneráveis que estão os diretores sem formação e que chegaram por indicação política",
+     "plain": "É justamente nas escolas mais vulneráveis, em renda e em resultados, que estão as pessoas que só têm ensino médio, não têm formação em gestão e chegaram por indicação política. Como reduzir a desigualdade tratando todos de forma igual?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada cumprimenta e pergunta se está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que a convidada está sendo ouvida bem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata a eleição de diretores em Salvador, aponta a fragilidade da indicação temporária e cobra que a escola receba as condições antes da cobrança de resultado.",
+   "quote": [
+    63,
+    64
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 51,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso fortalecer a escolha de diretores pela comunidade, para além das indicações políticas e de terceiros.",
+    "sentence": 63
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Salvador a eleição de diretores acontece a cada 3 anos e votam professores, pais, funcionários e alunos de 12 anos",
+     "plain": "Na rede municipal, a eleição de diretores acontece a cada 3 anos, e o gestor pode ser reconduzido por mais um período, também pelo voto. Votam todos os segmentos: professores, pais, estudantes a partir de 12 anos e funcionários."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "quando a eleição atrasa, o gestor é indicado de forma temporária e emenda mais uma gestão, o que quebra o processo",
+     "plain": "Existe uma fragilidade quando a eleição não vem logo depois do fim do mandato. Aí o gestor é indicado pro tempore, de forma temporária, até a eleição seguinte. Isso quebra o processo e deixa quem já fez duas gestões emendar mais uma."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      51,
+      52
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não adianta só cobrar resultado, é preciso dar à escola as condições e os profissionais com formação adequada",
+     "plain": "Fico preocupada em saber se essas escolas têm mesmo as condições para alcançar os resultados. Não adianta só cobrar resultado, é preciso dar as condições, com profissionais adequados e formação inicial e continuada."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Encerra duvidando de que a regra do Fundeb seja cumprida na prática e propõe seminários regionais e um observatório para acompanhar as seleções.",
+   "quote": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 15,
+   "stance": {
+    "position": "contrario",
+    "claim": "Todos vão dizer no sistema que fazem a seleção por critério, e sem fiscalização a mudança do Fundeb não vale de nada.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "nenhum Município vai informar no sistema que não faz a seleção por critério, e todos vão dizer que estão fazendo",
+     "plain": "Como vamos garantir isso? Acho que nenhum Município vai declarar no sistema que deixou de selecionar por critério, com base em métodos. Todos vão dizer que fazem."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso fazer seminários regionais e criar um observatório para acompanhar a escolha dos gestores",
+     "plain": "O primeiro convite é fazer seminários regionais, estaduais e municipais para alertar sobre essa situação. O segundo é criar um observatório."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "nenhum Município ou Estado vai se denunciar no processo, e por isso não vai perder recurso",
+     "plain": "Quem vai conferir se o prefeito fez mesmo uma seleção de verdade, o MEC? Nenhum Município, nem Estado, vai se denunciar nesse processo. E vão perder recurso por isso? Não."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 63,
+   "from_claim": "b002c1",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "Retoma o ponto da presidência sobre a eleição e sustenta que o processo democrático de escolha do gestor precisa ser reafirmado."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 48,
+   "from_claim": "b004c3",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "Confirma com dados de todo o Brasil o que a presidência disse: o diretor indicado politicamente é menos reconhecido pela equipe de professores."
+  },
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 28,
+   "from_claim": "b004c3",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Mostra que a equipe eleita pela comunidade tem reconhecimento de liderança melhor do que a que chegou por indicação."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 31,
+   "from_claim": "b005c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Acrescenta ao diagnóstico dos cursos que a formação técnica costuma esquecer a parte relacional do trabalho do diretor."
+  },
+  {
+   "from": "b010",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 28,
+   "from_claim": "b010c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Situa a regra do Fundeb citada pela presidência ao lado da Meta 19 do plano nacional, que já unia gestão democrática a critérios técnicos."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 38,
+   "from_claim": "b010c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Reforça a importância do cargo: a atuação do diretor é o segundo fator de maior impacto na qualidade da educação."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 31,
+   "from_claim": "b012c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Põe número no diagnóstico da formação: só um em cada dez diretores tem curso de gestão com mais de 80 horas."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 67,
+   "to_sentence": 22,
+   "from_claim": "b012c3",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Acrescenta ao critério técnico previsto no plano nacional a exigência de mais de uma etapa no processo seletivo."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 67,
+   "to_sentence": 28,
+   "from_claim": "b012c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Diante da defesa da eleição pela comunidade, sustenta que a seleção precisa de mais de uma etapa para dar conta de todos os critérios."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 34,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Sublinha os dois números do relatório: no Nordeste 20% dos diretores só têm ensino médio e só um em cada dez tem formação em gestão."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 33,
+   "from_claim": "b013c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Puxa o dado para a equidade: são as escolas mais vulneráveis que ficam com o diretor sem formação e indicado politicamente."
+  },
+  {
+   "from": "b013",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 31,
+   "from_claim": "b013c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "Confirma com os números do relatório a dificuldade apontada de faltarem candidatos bem formados para a função."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 28,
+   "from_claim": "b016c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Mostra que em Salvador a eleição também chama todos os segmentos, dos professores aos alunos a partir de 12 anos."
+  },
+  {
+   "from": "b016",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 51,
+   "to_sentence": 28,
+   "from_claim": "b016c3",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Diante da regra que condiciona o dinheiro ao resultado, alerta que não adianta cobrar sem dar à escola as condições de alcançá-lo."
+  },
+  {
+   "from": "b016",
+   "to": "b005",
+   "kind": "contradiz",
+   "from_sentence": 51,
+   "to_sentence": 8,
+   "from_claim": "b016c3",
+   "to_claim": "b005c2",
+   "strength": "forte",
+   "note": "Rebate a ideia de que a ameaça de perder recurso resolve: sem condições e sem formação, a cobrança não se sustenta."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 51,
+   "from_claim": "b017c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "Acompanha a ressalva da gestora e duvida que algum Município informe no sistema que não fez a seleção com critério."
+  },
+  {
+   "from": "b017",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 28,
+   "from_claim": "b017c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Quem abriu a audiência dizendo que a seleção virou obrigação fecha duvidando de que alguém confesse não estar cumprindo a regra."
+  },
+  {
+   "from": "b017",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 24,
+   "to_sentence": 22,
+   "from_claim": "b017c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Diante do arcabouço legal apresentado, pergunta quem vai conferir se a seleção aconteceu de verdade nos Municípios."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b005",
+    "b012",
+    "b013"
+   ],
+   "claims": [
+    "b004c2",
+    "b005c1",
+    "b012c2",
+    "b013c1"
+   ],
+   "note": "As pesquisadoras e a presidência da comissão concordam que falta formação em gestão escolar e que os cursos existentes não entregam o que o diretor precisa."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b005",
+    "b010"
+   ],
+   "claims": [
+    "b001c1",
+    "b005c2",
+    "b010c2"
+   ],
+   "note": "A presidência da comissão e a associação de dados concordam que amarrar a seleção de diretores ao dinheiro do Fundeb e à meta do plano nacional muda a prática das redes."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b004",
+    "b010"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c3",
+    "b010c1"
+   ],
+   "note": "A presidência da comissão, a pesquisadora da universidade e a associação de dados concordam que o diretor indicado politicamente é menos reconhecido pela equipe e a escola vai pior."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b016"
+   ],
+   "claims": [
+    "b002c2",
+    "b016c1"
+   ],
+   "note": "A vereadora e ex-diretora do Ceará e a gestora da rede de Salvador concordam que a eleição com toda a comunidade escolar é o caminho que sustenta a escola."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b010",
+   "sentence": 39,
+   "addressed_to": "parlamentar",
+   "answered_by": "b017",
+   "gist": "que a Câmara debata e proponha a formação dos diretores",
+   "plain": "A Câmara dos Deputados vai debater e propor a formação dos diretores escolares?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b012",
+   "sentence": 40,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual é o dever do Estado na formação dos diretores",
+   "plain": "Qual é o dever do Estado na formação dos diretores escolares?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b016",
+   "sentence": 51,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se as escolas têm condições de alcançar os resultados",
+   "plain": "Essas escolas estão tendo todas as condições necessárias para alcançar os resultados cobrados?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b017",
+   "sentence": 15,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como garantir que a seleção com critério aconteça",
+   "plain": "Como vamos garantir que a seleção de diretores com critério técnico aconteça de verdade?",
+   "theme": "d2",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 54,
+   "gist": "cerca de 750 escolas estaduais no Ceará",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 55,
+   "gist": "397 escolas terão eleição direta e secreta",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b010",
+   "sentence": 16,
+   "gist": "diretor é o segundo fator que mais impacta a qualidade",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b010",
+   "sentence": 22,
+   "gist": "Meta 19 do plano nacional, de 2014, com prazo de 2 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 27,
+   "gist": "53 auditores voluntários levantaram os dados",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 29,
+   "gist": "88% dos diretores têm ensino superior",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 34,
+   "gist": "20% dos diretores do Nordeste só têm ensino médio",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b012",
+   "sentence": 36,
+   "gist": "um em cada dez tem curso de gestão de 80 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 47,
+   "gist": "20% dos diretores atuam em mais de uma escola",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 52,
+   "gist": "só um terço das secretarias exige curso de gestão",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b012",
+   "sentence": 62,
+   "gist": "o VAAR condiciona 2,5% dos recursos do Fundeb",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b016",
+   "sentence": 9,
+   "gist": "425 escolas municipais em dez gerências regionais",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o dado de que só 30% das secretarias exigem curso de gestão escolar e a crítica do autor do requerimento à indicação política de diretores.",
+  "omitted": "Ficou de fora a dúvida do próprio autor do requerimento sobre como fiscalizar o cumprimento da regra do Fundeb, e o relato de Salvador sobre a indicação temporária."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Amarrar o dinheiro obriga a seleção técnica",
+   "statement_plain": "Ligar o repasse do Fundeb à escolha do diretor por critério técnico tirou a seleção do campo da opção: quem não fizer perde dinheiro, e por isso a prática muda.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b005c2",
+    "b010c2"
+   ],
+   "note": "Junta o parlamentar que é coautor da lei do Fundeb e a associação que sistematiza evidências, dois lugares diferentes apostando no mesmo mecanismo."
+  },
+  {
+   "id": "t2",
+   "title": "No papel todos cumprem, na prática não",
+   "statement_plain": "Nenhum Município vai declarar que não fez a seleção com critério, e sem fiscalização e sem dar condições à escola a regra do Fundeb não muda nada.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b017c1",
+    "b017c3"
+   ],
+   "note": "A ideia é sustentada pela gestora da rede de Salvador e pelo próprio autor do requerimento, que abriu a audiência defendendo a regra e a fechou duvidando dela."
+  },
+  {
+   "id": "t3",
+   "title": "A eleição pela comunidade sustenta a escola",
+   "statement_plain": "A escolha do diretor pela comunidade escolar, com professores, pais, funcionários e alunos votando, é o processo mais democrático e precisa ser preservado.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b002c3",
+    "b016c1"
+   ],
+   "note": "Vem de quem esteve na direção de escola: uma ex-diretora do Ceará, hoje vereadora, e uma ex-gestora da rede de Salvador, de Estados e redes diferentes."
+  },
+  {
+   "id": "t4",
+   "title": "Sem mérito, o diretor não é respeitado",
+   "statement_plain": "Diretor que chega pela mão de um político não é reconhecido pelos professores, e isso aparece nos dados: a liderança dele é pior e a escola entrega menos.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c3",
+    "b010c1"
+   ],
+   "note": "Cruza a intuição política do parlamentar com a estatística nacional da pesquisadora e da associação de dados, que chegam à mesma conclusão por outro caminho."
+  },
+  {
+   "id": "t5",
+   "title": "Falta formação e os cursos não servem",
+   "statement_plain": "O diretor chega ao cargo sem curso de gestão, e os cursos oferecidos trazem mais desafio do que avanço, porque não entregam o que ele precisa para tocar a escola.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c2",
+    "b005c1",
+    "b012c1",
+    "b012c2",
+    "b013c1"
+   ],
+   "note": "Reúne as duas pesquisadoras e a presidência da comissão, que chegou ao tema por um caso concreto de curso com questões de decorar no seu Estado."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "FUNDEB",
+   "plain": "fundo que junta dinheiro da União, dos Estados e dos Municípios para bancar a educação básica",
+   "fala": "b001",
+   "sentence": 26
+  },
+  {
+   "term": "VAAR",
+   "plain": "parte do dinheiro do Fundeb que só é repassada a quem cumpre condições, como escolher o diretor por critério técnico",
+   "fala": "b001",
+   "sentence": 28
+  },
+  {
+   "term": "LDB",
+   "plain": "Lei de Diretrizes e Bases da Educação Nacional, a lei que organiza o ensino no Brasil",
+   "fala": "b002",
+   "sentence": 18
+  },
+  {
+   "term": "gestão democrática",
+   "plain": "forma de dirigir a escola em que a comunidade participa das decisões, inclusive da escolha do diretor",
+   "fala": "b002",
+   "sentence": 18
+  },
+  {
+   "term": "banco de gestores",
+   "plain": "lista de candidatos aprovados em seleção, de onde a secretaria escolhe quem vai dirigir cada escola",
+   "fala": "b002",
+   "sentence": 38
+  },
+  {
+   "term": "formação continuada",
+   "plain": "cursos feitos ao longo da carreira, depois da faculdade, para o profissional se atualizar",
+   "fala": "b004",
+   "sentence": 28
+  },
+  {
+   "term": "INEP",
+   "plain": "instituto federal que produz as estatísticas e as avaliações da educação brasileira",
+   "fala": "b004",
+   "sentence": 37
+  },
+  {
+   "term": "SAEB",
+   "plain": "Sistema de Avaliação da Educação Básica, a avaliação nacional que mede o aprendizado nas escolas",
+   "fala": "b004",
+   "sentence": 37
+  },
+  {
+   "term": "PNE",
+   "plain": "Plano Nacional de Educação, a lei que fixa as metas da educação brasileira para dez anos",
+   "fala": "b004",
+   "sentence": 44
+  },
+  {
+   "term": "Meta 19",
+   "plain": "meta do plano nacional que manda unir gestão democrática a critérios técnicos na escolha do diretor",
+   "fala": "b010",
+   "sentence": 22
+  },
+  {
+   "term": "ATRICON",
+   "plain": "associação dos membros dos tribunais de contas do Brasil, que fiscalizam o dinheiro público",
+   "fala": "b010",
+   "sentence": 25
+  },
+  {
+   "term": "censo escolar",
+   "plain": "levantamento anual com os dados de todas as escolas, alunos, professores e diretores do país",
+   "fala": "b012",
+   "sentence": 25
+  },
+  {
+   "term": "estágio probatório",
+   "plain": "primeiros anos de um servidor concursado, em que ele é avaliado antes de ficar efetivo no cargo",
+   "fala": "b016",
+   "sentence": 25
+  },
+  {
+   "term": "pro tempore",
+   "plain": "de forma temporária, até que a escolha definitiva aconteça",
+   "fala": "b016",
+   "sentence": 37
+  }
+ ]
+}

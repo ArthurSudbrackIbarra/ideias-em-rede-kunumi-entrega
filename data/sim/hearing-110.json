@@ -1,0 +1,2038 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 110,
+ "model": "LLM lendo o prompt hearing-110 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:26:03Z",
+ "prompt_sha256": "c70333bcb6d689468d91e9449184bc2dd45cbb13ebf1d50f6754f3b45cc30529",
+ "sentences_hash": "72e5f5c1b1aa3b84",
+ "review": {
+  "pairs_read": 39,
+  "pairs_fixed": 12
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa ouviu o governo e convidados sobre levar o envelhecimento ativo e saudável como agenda prioritária à cúpula do G20, que o Brasil presidia e sediaria no Rio de Janeiro em novembro. O diplomata do Itamaraty explicou por onde o tema entra nas trilhas do G20 e os deputados cobraram prioridade e orçamento. Convidados da saúde e da sociedade civil trouxeram dados de desigualdade no envelhecer e pediram políticas efetivas.",
+ "stakes": "Definir se o envelhecimento ativo e saudável entra como prioridade na declaração da presidência brasileira do G20 e com que recursos as políticas da pessoa idosa vão contar.",
+ "central_question": "O envelhecimento ativo e saudável deve ser uma agenda prioritária do G20 e o que o Brasil precisa fazer para garantir equidade no envelhecer?",
+ "synopsis_plain": "O Brasil presidia o G20 em 2024 e ia receber os líderes no Rio de Janeiro em novembro. Nesta audiência, deputados pediram que envelhecer com saúde fosse uma das prioridades da cúpula. Um diplomata contou onde o tema entra nas discussões, o Ministério da Saúde e a Secretaria dos Direitos da Pessoa Idosa mostraram dados e programas, e convidados pediram dinheiro e políticas que funcionem.",
+ "stakes_plain": "Saber se envelhecer com saúde entra na lista de prioridades da cúpula do G20 no Rio e quanto dinheiro as políticas para pessoas idosas vão ter.",
+ "central_question_plain": "Envelhecer com saúde deve ser prioridade do G20, e o que falta para todos envelhecerem bem no Brasil?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Envelhecimento na agenda do G20",
+   "description": "Discute-se se o envelhecimento ativo e saudável deve virar uma agenda prioritária da cúpula do G20 presidida pelo Brasil, com espaço próprio, ou se basta o tema aparecer dentro dos grupos de trabalho que já existem.",
+   "axis": {
+    "pro": "O envelhecimento ativo e saudável deve ser adotado como agenda prioritária do G20, com espaço próprio para quem trabalha com o tema.",
+    "contra": "O tema entra no G20 de forma transversal, dentro dos grupos de trabalho e de engajamento que já existem, sem recorte próprio.",
+    "pro_plain": "Envelhecer com saúde tem de ser uma das prioridades da cúpula, com espaço próprio para quem trabalha com o assunto.",
+    "contra_plain": "O assunto já aparece espalhado nas discussões do G20, então não precisa de uma pauta separada."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Equidade e desigualdade no envelhecer",
+   "description": "Trata de como a renda, a cor da pele e o lugar onde a pessoa mora decidem quem chega à velhice e com que saúde, e do que o Estado deve fazer para reduzir essa diferença.",
+   "axis": {
+    "pro": "As políticas precisam partir das particularidades de cada território e de cada grupo, porque o envelhecimento brasileiro é desigual.",
+    "contra": "Basta ampliar a oferta geral de serviços, sem recorte por território, renda ou grupo.",
+    "pro_plain": "Onde a pessoa mora e quanto ela tem mudam a chance de envelhecer bem, então a política precisa olhar cada grupo.",
+    "contra_plain": "Ofertar o mesmo serviço para todo mundo já resolveria, sem separar por lugar ou grupo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "SUS e atenção primária",
+   "description": "Discute-se se fortalecer o SUS e a atenção primária dá conta do cuidado de uma população que envelhece, ou se o sistema de saúde vai ficar sempre pequeno diante do número de pessoas idosas.",
+   "axis": {
+    "pro": "Fortalecer o SUS e a atenção primária é o caminho para cuidar da população que envelhece.",
+    "contra": "O sistema de saúde não vai dar conta: hospitais e leitos continuarão poucos e os custos crescem.",
+    "pro_plain": "A maioria das pessoas idosas depende do SUS, e o caminho é fortalecer o posto de saúde perto de casa.",
+    "contra_plain": "Mesmo abrindo hospitais e leitos de UTI, vão faltar vagas e dinheiro diante de tanta gente idosa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Orçamento e efetividade das políticas",
+   "description": "Trata do dinheiro e da estrutura que as políticas de direitos humanos e da pessoa idosa têm, e de quem garante que as demandas das pessoas idosas saiam do papel.",
+   "axis": {
+    "pro": "Sem orçamento e estrutura próprios, a política de direitos humanos e do envelhecimento não sai do discurso.",
+    "contra": "Os recursos e programas já existentes bastam, o que falta é articular melhor o que existe.",
+    "pro_plain": "Sem dinheiro no orçamento, a política para pessoas idosas fica só na conversa.",
+    "contra_plain": "O que já existe de programa e de verba dá conta, falta só organizar melhor."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Idadismo e participação social",
+   "description": "Discute-se o preconceito de idade e o direito das pessoas idosas de participar, trabalhar, circular pela cidade e decidir sobre as políticas que as atingem.",
+   "axis": {
+    "pro": "O preconceito de idade é o principal obstáculo e as pessoas idosas têm de participar das decisões e seguir contribuindo.",
+    "contra": "O envelhecimento é sobretudo um custo e um impacto negativo para a economia e para os serviços.",
+    "pro_plain": "O preconceito de idade é o maior obstáculo, e quem é idoso tem de ser ouvido e pode seguir contribuindo.",
+    "contra_plain": "Envelhecer é visto como peso e gasto para a economia e para os serviços públicos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Cuidado ao longo da vida",
+   "description": "Trata de quando começa o cuidado com o envelhecimento: se na alimentação, na educação, no esporte e no lazer desde a juventude, ou só na velhice, com medicamentos e serviços especializados.",
+   "axis": {
+    "pro": "Envelhecer bem se constrói desde cedo, com alimentação, educação, esporte, lazer e prevenção ao longo de toda a vida.",
+    "contra": "O cuidado começa na velhice, quando a doença aparece, e se resolve com medicamento e serviço especializado.",
+    "pro_plain": "Envelhecer bem começa cedo, com comida, estudo, esporte e lazer, não aos 60 anos.",
+    "contra_plain": "O cuidado começa quando a doença chega, e se resolve com remédio e médico especialista."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Violência e abandono na velhice",
+   "description": "Trata da violência e do abandono sofridos por pessoas idosas, muitas vezes dentro da própria casa e por parentes, e da resposta que o Estado dá a isso.",
+   "axis": {
+    "pro": "A violência e o abandono dentro da própria família são parte central do problema e exigem resposta do Estado.",
+    "contra": "São casos isolados, que a família e a comunidade resolvem sem política pública.",
+    "pro_plain": "Muita violência contra pessoas idosas vem de dentro de casa, e o Estado precisa agir.",
+    "contra_plain": "São casos isolados, que a própria família e os vizinhos resolvem."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "deputado federal que presidiu a audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "registro 'Presidente' na ata e a menção ao Requerimento nº 19, de 2024, de sua autoria em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa dos Direitos da Pessoa Idosa, da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "médico epidemiologista, Presidente do Centro Internacional da Longevidade",
+   "org": "Centro Internacional da Longevidade",
+   "basis": "apresentado pela presidência em b001.4 e por ele mesmo em b002.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Centro Internacional da Longevidade",
+   "org_plain": "centro de estudos no Rio de Janeiro dedicado ao envelhecimento e à longevidade"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenadora de Saúde da Pessoa Idosa na Atenção Primária",
+   "org": "Ministério da Saúde",
+   "basis": "apresentada pela presidência em b001.4 e por ela mesma em b004.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério federal que dirige o SUS, a rede pública de saúde do País"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "diplomata, Sub-Sherpa do G20",
+   "org": "Ministério das Relações Exteriores",
+   "basis": "apresentado pela presidência em b001.4 e em b005.1",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Itamaraty, Sub-Sherpa do G20",
+   "org_plain": "Itamaraty, o ministério que cuida das relações do Brasil com outros países"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Secretário Nacional dos Direitos da Pessoa Idosa",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentado pela presidência em b001.4 e em b007.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério federal das políticas de direitos humanos, inclusive as da pessoa idosa"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora Nacional da Pastoral da Pessoa Idosa",
+   "org": "Pastoral da Pessoa Idosa",
+   "basis": "apresentada pela presidência em b001.4 e em b009.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Pastoral da Pessoa Idosa",
+   "org_plain": "grupo ligado à conferência dos bispos católicos que visita pessoas idosas em casa todo mês"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "médico neurocirurgião, Presidente da Sociedade Nordestina de Neurocirurgia",
+   "org": "Sociedade Nordestina de Neurocirurgia",
+   "basis": "apresentado pela presidência em b001.4 e em b011.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Sociedade Nordestina de Neurocirurgia",
+   "org_plain": "entidade dos médicos neurocirurgiões do Nordeste do País"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "médico e neurocientista, Presidente da Brain Mapping Foundation",
+   "org": "Brain Mapping Foundation",
+   "basis": "apresentado pela presidência em b001.4 e citado em b012.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Brain Mapping Foundation",
+   "org_plain": "fundação dos Estados Unidos que reúne neurocientistas e organiza o N-20, grupo do cérebro"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "inscrito pela mesa em b022.2 e registro 'Bloco/PT - RJ' na lista de oradores",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro",
+   "org_plain": "casa do Congresso onde os deputados fazem as leis e fiscalizam o governo"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "deputado federal, autor do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "apresentado pela presidência em b024.5 e registro 'Bloco/PT - RS' na lista de oradores",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio Grande do Sul",
+   "org_plain": "casa do Congresso onde os deputados fazem as leis e fiscalizam o governo"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "palmas registradas em b004, b006 e b008 e a menção do secretário à presença de pessoas idosas no espaço em b008.2, sem lista de delegações",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre envelhecimento ativo no G20 e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Define envelhecimento ativo como processo de toda a vida, com quatro pilares, lembra que 83% das pessoas idosas dependem do SUS e aponta o idadismo como maior obstáculo.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O envelhecimento ativo se constrói ao longo de toda a vida e depende de saúde, educação, participação e segurança.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "envelhecimento ativo é um processo de toda a vida, com quatro pilares: saúde, educação, direito de participar e segurança",
+     "plain": "Envelhecimento ativo é um processo que dura toda a vida, para a pessoa e a sociedade aproveitarem quatro pilares: saúde, educação ao longo da vida, o direito de participar, e segurança e proteção."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "83% das pessoas idosas no Brasil dependem só do SUS, o sistema público de saúde",
+     "plain": "Hoje 83% das pessoas idosas no Brasil dependem só do SUS, o sistema público de saúde. Isso mostra a importância de termos um serviço nacional de saúde."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      24
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a grande pedra no caminho é o idadismo, o preconceito de idade, que vários setores têm de combater sempre",
+     "plain": "Lembro aos jovens de hoje, que querem ser os idosos de amanhã: o maior obstáculo é o idadismo, o preconceito de idade. Ele precisa ser combatido sempre, pela Comissão e por vários setores juntos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Alexandre Kalache e passa a palavra a Lígia Gualberto, do Ministério da Saúde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra que o envelhecimento no País é desigual entre territórios, defende equidade no acesso à saúde e aponta a atenção primária como base do cuidado da pessoa idosa.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Garantir saúde com equidade ao longo de todo o curso de vida é o que permite envelhecer bem no Brasil.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      6
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "equidade no envelhecimento é uma das pautas prioritárias que a Ministra Nísia levou ao G-20",
+     "plain": "Fui convidada para falar sobre equidade no envelhecimento, uma das pautas prioritárias que a Ministra Nísia levou ao G-20, e ligar isso à necessidade de o Brasil promover um envelhecimento saudável com equidade."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "onde a pessoa idosa mora decide quem chega fácil à reabilitação e ao hospital depois de um AVC",
+     "plain": "Imaginem duas pessoas idosas em territórios diferentes que têm um AVC, um derrame. Qual delas chega fácil à reabilitação, à fisioterapia e ao hospital, mesmo que a distância em quilômetros seja igual, e qual vai envelhecer com saúde?"
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 70% das pessoas idosas dependem do SUS, por isso é preciso uma rede organizada e falar de atenção primária",
+     "plain": "Mais de 70% das pessoas idosas dependem do SUS. Por isso precisamos de uma rede organizada, com acesso de verdade e de qualidade, e precisamos falar de atenção primária, o atendimento no posto de saúde."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Lígia Gualberto e passa a palavra a Felipe Hees, do Itamaraty.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica como o envelhecimento entra nas trilhas do G20, sem recorte próprio, e diz que os grupos de engajamento entregam suas conclusões aos governos em julho.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O envelhecimento com qualidade de vida entra no G20 de forma transversal, em vários grupos de trabalho, sem recorte próprio.",
+    "sentence": 57
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      41,
+      42,
+      43
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma das prioridades do Governo brasileiro é a equidade na saúde, o que tem ligação direta com os idosos",
+     "plain": "A Dra. Lígia já disse que uma das prioridades do Governo brasileiro é a equidade na saúde, e isso tem ligação direta com os idosos. O Brasil também leva às discussões a cobertura universal de saúde."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em julho os grupos de engajamento da sociedade civil entregam suas conclusões aos governos, antes da cúpula de novembro",
+     "plain": "Este ano vamos inovar: em julho, na reunião de Sherpas no Rio de Janeiro, os grupos de engajamento da sociedade civil entregarão suas conclusões aos governos, a tempo de influenciar as reuniões de ministros e a cúpula de novembro."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "as discussões do G20 não têm recorte específico de envelhecimento, o tema é transversal e aparece em vários grupos",
+     "plain": "Espero que este sobrevoo ajude a entender onde as discussões do G20 acontecem. Insisto: elas não têm um recorte específico de envelhecimento, esse é um tema transversal, que aparece em vários grupos de trabalho e de engajamento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Felipe Hees e passa a palavra a Alexandre da Silva, dos Direitos Humanos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Traça o panorama da população idosa, marcado por desigualdade de raça e de território, e apresenta os programas da Secretaria e o combate ao idadismo.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O envelhecimento brasileiro é desigual e exige políticas que partam das particularidades de cada grupo.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "entre quem tem 60 anos ou mais só 48% se declaram pretos ou pardos, contra 54% na população toda",
+     "plain": "Na população toda, 54% se declaram pretos ou pardos. Entre as pessoas de 60 anos ou mais, essa proporção cai para 48%. Isso indica que pessoas de pele mais escura não estão chegando à velhice."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "55% das pessoas analfabetas do País são idosas e por isso a Secretaria criou com o MEC um projeto de educação popular",
+     "plain": "Outro pilar do envelhecimento ativo é a educação ao longo da vida. Como 55% das pessoas analfabetas do País são idosas, criamos com o MEC, o Ministério da Educação, um projeto que leva a educação popular até a casa delas."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "estamos na Década do Envelhecimento Saudável, de 2021 a 2030, e o idadismo estrutura a sociedade",
+     "plain": "Estamos na Década do Envelhecimento Saudável, de 2021 a 2030, em que debatemos como enfrentar o idadismo. É como a sociedade lida com o próprio envelhecimento e com o do outro, e essa discriminação cria lugares que aceitam menos o idoso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao secretário e passa a palavra a Sandra Regina, da Pastoral da Pessoa Idosa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata as visitas mensais da Pastoral a cerca de 100 mil pessoas idosas e pede políticas públicas efetivas para quem está em situação vulnerável.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 23,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As pessoas idosas em situação vulnerável precisam de políticas públicas efetivas, e não só de orientação.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Pastoral acompanha cerca de 100 mil pessoas idosas em casa, com 20 mil líderes, e vê abandono e solidão",
+     "plain": "A Pastoral está em todo o País e acompanha cerca de 100 mil pessoas idosas com 20 mil líderes capacitados. Nas visitas em casa vemos a situação frágil de muitas delas, por abandono, solidão ou tristeza."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Pastoral orienta as pessoas idosas, mas precisa de políticas públicas efetivas para dar respaldo a isso",
+     "plain": "Precisamos de políticas públicas que funcionem. O nosso papel é orientar, mas precisamos também de um respaldo que dê efetividade a isso."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as limitações do rico e do pobre são parecidas, a diferença está na recuperação de quem tem menos condições",
+     "plain": "Vemos que as limitações do rico e do pobre são parecidas, como disse a Dra. Lígia. A diferença está na recuperação da saúde de quem tem menos condições."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Sandra Regina e passa a palavra a Marcos Wagner, neurocirurgião da Paraíba.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede ao Vice-Sherpa um espaço para a voz dos neurocirurgiões no G20 e alerta que hospitais e leitos não vão dar conta do envelhecimento.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 18,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O envelhecimento humano precisa de espaço próprio na discussão do G20, ao lado do N-20.",
+    "sentence": 70
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a queda de idosos é uma grande realidade no Nordeste e ninguém conhece alguém que sobreviveu ao Alzheimer",
+     "plain": "Trabalhamos de noite e nos fins de semana no Nordeste, e a queda de idosos é muito comum por lá. Todo mundo conhece alguém que sobreviveu ao câncer, mas ninguém conhece alguém que sobreviveu ao Alzheimer."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os neurocirurgiões pedem ao Vice-Sherpa um espaço para a sua voz, sem interesse de lucro",
+     "plain": "Sr. Vice-Sherpa, com os dados que temos, queremos reforçar a importância de um espaço para a nossa voz. E mostrar que não temos interesse em lucro."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "mesmo criando hospitais e leitos de UTI, eles ainda vão ser poucos diante do número de idosos que chega",
+     "plain": "Quando visitamos os hospitais do Nordeste, vemos quantos idosos chegam, e essa quantidade tende a se multiplicar. Mesmo abrindo mais hospitais e leitos de UTI, ainda vão faltar vagas por causa do envelhecimento."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a apresentação está travando.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado pergunta se a transmissão melhorou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a transmissão melhorou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Mostra a reportagem de um idoso abandonado na Paraíba e diz que quer envelhecer com saúde e funcionalidade, como o colega indiano que trabalha aos 85 anos.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Pessoas idosas podem seguir trabalhando e contribuindo, e o abandono na velhice precisa aparecer.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um neurocirurgião da Índia ainda trabalha aos 85 anos, e é assim que se quer envelhecer, com funcionalidade",
+     "plain": "Esse neurocirurgião da Índia, aos 85 anos, ainda trabalha, e é isso que queremos. Eu quero envelhecer com saúde e com funcionalidade, para ver os frutos dessa nossa batalha."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um idoso foi resgatado em situação de abandono em Soledade, na Paraíba, e a filha usava o cartão dele",
+     "plain": "Esta é uma reportagem recente sobre o resgate de um idoso abandonado no Agreste da Paraíba, em Soledade, que eu acho que é perto da sua cidade, Deputado. A filha usava o cartão dele e o abandonava."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Babak Kateb, com tradução de Marcos Wagner.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Traduz o convidado americano, que fala dos custos com a pessoa idosa, da educação como prevenção do Alzheimer e de um documento comum para o G-20.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prevenção e a educação reduzem doenças como o Alzheimer e devem entrar no documento levado ao G-20.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "os custos com a pessoa idosa preocupam o N-20, e os Estados Unidos gastam trilhões de dólares por ano",
+     "plain": "Uma preocupação do N-20, o grupo de neurociência ligado ao G20, são os custos com a pessoa idosa. Os Estados Unidos gastam trilhões de dólares por ano com essa população."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quanto mais avançada a educação da pessoa, mais se previne o Alzheimer, segundo o estudo ELISA",
+     "plain": "Uma das coisas importantes para prevenir o Alzheimer é a educação. Na América Latina, quem tem um nível de educação mais avançado consegue prevenir o Alzheimer, segundo o estudo ELISA."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o grupo quer o apoio dos Ministérios para escrever um documento que sirva ao Brasil e a outros países do G-20",
+     "plain": "O maior objetivo é a união. Contamos com o apoio dos nossos Ministérios para fazer um grande documento, para ser usado no Brasil e em outros países do G-20."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado agradece a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Babak Kateb pela contribuição ao Brasil e ao mundo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Convida a Comissão para o Dia do Cérebro em Washington e lembra que a Sociedade Brasileira de Neurocirurgia já fez o seu no Brasil.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A cooperação em torno da saúde do cérebro ainda tem muito a crescer no Brasil.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Sociedade Brasileira de Neurocirurgia já fez no Brasil o seu Dia do Cérebro e há muito a crescer nesse tema",
+     "plain": "Nós, da Sociedade Brasileira de Neurocirurgia, já fizemos aqui no Brasil o nosso Dia do Cérebro. Temos muito a crescer nesse tema."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa abre os debates e passa a palavra ao Deputado Reimont, por 5 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b023",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra mais orçamento para o Ministério dos Direitos Humanos, relata a violência contra idosos em casa e a falta de acessibilidade nos ônibus do Rio.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19
+   ],
+   "open_question": 11,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem orçamento para os direitos humanos não há política de envelhecimento digno.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se faz política de direitos humanos sem recursos, e o orçamento do Ministério dos Direitos Humanos precisa crescer",
+     "plain": "Precisamos debater com o Governo e com o Presidente Lula a importância do Ministério dos Direitos Humanos. Não se faz política de direitos humanos sem recursos, só com discursos, e o orçamento dele precisa crescer."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há muita violência cometida contra os idosos dentro de casa, às vezes por parentes e pessoas próximas",
+     "plain": "O Alexandre falava do projeto Vida Digna em Casa. Sabemos quanta violência é cometida contra idosos dentro de casa, às vezes por parentes e por pessoas próximas."
+    },
+    {
+     "id": "b023c3",
+     "sentences": [
+      34,
+      35
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o degrau do ônibus no Rio de Janeiro é alto para o idoso, que precisa levantar a perna para subir",
+     "plain": "Hoje, se eu quiser tomar um ônibus no Rio de Janeiro, não consigo. O degrau é alto para o idoso, Deputado, porque a pessoa precisa levantar a perna para subir."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Propõe outra audiência com as próprias pessoas idosas e lembra que elas não são contratadas quando procuram trabalho.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As próprias pessoas idosas precisam ser ouvidas, inclusive sobre a dificuldade de conseguir trabalho.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as pessoas idosas têm contribuição a dar, mas não são contratadas porque são vistas como ultrapassadas",
+     "plain": "As pessoas idosas têm contribuição a dar, mas não conseguem ser contratadas quando procuram trabalho, porque são vistas como ultrapassadas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Critica a medicalização da velhice, defende alimentação, esporte e lazer desde cedo e denuncia a migração de orçamento do Executivo para o Congresso.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8
+   ],
+   "open_question": 45,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Envelhecer bem depende de políticas transversais que comecem cedo e de recursos no Executivo.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Executivo ficou com poucos recursos e uma migração gigante de orçamento veio para o Congresso, o que gera distorções",
+     "plain": "É um absurdo o Executivo ter estruturas com poucos recursos enquanto houve uma migração gigante de orçamento para esta Casa. Aqui dentro temos o equivalente a tudo o que se aplica no PAC, o Programa de Aceleração do Crescimento."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "envelhecer bem começa na alimentação e no acesso a esporte, lazer e cultura, não aos 60 ou aos 65 anos",
+     "plain": "Temos de começar na fonte, com o tipo de alimentação e o acesso ao esporte, ao lazer e à cultura. Isso não vai acontecer aos 60 anos, a partir dos 65 anos. Temos de mudar essa cultura mais cedo."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as pessoas chegam aos 60, aos 70 e aos 80 anos cheias de medicamentos, com uma farmácia em cada esquina",
+     "plain": "Falamos de longevidade, mas em que condições as pessoas chegam aos 60, aos 70, aos 80 anos? Cheias de medicamentos. Em cada esquina de cada cidade há uma farmácia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende o envelhecimento ativo e saudável como agenda prioritária do G20 e lista seis razões, da equidade na saúde à liderança global.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O envelhecimento ativo e saudável deve ser adotado como agenda prioritária do G20.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o envelhecimento ativo e saudável poderia ser adotado como agenda prioritária do G20, como estratégia de equidade",
+     "plain": "Promover o envelhecimento ativo e saudável em todas as populações, como caminho de equidade na saúde, é uma pauta crucial. Ela poderia virar agenda prioritária do G20, e vou dar algumas razões."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o envelhecimento ativo e saudável é essencial para garantir acesso igual à saúde, qualquer que seja a condição econômica",
+     "plain": "Primeiro ponto: equidade na saúde. O envelhecimento ativo e saudável é essencial para que todas as pessoas, qualquer que seja a sua condição econômica, tenham o mesmo acesso a serviços de saúde e qualidade de vida na terceira idade."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "idosos ativos podem seguir contribuindo para a economia com trabalho, voluntariado e consumo e passar conhecimento entre gerações",
+     "plain": "Terceiro ponto: desenvolvimento econômico e social. Idosos ativos podem seguir contribuindo para a economia com trabalho, voluntariado e consumo, e têm papel importante na coesão social e na passagem de conhecimento entre gerações."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Reafirma o compromisso da Ministra Nísia de estruturar o SUS com equidade para todas as regiões e grupos.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério da Saúde se compromete a estruturar o SUS com equidade para todos os territórios.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério da Saúde reitera o compromisso de estruturar o SUS com equidade para todas as regiões e grupos",
+     "plain": "Contem conosco para fortalecer as políticas públicas para as pessoas idosas. A Ministra Nísia repete o compromisso de estruturar bem o SUS, com melhorias na saúde de todas as regiões e grupos, com equidade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Alexandre da Silva para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que o G20 deve ver o envelhecimento como conquista, destaca o SUS e o SUAS e defende as práticas integrativas diante do excesso de medicamentos.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O envelhecimento é uma conquista das políticas públicas e o G20 deve tratá-lo assim.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o SUS e o SUAS garantem uma longevidade que muitos países do Primeiro Mundo não garantem",
+     "plain": "Destaco o SUS e o SUAS, a rede de assistência social, que dão estrutura para o Brasil inovar. Muitos países do Primeiro Mundo não têm políticas de longevidade como as nossas, e aqui a pessoa idosa não morre na fila do hospital."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com menos medicamentos daria para olhar a saúde e não só a doença, e muitos remédios não são testados em populações diversas",
+     "plain": "Falo das práticas integrativas, as PICS. Com menos medicamentos desse modelo que está em muitas esquinas, poderíamos olhar para a saúde e não só para a doença. E muitos remédios não são testados em populações com velhos, negros e indígenas."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o G20 precisa olhar o envelhecimento como um fato histórico sem volta, uma conquista e uma meta",
+     "plain": "Penso que o G20 precisa ver o envelhecimento como um fato histórico, sem volta, uma conquista e uma meta. Se você envelhece, é porque não morreu."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Marcos Wagner.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede o apoio do Ministério da Saúde para criar a trilha do N20, a Neurociência 20, e levar o tema à Ministra Nísia.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 3,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O apoio do Ministério da Saúde permitiria criar a trilha do N20 no Brasil.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com o apoio do Ministério da Saúde é possível criar a trilha do N20, a Neurociência 20, para envelhecer melhor",
+     "plain": "Esperamos contar com o apoio do Ministério da Saúde para que o assunto chegue à Ministra Nísia. Se houver abertura, com o Ministério podemos criar a nossa trilha do N20, a Neurociência 20, em busca de um envelhecimento melhor."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados, convoca reunião deliberativa para 10 de abril e encerra os trabalhos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 15,
+   "from_claim": "b004c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "As duas falas medem a mesma dependência do SUS, com números diferentes: Kalache fala de 83% das pessoas idosas e a coordenadora fala de mais de 70%."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 6,
+   "from_claim": "b006c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O diplomata confirma o que a coordenadora do Ministério da Saúde disse: a equidade na saúde é uma das prioridades brasileiras no G20 e atinge direto os idosos."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 9,
+   "from_claim": "b008c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O secretário retoma os quatro pilares do envelhecimento ativo definidos por Kalache e conta o que a Secretaria faz no pilar da educação ao longo da vida."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 25,
+   "from_claim": null,
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "O secretário reforça o que o diplomata disse sobre participação social e acrescenta que as pessoas idosas precisam estar nesses espaços."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 26,
+   "from_claim": "b010c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "A Pastoral confirma nas visitas em casa o que a coordenadora mostrou com o exemplo do AVC: a diferença não está na limitação, e sim na recuperação de quem tem menos condições."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 57,
+   "from_claim": "b012c2",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Depois de o diplomata dizer que o envelhecimento aparece de forma transversal, sem recorte próprio, o neurocirurgião pede ao Vice-Sherpa um espaço para a voz do grupo."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 30,
+   "to_sentence": 32,
+   "from_claim": "b012c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "A coordenadora aposta numa rede do SUS organizada com atenção primária forte, e o neurocirurgião diz que hospitais e leitos de UTI continuarão poucos diante do envelhecimento."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 26,
+   "from_claim": "b018c3",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "O documento comum que o convidado americano quer levar aos países do G-20 cabe no caminho descrito pelo diplomata, com os aportes entregues aos governos em julho."
+  },
+  {
+   "from": "b023",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 24,
+   "from_claim": "b023c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O deputado retoma o projeto Vida Digna em Casa, apresentado pelo secretário, e lembra a violência que acontece dentro da casa das pessoas idosas."
+  },
+  {
+   "from": "b023",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 8,
+   "from_claim": "b023c2",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "O caso do idoso abandonado na Paraíba, cujo cartão a filha usava, é o exemplo do que o deputado descreve: a violência vem muitas vezes de parentes."
+  },
+  {
+   "from": "b024",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 0,
+   "from_claim": "b024c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "O neurocirurgião mostra o colega indiano que trabalha aos 85 anos, e a presidência diz que aqui as pessoas idosas não são contratadas por serem vistas como ultrapassadas."
+  },
+  {
+   "from": "b025",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 10,
+   "from_claim": "b025c1",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "Os dois deputados dizem que falta dinheiro: um pede mais orçamento para o Ministério dos Direitos Humanos, o outro diz que o orçamento migrou do Executivo para o Congresso."
+  },
+  {
+   "from": "b026",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 41,
+   "from_claim": "b026c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A presidência pega a equidade na saúde que o diplomata citou como prioridade brasileira e pede que ela vire agenda prioritária da cúpula."
+  },
+  {
+   "from": "b027",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 7,
+   "from_claim": "b027c1",
+   "to_claim": "b026c2",
+   "strength": "media",
+   "note": "Ao primeiro ponto da presidência, a equidade na saúde, a coordenadora responde com o compromisso de estruturar o SUS para todas as regiões e grupos."
+  },
+  {
+   "from": "b029",
+   "to": "b026",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 4,
+   "from_claim": "b029c3",
+   "to_claim": "b026c1",
+   "strength": "forte",
+   "note": "Aos seis pontos da presidência o secretário acrescenta o seu: o G20 precisa olhar o envelhecimento como conquista, não como custo."
+  },
+  {
+   "from": "b029",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 10,
+   "from_claim": null,
+   "to_claim": "b023c1",
+   "strength": "media",
+   "note": "O secretário retoma a fala do deputado sobre recursos e diz que a população brasileira só envelheceu porque as políticas públicas permitiram."
+  },
+  {
+   "from": "b029",
+   "to": "b025",
+   "kind": "responde",
+   "from_sentence": 17,
+   "to_sentence": 13,
+   "from_claim": "b029c2",
+   "to_claim": "b025c3",
+   "strength": "forte",
+   "note": "À farmácia em cada esquina de que o deputado falou, o secretário responde com as práticas integrativas e com a chance de olhar a saúde, e não só a doença."
+  },
+  {
+   "from": "b031",
+   "to": "b027",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 2,
+   "from_claim": "b031c1",
+   "to_claim": "b027c1",
+   "strength": "media",
+   "note": "Depois de a coordenadora colocar o Ministério da Saúde à disposição, o neurocirurgião pede que o tema do N20 chegue à Ministra Nísia."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b012",
+    "b026"
+   ],
+   "claims": [
+    "b004c1",
+    "b012c2",
+    "b026c1"
+   ],
+   "note": "O Ministério da Saúde, uma sociedade de neurocirurgia e a presidência da Comissão concordam que o envelhecimento tem de entrar como pauta prioritária do G20."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b004c2",
+    "b008c1",
+    "b010c1",
+    "b010c3"
+   ],
+   "note": "Dois órgãos do governo federal e a Pastoral da Pessoa Idosa concordam que a cor da pele, a renda e o território decidem quem chega à velhice e com que saúde."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b029"
+   ],
+   "claims": [
+    "b002c2",
+    "b004c3",
+    "b029c1"
+   ],
+   "note": "Um epidemiologista da sociedade civil, o Ministério da Saúde e a Secretaria dos Direitos da Pessoa Idosa concordam que é o SUS que sustenta o envelhecimento no País."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b010",
+    "b023",
+    "b025"
+   ],
+   "claims": [
+    "b010c2",
+    "b023c1",
+    "b025c1"
+   ],
+   "note": "A Pastoral da Pessoa Idosa e dois deputados concordam que sem orçamento e respaldo efetivo as políticas do envelhecimento não saem do discurso."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b008",
+    "b024"
+   ],
+   "claims": [
+    "b002c3",
+    "b008c3",
+    "b024c1"
+   ],
+   "note": "Um epidemiologista, a Secretaria dos Direitos da Pessoa Idosa e a presidência da Comissão concordam que o preconceito de idade é o obstáculo a vencer."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b002",
+    "b025",
+    "b029"
+   ],
+   "claims": [
+    "b002c1",
+    "b025c2",
+    "b029c2"
+   ],
+   "note": "Um epidemiologista, um deputado e um secretário do governo concordam que envelhecer bem se constrói ao longo da vida, e não com mais medicamento na velhice."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 18,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "espaço para a voz dos neurocirurgiões no G20",
+   "plain": "Vai haver um espaço para a voz dos neurocirurgiões na discussão internacional?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b023",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "mais orçamento para o Ministério dos Direitos Humanos",
+   "plain": "O Governo vai fortalecer o orçamento do Ministério dos Direitos Humanos?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b010",
+   "sentence": 23,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "respaldo efetivo para as reivindicações das pessoas idosas",
+   "plain": "Quem vai dar o respaldo efetivo para que as reivindicações das pessoas idosas se concretizem?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b025",
+   "sentence": 45,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "multiplicar a Secretaria além dos 13 Municípios-piloto",
+   "plain": "A Secretaria vai passar dos 13 Municípios-piloto e chegar a mais lugares?",
+   "theme": "d4",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 8,
+   "gist": "32 milhões de pessoas com 60 anos ou mais no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 11,
+   "gist": "índice de envelhecimento no Brasil chega a 80",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 15,
+   "gist": "83% das pessoas idosas dependem só do SUS",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 32,
+   "gist": "mais de 70% das pessoas idosas dependem do SUS",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 11,
+   "gist": "48% dos maiores de 60 anos se declaram pretos ou pardos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 34,
+   "gist": "conselho passa de 14 para 18 assentos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 47,
+   "gist": "25% de idosos na Câmara e mais de 50% no Senado",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b004",
+   "sentence": 56,
+   "gist": "mais de 13 mil denúncias no Disque 100 em 2024",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 4,
+   "gist": "100 mil pessoas idosas acompanhadas por 20 mil líderes",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 35,
+   "gist": "em 2030, uma em cada seis pessoas terá 60 anos ou mais",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b006",
+   "sentence": 54,
+   "gist": "líderes do G20 se reúnem no Rio em 18 e 19 de novembro",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b023",
+   "sentence": 12,
+   "gist": "cerca de 250 mil pessoas em situação de rua no Brasil",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "parlamentar",
+   "governo"
+  ],
+  "angle": "A matéria escolheu a cobrança dos deputados para que o envelhecimento saudável seja prioridade na cúpula do G20 e resumiu o que cada representante do governo respondeu.",
+  "omitted": "Ficaram de fora o N-20 e a proposta da neurociência, o trabalho da Pastoral da Pessoa Idosa, os quatro pilares do envelhecimento ativo e o combate ao preconceito de idade."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Envelhecimento como prioridade na cúpula do G20",
+   "statement_plain": "O envelhecimento ativo e saudável tem de entrar como agenda prioritária do G20, com espaço próprio na cúpula que o Brasil sedia no Rio de Janeiro.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b012c2",
+    "b026c1",
+    "b029c3",
+    "b031c1"
+   ],
+   "note": "A ideia junta o Ministério da Saúde, a Secretaria dos Direitos da Pessoa Idosa, a presidência da Comissão e uma sociedade médica do Nordeste, setores diferentes do mesmo lado."
+  },
+  {
+   "id": "t2",
+   "title": "O SUS é o que garante envelhecer com saúde",
+   "statement_plain": "A maioria das pessoas idosas depende do SUS, e fortalecer o SUS e a atenção primária com equidade é o caminho para envelhecer bem no Brasil.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b004c3",
+    "b027c1",
+    "b029c1",
+    "b004c2"
+   ],
+   "note": "Do mesmo lado estão um epidemiologista da sociedade civil e dois órgãos do governo federal, contra a leitura de que o serviço de saúde não vai dar conta."
+  },
+  {
+   "id": "t3",
+   "title": "Sem orçamento, a política fica no discurso",
+   "statement_plain": "Não se faz política de envelhecimento sem recursos. Falta orçamento e estrutura no Executivo, e os serviços de saúde não vão dar conta do número de pessoas idosas.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b023c1",
+    "b025c1",
+    "b012c3"
+   ],
+   "note": "A ideia cruza o Congresso e a sociedade civil: dois deputados da base do governo e duas entidades dizem que falta dinheiro e que o serviço não alcança quem precisa."
+  },
+  {
+   "id": "t4",
+   "title": "O idadismo é a pedra no caminho",
+   "statement_plain": "O preconceito de idade é o maior obstáculo do envelhecimento, e as pessoas idosas precisam participar das decisões e seguir contribuindo.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b008c3",
+    "b016c1",
+    "b024c1",
+    "b026c3"
+   ],
+   "note": "Um epidemiologista, um secretário do governo, uma sociedade médica e a presidência da Comissão defendem a mesma ideia contra o preconceito de idade."
+  },
+  {
+   "id": "t5",
+   "title": "Envelhecer bem começa cedo, fora do consultório",
+   "statement_plain": "Envelhecer bem se constrói desde cedo, com alimentação, educação, esporte e lazer, e não com mais medicamentos quando a velhice chega.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b008c2",
+    "b018c2",
+    "b025c2",
+    "b029c2"
+   ],
+   "note": "Um deputado, um secretário do governo, um epidemiologista e um neurocirurgião defendem que envelhecer bem começa fora do consultório."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "G20",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "fórum que reúne as maiores economias do mundo para discutir economia e políticas públicas. Em 2024 o Brasil presidia o grupo"
+  },
+  {
+   "term": "envelhecimento ativo",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "ideia de envelhecer com saúde, aprendendo, participando da sociedade e com segurança, construída ao longo de toda a vida"
+  },
+  {
+   "term": "SUS",
+   "fala": "b002",
+   "sentence": 13,
+   "plain": "Sistema Único de Saúde, a rede pública de saúde brasileira, gratuita para qualquer pessoa"
+  },
+  {
+   "term": "idadismo",
+   "fala": "b002",
+   "sentence": 24,
+   "plain": "preconceito contra a pessoa por causa da idade dela"
+  },
+  {
+   "term": "atenção primária",
+   "fala": "b004",
+   "sentence": 33,
+   "plain": "primeiro nível do atendimento público de saúde, o posto de saúde e as equipes de saúde da família, perto de onde a pessoa vive"
+  },
+  {
+   "term": "capacidade intrínseca",
+   "fala": "b004",
+   "sentence": 38,
+   "plain": "conjunto das capacidades físicas e mentais da pessoa, avaliado por cognição, humor, sentidos, locomoção e vitalidade"
+  },
+  {
+   "term": "eMulti",
+   "fala": "b004",
+   "sentence": 36,
+   "plain": "equipes com vários profissionais, como fisioterapeuta e nutricionista, que apoiam as equipes de saúde da família"
+  },
+  {
+   "term": "Sherpa",
+   "fala": "b006",
+   "sentence": 4,
+   "plain": "negociador que representa o país nas reuniões do G20 e prepara o encontro dos presidentes"
+  },
+  {
+   "term": "grupos de engajamento",
+   "fala": "b006",
+   "sentence": 20,
+   "plain": "grupos da sociedade civil, como ONGs, mulheres e sindicatos, que se organizam e entregam recomendações aos governos do G20"
+  },
+  {
+   "term": "C20",
+   "fala": "b006",
+   "sentence": 21,
+   "plain": "grupo de engajamento das ONGs dos países do G20. O C vem de civil"
+  },
+  {
+   "term": "ODS",
+   "fala": "b008",
+   "sentence": 38,
+   "plain": "Objetivos de Desenvolvimento Sustentável, metas da ONU em pobreza, saúde, educação, igualdade e trabalho"
+  },
+  {
+   "term": "CRAS",
+   "fala": "b010",
+   "sentence": 22,
+   "plain": "Centro de Referência de Assistência Social, unidade da prefeitura que atende famílias em situação de vulnerabilidade"
+  },
+  {
+   "term": "N-20",
+   "fala": "b012",
+   "sentence": 12,
+   "plain": "grupo de neurocientistas que se reúne em paralelo ao G20 para levar aos governos os temas do cérebro"
+  },
+  {
+   "term": "SUAS",
+   "fala": "b029",
+   "sentence": 9,
+   "plain": "Sistema Único de Assistência Social, a rede pública de assistência social, com os CRAS e os serviços de proteção"
+  },
+  {
+   "term": "PICS",
+   "fala": "b029",
+   "sentence": 16,
+   "plain": "Práticas Integrativas e Complementares em Saúde, tratamentos como acupuntura e fitoterapia oferecidos no SUS"
+  }
+ ]
+}

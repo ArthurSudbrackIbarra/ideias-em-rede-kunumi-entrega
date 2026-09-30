@@ -1,0 +1,2651 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 17,
+ "model": "LLM lendo o prompt hearing-017 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T20:41:54Z",
+ "prompt_sha256": "0a10d342e3f88fe5a90efffe8ea754bb28a61df0cbb29a8351e517f0e9816b28",
+ "sentences_hash": "f691fb9ce4da419b",
+ "review": {
+  "pairs_read": 50,
+  "pairs_fixed": 20
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Constituição e Justiça realizou um seminário sobre ativismo judicial e legitimidade democrática, a pedido do presidente do colegiado. Quatro juristas convidados e sete deputados discutiram se o Supremo Tribunal Federal tem decidido no lugar do Congresso e o que o Parlamento pode fazer a respeito. Pediu-se autocontenção do Judiciário, limite às decisões individuais e debate com os Poderes à mesa.",
+ "stakes": "Se o Parlamento deve mudar o sistema judicial brasileiro e por que caminho, da emenda que limita decisões individuais ao controle dos ministros pelo Senado.",
+ "central_question": "O que o Supremo Tribunal Federal tem feito ainda é ativismo judicial, e até onde o Parlamento pode ir para contê-lo?",
+ "synopsis_plain": "A Comissão de Constituição e Justiça da Câmara reuniu quatro juristas e sete deputados para discutir o ativismo judicial, que é quando o Judiciário decide o que caberia ao Congresso. De um lado, quem vê o Supremo criando e derrubando regra sem ter sido eleito. De outro, quem diz que a lei envelhece e que o tribunal existe para limitar a vontade da maioria.",
+ "stakes_plain": "Se o Congresso vai mudar as regras do sistema judicial, e como: limitando decisões de um ministro só, cobrando o Senado ou apenas debatendo.",
+ "central_question_plain": "O Supremo está apenas interpretando a lei ou decidindo no lugar do Congresso, e o que o Parlamento pode fazer?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Invasão de competência do Legislativo",
+   "description": "Discute-se se o Supremo tem decidido temas que a Constituição reservou à Câmara e ao Senado.",
+   "axis": {
+    "pro": "O Supremo tem decidido no lugar do Congresso, criando e derrubando regra sem mandato para isso.",
+    "contra": "O Judiciário decide porque é provocado e porque precisa responder ao caso concreto que chega a ele.",
+    "pro_plain": "O Supremo decide o que caberia à Câmara e ao Senado, e assim cria e derruba regra sem ter sido eleito.",
+    "contra_plain": "O Judiciário só decide porque alguém leva o caso a ele e porque precisa dar uma resposta ao processo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Dose aceitável de ativismo",
+   "description": "Discute-se se alguma medida de ativismo judicial é útil ou se nenhuma é aceitável.",
+   "axis": {
+    "pro": "Uma medida de ativismo judicial ajuda a aliviar pressões sociais que a lei antiga já não resolve.",
+    "contra": "Nenhuma forma de ativismo do Judiciário é aceitável, e os tribunais precisam de autocontenção.",
+    "pro_plain": "Um pouco de ativismo é necessário, porque a lei envelhece e não alcança situações novas.",
+    "contra_plain": "Nenhuma dose de ativismo serve. O tribunal tem de se conter e ficar no que a lei diz."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Decisões de um ministro só",
+   "description": "Discute-se se as decisões monocráticas devem ser limitadas em favor do julgamento pelo colegiado.",
+   "axis": {
+    "pro": "As decisões individuais de ministros devem ser limitadas, porque o tribunal é um órgão colegiado.",
+    "contra": "As decisões individuais são necessárias, porque a espera pelo Plenário pode fazer direitos perecerem.",
+    "pro_plain": "Decisão de um ministro sozinho tem de ser exceção, porque o tribunal é um grupo que decide junto.",
+    "contra_plain": "Se esperar o Plenário, o direito da pessoa pode se perder pelo caminho."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Controle do Supremo pelo Parlamento",
+   "description": "Discute-se o que o Congresso pode fazer para conter os ministros do Supremo.",
+   "axis": {
+    "pro": "Cabe ao Parlamento conter os ministros, pela nomeação, pelo impeachment e pelas emendas à Constituição.",
+    "contra": "O Legislativo não pode usar a sua competência para revisar decisões judiciais de que discorda.",
+    "pro_plain": "Quem tem de conter os ministros é o Congresso, na hora de aprovar nomes e nos casos de impeachment.",
+    "contra_plain": "O Congresso não pode fazer lei para desfazer decisão judicial de que não gostou."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Devido processo nos casos concretos",
+   "description": "Discute-se se decisões e inquéritos recentes do Supremo respeitaram as regras do processo.",
+   "axis": {
+    "pro": "Decisões e inquéritos recentes do Supremo desrespeitaram o devido processo legal.",
+    "contra": "As falhas devem ser apontadas caso a caso e valem para todo o sistema de Justiça, não só para o Supremo.",
+    "pro_plain": "Inquérito sem o Ministério Público e prisões em massa mostram que o processo foi desrespeitado.",
+    "contra_plain": "Cada decisão precisa de crítica técnica, uma por uma, e isso vale para toda a Justiça."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Quem fala pelo povo",
+   "description": "Discute-se se a última palavra sobre temas de sociedade cabe a quem foi eleito ou ao tribunal.",
+   "axis": {
+    "pro": "O tribunal existe para limitar as decisões da maioria e guardar a Constituição e a democracia.",
+    "contra": "Quem exprime a voz da população é o Legislativo, e o Supremo não tem papel representativo.",
+    "pro_plain": "A Constituição está acima da vontade da maioria, e alguém precisa guardá-la.",
+    "contra_plain": "Quem fala pelo povo é quem o povo elegeu. O tribunal não representa ninguém."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Divergência entre os Poderes",
+   "description": "Discute-se se o caminho é o debate com todos os Poderes à mesa ou a reação forte do Parlamento e do povo.",
+   "axis": {
+    "pro": "A divergência se resolve pelo debate e pela crítica às decisões, com os Poderes à mesa e sem revanchismo.",
+    "contra": "O momento é de crise e exige reação do Parlamento e do povo, porque os Poderes existem para se enfrentar.",
+    "pro_plain": "O caminho é sentar e debater, com os Poderes à mesa e sem revanchismo.",
+    "contra_plain": "Não há normalidade. Se o Parlamento não reagir, o povo vai reagir."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Constituição e Justiça e de Cidadania",
+   "org": "CCJC",
+   "basis": "registrado na ata como Presidente, Rui Falcão, Bloco/PT - SP",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que analisa se os projetos de lei estão de acordo com a Constituição"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Professor e Diretor-Executivo do Instituto Livre Mercado",
+   "org": "FESAC",
+   "basis": "apresentado pelo presidente em b001.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "professor da Escola Superior de Advocacia do Ceará",
+   "org_plain": "escola de formação de advogados ligada à seccional do Ceará da Ordem dos Advogados do Brasil"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Desembargador aposentado do Tribunal de Justiça do Distrito Federal",
+   "org": "TJDFT",
+   "basis": "apresentado pelo presidente em b001.11 e por ele mesmo em b004.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "desembargador aposentado do Tribunal de Justiça do DF",
+   "org_plain": "tribunal que julga em segunda instância os processos do Distrito Federal e dos Territórios"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "PL - MT",
+   "basis": "registro da ata: José Medeiros, PL - MT",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de Mato Grosso",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Desembargador aposentado do Tribunal de Justiça do Distrito Federal",
+   "org": "TJDFT",
+   "basis": "segundo registro do mesmo expositor na ata, a partir de b006",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "desembargador aposentado do Tribunal de Justiça do DF",
+   "org_plain": "tribunal que julga em segunda instância os processos do Distrito Federal e dos Territórios"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "Republicanos - MG",
+   "basis": "registro da ata: Lafayette De Andrada, Bloco/REPUBLICANOS - MG",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Republicanos de Minas Gerais",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Professor de Direito no mestrado e doutorado da PUC-SP",
+   "org": "PUC-SP",
+   "basis": "apresentado pelo presidente em b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "professor de direito da PUC de São Paulo",
+   "org_plain": "universidade privada de São Paulo com curso e pós-graduação em direito"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Advogado e Presidente do Instituto dos Advogados do Distrito Federal",
+   "org": "IADF",
+   "basis": "apresentado pelo presidente em b001.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "presidente do Instituto dos Advogados do Distrito Federal",
+   "org_plain": "entidade que reúne advogados do Distrito Federal para debater temas jurídicos"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal",
+   "org": "PL - RJ",
+   "basis": "registro da ata: Chris Tonietto, PL - RJ",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PL do Rio de Janeiro",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "PT - SP",
+   "basis": "registro da ata: Alencar Santana, Bloco/PT - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de São Paulo",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "PL - MT",
+   "basis": "registro da ata: Abilio Brunini, PL - MT",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de Mato Grosso",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "PL - PB",
+   "basis": "registro da ata: Cabo Gilberto Silva, PL - PB",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL da Paraíba",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s13": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "PL - MS",
+   "basis": "registro da ata: Marcos Pollon, PL - MS",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de Mato Grosso do Sul",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.75
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "menções a advogados presentes no plenário em b006.4 a b006.11, a um deputado estadual em b019.0, a um ex-deputado em b031.2, ao público que enviou perguntas em b027.2 e ao certificado por QR Code em b001.21, além de 5 registros de palmas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre o seminário sobre ativismo judicial e legitimidade democrática e explica as regras.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o Supremo passou do ativismo ao descumprimento da lei, cita decisões sobre aborto, favelas e nomeações e aponta o inquérito aberto sem o Ministério Público.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Supremo foi além do ativismo e passou a descumprir a lei e a Constituição.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a decisão sobre interromper a gestação até o 3º mês cabia à Câmara e ao Senado, não ao Supremo",
+     "plain": "Cito o HC 124306, um habeas corpus: a 1ª Turma do Supremo decidiu que interromper a gestação até o 3º mês não é crime. Esse tema deveria ser discutido aqui, pela Câmara e pelo Senado."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      60,
+      61
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o então presidente da Corte abriu o inquérito de ofício, sem o Ministério Público, com base no regimento",
+     "plain": "O então Presidente da Suprema Corte, Toffoli, mandou abrir o inquérito por conta própria. Fez isso sem o Ministério Público, apoiado num artigo do regimento interno do tribunal."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      176,
+      177
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ministro não analisou o parecer do Ministério Público de 1º de setembro e o preso morreu sob tutela do Estado",
+     "plain": "O Ministro recebeu, no dia 1º de setembro, um parecer do Ministério Público Federal e não analisou o caso até a morte do Clezão. Ele morreu sob a tutela do Estado e do Ministro responsável."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Rodrigo Marinho e passa a palavra a Sebastião Coelho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o Supremo se intromete há mais de 20 anos na competência do Parlamento e do Executivo, cria normas inexistentes e desconsidera o silêncio do Legislativo.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Supremo Tribunal Federal se intromete na esfera de atribuição do Legislativo e do Executivo.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "todo o poder emana do povo e a representatividade está na Câmara, no Senado e na Presidência",
+     "plain": "A Constituição de 88 é clara no parágrafo único do art. 1º: o poder todo vem do povo e é exercido em nome dele. Essa representação está na Câmara, no Senado e também na Presidência da República."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      48
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando o Parlamento silencia ele também cumpre a vontade do povo, dizendo que o que existe está bom",
+     "plain": "Quando a Câmara e o Senado fazem uma lei, cumprem a vontade do povo, que lhes deu esse poder. Quando o Parlamento fica em silêncio, também cumpre essa vontade, ao dizer que o que já existe está bom."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Supremo coloca no ordenamento normas que não existem e retira o que o Parlamento e o Executivo criaram",
+     "plain": "O Supremo tem colocado no mundo jurídico normas que não existem, como as que tratam de injúria real e de homofobia. E retira do ordenamento o que o Parlamento e o Executivo puseram nele."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado aparteia para dizer de quem era o caso citado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b006",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra do Senado uma ação para conter o Supremo e avisa que, se o Parlamento não agir, o povo brasileiro vai agir.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Senado tem de agir para conter o Supremo, e se não agir o povo agirá.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é vergonhoso que a comissão para investigar abuso de poder do Supremo tenha demorado a reunir assinaturas",
+     "plain": "É vergonhoso que uma comissão criada para investigar abuso de poder do Supremo e do Tribunal Superior Eleitoral tenha demorado tanto para juntar o número mínimo de assinaturas."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se o Parlamento não agir para conter o Supremo, o povo brasileiro vai agir para mudar a situação",
+     "plain": "Digo aos senhores do Supremo que não vão recuar, porque tomaram gosto pelo poder. E digo que, sem ação do Parlamento, nós, o povo brasileiro, vamos agir para mudar isto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Sebastião Coelho e passa a palavra a Pedro Estevam.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede 30 segundos para fazer um registro histórico.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza o registro, se for de alguns segundos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Registra que a Câmara autorizou apenas a prisão em flagrante do deputado e não os 6 meses seguintes, porque não houve pedido de prisão na audiência de custódia.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prisão prolongada do deputado não foi autorizada pela Câmara e desrespeitou o devido processo.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na audiência de custódia não havia pedido de prisão, então o deputado não poderia continuar preso",
+     "plain": "Na audiência de custódia não houve pedido de prisão. O juiz tinha que escolher entre os pedidos do Ministério Público, e, sem pedido de prisão, o Deputado não poderia continuar preso."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Câmara não autorizou que o deputado ficasse preso por 6 meses e dali em diante vieram as ilegalidades",
+     "plain": "Quero registrar que a Câmara não votou nem autorizou que ele ficasse preso por 6 meses. Foi dali em diante que vieram as violências e as ilegalidades."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra a Pedro Estevam por 20 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende que as constituições existem para limitar as decisões da maioria e que o controle dos ministros cabe ao Senado, pela nomeação e pelo impeachment.",
+   "quote": [
+    102,
+    103,
+    104
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Supremo é o guardião da Constituição e da democracia, e o Parlamento o controla pela nomeação e pelo impeachment.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as constituições ficam acima das decisões da maioria porque foi pela democracia que ascendeu o nazifascismo",
+     "plain": "Por que as constituições ficaram acima das leis e das decisões da maioria que os senhores representam? Porque foi pela maioria, pela democracia, que subiu o nazifascismo, que levou à Segunda Guerra Mundial, com 40 milhões de mortos."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      102,
+      103,
+      104
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Senado deve assumir a competência de autorizar ministros e pode abrir impeachment, mas não por divergir da interpretação",
+     "plain": "O Senado precisa assumir de verdade a sua competência para autorizar a nomeação de Ministros. Todos eles foram autorizados pelo Legislativo. O Senado também pode abrir impeachment, mas não por discordar da interpretação de um Ministro."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      169,
+      170
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não dá para reunir o Plenário todo dia e a espera de 1 semana pode levar ao perecimento de direitos",
+     "plain": "Não dá para reunir o Plenário todo dia. Esperar às vezes 1 semana por uma decisão do Plenário pode levar direitos a perecer, e a Constituição diz que direitos não podem perecer por falta de decisão judicial."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Pedro Estevam e passa a palavra a Eduardo Lycurgo, por 20 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Compara o ativismo judicial a um remédio que depende da dose e sustenta que certa margem ao juiz é necessária porque a lei envelhece diante da tecnologia.",
+   "quote": [
+    62,
+    63
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Um certo grau de ativismo judicial é necessário porque a lei não acompanha as mudanças sociais.",
+    "sentence": 63
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "como no remédio e no veneno, o que separa o bom do ruim no ativismo judicial é a dose",
+     "plain": "Lembro Paracelsus, o pai da toxicologia: entre o remédio e o veneno a diferença é só a dose. O ativismo judicial pode ser bom ou ruim, pode ser nefasto e causar dano."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      62,
+      63
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "alguma medida de ativismo ajuda a aliviar a pressão social que a lei mal ajustada cria",
+     "plain": "Num sistema de normas rígidas, muitas vezes elas não servem para o que chega diante do julgador. Por isso alguma medida de ativismo é necessária, para aliviar a pressão social que a lei mal ajustada cria."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      83,
+      84,
+      85
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Lei de Direitos Autorais é de 1998, começou a ser discutida em 1988 e ainda está valendo",
+     "plain": "A Lei de Direitos Autorais é de 1998 e começou a ser discutida aqui em 1988. Se 20 anos atrás a música ainda era em CD, imaginem em 1988. E essa lei continua valendo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de um deputado e abre a fase de intervenção dos parlamentares.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Nega ao Supremo papel representativo, alerta que ninguém controla aquele Poder e relata que um ministro de plantão anula o trabalho de todo o Congresso.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Supremo não tem papel representativo e não pode assumir prerrogativas que a Constituição não lhe deu.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o papel do Supremo não é representativo e dar a ele prerrogativas que não tem desequilibra os Poderes",
+     "plain": "O papel do Supremo não é representativo. O senhor não pode dar ao Supremo prerrogativas que ele não tem, porque isso começa a desequilibrar os Poderes."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "onze pessoas passaram a tratar de qualquer tema e não existe quem controle aquele Poder",
+     "plain": "De repente temos onze pessoas dizendo que podem tratar de qualquer tema. E começam a tratar de qualquer tema. O perigo é que não existe quem controle aquele Poder."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um ministro de plantão anula sozinho todo o trabalho feito pelas comissões, pelo Plenário e pelo Senado",
+     "plain": "Esta Comissão passa manhãs e tardes discutindo um projeto, que vai às outras Comissões, ao Plenário e ao Senado, que vota. Aí entra alguém sem nenhuma representação política e um Ministro, de plantão, anula todo o trabalho do Congresso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que três parlamentares inscritos não entraram pelo Zoom e chama outro deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Acusa o Supremo de legislar ao dar repercussão geral a decisões sem lei e de modificar leis claras, e defende o silêncio eloquente do Legislativo.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Supremo tem legislado, preenchendo lacunas e modificando leis que já existem.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ao decidir sem lei e depois dar repercussão geral, o Supremo invade a competência do Legislativo",
+     "plain": "Sem lei sobre o tema, o Supremo tem que decidir o processo e busca princípios para isso. Mas depois ele dá repercussão geral, e aí está invadindo claramente a competência do Legislativo."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem deve exprimir a voz da população é o Legislativo, e o seu silêncio muitas vezes é eloquente",
+     "plain": "Quem tem competência para exprimir a voz e os anseios da população é o Poder Legislativo. Ele foi votado para isso. Quando o Legislativo silencia sobre um tema, muitas vezes é um silêncio eloquente, porque ainda falta amadurecimento."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei diz A com clareza, o Supremo diz B, e com isso legisla no lugar do Congresso",
+     "plain": "A lei já existe. Ela diz A com clareza no texto, sem muita dúvida de interpretação, e o Supremo vai lá e diz B. Então o Supremo legislou, e isso acontece com muita frequência."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de um deputado estadual e concede a palavra à deputada seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia usurpação de competência pelo Supremo, cita a ADPF 442 sobre aborto e as mais de 600 proposições no Parlamento, e invoca os freios e contrapesos.",
+   "quote": [
+    39,
+    40
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Supremo tem usurpado competências do Parlamento e decidido temas que cabem aos eleitos.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o poder freia o poder, então quando um Poder cresce demais o outro tem o dever de contê-lo",
+     "plain": "Montesquieu, que idealizou a tripartição dos Poderes e o sistema de freios e contrapesos, já dizia que o poder freia o poder. Quando um Poder se agiganta, o outro tem o dever de refreá-lo."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "tentaram pautar a ADPF 442 sobre descriminalização do aborto enquanto há mais de 600 proposições no Parlamento",
+     "plain": "Tentaram pautar a ADPF 442, ação que quer a descriminalização do aborto no País. Isso é muito grave. Aqui no Parlamento, eu fiz questão de catalogar, são mais de 600 proposições sobre a matéria."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "partidos que perdem no Parlamento recorrem ao ativismo judicial para fazer valer o que a população rejeita",
+     "plain": "O que acontece é que as matérias estão sendo terceirizadas para o Supremo. Quando determinados partidos perdem no ambiente democrático do Parlamento, eles recorrem ao ativismo judicial para impor o que a população rejeita."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência comenta o valor deste tipo de seminário e passa a palavra ao próximo deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Propõe debater mudanças no sistema judicial sem revanchismo, com os Poderes à mesa, e critica que só o Senado participe da escolha de ministros.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": 42,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Mudanças no sistema judicial exigem debate sereno, plural e com todos os Poderes à mesa.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mudar o sistema judicial não pode ser feito de repente, e sim com debates, audiências e os Poderes à mesa",
+     "plain": "Se o Parlamento quiser mudar o sistema judicial brasileiro, não pode fazer isso de repente. Teríamos que promover debates, seminários como este e audiências públicas, e trazer um representante dos Poderes para esta Mesa."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nós também sofremos com decisões do Judiciário, mas contestamos sem faltar com respeito nem pedir punição",
+     "plain": "Deputado Rui, eu, a Deputada Erika e o senhor sofremos muito com decisões do Poder Judiciário num período recente. Contestamos e fizemos críticas políticas, mas nunca faltamos com respeito nem achamos que deveria haver punição."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Câmara, que é a Casa do Povo, também deveria participar da sabatina e da aprovação de ministros",
+     "plain": "Acho um equívoco. A Câmara tinha que participar desse debate, porque somos a Casa do Povo e não participamos da escolha, da sabatina nem da aprovação de Ministro da mais alta Corte."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao deputado que falava.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado completa a frase interrompida sobre o campo democrático.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá 3 minutos ao deputado seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Distingue Judiciário ativo de Judiciário ativista, alerta para a quebra de imparcialidade e diz que a democracia se arrisca quando o povo não confia na Justiça.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Não deve haver ativismo político no Judiciário, porque ele compromete a imparcialidade de quem julga.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "ser ativista é diferente de ser ativo, e não deve haver ativismo político em quem julga",
+     "plain": "Ser ativista é bem diferente de ser ativo. Não queremos ativismo político em quem julga, porque isso cria problema de parcialidade na hora de decidir."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o povo já espera decisão contrária quando um caso do Bolsonaro cai com Alexandre de Moraes",
+     "plain": "Se um processo do Bolsonaro cai com o Alexandre de Moraes, o povo nem aguarda o juiz decidir, porque já supõe que a decisão será contra. Mesmo que não seja, aos olhos do povo a imparcialidade se perdeu."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a democracia corre risco quando o povo deixa de confiar na Justiça, e essa confiança precisa ser resgatada",
+     "plain": "Mesmo sendo de partidos opostos, o senhor do PT e eu do PL, digo que a democracia corre risco quando o povo deixa de confiar na Justiça. Para resgatá-la, é a confiança no sistema judiciário que precisamos recuperar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lê três perguntas do público e abre as considerações finais, de 5 minutos para cada um.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b028",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reconhece razão aos deputados e defende autocontenção do Judiciário em temas morais sem consenso, citando um desembargador que separa sua posição sobre o aborto do papel do tribunal.",
+   "quote": [
+    42,
+    43,
+    44
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Judiciário precisa de mecanismos de autocontenção, sobretudo em temas morais sem consenso social.",
+    "sentence": 44
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "um desembargador que defende o aborto sustenta que o Judiciário não deve interferir por falta de consenso ético",
+     "plain": "Tomo o exemplo do aborto. Cito o livro do Professor Paulo Fontes, do Tribunal Regional Federal de São Paulo: ele defende o aborto politicamente, mas diz que o Judiciário não deve interferir, por falta de consenso ético mínimo."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      42,
+      43,
+      44
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o País precisa de autocontenção do Judiciário, e não só do Supremo, sobretudo em princípios morais sem consenso",
+     "plain": "Os senhores têm razão, o País precisa mesmo de autocontenção. Cabe a nós, na universidade, levar essa crítica para dentro dos tribunais. Ela vale para todo o Judiciário, sobretudo onde o tema toca princípios morais sem consenso."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Supremo tem promovido acordos em ações de inconstitucionalidade para que nenhum lado saia derrotado",
+     "plain": "Aqui faço um elogio ao Supremo: ele tem buscado acordo em ações de inconstitucionalidade. Às vezes é isso mesmo que se deve fazer, para que nenhum lado saia derrotado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência aparteia para lembrar as modulações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b030",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Recusa qualquer forma de ativismo judicial e descreve a democracia como relação agonista, em que sem o opositor não há jogo.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Nenhuma forma de ativismo judicial é aceitável, ainda que a regra possa ser afastada para fazer valer o direito.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "qualquer forma de ativismo do Judiciário é inaceitável, o que não impede afastar a regra para fazer valer o direito",
+     "plain": "O meu conceito é este: nenhuma forma de ativismo do Poder Judiciário me parece aceitável. Isso não quer dizer abrir mão de afastar a regra, quando for preciso, para fazer valer o direito."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem o opositor não há democracia, e a relação democrática é agonista, não é guerra",
+     "plain": "Eu compito com a pessoa na corrida e jamais vou me conciliar com ela, mas sem ela não há jogos. Na democracia é assim: sem o diferente, sem o opositor, não há democracia. É relação agonista, de disputa, não de guerra."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Pedro Estevam e chama Rodrigo Saraiva para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta o balanço de 17 anos de um gabinete, com 84% de decisões monocráticas, e contesta a harmonia entre os Poderes e a prisão de 1.400 pessoas.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As decisões monocráticas viraram regra no Supremo e precisam ser limitadas.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 17 anos foram 117.784 decisões e 21.215 despachos, e 84% das decisões foram monocráticas",
+     "plain": "A equipe do Ministro Lewandowski divulgou um balanço de 17 anos de trabalho: 117.784 decisões e 21.215 despachos no gabinete. E 84% dessas decisões foram monocráticas."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      51,
+      52
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "nenhum outro país tem essa ideia de harmonia entre os Poderes, que existem para se enfrentar",
+     "plain": "Nenhum outro país tem essa visão de harmonia entre os Poderes. Eles existem para ser independentes, eles têm que se enfrentar."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Corte está disfuncional quando leva 1.400 pessoas à prisão de uma vez por decisão de um ministro",
+     "plain": "A Suprema Corte está disfuncional quando leva 1.400 pessoas à prisão de uma vez só. Só isso já seria motivo para o País parar e dizer que algo está errado, num lugar onde um Ministro prende 1.400 pessoas ao mesmo tempo."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre exceção e dá a palavra a um deputado que havia se ausentado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que só o Congresso pode frear os abusos da Corte, invoca o art. 129 sobre o Ministério Público e cita mais de 2 mil pessoas presas.",
+   "quote": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Só o Congresso Nacional pode frear os abusos da Suprema Corte.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o art. 129 manda que a ação penal parta do Ministério Público, e no inquérito do fim do mundo isso não foi observado",
+     "plain": "O art. 129 diz que a ação penal tem que partir do Ministério Público e que ele tem que participar. Foi isso que vimos falhar no inquérito do fim do mundo."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só o Congresso Nacional pode resolver o problema, não dá para esperar pelos ministros, pelo Ministério Público ou pela OAB",
+     "plain": "Esse problema quem resolve é o Congresso Nacional, e mais ninguém. Não dá para esperar pelos outros Ministros do Supremo, nem pelo Ministério Público, nem pela Ordem dos Advogados do Brasil."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 2 mil pessoas foram levadas ao ginásio da Polícia Federal e presas sem individualização da conduta",
+     "plain": "Ao ginásio da Polícia Federal foram levadas mais de 2 mil pessoas. A audiência de custódia, que deve ocorrer em 24 horas, não ocorreu, e mais de 2 mil pessoas foram presas sem individualização da conduta."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao deputado e passa a palavra a Sebastião Coelho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Nega que o País viva normalidade, aponta abuso de poder no recebimento da denúncia e cobra que o Senado contenha os ministros.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O País não vive normalidade e o momento exige reação do Parlamento e do povo.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ministro deu o tom da acusação, a Procuradoria endossou e ele mesmo recebeu a denúncia como julgador",
+     "plain": "No recebimento da denúncia, o Ministro citou os núcleos que a Procuradoria pedia. Ele deu o tom de como seria a acusação, a Procuradoria endossou e apresentou a denúncia, e ele mesmo a recebeu como julgador."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os ministros têm de ser contidos pelo Senado, e se o Parlamento não assumir o seu papel o povo vai fazer",
+     "plain": "Os Ministros precisam ser contidos pelo Senado Federal. Já disse antes e repito aqui: se o Parlamento não assumir o papel dele, quem vai fazer é o povo."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      66,
+      67
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "este é o momento da reação, porque o mal já está instalado e é preciso resistir a ele",
+     "plain": "Presidente, e a população que nos assiste, agora é hora de reagir. O mal já se instalou, e cabe a nós sermos a resistência contra ele."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia Eduardo Lycurgo como o último a fazer as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lê os números das decisões monocráticas como sinal de um sistema que precisa ser revisto e defende que a liberação do aborto saia desta Casa.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O número de decisões monocráticas mostra que o sistema judicial como um todo precisa ser revisto.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "decidir sozinho é reconhecer que levar esses casos ao colegiado seria impossível, e isso está errado",
+     "plain": "Esses números me dizem que há uma coisa muito errada. Quando se decide sozinho, já se está reconhecendo que levar esses casos a um órgão colegiado seria impossível."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "com 1 milhão e 300 mil advogados no Brasil, o número de recursos que a lei permite é uma infinidade",
+     "plain": "No Brasil há só 1 milhão e 300 mil advogados inscritos na OAB. Com esse tanto, o número de recursos permitidos pelo Código de Processo Civil e pelo Código Penal é infinito."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      56,
+      57,
+      58
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "liberar o aborto cabe a esta Casa, não à Suprema Corte, que só poderia decidir caso a caso",
+     "plain": "Se o aborto for para ser liberado, que isso seja feito nesta Casa, porque a lei é clara. A Suprema Corte não tem competência para essa revisão. Caso a caso ela poderia analisar hipóteses, e a decisão valeria só para aquele caso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que vai apresentar uma sugestão, sem comentar o tema.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b040",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O expositor observa que foi citado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Sugere que o próximo seminário traga ministros do Supremo, em parceria com o Senado, e aposta no diálogo para garantir a democracia.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O próximo seminário deveria incluir ministros do Supremo para ampliar o diálogo entre os Poderes.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b041c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o próximo seminário deveria trazer ministros do Supremo para se posicionarem, o que amplia o diálogo",
+     "plain": "Pergunto se no segundo seminário dá para fazer uma parceria com a CCJ do Senado, a comissão que lá analisa a constitucionalidade dos projetos, e trazer alguns Ministros do Supremo para se posicionarem."
+    },
+    {
+     "id": "b041c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "só se garante a democracia com diálogo, como um deputado do PL conversando com um deputado do PT",
+     "plain": "Só vamos garantir a democracia no nosso País se houver diálogo. Vejam: um Deputado do PL conversando com um Deputado do PT, que preside a Comissão, e pedindo a participação da Câmara e do Senado com o Supremo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b042",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado comenta, em aparte, o otimismo do colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que só pode recolher a sugestão e encaminhá-la à próxima Presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b044",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que a próxima Presidência não vai recusar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que não tem como realizar o seminário conjunto, mas acha a ideia boa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b046",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado sugere que a presidência tome a iniciativa antes de deixar o cargo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b047",
+   "speaker": "s13",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado sugere que a presidência siga como interlocutora depois.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b048",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos, encerra o seminário e lembra a reunião deliberativa de quinta-feira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 15,
+   "from_claim": "b004c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O desembargador aposentado segue o mesmo caminho do professor: o Supremo decide o que caberia à Câmara e ao Senado e ainda põe no ordenamento norma que o Congresso não aprovou."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 134,
+   "from_claim": "b010c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O deputado corrige o registro histórico feito na fala anterior: a Câmara autorizou a prisão em flagrante, e não os 6 meses que vieram depois."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 15,
+   "from_claim": "b012c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Ao argumento de que o tema cabia ao Congresso, o professor da PUC-SP responde que as constituições foram postas justamente acima das decisões da maioria."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 17,
+   "from_claim": "b012c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Onde o desembargador vê o poder emanando do povo como palavra final, o professor lembra que foi pela maioria que o nazifascismo chegou ao poder."
+  },
+  {
+   "from": "b014",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 63,
+   "to_sentence": 49,
+   "from_claim": "b014c2",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Para o advogado, o que o desembargador chama de norma inexistente é em parte a resposta do Judiciário a leis que envelheceram."
+  },
+  {
+   "from": "b016",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 20,
+   "from_claim": "b016c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "O deputado nega ao Supremo o papel representativo que o professor deriva da função de limitar a maioria."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 50,
+   "to_sentence": 15,
+   "from_claim": "b016c3",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "O deputado repete a queixa do expositor em outra chave: o Congresso trabalha meses num projeto e um ministro de plantão desfaz tudo."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 25,
+   "to_sentence": 63,
+   "from_claim": "b018c2",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "O deputado rejeita o pequeno ativismo defendido pelo advogado: quem deve exprimir a voz da população é o Legislativo, e não o juiz."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 34,
+   "to_sentence": 50,
+   "from_claim": "b018c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "O deputado repete o diagnóstico do desembargador com outro exemplo: a lei diz uma coisa, o Supremo decide outra, e com isso legisla."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 34,
+   "from_claim": "b020c3",
+   "to_claim": "b018c3",
+   "strength": "media",
+   "note": "A deputada acrescenta a origem do problema que o colega descreve: quem perde a votação no Parlamento leva a matéria ao Supremo."
+  },
+  {
+   "from": "b020",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 14,
+   "from_claim": "b020c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A deputada retoma o caso do aborto citado pelo expositor e mostra que há mais de 600 proposições sobre o tema paradas no Parlamento."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 20,
+   "from_claim": "b020c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "À ideia de que o tribunal limita a maioria, a deputada opõe a regra dos freios e contrapesos: quando um Poder se agiganta, o outro deve contê-lo."
+  },
+  {
+   "from": "b022",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 38,
+   "to_sentence": 102,
+   "from_claim": "b022c3",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "O deputado aceita o mecanismo apontado pelo professor, mas diz que é um equívoco que só o Senado participe da sabatina dos ministros."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 51,
+   "from_claim": "b022c2",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "Ao colega que descreve o Congresso anulado por um ministro, o deputado lembra que também sofreu com decisões judiciais e nem por isso defendeu punição."
+  },
+  {
+   "from": "b026",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 14,
+   "to_sentence": 63,
+   "from_claim": "b026c1",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "O deputado separa Judiciário ativo de Judiciário ativista e recusa o ativismo político que o advogado admitia em dose pequena."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 25,
+   "from_claim": "b028c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "Ao caso do aborto levantado pela deputada, o professor responde com um desembargador que defende o aborto e, mesmo assim, acha que o Judiciário não deve interferir."
+  },
+  {
+   "from": "b028",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 44,
+   "to_sentence": 25,
+   "from_claim": "b028c2",
+   "to_claim": "b018c2",
+   "strength": "media",
+   "note": "O professor reconhece razão ao deputado e defende autocontenção do Judiciário quando o tema toca valores morais sem consenso."
+  },
+  {
+   "from": "b030",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 14,
+   "from_claim": "b030c1",
+   "to_claim": "b026c1",
+   "strength": "forte",
+   "note": "Professor e deputado fecham acordo sobre o sentido da palavra: nenhuma forma de ativismo do Judiciário lhes parece aceitável."
+  },
+  {
+   "from": "b030",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 63,
+   "from_claim": "b030c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "Enquanto o advogado admite uma dose de ativismo, o professor diz que nenhuma dose lhe parece aceitável."
+  },
+  {
+   "from": "b032",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 169,
+   "from_claim": "b032c1",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "Contra a defesa das decisões individuais, o expositor traz o balanço de um gabinete: em 17 anos, 84% das decisões foram monocráticas."
+  },
+  {
+   "from": "b034",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 48,
+   "to_sentence": 61,
+   "from_claim": "b034c3",
+   "to_claim": "b032c3",
+   "strength": "forte",
+   "note": "O deputado amplia o número citado pelo expositor: além das 1.400 pessoas cadastradas, mais de 2 mil foram conduzidas ao ginásio da Polícia Federal."
+  },
+  {
+   "from": "b034",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 15,
+   "from_claim": "b034c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "O deputado assume a cobrança que o desembargador fez ao Parlamento: só o Congresso pode frear os abusos, não dá para esperar pelos outros."
+  },
+  {
+   "from": "b034",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 61,
+   "from_claim": "b034c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O deputado dá o fundamento constitucional da crítica do expositor ao inquérito: pelo art. 129, a ação penal tem de partir do Ministério Público."
+  },
+  {
+   "from": "b036",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 66,
+   "to_sentence": 23,
+   "from_claim": "b036c3",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "O desembargador recusa a serenidade pedida pelo deputado: para ele o momento é de reação, não de debate demorado."
+  },
+  {
+   "from": "b036",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 24,
+   "to_sentence": 44,
+   "from_claim": "b036c1",
+   "to_claim": "b028c2",
+   "strength": "media",
+   "note": "Onde o professor pede autocontenção, o desembargador aponta um abuso concreto: o ministro deu o tom da acusação e depois recebeu a denúncia."
+  },
+  {
+   "from": "b036",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 104,
+   "from_claim": "b036c2",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "O desembargador toma emprestada a saída institucional do professor: são os ministros que têm de ser contidos pelo Senado Federal."
+  },
+  {
+   "from": "b038",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 10,
+   "from_claim": "b038c1",
+   "to_claim": "b032c1",
+   "strength": "forte",
+   "note": "O advogado lê os números do gabinete citados pelo colega como sinal de que há algo muito errado no sistema."
+  },
+  {
+   "from": "b038",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 56,
+   "to_sentence": 25,
+   "from_claim": "b038c3",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "Ao tema do aborto trazido pela deputada, o advogado responde que a liberação, se vier, tem de sair desta Casa e não da Suprema Corte."
+  },
+  {
+   "from": "b038",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 169,
+   "from_claim": "b038c2",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "Para o advogado, o volume de advogados e de recursos explica as decisões individuais, mas não as justifica como o professor propõe."
+  },
+  {
+   "from": "b041",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 24,
+   "from_claim": "b041c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "O deputado do PL transforma em pedido concreto o que o deputado do PT propôs: trazer à mesa representantes dos Poderes, inclusive ministros do Supremo."
+  },
+  {
+   "from": "b041",
+   "to": "b036",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 66,
+   "from_claim": "b041c2",
+   "to_claim": "b036c3",
+   "strength": "media",
+   "note": "Onde o desembargador vê o momento da reação, o deputado aposta que a democracia só se garante pelo diálogo."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b004",
+    "b016",
+    "b018",
+    "b020",
+    "b038"
+   ],
+   "claims": [
+    "b002c1",
+    "b004c3",
+    "b018c3",
+    "b020c3",
+    "b038c3"
+   ],
+   "note": "Expositores convidados e deputados de PL e Republicanos concordam que o Supremo tem decidido o que caberia ao Congresso, do aborto às leis que já existem."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b026",
+    "b028",
+    "b030"
+   ],
+   "claims": [
+    "b026c1",
+    "b028c1",
+    "b028c2",
+    "b030c1"
+   ],
+   "note": "Um deputado do PL e o professor da PUC-SP, que divergem em quase tudo, chegam ao mesmo ponto: ativismo político no Judiciário é inaceitável e é preciso autocontenção."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b012",
+    "b016",
+    "b020",
+    "b034",
+    "b036"
+   ],
+   "claims": [
+    "b006c2",
+    "b012c2",
+    "b016c2",
+    "b020c1",
+    "b034c2",
+    "b036c2"
+   ],
+   "note": "Expositores de lados opostos do debate e deputados de PL e Republicanos concordam que quem tem de conter os ministros é o Parlamento, pela nomeação, pelo impeachment ou pela emenda."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b010",
+    "b032",
+    "b034",
+    "b036"
+   ],
+   "claims": [
+    "b002c2",
+    "b010c1",
+    "b032c3",
+    "b034c1",
+    "b036c1"
+   ],
+   "note": "Expositores e deputados apontam os mesmos defeitos nos casos concretos: inquérito aberto sem o Ministério Público, prisão mantida sem pedido do promotor e prisões em massa."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b004",
+    "b016",
+    "b018"
+   ],
+   "claims": [
+    "b004c1",
+    "b016c1",
+    "b018c2"
+   ],
+   "note": "O desembargador aposentado e deputados de PL e Republicanos concordam que quem fala pelo povo é quem foi eleito e que o Supremo não tem papel representativo."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b022",
+    "b028",
+    "b030",
+    "b041"
+   ],
+   "claims": [
+    "b022c1",
+    "b028c3",
+    "b030c2",
+    "b041c1"
+   ],
+   "note": "Um deputado do PT, um do PL e o professor da PUC-SP concordam que a saída é o diálogo: debates com os Poderes à mesa e acordo em vez de um lado derrotado."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b016",
+   "sentence": 29,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b028",
+   "gist": "se a sociedade precisa de onze pessoas decidindo o rumo ético do País",
+   "plain": "A sociedade precisa de onze pessoas decidindo para onde vai a ética do País?",
+   "theme": "d6",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b020",
+   "sentence": 24,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b028",
+   "gist": "como assistir a julgamentos como a ADPF 442 sobre aborto",
+   "plain": "Como eu, que sou contrária ao aborto, vou assistir a um julgamento como a ADPF 442?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b022",
+   "sentence": 42,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "quando o Parlamento vai reformular a concentração de poder no Senado",
+   "plain": "Quando é que vamos conseguir reformular essa concentração de poder no Senado?",
+   "theme": "d4",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b032",
+   "sentence": 10,
+   "gist": "117.784 decisões em 17 anos, 84% delas monocráticas",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b032",
+   "sentence": 61,
+   "gist": "1.400 pessoas levadas à prisão de uma única vez",
+   "disputed_by": [
+    {
+     "fala": "b034",
+     "sentence": 47
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "fala": "b034",
+   "sentence": 48,
+   "gist": "mais de 2 mil pessoas conduzidas ao ginásio da Polícia Federal",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b034",
+   "sentence": 22,
+   "gist": "120 votos contrários na votação sobre a prisão do deputado",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 21,
+   "gist": "40 milhões de mortos na guerra e 11 milhões em campos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b014",
+   "sentence": 83,
+   "gist": "Lei de Direitos Autorais sancionada em 1998, discutida desde 1988",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 123,
+   "gist": "16 mil e poucas normas para regular o dia a dia",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b038",
+   "sentence": 9,
+   "gist": "1 milhão e 300 mil advogados inscritos na OAB",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b020",
+   "sentence": 27,
+   "gist": "mais de 600 proposições sobre aborto no Parlamento",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b002",
+   "sentence": 73,
+   "gist": "um parlamentar passou 9 meses preso em regime fechado",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 7,
+   "gist": "a Câmara não autorizou os 6 meses de prisão do deputado",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria monta o seminário como um desacordo entre especialistas sobre o que é ativismo judicial e fecha com a proposta aprovada pelo Senado que limita decisões individuais nos tribunais superiores.",
+  "omitted": "Ficaram de fora os casos concretos discutidos na sala, como o inquérito aberto sem o Ministério Público, as prisões em massa e a morte de um preso sob tutela do Estado."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O Supremo legisla no lugar do Congresso",
+   "statement_plain": "O Supremo tem decidido temas que a Constituição deixou para a Câmara e o Senado, e com isso cria e derruba regra sem ter sido eleito para isso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b004c3",
+    "b018c3",
+    "b020c3",
+    "b016c1"
+   ],
+   "note": "Junta um professor ligado ao livre mercado, um desembargador aposentado e deputados de PL e Republicanos, e é contestada por outro advogado da mesma mesa de expositores."
+  },
+  {
+   "id": "t2",
+   "title": "A resposta ao Supremo é o debate, não o revanchismo",
+   "statement_plain": "Mudar o sistema judicial exige debate com os Poderes à mesa e crítica às decisões, e não reação nem punição ao Judiciário.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b022c1",
+    "b028c3",
+    "b041c1",
+    "b014c2"
+   ],
+   "note": "Cruza setores que não costumam andar juntos: um deputado do PT, um deputado do PL, um professor de direito e um advogado defendem a mesma saída."
+  },
+  {
+   "id": "t3",
+   "title": "O momento é de reação, não de baixar a bola",
+   "statement_plain": "O País não vive normalidade. Se o Parlamento não contiver os ministros, o povo vai agir, porque os Poderes existem para se enfrentar.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "contrario",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b036c3",
+    "b032c2",
+    "b006c2",
+    "b034c2",
+    "b036c2"
+   ],
+   "note": "Opõe-se à tese do diálogo no mesmo tema e reúne dois expositores convidados e um deputado do PL, contra deputados de PT e PL que pedem serenidade."
+  },
+  {
+   "id": "t4",
+   "title": "O controle dos ministros cabe ao Parlamento",
+   "statement_plain": "Quem pode conter os ministros do Supremo é o Parlamento, pela aprovação dos nomes, pelo impeachment e pelas emendas à Constituição, e ele tem se omitido.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b012c2",
+    "b016c2",
+    "b020c1",
+    "b022c3",
+    "b034c2"
+   ],
+   "note": "Divide os dois lados: o professor que defende o Supremo e deputados de PT, PL e Republicanos que o criticam chegam ao mesmo mecanismo institucional."
+  },
+  {
+   "id": "t5",
+   "title": "Nenhuma dose de ativismo judicial é aceitável",
+   "statement_plain": "Ativismo político no Judiciário não é aceitável em nenhuma medida, e os tribunais precisam de autocontenção, sobretudo onde não há consenso moral na sociedade.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b026c1",
+    "b028c1",
+    "b028c2",
+    "b030c1"
+   ],
+   "note": "Divide a mesa dos expositores: o professor que defende o papel do Supremo recusa o ativismo com as mesmas palavras de um deputado do PL, contra o advogado que o admite em dose pequena."
+  },
+  {
+   "id": "t6",
+   "title": "Nos casos concretos, o devido processo foi rasgado",
+   "statement_plain": "Inquérito aberto sem o Ministério Público, prisão mantida sem pedido do promotor e milhares de presos sem individualização mostram que o processo foi desrespeitado.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b010c1",
+    "b032c3",
+    "b034c1",
+    "b036c1"
+   ],
+   "note": "Cruza a mesa e a bancada: dois expositores convidados e deputados de Republicanos e PL sustentam a mesma leitura dos casos concretos."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ativismo judicial",
+   "fala": "b002",
+   "sentence": 7,
+   "plain": "quando o Judiciário decide questões que caberiam ao Legislativo ou ao Executivo, ou cria regra que a lei não tem"
+  },
+  {
+   "term": "HC",
+   "fala": "b002",
+   "sentence": 14,
+   "plain": "sigla de habeas corpus: pedido feito à Justiça para soltar alguém ou impedir uma prisão"
+  },
+  {
+   "term": "ADPF",
+   "fala": "b002",
+   "sentence": 19,
+   "plain": "Arguição de Descumprimento de Preceito Fundamental: ação que pede ao Supremo que diga se um ato fere a Constituição"
+  },
+  {
+   "term": "controle difuso",
+   "fala": "b002",
+   "sentence": 31,
+   "plain": "quando qualquer juiz decide se uma lei fere a Constituição dentro de um caso concreto, e não em tese"
+  },
+  {
+   "term": "liminar",
+   "fala": "b002",
+   "sentence": 47,
+   "plain": "decisão provisória e urgente, dada antes do julgamento final do processo"
+  },
+  {
+   "term": "prerrogativa de foro",
+   "fala": "b002",
+   "sentence": 182,
+   "plain": "direito de certas autoridades de serem julgadas direto num tribunal superior, e não pelo juiz de primeira instância"
+  },
+  {
+   "term": "audiência de custódia",
+   "fala": "b010",
+   "sentence": 2,
+   "plain": "encontro com um juiz logo depois da prisão, para ele decidir se a pessoa fica presa ou é solta"
+  },
+  {
+   "term": "controle de constitucionalidade",
+   "fala": "b012",
+   "sentence": 45,
+   "plain": "exame que verifica se uma lei ou um ato do governo está de acordo com a Constituição"
+  },
+  {
+   "term": "impeachment",
+   "fala": "b012",
+   "sentence": 104,
+   "plain": "processo que pode afastar do cargo uma autoridade, como um presidente da República ou um ministro do Supremo"
+  },
+  {
+   "term": "constitucionalismo abusivo",
+   "fala": "b012",
+   "sentence": 113,
+   "plain": "uso das regras do próprio sistema, por quem está no poder, para enfraquecer a Constituição por dentro"
+  },
+  {
+   "term": "judicial review",
+   "fala": "b012",
+   "sentence": 122,
+   "plain": "modelo dos Estados Unidos em que o juiz analisa, caso a caso, se a lei fere a Constituição"
+  },
+  {
+   "term": "decisões monocráticas",
+   "fala": "b012",
+   "sentence": 147,
+   "plain": "decisões tomadas por um ministro sozinho, sem que o grupo de ministros do tribunal vote"
+  },
+  {
+   "term": "cláusula pétrea",
+   "fala": "b012",
+   "sentence": 170,
+   "plain": "parte da Constituição que não pode ser mudada nem por emenda, como os direitos e garantias individuais"
+  },
+  {
+   "term": "repercussão geral",
+   "fala": "b018",
+   "sentence": 13,
+   "plain": "marca que o Supremo dá a um julgamento para que aquela decisão valha para todos os casos iguais"
+  },
+  {
+   "term": "PEC",
+   "fala": "b036",
+   "sentence": 55,
+   "plain": "Proposta de Emenda à Constituição: texto que muda a própria Constituição e precisa de votação reforçada"
+  }
+ ]
+}

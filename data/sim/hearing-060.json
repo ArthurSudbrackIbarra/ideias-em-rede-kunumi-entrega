@@ -1,0 +1,2259 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 60,
+ "model": "LLM lendo o prompt hearing-060 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:35:02Z",
+ "prompt_sha256": "ef107b3448a38ca6af7ab5ad03a6ab1e62cf0b5e0203d64958a4e93d2c0e5593",
+ "sentences_hash": "3a58a16cad6e99ca",
+ "review": {
+  "pairs_read": 32,
+  "pairs_fixed": 10
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa debateu se o Programa QualiSUS Cardio, lançado em 2022 para pagar melhor os hospitais conforme a qualidade da assistência cardiovascular, atende bem a população idosa. Um gerontólogo, dois cardiologistas, um instituto de pacientes, a indústria de equipamentos e o Ministério da Saúde expuseram benefícios e entraves. A disputa central foi sobre os preços da Tabela SUS e sobre a incorporação de novas tecnologias.",
+ "stakes": "Dependia desta audiência a decisão de manter ou retirar os preços da Tabela SUS como referência para os dispositivos usados no QualiSUS Cardio.",
+ "central_question": "O QualiSUS Cardio, como foi desenhado, melhora o atendimento cardiovascular da pessoa idosa no SUS?",
+ "synopsis_plain": "A comissão discutiu um programa novo do SUS para o atendimento do coração, o QualiSUS Cardio, que paga mais aos hospitais que cuidam melhor. Médicos, um gerontólogo, um instituto de pacientes, a indústria de equipamentos e o Ministério da Saúde falaram do que o programa resolve e do que trava. A maior divergência foi sobre a tabela de preços que o SUS paga.",
+ "stakes_plain": "Estava em jogo manter ou tirar os preços da tabela do SUS como referência para os materiais usados nos procedimentos do coração.",
+ "central_question_plain": "O novo programa do SUS para o coração, do jeito que foi montado, melhora mesmo o atendimento das pessoas idosas?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Envelhecimento da população",
+   "description": "Discute-se o ritmo em que o Brasil envelhece e o que isso exige das políticas de saúde.",
+   "axis": {
+    "pro": "O país precisa de políticas próprias para a pessoa idosa desde já.",
+    "contra": "O envelhecimento não exige mudança nas políticas de saúde agora.",
+    "pro_plain": "O Brasil envelhece depressa e precisa de políticas feitas para a pessoa idosa já.",
+    "contra_plain": "Não é preciso mudar as políticas de saúde por causa do envelhecimento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Prevenção e atenção primária",
+   "description": "Discute-se o peso da educação em saúde, dos hábitos e da atenção primária diante do tratamento de quem já adoeceu.",
+   "axis": {
+    "pro": "A prevenção e a atenção primária devem vir antes do tratamento de alta complexidade.",
+    "contra": "O esforço deve concentrar-se no tratamento de quem já está doente.",
+    "pro_plain": "Cuidar antes de a doença aparecer, com informação e posto de saúde, é o que mais muda o resultado.",
+    "contra_plain": "O esforço deve ir para tratar quem já está doente."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Tabela de preços do SUS",
+   "description": "Discute-se se os valores da Tabela SUS devem continuar balizando os dispositivos usados no programa.",
+   "axis": {
+    "pro": "Os preços da Tabela SUS devem deixar de balizar os dispositivos, com autonomia do gestor local.",
+    "contra": "A tabela é apenas valor de referência do dinheiro federal e o problema está no modelo de financiamento.",
+    "pro_plain": "Os preços da tabela do SUS estão defasados e não deveriam mandar na compra dos materiais.",
+    "contra_plain": "A tabela é só referência do dinheiro federal. O que precisa mudar é como o SUS é financiado."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Novas tecnologias no SUS",
+   "description": "Discute-se a incorporação de procedimentos feitos por cateter para tratar idosos sem cirurgia aberta.",
+   "axis": {
+    "pro": "O SUS deve incorporar os procedimentos por cateter para a população idosa.",
+    "contra": "A incorporação deve ser contida, porque o cuidado não se resume a órteses e próteses.",
+    "pro_plain": "Os tratamentos feitos por cateter, sem abrir o peito, devem chegar ao SUS para os idosos.",
+    "contra_plain": "O cuidado não se resume a implantes, e a incorporação precisa de limites."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Pagamento por desempenho",
+   "description": "Discute-se o desenho do QualiSUS Cardio, que classifica hospitais por indicadores e paga mais a quem tem melhor resultado.",
+   "axis": {
+    "pro": "Medir indicadores e pagar mais a quem tem melhor resultado melhora a assistência.",
+    "contra": "O modelo do programa tem distorções e foi montado sem acordo prévio com o setor.",
+    "pro_plain": "Medir a qualidade e pagar mais a quem cuida melhor melhora o atendimento.",
+    "contra_plain": "O modelo do programa tem falhas e foi montado sem acertar antes com o setor."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Acesso e regulação no SUS",
+   "description": "Discute-se como a pessoa idosa chega ao serviço, à tecnologia e ao tratamento, e o que a fila e a regulação travam.",
+   "axis": {
+    "pro": "Garantir acesso do idoso ao serviço e à tecnologia é o principal gargalo a enfrentar.",
+    "contra": "O acesso já está garantido e o problema está em outro lugar.",
+    "pro_plain": "O maior gargalo é fazer o idoso chegar ao serviço e às tecnologias novas.",
+    "contra_plain": "O acesso já está resolvido e o problema é outro."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência, deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião como presidente em b001.0 e diz que o requerimento é de sua autoria em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Gerontólogo e Presidente do Centro Internacional de Longevidade Brasil",
+   "org": "ILC-BR",
+   "basis": "apresentado pelo presidente em b001.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Centro Internacional de Longevidade Brasil",
+   "org_plain": "organização que estuda o envelhecimento e defende políticas para as pessoas idosas"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Cardiologista intervencionista, ex-Presidente da SOLACI",
+   "org": "SOLACI",
+   "basis": "apresentado pelo presidente em b001.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "cardiologista intervencionista, ex-presidente da SOLACI",
+   "org_plain": "Sociedade Latino-Americana de Cardiologia Intervencionista, dos médicos que tratam o coração por cateter"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Presidente da ABIMED",
+   "org": "ABIMED",
+   "basis": "apresentado pelo presidente em b001.9",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Abimed, associação da indústria de tecnologia para saúde",
+   "org_plain": "associação que reúne empresas de equipamentos e dispositivos médicos no Brasil"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora de Relações Institucionais e Internacionais do Instituto Lado a Lado pela Vida",
+   "org": "Instituto Lado a Lado pela Vida",
+   "basis": "apresentada pelo presidente em b001.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Lado a Lado pela Vida",
+   "org_plain": "organização da sociedade civil que atua em doenças do coração e câncer e criou o Novembro Azul"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Conselho Administrativo da Sociedade Brasileira de Cardiologia",
+   "org": "SBC",
+   "basis": "apresentado pelo presidente em b001.12",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Sociedade Brasileira de Cardiologia",
+   "org_plain": "entidade científica que reúne os cardiologistas do país e publica diretrizes de tratamento"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Secretária de Atenção Especializada à Saúde",
+   "org": "Ministério da Saúde",
+   "basis": "apresentada pelo presidente em b001.11",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "secretaria do Ministério da Saúde responsável pelos serviços de média e alta complexidade do SUS"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "A reunião correu por videoconferência e a ata não registra delegações, entidades presentes nem palmas.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o QualiSUS Cardio e apresenta os seis convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O gerontólogo cumprimenta a comissão e avisa que fala de Londres.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao primeiro expositor, pelo prazo de 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Alerta que 30% das mortes no Brasil são cardiovasculares e que, sem letramento em saúde e políticas para o envelhecimento, a maior conquista social vira uma bomba-relógio.",
+   "quote": [
+    45,
+    46
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país precisa investir em educação, promoção e prevenção em saúde para enfrentar o envelhecimento e as doenças do coração.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "30% das mortes no Brasil são por doenças cardiovasculares e o envelhecimento deve fazer esse número subir",
+     "plain": "No Brasil, 30% das mortes são por doenças do coração e dos vasos. Como a maior parte delas acontece dos 60 aos 79 anos e daí para cima, com o envelhecimento essa situação só vai piorar."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta letramento em saúde e, num país desigual, não basta saber: é preciso tornar o cuidado possível",
+     "plain": "O problema é a falta de letramento em saúde. E quem sabe o que fazer muitas vezes não consegue fazer, num país com desigualdades crescentes. Precisamos de mais educação, promoção e prevenção, e de torná-las possíveis."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      45,
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "envelhecer foi a maior conquista social dos últimos 100 anos e virou bomba-relógio por falta de políticas",
+     "plain": "A maior conquista social dos últimos 100 anos foi poder envelhecer. Estamos transformando isso numa bomba-relógio ao não ter políticas adequadas. Analisei todos os partidos e não vi preocupação com o envelhecimento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Concorda que prevenção e promoção da saúde são essenciais e diz não ver a equipe de transição do Governo preocupada com a saúde da pessoa idosa.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prevenção e a promoção da saúde no envelhecimento têm de ser tarefa do próprio SUS.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "se 68 milhões de pessoas chegarem a 2050 doentes será muito grave, e o SUS tem de promover saúde no envelhecimento",
+     "plain": "Se boa parte da população, 68 milhões de pessoas, chegar a 2050 com essas doenças, será muito grave. A prevenção faz sentido, e o próprio SUS tem de promover saúde para quem envelhece."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ninguém da equipe de transição do governo se preocupa com a saúde das pessoas idosas",
+     "plain": "Concordo com o senhor: não vemos, na equipe de transição do Governo, ninguém preocupado com a saúde das pessoas idosas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O cardiologista agradece o convite e tenta compartilhar a apresentação, sem conseguir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a apresentação apareceu na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O cardiologista diz que os eslaides na tela não são os dele e se oferece para falar sem eles.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência oferece aguardar os eslaides ou chamar outro expositor antes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O cardiologista vai enviar os eslaides por aplicativo enquanto outro orador fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o representante da indústria de tecnologia para saúde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da indústria confirma que está disponível e cumprimenta a comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra e avisa que volta ao cardiologista em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Aponta que a defasagem da Tabela SUS compromete o QualiSUS Cardio e pede autonomia do gestor local para contratar e comprar os dispositivos.",
+   "quote": [
+    27,
+    28
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os preços da Tabela SUS devem sair dos dispositivos do QualiSUS Cardio, com autonomia do gestor local.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "toda política nova do SUS precisa ser debatida com Estados e Municípios, e o QualiSUS Cardio pulou a etapa da tabela",
+     "plain": "Qualquer política nova no SUS precisa ser debatida com Estados e Municípios. O QualiSUS Cardio traz a ideia de desempenho, mas pulou uma etapa importante, que é a discussão da Tabela SUS, a lista de preços do SUS."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a tabela SUS nivela todos os produtos pelo menor preço e o monitoramento de preços da Anvisa é referência mais fiel",
+     "plain": "A Tabela SUS iguala pelo menor preço todos os produtos usados no serviço público. Já o monitoramento de preços da Anvisa, que considera as características técnicas do dispositivo, tem se mostrado mais eficaz e fiel como referência."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o setor pede que se eliminem os preços da tabela para os dispositivos do QualiSUS Cardio e que o gestor local compre com autonomia",
+     "plain": "O pedido do setor é eliminar os preços da Tabela SUS para os dispositivos cardiovasculares do QualiSUS Cardio. O gestor local deve ter autonomia para contratar e comprar dentro da sua realidade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a Tabela SUS não é atualizada há 20 anos, que nenhuma unidade de saúde sobrevive com esses valores e que a judicialização piora a cada dia.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem atualizar a Tabela SUS, os hospitais não conseguem se manter e o atendimento do coração fica inviável.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a tabela do SUS não é atualizada há 20 anos e nenhuma unidade de saúde sobrevive com os valores pagos hoje",
+     "plain": "O SUS não acompanhou a tecnologia e a inovação de hoje. Há 20 anos essa tabela não é atualizada, e nenhuma unidade de saúde consegue sobreviver com os valores pagos, sobretudo na área do coração."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem atualizar a tabela os hospitais não se mantêm, e a judicialização para conseguir tratamento e remédio piora a cada dia",
+     "plain": "Sem atualizar essa tabela, acho muito difícil os hospitais se manterem, e a maioria da população depende do SUS. Além disso, a judicialização para conseguir tratamento e medicamentos piora a cada dia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que tecnologias por cateter, como o TAVI e o MitraClip, tratam idosos sem cirurgia aberta e defende que o SUS as incorpore.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As novas tecnologias minimamente invasivas beneficiam o paciente idoso e devem ser ofertadas pelo SUS.",
+    "sentence": 85
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a estenose aórtica atinge até 2% de quem tem mais de 65 anos e 5% acima de 75, e a cirurgia chega a 15% de mortalidade",
+     "plain": "A estenose aórtica degenerativa, quando a válvula do coração fica calcificada, atinge até 2% da população com mais de 65 anos e até 5% acima de 75. A mortalidade da cirurgia para trocar essa válvula pode chegar a 15%."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o implante de válvula aórtica por cateter, o TAVI, foi incorporado ao SUS e é bem menos invasivo que a cirurgia",
+     "plain": "Existe hoje o TAVI, o implante de válvula aórtica por cateter, que foi incorporado ao SUS recentemente. É bem menos invasivo que a cirurgia, porque é feito pela região da virilha."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      57,
+      58
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o MitraClip, clipe que trata o refluxo da válvula mitral, ainda não foi incorporado pelo SUS",
+     "plain": "Temos essa nova tecnologia, o MitraClip, um clipe que trata o refluxo da válvula mitral. Infelizmente ele ainda não entrou no SUS, e esperamos que entre num futuro próximo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Concorda que a cirurgia minimamente invasiva melhora a qualidade de vida e a sobrevida do idoso, evita complicações e ainda diminui o custo.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O procedimento minimamente invasivo é melhor para o paciente idoso e reduz o custo da internação.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a cirurgia minimamente invasiva melhora a qualidade de vida e a sobrevida do idoso e ainda reduz o custo",
+     "plain": "A cirurgia minimamente invasiva, sem UTI e sem cirurgia extracorpórea, melhora muito a qualidade de vida e a sobrevida. Para o paciente idoso é sempre melhor, e com isso o custo diminui."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que é preciso agir, e não só discutir, para que o idoso tenha diagnóstico rápido e acesso ao tratamento, e traz dados sobre valvopatias.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país precisa agir para que a pessoa idosa seja acolhida, diagnosticada com agilidade e tratada.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não basta discutir, é preciso agir para que os idosos tenham acolhimento, diagnóstico rápido e acesso ao tratamento",
+     "plain": "A nossa mensagem é que não basta discutir: é preciso agir para que os idosos sejam acolhidos, tenham diagnóstico rápido e acesso ao tratamento das doenças do coração. E evitar o sedentarismo é um excelente remédio."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 7,5 milhões de pessoas com 60 anos ou mais trabalhando no Brasil e elas representam 20% do poder de consumo",
+     "plain": "Segundo a Pesquisa Nacional por Amostra de Domicílios de 2018, 7,5 milhões de brasileiros com 60 anos ou mais estão trabalhando. E, pelo Sebrae, quem tem mais de 60 anos responde por 20% do poder de consumo."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de 1990 a 2019 as doenças das válvulas do coração cresceram mais de 50% no Brasil e a estenose aórtica, 201,8%",
+     "plain": "Segundo a Sociedade Brasileira de Cardiologia, de 1990 a 2019 as doenças das válvulas do coração não ligadas a reumatismo cresceram mais de 50%, sobretudo em homens mais velhos. Só a estenose aórtica cresceu 201,8%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta a atenção primária, com médico de família e agentes comunitários, como fundamental para orientar quem não tem acesso à informação.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A atenção primária é o lugar certo para orientar a pessoa idosa sobre a saúde do coração.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a atenção primária, com médico de família e agentes comunitários, é fundamental para orientar quem não tem acesso à informação",
+     "plain": "Vejo grande importância na atenção primária à saúde, em que temos de investir bastante. É lá que estão o médico da família e os agentes comunitários que atendem quem não tem acesso à informação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende prevenção desde a infância e políticas de qualidade na assistência, com garantia de acesso do idoso a serviços, tecnologia e remédios novos.",
+   "quote": [
+    40,
+    41
+   ],
+   "covered": true,
+   "evidence": [
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso prevenir desde a infância e, para quem já adoeceu, adotar políticas que promovam qualidade na assistência.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a doença isquêmica do coração está entre as três maiores causas de morte a partir dos 35 anos e é a maior a partir dos 45",
+     "plain": "As doenças do coração e do cérebro já são a principal causa de morte no país. A partir dos 35 anos a doença isquêmica do coração está entre as três maiores causas, e a partir dos 45 ela é a primeira."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      40,
+      41
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além do acesso ao serviço, o idoso precisa de acesso a tecnologia, remédios e procedimentos novos, com o mesmo empenho dado ao jovem",
+     "plain": "Junto com o acesso ao serviço de saúde vem o acesso à tecnologia, a novos remédios e a novos procedimentos. Não podemos achar que o paciente idoso merece menos empenho no tratamento do que um paciente jovem."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o sistema de saúde precisa de métricas, e é aí que entra o QualiSUS, cujo cerne é medir para garantir qualidade",
+     "plain": "O sistema de saúde precisa ter métricas, e é aí que entra o programa QualiSUS, desenvolvido pelo Ministério da Saúde. O cerne desse projeto é justamente a métrica, para garantir qualidade no atendimento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Critica a regulação do SUS e a fila gigante, e diz que o parlamentar não está ali para conseguir vaga, mas para legislar e evitar que a fila seja furada.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 6,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulação do SUS precisa garantir acesso do idoso e ordem na fila, sem que o parlamentar atue como assistente social.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o paciente precisa saber como terá acesso e em que condições, e é aí que a regulação do SUS é o problema",
+     "plain": "É importante o paciente ter acesso e saber de que maneira e em que condições vai usar essa tecnologia. É aí que entra a regulação do SUS, um problema que temos enfrentado muito."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a fila está gigante e interferir para conseguir vaga para alguém significa tirar outra pessoa dessa fila",
+     "plain": "A fila está gigante. Se formos interferir para conseguir uma vaga para alguém, vamos tirar outra pessoa dessa fila."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que a tabela é apenas valor de referência federal, que o financiamento do SUS é tripartite e que mais de 200 procedimentos já foram reajustados em 2022.",
+   "quote": [
+    34,
+    35,
+    36
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": 32,
+   "stance": {
+    "position": "contrario",
+    "claim": "A Tabela SUS é apenas valor de referência do componente federal, e o financiamento do SUS continua tripartite.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "de janeiro a junho de 2022 o Ministério já reajustou mais de 200 procedimentos da tabela do SUS",
+     "plain": "Mandei ao senhor a lista dos reajustes que fizemos desde 2020. Só entre janeiro e junho de 2022 passamos de 200 procedimentos corrigidos nessa tabela tão criticada."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "pela Portaria nº 3.904, de 2022, a tabela é valor de referência nacional e não pode ser usada em contrato de prestador",
+     "plain": "Pela Portaria nº 3.904, de 2022, que trata da Tabela do SUS, ela é um valor de referência nacional. Não pode ser usada em contrato com prestador de serviço, porque é apenas recurso federal."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o cuidado precisa ser contínuo e articulado com a atenção primária, com foco em prevenção e promoção da saúde",
+     "plain": "Parabenizo o Dr. Alexandre por mostrar que o cuidado precisa ser contínuo e ligado à atenção primária, com foco na prevenção e na promoção da saúde. O Ministério trabalha nisso num plano nacional até 2030."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do instituto avisa que os eslaides não aparecem para quem assiste.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária pergunta se os participantes veem o gráfico de óbitos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que a apresentação está parada no primeiro eslaide.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do instituto diz que a tela não muda de eslaide.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que é preciso clicar sobre o eslaide que está sendo apresentado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b028",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária diz que clicou e que, do lado dela, a apresentação avança.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que na comissão a tela continua parada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b030",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária pergunta se a tela passou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que não e diz que o arquivo precisa estar em PDF.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária atribui a falha à plataforma de videoconferência e pergunta de novo se passou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência descreve as tentativas de avançar o eslaide, todas sem sucesso.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b034",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária diz que vai tentar enviar o arquivo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência vai verificar se o arquivo chegou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b036",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária avisa que não consegue passar os eslaides e chama o presidente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde e devolve a palavra à secretária.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária pede um endereço de e-mail para mandar a apresentação à comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa o e-mail da comissão e vai conferir se o arquivo chegou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b040",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária sugere chamar o próximo orador para não atrasar a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que ela é a última expositora e que a comissão aguarda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b042",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O gerontólogo pede desculpas e avisa que precisa sair para outra reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se ele quer fazer alguma consideração antes de sair.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O gerontólogo aceita fazer uma última consideração.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que a sociedade civil impediu a Organização Mundial da Saúde de tratar a velhice como doença e pede que a vigilância e o ativismo não se percam.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cabe à sociedade civil manter a pressão organizada pelos direitos das pessoas idosas.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 1 ano uma campanha da sociedade civil impediu que a Organização Mundial da Saúde tratasse a velhice como doença",
+     "plain": "Faz exatamente 1 ano que uma campanha forte da sociedade civil impediu que a Organização Mundial da Saúde classificasse a velhice como doença. Foi um risco muito grande."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "cabe à sociedade civil manter a pressão e o ativismo pelos direitos das pessoas idosas",
+     "plain": "Pela sociedade civil, fizemos uma pressão sem trégua até conseguir isso. Não podemos perder essa vigilância e esse ativismo, porque é esse o nosso papel."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária agradece ao gerontólogo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b048",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O gerontólogo se despede por causa de uma reunião marcada para aquele horário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença e se despede do expositor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b050",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O gerontólogo agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência devolve a palavra à secretária, com a apresentação já na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b052",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apresenta o QualiSUS Cardio, que classifica hospitais por desempenho, paga custeio diferenciado e habilitou 191 dos 215 centros pré-selecionados, com adesão voluntária total.",
+   "quote": [
+    51,
+    52
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O programa mediu a qualidade da rede de alta complexidade, pagou por desempenho e teve adesão total dos centros.",
+    "sentence": 56
+   },
+   "claims": [
+    {
+     "id": "b052c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a rede de alta complexidade do coração tem 215 centros pré-selecionados no Programa QualiSUS Cardio",
+     "plain": "Esta é a nossa rede de atendimento de alta complexidade do coração. Hoje são 215 centros pré-selecionados que já integram o Programa QualiSUS Cardio."
+    },
+    {
+     "id": "b052c2",
+     "sentences": [
+      31
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o pagamento é diferenciado por desempenho: 75% no nível A, 60% no B, 45% no C e 30% para quem não cumpre o volume",
+     "plain": "Fizemos um pagamento diferenciado: 75% para o nível A, 60% para o nível B, 45% para o nível C e 30% para quem não cumpria o volume e tinha índice pior que o do Estado."
+    },
+    {
+     "id": "b052c3",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dos 215 centros pré-selecionados a adesão foi total e 191 foram habilitados, porque o prazo não permitiu habilitar todos",
+     "plain": "Foram habilitados 191 centros. Pré-selecionamos 215 para aderir ao programa e a adesão foi total, mas não conseguimos habilitar os 215 por causa do prazo que estipulamos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede a aprovação do projeto que cria a Semana Nacional de Conscientização sobre a Cardiopatia Isquêmica e defende prevenção, diagnóstico e tratamento no SUS.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As doenças das válvulas do coração precisam de atendimento adequado no SUS em prevenção, diagnóstico e tratamento.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b053c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei nº 3.811, de 2019, precisa ser aprovado e as doenças das válvulas exigem prevenção, diagnóstico e tratamento",
+     "plain": "Ressalto a importância de aprovar o Projeto de Lei nº 3.811, de 2019, que cria a Semana Nacional de Conscientização sobre a Cardiopatia Isquêmica. E as doenças das válvulas do coração precisam de prevenção, diagnóstico e tratamento no SUS."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 47,
+   "from_claim": "b005c2",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "A presidência endossa a queixa de que não há preocupação com o envelhecimento e estende a crítica à equipe de transição do Governo."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 18,
+   "from_claim": "b015c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "A presidência aceita a crítica da indústria à Tabela SUS e acrescenta que ela não é atualizada há duas décadas."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 3,
+   "from_claim": "b016c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "O cardiologista mostra, nas doenças das válvulas, o efeito concreto do envelhecimento que o gerontólogo tinha projetado."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 21,
+   "from_claim": "b017c1",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A presidência confirma que o procedimento feito por cateter, sem abrir o peito, é melhor para o paciente idoso."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 15,
+   "from_claim": "b018c3",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "O instituto traz o crescimento das doenças das válvulas para reforçar o quadro da estenose aórtica descrito pelo cardiologista."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 9,
+   "from_claim": "b018c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O instituto retoma o alerta sobre a falta de informação e pede ação para que o idoso chegue ao diagnóstico e ao tratamento."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 10,
+   "from_claim": "b019c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "A presidência acrescenta a atenção primária ao apelo por acolhimento e diagnóstico rápido feito pelo instituto."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 2,
+   "from_claim": "b020c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O cardiologista detalha por faixa de idade a mesma constatação de que as doenças do coração são a principal causa de morte."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 40,
+   "to_sentence": 20,
+   "from_claim": "b020c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "Para os dois, incorporar a tecnologia não basta: o idoso precisa ter acesso garantido a ela."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 10,
+   "from_claim": "b020c2",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "Os dois cobram que o paciente idoso receba o mesmo empenho no diagnóstico e no tratamento que se dá ao paciente jovem."
+  },
+  {
+   "from": "b021",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 40,
+   "from_claim": "b021c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "A presidência assume a questão do acesso levantada pelo cardiologista e a transforma em crítica à regulação do SUS."
+  },
+  {
+   "from": "b022",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 17,
+   "to_sentence": 21,
+   "from_claim": "b022c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "À acusação de que a tabela nivela tudo por baixo, a secretária responde com a lista de reajustes feitos desde 2020."
+  },
+  {
+   "from": "b022",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 34,
+   "to_sentence": 27,
+   "from_claim": "b022c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "A secretária rebate o pedido de eliminar os preços dizendo que a tabela é só valor de referência nacional e não serve para contrato de prestador."
+  },
+  {
+   "from": "b022",
+   "to": "b015",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 4,
+   "from_claim": "b022c1",
+   "to_claim": "b015c1",
+   "strength": "media",
+   "note": "Contra a afirmação de que a tabela não é atualizada há vinte anos, a secretária cita os procedimentos reajustados neste ano."
+  },
+  {
+   "from": "b022",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 10,
+   "from_claim": "b022c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "A secretária adere ao ponto do gerontólogo sobre prevenção e cuidado contínuo articulado com a atenção primária."
+  },
+  {
+   "from": "b046",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 10,
+   "from_claim": "b046c2",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "O gerontólogo soma-se ao apelo por ação e diz que esse papel de pressão cabe à sociedade civil."
+  },
+  {
+   "from": "b046",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 33,
+   "from_claim": null,
+   "to_claim": null,
+   "strength": "media",
+   "note": "À dificuldade de encontrar estudos sobre idosos em instituições de longa permanência, ele se oferece para facilitar esses dados."
+  },
+  {
+   "from": "b052",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 31,
+   "to_sentence": 18,
+   "from_claim": "b052c2",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "À crítica de que o programa pulou etapas, a secretária mostra como o custeio por nível de desempenho foi montado e pactuado."
+  },
+  {
+   "from": "b052",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 20,
+   "from_claim": "b052c1",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "É dentro da rede de alta complexidade do programa que o implante de válvula por cateter apresentado pelo cardiologista passou a ser ofertado."
+  },
+  {
+   "from": "b052",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 43,
+   "from_claim": "b052c1",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "A secretária detalha a rede e os indicadores do programa que o cardiologista tinha apontado como a aposta certa em métricas."
+  },
+  {
+   "from": "b053",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 15,
+   "from_claim": "b053c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "A presidência retoma as doenças das válvulas mostradas pelo cardiologista e pede prevenção, diagnóstico e tratamento pelo SUS."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b005",
+    "b018",
+    "b020",
+    "b046"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c3",
+    "b005c2",
+    "b018c2",
+    "b020c1",
+    "b046c1",
+    "b046c2"
+   ],
+   "note": "O gerontólogo, o instituto de pacientes, a Sociedade Brasileira de Cardiologia e a presidência da comissão concordam que o envelhecimento já está em curso e exige políticas próprias para a pessoa idosa."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b005",
+    "b018",
+    "b019",
+    "b022"
+   ],
+   "claims": [
+    "b004c2",
+    "b005c1",
+    "b018c1",
+    "b019c1",
+    "b022c3"
+   ],
+   "note": "O Ministério da Saúde, a presidência da comissão, o gerontólogo e o instituto de pacientes concordam que prevenção, informação e atenção primária precisam vir antes do tratamento de alta complexidade."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b014",
+    "b015"
+   ],
+   "claims": [
+    "b014c1",
+    "b014c2",
+    "b014c3",
+    "b015c1",
+    "b015c2"
+   ],
+   "note": "A associação da indústria de equipamentos e a presidência da comissão concordam que os valores da Tabela SUS estão defasados e travam o atendimento nos hospitais."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b016",
+    "b017",
+    "b018"
+   ],
+   "claims": [
+    "b016c1",
+    "b016c2",
+    "b016c3",
+    "b017c1",
+    "b018c3"
+   ],
+   "note": "Os cardiologistas, o instituto de pacientes e a presidência da comissão concordam que os tratamentos feitos por cateter beneficiam o idoso e devem chegar ao SUS."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b020",
+    "b052"
+   ],
+   "claims": [
+    "b020c3",
+    "b052c1",
+    "b052c2",
+    "b052c3"
+   ],
+   "note": "A Sociedade Brasileira de Cardiologia e o Ministério da Saúde concordam que medir o desempenho dos hospitais é o caminho para melhorar a qualidade da assistência."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b020",
+    "b021",
+    "b053"
+   ],
+   "claims": [
+    "b020c2",
+    "b021c1",
+    "b021c2",
+    "b053c1"
+   ],
+   "note": "A Sociedade Brasileira de Cardiologia e a presidência da comissão concordam que o gargalo é fazer a pessoa idosa chegar ao serviço e à tecnologia, com regulação e fila sob controle."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b014",
+   "sentence": 27,
+   "addressed_to": "governo",
+   "answered_by": "b022",
+   "gist": "que se eliminem os preços da tabela para os dispositivos do programa",
+   "plain": "Os preços da Tabela SUS podem sair dos dispositivos do programa, deixando o gestor local comprar?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b021",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como o Ministério vai resolver a regulação e a fila",
+   "plain": "De que maneira o Ministério vai agir para melhorar a regulação e reduzir a fila do SUS?",
+   "theme": "d6",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b022",
+   "sentence": 32,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "se o Congresso vai reescrever a lei do SUS",
+   "plain": "Os parlamentares vão reescrever a lei do SUS, depois de tantas inclusões feitas ao longo dos anos?",
+   "theme": "d3",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 2,
+   "gist": "30% das mortes no Brasil são cardiovasculares",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 18,
+   "gist": "em 2050 o Brasil terá 68 milhões nesse grupo de risco",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b014",
+   "sentence": 10,
+   "gist": "a Abimed reúne cerca de 200 associadas e 65% do mercado",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b015",
+   "sentence": 4,
+   "gist": "a tabela do SUS não é atualizada há 20 anos",
+   "disputed_by": [
+    {
+     "fala": "b022",
+     "sentence": 18
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "fala": "b016",
+   "sentence": 11,
+   "gist": "hoje são cerca de 30 milhões de pessoas com 60 anos ou mais",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b016",
+   "sentence": 17,
+   "gist": "a cirurgia convencional da válvula tem mortalidade de até 15%",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b018",
+   "sentence": 20,
+   "gist": "a mesma carga demográfica ocorre no Brasil entre 2011 e 2031",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b018",
+   "sentence": 38,
+   "gist": "a estenose aórtica cresceu 201,8% no período",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b020",
+   "sentence": 7,
+   "gist": "a doença isquêmica é a principal causa de morte após os 45",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b022",
+   "sentence": 18,
+   "gist": "mais de 200 procedimentos reajustados de janeiro a junho de 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b052",
+   "sentence": 34,
+   "gist": "o aporte federal ao programa já superou 500 milhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b052",
+   "sentence": 55,
+   "gist": "191 centros habilitados dos 215 pré-classificados",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil",
+   "setor_privado",
+   "governo"
+  ],
+  "angle": "A matéria escolheu o contraste entre os benefícios esperados do novo programa para a população idosa e a queixa da indústria sobre a defasagem da tabela de preços do SUS.",
+  "omitted": "Ficaram de fora o desenho detalhado do programa apresentado pelo Ministério, com os centros habilitados e o pagamento por níveis de desempenho, e toda a discussão sobre fila e regulação."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem política para o envelhecimento, a conquista vira crise",
+   "statement_plain": "O Brasil envelhece depressa e, sem políticas próprias para a pessoa idosa, a maior conquista social do último século vira um problema grave.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b005c2",
+    "b018c2",
+    "b046c2",
+    "b020c1"
+   ],
+   "note": "A ideia junta um gerontólogo, um instituto de pacientes, a Sociedade Brasileira de Cardiologia e a presidência da comissão, que vêm de lugares diferentes e não formam um bloco."
+  },
+  {
+   "id": "t2",
+   "title": "Prevenção e atenção primária antes do procedimento",
+   "statement_plain": "O que mais muda a saúde do coração é prevenção, informação e atenção primária desde cedo, e não apenas o tratamento de quem já adoeceu.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b005c1",
+    "b018c1",
+    "b019c1",
+    "b022c3"
+   ],
+   "note": "Aqui o Ministério da Saúde fica do mesmo lado da presidência da comissão e das entidades da sociedade civil, apesar de divergir delas sobre dinheiro."
+  },
+  {
+   "id": "t3",
+   "title": "A tabela de preços do SUS trava o atendimento",
+   "statement_plain": "Os preços da Tabela SUS estão defasados e nivelam tudo por baixo. Eles deveriam sair dos dispositivos do programa, com autonomia para o gestor local comprar.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b014c2",
+    "b014c3",
+    "b015c1",
+    "b015c2"
+   ],
+   "note": "A ideia cruza a associação da indústria de equipamentos e a presidência da comissão, que é deputado e médico, do lado de quem quer tirar os preços da tabela."
+  },
+  {
+   "id": "t4",
+   "title": "Medir desempenho é o caminho, a tabela é só referência",
+   "statement_plain": "Medir o desempenho dos hospitais e pagar melhor quem cuida melhor é o caminho. A tabela é apenas o valor de referência do dinheiro federal, não um preço de contrato.",
+   "core_theme": "d5",
+   "positions": {
+    "d3": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b022c1",
+    "b022c2",
+    "b052c2",
+    "b020c3"
+   ],
+   "note": "A ideia opõe o Ministério da Saúde à indústria de equipamentos na tabela e, ao mesmo tempo, junta o Ministério e a Sociedade Brasileira de Cardiologia na aposta em métricas."
+  },
+  {
+   "id": "t5",
+   "title": "Tecnologia por cateter tem de chegar ao idoso no SUS",
+   "statement_plain": "Procedimentos feitos por cateter, pela virilha e sem cirurgia aberta, tratam idosos que não aguentam operar. O SUS precisa incorporá-los e garantir acesso a eles.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b016c2",
+    "b016c3",
+    "b017c1",
+    "b018c3",
+    "b020c2"
+   ],
+   "note": "A ideia junta dois cardiologistas, um instituto de pacientes e a presidência da comissão, que é médico, e por isso não corresponde a um setor só."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "QualiSUS Cardio",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "programa do Ministério da Saúde que avalia os hospitais do SUS na área do coração e paga mais a quem tem melhor resultado"
+  },
+  {
+   "term": "letramento",
+   "fala": "b004",
+   "sentence": 8,
+   "plain": "capacidade de entender informações de saúde e usá-las no dia a dia para cuidar de si"
+  },
+  {
+   "term": "morbidade",
+   "fala": "b004",
+   "sentence": 20,
+   "plain": "o quanto uma doença adoece e limita as pessoas, e não apenas quantas ela mata"
+  },
+  {
+   "term": "tabela SUS",
+   "fala": "b014",
+   "sentence": 18,
+   "plain": "lista oficial com os valores que o Ministério da Saúde paga por cada procedimento e material feito no SUS"
+  },
+  {
+   "term": "SIGTAP",
+   "fala": "b014",
+   "sentence": 22,
+   "plain": "sistema do Ministério da Saúde que gerencia a Tabela SUS, com os códigos e os valores de cada procedimento"
+  },
+  {
+   "term": "OPMEs",
+   "fala": "b014",
+   "sentence": 27,
+   "plain": "sigla de órteses, próteses e materiais especiais, os dispositivos implantados no paciente, como válvulas e clipes"
+  },
+  {
+   "term": "TAVI",
+   "fala": "b016",
+   "sentence": 20,
+   "plain": "implante de válvula aórtica feito por cateter, pela virilha, sem precisar abrir o peito do paciente"
+  },
+  {
+   "term": "estenose aórtica",
+   "fala": "b016",
+   "sentence": 15,
+   "plain": "quando a válvula aórtica do coração endurece e não abre direito, o que dificulta a saída do sangue"
+  },
+  {
+   "term": "insuficiência mitral",
+   "fala": "b016",
+   "sentence": 53,
+   "plain": "quando a válvula mitral não fecha direito e o sangue volta para trás dentro do coração"
+  },
+  {
+   "term": "MitraClip",
+   "fala": "b016",
+   "sentence": 57,
+   "plain": "clipe implantado por cateter que aproxima as duas partes da válvula mitral e reduz o refluxo de sangue"
+  },
+  {
+   "term": "tripartite",
+   "fala": "b022",
+   "sentence": 20,
+   "plain": "dividido entre os três níveis de governo, ou seja, União, Estados e Municípios"
+  },
+  {
+   "term": "ILPIs",
+   "fala": "b046",
+   "sentence": 10,
+   "plain": "instituições de longa permanência para idosos, as casas onde pessoas idosas moram com cuidado permanente"
+  },
+  {
+   "term": "IC Cardio",
+   "fala": "b052",
+   "sentence": 12,
+   "plain": "índice combinado criado pelo programa, que junta indicadores de qualidade para dar uma nota a cada hospital"
+  },
+  {
+   "term": "FAEC",
+   "fala": "b052",
+   "sentence": 19,
+   "plain": "fundo federal usado para pagar procedimentos estratégicos fora do teto comum de média e alta complexidade"
+  },
+  {
+   "term": "Registro Nacional de Implantes",
+   "fala": "b052",
+   "sentence": 25,
+   "plain": "banco de dados nacional em que os hospitais informam os implantes feitos em cada paciente"
+  }
+ ]
+}

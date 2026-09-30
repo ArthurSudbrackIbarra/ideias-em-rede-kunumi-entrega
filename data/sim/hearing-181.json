@@ -1,0 +1,2118 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 181,
+ "model": "LLM lendo o prompt hearing-181 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:45:08Z",
+ "prompt_sha256": "4737a1eee16db1ed48fb8a565ef79b7525d6c7106eecf3350535c40d17176e5d",
+ "sentences_hash": "4946cc488cdab192",
+ "review": {
+  "pairs_read": 41,
+  "pairs_fixed": 11
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa ouviu o Ministério da Saúde, a coordenação estadual de São Paulo, a OPAS, a sociedade de pneumologia e associações de pacientes sobre o Programa Nacional de Controle do Tabagismo, um dia depois do Dia Nacional de Combate ao Fumo. Os convidados mostraram que o Brasil derrubou o número de fumantes e alertaram que o cigarro eletrônico ameaça esse resultado. Também cobraram imposto mais alto, fiscalização da venda, medicamentos no SUS e atualização do protocolo da DPOC.",
+ "stakes": "Definir que medidas o Congresso vai apoiar para manter a queda no número de fumantes: manter a proibição do cigarro eletrônico, aprovar o imposto seletivo e o projeto dos aditivos, e garantir tratamento no SUS.",
+ "central_question": "Como o Brasil mantém a queda no número de fumantes diante do avanço do cigarro eletrônico?",
+ "synopsis_plain": "O Brasil é um dos países que mais reduziu o número de fumantes, com leis, impostos e tratamento de graça no SUS. Nesta audiência, médicos, governo, a OPAS e associações de pacientes disseram que o cigarro eletrônico, proibido mas vendido em qualquer lugar, ameaça esse resultado e já chega a adolescentes. Eles pediram fiscalização, imposto mais alto e remédios e exames para quem adoeceu.",
+ "stakes_plain": "Saber que medidas os deputados vão apoiar para o número de fumantes continuar caindo: manter a proibição do cigarro eletrônico, cobrar mais imposto do tabaco e garantir tratamento.",
+ "central_question_plain": "Como o Brasil faz o número de fumantes continuar caindo se o cigarro eletrônico está em todo lugar?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Cigarro eletrônico e sua proibição",
+   "description": "Discute-se o que fazer com o cigarro eletrônico, que a ANVISA proíbe vender no País e que, mesmo assim, se compra em qualquer esquina e já chega a adolescentes.",
+   "axis": {
+    "pro": "A proibição do cigarro eletrônico deve ser mantida e fiscalizada, porque o produto cria novos dependentes de nicotina.",
+    "contra": "O produto deveria ser liberado e regulado, com o argumento de que reduz os danos do cigarro comum.",
+    "pro_plain": "A proibição tem de continuar e ser fiscalizada, porque o produto vicia e já está na mão de adolescentes.",
+    "contra_plain": "O produto deveria ser liberado e regulado, porque faria menos mal do que o cigarro comum."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Liderança do Brasil no controle do tabaco",
+   "description": "Trata do que o Brasil conquistou desde os anos 80 na redução do número de fumantes, se esse resultado é uma referência para outros países e se ele está ameaçado.",
+   "axis": {
+    "pro": "O Brasil é referência mundial no controle do tabaco e deve honrar esse papel, que nenhum outro país alcançou.",
+    "contra": "O avanço está ameaçado, porque os novos produtos criam uma geração de dependentes e a curva pode voltar a subir.",
+    "pro_plain": "O Brasil é exemplo no mundo por ter derrubado o número de fumantes e precisa manter esse papel.",
+    "contra_plain": "O que se ganhou está em risco, porque os produtos novos estão viciando crianças e jovens."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Preço e impostos do tabaco",
+   "description": "Discute-se se aumentar preço e imposto do cigarro é a medida que mais reduz o consumo e se o imposto seletivo da reforma tributária deve valer para os produtos de tabaco.",
+   "axis": {
+    "pro": "Aumentar preço e imposto é a medida mais efetiva para reduzir o consumo, e o imposto seletivo deve alcançar o tabaco.",
+    "contra": "Aumentar o preço do cigarro empurra o consumidor para o mercado ilegal, que já é enorme no País.",
+    "pro_plain": "Cigarro mais caro é o que mais faz gente parar de fumar, então o imposto tem de subir.",
+    "contra_plain": "Cigarro mais caro empurra as pessoas para o produto contrabandeado, que já está em todo lugar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Mercado ilícito e fiscalização",
+   "description": "Trata do cigarro contrabandeado, sobretudo o que entra do Paraguai, e de quem é responsável por ele, e também da fiscalização das normas que já existem.",
+   "axis": {
+    "pro": "Sem combater o contrabando e fiscalizar a venda, as normas de saúde que já existem não funcionam.",
+    "contra": "O argumento do contrabando é usado para travar medidas de saúde, e a cadeia produtiva é da própria indústria brasileira.",
+    "pro_plain": "Enquanto entra cigarro contrabandeado e ninguém fiscaliza a venda, as regras de saúde não valem nada.",
+    "contra_plain": "O medo do contrabando serve para travar medidas de saúde, e a folha de tabaco sai daqui mesmo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Tratamento e acesso no SUS",
+   "description": "Discute-se se o tratamento do tabagismo e da DPOC chega de fato à pessoa no SUS, com remédio, exame, diagnóstico e protocolo atualizado.",
+   "axis": {
+    "pro": "O SUS já oferece de graça tratamento que poucos países oferecem, e o programa é um patrimônio a fortalecer.",
+    "contra": "O tratamento não chega ao paciente: faltam medicamento, exame, diagnóstico na atenção primária e protocolo atualizado.",
+    "pro_plain": "O SUS trata de graça quem quer parar de fumar, e poucos países no mundo fazem isso.",
+    "contra_plain": "Na prática falta remédio, falta exame e o paciente não é diagnosticado nem chega ao especialista."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Prevenção e iniciação dos jovens",
+   "description": "Trata de como evitar que crianças e jovens comecem a fumar, com informação nas escolas, proibição de aromas e sabores e controle da propaganda.",
+   "axis": {
+    "pro": "Prevenir a iniciação com escola, campanha e proibição de aromas e sabores é o que evita a próxima geração de dependentes.",
+    "contra": "Basta avisar do risco no maço e tratar quem já adoeceu, sem novas restrições ao produto.",
+    "pro_plain": "O caminho é falar com os jovens na escola e proibir os sabores que fazem o produto parecer doce.",
+    "contra_plain": "Basta o aviso no maço e o tratamento de quem já ficou doente, sem proibir mais nada."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Custos do tabagismo",
+   "description": "Trata do que o tabagismo custa em mortes, internações, afastamentos e dinheiro, e de como isso se compara com o que se arrecada de imposto do setor.",
+   "axis": {
+    "pro": "O tabagismo custa muito mais do que arrecada e o peso cai sobre o SUS, a previdência e as famílias.",
+    "contra": "A arrecadação e os empregos do setor compensam os gastos que ele gera na saúde.",
+    "pro_plain": "O cigarro custa ao País muito mais do que rende de imposto, e a conta fica com o SUS e as famílias.",
+    "contra_plain": "O imposto e os empregos do setor pagariam o que ele gera de gasto na saúde."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "deputado federal e médico, presidiu a audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "registro 'Presidente' na ata e a menção aos Requerimentos nº 25 e 26, de 2023, de sua autoria em b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa dos Direitos da Pessoa Idosa, da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Chefe da Divisão do Programa Nacional de Controle do Tabagismo",
+   "org": "INCA, Ministério da Saúde",
+   "basis": "apresentada pela presidência em b001.6 e por ela mesma em b019.2",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do INCA, do Ministério da Saúde",
+   "org_plain": "Instituto Nacional de Câncer, órgão federal que coordena o programa contra o tabagismo"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenadora Estadual do Programa Nacional de Controle do Tabagismo em São Paulo",
+   "org": "Programa Nacional de Controle do Tabagismo em São Paulo",
+   "basis": "apresentada pela presidência em b001.8 e em b003.16",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "coordenadora do programa antitabagismo em São Paulo",
+   "org_plain": "equipe que coordena no Estado de São Paulo o programa público de combate ao cigarro"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "médica pneumologista, Presidente da Sociedade Brasileira de Pneumologia e Tisiologia",
+   "org": "SBPT",
+   "basis": "apresentada pela presidência em b001.9 e em b005.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Sociedade Brasileira de Pneumologia e Tisiologia",
+   "org_plain": "entidade que reúne os médicos especialistas em pulmão no Brasil"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora-Geral da ACT Promoção da Saúde",
+   "org": "ACT Promoção da Saúde",
+   "basis": "apresentada pela presidência em b001.10 e em b009.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ACT Promoção da Saúde",
+   "org_plain": "organização que defende políticas contra o cigarro, o álcool e a má alimentação"
+  },
+  "s06": {
+   "role": "convidado",
+   "cargo": "Oficial Nacional de Controle de Tabaco e Impostos Saudáveis da OPAS/OMS no Brasil",
+   "org": "OPAS/OMS",
+   "basis": "apresentado pela presidência em b001.7 e em b011.8. Representa um organismo internacional, que não cabe nos outros papéis da lista",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da OPAS/OMS no Brasil",
+   "org_plain": "Organização Pan-Americana da Saúde, o braço da Organização Mundial da Saúde nas Américas"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor-Executivo da associação Crônicos do Dia a Dia",
+   "org": "Crônicos do Dia a Dia",
+   "basis": "apresentado pela presidência em b001.12 e por ele mesmo em b017.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação Crônicos do Dia a Dia",
+   "org_plain": "associação que reúne pessoas com doenças crônicas, entre elas a doença pulmonar obstrutiva crônica"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   }
+  ],
+  "basis": "sem lista de delegações e sem registro de palmas na ata. A presidência só agradece a presença de todos em b001.13, e parte dos convidados participa por vídeo",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Abre a audiência sobre o Programa Nacional de Controle do Tabagismo e mostra as mortes causadas pelo tabaco e o peso da DPOC nas internações e no gasto do SUS.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O tabagismo mata e custa caro ao SUS, e o Programa Nacional de Controle do Tabagismo precisa ser apoiado e fortalecido.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 8 milhões de pessoas morrem por ano pelo tabaco, e mais de 1,2 milhão delas por ser fumante passivo",
+     "plain": "Mais de 8 milhões de pessoas morrem por ano por causa de produtos derivados do tabaco. Mais de 7 milhões por consumir e mais de 1,2 milhão por respirar a fumaça dos outros."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a DPOC atinge cerca de 17% da população e gera cerca de 200 mil internações e 103 milhões de reais de gasto por ano",
+     "plain": "Aqui essa doença alcança cerca de 17% da população. Para o SUS, é a quinta maior causa de internação de quem passou dos 40 anos, com cerca de 200 mil hospitalizações e gasto de 103 milhões de reais por ano."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a luta contra o tabagismo exige governos, instituições de saúde, organizações não governamentais e população unidos",
+     "plain": "A luta contra o tabagismo exige o engajamento de todos os setores. Governos, instituições de saúde, organizações não governamentais e a população precisam se unir em torno da promoção da saúde."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apresenta o Programa Nacional de Controle do Tabagismo, mostra o custo do cigarro para o País e explica como funciona o tratamento gratuito no SUS.",
+   "quote": [
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Programa Nacional de Controle do Tabagismo oferece tratamento no SUS e precisa seguir reduzindo o número de usuários de tabaco.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      7
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tabagismo mata 443 pessoas por dia no Brasil e é a maior causa isolada evitável de morte precoce no mundo",
+     "plain": "No Brasil, o tabagismo mata 443 pessoas por dia. Ele é fator de risco para doenças do coração e para a doença pulmonar obstrutiva crônica, entre outras, e é a maior causa evitável de morte precoce no mundo."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os danos do cigarro custam mais de 125 bilhões de reais e o imposto do tabaco cobre só 10% dessa perda",
+     "plain": "A balança pesa contra o SUS e a sociedade: os danos do cigarro nos custam mais de 125 bilhões de reais. O que se arrecada de imposto do tabaco cobre só 10% do que o País perde."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o paciente procura a unidade de saúde do seu Município e o programa oferece capacitação e medicamentos gratuitos",
+     "plain": "O paciente deve buscar, na sua cidade, o posto de saúde mais perto que faz esse atendimento. O Ministério da Saúde, o INCA e o programa dão formação às equipes, visitas técnicas, material e remédio de graça a quem precisa."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lembra que a OMS reconheceu a queda no uso de tabaco no Brasil e relata que muita gente ainda fuma em ambiente fechado, infringindo a lei.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As leis brasileiras derrubaram o uso do tabaco, mas a proibição de fumar em ambiente fechado ainda é descumprida.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      2
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Organização Mundial da Saúde reconheceu o Brasil como um dos países que reduziram em 40% o uso do tabaco",
+     "plain": "A Organização Mundial da Saúde já reconheceu o Brasil como um dos países que conseguiram derrubar em 40% o uso do tabaco."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "muita gente acha que qualquer área coberta é ambiente aberto e fuma onde a lei proíbe, mesmo havendo multa",
+     "plain": "Muita gente pensa que ambiente aberto é qualquer lugar com uma cobertura pequena. Na prática, algumas pessoas descumprem a lei, e há multa para isso, mas elas não acreditam."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Detalha os riscos do programa em São Paulo, do mercado ilegal à falta de recursos e de medicamento, e alerta para a explosão do cigarro eletrônico entre jovens.",
+   "quote": [
+    88,
+    89
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": 30,
+   "stance": {
+    "position": "condicional",
+    "claim": "O programa ganhou uma portaria nacional, mas sem recursos previstos no orçamento e sem medicamento a política não se sustenta.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      24
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cigarro contrabandeado tem mais nicotina e provoca uma abstinência mais intensa, difícil de manejar",
+     "plain": "Mapeamos as rodovias com mais apreensões do mercado ilegal em São Paulo. Quem fuma cigarro contrabandeado usa um produto com mais nicotina, o que dá uma abstinência muito mais intensa e difícil de os nossos profissionais manejarem."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      73,
+      74,
+      75
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os recursos são escassos, falta previsão no orçamento e houve dificuldade na compra do medicamento para parar de fumar",
+     "plain": "Na parte financeira, o risco é recurso escasso e falta de previsão no orçamento. Quem tem transtorno mental não pode usar a bupropiona, e este ano tivemos dificuldade para comprar esse remédio na licitação."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      88,
+      89
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "25% dos jovens de 18 a 24 anos experimentaram cigarro eletrônico no ano passado e neste ano a prevalência subiu 20%",
+     "plain": "No ano passado, no Brasil, 25% dos jovens de 18 a 24 anos usaram cigarro eletrônico pela primeira vez. Neste ano a prevalência subiu 20%, praticamente dobrou."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra as antigas propagandas de cigarro na televisão e passa a palavra a Margareth Dalcolmo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Cobra a volta de medicamentos ao SUS, relata adolescentes com o pulmão danificado pelo cigarro eletrônico e alerta que a venda livre cria novos dependentes.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10
+   ],
+   "open_question": 17,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A venda livre de cigarro eletrônico no Brasil precisa ser contida, porque está formando uma nova geração de dependentes de nicotina.",
+    "sentence": 49
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "aproximadamente 25 milhões de brasileiros dependem dessa medicação, que não deveria seguir na lista de alto custo",
+     "plain": "Aproximadamente 25 milhões de brasileiros usam essa medicação todos os dias e dependem dela. Não faz sentido que ela siga na lista de alto custo. Dependendo de onde mora, a pessoa gasta mais na passagem para buscar o remédio do que nele."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "chegam ao consultório adolescentes de 12, 13 e 14 anos com o pulmão danificado como o de quem fuma há muito tempo aos 80",
+     "plain": "Atendo cada vez mais adolescentes de 12, 13 e 14 anos, trazidos pelos pais com sintomas sérios no pulmão, alguns com dano como o de quem fuma há muito tempo aos 80 anos. A venda sem fiscalização cria legiões de dependentes."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      39
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o número de fumantes caiu de 35% para 9,1% e, ao mesmo tempo, se criam legiões de jovens dependentes",
+     "plain": "O número de fumantes no País caiu de 35% para 9,1%. E, ao mesmo tempo, estamos criando legiões de adolescentes, de crianças e de jovens que ficarão dependentes."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que se tome providência contra o cigarro eletrônico e relata que a incidência nas ruas está altíssima.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso tomar providência contra o cigarro eletrônico, que já se vê em toda parte.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso tomar providência contra o cigarro eletrônico, cuja incidência nas ruas está altíssima",
+     "plain": "Eu acho que precisamos tomar providência em relação ao cigarro eletrônico. Andando pelas ruas, vemos que a incidência está altíssima."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Informa a estimativa de 2 milhões de jovens usando cigarros eletrônicos no Brasil.",
+   "quote": [
+    0
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Já existe estimativa de 2 milhões de jovens usando cigarro eletrônico no País.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "já há estimativa de 2 milhões de jovens usando cigarros eletrônicos no Brasil",
+     "plain": "Deputado, a nossa estimativa é de que 2 milhões de jovens já usam cigarro eletrônico no Brasil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Diz que o cigarro eletrônico virou moda entre jovens e propõe levar o esclarecimento às escolas, com o Ministério da Educação.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A escola é o lugar de alertar os jovens sobre o mal que o cigarro eletrônico causa.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "entre os jovens o cigarro eletrônico vai virando moda, e por isso é preciso tomar providências",
+     "plain": "Nós temos que tomar providências, sim, porque no meio jovem isso vai virando moda, eles acham bonito."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cabe às escolas e aos professores orientar, e o Ministério da Educação pode ajudar a alertar os jovens sobre o mal que isso causa",
+     "plain": "A escola também tem de orientar. O programa existe, mas os professores precisam se dedicar a isso. Podíamos levar o esclarecimento às escolas, com o Ministério da Educação, e mostrar aos jovens o mal que isso causa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que preço e imposto são a medida que mais reduz o consumo, nega a ligação direta com o mercado ilegal e defende manter a proibição do cigarro eletrônico.",
+   "quote": [
+    29,
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O imposto sobre o tabaco precisa ser reajustado e o imposto seletivo da reforma tributária deve alcançar os produtos de tabaco.",
+    "sentence": 42
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a arrecadação cobre só 10% das perdas, e a política de preços respondeu por mais da metade da queda de fumantes entre 1989 e 2015",
+     "plain": "O imposto arrecadado cobre só 10% das perdas que o tabagismo traz ao País, uma balança desigual. E a política de preço e imposto é a que mais funciona: respondeu por mais de metade da queda de fumantes entre 1989 e 2015."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não há relação direta entre preço e mercado ilícito, e países com preços bem mais altos que os do Brasil têm menos contrabando",
+     "plain": "Um trabalho de 2019 sobre impostos do tabaco no mundo mostrou que preço e mercado ilegal não têm relação direta. Pesam o combate ao ilegal e as apreensões, e países com preço bem mais alto que o nosso têm menos contrabando."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o discurso de redução de danos já foi usado de forma enganosa nos cigarros light, e onde o eletrônico é liberado o consumo de jovens cresceu",
+     "plain": "O discurso de fazer menos mal já foi usado de forma enganosa com os cigarros light, que depois se mostraram não menos nocivos. Onde o eletrônico foi liberado, em muitos casos o consumo por jovens subiu: 78% em 1 ano nos Estados Unidos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência comenta o peso dos sabores e das advertências no maço e passa a palavra a Diogo Alves.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra o custo mundial do tabagismo, lembra que poucos países oferecem tratamento gratuito como o Brasil e destaca a queda de prevalência que nenhum outro país alcançou.",
+   "quote": [
+    50,
+    51,
+    52
+   ],
+   "covered": true,
+   "evidence": [
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O programa brasileiro de controle do tabaco é um patrimônio e precisa ser sempre fortalecido.",
+    "sentence": 52
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tabagismo custa 125 bilhões de reais no Brasil e 1,4 trilhão no mundo, quase a produção de seis países em 1 ano",
+     "plain": "O gasto é de 125 bilhões de reais no Brasil e de 1,4 trilhão no mundo. É quase tudo o que Brasil, Argentina, Uruguai, Paraguai, Bolívia e Equador produzem em 1 ano."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      50,
+      51,
+      52
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "apenas 36 países oferecem tratamento como o Brasil, e na Ásia o paciente gasta cinco vezes a renda mensal para se tratar",
+     "plain": "Apenas 36 países no mundo oferecem tratamento à população como o Brasil, com remédio e reposição de nicotina. Na Ásia, quem precisa gasta do bolso cinco vezes a renda de um mês. Esse programa é um patrimônio e precisa ser fortalecido."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      64,
+      65,
+      66
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "hoje a prevalência no Brasil estaria em torno de 10%, e nenhum outro país conseguiu uma redução de 65% como essa",
+     "plain": "Hoje a prevalência no Brasil estaria em torno de 10%. Como a Dra. Margareth já disse, nenhum outro país conseguiu uma redução assim, de 65%."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta a incoerência de o Paraguai assinar a convenção e ser o maior fornecedor de cigarro contrabandeado para o Brasil.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país vizinho que assinou a convenção é o maior fornecedor de cigarro contrabandeado para o Brasil.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Paraguai assinou a convenção e é o maior fornecedor de cigarro contrabandeado para o Brasil, o que é uma incoerência",
+     "plain": "Achei interessante o senhor dizer que o Paraguai assinou a convenção, porque é dele que vem o maior volume de cigarro contrabandeado para cá. É uma incoerência muito grande."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Contrapõe a maior taxa de imposto do Brasil à mais baixa do Paraguai e diz que o contrabando que entra hoje é inusitado.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Imposto baixíssimo sobre o cigarro estimula o uso, e o contrabando que entra do país vizinho é enorme.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil tem a maior taxa de imposto sobre o cigarro e o Paraguai a mais baixa, o que estimula o uso",
+     "plain": "O Brasil tem a maior taxa de imposto do cigarro e o Paraguai a mais baixa de todas. É um paradoxo que ele tenha adotado medidas, eu concordo. Imposto tão baixo é algo que estimula o uso do cigarro."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o que entra de contrabando de cigarro do Paraguai no Brasil hoje é algo inusitado",
+     "plain": "O volume de cigarro que entra contrabandeado do Paraguai hoje é algo inusitado."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra que é o Brasil que fornece a folha de tabaco ao Paraguai e que as indústrias que reclamam do mercado ilegal detêm a cadeia produtiva.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As próprias indústrias que reclamam do mercado ilegal são as donas da cadeia produtiva do tabaco no Brasil.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é o Brasil que fornece a folha para o Paraguai produzir, e as indústrias que reclamam do mercado ilegal detêm essa cadeia",
+     "plain": "Só complementando, Deputado: quem fornece a folha para o Paraguai produzir é o Brasil, e isso também precisa ser considerado. As mesmas indústrias que reclamam do mercado ilegal são donas da cadeia produtiva aqui."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Gustavo San Martin e avisa que o horário está apertado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b017",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Mostra o custo da DPOC para o País e relata que o paciente não é diagnosticado na atenção primária nem consegue chegar ao especialista.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O paciente com doença pulmonar obstrutiva crônica não consegue diagnóstico nem tratamento padronizado no SUS.",
+    "sentence": 43
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      13
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "12% da população brasileira fuma e, em 80% dos casos, a doença pulmonar obstrutiva crônica vem do tabagismo",
+     "plain": "Percebemos que 12% da população brasileira é fumante, e o tabagismo explica 80% dos casos da doença pulmonar obstrutiva crônica, que pode incapacitar e é a quinta maior causa de morte no Brasil."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tratamento da DPOC custa 16 bilhões de reais por ano, mais do que se arrecada, e isso com 70% de subdiagnóstico",
+     "plain": "Tratar a DPOC custa hoje 16 bilhões de reais por ano no Brasil, e o imposto arrecadado não chega a isso. E há 70% de subdiagnóstico: com só 30% dos doentes identificados, o custo já passa tudo o que se arrecada com cigarro."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "na unidade básica o paciente muitas vezes não é diagnosticado e, quando é, não consegue chegar ao especialista",
+     "plain": "Na unidade básica, muitas vezes o paciente não é diagnosticado e, quando é, não chega até o especialista. Em alguns Estados, até pouco tempo atrás, só quem era diagnosticado por especialista usava a medicação do SUS."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a palavra para considerações finais e avisa que o tempo já está estourado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada do INCA agradece a oportunidade e coloca o programa à disposição da Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se Margareth Dalcolmo quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b021",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede à Câmara ajuda para fiscalizar o cigarro eletrônico e lembra que quem o fabrica é a própria indústria do tabaco.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara precisa ajudar a garantir fiscalização do uso de cigarros eletrônicos para impedir novas legiões de doentes.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as apresentações têm um eixo comum: diagnosticar cedo, tratar e impedir novas legiões de doentes com fiscalização do cigarro eletrônico",
+     "plain": "As apresentações vão todas no mesmo eixo: diagnosticar cedo, tratar as doenças do tabagismo e impedir novas legiões de doentes, com fiscalização do uso de cigarros eletrônicos. É o pleito que faço a esta Casa."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem fabrica cigarro eletrônico é a indústria do tabaco, e essa é uma luta muito desigual",
+     "plain": "Como eu disse, a luta é muito desigual, porque quem fabrica o cigarro eletrônico é a própria indústria do tabaco. Precisamos tornar essa luta menos desigual, e só a união consegue isso."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata que a incidência entre jovens está muito alta porque a cor e o sabor dos cigarros eletrônicos chamam a atenção, e promete trabalhar em conjunto.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cor e o sabor dos cigarros eletrônicos atraem os jovens, e a Comissão vai trabalhar em conjunto contra isso.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a incidência entre os jovens está muito alta porque eles acham bonito, e a cor e o sabor chamam a atenção",
+     "plain": "A incidência entre os jovens está muito alta, porque eles acham bonito. O que chama a atenção é aquela coloração, o sabor, tudo isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Destaca o projeto de lei que trata dos aditivos e da proteção das crianças e coloca a organização à disposição da Comissão.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto de lei que veio do Senado protege as crianças e trata dos aditivos nos produtos de tabaco.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o PL 6.387/19, que veio do Senado, trata da proteção das crianças e dos aditivos dos produtos de tabaco",
+     "plain": "A Mônica já sinalizou um projeto importante, o PL 6.387/19, que veio do Senado e trata da proteção das crianças e dos aditivos, entre outros pontos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Informa que o projeto é de autoria de um senador de São Paulo e diz que às vezes é possível puxá-lo para a Câmara.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O projeto citado é de autoria de um senador de São Paulo e estaria tramitando no Senado.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o projeto é de autoria do Senador José Serra e estaria no Senado, de onde às vezes se consegue puxá-lo para a Câmara",
+     "plain": "Vejo aqui que o projeto é de autoria do Senador José Serra, de São Paulo, e que está no Senado. Às vezes conseguimos puxar um projeto desses para a Câmara."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Corrige a informação e explica que o projeto já foi aprovado no Senado e está numa comissão da Câmara, com nova numeração.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O projeto já foi aprovado no Senado e hoje tramita na Câmara, com nova numeração.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o projeto já foi aprovado no Senado, ganhou nova numeração ao chegar à Câmara e está na Comissão de Assuntos Econômicos",
+     "plain": "Na verdade, ele já foi aprovado no Senado. Quando chegou a esta Casa, ganhou essa nova numeração e, se não me engano, está hoje na Comissão de Assuntos Econômicos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra a Mônica Andreis por 1 minuto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b027",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende atuar fortemente na prevenção para desafogar o sistema de saúde e pede apoio do deputado para os projetos travarem menos na Câmara.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 5,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prevenção é o caminho, porque o impacto do tabagismo sobre o sistema de saúde é insustentável.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso atuar fortemente na prevenção, porque o impacto do tabagismo no sistema de saúde é insustentável",
+     "plain": "Precisamos atuar com força na prevenção, porque a situação é insustentável. Sabemos o peso que o tabagismo tem no sistema de saúde, e o que precisamos é desafogar esse sistema e ter mais recursos."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os projetos de lei de saúde têm muita dificuldade de avançar na Câmara e precisam do apoio dos deputados",
+     "plain": "Peço o seu apoio, Deputado, para avançar nesse projeto e em outros, porque os projetos de lei têm tido muita dificuldade de andar na Câmara. E peço que sensibilize os seus pares, para o Brasil seguir contendo o tabagismo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Gustavo San Martin.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede prevenção para reduzir o número de novos doentes e cobra do deputado a atualização do protocolo federal da DPOC.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 4,
+   "stance": {
+    "position": "contrario",
+    "claim": "Sem a atualização do protocolo federal da DPOC, o tratamento fica desigual entre os Estados e pacientes morrem.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é urgente prevenir e, enquanto isso não acontece, atualizar rápido o protocolo federal da doença pulmonar obstrutiva crônica",
+     "plain": "É urgente diminuir esse funil, que só cresce, de pessoas diagnosticadas com a doença do pulmão, e tratar bem quem já tem diagnóstico. Enquanto não prevenimos, peço que o senhor nos ajude a atualizar rápido o protocolo federal dessa doença."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há Estados que oferecem mais tratamento do que outros e pacientes morrendo, o que custa às famílias e ao SUS",
+     "plain": "Há Estados que oferecem mais tratamento do que outros, e pacientes morrendo, o que custa às famílias e ao sistema público de saúde. O seu apoio para atualizar o protocolo é fundamental."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados, convoca reunião deliberativa para 13 de setembro e encerra os trabalhos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 75,
+   "to_sentence": 36,
+   "from_claim": "b004c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O INCA diz que o programa entrega medicamento de graça a quem precisa, e a coordenação de São Paulo relata recursos escassos e dificuldade na licitação do remédio."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 73,
+   "from_claim": "b006c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "As duas apontam o mesmo gargalo. Uma fala do remédio para parar de fumar que faltou na licitação e a outra diz que os remédios do pulmão seguem na lista de alto custo."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 38,
+   "from_claim": "b007c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Ao relato dos adolescentes com o pulmão danificado, a presidência responde que é preciso tomar providência, porque a incidência nas ruas está altíssima."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "Ao comentário de que a incidência nas ruas está altíssima, a pneumologista dá o número: a estimativa é de 2 milhões de jovens usando cigarros eletrônicos."
+  },
+  {
+   "from": "b009",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 0,
+   "from_claim": "b009c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "A presidência confirma a estimativa com o que vê: entre os jovens o produto vai virando moda, e por isso é preciso tomar providências."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 11,
+   "from_claim": "b010c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "As duas usam o mesmo desequilíbrio: o imposto do tabaco cobre só 10% do que o País perde com o tabagismo."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 57,
+   "to_sentence": 38,
+   "from_claim": "b010c3",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Ao relato da médica sobre adolescentes doentes, a ONG soma o que aconteceu fora: onde o cigarro eletrônico foi liberado, o consumo de jovens subiu 78% em 1 ano nos Estados Unidos."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 10,
+   "from_claim": "b012c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Os dois trazem o mesmo número do prejuízo: 125 bilhões de reais no Brasil, que a OPAS compara com 1,4 trilhão de reais no mundo."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 66,
+   "to_sentence": 39,
+   "from_claim": "b012c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Os dois medem a mesma queda. A pneumologista diz que o Brasil saiu de 35% para 9,1% de fumantes e a OPAS diz que nenhum outro país conseguiu redução de 65%."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 52,
+   "to_sentence": 73,
+   "from_claim": "b012c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Para a OPAS o programa é um patrimônio, com tratamento gratuito que poucos países têm. Para a coordenação de São Paulo faltam recursos e previsão no orçamento."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 76,
+   "from_claim": "b013c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "À informação de que a região sul-americana ficou livre de fumo com o Paraguai, a presidência responde que é dali que vem o maior volume de cigarro contrabandeado."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b014c1",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "A pneumologista completa a observação sobre o país vizinho: ele tem a taxa de imposto mais baixa de todas, enquanto a do Brasil é a maior."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 31,
+   "from_claim": "b014c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "As duas dizem que o imposto mexe no consumo. A ONG mostra que o preço respondeu por mais da metade da queda de fumantes e a médica diz que taxa baixa estimula o uso."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 4,
+   "from_claim": "b015c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "À denúncia do contrabando que entra do país vizinho, a ONG responde que é o Brasil que fornece a folha e que as indústrias que reclamam detêm a cadeia produtiva."
+  },
+  {
+   "from": "b017",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 22,
+   "from_claim": "b017c2",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "Os dois medem o custo da mesma doença. A presidência fala de cerca de 200 mil internações e 103 milhões de reais no SUS, e a associação de pacientes fala de 16 bilhões de reais por ano em tratamento."
+  },
+  {
+   "from": "b017",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 43,
+   "to_sentence": 12,
+   "from_claim": "b017c3",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Os dois descrevem o mesmo caminho interrompido. A médica fala da viagem que custa mais que o remédio e a associação de pacientes diz que o doente não é diagnosticado nem chega ao especialista."
+  },
+  {
+   "from": "b021",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 43,
+   "from_claim": "b021c1",
+   "to_claim": "b017c3",
+   "strength": "media",
+   "note": "A pneumologista reúne as falas num eixo só, diagnosticar cedo e tratar, que é justamente o que falta no relato do paciente que não é diagnosticado."
+  },
+  {
+   "from": "b022",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 3,
+   "from_claim": "b022c1",
+   "to_claim": "b021c2",
+   "strength": "media",
+   "note": "Ao lembrete de que quem fabrica o cigarro eletrônico é a indústria do tabaco, a presidência soma o que vê: cor e sabor atraem os jovens."
+  },
+  {
+   "from": "b023",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 71,
+   "from_claim": "b023c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A OPAS retoma o projeto de lei citado pela ONG e destaca o que ele trata: a proteção das crianças e os aditivos dos produtos de tabaco."
+  },
+  {
+   "from": "b025",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b025c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A presidência diz que o projeto está no Senado, e a OPAS corrige: já foi aprovado lá, ganhou nova numeração na Câmara e está numa comissão da Casa."
+  },
+  {
+   "from": "b027",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 1,
+   "from_claim": "b027c2",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "A ONG pega o projeto que a OPAS destacou e pede apoio do deputado para ele e para outros, porque os projetos de saúde travam na Câmara."
+  },
+  {
+   "from": "b029",
+   "to": "b027",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 0,
+   "from_claim": "b029c1",
+   "to_claim": "b027c1",
+   "strength": "forte",
+   "note": "A associação de pacientes faz coro ao pedido de prevenção e acrescenta o que precisa acontecer enquanto isso: atualizar o protocolo da doença do pulmão."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b006",
+    "b007",
+    "b010",
+    "b021"
+   ],
+   "claims": [
+    "b006c2",
+    "b007c1",
+    "b010c3",
+    "b021c1",
+    "b021c2"
+   ],
+   "note": "A sociedade de pneumologia, uma ONG de saúde e a presidência da Comissão concordam que a proibição do cigarro eletrônico tem de ser mantida e fiscalizada."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b003",
+    "b012"
+   ],
+   "claims": [
+    "b003c1",
+    "b012c3"
+   ],
+   "note": "A presidência da Comissão e a OPAS concordam que a queda no número de fumantes no Brasil é uma conquista reconhecida fora do País."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b010",
+    "b014"
+   ],
+   "claims": [
+    "b002c2",
+    "b010c1",
+    "b014c1"
+   ],
+   "note": "O INCA, uma ONG de saúde e a sociedade de pneumologia concordam que é o imposto que mexe no consumo: imposto baixo estimula o uso, e o que se arrecada hoje não cobre o prejuízo."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b003",
+    "b004",
+    "b014"
+   ],
+   "claims": [
+    "b003c2",
+    "b004c1",
+    "b014c2"
+   ],
+   "note": "A presidência da Comissão, a coordenação de São Paulo e a sociedade de pneumologia concordam que sem fiscalização e sem conter o contrabando as regras não pegam."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b006",
+    "b017",
+    "b029"
+   ],
+   "claims": [
+    "b004c2",
+    "b006c1",
+    "b017c3",
+    "b029c1",
+    "b029c2"
+   ],
+   "note": "A coordenação de São Paulo, a sociedade de pneumologia e a associação de pacientes concordam que o tratamento não chega: falta remédio, falta diagnóstico e o protocolo está atrasado."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b009",
+    "b023",
+    "b027"
+   ],
+   "claims": [
+    "b009c2",
+    "b023c1",
+    "b027c1",
+    "b027c2"
+   ],
+   "note": "A presidência da Comissão, a OPAS e uma ONG de saúde concordam que prevenir a iniciação dos jovens, na escola e na lei dos aditivos, é o caminho."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b001",
+    "b002",
+    "b012",
+    "b017"
+   ],
+   "claims": [
+    "b001c1",
+    "b001c2",
+    "b002c1",
+    "b012c1",
+    "b017c1",
+    "b017c2"
+   ],
+   "note": "A presidência da Comissão, o INCA, a OPAS e a associação de pacientes concordam que o tabagismo custa ao País muito mais do que rende de imposto."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b021",
+   "sentence": 2,
+   "addressed_to": "parlamentar",
+   "answered_by": "b022",
+   "gist": "ajuda da Câmara para fiscalizar o uso de cigarros eletrônicos",
+   "plain": "A Câmara vai ajudar a garantir a fiscalização do uso de cigarros eletrônicos?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b027",
+   "sentence": 5,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "apoio do deputado para os projetos de saúde avançarem na Câmara",
+   "plain": "O deputado vai ajudar os projetos de saúde a andar na Câmara e sensibilizar os outros deputados?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b029",
+   "sentence": 4,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "encaminhar a atualização do protocolo federal da DPOC",
+   "plain": "Quando o protocolo federal da doença pulmonar obstrutiva crônica vai ser atualizado?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b006",
+   "sentence": 17,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "voltar a oferecer os medicamentos que ajudam a parar de fumar",
+   "plain": "Os medicamentos que ajudam a pessoa a parar de fumar vão voltar a ser oferecidos no SUS?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b004",
+   "sentence": 30,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "incluir o programa no Plano Nacional de Saúde, com recursos",
+   "plain": "O programa vai entrar no Plano Nacional de Saúde, com recursos previstos no orçamento?",
+   "theme": "d5",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 15,
+   "gist": "mais de 8 milhões de mortes por ano pelo tabaco no mundo",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 22,
+   "gist": "cerca de 200 mil internações e 103 milhões de reais por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 7,
+   "gist": "o tabagismo mata 443 pessoas por dia no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 9,
+   "gist": "11,9% das pessoas com 60 anos ou mais usam tabaco",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 48,
+   "gist": "a nicotina deixa 30% dependentes na primeira experimentação",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 88,
+   "gist": "25% dos jovens de 18 a 24 anos experimentaram cigarro eletrônico",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 39,
+   "gist": "o Brasil caiu de 35% para 9,1% de fumantes",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 0,
+   "gist": "2 milhões de jovens usando cigarro eletrônico no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 31,
+   "gist": "preço e imposto explicam mais da metade da queda até 2015",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 58,
+   "gist": "uso diário de cigarro eletrônico em 0,3%, pelo COVITEL de 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b012",
+   "sentence": 58,
+   "gist": "de 2011 a 2016 as medidas respondem por 50% da queda",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b017",
+   "sentence": 15,
+   "gist": "custo direto da DPOC de 16 bilhões de reais por ano",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil",
+   "convidado"
+  ],
+  "angle": "A matéria escolheu o alerta dos especialistas: o cigarro eletrônico ameaça a queda no número de fumantes que o Brasil conquistou, e trouxe os números de jovens e os custos da doença do pulmão.",
+  "omitted": "Ficaram de fora o contrabando do país vizinho e a cadeia da folha de tabaco, as falhas no diagnóstico e no protocolo relatadas pela associação de pacientes e a falta de medicamento para quem quer parar de fumar."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Manter e fiscalizar a proibição do cigarro eletrônico",
+   "statement_plain": "A proibição do cigarro eletrônico tem de ser mantida e fiscalizada de verdade, porque o produto já está na mão de adolescentes e cria novos dependentes de nicotina.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b007c1",
+    "b008c1",
+    "b010c3",
+    "b021c2"
+   ],
+   "note": "A ideia junta a sociedade de pneumologia, uma ONG de saúde e a própria presidência da Comissão, que é médico e fica do lado dos especialistas."
+  },
+  {
+   "id": "t2",
+   "title": "Imposto alto é o que mais derruba o consumo",
+   "statement_plain": "Cobrar mais imposto e deixar o cigarro mais caro é a medida que mais reduz o número de fumantes, e o imposto seletivo precisa valer para o tabaco.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b010c1",
+    "b014c1"
+   ],
+   "note": "Do mesmo lado estão um órgão do governo federal, uma ONG e a sociedade de pneumologia, que costuma falar de clínica e aqui defende imposto."
+  },
+  {
+   "id": "t3",
+   "title": "O gargalo é o contrabando e a fiscalização",
+   "statement_plain": "Enquanto entra cigarro contrabandeado do país vizinho e ninguém fiscaliza a venda nem o fumo em ambiente fechado, as regras de saúde não funcionam.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b003c2",
+    "b004c1",
+    "b013c1",
+    "b014c2"
+   ],
+   "note": "A ideia cruza a mesa, o governo de São Paulo e a sociedade de pneumologia, e é contestada pela ONG, que diz que a folha de tabaco sai do próprio Brasil."
+  },
+  {
+   "id": "t4",
+   "title": "O tratamento não chega ao paciente",
+   "statement_plain": "Na prática falta remédio, falta exame, o paciente não é diagnosticado na atenção primária e o protocolo da doença do pulmão está atrasado.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c1",
+    "b017c3",
+    "b029c1",
+    "b029c2"
+   ],
+   "note": "A ideia divide o governo: a coordenação estadual de São Paulo fica do lado do paciente e da sociedade de pneumologia, contra a leitura do órgão federal."
+  },
+  {
+   "id": "t5",
+   "title": "O programa brasileiro é um patrimônio a fortalecer",
+   "statement_plain": "O Brasil oferece de graça um tratamento que poucos países oferecem e reduziu o número de fumantes como ninguém, então o programa precisa ser defendido e fortalecido.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b012c2",
+    "b012c3",
+    "b003c1"
+   ],
+   "note": "Do mesmo lado ficam um órgão do governo federal, a OPAS e a presidência da Comissão, que tratam o programa como conquista a defender."
+  },
+  {
+   "id": "t6",
+   "title": "Prevenir a iniciação custa menos do que tratar",
+   "statement_plain": "É mais barato evitar que o jovem comece, com escola, campanha e proibição de aromas e sabores, do que pagar depois pelo tratamento da doença.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b009c2",
+    "b022c1",
+    "b023c1",
+    "b027c1",
+    "b017c2"
+   ],
+   "note": "A ideia junta a presidência da Comissão, a OPAS, uma ONG e uma associação de pacientes, que chegam ao mesmo ponto por caminhos diferentes."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "PNCT",
+   "fala": "b001",
+   "sentence": 2,
+   "plain": "Programa Nacional de Controle do Tabagismo, o programa público que previne o tabagismo e trata quem quer parar de fumar"
+  },
+  {
+   "term": "DPOC",
+   "fala": "b001",
+   "sentence": 18,
+   "plain": "doença pulmonar obstrutiva crônica, que bloqueia a passagem de ar nos pulmões de forma progressiva e sem volta"
+  },
+  {
+   "term": "INCA",
+   "fala": "b002",
+   "sentence": 23,
+   "plain": "Instituto Nacional de Câncer, órgão federal que coordena o programa contra o tabagismo no País"
+  },
+  {
+   "term": "Convenção-Quadro",
+   "fala": "b002",
+   "sentence": 16,
+   "plain": "primeiro tratado internacional de saúde pública, feito para proteger as pessoas do tabaco. O Brasil o ratificou em 2005"
+  },
+  {
+   "term": "MPOWER",
+   "fala": "b002",
+   "sentence": 49,
+   "plain": "conjunto de seis medidas da Organização Mundial da Saúde contra o tabaco, como ambientes livres de fumo e aumento de imposto"
+  },
+  {
+   "term": "PLOA",
+   "fala": "b004",
+   "sentence": 30,
+   "plain": "projeto de lei orçamentária anual, a proposta de orçamento que o governo manda ao Congresso todo ano"
+  },
+  {
+   "term": "APS",
+   "fala": "b004",
+   "sentence": 55,
+   "plain": "atenção primária à saúde, o posto de saúde e a equipe de saúde da família perto de onde a pessoa vive"
+  },
+  {
+   "term": "CONITEC",
+   "fala": "b004",
+   "sentence": 67,
+   "plain": "comissão que decide quais remédios e exames o SUS passa a oferecer"
+  },
+  {
+   "term": "RDC nº 46",
+   "fala": "b004",
+   "sentence": 86,
+   "plain": "resolução da ANVISA, de 2009, que proíbe vender e importar cigarro eletrônico no Brasil"
+  },
+  {
+   "term": "subdiagnóstico",
+   "fala": "b017",
+   "sentence": 17,
+   "plain": "quando a doença existe mas não é identificada, e por isso a pessoa não recebe tratamento"
+  },
+  {
+   "term": "espirometria",
+   "fala": "b006",
+   "sentence": 13,
+   "plain": "exame que mede o ar que entra e sai do pulmão e serve para descobrir a doença pulmonar obstrutiva crônica"
+  },
+  {
+   "term": "vareniclina",
+   "fala": "b006",
+   "sentence": 17,
+   "plain": "remédio usado para ajudar a pessoa a parar de fumar"
+  },
+  {
+   "term": "CONICQ",
+   "fala": "b006",
+   "sentence": 29,
+   "plain": "comissão do governo que acompanha o cumprimento do tratado internacional do tabaco no Brasil"
+  },
+  {
+   "term": "imposto seletivo",
+   "fala": "b010",
+   "sentence": 43,
+   "plain": "imposto mais alto cobrado de produtos que fazem mal à saúde ou ao meio ambiente"
+  },
+  {
+   "term": "COVITEL",
+   "fala": "b010",
+   "sentence": 58,
+   "plain": "pesquisa por telefone que mede os fatores de risco das doenças crônicas no Brasil"
+  }
+ ]
+}

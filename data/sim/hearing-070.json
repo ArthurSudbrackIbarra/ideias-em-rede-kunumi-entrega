@@ -1,0 +1,1582 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 70,
+ "model": "LLM lendo o prompt hearing-070 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T23:15:51Z",
+ "prompt_sha256": "3df2fd5baebad37a7210c4f62a28857df5a847b23a6a3428e912161404f7c21b",
+ "sentences_hash": "becd96fdaf22bdf6",
+ "review": {
+  "pairs_read": 28,
+  "pairs_fixed": 17
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "Duas comissões da Câmara ouviram entidades ambientais, uma pesquisadora, um representante da pesca artesanal e o Ministério Público Federal sobre quatro termelétricas flutuantes e 36 torres de transmissão na Baía de Sepetiba. A licença foi dada pelo órgão ambiental do Rio de Janeiro sem estudo de impacto e sem consulta às comunidades. Os convidados pediram a suspensão do empreendimento e encaminhamentos da Casa.",
+ "stakes": "Estava em jogo o que as duas comissões fariam diante de uma licença concedida sem estudo de impacto e de uma decisão judicial descumprida.",
+ "central_question": "O empreendimento das termelétricas flutuantes da Baía de Sepetiba podia ser licenciado sem estudo de impacto ambiental e sem consulta às comunidades?",
+ "synopsis_plain": "Quatro usinas de energia montadas em navios e 36 torres de transmissão seriam instaladas na Baía de Sepetiba, no Rio de Janeiro. A licença saiu do órgão ambiental do estado sem estudo de impacto e sem ouvir pescadores e quilombolas. Na audiência, uma pesquisadora, entidades ambientais e o Ministério Público Federal pediram que a obra pare e que o estudo seja exigido.",
+ "stakes_plain": "Decidir o que as comissões da Câmara vão fazer diante de uma licença dada sem estudo de impacto e de uma ordem da Justiça que não foi cumprida.",
+ "central_question_plain": "Essas usinas montadas em navios podiam ser autorizadas sem estudo de impacto e sem ouvir quem vive da baía?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Dispensa do estudo de impacto",
+   "description": "Discute-se se o órgão ambiental podia licenciar as quatro termelétricas e as torres de transmissão sem exigir o EIA/RIMA e dividindo o processo em etapas.",
+   "axis": {
+    "pro": "O empreendimento exigia estudo de impacto ambiental e a licença dada sem ele é irregular.",
+    "contra": "A licença podia ser concedida sem estudo de impacto, porque a obra é temporária e de baixo impacto.",
+    "pro_plain": "As usinas só podiam ser autorizadas com estudo de impacto, e a licença que saiu sem ele é irregular.",
+    "contra_plain": "A licença podia sair sem estudo de impacto, porque a obra é temporária e causa pouco dano."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Consulta às comunidades da baía",
+   "description": "Discute-se se pescadores, marisqueiras e quilombolas tinham de ser ouvidos antes da licença e o que a Câmara deve fazer para escutá-los agora.",
+   "axis": {
+    "pro": "Pescadores, marisqueiras e quilombolas tinham de ser consultados antes da licença.",
+    "contra": "O licenciamento podia avançar sem consulta prévia às comunidades da baía.",
+    "pro_plain": "Quem vive da pesca e as comunidades quilombolas tinham de ser ouvidos antes de a licença sair.",
+    "contra_plain": "A licença podia sair sem ouvir antes as comunidades que vivem da baía."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Impactos sobre a baía",
+   "description": "Discute-se o tamanho do dano das quatro usinas sobre a água, os peixes, o boto cinza e a população do entorno, incluindo o risco de explosão.",
+   "axis": {
+    "pro": "As quatro termelétricas trazem risco alto para a baía, para a pesca e para quem mora no entorno.",
+    "contra": "As termelétricas flutuantes têm impacto pequeno e controlado sobre a baía.",
+    "pro_plain": "As quatro usinas trazem risco alto para a água, para os peixes e para quem mora perto da baía.",
+    "contra_plain": "As usinas em navios causam pouco dano e o que causam está sob controle."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Termelétricas a gás na matriz",
+   "description": "Discute-se o custo e o lugar do gás na energia brasileira, do aumento da conta de luz às alternativas de restauração ambiental e transição energética.",
+   "axis": {
+    "pro": "Cada nova térmica a gás encarece a conta de luz e afasta o país da transição energética.",
+    "contra": "O gás serve como combustível de transição enquanto o mundo abandona o carvão.",
+    "pro_plain": "Cada nova usina a gás encarece a conta de luz e atrasa a mudança para energia limpa.",
+    "contra_plain": "O gás serve como combustível de passagem enquanto o mundo deixa o carvão para trás."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Cumprimento das decisões judiciais",
+   "description": "Discute-se se as ordens da Justiça que mandaram parar o empreendimento têm efeito prático e o que fazer com quem as descumpre.",
+   "axis": {
+    "pro": "A ordem judicial tem força, precisa ser cumprida e o descumprimento tem de ser punido.",
+    "contra": "As decisões judiciais não estão sendo respeitadas e nenhuma autoridade consegue parar a obra.",
+    "pro_plain": "A ordem da Justiça vale, tem de ser cumprida, e quem não cumpre tem de responder por isso.",
+    "contra_plain": "As decisões da Justiça estão sendo ignoradas e ninguém está conseguindo parar a obra."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Competência federal ou estadual",
+   "description": "Discute-se de quem é o dever de licenciar um empreendimento na zona costeira, depois de o órgão federal ter delegado a tarefa ao órgão do Rio de Janeiro.",
+   "axis": {
+    "pro": "A competência para licenciar é federal, mesmo com a delegação feita ao órgão estadual.",
+    "contra": "O licenciamento cabe ao Estado do Rio de Janeiro, que recebeu a delegação do órgão federal.",
+    "pro_plain": "Quem responde pelo licenciamento é a União, mesmo tendo passado a tarefa ao órgão do estado.",
+    "contra_plain": "Quem responde pelo licenciamento é o Estado do Rio de Janeiro, que recebeu essa tarefa."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência conjunta",
+   "org": "Câmara dos Deputados",
+   "basis": "registro 'Presidente' na ata: a Deputada Talíria Petrone abre e o Deputado Rodrigo Agostinho assume a condução em b003.14",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissões de Direitos Humanos e Minorias e de Minas e Energia da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "coordenador técnico e engenheiro ambiental",
+   "org": "Instituto Internacional Arayara",
+   "basis": "apresentado pela presidência em b001.33 e por ele mesmo em b002.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Internacional Arayara",
+   "org_plain": "organização que atua há 30 anos em defesa do meio ambiente e denuncia irregularidades em licenças ambientais"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "deputada federal",
+   "org": "PSOL",
+   "basis": "cabeçalho da ata e menções da mesa em b003.11 e b004.0",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "deputada federal pelo PSOL do Rio de Janeiro",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "professora do Departamento de Ecologia",
+   "org": "UERJ",
+   "basis": "apresentada pela presidência em b005.2 e por ela mesma em b006.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professora da Universidade do Estado do Rio de Janeiro",
+   "org_plain": "universidade pública do Rio de Janeiro, que tem cadeira na comissão estadual de controle ambiental"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "pescador e representante de comunidades extrativistas",
+   "org": "CONFREM",
+   "basis": "apresentado pela presidência em b009.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da CONFREM, entidade das comunidades da pesca",
+   "org_plain": "comissão nacional que reúne reservas extrativistas e povos tradicionais extrativistas costeiros e marinhos"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "diretor técnico e engenheiro",
+   "org": "Observatório Nacional do Petróleo e Gás",
+   "basis": "apresentado pela presidência em b001.29 e por ele mesmo em b015.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Observatório do Petróleo e Gás",
+   "org_plain": "organização que acompanha e critica os projetos de petróleo, gás e termelétricas no país"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "procurador da República",
+   "org": "MPF",
+   "basis": "apresentado pela presidência em b014.7 e em b018.3",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "procurador da República no Rio de Janeiro",
+   "org_plain": "Ministério Público Federal, órgão que vai à Justiça para defender direitos de todos, como o meio ambiente"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "a ata não registra delegações nem palmas, boa parte dos convidados participou por vídeo e a mesa menciona a transmissão pelo e-Democracia em b001.2",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia que a empresa turca conseguiu transferir o licenciamento ao órgão estadual e dispensar o estudo de impacto, e que a licença saiu em tempo recorde sem ouvir pescadores.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A licença das quatro termelétricas saiu sem o estudo de impacto ambiental que o caso exigia.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a empresa pediu a dispensa do estudo de impacto e a passagem do licenciamento ao órgão estadual, e os dois pedidos foram atendidos",
+     "plain": "A empresa turca KPS, a Karpowership, pediu em dezembro de 2021 que o Ibama passasse ao Inea, órgão do Rio, a autorização da obra. Também pediu trâmite simplificado e dispensa do estudo de impacto. Lamentavelmente, os dois foram concedidos."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a licença saiu em tempo recorde e o relatório não fala das emissões, da Mata Atlântica, dos mangues nem dos pescadores",
+     "plain": "Em tempo recorde o Inea deu à empresa a licença ambiental integrada e, depois, a de operação. O relatório deixa de fora o volume de poluentes lançados no ar e nem sequer cita a Mata Atlântica, os mangues e os pescadores."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ninguém ouviu os pescadores nem os agricultores da Pedra de Guaratiba, o que fere a Convenção nº 169 da OIT",
+     "plain": "Os pescadores e os agricultores da Pedra de Guaratiba não foram escutados. O presidente da associação de aquicultores denunciou a falta de consulta, que fere de frente a Convenção nº 169 da OIT, que obriga a ouvir comunidades tradicionais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia que o licenciamento foi dividido em etapas para dispensar o estudo de impacto, que a licença saiu em 24 horas e que os pescadores não foram consultados.",
+   "quote": [
+    72,
+    73
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    7
+   ],
+   "open_question": 58,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O licenciamento foi fatiado em etapas para que o estudo de impacto pudesse ser dispensado.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a resolução do Conama exige estudo de impacto acima de 10 megawatts e este empreendimento gera 560 megawatts",
+     "plain": "A potência de geração desse empreendimento é de 560 megawatts. A Resolução CONAMA nº 01, de 1986, deixa claro que gerar eletricidade acima de 10 megawatts exige o EIA/RIMA, o estudo de impacto ambiental."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a empresa pediu ao órgão estadual a dispensa do estudo de impacto e ainda dividiu o processo em três etapas",
+     "plain": "No dia 10 de dezembro de 2021 a empresa pediu ao Inea, por carta, que dispensasse o EIA/RIMA, o estudo de impacto, com argumentos totalmente falhos. E ainda repartiu esse processo em três etapas."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      67,
+      68
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o próprio órgão ambiental criou uma zona de exclusão de pesca e tirou o sustento de pescadores e marisqueiras",
+     "plain": "Nesse processo, o próprio órgão ambiental criou uma zona de exclusão de pesca, que tira o sustento de pescadores e marisqueiras. Está em documento público, e é um dos maiores crimes ambientais e de direitos humanos já vistos no país."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Propõe que a comissão formalize denúncia internacional pela falta de consulta prévia e defende acelerar a transição energética no mundo.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão deve denunciar internacionalmente a licença dada sem consulta às comunidades atingidas.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Ministério Público Federal e a Justiça do Rio anularam a licença e mesmo assim o empreendimento segue em curso",
+     "plain": "O Ministério Público Federal já anulou e a Justiça do Rio de Janeiro também. Mesmo assim, lamentavelmente, o empreendimento segue em curso."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a comissão deve formalizar uma denúncia internacional por violação da consulta prévia e da Convenção nº 169",
+     "plain": "Sugiro que a Comissão de Direitos Humanos formalize denúncia internacional por violação da consulta prévia e da Convenção nº 169. É uma licença sem consulta, sem estudo de impacto e sem atender ao Ministério Público nem à Justiça do Rio."
+    },
+    {
+     "id": "b003c3",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o gás pode servir como combustível de transição, e já há navios e caminhões antes movidos a diesel rodando a gás",
+     "plain": "O gás pode servir como combustível de transição em muitos aspectos. Já estamos vendo navios movidos a gás. Já estamos vendo caminhões que antes andavam a óleo diesel rodando a gás."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sugere uma visita da comissão ao Rio de Janeiro para ouvir os moradores atingidos, como desdobramento desta audiência no próprio território.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão deve ir ao território ouvir os moradores atingidos pelo empreendimento.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a comissão deve ir ao Rio de Janeiro escutar os moradores, o mais rápido possível",
+     "plain": "Quero sugerir também uma visita ao Rio de Janeiro para escutar os moradores, como desdobramento desta audiência dentro do território, o mais rápido possível. Posso conduzir isso, se acharem por bem."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à professora Helena de Godoy Bergallo, da Universidade do Estado do Rio de Janeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta que a água de resfriamento volta à baía 15 graus mais quente, ameaçando peixes e o boto cinza, e propõe restauração e recarga no lugar das térmicas.",
+   "quote": [
+    27,
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6
+   ],
+   "open_question": 51,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As quatro termelétricas aquecem a água da baía e ameaçam a vida marinha de que a pesca depende.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a água usada no resfriamento volta à baía 15 graus mais quente, um impacto enorme para a biodiversidade",
+     "plain": "A empresa estima 3.100 metros cúbicos de água do mar por hora no resfriamento. São 23 milhões de litros devolvidos 15 graus acima: se entra a 25 graus, sai a 40 graus. É um absurdo de temperatura e um impacto enorme para a vida da baía."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maior população de boto cinza do estado está na Baía de Sepetiba, e na Baía de Guanabara não restam mais de 30",
+     "plain": "Na Baía de Guanabara havia 400 botos cinza na década de 80. Hoje não são mais de 30. A maior população de boto cinza do Estado do Rio de Janeiro está na Baía de Sepetiba."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com metade do dinheiro dessas térmicas dava para reflorestar e aumentar a recarga da água subterrânea",
+     "plain": "A solução limpa, barata e eficiente para a segurança de água e energia é restaurar o ambiente e fazer recarga artificial. Com metade do dinheiro dessas térmicas, governo e empresários já estariam reflorestando e recarregando os lençóis."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a apresentação da professora e pergunta se a deputada quer fazer outra consideração.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada diz que está apenas acompanhando e pede que a audiência prossiga.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Flavio Lontro, da CONFREM, e lembra que cada orador tem cerca de 7 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Questiona se alguma autoridade consegue parar a obra, alerta para o risco de explosão do navio e diz que o descumprimento da decisão judicial abre precedente.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 14,
+   "stance": {
+    "position": "contrario",
+    "claim": "Nenhuma autoridade está conseguindo fazer a obra parar, mesmo com decisão judicial contrária.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é quase impossível descartar uma explosão num navio em que o gás e a geração de energia ficam no mesmo ambiente",
+     "plain": "Num navio em que o gás e a geração de energia ficam no mesmo ambiente, é quase impossível descartar uma explosão. Dizer que só vazaria se os tanques rompessem não procede: a tubulação até os geradores tem conexões que podem vazar."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a subida da temperatura, as espécies que não morrerem vão migrar, e 3.500 famílias ficam sem do que viver",
+     "plain": "Não é só a mortandade que vai acontecer, como colocou a professora Helena. Com a subida da temperatura, as espécies que não morrerem vão embora. E do que vão viver as 3.500 famílias?"
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o descumprimento abre precedente e leva a um país em que ninguém mais respeita decisão judicial",
+     "plain": "Penso no precedente e na jurisprudência que isso cria. Daqui a pouco o país inteiro entra em caos, porque ninguém mais respeita decisão judicial. Para que servem juízes, se julgam e ninguém obedece?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a fala de Flavio Lontro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sugere que a audiência aprove uma diligência formal para incentivar a escuta das comunidades no próprio local.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A audiência deve aprovar uma diligência formal para ouvir as comunidades no local.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a audiência deve aprovar uma diligência formal para incentivar a escuta no local",
+     "plain": "Sugiro que esta audiência aprove uma diligência formal, para incentivar essa escuta no próprio local."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da pesca diz que a CONFREM Brasil fica à disposição da deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que os presidentes do Inea e do Ibama e um promotor de Justiça convidados não virão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b015",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que cada nova térmica a gás encarece a conta de luz, que a tarifa pode subir 156% e que a Convenção nº 169 da OIT foi descumprida.",
+   "quote": [
+    30,
+    31,
+    32
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cada nova termelétrica a gás ligada ao sistema significa aumento na conta de luz do consumidor.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o megawatt de uma eólica custa 260 reais e o da térmica dessa empresa turca custa 1.600 reais",
+     "plain": "Essas 17 termelétricas operam só 44 meses, e por isso pagamos uma tarifa sete vezes maior que a de qualquer outro empreendimento elétrico. E aqui é pior: o megawatt da eólica custa 260 reais e o da térmica dessa empresa turca, 1.600 reais."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      62,
+      63,
+      64
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "está projetado um aumento de 156% na tarifa de energia, e quem paga 100 reais passa a pagar 256 reais",
+     "plain": "Está projetado um aumento de 156% na tarifa de energia. Vou repetir: 156%. Quem paga 100 reais na conta de luz vai passar a pagar 256 reais."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Convenção nº 169 da OIT foi descumprida, porque as comunidades tradicionais não foram consultadas",
+     "plain": "Há aqui o descumprimento da Convenção nº 169 da OIT. As comunidades tradicionais e os povos indígenas têm de ser consultados nesse tipo de obra, e essas milhares de pessoas não foram, porque dispensaram as audiências públicas e os estudos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta ao representante do Instituto Arayara se quer fazer uma consideração final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b017",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Entrega três encaminhamentos às comissões e pede que não se dispense o estudo de impacto nem se subsidiem empreendimentos muito poluentes.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Obras de alto potencial poluidor não podem receber dispensa do estudo de impacto nem subsídio público.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o instituto entrega três encaminhamentos às comissões e lembra a ADPF 708, que trata o Acordo de Paris como acordo de direitos humanos",
+     "plain": "O Instituto Internacional Arayara quer protocolar três encaminhamentos nas duas comissões e junto ao presidente do Inea. Fazemos isso porque a ADPF 708 reconhece o Acordo de Paris, sobre o clima, como acordo de direitos humanos."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      2
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se deve dispensar o estudo de impacto nem dar subsídios como os 40 bilhões de reais do complexo a carvão até 2040",
+     "plain": "Tratar a crise do clima com seriedade é não dispensar o estudo de impacto em obras muito poluentes como esta. E é não dar subsídios como os 40 bilhões de reais do Complexo Termoelétrico Jorge Lacerda, que vai queimar carvão até 2040."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que o procurador do Ministério Público Federal conseguiu entrar na reunião e lhe passa a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que o Ministério Público Federal recomendou exigir o estudo de impacto, acusa o órgão ambiental de fatiar o licenciamento e sustenta que a competência é federal.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Um empreendimento com esse impacto exigia o estudo de impacto ambiental mais rigoroso possível.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as provas iniciais já mostravam um empreendimento de altíssimo impacto, e o mínimo é exigir o estudo mais rigoroso",
+     "plain": "Expedimos recomendação porque as provas que chegaram ao Ministério Público já mostravam um empreendimento de altíssimo impacto. Diante de qualquer obra que possa causar impacto, o poder público deve exigir o estudo mais rigoroso possível."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o órgão ambiental jamais poderia ter fatiado esse licenciamento, e fatiou para facilitar o começo da instalação",
+     "plain": "São duas pontas de um mesmo empreendimento, e a primeira falha aparece logo: o órgão ambiental jamais poderia ter fatiado esse licenciamento. Ele fatiou para facilitar o começo da instalação dos equipamentos."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      57,
+      58
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a obra atinge a Zona Costeira, mar da União, e a competência é de lei federal mesmo com a delegação ao órgão estadual",
+     "plain": "Estamos em agosto e o Judiciário Federal ainda não nos deu resposta. Este empreendimento atinge diretamente a Zona Costeira, ou seja, o mar da União. Mesmo com a delegação do Ibama ao Inea, a competência é de lei federal."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que descumprir ordem judicial é crime, defende que a União tem competência no caso e critica o crescimento das térmicas na matriz.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A União tem competência para atuar neste licenciamento, e o descumprimento da ordem judicial é crime.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "descumprir ordem judicial é crime e cabe abrir inquérito policial para apurar esse descumprimento",
+     "plain": "Estamos diante de uma situação muito séria de descumprimento de ordem judicial. Descumprir ordem judicial é crime. É preciso abrir, se ainda não foi aberto, o inquérito policial para apurar esse descumprimento."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pela Lei Complementar nº 140, de 2011, a União também tem competência no caso, apesar de o governo federal dizer que é só do estado",
+     "plain": "Pela Lei Complementar nº 140, de 2011, há questões desta matéria que são de competência do Governo Federal. O Governo Federal tem entendido que isso é atribuição exclusiva do Estado do Rio de Janeiro. O nosso entendimento é o contrário."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a participação das térmicas subiu de 13% para 21% e, depois de instalada, uma térmica não se desativa rápido",
+     "plain": "Não faz sentido sujar a nossa matriz de energia. A fatia das térmicas saiu de 13% e foi para 21%. Isso é muito ruim: instalada uma térmica, não dá para desativá-la depressa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 15,
+   "from_claim": "b002c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Mostra de onde veio a dispensa que a presidência descreveu: uma carta da empresa ao órgão estadual, em dezembro de 2021, pedindo a inexigibilidade do estudo."
+  },
+  {
+   "from": "b003",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 68,
+   "from_claim": "b003c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Transforma a denúncia sobre a exclusão dos pescadores num encaminhamento concreto: uma denúncia internacional por violação da consulta prévia."
+  },
+  {
+   "from": "b004",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 6,
+   "from_claim": "b004c1",
+   "to_claim": "b003c2",
+   "strength": "media",
+   "note": "Soma à denúncia internacional uma segunda providência, ir até o território ouvir os moradores."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 13,
+   "from_claim": "b006c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Onde o instituto mostrou o tamanho da usina em megawatts, a professora mostra o efeito na água: ela volta à baía 15 graus mais quente."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 29,
+   "from_claim": "b010c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Leva o aquecimento da água descrito pela professora até a consequência para quem vive da pesca: os peixes que não morrerem vão embora."
+  },
+  {
+   "from": "b010",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 4,
+   "from_claim": "b010c3",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "Os dois constatam a mesma coisa, que as decisões foram dadas e a obra continuou, e ele acrescenta o precedente que isso abre."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 25,
+   "from_claim": "b012c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Depois de ouvir que 3.500 famílias podem ficar sem sustento, a deputada pede uma diligência formal para escutar essas comunidades no local."
+  },
+  {
+   "from": "b015",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 55,
+   "to_sentence": 20,
+   "from_claim": "b015c3",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "Os dois apontam a mesma norma descumprida, a Convenção nº 169 da OIT, que obriga a consultar as comunidades tradicionais antes da obra."
+  },
+  {
+   "from": "b015",
+   "to": "b003",
+   "kind": "contradiz",
+   "from_sentence": 32,
+   "to_sentence": 18,
+   "from_claim": "b015c1",
+   "to_claim": "b003c3",
+   "strength": "media",
+   "note": "Onde a presidência vê no gás um combustível de transição, o Observatório põe o preço na mesa: 1.600 reais o megawatt da térmica turca contra 260 reais o da eólica."
+  },
+  {
+   "from": "b015",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 63,
+   "to_sentence": 57,
+   "from_claim": "b015c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A professora propõe gastar metade do dinheiro em restauração, e ele mostra o custo do caminho escolhido: 156% de aumento na tarifa."
+  },
+  {
+   "from": "b017",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 30,
+   "from_claim": "b017c2",
+   "to_claim": "b015c1",
+   "strength": "media",
+   "note": "Os dois dizem que o dinheiro público está indo para o lado errado, da tarifa da térmica contratada aos subsídios ao carvão."
+  },
+  {
+   "from": "b019",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 25,
+   "from_claim": "b019c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O procurador confirma, pelo lado do Ministério Público, o fatiamento denunciado pelo instituto: o órgão ambiental jamais poderia ter repartido o licenciamento."
+  },
+  {
+   "from": "b019",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 15,
+   "from_claim": "b019c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "O que a empresa pediu para não fazer é exatamente o que o Ministério Público Federal recomendou exigir, o estudo de impacto."
+  },
+  {
+   "from": "b020",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 11,
+   "to_sentence": 33,
+   "from_claim": "b020c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "À dúvida sobre para que servem os juízes se ninguém obedece, a presidência responde que descumprir ordem judicial é crime e pede inquérito policial."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 58,
+   "from_claim": "b020c2",
+   "to_claim": "b019c3",
+   "strength": "forte",
+   "note": "Os dois sustentam que a competência continua federal apesar da delegação, ele pela lei complementar e o procurador por ser mar da União."
+  },
+  {
+   "from": "b020",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 62,
+   "from_claim": "b020c3",
+   "to_claim": "b015c2",
+   "strength": "media",
+   "note": "A presidência confirma pelo lado da matriz o que o Observatório mostrou pelo lado da tarifa: a fatia das térmicas subiu de 13% para 21%."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b019"
+   ],
+   "claims": [
+    "b001c1",
+    "b001c2",
+    "b002c1",
+    "b002c2",
+    "b019c1",
+    "b019c2"
+   ],
+   "note": "A presidência da audiência, o instituto ambiental e o Ministério Público Federal concordam que a obra exigia estudo de impacto e que a licença saiu sem ele."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b002",
+    "b003",
+    "b004",
+    "b012",
+    "b015"
+   ],
+   "claims": [
+    "b001c3",
+    "b002c3",
+    "b003c2",
+    "b004c1",
+    "b012c1",
+    "b015c3"
+   ],
+   "note": "Mesa, parlamentares e entidades concordam que pescadores, marisqueiras e quilombolas deveriam ter sido consultados antes da licença."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b006",
+    "b010"
+   ],
+   "claims": [
+    "b006c1",
+    "b006c2",
+    "b010c1",
+    "b010c2"
+   ],
+   "note": "A presidência, a pesquisadora e o representante da pesca concordam que as quatro térmicas trazem risco alto para a vida da baía e para quem vive dela."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b015",
+    "b017",
+    "b020"
+   ],
+   "claims": [
+    "b006c3",
+    "b015c1",
+    "b015c2",
+    "b017c2",
+    "b020c3"
+   ],
+   "note": "A presidência e as entidades concordam que ampliar as térmicas a gás encarece a conta de luz e suja a matriz, e que o dinheiro deveria ir para outro caminho."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b003",
+    "b010"
+   ],
+   "claims": [
+    "b003c1",
+    "b010c3"
+   ],
+   "note": "A presidência e o representante da pesca constatam juntos que as decisões contra o empreendimento saíram e mesmo assim a obra seguiu."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b019",
+    "b020"
+   ],
+   "claims": [
+    "b019c3",
+    "b020c2"
+   ],
+   "note": "O Ministério Público Federal e a presidência concordam que a competência sobre o caso continua federal, mesmo com a delegação ao órgão estadual."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 58,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como dizer que não há obra se houve dragagem",
+   "plain": "Se a dispensa disse que não havia intervenção física, o que é então colocar draga na baía?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b006",
+   "sentence": 51,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "gist": "qual será o impacto da poluição sonora do empreendimento",
+   "plain": "Qual vai ser o impacto do barulho do empreendimento, somado ao barulho que a baía já tem?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b010",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como dispensar o estudo se o risco de explosão está previsto",
+   "plain": "Como é possível não haver estudo de impacto, se o risco de explosão já está previsto?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b010",
+   "sentence": 37,
+   "addressed_to": "parlamentar",
+   "answered_by": "b020",
+   "gist": "alguma autoridade pode de fato parar o empreendimento",
+   "plain": "Existe no Brasil alguma autoridade capaz de parar esse empreendimento, depois de tudo o que foi mostrado aqui?",
+   "theme": "d5",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 9,
+   "gist": "alta de 121% na emissão por térmicas entre 2020 e 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 13,
+   "gist": "potência do empreendimento é de 560 megawatts",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 15,
+   "gist": "acima de 10 megawatts o estudo é exigido",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 29,
+   "gist": "177 milhões de reais e 7 hectares de Mata Atlântica",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 52,
+   "gist": "3.500 famílias de pescadores na baía",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b002",
+   "sentence": 72,
+   "gist": "parecer de 240 páginas emitido em 24 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 9,
+   "gist": "mangues guardam de 400 a 500 toneladas de carbono por hectare",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 28,
+   "gist": "23 milhões de litros devolvidos 15 graus mais quentes",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b006",
+   "sentence": 48,
+   "gist": "restam não mais de 30 botos cinza em Guanabara",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 19,
+   "gist": "explosão em Paranaguá chegou a 25 quilômetros de raio",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b015",
+   "sentence": 63,
+   "gist": "aumento projetado de 156% na tarifa de energia",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b020",
+   "sentence": 5,
+   "gist": "térmicas passaram de 13% para 21% da matriz",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "sociedade_civil",
+   "governo"
+  ],
+  "angle": "A matéria escolheu o alerta ambiental, com o aquecimento da água da baía e a ausência de estudo de impacto, e pôs ao fundo a decisão do tribunal que suspendeu a instalação.",
+  "omitted": "Ficaram de fora a conta de luz e as térmicas em projeto pelo país, o risco de explosão levantado pela pesca e a disputa sobre a competência ser federal ou estadual."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem estudo de impacto, a licença não podia sair",
+   "statement_plain": "Uma obra deste tamanho na baía só podia ser autorizada depois do estudo de impacto ambiental e depois de ouvir as comunidades que vivem ali.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b002c1",
+    "b019c1",
+    "b002c3",
+    "b001c3"
+   ],
+   "note": "É uma ideia sobre a regra, e não um bloco: junta a presidência da audiência, um instituto ambiental e um procurador da República em torno da mesma exigência legal."
+  },
+  {
+   "id": "t2",
+   "title": "A Baía de Sepetiba não aguenta quatro térmicas",
+   "statement_plain": "A água mais quente, o barulho e o risco de explosão das quatro usinas atingem os peixes, o boto cinza e as famílias que vivem da pesca na baía.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c2",
+    "b010c1",
+    "b010c2"
+   ],
+   "note": "A ideia atravessa a ciência e a pesca: uma professora de ecologia e um pescador com décadas de baía chegam ao mesmo ponto por caminhos diferentes."
+  },
+  {
+   "id": "t3",
+   "title": "O gás dessas térmicas cai na conta de luz",
+   "statement_plain": "Contratar térmicas a gás encarece a conta de luz e suja a matriz, e o mesmo dinheiro renderia mais em restauração ambiental e em energia limpa.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b015c1",
+    "b015c2",
+    "b017c2",
+    "b020c3",
+    "b006c3"
+   ],
+   "note": "É uma ideia sobre o custo, não sobre um setor: reúne a presidência da audiência, duas organizações e uma pesquisadora de ecologia, que chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t4",
+   "title": "A ordem da Justiça vale e quem descumpre responde",
+   "statement_plain": "A decisão que mandou parar a obra tem de ser cumprida pelos órgãos do estado e pela empresa, e descumprir ordem judicial é crime que precisa ser apurado.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b020c1",
+    "b020c2",
+    "b019c3"
+   ],
+   "note": "É uma ideia sobre a força da decisão, e une um procurador da República e a presidência da audiência, que contestam a descrença de quem já desistiu da Justiça."
+  },
+  {
+   "id": "t5",
+   "title": "Na baía, a lei e a decisão da Justiça não valem",
+   "statement_plain": "O estudo de impacto foi dispensado, a Justiça mandou parar e a obra continuou. Na prática, nem a lei ambiental nem a decisão judicial estão sendo cumpridas ali.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b003c1",
+    "b010c3",
+    "b002c2",
+    "b001c2"
+   ],
+   "note": "A presidência da audiência e um representante da pesca chegam ao mesmo lugar por caminhos diferentes, e a ideia contesta de frente a confiança do Ministério Público na ordem judicial."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "EIA/RIMA",
+   "plain": "Estudo de impacto ambiental e o relatório que o resume. É a análise que mostra os danos de uma obra antes de a licença ser dada.",
+   "fala": "b001",
+   "sentence": 15
+  },
+  {
+   "term": "INEA",
+   "plain": "Instituto Estadual do Ambiente, o órgão do Rio de Janeiro que dá ou nega licenças ambientais no estado.",
+   "fala": "b001",
+   "sentence": 14
+  },
+  {
+   "term": "IBAMA",
+   "plain": "Órgão federal do meio ambiente, que licencia obras de impacto nacional e pode passar essa tarefa a um estado.",
+   "fala": "b001",
+   "sentence": 14
+  },
+  {
+   "term": "Convenção nº 169 da OIT",
+   "plain": "Tratado internacional que obriga o país a consultar povos indígenas e comunidades tradicionais antes de obras que os atinjam.",
+   "fala": "b001",
+   "sentence": 20
+  },
+  {
+   "term": "CONAMA",
+   "plain": "Conselho nacional que fixa as regras do licenciamento ambiental, como o tamanho da obra a partir do qual o estudo é obrigatório.",
+   "fala": "b002",
+   "sentence": 14
+  },
+  {
+   "term": "inexigibilidade",
+   "plain": "Decisão do órgão ambiental que dispensa a obra de apresentar o estudo de impacto ambiental.",
+   "fala": "b002",
+   "sentence": 24
+  },
+  {
+   "term": "CECA",
+   "plain": "Comissão estadual que delibera sobre licenças ambientais no Rio de Janeiro, com representantes de vários órgãos e universidades.",
+   "fala": "b002",
+   "sentence": 43
+  },
+  {
+   "term": "ship-to-ship",
+   "plain": "Transferência de carga de um navio para outro no mar. O órgão federal do meio ambiente restringe essa operação perto de áreas protegidas.",
+   "fala": "b002",
+   "sentence": 85
+  },
+  {
+   "term": "PM10",
+   "plain": "Poeira fina em suspensão no ar, pequena o bastante para entrar no pulmão e causar problemas respiratórios.",
+   "fala": "b006",
+   "sentence": 24
+  },
+  {
+   "term": "boto cinza",
+   "plain": "Golfinho de águas costeiras, ameaçado de extinção, cuja maior população no estado do Rio de Janeiro vive na Baía de Sepetiba.",
+   "fala": "b006",
+   "sentence": 46
+  },
+  {
+   "term": "racismo energético",
+   "plain": "Expressão usada pelo debatedor para o fato de que quem não consegue pagar a conta de luz acaba desligado da rede elétrica.",
+   "fala": "b015",
+   "sentence": 5
+  },
+  {
+   "term": "NDCs",
+   "plain": "Metas de corte de emissões que cada país assume no acordo internacional do clima.",
+   "fala": "b015",
+   "sentence": 68
+  },
+  {
+   "term": "ADPF 708",
+   "plain": "Ação julgada pelo Supremo Tribunal Federal que trata o Acordo de Paris, sobre o clima, como um acordo de direitos humanos.",
+   "fala": "b017",
+   "sentence": 1
+  },
+  {
+   "term": "trânsito em julgado",
+   "plain": "Ponto em que a decisão da Justiça não admite mais recurso e tem de ser cumprida.",
+   "fala": "b019",
+   "sentence": 60
+  }
+ ]
+}

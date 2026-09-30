@@ -1,0 +1,1986 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 64,
+ "model": "LLM lendo o prompt hearing-064 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-18T11:58:57Z",
+ "prompt_sha256": "37d42db55a7e83fa9002b4e7475e5d84ef4352918078024cc5c1462d4b234547",
+ "sentences_hash": "14a080f197ac520f",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 8
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Turismo ouviu gestores públicos e responsáveis por santuários e congressos religiosos de Santa Catarina e de Aparecida sobre o que falta para o turismo religioso crescer. Os convidados apresentaram os números do segmento e pediram estrada, sinal de celular, sinalização e recursos para as rotas. Apareceram duas divergências: quanto o poder público deve bancar e se a cobrança de direitos autorais cabe numa festa religiosa.",
+ "stakes": "Para onde a Comissão de Turismo vai encaminhar emendas e projetos de lei em favor do turismo religioso.",
+ "central_question": "O que falta para o turismo religioso crescer e o que cabe ao poder público nesse esforço?",
+ "synopsis_plain": "A Comissão de Turismo da Câmara ouviu prefeitos, secretários e responsáveis por santuários sobre as viagens motivadas pela fé. Eles mostraram quanto o segmento movimenta e pediram estrada, sinal de celular e dinheiro para estruturar as rotas. Houve duas discussões: até onde vai o papel do poder público e se cabe cobrar direitos autorais numa festa religiosa.",
+ "stakes_plain": "Para onde a Comissão vai mandar emendas e projetos de lei em favor das viagens motivadas pela fé.",
+ "central_question_plain": "O que falta para as viagens de fé crescerem, e o que é papel do poder público nisso?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Peso econômico do turismo de fé",
+   "description": "Discute-se quanto as viagens motivadas pela fé movimentam e o que elas deixam nas cidades que recebem os visitantes.",
+   "axis": {
+    "pro": "O turismo religioso gera emprego, renda e desenvolvimento para os municípios que o recebem.",
+    "contra": "O que move essas viagens é a fé, e o retorno econômico vem depois, como consequência.",
+    "pro_plain": "Quem viaja por fé gasta na cidade, e isso vira emprego e renda para quem mora ali.",
+    "contra_plain": "O motivo da viagem é a fé. O dinheiro que ela deixa é consequência, não o objetivo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Estrutura dos destinos de peregrinação",
+   "description": "Discute-se o que falta de estrada, sinal de celular e sinalização nos lugares que recebem romarias e peregrinações.",
+   "axis": {
+    "pro": "Sem estrada, sinal de celular e sinalização não há turismo nesses destinos.",
+    "contra": "O essencial já existe nesses lugares e o que falta é divulgação.",
+    "pro_plain": "Sem rua asfaltada, sinal de celular e placa, o visitante não chega nem se orienta.",
+    "contra_plain": "O lugar já recebe gente do jeito que está. O que falta é fazer as pessoas saberem dele."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Dinheiro público para rotas e santuários",
+   "description": "Discute-se quanto do esforço de estruturar rotas e santuários cabe ao poder público e quanto cabe a quem empreende.",
+   "axis": {
+    "pro": "O poder público precisa destinar recursos para estruturar e manter as rotas e os santuários.",
+    "contra": "Quem faz o turismo na ponta é quem empreende, e ao poder público cabe facilitar.",
+    "pro_plain": "O Estado tem de botar dinheiro para estruturar as rotas e cuidar dos santuários.",
+    "contra_plain": "Quem faz turismo é quem investe. O governo deve facilitar e tirar burocracia do caminho."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Direitos autorais em festa religiosa",
+   "description": "Discute-se se o escritório de arrecadação pode cobrar direitos autorais pela música tocada num evento religioso.",
+   "axis": {
+    "pro": "A festa religiosa não tem fim econômico e a cobrança nela confronta a proteção aos cultos.",
+    "contra": "O direito autoral é garantido na Constituição e vale também nos eventos religiosos.",
+    "pro_plain": "Na festa de fé ninguém está lucrando. Cobrar por isso vai contra a proteção aos cultos.",
+    "contra_plain": "Quem faz a música precisa receber por ela, e isso não muda porque o evento é religioso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Motivação de quem viaja por fé",
+   "description": "Discute-se o que separa a viagem feita para praticar a fé de um passeio turístico comum.",
+   "axis": {
+    "pro": "A motivação é a prática da fé, e isso torna essa viagem diferente de qualquer outra.",
+    "contra": "É um segmento de turismo como os outros, e a diferença é só de nicho de mercado.",
+    "pro_plain": "Quem vai a um santuário não está passeando. Vai rezar, pedir e se recompor.",
+    "contra_plain": "No fim é turismo como qualquer outro, com hotel, comida e passeio, só que com tema de fé."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Gestão do lugar de fé",
+   "description": "Discute-se como organizar de forma profissional um santuário sem que ele perca a natureza religiosa.",
+   "axis": {
+    "pro": "O lugar de fé precisa de gestão profissional e de parceria com o poder público e os empresários.",
+    "contra": "Profissionalizar demais faz a instituição religiosa perder a essência que a sustenta.",
+    "pro_plain": "O santuário precisa ser bem administrado, com parceria de quem é do poder público e de quem empreende.",
+    "contra_plain": "Instituição religiosa que vira empresa acaba perdendo o que fazia dela o que era."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Dados e reconhecimento do segmento",
+   "description": "Discute-se se o turismo religioso é medido e reconhecido nos cadastros e nas políticas do setor.",
+   "axis": {
+    "pro": "O turismo religioso precisa ser um segmento próprio nos cadastros para ser medido e apoiado.",
+    "contra": "O segmento já está contemplado dentro do turismo cultural e não precisa de separação.",
+    "pro_plain": "Enquanto ficar junto com o turismo cultural, ninguém sabe o tamanho real desse segmento.",
+    "contra_plain": "Ele já está no cadastro dentro do turismo cultural, e separar não muda nada na prática."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Turismo",
+   "org": "Câmara dos Deputados",
+   "basis": "tratado como Deputado Rodrigo Coelho, Presidente da Comissão de Turismo, em b008.1 e b029.0",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha as políticas de turismo"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Secretário Nacional de Desenvolvimento e Competitividade do Turismo",
+   "org": "Ministério do Turismo",
+   "basis": "apresentado pela presidência em b001.10",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Turismo",
+   "org_plain": "ministério federal que cuida das políticas de turismo do país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Prefeito de Ituporanga, em Santa Catarina",
+   "org": "Prefeitura de Ituporanga",
+   "basis": "apresentado pela presidência em b001.3 e b007.3",
+   "seat": "debatedores",
+   "gov_level": "municipal",
+   "byline": "prefeito de Ituporanga, em Santa Catarina",
+   "org_plain": "prefeitura de uma cidade do Vale do Itajaí, em Santa Catarina"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Advogado e representante dos Gideões Missionários da Última Hora",
+   "org": "Gideões Missionários da Última Hora",
+   "basis": "apresentado pela presidência em b001.6 e b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "dos Gideões Missionários da Última Hora",
+   "org_plain": "entidade evangélica de Camboriú que sustenta missionários e realiza um congresso anual"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Advogada e representante dos Gideões Missionários da Última Hora",
+   "org": "Gideões Missionários da Última Hora",
+   "basis": "apresentada pela presidência em b001.6 e b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "dos Gideões Missionários da Última Hora",
+   "org_plain": "entidade evangélica de Camboriú que sustenta missionários e realiza um congresso anual"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Representante da SANTUR",
+   "org": "SANTUR",
+   "basis": "apresentada pela presidência em b001.11 e b016.29",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "da agência de turismo de Santa Catarina",
+   "org_plain": "Agência de Desenvolvimento do Turismo de Santa Catarina, o órgão estadual que promove o turismo"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Secretária de Turismo de Aparecida, em São Paulo",
+   "org": "Prefeitura de Aparecida",
+   "basis": "apresentada pela presidência em b001.12 e b018.9",
+   "seat": "remoto",
+   "gov_level": "municipal",
+   "byline": "secretária de turismo de Aparecida, em São Paulo",
+   "org_plain": "prefeitura da cidade paulista onde fica o santuário da padroeira do Brasil"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor de sustentabilidade do Santuário Santa Paulina",
+   "org": "Santuário Santa Paulina",
+   "basis": "apresentado pela presidência em b001.13 e diz em b025.27 que está há 10 anos na gestão",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Santuário Santa Paulina, em Nova Trento",
+   "org_plain": "santuário e parque ecológico de Nova Trento, em Santa Catarina, dedicado à primeira santa brasileira"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Padre dos Arautos do Evangelho, em Joinville",
+   "org": "Arautos do Evangelho",
+   "basis": "apresentado pela presidência em b001.13",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "dos Arautos do Evangelho, em Joinville",
+   "org_plain": "ordem religiosa católica nascida no Brasil, que mantém igrejas e trabalho com jovens"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "A presidência nomeia em b001.17 e b001.18 prefeitos, vereadores e lojistas da entidade de dirigentes lojistas presentes em Brasília, e em b034.6 uma comitiva de Governador Celso Ramos. Não há registro de palmas nem contagem de plateia.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre o debate com os números do turismo religioso, aponta Santa Catarina como o quarto Estado que mais faturou no segmento e cobra infraestrutura nos destinos de peregrinação.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    7,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O turismo religioso cresceu depois da pandemia e Santa Catarina tem grande potencial no segmento.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o turismo religioso cresceu depois da pandemia e movimenta cerca de 15 bilhões de reais por ano",
+     "plain": "O turismo religioso cresceu muito depois da pandemia, junto com o de aventura e o rural, em 2021 e 2022. Esse nicho movimenta cerca de 15 bilhões de reais por ano."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estado foi o quarto que mais faturou com turismo religioso, com mais de 834 milhões em 2021",
+     "plain": "Santa Catarina ficou em quarto lugar entre os Estados que mais faturaram com viagens da fé. Segundo o IBGE, só em 2021 foram mais de 834 milhões de reais gastos nas cidades catarinenses."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os locais de peregrinação cresceram com a demanda, mas muitas vezes não têm rua asfaltada nem internet",
+     "plain": "São locais de peregrinação que cresceram com a demanda, mas muitas vezes não têm rua asfaltada. Em Joinville, onde já conseguimos recursos por emenda, e em São Martinho as pessoas às vezes não têm nem acesso à Internet."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o turismo religioso gera emprego e renda, consolida municípios como destinos e lembra o boletim do Ministério do Turismo sobre o segmento.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O turismo religioso gera emprego e renda e consolida municípios como destinos turísticos.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério lançou um boletim sobre turismo religioso com um apanhado das manifestações do país",
+     "plain": "Lançamos um boletim de inteligência de mercado sobre turismo religioso. Ele está no site do Ministério do Turismo e reúne as manifestações que acontecem no Brasil inteiro."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o turismo religioso gera emprego e renda e consolida municípios como destinos turísticos",
+     "plain": "Dentro do turismo cultural, o turismo religioso gera emprego e renda. Ele consolida Municípios como destinos e ajuda a melhorar a qualidade de vida da população do lugar."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem não tem fé definida também faz peregrinação, e o segmento induz renda no município",
+     "plain": "Vale lembrar que pessoas sem uma fé definida também fazem peregrinações ou visitam santuários. Para o Município, o turismo religioso é um forte indutor de renda."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao secretário do Ministério do Turismo e cita as visitas do Ministro a Santa Catarina.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O secretário confirma que levará o agradecimento ao Ministro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Destaca os cursos gratuitos do Ministério do Turismo e sustenta que o crescimento do turismo aumenta a demanda por mão de obra, ao contrário da indústria.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O crescimento do turismo gera mais emprego, e essa mão de obra precisa de qualificação.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "cada navio traz pelo menos 3 mil pessoas e cada passageiro gasta em média 650 reais na cidade",
+     "plain": "Cada navio traz, em média, pelo menos 3 mil pessoas. E cada passageiro gasta em média 650 reais, que é o que ele deixa na cidade."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério do Turismo tem cursos gratuitos de camareira, garçom e idiomas para receber o turista",
+     "plain": "Há cursos gratuitos no site do Ministério do Turismo, como os de camareira e garçom. Há também os de idiomas, pelo desafio de tornar o Brasil um país bilíngue, para bem receber o turista."
+    },
+    {
+     "id": "b005c3",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quanto mais o turismo cresce, mais aumenta a demanda por mão de obra",
+     "plain": "No turismo acontece o contrário da indústria. Quanto mais o turismo cresce, mais aumenta a demanda por mão de obra, porque não dá para substituir uma camareira nem um garçom."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O secretário aceita ficar até o fim da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Prefeito de Ituporanga, Gervásio Maciel.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que a imagem de Nossa Senhora de Lourdes em Ituporanga saiu de investimento privado de 15 milhões e recebe cerca de 10 mil visitantes por mês.",
+   "quote": [
+    24,
+    25
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 55,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O investimento privado no santuário de Ituporanga trouxe milhares de visitantes e desenvolvimento ao município.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Prefeitura não colocou nenhum real na obra, que saiu da vontade e da visão de empreender",
+     "plain": "A Prefeitura não colocou nenhum real ali. Chegamos à inauguração, no dia 16 de julho, só com a nossa vontade e com a visão de empreender."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no primeiro mês foram 10 mil visitantes, que pagam 30 reais para entrar e 40 para subir na cruz",
+     "plain": "No primeiro mês, 10 mil pessoas fizeram a visita, pagando 30 reais para entrar e mais 40 reais para subir na cruz de elevador. O número segue em cerca de 10 mil por mês."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "foram aplicados uns 15 milhões de reais, um dos maiores investimentos do turismo religioso",
+     "plain": "Esse é hoje um dos maiores investimentos na área do turismo religioso. Foram aplicados ali uns 15 milhões de reais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao prefeito e brinca com a idade dele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O prefeito diz a data de nascimento dele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o prefeito e manda um abraço ao empresário que viabilizou a obra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Acrescenta que o santuário tem 4 mil vasos de flores irrigados todos os dias pela técnica do gotejamento.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O santuário é mantido com cuidado diário, inclusive na irrigação dos 4 mil vasos de flores.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o santuário tem 4 mil vasos de flores irrigados diariamente pela técnica do gotejamento",
+     "plain": "Lá tem 4 mil vasos de flores que enfeitam o lugar. Todos são irrigados diariamente, pela técnica do gotejamento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra aos representantes dos Gideões e convida para a audiência sobre os aeroportos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que o Congresso dos Gideões rendeu 500 mil reais ao cofre do município de Camboriú e movimenta a rede hoteleira, o comércio e as empresas aéreas.",
+   "quote": [
+    25
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Congresso dos Gideões é decisivo para a economia de Camboriú e para o turismo religioso catarinense.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a região de Camboriú tem um potencial muito grande de turismo que hoje está de costas viradas",
+     "plain": "O Prefeito falou de Ituporanga, um ponto muito relevante para explorar naquela região. Ali há um potencial de turismo muito grande, mas que hoje está de costas viradas."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      25
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o último congresso rendeu 500 mil reais ao cofre do município, o bastante para o uniforme escolar",
+     "plain": "No último Congresso dos Gideões, o Município arrecadou 500 mil reais diretamente para o cofre. Isso deu para comprar todo o uniforme escolar da rede municipal."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      26
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o congresso movimenta a rede hoteleira, o comércio local, as empresas de turismo e as aéreas",
+     "plain": "O Congresso movimenta a rede hoteleira do Balneário Camboriú e o comércio local. Movimenta também as empresas de turismo do Brasil todo e a empresa aérea que leva as pessoas até Camboriú."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Questiona a cobrança de direitos autorais pelo ECAD em festas religiosas, que não têm fim econômico, e lembra que quem paga a conta é a entidade religiosa.",
+   "quote": [
+    32,
+    33,
+    34
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cobrança de direitos autorais em festa religiosa confronta a liberdade de culto e deve ser questionada.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para comparar a festa religiosa, movida pela fé, com uma festa qualquer ou outro turismo",
+     "plain": "Não podemos comparar o turismo religioso e as festas religiosas, que têm a motivação da fé, com uma festa qualquer ou com qualquer outro turismo. Ele é peculiar."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      24
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a festa dos gideões acontece uma vez por ano em Camboriú e movimenta mais de 100 mil pessoas",
+     "plain": "A festa dos gideões acontece uma vez por ano em Camboriú. Ela repercute no Brasil inteiro e fora dele também, e movimenta mais de 100 mil pessoas."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a cobrança de direitos autorais pode e deve ser questionada, porque confronta a proteção dos cultos",
+     "plain": "E quem paga a conta? Quem paga é a entidade religiosa. Entendemos que essa cobrança de direitos autorais pode e deve ser questionada, porque há um confronto claro com o que a Constituição garante de liberdade e proteção aos cultos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que quem faz o turismo na ponta é o ente privado, cabendo ao poder público facilitar, e defende diferenciar evento comercial de evento religioso no ECAD.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Quem faz o turismo é o ente privado, e ao poder público cabe facilitar a vida de quem empreende.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem faz o turismo na ponta é a iniciativa privada, e ao poder público cabe facilitar",
+     "plain": "Precisamos ser claros: o turismo, na ponta, quem faz é a iniciativa privada, não o poder público. O que nós, do Executivo, podemos fazer é facilitar a vida de quem empreende e reduzir a burocracia."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso diferenciar o evento comercial do evento filantrópico ou religioso",
+     "plain": "Tem que haver diferença entre um evento tipicamente comercial e um evento de caráter filantrópico ou religioso."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há projeto de lei sobre o ECAD em andamento e cabe até um projeto novo só para eventos religiosos",
+     "plain": "Vamos encaminhar essa demanda e, quem sabe, fazer até uma emenda. Já há um projeto de lei sobre o ECAD que passou por algumas Comissões, ou podemos fazer um projeto novo, específico para eventos religiosos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede que a próxima legislatura destine recursos para estruturar rotas e santuários e apela ao Ministério do Turismo para incluir o turismo religioso como segmento no CADASTUR.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19
+   ],
+   "open_question": 12,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado precisa de recursos para estruturar as rotas e os santuários do turismo religioso.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a atividade turística une o privado e o público, e o privado sem fins lucrativos é um desafio para a gestão",
+     "plain": "A atividade turística tem essa particularidade de unir o privado e o público. No turismo religioso a gente acaba lidando com o privado sem fins lucrativos, e isso pode ser um desafio para a gestão pública."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos últimos 3 anos foram aprovados nove projetos de lei de rotas e santuários, que agora precisam de recursos",
+     "plain": "Nos últimos 3 anos foram aprovados nove projetos de lei para criar rotas de turismo religioso e reconhecer santuários. Gostaríamos que a próxima legislatura destinasse recursos para estruturar essas rotas e esses santuários."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      12
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o turismo religioso deveria ser um segmento próprio no CADASTUR, e não ficar agrupado no turismo cultural",
+     "plain": "Faço um apelo ao Ministério do Turismo para incluir o turismo religioso como segmento no CADASTUR. Hoje os guias e as empresas especializadas ficam todos agrupados como turismo cultural, assim como o enoturismo e o turismo gastronômico."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Apoia a separação do turismo religioso no CADASTUR para haver números mais precisos e anuncia que o novo FUNGETUR e a Lei Geral do Turismo estão em discussão.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Separar o turismo religioso no cadastro dará números mais precisos para guiar as políticas do setor.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com números mais precisos do turismo religioso dá para guiar o trabalho do Estado, do Ministério e das prefeituras",
+     "plain": "O importante é ter mais base de números para guiar o trabalho da SANTUR, do Ministério do Turismo e das Prefeituras. O CADASTUR é uma ferramenta ótima, e essa separação vai ajudar bastante."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      4
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o novo FUNGETUR e a nova Lei Geral do Turismo estão em discussão e devem ajudar o setor",
+     "plain": "Está em discussão na Casa o novo FUNGETUR e também a nova Lei Geral do Turismo. Temos esperança de aprovar os dois ainda este ano, e eles vão ajudar muito o turismo religioso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que Aparecida recebe fiéis de várias religiões, integra uma associação regional de turismo da fé e retoma o desenvolvimento depois da pandemia.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Aparecida e as cidades vizinhas se desenvolvem com o turismo religioso e retomam depois da pandemia.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a cidade recebe todos os que passam, não só católicos, mas também de outras compreensões religiosas",
+     "plain": "Aparecida é esse mundão grandioso, que recebe todo mundo que passa por aqui. Não só quem é da religiosidade católica, mas também de outras compreensões religiosas. São muitas pessoas."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Associação Região Turística da Fé reúne várias cidades do mesmo circuito para o visitante ficar mais tempo",
+     "plain": "Além da festa de Nossa Senhora, temos outras festividades no turismo religioso da região. Temos a Associação Região Turística da Fé, com sede em Aparecida, e várias cidades do mesmo circuito, para as pessoas ficarem mais tempo aqui."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia Aparecida e lembra o crescimento da cidade em torno do santuário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária fala do bispo de Aparecida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que mandem um abraço ao bispo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária diz que vai levar o recado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do Santuário Santa Paulina, em Nova Trento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b025",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende gestão profissional do santuário sem perder a essência religiosa e cobra infraestrutura e sinal de celular em Nova Trento.",
+   "quote": [
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O santuário precisa de gestão profissional e de parceria, sem perder a sua essência religiosa.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a motivação é diferente, e os santuários salvam famílias, casamentos e vidas",
+     "plain": "Concordo que a motivação é diferente. Realmente é diferente. Os santuários salvam famílias, salvam casamentos e salvam vidas."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o turismo religioso precisa de gestão profissional, mas sem perder a essência, porque quem virou empresa acabou",
+     "plain": "Estou há 10 anos fazendo a gestão aqui com as irmãs da Diretoria. Precisamos profissionalizar, mas sem perder o sentido e a essência, porque as instituições religiosas que foram para o lado empresarial já acabaram."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      53,
+      54,
+      55
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a cidade não tem sinal de telefone nem de internet, e é o segundo maior indutor de turismo religioso",
+     "plain": "É uma vergonha nacional Nova Trento não ter sinal de telefone e de Internet, sendo o segundo maior indutor de turismo religioso. Estamos quase em 2023 e não temos sinal aqui. Precisamos de uma antena potente, com urgência."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta as sombras de sinal e a BR-101 congestionada como o gargalo do turismo catarinense e promete emendas para a rodovia que leva a Nova Trento.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem sinal de internet e sem rodovia adequada não há como falar em turismo em Santa Catarina.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem internet e telefonia não há como falar em turismo, porque a pessoa precisa do GPS para se localizar",
+     "plain": "Sem isso não dá para falar em turismo. Quem chega precisa do GPS para se localizar e para ver que atrativos existem ali."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a BR-101 para em três ou quatro pontos e o trajeto de Joinville a Florianópolis passou de 2 para 3 horas e meia",
+     "plain": "Hoje a BR-101 para em três ou quatro pontos, todos os dias do ano. Quando há um acidente, ela trava toda. O trajeto de Joinville a Florianópolis, que levava 2 horas, hoje dificilmente sai em menos de 3 horas e meia."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      35
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão vai juntar forças com emendas para a SC-410, que leva ao santuário de Nova Trento",
+     "plain": "Vamos levar esse encaminhamento ao Fórum Parlamentar Catarinense, que se reúne amanhã. E vamos juntar forças com emendas para a SC-410, que sai da BR-101 e chega a Nova Trento, onde fica o santuário."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O padre esclarece que a foto é do fundador dos Arautos do Evangelho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência apresenta a igreja dos Arautos do Evangelho em Joinville e passa a palavra ao padre.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apresenta a igreja de estilo gótico em Joinville como atrativo na rota catarinense e sustenta que o principal é o apoio espiritual, e o econômico vem como consequência.",
+   "quote": [
+    40,
+    41
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A busca de quem procura aquelas igrejas é espiritual, e o resultado econômico vem como consequência.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o estilo gótico não é comum no Brasil, e na Europa o maior turismo religioso procura essas igrejas",
+     "plain": "Esse estilo não é muito comum no Brasil, mas é muito comum na Europa. Lá, o maior turismo religioso é justamente a procura das igrejas de estilo gótico."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a igreja fica a 1,5 quilômetro da BR-101 e a concessionária já colocou as placas de acesso",
+     "plain": "Estamos a 1,5 quilômetro da BR-101, numa área ampla e verde. A concessionária dessa rodovia do litoral sul já colocou as placas indicando o acesso para a Igreja Nossa Senhora do Triunfo."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      40,
+      41
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o crescimento econômico vem como consequência, e o principal é oferecer o apoio espiritual à sociedade",
+     "plain": "Nós também queremos o crescimento econômico e o desenvolvimento, mas isso vem como consequência, nós sabemos. O principal é oferecermos o espiritual, como apoio e ajuda para toda a sociedade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra a Comunidade Bethânia, em São João Batista, e abre a palavra para considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b031",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do santuário pede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência libera a palavra ao diretor do santuário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b033",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do santuário elogia o conhecimento do presidente sobre o setor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra a audiência e convoca a reunião do dia seguinte sobre a concessão dos aeroportos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 27,
+   "from_claim": "b002c2",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "O Ministério do Turismo confirma o quadro do presidente: dentro do turismo cultural, esse segmento gera emprego e renda nos municípios."
+  },
+  {
+   "from": "b005",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 21,
+   "from_claim": "b005c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O presidente soma números ao ponto do Ministério: cada navio traz pelo menos 3 mil pessoas, e cada passageiro deixa em média 650 reais na cidade."
+  },
+  {
+   "from": "b008",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 27,
+   "from_claim": "b008c3",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "O prefeito de Ituporanga dá um exemplo do potencial que o presidente apontou: uns 15 milhões de reais aplicados num dos maiores investimentos do segmento."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 26,
+   "from_claim": "b014c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "O representante dos Gideões retoma o exemplo do prefeito de Ituporanga e diz que a região tem um potencial de turismo que hoje está de costas viradas."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 26,
+   "from_claim": "b015c2",
+   "to_claim": "b014c3",
+   "strength": "media",
+   "note": "A advogada dimensiona o que o colega descreveu: a festa em Camboriú movimenta mais de 100 mil pessoas e repercute fora do Brasil."
+  },
+  {
+   "from": "b016",
+   "to": "b015",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 34,
+   "from_claim": "b016c2",
+   "to_claim": "b015c3",
+   "strength": "forte",
+   "note": "À cobrança que a advogada questionou, o presidente responde que é preciso diferenciar o evento tipicamente comercial daquele que tem caráter filantrópico ou religioso."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 4,
+   "from_claim": "b017c2",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "O presidente diz que quem faz o turismo na ponta é quem empreende, e a agência catarinense pede que o poder público destine recursos para estruturar rotas e santuários."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 12,
+   "from_claim": "b018c1",
+   "to_claim": "b017c3",
+   "strength": "forte",
+   "note": "Ao apelo de separar o turismo religioso no cadastro, o presidente responde que números mais precisos ajudam a guiar o trabalho do Estado, do Ministério e das prefeituras."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 10,
+   "from_claim": "b018c2",
+   "to_claim": "b017c2",
+   "strength": "media",
+   "note": "O presidente acena ao pedido de recursos com o novo fundo do turismo e a nova lei geral do setor, os dois em discussão na Casa."
+  },
+  {
+   "from": "b019",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 20,
+   "from_claim": "b019c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A secretária de Aparecida confirma o que o Ministério disse: a cidade recebe quem é da religiosidade católica e também de outras compreensões religiosas."
+  },
+  {
+   "from": "b025",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 23,
+   "from_claim": "b025c1",
+   "to_claim": "b015c1",
+   "strength": "forte",
+   "note": "O diretor do santuário de Nova Trento concorda com a advogada dos Gideões: a motivação de quem viaja por fé não se compara à de um passeio qualquer."
+  },
+  {
+   "from": "b026",
+   "to": "b025",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 53,
+   "from_claim": "b026c1",
+   "to_claim": "b025c3",
+   "strength": "forte",
+   "note": "À cobrança de sinal em Nova Trento, o presidente responde que sem internet e telefonia não dá para falar em turismo, porque quem chega precisa do GPS."
+  },
+  {
+   "from": "b026",
+   "to": "b025",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 46,
+   "from_claim": "b026c3",
+   "to_claim": "b025c3",
+   "strength": "media",
+   "note": "O presidente atende ao pedido de infraestrutura do santuário e promete emendas para a estrada que leva a Nova Trento."
+  },
+  {
+   "from": "b029",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 31,
+   "to_sentence": 49,
+   "from_claim": "b029c2",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "Ao quadro de falta de acesso descrito pelo presidente, o padre responde que a igreja de Joinville fica a 1,5 quilômetro da BR-101 e já tem placas de sinalização."
+  },
+  {
+   "from": "b029",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 40,
+   "to_sentence": 12,
+   "from_claim": "b029c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O padre inverte a ordem posta pelo Ministério: para ele o principal é oferecer o apoio espiritual, e o crescimento econômico vem como consequência."
+  },
+  {
+   "from": "b029",
+   "to": "b025",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 15,
+   "from_claim": "b029c3",
+   "to_claim": "b025c1",
+   "strength": "media",
+   "note": "O padre e o diretor do santuário se encontram no mesmo ponto: o que aquelas pessoas buscam ali é apoio espiritual, e não um passeio."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b008",
+    "b014",
+    "b019"
+   ],
+   "claims": [
+    "b001c1",
+    "b002c2",
+    "b008c2",
+    "b014c2",
+    "b019c2"
+   ],
+   "note": "A presidência da Comissão, o Ministério do Turismo, um prefeito, os Gideões e a secretária de Aparecida concordam que as viagens de fé geram emprego, renda e desenvolvimento nas cidades."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b025",
+    "b026"
+   ],
+   "claims": [
+    "b001c3",
+    "b025c3",
+    "b026c1",
+    "b026c2"
+   ],
+   "note": "A presidência da Comissão e o diretor do santuário de Nova Trento concordam que falta estrada, sinal de celular e sinalização nos destinos de peregrinação."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b017",
+    "b018",
+    "b026"
+   ],
+   "claims": [
+    "b017c2",
+    "b018c2",
+    "b026c3"
+   ],
+   "note": "A agência de turismo de Santa Catarina e a presidência da Comissão concordam que é preciso dinheiro público para estruturar as rotas, por emenda, pelo novo fundo ou pela lei geral do setor."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b015",
+    "b019",
+    "b025"
+   ],
+   "claims": [
+    "b015c1",
+    "b019c1",
+    "b025c1"
+   ],
+   "note": "A advogada dos Gideões, a secretária de Aparecida e o diretor do santuário concordam que quem viaja por fé não está fazendo um passeio comum."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b002",
+    "b017",
+    "b018"
+   ],
+   "claims": [
+    "b002c1",
+    "b017c3",
+    "b018c1"
+   ],
+   "note": "O Ministério do Turismo, a agência catarinense e a presidência concordam que o segmento precisa de dado próprio para ser medido e apoiado."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b008",
+   "sentence": 55,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "levar o Ministro do Turismo a conhecer a região de Ituporanga",
+   "plain": "O Ministério do Turismo pode ir conhecer o santuário e a região de Ituporanga?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b015",
+   "sentence": 34,
+   "addressed_to": "parlamentar",
+   "answered_by": "b016",
+   "gist": "rever a cobrança de direitos autorais nas festas religiosas",
+   "plain": "O Congresso vai rever a cobrança de direitos autorais nas festas religiosas, que não têm fim econômico?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b017",
+   "sentence": 10,
+   "addressed_to": "parlamentar",
+   "answered_by": "b018",
+   "gist": "destinar recursos para estruturar as rotas e os santuários",
+   "plain": "A próxima legislatura vai destinar recursos para estruturar as rotas e os santuários da fé?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b017",
+   "sentence": 12,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "incluir o turismo religioso como segmento próprio no CADASTUR",
+   "plain": "O Ministério do Turismo vai separar o turismo religioso como segmento no cadastro do setor?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b025",
+   "sentence": 55,
+   "addressed_to": "mesa",
+   "answered_by": "b026",
+   "gist": "instalar com urgência uma antena para dar sinal a Nova Trento",
+   "plain": "Quando Nova Trento vai ter uma antena potente, para termos sinal de telefone e de Internet?",
+   "theme": "d2",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 27,
+   "gist": "o nicho movimenta cerca de 15 bilhões de reais por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 28,
+   "gist": "17,7 milhões de viagens domésticas de fiéis em 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b001",
+   "sentence": 31,
+   "gist": "834 milhões de reais em visitas a cidades catarinenses em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b005",
+   "sentence": 8,
+   "gist": "cada passageiro de cruzeiro gasta em média 650 reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 25,
+   "gist": "o santuário de Ituporanga recebe cerca de 10 mil visitantes por mês",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 27,
+   "gist": "foram aplicados uns 15 milhões de reais na obra",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 0,
+   "gist": "o local tem 4 mil vasos de flores irrigados",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 25,
+   "gist": "o congresso rendeu 500 mil reais ao cofre do município",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b015",
+   "sentence": 24,
+   "gist": "a festa dos gideões movimenta mais de 100 mil pessoas",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b017",
+   "sentence": 9,
+   "gist": "nove projetos de lei de rotas aprovados em 3 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b025",
+   "sentence": 5,
+   "gist": "o Santuário Santa Paulina tem 16 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b026",
+   "sentence": 31,
+   "gist": "de Joinville a Florianópolis passou de 2 para 3 horas e meia",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o pedido de mais fomento e estrutura para o turismo religioso e o crescimento do segmento durante a pandemia.",
+  "omitted": "Ficou de fora toda a discussão sobre a cobrança de direitos autorais nas festas religiosas e a divergência sobre o que é papel do poder público e o que é de quem empreende."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O turismo da fé move a economia da cidade",
+   "statement_plain": "As viagens motivadas pela fé geram emprego, renda e desenvolvimento nas cidades que recebem os visitantes, e não só dentro do santuário.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b002c2",
+    "b008c2",
+    "b014c2",
+    "b019c2"
+   ],
+   "note": "A ideia cruza toda a sala: o Ministério do Turismo, um prefeito, os Gideões, a secretária de Aparecida e a presidência chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "O principal é a fé, o econômico vem depois",
+   "statement_plain": "Quem viaja por fé não está fazendo um passeio qualquer. O principal é o apoio espiritual, e o crescimento econômico vem como consequência.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b029c3",
+    "b029c1",
+    "b025c1",
+    "b015c1",
+    "b019c1"
+   ],
+   "note": "A ideia divide os próprios convidados: os mesmos que descrevem o movimento econômico do santuário dizem que ele não é o motivo da viagem, e a secretária de Aparecida acompanha."
+  },
+  {
+   "id": "t3",
+   "title": "Sem estrada e sinal de celular, não há turismo",
+   "statement_plain": "Os destinos de peregrinação cresceram com a procura, mas sem rua asfaltada, sinal de celular e sinalização o visitante não chega nem se orienta.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b025c3",
+    "b026c2",
+    "b029c2"
+   ],
+   "note": "A ideia junta a presidência da Comissão, o diretor de um santuário e um padre, do poder público e da sociedade civil, no mesmo diagnóstico."
+  },
+  {
+   "id": "t4",
+   "title": "Dinheiro público para estruturar as rotas",
+   "statement_plain": "O poder público precisa destinar recursos para estruturar e manter as rotas e os santuários, por emenda, pelo fundo do turismo ou pela lei geral do setor.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b017c2",
+    "b018c2",
+    "b026c3"
+   ],
+   "note": "A ideia atravessa o governo estadual e a presidência da Comissão, a mesma que em outro momento sustenta que o turismo se faz na ponta, por quem empreende."
+  },
+  {
+   "id": "t5",
+   "title": "Quem faz o turismo é quem empreende",
+   "statement_plain": "Na ponta, quem faz o turismo é a iniciativa privada e a própria instituição religiosa, que se organiza. Ao poder público cabe facilitar e tirar burocracia.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b016c1",
+    "b025c2",
+    "b012c1"
+   ],
+   "note": "A ideia divide o mesmo lado: a presidência que promete emendas também diz que o turismo se faz na ponta, e o prefeito lembra que a obra saiu sem um real da Prefeitura."
+  },
+  {
+   "id": "t6",
+   "title": "Festa de fé não é show",
+   "statement_plain": "Uma festa religiosa não tem fim econômico, e cobrar direitos autorais dela confronta a proteção que a Constituição dá aos cultos.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b015c3",
+    "b016c2",
+    "b016c3"
+   ],
+   "note": "A ideia junta a advogada dos Gideões e a presidência da Comissão, que disse desconhecer o problema e decidiu encaminhar um projeto de lei depois de ouvi-la."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SANTUR",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "Agência de Desenvolvimento do Turismo de Santa Catarina, o órgão estadual que promove o turismo no Estado"
+  },
+  {
+   "term": "CDL",
+   "fala": "b001",
+   "sentence": 18,
+   "plain": "Câmara de Dirigentes Lojistas, a entidade que reúne os donos de loja de uma cidade"
+  },
+  {
+   "term": "MEI",
+   "fala": "b001",
+   "sentence": 19,
+   "plain": "Microempreendedor Individual, o registro simplificado de quem trabalha por conta própria e fatura pouco"
+  },
+  {
+   "term": "turismo de proximidade",
+   "fala": "b001",
+   "sentence": 26,
+   "plain": "viagem curta, para um destino perto de casa, que ficou comum depois da pandemia"
+  },
+  {
+   "term": "ECAD",
+   "fala": "b015",
+   "sentence": 19,
+   "plain": "Escritório Central de Arrecadação e Distribuição, que cobra os direitos autorais pela música tocada em público"
+  },
+  {
+   "term": "STJ",
+   "fala": "b015",
+   "sentence": 30,
+   "plain": "Superior Tribunal de Justiça, o tribunal que dá a última palavra sobre a interpretação das leis federais"
+  },
+  {
+   "term": "instâncias de governança regionais",
+   "fala": "b017",
+   "sentence": 7,
+   "plain": "grupos que reúnem prefeituras e empresas de uma mesma região para decidir juntos as ações de turismo"
+  },
+  {
+   "term": "MTUR",
+   "fala": "b017",
+   "sentence": 12,
+   "plain": "sigla do Ministério do Turismo, o ministério federal que cuida do setor"
+  },
+  {
+   "term": "CADASTUR",
+   "fala": "b017",
+   "sentence": 12,
+   "plain": "cadastro federal em que guias, hotéis e agências de turismo se registram para atuar e ser reconhecidos"
+  },
+  {
+   "term": "enoturismo",
+   "fala": "b017",
+   "sentence": 12,
+   "plain": "viagem feita para conhecer vinícolas e provar vinhos"
+  },
+  {
+   "term": "FUNGETUR",
+   "fala": "b018",
+   "sentence": 3,
+   "plain": "Fundo Geral de Turismo, dinheiro federal emprestado a quem investe em hotel, pousada e atrativo turístico"
+  },
+  {
+   "term": "Lei Geral do Turismo",
+   "fala": "b018",
+   "sentence": 4,
+   "plain": "a lei que organiza as regras do setor de turismo no país"
+  },
+  {
+   "term": "Sistema S",
+   "fala": "b025",
+   "sentence": 43,
+   "plain": "conjunto de entidades mantidas por contribuição das empresas, como SENAC e SEBRAE, que dão cursos e apoio"
+  }
+ ]
+}

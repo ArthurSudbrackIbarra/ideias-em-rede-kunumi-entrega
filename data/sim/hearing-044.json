@@ -1,0 +1,3495 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 44,
+ "model": "LLM lendo o prompt hearing-044 (sim-annotations-v3), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-13T23:16:20Z",
+ "prompt_sha256": "136b37ac5359c5f01c0b23bea1711c024d32c0795763b7e8b6a790e79aca70eb",
+ "sentences_hash": "2ffdde766409b765",
+ "review": {
+  "pairs_read": 70,
+  "pairs_fixed": 40
+ },
+ "warnings": [
+  "10 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "Convocada pelo Deputado Ivan Valente dias depois de o Ibama negar à Petrobras a licença para perfurar o Bloco FZA-M-59, a 175 km da costa do Amapá, a audiência pôs frente a frente o Ministério de Minas e Energia, o Ibama, a Petrobras, o IBP, a FUP, o Observatório do Clima, um pesquisador do sistema recifal da Amazônia e deputados do Pará, do Amapá e de Roraima. De um lado, a queda projetada da produção a partir de 2029, a soberania energética e a promessa de royalties para a região mais pobre do país. Do outro, a exigência de que a viabilidade ambiental seja demonstrada, a Avaliação Ambiental de Área Sedimentar nunca feita e o risco de o óleo alcançar manguezais, recifes e a Guiana Francesa. Todos elogiaram a capacidade técnica da Petrobras e pediram diálogo. A divergência ficou em se um vazamento pode ou não tocar a costa e em quem deve decidir, técnicos ou governo.",
+ "stakes": "A Petrobras havia pedido reconsideração da licença que o Ibama negou para perfurar o poço do Bloco FZA-M-59. A audiência disputava se a perfuração devia ser autorizada e sob quais condições.",
+ "central_question": "O Ibama deve autorizar a Petrobras a perfurar o poço exploratório do Bloco 59, na costa do Amapá, antes de existir uma avaliação ambiental regional?",
+ "synopsis_plain": "Dias depois de o Ibama negar à Petrobras a licença de um poço a 175 km da costa do Amapá, a Câmara reuniu governo, Petrobras, empresas, sindicatos, ambientalistas, um pesquisador e deputados do Norte. De um lado, a produção que cai a partir de 2029 e a promessa de dinheiro para a região mais pobre do país. Do outro, a exigência de provar que o poço é seguro e o medo de o óleo chegar à costa.",
+ "stakes_plain": "A Petrobras pediu ao Ibama que revisse a decisão de negar a licença para o poço do Bloco 59. Estava em jogo se a perfuração podia ser autorizada, e com que condições.",
+ "central_question_plain": "O Ibama deve deixar a Petrobras perfurar o poço de pesquisa do Bloco 59, na costa do Amapá, antes de existir um estudo ambiental de toda a região?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Clima e transição energética",
+   "description": "Compromissos do Brasil no Acordo de Paris e na Convenção sobre Diversidade Biológica, a velocidade da transição energética e o papel da Petrobras como empresa de energia, não só de petróleo.",
+   "axis": {
+    "pro": "O petróleo da foz deve ser decidido dentro dos compromissos climáticos que o Brasil assumiu.",
+    "contra": "A transição leva décadas e o petróleo brasileiro continua essencial até 2050.",
+    "pro_plain": "O petróleo da foz tem de ser decidido dentro dos compromissos de clima que o Brasil assinou.",
+    "contra_plain": "A transição vai levar décadas e o petróleo brasileiro continua necessário até 2050."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Segurança energética e novas fronteiras",
+   "description": "A produção brasileira tende a cair a partir de 2029. A Margem Equatorial é apontada como a única grande fronteira restante, com exemplos da Guiana e do Suriname e a promessa de investimentos e empregos.",
+   "axis": {
+    "pro": "Sem novas fronteiras o Brasil volta a importar petróleo a partir de 2029.",
+    "contra": "Segurança energética não justifica abrir novos poços em plena crise climática.",
+    "pro_plain": "Sem novas áreas de petróleo, o Brasil volta a importar a partir de 2029.",
+    "contra_plain": "Garantir energia não justifica abrir poços novos no meio da crise do clima."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Licenciamento do Bloco 59 e a AAAS",
+   "description": "Por que o Ibama negou a licença, o que a Petrobras diz ter atendido, a Avaliação Ambiental de Área Sedimentar nunca realizada e o papel da manifestação conjunta dos ministérios.",
+   "axis": {
+    "pro": "A licença deve sair: a Petrobras atendeu as exigências e a AAAS não é condição legal.",
+    "contra": "A viabilidade ambiental não foi demonstrada e a AAAS já devia ter sido feita.",
+    "pro_plain": "A licença deve sair: a Petrobras atendeu as exigências, e a AAAS não é obrigatória por lei.",
+    "contra_plain": "Não ficou provado que o projeto é seguro para o ambiente, e a AAAS já devia ter sido feita."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Legado para a Amazônia e royalties",
+   "description": "Pará, Amapá, Roraima e o município de Oiapoque cobram que a riqueza do petróleo financie a região mais pobre do país. A sociedade civil local pergunta por que a Amazônia paga a conta.",
+   "axis": {
+    "pro": "A riqueza do petróleo deve financiar a região mais pobre do país.",
+    "contra": "Promessas anteriores não se cumpriram e é a Amazônia que paga a conta.",
+    "pro_plain": "A riqueza do petróleo tem de financiar a região mais pobre do país.",
+    "contra_plain": "As promessas anteriores não se cumpriram, e quem paga a conta é a Amazônia."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Risco de vazamento e biodiversidade",
+   "description": "Manguezais, o Grande Sistema Recifal da Amazônia a 40 km do bloco, correntes fortes e a crítica aos modelos de dispersão de óleo que não incluem ventos nem a região costeira.",
+   "axis": {
+    "pro": "Um vazamento pode alcançar manguezais, recifes e a Guiana Francesa.",
+    "contra": "As modelagens e as boias mostram que o óleo não toca a costa.",
+    "pro_plain": "Um vazamento pode chegar aos manguezais, aos recifes e à Guiana Francesa.",
+    "contra_plain": "As simulações e as boias mostram que o óleo não chega à costa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Polarização, ciência e diálogo",
+   "description": "Deputados e a presidência da Comissão pedem que o debate não vire briga política, que a ciência comande e que Ibama, Petrobras e ministérios se sentem à mesa com cronograma.",
+   "axis": {
+    "pro": "A decisão deve ser técnica e a ciência deve comandar o debate.",
+    "contra": "A decisão final é política e cabe ao Governo, com prazo e cronograma.",
+    "pro_plain": "A decisão tem de ser técnica, e a ciência manda no debate.",
+    "contra_plain": "A decisão final é política e cabe ao Governo, com prazo e cronograma."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado José Priante (MDB-PA), presidente da Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "org": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "basis": "b001.0 e matéria a.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida de meio ambiente. O presidente dela dirigiu a audiência"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Presidente do ICMBio, representando o Ministério do Meio Ambiente (a pista do dataset, 'Secretário de Meio Ambiente do Pará', estava errada)",
+   "org": "ICMBio / MMA",
+   "basis": "apresentado em b001.4, autoapresentação em b002.2 e b002.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do ICMBio, representando o Ministério do Meio Ambiente",
+   "org_plain": "órgão federal que cuida das unidades de conservação. Falou pelo Ministério do Meio Ambiente"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenador-geral de Programas e Projetos do Departamento de Política de Exploração e Produção de Petróleo e Gás, Ministério de Minas e Energia",
+   "org": "MME",
+   "basis": "b001.6 e b007.78",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério de Minas e Energia",
+   "org_plain": "ministério do governo federal responsável pela política de petróleo, gás e energia"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (MDB-MA)",
+   "org": "Câmara dos Deputados (MDB-MA)",
+   "basis": "cabeçalho da ata e b062.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Maranhão",
+   "org_plain": "deputado eleito pelo Maranhão, do MDB"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Presidente do Ibama, ex-deputado federal e ex-presidente desta Comissão",
+   "org": "Ibama",
+   "basis": "b001.5 e b009.11",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ibama",
+   "org_plain": "órgão federal que dá ou nega licenças ambientais e fiscaliza o meio ambiente"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Especialista sênior em políticas públicas do Observatório do Clima, ex-presidente do Ibama",
+   "org": "Observatório do Clima",
+   "basis": "b001.19 e b011.0",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Observatório do Clima",
+   "org_plain": "rede de organizações da sociedade civil que acompanha a política de clima"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Secretário de Meio Ambiente e Sustentabilidade do Estado do Pará",
+   "org": "Semas-PA",
+   "basis": "b001.8 e b013.6",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "secretário de Meio Ambiente do Pará",
+   "org_plain": "secretaria do governo do estado do Pará para o meio ambiente"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Professor da Universidade Estadual do Norte Fluminense e pesquisador do Grande Sistema Recifal da Amazônia",
+   "org": "UENF",
+   "basis": "b001.18 e b028.55, b028.56",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professor da UENF",
+   "org_plain": "universidade pública do Rio de Janeiro, onde ele pesquisa os recifes da Amazônia"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (PSOL-SP), autor do requerimento da audiência",
+   "org": "Câmara dos Deputados (PSOL-SP)",
+   "basis": "b001.0 e b037.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSOL de São Paulo",
+   "org_plain": "deputado eleito por São Paulo, do PSOL. Foi ele quem pediu a audiência"
+  },
+  "s10": {
+   "role": "setor_privado",
+   "cargo": "Presidente do Instituto Brasileiro de Petróleo e Gás (IBP), entidade das empresas do setor",
+   "org": "IBP",
+   "basis": "b001.9 e b030.2, b030.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do IBP",
+   "org_plain": "entidade que reúne as empresas de petróleo e gás"
+  },
+  "s11": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora técnica do INEEP, instituto de estudos criado pela Federação Única dos Petroleiros (a pista do dataset estava errada)",
+   "org": "INEEP",
+   "basis": "b001.12 e autoapresentação em b032.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do INEEP",
+   "org_plain": "instituto de estudos criado pela federação dos petroleiros"
+  },
+  "s12": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador-geral da Federação Única dos Petroleiros (FUP)",
+   "org": "FUP",
+   "basis": "b001.17 e b033.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da FUP",
+   "org_plain": "federação dos sindicatos dos trabalhadores do petróleo"
+  },
+  "s13": {
+   "role": "setor_privado",
+   "cargo": "Gerente de Sustentabilidade e Meio Ambiente da Petrobras (empresa estatal de capital misto), responsável pelo licenciamento do projeto",
+   "org": "Petrobras",
+   "basis": "b001.7 e autoapresentação em b036.4 a b036.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Petrobras",
+   "org_plain": "empresa estatal de petróleo. Foi ela quem pediu a licença para perfurar o poço"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (Republicanos-RR)",
+   "org": "Câmara dos Deputados (Republicanos-RR)",
+   "basis": "cabeçalho da ata e b044.8",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Roraima",
+   "org_plain": "deputado eleito por Roraima, do Republicanos"
+  },
+  "s15": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (PL-SC)",
+   "org": "Câmara dos Deputados (PL-SC)",
+   "basis": "cabeçalho da ata e b046.18",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Santa Catarina",
+   "org_plain": "deputado eleito por Santa Catarina, do PL"
+  },
+  "s16": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (MDB-PA), representante da região do Tapajós",
+   "org": "Câmara dos Deputados (MDB-PA)",
+   "basis": "b013.2 e cabeçalho da ata",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Pará",
+   "org_plain": "deputado eleito pelo Pará, do MDB"
+  },
+  "s17": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal (MDB-AP), falando pela bancada federal do Amapá",
+   "org": "Câmara dos Deputados (MDB-AP)",
+   "basis": "cabeçalho da ata e b057.20",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Amapá",
+   "org_plain": "deputado eleito pelo Amapá, do MDB. Falou pela bancada do estado"
+  },
+  "s18": {
+   "role": "parlamentar",
+   "cargo": "Vereador do Município de Oiapoque (AP) e professor das séries iniciais",
+   "org": "Câmara Municipal de Oiapoque",
+   "basis": "b058.1 e autoapresentação em b059.1, b059.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "vereador de Oiapoque",
+   "org_plain": "câmara de vereadores de Oiapoque, o município do Amapá mais perto do bloco"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.65
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "sindicalistas do Sindipetro saudados em b034.3, três vereadores de Oiapoque em b057.31, Instituto Mapinguari e CCBio em b042, nove registros de palmas ao longo da sessão",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência, apresenta os expositores e dá 5 minutos a cada um, prorrogáveis por mais 5.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre",
+   "speaker": "s01"
+  },
+  {
+   "id": "b002",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pelo Ministério do Meio Ambiente, lembra os compromissos do Acordo de Paris e da Convenção sobre Diversidade Biológica e pede que o petróleo da foz seja discutido dentro da transição energética.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    38
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O petróleo da foz tem de ser decidido dentro do Acordo de Paris e da Convenção da Biodiversidade.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "gist": "o petróleo da foz tem de ser discutido dentro do Acordo de Paris e da Convenção sobre Diversidade Biológica, que o Brasil assinou",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "O petróleo na foz do Amazonas precisa ser pensado dentro dos compromissos que o Brasil assinou. Um deles é o Acordo de Paris, de 2015, de reduzir emissões. Outro é a Convenção sobre Diversidade Biológica, de preservar a natureza."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "gist": "o Acordo de Paris obriga a buscar a transição energética, e o agravamento do clima que já vivemos não é ficção",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "O Acordo de Paris nos obriga a trabalhar pela transição energética e buscar outras formas de produzir energia, sem esquecer o que estamos vivendo: as mudanças do clima estão piorando, e isso não é ficção."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s02"
+  },
+  {
+   "id": "b003",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Carlos Agenor, do Ministério de Minas e Energia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b004",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pelo MME, mostra que a produção brasileira tende a cair a partir de 2029, com o pré-sal em declínio, e defende novas fronteiras para o país não voltar a importar petróleo.",
+   "quote": [
+    40,
+    41,
+    42
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A produção brasileira cai a partir de 2029 e o país precisa de novas fronteiras para não voltar a importar.",
+    "sentence": 40
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "dado",
+     "gist": "a produção tende a cair a partir de 2029 e o Brasil pode voltar a importar petróleo sem saber o preço",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "A partir de 2029 a produção tende a cair. O que nos preocupa é isto: vamos voltar a importar petróleo bem no meio da transição energética, sem saber qual vai ser o preço dele?"
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "dado",
+     "gist": "o pré-sal de Campos e Santos está esgotado e recuperar campos antigos não vai ser a solução",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "O pré-sal das Bacias de Campos e Santos está esgotado. Ainda há muito a fazer lá, recuperando campos pequenos e antigos, mas isso não vai resolver o problema."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "economico",
+     "gist": "o país precisa de novas fronteiras e por isso olha há mais de 1 década para a Margem Equatorial",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Precisamos de novas áreas de petróleo. Por isso olhamos há mais de 1 década para a Margem Equatorial, o litoral norte: lá já existem blocos comprados por empresas, com o licenciamento ambiental bem adiantado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s03"
+  },
+  {
+   "id": "b005",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que melhorem o som do microfone do expositor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s04"
+  },
+  {
+   "id": "b006",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência aciona a assessoria de som.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s01"
+  },
+  {
+   "id": "b007",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Estima 1 trilhão de reais e centenas de milhares de empregos se a Margem Equatorial repetir a Guiana, e sustenta que a manifestação conjunta dos ministérios tem o mesmo rigor da AAAS, cujos critérios chama de fracos.",
+   "quote": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A manifestação conjunta tem o mesmo rigor da AAAS e o óleo não toca a costa nos blocos da foz.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "economico",
+     "gist": "repetir os 13 bilhões de barris da Guiana e do Suriname daria 1 trilhão de reais em arrecadação e centenas de milhares de empregos",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Se o Brasil tiver os 13 bilhões de barris esperados na Guiana e no Suriname, o que isso dá? 56 bilhões de dólares de investimento, 200 bilhões de dólares para o Estado, ou seja, 1 trilhão de reais, e centenas de milhares de empregos."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "juridico",
+     "gist": "a manifestação conjunta dos ministérios tem o mesmo rigor da AAAS para dizer o que é ou não apto",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "A manifestação conjunta, a decisão assinada pelos dois ministérios, tem o mesmo rigor: ela também diz que área é ou não é apta. E nela o peso do Ibama, do ICMBio e do próprio Ministério do Meio Ambiente é o que manda."
+    },
+    {
+     "id": "b007c3",
+     "sentences": [
+      71,
+      72,
+      73
+     ],
+     "type": "dado",
+     "gist": "não existe toque de óleo na costa, e os corais, a foz e a pesca da lagosta estariam preservados",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "O óleo não chega à costa. Em qualquer avaliação regional dessas áreas, os corais, a foz do Amazonas e a pesca da lagosta estariam preservados. O prazo de 20 horas para o óleo tocar a costa é mais do que suficiente na foz do Amazonas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s03"
+  },
+  {
+   "id": "b008",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Rodrigo Agostinho, do Ibama.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b009",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pelo Ibama, explica por que dez técnicos negaram a licença (base de emergência a 800 km, região pouco estudada, fronteira com a Guiana, plano de fauna) e rejeita a premissa da Petrobras de que o óleo nunca tocaria a costa.",
+   "quote": [
+    99,
+    100,
+    101,
+    102
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Não há 100% de certeza de que o óleo não chega à costa, e a viabilidade ambiental não foi demonstrada.",
+    "sentence": 99
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "juridico",
+     "gist": "a manifestação conjunta dos 2 ministros é uma exceção mais política do que técnica, e em 11 anos a AAAS já devia existir",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "A regra prevê, como exceção, que os 2 ministros, do Meio Ambiente e de Minas e Energia, autorizem petróleo em áreas sem a AAAS, a avaliação regional. É uma decisão mais política do que técnica. Em 11 anos, esses estudos já deviam existir."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      78,
+      79
+     ],
+     "type": "dado",
+     "gist": "o centro de emergência fica em Belém, a 800 quilômetros do bloco e a pelo menos 2 dias de barco",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "O bloco fica a 800 quilômetros de Belém, onde está a base para atender emergências. Em Oiapoque ficam só os helicópteros. O socorro aos animais e a um acidente sai de Belém, a pelo menos 2 dias de barco do poço."
+    },
+    {
+     "id": "b009c3",
+     "sentences": [
+      99,
+      100,
+      101
+     ],
+     "type": "principio",
+     "gist": "não há 100% de certeza de que o óleo não chega à costa, e é preciso trabalhar com o pior cenário",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Não temos certeza absoluta, 100%, de que o óleo nunca chegará à costa. Dizer isso nos estudos é um erro: a gente sempre tem que trabalhar com o pior cenário."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s05"
+  },
+  {
+   "id": "b010",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Suely Araújo, do Observatório do Clima.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b011",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Separa três escalas (o Bloco 59, a AAAS regional e a política energética), defende que a AAAS daria segurança jurídica aos leilões e alerta que a AIE diz que o mundo não deveria abrir novos poços desde 2021.",
+   "quote": [
+    51,
+    52,
+    53,
+    54,
+    55
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A licença estaria indeferida mesmo sem a AAAS: faltam condições de gerenciar acidentes e fauna oleada.",
+    "sentence": 44
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "juridico",
+     "gist": "a AAAS mapeia áreas aptas, não aptas e em moratória, e só as aptas iriam a leilão, com mais segurança jurídica",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Com a AAAS, a avaliação ambiental de toda a região, os blocos oferecidos às empresas teriam muito mais segurança jurídica e técnica. Ela mapeia as áreas aptas, as não aptas e as em moratória, e só as aptas iriam a leilão."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "juridico",
+     "gist": "a questão não é jurídica: os técnicos dizem há anos que não conseguem decidir na Margem Equatorial sem a AAAS",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Isto não é uma discussão jurídica nem burocrática. Há muitos anos os técnicos dizem que não conseguem decidir bem sobre a Margem Equatorial sem a AAAS, a avaliação de toda a região. A manifestação dos ministérios não dispensa esse estudo."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      75,
+      76
+     ],
+     "type": "dado",
+     "gist": "segundo a Agência Internacional de Energia, para limitar o aquecimento a 1,5 grau o mundo não deveria perfurar poços novos desde 2021",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "A própria Agência Internacional de Energia diz: para cumprir a meta do Acordo de Paris, de limitar o aquecimento a 1,5 grau e zerar as emissões até 2050, o mundo não deveria abrir poços de petróleo desde 2021. Quem diz isso é a Agência."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s06"
+  },
+  {
+   "id": "b012",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao secretário de Meio Ambiente do Pará.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b013",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que os secretários de Meio Ambiente da Amazônia Legal enviaram carta ao Ibama apoiando a exploração e argumenta que, sem acesso a fundos climáticos, o petróleo é a forma de os estados financiarem a própria transição e o combate ao desmatamento.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    37
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem acesso a fundos climáticos, o petróleo é a forma de os estados da Amazônia financiarem a própria transição.",
+    "sentence": 60
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "gist": "levaria de 6 a 8 anos para começar a produzir, e as reservas atuais só dão segurança por 10 ou 12 anos",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Como disse o representante do Ministério de Minas e Energia, e como confirmam a Universidade Federal do Pará e geólogos que consultei, daqui até produzir levaria de 6 a 8 anos. E as reservas do Brasil só dão segurança por 10 ou 12 anos."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "dado",
+     "gist": "o Pará nunca teve acesso direto aos fundos climáticos e os 100 bilhões de dólares prometidos pelos países ricos não chegaram",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "O Pará nunca conseguiu acesso direto a esses fundos climáticos. E os 100 bilhões de dólares prometidos pelos países ricos, os que mais emitem gases de efeito estufa, também não chegaram."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      60,
+      61
+     ],
+     "type": "economico",
+     "gist": "os estados da Amazônia podem se financiar com a riqueza do subsolo em vez de depender de empréstimo externo",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Vamos depender de empréstimo de fora, quando podemos nos financiar com a riqueza do subsolo, com a segurança da Petrobras e do licenciamento do Ibama? Precisamos de dinheiro acessível e sem burocracia, até para combater o desmatamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s07"
+  },
+  {
+   "id": "b014",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Carlos Eduardo Rezende, que participa por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b015",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O professor agradece o convite e pergunta se a apresentação está aparecendo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s08"
+  },
+  {
+   "id": "b016",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma a imagem e pede que fale mais alto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s01"
+  },
+  {
+   "id": "b017",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O professor tenta aumentar o som.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s08"
+  },
+  {
+   "id": "b018",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o som melhorou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s01"
+  },
+  {
+   "id": "b019",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Abre a exposição lembrando que o antropoceno rompeu limites planetários nos oceanos e chama de falsa a polêmica que opõe campos. É interrompido por problema no compartilhamento de tela.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O antropoceno já rompeu limites planetários nos oceanos, e a polêmica que opõe campos é falsa.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "gist": "em menos de 3 séculos a humanidade criou o antropoceno e rompeu vários limites do planeta, sobretudo nos oceanos",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Em menos de 3 séculos, a sociedade moderna criou um novo período na história do planeta, o antropoceno. Vários limites da Terra foram rompidos: mudança do clima, oceanos mais ácidos, poluição, zonas mortas no mar e uma perda enorme de vida."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null,
+   "speaker": "s08"
+  },
+  {
+   "id": "b020",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que o expositor fala como se houvesse um slide na tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s09"
+  },
+  {
+   "id": "b021",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O professor confirma.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s08"
+  },
+  {
+   "id": "b022",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que o slide não está compartilhado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s09"
+  },
+  {
+   "id": "b023",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o professor compartilhe a tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s01"
+  },
+  {
+   "id": "b024",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O professor diz que havia perguntado se a imagem aparecia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s08"
+  },
+  {
+   "id": "b025",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica que a imagem apareceu e depois sumiu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s01"
+  },
+  {
+   "id": "b026",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O professor tenta compartilhar a tela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s08"
+  },
+  {
+   "id": "b027",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que a assessoria vai exibir o material e pede que continue.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone",
+   "speaker": "s01"
+  },
+  {
+   "id": "b028",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Critica o modelo de dispersão da Petrobras (grade que não cobre a costa, sem ventos), mostra que 90% da região é de alta sensibilidade, que o bloco fica a 40 km do Grande Sistema Recifal e que os manguezais morreriam com o óleo. Pede investimento em ciências do mar.",
+   "quote": [
+    50,
+    51,
+    52
+   ],
+   "covered": true,
+   "evidence": [
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O modelo de dispersão da Petrobras não inclui ventos nem a costa, e o óleo alcançaria recifes e manguezais.",
+    "sentence": 52
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "gist": "o modelo de dispersão do óleo usado no licenciamento não cobre a costa nem inclui os ventos, então não mostra se o óleo chegaria lá",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "O modelo que simula para onde o óleo iria, usado no licenciamento, tem uma grade pequena que não cobre a costa. E os ventos não entraram no modelo, então ele não mostra se a mancha chegaria à costa. As ondas do vento são fundamentais aqui."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "dado",
+     "gist": "os manguezais são muito sensíveis ao óleo: ele forma uma película nas raízes e mata as plantas em massa",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Os manguezais são extremamente sensíveis a esse tipo de poluente. O óleo forma uma película nas raízes das plantas e provoca uma morte em massa. A área coberta por manguezais ficaria seriamente comprometida."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      50,
+      51,
+      52
+     ],
+     "type": "dado",
+     "gist": "o bloco fica a cerca de 40 quilômetros do Grande Sistema Recifal da Amazônia, e o óleo vazado chegaria aos recifes pelo fundo",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "A área que querem licenciar fica a cerca de 40 quilômetros do Grande Sistema Recifal da Amazônia. Se o óleo vazar e for levado pelo fundo, chegaria aos recifes e causaria dano irreversível: parte evapora, mas a parte pesada permanece lá."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s08"
+  },
+  {
+   "id": "b029",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra a Roberto Ardenghy, do IBP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b030",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pelo IBP, afirma que a atividade é segura, que o petróleo brasileiro emite um terço da média mundial e que o Acordo de Paris não pede emissão zero. Preocupa-se com exigências adicionais em áreas já outorgadas e promete 445 mil empregos.",
+   "quote": [
+    47,
+    48,
+    49,
+    50
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A atividade é segura, o petróleo brasileiro emite um terço da média mundial e o país precisa repor reservas.",
+    "sentence": 51
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "gist": "ninguém está pedindo que o mundo seja net zero, e sim que reduza as emissões de gases de efeito estufa",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Ninguém está pedindo que o mundo chegue ao net zero, a emissão líquida zero. O que o mundo precisa fazer é reduzir as emissões de CO2 e dos outros gases de efeito estufa, para sobreviver e manter a economia e a sociedade como as imaginamos."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "dado",
+     "gist": "a evidência é que hoje, até a meia-noite, o Brasil produz 3,5 milhões de barris de petróleo",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Não vou falar de hipóteses nem de cenários. Vou falar de evidências. Que evidências eu trago? Hoje, até a meia-noite, o Brasil terá produzido 3,5 milhões de barris de petróleo em todo o país."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      76
+     ],
+     "type": "economico",
+     "gist": "a indústria vai investir 183 bilhões de dólares em 10 anos e gerar 445 mil empregos",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Presidente, essa indústria vai investir 183 bilhões de dólares nos próximos 10 anos e vai gerar 445 mil empregos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s10"
+  },
+  {
+   "id": "b031",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Ticiana Alvares, do INEEP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b032",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pelo INEEP, recusa a dicotomia meio ambiente versus desenvolvimento e Petrobras versus Ibama, pergunta qual é o interesse nacional e propõe partilha com a Petrobras como operadora única e um fundo social para financiar a transição justa.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A exploração só faz sentido com partilha, Petrobras operadora única e um fundo social para a transição justa.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "gist": "o debate não é meio ambiente contra desenvolvimento nem Petrobras contra Ibama, e sim uma questão estratégica para o país",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "plain": "Para o INEEP, o debate sobre a Margem Equatorial não é uma falsa escolha entre meio ambiente e desenvolvimento, nem uma briga entre Petrobras e Ibama. É uma questão estratégica que junta energia, soberania, clima, transição e trabalho."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "dado",
+     "gist": "a Amazônia e o Nordeste têm os piores índices de desenvolvimento humano do país e tinham metade das UTIs por habitante na pandemia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "A Amazônia e o Nordeste têm os piores Índices de Desenvolvimento Humano do Brasil, como disse o secretário Mauro O'de Almeida. Na pandemia, o Sul e o Sudeste tinham mais do que o dobro de UTIs por habitante que o Norte e o Nordeste."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      48
+     ],
+     "type": "economico",
+     "gist": "se houver petróleo, a área deve ser estratégica, com partilha, a Petrobras como operadora única e um fundo social para a transição justa",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "condicional",
+     "plain": "Se a perfuração confirmar o petróleo, a área deve ser estratégica: modelo de partilha, Petrobras como única operadora e um fundo social para a transição justa, o desenvolvimento regional e os povos indígenas, ribeirinhos e quilombolas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s11"
+  },
+  {
+   "id": "b033",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Deyvid Bacelar, da FUP, e pede concisão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b034",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pela FUP, defende energia como política de Estado, diz que os estudos da Petrobras mostram que não há toque de óleo na costa e que as exigências do Ibama estão sendo atendidas, e cobra que a riqueza sirva ao Norte e ao Nordeste em vez de dividendos.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os estudos da Petrobras mostram que não há toque na costa e as exigências do Ibama estão sendo atendidas.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "gist": "os estudos da Petrobras de 2015 e 2022, e o novo de 2023, mostram que não há toque de óleo na costa em caso de vazamento",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "A Petrobras já fez esses estudos duas vezes, em 2015 e em 2022, e vai fazer um novo em 2023, com contribuições da academia e do próprio Ibama. Todos eles mostram que, se houver vazamento, o óleo não chega à costa. Quero destacar isso."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "precedente",
+     "gist": "a Petrobras nunca teve acidente com vazamento em poço pioneiro, e aqui se trata de um poço pioneiro",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Em poços pioneiros, os primeiros poços de pesquisa, a Petrobras nunca teve acidente com vazamento. Isso nunca aconteceu na história da empresa. E aqui, como disse a companheira Ticiana, é um poço pioneiro, só para saber se há petróleo."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      39
+     ],
+     "type": "dado",
+     "gist": "o petróleo da Petrobras, sobretudo no pré-sal, tem a menor emissão de CO2 do mundo",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Temos certeza de que o petróleo que a Petrobras produz hoje, principalmente no pré-sal, tem baixa pegada de carbono. É o petróleo com a menor emissão de CO2 do mundo! E é curioso ver a FUP concordando com o IBP nisto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s12"
+  },
+  {
+   "id": "b035",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Daniele Zaneti Puelker, da Petrobras.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b036",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pela Petrobras, apresenta o projeto Amapá Águas Profundas (poço a 175 km da costa, 2.880 m de lâmina d'água), reafirma que as modelagens e 90 boias mostram que o óleo não toca a costa, diz que a AAAS não é competência da empresa e pede liberação do simulado de emergência.",
+   "quote": [
+    96,
+    97,
+    98
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Duas modelagens e 90 boias mostram que o óleo não toca a costa, e a AAAS não é condição para a licença.",
+    "sentence": 96
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      61,
+      62,
+      63
+     ],
+     "type": "dado",
+     "gist": "as formações sensíveis ficam em até 200 metros de profundidade e o poço está a 2.880 metros, a uma distância adequada",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Essas formações ficam mais perto da costa, em águas de até 200 metros de profundidade. A Petrobras vai perfurar onde a água tem 2.880 metros. Estamos a uma distância bem adequada do ambiente sensível."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      95,
+      96
+     ],
+     "type": "dado",
+     "gist": "as modelagens e mais de 90 boias lançadas ao mar confirmam que não há probabilidade de o óleo tocar a costa",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Lançamos ao mar mais de 90 boias para ver como o óleo se comportaria num vazamento. Isso confirma o que as simulações da empresa já diziam: não há probabilidade de o óleo tocar a costa num vazamento remoto, remotíssimo."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      114,
+      115,
+      116
+     ],
+     "type": "juridico",
+     "gist": "o próprio Ibama admitiu que a falta da AAAS não justifica negar a licença, e o STF disse que a viabilidade vem do licenciamento",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "O próprio Ibama já reconheceu, num parecer, que não há base jurídica para negar a licença por falta da AAAS, a avaliação de toda a região. O Ibama sabe disso. E o Supremo já disse: o que comprova a viabilidade ambiental é o licenciamento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s13"
+  },
+  {
+   "id": "b037",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência organiza o debate: primeiro o autor do requerimento, depois blocos de deputados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s01"
+  },
+  {
+   "id": "b038",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta quanto tempo tem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s09"
+  },
+  {
+   "id": "b039",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 3 minutos mais o tempo de liderança.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s01"
+  },
+  {
+   "id": "b040",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende a Petrobras mas rejeita o açodamento: o licenciamento existe para evitar desastres, ninguém garante que o óleo não chega à costa, a AAAS já devia ter sido feita e o ministro errou ao chamar a decisão do Ibama de inadmissível. Pergunta se a sonda levada ao bloco estava autorizada.",
+   "quote": [
+    39,
+    40,
+    41,
+    42,
+    43
+   ],
+   "covered": true,
+   "evidence": [
+    32,
+    33,
+    34,
+    35,
+    36
+   ],
+   "open_question": 11,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A decisão do Ibama é técnica, contestável mas não inadmissível. A ciência tem que comandar e não pode haver açodamento.",
+    "sentence": 103
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "principio",
+     "gist": "ninguém garante nada: Daniele afirma que o óleo não chega à costa, mas Agostinho e o professor disseram o contrário",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Vou dar um exemplo para a Daniele, que afirma com toda a certeza que o problema não chega à costa. O Agostinho disse o contrário, e o professor também. Ninguém garante nada."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "juridico",
+     "gist": "a avaliação ambiental de área sedimentar já devia ter sido feita e facilitaria todo o licenciamento na bacia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "A avaliação ambiental de toda a região já devia ter sido feita, porque ela resolve uma questão estratégica de longo prazo. Resolvida essa questão, todo o licenciamento de petróleo na bacia, inclusive na costa norte, fica muito mais fácil."
+    },
+    {
+     "id": "b040c3",
+     "sentences": [
+      67,
+      68,
+      69
+     ],
+     "type": "principio",
+     "gist": "a posição do Ibama não é inadmissível, como foi dito: ela é técnica",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Ele disse que a posição do Ibama é inadmissível. Não é inadmissível. É uma posição técnica."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s09"
+  },
+  {
+   "id": "b041",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede tempo para a jovem convidada falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b042",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cede o tempo a Hannah Balieiro, do Instituto Mapinguari (Amapá), que entrega carta de apoio ao indeferimento do Ibama, lembra promessas não cumpridas de outros projetos e pergunta por que os povos da Amazônia pagam a conta da transição energética.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 26,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os povos da Amazônia não devem pagar de novo a conta de um projeto que promete desenvolvimento.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "gist": "uma carta entregue à mesa apoia o indeferimento do Ibama, porque o processo do bloco tem vários buracos",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Estamos entregando agora à mesa uma carta que apoia a decisão do Ibama de negar a licença, porque esse processo de exploração de petróleo no bloco da Foz do Amazonas tem vários buracos."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "precedente",
+     "gist": "não é o primeiro projeto que promete desenvolvimento ao Amapá: houve a ICOMI, Serra do Navio e as hidrelétricas",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Não é a primeira vez que chega ao Amapá um projeto que promete desenvolvimento e muitas coisas. Já tivemos o projeto ICOMI, a mineradora, o caso de Serra do Navio e as inúmeras hidrelétricas do nosso estado."
+    },
+    {
+     "id": "b042c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "gist": "o Amapá passou pelo apagão de 2020 e vive crise energética, e mais um projeto de desenvolvimento precisa pensar na comunidade local",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Passamos pelo apagão de 2020, que ainda afeta muitas comunidades, e vivemos em crise energética. Mais um projeto que promete desenvolvimento precisa pensar na comunidade local, porque as experiências, como a do Rio de Janeiro, não são boas."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s09"
+  },
+  {
+   "id": "b043",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Gabriel Mota.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b044",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que Roraima quebrou com o fechamento do garimpo e pergunta à Petrobras se há interesse em explorar petróleo na Bacia do Tacutu, na fronteira com a Guiana.",
+   "quote": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Roraima quebrou com o fim do garimpo e vê no petróleo do Tacutu a esperança de uma matriz econômica.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b044c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "gist": "com o fechamento do garimpo, 250 milhões de reais por mês deixaram de circular em Roraima",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Agora o garimpo foi fechado. Com isso, Roraima deixou de ter 250 milhões de reais circulando por mês."
+    },
+    {
+     "id": "b044c2",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "gist": "a esperança do povo de Roraima está no petróleo da Bacia do Tacutu, e ele pergunta se a Petrobras tem interesse ali",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Quero perguntar: a Petrobras tem interesse em explorar petróleo na Bacia do Tacutu? Há algum estudo em andamento? Eu vejo aí a esperança do povo de Roraima, e não há empresa que orgulhe mais o Brasil do que a Petrobras."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s14"
+  },
+  {
+   "id": "b045",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Jorge Goetten.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b046",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Diz que Ibama e Petrobras o convenceram, aponta a divergência sobre o tempo de resposta (1 ou 2 dias até Belém), pede consenso em vez de politização e que os benefícios cheguem direto à população.",
+   "quote": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Ibama e Petrobras têm mais convergências que divergências, e é preciso consenso e benefício direto à população.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "gist": "de Belém até a unidade, Daniele fala em 1 dia e Rodrigo em 2 dias, e Rodrigo não mencionou o transporte aéreo",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "plain": "Um ponto de divergência ficou no fim da fala da Daniele: ela disse que de Belém até a unidade é 1 dia, e o Rodrigo disse que são 2 dias. O Rodrigo não falou do transporte aéreo."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "gist": "há mais convergências do que divergências, e se perde tempo e energia politizando uma pauta social e economicamente tão importante",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Acho que temos mais pontos em comum do que divergências. Essa pauta é tão importante, social e economicamente, que perdemos tempo e energia ao politizá-la, como o deputado Ivan bem disse. Não precisamos politizar."
+    },
+    {
+     "id": "b046c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "gist": "é importante ter cuidado e se preparar para as adversidades: um acidente não aconteceu, mas pode acontecer",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Com a agenda ambiental que o mundo quer, e o mundo quer comprar do Brasil, é importante termos esses cuidados e nos prepararmos para o pior, como a moça que falou antes colocou bem. Não aconteceu, mas pode acontecer."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s15"
+  },
+  {
+   "id": "b047",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Henderson Pinto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b048",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado começa cumprimentando o presidente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia",
+   "speaker": "s16"
+  },
+  {
+   "id": "b049",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se há ordem de inscrição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s17"
+  },
+  {
+   "id": "b050",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o deputado está inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s01"
+  },
+  {
+   "id": "b051",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia",
+   "speaker": "s17"
+  },
+  {
+   "id": "b052",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que não há problema.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s01"
+  },
+  {
+   "id": "b053",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se pode continuar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s16"
+  },
+  {
+   "id": "b054",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s01"
+  },
+  {
+   "id": "b055",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Corrige que o bloco fica a 550 km da foz e a 170 km de terras indígenas, diz que não há tempo a esperar diante da queda de 2029, pergunta por que a Guiana pode e o Brasil não e apela ao Ibama para reavaliar, certo de que a Petrobras nunca teve vazamento.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não há tempo a esperar: a produção decai em 2029 e a Petrobras nunca teve vazamento.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b055c1",
+     "sentences": [
+      12
+     ],
+     "type": "dado",
+     "gist": "o Bloco 59 fica a 550 quilômetros da foz do Amazonas, e o pedido é para um poço de pesquisa",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "A Foz do Amazonas fica a 550 quilômetros do Bloco 59. O que a Petrobras pede é perfurar um poço para verificar se dá para explorar esse petróleo no futuro."
+    },
+    {
+     "id": "b055c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "gist": "não há tempo para esperar: a partir de 2029 a produção entra em decadência e o país terá que importar",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Caro deputado Ivan, não há tempo para esperar: na transição, o país vai ficar obrigado a importar petróleo em pouco tempo. A projeção é que, a partir de 2029, a produção entre em queda se não aumentarmos a nossa capacidade de produzir."
+    },
+    {
+     "id": "b055c3",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "precedente",
+     "gist": "a Petrobras está preparada para qualquer acidente, e nunca houve vazamento nenhum na história da empresa",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Estou convencido de que a Petrobras está preparada, como sempre esteve, com os melhores estudos e pronta para qualquer acidente, que no histórico dela é raridade. Digo isso porque nunca houve vazamento nenhum na história da Petrobras."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s16"
+  },
+  {
+   "id": "b056",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado Acácio Favacho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b057",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Chama de irresponsável a decisão do Ibama por não apontar estudos e por ter vazado à imprensa, cobra que Ibama, Petrobras e ministérios decidam juntos e pede à Comissão uma comissão permanente com cronograma. Lembra que 63% do Amapá está no CadÚnico.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A decisão do Ibama foi irresponsável por não apontar estudos. Ibama, Petrobras e ministérios devem decidir juntos com cronograma.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b057c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "gist": "a decisão do Ibama foi irresponsável, porque nenhum técnico pode decidir sem estudo que a embase",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "A decisão do Ibama foi, no mínimo, irresponsável. Nenhum técnico tem o direito de tomar uma decisão que chama de técnica sem um estudo que a sustente. Já pedimos várias vezes ao presidente do Ibama quais estudos os dez técnicos usaram."
+    },
+    {
+     "id": "b057c2",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "dado",
+     "gist": "o Amapá preserva para o mundo, mas 63% da população está no CadÚnico e a BR mais antiga do planeta nunca foi terminada",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Vim com três vereadores de Oiapoque, que conhecem a realidade de quem preserva a floresta para o mundo e tem 63% da população no CadÚnico, o cadastro dos programas sociais. A BR de 630 km até lá é a mais antiga do planeta e está inacabada."
+    },
+    {
+     "id": "b057c3",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "principio",
+     "gist": "a Comissão deve criar uma comissão permanente, com prazos, calendário e cronograma de trabalho",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "Presidente, o meu pedido é este: que o senhor convide todos para formar uma Comissão Permanente. Precisamos de prazos, de um calendário e de um cronograma de trabalho."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s17"
+  },
+  {
+   "id": "b058",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 1 minuto ao vereador de Oiapoque.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b059",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que a Petrobras já emprega mais de 350 pessoas em Oiapoque, que o município preserva mas as crianças têm fome, e que a decisão do Ibama já deixou gente desempregada.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Petrobras já emprega em Oiapoque e a decisão do Ibama deixou gente desempregada.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b059c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "gist": "a Petrobras já levou emprego a Oiapoque e há mais de 350 pessoas trabalhando",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Hoje, lá, pais de família estão empregados porque a Petrobras levou emprego. Já temos mais de 350 funcionários trabalhando."
+    },
+    {
+     "id": "b059c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "gist": "depois da decisão, muita gente já ficou desempregada e voltou a passar necessidade por uma decisão tomada aqui em cima",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Presidente Agostinho, o senhor sabia que, depois da decisão, muitas pessoas já ficaram desempregadas? Há gente que voltou a passar necessidade por causa de uma decisão tomada aqui em cima, sem entender quem está lá na base."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null,
+   "speaker": "s18"
+  },
+  {
+   "id": "b060",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o vereador conclua.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao",
+   "speaker": "s01"
+  },
+  {
+   "id": "b061",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O vereador agradece e diz que o projeto vai mudar a história do município.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia",
+   "speaker": "s18"
+  },
+  {
+   "id": "b062",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao último inscrito, deputado Cleber Verde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b063",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Troca a dualidade bem e mal de Ivan Valente por razão e emoção, diz que o Brasil, o Maranhão e o Amapá têm pressa, considera a Petrobras preparada e apela ao Ibama por deferimento imediato.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Petrobras está preparada e o Brasil tem pressa: o Ibama deve deferir a perfuração de imediato.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b063c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "gist": "não é bem isso: é preciso buscar um resultado para este assunto, e o Brasil tem pressa",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Não é bem isso. Este assunto é fundamental, e precisamos buscar um resultado de verdade. O Brasil tem pressa."
+    },
+    {
+     "id": "b063c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "gist": "como disse Acácio Favacho, uma força-tarefa é um governo só",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "plain": "O deputado Acácio Favacho foi cirúrgico na fala dele: uma força-tarefa é um governo só."
+    },
+    {
+     "id": "b063c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "gist": "o aparato técnico e a infraestrutura da Petrobras garantem que dá para perfurar o poço de imediato",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Daniele, a senhora colocou bem: a Petrobras já mostrou ter o aparato técnico e a infraestrutura para perfurar este poço de imediato. Como disse Deyvid Bacelar, isto é política de Estado e interessa ao país. Não dá mais para perder tempo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s04"
+  },
+  {
+   "id": "b064",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Como presidente, observa que todos querem separar a decisão técnica da política, afirma que cabe ao Governo decidir sua estratégia energética e que a dicotomia entre preservar e desenvolver não pode balizar o debate. Oferece a Comissão como mediadora.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Cabe ao Governo decidir a estratégia energética, e a dicotomia preservar ou desenvolver não pode balizar o debate.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b064c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "gist": "cabe ao Governo decidir qual é a estratégia para a capacidade energética do país, diante do alerta dos técnicos",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Deputado Ivan, neste caso é preciso uma decisão de Governo sobre qual é a estratégia para a nossa capacidade de produzir energia. Se os técnicos dizem que caminhamos para um colapso das reservas, o Governo precisa decidir."
+    },
+    {
+     "id": "b064c2",
+     "sentences": [
+      14
+     ],
+     "type": "principio",
+     "gist": "a Comissão renova a disposição de mediar o debate para encontrar um caminho razoável",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "plain": "Deputado Acácio Favacho, eu renovo a disposição desta Comissão e desta Presidência de mediar este debate, para encontrarmos um caminho razoável."
+    },
+    {
+     "id": "b064c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "gist": "a decisão é política e cabe ao Governo brasileiro, e não pode se reduzir a preservar contra desenvolver",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "No fim, é uma decisão política do Governo: se vamos buscar a segurança energética, com que modelo, e como garantir, acima de tudo, a segurança ambiental. Essa escolha não pode virar briga entre quem quer preservar e quem quer desenvolver."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s01"
+  },
+  {
+   "id": "b065",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde aos deputados: o parecer tem 23 páginas baseadas nos estudos da Petrobras, o processo previa duas embarcações de fauna (22 a 63 horas até o poço) e não as doze anunciadas agora, cada país tem sua legislação, e acidentes com óleo acontecem todos os anos no Brasil.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A decisão foi técnica: o processo prevê duas embarcações, não doze, e acidentes com óleo acontecem todo ano.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b065c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "gist": "o parecer dos técnicos tem 23 páginas e se baseia nos estudos entregues pela própria Petrobras",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "O parecer dos técnicos é um resumo, mas tem 23 páginas e se baseia principalmente nos estudos que a própria Petrobras apresentou: o estudo de impacto ambiental, o relatório de impacto e vários outros entregues ao longo do processo."
+    },
+    {
+     "id": "b065c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "gist": "o que está no processo são duas embarcações, que levariam de 22 a 31 horas e de 44 a 63 horas até o poço",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "plain": "Isso é um avanço, mas não é o que está no processo. No processo há duas embarcações: uma mais rápida, de 20 nós, que levaria de 22 a 31 horas para chegar ao poço, e outra com metade da velocidade, de 10 nós, que levaria de 44 a 63 horas."
+    },
+    {
+     "id": "b065c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "precedente",
+     "gist": "acidentes com óleo aconteceram no Brasil em todos os últimos anos, embora a Petrobras hoje os atenda rapidamente",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "plain": "Acidentes acontecem. Desculpem o que foi dito aqui, mas o Brasil teve incidentes e acidentes com óleo em cada um dos últimos anos. A Petrobras hoje tem uma estrutura que consegue atender rápido a esses acidentes."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s05"
+  },
+  {
+   "id": "b066",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à Petrobras para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s01"
+  },
+  {
+   "id": "b067",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Reafirma que a Petrobras atendeu as premissas do Ibama, fez mais de 20 reuniões com comunidades em 2022, tem capacidade de cumprir todas as exigências e quer convergir.",
+   "quote": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Petrobras tem capacidade de atender todas as exigências e quer convergir.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b067c1",
+     "sentences": [
+      4
+     ],
+     "type": "dado",
+     "gist": "em 2022 a Petrobras fez mais de 20 reuniões públicas com a comunidade para explicar o projeto",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Em 2022 fizemos mais de 20 reuniões públicas com a comunidade da região, para mostrar o que a Petrobras pretende fazer e como, com todo o cuidado com o meio ambiente e a segurança."
+    },
+    {
+     "id": "b067c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "gist": "a Petrobras tem capacidade de atender todas as exigências do Ibama e acredita que é possível convergir",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Temos capacidade de atender a todas as exigências do Ibama. E queremos deixar esta mensagem: queremos continuar esse trabalho, porque entendemos que é possível chegar a um ponto comum."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s13"
+  },
+  {
+   "id": "b068",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado repete a pergunta sobre Roraima.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem",
+   "speaker": "s14"
+  },
+  {
+   "id": "b069",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante da Petrobras repassa a pergunta ao Ministério de Minas e Energia, o poder concedente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra",
+   "speaker": "s13"
+  },
+  {
+   "id": "b070",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que há dois blocos em estudo na região de Roraima e que é preciso definir logo entre manifestação conjunta e AAAS para dar celeridade às pré-ofertas.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Há dois blocos em estudo em Roraima e é preciso definir logo o instrumento para dar celeridade.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b070c1",
+     "sentences": [
+      4
+     ],
+     "type": "dado",
+     "gist": "existem dois blocos em estudo na região, e falta avançar sobre o que é esse estudo numa bacia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "plain": "Existem dois blocos em estudo. Agora precisamos avançar na definição do que é esse estudo numa bacia."
+    },
+    {
+     "id": "b070c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "gist": "é preciso decidir logo entre a manifestação conjunta e a AAAS para dar celeridade às pré-ofertas de blocos",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "plain": "Temos dois caminhos: a manifestação conjunta dos ministérios e a AAAS, a avaliação ambiental de toda a região. Precisamos decidir logo qual usar, justamente para dar rapidez à pré-oferta de blocos às empresas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null,
+   "speaker": "s03"
+  },
+  {
+   "id": "b071",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra a audiência e reafirma o papel da Comissão de mediar e fiscalizar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra",
+   "speaker": "s01"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b009",
+   "to": "b007",
+   "kind": "contradiz",
+   "from_sentence": 52,
+   "to_sentence": 33,
+   "note": "Para o Ibama a AAAS é a regra e a manifestação conjunta uma exceção política. O MME acabara de dizer que a manifestação tem o mesmo rigor e que a AAAS tem critérios fracos.",
+   "from_claim": "b009c1",
+   "to_claim": "b007c2",
+   "strength": "forte"
+  },
+  {
+   "from": "b011",
+   "to": "b009",
+   "kind": "apoia",
+   "from_sentence": 89,
+   "to_sentence": 115,
+   "note": "Concorda plenamente com Agostinho: o Ibama deve se ater ao licenciamento e a decisão sobre o Bloco 59 foi técnica.",
+   "from_claim": null,
+   "to_claim": "b009c1",
+   "strength": "media"
+  },
+  {
+   "from": "b011",
+   "to": "b007",
+   "kind": "contradiz",
+   "from_sentence": 64,
+   "to_sentence": 45,
+   "note": "Rebate o argumento jurídico do MME (manifestação prévia obtida, STF): os técnicos dizem há anos que não conseguem decidir sem a AAAS, e a dispensa da portaria era transitória.",
+   "from_claim": "b011c2",
+   "to_claim": "b007c2",
+   "strength": "forte"
+  },
+  {
+   "from": "b013",
+   "to": "b007",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 23,
+   "note": "Corrobora as contas do MME: 6 a 8 anos até produzir e reservas para 10 a 12 anos.",
+   "from_claim": "b013c1",
+   "to_claim": null,
+   "strength": "media"
+  },
+  {
+   "from": "b013",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 60,
+   "to_sentence": 73,
+   "note": "Numa 'discordância generosa', defende que os estados se autofinanciem com a riqueza do subsolo, enquanto Suely chamara de questionável o crescimento baseado em petróleo.",
+   "from_claim": "b013c3",
+   "to_claim": "b011c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b028",
+   "to": "b009",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 91,
+   "note": "Considera fundamental atender ao que o Ibama pediu e aponta as mesmas lacunas de conhecimento.",
+   "from_claim": null,
+   "to_claim": "b009c1",
+   "strength": "media"
+  },
+  {
+   "from": "b028",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 31,
+   "note": "Cita Suely sobre as correntes fortes da região e acrescenta as ondas.",
+   "from_claim": null,
+   "to_claim": null,
+   "strength": "media"
+  },
+  {
+   "from": "b028",
+   "to": "b007",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 71,
+   "note": "O MME disse que não existe toque na costa. O pesquisador mostra que o modelo não inclui ventos nem a região costeira, logo não pode afirmar isso.",
+   "from_claim": "b028c1",
+   "to_claim": "b007c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b030",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 32,
+   "to_sentence": 32,
+   "note": "Opõe 'evidências' às 'hipóteses e cenários' do professor: 3,5 milhões de barris por dia produzidos com segurança na frente de Búzios e Ilhabela.",
+   "from_claim": "b030c2",
+   "to_claim": "b028c1",
+   "strength": "forte"
+  },
+  {
+   "from": "b030",
+   "to": "b007",
+   "kind": "apoia",
+   "from_sentence": 51,
+   "to_sentence": 22,
+   "note": "Retoma a reposição de reservas e a queda a partir de 2029 apontadas pelo MME.",
+   "from_claim": null,
+   "to_claim": null,
+   "strength": "media"
+  },
+  {
+   "from": "b030",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 64,
+   "to_sentence": 34,
+   "note": "Usa a dificuldade do Pará de pagar helicópteros contra o desmatamento para dizer que a pobreza também é problema ambiental.",
+   "from_claim": null,
+   "to_claim": "b013c2",
+   "strength": "forte"
+  },
+  {
+   "from": "b030",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 28,
+   "to_sentence": 75,
+   "note": "Afirma que o Acordo de Paris não pede emissão líquida zero, enquanto Suely citara a AIE: net zero até 2050 e nenhum poço novo desde 2021.",
+   "from_claim": "b030c1",
+   "to_claim": "b011c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b032",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 50,
+   "note": "Repete o dado do secretário: Amazônia e Nordeste têm os piores IDHs do país.",
+   "from_claim": "b032c2",
+   "to_claim": "b013c2",
+   "strength": "media"
+  },
+  {
+   "from": "b034",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 18,
+   "note": "A FUP concorda com o IBP: o petróleo do pré-sal tem a menor pegada de carbono do mundo.",
+   "from_claim": "b034c3",
+   "to_claim": "b030c1",
+   "strength": "media"
+  },
+  {
+   "from": "b034",
+   "to": "b009",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 100,
+   "note": "Diz que todos os estudos da Petrobras mostram que não há toque na costa, exatamente a premissa que Agostinho chamara de equívoco.",
+   "from_claim": "b034c1",
+   "to_claim": "b009c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b034",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 48,
+   "note": "Como Ticiana, frisa que se trata de um poço pioneiro, não de produção.",
+   "from_claim": "b034c2",
+   "to_claim": "b032c3",
+   "strength": "media"
+  },
+  {
+   "from": "b036",
+   "to": "b009",
+   "kind": "contradiz",
+   "from_sentence": 96,
+   "to_sentence": 100,
+   "note": "Reafirma, com duas modelagens e 90 boias, que não há probabilidade de toque de óleo na costa. Também nega que a AAAS seja condição, pois não é competência da empresa.",
+   "from_claim": "b036c2",
+   "to_claim": "b009c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b036",
+   "to": "b009",
+   "kind": "responde",
+   "from_sentence": 147,
+   "to_sentence": 85,
+   "note": "Responde ponto a ponto às pendências do plano de emergência: BOP, capping, 12 embarcações, 5 aeronaves, centro de fauna em Belém e Oiapoque.",
+   "from_claim": null,
+   "to_claim": "b009c2",
+   "strength": "media"
+  },
+  {
+   "from": "b036",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 63,
+   "to_sentence": 51,
+   "note": "As formações biogênicas ficam até 200 m de lâmina d'água e o poço a 2.880 m, distância adequada. O pesquisador dissera que o óleo de fundo chegaria ao recifal a 40 km.",
+   "from_claim": "b036c1",
+   "to_claim": "b028c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b036",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 114,
+   "to_sentence": 44,
+   "note": "Cita parecer do próprio Ibama de que não há instrumento jurídico para negar a licença por falta de AAAS. Suely dissera que a licença seria negada mesmo sem a AAAS por outras pendências.",
+   "from_claim": "b036c3",
+   "to_claim": null,
+   "strength": "forte"
+  },
+  {
+   "from": "b040",
+   "to": "b036",
+   "kind": "contradiz",
+   "from_sentence": 42,
+   "to_sentence": 96,
+   "note": "Daniele afirma categoricamente que o óleo não chega à costa. Agostinho e o professor disseram o contrário, e ninguém garante nada.",
+   "from_claim": "b040c1",
+   "to_claim": "b036c2",
+   "strength": "forte"
+  },
+  {
+   "from": "b040",
+   "to": "b009",
+   "kind": "apoia",
+   "from_sentence": 46,
+   "to_sentence": 53,
+   "note": "Concorda que a AAAS já devia ter sido feita e que a decisão dos dez técnicos é técnica, contestável mas não inadmissível.",
+   "from_claim": "b040c2",
+   "to_claim": "b009c1",
+   "strength": "media"
+  },
+  {
+   "from": "b040",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 93,
+   "to_sentence": 51,
+   "note": "Destaca os recifes a 70 km e os acidentes mecânicos com sondas relatados pelo professor.",
+   "from_claim": null,
+   "to_claim": "b028c3",
+   "strength": "media"
+  },
+  {
+   "from": "b042",
+   "to": "b009",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 108,
+   "note": "Entrega carta de organizações do Amapá em apoio ao indeferimento do Ibama.",
+   "from_claim": "b042c1",
+   "to_claim": null,
+   "strength": "media"
+  },
+  {
+   "from": "b042",
+   "to": "b013",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 51,
+   "note": "Contra o 'legado' prometido pelo secretário, lembra ICOMI, Serra do Navio, hidrelétricas e o apagão de 2020: promessas de desenvolvimento que não chegaram.",
+   "from_claim": "b042c3",
+   "to_claim": "b013c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b046",
+   "to": "b040",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 89,
+   "note": "Como Ivan Valente, diz que se perde tempo politizando uma pauta de interesse nacional.",
+   "from_claim": "b046c2",
+   "to_claim": "b040c3",
+   "strength": "media"
+  },
+  {
+   "from": "b046",
+   "to": "b042",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 15,
+   "note": "Concorda com Hannah que os benefícios sociais precisam chegar de fato à população.",
+   "from_claim": "b046c3",
+   "to_claim": "b042c3",
+   "strength": "media"
+  },
+  {
+   "from": "b055",
+   "to": "b040",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 117,
+   "note": "Contra o 'ir com calma' de Ivan, diz que não há tempo a esperar. Também nega que haja deputados querendo 'tacar motosserra' na floresta.",
+   "from_claim": "b055c2",
+   "to_claim": null,
+   "strength": "forte"
+  },
+  {
+   "from": "b055",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 40,
+   "note": "Repete a projeção do MME de decadência da produção a partir de 2029.",
+   "from_claim": "b055c2",
+   "to_claim": "b004c1",
+   "strength": "media"
+  },
+  {
+   "from": "b057",
+   "to": "b009",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 69,
+   "note": "Chama de irresponsável a decisão que o Ibama apresentou como técnica e amparada: nenhum técnico pode decidir sem estudo que a embase.",
+   "from_claim": "b057c1",
+   "to_claim": "b009c1",
+   "strength": "forte"
+  },
+  {
+   "from": "b059",
+   "to": "b057",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 31,
+   "note": "O vereador de Oiapoque reforça o deputado do Amapá: decisões tomadas 'aqui em cima' sem conhecer quem está na base.",
+   "from_claim": "b059c2",
+   "to_claim": "b057c2",
+   "strength": "media"
+  },
+  {
+   "from": "b063",
+   "to": "b057",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 53,
+   "note": "Chama de cirúrgica a fala de Acácio Favacho e endossa a força-tarefa.",
+   "from_claim": "b063c2",
+   "to_claim": "b057c3",
+   "strength": "media"
+  },
+  {
+   "from": "b063",
+   "to": "b036",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 168,
+   "note": "Considera que a infraestrutura apresentada pela Petrobras garante a perfuração imediata.",
+   "from_claim": "b063c3",
+   "to_claim": null,
+   "strength": "media"
+  },
+  {
+   "from": "b063",
+   "to": "b040",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 99,
+   "note": "Rejeita a dualidade bem e mal de Ivan Valente: 'não é bem isso', é razão contra emoção, e o Brasil tem pressa.",
+   "from_claim": "b063c1",
+   "to_claim": null,
+   "strength": "forte"
+  },
+  {
+   "from": "b064",
+   "to": "b055",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 37,
+   "note": "Endossa Henderson Pinto: a Amazônia pode se desenvolver sem derrubar uma árvore, mas não pode negar suas riquezas.",
+   "from_claim": null,
+   "to_claim": null,
+   "strength": "forte"
+  },
+  {
+   "from": "b064",
+   "to": "b057",
+   "kind": "responde",
+   "from_sentence": 14,
+   "to_sentence": 46,
+   "note": "Renova a disposição da Comissão de mediar o debate, como Acácio Favacho pediu.",
+   "from_claim": "b064c2",
+   "to_claim": "b057c3",
+   "strength": "media"
+  },
+  {
+   "from": "b065",
+   "to": "b046",
+   "kind": "responde",
+   "from_sentence": 14,
+   "to_sentence": 13,
+   "note": "Esclarece a divergência sobre o tempo até o poço: as duas embarcações do processo levam de 22 a 31 horas e de 44 a 63 horas.",
+   "from_claim": "b065c2",
+   "to_claim": "b046c1",
+   "strength": "media"
+  },
+  {
+   "from": "b065",
+   "to": "b055",
+   "kind": "responde",
+   "from_sentence": 16,
+   "to_sentence": 19,
+   "note": "Por que na Guiana pode e no Brasil não: cada país tem sua legislação e exerce sua soberania.",
+   "from_claim": null,
+   "to_claim": "b055c1",
+   "strength": "media"
+  },
+  {
+   "from": "b065",
+   "to": "b057",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 8,
+   "note": "Ao 'existe um estudo?', responde que o parecer tem 23 páginas baseadas nos estudos da própria Petrobras e ficou público no SEI por quase um mês.",
+   "from_claim": "b065c1",
+   "to_claim": "b057c1",
+   "strength": "media"
+  },
+  {
+   "from": "b065",
+   "to": "b036",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 155,
+   "note": "As doze embarcações anunciadas são um avanço, mas o que está no processo são duas. A equipe técnica vai analisar a reconsideração.",
+   "from_claim": null,
+   "to_claim": null,
+   "strength": "media"
+  },
+  {
+   "from": "b065",
+   "to": "b055",
+   "kind": "contradiz",
+   "from_sentence": 35,
+   "to_sentence": 46,
+   "note": "Henderson disse que nunca houve vazamento na história da Petrobras. O Ibama registra incidentes e acidentes com óleo todos os anos.",
+   "from_claim": "b065c3",
+   "to_claim": "b055c3",
+   "strength": "forte"
+  },
+  {
+   "from": "b065",
+   "to": "b034",
+   "kind": "contradiz",
+   "from_sentence": 35,
+   "to_sentence": 14,
+   "note": "A FUP afirmou que a Petrobras nunca teve acidente com vazamento em poços pioneiros. O Ibama lembra que acidentes acontecem e estão registrados em sua plataforma.",
+   "from_claim": "b065c3",
+   "to_claim": "b034c2",
+   "strength": "forte"
+  },
+  {
+   "from": "b067",
+   "to": "b065",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 15,
+   "note": "Reafirma que a empresa tem capacidade de atender todas as exigências e pede que o Ibama analise a reconsideração.",
+   "from_claim": "b067c2",
+   "to_claim": "b065c2",
+   "strength": "media"
+  },
+  {
+   "from": "b070",
+   "to": "b044",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 23,
+   "note": "Ao deputado de Roraima: há dois blocos em estudo na região do Tacutu.",
+   "from_claim": "b070c1",
+   "to_claim": "b044c2",
+   "strength": "media"
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b030",
+    "b034",
+    "b055"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c2",
+    "b004c3",
+    "b030c3",
+    "b055c2"
+   ],
+   "note": "MME, IBP, FUP e deputados do Pará concordam que a produção cai a partir de 2029 e que o país precisa de novas fronteiras para não voltar a importar petróleo."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b013",
+    "b059",
+    "b070"
+   ],
+   "claims": [
+    "b013c2",
+    "b013c3",
+    "b059c1",
+    "b059c2"
+   ],
+   "note": "Governo do Pará, vereador de Oiapoque e MME concordam que a riqueza do petróleo precisa financiar a região mais pobre do país e que é preciso decidir logo."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b040",
+    "b046",
+    "b064"
+   ],
+   "claims": [
+    "b040c3",
+    "b046c2",
+    "b064c2"
+   ],
+   "note": "Deputados de PSOL e PL e a presidência da Comissão concordam que o debate não pode ser polarizado e que a Comissão deve mediar."
+  },
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b032"
+   ],
+   "claims": [
+    "b002c1",
+    "b002c2"
+   ],
+   "note": "Ministério do Meio Ambiente e o instituto dos petroleiros concordam que o petróleo deve ser discutido dentro dos compromissos climáticos e da transição energética."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b040",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "A sonda levada ao Bloco 59 estava autorizada?",
+   "plain": "A sonda levada ao bloco estava autorizada?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b042",
+   "sentence": 26,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "Por que os povos da Amazônia pagam a conta da transição energética?",
+   "plain": "Por que os povos e as comunidades da Amazônia têm de pagar de novo a conta social e financeira da transição energética?",
+   "theme": "d4",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b057",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": "b065",
+   "gist": "Existe um estudo que embase a decisão dos dez técnicos do Ibama?",
+   "plain": "Existe algum estudo por trás da decisão dos técnicos do Ibama?",
+   "theme": "d6",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b044",
+   "sentence": 23,
+   "addressed_to": "setor_privado",
+   "answered_by": "b070",
+   "gist": "A Petrobras tem interesse em explorar a Bacia do Tacutu, em Roraima?",
+   "plain": "A Petrobras tem interesse em explorar petróleo na Bacia do Tacutu, em Roraima, ou algum estudo em andamento?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b046",
+   "sentence": 13,
+   "addressed_to": "governo",
+   "answered_by": "b065",
+   "gist": "De Belém ao poço: um dia, como diz a Petrobras, ou dois, como diz o Ibama?",
+   "plain": "De Belém até a unidade leva 1 dia, como disse Daniele, ou 2 dias, como disse Rodrigo?",
+   "theme": "d5",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 40,
+   "gist": "Produção brasileira tende a cair a partir de 2029",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b007",
+   "sentence": 19,
+   "gist": "13 bi de barris: US$ 56 bi de investimento e R$ 1 trilhão de arrecadação",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b007",
+   "sentence": 71,
+   "gist": "Não existe toque de óleo na costa nos blocos da foz",
+   "disputed_by": [
+    {
+     "fala": "b009",
+     "sentence": 99
+    },
+    {
+     "fala": "b028",
+     "sentence": 10
+    },
+    {
+     "fala": "b040",
+     "sentence": 42
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b009",
+   "sentence": 78,
+   "gist": "Centro de emergência em Belém, a 800 km do bloco",
+   "disputed_by": [
+    {
+     "fala": "b036",
+     "sentence": 177
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "fala": "b011",
+   "sentence": 10,
+   "gist": "2.169 poços offshore desde 2007, todos licenciados pelo Ibama",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b011",
+   "sentence": 75,
+   "gist": "AIE: para 1,5 °C, nenhum poço novo a partir de 2021",
+   "disputed_by": [
+    {
+     "fala": "b030",
+     "sentence": 28
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b028",
+   "sentence": 51,
+   "gist": "Bloco a cerca de 40 km do Grande Sistema Recifal",
+   "disputed_by": [
+    {
+     "fala": "b036",
+     "sentence": 63
+    }
+   ]
+  },
+  {
+   "id": "f8",
+   "fala": "b030",
+   "sentence": 18,
+   "gist": "Barril brasileiro emite um terço da média mundial",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b036",
+   "sentence": 56,
+   "gist": "Poço a 175 km da costa e a mais de 500 km da foz",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b036",
+   "sentence": 177,
+   "gist": "Belém ao poço em 24 horas",
+   "disputed_by": [
+    {
+     "fala": "b065",
+     "sentence": 14
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "fala": "b055",
+   "sentence": 46,
+   "gist": "Nunca houve vazamento na história da Petrobras",
+   "disputed_by": [
+    {
+     "fala": "b065",
+     "sentence": 35
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b057",
+   "sentence": 31,
+   "gist": "63% da população do Amapá está no CadÚnico",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil",
+   "setor_privado",
+   "parlamentar"
+  ],
+  "angle": "A matéria enquadra a audiência como um embate entre a necessidade energética apontada pelo MME e a exigência de comprovação ambiental do Ibama, dando uma citação a cada expositor institucional.",
+  "omitted": "Não entram na matéria os deputados do Pará, do Amapá e de Roraima cobrando pressa e royalties, o vereador de Oiapoque, a carta do Instituto Mapinguari contra a licença nem a disputa sobre vazamentos passados da Petrobras."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem novas áreas, o Brasil volta a importar petróleo",
+   "statement_plain": "O Brasil precisa abrir novas áreas de petróleo, como a Margem Equatorial: a produção cai a partir de 2029 e o país não pode voltar a importar.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b030c3",
+    "b055c2",
+    "b034c3"
+   ],
+   "note": "Ministério, empresas e o sindicato dos petroleiros defenderam a mesma ideia: não é um setor, é uma tese que atravessa governo, setor privado e sociedade civil."
+  },
+  {
+   "id": "t2",
+   "title": "Sem avaliar toda a região, não dá para decidir o Bloco 59",
+   "statement_plain": "Antes de autorizar o poço é preciso avaliar o ambiente de toda a região, e ninguém provou que o óleo não chega à costa.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b009c1",
+    "b011c1",
+    "b028c1",
+    "b040c2",
+    "b009c3"
+   ],
+   "note": "O Ibama e o MME são ambos do governo federal e ficaram em lados opostos. A tese junta o Ibama, uma ONG, um pesquisador e um deputado."
+  },
+  {
+   "id": "t3",
+   "title": "A Petrobras atendeu tudo e a licença deve sair",
+   "statement_plain": "As simulações e as boias mostram que o óleo não chega à costa. A Petrobras cumpriu as exigências, e a licença para perfurar deve ser dada.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b036c2",
+    "b007c3",
+    "b034c1",
+    "b063c3",
+    "b067c2"
+   ],
+   "note": "Empresa, ministério, sindicato e um deputado do Maranhão defenderam a mesma coisa: setor privado, governo, sociedade civil e parlamentar juntos."
+  },
+  {
+   "id": "t4",
+   "title": "A riqueza do petróleo tem que ficar com a Amazônia",
+   "statement_plain": "Se o petróleo vier, o dinheiro tem de ficar com a região mais pobre do país, que preserva a floresta e ainda passa necessidade.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b013c3",
+    "b059c1",
+    "b057c2",
+    "b044c1"
+   ],
+   "note": "Governo estadual, um vereador e deputados de três estados. O lado contrário também veio da própria região."
+  },
+  {
+   "id": "t5",
+   "title": "Poços novos não valem a conta que a Amazônia paga",
+   "statement_plain": "Abrir poços novos em plena crise do clima não se justifica, e as promessas de desenvolvimento nunca chegaram: quem paga a conta é a Amazônia.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b042c2",
+    "b042c3",
+    "b011c3"
+   ],
+   "note": "Uma jovem do Amapá, falando no tempo de um deputado de São Paulo, e uma ex-presidente do Ibama, hoje numa ONG. O lado contrário à tese vem do próprio Amapá e do Pará."
+  },
+  {
+   "id": "t6",
+   "title": "A decisão tem que ser técnica: a ciência comanda",
+   "statement_plain": "Quem decide sobre o poço são os técnicos, com base na ciência. A decisão do Ibama foi técnica, e o debate não pode virar briga política.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b040c3",
+    "b046c2",
+    "b065c1"
+   ],
+   "note": "Um deputado do PSOL e um do PL na mesma tese, com o presidente do Ibama. A presidência da Comissão e o deputado do Amapá ficaram do lado oposto."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "AAAS",
+   "fala": "b007",
+   "sentence": 35,
+   "plain": "sigla de Avaliação Ambiental de Área Sedimentar: estudo ambiental de toda uma região do mar, feito antes de leiloar blocos de petróleo"
+  },
+  {
+   "term": "Avaliação Ambiental de Área Sedimentar",
+   "fala": "b009",
+   "sentence": 52,
+   "plain": "estudo que mapeia, numa região inteira do mar, onde é ou não é apto a produzir petróleo. É a AAAS"
+  },
+  {
+   "term": "manifestação conjunta",
+   "fala": "b007",
+   "sentence": 33,
+   "plain": "decisão assinada pelos ministros do Meio Ambiente e de Minas e Energia que libera áreas para petróleo sem a AAAS"
+  },
+  {
+   "term": "licenciamento",
+   "fala": "b004",
+   "sentence": 49,
+   "plain": "processo em que o Ibama analisa um projeto e decide se dá ou não a licença ambiental para ele acontecer"
+  },
+  {
+   "term": "poço pioneiro",
+   "fala": "b034",
+   "sentence": 15,
+   "plain": "o primeiro poço perfurado numa área, só para descobrir se existe petróleo ali. Ainda não é produção"
+  },
+  {
+   "term": "lâmina d'água",
+   "fala": "b036",
+   "sentence": 57,
+   "plain": "a profundidade do mar no ponto do poço, da superfície até o fundo"
+  },
+  {
+   "term": "Margem Equatorial",
+   "fala": "b004",
+   "sentence": 49,
+   "plain": "a costa norte do Brasil, do Rio Grande do Norte ao Amapá, vista como nova região de petróleo no mar"
+  },
+  {
+   "term": "pré-sal",
+   "fala": "b004",
+   "sentence": 21,
+   "plain": "camada de petróleo muito profunda, abaixo de uma camada de sal, na costa do Sudeste. Hoje é a principal produção do país"
+  },
+  {
+   "term": "boias derivadoras",
+   "fala": "b036",
+   "sentence": 95,
+   "plain": "boias soltas no mar que seguem as correntes e mostram para onde o óleo iria num vazamento"
+  },
+  {
+   "term": "modelo de dispersão",
+   "fala": "b028",
+   "sentence": 9,
+   "plain": "simulação de computador que estima para onde uma mancha de óleo se espalharia no mar"
+  },
+  {
+   "term": "Grande Sistema Recifal da Amazônia",
+   "fala": "b028",
+   "sentence": 50,
+   "plain": "grande área de recifes e corais no fundo do mar, perto da foz do Amazonas"
+  },
+  {
+   "term": "CadÚnico",
+   "fala": "b057",
+   "sentence": 31,
+   "plain": "Cadastro Único: registro do governo das famílias de baixa renda que recebem programas sociais"
+  },
+  {
+   "term": "Acordo de Paris",
+   "fala": "b002",
+   "sentence": 6,
+   "plain": "acordo mundial de 2015 em que os países se comprometeram a reduzir emissões para limitar o aquecimento global"
+  },
+  {
+   "term": "royalties",
+   "fala": "b036",
+   "sentence": 44,
+   "plain": "parte do dinheiro do petróleo que as empresas pagam ao governo, aos estados e aos municípios"
+  },
+  {
+   "term": "Bloco 59",
+   "fala": "b011",
+   "sentence": 1,
+   "plain": "a área no mar do Amapá, a 175 km da costa, onde a Petrobras quer perfurar o poço. Também chamada FZA-M-59"
+  }
+ ]
+}

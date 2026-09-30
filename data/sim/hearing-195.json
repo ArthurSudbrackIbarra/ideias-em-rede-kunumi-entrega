@@ -1,0 +1,1853 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 195,
+ "model": "LLM lendo o prompt hearing-195 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T12:59:45Z",
+ "prompt_sha256": "739471cbc0f9a0239f8724c0c63f22bf2e6c57ce21bba8194fc1398c1cb44415",
+ "sentences_hash": "74239c4b29961dee",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 18
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (setor_privado); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (setor_privado); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Desenvolvimento Econômico ouviu três especialistas estrangeiros sobre como outros países regulam os mercados digitais, para orientar o relatório do Projeto de Lei 2.768, de 2022. Os convidados pediram cautela, defenderam regra própria e flexível e divergiram sobre o momento de aprovar a lei brasileira.",
+ "stakes": "O relatório que a relatora vai apresentar ao Projeto de Lei 2.768 dependia do que a audiência recomendasse sobre modelo, flexibilidade e momento da regulação.",
+ "central_question": "Que modelo de regulação dos mercados digitais o Brasil deve adotar, e deve aprová-lo agora ou depois de ver o resultado das leis já em vigor?",
+ "synopsis_plain": "A comissão chamou três especialistas de fora para contar como Europa, Alemanha e Reino Unido regulam as grandes plataformas digitais. A relatora do Projeto de Lei 2.768 queria saber o que copiar e o que evitar. Os três pediram cautela e regra própria. Dois preferem esperar as evidências, e um diz que o Brasil precisa mesmo dessas regras.",
+ "stakes_plain": "O relatório do Projeto de Lei 2.768, que cria regras para as plataformas digitais no Brasil, ia sair do que se decidisse aqui sobre modelo, flexibilidade e momento.",
+ "central_question_plain": "Que regra o Brasil deve criar para as grandes plataformas digitais, e é hora de aprová-la agora?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Modelo internacional a seguir",
+   "description": "Se o Brasil deve escrever uma lei parecida com a que a União Europeia aprovou ou montar uma regra própria, a partir dos seus interesses e do seu contexto.",
+   "axis": {
+    "pro": "O Brasil deve seguir o caminho já adotado pela União Europeia.",
+    "contra": "O Brasil deve escrever regra própria, a partir dos seus interesses, sem copiar a União Europeia.",
+    "pro_plain": "O Brasil deve fazer uma lei parecida com a que a Europa já aprovou.",
+    "contra_plain": "O Brasil deve fazer a sua própria lei, olhando o que o país precisa, e não copiar a Europa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Rigidez das regras",
+   "description": "Se a lei deve trazer obrigações fixas, iguais para todos, ou permitir exceções e defesas caso a caso.",
+   "axis": {
+    "pro": "As regras devem ser fixas e iguais para todos, porque isso dá segurança jurídica.",
+    "contra": "As regras devem admitir flexibilidade, exceções e defesas das empresas.",
+    "pro_plain": "A lei deve trazer obrigações fixas e iguais para todos, porque assim todo mundo sabe o que vale.",
+    "contra_plain": "A lei deve abrir espaço para exceções e deixar a empresa se defender caso a caso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Momento de regular",
+   "description": "Se o Brasil deve aprovar a regulação agora ou esperar as evidências do que aconteceu nos países que já regularam.",
+   "axis": {
+    "pro": "O Brasil precisa dessas regras e deve aprová-las agora.",
+    "contra": "O Brasil deve esperar as evidências do que funcionou lá fora antes de aprovar.",
+    "pro_plain": "O Brasil precisa dessas regras e deve aprovar a lei agora.",
+    "contra_plain": "É melhor esperar para ver o que deu certo nos outros países antes de aprovar a lei."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Quem a regra protege",
+   "description": "Se a lei dos mercados digitais existe para proteger o consumidor final ou as empresas que competem com as plataformas e dependem delas.",
+   "axis": {
+    "pro": "A lei dos mercados digitais existe para proteger o consumidor final.",
+    "contra": "A lei protege as empresas que competem e dependem das plataformas, e quem cuida do consumidor é a lei de concorrência.",
+    "pro_plain": "A lei das plataformas digitais existe para proteger quem usa o serviço.",
+    "contra_plain": "A lei olha para as empresas que competem com as plataformas. Quem cuida do consumidor é a lei da concorrência."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Custo da regulação",
+   "description": "O que a regulação faz com preço, qualidade e oferta de serviços digitais para quem usa e para as empresas.",
+   "axis": {
+    "pro": "A regulação melhora preço, qualidade e inovação para quem usa os serviços.",
+    "contra": "A regulação aumenta custos, que chegam ao consumidor, e atrasa a oferta de serviços.",
+    "pro_plain": "A regulação melhora o preço, a qualidade e a inovação para quem usa os serviços.",
+    "contra_plain": "A regulação encarece as empresas, e essa conta chega ao consumidor. Alguns serviços demoram mais a chegar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Porte das empresas alcançadas",
+   "description": "Se os limites do projeto brasileiro pegam só as grandes plataformas ou também empresas pequenas que ainda precisam crescer.",
+   "axis": {
+    "pro": "Os limites do projeto alcançam as plataformas que precisam ser reguladas.",
+    "contra": "Os limites são baixos demais e pegam empresas brasileiras que ainda precisam crescer.",
+    "pro_plain": "Os limites do projeto pegam as plataformas que precisam mesmo de regra.",
+    "contra_plain": "Os limites são baixos demais e acabam pegando empresas brasileiras que ainda estão crescendo."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência e relatora do Projeto de Lei 2.768, de 2022",
+   "org": "Comissão de Desenvolvimento Econômico da Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e diz que é relatora do projeto em b001.14",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que analisa temas de economia e produção"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Advogado especialista em mercados e serviços digitais, sócio do escritório de Bruxelas",
+   "org": "White & Case LLP",
+   "basis": "apresentado pela presidência em b001.4 e b001.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "advogado do escritório White & Case, em Bruxelas",
+   "org_plain": "escritório internacional de advocacia que atua em casos de concorrência na União Europeia"
+  },
+  "s03": {
+   "role": "setor_privado",
+   "cargo": "Diretor-Executivo Sênior e chefe da Compass Lexecon, economista",
+   "org": "Compass Lexecon",
+   "basis": "apresentado pela presidência em b009.5 e b009.6",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "economista e chefe da Compass Lexecon",
+   "org_plain": "consultoria de economia que faz análises para casos de concorrência e regulação"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Vice-Presidente de Concorrência Global e Política Regulatória, em Washington",
+   "org": "CCIA",
+   "basis": "apresentado pela presidência em b017.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da CCIA, associação da indústria de tecnologia",
+   "org_plain": "associação que representa empresas de tecnologia da informação e de comunicação"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.4
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   }
+  ],
+  "basis": "a transcrição não relata delegações nem entidades presentes. A única pista é um registro de palmas em b002",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a audiência como relatora do Projeto de Lei 2.768 e defende uma legislação que proteja consumidores e a concorrência justa sem criar mais burocracia.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os mercados digitais cresceram muito e exigem uma lei brasileira que proteja o consumidor sem burocratizar.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a audiência quer dar aos parlamentares uma visão atualizada para criar um marco que proteja consumidores e empreendedores",
+     "plain": "Esta audiência quer analisar as experiências internacionais de regulação dos mercados digitais, para dar aos parlamentares uma visão atualizada e criar um marco que promova o crescimento econômico e proteja consumidores e empreendedores."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o crescimento exponencial dos mercados digitais exige uma lei que proteja o consumidor e a concorrência justa e estimule a inovação",
+     "plain": "Os mercados digitais cresceram de forma exponencial nas últimas décadas e estão no dia a dia de pessoas e empresas. Esse crescimento exige uma lei que proteja o consumidor e a concorrência justa, estimule a inovação e não burocratize."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "as lições boas e ruins de outros países devem ser usadas com sabedoria para construir a legislação brasileira",
+     "plain": "Esperamos começar um movimento de vanguarda no Parlamento brasileiro. É uma grande oportunidade de enriquecer o debate, aprendendo com o que outros países já construíram e com a experiência que eles têm."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe que o Brasil identifique interesses nacionais antes de criar regras para plataformas, fique alinhado aos sistemas já em vigor e prefira o modelo alemão, mais flexível.",
+   "quote": [
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Brasil não precisa repetir a lei da União Europeia e deve partir dos seus próprios interesses nacionais.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "cada país tem os seus próprios interesses nacionais e não precisa aprovar a mesma lei que a União Europeia aprovou",
+     "plain": "Não posso responder a essa pergunta. Cada país tem os seus interesses nacionais, e o fato de a União Europeia ter aprovado essa lei não quer dizer que todos devam fazer igual. A União Europeia é muito intervencionista."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      50,
+      51,
+      52
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil precisa desse grupo de regras e precisa apontar os interesses públicos nacionais que as justificam",
+     "plain": "Minha primeira proposta é que vocês pensem com prudência. Vocês precisam mesmo desse conjunto de regras, e precisam apontar quais interesses públicos do país justificam adotá-las."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      60,
+      61
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o sistema brasileiro deve dar preferência à flexibilidade e ficar mais perto do alemão do que do europeu",
+     "plain": "Minha terceira proposta é dar preferência à flexibilidade. Se eu fosse legislador brasileiro, provavelmente escolheria um sistema mais perto do alemão do que do europeu, com algum grau de flexibilidade nas obrigações."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta ao advogado como avalia o impacto da Lei de Mercados Digitais europeia na indústria de tecnologia nos seus primeiros 9 meses de vigência.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "É preciso saber que impacto a lei europeia teve na indústria de tecnologia em 9 meses de vigência.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o projeto 2.768 se inspira na lei europeia dos mercados digitais, em vigor há 9 meses, e falta saber o impacto dela",
+     "plain": "O Projeto 2.768, cujo relatório estamos preparando, se inspira na Lei de Mercados Digitais, em vigor há 9 meses. Como você avalia o impacto dela na indústria de tecnologia da União Europeia nesses 9 meses?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica que ainda é difícil avaliar o impacto porque a Comissão Europeia só designa as empresas guardiãs a partir de 6 de setembro.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Ainda falta base para avaliar o impacto da lei europeia, porque as empresas só serão designadas em setembro.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "ainda é difícil avaliar porque a Comissão só designa as empresas guardiãs a partir de 6 de setembro",
+     "plain": "É um pouco difícil dizer. O mercado digital está ativo desde o outono passado, mas a Comissão ainda não designou as empresas guardiãs, os gatekeepers do DMA. Essa decisão sai a partir de 6 de setembro."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há empresas que deixaram de lançar produtos na União Europeia por causa do DMA, como o Threads, da Meta",
+     "plain": "Pelo que leio na imprensa especializada, há empresas que deixaram de lançar produtos ou práticas na União Europeia por causa do DMA. Ouvi essa história sobre o Threads, um produto da Meta que não está disponível na Europa."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta se outras empresas estão segurando o lançamento de produtos depois da Lei de Mercados Digitais, além do caso do produto da Meta.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O caso do produto da Meta pode não ser o único lançamento segurado depois da lei europeia.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o produto da Meta é um exemplo de lançamento restringido depois da Lei de Mercados Digitais",
+     "plain": "Queria saber se as empresas andam segurando o lançamento dos seus produtos depois da Lei de Mercados Digitais. Temos o caso daquele produto da Meta. Existe algum outro?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que não lembra de outros produtos segurados, mas sabe de empresas com práticas diferentes na Europa e nos Estados Unidos.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Não há outro produto específico segurado que ele consiga apontar agora.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "não sabe de outros produtos que deixaram de ser lançados, mas conhece empresas com práticas diferentes na Europa e nos Estados Unidos",
+     "plain": "Agora, não. Não consigo lembrar de produtos específicos que ainda não foram lançados. Mas sei de casos de empresas com práticas um pouco diferentes das da Europa e dos Estados Unidos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta se o Projeto de Lei 2.768 pode criar uma assimetria regulatória que beneficia os concorrentes em vez dos consumidores.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O projeto pode acabar beneficiando os concorrentes das plataformas, e não o consumidor.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Projeto de Lei 2.768 pode criar uma assimetria que beneficia os concorrentes em vez dos consumidores",
+     "plain": "Existe o princípio de que a lei antitruste deve cuidar da concorrência, e não dos concorrentes. Dá para considerar que o Projeto de Lei 2.768 cria uma assimetria que beneficia mais os concorrentes do que os consumidores?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que a Lei de Mercados Digitais olha para os concorrentes e as regras de concorrência olham para o consumidor, e pede atenção aos usuários finais.",
+   "quote": [
+    26,
+    27,
+    28
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A lei europeia dos mercados digitais mira os concorrentes, enquanto as regras de concorrência miram o consumidor.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "protege-se os competidores porque a concorrência traz preços melhores, mais qualidade e mais inovação para o consumidor",
+     "plain": "Nós protegemos os competidores porque queremos concorrência. A concorrência traz preços melhores, mais qualidade e mais inovação. Para quem? Para o consumidor."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Lei de Mercados Digitais trata mais dos concorrentes e as regras de concorrência tratam mais dos consumidores",
+     "plain": "Voltando à sua pergunta original: a Lei de Mercados Digitais olha mais para os concorrentes. Já as regras de concorrência olham mais para o consumidor."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não se pode esquecer os usuários finais, porque a rigidez dessas regras pode prejudicar a experiência do consumidor",
+     "plain": "Minha proposta é que vocês não esqueçam os usuários finais ao criar regras específicas para as plataformas digitais. Como essas regras não têm flexibilidade, elas podem prejudicar a experiência do consumidor."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Jorge Padilla, da Compass Lexecon, e lê o currículo dele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que a Europa escolheu a regulação prévia por conveniência institucional e que o Brasil pode adotar uma solução diferente, mais flexível.",
+   "quote": [
+    39,
+    40,
+    41
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As circunstâncias do Brasil são outras e o país pode escolher um caminho diferente do europeu.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "se a preocupação é com notícias falsas o instrumento é outro, e a lei de mercados digitais trata do poder de mercado",
+     "plain": "Temos que pensar com cuidado no nosso objetivo. Se a preocupação é com fake news, as notícias falsas, ou com o papel das plataformas no processo político, o instrumento é outro. Se é com poder de mercado, aí sim é essa lei."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      39,
+      40,
+      41
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Europa escolheu esse instrumento por conveniência e o Brasil pode adotar solução mais próxima da inglesa ou da alemã",
+     "plain": "Na Europa, escolhemos esse instrumento por conveniência, não porque era o melhor. As circunstâncias do Brasil são outras, e o país tem a chance de adotar uma solução mais perto da Inglaterra ou da Alemanha, mais flexível."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      56
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem puder escolher um arcabouço regulatório deve escolher a flexibilidade, porque os problemas mudam com o tempo",
+     "plain": "Termino reforçando o que meu colega disse: se você puder escolher o modelo de regulação, escolha a flexibilidade. Os problemas vão mudar muito com o tempo, e você não vai querer ficar de mãos amarradas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta quais são os prós e os contras de regulamentar agora em vez de esperar resultados mais concretos das leis já em vigor.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta pesar o que se ganha e o que se perde ao regulamentar agora em vez de esperar.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso pesar os prós e os contras de regular agora em vez de esperar efeitos mais concretos das leis já em vigor",
+     "plain": "Quais são os prós e contras de regulamentar agora, em vez de esperar propostas já em vigor que deem efeitos mais concretos e permitam ao Brasil aprender com a experiência? É mais oportuno esperar ou regulamentar agora?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Recomenda esperar talvez 18 meses ou 2 anos para ter evidências sobre o que funciona antes de adotar a regulação.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "É melhor esperar por evidências antes de adotar a regulação.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "esperar talvez 18 meses ou 2 anos daria mais evidências sobre o que funciona e como afinar a regulação",
+     "plain": "Gosto de políticas baseadas em evidências. Como o Assimakis disse, ainda não deu tempo de ver o efeito do que está sendo implementado na Europa. Esperar talvez 18 meses ou 2 anos daria mais evidência sobre o que funciona."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "as grandes plataformas são disruptoras e podem ser monopolistas, por isso vale esperar uma regulação baseada em evidências",
+     "plain": "As grandes plataformas são disruptoras, mas talvez sejam monopolistas. Queremos intervir antes pelo lado oligárquico, e também que elas ajudem a desenvolver a nossa economia. Eu esperaria por uma regulação baseada em evidências."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta se uma exigência regulatória, num mercado digital em constante evolução, acaba indo além do necessário para atingir os objetivos.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Num mercado que muda o tempo todo, a exigência regulatória pode passar do necessário.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "num mercado digital em constante evolução, a exigência regulatória pode ir além do necessário",
+     "plain": "Num mercado digital em constante evolução, uma exigência regulatória não acaba indo além do necessário para atingir os objetivos? O que temos hoje é uma fotografia do momento. Essa regulamentação iria além do necessário?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Argumenta que esses mercados mudam rápido e que esperar tem valor numa economia como a brasileira, que se beneficiaria da disrupção das grandes plataformas.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Esperar tem valor porque esses mercados mudam rápido e o Brasil ganha com a disrupção das grandes plataformas.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "esses mercados mudam rápido, como mostra a mudança das redes sociais com a entrada do TikTok",
+     "plain": "Esses mercados mudam, e mudam rápido. Estão todos passando por mudanças grandes. Pense nas redes sociais: o mercado mudou radicalmente quando o TikTok entrou."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "esperar tem valor numa economia como a brasileira, que precisa da disrupção das big techs em mercados concentrados",
+     "plain": "Esperar tem valor, ainda mais numa economia como a brasileira. Na minha opinião, o país precisa que as big techs causem disrupção em vários mercados muito concentrados, com novos modelos de negócio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pergunta se é possível alinhar o Projeto de Lei 2.768 com o incentivo à inovação, num país com mercado de tecnologia em estágio bem diferente.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A regulamentação precisa caber num país cujo mercado de tecnologia ainda está em desenvolvimento.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "é preciso saber se o Projeto de Lei 2.768 cabe num país cujo mercado de tecnologia está em outro estágio",
+     "plain": "É possível alinhar o Projeto de Lei nº 2.768, que regulamenta esses serviços, com um incentivo à inovação? O nosso país é muito diferente em desenvolvimento do mercado de tecnologia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Alerta que os limites do projeto são baixos e podem alcançar fintechs brasileiras que ainda precisam de escala para competir.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os limites do projeto são baixos demais e podem travar plataformas brasileiras que ainda precisam crescer.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      0
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os limites do projeto são muito baixos e podem alcançar plataformas que ainda precisam crescer para competir",
+     "plain": "Não sou especialista em regulamentação, mas algumas coisas nele me preocupam um pouco, em especial os limites muito baixos, bem menores que os da Europa. Eles podem pegar plataformas que, a meu ver, não precisam de regra e precisam crescer."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as fintechs brasileiras precisam de escala e a regulamentação pode tirar delas a chance de liderar na América Latina",
+     "plain": "No Brasil há muitas fintechs bem-sucedidas, empresas de tecnologia financeira. Elas precisam ganhar escala, e qualquer regulamentação pode limitar a chance de serem líderes na América Latina."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "na Europa a regulação alcança poucas companhias e no Brasil há risco de alcançar empresas ainda muito pequenas",
+     "plain": "Na Europa, limitamos o alcance da regulação a poucas companhias. No Brasil, existe o risco de vocês regularem empresas que ainda são muito pequenas, impedindo que plataformas brasileiras e sul-americanas se desenvolvam."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Krisztian Katona, da CCIA, e lê o currículo dele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Recomenda não depender de experimentos regulatórios internacionais e adaptar as regras ao contexto, à economia e aos consumidores de cada país.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24
+   ],
+   "open_question": 85,
+   "stance": {
+    "position": "contrario",
+    "claim": "Cada país deve escolher a regra adequada à sua economia, em vez de seguir o experimento de fora.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os legisladores não devem depender de exemplos internacionais sem analisar o contexto e o impacto deles no próprio país",
+     "plain": "O primeiro ponto é não depender dos experimentos regulatórios internacionais. Estudar essas jurisdições ajuda, mas os legisladores precisam escolher as regras mais adequadas ao seu país, à sua economia e aos seus consumidores."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "só a Alemanha criou um marco regulatório prévio, em vigor há 2 anos, desde 2021, e a experiência é muito limitada",
+     "plain": "Nos últimos anos, só uma jurisdição, a Alemanha, criou um marco regulatório prévio. Ele entrou em vigor há 2 anos, em 2021. É uma experiência extremamente limitada."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      71,
+      72
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é preciso ter consciência do custo que essas regulações podem ter para os consumidores",
+     "plain": "Em terceiro lugar, e é o ponto mais importante, temos que ter consciência do custo que essas regulações podem trazer para os consumidores. Isso é fundamental num mercado digital movido a inovação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta se os consumidores podem colher benefícios da regulamentação ou se a proteção deles viria apenas da lei que protege a concorrência.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se o consumidor ganha algo com a regulamentação ou se basta a lei da concorrência.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta saber se os consumidores colhem benefícios da regulamentação ou se a proteção deles vem só da lei de concorrência",
+     "plain": "O impacto da regulamentação sobre os consumidores aumentaria o custo deles. O senhor acredita que eles podem colher benefícios dessas leis, inclusive do projeto que relatamos, ou a proteção viria só da lei da concorrência?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a conformidade com o projeto aumenta os custos de empresas e serviços, que são repassados ao consumidor, com preço maior e qualidade menor.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26,
+    27
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A regulação encarece os serviços e o aumento chega ao consumidor em preço e em qualidade.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a conformidade com o Projeto de Lei 2.768 aumenta custos de serviços e empresas, e esse aumento é repassado aos consumidores",
+     "plain": "Se a conformidade com o Projeto de Lei nº 2.768 aumentar os custos fixos ou variáveis, os serviços vão ficar mais caros para usuários e empresas. E, se as empresas tiverem esse aumento, elas repassam ao consumidor."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a regulação pode aumentar o preço para o consumidor e reduzir a qualidade dos serviços digitais",
+     "plain": "Acredito que o impacto dessa regulação pode aumentar os preços para os consumidores, a ponto de impedir que os usuários brasileiros aproveitem as economias de escala do resto do mundo. Pode reduzir a qualidade dos serviços."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a competitividade brasileira pode ser afetada e serviços digitais podem chegar ao Brasil depois de outras regiões",
+     "plain": "A competitividade brasileira e a global podem ser afetadas pela segmentação desses mercados, que aumenta custos ou reduz a qualidade da exportação de serviços. E certos serviços digitais podem chegar aqui bem depois."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta se já é possível avaliar, no exemplo da Europa, se houve aumento de custos para os consumidores.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se já dá para medir o aumento de custo ao consumidor nos países que regularam.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta saber se já houve aumento de custos aos consumidores nos países que regularam, como na Europa",
+     "plain": "Nesses países, usando o exemplo da Europa, já dá para avaliar se houve esse aumento de custos para os consumidores? Com o tempo que se tem, já é possível afirmar isso?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que faltam respostas e insiste na análise de custo e benefício antes da regulação, já que o DMA só fica operacional no ano seguinte.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A análise de custo e benefício tem de vir antes de a regulação ser implementada.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a análise de custo e benefício tem de vir antes da regulação, e o DMA só fica operacional no ano que vem",
+     "plain": "Já temos parte dessas respostas. Como destaquei, a análise de custo e benefício e a de impacto precisam vir antes de a regulação ser implementada. O DMA só fica totalmente operacional no ano que vem."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o que importa na prática é saber como a avaliação de impacto vai acontecer em cada caso",
+     "plain": "Houve muita discussão sobre se essas regras são justas e se devem ser contestadas. Na prática, o que importa é saber como a avaliação de impacto vai acontecer em cada caso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados, anuncia um seminário futuro e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b003",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 3,
+   "from_claim": "b004c1",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "Ao pedido de avaliação dos 9 meses da lei europeia, responde que a Comissão ainda não designou as empresas guardiãs e que a decisão só sai a partir de 6 de setembro."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 3,
+   "from_claim": "b006c1",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "À pergunta sobre outros lançamentos segurados, responde que não consegue apontar produtos, só empresas com práticas diferentes na Europa e nos Estados Unidos."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 27,
+   "to_sentence": 4,
+   "from_claim": "b008c2",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "À dúvida sobre assimetria a favor dos concorrentes, responde que é assim mesmo: a lei dos mercados digitais mira os concorrentes e quem cuida do consumidor é a lei de concorrência."
+  },
+  {
+   "from": "b008",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 27,
+   "from_claim": "b008c2",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "A relatora abriu dizendo que a lei precisa proteger o consumidor, e o advogado responde que esse tipo de lei trata sobretudo dos concorrentes."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 41,
+   "to_sentence": 28,
+   "from_claim": "b010c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Os dois dizem que o Brasil não deve repetir o caminho europeu: um pelos interesses nacionais de cada país, o outro porque a Europa escolheu por conveniência."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 27,
+   "from_claim": "b010c1",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Os dois separam o que essa lei resolve: ela trata de poder de mercado e de concorrentes, não de notícias falsas nem do consumidor."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 4,
+   "from_claim": "b012c1",
+   "to_claim": "b011c1",
+   "strength": "forte",
+   "note": "À pergunta sobre regular agora ou esperar, responde que esperaria talvez 18 meses ou 2 anos para ter evidência do que funciona."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 1,
+   "from_claim": "b012c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Cita o colega pelo nome para repetir que ainda não deu tempo de ver o efeito do que está sendo implementado na Europa."
+  },
+  {
+   "from": "b013",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 56,
+   "from_claim": "b013c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A relatora leva adiante o apelo por flexibilidade e pergunta se a exigência não passa do necessário num mercado que muda o tempo todo."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 1,
+   "from_claim": "b014c2",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "À dúvida sobre exigência além do necessário, responde que esperar tem valor numa economia que precisa da disrupção das grandes plataformas."
+  },
+  {
+   "from": "b016",
+   "to": "b015",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b016c1",
+   "to_claim": "b015c1",
+   "strength": "forte",
+   "note": "À pergunta sobre alinhar o projeto ao incentivo à inovação, responde que os limites do texto são baixos demais e pegam quem ainda precisa crescer."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 28,
+   "from_claim": "b018c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Repete o ponto do advogado do outro lado da mesa: o legislador tem de olhar o próprio país antes de importar a regra de fora."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 41,
+   "from_claim": "b018c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Os dois dizem que cada país deve escolher a regra adequada ao seu contexto, em vez de seguir o experimento regulatório de fora."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 4,
+   "from_claim": "b018c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Reforça a ideia de esperar com um dado: só a Alemanha tem marco prévio em vigor, há 2 anos, o que é pouca experiência para copiar."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b020c1",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "À pergunta sobre benefício ao consumidor, responde pelo custo: se a conformidade encarecer, a conta é repassada a quem usa o serviço."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 29,
+   "from_claim": "b020c2",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Os dois chegam ao mesmo ponto pelo consumidor: regra sem folga piora a experiência e a qualidade do serviço de quem usa."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 18,
+   "from_claim": "b020c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Um cita o Threads, que não saiu na Europa, e o outro diz que serviços digitais podem chegar ao Brasil bem depois de outras regiões."
+  },
+  {
+   "from": "b022",
+   "to": "b021",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b022c1",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "À pergunta se já dá para medir o aumento de custo na Europa, responde que só parte da resposta existe, porque o DMA só fica operacional no ano que vem."
+  },
+  {
+   "from": "b022",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 4,
+   "from_claim": "b022c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "Fica do mesmo lado do economista: primeiro a análise de custo e benefício, depois a regra."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b010",
+    "b018"
+   ],
+   "claims": [
+    "b002c1",
+    "b010c2",
+    "b018c1"
+   ],
+   "note": "A relatora e os três convidados concordam que o Brasil deve escrever a sua própria regra, a partir do que o país precisa, em vez de repetir a lei europeia."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b007",
+    "b008",
+    "b010"
+   ],
+   "claims": [
+    "b007c1",
+    "b008c2",
+    "b010c1"
+   ],
+   "note": "A relatora levanta a dúvida e os dois convidados confirmam: esse tipo de lei olha para os concorrentes e para quem depende das plataformas, não para o consumidor."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b003",
+   "sentence": 3,
+   "addressed_to": "setor_privado",
+   "answered_by": "b004",
+   "theme": "d3",
+   "position": "neutro",
+   "gist": "como avaliar o impacto da lei europeia em 9 meses",
+   "plain": "Como avaliar o impacto da Lei de Mercados Digitais nos seus primeiros 9 meses de vigência?"
+  },
+  {
+   "id": "q2",
+   "from": "b005",
+   "sentence": 5,
+   "addressed_to": "setor_privado",
+   "answered_by": "b006",
+   "theme": "d5",
+   "position": "neutro",
+   "gist": "se outras empresas seguraram lançamentos depois da lei europeia",
+   "plain": "Além desse produto da Meta, existe outra empresa que segurou o lançamento de produtos?"
+  },
+  {
+   "id": "q3",
+   "from": "b007",
+   "sentence": 4,
+   "addressed_to": "setor_privado",
+   "answered_by": "b008",
+   "theme": "d4",
+   "position": "contrario",
+   "gist": "se o projeto cria assimetria a favor dos concorrentes",
+   "plain": "O Projeto de Lei 2.768 pode criar uma assimetria que beneficia os concorrentes em vez dos consumidores?"
+  },
+  {
+   "id": "q4",
+   "from": "b011",
+   "sentence": 4,
+   "addressed_to": "setor_privado",
+   "answered_by": "b012",
+   "theme": "d3",
+   "position": "neutro",
+   "gist": "se é melhor esperar resultados ou regulamentar agora",
+   "plain": "É mais oportuno esperar resultados mais concretos ou adotar essa regulamentação agora?"
+  },
+  {
+   "id": "q5",
+   "from": "b013",
+   "sentence": 3,
+   "addressed_to": "setor_privado",
+   "answered_by": "b014",
+   "theme": "d2",
+   "position": "contrario",
+   "gist": "se a regulamentação vai além do necessário",
+   "plain": "Num mercado que muda o tempo todo, essa regulamentação iria além do necessário?"
+  },
+  {
+   "id": "q6",
+   "from": "b015",
+   "sentence": 4,
+   "addressed_to": "setor_privado",
+   "answered_by": "b016",
+   "theme": "d6",
+   "position": "neutro",
+   "gist": "se dá para alinhar o projeto ao incentivo à inovação",
+   "plain": "Dá para alinhar o projeto de regulamentação com um projeto de incentivo à inovação?"
+  },
+  {
+   "id": "q7",
+   "from": "b019",
+   "sentence": 4,
+   "addressed_to": "setor_privado",
+   "answered_by": "b020",
+   "theme": "d5",
+   "position": "neutro",
+   "gist": "se o consumidor ganha algo com essas leis",
+   "plain": "Os consumidores podem ganhar com essas leis ou basta a lei que protege a concorrência?"
+  },
+  {
+   "id": "q8",
+   "from": "b021",
+   "sentence": 2,
+   "addressed_to": "setor_privado",
+   "answered_by": "b022",
+   "theme": "d5",
+   "position": "neutro",
+   "gist": "se já dá para medir o aumento de custo na Europa",
+   "plain": "Já dá para dizer se houve aumento de custos para os consumidores na Europa?"
+  },
+  {
+   "id": "q9",
+   "from": "b018",
+   "sentence": 85,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "theme": "d5",
+   "position": "contrario",
+   "gist": "como o Brasil quer se posicionar na disputa por investimento",
+   "plain": "Como o Brasil quer se posicionar na concorrência por investimentos internacionais?"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b003",
+   "sentence": 3,
+   "gist": "Lei de Mercados Digitais em vigor há 9 meses",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 2,
+   "gist": "designação das empresas guardiãs a partir de 6 de setembro",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 9,
+   "gist": "as empresas têm 6 meses de período de teste",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 38,
+   "gist": "o DMA tem vinte e poucas obrigações e proibições",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b001",
+   "sentence": 15,
+   "gist": "prazo encerrado em 18 de abril sem nenhuma emenda",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b001",
+   "sentence": 16,
+   "gist": "quatro requerimentos de audiência protocolados em 11 de maio",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 4,
+   "gist": "esperar 18 meses ou 2 anos daria mais evidências",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b018",
+   "sentence": 19,
+   "gist": "o marco alemão entrou em vigor há 2 anos, em 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b018",
+   "sentence": 51,
+   "gist": "o CADE existe no Brasil desde 1962",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 52,
+   "gist": "nos anos 90 eram 20 jurisdições, hoje mais de 140",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 52,
+   "gist": "há 20 anos as empresas hoje reguladas eram heróis",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o apelo por cautela dos convidados estrangeiros e a defesa de um modelo brasileiro próprio, em vez da cópia da regra europeia.",
+  "omitted": "Ficaram de fora o alerta de que os limites do projeto alcançariam fintechs brasileiras que ainda precisam de escala e o pedido de esperar de 18 meses a 2 anos por evidências."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A regra tem de ser brasileira, não cópia da europeia",
+   "statement_plain": "O Brasil deve partir dos seus próprios interesses e do seu contexto para escrever a lei das plataformas digitais, em vez de repetir a regra que a União Europeia aprovou.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b002c1",
+    "b010c2",
+    "b018c1"
+   ],
+   "note": "A relatora do projeto, um advogado de escritório europeu, um economista de consultoria e um representante da indústria de tecnologia chegam ao mesmo ponto."
+  },
+  {
+   "id": "t2",
+   "title": "Esperar as evidências antes de aprovar a lei",
+   "statement_plain": "O Brasil deve esperar para ver o que funcionou nos países que já regularam antes de aprovar a sua lei para as plataformas digitais.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b014c2",
+    "b018c2",
+    "b022c1"
+   ],
+   "note": "A ideia divide os convidados: o advogado diz que o Brasil precisa mesmo dessas regras, enquanto o economista e o representante da indústria querem esperar as evidências."
+  },
+  {
+   "id": "t3",
+   "title": "O Brasil precisa da lei, com interesse nacional claro",
+   "statement_plain": "O Brasil precisa mesmo de regras para as plataformas digitais e deve aprová-las apontando quais interesses públicos do país as justificam.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b001c2",
+    "b002c2"
+   ],
+   "note": "Junta a relatora do projeto, que preside a sessão, e o advogado que trabalha com a regra europeia, contra os outros dois convidados."
+  },
+  {
+   "id": "t4",
+   "title": "Regra rígida cobra o preço do consumidor",
+   "statement_plain": "Regras fixas demais aumentam o custo das empresas, e essa conta chega a quem usa o serviço em preço mais alto, qualidade menor e produto que demora a chegar.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b008c3",
+    "b018c3",
+    "b020c1",
+    "b020c2"
+   ],
+   "note": "Cruza o advogado que atua na Europa e o representante da indústria de tecnologia: os dois medem a regra pelo bolso de quem usa o serviço."
+  },
+  {
+   "id": "t5",
+   "title": "Limite baixo demais trava a empresa brasileira",
+   "statement_plain": "Os limites do projeto alcançam plataformas pequenas e podem impedir que empresas brasileiras ganhem escala para competir na América Latina.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b015c1",
+    "b016c1",
+    "b016c2",
+    "b016c3"
+   ],
+   "note": "A relatora do projeto e o economista convidado ficam do mesmo lado: a regra não pode impedir a empresa brasileira de crescer."
+  },
+  {
+   "id": "t6",
+   "title": "A lei serve aos concorrentes, o consumidor é outra lei",
+   "statement_plain": "A lei dos mercados digitais protege sobretudo as empresas que competem com as plataformas e as que dependem delas. Quem cuida do consumidor é a lei da concorrência.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b007c1",
+    "b008c2",
+    "b010c1"
+   ],
+   "note": "A relatora levanta a dúvida e os dois convidados confirmam, mesmo estando em lados diferentes do debate sobre o momento de regular."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Lei de Mercados Digitais",
+   "fala": "b001",
+   "sentence": 4,
+   "plain": "lei da União Europeia, de 2022, que cria obrigações para as maiores plataformas digitais antes de elas cometerem qualquer infração"
+  },
+  {
+   "term": "sui generis",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "expressão em latim para algo de um tipo só, que não se encaixa em nenhuma categoria existente"
+  },
+  {
+   "term": "ex ante",
+   "fala": "b002",
+   "sentence": 8,
+   "plain": "expressão em latim para o que vem antes: a regra que vale de agora em diante, aplicada antes de haver qualquer infração"
+  },
+  {
+   "term": "ex post",
+   "fala": "b002",
+   "sentence": 8,
+   "plain": "expressão em latim para o que vem depois: a autoridade só age depois que a conduta aconteceu"
+  },
+  {
+   "term": "DMA",
+   "fala": "b002",
+   "sentence": 12,
+   "plain": "sigla em inglês da Lei de Mercados Digitais da União Europeia"
+  },
+  {
+   "term": "per se",
+   "fala": "b002",
+   "sentence": 38,
+   "plain": "expressão em latim para a proibição que vale por si mesma, sem espaço para a empresa justificar o que fez"
+  },
+  {
+   "term": "gatekeepers",
+   "fala": "b004",
+   "sentence": 1,
+   "plain": "as empresas guardiãs designadas pela lei europeia: as plataformas que controlam o acesso a um mercado digital"
+  },
+  {
+   "term": "compliance",
+   "fala": "b004",
+   "sentence": 15,
+   "plain": "conjunto de práticas que a empresa adota para cumprir as regras a que está sujeita"
+  },
+  {
+   "term": "antitruste",
+   "fala": "b007",
+   "sentence": 3,
+   "plain": "área do direito que combate monopólio e abuso de poder econômico para manter a concorrência"
+  },
+  {
+   "term": "big techs",
+   "fala": "b010",
+   "sentence": 16,
+   "plain": "as maiores empresas de tecnologia do mundo, como Google, Meta, Amazon e Apple"
+  },
+  {
+   "term": "fintechs",
+   "fala": "b016",
+   "sentence": 1,
+   "plain": "empresas que oferecem serviços financeiros por meio de tecnologia, fora dos bancos tradicionais"
+  },
+  {
+   "term": "CADE",
+   "fala": "b018",
+   "sentence": 51,
+   "plain": "Conselho Administrativo de Defesa Econômica: o órgão brasileiro que julga casos de concorrência e aprova ou barra fusões"
+  },
+  {
+   "term": "OCDE",
+   "fala": "b018",
+   "sentence": 73,
+   "plain": "Organização para a Cooperação e Desenvolvimento Econômico: grupo de países que compara políticas públicas e recomenda boas práticas"
+  }
+ ]
+}

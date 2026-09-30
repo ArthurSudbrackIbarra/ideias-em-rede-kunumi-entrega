@@ -1,0 +1,2253 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 83,
+ "model": "LLM lendo o prompt hearing-083 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:42:12Z",
+ "prompt_sha256": "699b0371e15bd7faf9ff1647b7c9a837a4f4037d03242a7ff6c8a11dad49c8a2",
+ "sentences_hash": "88e17bc3f6447265",
+ "review": {
+  "pairs_read": 45,
+  "pairs_fixed": 14
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Direitos Humanos ouviu defensores públicos, o Conselho Nacional de Justiça, o Ministério da Mulher, da Família e dos Direitos Humanos, órgãos da ONU e movimentos sobre as recomendações que o Brasil recebeu na Revisão Periódica Universal a respeito da população em situação de rua. Os convidados apontaram a falta de política de moradia como o centro das violações e cobraram dados oficiais, lei e orçamento. Também alertaram para o fim do prazo que barra despejos.",
+ "stakes": "Que medidas a Câmara toma antes de 30 de junho sobre os despejos e sobre a lei da política nacional para a população em situação de rua.",
+ "central_question": "O acesso à moradia é a condição para superar as violações de direitos da população em situação de rua?",
+ "synopsis_plain": "Defensores públicos, uma juíza, o governo federal, órgãos da ONU e movimentos foram à Câmara falar das recomendações internacionais sobre quem vive na rua. Quase todos disseram a mesma coisa: sem política de moradia, a pessoa não sai da rua. Também cobraram contagem oficial, lei com orçamento, e alertaram que o prazo que barra despejos acaba em 30 de junho.",
+ "stakes_plain": "Se a Câmara aprova a lei da política nacional e a regra sobre despejos, cujo prazo acaba em 30 de junho.",
+ "central_question_plain": "Sem moradia, é possível garantir os outros direitos de quem vive na rua?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Moradia primeiro ou abrigo provisório",
+   "description": "Discute se a moradia tem de vir primeiro, como direito e serviço, ou se o caminho passa por abrigo provisório até a pessoa ter condições.",
+   "axis": {
+    "pro": "A moradia tem de vir primeiro, ofertada a quem não pode pagar, porque é a porta de entrada dos outros direitos.",
+    "contra": "O dever do Estado é garantir o mínimo de abrigo aos mais vulneráveis, com acolhimento provisório, e não casa para todos.",
+    "pro_plain": "Sem uma casa, a pessoa não sai da rua. Por isso a moradia tem de vir primeiro.",
+    "contra_plain": "O Estado tem de garantir primeiro o mínimo de abrigo a todos, não uma casa para cada um."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Invisibilidade e falta de dados",
+   "description": "Discute a ausência de contagem oficial da população em situação de rua e o efeito disso nas políticas públicas.",
+   "axis": {
+    "pro": "Sem contagem oficial no censo e no CadÚnico, essa população fica invisível para a política pública.",
+    "contra": "As estimativas e os registros que existem já bastam para orientar as políticas.",
+    "pro_plain": "Quem não é contado não existe para a política pública.",
+    "contra_plain": "As estimativas que existem já bastam para o governo agir."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Despejos e o prazo da ADPF 828",
+   "description": "Discute o fim do prazo da decisão que barrou despejos na pandemia e a lei que disciplinaria as remoções depois dele.",
+   "axis": {
+    "pro": "O prazo tem de ser prorrogado e a lei aprovada, porque o despejo joga famílias na rua.",
+    "contra": "Terminado o prazo da pandemia, os despejos voltam a correr normalmente.",
+    "pro_plain": "Se os despejos voltarem, muita gente vai acabar na rua.",
+    "contra_plain": "Passada a emergência da pandemia, os despejos podem voltar ao normal."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Violência institucional e criminalização",
+   "description": "Discute a abordagem policial, a retirada de pertences, a arquitetura hostil e a expulsão dessas pessoas dos espaços públicos.",
+   "axis": {
+    "pro": "Essa população é visível para a polícia e invisível para os direitos, e essa violência precisa ser contida.",
+    "contra": "A abordagem policial e as regras de uso do espaço público são necessárias para a cidade.",
+    "pro_plain": "Para a polícia essas pessoas são muito visíveis. Para os direitos, não existem.",
+    "contra_plain": "A polícia e as regras do espaço público precisam agir como agem."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Lei e orçamento da política nacional",
+   "description": "Discute a aprovação do projeto que transforma em lei a política nacional para a população em situação de rua e a falta de orçamento.",
+   "axis": {
+    "pro": "Sem lei federal e sem orçamento definido, a política para essa população não sai do papel.",
+    "contra": "O decreto e as resoluções que existem já dão a base para agir.",
+    "pro_plain": "Enquanto for só decreto, sem dinheiro previsto, a política não chega às pessoas.",
+    "contra_plain": "O decreto e as resoluções que já existem dão conta do recado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Rede, Justiça e documentação civil",
+   "description": "Discute a falta de documento civil e de rede entre Judiciário, Defensoria e Executivo para que essas pessoas acessem direitos.",
+   "axis": {
+    "pro": "Sem documento civil e sem rede entre os órgãos, essas pessoas não conseguem benefício nem acesso à Justiça.",
+    "contra": "Cada órgão cumprindo o seu papel já resolve o atendimento dessa população.",
+    "pro_plain": "Sem documento e sem os órgãos trabalhando juntos, a pessoa não consegue nada.",
+    "contra_plain": "Basta cada órgão fazer a sua parte, sem precisar de rede nova."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Saúde de quem vive na rua",
+   "description": "Discute a prevalência de doenças e a distância dessa população dos serviços de saúde.",
+   "axis": {
+    "pro": "A prevalência de doenças é muito maior nessa população e os serviços de saúde não chegam a ela.",
+    "contra": "Os serviços de saúde já estão abertos a todos e alcançam essa população.",
+    "pro_plain": "Quem vive na rua adoece muito mais e é quem menos chega ao serviço de saúde.",
+    "contra_plain": "A saúde é aberta a todos e já atende essas pessoas."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Direitos Humanos e Minorias",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata e chamado de Deputado Orlando Silva em b008.0",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Direitos Humanos e Minorias da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Liderança do Movimento de Meninos e Meninas de Rua",
+   "org": "Movimento de Meninos e Meninas de Rua",
+   "basis": "apresentado pelo presidente em b001.20 e em b001.27 como Markinhus Souza",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Movimento de Meninos e Meninas de Rua",
+   "org_plain": "movimento que atua pelos direitos de crianças e adolescentes em situação de rua"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Conselheiro do CNJ e Presidente da Comissão de Políticas Sociais e Desenvolvimento do Cidadão",
+   "org": "CNJ",
+   "basis": "apresentado pelo presidente em b001.12",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Conselho Nacional de Justiça",
+   "org_plain": "Conselho Nacional de Justiça, órgão que fiscaliza e orienta o funcionamento do Poder Judiciário"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "apresentado pelo presidente em b011.3 como Deputado Paulo Teixeira, do PT de São Paulo",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT de São Paulo",
+   "org_plain": "Câmara dos Deputados, onde os deputados federais fazem as leis"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Oficial de Direitos Humanos do Escritório Regional para América do Sul",
+   "org": "ACNUDH",
+   "basis": "apresentada pelo presidente em b001.16",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Alto Comissariado da ONU para Direitos Humanos",
+   "org_plain": "escritório da ONU que acompanha os direitos humanos nos países e cobra o cumprimento dos tratados"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Juíza federal e integrante da Comissão de Políticas Sociais do CNJ",
+   "org": "TRF da 3ª Região",
+   "basis": "apresentada pelo presidente em b001.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "juíza federal do Tribunal Regional Federal da 3ª Região",
+   "org_plain": "tribunal federal que julga os processos de São Paulo e Mato Grosso do Sul"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Direitos de Minorias Sociais e População em Situação de Risco",
+   "org": "MMFDH",
+   "basis": "apresentado pelo presidente em b001.17",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Mulher, da Família e dos Direitos Humanos",
+   "org_plain": "ministério que coordena as políticas de direitos humanos do governo federal"
+  },
+  "s08": {
+   "role": "governo",
+   "cargo": "Defensor Público do Distrito Federal e membro da Comissão de População em Situação de Rua da ANADEP",
+   "org": "Defensoria Pública do Distrito Federal",
+   "basis": "apresentado pelo presidente em b001.11",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "defensor público do Distrito Federal",
+   "org_plain": "órgão público que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Defensor Público da União",
+   "org": "Defensoria Pública da União",
+   "basis": "apresentado pelo presidente em b001.18",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "defensor público da União",
+   "org_plain": "órgão federal que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Representante do Programa Conjunto das Nações Unidas sobre HIV/AIDS",
+   "org": "UNAIDS",
+   "basis": "apresentada pelo presidente em b001.14",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do UNAIDS",
+   "org_plain": "programa da ONU que coordena a resposta mundial ao HIV e à AIDS"
+  },
+  "s11": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador da Comissão Permanente de Direitos da População em Situação de Rua do CNDH",
+   "org": "CNDH",
+   "basis": "apresentado pelo presidente em b001.19",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Conselho Nacional de Direitos Humanos",
+   "org_plain": "conselho com governo e sociedade civil que recebe denúncias e acompanha os direitos humanos no país"
+  },
+  "s12": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Observatório Brasileiro de Políticas Públicas com a População em Situação de Rua",
+   "org": "UFMG",
+   "basis": "apresentado pelo presidente em b029.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professor da UFMG",
+   "org_plain": "Universidade Federal de Minas Gerais, onde fica o observatório que reúne dados sobre quem vive na rua"
+  },
+  "s13": {
+   "role": "governo",
+   "cargo": "Defensor Público do Estado do Paraná",
+   "org": "Defensoria Pública do Paraná",
+   "basis": "apresentado pelo presidente em b001.24",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "defensor público do Estado do Paraná",
+   "org_plain": "órgão estadual que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  }
+ },
+ "audience": {
+  "estimate": 25,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "convidado",
+    "share": 0.15
+   }
+  ],
+  "basis": "a mesa agradece quem participa presencialmente e por vídeo, e os expositores cumprimentam representações da sociedade civil e o Movimento Nacional da População em Situação de Rua, sem registro de palmas",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre os direitos da população em situação de rua e compõe a Mesa com os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do movimento de meninos e meninas de rua confirma que ouve a presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta o convidado antes de lhe passar a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do movimento avisa que está tentando abrir a câmera.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá as boas-vindas e concede 5 minutos ao convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que a invisibilidade é a maior violação de direitos e mostra como o encarceramento de familiares empurra crianças para a rua.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29,
+    30,
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A invisibilidade é a maior violação de direitos humanos e atinge as crianças em situação de rua.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há violação maior de direitos humanos do que a invisibilidade, tema caro para quem atua com crianças de rua",
+     "plain": "Quero dedicar esta revisão ao impacto violento da invisibilidade, um tema muito caro para nós, que somos da área das crianças de rua. Acho que não existe violação de direitos humanos maior do que essa."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a guerra às drogas levou ao encarceramento em massa e tornou invisíveis as crianças cujo familiar é preso",
+     "plain": "O Brasil e a América Latina entraram na luta contra as drogas, e isso teve impacto no encarceramento em massa, sobretudo de mulheres e de pais muito jovens. O reflexo social e étnico-racial é a invisibilidade dessas crianças."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "parte dessas crianças assume atividades de adulto e vai trabalhar na rua para ajudar no orçamento da família",
+     "plain": "Boa parte dessas crianças acaba assumindo atividades de adulto, como ir para a rua trabalhar para ajudar no orçamento da família. Esse é um dos impactos que levam crianças para as ruas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Markinhus e passa a palavra a Mário Henrique Nunes, do CNJ.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Traz a estimativa de pessoas em situação de rua, defende a aprovação do projeto da política nacional e propõe o CNJ como ponte entre Parlamento e sociedade.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parlamento e o CNJ precisam trabalhar em rede para que a política chegue às pessoas em situação de rua.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a estimativa é de aproximadamente 221.869 pessoas em situação de rua no Brasil, por pesquisa do IPEA de março de 2020",
+     "plain": "Estima-se aproximadamente 221.869 pessoas em situação de rua no Brasil, por pesquisa do IPEA publicada em março de 2020. Acho que esse número é maior e aumenta a cada dia."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei nº 5.740, de 2016, proíbe negar saúde ou assistência por falta de comprovante de residência",
+     "plain": "O Projeto de Lei nº 5.740, de 2016, institui política nacional para quem está em situação de rua e diz que nenhum atendimento de saúde ou assistência pode ser negado por falta de comprovante de residência. Isso, para mim, é um absurdo."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o CNJ deve ser uma ponte entre o Parlamento e a sociedade, com trabalho em rede e mutirões de atendimento",
+     "plain": "Com a ideia de trabalho em rede, o CNJ se propõe a colaborar como agente. Eu costumo dizer que ele tem de ser uma ponte entre o Parlamento e a sociedade, porque não se constrói esse diálogo sem o Parlamento."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao conselheiro do CNJ e chama Darcy da Silva Costa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra pela ordem, por 2 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 2 minutos ao Deputado Paulo Teixeira e pede desculpas aos inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Atribui as famílias na rua à falta de política habitacional, relata a experiência dos hotéis em São Paulo e diz que não é mais favorável a albergues.",
+   "quote": [
+    35,
+    36
+   ],
+   "covered": true,
+   "evidence": [
+    15
+   ],
+   "open_question": 24,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta política habitacional, e essas pessoas precisam de moradia individualizada em vez de albergue.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as famílias que passaram a morar na rua mostram a falta de política econômica e de política habitacional",
+     "plain": "O número de pessoas e de famílias que moram nas ruas mostra a falta de política econômica de um lado e de política habitacional do outro. Essas pessoas poderiam morar em casa, bastaria uma política habitacional."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "na sua gestão foram alugados hotéis no centro de São Paulo e pessoas que estavam na rua passaram a morar neles",
+     "plain": "Fui Secretário de Habitação de São Paulo. Pessoas que moravam nas ruas foram para hotéis que alugamos no centro da cidade, e passaram a morar lá."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ele não é mais favorável a albergues, porque as pessoas querem uma moradia individualizada, onde possam ter endereço",
+     "plain": "Eu não sou mais favorável a albergues. As pessoas não querem ir para o albergue, querem uma moradia individualizada, onde possam ter endereço, como o senhor bem colocou."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao deputado e passa a palavra a Paula Simas Magalhães, do Alto Comissariado da ONU.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que o dever do Estado é garantir primeiro o mínimo de abrigo aos mais vulneráveis e lembra que o Direito Internacional proíbe despejos forçados.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O dever do Estado é criar as condições mínimas de abrigo para os mais vulneráveis, começando por eles.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "para os comitês dos tratados, o Estado não tem de construir casa para toda a população, mas criar as condições mínimas de abrigo",
+     "plain": "Nos tratados e na jurisprudência dos comitês, o Estado não tem a obrigação de construir casa para toda a população. O que importa é criar as condições mínimas para que as pessoas mais vulneráveis tenham o básico de abrigo e de moradia."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a prioridade dos recursos do Estado é garantir primeiro o mínimo a todos e só depois investir em outros programas de habitação",
+     "plain": "A população em situação de rua é hoje a mais vulnerável e a que tem menos acesso a abrigo e moradia. A prioridade dos recursos do Estado tem de ser garantir primeiro o mínimo a todos e só depois outros programas de habitação."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Direito Internacional proíbe despejos forçados, e nem o despejo privado nem o do Estado deveria levar alguém à rua",
+     "plain": "O Direito Internacional é muito claro: proíbe os despejos forçados. Não importa se o despejo é feito por um ente privado ou pelo Estado, ele não deveria levar as pessoas à situação de rua."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à juíza federal Luciana Ortiz Tavares Costa Zanoni.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Mostra que sem documento civil e sem CadÚnico essas pessoas não conseguem benefício nem acesso à Justiça, e pede que os pontos que faltam sejam legislados.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem documento civil e sem rede entre os órgãos, essas pessoas não conseguem exercer direito nenhum.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "essas pessoas não têm acesso à documentação civil porque o país tem um problema estrutural de identificação",
+     "plain": "Essas pessoas não têm acesso à documentação civil, porque o nosso País tem um problema estrutural de identificação da população. Quem se desloca de um Estado para outro e passa a viver na rua não consegue a certidão de nascimento nem o RG."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no mutirão da Praça da Sé havia 3 mil pessoas e a prefeitura fazia 40 cadastros por dia",
+     "plain": "Fizemos um mutirão na Praça da Sé com mais de 40 instituições. A Prefeitura fazia 40 cadastros por dia, e nós tínhamos 3 mil pessoas na praça."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      24
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pela Resolução nº 425 o juiz não pode extinguir o processo sem julgar o mérito e precisa construir uma rede para a documentação",
+     "plain": "A Resolução nº 425 prevê que o juiz não pode encerrar o processo sem julgar o mérito. Ele tem de construir uma rede para essas pessoas conseguirem os documentos, tanto a identificação civil quanto documentos públicos e privados."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Propõe um encontro da Comissão com o CNJ para firmar um pacto e uma agenda de trabalho entre o Legislativo e o Judiciário.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão e o CNJ devem firmar um pacto e uma agenda de trabalho conjunta sobre o tema.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão deve receber o CNJ e firmar um pacto, com agenda de trabalho entre o Legislativo e o Judiciário",
+     "plain": "Proponho à senhora e ao Conselheiro Mário Henrique Nunes que a Comissão organize um encontro para receber o CNJ e firmar um pacto, com uma agenda de trabalho. Para mim, essa já é uma das conclusões desta audiência."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que em quase 12 anos de política nacional faltou moradia, apresenta o Moradia Primeiro e defende ofertar moradia como serviço a quem não pode pagar.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A moradia tem de vir como primeiro acesso, porque é ela que permite sair da situação de rua.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em quase 12 anos de política nacional as pessoas não saíram da situação de rua porque faltou o acesso à moradia",
+     "plain": "Nesses quase 12 anos de política nacional, apesar de mais serviços, mais vagas e de orientações a Estados e Municípios, essas pessoas continuaram na rua. E por que continuaram? A resposta é óbvia: faltou acesso à moradia."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ministério já tem 10 milhões aplicados na metodologia do Housing First, aqui chamada de Moradia Primeiro",
+     "plain": "Estamos implantando uma metodologia baseada no Housing First, como é reconhecido no mundo todo, e que aqui chamamos de Moradia Primeiro. Só no nosso Ministério já temos 10 milhões implantados para promover esse modelo no Brasil."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "reconhecida como direito humano, a moradia precisa ser ofertada como serviço, e não só como propriedade, a quem não pode pagar",
+     "plain": "Se a moradia é reconhecida como direito humano, ela precisa ser ofertada a quem não tem condições de pagar por ela. É o que incluímos no Plano Nacional de Habitação: ofertar moradia como serviço, e não só como propriedade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede que o pedido do ministério seja encaminhado formalmente e promete medidas para acelerar a tramitação do projeto de lei citado.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão pode agir para acelerar a tramitação do projeto de lei sobre a população em situação de rua.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão pode adotar medidas para acelerar a tramitação do projeto de lei que o ministério citou",
+     "plain": "Peço que o senhor encaminhe formalmente esse pedido à Comissão de Direitos Humanos. Aqui poderemos adotar medidas para acelerar a tramitação do projeto que o senhor citou."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Diz que estar em situação de rua já é violação grave, alerta para as famílias ameaçadas de despejo e cita a decisão do STJ sobre busca pessoal.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26,
+    27,
+    32,
+    33,
+    34
+   ],
+   "open_question": 28,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O principal direito que falta a essa população é a moradia, e não há política habitacional para ela.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a primeira grande violação é estar em situação de rua, somada à invisibilidade completa desse setor da população",
+     "plain": "Reforçando o que o Markinhus disse, a primeira grande violação é estar em situação de rua. Só isso já é uma violação grave de direitos humanos. Cito também a invisibilidade completa em que esse setor é visto."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Campanha Despejo Zero conta 142.385 famílias ameaçadas de despejo, cerca de 570 mil pessoas",
+     "plain": "A Campanha Despejo Zero conta 142.385 famílias hoje ameaçadas de despejo, algo em torno de 570 mil pessoas. É meio milhão de gente sob ameaça de despejo no Brasil."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      30
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o STJ decidiu que as polícias não podem fazer o baculejo, a busca pessoal, sem motivação fundamentada e objetiva",
+     "plain": "Cito uma decisão do Superior Tribunal de Justiça, do início de junho, no Recurso em Habeas Corpus nº 158580, relatado pelo Ministro Rogerio Schietti. Ela diz que a polícia não pode fazer busca pessoal sem motivação fundamentada e objetiva."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Registra o projeto que veda despejos na pandemia e diz que luta por uma comissão especial e via rápida, para o Legislativo não só esperar o Judiciário.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    35
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Legislativo pode e deve agir sobre os despejos, sem esperar apenas a decisão do Judiciário.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei nº 1.501, de 2022, veda despejos na pandemia, e a retomada de casos embasa um novo pedido de prorrogação",
+     "plain": "O Projeto de Lei nº 1.501, de 2022, da Deputada Natália Bonavides, veda os despejos durante a pandemia. Mesmo com queda na letalidade, há retomada dos casos de COVID, e isso embasa novo pedido de prorrogação ao Ministro Barroso."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o presidente da Câmara deve criar uma comissão especial e dar via rápida ao projeto, porque o Legislativo pode e deve agir",
+     "plain": "Tenho lutado para que o Presidente Arthur Lira constitua uma Comissão Especial e dê via rápida a esse projeto. É para mostrar que não esperamos só uma decisão do Judiciário, porque o Legislativo pode e deve agir."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que a invisibilidade só existe no acesso a direitos, cobra a inclusão dessas pessoas no censo e defende lei com orçamento para a política.",
+   "quote": [
+    40,
+    41
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem lei e sem orçamento definido, a política para a população em situação de rua não se implementa.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no campo penal, no baculejo, essa população é visível, e a invisibilidade aparece só no acesso a direitos",
+     "plain": "Eu sempre falo que a invisibilidade existe só no campo do exercício de direitos fundamentais. No campo penal, no baculejo, como o Ronan disse agora, essa população é visível. Para acessar direitos, há uma invisibilidade estrutural."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o IBGE não computa as pessoas em situação de rua no censo, e incluí-las é uma batalha histórica dos movimentos",
+     "plain": "Hoje eu consultei o processo: o IBGE não computa as pessoas em situação de rua no seu censo. Incluí-las é uma batalha histórica dos movimentos e da Pastoral do Povo da Rua, pelo reconhecimento da dignidade dessas pessoas."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Decreto nº 7.053 não faz menção efetiva de orçamento, e por isso é fundamental aprovar o PL 5.740",
+     "plain": "Hoje o Decreto nº 7.053 não faz menção efetiva de orçamento, e sem orçamento não se implementa política pública. Por isso é fundamental que os projetos de lei sobre essa população sejam aprovados, em especial o PL 5.740."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao defensor público da União e chama Thaís Senra, do UNAIDS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Mostra que a prevalência de HIV e de outras doenças é muito maior entre quem vive na rua e lembra que para a violência essa população não é invisível.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As doenças são muito mais frequentes nessa população, que é a que menos alcança os serviços de saúde.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a prevalência de HIV é de cerca de 0,4% na população geral e de 5,1% entre as pessoas em situação de rua",
+     "plain": "A prevalência de sífilis, HIV e tuberculose nessa população é muito alta, acima da média geral. No caso do HIV, a prevalência na população brasileira é de cerca de 0,4%, e na população em situação de rua a pesquisa chegou a 5,1%."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na Pesquisa Nacional de 2008, quase 30% dos entrevistados em situação de rua relataram algum problema de saúde",
+     "plain": "Pela Pesquisa Nacional de 2008 sobre quem está em situação de rua, quase 30% dos entrevistados disseram ter algum tipo de problema de saúde, principalmente hipertensão, HIV, AIDS e questões visuais."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o acesso a direitos é inviabilizado para eles, mas para a violência, o estigma e a discriminação essa população não é invisível",
+     "plain": "Como disse o colega que me antecedeu, o Renan, o acesso é muitas vezes inviabilizado para eles. Mas, quando se trata de violência, de estigma e de discriminação, essa população não é invisível: é alvo constante de violações."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Eduardo de Carvalho Mota, do Conselho Nacional de Direitos Humanos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O coordenador do conselho confirma que ouve a sala e pergunta se é ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o convidado é ouvido bem e lhe dá as boas-vindas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b028",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Alerta que os despejos podem jogar milhares na rua e relata a expulsão dessas pessoas de praça em praça e a arquitetura hostil no país.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    32
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As denúncias mostram violações crescentes e uma população expulsa dos espaços da cidade.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os despejos podem jogar milhares de pessoas na rua, porque não haverá outro lugar para as famílias em habitação precária",
+     "plain": "Os despejos que se anunciam nos preocupam, porque trazem a possibilidade de milhares de pessoas serem jogadas na rua. Para essas famílias, que hoje estão em habitação precária, não haverá outro lugar senão a própria rua."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "essa população é muito visível para as políticas de segurança que violam direitos e invisível para as que deveriam atendê-la",
+     "plain": "Como o Renan mencionou, essa população é muito visível para as políticas de segurança pública, que violam direitos e a agridem, e invisível para as políticas que deveriam atendê-la, como habitação, saúde e acesso à Justiça."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as pessoas são expulsas de uma praça para outra, como se vê em São Paulo, e a arquitetura hostil aparece em todo o Brasil",
+     "plain": "As pessoas saem de uma praça e vão para outra, e daquela são expulsas para outra região. Temos presenciado isso em São Paulo, e a arquitetura hostil é presenciada em todo o Brasil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Registra que protocolou o relatório do projeto sobre arquitetura hostil e pede mutirão para que a CCJ paute o texto.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto contra a arquitetura hostil precisa ser pautado e aprovado para humanizar as cidades.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o relatório do projeto do Senador Fabiano Contarato sobre a arquitetura das cidades foi protocolado ontem na CCJ",
+     "plain": "Como ele falou da arquitetura das cidades, que é adversa e agressiva a essa população, registro que encaminhei ontem à Comissão de Constituição e Justiça o relatório do projeto do Senador Fabiano Contarato. Eu sou o relator."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso um mutirão junto ao presidente da CCJ para pautar e aprovar o projeto e humanizar as cidades",
+     "plain": "Falei ontem com o Padre Júlio Lancellotti para fazermos um mutirão junto ao Presidente da Comissão de Constituição e Justiça, para que ele paute o projeto e possamos aprová-lo em prazo breve, humanizando as cidades."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O professor da UFMG cumprimenta a sala e pergunta se é ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que ouve bem o professor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra com dados do CadÚnico o salto de registros até 2020, a queda em 2021 e o crescimento das pessoas excluídas do cadastro.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 25,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem fortalecer o CadÚnico não se faz política pública para a população em situação de rua.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o CadÚnico registrava 12.775 pessoas em situação de rua em 2012 e chegou a 194.824 em 2020",
+     "plain": "Depois de muita luta, essa população passou a ser registrada no CadÚnico, o mais importante instrumento para entender o fenômeno no País. Eram 12.775 pessoas em 2012, e em 2020 o registro chegou a 194.824."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2021 só 36,89% dos municípios tinham registro dessa população no CadÚnico, e o total caiu em relação a 2020",
+     "plain": "Em 2021, em plena pandemia, só 36,89% dos municípios brasileiros, ou seja, 2.055 municípios, tinham registro dessa população no CadÚnico. O sistema caiu de 194 mil e 824 registros em 2020 para 180 mil e 57 em 2021."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as pessoas fora do CadÚnico passaram de 33% em março de 2020 para 45% em dezembro de 2021",
+     "plain": "Nossas estimativas mostram que em março de 2020 33% dessa população estava fora do CadÚnico. Em dezembro de 2021 essa porcentagem saltou para 45% na média nacional, e passou de 50% em alguns municípios."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o link da educadora Ivone caiu e chama o defensor público do Paraná.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sintetiza as violações às recomendações da ONU e sustenta que albergues, hotéis sociais e repúblicas não garantem proteção habitacional permanente.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem política habitacional adequada, o acesso dessas pessoas a outros direitos fica inviável.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem política habitacional adequada o acesso a outros direitos fica inviável, e albergues e hotéis sociais não dão proteção permanente",
+     "plain": "A falta de política habitacional adequada inviabiliza o acesso a outros direitos humanos. O poder público insiste no acolhimento provisório, como albergues, hotéis sociais e repúblicas, que não garantem proteção habitacional permanente."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "houve projetos de lei locais para vedar a doação de alimentos, e as Defensorias de São Paulo e do Paraná tiveram de ir à Justiça",
+     "plain": "Registramos projetos de leis locais que buscavam vedar a doação de alimentos a essa população, sob pena de multa. As Defensorias de São Paulo e do Paraná tiveram de adotar medidas judiciais para garantir alimento e água."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem proteção habitacional essas pessoas ficam mais expostas à violência, e 17.386 foram vítimas até 2017",
+     "plain": "Sem nenhuma proteção habitacional, essas pessoas ficam mais suscetíveis às violências urbanas. Em 2019 o Ministério da Saúde apresentou dados de 17.386 pessoas em situação de rua vítimas de violência até 2017."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata o aumento de 4 vezes da população de rua em São Paulo, a mudança de perfil para famílias inteiras, e encerra a audiência.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Este é o grupo que concentra as principais violações de direitos humanos no país.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a população em situação de rua de São Paulo aumentou 4 vezes nos últimos 10 anos",
+     "plain": "Vivo em São Paulo e, nos últimos 10 anos, vimos a população em situação de rua aumentar 4 vezes na cidade. São números impressionantes."
+    },
+    {
+     "id": "b035c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o perfil mudou e agora há famílias inteiras na rua, com restos de móveis de quem já teve uma casa",
+     "plain": "O perfil dessa população mudou ao longo do tempo. Agora vemos famílias inteiras, e você nota restos de utensílios e de móveis de quem já teve uma casa algum dia."
+    },
+    {
+     "id": "b035c3",
+     "sentences": [
+      31
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é um grupo que concentra as principais violações de direitos humanos, atravessado por todas elas e pela negação de um teto",
+     "plain": "Como falou o Prof. Antonio Vitor, tratamos de um grupo que concentra talvez uma das principais violações de direitos humanos. Todas as demais violações atravessam esse grupo, além da negação do acesso a um teto."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b017",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 27,
+   "from_claim": "b017c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Ao conselheiro que propõe o CNJ como ponte com o Parlamento, a presidência responde propondo um encontro para firmar o pacto e a agenda de trabalho."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 37,
+   "from_claim": "b017c1",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "À juíza que diz que esses pontos precisam ser legislados, a presidência responde propondo um encontro que vire agenda no Legislativo."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 12,
+   "from_claim": "b018c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "As duas falas chegam ao mesmo ponto: é a falta de política habitacional que mantém as pessoas na rua."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 43,
+   "from_claim": "b019c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Ao pedido de apoio para aprovar o projeto de lei, a presidência responde que a Comissão pode adotar medidas para acelerar a tramitação."
+  },
+  {
+   "from": "b020",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 5,
+   "from_claim": "b020c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O defensor reforça o que Markinhus disse sobre a invisibilidade e acrescenta que estar em situação de rua já é, por si só, uma violação grave."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 16,
+   "from_claim": "b020c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "O defensor liga o que a ONU disse sobre despejo ser violação de direitos humanos ao número de famílias hoje ameaçadas no Brasil."
+  },
+  {
+   "from": "b021",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 22,
+   "from_claim": "b021c2",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "À preocupação do defensor com o fim do prazo, a presidência responde que luta por uma comissão especial e via rápida para o projeto dos despejos."
+  },
+  {
+   "from": "b022",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 13,
+   "from_claim": "b022c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O defensor público da União e o conselheiro do CNJ cobram a mesma coisa: a aprovação do PL 5.740, que institui a política nacional."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 30,
+   "from_claim": "b022c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Renan retoma o baculejo citado por Ronan para dizer que a invisibilidade só existe no acesso a direitos, não no campo penal."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 5,
+   "from_claim": "b024c3",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "O UNAIDS retoma o ponto do defensor: para o acesso a direitos essa população é invisível, para a violência e o estigma ela é bem visível."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 22,
+   "from_claim": "b028c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "O conselho retoma o alerta sobre os despejos e diz que para essas famílias não haverá outro lugar além da própria rua."
+  },
+  {
+   "from": "b028",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 5,
+   "from_claim": "b028c2",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "O conselho cita o defensor e desdobra a mesma ideia: a visibilidade é para a segurança pública e a invisibilidade é para quem deveria atender."
+  },
+  {
+   "from": "b029",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 14,
+   "from_claim": "b029c1",
+   "to_claim": "b028c3",
+   "strength": "media",
+   "note": "À menção da arquitetura hostil no país, a presidência responde que protocolou ontem o relatório do projeto que trata disso."
+  },
+  {
+   "from": "b032",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 16,
+   "from_claim": "b032c3",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "O professor traz os números que a juíza havia anunciado: parte dessa população segue fora do CadÚnico, e a exclusão cresceu."
+  },
+  {
+   "from": "b032",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 13,
+   "from_claim": "b032c1",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "O professor confirma o que o defensor disse sobre a exclusão do censo e mostra o que o CadÚnico passou a registrar depois de 2012."
+  },
+  {
+   "from": "b034",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 14,
+   "from_claim": "b034c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "O defensor do Paraná diz que hotéis sociais, albergues e repúblicas não garantem proteção habitacional permanente, ao contrário do caminho que o deputado relatou."
+  },
+  {
+   "from": "b034",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 13,
+   "from_claim": "b034c1",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "As duas falas dizem que falta ao Estado garantir o básico de moradia a quem está pior, e que sem isso os outros direitos não se realizam."
+  },
+  {
+   "from": "b035",
+   "to": "b034",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 34,
+   "from_claim": "b035c3",
+   "to_claim": "b034c3",
+   "strength": "forte",
+   "note": "A presidência encerra retomando a síntese do defensor: um só grupo concentra as principais violações de direitos humanos no país."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b012",
+    "b018",
+    "b020",
+    "b034"
+   ],
+   "claims": [
+    "b012c3",
+    "b018c1",
+    "b018c2",
+    "b020c1",
+    "b034c1"
+   ],
+   "note": "Um deputado, o Ministério da Mulher, da Família e dos Direitos Humanos e duas Defensorias concordam que sem política de moradia a pessoa não sai da rua."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b008",
+    "b032",
+    "b035"
+   ],
+   "claims": [
+    "b006c1",
+    "b008c1",
+    "b032c1",
+    "b035c1"
+   ],
+   "note": "O movimento, o CNJ, a universidade e a presidência concordam que falta contagem oficial e que essa população segue invisível para a política pública."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b014",
+    "b020",
+    "b021",
+    "b028"
+   ],
+   "claims": [
+    "b014c3",
+    "b020c2",
+    "b021c1",
+    "b028c1"
+   ],
+   "note": "A ONU, a Defensoria, a presidência e o Conselho Nacional de Direitos Humanos concordam que o fim do prazo contra despejos joga mais gente na rua."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b020",
+    "b022",
+    "b024",
+    "b028",
+    "b029"
+   ],
+   "claims": [
+    "b020c3",
+    "b022c1",
+    "b024c3",
+    "b028c2",
+    "b029c1"
+   ],
+   "note": "Defensorias, o UNAIDS, o Conselho Nacional de Direitos Humanos e a presidência concordam que essa população é visível para a polícia e invisível para os direitos."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b008",
+    "b019",
+    "b022"
+   ],
+   "claims": [
+    "b008c2",
+    "b019c1",
+    "b022c3"
+   ],
+   "note": "O conselheiro do CNJ, a presidência da comissão e o defensor público da União concordam que o PL 5.740 precisa ser aprovado e a política precisa de orçamento."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b008",
+    "b016",
+    "b017"
+   ],
+   "claims": [
+    "b008c3",
+    "b016c3",
+    "b017c1"
+   ],
+   "note": "O CNJ, a juíza federal e a presidência concordam que só uma rede entre Legislativo, Judiciário e Executivo faz essas pessoas chegarem aos seus direitos."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 24,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "mover ação na Justiça para exigir programas de moradia",
+   "plain": "A Defensoria Pública vai acionar a Justiça para exigir dos governos programas de moradia para essas pessoas?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 37,
+   "addressed_to": "parlamentar",
+   "answered_by": "b017",
+   "gist": "legislar sobre documentação e acesso à Justiça dessa população",
+   "plain": "O Parlamento vai legislar sobre os pontos que faltam para dar cidadania a essa população?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b018",
+   "sentence": 43,
+   "addressed_to": "parlamentar",
+   "answered_by": "b019",
+   "gist": "aprovar o Projeto de Lei nº 5.740, parado na Seguridade Social",
+   "plain": "A Câmara vai aprovar o Projeto de Lei nº 5.740, que amplia a política nacional para quem está na rua?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b020",
+   "sentence": 28,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "efetivar o Moradia Primeiro como programa de governo",
+   "plain": "O Programa Moradia Primeiro vai se efetivar como programa de governo para essas pessoas?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b032",
+   "sentence": 25,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "fortalecer o CadÚnico junto à população em situação de rua",
+   "plain": "O CadÚnico vai ser fortalecido como um direito assegurado por lei para essas pessoas?",
+   "theme": "d2",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b008",
+   "sentence": 4,
+   "gist": "a estimativa é de aproximadamente 221.869 pessoas em situação de rua",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b020",
+   "sentence": 8,
+   "gist": "o IPEA aponta cerca de 222 mil pessoas em situação de rua",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b020",
+   "sentence": 22,
+   "gist": "há 142.385 famílias ameaçadas de despejo, cerca de 570 mil pessoas",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b020",
+   "sentence": 25,
+   "gist": "entre os ameaçados, 97.391 são crianças e 95.113 são idosos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b020",
+   "sentence": 32,
+   "gist": "71,1% das pessoas em situação de rua no DF são negras",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b018",
+   "sentence": 13,
+   "gist": "há 10 milhões implantados para o modelo Moradia Primeiro",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b018",
+   "sentence": 29,
+   "gist": "o primeiro grupo dos programas é de renda até 2 mil reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b024",
+   "sentence": 13,
+   "gist": "a prevalência de HIV nessa população chegou a 5,1%",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b032",
+   "sentence": 16,
+   "gist": "o CadÚnico foi de 12.775 registros em 2012 a 194.824 em 2020",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b032",
+   "sentence": 17,
+   "gist": "91% dessa população vive em condições de extrema pobreza",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b034",
+   "sentence": 23,
+   "gist": "17.386 pessoas em situação de rua vitimadas pela violência até 2017",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b035",
+   "sentence": 14,
+   "gist": "a população de rua de São Paulo aumentou 4 vezes em 10 anos",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo",
+   "mesa",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o consenso da sala: o acesso à moradia como porta de entrada dos outros direitos de quem vive na rua.",
+  "omitted": "Ficaram de fora a fala do UNAIDS sobre saúde e HIV, os números do CadÚnico apresentados pela UFMG e o debate sobre documentação civil e acesso à Justiça."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A moradia é a porta de entrada dos outros direitos",
+   "statement_plain": "Sem uma política de moradia para quem não tem renda, a pessoa não sai da rua. A moradia tem de vir primeiro, e é ela que destrava os outros direitos.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b018c1",
+    "b018c2",
+    "b018c3",
+    "b012c3",
+    "b020c1",
+    "b034c1"
+   ],
+   "note": "A ideia junta um deputado do PT, o Ministério da Mulher, da Família e dos Direitos Humanos e duas Defensorias Públicas, que chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "Primeiro o mínimo de abrigo, não casa para todos",
+   "statement_plain": "O dever do Estado é garantir primeiro o mínimo de abrigo a quem está pior, e não construir casa para toda a população. O caminho pode passar por acolhimento provisório.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b014c2",
+    "b012c2"
+   ],
+   "note": "A ideia vem do escritório da ONU, que lê os tratados, e reaparece no relato do deputado sobre os hotéis alugados em São Paulo, que foram abrigo antes da casa."
+  },
+  {
+   "id": "t3",
+   "title": "Sem contagem oficial, a política não existe",
+   "statement_plain": "Enquanto essas pessoas não forem contadas no censo e registradas no CadÚnico, elas seguem invisíveis, e não há como planejar nem cobrar política pública para elas.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b022c2",
+    "b032c1",
+    "b032c2",
+    "b032c3",
+    "b035c1"
+   ],
+   "note": "A ideia cruza o CNJ, a Defensoria Pública da União, a universidade e a própria presidência da comissão, cada um com um dado diferente."
+  },
+  {
+   "id": "t4",
+   "title": "Visível para a polícia, invisível para os direitos",
+   "statement_plain": "Essa população é muito visível quando se trata de abordagem policial, expulsão e estigma, e invisível quando se trata de saúde, assistência, moradia e Justiça.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b020c3",
+    "b022c1",
+    "b024c3",
+    "b028c2",
+    "b034c3"
+   ],
+   "note": "A ideia junta duas Defensorias, um programa da ONU e o Conselho Nacional de Direitos Humanos, e foi a frase que mais se repetiu na sala."
+  },
+  {
+   "id": "t5",
+   "title": "Sem lei e orçamento, a política fica no papel",
+   "statement_plain": "Enquanto a política nacional for apenas um decreto sem orçamento definido, ela não chega às pessoas. É preciso aprovar a lei e prever o dinheiro.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b019c1",
+    "b022c3"
+   ],
+   "note": "A ideia parte de um conselheiro do Judiciário e de um defensor da União e é assumida pela presidência da comissão, que promete acelerar o projeto."
+  },
+  {
+   "id": "t6",
+   "title": "Sem documento e sem rede, não há direito",
+   "statement_plain": "Quem não consegue certidão, RG ou CadÚnico não requer benefício nem entra na Justiça. Só uma rede entre os órgãos resolve isso, e ela precisa ser construída.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b008c3",
+    "b016c1",
+    "b016c2",
+    "b016c3",
+    "b017c1"
+   ],
+   "note": "A ideia vem de dentro do Judiciário, de um conselheiro e de uma juíza, e a presidência da Câmara a transforma em proposta de agenda entre os dois poderes."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Revisão Periódica Universal",
+   "plain": "avaliação em que os países da ONU examinam uns aos outros em direitos humanos e fazem recomendações",
+   "fala": "b001",
+   "sentence": 0
+  },
+  {
+   "term": "CadÚnico",
+   "plain": "cadastro do governo federal que registra as famílias de baixa renda e dá acesso aos programas sociais",
+   "fala": "b016",
+   "sentence": 14
+  },
+  {
+   "term": "ADPF 828",
+   "plain": "ação no Supremo Tribunal Federal que barrou despejos e remoções durante a pandemia",
+   "fala": "b020",
+   "sentence": 20
+  },
+  {
+   "term": "baculejo",
+   "plain": "nome popular da revista pessoal que a polícia faz na rua, apalpando a pessoa",
+   "fala": "b020",
+   "sentence": 30
+  },
+  {
+   "term": "Housing First",
+   "plain": "modelo que oferece a moradia primeiro e só depois os outros serviços. Aqui é chamado de Moradia Primeiro",
+   "fala": "b018",
+   "sentence": 11
+  },
+  {
+   "term": "CIAMP-RUA",
+   "plain": "comitê que acompanha e monitora a política nacional para a população em situação de rua",
+   "fala": "b018",
+   "sentence": 4
+  },
+  {
+   "term": "BPC",
+   "plain": "Benefício de Prestação Continuada, um salário mínimo por mês para idosos e pessoas com deficiência de baixa renda",
+   "fala": "b032",
+   "sentence": 18
+  },
+  {
+   "term": "Comitê DESC",
+   "plain": "comitê da ONU que acompanha o cumprimento do pacto de direitos econômicos, sociais e culturais",
+   "fala": "b014",
+   "sentence": 17
+  },
+  {
+   "term": "Consultório na Rua",
+   "plain": "equipe de saúde do SUS que atende a população em situação de rua no lugar onde ela está",
+   "fala": "b034",
+   "sentence": 19
+  },
+  {
+   "term": "RAPS",
+   "plain": "Rede de Atenção Psicossocial, os serviços públicos de saúde mental, como os centros de atenção",
+   "fala": "b034",
+   "sentence": 29
+  },
+  {
+   "term": "Comunidades Terapêuticas",
+   "plain": "locais privados, muitos deles religiosos, que internam pessoas com uso problemático de álcool e outras drogas",
+   "fala": "b034",
+   "sentence": 29
+  },
+  {
+   "term": "CODEPLAN",
+   "plain": "Companhia de Planejamento do Distrito Federal, que produz dados e pesquisas sobre a região",
+   "fala": "b020",
+   "sentence": 31
+  },
+  {
+   "term": "arquitetura hostil",
+   "plain": "pedras, grades e espinhos colocados em espaços públicos para impedir que alguém se deite ou se abrigue",
+   "fala": "b028",
+   "sentence": 14
+  },
+  {
+   "term": "errância",
+   "plain": "condição de quem vive se deslocando de cidade em cidade, sem endereço fixo",
+   "fala": "b008",
+   "sentence": 13
+  }
+ ]
+}

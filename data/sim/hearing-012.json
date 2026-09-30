@@ -1,0 +1,2449 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 12,
+ "model": "LLM lendo o prompt hearing-012 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T00:55:32Z",
+ "prompt_sha256": "6f3e2f7db56992f699a578f7b0f90b68c3ff1201acd0d0c66f7c4e5accb6eddd",
+ "sentences_hash": "e2f44528767820d7",
+ "review": {
+  "pairs_read": 46,
+  "pairs_fixed": 14
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t2: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "Três comissões da Câmara se reuniram para debater a violência contra mulheres com deficiência, a partir dos números do Atlas da Violência de 2023. Cinco Ministérios apresentaram o que estão fazendo, e a Frente Nacional das Mulheres com Deficiência, o projeto Eu Me Protejo e parlamentares cobraram registro da violência, prevenção e orçamento.",
+ "stakes": "Definir que compromissos e que acompanhamento a Câmara e o Governo assumiriam para tirar da invisibilidade a violência contra mulheres com deficiência.",
+ "central_question": "O que falta para que a violência contra mulheres com deficiência seja registrada, prevenida e enfrentada pelas políticas públicas?",
+ "synopsis_plain": "Três comissões da Câmara se reuniram para falar da violência contra mulheres com deficiência. Os números do Atlas da Violência mostram que elas sofrem mais do que os homens na mesma condição. Cinco Ministérios contaram o que estão fazendo, e ativistas e parlamentares disseram que isso ainda não chega na ponta e cobraram registro da violência, prevenção nas escolas e orçamento.",
+ "stakes_plain": "Que compromissos a Câmara e o Governo iam assumir para que essa violência deixe de ser invisível, e se a Comissão criaria uma subcomissão para acompanhar o tema.",
+ "central_question_plain": "O que falta para que a violência contra mulheres com deficiência seja registrada e evitada?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Invisibilidade e subnotificação",
+   "description": "Discute-se por que a violência contra mulheres com deficiência não é vista nem registrada, e o que os dados que existem mostram.",
+   "axis": {
+    "pro": "A violência contra mulheres com deficiência é subnotificada e só políticas com dados próprios vão alcançá-la.",
+    "contra": "Os registros e as leis que já existem dão conta de mostrar o problema.",
+    "pro_plain": "Essa violência quase não é registrada, e sem dados próprios nenhuma política chega a essas mulheres.",
+    "contra_plain": "O que já se registra hoje basta, e o esforço deve ir direto para o atendimento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Delegacia e acesso à Justiça",
+   "description": "Discute-se como as delegacias e a Justiça recebem a mulher com deficiência que denuncia, e o que precisa mudar nesse atendimento.",
+   "axis": {
+    "pro": "Delegacias e Justiça precisam ser preparadas e financiadas para receber mulheres com deficiência sem fazê-las sofrer de novo.",
+    "contra": "O atendimento na ponta é dos Estados e dos Municípios, e não cabe ao Governo Federal resolvê-lo.",
+    "pro_plain": "A delegacia precisa estar pronta para receber essa mulher, com intérprete e com o registro da deficiência.",
+    "contra_plain": "Quem atende na ponta é o Estado e o Município, e não o Governo Federal."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Saúde acessível e direitos reprodutivos",
+   "description": "Discute-se o atendimento de saúde às mulheres com deficiência, do parto ao exame de mama, e os equipamentos que faltam.",
+   "axis": {
+    "pro": "Os serviços de saúde precisam de equipamentos acessíveis e de profissionais preparados para atender mulheres com deficiência.",
+    "contra": "As normas que já existem bastam para garantir esse atendimento.",
+    "pro_plain": "Faltam maca, mamógrafo e preparo para atender a mulher com deficiência, desde a sala de parto.",
+    "contra_plain": "As regras que já existem bastam para que esse atendimento aconteça."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Prevenção e educação",
+   "description": "Discute-se se o caminho principal é prevenir a violência na escola e na família ou preparar quem atende e punir quem agride.",
+   "axis": {
+    "pro": "O caminho principal é prevenir, educando crianças, famílias e profissionais antes de a violência acontecer.",
+    "contra": "O esforço principal tem de ser preparar quem atende e não deixar o agressor impune.",
+    "pro_plain": "É melhor chegar antes: ensinar criança, família e profissional a reconhecer e evitar a violência.",
+    "contra_plain": "O que pesa é atender bem quem já sofreu e punir quem agrediu, porque a impunidade incentiva."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Alcance e orçamento das políticas",
+   "description": "Discute-se se o que o Estado já oferece chega às mulheres com deficiência na ponta, e o que falta de dinheiro e de estrutura.",
+   "axis": {
+    "pro": "O que o Governo já faz, com o novo plano e a recomposição do orçamento, começa a mudar a vida dessas mulheres.",
+    "contra": "Nada disso chega na ponta, porque falta estrutura, falta orçamento e os gestores não priorizam o tema.",
+    "pro_plain": "O novo plano e a volta do orçamento já estão mudando o atendimento a essas mulheres.",
+    "contra_plain": "Nada disso chega até elas: falta serviço, falta dinheiro e os gestores não dão prioridade."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Voz e participação dessas mulheres",
+   "description": "Discute-se quem fala pelas mulheres com deficiência, dentro e fora dos espaços de decisão, e por que a palavra delas é posta em dúvida.",
+   "axis": {
+    "pro": "As mulheres com deficiência precisam falar por si e ocupar os espaços de decisão.",
+    "contra": "Basta que outras pessoas falem por elas na construção das políticas públicas.",
+    "pro_plain": "Elas mesmas têm de falar e ocupar cargos e mandatos, em vez de terem a palavra negada.",
+    "contra_plain": "Basta que quem faz as políticas públicas fale em nome delas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Resposta do Legislativo",
+   "description": "Discute-se o que a Câmara faz depois da audiência: criar uma subcomissão, levantar dados e cobrar de volta o que o Governo entregou.",
+   "axis": {
+    "pro": "A Câmara precisa criar uma subcomissão, levantar os dados e acompanhar o que o Governo entrega.",
+    "contra": "A Câmara já cumpre o seu papel debatendo o tema em audiências como esta.",
+    "pro_plain": "A Comissão tem de criar um grupo próprio e chamar o Governo de volta para prestar contas.",
+    "contra_plain": "Debater o tema em audiências como esta já é o papel da Câmara."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputada Federal, presidindo a audiência conjunta",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião e se identifica como autora de um dos requerimentos em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa dos Direitos das Pessoas com Deficiência, reunida com as Comissões de Saúde e da Mulher"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Secretária Nacional de Aquicultura, ex-Deputada Federal",
+   "org": "Ministério da Pesca e Aquicultura",
+   "basis": "apresentada pela presidência em b001.11 e b001.12",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Pesca e Aquicultura",
+   "org_plain": "ministério que cuida da pesca e da criação de peixes e camarões no país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Prevenção de Violência contra as Mulheres",
+   "org": "Ministério das Mulheres",
+   "basis": "apresentada pela presidência em b001.7 e b003.12",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério das Mulheres",
+   "org_plain": "ministério das políticas para mulheres, responsável pela rede que atende quem sofre violência"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Secretária Nacional dos Direitos das Pessoas com Deficiência",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentada pela presidência em b001.6 e b005.8",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério das políticas de direitos humanos, com uma secretaria só para pessoas com deficiência"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Saúde da Pessoa com Deficiência",
+   "org": "Ministério da Saúde",
+   "basis": "apresentado pela presidência em b001.8 e b007.11",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério que comanda o SUS, o sistema público de saúde"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Proteção Social Especial de Média Complexidade",
+   "org": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+   "basis": "apresentada pela presidência em b001.9 e b009.7",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Assistência Social",
+   "org_plain": "ministério da assistência social, que responde pelo Bolsa Família e pela rede de proteção social"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Secretário de Acesso à Justiça",
+   "org": "Ministério da Justiça e Segurança Pública",
+   "basis": "apresentado pela presidência em b001.10 e b011.5, participa pelo Zoom",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Justiça e Segurança Pública",
+   "org_plain": "ministério que responde pela segurança pública federal e por políticas de acesso à Justiça"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "fundadora e coordenadora",
+   "org": "Frente Nacional das Mulheres com Deficiência",
+   "basis": "apresentada pela presidência em b001.14 e b013.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Frente Nacional das Mulheres com Deficiência",
+   "org_plain": "grupo nacional de mulheres com deficiência, criado há pouco mais de 2 anos, que pauta os direitos delas"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "coautora do projeto Eu Me Protejo e psicóloga do Projeto Renascer",
+   "org": "Projeto Eu Me Protejo",
+   "basis": "apresentada pela presidência em b001.12 e b015.12",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do projeto Eu Me Protejo",
+   "org_plain": "projeto que ensina crianças a se protegerem da violência e forma adultos para preveni-la"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "apresenta a fantoche Cotinha, mascote do projeto",
+   "org": "Projeto Eu Me Protejo",
+   "basis": "identificado na ata como quem manipula a fantoche, em b015.14 e b015.15",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do projeto Eu Me Protejo",
+   "org_plain": "projeto que ensina crianças a se protegerem da violência e forma adultos para preveni-la"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal",
+   "org": "Câmara dos Deputados",
+   "basis": "chamada pela presidência em b019.3, registrada na ata pelo bloco do Ceará",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Ceará",
+   "org_plain": "Casa onde os deputados federais fazem as leis e fiscalizam o Governo"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada em b007.9 e palavra concedida em b021.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Distrito Federal",
+   "org_plain": "Casa onde os deputados federais fazem as leis e fiscalizam o Governo"
+  },
+  "s13": {
+   "role": "parlamentar",
+   "cargo": "Presidente da Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada em b003.9 e palavra concedida em b026.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Maranhão",
+   "org_plain": "Casa onde os deputados federais fazem as leis e fiscalizam o Governo"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal, Vice-Presidente da Comissão de Defesa dos Direitos da Mulher",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada em b007.9 e cargo dito por ela mesma em b025.48",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal por Minas Gerais",
+   "org_plain": "Casa onde os deputados federais fazem as leis e fiscalizam o Governo"
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "palmas registradas em várias falas, a plateia descrita em b016.2 e b025.2 e as presenças anunciadas pela mesa em b007.8, b011.6 e b026.2",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência conjunta das três Comissões e faz a autodescrição para quem não enxerga.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que a violência contra mulheres com deficiência segue invisível, pede que o projeto Eu Me Protejo vire política pública e aponta a falta de delegacias especializadas.",
+   "quote": [
+    46,
+    47,
+    48
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 59,
+   "stance": {
+    "position": "contrario",
+    "claim": "O que o Estado oferece ainda não chega na ponta, porque os gestores não priorizam as mulheres com deficiência.",
+    "sentence": 62
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto Eu Me Protejo precisa virar política pública e chegar às escolas, porque a maioria das agressões acontece dentro de casa",
+     "plain": "É muito importante que o projeto Eu Me Protejo entre nas políticas públicas, seja divulgado e levado às escolas. A maioria das agressões acontece dentro de casa, com pessoas indefesas."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "num país com 5.760 Municípios havia só 381 delegacias especializadas de proteção à mulher",
+     "plain": "Como é possível um país com 5.760 Municípios ter só 381 delegacias especializadas de proteção à mulher, e como elas vão dar conta do País? Pode ser que esse número tenha aumentado este ano."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      61,
+      62,
+      63
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "em cada lugar do país falta informação e proteção para esse segmento e os gestores não priorizam o tema",
+     "plain": "A Secretária Anna Paula tem andado pelo Brasil inteiro e fica indignada com o tanto que falta de informação e de proteção, com o quanto é faz de conta. Os gestores não dão valor, não priorizam, mas nós vamos insistir."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a fala e passa a palavra ao Ministério das Mulheres.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lembra que a lei de 2019 obriga a registrar a violência contra a mulher com deficiência e aponta que as delegacias ainda não acolhem bem essas mulheres.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A delegacia ainda não está preparada para acolher a mulher com deficiência que sofreu violência.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei nº 13.836, de 2019, obriga a notificar quando a mulher que sofre violência tem deficiência",
+     "plain": "Existe a Lei nº 13.836, de 2019, que obriga a notificação quando a mulher sofre violência. Na delegacia isso tem de ser registrado, se ela ficou com deficiência por causa da violência em casa ou se a deficiência foi agravada."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é difícil sensibilizar as delegacias para acolher as mulheres, e mais ainda quando elas têm deficiência",
+     "plain": "No Brasil é muito difícil sensibilizar a delegacia para acolher bem a mulher que sofreu violência, e mais ainda quando ela tem deficiência. A Lei Maria da Penha foi revista para isso, mas seguimos aquém do necessário."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      17
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "62% das pessoas com deficiência no Brasil são mulheres e estão em condição de vulnerabilidade",
+     "plain": "É preciso olhar os dados do Atlas da Violência e lembrar que 62% das pessoas com deficiência no Brasil são mulheres. Elas são a maioria e estão em condição de vulnerabilidade, não de fragilidade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia os Diálogos pela Inclusão e passa a palavra à Secretária Nacional.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lista as violências invisíveis desde a sala de parto, apresenta os números do Atlas da Violência e detalha as 95 ações da primeira etapa do plano.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As violências contra mulheres com deficiência começam cedo e aparecem no Atlas como as mais notificadas.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a exclusão começa na sala de parto, sem intérprete de LIBRAS para a surda e sem maca acessível para a cadeirante",
+     "plain": "A exclusão começa cedo, na sala de parto, quando o diagnóstico de deficiência é dado como luto e não como vida. Falta intérprete de LIBRAS para a surda, falta descrever o procedimento para a cega e falta maca acessível para a cadeirante."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "foram 8.303 notificações de violência contra mulheres com deficiência, mais que o dobro das 3.896 dos homens",
+     "plain": "Em todas as faixas de idade e em todos os tipos de violência, as mulheres tiveram mais notificações do que os homens. O relatório aponta 8.303 notificações contra mulheres com deficiência, mais que o dobro das 3.896 dos homens."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      64
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a primeira etapa do plano tem 95 ações, entre elas 90 policlínicas e 120 mil novos contratos de trabalho",
+     "plain": "Estamos na primeira etapa do plano, com 95 ações. Destaco a formação de 15 mil conselheiros tutelares, as 90 novas policlínicas com mamógrafos acessíveis e os 120 mil novos contratos de trabalho."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência comenta as violências invisíveis no parto e passa a palavra ao Ministério da Saúde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta as 90 policlínicas com equipamentos acessíveis, a entrada da pauta do capacitismo no Programa Saúde na Escola e a qualificação dos profissionais.",
+   "quote": [
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A saúde precisa de equipamento acessível e de profissional preparado para atender a mulher com deficiência.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      38
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as 90 policlínicas do novo PAC terão macas ginecológicas e mamógrafos acessíveis",
+     "plain": "Com o novo PAC, o Presidente lançou a construção de 90 policlínicas. Todas vão ter maca ginecológica acessível e mamógrafo acessível, para enfrentar a violência do acesso."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Programa Saúde na Escola vai passar a tratar da pessoa com deficiência e do enfrentamento ao capacitismo",
+     "plain": "Temos o Programa Saúde na Escola, que liga a saúde ao Ministério da Educação, à atenção primária e às escolas. Agora vamos incluir nele a pauta da pessoa com deficiência e o enfrentamento ao capacitismo."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      51,
+      52
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só se qualifica o cuidado qualificando o profissional, para que ele não seja violento e saiba identificar a violência",
+     "plain": "Só melhoramos o cuidado qualificando o profissional de saúde. Ele não pode ter postura violenta e precisa saber identificar a violência e fazer a notificação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a fala da saúde e chama a representante da assistência social.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Descreve a rede do SUAS, informa 2 mil mulheres com deficiência vítimas de violência na família de janeiro a junho e aponta a lacuna da proteção especializada.",
+   "quote": [
+    47,
+    48,
+    49
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A assistência social cobre quase todo o território, mas a parte especializada ainda não chega a todos os Municípios.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a proteção social básica cobre quase 100% do território, mas a proteção especial é menos capilarizada",
+     "plain": "Hoje a assistência social cobre praticamente 100% do território pela proteção social básica. A proteção especial é menos capilarizada, e um dos debates de agora é a necessidade de ampliar essa cobertura especializada."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      47,
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de janeiro a junho foram 2 mil mulheres com deficiência vítimas de violência dentro da família",
+     "plain": "De janeiro a junho, foram 2 mil pessoas com deficiência do sexo feminino vítimas de violência dentro da família, sendo 1.130 entre 18 e 59 anos. Casos de negligência ou abandono passaram de 3 mil no registro mensal."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      67
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com a aprovação do PPA e a recomposição do orçamento será possível capacitar as equipes e os gestores",
+     "plain": "Estamos na expectativa de que, com a aprovação do PPA, o plano de gastos do Governo, venha a recomposição do orçamento. Aí poderemos capacitar as equipes e os gestores e levar esse conhecimento para toda a rede."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e chama o Secretário de Acesso à Justiça, que participa pelo Zoom.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta a falta de dados específicos, alerta para o risco de a vítima sofrer de novo no atendimento e defende a prevenção como ponto central.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem atacar a prevenção, nenhum atendimento melhorado evita o dano da violência.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso ter dados específicos sobre essa situação para avançar na construção de políticas públicas",
+     "plain": "É importante que a gente comece a ter dados específicos sobre essa situação. Só tirando esses dados da invisibilidade é que vamos avançar na construção de políticas públicas."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      8
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o atendimento na ponta não é do Governo Federal, mas os órgãos onde o caso chega têm de estar preparados",
+     "plain": "O Governo Federal não é responsável pelo atendimento na ponta, nem na Polícia Civil nem no processo judicial. Mas os órgãos onde esses casos chegam têm de estar preparados para acolher e não fazer a vítima sofrer de novo."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de nada adianta melhorar o atendimento se o problema não for prevenido, porque o trauma e o dano ficam",
+     "plain": "O ponto central que temos de atacar é a prevenção. De nada adianta um atendimento melhor se não impedirmos que o problema aconteça, porque o trauma e o dano ficam."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a participação remota e passa a palavra à Frente Nacional das Mulheres com Deficiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que sem comunicação acessível a mulher surda não denuncia, afirma que 72% das mulheres mortas por feminicídio nunca denunciaram e cobra o fim da subnotificação.",
+   "quote": [
+    53,
+    54,
+    55,
+    56
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem registro e sem dados da violência, não há política pública para as mulheres com deficiência.",
+    "sentence": 56
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando a mulher reconhece o relacionamento abusivo ela sai antes do feminicídio, e 72% das que morrem nunca denunciaram",
+     "plain": "É no relacionamento abusivo que a violência pode ser barrada no começo: se a mulher se reconhece ali, ela sai, como aconteceu comigo, e não chega ao feminicídio. Das mulheres que morrem de feminicídio, 72% nunca denunciaram."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem comunicação acessível a mulher com deficiência auditiva não chega à delegacia e desiste de denunciar",
+     "plain": "O plano Viver Sem Limite vai capacitar profissionais na Língua Brasileira de Sinais, e nós sabemos que sem comunicação acessível a mulher surda não chega à delegacia. Diante da dificuldade, elas desistem e ficam com o agressor."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      54,
+      55,
+      56
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os registros da violência não estão acontecendo e sem dados não há como fazer política pública",
+     "plain": "Existe subnotificação. Os registros da violência não estão acontecendo, e sem dados não há como fazer política pública."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência recebe Rosana Lago, chama Neusa Maria e apresenta a mascote do projeto Eu Me Protejo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta o projeto Eu Me Protejo, que alcançou mais de 60 mil crianças desde 2019, e relata que na delegacia duvidam da palavra da mulher com deficiência.",
+   "quote": [
+    35,
+    36
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso chegar antes de a violência acontecer, e isso se faz com prevenção na base da educação.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto trabalha a prevenção e alcançou mais de 60 mil crianças de 2019 até agora",
+     "plain": "O Eu Me Protejo trabalha a prevenção, porque precisamos chegar antes de a violência acontecer. De 2019 até agora já alcançamos mais de 60 mil crianças, com foco na periferia."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no primeiro semestre de 2022 foram 4.447 denúncias contra crianças com deficiência de 0 a 12 anos",
+     "plain": "Segundo a Ouvidoria Nacional dos Direitos Humanos, nos primeiros seis meses de 2022 houve 4.447 denúncias contra crianças com deficiência de 0 a 12 anos. Até os 17 anos subiria 35%, e com as subnotificações seria três vezes maior."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na delegacia a primeira reação é duvidar, e as perguntas são feitas à psicóloga, não à mulher que pode falar",
+     "plain": "Quando eu chego a uma delegacia com uma mulher ou uma criança, a primeira reação é a dúvida. Eu sou a psicóloga do projeto, e é a mim que fazem as perguntas, mesmo quando a pessoa é só cadeirante e consegue falar e dizer o que sente."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o relato sobre o projeto Eu Me Protejo e comenta os versos lidos no fim da fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b018",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mascote do projeto agradece e diz que é a primeira vez que vem à Câmara.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre as falas dos parlamentares inscritos e chama a primeira deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Conta que, quando criança, não acreditaram nela ao relatar um abuso, pede que pais acreditem nos filhos e aponta que essa violência quase não é falada.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prevenção começa quando a família acredita na criança que conta o que está sofrendo.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      29
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os pais precisam acreditar no filho quando ele conta que alguém está fazendo aquilo com ele",
+     "plain": "Eu digo a todos os pais, tios e tias: acreditem no seu filho quando ele chegar e contar que alguém está fazendo isso com ele."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a violência doméstica contra mulheres com deficiência quase não é falada e a própria vítima não a identifica",
+     "plain": "A violência doméstica contra mulheres com deficiência quase não é falada na sociedade. Muitas vezes a própria mulher não identifica o que está sofrendo, por medo de ser abandonada pelo suposto cuidador ou por achar que merece aquilo."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à deputada seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Mostra que capacitismo, sexismo e adultocentrismo se somam, lembra que no Distrito Federal morre uma mulher a cada 10 dias e propõe criar uma subcomissão.",
+   "quote": [
+    29
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão precisa de uma subcomissão transitória para levantar os dados e propor políticas.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Distrito Federal morre uma mulher por feminicídio a cada 10 dias e há 67 órfãos desses crimes",
+     "plain": "Aqui no Distrito Federal, a cada 10 dias perdemos uma mulher pelo feminicídio. São dezenas de órfãos e, se a memória não me falha, são 67 órfãos do feminicídio."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "muitas mulheres denunciam e têm a fala negada, e precisam provar que estão dizendo a verdade",
+     "plain": "Há ainda a violação de negar a fala. Muitas mulheres denunciam e têm a palavra negada, e precisam provar que dizem a verdade, porque a lógica machista dá peso diferente a cada fala."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      29
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão deveria criar uma subcomissão transitória para levantar os dados e apresentar um relatório",
+     "plain": "Penso que deveríamos criar aqui uma subcomissão transitória, que não seria permanente, para discutir o tema e apresentar um relatório com todos os dados sobre esse nível de violência."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s13",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece a fala da colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Concorda com a sugestão de criar uma subcomissão e passa a palavra à deputada seguinte.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A presidência apoia a criação de uma subcomissão para tratar do tema.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a presidência concorda com a criação de uma subcomissão para tratar do tema",
+     "plain": "Eu concordo com a sugestão de criarmos uma subcomissão."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata, como ex-delegada, atendimentos a mulheres com deficiência agredidas e defende que a prevenção seja o principal resultado desta audiência.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Se a audiência der um único resultado, ele tem de ser a prevenção.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no trabalho na delegacia ela se deparou com meninas e mulheres com deficiência abusadas sexualmente",
+     "plain": "Nesse trabalho, muitas vezes me deparei com meninas e mulheres com deficiência que eram abusadas sexualmente. Lembro até hoje de mulheres que chegavam muito machucadas, que apanhavam na cadeira de rodas."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se a audiência sair com um fruto só, esse fruto tem de ser a prevenção, com campanhas",
+     "plain": "Esta audiência é extremamente importante, mas temos que sair daqui com frutos. Se for um só, que ele seja a prevenção, com campanhas para prevenir."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "no Brasil ainda estamos muito longe de avançar nessa questão",
+     "plain": "Voltando ao nosso País, quero dizer que estamos muito longe de avançar mais nessa questão. E isso é muito sério."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de uma pesquisadora e passa a palavra ao presidente da Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b027",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende corresponsabilizar Estados e Municípios, com lugar no orçamento dos três entes, e anuncia que a subcomissão proposta será criada no começo do ano legislativo.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A política para pessoas com deficiência não chega enquanto ficar só no âmbito da União.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é preciso corresponsabilizar os entes federados, porque uma política desse tamanho não pode ficar só na União",
+     "plain": "Partimos da premissa de que é preciso corresponsabilizar os entes federados. Uma política pública de tamanha dimensão não pode ficar só no âmbito da União."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      25
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "sem lugar no orçamento dos Municípios, dos Estados e da União a política pública não acontece",
+     "plain": "A política precisa estar nas 27 Unidades da Federação e nos mais de 5.700 Municípios, e precisa ter um lugar no orçamento dos Municípios, dos Estados e da União. Sem isso, ela não acontece."
+    },
+    {
+     "id": "b027c3",
+     "sentences": [
+      31
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a subcomissão proposta pela Deputada Erika Kokay será colocada em prática no começo do ano legislativo",
+     "plain": "A Deputada Erika Kokay apresentou a proposta de criar uma subcomissão para tratar do tema, e no começo do ano legislativo vamos colocá-la em prática."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra uma presença e abre as considerações finais dos palestrantes, de 1 minuto cada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Destaca o Ligue 180 como canal que agora acolhe a denúncia da mulher com deficiência e registra o tipo de deficiência no atendimento.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O canal de denúncia passou a acolher e a registrar a deficiência de quem liga.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ligue 180 passou a acolher denúncias de mulheres com deficiência e a registrar o tipo de deficiência",
+     "plain": "O Ligue 180 foi recomposto e agora acolhe de verdade as denúncias de mulheres com deficiência, o que antes não acontecia. Você pode ligar, denunciar, registrar o tipo de deficiência e ser atendida conforme ela."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e chama a Secretária Nacional para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que o Estado ainda precisa se restabelecer em orçamento e chama as mulheres com deficiência a se filiarem e a entrarem na política no ano eleitoral.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As mulheres com deficiência precisam ocupar a política e falar pela própria voz.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Estado brasileiro ainda precisa se restabelecer em orçamento e em planejamento",
+     "plain": "O Estado brasileiro ainda precisa se restabelecer em orçamento e em planejamento. Precisamos de acesso à informação e de estratégias de empoderamento para as mulheres com deficiência."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mulheres com deficiência estão sub-representadas na política e podem falar pela própria voz",
+     "plain": "As mulheres com deficiência ainda estão muito sub-representadas na política. Nós podemos falar pela nossa própria voz, em LIBRAS ou em comunicação alternativa, e há tecnologias que viabilizam a nossa participação."
+    },
+    {
+     "id": "b031c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no ano de eleição as mulheres com deficiência devem se filiar e entrar na política",
+     "plain": "O ano que vem é ano de eleição. Mulheres com deficiência, filiem-se e entrem na política, como candidatas ou cobrando dos seus parlamentares e dos candidatos a Vereador e a Prefeito."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a representante da assistência social para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b033",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reafirma o compromisso da assistência social com a expansão da política e com a recomposição do orçamento para suprir as lacunas de acesso.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A recomposição do orçamento é o que vai permitir ampliar as estruturas da assistência social.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      3
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a recomposição orçamentária e a ampliação das estruturas são o que faz a política chegar às pessoas",
+     "plain": "Reafirmo o nosso compromisso, inclusive no trabalho por recomposição do orçamento e por ampliação das nossas estruturas. É isso que faz a política chegar na vida das pessoas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Ministério da Saúde para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b035",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O coordenador do Ministério da Saúde agradece, se coloca à disposição e avisa que precisa sair para outra audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b036",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a Frente Nacional das Mulheres com Deficiência para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b037",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Cobra que a Câmara crie a subcomissão sugerida e que a audiência se repita em 1 ano para ouvir o que foi feito nesse período.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 7,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara tem de criar a subcomissão e prestar contas em 1 ano do que foi feito.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "representa ali uma mulher com deficiência e as vozes caladas de tantas outras",
+     "plain": "Estou aqui como mulher com deficiência e em nome das vozes caladas de tantas outras."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "daqui a 1 ano a audiência deve se repetir para ouvir o que foi feito nos 12 últimos meses",
+     "plain": "Espero que daqui a 1 ano a gente esteja aqui de novo para ouvir o que foi feito nos 12 últimos meses."
+    },
+    {
+     "id": "b037c3",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a subcomissão sugerida precisa sair e fazer um recorte especial para as mulheres com deficiência",
+     "plain": "Espero que tenhamos essa comissão sugerida pela Deputada Erika Kokay, e que os senhores façam aqui um bom trabalho para as pessoas com deficiência, com um recorte especial para as mulheres."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à coautora do projeto Eu Me Protejo para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b039",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede redes integradas, protocolo único e escuta qualificada para combater a violência e afirma que os homens precisam entrar nesse combate.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 3,
+   "stance": {
+    "position": "contrario",
+    "claim": "Só com redes integradas e protocolo único é que a violência será combatida.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b039c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "faltam redes integradas, protocolo único, escuta qualificada e dispositivos disponíveis para combater a violência",
+     "plain": "Precisamos de redes integradas, de protocolo único, de escuta efetiva e qualificada e de dispositivos disponíveis. Só assim vamos combater a violência."
+    },
+    {
+     "id": "b039c2",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os homens também são necessários no combate à violência contra as mulheres",
+     "plain": "Digo aos homens: nós precisamos de vocês no combate à violência. Parabéns por estarem compondo a Mesa."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b040",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mascote do projeto agradece a todos e se despede.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos, anuncia uma fotografia e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 17,
+   "from_claim": "b006c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A Secretaria de Direitos Humanos traz do Atlas as 8.303 notificações contra mulheres com deficiência, que dão corpo ao dado do Ministério das Mulheres de que elas são a maioria desse grupo."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 64,
+   "from_claim": "b008c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A Saúde detalha as 90 policlínicas com mamógrafo acessível que a Secretaria tinha anunciado entre as ações da primeira etapa do plano."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 47,
+   "to_sentence": 33,
+   "from_claim": "b010c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "A assistência social mostra os seus próprios registros de violência contra mulheres com deficiência, no mesmo sentido dos números do Atlas."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 33,
+   "from_claim": "b012c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "O Ministério da Justiça diz que dados como os que a Secretaria apresentou precisam sair da invisibilidade para virar política pública."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 45,
+   "from_claim": "b012c3",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Os dois põem a prevenção pela educação no centro: a Saúde leva a pauta para a escola e a Justiça diz que sem prevenir o dano continua."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 55,
+   "to_sentence": 50,
+   "from_claim": "b014c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A Frente Nacional reforça o que a própria assistência social reconheceu ao apresentar os seus números: o dado é subnotificado e os registros não acontecem."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 12,
+   "from_claim": "b014c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "As duas apontam a falta de intérprete de LIBRAS como barreira, uma na sala de parto e a outra na porta da delegacia."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 55,
+   "to_sentence": 7,
+   "from_claim": "b014c3",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Ela se dirige ao Secretário para dizer que sem dados não há política pública, exatamente o que ele tinha pedido minutos antes."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 54,
+   "from_claim": "b016c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "O projeto Eu Me Protejo mostra que, contadas as subnotificações, o número de denúncias seria três vezes maior, no mesmo sentido da denúncia da Frente Nacional."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 19,
+   "from_claim": "b016c3",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A psicóloga conta que na delegacia duvidam da mulher com deficiência, o que confirma o que a Secretária disse sobre o boletim de ocorrência que não registra a deficiência."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 21,
+   "from_claim": "b020c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "A Deputada conta que não acreditaram nela quando criança e endossa a orientação do projeto de não duvidar das crianças nem das mulheres."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 45,
+   "to_sentence": 37,
+   "from_claim": "b020c2",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "As duas dizem a mesma coisa por caminhos diferentes: muitas mulheres não reconhecem a violência que sofrem e por isso não denunciam."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 29,
+   "from_claim": "b022c2",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "A Deputada Erika Kokay retoma o apelo de acreditar na criança e mostra que a fala negada atinge também as mulheres que denunciam."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 29,
+   "from_claim": "b024c1",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "A presidência acolhe na hora a proposta de criar uma subcomissão para tratar do tema."
+  },
+  {
+   "from": "b025",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 3,
+   "from_claim": "b025c2",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "A Deputada que foi delegada diz que o único fruto da audiência deve ser a prevenção, que é justamente o trabalho do projeto Eu Me Protejo."
+  },
+  {
+   "from": "b025",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 44,
+   "from_claim": "b025c1",
+   "to_claim": "b020c2",
+   "strength": "media",
+   "note": "A ex-delegada confirma com os atendimentos que fez o que a colega disse sobre uma violência de que quase não se fala."
+  },
+  {
+   "from": "b027",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 29,
+   "from_claim": "b027c3",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "O presidente da Comissão assume a proposta da subcomissão e diz que ela será criada no começo do ano legislativo."
+  },
+  {
+   "from": "b027",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 31,
+   "from_claim": "b027c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Ao ouvir que a proteção especializada é menos capilarizada, o presidente da Comissão defende corresponsabilizar Estados e Municípios pela política."
+  },
+  {
+   "from": "b029",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 32,
+   "from_claim": "b029c1",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "Ao relato de que as mulheres desistem de denunciar, o Ministério das Mulheres responde que o Ligue 180 passou a registrar o tipo de deficiência e a atender conforme ela."
+  },
+  {
+   "from": "b031",
+   "to": "b027",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 25,
+   "from_claim": "b031c1",
+   "to_claim": "b027c2",
+   "strength": "forte",
+   "note": "A Secretária do Governo diz que o Estado brasileiro ainda precisa se restabelecer em orçamento, no mesmo sentido da cobrança por orçamento nos três entes."
+  },
+  {
+   "from": "b031",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 26,
+   "from_claim": "b031c2",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "As duas falam da fala negada: uma diz que as mulheres com deficiência estão sub-representadas e que podem falar pela própria voz."
+  },
+  {
+   "from": "b033",
+   "to": "b027",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 25,
+   "from_claim": "b033c1",
+   "to_claim": "b027c2",
+   "strength": "media",
+   "note": "A assistência social reforça a cobrança por orçamento, dizendo que é a recomposição orçamentária que amplia as estruturas."
+  },
+  {
+   "from": "b037",
+   "to": "b027",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 31,
+   "from_claim": "b037c3",
+   "to_claim": "b027c3",
+   "strength": "forte",
+   "note": "A Frente Nacional cobra que a subcomissão anunciada saia mesmo e faça um recorte para as mulheres com deficiência."
+  },
+  {
+   "from": "b037",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 29,
+   "from_claim": "b037c3",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "A Frente Nacional apoia a subcomissão sugerida pela Deputada Erika Kokay e diz o que espera dela."
+  },
+  {
+   "from": "b039",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 30,
+   "from_claim": "b039c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Diante da cobertura que a assistência social apresentou, o projeto responde que ainda faltam redes integradas e protocolo único para atender essas mulheres."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 15,
+   "from_claim": "b016c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "O relato da delegacia que duvida da mulher com deficiência confirma o que o Ministério das Mulheres disse sobre a dificuldade de sensibilizar as delegacias."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b006",
+    "b010",
+    "b014",
+    "b016",
+    "b020"
+   ],
+   "claims": [
+    "b004c3",
+    "b006c2",
+    "b010c2",
+    "b014c3",
+    "b016c2",
+    "b020c2"
+   ],
+   "note": "Três Ministérios, a Frente Nacional, o projeto Eu Me Protejo e uma Deputada concordam que essa violência é subnotificada e que sem dados próprios a política pública não chega a essas mulheres."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b014",
+    "b016",
+    "b025",
+    "b029"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c2",
+    "b014c2",
+    "b016c3",
+    "b025c1",
+    "b029c1"
+   ],
+   "note": "O Ministério das Mulheres, a Frente Nacional, o projeto Eu Me Protejo e a Deputada que foi delegada concordam que a delegacia ainda não está preparada para receber a mulher com deficiência."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b012",
+    "b016",
+    "b020",
+    "b025"
+   ],
+   "claims": [
+    "b008c2",
+    "b012c3",
+    "b016c1",
+    "b020c1",
+    "b025c2"
+   ],
+   "note": "Saúde, Justiça, o projeto Eu Me Protejo e duas Deputadas concordam que prevenir, na escola e dentro de casa, é o caminho principal contra essa violência."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b025",
+    "b027",
+    "b031",
+    "b039"
+   ],
+   "claims": [
+    "b002c3",
+    "b025c3",
+    "b027c1",
+    "b031c1",
+    "b039c1"
+   ],
+   "note": "Duas secretárias do próprio Governo, dois parlamentares e o projeto Eu Me Protejo concordam que o que existe ainda não chega na ponta e que falta orçamento."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b022",
+    "b031",
+    "b037"
+   ],
+   "claims": [
+    "b022c2",
+    "b031c2",
+    "b031c3",
+    "b037c1"
+   ],
+   "note": "Uma Deputada, a Secretária Nacional e a Frente Nacional concordam que as mulheres com deficiência têm de falar por si e ocupar os espaços de decisão."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b022",
+    "b024",
+    "b027",
+    "b037"
+   ],
+   "claims": [
+    "b022c3",
+    "b024c1",
+    "b027c3",
+    "b037c2",
+    "b037c3"
+   ],
+   "note": "A Deputada que propôs, a presidência da audiência, o presidente da Comissão e a Frente Nacional concordam em criar uma subcomissão para tratar do tema."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 59,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que os Ministérios escutem e conheçam a realidade na ponta",
+   "plain": "Os Ministérios vão sair do gabinete e conhecer essa realidade na ponta?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b014",
+   "sentence": 56,
+   "addressed_to": "governo",
+   "answered_by": "b031",
+   "gist": "que o Governo produza os dados sem os quais não há política",
+   "plain": "Sem registro e sem dados da violência, como fazer política pública para mulheres com deficiência?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b022",
+   "sentence": 34,
+   "addressed_to": "parlamentar",
+   "answered_by": "b024",
+   "gist": "que a Comissão crie uma subcomissão para levantar os dados",
+   "plain": "A Comissão vai criar uma subcomissão para levantar os dados e propor políticas?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b037",
+   "sentence": 7,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que a Comissão volte a reunir em 1 ano para ouvir o que foi feito",
+   "plain": "Daqui a 1 ano vamos poder estar aqui de novo para ouvir o que foi feito?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b039",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Governo garanta redes integradas e protocolo único",
+   "plain": "Quando vamos ter redes integradas, protocolo único e escuta qualificada para essas mulheres?",
+   "theme": "d5",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 17,
+   "gist": "62% das pessoas com deficiência no Brasil são mulheres",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 33,
+   "gist": "8.303 notificações contra mulheres com deficiência, contra 3.896 dos homens",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 29,
+   "gist": "45 notificações por 10 mil mulheres com deficiência intelectual",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 38,
+   "gist": "violência doméstica é 70% das notificações de mulheres com deficiência física",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 46,
+   "gist": "381 delegacias especializadas para 5.760 Municípios",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b002",
+   "sentence": 50,
+   "gist": "o país tinha só 113 varas criminais para esses casos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 38,
+   "gist": "90 policlínicas serão construídas com equipamentos acessíveis",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 64,
+   "gist": "plano prevê 15 mil conselheiros formados e 120 mil contratos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 47,
+   "gist": "2 mil mulheres com deficiência vítimas de violência na família",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 37,
+   "gist": "72% das mulheres mortas por feminicídio nunca denunciaram",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b016",
+   "sentence": 14,
+   "gist": "4.447 denúncias em 2022 contra crianças com deficiência",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b022",
+   "sentence": 15,
+   "gist": "no Distrito Federal morre uma mulher a cada 10 dias",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo"
+  ],
+  "angle": "A matéria escolheu os números do Atlas da Violência e as entregas dos Ministérios, sobretudo os equipamentos acessíveis da saúde.",
+  "omitted": "Ficaram de fora a proposta de subcomissão, o relato das barreiras na delegacia e a cobrança por orçamento e por registro feita pela sociedade civil."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O que o Estado faz ainda não chega na ponta",
+   "statement_plain": "As leis e os planos existem, mas não alcançam as mulheres com deficiência: faltam delegacias, falta serviço especializado e falta orçamento nos Municípios e nos Estados.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b002c3",
+    "b025c3",
+    "b027c1",
+    "b031c1",
+    "b039c1"
+   ],
+   "note": "Duas secretárias do próprio Governo Federal ficam do mesmo lado que a Frente Nacional e dois parlamentares, contra os Ministérios que vieram apresentar entregas."
+  },
+  {
+   "id": "t2",
+   "title": "O novo plano já está mudando o atendimento",
+   "statement_plain": "O Governo revisou a política de saúde, vai construir 90 policlínicas com equipamentos acessíveis e recompõe o orçamento da rede, e é isso que começa a mudar a vida dessas mulheres.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b008c1",
+    "b010c3",
+    "b033c1"
+   ],
+   "note": "Três Ministérios diferentes defendem a mesma ideia, que se opõe frontalmente à de que nada disso chega na ponta."
+  },
+  {
+   "id": "t3",
+   "title": "Sem registro e sem dado, não há política",
+   "statement_plain": "Enquanto a violência contra a mulher com deficiência não for registrada na delegacia e nos serviços, ela vai continuar invisível e nenhuma política vai alcançá-la.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b006c2",
+    "b010c2",
+    "b012c1",
+    "b014c3",
+    "b016c2"
+   ],
+   "note": "A ideia junta Justiça, Mulheres e assistência social com a Frente Nacional e o projeto Eu Me Protejo, que cobram do Estado o registro que ele não faz."
+  },
+  {
+   "id": "t4",
+   "title": "Prevenir na escola e em casa vale mais que remediar",
+   "statement_plain": "O caminho principal é chegar antes: educar crianças e famílias, formar profissionais e falar de relacionamento abusivo, porque depois da violência o dano fica.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b012c3",
+    "b014c1",
+    "b016c1",
+    "b020c1",
+    "b025c2"
+   ],
+   "note": "A ideia cruza o Ministério da Justiça, o Ministério da Saúde, duas Deputadas e duas ativistas, e disputa com quem põe o peso no atendimento e na punição."
+  },
+  {
+   "id": "t5",
+   "title": "Quem vive a deficiência tem de falar por si",
+   "statement_plain": "As mulheres com deficiência precisam ser ouvidas diretamente e ocupar os espaços de decisão, em vez de terem a palavra negada ou repassada a um acompanhante.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b022c2",
+    "b031c2",
+    "b031c3",
+    "b037c1"
+   ],
+   "note": "A ideia junta uma Deputada, a Secretária Nacional e a Frente Nacional, e nasce do relato de que na delegacia as perguntas são feitas ao acompanhante."
+  },
+  {
+   "id": "t6",
+   "title": "A Câmara tem de acompanhar, não só debater",
+   "statement_plain": "Não basta a audiência: a Comissão precisa criar uma subcomissão, levantar os dados e chamar o Governo de volta em 1 ano para dizer o que foi feito.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b022c3",
+    "b024c1",
+    "b027c3",
+    "b037c2",
+    "b037c3"
+   ],
+   "note": "A ideia atravessa a mesa, dois parlamentares de partidos diferentes e a Frente Nacional, que é quem cobra o retorno em 1 ano."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "LIBRAS",
+   "fala": "b001",
+   "sentence": 17,
+   "plain": "Língua Brasileira de Sinais, a língua usada por pessoas surdas no Brasil"
+  },
+  {
+   "term": "Atlas da Violência",
+   "fala": "b001",
+   "sentence": 27,
+   "plain": "estudo sobre mortes e agressões no Brasil, publicado pelo Ipea, o instituto de pesquisa econômica do Governo Federal"
+  },
+  {
+   "term": "Maria da Penha",
+   "fala": "b004",
+   "sentence": 16,
+   "plain": "lei de 2006 que criou medidas de proteção à mulher e punições mais duras para a violência dentro de casa"
+  },
+  {
+   "term": "Casas da Mulher Brasileira",
+   "fala": "b004",
+   "sentence": 25,
+   "plain": "unidades públicas que reúnem num só lugar delegacia, Justiça e apoio social para mulheres em situação de violência"
+  },
+  {
+   "term": "capacitismo",
+   "fala": "b006",
+   "sentence": 22,
+   "plain": "preconceito contra pessoas com deficiência, que trata quem tem deficiência como alguém de menor valor"
+  },
+  {
+   "term": "Viver Sem Limite",
+   "fala": "b006",
+   "sentence": 61,
+   "plain": "plano do Governo Federal que reúne ações de vários Ministérios para os direitos das pessoas com deficiência"
+  },
+  {
+   "term": "Lei de Cotas",
+   "fala": "b006",
+   "sentence": 64,
+   "plain": "lei que obriga empresas de certo porte a reservar parte das vagas para pessoas com deficiência ou reabilitadas pelo INSS"
+  },
+  {
+   "term": "PSE",
+   "fala": "b008",
+   "sentence": 46,
+   "plain": "Programa Saúde na Escola, que leva ações de saúde para dentro das escolas públicas"
+  },
+  {
+   "term": "SUAS",
+   "fala": "b010",
+   "sentence": 11,
+   "plain": "Sistema Único de Assistência Social, a rede pública que atende famílias em situação de pobreza ou de violência"
+  },
+  {
+   "term": "CRAS",
+   "fala": "b010",
+   "sentence": 36,
+   "plain": "Centro de Referência de Assistência Social, a porta de entrada da assistência social no bairro"
+  },
+  {
+   "term": "CREAS",
+   "fala": "b010",
+   "sentence": 41,
+   "plain": "Centro de Referência Especializado de Assistência Social, que atende quem já sofreu violência ou violação de direitos"
+  },
+  {
+   "term": "BPC",
+   "fala": "b010",
+   "sentence": 59,
+   "plain": "Benefício de Prestação Continuada, um salário mínimo por mês pago a pessoas idosas ou com deficiência de baixa renda"
+  },
+  {
+   "term": "PPA",
+   "fala": "b010",
+   "sentence": 67,
+   "plain": "Plano Plurianual, a lei que define para quatro anos onde o Governo vai gastar o dinheiro"
+  },
+  {
+   "term": "revitimização",
+   "fala": "b012",
+   "sentence": 8,
+   "plain": "quando quem sofreu violência passa de novo pelo sofrimento no atendimento, ao ter que repetir ou provar o que aconteceu"
+  },
+  {
+   "term": "Ligue 180",
+   "fala": "b029",
+   "sentence": 4,
+   "plain": "telefone gratuito do Governo Federal para denunciar violência contra a mulher e pedir orientação"
+  }
+ ]
+}

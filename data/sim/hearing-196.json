@@ -1,0 +1,1438 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 196,
+ "model": "LLM lendo o prompt hearing-196 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T17:16:26Z",
+ "prompt_sha256": "dae498a8a96137b965c44d3eabe058ceae41335a562dfa783212495ba5f5dbef",
+ "sentences_hash": "aeaae1fcd316d7d4",
+ "review": {
+  "pairs_read": 27,
+  "pairs_fixed": 12
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Educação debateu o projeto que cria um programa de bolsas para o estudante de baixa renda e altera a lei do Fies. As duas entidades do ensino superior privado apoiaram a proposta e mostraram que o país está longe da meta de matrículas do Plano Nacional de Educação. O representante do FNDE informou que o órgão se posicionou contra o projeto por causa do impacto orçamentário.",
+ "stakes": "Estava em jogo o apoio do Governo ao Projeto de Lei 2.961, de 2022, que criaria bolsa integral para quem tem renda de até 1,5 salário mínimo.",
+ "central_question": "O Brasil precisa de um novo programa de bolsas para ampliar o acesso do jovem de baixa renda ao ensino superior?",
+ "synopsis_plain": "A comissão discutiu um projeto que cria bolsas para o estudante de baixa renda e muda a lei do Fies, o financiamento estudantil. As duas entidades das faculdades particulares apoiaram e mostraram que o país está longe da meta de matrículas. O representante do órgão federal disse que a proposta foi barrada por causa do custo.",
+ "stakes_plain": "Se o Governo vai apoiar o projeto que daria bolsa integral a quem tem renda de até 1,5 salário mínimo.",
+ "central_question_plain": "O Brasil precisa de um novo programa de bolsas para o jovem de baixa renda chegar à faculdade?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Reforma do Fies",
+   "description": "Discute-se se o financiamento estudantil, depois da mudança de 2017, ainda cumpre o papel para que foi criado.",
+   "axis": {
+    "pro": "O Fies de hoje virou um financiamento bancário, deixa o aluno inadimplente e não preenche nem metade das vagas.",
+    "contra": "O Fies está sendo refocalizado e corrigido, e as mudanças em curso devolvem a atratividade do programa.",
+    "pro_plain": "O Fies virou um empréstimo de banco: o aluno não termina o curso, fica devendo e a maior parte das vagas sobra.",
+    "contra_plain": "O programa está sendo consertado, com foco em quem tem menos renda e parcelas menores, e volta a ser atrativo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Meta do ensino superior",
+   "description": "Discute-se se o Brasil vai alcançar a meta de jovens matriculados no ensino superior prevista no Plano Nacional de Educação.",
+   "axis": {
+    "pro": "Sem um novo programa de bolsas o país não chega à meta de 33% de jovens matriculados no ensino superior.",
+    "contra": "Os programas que já existem, reformulados, bastam para aproximar o país da meta.",
+    "pro_plain": "Sem um novo programa de bolsas o país não chega à meta de jovens matriculados na faculdade.",
+    "contra_plain": "Os programas que já existem, depois de consertados, dão conta de aproximar o país da meta."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Papel do ensino superior privado",
+   "description": "Discute-se se a rede privada é o caminho para levar vaga de ensino superior às regiões onde não há instituição pública.",
+   "axis": {
+    "pro": "A rede privada chega onde não há instituição pública e por isso é o caminho para ampliar o acesso.",
+    "contra": "O caminho é fortalecer as universidades públicas e a política de cotas.",
+    "pro_plain": "A rede privada chega a cidades pequenas onde nunca vai haver faculdade pública, e é por ali que o acesso cresce.",
+    "contra_plain": "O caminho é reforçar as universidades públicas e a política de cotas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Bolsa ou dívida para o estudante",
+   "description": "Discute-se se o estudante de renda mais baixa deve receber bolsa ou tomar um financiamento para estudar.",
+   "axis": {
+    "pro": "Quem tem renda mais baixa não pode se endividar para estudar e precisa de bolsa integral.",
+    "contra": "O financiamento funciona para esse estudante se a parcela ficar limitada a um percentual da renda dele.",
+    "pro_plain": "Quem ganha pouco não tem como pegar dívida para estudar e precisa de bolsa que cubra tudo.",
+    "contra_plain": "O empréstimo serve para esse estudante se a parcela for limitada a uma fatia pequena do que ele ganha."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Custo do programa de bolsas",
+   "description": "Discute-se se o país pode pagar o novo programa de bolsas e se esse gasto se justifica.",
+   "axis": {
+    "pro": "O custo se justifica, porque a bolsa numa instituição privada sai muito mais barata que a vaga na universidade pública.",
+    "contra": "Não há previsão de recursos e o impacto orçamentário e fiscal impede o programa.",
+    "pro_plain": "O gasto vale a pena, porque a bolsa numa faculdade particular custa ao Estado bem menos que uma vaga pública.",
+    "contra_plain": "Não há dinheiro previsto e o peso no Orçamento e no teto de gastos impede o programa."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da reunião, autor do requerimento e relator do projeto",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado como Átila Lira, Bloco/PP - PI, autor do requerimento e relator do projeto em b001.1 e b001.36",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Educação da Câmara dos Deputados, que analisa os projetos de lei sobre ensino"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Presidente do SEMESP",
+   "org": "SEMESP",
+   "basis": "apresentada pela presidência em b001.7 e em b007.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Semesp, sindicato das mantenedoras paulistas",
+   "org_plain": "sindicato que representa as instituições privadas de ensino superior de São Paulo e de outros Estados"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Financiamento Estudantil do FNDE",
+   "org": "FNDE",
+   "basis": "apresentado pela presidência em b001.8, participando por vídeo",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do FNDE",
+   "org_plain": "autarquia federal que administra recursos e programas da educação, entre eles o financiamento estudantil"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Diretor-Presidente da ABMES",
+   "org": "ABMES",
+   "basis": "apresentado pela presidência em b001.6 e em b005.12",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ABMES, entidade das mantenedoras do ensino superior",
+   "org_plain": "associação que reúne as mantenedoras privadas de ensino superior no Brasil"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.6
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "A mesa cumprimenta quem está presencialmente no Plenário Florestan Fernandes em b008.5 e a ata registra palmas em duas falas, mas não há contagem de presentes.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a audiência como autor do projeto, critica a mudança de 2017 no Fies e defende um novo programa de bolsas para o jovem de baixa renda.",
+   "quote": [
+    61,
+    62
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    14,
+    15,
+    25,
+    27
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rede privada chega onde nunca haverá instituição pública e por isso é o caminho para ampliar o acesso do jovem carente.",
+    "sentence": 62
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a mudança de 2017 tirou o caráter social do Fies e o tornou um programa bancário que empurra o aluno para a inadimplência",
+     "plain": "Com a mudança de 2017, o Fies deixou de ser social e virou um pouco bancário. Muitos alunos nem concluíram a inscrição e quem entrou é empurrado para a inadimplência. Não é sustentável e ainda tem poucas vagas."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Fies e o Prouni levam vaga a cidades de 10 mil e 50 mil habitantes, onde nunca haverá instituição pública",
+     "plain": "Programas como o Fies e o Prouni oferecem vaga onde nunca vai haver instituição pública. A rede privada chega a cidades de 10 mil e de 50 mil habitantes, dando esperança a quem nunca entraria no ensino superior."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      70
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o impacto de 6,5 bilhões de reais se justifica porque os vizinhos chegam a 50% de jovens na faculdade e o Brasil não chega a 20%",
+     "plain": "O impacto fica em cerca de 6,5 bilhões de reais, mas do ponto de vista social é um investimento muito positivo. Os vizinhos chegam a 30%, 40% e até 50% de jovens na faculdade, e o Brasil hoje não passa de 20%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do sindicato concorda que o convidado do FNDE comece a exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao representante do FNDE para a exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que o Fies fechou 2023 com cerca de 36 mil contratos das 112 mil vagas e que o FNDE se posicionou contra o projeto por impacto orçamentário.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O FNDE se posicionou contra o projeto por causa dos impactos orçamentários e financeiros.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "em 2023 foram cerca de 36 mil contratos para 112 mil vagas ofertadas, perto de 50% de ocupação",
+     "plain": "Em 2023 formalizamos cerca de 36 mil contratos de financiamento, das 112 mil vagas ofertadas. O processo ainda está em curso, mas devemos ficar em 2023 com cerca de 50% das vagas ocupadas."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o FNDE se posicionou contra a proposta por causa dos impactos orçamentários e financeiros",
+     "plain": "Houve uma manifestação nossa sobre a proposta e tivemos de dar um posicionamento contrário, por causa dos impactos no orçamento. Uma emenda quis beneficiar estudantes do CadÚnico, mas não vimos como isso seria bancado."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há uma preocupação fiscal grande, porque as propostas de melhoria impactam o orçamento e o teto de gastos",
+     "plain": "Temos uma preocupação grande com a questão fiscal do programa. Outras propostas de melhoria também têm sido discutidas, e todas vão impactar o orçamento e o teto de gastos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que o impacto financeiro existe, mas que a bolsa regulariza a vida do estudante, tira o passivo do Governo e traz retorno social.",
+   "quote": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O impacto financeiro existe, mas a bolsa regulariza a vida do estudante, tira o passivo do Governo e traz retorno social.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o aluno carente que ficaria inadimplente no Fies migraria para a bolsa e teria a dívida perdoada",
+     "plain": "A remissão da dívida trata do aluno carente, que está no Fies tradicional e provavelmente ficará inadimplente. A ideia é que, se ele conseguir a bolsa do novo programa, migre para ela e a dívida seja perdoada."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa regulariza a vida do estudante e tira o passivo do Governo, e o retorno social futuro compensa o custo",
+     "plain": "Assim regularizamos a vida do estudante e tiramos esse passivo do Governo. Há investimento e impacto financeiro, claro, mas num programa como esse é preciso entender o impacto social futuro, com mais jovens matriculados."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra que só 23,8% dos jovens estão no ensino superior, que a meta de 33% não será alcançada e que o Fies reúne apenas 3,23% das matrículas.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil está muito longe da meta do Plano Nacional de Educação e não vai alcançá-la no prazo.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2019 só 18% dos jovens estavam no ensino superior, e a meta do plano nacional é 33% até 2024",
+     "plain": "Em 2019 só 18% dos jovens estavam na faculdade. A meta 12 do plano nacional diz que 33% da população deveria estar matriculada até 2024."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o número hoje é 23,8% e o país não vai alcançar a meta do plano nacional no prazo",
+     "plain": "O número hoje é 23,8%, dado de 2020. Estamos muito longe da meta do plano nacional de educação, e já posso antecipar: não vamos alcançá-la no ano que vem, que é o prazo."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só 3,23% das matrículas estão no Fies e, do jeito que está, ele não democratiza o ensino superior",
+     "plain": "Em 2021, só 3,23% das matrículas ativas estavam no Fies. Do jeito que está, ele não atende à democratização do ensino superior, e isso vem da Lei 13.530, de 2017, que complicou a operação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à ABMES e passa a palavra à presidente do sindicato paulista das mantenedoras.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que só 17,8% dos jovens estão no ensino superior e sustenta que os mais pobres não podem se endividar para estudar e precisam de bolsa.",
+   "quote": [
+    48,
+    49,
+    50
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem tem renda baixa não pode se endividar para estudar e precisa de bolsa combinada com auxílio financeiro.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só 17,8% dos jovens de 18 a 24 anos estão no ensino superior, e esse número caiu",
+     "plain": "Apesar do crescimento das últimas décadas, a taxa de escolarização líquida é baixa: apenas 17,8% dos jovens de 18 a 24 anos estão no ensino superior, e esse número caiu."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      31
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "90% dos estudantes do ensino superior têm renda de até 3 salários mínimos e 45% deles vivem com 1,5",
+     "plain": "Os dados do IBGE mostram que 90% dos estudantes do ensino superior têm renda de até 3 salários mínimos. Desses, a metade, 45%, recebe renda por pessoa de apenas 1,5 salário mínimo."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o financiamento não alcança os mais pobres, que não podem se endividar para estudar nem pagar depois",
+     "plain": "O financiamento estudantil é fundamental, mas não chega a quem é mais pobre, e essas pessoas não têm como se endividar para estudar. A renda por pessoa dessas famílias não permite pagar depois. É um beco sem saída."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta ao FNDE quais são os pontos críticos que tiram a atratividade do Fies, aumentam a evasão e deixam metade das vagas sem preenchimento.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 25,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Fies perdeu atratividade, não preenche nem metade das vagas e precisa voltar a ser um programa social.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Fies beneficiou quase 700 mil alunos ao ano entre 2010 e 2016 e depois teve as vagas reduzidas bruscamente",
+     "plain": "Entre 2010 e 2016 o Fies foi muito importante e chegou a beneficiar quase 700 mil alunos por ano. Depois teve problemas de sustentabilidade por questões econômicas, as vagas caíram bruscamente e ele foi reformulado."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a meta era beneficiar cerca de 100 mil alunos por ano, mas nem 50% das vagas são preenchidas",
+     "plain": "A ideia era atender mais ou menos 100 mil alunos por ano. Mas, pelos números que o senhor citou, não se preenche nem 50% das vagas ofertadas."
+    },
+    {
+     "id": "b009c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso saber que pontos críticos tiram a atratividade do Fies e aumentam a evasão escolar",
+     "plain": "A pergunta é: quais são os pontos críticos de hoje que tiram a atratividade do programa para o aluno, fazendo com que ele não conclua e aumentando a evasão? Por que o programa não tem o sucesso esperado?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o Fies está sendo refocalizado na baixa renda, com teto elevado para 60 mil reais e parcela limitada a 13% da renda do formado.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O Fies está sendo ajustado com foco na baixa renda, teto maior e pagamento ligado à renda do estudante.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a ideia é focalizar o Fies nas famílias de mais baixa renda, do CadÚnico, em vez de até três salários mínimos",
+     "plain": "Estamos reavaliando a focalização do programa, porque o público-alvo ia até três salários mínimos, o que é muito amplo. A ideia é focar nas famílias de renda mais baixa, do CadÚnico, o cadastro dos mais pobres."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a coparticipação está sendo suavizada e o teto do financiamento subiu de 52,8 mil para 60 mil reais por semestre",
+     "plain": "Temos atuado para suavizar a coparticipação até voltar a 100% de financiamento, pedido de muitos estudantes. O comitê gestor já elevou o teto de 52,8 mil reais por semestre para 60 mil."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "com o pagamento ligado à renda a parcela fica entre 8% e 13%, em vez de chegar a 50% da remuneração",
+     "plain": "Às vezes o estudante se forma, ganha 1 ou 2 salários mínimos, e a parcela chega a 50% da remuneração dele. O pagamento ligado à renda suaviza isso: a contribuição fica entre 8% e 13% da renda, no máximo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o Fies de hoje só é bom para o banco que o administra e defende bolsa para quem não pode pagar e financiamento para quem pode.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": 4,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Fies de hoje só é bom para o banco que o administra, e não para o aluno nem para as instituições.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Fies de hoje só é bom para o banco que o administra, porque o aluno não conclui e fica inadimplente",
+     "plain": "O senhor disse que o Fies tem de ser bom para todo mundo, mas hoje só é bom para o banco. Não é financiamento social: o aluno não conclui e fica inadimplente, e as instituições não se sustentam."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem não pode pagar precisa de um programa que lhe dê acesso e quem pode vai para o financiamento, dentro dos 13% da renda",
+     "plain": "Temos de rever o programa para que ele seja bom para todos. Quem não pode pagar vai para um programa que lhe dê acesso, sem ser excluído. Quem pode pagar vai para o financiamento, dentro dos 13% da renda dele."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do sindicato agradece ao FNDE e se coloca à disposição para propor soluções no fundo do Fies.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do FNDE para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do FNDE agradece e diz que quer ver o programa voltar ao que já foi um dia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da ABMES para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que o jovem do Prouni custa 16% do valor do estudante da universidade pública e que nenhuma meta será alcançada sem financiamento de fato social.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem um financiamento estudantil de fato social, nenhuma meta de ensino superior será alcançada.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um jovem com bolsa do Prouni custa 16% do valor de um jovem na universidade pública",
+     "plain": "Hoje um jovem com bolsa do Prouni custa 16% do que custa um jovem numa universidade pública. Do ponto de vista de custo, os programas sociais são bastante efetivos."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nenhuma meta de ensino superior será alcançada sem um financiamento estudantil de fato social e eficiente",
+     "plain": "Esta Comissão vai estabelecer as metas do plano nacional para os próximos 10 anos. Qualquer que seja o percentual para a educação superior, ele não será alcançado sem um financiamento estudantil de fato social e eficiente."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "hoje não há equidade, porque quem não pode pagar tem financiamento e quem precisa de bolsa integral não tem",
+     "plain": "O projeto reconhece que hoje a oferta dos programas sociais não é igual para todos. Há jovem com financiamento sem condição de pagar e há gente que precisa de bolsa integral e não tem. O projeto corrige essa distorção."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Encerra pedindo que o Governo olhe com bons olhos o projeto e sustenta que a educação deveria ser prioridade como são outros setores da economia.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A educação precisa ser prioridade de governo como já são outros setores da economia.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os governos incentivam a indústria e o agronegócio e não um programa de acesso ao ensino superior",
+     "plain": "Espero que esta audiência sensibilize o Governo e a sociedade. Vemos os Governos Federais incentivarem a linha branca, a indústria automobilística, a mineração e o agronegócio, e não um programa como esse, que poderia ser prioridade."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Fies é um programa importante e teve o seu papel, e o que ele precisa é de aperfeiçoamento",
+     "plain": "O Fies, apesar dos problemas, é importante, cumpriu o seu papel e precisa ser aperfeiçoado. Torço para que o Governo também olhe com simpatia para este projeto de lei."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 15,
+   "from_claim": "b005c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Responde à objeção orçamentária do FNDE dizendo que o impacto existe, mas que o retorno social do programa compensa."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 35,
+   "to_sentence": 3,
+   "from_claim": "b006c3",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Diante dos números de contratos apresentados pelo FNDE, mostra que só 3,23% das matrículas ativas estão no Fies e que ele não democratiza o acesso."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 70,
+   "from_claim": "b006c1",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "Confirma o diagnóstico do autor com o número da meta: 33% até 2024, contra 18% de jovens matriculados em 2019."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 19,
+   "from_claim": "b008c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Traz outro recorte do mesmo problema: pela taxa líquida, só 17,8% dos jovens de 18 a 24 anos estão no ensino superior."
+  },
+  {
+   "from": "b008",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 48,
+   "to_sentence": 42,
+   "from_claim": "b008c3",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Explica por que o financiamento empurra para a inadimplência: a renda dessas famílias não permite se endividar para estudar."
+  },
+  {
+   "from": "b009",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 4,
+   "from_claim": "b009c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Retoma o número dado pelo FNDE para perguntar por que nem metade das vagas ofertadas é preenchida."
+  },
+  {
+   "from": "b010",
+   "to": "b009",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 15,
+   "from_claim": "b010c1",
+   "to_claim": "b009c3",
+   "strength": "forte",
+   "note": "Responde aos pontos críticos apontados: o programa está sendo refocalizado nas famílias de mais baixa renda."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 24,
+   "to_sentence": 48,
+   "from_claim": "b010c3",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Diante do argumento de que os mais pobres não podem se endividar, apresenta o pagamento ligado à renda, limitado a 13%."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 8,
+   "from_claim": "b011c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Apesar dos ajustes anunciados, sustenta que o Fies de hoje só é bom para o banco que o administra."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 25,
+   "from_claim": "b011c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Aceita o limite de 13% da renda para quem pode pagar e pede bolsa para quem não pode."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 17,
+   "from_claim": "b016c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Responde à preocupação fiscal com o custo comparado: o jovem do Prouni custa 16% do valor do estudante da universidade pública."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 48,
+   "from_claim": "b016c3",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Concorda que falta equidade: quem não pode pagar recebe financiamento e quem precisa de bolsa integral não tem."
+  },
+  {
+   "from": "b016",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 4,
+   "from_claim": "b016c2",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "Fecha o raciocínio da presidência: nenhuma meta será alcançada sem um financiamento de fato social."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 11,
+   "from_claim": "b017c1",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "Leva o argumento para a prioridade de governo: outros setores recebem incentivo e a educação não."
+  },
+  {
+   "from": "b017",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 8,
+   "from_claim": "b017c2",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Reconhece que o Fies teve o seu papel e que o caminho é o aperfeiçoamento que o FNDE apresentou."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b008",
+    "b016",
+    "b017"
+   ],
+   "claims": [
+    "b006c1",
+    "b006c2",
+    "b008c1",
+    "b016c2",
+    "b017c1"
+   ],
+   "note": "As duas entidades do ensino superior privado e a presidência da comissão concordam que o Brasil está longe da meta de matrículas e não vai alcançá-la sem um novo programa."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b005",
+    "b008",
+    "b011",
+    "b016"
+   ],
+   "claims": [
+    "b005c1",
+    "b008c3",
+    "b011c2",
+    "b016c3"
+   ],
+   "note": "A presidência da comissão e as duas entidades do ensino superior concordam que o estudante de renda mais baixa não tem como se endividar e precisa de bolsa, e não de dívida."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b001",
+    "b005",
+    "b016"
+   ],
+   "claims": [
+    "b001c3",
+    "b005c2",
+    "b016c1"
+   ],
+   "note": "A presidência da comissão e a associação das mantenedoras concordam que o custo do programa se justifica, porque a bolsa sai bem mais barata que a vaga na universidade pública."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b001",
+   "sentence": 71,
+   "addressed_to": "governo",
+   "answered_by": "b004",
+   "gist": "sensibilizar o Governo a construir o programa junto",
+   "plain": "O Governo vai construir junto este novo programa de bolsas para o estudante carente?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b009",
+   "sentence": 15,
+   "addressed_to": "governo",
+   "answered_by": "b010",
+   "gist": "que pontos críticos tiram a atratividade do Fies",
+   "plain": "Que pontos críticos do Fies hoje tiram a atratividade e fazem o aluno desistir do curso?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b009",
+   "sentence": 25,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o FNDE não veja o projeto como impacto negativo",
+   "plain": "O FNDE pode deixar de ver este projeto apenas como um impacto negativo no Orçamento?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b011",
+   "sentence": 4,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "rever o programa para que o Fies seja bom para todos",
+   "plain": "O Governo vai rever o Fies para que ele seja bom para o aluno e para as instituições?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 45,
+   "gist": "em torno de 36 mil matrículas no Fies hoje",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 46,
+   "gist": "700 mil captações de alunos em 1 ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b001",
+   "sentence": 70,
+   "gist": "impacto de aproximadamente 6,5 bilhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 3,
+   "gist": "36 mil contratos das 112 mil vagas em 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 8,
+   "gist": "3,4 milhões de estudantes atendidos desde 1999",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 9,
+   "gist": "2,8 milhões de contratos ativos no Fies",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 19,
+   "gist": "23,8% dos jovens no ensino superior em 2020",
+   "disputed_by": [
+    {
+     "fala": "b008",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 41,
+   "gist": "mais de 1 milhão de contratos inadimplentes há mais de 1 ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b006",
+   "sentence": 50,
+   "gist": "programas do Governo alcançam 15,5% de quem precisa",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 31,
+   "gist": "90% dos estudantes com renda até 3 salários mínimos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b008",
+   "sentence": 40,
+   "gist": "vaga do Prouni ou Fies custa 80% menos que a pública",
+   "disputed_by": [
+    {
+     "fala": "b016",
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b010",
+   "sentence": 10,
+   "gist": "teto do Fies subiu de 52,8 mil para 60 mil reais",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "setor_privado",
+   "governo"
+  ],
+  "angle": "A matéria escolheu o argumento de que, sem financiamento estudantil sustentável, o país não chega à meta de 33% de jovens no ensino superior.",
+  "omitted": "Ficou de fora a discussão sobre a capilaridade da rede privada e o detalhe dos ajustes que o comitê gestor do Fies já publicou."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O Fies de hoje não cumpre o papel social",
+   "statement_plain": "Depois da mudança de 2017 o Fies virou um empréstimo de banco: o aluno não conclui o curso, fica devendo e nem metade das vagas é preenchida.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b006c3",
+    "b009c2",
+    "b009c3",
+    "b011c1"
+   ],
+   "note": "Junta o autor do projeto, que preside a sessão, e a entidade das mantenedoras: dois lugares diferentes chegando ao mesmo diagnóstico sobre o programa."
+  },
+  {
+   "id": "t2",
+   "title": "O Fies está sendo consertado e volta a funcionar",
+   "statement_plain": "O programa está sendo refocalizado na baixa renda, com teto maior e parcela limitada a 13% da renda do formado, e isso devolve a atratividade.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c2",
+    "b017c2"
+   ],
+   "note": "Não é só a posição do governo: quem mais critica o Fies na sala também reconhece que o programa é importante e que os ajustes em curso valem."
+  },
+  {
+   "id": "t3",
+   "title": "Sem novo programa não se chega à meta",
+   "statement_plain": "O Brasil não vai alcançar a meta de 33% de jovens no ensino superior sem um programa de bolsas para quem não tem como pagar.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c2",
+    "b008c1",
+    "b016c2",
+    "b017c1"
+   ],
+   "note": "Reúne as duas entidades do ensino superior privado e a presidência da comissão em torno do mesmo número da meta nacional."
+  },
+  {
+   "id": "t4",
+   "title": "Quem não pode pagar precisa de bolsa, não de dívida",
+   "statement_plain": "O estudante de renda mais baixa não tem como se endividar para estudar nem pagar depois, e por isso precisa de bolsa integral, e não de financiamento.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b005c1",
+    "b008c2",
+    "b008c3",
+    "b011c2",
+    "b016c3"
+   ],
+   "note": "Cruza a sala: a presidência, o sindicato paulista e a associação nacional das mantenedoras dizem a mesma coisa sobre quem não consegue pagar."
+  },
+  {
+   "id": "t5",
+   "title": "A bolsa privada sai mais barata que a vaga pública",
+   "statement_plain": "O custo de 6,5 bilhões de reais se justifica, porque a bolsa numa instituição privada custa ao Estado uma fração do que custa uma vaga na universidade pública.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b005c2",
+    "b016c1"
+   ],
+   "note": "É uma ideia sobre custo, e não sobre setor: o autor do projeto e a associação das mantenedoras usam o mesmo argumento de comparação de preço."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ABMES",
+   "plain": "associação que reúne as mantenedoras privadas de ensino superior do Brasil",
+   "fala": "b001",
+   "sentence": 6
+  },
+  {
+   "term": "SEMESP",
+   "plain": "sindicato das entidades que mantêm faculdades particulares em São Paulo e em outros Estados",
+   "fala": "b001",
+   "sentence": 7
+  },
+  {
+   "term": "FNDE",
+   "plain": "Fundo Nacional de Desenvolvimento da Educação, autarquia federal que administra recursos e programas da educação",
+   "fala": "b001",
+   "sentence": 8
+  },
+  {
+   "term": "FIES",
+   "plain": "Fundo de Financiamento Estudantil, o programa federal que empresta dinheiro ao estudante para pagar a faculdade particular",
+   "fala": "b001",
+   "sentence": 34
+  },
+  {
+   "term": "PROUNI",
+   "plain": "Programa Universidade para Todos, que dá bolsa integral ou parcial em faculdade particular a estudante de baixa renda",
+   "fala": "b001",
+   "sentence": 38
+  },
+  {
+   "term": "coparticipação",
+   "plain": "parte da mensalidade que o estudante paga do próprio bolso, além do que é financiado",
+   "fala": "b001",
+   "sentence": 50
+  },
+  {
+   "term": "Plano Nacional de Educação",
+   "plain": "lei que fixa as metas da educação brasileira para dez anos, entre elas a de jovens matriculados no ensino superior",
+   "fala": "b001",
+   "sentence": 56
+  },
+  {
+   "term": "mantenedoras",
+   "plain": "as instituições, em geral empresas ou fundações, que mantêm e administram uma faculdade",
+   "fala": "b005",
+   "sentence": 12
+  },
+  {
+   "term": "CadÚnico",
+   "plain": "cadastro do governo federal com as famílias de baixa renda, usado para escolher quem entra nos programas sociais",
+   "fala": "b004",
+   "sentence": 16
+  },
+  {
+   "term": "FG-FIES",
+   "plain": "fundo garantidor do Fies, em que as faculdades depositam dinheiro para cobrir a inadimplência dos financiamentos",
+   "fala": "b006",
+   "sentence": 58
+  },
+  {
+   "term": "taxa de escolarização líquida",
+   "plain": "percentual dos jovens de 18 a 24 anos que estão de fato matriculados no ensino superior",
+   "fala": "b008",
+   "sentence": 21
+  },
+  {
+   "term": "PNAD",
+   "plain": "pesquisa do IBGE que mede renda, trabalho e educação das famílias brasileiras",
+   "fala": "b008",
+   "sentence": 31
+  },
+  {
+   "term": "ENEM",
+   "plain": "Exame Nacional do Ensino Médio, a prova usada para entrar no ensino superior e nos programas de bolsa",
+   "fala": "b010",
+   "sentence": 5
+  },
+  {
+   "term": "Tabela Price",
+   "plain": "forma de calcular as parcelas de um empréstimo em que o valor não muda conforme a renda de quem paga",
+   "fala": "b010",
+   "sentence": 23
+  }
+ ]
+}

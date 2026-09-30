@@ -1,0 +1,1872 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 202,
+ "model": "LLM lendo o prompt hearing-202 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T21:17:42Z",
+ "prompt_sha256": "de5a6c25792673d2e9a187711cb919d70cd5bf075ae392048d3fda098d756820",
+ "sentences_hash": "589dc003220c4b9e",
+ "review": {
+  "pairs_read": 35,
+  "pairs_fixed": 6
+ },
+ "warnings": [
+  "tese t1: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Educação ouviu a associação dos quiropraxistas, os conselhos federais de Medicina e de Fisioterapia e o Ministério da Saúde sobre o Projeto de Lei 114/15, que regulamenta a profissão de quiropraxista. A associação sustentou que a quiropraxia é uma profissão distinta e que só a lei impede os cursos de fim de semana. Os conselhos e o Ministério responderam que o ato já cabe nas profissões regulamentadas e que o problema é de fiscalização.",
+ "stakes": "Estava em jogo o parecer da Comissão de Educação sobre o Projeto de Lei 114/15, que cria a profissão de quiropraxista.",
+ "central_question": "A quiropraxia deve ser regulamentada como profissão própria ou absorvida pela fisioterapia e pela medicina?",
+ "synopsis_plain": "A Câmara debateu um projeto que cria a profissão de quiropraxista, quem trata a coluna com ajustes feitos pelas mãos. A associação da categoria disse que é profissão à parte, com faculdade de 4 a 5 anos, e que sem lei qualquer um faz curso de fim de semana e se diz quiropraxista. Os conselhos de Medicina e de Fisioterapia e o Ministério disseram que isso já cabe nas profissões existentes.",
+ "stakes_plain": "Decidir se a Câmara cria a profissão de quiropraxista ou deixa a prática dentro da fisioterapia e da medicina.",
+ "central_question_plain": "A quiropraxia deve virar uma profissão com lei própria ou continuar dentro da fisioterapia e da medicina?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Nova profissão ou especialidade",
+   "description": "Discute-se se a quiropraxia deve ser regulamentada como profissão própria ou absorvida como especialidade da fisioterapia ou da medicina.",
+   "axis": {
+    "pro": "A quiropraxia é uma profissão distinta e precisa de uma lei própria que a regulamente.",
+    "contra": "A quiropraxia cabe dentro das profissões já regulamentadas, como especialidade ou por portaria.",
+    "pro_plain": "A quiropraxia é uma profissão à parte e precisa de lei própria.",
+    "contra_plain": "A quiropraxia cabe dentro da fisioterapia ou da medicina, sem lei nova."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Formação e cursos de quiropraxia",
+   "description": "Discute-se quantas horas de formação o quiropraxista tem, se os cursos são reconhecidos pelo MEC e o que fazer com os cursos de fim de semana.",
+   "axis": {
+    "pro": "Há graduações de 4 mil horas reconhecidas pelo MEC e o problema são os cursos de fim de semana.",
+    "contra": "Não se deveria autorizar curso de graduação de uma profissão que o país não regulamentou.",
+    "pro_plain": "Existem graduações de quiropraxia reconhecidas pelo MEC, e o problema são os cursos de fim de semana.",
+    "contra_plain": "Não deveria haver curso de graduação para uma profissão que o país não regulamentou."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Segurança da população",
+   "description": "Discute-se se criar mais uma profissão de saúde aumenta ou diminui o risco para quem é atendido.",
+   "axis": {
+    "pro": "Sem regulamentação, qualquer pessoa se diz quiropraxista e a população corre risco.",
+    "contra": "Criar mais uma profissão, com menos horas de formação, aumenta o risco para o paciente.",
+    "pro_plain": "Sem regra, qualquer um se diz quiropraxista e quem corre risco é o paciente.",
+    "contra_plain": "Criar mais uma profissão, com menos horas de formação, aumenta o risco para o paciente."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Ato privativo do fisioterapeuta",
+   "description": "Discute-se se o ajuste articular já é ato privativo do fisioterapeuta, regulamentado desde 1969, ou se é o núcleo de outra profissão.",
+   "axis": {
+    "pro": "O ajuste articular já é recurso privativo do fisioterapeuta e não pede profissão nova.",
+    "contra": "A quiropraxia não se resume ao ajuste articular e não está sujeita a outra profissão.",
+    "pro_plain": "O ajuste da articulação já é do fisioterapeuta desde 1969, por decreto-lei.",
+    "contra_plain": "A quiropraxia é mais do que o ajuste e não depende de outra profissão."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Porta de entrada diagnóstica",
+   "description": "Discute-se quem faz o diagnóstico de entrada do paciente e como o quiropraxista se encaixa na equipe multidisciplinar de saúde.",
+   "axis": {
+    "pro": "Falta definir o diagnóstico de porta de entrada e o lugar do quiropraxista na equipe de saúde.",
+    "contra": "O quiropraxista já trabalha de forma interdisciplinar, encaminhando e recebendo pacientes.",
+    "pro_plain": "Ainda não está claro quem examina o paciente primeiro nem o que o quiropraxista faz na equipe.",
+    "contra_plain": "O quiropraxista já trabalha junto com os outros, mandando e recebendo pacientes."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Regulamentar ou manter o caos",
+   "description": "Discute-se se a falta de regulamentação é o que produz o caos atual ou se o problema é falta de fiscalização.",
+   "axis": {
+    "pro": "Sem lei, o estado atual continua e qualquer um se identifica como quiropraxista.",
+    "contra": "O caos é de fiscalização e de valores pagos, não de falta de profissão regulamentada.",
+    "pro_plain": "Sem lei, tudo continua como está e qualquer um se apresenta como quiropraxista.",
+    "contra_plain": "O que falta é fiscalizar e pagar melhor, não criar mais uma profissão."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Base científica da subluxação",
+   "description": "Discute-se se o complexo de subluxação, termo que o projeto de lei usa, tem base científica comprovada.",
+   "axis": {
+    "pro": "O complexo de subluxação está no texto do projeto e precisa de comprovação científica.",
+    "contra": "A quiropraxia trabalha com base em evidências e o efeito do ajuste é cientificamente descrito.",
+    "pro_plain": "O termo complexo de subluxação está no projeto e ninguém provou que ele existe.",
+    "contra_plain": "A quiropraxia trabalha com evidência, e a ciência explica o efeito do ajuste."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da Comissão de Educação",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata (Alice Portugal. Bloco/PCdoB - BA) e b001.0, em que declara aberta a audiência do requerimento de sua autoria. Ela se identifica como farmacêutica e bioquímica em b013.37",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que analisa os projetos de lei sobre educação e formação"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenador de Democratização do Trabalho em Saúde, na Secretaria de Gestão do Trabalho e da Educação na Saúde",
+   "org": "Ministério da Saúde",
+   "basis": "se identifica em b002.1 e b004.0, e a presidência confirma em b005.3 e b025.2 que ele fala pela Secretaria de Gestão do Trabalho e da Educação na Saúde",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério federal que formula a política de saúde do país e coordena o SUS"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação Brasileira de Quiropraxia",
+   "org": "ABQ",
+   "basis": "apresentado pela presidência em b001.6 e se identifica em b006.3 e b006.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Associação Brasileira de Quiropraxia",
+   "org_plain": "associação que representa os quiropraxistas formados no Brasil e pede a regulamentação da profissão"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Conselheiro do Conselho Federal de Medicina",
+   "org": "CFM",
+   "basis": "apresentado pela presidência em b001.4 e em b007.3. Os conselhos de fiscalização profissional entram aqui como sociedade civil, por representarem uma categoria",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Federal de Medicina",
+   "org_plain": "conselho que registra e fiscaliza os médicos no Brasil e define o que é ato médico"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Conselheiro do Conselho Federal de Fisioterapia e Terapia Ocupacional",
+   "org": "COFFITO",
+   "basis": "apresentado pela presidência em b001.5 e em b009.4. Os conselhos de fiscalização profissional entram aqui como sociedade civil, por representarem uma categoria",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Federal de Fisioterapia e Terapia Ocupacional",
+   "org_plain": "conselho que registra e fiscaliza os fisioterapeutas e os terapeutas ocupacionais no Brasil"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Quiropraxista e representante da PUC de Minas Gerais",
+   "org": "PUC Minas",
+   "basis": "a ata não traz pista de cargo. A presidência o apresenta em b001.16 como representação da quiropraxia de Minas e em b011.4 como representante da Pontifícia Universidade Católica de Minas Gerais, e b006.6 diz que ele atua na profissão há trinta e poucos anos",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "quiropraxista, representando a PUC de Minas Gerais",
+   "org_plain": "universidade católica de Minas Gerais, que prepara a abertura de um curso de quiropraxia"
+  }
+ },
+ "audience": {
+  "estimate": 15,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência registra em b001.12 e b001.32 o esvaziamento da reunião e em b011.1 a ausência dos Deputados. Em b027.1 ela registra a presença da Deputada Cristiane Lopes, e não há registro de palmas nem de delegações",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência sobre o projeto que regulamenta a quiropraxia e defende que o correto seria aproveitar as profissões já regulamentadas, a medicina e a fisioterapia.",
+   "quote": [
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O correto seria aproveitar as profissões já regulamentadas em vez de criar a profissão de quiropraxista.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no Brasil as técnicas podem ser absorvidas pelas profissões já regulamentadas, e daí as zonas cinzentas entre elas",
+     "plain": "No Brasil, o jeito como as profissões são organizadas permite que uma técnica seja absorvida por uma profissão já regulamentada. Daí as zonas cinzentas entre boa parte das profissões de saúde, desde que a equipe multidisciplinar se firmou."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "com o fisiatra na medicina e o fisioterapeuta na fisioterapia, o correto seria aproveitar as profissões já regulamentadas",
+     "plain": "O País já tem o fisiatra, na medicina, e o fisioterapeuta, na fisioterapia, com graduação de 4 anos e meio a 5 anos. Aproveitar essas duas profissões, regulamentadas há quase 1 século e há mais de meio século, seria o mais correto."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há uma circunstância invertida em que cursos são concedidos e diplomas emitidos sem que a profissão seja regulamentada",
+     "plain": "Há uma situação invertida: os cursos são autorizados e os diplomas são entregues sem que a profissão seja regulamentada. Daí o dilema da vida do estudante e do profissional que tem diploma de uma profissão sem regulamentação no Brasil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Ministério da Saúde se identifica e diz que falará no lugar do assessor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao representante do Ministério da Saúde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Informa que o Ministério da Saúde reconhece a técnica, mas não vê necessidade de lei própria, e propõe incluí-la nas portarias das práticas integrativas.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A quiropraxia não precisa de lei própria e caberia como especialidade ou numa portaria do Ministério.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Ministério reconhece a quiropraxia como conhecimento consolidado, mas não vê necessidade de regulamentá-la por lei",
+     "plain": "Reconhecemos a quiropraxia como um conjunto de conhecimentos já consolidados. Mas, na mesma medida, não entendemos que ela precise de regulamentação por lei."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a quiropraxia não precisaria de lei própria e poderia entrar como especialidade da fisioterapia ou da medicina",
+     "plain": "Estudamos o projeto e os documentos que o Congresso nos enviou. Entendemos que a quiropraxia não precisaria de uma lei só dela. Ela poderia entrar como especialidade da fisioterapia ou da medicina."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "para o Ministério e para a OMS a quiropraxia é terapia complementar e caberia nas portarias das práticas integrativas",
+     "plain": "Entendemos, como a OMS, que a quiropraxia é terapia complementar. Existe a Política Nacional de Práticas Integrativas e Complementares, definida por portaria. Dava para incluir nela a quiropraxia e a osteopatia, com todas as regulações."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o órgão técnico e passa a palavra à Associação Brasileira de Quiropraxia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que a quiropraxia é uma profissão distinta, mostra um caso de tetraplegia causado por pessoa sem formação e defende a regulamentação como remédio.",
+   "quote": [
+    110,
+    111,
+    112
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A quiropraxia é uma profissão distinta e precisa ser regulamentada para proteger quem é atendido.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma pessoa sem nenhuma formação se disse quiropraxista, fez o procedimento e o resultado foi uma fratura no pescoço com tetraplegia",
+     "plain": "Quem atendeu não tinha formação nenhuma, nem a que fisioterapeutas e médicos indicam, nem a que nós, quiropraxistas, indicamos. Essa pessoa fez um procedimento e o resultado foi uma fratura no pescoço, que levou à tetraplegia."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      41,
+      42,
+      43
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em nenhum país a quiropraxia fica sujeita a outra profissão, e ela é uma profissão da saúde voltada às disfunções neuromusculoesqueléticas",
+     "plain": "Em outros países a profissão também não é regulamentada, mas em nenhum lugar ela fica sujeita a outra profissão. É uma profissão da saúde, dedicada a avaliar, tratar e prevenir as disfunções do sistema neuromusculoesquelético."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      81
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de um lado cursos de 4 a 5 anos com 4 mil horas-aula, do outro cursos de 3 dias, 100% on-line",
+     "plain": "De um lado, cursos que fazem certo e formam um profissional da saúde em 4 a 5 anos, com 4 mil horas-aula. Do outro, cursos de 3 dias, 100% on-line. Essa é a aberração que temos hoje."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Esclarece que os números do site da Câmara são os que a Comissão tinha desde a última audiência sobre o tema.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Os números publicados pelo site da Câmara são os que a Comissão tinha desde a audiência anterior.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "as informações do site da Câmara vêm das estatísticas que a Comissão tinha desde a última audiência",
+     "plain": "É importante deixar claro que as informações do site da Câmara vêm das estatísticas que tínhamos desde a última audiência realizada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Compara as horas de formação da medicina com as do projeto e pede que se reflita antes de subdividir mais uma profissão na saúde.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Subdividir mais uma profissão na saúde não melhora a assistência e pode encarecer o Sistema Único de Saúde.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a medicina tem 7.260 horas em 6 anos, e com a especialização o profissional passa de 10 mil horas de formação",
+     "plain": "Na medicina são 7.260 horas para virar médico no País, em 6 anos de formação. Com a especialização em neurocirurgia ou em ortopedia de coluna, esse profissional passa de 10 mil horas."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "mesmo o médico com mais de 10 mil horas e o neurocirurgião com 12 mil ainda têm limitação para esse diagnóstico",
+     "plain": "Disseram aqui que em 4 mil horas o quiropraxista adquire essa capacidade. Eu tenho um médico com mais de 10 mil horas e um neurocirurgião que chega a 12 mil horas de formação, e ainda assim eles têm certa limitação."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "já são treze profissões regulamentadas e criar mais uma pode encarecer o SUS sem melhorar a assistência",
+     "plain": "Já temos treze profissões regulamentadas no País. Criar mais uma pode aumentar o tempo de formação e o custo do Sistema Único de Saúde, e não sei se melhora a assistência. Precisamos refletir melhor sobre subdividir profissões."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Conselho Federal de Medicina e passa a palavra ao Conselho Federal de Fisioterapia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Afirma que o ajuste articular já é ato privativo do fisioterapeuta desde 1969 e critica o vitalismo que a quiropraxia usa como base.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24,
+    25
+   ],
+   "open_question": 30,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O ajuste articular já é ato privativo do fisioterapeuta e não justifica uma profissão nova.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ato da quiropraxia é regulamentado desde 1969 e o decreto-lei o põe como atividade privativa do fisioterapeuta",
+     "plain": "O ato da quiropraxia é regulamentado desde 1969. O decreto-lei da nossa profissão diz que executar métodos e técnicas de fisioterapia é atividade privativa do fisioterapeuta, para restaurar e conservar a capacidade física do cliente."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ajuste articular é um recurso de terapia física já usado pelo fisioterapeuta, com efeito sobre a dor e o ganho de amplitude",
+     "plain": "O ajuste articular, que chamam de quiropraxia, é um recurso de terapia física que o fisioterapeuta já usa. É aplicar força numa articulação para fazê-la deslizar, com efeito mecânico e neurofisiológico sobre a dor e o movimento."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a quiropraxia como profissão se apoia no vitalismo, pregando que o ajuste restabelece a inteligência inata e o fluxo de energia vital",
+     "plain": "Pior: as diferenças filosóficas se apoiam no vitalismo. Como profissão, a quiropraxia prega que o ajuste articular restabelece a inteligência inata, o fluxo de energia vital."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lamenta a ausência dos Deputados e abre a palavra ao representante da PUC de Minas Gerais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lembra que o Ministério da Educação já reconheceu os cursos, desde o primeiro, em 1998, e que há quiropraxistas brasileiros com doutorado.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os cursos de quiropraxia são reconhecidos pelo MEC desde 1998 e formam profissionais com pós-graduação.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Educação já informou que os cursos são reconhecidos, e desde o primeiro curso, em 1998, tudo foi sob orientação do MEC",
+     "plain": "O Ministério da Educação não veio porque já se posicionou: os cursos são reconhecidos pelo MEC. E desde o primeiro curso, em 1998, todo o processo de implantação no Brasil foi feito sob orientação do MEC."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a pioneira da quiropraxia no Brasil era fisioterapeuta e concluiu, estudando nos Estados Unidos, que aquilo tinha de ser uma graduação",
+     "plain": "A pioneira da quiropraxia no Brasil é fisioterapeuta e queria montar um curso de especialização. Foi estudar nos Estados Unidos para isso e percebeu que não dava. Daí viu que tinha de ser uma graduação."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      12
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há quiropraxistas brasileiros com doutorado atuando fora do Brasil e reconhecidos pelo nível de educação em quiropraxia",
+     "plain": "Temos vários quiropraxistas brasileiros formados, com doutorado, que atuam até fora do Brasil e são reconhecidos lá fora pelo nível da educação em quiropraxia."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Registra que os conselhos não contestam o fazer e pergunta qual é o diagnóstico de porta de entrada do quiroprata e o que ele faz diante de cirurgia.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta definir o diagnóstico de porta de entrada do quiroprata e o lugar dele na equipe de saúde.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      8
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "as duas categorias regulamentadas não contestam o fazer, que já está previsto numa resolução do Conselho Federal de Fisioterapia",
+     "plain": "As duas categorias regulamentadas, com os seus conselhos de fiscalização, deixaram claro que não contestam o fazer, que já está previsto numa resolução do Conselho Federal de Fisioterapia."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta saber qual é o diagnóstico de porta de entrada do quiroprata e se o paciente passa antes pelo médico",
+     "plain": "Qual o diagnóstico de porta de entrada do quiroprata? O paciente passa antes pelo médico? E qual é o elemento técnico-científico que garante cura, além do alívio da dor?"
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os cursos atuais poderiam virar cursos que especializam fisioterapeutas, e os já formados poderiam completar disciplinas nessas graduações",
+     "plain": "Não daria para transformar os cursos atuais em cursos que especializem fisioterapeutas? E quem já se formou em quiropraxia não poderia completar as disciplinas de diagnóstico de entrada nessas graduações?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente da associação pede a palavra durante a fala da presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede que a questão seja tratada do ponto de vista técnico-científico, porque são os parlamentares que decidem sobre benefício ou risco para a população.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A decisão precisa ser tomada do ponto de vista técnico-científico, porque envolve benefício ou risco para a população.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "a decisão precisa ser técnico-científica, porque está na mão dos parlamentares a chance de a população ter benefício ou risco",
+     "plain": "Eu chamo de técnica, mas respeito o nome que vocês dão à profissão. Precisamos tratar isso do ponto de vista técnico-científico, porque são os parlamentares que decidem se a população terá benefício ou risco para a saúde."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde que a parte do diagnóstico foi retirada do texto e argumenta que não regulamentar apenas mantém o estado caótico que ele mostrou.",
+   "quote": [
+    23,
+    24,
+    25
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não regulamentar mantém o estado caótico em que qualquer um se apresenta como quiropraxista.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a parte do diagnóstico foi removida do texto, porque a quiropraxia não deve impingir nada a outras profissões",
+     "plain": "O que o colega da medicina levantou sobre o diagnóstico já foi retirado do texto, porque a quiropraxia não deve impor nada a outras profissões. Concordamos com ele e reconhecemos a importância da profissão médica."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "manter o status quo não impede os quiropraxistas de atuar, só mantém o estado caótico que ele mostrou na apresentação",
+     "plain": "A decisão é esta: regulamentar ou não a profissão? Não regulamentar não quer dizer que a gente pare de atuar. Os quiropraxistas continuam se formando e atendendo. Só se mantém o estado caótico que eu mostrei aqui."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é uma afronta alguém sem formação nenhuma se identificar como quiropraxista ou como médico, e a falta de regulamentação leva a isso",
+     "plain": "Precisamos interromper esse ciclo, que é uma afronta à saúde. É uma afronta alguém sem formação nenhuma se apresentar como especialista em quiropraxia, como quiropraxista ou como médico. A falta de lei leva a isso."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que a documentação seja enviada oficialmente à Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b018",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente da associação pergunta se pode enviar por e-mail.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o envio seja feito ao e-mail da Comissão de Educação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b020",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente da associação agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do Conselho Federal de Medicina.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Nega que haja caos na reabilitação e propõe discutir a não permissão de abertura de cursos de profissão não regulamentada.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 5,
+   "stance": {
+    "position": "contrario",
+    "claim": "Não há caos na reabilitação, e o que se deveria discutir é não autorizar curso de profissão não regulamentada.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não há caos na assistência: os centros de reabilitação têm formação e excelência, no SUS e no sistema suplementar",
+     "plain": "No Brasil temos respeito pelos centros de reabilitação. A população procura esses locais porque eles têm formação e excelência no serviço, tanto no SUS quanto no sistema suplementar. Não há caos na assistência médica ou fisioterápica."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o que se deveria discutir é não permitir a abertura de cursos de profissão que não é regulamentada no Brasil",
+     "plain": "O que podemos discutir é não permitir a abertura de cursos de profissão que não é regulamentada. Assim ninguém usa como argumento que o MEC já autorizou e que organizações internacionais reconhecem, para virar profissão aqui."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o nível de evidência 1A tem reconhecimento internacional, e sem isso não há por que instituir a prática dentro da medicina",
+     "plain": "Temos uma posição definida. O nível de evidência 1A é reconhecido internacionalmente e temos de aceitá-lo e aplicá-lo. Quando esse nível não existe, não há por que instituir aquilo no Brasil dentro da medicina."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede o envio formal do arrazoado e chama o representante do COFFITO.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Atribui o caos à falta de fiscalização e aos valores vexatórios pagos pelo SUS, e não à falta de mais uma profissão regulamentada.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O caos vem da falta de fiscalização e dos valores pagos, não da falta de mais uma profissão.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o caos vem da falta de fiscalização, e os conselhos não têm como punir quem não é da profissão que eles fiscalizam",
+     "plain": "O caos que vivemos hoje no serviço não vem da falta de profissionais nem da falta de profissão, mas da falta de fiscalização. Um Conselho Regional de Medicina ou de Fisioterapia não tem como punir quem não é da profissão dele."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "segmentar a assistência criando diversas profissões não gera benefício a ninguém",
+     "plain": "Segmentar, dividir, fatiar a assistência desse jeito, criando várias profissões, não traz benefício para ninguém. Muito pelo contrário."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o que o SUS repassa não cobre os custos e os valores pagos são vexatórios, e é por isso que falta assistência",
+     "plain": "O que o SUS repassa não cobre os custos. Os valores pagos aos profissionais são vexatórios. É por isso que a população fica sem assistência, e não por falta de profissional ou de mais uma profissão regulamentada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do Ministério da Saúde para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Defende que o exercício ilegal também seja crime, pede aprofundar a base científica do complexo de subluxação e diz que criar profissões não é a solução.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 9,
+   "stance": {
+    "position": "contrario",
+    "claim": "Criar novas profissões não é a solução, e o projeto traz um termo sem comprovação científica.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o exercício ilegal da medicina é crime no Código Penal e o da fisioterapia e da quiropraxia também deveria ser",
+     "plain": "O exercício ilegal da medicina é crime no Código Penal. Acredito que o mesmo deveria valer para o exercício ilegal da fisioterapia e da quiropraxia. Esse projeto de lei não resolve esse problema."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o termo complexo de subluxação está na redação do projeto e o Congresso não deveria aprovar uma lei com um termo não comprovado",
+     "plain": "Pode ser que outros especialistas tenham provas do complexo de subluxação. Mas, como o termo está na redação do projeto de lei, precisamos nos aprofundar nele. Não gostaria que o Congresso aprovasse uma lei com termo não comprovado."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "para o Ministério criar novas profissões não é a solução, e hoje há uma fila muito grande esperando regulamentação",
+     "plain": "Mantemos a nossa posição contra essa composição da equipe multidisciplinar. Acreditamos que criar novas profissões não é a solução, até porque hoje há uma fila muito grande esperando regulamentação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra presença, anuncia uma segunda audiência antes da votação e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 23,
+   "from_claim": "b004c2",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A presidência disse que o correto seria aproveitar as profissões já regulamentadas, e o Ministério da Saúde chega à mesma conclusão: a quiropraxia caberia como especialidade da fisioterapia ou da medicina."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 41,
+   "to_sentence": 20,
+   "from_claim": "b006c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "A presidência disse que as técnicas podem ser absorvidas pelas profissões já regulamentadas, e a associação responde que em nenhum país a quiropraxia fica sujeita a outra profissão."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 42,
+   "to_sentence": 9,
+   "from_claim": "b006c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "O Ministério da Saúde propôs incluir a quiropraxia como especialidade da fisioterapia ou da medicina, e a associação sustenta que ela é uma profissão pela própria definição."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 78,
+   "from_claim": "b007c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A associação disse que a reportagem do site da Câmara estava desatualizada sobre o número de cursos, e a presidência responde que aqueles eram os números da audiência anterior."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 14,
+   "to_sentence": 81,
+   "from_claim": "b008c2",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A associação apresentou a graduação de 4 mil horas como a formação adequada, e o Conselho Federal de Medicina responde que nem o médico, com mais de 10 mil horas, fica livre de limitação."
+  },
+  {
+   "from": "b008",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 23,
+   "from_claim": "b008c3",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A presidência defendeu aproveitar as profissões já regulamentadas, e o Conselho Federal de Medicina pede que se reflita melhor antes de subdividir especialidades e profissões na saúde."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 41,
+   "from_claim": "b010c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A associação sustentou que a quiropraxia é profissão à parte, e o Conselho Federal de Fisioterapia responde que o ajuste articular já é recurso de terapia física usado pelo fisioterapeuta."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 9,
+   "from_claim": "b010c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O Ministério da Saúde disse que a quiropraxia caberia como especialidade, e o Conselho Federal de Fisioterapia vai além: o ato já é regulamentado desde 1969 como privativo do fisioterapeuta."
+  },
+  {
+   "from": "b012",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 25,
+   "from_claim": "b012c1",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "A presidência falou em cursos concedidos sem a profissão regulamentada, e o representante da PUC de Minas responde que os cursos são reconhecidos pelo MEC desde o primeiro, em 1998."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 8,
+   "from_claim": "b012c3",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "O Conselho Federal de Medicina comparou as horas de formação de cada profissão, e o representante da PUC de Minas lembra que há quiropraxistas brasileiros com doutorado reconhecidos fora do país."
+  },
+  {
+   "from": "b013",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 12,
+   "from_claim": "b013c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "O Conselho Federal de Fisioterapia disse que o ajuste articular já é recurso do fisioterapeuta, e a presidência registra que as duas categorias regulamentadas não contestam o fazer."
+  },
+  {
+   "from": "b013",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 15,
+   "to_sentence": 43,
+   "from_claim": "b013c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A associação definiu a quiropraxia como a profissão que avalia e trata as disfunções neuromusculoesqueléticas, e a presidência pergunta qual é o diagnóstico de porta de entrada do quiroprata."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 19,
+   "to_sentence": 13,
+   "from_claim": "b016c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O Conselho Federal de Medicina se assustou com o diagnóstico diferencial previsto no projeto, e a associação responde que essa parte já foi retirada do texto."
+  },
+  {
+   "from": "b016",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 29,
+   "to_sentence": 12,
+   "from_claim": "b016c3",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O Conselho Federal de Fisioterapia sustentou que o ajuste já é do fisioterapeuta, e a associação responde que hoje qualquer um se apresenta como especialista em quiropraxia sem formação nenhuma."
+  },
+  {
+   "from": "b022",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 13,
+   "from_claim": "b022c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "A associação mostrou um caso de tetraplegia para dizer que a situação é caótica, e o Conselho Federal de Medicina responde que não há caos nos centros de reabilitação, procurados pela excelência."
+  },
+  {
+   "from": "b022",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 4,
+   "from_claim": "b022c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "O representante da PUC de Minas disse que o MEC já reconheceu os cursos, e o Conselho Federal de Medicina responde que o que se deveria discutir é não permitir a abertura desses cursos."
+  },
+  {
+   "from": "b024",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 24,
+   "from_claim": "b024c1",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "A associação disse que sem regulamentação o estado caótico se mantém, e o Conselho Federal de Fisioterapia responde que o caos vem da falta de fiscalização, não da falta de profissão."
+  },
+  {
+   "from": "b024",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 20,
+   "from_claim": "b024c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "O Conselho Federal de Medicina pediu que se refletisse sobre subdividir profissões, e o Conselho Federal de Fisioterapia diz que fatiar a assistência não traz benefício para ninguém."
+  },
+  {
+   "from": "b026",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 20,
+   "from_claim": "b026c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "O Conselho Federal de Fisioterapia afirmou que a base da quiropraxia é o vitalismo, e o Ministério da Saúde pede que isso seja aprofundado, porque o termo está na redação do projeto."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 12,
+   "from_claim": "b026c2",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "O Conselho Federal de Medicina disse que sem nível de evidência 1A não há por que instituir a prática, e o Ministério da Saúde não quer uma lei com termo não comprovado."
+  },
+  {
+   "from": "b026",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 23,
+   "from_claim": "b026c3",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "A presidência defendeu aproveitar as profissões já regulamentadas, e o Ministério da Saúde fecha dizendo que criar novas profissões não é a solução, com uma fila grande esperando."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b004",
+    "b008",
+    "b024",
+    "b026"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c2",
+    "b008c3",
+    "b024c2",
+    "b026c3"
+   ],
+   "note": "A presidência, o Ministério da Saúde, o Conselho Federal de Medicina e o Conselho Federal de Fisioterapia concordam que não se deve criar uma profissão nova para o que já cabe nas regulamentadas."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b008",
+    "b022"
+   ],
+   "claims": [
+    "b001c3",
+    "b008c1",
+    "b022c2"
+   ],
+   "note": "A presidência e o Conselho Federal de Medicina concordam que autorizar curso de graduação de uma profissão que o país não regulamentou cria uma situação invertida."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b022",
+    "b024",
+    "b026"
+   ],
+   "claims": [
+    "b022c1",
+    "b024c1",
+    "b024c3",
+    "b026c1"
+   ],
+   "note": "Os dois conselhos e o Ministério da Saúde concordam que o problema é de fiscalização e de punição ao exercício ilegal, e não de falta de uma profissão regulamentada."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b010",
+    "b022",
+    "b026"
+   ],
+   "claims": [
+    "b010c3",
+    "b022c3",
+    "b026c2"
+   ],
+   "note": "O Conselho Federal de Fisioterapia, o Conselho Federal de Medicina e o Ministério da Saúde concordam que o texto do projeto carrega um termo sem comprovação científica."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b013",
+   "sentence": 15,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b016",
+   "gist": "qual é o diagnóstico de porta de entrada do quiroprata",
+   "plain": "Quem faz o diagnóstico de entrada do paciente antes de ele chegar ao quiroprata?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b013",
+   "sentence": 19,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "como o quiroprata age se o paciente precisar de cirurgia",
+   "plain": "Como o quiroprata age quando o paciente precisa de cirurgia ou de remédio?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b010",
+   "sentence": 30,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "diferenciar profissões por diferenças filosóficas sem amparo científico",
+   "plain": "Vamos criar uma profissão separada por causa de diferenças filosóficas sem base científica?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b022",
+   "sentence": 5,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "não permitir a abertura de cursos de profissão não regulamentada",
+   "plain": "A Câmara vai impedir a abertura de cursos de graduação de profissão que não é regulamentada?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b026",
+   "sentence": 9,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "confirmação de base científica para o complexo de subluxação",
+   "plain": "Alguém pode comprovar cientificamente o complexo de subluxação que está no projeto de lei?",
+   "theme": "d7",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 12,
+   "gist": "27 profissões pediram regulamentação e poucas foram regulamentadas",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 45,
+   "gist": "mais de 200 mil fisioterapeutas e 500 mil médicos no País",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 38
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 46,
+   "gist": "quiropraxistas bacharéis fazem 45% dos atendimentos no SUS",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 48,
+   "gist": "quase 90% dos atendidos avaliam o serviço como excelente",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 56,
+   "gist": "a formação do quiropraxista pede cerca de 4 mil horas",
+   "disputed_by": [
+    {
+     "fala": "b008",
+     "sentence": 15
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 72,
+   "gist": "há cinco cursos de quiropraxia no Brasil, em Estados diferentes",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 102,
+   "gist": "a Resolução COFFITO nº 220, de 2001, pedia 1.500 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 8,
+   "gist": "a medicina tem 7.260 horas em 6 anos de formação",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 18,
+   "gist": "já são treze profissões regulamentadas no País",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 9,
+   "gist": "o ato da quiropraxia é regulamentado desde 1969",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 38,
+   "gist": "são quase 400 mil fisioterapeutas no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b012",
+   "sentence": 6,
+   "gist": "o primeiro curso de quiropraxia no Brasil é de 1998",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o próprio racha e mostrou lado a lado quem defende a lei própria e quem sustenta que a quiropraxia cabe nas profissões já regulamentadas.",
+  "omitted": "Ficaram de fora as perguntas da presidência sobre o diagnóstico de porta de entrada e o debate sobre a base científica do complexo de subluxação, que o Ministério da Saúde pediu para aprofundar."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A quiropraxia é uma profissão, não uma técnica",
+   "statement_plain": "A quiropraxia é uma profissão da saúde com formação própria, e em nenhum país ela fica sujeita a outra profissão.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b006c3",
+    "b006c1",
+    "b012c1",
+    "b012c3"
+   ],
+   "note": "Junta a associação da categoria e o representante de uma universidade que prepara curso, dois lados de fora dos conselhos, em torno de uma ideia e não de um setor."
+  },
+  {
+   "id": "t2",
+   "title": "O que já é regulamentado dá conta",
+   "statement_plain": "A quiropraxia cabe dentro da fisioterapia ou da medicina, que já têm formação maior, e não é preciso criar mais uma profissão.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario",
+    "d3": "contrario"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c2",
+    "b008c3",
+    "b024c2",
+    "b008c1",
+    "b008c2"
+   ],
+   "note": "É a tese que mais cruza a sala: a presidência, o Ministério da Saúde e os dois conselhos, que divergem entre si em outros pontos, chegam juntos aqui."
+  },
+  {
+   "id": "t3",
+   "title": "O ajuste articular já é do fisioterapeuta",
+   "statement_plain": "O ajuste articular é um recurso de terapia física que o fisioterapeuta já usa, regulamentado desde 1969 por decreto-lei.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c2",
+    "b010c3",
+    "b022c3",
+    "b026c2"
+   ],
+   "note": "Divide de um jeito interessante: o Ministério da Saúde, que não é conselho de classe, acaba do mesmo lado do Conselho Federal de Fisioterapia na dúvida sobre a base científica."
+  },
+  {
+   "id": "t4",
+   "title": "Sem lei, o caos continua",
+   "statement_plain": "Enquanto não houver lei, qualquer pessoa sem formação nenhuma pode se apresentar como quiropraxista, e é a população que corre risco.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d3": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b016c2",
+    "b016c3",
+    "b006c1",
+    "b012c1"
+   ],
+   "note": "É a ideia que a associação e o representante da universidade sustentam juntos: não regulamentar não faz os quiropraxistas sumirem, só mantém o cenário dos cursos de fim de semana."
+  },
+  {
+   "id": "t5",
+   "title": "O problema é fiscalizar, não regulamentar",
+   "statement_plain": "O caos vem da falta de fiscalização e dos valores pagos aos profissionais, e criar mais uma profissão não resolve isso.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "contrario",
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b022c1",
+    "b024c1",
+    "b024c3",
+    "b026c1",
+    "b026c3"
+   ],
+   "note": "Opõe-se à tese da associação dentro do mesmo diagnóstico: todos veem o mesmo problema na sala, e a discordância é sobre o remédio."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "quiropraxia",
+   "fala": "b001",
+   "sentence": 19,
+   "plain": "prática de saúde que trata as disfunções das articulações e da coluna com o ajuste feito pelas mãos"
+  },
+  {
+   "term": "osteopatia",
+   "fala": "b001",
+   "sentence": 19,
+   "plain": "prática de saúde que usa manipulação do corpo para tratar dores e problemas de movimento"
+  },
+  {
+   "term": "fisiatra",
+   "fala": "b001",
+   "sentence": 23,
+   "plain": "médico especialista em reabilitar quem perdeu movimento ou função do corpo"
+  },
+  {
+   "term": "COFFITO",
+   "fala": "b001",
+   "sentence": 5,
+   "plain": "Conselho Federal de Fisioterapia e Terapia Ocupacional, que registra e fiscaliza esses profissionais"
+  },
+  {
+   "term": "ABQ",
+   "fala": "b001",
+   "sentence": 6,
+   "plain": "Associação Brasileira de Quiropraxia, a entidade que representa os quiropraxistas formados"
+  },
+  {
+   "term": "OMS",
+   "fala": "b004",
+   "sentence": 11,
+   "plain": "Organização Mundial da Saúde, agência da ONU que orienta as políticas de saúde no mundo"
+  },
+  {
+   "term": "Política Nacional de Práticas Integrativas e Complementares",
+   "fala": "b004",
+   "sentence": 14,
+   "plain": "política do SUS que oferece práticas como acupuntura e fitoterapia ao lado do tratamento convencional"
+  },
+  {
+   "term": "portaria",
+   "fala": "b004",
+   "sentence": 14,
+   "plain": "ato que um ministério publica para criar regra, sem precisar passar pelo Congresso"
+  },
+  {
+   "term": "sistema neuromusculoesquelético",
+   "fala": "b006",
+   "sentence": 43,
+   "plain": "o conjunto de nervos, músculos, ossos e articulações que faz o corpo se mover"
+  },
+  {
+   "term": "decreto-lei",
+   "fala": "b010",
+   "sentence": 10,
+   "plain": "norma com força de lei editada pelo Executivo em regimes anteriores à Constituição de 1988"
+  },
+  {
+   "term": "ajuste articular",
+   "fala": "b010",
+   "sentence": 12,
+   "plain": "aplicação rápida de força numa articulação para fazê-la deslizar e aliviar a dor"
+  },
+  {
+   "term": "vitalismo",
+   "fala": "b010",
+   "sentence": 20,
+   "plain": "ideia antiga de que existe uma energia vital no corpo, além dos processos físicos e químicos"
+  },
+  {
+   "term": "complexo subluxação",
+   "fala": "b010",
+   "sentence": 32,
+   "plain": "teoria da quiropraxia de que um bloqueio na articulação atrapalha a energia vital e causa doença"
+  },
+  {
+   "term": "TUSS",
+   "fala": "b010",
+   "sentence": 43,
+   "plain": "tabela que padroniza os nomes e códigos dos procedimentos cobrados nos planos de saúde"
+  },
+  {
+   "term": "nível de evidência 1A",
+   "fala": "b022",
+   "sentence": 9,
+   "plain": "o grau mais forte de prova científica, vindo de revisões de vários estudos bem conduzidos"
+  }
+ ]
+}

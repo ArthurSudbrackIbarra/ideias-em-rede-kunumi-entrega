@@ -1,0 +1,1517 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 204,
+ "model": "LLM lendo o prompt hearing-204 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:51:03Z",
+ "prompt_sha256": "09ef9f31c4f4466e6d2347982cc180a25fc2c7147863b3d96f7da419850e7ac1",
+ "sentences_hash": "139650a97763caac",
+ "review": {
+  "pairs_read": 23,
+  "pairs_fixed": 8
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A audiência discutiu como ampliar o acesso ao diagnóstico e ao tratamento da distonia no sistema público de saúde. Neurologistas descreveram um diagnóstico que demora anos por falta de profissionais treinados, duas pacientes contaram a própria jornada e institutos pediram políticas públicas para doenças crônicas e raras. A reunião foi convocada por requerimento de quem presidiu a sessão.",
+ "stakes": "Se o SUS vai passar a garantir diagnóstico precoce, toxina botulínica, cirurgia, exames genéticos e reabilitação para quem tem distonia.",
+ "central_question": "O que falta para uma pessoa com distonia ter diagnóstico e tratamento no SUS?",
+ "synopsis_plain": "A audiência discutiu o que falta para quem tem distonia conseguir diagnóstico e tratamento na rede pública. A distonia causa contrações musculares que a pessoa não controla. Os médicos disseram que muitos profissionais não conhecem a doença e que o diagnóstico demora anos. Duas pacientes contaram o que passaram até descobrir o que tinham.",
+ "stakes_plain": "Se a rede pública vai passar a oferecer diagnóstico cedo, a aplicação da toxina botulínica, a cirurgia e a reabilitação para quem tem distonia.",
+ "central_question_plain": "O que falta para quem tem distonia conseguir diagnóstico e tratamento na rede pública de saúde?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Conhecimento sobre a distonia",
+   "description": "Discute-se se o maior obstáculo é o desconhecimento da doença entre leigos e profissionais de saúde e como ampliar essa informação.",
+   "axis": {
+    "pro": "É preciso ampliar a informação sobre a distonia e capacitar os profissionais de saúde.",
+    "contra": "O obstáculo não é a falta de informação, e sim a falta de serviços e de dinheiro.",
+    "pro_plain": "O primeiro passo é fazer a doença ser conhecida, por quem cuida e por quem tem.",
+    "contra_plain": "Informação não resolve, o que falta é serviço e dinheiro na rede pública."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Demora do diagnóstico",
+   "description": "Discute-se quanto tempo uma pessoa leva até saber que tem distonia e o que essa demora custa a ela e ao sistema de saúde.",
+   "axis": {
+    "pro": "O diagnóstico demora anos e essa demora deixa sequelas evitáveis e gastos desnecessários.",
+    "contra": "A demora é própria de uma doença difícil de reconhecer e pouco se pode fazer contra ela.",
+    "pro_plain": "A demora até o diagnóstico deixa marcas que poderiam ser evitadas e sai caro para todos.",
+    "contra_plain": "É uma doença difícil de reconhecer, então a demora é quase inevitável."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Acesso ao tratamento no SUS",
+   "description": "Discute-se se a rede pública deve garantir toxina botulínica, cirurgia, exames e reabilitação para quem tem distonia, e a que custo.",
+   "axis": {
+    "pro": "O SUS precisa garantir toxina botulínica, cirurgia, exames e reabilitação para quem tem distonia.",
+    "contra": "Esses tratamentos custam caro demais para serem oferecidos a todos na rede pública.",
+    "pro_plain": "A rede pública tem de oferecer o remédio, a cirurgia, os exames e a reabilitação.",
+    "contra_plain": "Esses tratamentos custam caro demais para a rede pública oferecer a todo mundo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Equipe de várias áreas",
+   "description": "Discute-se se cuidar de distonia exige uma equipe de vários profissionais, e não apenas o neurologista e o remédio.",
+   "axis": {
+    "pro": "O cuidado da distonia exige uma equipe de várias áreas, com reabilitação e apoio psicológico.",
+    "contra": "O neurologista e o remédio dão conta do cuidado da distonia.",
+    "pro_plain": "Cuidar de distonia exige um time de várias áreas, não só o neurologista.",
+    "contra_plain": "O neurologista e o remédio já dão conta do cuidado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "A distonia é uma doença rara?",
+   "description": "Discute-se se a distonia deve ser tratada como doença rara ou se ela atinge muito mais gente do que esse rótulo sugere.",
+   "axis": {
+    "pro": "A distonia é uma doença rara e entra nas políticas voltadas às doenças raras.",
+    "contra": "A distonia está longe de ser rara, e na infância ela não é rara.",
+    "pro_plain": "A distonia é uma doença rara e deve entrar nas políticas para doenças raras.",
+    "contra_plain": "A distonia atinge muito mais gente do que se pensa, e na infância não é rara."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Tratar sem cura e incluir",
+   "description": "Discute-se o que fazer por quem tem uma doença que não tem cura, e se o tratamento inclui o direito à educação e ao trabalho.",
+   "axis": {
+    "pro": "Mesmo sem cura, é preciso tratar, reduzir complicações e garantir educação e trabalho.",
+    "contra": "Se a doença não tem cura, não há o que fazer pelo paciente.",
+    "pro_plain": "Mesmo sem cura, dá para reduzir a dor e as complicações e dar de volta uma vida.",
+    "contra_plain": "Se não tem cura, não há o que fazer pela pessoa."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência pública, deputada federal pelo Acre",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata e identificada como Deputada Meire Serafim em b001.7",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Saúde da Câmara dos Deputados, que acompanha as políticas de saúde"
+  },
+  "s02": {
+   "role": "convidado",
+   "cargo": "Neurologista",
+   "org": null,
+   "basis": "anunciado pela presidência em b001.15 e b001.22, com participação virtual, sem instituição declarada",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "neurologista",
+   "org_plain": null
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Neurologista, especialista em transtornos de movimento",
+   "org": "Hospital das Clínicas da USP",
+   "basis": "apresenta-se em b004.3 e b004.4 como especialista do HC da USP, na equipe do Grupo de Transtornos de Movimento",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "neurologista do Hospital das Clínicas da USP",
+   "org_plain": "hospital público de São Paulo ligado à Universidade de São Paulo, onde se formam especialistas"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Neurologista infantil, especialista em distúrbios de movimento pediátricos",
+   "org": "Rede Sarah",
+   "basis": "apresenta-se em b006.9 e é referida como a neuropediatra do Sarah em b014.9",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "neurologista infantil, da Rede Sarah",
+   "org_plain": "rede de hospitais públicos de reabilitação, conhecida como Sarah Kubitschek"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença anunciada pela presidência em b001.20 e registro da ata como Bloco/UNIÃO - SP",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo União Brasil de São Paulo",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais fazem as leis"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Instituto Distonia Saúde",
+   "org": "Instituto Distonia Saúde",
+   "basis": "apresentada pela presidência em b009.2 e confirmada em b010.36",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Distonia Saúde",
+   "org_plain": "instituto de pacientes que reúne informação sobre distonia e liga as pessoas a médicos especialistas"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Conselheira Fiscal do Instituto Distonia Saúde, paciente de distonia",
+   "org": "Instituto Distonia Saúde",
+   "basis": "apresentada pela presidência em b011.3 e confirmada em b012.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Distonia Saúde, paciente de distonia",
+   "org_plain": "instituto de pacientes que reúne informação sobre distonia e liga as pessoas a médicos especialistas"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Presidente do Instituto Vidas Raras",
+   "org": "Instituto Vidas Raras",
+   "basis": "apresentada pela presidência em b013.3 como Vice-Presidente do Instituto Vidas Raras",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Vidas Raras",
+   "org_plain": "organização que há mais de 20 anos trabalha com pessoas que têm doenças raras"
+  }
+ },
+ "audience": {
+  "estimate": 35,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.8
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   },
+   {
+    "role": "mesa",
+    "share": 0.05
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "a ata registra palmas em cinco falas, a deputada visitante cumprimenta os convidados presentes em b008.3 e a neurologista menciona pacientes sentados no plenário em b004.62",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o acesso ao tratamento da distonia no SUS e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Explica o que são as distonias e aponta os gargalos do acesso: profissionais sem treino, poucos neurologistas e de reabilitação no SUS e o custo da toxina botulínica.",
+   "quote": [
+    45,
+    46,
+    47
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O acesso ao tratamento da distonia no SUS esbarra na falta de profissionais, no custo da toxina botulínica e na rede de reabilitação.",
+    "sentence": 53
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      45,
+      46
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o fato de ser doença rara torna o diagnóstico difícil e grande parte dos pacientes leva anos até ser diagnosticada",
+     "plain": "Por ser uma doença rara, a distonia é especialmente difícil de diagnosticar, porque muitos profissionais de saúde não foram treinados para reconhecê-la a tempo. Na prática, grande parte dos pacientes leva anos até ser diagnosticada."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      56
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "faltam no SUS médicos e neurologistas e também profissionais de reabilitação em todas as áreas",
+     "plain": "Faltam profissionais no SUS, por exemplo médicos e neurologistas, e faltam também profissionais de reabilitação em todas as áreas."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      58,
+      59,
+      60
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a toxina botulínica tem custo alto e o planejamento do SUS precisa levar em conta esse custo e a rede de reabilitação",
+     "plain": "A outra questão é o custo da toxina botulínica, um medicamento relativamente caro. O planejamento tem de levar isso em conta, e também o acesso à rede de reabilitação, que exige estrutura e planejamento no SUS."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Heitor Felipe Lima e passa a palavra à neurologista Sara Casagrande.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que a distonia é mais frequente do que se pensava e defende que o primeiro passo é ampliar a informação sobre a doença no País.",
+   "quote": [
+    27,
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5
+   ],
+   "open_question": 124,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Antes do acesso a este ou aquele tratamento, é preciso ampliar o conhecimento sobre a distonia entre leigos e profissionais de saúde.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há em média 65 mil distônicos no Brasil e os novos estudos mostram que a doença não é tão rara quanto se pensava",
+     "plain": "Segundo levantamento do Ministério da Saúde, há em média 65 mil distônicos no Brasil. Antigamente a doença era considerada raríssima, com 7 pacientes a cada 100 mil habitantes, e os novos estudos mostram que não é isso."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o primeiro item dessa força-tarefa é o conhecimento, ampliando a informação sobre a doença para leigos e profissionais",
+     "plain": "Nessa força-tarefa, acho que em primeiro lugar deveria estar o conhecimento. A ideia não é só acesso a um tratamento ou outro, é acesso ao conhecimento. É ampliar no País a informação sobre essa doença, para leigos e profissionais de saúde."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      82,
+      83
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "poucos lugares têm acesso à toxina botulínica, que é cara porque é importada, e há poucos médicos que sabem aplicá-la",
+     "plain": "Poucos lugares têm acesso à toxina botulínica, que foi um marco na vida desses pacientes e segue sendo o tratamento principal. É um remédio caro, porque é importado, e temos poucos médicos que sabem aplicá-lo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Sara Casagrande e passa a palavra a Patricia Dumke.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que na infância a distonia não é rara, porque a principal causa é a paralisia cerebral, e defende tratar mesmo quando não há cura.",
+   "quote": [
+    163,
+    164,
+    165
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Na infância a distonia não é uma doença rara e atinge muitas crianças e adolescentes.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "crianças e adolescentes têm muita distonia e na infância ela não é uma doença rara",
+     "plain": "Sim, crianças e adolescentes têm distonia, e muita. Aqui eu divirjo um pouco dos colegas, porque na infância a distonia não é uma doença rara, infelizmente."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a principal causa de distonia na infância é a paralisia cerebral, que não tem nada de rara",
+     "plain": "A principal causa de distonia na infância e na adolescência é, de longe, a paralisia cerebral, que não tem nada de rara. A estimativa mundial de anos atrás, muito abaixo da real, era de 1 para 2 mil nascidos vivos."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      121,
+      122,
+      123
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "numa doença crônica o que se faz é diminuir sintomas e melhorar a qualidade de vida, sem abandonar o paciente",
+     "plain": "Numa doença crônica, qual é o raciocínio? Diminuir sintomas, dar conforto, reduzir complicações e melhorar a qualidade de vida pelo tempo que for possível. E não abandonamos o paciente só porque a condição não tem cura."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Patricia Möller e concede a palavra à deputada Rosângela Moro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe uma cadeira obrigatória sobre doenças de origem genética nos cursos superiores, assento das associações na CONITEC e capacitação da porta de entrada do SUS.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16
+   ],
+   "open_question": 30,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso capacitar a porta de entrada do SUS e ampliar a informação para que o diagnóstico seja mais rápido.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "saúde não é apenas cura, e havendo tratamento que melhore a qualidade de vida é preciso fornecê-lo",
+     "plain": "Concordo, doutora: saúde não é apenas cura, é qualidade de vida. Se temos tratamentos que melhoram essa qualidade de vida, precisamos sim fornecê-los, até porque a doença envolve toda a família."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "falta nos cursos superiores uma cadeira sobre doenças raras, que são de 6 mil a 8 mil",
+     "plain": "Preocupa-me que não exista, nos cursos superiores, uma cadeira sobre doenças raras. São de 6 mil a 8 mil doenças raras, e é claro que elas não vão ser todas estudadas no curso de medicina, mas deve haver um denominador comum."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso capacitar a porta de entrada do SUS e ampliar a informação para o diagnóstico ser mais rápido",
+     "plain": "É preciso defender a rapidez do diagnóstico e, para isso, capacitar a porta de entrada do SUS. Forças-tarefas como esta, audiências públicas e um dia de sensibilização ajudam a doença a ser conhecida e o paciente a melhorar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à deputada Rosângela Moro e passa a palavra a Maria Nilde Soares.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Conta que passou por sete neurologistas em 4 anos e meio até ser diagnosticada e que a demora deixou sequelas evitáveis e gastos ao SUS.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Ela passou por sete neurologistas em 4 anos e meio até ser diagnosticada, e o atraso deixou sequelas evitáveis.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ela foi a sete neurologistas em 4 anos e meio até encontrar um médico que a diagnosticasse",
+     "plain": "Como o sintoma não se resolvia, procurei um neurologista. Fui a sete neurologistas clínicos, em 4 anos e meio, até encontrar um médico que me diagnosticou. Vocês sabem o que são 4 anos e meio sem saber o que se tem?"
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a demora tira emprego e dignidade, deixa sequelas evitáveis e gera gastos desnecessários para o SUS",
+     "plain": "Você perde o emprego, perde pessoas, paciência, tempo e, acima de tudo, a dignidade, e ganha sequelas que o diagnóstico e o tratamento precoces evitariam. E gera gastos desnecessários para o SUS."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "eles são vítimas de um diagnóstico errado e tardio e estão tentando mudar essa realidade",
+     "plain": "Nós somos vítimas de um diagnóstico errado, tardio. O que estamos tentando fazer aqui é mudar essa realidade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Maria Nilde Soares e passa a palavra a Kedna Souza Pereira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata que levou anos e muitas emergências até descobrir que tinha câimbra do escrivão, e cobra ampliação do tratamento e capacitação dos profissionais.",
+   "quote": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "open_question": 146,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Ela levou anos e muitas idas à emergência até ter o diagnóstico de câimbra do escrivão e começar o tratamento.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ela foi muitas vezes às emergências de hospitais públicos, saía com tala no braço e não era diagnosticada",
+     "plain": "Fui muitas vezes às emergências de hospitais públicos. Quase sempre eu saía com tala no braço e tomava injeção para dor, mas não era diagnosticada."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ela teve de deixar a profissão de cabeleireira porque não conseguia mais exercê-la",
+     "plain": "Comecei a ter dificuldades no trabalho para fazer as minhas atividades como cabeleireira, até que tive de mudar de profissão. Eu já não suportava mais exercer a profissão e entrei para a área contábil."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      102,
+      103
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ela queria que o médico soubesse o que é distonia quando o paciente chega ao hospital e diz que tem",
+     "plain": "Eu gostaria que, quando essas pessoas chegassem a um hospital e dissessem ao médico que têm distonia, ele não perguntasse o que é distonia. Eu queria que o médico soubesse o que é distonia."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Kedna Pereira e concede a palavra a Amira Awada, do Instituto Vidas Raras.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende que as doenças crônicas, raras ou não, sejam acompanhadas pelo poder público, com tratamento integral e direito à educação e ao trabalho.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As doenças crônicas, raras ou não, não devem ser negligenciadas pelo poder público.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as doenças crônicas, raras ou não, devem ser acompanhadas e tratadas para o paciente ser incluído na sociedade",
+     "plain": "Como disse a neuropediatra do Sarah, as doenças crônicas, raras ou não, são complexas, mas o poder público não pode deixá-las de lado. Elas devem ser acompanhadas e tratadas, para que os pacientes tenham qualidade de vida e sejam incluídos."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      7
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a falta de política pública agrava a doença e traz ônus maior ao poder público, porque o paciente volta ao serviço",
+     "plain": "A dificuldade de acesso a políticas públicas para essas doenças agrava as condições e sai mais caro para o poder público, porque quem não tem tratamento adequado volta ao serviço por causa das complicações da doença não tratada."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as políticas públicas sobre doenças raras precisam ser mais completas e atender essas pessoas de maneira integral",
+     "plain": "O nosso empenho é que as políticas públicas para as doenças raras fiquem cada vez mais completas e atendam de maneira integral o que essas pessoas precisam."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre as considerações finais e passa a palavra a Heitor Felipe Lima.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O neurologista agradece o convite e diz que foi interessante ver como funciona uma audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Patricia Dumke Möller.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A neurologista infantil agradece e diz que há muito trabalho pela frente e muita gente disposta a fazê-lo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Maria Nilde Soares.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra que quem tem distonia precisa de sete ou oito médicos e diz que a informação salva vidas e precisa chegar a todo o Brasil.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem tem distonia precisa de uma equipe de vários profissionais, e a informação precisa chegar a todo o Brasil.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem tem distonia não tem um médico só, tem sete ou oito, na prática uma equipe",
+     "plain": "Quem tem distonia não tem um médico só. São sete ou oito médicos, na prática uma equipe de várias áreas."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a informação salva vidas e é preciso divulgar, falar e repetir o que é a distonia",
+     "plain": "A informação salva vidas. Temos de divulgar, falar e repetir o que é a distonia."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Sara Casagrande.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A neurologista agradece o espaço e diz que a reunião é uma conquista e um começo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Kedna Souza Pereira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A conselheira do instituto agradece a quem a apoiou no trabalho e no tratamento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que a audiência vai fundamentar um projeto de lei sobre o mês de conscientização e encerra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 82,
+   "to_sentence": 58,
+   "from_claim": "b004c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O neurologista aponta o custo alto da toxina botulínica como peso no planejamento. A colega acrescenta que poucos lugares têm acesso a ela e que faltam médicos que saibam aplicá-la."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 45,
+   "from_claim": "b006c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Para o neurologista, o diagnóstico é difícil justamente porque a distonia é uma doença rara. A neurologista infantil diz que na infância ela não é rara."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 12,
+   "from_claim": "b006c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "As duas chegam ao mesmo ponto por caminhos diferentes: os números antigos de raridade não se sustentam, e na infância a causa mais comum é a paralisia cerebral."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 123,
+   "from_claim": "b008c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A neurologista infantil diz que não se abandona quem tem uma doença sem cura. A deputada concorda e completa que saúde não é apenas cura, é qualidade de vida."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 29,
+   "from_claim": "b008c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "A neurologista pede que a informação sobre a doença chegue a leigos e profissionais. A deputada traduz isso em capacitar a porta de entrada do SUS."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 46,
+   "from_claim": "b010c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O neurologista diz que grande parte dos pacientes leva anos até o diagnóstico. Ela conta a própria conta: sete neurologistas em 4 anos e meio."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 18,
+   "from_claim": "b012c1",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "As duas pacientes contam a mesma jornada: anos passando de médico em médico e de emergência em emergência sem que ninguém desse nome ao que elas tinham."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 103,
+   "to_sentence": 45,
+   "from_claim": "b012c3",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "O neurologista diz que os profissionais não foram treinados para reconhecer a doença. Ela conta o que isso é do outro lado: chegar ao hospital e ter de explicar ao médico o que é distonia."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 103,
+   "to_sentence": 36,
+   "from_claim": "b012c3",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "A deputada defende capacitar quem atende na porta de entrada do SUS. A paciente dá o motivo concreto: ela mesma teve de explicar ao médico o que era a sua doença."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 123,
+   "from_claim": "b014c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A representante do instituto cita a neuropediatra para dizer que as doenças crônicas, raras ou não, não podem ser negligenciadas pelo poder público."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 59,
+   "from_claim": "b014c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O neurologista diz que o planejamento tem de contar o custo do tratamento. Ela vira o argumento: não tratar sai mais caro, porque o paciente volta ao serviço com complicações."
+  },
+  {
+   "from": "b020",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 56,
+   "from_claim": "b020c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "O neurologista fala da carência de profissionais de reabilitação no SUS. Ela mostra do lado de quem é atendido que o cuidado envolve sete ou oito médicos."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 29,
+   "from_claim": "b020c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "A neurologista coloca o conhecimento em primeiro lugar na força-tarefa. A paciente resume a mesma ideia em outra chave: a informação salva vidas."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b008",
+    "b012",
+    "b020"
+   ],
+   "claims": [
+    "b004c2",
+    "b008c3",
+    "b012c3",
+    "b020c2"
+   ],
+   "note": "Uma neurologista, uma deputada e duas pacientes concordam que o primeiro passo é fazer a doença ser conhecida por leigos e por quem atende na rede."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b014"
+   ],
+   "claims": [
+    "b002c3",
+    "b004c3",
+    "b014c2"
+   ],
+   "note": "Os neurologistas e o instituto de doenças raras concordam que o custo do tratamento e da reabilitação tem de entrar no planejamento, porque não tratar sai mais caro."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b020"
+   ],
+   "claims": [
+    "b002c2",
+    "b020c1"
+   ],
+   "note": "O neurologista e a paciente concordam, cada um do seu lugar, que cuidar de distonia exige uma equipe de várias áreas e que faltam esses profissionais na rede pública."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b006",
+    "b008",
+    "b012",
+    "b014"
+   ],
+   "claims": [
+    "b006c3",
+    "b008c1",
+    "b012c2",
+    "b014c1"
+   ],
+   "note": "Médica, deputada, paciente e instituto concordam que uma doença sem cura não dispensa tratamento e que cuidar inclui o direito de estudar e de trabalhar."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 124,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "acesso a um centro com médicos capacitados e à toxina botulínica",
+   "plain": "Como ter acesso a um centro com médicos capacitados para aplicar a toxina botulínica e à própria toxina?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b008",
+   "sentence": 30,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que os institutos e as associações tenham assento na CONITEC",
+   "plain": "Os institutos e as associações vão ter assento na CONITEC, que define os protocolos do SUS?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 146,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "ampliar o tratamento e capacitar os profissionais de saúde",
+   "plain": "O tratamento vai ser ampliado e os profissionais de saúde vão ser capacitados?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 10,
+   "gist": "há em média 65 mil distônicos no Brasil, segundo o Ministério da Saúde",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 13,
+   "gist": "estudos chegam a 732 pessoas a cada 100 mil habitantes",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 71,
+   "gist": "pacientes com DYT1 melhoram de 80% a 90% com a terapia específica",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 84,
+   "gist": "o curso do HC capacitou 57 médicos no ano passado",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 172,
+   "gist": "30% dos pacientes com paralisia cerebral têm distonia genética",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 243,
+   "gist": "um remédio novo custa em média 18 mil reais por mês",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b004",
+   "sentence": 252,
+   "gist": "uma cirurgia de estimulação cerebral custa 150 mil",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 30,
+   "gist": "a estimativa mundial de paralisia cerebral era de 1 para 2 mil nascidos vivos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 26,
+   "gist": "existem de 6 mil a 8 mil doenças raras",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 18,
+   "gist": "foram sete neurologistas em 4 anos e meio até o diagnóstico",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 64,
+   "gist": "no Brasil há 13 milhões de pessoas com algum tipo de doença rara",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b012",
+   "sentence": 93,
+   "gist": "em 10 anos de doença, há 2 anos ela não vai mais a emergências",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "convidado",
+   "sociedade_civil",
+   "parlamentar"
+  ],
+  "angle": "A matéria escolheu o caminho do paciente: o diagnóstico que demora, o que essa demora deixa como marca e o pedido de formação dos profissionais de saúde.",
+  "omitted": "Ficaram de fora o preço dos tratamentos e dos exames genéticos, o pedido para que as associações tenham assento no órgão que define os protocolos do SUS e a divergência sobre a distonia ser ou não uma doença rara."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A distonia é doença rara e entra nessa política",
+   "statement_plain": "A distonia é uma doença rara. É por isso que quase ninguém a reconhece, e é dentro das políticas para doenças raras que ela deve ser enfrentada, do ensino médico ao que o SUS oferece.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b008c2",
+    "b014c3"
+   ],
+   "note": "Um neurologista, uma deputada e uma entidade de pacientes sustentam a mesma ideia. A divisão aqui não é de setor, é entre quem olha o adulto e quem olha a criança."
+  },
+  {
+   "id": "t2",
+   "title": "Na infância, a distonia não tem nada de rara",
+   "statement_plain": "A distonia está longe de ser raríssima, como se dizia. Na infância ela não é rara, porque a causa mais comum é a paralisia cerebral, e há muita criança sem tratamento.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b006c1",
+    "b006c2"
+   ],
+   "note": "Duas neurologistas contestam a moldura de doença rara com que a própria audiência foi convocada, e a neuropediatra avisa que o discurso dela diverge do dos colegas."
+  },
+  {
+   "id": "t3",
+   "title": "O gargalo é o conhecimento, não só o remédio",
+   "statement_plain": "Antes do acesso a este ou àquele tratamento vem o acesso ao conhecimento. É preciso ampliar a informação sobre a distonia e capacitar quem atende na porta de entrada da rede pública.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b008c3",
+    "b012c3",
+    "b020c2"
+   ],
+   "note": "Junta uma neurologista de hospital universitário, uma deputada e duas pacientes, que chegam ao mesmo ponto vindo de lugares bem diferentes."
+  },
+  {
+   "id": "t4",
+   "title": "Demorar no diagnóstico deixa marca e sai caro",
+   "statement_plain": "Quem passa anos sem diagnóstico perde emprego, dignidade e movimento, e fica com sequelas que o tratamento cedo evitaria. Isso também gera gastos desnecessários para o sistema de saúde.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c2",
+    "b012c1",
+    "b014c2",
+    "b002c3"
+   ],
+   "note": "Duas pacientes, uma entidade de doenças raras e um neurologista transformam o relato pessoal em argumento de custo público, e não em pedido de compaixão."
+  },
+  {
+   "id": "t5",
+   "title": "Sem cura ainda há muito a fazer",
+   "statement_plain": "Uma doença que não tem cura não deixa de ter tratamento. Dá para diminuir sintomas, evitar complicações e devolver qualidade de vida, e isso inclui poder estudar e trabalhar.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b008c1",
+    "b012c2",
+    "b014c1"
+   ],
+   "note": "Uma médica, uma deputada, uma paciente e uma entidade respondem juntas ao jargão de que não haveria o que fazer."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "distonia",
+   "plain": "distúrbio neurológico que provoca contrações musculares que a pessoa não controla, deixando o corpo em posturas anormais",
+   "fala": "b001",
+   "sentence": 10
+  },
+  {
+   "term": "toxina botulínica",
+   "plain": "substância aplicada em injeção que reduz as contrações involuntárias do músculo. É a mesma do Botox usado contra rugas",
+   "fala": "b002",
+   "sentence": 24
+  },
+  {
+   "term": "blefaroespasmo",
+   "plain": "distonia dos músculos em volta do olho, que faz o olho fechar sozinho",
+   "fala": "b002",
+   "sentence": 22
+  },
+  {
+   "term": "câimbra do escrivão",
+   "plain": "tipo de distonia que aparece quando a pessoa vai escrever e faz a mão travar",
+   "fala": "b002",
+   "sentence": 35
+  },
+  {
+   "term": "SUS",
+   "plain": "Sistema Único de Saúde: a rede pública de saúde do Brasil, aberta a qualquer pessoa",
+   "fala": "b002",
+   "sentence": 53
+  },
+  {
+   "term": "paralisia cerebral",
+   "plain": "sequela de uma lesão que atingiu o cérebro na gravidez, no parto ou nos primeiros anos de vida",
+   "fala": "b004",
+   "sentence": 61
+  },
+  {
+   "term": "DYT1",
+   "plain": "uma das formas genéticas mais comuns de distonia, que costuma responder bem à cirurgia de estimulação cerebral",
+   "fala": "b004",
+   "sentence": 70
+  },
+  {
+   "term": "DBS",
+   "plain": "sigla em inglês da estimulação cerebral profunda: cirurgia que implanta um eletrodo no cérebro para controlar os movimentos",
+   "fala": "b004",
+   "sentence": 141
+  },
+  {
+   "term": "exoma",
+   "plain": "exame genético que lê a parte do DNA que produz proteínas, usado para achar a causa de uma doença",
+   "fala": "b004",
+   "sentence": 159
+  },
+  {
+   "term": "neuromodulação não invasiva",
+   "plain": "terapia que estimula o cérebro por fora, sem cirurgia, em sessões feitas por profissionais treinados",
+   "fala": "b004",
+   "sentence": 209
+  },
+  {
+   "term": "espasticidade",
+   "plain": "rigidez do músculo que aparece depois de uma lesão no cérebro. É muito confundida com a distonia",
+   "fala": "b006",
+   "sentence": 31
+  },
+  {
+   "term": "erros inatos do metabolismo",
+   "plain": "doenças genéticas em que uma reação química do corpo não funciona direito",
+   "fala": "b006",
+   "sentence": 36
+  },
+  {
+   "term": "status dystonicus",
+   "plain": "crise grave em que as contrações ficam tão fortes que a pessoa pode parar na UTI",
+   "fala": "b006",
+   "sentence": 97
+  },
+  {
+   "term": "CONITEC",
+   "plain": "comissão ligada ao Ministério da Saúde que decide quais tratamentos e exames o SUS passa a oferecer",
+   "fala": "b008",
+   "sentence": 29
+  },
+  {
+   "term": "LER",
+   "plain": "lesão por esforço repetitivo: problema causado por movimentos repetidos, em geral no trabalho",
+   "fala": "b012",
+   "sentence": 15
+  }
+ ]
+}

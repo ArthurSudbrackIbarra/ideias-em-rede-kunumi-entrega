@@ -1,0 +1,2431 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 102,
+ "model": "LLM lendo o prompt hearing-102 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T18:33:27Z",
+ "prompt_sha256": "10932fffb4df9c3f11c6d2513d7e805f8a9ea6f42bd822e75e4f6a309682282c",
+ "sentences_hash": "224c95974fa76da8",
+ "review": {
+  "pairs_read": 47,
+  "pairs_fixed": 15
+ },
+ "warnings": [],
+ "synopsis": "A Comissão Especial de Transição Energética e Hidrogênio Verde ouviu a Maersk, a ANTAQ, o Ministério de Portos e Aeroportos e uma pesquisadora do ICCT sobre como cortar as emissões da navegação e dos terminais. Os debatedores trataram das metas da Organização Marítima Internacional, das rotas de combustível, do preparo dos portos e do atraso das hidrovias. A comissão disse que quer usar o que foi levantado ali para escrever uma proposta sobre o combustível marítimo.",
+ "stakes": "Dependia desta audiência se a comissão vai elaborar uma proposta de lei para o combustível marítimo e em que termos.",
+ "central_question": "Como o Brasil deve reduzir as emissões da navegação e dos portos sem perder competitividade no comércio exterior?",
+ "synopsis_plain": "Deputados ouviram uma empresa de navios, dois órgãos do governo e uma pesquisadora sobre como poluir menos no transporte por mar. Falaram das metas internacionais, de quais combustíveis usar, do preparo dos portos e das hidrovias paradas. A comissão quer sair daí com uma proposta de lei sobre o combustível dos navios.",
+ "stakes_plain": "Se a comissão vai escrever uma proposta de lei sobre o combustível dos navios e com que conteúdo.",
+ "central_question_plain": "Como reduzir a poluição dos navios e dos portos sem encarecer o que o Brasil vende para fora?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Metas e ritmo da descarbonização",
+   "description": "Discute-se em que prazo a navegação deve zerar as emissões e quem puxa o passo, entre o compromisso internacional para 2050 e quem quer chegar antes.",
+   "axis": {
+    "pro": "O setor deve antecipar as metas e começar a cortar emissões desde já",
+    "contra": "O ritmo tem de respeitar o custo do frete e o comércio exterior brasileiro",
+    "pro_plain": "Os navios devem parar de poluir o quanto antes, sem esperar o prazo internacional.",
+    "contra_plain": "O prazo tem de levar em conta quanto isso encarece o frete do que o Brasil vende para fora."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Rotas de combustível e fontes limpas",
+   "description": "Discute-se se o país deve apontar quais combustíveis e fontes valem a aposta ou deixar essa escolha para o mercado e para a vocação de cada região.",
+   "axis": {
+    "pro": "O país deve apontar as rotas de combustível e as fontes que valem a aposta",
+    "contra": "Não existe rota única e a escolha cabe ao mercado e à vocação de cada região",
+    "pro_plain": "O país deve dizer em quais combustíveis vale a pena investir.",
+    "contra_plain": "Não existe um combustível só, e quem escolhe é o mercado e cada região."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Medição das emissões do setor",
+   "description": "Discute-se como saber quanto os portos e a navegação emitem de carbono e se essa conta deve virar obrigação para todos.",
+   "axis": {
+    "pro": "O setor tem de inventariar as emissões e depois cumprir regra obrigatória",
+    "contra": "Basta o incentivo e o registro voluntário, sem criar nova obrigação",
+    "pro_plain": "Cada porto tem de medir o que emite, e depois isso vira obrigação.",
+    "contra_plain": "Basta incentivar quem mede, sem criar obrigação nova para o setor."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Preparo dos portos para a transição",
+   "description": "Discute-se se os terminais brasileiros conseguem abastecer e alimentar navios movidos a combustíveis menos poluentes.",
+   "axis": {
+    "pro": "O porto tem de ser adaptado junto com o navio",
+    "contra": "A adaptação do porto pode esperar a frota nova chegar",
+    "pro_plain": "De nada adianta navio limpo se o porto continua do mesmo jeito.",
+    "contra_plain": "O porto pode esperar os navios novos chegarem para se adaptar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Hidrovias e intermodalidade",
+   "description": "Discute-se o peso dos rios na transição do transporte e se o Brasil está mesmo tirando esses projetos do papel.",
+   "axis": {
+    "pro": "As concessões em curso vão destravar as hidrovias brasileiras",
+    "contra": "O Brasil não investe nas hidrovias e a responsabilidade está espalhada",
+    "pro_plain": "Os projetos de concessão já vão tirar as hidrovias do papel.",
+    "contra_plain": "O país não investe nos rios e nem se sabe direito de quem é a responsabilidade."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Competitividade e subsídios de fora",
+   "description": "Discute-se se o custo baixo das fontes renováveis brasileiras sobrevive aos subsídios dos Estados Unidos e da União Europeia.",
+   "axis": {
+    "pro": "O Brasil produz combustível limpo mais barato e sai na frente",
+    "contra": "Os subsídios americanos e europeus desequilibram a disputa",
+    "pro_plain": "Aqui sai mais barato produzir combustível limpo do que lá fora.",
+    "contra_plain": "Estados Unidos e Europa dão tanto dinheiro ao setor deles que a disputa fica desigual."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Cabotagem e entraves do setor portuário",
+   "description": "Discute-se se as regras e as licitações em curso destravam o transporte por mar na costa brasileira ou se a demora afasta quem investiria.",
+   "axis": {
+    "pro": "As regras e as licitações em curso já destravam a cabotagem e os portos",
+    "contra": "A demora e as regras confusas travam o investimento no setor",
+    "pro_plain": "As novas regras e as licitações já estão destravando o transporte pela costa.",
+    "contra_plain": "A demora e as regras confusas afastam quem quer investir."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da comissão especial",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada como Presidente na ata e identificada como Arnaldo Jardim na lista de oradores",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão da Câmara que estuda a transição energética e a produção de hidrogênio verde."
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Vice-Presidente de Políticas Públicas e Regulação",
+   "org": "Grupo Maersk",
+   "basis": "apresentado pela presidência em b001.17",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Grupo Maersk",
+   "org_plain": "Empresa dinamarquesa de navios e logística que opera em 14 portos brasileiros."
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Diretor-Geral",
+   "org": "ANTAQ",
+   "basis": "apresentado pela presidência em b003.22",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "diretor-geral da ANTAQ",
+   "org_plain": "Agência federal que regula os portos, as hidrovias e o transporte por água no Brasil."
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal e autor do requerimento da audiência",
+   "org": "PDT-CE",
+   "basis": "pista de cargo da ata, Bloco/PDT - CE, e autoria do requerimento citada em b001.11",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PDT do Ceará",
+   "org_plain": "Partido Democrático Trabalhista, pelo qual o deputado foi eleito no Ceará."
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Pesquisadora de transporte marítimo e doutora em planejamento energético",
+   "org": "ICCT",
+   "basis": "apresentada pela presidência em b001.22 e por ela mesma em b014.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do ICCT, o conselho internacional de transporte limpo",
+   "org_plain": "Organização internacional de pesquisa que estuda como reduzir a poluição dos transportes."
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "PL-SC",
+   "basis": "pista de cargo da ata, PL - SC, e ele se diz de Itajaí em b018.15",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL de Santa Catarina",
+   "org_plain": "Partido Liberal, pelo qual o deputado foi eleito em Santa Catarina."
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Diretor de Navegação e Hidrovias, recém-promovido a Secretário Nacional",
+   "org": "Ministério de Portos e Aeroportos",
+   "basis": "apresentado pela presidência em b003.18 e corrigido em b015.50",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério de Portos e Aeroportos",
+   "org_plain": "Ministério que responde pela política de portos, hidrovias e navegação no país."
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal e autor do requerimento em votação",
+   "org": "Cidadania-SP",
+   "basis": "assume a fala como deputado em b040.18, depois de passar a condução da reunião",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Cidadania de São Paulo",
+   "org_plain": "Partido Cidadania, pelo qual o deputado foi eleito em São Paulo."
+  }
+ },
+ "audience": {
+  "estimate": 60,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.25
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.2
+   }
+  ],
+  "basis": "a presidência saúda estudantes da Escola Vera Cruz em b013.5, ex-deputados em b001.12 e b013.2 e o presidente da Federação Nacional dos Engenheiros em b032.2, o expositor saúda um comandante da Marinha em b025.8 e b041.2 registra 19 parlamentares presentes",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a reunião, aprova as atas e anuncia a audiência sobre a descarbonização da navegação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta a meta da Maersk de zerar emissões em 2040 e defende descarbonizar a cadeia logística inteira, sem apostar num combustível único.",
+   "quote": [
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A descarbonização da navegação deve ser antecipada e alcançar a cadeia logística inteira.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Maersk antecipou para 2040 a meta de zerar emissões que a Organização Marítima Internacional marcou para 2050",
+     "plain": "Todos os nossos concorrentes dizem que vão reduzir ou zerar as suas emissões até 2050, o acordo firmado na Organização Marítima Internacional. A Maersk antecipou isso em 10 anos, para 2040."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a empresa não acredita num mundo de combustível único e aposta em soluções regionais, conforme a vocação de cada lugar",
+     "plain": "Para deixar claro, nós não acreditamos num mundo de combustível único. Acreditamos em várias soluções regionais, conforme a vocação de cada país e de cada região onde trabalhamos."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      64,
+      65,
+      66
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pouco sentido faz um navio verde atracar num terminal a combustível fóssil, porque o valor está em descarbonizar a cadeia inteira",
+     "plain": "Pouco sentido faria ter um navio verde atracando em terminal a combustível fóssil. O valor está em descarbonizar a cadeia inteira, que responde por aproximadamente 11% das emissões globais, e só a navegação, 3%."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata que a comissão buscou metas para uma transição equilibrada e diz que faltava avançar no combustível marítimo depois do etanol e do de aviação.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão deve fechar o ciclo dos combustíveis do futuro incluindo o combustível marítimo.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a comissão busca o diálogo sobre o que se deseja alcançar, com cuidado nas metas, para uma transição equilibrada",
+     "plain": "Buscamos o diálogo sobre aonde se quer chegar, mas com muito cuidado com as metas que forem fixadas, para que a transição seja equilibrada."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "depois do etanol, do biodiesel, do biometano e do combustível de aviação, faltava avançar no combustível marítimo",
+     "plain": "Fui relator do projeto dos combustíveis do futuro, que trata do etanol, do biodiesel e do biometano. Demos um passo no combustível de aviação e senti que faltava avançar no marítimo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Descreve a agenda ambiental da ANTAQ, do índice de desempenho ao inventário de carbono, e pergunta se os portos estão prontos para navios menos poluentes.",
+   "quote": [
+    31,
+    32,
+    33
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os portos precisam ser diagnosticados e preparados para receber navios com combustíveis menos poluentes.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ANTAQ foi a primeira agência reguladora federal com secretaria de sustentabilidade e criou o índice de desempenho ambiental",
+     "plain": "A ANTAQ foi a primeira agência reguladora federal a ter uma secretaria de sustentabilidade. Depois criamos o Índice de Desempenho Ambiental, o IDA, com uma cesta de 18 indicadores."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o diagnóstico vai dizer se os portos têm infraestrutura para receber e abastecer embarcações com combustíveis menos poluentes",
+     "plain": "Como os nossos portos estão se preparando para receber embarcações movidas a combustíveis menos poluentes? Temos infraestrutura para abastecer esses navios? O estudo vai responder."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      50,
+      51,
+      52
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cada porto e cada terminal, público ou privado, vai fazer o próprio inventário de carbono, como já faz com a carga",
+     "plain": "O setor movimentou, no ano passado, 1 bilhão e 303 milhões de toneladas, número que a ANTAQ consolida. Queremos fazer o mesmo com as emissões: cada porto fará o seu inventário de carbono."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta se o inventário de carbono vai valer para os portos marítimos e também para os fluviais.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O alcance do inventário de carbono precisa ficar claro.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a pergunta é se o inventário vale para os portos marítimos e também para os fluviais",
+     "plain": "O senhor está falando de portos marítimos e também de portos fluviais?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que todos os portos e a navegação entram no inventário, que a regra virá por etapas e que a hidrovia emite menos que a estrada.",
+   "quote": [
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Medir as emissões de todo o setor aquaviário é o primeiro passo da regulação.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "todos os portos que movimentam carga e também as empresas de navegação terão de mandar os dados à agência",
+     "plain": "Entram todos os portos sob regulação da ANTAQ, marítimos e fluviais, menos os de pequeno porte. Os públicos que movimentam carga entram, e o setor de navegação também terá de mandar esses dados."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência pode começar por uma regulação experimental com poucos participantes e depois exigir a medição de todos",
+     "plain": "A agência pode começar com o sandbox regulatório, que é a regulação experimental num ambiente controlado, com menos participantes. Vamos testar e usar incentivos, e depois exigir isso de forma obrigatória."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o modal hidroviário emite quatro vezes menos carbono que o rodoviário e uma vez e meia menos que o ferroviário",
+     "plain": "Do ponto de vista da sustentabilidade, a hidrovia é disparado o modal mais vantajoso. Ela emite quatro vezes menos carbono que a estrada e uma vez e meia menos que a ferrovia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta qual das quatro hidrovias em andamento será a primeira a sair.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A ordem de prioridade entre as hidrovias precisa ser dita.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a pergunta é qual das quatro hidrovias em andamento vem primeiro",
+     "plain": "Dessas quatro hidrovias, qual delas seria a primeira?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a hidrovia do Rio Madeira está mais avançada e argumenta que a concessão barateia a exportação.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A hidrovia do Rio Madeira é a concessão mais adiantada e traz ganho econômico.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a hidrovia do Rio Madeira é a mais avançada e pelo Arco Norte passam mais de 12 milhões de toneladas de carga",
+     "plain": "A hidrovia do Rio Madeira é a que está em estágio mais avançado. Por ali, no Arco Norte, passam hoje mais de 12 milhões de toneladas de carga."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a via navegável, a empresa leva mais carga em menos viagens e o país exporta a custo mais competitivo",
+     "plain": "A concessão serve para tornar o modal mais eficiente. Com a via navegável, uma empresa leva muito mais carga em menos viagens, e o país exporta a um custo mais competitivo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra para fazer um gancho com a pergunta da presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b010",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b011",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta se a hidrovia Tocantins-Araguaia ficou por último na fila das prioridades.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A posição da hidrovia Tocantins-Araguaia na fila precisa ser esclarecida.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a pergunta é se a hidrovia Tocantins-Araguaia ficou por último na fila das prioridades",
+     "plain": "O senhor perguntou qual hidrovia vinha primeiro e o Eduardo disse que era o Rio Madeira. E a Tocantins-Araguaia, ficou para o fim?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a Araguaia-Tocantins também é prioridade máxima e explica que o chamamento público serviu para acelerar o projeto.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As quatro hidrovias estão em prioridade máxima, inclusive a Araguaia-Tocantins.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Araguaia-Tocantins é outra grande prioridade e as quatro hidrovias estão sendo tratadas com prioridade máxima",
+     "plain": "Não, deputado. A Araguaia-Tocantins é outra grande prioridade. As quatro estão sendo tratadas com prioridade máxima."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Tocantins a estratégia foi lançar um chamamento público com parâmetros técnicos, como forma de acelerar o projeto",
+     "plain": "Na hidrovia do Tocantins, a estratégia foi lançar um chamamento público. Nós e os ministérios fixamos parâmetros técnicos para quem quisesse apresentar o projeto, e isso foi feito para acelerar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Situa o debate dizendo que os navios respondem por cerca de 3% das emissões de gases de efeito estufa e que a comissão busca combustíveis que reduzam isso.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão estuda combustíveis capazes de reduzir a emissão dos navios.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a movimentação de navios responde por cerca de 3% de tudo o que se emite de gás de efeito estufa",
+     "plain": "Conforme os dados apresentados aqui, a movimentação de navios responde por cerca de 3% de todas as emissões de gás de efeito estufa. Estamos debatendo combustíveis que reduzam isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Compara as rotas de combustível marítimo e conclui que os biocombustíveis que servem à frota atual são a alternativa mais promissora para o Brasil.",
+   "quote": [
+    47,
+    48
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil tem rotas de combustível marítimo mais promissoras que outras e pode apontá-las.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Brasil exporta commodities de baixo valor para mercados distantes, e qualquer aumento no custo do transporte pesa na economia",
+     "plain": "A escolha das medidas de corte de emissões tem de levar em conta o comércio exterior brasileiro. O Brasil exporta commodities de baixo valor para mercados distantes, e encarecer o transporte traz consequências para a economia."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      47,
+      48
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os biocombustíveis líquidos que servem à frota e à infraestrutura atuais são a alternativa mais promissora para o Brasil",
+     "plain": "Ordenamos do primeiro ao último os combustíveis produzidos no Brasil com maior potencial. Os biocombustíveis líquidos que já servem à frota e ao abastecimento de hoje são a alternativa mais promissora no curto e médio prazos."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      81,
+      82
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o custo de produção do hidrogênio no Brasil é inferior ao dos Estados Unidos e da União Europeia pela abundância de fontes renováveis",
+     "plain": "Nos custos ficou evidente a competitividade do Brasil. Comparando a produção pela mesma metodologia no Brasil, nos Estados Unidos e na União Europeia, o custo aqui é menor pela abundância de fontes renováveis."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Reconhece que a rota brasileira é mais competitiva, mas alerta que os subsídios do Inflation Reduction Act e do Green Deal tornam a disputa mais dura.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A vantagem de custo do Brasil não resiste sozinha aos subsídios americanos e europeus.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a comissão não se anima a adotar uma vertente tecnológica e quer, ao final, o combustível que reduza a pegada de carbono",
+     "plain": "Aqui não nos anima adotar uma só vertente tecnológica. São diferentes vertentes. O que queremos, no fim, é um combustível que cumpra o compromisso de reduzir a pegada de carbono e o impacto ambiental."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os subsídios do Inflation Reduction Act americano e do Green Deal europeu tornam a disputa mais pesada para o Brasil",
+     "plain": "O problema é o jogo pesado do Inflation Reduction Act, o esforço americano altamente subsidiado. Há também o Green Deal europeu, com grande volume de subsídios, o que aumenta a nossa dificuldade."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a Alemanha comemora mais de 20% de carros elétricos, mas usa carvão para produzir a eletricidade",
+     "plain": "Quando vemos um carro elétrico, precisamos perguntar de onde vem aquela eletricidade. A Alemanha comemora ter mais de 20% da frota elétrica, mas usa carvão, um combustível fóssil, para produzir a sua eletricidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta à presidência se pode usar a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado Jorge Goetten.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Cobra do Ministério e da agência que destravem o Porto de Itajaí, parado há quase 2 anos, e convida a mesa para a sessão do Dia da Terra.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Porto de Itajaí parado é um entrave que precisa ser resolvido logo.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Maersk quer trabalhar num dos maiores portos do Brasil, que está há quase 2 anos sem operar",
+     "plain": "A Maersk quer trabalhar com um dos maiores portos do Brasil, e nós estamos há quase 2 anos com esse porto sem operar. Pode isso? Esse é o nosso Brasil."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "houve uma nova licitação no ano passado e até agora nada, e o povo catarinense segue sofrendo com o porto parado",
+     "plain": "No ano passado houve uma nova licitação e até agora nada. Houve irresponsabilidade, uma sacanagem, de quem participou. E o nosso povo, principalmente o catarinense, segue sofrendo com o Porto de Itajaí parado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao deputado, apoia o gabinete carbono zero e passa a palavra ao Ministério.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Afirma que Itajaí é prioridade do Ministério e chama de absurdo manter um porto pronto e parado.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Reabrir o terminal de Itajaí é prioridade do Ministério.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o porto de Itajaí é uma das prioridades e o ministro já deve ter dito isso de forma clara ao deputado",
+     "plain": "Deputado, Itajaí é uma das nossas prioridades. Acredito que o ministro Silvio já deve ter dito isso de forma clara ao senhor."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é um certo absurdo manter um porto pronto e parado, com carências portuárias no país e empresas querendo usar aquele ativo público",
+     "plain": "É um certo absurdo: temos ali um porto pronto e ainda parado, enquanto faltam portos no país e há empresas querendo usar aquele ativo, que é público."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor-geral diz que tinha entendido Paraguai.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado brinca com a confusão entre os nomes das duas hidrovias.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta a hidrovia do Tocantins como grande preocupação e diz que a obra do Pedral do Lourenço é fundamental para a logística.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A obra do Pedral do Lourenço é decisiva para a hidrovia do Tocantins.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Tocantins é uma das grandes preocupações do Ministério e a obra do Pedral do Lourenço é fundamental para a logística",
+     "plain": "O Tocantins é mesmo uma das nossas grandes preocupações. Para a logística do país, a obra do Pedral do Lourenço é fundamental."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado comenta que o assunto daria um livro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b025",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende avançar na descarbonização de olho no impacto comercial, nega que caiba ao Ministério escolher o combustível e cita incentivos a embarcações verdes.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A descarbonização deve avançar, mas sem ignorar o impacto comercial sobre a economia brasileira.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a troca de combustível pesa diferente no Brasil e na Austrália, concorrente no minério, e a agenda precisa ver o impacto comercial",
+     "plain": "Questões geopolíticas nos preocupam. Uma mudança de combustível pesa de um jeito no transporte marítimo brasileiro e de outro no da Austrália, nossa concorrente no minério para a China. Temos de avançar de olho nos impactos comerciais."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      15
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não é papel do Ministério fazer a escolha do modelo de transição nem do combustível a ser usado",
+     "plain": "Dentro do Ministério também temos claro que não é o nosso papel escolher o modelo de transição, principalmente o combustível que vai ser usado."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério trabalha para que as embarcações verdes tenham acesso a custo reduzido aos recursos do Fundo da Marinha Mercante",
+     "plain": "O que temos feito no Ministério é dar os incentivos certos. Estamos trabalhando para que as embarcações verdes tenham acesso com custo reduzido aos recursos do Fundo da Marinha Mercante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a exposição e pergunta se o diretor tem limite de tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b027",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor avisa que tem um voo em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede uma salva de palmas e agradece a participação do diretor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b029",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Destaca dois pontos trazidos pelo Ministério, o Fundo da Marinha Mercante e as novas regras da cabotagem, como compromissos com a sustentabilidade.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Fundo da Marinha Mercante e a regulamentação da BR do Mar levam sustentabilidade à cabotagem.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Fundo da Marinha Mercante e a nova regulamentação da BR do Mar vêm com compromisso de sustentabilidade",
+     "plain": "Cumprimento o Dino por duas referências: o Fundo da Marinha Mercante e a nova regulamentação da BR do Mar, lei que revê a cabotagem. As duas carregam compromisso com a sustentabilidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reclama que o Brasil não investe nas hidrovias, questiona de quem é a responsabilidade e diz que a cabotagem perde para o caminhão.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 25,
+   "stance": {
+    "position": "contrario",
+    "claim": "O país não investe nas hidrovias nem resolveu o gargalo da cabotagem.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "usar as hidrovias já é uma transição energética, e o Brasil teima em não investir nelas",
+     "plain": "Falo disso desde 1995. Usar as hidrovias já é, em si, uma transição energética, e o Brasil teima em não investir nelas."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a responsabilidade pelas hidrovias ainda é do Ministério dos Transportes, o que ele considera uma aberração",
+     "plain": "Segundo consta, a responsabilidade pelas hidrovias ainda é do Ministério dos Transportes. No meu entender isso é uma aberração, e nunca me conformei com isso."
+    },
+    {
+     "id": "b031c3",
+     "sentences": [
+      54,
+      55,
+      56
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a cabotagem perde para o caminhão, e sai carga de geladeira de São Paulo até Fortaleza, o que não tem cabimento",
+     "plain": "Como é que a cabotagem perde para o rodoviário? Uma carrada de geladeira sai de São Paulo até Fortaleza. Não tem cabimento nenhum."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência saúda o presidente da Federação Nacional dos Engenheiros e registra um ofício de entidades da navegação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b033",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Diz que a empresa quer investir em portos e na cabotagem no Brasil, mas precisa saber se a regulação atual permite.",
+   "quote": [
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 11,
+   "stance": {
+    "position": "condicional",
+    "claim": "A empresa quer investir no Brasil desde que a regulação deixe claro o que é permitido.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a empresa tem todo interesse em investir no Brasil e quer entender qual é a forma correta de fazer isso",
+     "plain": "Temos todo o interesse em investir nisso aqui no Brasil. Só queremos saber qual é a forma correta de fazer, o que promover e como construir."
+    },
+    {
+     "id": "b033c2",
+     "sentences": [
+      11
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a empresa precisa entender se a regulação brasileira permite esse investimento, porque alguns entendimentos deixam a água turbulenta",
+     "plain": "Precisamos entender se a regulação brasileira vai nos permitir fazer isso. Existem hoje alguns entendimentos que, na nossa visão, deixam a água um pouco turbulenta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à Maersk e passa a palavra ao diretor-geral da ANTAQ.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b035",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Corrige a própria resposta e esclarece que a hidrovia entre as seis é a do Tocantins, não a do Araguaia.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A hidrovia do Araguaia não está entre as seis prioritárias, e sim a do Tocantins.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a hidrovia do Araguaia não está entre as seis prioritárias, a que está é a do Tocantins",
+     "plain": "A hidrovia do Araguaia não está entre aquelas seis. A que está é a do Tocantins, e o Araguaia é outro desafio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b036",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que não se pode separar o Tocantins do Araguaia, porque o problema grave está no Tocantins, na questão do Pedral.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O tratamento das duas hidrovias não pode ser separado.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "não dá para separar o Tocantins do Araguaia, porque o problema grave está no Pedral, no Tocantins",
+     "plain": "Só para ajudar: não dá para separar o Tocantins do Araguaia, até porque o problema grave está no Tocantins, na questão do Pedral."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Detalha o cronograma da licitação de Itajaí, reafirma as prioridades da agência e diz que a concessão do Madeira não vai cobrar tarifa de passageiro.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O arrendamento de Itajaí e as concessões em curso estão sendo conduzidos e vão sair.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "causa incômodo ver o porto chegar àquela situação, que não pode ficar daquele jeito e tem de ser retomado",
+     "plain": "Causa incômodo ter visto o porto chegar àquela situação, que foi uma pedra cantada. Mas ele não pode ficar daquele jeito e tem de ser retomado."
+    },
+    {
+     "id": "b037c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o arrendamento definitivo de 25 anos vai a audiência pública, depois ao TCU e por fim a leilão na B3",
+     "plain": "A situação é esta: o arrendamento definitivo, contrato de 25 anos, vai a audiência pública em breve. Depois vêm as contribuições, o ajuste no projeto, a aprovação do TCU e o leilão na B3."
+    },
+    {
+     "id": "b037c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "vivem 780 mil pessoas na calha do Rio Madeira, que usam o transporte pelo rio, e a modelagem não prevê cobrar tarifa delas",
+     "plain": "Na calha do Rio Madeira vivem 780 mil pessoas, que usam sobretudo o transporte pelo rio. Na modelagem que estamos fazendo, não vai ser cobrada tarifa nenhuma delas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à ANTAQ e convida a pesquisadora para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b039",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A pesquisadora agradece o convite e põe o ICCT à disposição para novas pesquisas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b040",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Anuncia que a comissão pretende usar o que foi levantado ali para elaborar uma proposta de combustível marítimo.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão deve transformar o debate numa proposta de combustível marítimo.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "depois do etanol, do biodiesel, do biometano e do combustível de aviação, a comissão pretende propor o combustível marítimo",
+     "plain": "O combustível do futuro abarcou vários combustíveis, do etanol ao biodiesel, ao biometano e ao combustível de aviação. A nossa pretensão é que esta comissão elabore agora uma proposta de combustível marítimo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Propõe uma audiência sobre energia nuclear na transição e defende que Angra e as novas unidades menores ganhem outra dimensão.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A energia nuclear deve entrar no debate da transição energética brasileira.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b041c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a comissão deve realizar uma audiência sobre a importância da energia nuclear no processo de transição energética",
+     "plain": "A proposta que apresento hoje é uma audiência pública para debater a importância da energia nuclear na transição energética. O mundo todo debate hoje o uso dessa fonte."
+    },
+    {
+     "id": "b041c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a fonte nuclear que o país já tem, em Angra e em outras iniciativas, pode ganhar outra dimensão com o avanço tecnológico",
+     "plain": "Eu defendo que essa fonte que já temos, por Angra e por outras iniciativas, ganhe outra dimensão com o avanço tecnológico. São experiências novas, em unidades de menor porte."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b042",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência põe o requerimento em votação, anuncia a aprovação e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 64,
+   "from_claim": "b004c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A agência retoma o ponto da empresa sobre a cadeia inteira e conta que está diagnosticando se os portos conseguem receber navios menos poluentes."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b006c1",
+   "to_claim": "b005c1",
+   "strength": "forte",
+   "note": "A presidência quis saber o alcance do inventário e a agência responde que entram os portos marítimos e fluviais, e também a navegação."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "A presidência perguntou qual hidrovia vem primeiro e a agência aponta a do Rio Madeira."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b012c1",
+   "to_claim": "b011c1",
+   "strength": "forte",
+   "note": "O deputado perguntou se a Tocantins-Araguaia tinha ficado para o fim e a agência responde que as quatro estão em prioridade máxima."
+  },
+  {
+   "from": "b013",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 66,
+   "from_claim": "b013c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A presidência repete o número que a empresa acabara de apresentar para explicar por que a comissão discute o combustível dos navios."
+  },
+  {
+   "from": "b015",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 35,
+   "from_claim": "b015c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A presidência acompanha a empresa e diz que a comissão também não quer eleger uma única vertente tecnológica."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 82,
+   "from_claim": "b015c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "A pesquisadora mostrou o custo menor do Brasil e a presidência responde que os subsídios americanos e europeus mudam essa conta."
+  },
+  {
+   "from": "b023",
+   "to": "b011",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 1,
+   "from_claim": "b023c1",
+   "to_claim": "b011c1",
+   "strength": "media",
+   "note": "O Ministério completa a resposta ao deputado e diz que o Tocantins é uma das suas grandes preocupações, por causa do Pedral."
+  },
+  {
+   "from": "b025",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 30,
+   "from_claim": "b025c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A empresa anunciou antecipar a meta em dez anos e o Ministério pede que a agenda avance sem perder de vista o impacto comercial."
+  },
+  {
+   "from": "b025",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 22,
+   "from_claim": "b025c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "O Ministério e a pesquisadora chegam pelo mesmo ponto por caminhos diferentes: o custo do transporte pesa no que o Brasil vende para fora."
+  },
+  {
+   "from": "b025",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 48,
+   "from_claim": "b025c2",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "A pesquisadora apontou quais rotas rendem mais no Brasil e o Ministério responde que não cabe a ele escolher o combustível."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 18,
+   "from_claim": "b020c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "A cobrança do deputado sobre Itajaí é respondida pelo Ministério, que diz ser aquele porto uma das suas prioridades."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 18,
+   "from_claim": "b020c2",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "O Ministério dá razão ao deputado e chama de absurdo manter pronto e parado um porto que empresas querem operar."
+  },
+  {
+   "from": "b030",
+   "to": "b025",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 19,
+   "from_claim": "b030c1",
+   "to_claim": "b025c3",
+   "strength": "media",
+   "note": "A presidência destaca justamente os dois instrumentos que o Ministério tinha citado e diz que eles vêm com compromisso de sustentabilidade."
+  },
+  {
+   "from": "b031",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 6,
+   "from_claim": "b031c1",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "O deputado reforça o argumento da agência ao dizer que usar os rios já é, por si, uma transição energética."
+  },
+  {
+   "from": "b031",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 2,
+   "from_claim": "b031c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A agência disse que as quatro hidrovias estão em prioridade máxima e o deputado sustenta que o país teima em não investir nelas."
+  },
+  {
+   "from": "b031",
+   "to": "b030",
+   "kind": "contradiz",
+   "from_sentence": 54,
+   "to_sentence": 3,
+   "from_claim": "b031c3",
+   "to_claim": "b030c1",
+   "strength": "forte",
+   "note": "A presidência tratou a nova lei da cabotagem como avanço e o deputado responde que o transporte por mar continua perdendo para o caminhão."
+  },
+  {
+   "from": "b033",
+   "to": "b031",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 54,
+   "from_claim": "b033c2",
+   "to_claim": "b031c3",
+   "strength": "media",
+   "note": "A empresa reforça a queixa do deputado e diz que a regulação atual deixa dúvida sobre o que ela pode investir na navegação de costa."
+  },
+  {
+   "from": "b035",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 1,
+   "from_claim": "b035c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "O diretor-geral corrige a própria resposta anterior: a hidrovia que está entre as seis é a do Tocantins, e não a do Araguaia."
+  },
+  {
+   "from": "b036",
+   "to": "b035",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b036c1",
+   "to_claim": "b035c1",
+   "strength": "media",
+   "note": "O deputado não aceita separar as duas hidrovias, porque o problema maior está no Tocantins, na questão do Pedral."
+  },
+  {
+   "from": "b037",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 22,
+   "from_claim": "b037c2",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "O deputado disse que a licitação do ano passado não deu em nada e a agência responde com o calendário do novo arrendamento."
+  },
+  {
+   "from": "b037",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 18,
+   "from_claim": "b037c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "A agência concorda com o deputado que o porto não pode continuar daquele jeito e tem de ser retomado."
+  },
+  {
+   "from": "b037",
+   "to": "b033",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 7,
+   "from_claim": "b037c2",
+   "to_claim": "b033c1",
+   "strength": "media",
+   "note": "A empresa disse que quer investir e saber a forma correta, e a agência responde com o caminho e o prazo do arrendamento de Itajaí."
+  },
+  {
+   "from": "b037",
+   "to": "b031",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 16,
+   "from_claim": "b037c3",
+   "to_claim": "b031c1",
+   "strength": "media",
+   "note": "A agência soma ao argumento do deputado o lado social da hidrovia, com as 780 mil pessoas que dependem do rio."
+  },
+  {
+   "from": "b040",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 13,
+   "from_claim": "b040c1",
+   "to_claim": "b003c2",
+   "strength": "media",
+   "note": "O que a presidência tinha dito que faltava, o combustível marítimo, vira no fim a pretensão de proposta da comissão."
+  },
+  {
+   "from": "b041",
+   "to": "b040",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 14,
+   "from_claim": "b041c1",
+   "to_claim": "b040c1",
+   "strength": "media",
+   "note": "O deputado quer estender à energia nuclear o mesmo esforço que a comissão pretende dedicar ao combustível dos navios."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b013"
+   ],
+   "claims": [
+    "b002c1",
+    "b013c1"
+   ],
+   "note": "A empresa de navegação e a presidência da comissão concordam que o transporte por mar precisa cortar as suas emissões, e usam o mesmo número para dizer o tamanho do problema."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b015",
+    "b025"
+   ],
+   "claims": [
+    "b002c2",
+    "b015c1",
+    "b025c2"
+   ],
+   "note": "A empresa, a presidência e o Ministério dizem a mesma coisa: não existe uma rota única de combustível e ninguém ali quer eleger a vencedora."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b004"
+   ],
+   "claims": [
+    "b002c3",
+    "b004c2"
+   ],
+   "note": "A empresa e a agência reguladora concordam que o terminal precisa ser adaptado junto com o navio, e não depois dele."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b008",
+    "b023",
+    "b031",
+    "b037"
+   ],
+   "claims": [
+    "b008c2",
+    "b023c1",
+    "b037c3"
+   ],
+   "note": "A agência, o Ministério e o deputado que cobra o atraso concordam que as hidrovias precisam sair do papel, por eficiência e por atendimento a quem vive nas margens."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b018",
+    "b020",
+    "b037"
+   ],
+   "claims": [
+    "b018c1",
+    "b020c2",
+    "b037c1"
+   ],
+   "note": "O deputado de Santa Catarina, o Ministério e a agência dizem juntos que um porto pronto e parado não pode continuar assim."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b018",
+   "sentence": 17,
+   "addressed_to": "governo",
+   "answered_by": "b020",
+   "gist": "que o Ministério e a agência agilizem a reabertura do Porto de Itajaí",
+   "plain": "Quando o Ministério e a agência vão destravar o Porto de Itajaí?",
+   "theme": "d7",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b005",
+   "sentence": 0,
+   "addressed_to": "governo",
+   "answered_by": "b006",
+   "gist": "se o inventário de carbono vale para portos marítimos e fluviais",
+   "plain": "O inventário de carbono vai valer para os portos marítimos e também para os fluviais?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b007",
+   "sentence": 0,
+   "addressed_to": "governo",
+   "answered_by": "b008",
+   "gist": "qual das quatro hidrovias sai primeiro",
+   "plain": "Qual das quatro hidrovias em andamento vai sair primeiro?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b011",
+   "sentence": 1,
+   "addressed_to": "governo",
+   "answered_by": "b012",
+   "gist": "se a hidrovia Tocantins-Araguaia ficou por último na fila",
+   "plain": "A hidrovia Tocantins-Araguaia ficou por último na fila das prioridades?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b031",
+   "sentence": 25,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se as hidrovias estão todas sob o Ministério de Portos e Aeroportos",
+   "plain": "As hidrovias estão todas sob a responsabilidade do Ministério de Portos e Aeroportos?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q6",
+   "from": "b033",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se a regulação brasileira permite a empresa investir na cabotagem",
+   "plain": "A regulação brasileira permite que a empresa invista na navegação de costa como pretende?",
+   "theme": "d7",
+   "position": "contrario"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 30,
+   "gist": "a Maersk quer zerar emissões em 2040, e não em 2050",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 66,
+   "gist": "a logística responde por cerca de 11% das emissões e a navegação por 3%",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 21,
+   "gist": "a empresa transporta cerca de 325 milhões de toneladas por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 9,
+   "gist": "o índice de desempenho ambiental reúne 18 indicadores",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 50,
+   "gist": "o setor movimentou 1 bilhão e 303 milhões de toneladas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 15,
+   "gist": "a IMO adotou metas de 50% em 2030 e 100% net zero",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 23,
+   "gist": "a hidrovia emite quatro vezes menos carbono que a estrada",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 1,
+   "gist": "mais de 12 milhões de toneladas passam pelo Arco Norte",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b018",
+   "sentence": 18,
+   "gist": "o Porto de Itajaí está há quase 2 anos sem operar",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b031",
+   "sentence": 36,
+   "gist": "o combustível representa 60% do custo da navegação",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b031",
+   "sentence": 65,
+   "gist": "a matriz elétrica do país é limpa em torno de 85% a 88%",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b037",
+   "sentence": 27,
+   "gist": "780 mil pessoas vivem na calha do Rio Madeira",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d6"
+  ],
+  "roles_quoted": [
+   "governo",
+   "parlamentar"
+  ],
+  "angle": "A matéria ficou com o argumento comercial do Ministério, de que cortar emissões nos terminais preserva e amplia os parceiros de negócio do Brasil.",
+  "omitted": "Ficaram de fora o porto de Itajaí parado, a briga sobre o atraso das hidrovias e a divergência sobre quem escolhe a rota de combustível."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Antecipar a descarbonização do navio e do porto",
+   "statement_plain": "O transporte por mar tem de cortar emissões desde já, e o porto precisa se adaptar junto com o navio, sem esperar o prazo internacional.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b013c1",
+    "b004c2"
+   ],
+   "note": "Junta a empresa dinamarquesa, a presidência da comissão e a agência reguladora em torno de andar na frente, em vez de esperar a regra internacional."
+  },
+  {
+   "id": "t2",
+   "title": "O ritmo tem de caber na conta do Brasil",
+   "statement_plain": "Descarbonizar sim, mas sem esquecer que o Brasil manda commodities de pouco valor para mercados distantes e que a disputa lá fora é subsidiada.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b025c1",
+    "b015c2"
+   ],
+   "note": "Cruza a pesquisadora, o Ministério e a presidência da comissão, que chegam pelo custo do frete e pelo subsídio de fora à mesma ressalva."
+  },
+  {
+   "id": "t3",
+   "title": "O país deve apontar as rotas que rendem mais",
+   "statement_plain": "O Brasil já sabe quais combustíveis rendem mais aqui e deve dizer isso, inclusive numa proposta de lei sobre o combustível dos navios.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b003c2",
+    "b014c2",
+    "b040c1",
+    "b041c2"
+   ],
+   "note": "Junta a pesquisadora de um conselho internacional e a presidência da comissão, que querem sair da audiência com uma proposta escrita."
+  },
+  {
+   "id": "t4",
+   "title": "Não há combustível único, quem escolhe é o mercado",
+   "statement_plain": "Não existe uma rota só para o combustível dos navios, e não cabe a quem regula escolher a vencedora. Isso se resolve pela vocação de cada região.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b015c1",
+    "b025c2"
+   ],
+   "note": "Cruza setores: a empresa que mais apostou numa rota, o Ministério e a presidência da comissão dizem juntos que essa escolha não é de quem regula."
+  },
+  {
+   "id": "t5",
+   "title": "As obras e as licitações já estão destravando",
+   "statement_plain": "As concessões de hidrovia e a licitação de Itajaí estão em andamento, e é por elas que o setor vai sair do lugar.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b023c1",
+    "b020c1",
+    "b037c2",
+    "b030c1"
+   ],
+   "note": "É a ideia sustentada pelos dois órgãos do governo e pela presidência da comissão, que respondem à cobrança com prazo e processo."
+  },
+  {
+   "id": "t6",
+   "title": "Enquanto o porto para, o investimento não vem",
+   "statement_plain": "Um porto pronto e parado e um transporte de costa que perde para o caminhão afastam quem investiria na navegação brasileira.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "contrario",
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b018c1",
+    "b031c3",
+    "b033c2",
+    "b031c1",
+    "b020c2"
+   ],
+   "note": "Atravessa a bancada, a empresa e o próprio Ministério, que reconhece o absurdo do porto parado enquanto quem investiria fica esperando."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "IMO",
+   "plain": "Organização Marítima Internacional, o órgão da ONU que fixa as regras de segurança e de sustentabilidade da navegação no mundo.",
+   "fala": "b006",
+   "sentence": 14
+  },
+  {
+   "term": "net zero",
+   "plain": "Situação em que quem polui compensa tudo o que emite, de modo que o saldo de gases de efeito estufa fique em zero.",
+   "fala": "b006",
+   "sentence": 15
+  },
+  {
+   "term": "cabotagem",
+   "plain": "Transporte de carga por navio entre portos do mesmo país, ao longo da costa.",
+   "fala": "b002",
+   "sentence": 43
+  },
+  {
+   "term": "TUP",
+   "plain": "Terminal de Uso Privativo, o porto construído e operado por uma empresa privada, fora da área do porto público.",
+   "fala": "b002",
+   "sentence": 47
+  },
+  {
+   "term": "bunker",
+   "plain": "Óleo pesado usado hoje como combustível pelos navios de grande porte.",
+   "fala": "b014",
+   "sentence": 25
+  },
+  {
+   "term": "IDA",
+   "plain": "Índice de Desempenho Ambiental, a nota que a agência dá aos portos e às empresas de navegação pelo cuidado com o meio ambiente.",
+   "fala": "b004",
+   "sentence": 8
+  },
+  {
+   "term": "onshore power supply",
+   "plain": "Fornecimento de energia elétrica em terra para o navio atracado, para ele não precisar queimar óleo enquanto está no porto.",
+   "fala": "b004",
+   "sentence": 34
+  },
+  {
+   "term": "sandbox",
+   "plain": "Regulação experimental aplicada primeiro a poucos participantes, num ambiente controlado, antes de valer para todo mundo.",
+   "fala": "b006",
+   "sentence": 9
+  },
+  {
+   "term": "Arco Norte",
+   "plain": "Conjunto de portos do Norte e do Nordeste por onde sai boa parte da produção agrícola brasileira.",
+   "fala": "b008",
+   "sentence": 1
+  },
+  {
+   "term": "PGO",
+   "plain": "Plano Geral de Outorgas, o documento que define quais hidrovias e portos entram na fila para ser concedidos.",
+   "fala": "b006",
+   "sentence": 28
+  },
+  {
+   "term": "BR do Mar",
+   "plain": "Programa criado por lei para baratear e ampliar o transporte de carga por navio na costa brasileira.",
+   "fala": "b025",
+   "sentence": 23
+  },
+  {
+   "term": "Fundo da Marinha Mercante",
+   "plain": "Fundo público que empresta dinheiro para construir e reformar navios e estaleiros no Brasil.",
+   "fala": "b025",
+   "sentence": 19
+  },
+  {
+   "term": "retrofit",
+   "plain": "Reforma de um navio que já existe para que ele consiga usar um combustível diferente.",
+   "fala": "b014",
+   "sentence": 33
+  },
+  {
+   "term": "ciclo de vida",
+   "plain": "Conta que soma a poluição de todas as etapas, da produção do combustível até a queima dentro do navio.",
+   "fala": "b014",
+   "sentence": 12
+  },
+  {
+   "term": "ESG",
+   "plain": "Sigla em inglês para os cuidados de uma empresa com o meio ambiente, com as pessoas e com a forma de se governar.",
+   "fala": "b025",
+   "sentence": 41
+  }
+ ]
+}

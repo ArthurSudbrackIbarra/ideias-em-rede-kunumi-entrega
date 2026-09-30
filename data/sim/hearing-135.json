@@ -1,0 +1,2232 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 135,
+ "model": "LLM lendo o prompt hearing-135 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T20:44:14Z",
+ "prompt_sha256": "680abf3809147e732b4555b7e418a3ecabba69b115bc712994527e8eea4cfe29",
+ "sentences_hash": "adc92fd344277f8f",
+ "review": {
+  "pairs_read": 49,
+  "pairs_fixed": 8
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "Sindicatos de policiais penais, o Ministério da Justiça, um pesquisador e parlamentares debateram saúde e segurança no trabalho dentro dos presídios. Relataram suicídios, baixo efetivo, assédio, salários defasados e risco de radiação nos aparelhos de revista. Ao fim, a presidência listou os pedidos que a comissão levaria ao governo federal.",
+ "stakes": "Que encaminhamentos as duas comissões levariam ao Ministério da Justiça e ao Conselho Nacional de Justiça ao fim da audiência.",
+ "central_question": "O que precisa mudar para que o policial penal pare de adoecer no trabalho?",
+ "synopsis_plain": "Policial penal é o servidor que trabalha dentro do presídio. Sindicatos, o Ministério da Justiça, um pesquisador e deputados contaram por que essa categoria adoece: falta gente nas unidades, há assédio, o salário ficou para trás e os aparelhos de revista soltam radiação. A profissão entrou na Constituição e ainda não foi regulamentada. No fim, a comissão listou o que vai pedir ao governo.",
+ "stakes_plain": "Que pedidos a comissão ia mandar ao governo federal: dados sobre o adoecimento, um grupo de trabalho sobre os aparelhos de revista e a regulamentação da Polícia Penal federal.",
+ "central_question_plain": "O que precisa mudar para o policial penal parar de adoecer no trabalho?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Regulamentação da Polícia Penal",
+   "description": "Discute-se por que a profissão de policial penal entrou na Constituição e até hoje não foi regulamentada, nem pelo governo federal nem pelos estados.",
+   "axis": {
+    "pro": "A carreira precisa ser regulamentada, com plano de carreira, remuneração compatível e lotação fixa.",
+    "contra": "A situação pode seguir como está, sem regra própria para a profissão.",
+    "pro_plain": "A profissão precisa de regra própria, com carreira, salário compatível e local de trabalho fixo.",
+    "contra_plain": "Dá para seguir sem regra própria, do jeito que está hoje."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Adoecimento e saúde mental",
+   "description": "Discute-se se o adoecimento e os suicídios na categoria vêm das condições de trabalho e o que o Estado faz a respeito.",
+   "axis": {
+    "pro": "O adoecimento vem do trabalho e exige uma política feita para a categoria.",
+    "contra": "O adoecimento é assunto de cada pessoa e o apoio que já existe basta.",
+    "pro_plain": "As pessoas adoecem por causa do trabalho, e isso exige uma política feita para essa categoria.",
+    "contra_plain": "O adoecimento é problema de cada um e o apoio que já existe dá conta."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Dados e pesquisa sobre a categoria",
+   "description": "Discute-se a falta de estudos e de dados sobre adoecimento, afastamento e suicídio entre policiais penais, e a proposta de um observatório.",
+   "axis": {
+    "pro": "Sem dados e estudos próprios não há política pública possível, e o governo precisa produzi-los.",
+    "contra": "O que já se sabe hoje basta para decidir.",
+    "pro_plain": "Sem número e sem estudo não dá para fazer política nenhuma, e o governo tem de levantar esses dados.",
+    "contra_plain": "O que já se sabe hoje é suficiente para decidir."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Scanner corporal e radiação",
+   "description": "Discute-se o risco à saúde de quem opera os aparelhos de raios X e de escaneamento corporal nos presídios, sem teste de vazamento e sem norma cumprida.",
+   "axis": {
+    "pro": "Sem teste, norma cumprida e estudo, os aparelhos estão adoecendo quem trabalha ao lado deles.",
+    "contra": "Os aparelhos são necessários, facilitam o trabalho e trouxeram mais segurança e menos constrangimento.",
+    "pro_plain": "Sem teste e sem norma cumprida, o aparelho de revista está adoecendo quem trabalha do lado dele.",
+    "contra_plain": "O aparelho é necessário, facilita o trabalho e acabou com a revista que humilhava quem visitava."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Privatização dos presídios",
+   "description": "Discute-se a privatização e a cogestão de presídios e o dinheiro público que financia esse modelo.",
+   "axis": {
+    "pro": "A privatização e a cogestão pioram o serviço e a saúde de quem trabalha, e precisam ser barradas.",
+    "contra": "A privatização é um caminho para o sistema prisional.",
+    "pro_plain": "Entregar presídio para empresa piora o serviço e a saúde de quem trabalha ali, e isso tem de parar.",
+    "contra_plain": "Entregar presídio para empresa é um caminho para o sistema."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Direitos humanos no presídio",
+   "description": "Discute-se se o debate deve tratar preso e policial penal como sujeitos dos mesmos direitos ou se deve se concentrar em quem trabalha ali.",
+   "axis": {
+    "pro": "É preciso romper com a lógica do inimigo e garantir direitos ao preso e ao policial ao mesmo tempo.",
+    "contra": "O esforço tem de se concentrar em quem trabalha no presídio, que é quem enfrenta o risco todos os dias.",
+    "pro_plain": "Preso não é inimigo e policial não é herói. Os dois têm direitos, e é assim que a tensão diminui.",
+    "contra_plain": "Quem precisa de atenção é quem trabalha no presídio, porque é essa pessoa que passa a vida ali."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Condições de trabalho e valorização",
+   "description": "Discute-se efetivo, salário, assédio, insalubridade e a falta de regra sobre o ambiente de trabalho no serviço público.",
+   "axis": {
+    "pro": "As condições de trabalho e o salário precisam mudar, com regra própria e fiscalização de verdade.",
+    "contra": "As condições de hoje são próprias do trabalho no presídio e não exigem mudança.",
+    "pro_plain": "Falta gente, o salário ficou para trás e ninguém fiscaliza. Isso tem de mudar, com regra e fiscalização.",
+    "contra_plain": "É assim mesmo que funciona o trabalho no presídio, e não há o que mudar."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputada federal, presidindo a audiência",
+   "org": "Comissão de Administração e Serviço Público",
+   "basis": "declara aberta a reunião e diz que propôs a audiência em b001.1 e b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida da administração pública e dos servidores"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretor do Sistema Penitenciário Federal",
+   "org": "Ministério da Justiça e Segurança Pública",
+   "basis": "convidado a compor a Mesa pela presidência em b001.10",
+   "seat": "mesa",
+   "gov_level": "federal",
+   "byline": "do Ministério da Justiça",
+   "org_plain": "ministério do governo federal responsável pela política penal e pelos presídios federais"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do sindicato dos policiais penais e servidores do sistema penitenciário do Ceará",
+   "org": "SINDPPEN-CE",
+   "basis": "apresentada pela presidência em b001.15 e por ela mesma em b004.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do sindicato dos policiais penais do Ceará",
+   "org_plain": "sindicato que representa os policiais penais e os servidores do sistema prisional do Ceará"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Presidente da Confederação dos Servidores Públicos do Brasil",
+   "org": "CSPB",
+   "basis": "convidado a compor a Mesa pela presidência em b001.10",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": "da Confederação dos Servidores Públicos do Brasil",
+   "org_plain": "entidade nacional que reúne sindicatos e federações de servidores públicos"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Pesquisador e coordenador do grupo de saúde mental e trabalho da FUNDACENTRO",
+   "org": "FUNDACENTRO",
+   "basis": "apresentado pela presidência em b001.13 e por ele mesmo em b008.6",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da FUNDACENTRO",
+   "org_plain": "fundação ligada ao governo federal que pesquisa segurança e medicina do trabalho"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença anunciada pela presidência em b005.13 e palavra concedida em b009.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Distrito Federal",
+   "org_plain": "casa do Congresso onde os deputados federais fazem as leis do país"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Departamento de Sistema Prisional do IBCCRIM",
+   "org": "IBCCRIM",
+   "basis": "apresentado pela presidência em b001.16 e por ele mesmo em b012.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Instituto Brasileiro de Ciências Criminais",
+   "org_plain": "instituto que estuda direito penal e acompanha o sistema prisional, nascido depois do massacre do Carandiru"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor Jurídico do SINDCOP",
+   "org": "SINDCOP",
+   "basis": "convidado a compor a Mesa pela presidência em b001.10",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": "do sindicato dos policiais penais de São Paulo",
+   "org_plain": "sindicato dos agentes de segurança penitenciária e servidores do sistema prisional de São Paulo"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado estadual de São Paulo",
+   "org": "Assembleia Legislativa de São Paulo",
+   "basis": "apresentado pela presidência em b001.12 e em b015.9",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "deputado estadual de São Paulo",
+   "org_plain": "assembleia onde os deputados estaduais de São Paulo fazem as leis do estado"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "palavra concedida pela presidência em b025.1 e registro de PL-AP na lista de oradores",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo Amapá",
+   "org_plain": "casa do Congresso onde os deputados federais fazem as leis do país"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.75
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "mesa",
+    "share": 0.05
+   }
+  ],
+  "basis": "menção a dirigentes sindicais presentes em b006.6, ao MOSAP e seu presidente em b005.13, a policiais penais na sala em b016.1 e a colegas presentes em b022.25",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência dizendo que não há política de segurança pública sem regulamentar e valorizar o policial penal, e aponta adoecimento em massa, salário defasado e radiação.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A segurança pública depende de regulamentar e valorizar a profissão de policial penal.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não existe projeto de segurança pública que deixe de fora a valorização e a regulamentação da profissão de policial penal",
+     "plain": "Este é um dos temas que mais preocupa a nossa sociedade. Não há projeto de segurança pública que deixe de fora a inclusão, a dignidade e a valorização do policial penal, nem a regulamentação da profissão."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um quadro de adoecimento em massa dos policiais penais, ligado à falta de política e à carreira não regulamentada",
+     "plain": "Existe um quadro de adoecimento em massa dos policiais penais. Uma das causas é a falta de política específica e a carreira sem regulamentação. O adoecimento da saúde mental é agravado pelas condições do dia a dia do trabalho."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os policiais penais de São Paulo receberam 6% de aumento enquanto a Polícia Militar e a Polícia Civil tiveram 20%",
+     "plain": "Em São Paulo eles receberam só 6% de aumento. A Polícia Militar e a Polícia Civil do Estado tiveram 20%. É um exemplo de como carreiras que fazem parte da mesma segurança pública são tratadas de forma diferente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que remuneração, regulamentação e plano de carreira correspondam à complexidade do trabalho no presídio e pede aprovação rápida da regulamentação da Polícia Penal Federal.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A remuneração e a carreira do servidor penitenciário têm de corresponder à complexidade do trabalho.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "os profissionais precisam de equipamentos de raios X e de escaneamento corporal, que facilitam a fiscalização e as revistas",
+     "plain": "O primeiro aspecto é o material: a unidade e os profissionais precisam ter recursos. São aparelhos de raios X e de escaneamento corporal, que facilitam a vida do servidor porque facilitam a fiscalização de quem entra e as revistas."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a remuneração e o plano de carreira do policial penal têm de corresponder à complexidade do trabalho, junto com a regulamentação",
+     "plain": "Temos que dar atenção aos servidores. A remuneração, o plano de carreira e a regulamentação precisam ser compatíveis com a profundidade e a complexidade dessas atribuições."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a Secretaria mantém psicólogos, psiquiatras e assistentes sociais credenciados perto das penitenciárias federais",
+     "plain": "Na saúde do servidor, temos psicólogos credenciados perto das penitenciárias federais, porque ele tem propensão ao adoecimento pela dificuldade do trabalho prisional. Também há psiquiatras e assistentes sociais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a exposição de Marcelo Stona e passa a palavra a Joélia Silveira Lins, do sindicato do Ceará.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata oito suicídios na categoria no Ceará, baixo efetivo nas unidades, ordens de serviço abusivas e denúncias de assédio moral institucional na gestão atual.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O adoecimento e os suicídios na categoria vêm das condições impostas na gestão do sistema prisional cearense.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "houve seis suicídios em 2021 e hoje somam oito numa categoria de apenas 3.555 policiais penais",
+     "plain": "Em 2021 houve seis suicídios só nesta gestão, em 4 anos. Hoje somam oito suicídios na nossa categoria, que tem apenas 3.555 policiais penais."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma unidade que deveria ter de 40 a 45 policiais funciona hoje com 18 a 20",
+     "plain": "Há poucos policiais para as mesmas atividades. Uma unidade deveria ter, por exemplo, de 40 a 45 policiais e hoje tem em torno de 18 a 20."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ambiente é tóxico, com rondas de meia em meia hora e ordens de serviço que ferem o direito do servidor",
+     "plain": "O ambiente de trabalho é tóxico. Sobra pouco tempo até para o descanso e o almoço, as rondas são de meia em meia hora e ainda há muitas ordens de serviço que passam por cima do direito do servidor."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Aponta que a falta de garantia de lotação vira punição ao policial que reclama e defende a fixação da lotação como proteção da função de Estado.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lotação fixa protege a função de Estado exercida pelo policial penal, e não a pessoa que a exerce.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em São Paulo o policial que reclama acaba punido com remoção forçada, porque a lotação na unidade não é garantida",
+     "plain": "O assédio e a perseguição também são realidade em São Paulo. Como a lotação na unidade não é garantida, o policial que aponta um problema ou cobra seus direitos muitas vezes é punido com remoção forçada, até para outra cidade."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "fragilizar a função do policial penal fragiliza o Estado Democrático e o acesso aos direitos fundamentais",
+     "plain": "Se você enfraquece essa função, enfraquece o Estado Democrático e o acesso aos direitos fundamentais. Debater a carreira e a regulamentação, com direito à lotação fixa, é defender o sistema de justiça."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Afirma que as condições em São Paulo não diferem das do Ceará, que a fiscalização não acontece e apresenta o marco regulatório das relações de trabalho no setor público.",
+   "quote": [
+    37,
+    38,
+    39
+   ],
+   "covered": true,
+   "evidence": [
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta ao serviço público uma regra própria sobre condições de trabalho, e por isso ninguém fiscaliza.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as condições de São Paulo e do Ceará são graves e não diferem das de muitos outros estados, e os governos fazem descaso",
+     "plain": "Conhecemos as condições de São Paulo, e a companheira do Ceará falou das de lá. Não são diferentes das de muitos outros estados e são muito graves. São os governos que fazem esse descaso."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em São Paulo a vigilância sanitária não fiscaliza e o departamento de perícias médicas não tem gente para medir os riscos",
+     "plain": "Em São Paulo a vigilância sanitária teria a obrigação de fiscalizar e propor melhorias, mas não faz nada. O departamento de perícias médicas, que existe só para avaliar as condições de trabalho, não tem gente e não faz as medidas."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a confederação lançou em 24 de outubro um marco regulatório das relações de trabalho no setor público, que trata das condições de trabalho",
+     "plain": "No dia 24 de outubro lançamos o Marco Regulatório das Relações de Trabalho no Setor Público. Não há lei sobre o trabalho na administração pública. Fizemos esse texto com a federação e o SINDCOP, tratando das condições de trabalho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Apoia o marco regulatório apresentado pela confederação e diz que vai lutar pela aprovação dele.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O marco regulatório das relações de trabalho é necessário para um serviço público de qualidade.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o marco regulatório é fundamental para um serviço público de qualidade, com respeito aos trabalhadores",
+     "plain": "Esse marco regulatório vai ser fundamental para termos um serviço público de qualidade, que respeite os seus trabalhadores. Vamos lutar aqui pela aprovação dele."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Aponta que faltam estudos específicos sobre o suicídio na categoria, que a literatura mostra mais ansiedade e depressão e que a instituição pode produzir sofrimento.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem estudos específicos sobre a categoria não é possível desenhar política pública para o sofrimento dela.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "faltam estudos específicos sobre os suicídios na categoria, e sem eles é difícil criar política pública própria",
+     "plain": "Temos poucos dados sobre um evento tão grave. Há muitos relatos de suicídio dentro dessa categoria, mas não existe estudo específico sobre isso. Sem estudo, fica difícil criar política pública para o sofrimento dessa população."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os estudos mostram nessa categoria notas mais altas de ansiedade e depressão, problemas de sono e mais irritabilidade",
+     "plain": "Na literatura sobre policiais penais há pelo menos cinco grandes estudos de revisão. Eles mostram notas mais altas de ansiedade e depressão nos testes, problemas importantes de sono e mais irritabilidade do que o restante da população."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando o adoecimento nasce das práticas da própria instituição, o Estado passa a produzir sofrimento",
+     "plain": "Quando o adoecimento e o sofrimento mental vêm das práticas da instituição e das relações de trabalho, o Estado cumpre o que na saúde chamamos de iatrogênico: produzir sofrimento. Isso aumenta afastamentos e, em casos raros, suicídios."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Acolhe a demanda por dados e diz que vai pedir ao Ministério da Justiça uma política pública que levante os dados de saúde mental da categoria.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O País precisa de políticas que produzam os dados de saúde mental dessa categoria.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "faltam políticas que revelem os dados, e essa falta de dados atravessa inúmeras políticas fundamentais no País",
+     "plain": "O senhor traz um ponto fundamental: precisamos de políticas públicas que mostrem os dados, para que a lei enfrente de fato a questão da saúde mental. A falta de dados no nosso País atravessa inúmeras políticas fundamentais."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a demanda por um levantamento dos dados de saúde mental da categoria vai ser passada ao Ministério da Justiça",
+     "plain": "Vamos passar essa demanda ao Ministério da Justiça: uma política pública que faça o levantamento e traga à luz os dados de saúde mental e o que está levando essas pessoas a sofrer."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Descreve um sistema prisional medieval e superlotado, diz que o encarceramento cresce sem aumentar o efetivo e propõe condicionar repasses à valorização dos policiais penais.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 51,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A tensão do sistema prisional atinge preso e policial penal, e os dois precisam de direitos garantidos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há superlotação no sistema, com celas feitas para 8 pessoas ocupadas por 30 a 40",
+     "plain": "Há superencarceramento e superlotação no sistema. Vemos celas que deveriam ter 8 pessoas com 30 a 40 pessoas dentro."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o número de presos cresce sem que o número de policiais cresça junto, e eles trabalham sobrecarregados e em tensão permanente",
+     "plain": "O número de pessoas presas cresce, mas o número de policiais não cresce junto. Por isso eles trabalham sobrecarregados e em tensão permanente."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem regulamentação o policial penal fica no limbo, porque está nas forças de segurança e ao mesmo tempo não está",
+     "plain": "O Parlamento aprovou a entrada da polícia penal nas forças de segurança na Constituição. Mas, sem regulamentar, fica-se no limbo: é policial penal e não é, faz parte das forças de segurança e não faz."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à deputada Erika Kokay e passa a palavra a Roberto Barbosa de Moura, do IBCCRIM.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende romper com a lógica do inimigo, critica a arquitetura bélica dos presídios e alerta para o risco do body scan a uma policial grávida.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os direitos humanos valem ao mesmo tempo para o preso e para o policial penal.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso romper com a lógica do inimigo, porque o bandido não é inimigo da sociedade e o policial é trabalhador, não herói",
+     "plain": "Precisamos romper com a lógica do inimigo, em que o bandido é o inimigo da sociedade e o policial é o herói. Bandido não é inimigo da sociedade, e o policial é trabalhador, merece dignidade e direitos trabalhistas, não heroísmo."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a arquitetura dos presídios é hostil ao preso e ao policial, gera tensão o tempo todo e não garante saúde a quem trabalha ali",
+     "plain": "Essa arquitetura é extremamente hostil aos presos e aos policiais penais e gera tensão a toda hora. Moro em Alagoas, onde temos quatro ou cinco unidades nesse formato. Ela não nos ajuda e não garante saúde ao policial penal."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma policial penal que não sabe que está grávida e opera o body scan pode ter problemas para o bebê",
+     "plain": "A comissão de direitos humanos da Ordem dos Advogados em Alagoas, que presido, estudou o body scan. Se uma policial penal não sabe que está grávida e opera o aparelho ou fica perto dos raios ionizantes, isso pode gerar problemas ao bebê."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Carlos Eduardo Piotto, do SINDCOP, e elogia a atuação do sindicato.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Denuncia que nunca se testou o vazamento de radiação dos scanners em São Paulo, elogia o fim da revista vexatória e pede um grupo de trabalho nacional sobre os equipamentos.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A tecnologia do scanner é necessária, mas falta regra nacional de operação e de segurança.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nunca se testou se há vazamento de radiação, e onde ele trabalha a fita de borracha e chumbo está torta",
+     "plain": "Nunca se fez teste para ver se há vazamento de radiação. No lugar onde eu trabalho, a fita de borracha e chumbo que protege do vazamento está torta, porque passava alimentação quente por ali. Isso é vazamento de radiação."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a tecnologia é maravilhosa e trocar a revista vexatória pelo scanner corporal foi ótimo para os policiais penais",
+     "plain": "A tecnologia é maravilhosa. Trocar a revista vexatória, aquela em que a visita tinha de se despir, pelo scanner corporal foi ótima para nós, policiais penais. O constrangimento não era só de quem era revistado, era nosso também."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso criar um grupo de trabalho nacional, com sindicatos e entidades, para pesquisar os equipamentos com a FUNDACENTRO",
+     "plain": "Concordamos com o que o Roberto falou nesse ponto. Repito ao Secretário Nacional: precisamos criar um grupo de trabalho nacional, com sindicatos, associações e todos os interessados, para fazer essa pesquisa com a FUNDACENTRO."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que a bancada apresentou projeto para revogar a autorização de privatização e diz que a privatização não resolve o serviço público.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A privatização de presídios precisa ser barrada, e a bancada já apresentou o projeto para isso.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a bancada apresentou um projeto de decreto legislativo para revogar a medida que autoriza a privatização",
+     "plain": "A nossa bancada apresentou esse projeto de decreto legislativo para revogar essa medida. Nós a consideramos um ataque ao sistema de segurança pública e ao Estado brasileiro."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o caso da ENEL em São Paulo mostra que a privatização não resolve o serviço público e só busca lucro",
+     "plain": "A ENEL, a empresa de energia de São Paulo, está mostrando que a privatização está longe de resolver os serviços públicos. A privatização só quer lucro, e essas empresas não estão interessadas nas pessoas nem na sociedade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Cobra que o governo de São Paulo envie o projeto de regulamentação da Polícia Penal, denuncia o reajuste de 6% e repudia o financiamento público à privatização.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "São Paulo precisa regulamentar a Polícia Penal, e o governo estadual não manda o projeto.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo de São Paulo não enviou o projeto que regulamenta a Polícia Penal e promete sem cumprir",
+     "plain": "Até agora o Governo Tarcísio de Freitas não mandou o projeto de lei complementar que regulamenta a Polícia Penal em São Paulo. É o Estado com mais presídios e mais servidores da área. O Governo promete o envio e nunca cumpre."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Polícia Civil e a Militar tiveram em média 20% de reajuste e os servidores do sistema prisional, apenas 6%",
+     "plain": "Houve reajuste salarial na segurança pública e os servidores do sistema prisional ficaram de fora. A Polícia Civil e a Polícia Militar tiveram, em média, 20% de reajuste. Os do sistema prisional tiveram apenas 6%."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      50
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os Estados Unidos estão voltando atrás em vários estados, porque o preso vira mercadoria para a empresa",
+     "plain": "Os Estados Unidos estão voltando atrás nisso, em vários Estados. Isso porque o preso vira mercadoria para a empresa que fica com o serviço."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Anuncia os encaminhamentos da audiência: grupo de trabalho sobre os scanners, estudo dos dados de adoecimento e indicação pela regulamentação da Polícia Penal Federal.",
+   "quote": [
+    24,
+    25
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão vai cobrar do governo dados sobre o adoecimento, norma para os scanners e regulamentação da carreira.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Justiça vai ser chamado a estudar os dados do adoecimento e a pensar um observatório",
+     "plain": "Vamos fazer uma indicação ao Ministério da Justiça para que estude os dados sobre o adoecimento dos policiais penais, porque ainda não há política pública que traga esses dados. É importante pensar num observatório que comece essa pesquisa."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      26
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a indicação ao Ministério da Justiça e ao CNJ pede a regulamentação da Polícia Penal Federal como parâmetro para os estados",
+     "plain": "Vamos fazer uma indicação ao Ministério da Justiça, ao Ministério da Gestão e da Inovação e ao CNJ, o Conselho Nacional de Justiça, pela regulamentação da Polícia Penal Federal, que vai servir de parâmetro para os Estados."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o grupo de trabalho sobre os scanners é preciso porque a tecnologia traz segurança, mas não pode adoecer o servidor",
+     "plain": "Vamos pedir ao Ministério da Justiça um grupo de trabalho sobre a implantação do novo sistema de revista com scanners, e isso não acontece só em São Paulo. A tecnologia traz mais segurança, mas não pode adoecer o servidor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que a Secretaria já contrata serviços de saúde e segurança do trabalho para o sistema federal e que o grupo de trabalho sobre equipamentos foi autorizado.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As demandas de saúde e segurança do trabalho já estão encaminhadas, começando pelo sistema penitenciário federal.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Secretaria já contrata empresas de segurança do trabalho para o sistema penitenciário federal, como piloto para o país",
+     "plain": "Boa parte das indicações já está encaminhada. Temos um processo para contratar empresas de segurança do trabalho, com controle médico de saúde ocupacional e gerenciamento de riscos, começando pelo sistema penitenciário federal como piloto."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      4
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o secretário já autorizou um grupo de trabalho para estudar e padronizar os equipamentos em todo o sistema prisional",
+     "plain": "Depois de um contato com o colega Carlos Piotto, o secretário já autorizou de imediato um grupo de trabalho para os estudos técnicos e a padronização dos equipamentos em todo o sistema prisional brasileiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Marcelo Stona e chama Lineu Neves Mazano para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apoia o observatório proposto, oferece a participação da confederação e diz que uma referência do Governo Federal ajuda a pressionar os estados.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A confederação quer participar do levantamento de dados e usar a referência federal para pressionar os estados.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o observatório é bem-vindo porque falta dado real, e a confederação quer entrar nesse processo",
+     "plain": "Parabéns pelos encaminhamentos, inclusive o do observatório. O que dificulta muitas vezes é a falta de dados reais. Em nome do presidente da nossa confederação, sugiro entrarmos juntos nesse processo para contribuir."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "uma referência vinda do Governo Federal ajuda a organizar a luta e a pressionar os governos estaduais",
+     "plain": "Pelo que o Marcelo falou, representando o Governo Federal, já vamos fazer esses encaminhamentos, porque precisamos de referência. Uma referência federal ajuda a nossa organização e a nossa luta para pressionar os governos estaduais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Lineu Mazano e chama Carlos Eduardo Piotto para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Cobra que o Congresso e os ministros ouçam os policiais penais e relata o estresse térmico, o ruído e a revista no esgoto do trabalho diário.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 13,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem decide sobre o sistema prisional precisa ouvir o policial penal de cada estado.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o crime organizado se instalou no País porque os agentes penitenciários nunca foram ouvidos",
+     "plain": "O crime organizado se instalou no País porque ninguém nunca ouviu os agentes penitenciários, hoje policiais penais. A primeira vez que fomos ouvidos de verdade foi com muita luta, na aprovação da Polícia Penal."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "trabalhamos trancados por 12 horas, sem luz do sol e sem protetor auricular, e precisamos do direito à insalubridade",
+     "plain": "Há o estresse térmico: trabalhamos trancados, sem luz do sol, por 12 horas, com ruído e barulho, e não há um protetor auricular. E estamos ali, vigiando. Temos que brigar pelo direito ao adicional de insalubridade."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o plano para matar autoridades foi descoberto numa revista de cela em Presidente Venceslau, feita por policiais penais",
+     "plain": "O plano feito recentemente para matar autoridades do sistema penitenciário foi descoberto numa revista de cela, em Presidente Venceslau. Foram os policiais penais que revistaram o esgoto, com a mão no esgoto."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Piotto e chama Joélia Silveira Lins para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apoia o observatório de dados e cobra urgência na regulamentação federal, que serviria de parâmetro para o Ceará e para os outros estados.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação federal é urgente e serve de parâmetro para os estados.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é difícil ter dados precisos sobre adoecimentos e afastamentos, e por isso o observatório importa para o Ceará",
+     "plain": "Me sinto contemplada com as pautas indicadas sobre os dados, porque é difícil ter dados precisos de adoecimento e de afastamento, até para nós do Ceará. Esse observatório é muito importante agora, porque estamos sofrendo no Estado."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o parâmetro federal é urgente, porque a polícia penal é recém-criada e já está em plena atividade",
+     "plain": "Precisamos desse parâmetro federal, e isso é para ontem. Somos uma polícia recém-criada, mas já estamos em plena atividade. Precisamos dessa regulamentação com urgência, para fazer o trabalho com dignidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Joélia Silveira Lins e passa a palavra à deputada Silvia Waiãpi.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Reconhece o trabalho como insalubre, diz que quem cumpre a pena é o policial penal e afirma que esses profissionais merecem o Prêmio Nobel.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A atenção do debate tem de estar em quem trabalha no presídio, que passa a vida ali.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem cumpre a pena são os agentes, porque são eles que passam mais de 30 anos dentro da unidade prisional",
+     "plain": "Falamos muito da segurança e da integridade do preso. Mas esquecemos que quem cumpre a pena são os nossos agentes, são vocês, que passam mais de 30 anos dentro de uma unidade prisional, expostos ao risco mais alto."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "um trabalho que exige tanta doação e paciência para lidar com criminoso merece o Prêmio Nobel",
+     "plain": "Contem com o meu apoio e com o meu reconhecimento. Qualidade de vida não é só em casa ou no parque, é também no ambiente de trabalho. E um trabalho que exige tanta doação e paciência para lidar com criminoso merece o Prêmio Nobel."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o trabalho de vocês é insalubre e o Parlamento deve atuar para melhorar o local de trabalho",
+     "plain": "Eu reconheço que o trabalho de vocês é um trabalho insalubre. Por isso acho que nós, no Parlamento, devemos atuar muito para melhorar a qualidade da estada de vocês no local de trabalho."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a próxima audiência pública da comissão, agradece a presença de todos e encerra os trabalhos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 27,
+   "from_claim": "b004c1",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A presidência falou em adoecimento em massa e a dirigente sindical põe número nisso, com os suicídios contados no Ceará."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 28,
+   "from_claim": "b005c1",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "As ordens abusivas relatadas no Ceará têm par em São Paulo, onde o policial que reclama acaba removido à força."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 27,
+   "from_claim": "b006c1",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "O dirigente da confederação diz que o quadro apontado na abertura vem do descaso dos governos, e não de uma falha isolada."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 27,
+   "from_claim": "b006c1",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Ele afirma que as condições descritas pela companheira do Ceará não são diferentes das de São Paulo e de muitos outros estados."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 43,
+   "from_claim": "b007c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A presidência endossa o marco regulatório lançado pela confederação e promete lutar pela aprovação dele."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 15,
+   "from_claim": "b008c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O pesquisador confirma que há relatos de suicídio na categoria, como os do Ceará, e acrescenta que não existe estudo específico sobre eles."
+  },
+  {
+   "from": "b009",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 14,
+   "from_claim": "b009c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "A presidência recolhe a conclusão do pesquisador e transforma a falta de estudos numa demanda de política pública."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 19,
+   "from_claim": "b010c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "A deputada explica a sobrecarga que o sindicato do Ceará descreveu, porque o número de presos cresce e o de policiais não."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 19,
+   "from_claim": "b010c2",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "A tensão permanente que ela descreve é o que os estudos citados pela fundação medem como irritabilidade e problema de sono."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 16,
+   "from_claim": "b012c2",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Ele retoma a deputada para dizer que a tensão também nasce da arquitetura do presídio, hostil ao preso e ao policial."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 46,
+   "to_sentence": 30,
+   "from_claim": "b014c3",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "O sindicalista diz que comunga do que o instituto falou sobre o risco do aparelho e propõe pesquisar isso num grupo de trabalho."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 47,
+   "to_sentence": 14,
+   "from_claim": "b014c3",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "O sindicato quer fazer a pesquisa sobre os equipamentos junto com a fundação que disse faltarem estudos."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 85,
+   "from_claim": "b015c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Ao pedido de revogar os decretos que liberam dinheiro para privatização, a presidência responde que a bancada já apresentou o projeto."
+  },
+  {
+   "from": "b016",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 31,
+   "from_claim": "b016c2",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "O deputado estadual repete os números da abertura, com o reajuste maior para a Polícia Civil e a Militar e o menor para o sistema prisional."
+  },
+  {
+   "from": "b016",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 50,
+   "to_sentence": 4,
+   "from_claim": "b016c3",
+   "to_claim": "b015c2",
+   "strength": "media",
+   "note": "Ele acrescenta ao argumento da presidência que os Estados Unidos estão voltando atrás, porque o preso vira mercadoria."
+  },
+  {
+   "from": "b017",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 21,
+   "to_sentence": 47,
+   "from_claim": "b017c3",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "A presidência acolhe o pedido de um grupo de trabalho sobre os scanners e o transforma em indicação ao Ministério da Justiça."
+  },
+  {
+   "from": "b017",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 24,
+   "to_sentence": 14,
+   "from_claim": "b017c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "O observatório proposto responde à falta de estudos específicos que o pesquisador apontou como obstáculo à política pública."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 47,
+   "from_claim": "b018c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "O representante do ministério diz que o grupo de trabalho pedido pelo sindicato já foi autorizado pelo secretário."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 24,
+   "from_claim": "b018c1",
+   "to_claim": "b017c1",
+   "strength": "media",
+   "note": "Ele responde às indicações dizendo que boa parte já está encaminhada, com a contratação de serviços de saúde e segurança do trabalho."
+  },
+  {
+   "from": "b020",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 25,
+   "from_claim": "b020c1",
+   "to_claim": "b017c1",
+   "strength": "media",
+   "note": "A confederação apoia o observatório e se oferece para entrar no levantamento dos dados."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 2,
+   "from_claim": "b020c2",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "Ele toma as medidas anunciadas pelo governo federal como referência para pressionar os governos estaduais."
+  },
+  {
+   "from": "b024",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 24,
+   "from_claim": "b024c1",
+   "to_claim": "b017c1",
+   "strength": "media",
+   "note": "A dirigente do Ceará diz que se sente contemplada pela indicação sobre os dados, porque lá também falta esse levantamento."
+  },
+  {
+   "from": "b024",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 24,
+   "from_claim": "b024c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Os dois pedem a regulamentação federal, ele pela aprovação rápida e ela como parâmetro urgente para os estados."
+  },
+  {
+   "from": "b022",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 17,
+   "from_claim": "b022c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "O sindicalista confirma pela própria experiência o que o instituto disse da arquitetura, porque quem projetou o presídio não trabalha nele."
+  },
+  {
+   "from": "b026",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 8,
+   "from_claim": "b026c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Para o instituto, o policial é trabalhador e não herói. A deputada diz que quem lida com criminoso merece o Prêmio Nobel."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 21,
+   "from_claim": "b026c3",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "A deputada reconhece como insalubre o trabalho que o sindicalista acabara de descrever e diz que o Parlamento deve agir."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b005",
+    "b010",
+    "b016",
+    "b020",
+    "b024"
+   ],
+   "claims": [
+    "b002c2",
+    "b005c2",
+    "b010c3",
+    "b016c1",
+    "b020c2",
+    "b024c2"
+   ],
+   "note": "Governo federal, presidência, parlamentares e sindicatos concordam em que a carreira do policial penal precisa ser regulamentada, na União e nos estados."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b004",
+    "b008",
+    "b018"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c1",
+    "b008c2",
+    "b008c3",
+    "b018c1"
+   ],
+   "note": "Presidência, sindicato do Ceará, pesquisa federal e Ministério da Justiça tratam o adoecimento como efeito do trabalho, e não de cada pessoa."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b008",
+    "b009",
+    "b017",
+    "b020",
+    "b024"
+   ],
+   "claims": [
+    "b008c1",
+    "b009c1",
+    "b009c2",
+    "b017c1",
+    "b020c1",
+    "b024c1"
+   ],
+   "note": "Pesquisa, presidência, confederação e sindicato concordam que sem dados próprios não há política para a categoria, e apoiam o observatório."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b012",
+    "b014",
+    "b018"
+   ],
+   "claims": [
+    "b012c3",
+    "b014c1",
+    "b014c3",
+    "b018c2"
+   ],
+   "note": "Instituto, sindicato e Ministério da Justiça concordam que os equipamentos de revista precisam de estudo técnico e de padronização."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b001",
+    "b004",
+    "b006",
+    "b016",
+    "b022",
+    "b026"
+   ],
+   "claims": [
+    "b001c3",
+    "b004c2",
+    "b004c3",
+    "b006c1",
+    "b006c2",
+    "b016c2",
+    "b022c2",
+    "b026c3"
+   ],
+   "note": "Mesa, sindicatos e parlamentares de partidos diferentes descrevem o mesmo quadro, com falta de gente, salário para trás e nenhuma fiscalização."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b014",
+   "sentence": 47,
+   "addressed_to": "governo",
+   "answered_by": "b018",
+   "gist": "criação de um grupo de trabalho nacional sobre os scanners",
+   "plain": "Vão criar um grupo de trabalho nacional para estudar os scanners e a radiação?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b014",
+   "sentence": 85,
+   "addressed_to": "governo",
+   "answered_by": "b015",
+   "gist": "revogação urgente dos decretos que liberam verba para privatização",
+   "plain": "O governo vai revogar os decretos que liberam dinheiro público para privatizar presídio?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b010",
+   "sentence": 51,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "abrir espaço de fala para os policiais penais no Ministério da Justiça",
+   "plain": "O Ministério da Justiça vai abrir um espaço para os policiais penais apresentarem as reivindicações deles?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b022",
+   "sentence": 13,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "os ministros ouvirem os policiais penais de cada estado",
+   "plain": "Os ministros vão ouvir os policiais penais de todo o Brasil antes de decidir sobre o sistema prisional?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b009",
+   "sentence": 5,
+   "addressed_to": "governo",
+   "answered_by": "b018",
+   "gist": "levantamento dos dados de saúde mental da categoria",
+   "plain": "O Ministério da Justiça vai levantar os dados de saúde mental dos policiais penais?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 15,
+   "gist": "oito suicídios numa categoria de 3.555 policiais penais",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 14,
+   "gist": "seis suicídios em 2021, em 4 anos de gestão",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 21,
+   "gist": "hoje a unidade tem de 18 a 20 policiais penais",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b001",
+   "sentence": 31,
+   "gist": "6% de aumento contra 20% da Polícia Militar e Civil",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 3,
+   "gist": "celas de 8 pessoas com 30 a 40 pessoas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 57,
+   "gist": "por volta de 40% dos presos ainda não têm sentença",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 43,
+   "gist": "832 mil pessoas encarceradas no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b012",
+   "sentence": 44,
+   "gist": "2.453 pessoas mortas em presídios no ano de 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 36,
+   "gist": "São Paulo tem 195 mil presos e quase 200 scanners corporais",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 48,
+   "gist": "lei de saúde mental da categoria em São Paulo desde 2007",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b014",
+   "sentence": 64,
+   "gist": "este ano já foram 4 ou 5 suicídios em São Paulo",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b006",
+   "sentence": 43,
+   "gist": "marco regulatório lançado no dia 24 de outubro",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu a denúncia de precarização feita pelos sindicatos e a cobrança de regulamentação, com os números dos suicídios no Ceará.",
+  "omitted": "Ficou de fora o debate sobre privatização e cogestão de presídios e sobre o dinheiro público que os sindicatos pediram para barrar."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem regulamentação, o policial penal fica no limbo",
+   "statement_plain": "A profissão entrou na Constituição e até hoje não tem regra própria. Sem regulamentar a carreira, o salário e o local de trabalho, o policial penal fica no limbo e o serviço fica frágil.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b010c3",
+    "b016c1",
+    "b024c2",
+    "b006c3"
+   ],
+   "note": "A ideia atravessa os setores, porque o Ministério da Justiça, uma deputada federal, um deputado estadual e duas entidades sindicais defendem a mesma regra."
+  },
+  {
+   "id": "t2",
+   "title": "O adoecimento vem do trabalho, não da pessoa",
+   "statement_plain": "Os suicídios e o adoecimento na categoria têm causa no trabalho, porque falta gente, há assédio e a própria instituição produz sofrimento. Por isso é preciso uma política feita para essa categoria.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c1",
+    "b008c2",
+    "b008c3",
+    "b018c1"
+   ],
+   "note": "Quem sustenta a ideia vem de lugares diferentes, da presidência da audiência a um sindicato estadual, uma fundação de pesquisa e o ministério que administra os presídios federais."
+  },
+  {
+   "id": "t3",
+   "title": "Sem dado próprio não há política para a categoria",
+   "statement_plain": "Ninguém sabe quantos policiais penais adoecem, se afastam ou tiram a própria vida. Enquanto não houver estudo e observatório, qualquer política vai ser feita no escuro.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b009c2",
+    "b017c1",
+    "b020c1",
+    "b024c1"
+   ],
+   "note": "A ideia nasce na pesquisa e é encampada pela mesa, pela confederação e pelo sindicato do Ceará, e não é o pedido de um setor só."
+  },
+  {
+   "id": "t4",
+   "title": "Sem teste e sem norma, o scanner adoece",
+   "statement_plain": "Os aparelhos de raios X e de escaneamento corporal nunca foram testados e as normas não são cumpridas. Antes de continuar assim, é preciso estudo técnico e regra nacional.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b012c3",
+    "b014c1",
+    "b014c3",
+    "b018c2"
+   ],
+   "note": "A ideia divide o próprio sindicato que defende a tecnologia e é aceita pelo ministério, que autorizou o grupo de trabalho no mesmo dia."
+  },
+  {
+   "id": "t5",
+   "title": "Direitos humanos valem para o preso e o policial",
+   "statement_plain": "Enquanto o preso for tratado como inimigo e o policial como herói, os dois seguem adoecendo. A saída é garantir direitos aos dois lados e não entregar o presídio a empresas.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b010c1",
+    "b015c2",
+    "b016c3"
+   ],
+   "note": "A ideia junta um instituto de ciências criminais, uma deputada federal, a presidência e um deputado estadual, e é contestada dentro do próprio Parlamento."
+  },
+  {
+   "id": "t6",
+   "title": "O foco tem de ser quem trabalha no presídio",
+   "statement_plain": "Quem passa a vida dentro da unidade prisional é o policial penal. É para quem trabalha ali que o Parlamento e o Estado precisam olhar primeiro, porque essa gente nunca foi ouvida.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b026c1",
+    "b026c2",
+    "b022c1"
+   ],
+   "note": "A ideia se opõe à do instituto e cruza dois lugares distantes, porque uma deputada federal e um dirigente sindical de São Paulo dizem a mesma coisa."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SINDCOP",
+   "fala": "b001",
+   "sentence": 10,
+   "plain": "sindicato dos agentes de segurança penitenciária e dos demais servidores do sistema penitenciário de São Paulo"
+  },
+  {
+   "term": "FUNDACENTRO",
+   "fala": "b001",
+   "sentence": 13,
+   "plain": "fundação ligada ao governo federal que pesquisa segurança e medicina do trabalho"
+  },
+  {
+   "term": "SINDPPEN-CE",
+   "fala": "b004",
+   "sentence": 3,
+   "plain": "sindicato dos policiais penais e servidores do sistema penitenciário do Ceará"
+  },
+  {
+   "term": "assédio moral institucional",
+   "fala": "b004",
+   "sentence": 23,
+   "plain": "humilhação e pressão que vêm da própria chefia ou das regras do órgão, e não de uma pessoa isolada"
+  },
+  {
+   "term": "intrajornada",
+   "fala": "b004",
+   "sentence": 27,
+   "plain": "o intervalo de descanso dentro do próprio turno de trabalho, como a pausa do almoço"
+  },
+  {
+   "term": "iatrogênico",
+   "fala": "b008",
+   "sentence": 30,
+   "plain": "na saúde, o que é feito para cuidar mas acaba causando dano. Aqui, a instituição que produz sofrimento"
+  },
+  {
+   "term": "ADPF 347",
+   "fala": "b012",
+   "sentence": 5,
+   "plain": "ação julgada pelo Supremo Tribunal Federal em que se reconheceu o estado de coisas inconstitucional dos presídios"
+  },
+  {
+   "term": "cogestões",
+   "fala": "b012",
+   "sentence": 19,
+   "plain": "modelo em que uma empresa administra parte do presídio junto com o Estado"
+  },
+  {
+   "term": "body scan",
+   "fala": "b012",
+   "sentence": 29,
+   "plain": "aparelho que faz a revista da pessoa por imagem, sem tirar a roupa, usando radiação"
+  },
+  {
+   "term": "raios ionizantes",
+   "fala": "b012",
+   "sentence": 30,
+   "plain": "tipo de radiação que atravessa o corpo e, em doses altas, pode causar dano à saúde"
+  },
+  {
+   "term": "CNEN",
+   "fala": "b014",
+   "sentence": 19,
+   "plain": "Comissão Nacional de Energia Nuclear, órgão federal que faz as normas sobre uso de radiação"
+  },
+  {
+   "term": "revista vexatória",
+   "fala": "b014",
+   "sentence": 27,
+   "plain": "revista em que a pessoa que visita o preso precisava se despir e ser examinada no corpo"
+  },
+  {
+   "term": "levantamento radiométrico",
+   "fala": "b014",
+   "sentence": 36,
+   "plain": "medição obrigatória da radiação que um aparelho emite, feita todo ano para ver se há vazamento"
+  },
+  {
+   "term": "PCMSO",
+   "fala": "b018",
+   "sentence": 2,
+   "plain": "Programa de Controle Médico de Saúde Ocupacional, o conjunto de exames e ações de saúde que o empregador deve manter"
+  }
+ ]
+}

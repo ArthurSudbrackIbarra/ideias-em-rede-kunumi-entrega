@@ -1,0 +1,1789 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 191,
+ "model": "LLM lendo o prompt hearing-191 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:38:12Z",
+ "prompt_sha256": "7f095633baa9adbd472ca238aab144ab42df51bbb2a682d7c494f408f87c99fb",
+ "sentences_hash": "451288973ff54509",
+ "review": {
+  "pairs_read": 30,
+  "pairs_fixed": 8
+ },
+ "warnings": [
+  "tese t1: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Meio Ambiente debateu a Resolução Nexus do Pnuma, que liga bem-estar animal, meio ambiente e desenvolvimento sustentável. O Ministério do Meio Ambiente, um pesquisador da UFRJ e três organizações apresentaram o tema como pauta de Estado e como oportunidade econômica, com dados sobre emissões, antibióticos e proteínas alternativas. A presidência encaminhou o pedido para que o Governo apoie o Pnuma na elaboração do Relatório Nexus.",
+ "stakes": "Se o Governo brasileiro vai liderar o processo consultivo regional do Relatório Nexus e capacitar os ministérios envolvidos.",
+ "central_question": "O que o Brasil ganha, e o que precisa mudar, ao tratar o bem-estar animal como parte da agenda ambiental e econômica do Estado?",
+ "synopsis_plain": "Uma comissão da Câmara debateu uma resolução da ONU que liga o bem-estar dos animais ao meio ambiente e ao desenvolvimento sustentável. Um ministério, um pesquisador e três organizações mostraram por que o tema virou assunto de Estado e de mercado, com números sobre emissões, antibióticos e alimentos feitos de planta. No fim, o deputado que preside pediu que o Governo apoie o relatório da ONU.",
+ "stakes_plain": "Se o Governo brasileiro vai liderar o processo do Relatório Nexus da ONU e preparar os ministérios para isso.",
+ "central_question_plain": "O que o Brasil ganha, e o que tem de mudar, ao tratar o bem-estar animal como assunto de Estado e de economia?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Bem-estar animal como pauta de Estado",
+   "description": "Se o tema é assunto de quem gosta de animais ou uma agenda transversal, que atravessa ministérios, o Legislativo e os Municípios.",
+   "axis": {
+    "pro": "O bem-estar animal é pauta de Estado e exige a ação conjunta de vários setores e níveis de governo.",
+    "contra": "É um assunto setorial, de quem se interessa por animais, e cabe a um órgão só.",
+    "pro_plain": "Cuidar dos animais virou assunto de governo inteiro, e não só de quem gosta de bicho.",
+    "contra_plain": "É tema de quem se interessa por animais, e um órgão só dá conta dele."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Normas internacionais e comércio",
+   "description": "Se o Brasil deve se antecipar às exigências de fora e liderar a Resolução Nexus, ou se essas exigências travam o desenvolvimento do País.",
+   "axis": {
+    "pro": "O Brasil deve se antecipar às exigências internacionais e liderar a implementação da Resolução Nexus.",
+    "contra": "Interesses internacionais delimitam o que o País pode fazer e travam o seu desenvolvimento.",
+    "pro_plain": "É melhor o Brasil se preparar antes e puxar a fila, em vez de ser pego pelas regras de fora.",
+    "contra_plain": "Regras e interesses de fora estão amarrando o País e não deveriam decidir o que se faz aqui."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Oportunidade econômica da transição",
+   "description": "O que o setor produtivo ganha ou perde ao entrar nessa agenda, olhando mercado, reputação, investidores e acesso a capital.",
+   "axis": {
+    "pro": "Quem sair na frente ganha mercado, reputação e capital mais barato, e o risco de não mudar é maior que o custo.",
+    "contra": "O custo da mudança recai sobre o produtor e ainda não foi estudado.",
+    "pro_plain": "Quem se mexer primeiro ganha mercado e crédito mais barato. Ficar parado sai mais caro.",
+    "contra_plain": "A conta da mudança cai no colo do produtor, e ninguém calculou direito quanto é."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Transformação do sistema alimentar",
+   "description": "Se o caminho é transformar o sistema de produção de alimentos, com proteínas alternativas, ou melhorar e adaptar o sistema que já existe.",
+   "axis": {
+    "pro": "O sistema alimentar precisa de transformação, e a melhoria do sistema atual é incremental e não resolve.",
+    "contra": "O caminho é o setor produtivo atual se adaptar e melhorar, com regulamento construído junto com especialistas.",
+    "pro_plain": "Ajustar o sistema que existe não resolve. Precisa mudar de patamar, com novas formas de fazer alimento.",
+    "contra_plain": "Dá para o setor que existe se adaptar e melhorar, com regra construída junto com quem entende."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Clima, terra e biodiversidade",
+   "description": "Quanto os sistemas alimentares e a criação de animais pesam nas emissões, no uso da terra e no desmatamento.",
+   "axis": {
+    "pro": "Os sistemas alimentares e a criação de animais são um dos maiores motores de emissão e de perda de biodiversidade.",
+    "contra": "O peso da criação de animais é menor do que se diz, e o desmatamento tem outros motores.",
+    "pro_plain": "Produzir comida, e sobretudo criar animais, é um dos que mais emitem e mais tomam terra.",
+    "contra_plain": "A criação de animais leva mais culpa do que tem. O desmatamento vem de outras frentes."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Antibióticos e resistência",
+   "description": "O uso de antibióticos na criação de animais para prevenir doença e acelerar crescimento, e as mortes por bactérias que não respondem mais a remédio.",
+   "axis": {
+    "pro": "O uso não terapêutico de antibióticos na criação animal é uma crise de saúde pública e precisa ser contido.",
+    "contra": "Esse uso é necessário para manter a produção e o risco é administrável.",
+    "pro_plain": "Dar antibiótico de rotina ao animal criou bactéria que remédio não mata, e isso já é crise de saúde.",
+    "contra_plain": "Sem esse uso a produção não se sustenta, e o risco dá para administrar."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência pública na Comissão de Meio Ambiente",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado como Bruno Ganem, Bloco/PODE - SP",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que trata de meio ambiente e desenvolvimento sustentável"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretora do Departamento de Proteção, Defesa e Direitos dos Animais",
+   "org": "Ministério do Meio Ambiente e Mudança do Clima",
+   "basis": "apresentada pela presidência em b001.3 e b001.16",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Meio Ambiente",
+   "org_plain": "departamento do ministério federal que cuida da proteção, da defesa e dos direitos dos animais"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Pesquisador da Universidade Federal do Rio de Janeiro",
+   "org": "UFRJ",
+   "basis": "apresentado pela presidência em b001.3 e b003.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "pesquisador da UFRJ",
+   "org_plain": "Universidade Federal do Rio de Janeiro, universidade pública que pesquisa gestão e sustentabilidade"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora-Executiva da Mercy for Animals no Brasil",
+   "org": "Mercy for Animals",
+   "basis": "apresentada pela presidência em b001.3 e por ela mesma em b006.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Mercy for Animals",
+   "org_plain": "organização internacional que trabalha para transformar o sistema alimentar, presente no Brasil desde 2015"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora de Programas de Food Systems da Proteção Animal Mundial",
+   "org": "Proteção Animal Mundial",
+   "basis": "apresentada pela presidência em b001.3 e por ela mesma em b008.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Proteção Animal Mundial",
+   "org_plain": "organização internacional de proteção animal, antes conhecida como WSPA, com atuação em mais de 50 países"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Especialista em políticas públicas do The Good Food Institute Brasil",
+   "org": "The Good Food Institute Brasil",
+   "basis": "apresentado pela presidência em b001.3 e b009.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do The Good Food Institute",
+   "org_plain": "organização sem fins lucrativos que promove proteínas alternativas, financiada por fundos filantrópicos"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Grupo Técnico de Saúde Única da Coordenação-Geral de Vigilância de Zoonoses",
+   "org": "Ministério da Saúde",
+   "basis": "apresentada pela presidência em b011.9 e por ela mesma em b012.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério federal responsável pela política de saúde, incluindo a vigilância de zoonoses"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Engenheira sanitarista ambiental, de Salvador, em visita à audiência",
+   "org": null,
+   "basis": "apresentada por ela mesma em b014.1 e b014.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "engenheira sanitarista ambiental",
+   "org_plain": null
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Representante do Ministério da Agricultura e Pecuária",
+   "org": "MAPA",
+   "basis": "apresentada por ela mesma em b017.1",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Agricultura",
+   "org_plain": "ministério federal que regula a produção agropecuária e o abate de animais"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "Assessora da Frente Parlamentar Mista Ambientalista e diretora de bem-estar animal da ANAMMA",
+   "org": "Frente Parlamentar Mista Ambientalista",
+   "basis": "apresentada por ela mesma em b023.0 e b023.8",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Frente Parlamentar Ambientalista",
+   "org_plain": "grupo de parlamentares de vários partidos que acompanha projetos de lei sobre meio ambiente"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada na ata como Silvia Waiãpi, PL - AP, e chamada pela presidência em b024.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PL do Amapá",
+   "org_plain": "Casa do Congresso que faz as leis e fiscaliza o governo federal"
+  }
+ },
+ "audience": {
+  "estimate": 45,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   }
+  ],
+  "basis": "Vanessa Negrini cita na plateia representantes do Ministério da Agricultura, do Ministério da Saúde e da Embrapa, a presidência registra o secretário de Itupeva e as equipes de gabinete, e há sete registros de palmas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a Resolução Nexus, apresenta os convidados e explica os procedimentos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o bem-estar animal é pauta de Estado e econômica, mostra que o tema trava o acordo com a União Europeia e lembra que 88% dos brasileiros se preocupam com ele.",
+   "quote": [
+    48,
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O bem-estar animal é pauta de Estado e precisa ser discutido por vários órgãos.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o bem-estar animal não é mais apenas uma pauta de quem ama os animais, e hoje é também uma pauta econômica importante para os países",
+     "plain": "O bem-estar animal já faz tempo que não é mais apenas uma pauta de quem ama os animais. Seria fácil se estivesse só nas mãos deles. Hoje é também uma pauta econômica, importante para os países."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "tratados internacionais viram barreira se o debate interno não avançar, e no acordo com a União Europeia isso já trava a assinatura",
+     "plain": "Tratados internacionais podem virar barreira se não avançarmos no debate interno sobre bem-estar animal. No acordo entre União Europeia e Mercosul, cláusulas ambientais travam a assinatura, com prejuízo para o bolso do agronegócio."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "88% dos brasileiros se preocupam com o bem-estar animal, e a proposta mais votada no PPA Participativo foi a produção livre de gaiolas",
+     "plain": "Lembro que 88% dos brasileiros, inclusive quem come carne, se preocupam com o bem-estar animal. Tanto é uma reivindicação que, no PPA Participativo, a proposta mais votada no Ministério da Agricultura foi a de produção livre de gaiolas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o trabalho de Vanessa Negrini e passa a palavra a Celso Funcia Lemme.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta o bem-estar animal como oportunidade econômica, mostra que investidores, varejo e bolsa já o cobram e alerta que o risco de não mudar é maior que o custo.",
+   "quote": [
+    50
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agenda do bem-estar animal é uma oportunidade econômica para quem sair na frente.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a pauta do bem-estar animal abre oportunidades econômicas, ambientais e sociais e reforça a liderança do Brasil no agronegócio de alimentos",
+     "plain": "Esta pauta abre um conjunto grande de oportunidades econômicas, ambientais e sociais para o Brasil. Ela reforça o posicionamento e a liderança do País no setor de alimentação do agronegócio. É uma oportunidade enorme."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      50
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o custo de mudar pode ser alto, mas o risco de não mudar é maior, porque se perde mercado e liderança",
+     "plain": "O custo de fazer a mudança pode ser alto, mas o risco de não fazer pode ser muito maior. Você pode acabar eliminado de mercados, perder oportunidades ou perder a sua liderança."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      74,
+      75
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o bem-estar animal é requisito no índice de sustentabilidade da B3, e a estratégia sustentável dá acesso a capital mais barato",
+     "plain": "A Bolsa brasileira, a B3, tem no seu índice de sustentabilidade empresarial o bem-estar animal como requisito de avaliação. E adotar estratégia de sustentabilidade dá acesso a capital mais barato."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Observa que a bancada de bem-estar animal cresceu muito na Câmara e nos Municípios, e conclui que o eleitorado já não ignora a causa animal.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O eleitorado passou a cobrar a causa animal dos seus representantes.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a bancada de bem-estar animal cresceu muito na Câmara, e também cresceu quem não é da causa mas soma com ela",
+     "plain": "Aqui na Câmara vemos um crescimento enorme da bancada só de bem-estar animal. E também cresceu muito o grupo de quem não é da causa animal, mas soma com ela de alguma maneira."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a população busca representantes com a causa animal, e o bem-estar animal virou pauta que não dá para ignorar",
+     "plain": "Isso quer dizer que a população busca representantes que tenham a causa animal entre as suas dimensões. É uma escolha feita aqui na Câmara e também nos Municípios, e mostra que o bem-estar animal virou pauta que não dá para ignorar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que reduzir 45% das emissões exige transformação, aponta que a maioria dos antibióticos vai para animais e sustenta que melhorias incrementais não bastam.",
+   "quote": [
+    53,
+    54
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O sistema alimentar precisa de saltos evolutivos, e não de melhorias dentro do sistema.",
+    "sentence": 107
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para chegar a 1 grau é preciso reduzir 45% das emissões de gases do efeito estufa",
+     "plain": "Para chegar mesmo a 1 grau, é preciso cortar 45% das emissões de gases do efeito estufa. É uma mudança de magnitude extraordinária."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      109,
+      110
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 70% dos antibióticos do mundo não vão para pessoas, e sim para animais, sem o registro que a farmácia exige de nós",
+     "plain": "Mais de 70% dos antibióticos usados no mundo não vão para pessoas, vão para animais. Quando compramos antibiótico na farmácia, temos de entregar a receita, porque fica registrado. Mas 70% vão para os animais."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      107
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as melhorias do sistema são incrementais, e o que se precisa é promover inovações e saltos evolutivos",
+     "plain": "É óbvio que as melhorias do sistema importam, mas são melhorias dentro do sistema, mudanças incrementais. O que precisamos é promover inovações e saltos evolutivos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta o secretário de Itupeva e passa a palavra a Karina Ishida, pelo Zoom.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Detalha que 75% dos antibióticos do mundo vão para animais, que só 20% do uso é terapêutico e que a resistência pode matar 10 milhões de pessoas em 2050.",
+   "quote": [
+    117,
+    118
+   ],
+   "covered": true,
+   "evidence": [
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O uso não terapêutico de antibióticos na produção animal é uma crise de saúde pública.",
+    "sentence": 117
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      117,
+      118
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "75% dos antibióticos do mundo vão para a produção animal, o que dá 131 mil toneladas por ano",
+     "plain": "Como já mencionamos, 75% dos antibióticos do mundo são usados na produção animal. Isso dá 131 mil toneladas de antibióticos por ano nesses sistemas."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      135
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só 20% do uso de antibióticos na produção animal é terapêutico, e 80% é para prevenir doença ou acelerar crescimento",
+     "plain": "Nosso estudo de custo global de saúde pública, lançado no começo deste mês, mostra que só 20% do uso atual de antibióticos é terapêutico. Os outros 80% são para prevenir doença ou acelerar o crescimento."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      137,
+      138
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2022 a Organização Mundial da Saúde contou 1,27 milhão de mortes por resistência a antibióticos, e a tendência é 10 milhões em 2050",
+     "plain": "Em 2022, dados da Organização Mundial da Saúde contaram 1,27 milhão de mortes pela resistência a antibióticos, o que caracteriza uma crise de saúde. A tendência é chegar a 10 milhões em 2050."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Alysson Soares, do The Good Food Institute Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta as proteínas alternativas como tecnologias disruptoras, mostra o salto de um para mais de 30 produtos vegetais desde 2019 e compara o bife vegetal ao animal.",
+   "quote": [
+    74
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As proteínas alternativas são a ferramenta para transformar o sistema alimentar atual.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as proteínas alternativas são tratadas como tecnologias disruptoras da mudança no sistema alimentar atual",
+     "plain": "Promovemos as proteínas alternativas como ferramenta contra os impactos climáticos e pelo bem-estar animal. Acreditamos em três tecnologias disruptoras: as proteínas vegetais, as cultivadas e a fermentação de precisão."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o primeiro produto vegetal análogo chegou ao supermercado brasileiro em 2019, e hoje são mais de 30, com mais de 100 empresas",
+     "plain": "O primeiro produto vegetal análogo chegou às prateleiras dos supermercados brasileiros em 2019. Hoje já passou de um produto para mais de 30, com mais de 100 empresas em todos os segmentos."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      74
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o bife vegetal emite 90% menos gases de efeito estufa e usa 99% menos água que o bife animal",
+     "plain": "Um dado que ninguém mencionou: comparado ao bife animal, o bife vegetal emite 90% menos gases de efeito estufa, usa 99% menos água, 93% menos terra e 46% menos energia elétrica."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a fase de perguntas, com 2 minutos cada, e chama Natiela Oliveira, do Ministério da Saúde.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que a saúde única responsabiliza todos os setores, e não só a saúde e o meio ambiente, e informa que 16 instituições preparam o plano nacional.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Todos os setores têm responsabilidade pela saúde humana, e o Legislativo também.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a saúde única mostra que todos os setores têm responsabilidade pela saúde humana, e não só a saúde e o meio ambiente",
+     "plain": "A saúde única quer mostrar que todos os setores têm responsabilidade pela saúde humana. Muita gente diz que isso é questão de saúde. Não é só a saúde nem só o meio ambiente que têm de trabalhar nisso, e sim todos os setores."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Plano de Ação Nacional de Saúde Única está sendo elaborado com mais de 16 instituições, entre elas Embrapa e Fiocruz",
+     "plain": "Estamos trabalhando na elaboração do Plano de Ação Nacional de Saúde Única, junto com os outros setores. São mais de 16 instituições nesse processo, entre elas o Ministério do Meio Ambiente, o da Agricultura, a Embrapa e a Fiocruz."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Natiela Oliveira e pergunta se há mais perguntas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta se a grande vilã do desmatamento da Amazônia é mesmo a pecuária ou se é a extração de madeira nobre, como dizem outros veículos.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "neutro",
+    "claim": "A responsabilidade da pecuária pelo desmatamento precisa ser comparada com a da extração de madeira.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "outros meios de comunicação dizem que a grande vilã do desmatamento não é a pecuária, e sim a extração de madeira nobre",
+     "plain": "Você mostrou que 17% do território da Amazônia hoje é ocupado por pasto. Mas outros meios de comunicação dizem que a grande vilã do desmatamento não é a pecuária, e sim a extração de madeira nobre. Vocês concordam com isso?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Corrige o dado, explicando que 17% da Amazônia foram desmatados até 1970 e que 75% dessa área desmatada foi ocupada pela cadeia da pecuária.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A maior parte da área desmatada da Amazônia foi ocupada pela cadeia da pecuária.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "17% da Amazônia brasileira foram desmatados até 1970, e 75% dessa área desmatada foi ocupada pela cadeia da pecuária",
+     "plain": "O dado é este: 17% da Amazônia brasileira foram desmatados até 1970. Dessa área desmatada, 75% foram ocupados pela cadeia da pecuária."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que ainda há tempo para mais perguntas e se coloca à disposição depois.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b017",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Anuncia que o Fórum Técnico de Bem-Estar Animal foi reinstituído no Ministério da Agricultura em 1º de agosto e que os membros serão designados neste semestre.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O caminho é construir regulamento dentro do ministério, com apoio de especialistas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Fórum Técnico de Bem-Estar Animal foi reinstituído no Ministério da Agricultura em 1º de agosto",
+     "plain": "Anuncio aos presentes que o Fórum Técnico de Bem-Estar Animal foi reinstituído no Ministério da Agricultura em 1º de agosto. O regulamento prevê convidar especialistas para ajudar na proposição de regras."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "com o fórum reinstituído, a próxima etapa é a designação dos membros ainda neste semestre",
+     "plain": "Agora que o fórum foi reinstituído, a próxima etapa é a designação dos membros, ainda neste semestre. Temos muito trabalho e muita passarela para cruzar nessa construção."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia o encerramento e passa a palavra a Cristina Mendonça para uma última pergunta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se o Fórum Técnico de Bem-Estar Animal do Ministério da Agricultura é aberto também à participação da sociedade civil.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A abertura do fórum do ministério à sociedade civil precisa ser esclarecida.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "resta saber se o fórum do Ministério da Agricultura é aberto à participação da sociedade civil",
+     "plain": "Faço só uma pergunta de esclarecimento. O fórum também é aberto à participação da sociedade civil?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o fórum é composto por membros do Ministério e que convidados de fora podem ser chamados para algumas sessões.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O fórum é interno ao ministério, mas pode convidar gente de fora para algumas sessões.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o fórum é composto por membros do próprio Ministério, com previsão de convidar gente de fora para algumas sessões",
+     "plain": "O fórum é composto por membros do próprio Ministério, e há previsão de chamar convidados para algumas sessões. Vocês talvez recebam convites eventuais, inclusive de fora do Ministério da Agricultura."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante da Mercy for Animals cumprimenta o Ministério da Agricultura pela reinstituição do fórum.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados e à equipe da Câmara e anuncia a fala de Izabel Honorato.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Informa que a Frente Parlamentar Ambientalista acompanha mais de 56 projetos sobre bem-estar animal e defende levar o debate também para Estados e Municípios.",
+   "quote": [
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A causa animal já tem uma agenda legislativa organizada e precisa descer para Estados e Municípios.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Frente Parlamentar Ambientalista acompanha como prioridade mais de 56 projetos de lei sobre bem-estar animal doméstico e silvestre",
+     "plain": "A Frente Parlamentar Ambientalista mantém um site aberto a todos, o Observatório de Leis. Lá estão cadastrados mais de 56 projetos de lei sobre bem-estar animal doméstico e silvestre que a frente acompanha como prioridade."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "além do plano nacional, é preciso levar o debate do bem-estar animal para o Estado e o Município",
+     "plain": "A Frente Ambientalista atua nacionalmente, mas é muito importante levar esses debates também para o Estado e para o Município. Essa conscientização importa muito."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se a Deputada Silvia Waiãpi quer usar a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b025",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Cobra ação federal contra a contaminação do solo em aldeias do Amapá e sustenta que interesses internacionais não devem definir o que se faz no País.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 10,
+   "stance": {
+    "position": "contrario",
+    "claim": "As áreas de fronteira são estratégicas, e interesses internacionais não devem coordenar o que se faz no País.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Amapá a contaminação do solo em aldeias indígenas impede produzir o sustento, e as autoridades não fizeram nada",
+     "plain": "Trago uma demanda do Amapá: a contaminação do solo em aldeias indígenas, onde já não se consegue produzir o sustento, como a mandioca. Já comunicamos isso às autoridades competentes e até agora nada foi feito."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Estado está bloqueado em 73% por reservas, e interesses internacionais não deveriam definir o que se faz no País",
+     "plain": "Temos um Estado bloqueado em 73% por reservas, indígenas e minerais, sem poder se desenvolver e sob interferência internacional. As áreas de fronteira são estratégicas de defesa, e interesses de fora não devem definir o que se faz aqui."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Encaminha o pedido para que o Governo brasileiro apoie o Pnuma no Relatório Nexus, lidere um processo consultivo regional e capacite os serviços públicos federais.",
+   "quote": [
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Governo brasileiro deve apoiar o Pnuma e liderar o processo consultivo regional do Relatório Nexus.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o encaminhamento é pedir que o Governo brasileiro apoie o Pnuma a desenvolver o Relatório Nexus e lidere um processo consultivo regional",
+     "plain": "O encaminhamento desta audiência é pedir ao Governo brasileiro que apoie o Pnuma a desenvolver o Relatório Nexus, liderando um processo consultivo regional e capacitando os serviços públicos federais dos ministérios envolvidos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 6,
+   "from_claim": "b004c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Os dois tiram o tema do terreno do gosto pessoal e o colocam como questão econômica para o País."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 107,
+   "to_sentence": 4,
+   "from_claim": "b006c3",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Para o pesquisador a agenda reforça a liderança do setor que existe. Para a Mercy for Animals, melhorar esse setor é mudança incremental e não resolve."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 107,
+   "to_sentence": 6,
+   "from_claim": "b006c3",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "As duas dizem que o assunto saiu do círculo de quem gosta de animais, e agora cobra uma resposta estrutural."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 117,
+   "to_sentence": 109,
+   "from_claim": "b008c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "As duas apresentam a fatia dos antibióticos do mundo que vai para animais, uma falando em mais de 70% e a outra em 75%."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 75,
+   "from_claim": "b010c2",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Onde o pesquisador mostra investidores cobrando a agenda, o instituto mostra a indústria já entrando nas proteínas alternativas."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 107,
+   "from_claim": "b010c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Ao pedido de saltos evolutivos, o instituto responde com as três tecnologias que trata como disruptoras do sistema alimentar."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 43,
+   "from_claim": "b010c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A demanda que apareceu no orçamento participativo já se vê na prateleira, que passou de um produto vegetal para mais de 30."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 4,
+   "from_claim": "b012c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O Ministério da Saúde confirma a leitura de que o tema atravessa setores e não cabe a um órgão só."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 137,
+   "from_claim": "b012c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "O ministério acolhe os dados de resistência a antibióticos e alarga o ponto, dizendo que a responsabilidade é de todos os setores."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 109,
+   "from_claim": "b012c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "A saúde única não se resume à resistência aos antibióticos, mas parte dela, como a Mercy for Animals tinha apresentado."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 53,
+   "from_claim": "b014c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "À conta climática montada sobre os sistemas alimentares, a engenheira opõe a versão de que a vilã do desmatamento seria a madeira, e não a pecuária."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 6,
+   "from_claim": "b015c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "Ela corrige o número, explica que 75% da área desmatada até 1970 foi ocupada pela cadeia da pecuária e diz que não tem ali o dado da madeira."
+  },
+  {
+   "from": "b017",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 43,
+   "from_claim": "b017c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "À demanda mais votada no orçamento participativo do Ministério da Agricultura, a própria pasta responde com o fórum técnico reinstituído."
+  },
+  {
+   "from": "b017",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 107,
+   "from_claim": "b017c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Onde se pede salto evolutivo, o Ministério da Agricultura oferece um fórum técnico para propor regulamentos com especialistas."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b020c1",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "Ela responde que o fórum é formado por gente do próprio ministério e que convidados de fora podem ser chamados para algumas sessões."
+  },
+  {
+   "from": "b023",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 3,
+   "from_claim": "b023c1",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "O crescimento da bancada da causa animal encontra os mais de 56 projetos que a frente ambientalista acompanha."
+  },
+  {
+   "from": "b023",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 4,
+   "from_claim": "b023c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "As duas dizem que o tema precisa circular por mais de uma instância, do governo federal aos Municípios."
+  },
+  {
+   "from": "b025",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 9,
+   "from_claim": "b025c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Para o ministério, acompanhar as exigências de fora protege a economia. Para a deputada, interesses internacionais não deveriam definir o que se faz no País."
+  },
+  {
+   "from": "b026",
+   "to": "b025",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 12,
+   "from_claim": "b026c1",
+   "to_claim": "b025c2",
+   "strength": "forte",
+   "note": "Logo depois da crítica à interferência internacional, a presidência formaliza o pedido para o Governo apoiar o relatório da ONU."
+  },
+  {
+   "from": "b026",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 9,
+   "from_claim": "b026c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "A presidência transforma em encaminhamento formal o que o ministério tinha descrito como necessidade comercial."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b005",
+    "b012",
+    "b023"
+   ],
+   "claims": [
+    "b002c1",
+    "b005c2",
+    "b012c1",
+    "b023c1"
+   ],
+   "note": "O Ministério do Meio Ambiente, a presidência, o Ministério da Saúde e a frente ambientalista concordam que o bem-estar animal virou pauta de Estado, e não de nicho."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b026"
+   ],
+   "claims": [
+    "b002c2",
+    "b026c1"
+   ],
+   "note": "O Ministério do Meio Ambiente e a presidência concordam que o Brasil precisa se antecipar às exigências internacionais e liderar a Resolução Nexus."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b017"
+   ],
+   "claims": [
+    "b004c1",
+    "b017c1",
+    "b017c2"
+   ],
+   "note": "O pesquisador da UFRJ e o Ministério da Agricultura concordam que o caminho passa pelo setor produtivo que existe se adaptar, com regra construída junto a especialistas."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b006",
+    "b008",
+    "b012"
+   ],
+   "claims": [
+    "b006c2",
+    "b008c1",
+    "b008c2"
+   ],
+   "note": "As duas organizações de proteção animal e o Ministério da Saúde concordam que o uso de antibióticos na produção animal é uma crise de saúde pública."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b014",
+   "sentence": 8,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "dizer se a vilã do desmatamento é a pecuária ou a madeira nobre",
+   "plain": "A grande vilã do desmatamento da Amazônia é a pecuária ou a extração de madeira nobre?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b019",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": "b020",
+   "gist": "dizer se o fórum do Ministério da Agricultura é aberto à sociedade civil",
+   "plain": "O Fórum Técnico de Bem-Estar Animal é aberto à participação da sociedade civil?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b025",
+   "sentence": 10,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "pedir que o Ministério do Meio Ambiente atue nas aldeias contaminadas do Amapá",
+   "plain": "O Ministério do Meio Ambiente vai atuar na contaminação do solo das aldeias do Amapá?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 42,
+   "gist": "88% dos brasileiros se preocupam com o bem-estar animal",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 35,
+   "gist": "o relatório será revisado pelos 194 membros do Pnuma",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 12,
+   "gist": "390 milhões de toneladas de humanos e 630 de rebanhos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 23,
+   "gist": "os 17 ODS têm 169 indicadores por trás deles",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 53,
+   "gist": "é preciso reduzir 45% das emissões para ficar em 1 grau",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 81,
+   "gist": "a pecuária emite quatro vezes mais que a agricultura",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 133,
+   "gist": "seriam 5,21 planetas em 2050 no consumo médio brasileiro",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 25,
+   "gist": "a pecuária responde por mais de 60% do desmatamento da Amazônia",
+   "disputed_by": [
+    {
+     "fala": "b014",
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 118,
+   "gist": "131 mil toneladas de antibióticos por ano na produção animal",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 137,
+   "gist": "1,27 milhão de mortes em 2022 por resistência a antibióticos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b010",
+   "sentence": 36,
+   "gist": "mercado de 1,5 trilhão de dólares por ano até 2050",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b023",
+   "sentence": 3,
+   "gist": "mais de 56 projetos de lei sobre bem-estar animal na Casa",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "sociedade_civil",
+   "governo",
+   "mesa"
+  ],
+  "angle": "A matéria montou o texto em torno das oportunidades que o bem-estar animal abre para o Brasil, com as denúncias sobre antibióticos e crueldade como pano de fundo.",
+  "omitted": "Ficou de fora a divergência sobre até onde a mudança tem de ir, entre quem pede salto evolutivo e quem oferece adaptação e fórum técnico, e também a fala da deputada do Amapá sobre interferência internacional e sobre a contaminação do solo nas aldeias."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O sistema alimentar precisa mudar de patamar",
+   "statement_plain": "Ajustar o sistema de produção que existe é mudança incremental e não resolve. O caminho é mudar de patamar, com proteínas vegetais, cultivadas e fermentação de precisão.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b010c1",
+    "b010c2",
+    "b006c1",
+    "b010c3"
+   ],
+   "note": "É uma ideia e não um bloco: quem a sustenta é uma organização de proteção animal e um instituto de proteínas alternativas, que chegam a ela por caminhos distintos."
+  },
+  {
+   "id": "t2",
+   "title": "O caminho é o setor produtivo se adaptar e liderar",
+   "statement_plain": "Não é preciso trocar o sistema. O setor que existe pode capturar a agenda como oportunidade de mercado, com regra construída no ministério junto com especialistas.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b017c1",
+    "b017c2",
+    "b004c2",
+    "b004c3"
+   ],
+   "note": "É a ideia que divide a sala sem dividir os lados de sempre: um pesquisador de universidade pública e o Ministério da Agricultura sustentam a mesma saída, contra uma ONG."
+  },
+  {
+   "id": "t3",
+   "title": "Bem-estar animal é pauta de Estado, não de nicho",
+   "statement_plain": "O tema deixou de ser assunto de quem gosta de animais. Ele atravessa comércio exterior, saúde e orçamento, e exige resposta de vários ministérios e dos Municípios.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b005c2",
+    "b012c1",
+    "b023c1"
+   ],
+   "note": "É uma ideia que cruza a sala inteira: dois ministérios, a presidência e uma frente parlamentar a sustentam, cada um pelo seu motivo."
+  },
+  {
+   "id": "t4",
+   "title": "Antibiótico de rotina na criação é crise de saúde",
+   "statement_plain": "A maior parte dos antibióticos do mundo vai para animais, e quase sempre não é para tratar doença. Isso já mata mais de 1 milhão de pessoas por ano.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b008c1",
+    "b008c2",
+    "b008c3"
+   ],
+   "note": "É uma ideia sustentada com estudo próprio por duas organizações diferentes, e acolhida pelo Ministério da Saúde no mesmo debate."
+  },
+  {
+   "id": "t5",
+   "title": "A resposta depende de articular todo mundo",
+   "statement_plain": "Nenhum órgão resolve isso sozinho. Sem articulação entre ministérios, Legislativo, Estados e Municípios, a demanda chega e o Estado não responde.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b012c2",
+    "b023c2",
+    "b025c1"
+   ],
+   "note": "É uma ideia que junta o Ministério da Saúde, a frente ambientalista e uma deputada que diverge de quase tudo o mais nesta audiência."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Resolução Nexus",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "resolução aprovada pelos países na ONU em 2022, que reconhece a ligação entre bem-estar animal, meio ambiente e desenvolvimento sustentável"
+  },
+  {
+   "term": "MAPA",
+   "fala": "b002",
+   "sentence": 3,
+   "plain": "sigla do Ministério da Agricultura e Pecuária, que regula a produção agropecuária no Brasil"
+  },
+  {
+   "term": "PNUMA",
+   "fala": "b002",
+   "sentence": 18,
+   "plain": "Programa das Nações Unidas para o Meio Ambiente, o braço ambiental da ONU"
+  },
+  {
+   "term": "PPA Participativo",
+   "fala": "b002",
+   "sentence": 43,
+   "plain": "consulta em que a população vota propostas para o plano de quatro anos do governo federal"
+  },
+  {
+   "term": "ODS",
+   "fala": "b004",
+   "sentence": 22,
+   "plain": "sigla de Objetivos de Desenvolvimento Sustentável: as 17 metas que os países da ONU combinaram para 2030"
+  },
+  {
+   "term": "saúde única",
+   "fala": "b004",
+   "sentence": 54,
+   "plain": "modo de olhar que trata a saúde das pessoas, a dos animais e a do ambiente como uma coisa só, porque uma depende da outra"
+  },
+  {
+   "term": "B3",
+   "fala": "b004",
+   "sentence": 74,
+   "plain": "a Bolsa de Valores brasileira, onde se compram e vendem ações de empresas"
+  },
+  {
+   "term": "resistência antimicrobiana",
+   "fala": "b006",
+   "sentence": 114,
+   "plain": "quando bactérias e outros microrganismos deixam de responder aos remédios que antes os matavam"
+  },
+  {
+   "term": "RAM",
+   "fala": "b008",
+   "sentence": 136,
+   "plain": "sigla de resistência antimicrobiana, quando o antibiótico deixa de fazer efeito contra a bactéria"
+  },
+  {
+   "term": "plant-based",
+   "fala": "b010",
+   "sentence": 13,
+   "plain": "produto feito de planta que imita carne, leite ou ovo, em sabor e em uso na cozinha"
+  },
+  {
+   "term": "proteínas cultivadas",
+   "fala": "b010",
+   "sentence": 13,
+   "plain": "carne produzida a partir de uma amostra de célula do animal, multiplicada em equipamento, sem abate"
+  },
+  {
+   "term": "fermentação de precisão",
+   "fala": "b010",
+   "sentence": 14,
+   "plain": "técnica que usa microrganismos para produzir proteínas iguais às de origem animal, como as do leite"
+  },
+  {
+   "term": "flexitarianos",
+   "fala": "b010",
+   "sentence": 46,
+   "plain": "pessoas que reduzem o consumo de carne sem cortar de vez, muitas vezes por recomendação de saúde"
+  },
+  {
+   "term": "commodity",
+   "fala": "b010",
+   "sentence": 66,
+   "plain": "produto bruto vendido a granel por preço de mercado mundial, como a soja e o milho, sem valor agregado"
+  },
+  {
+   "term": "Fórum Técnico de Bem-Estar Animal",
+   "fala": "b017",
+   "sentence": 2,
+   "plain": "grupo do Ministério da Agricultura que propõe regulamentos sobre o tratamento dos animais de produção"
+  }
+ ]
+}

@@ -1,0 +1,2231 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 52,
+ "model": "LLM lendo o prompt hearing-052 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T00:15:01Z",
+ "prompt_sha256": "5bf316bae41a44f67ecd6bf7e15b516064a782c3ae1ca80f4b2f5be2422127c2",
+ "sentences_hash": "65ddcf56be4bcd5a",
+ "review": {
+  "pairs_read": 45,
+  "pairs_fixed": 18
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa debateu o etarismo depois do caso da estudante ridicularizada por cursar biomedicina aos 45 anos. O Ministério dos Direitos Humanos, a OPAS e duas pesquisadoras descreveram os tipos de preconceito de idade, os números da violência dentro de casa e a cobrança pela ratificação da convenção interamericana. A sala divergiu sobre até onde a proteção vira tutela.",
+ "stakes": "Estava em jogo que resposta o Congresso daria ao etarismo: um projeto que detalha as violências e acelera as medidas protetivas, a ratificação da convenção interamericana ou políticas que garantam autonomia e trabalho.",
+ "central_question": "Como combater o preconceito de idade sem tratar a pessoa idosa como incapaz?",
+ "synopsis_plain": "A comissão discutiu o preconceito de idade, o etarismo, depois que uma estudante foi ridicularizada por fazer faculdade aos 45 anos. O governo, a OPAS e pesquisadoras mostraram que a maior parte da violência contra o idoso acontece dentro de casa e pediram que o Brasil aprove a convenção interamericana. A sala discordou sobre até onde proteger vira tutelar.",
+ "stakes_plain": "Estava em jogo a resposta do Congresso: endurecer a lei contra a violência, aprovar a convenção interamericana ou garantir autonomia e trabalho a quem envelhece.",
+ "central_question_plain": "Como combater o preconceito de idade sem tratar a pessoa idosa como incapaz?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "O que é o etarismo",
+   "description": "O que conta como preconceito de idade, de que formas ele aparece e quem atinge, do insulto ao elogio disfarçado.",
+   "axis": {
+    "pro": "O etarismo é um preconceito estrutural, que atravessa a cultura, as instituições e a própria pessoa.",
+    "contra": "São casos isolados de falta de educação, não um preconceito enraizado na sociedade.",
+    "pro_plain": "O preconceito de idade está na cultura, nas instituições e até dentro de quem envelhece.",
+    "contra_plain": "São casos soltos de gente mal-educada, não um problema da sociedade inteira."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Violência dentro de casa",
+   "description": "Onde acontece a violência contra a pessoa idosa, quem a pratica e o quanto os registros oficiais mostram desse total.",
+   "axis": {
+    "pro": "A violência contra a pessoa idosa acontece principalmente na própria família e é maior do que os registros mostram.",
+    "contra": "Os registros oficiais dão a medida do problema e mostram a violência que existe.",
+    "pro_plain": "A maior parte da violência vem da própria família, e quase ninguém denuncia.",
+    "contra_plain": "As denúncias registradas já mostram o tamanho da violência contra o idoso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Autonomia e tutela",
+   "description": "Se a resposta ao etarismo é proteger mais a pessoa idosa ou devolver a ela a autonomia que a proteção costuma tirar.",
+   "axis": {
+    "pro": "A maioria das pessoas idosas é autônoma, e proteger demais vira tutela que tira a autonomia.",
+    "contra": "A pessoa idosa é alvo fácil de violência e golpe, e precisa de proteção reforçada na lei.",
+    "pro_plain": "Quase todo idoso se vira sozinho, e cuidar demais acaba tirando dele o que ainda consegue fazer.",
+    "contra_plain": "O idoso é alvo de golpe e de violência, e a lei tem de protegê-lo mais."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Política pública e desigualdade",
+   "description": "De quem é a conta do bom envelhecimento: do Estado, com orçamento e política, ou de cada pessoa que se cuida.",
+   "axis": {
+    "pro": "Envelhecer bem depende de política pública e orçamento, porque a desigualdade define quem envelhece como.",
+    "contra": "Envelhecer bem é resultado do que cada pessoa fez pela própria saúde e pela própria vida.",
+    "pro_plain": "Sem moradia, escola e renda, não adianta cobrar da pessoa que envelheça bem.",
+    "contra_plain": "Envelhecer bem é mérito de quem se cuidou a vida toda."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Convenção e leis",
+   "description": "O que falta na lei brasileira: a ratificação da convenção interamericana e a mudança do Estatuto do Idoso.",
+   "axis": {
+    "pro": "O Brasil precisa ratificar a convenção interamericana e detalhar as violências na lei.",
+    "contra": "A legislação que existe já basta, o que falta é aplicá-la.",
+    "pro_plain": "O acordo entre os países das Américas está parado, e a lei precisa dizer com todas as letras o que é violência.",
+    "contra_plain": "Lei já existe de sobra, o problema é que ninguém aplica."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Trabalho e aposentadoria",
+   "description": "O que acontece com quem envelhece e ainda precisa trabalhar, entre a demissão perto da aposentadoria e a exigência de trabalhar mais tempo.",
+   "axis": {
+    "pro": "Quem envelhece precisa ser mantido e incluído no mercado de trabalho, não empurrado para fora dele.",
+    "contra": "Depois de certa idade, o lugar da pessoa é fora do mercado de trabalho.",
+    "pro_plain": "Demitir quem está perto de se aposentar tira a renda de quem ainda precisa trabalhar.",
+    "contra_plain": "Passou da idade, a vez é de quem está chegando."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Escuta e convivência entre gerações",
+   "description": "O peso da convivência entre idades e da escuta dentro de casa como caminho contra o preconceito.",
+   "axis": {
+    "pro": "A mudança começa na convivência entre gerações e na escuta dentro da própria casa.",
+    "contra": "Sem lei e política pública, conversa dentro de casa não muda a vida de ninguém.",
+    "pro_plain": "Conviver e escutar quem é mais velho é o que muda o preconceito no dia a dia.",
+    "contra_plain": "Sem lei e dinheiro público, boa vontade dentro de casa não resolve."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado federal, vice-presidente da Comissão",
+   "org": "Comissão de Defesa dos Direitos da Pessoa Idosa",
+   "basis": "registro 'Presidente' na ata, identificado na pista de cargo como Castro Neto (Bloco/PSD - PI) e autor do Requerimento nº 8 em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha as políticas para a população idosa"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Secretário Nacional de Promoção e Defesa dos Direitos da Pessoa Idosa",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentado pela presidência em b001.14",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério federal das políticas de direitos humanos, entre elas as da pessoa idosa"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Consultora Nacional para o Envelhecimento Saudável",
+   "org": "OPAS/OMS",
+   "basis": "apresentada pela presidência em b001.15 e em b007.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da OPAS, o braço da OMS nas Américas",
+   "org_plain": "Organização Pan-Americana da Saúde, o escritório da Organização Mundial da Saúde para as Américas"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Antropóloga e pesquisadora",
+   "org": null,
+   "basis": "apresentada pela presidência em b001.16, participa a distância conforme b012.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "antropóloga que pesquisa envelhecimento há 30 anos",
+   "org_plain": null
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, presidente da Comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata (Bloco/PV - PR) e presença registrada pela presidência em b009.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PV do Paraná",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Assistente social e pesquisadora",
+   "org": null,
+   "basis": "apresentada pela presidência em b001.17 e em b015.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "assistente social e pesquisadora do Piauí",
+   "org_plain": null
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata (Bloco/PT - RS) e presença registrada pela presidência em b003.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PT do Rio Grande do Sul",
+   "org_plain": "Casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Estudante de biomedicina",
+   "org": null,
+   "basis": "apresentada pela presidência em b001.18 como vítima de um caso recente de etarismo",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "estudante de biomedicina",
+   "org_plain": null
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Psicóloga e orientadora de carreira",
+   "org": "Instituto Longeva",
+   "basis": "apresentada pela presidência em b022.1 e por ela mesma em b023.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Longeva",
+   "org_plain": "instituto que se dedica ao tema da longevidade"
+  }
+ },
+ "audience": {
+  "estimate": 80,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.8
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   }
+  ],
+  "basis": "o expositor fala de uma sala cheia de pessoas de várias idades em b002.2 e a consultora registra um número grande de crianças e adolescentes em b006.7, com palmas em b002, b006, b010, b014, b015, b018 e b035",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Abre a audiência sobre etarismo, cita que um em cada seis idosos já sofreu violência e apresenta o projeto que detalha essas violências no Estatuto do Idoso.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    30,
+    31,
+    32,
+    33
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O etarismo é um preconceito que exige resposta do Congresso, e o Estatuto do Idoso precisa detalhar as formas de violência.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um em cada seis idosos já sofreu algum tipo de violência, segundo a OMS, e o etarismo é uma delas",
+     "plain": "Pela OMS, um em cada seis idosos já sofreu algum tipo de violência, e o etarismo é uma delas. É inaceitável a pressão social para controlar como a pessoa deve se comportar enquanto envelhece."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Projeto de Lei nº 2.419, de 2023, detalha as formas de violência no Estatuto do Idoso e acelera as medidas de proteção",
+     "plain": "Apresentei na semana passada o Projeto de Lei nº 2.419, de 2023, que detalha no Estatuto do Idoso as formas de violência: a física, a psicológica e a financeira. O texto também prevê mais rapidez nas medidas protetivas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica os tipos de idadismo, do cultural ao internalizado, e pede que o Brasil ratifique o quanto antes a convenção interamericana sobre os direitos das pessoas idosas.",
+   "quote": [
+    55,
+    56,
+    57,
+    58
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O idadismo é uma discriminação estrutural, e a pior forma dele é a que a própria pessoa idosa internaliza.",
+    "sentence": 55
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a discriminação cultural trata o velho como coisa ruim, ultrapassada, que não serve mais",
+     "plain": "A discriminação pode ser cultural, quando velho é sempre a outra pessoa, quando velho é uma coisa ruim, ultrapassada, que não serve mais. Isso vai se repetindo em vários espaços."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a pior manifestação do idadismo é a internalização, quando ele atravessa a própria pessoa",
+     "plain": "A pior manifestação do idadismo é a internalização. Para mim, isso é o fracasso: sem nada que segure, o idadismo acaba atravessando a própria pessoa."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      97,
+      98,
+      99
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil precisa ratificar o quanto antes a Convenção Interamericana sobre a Proteção dos Direitos Humanos dos Idosos",
+     "plain": "Quero destacar a busca, o quanto antes, pela ratificação da Convenção Interamericana, o acordo de 2015 sobre a proteção dos direitos humanos dos idosos. O Brasil foi o primeiro país a assinar, e na gestão anterior isso não andou."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta ao Secretário quais são as agressões mais comuns, depois de citar que 87% das mais de 35 mil denúncias de 2022 aconteceram na casa do idoso.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A violência contra a pessoa idosa se concentra dentro da própria casa.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2022 o Disque 100 registrou mais de 35 mil denúncias de violência, e 87% aconteceram na casa do idoso",
+     "plain": "Em 2022, o Disque 100 recebeu mais de 35 mil denúncias de violência. Dessas, 87% aconteceram na própria casa do idoso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que as violências mais comuns dentro de casa são a física, a psicológica e a patrimonial, e defende a conversa entre gerações para reduzi-las.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A violência contra a pessoa idosa é mais frequente dentro de casa, e é lá também que está a solução.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dentro de casa as violências mais frequentes são a física, a psicológica e a patrimonial, que limita a pessoa a usar o próprio bem",
+     "plain": "Dentro de casa, as violências mais frequentes são a física, a psicológica e a patrimonial. Há xingamento, agressão física e também agressão sexual. A patrimonial é limitar a pessoa a usar o próprio bem."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a família é o ambiente de mais violência, mas também tem de ser o lugar da solução, pela conversa entre as gerações",
+     "plain": "Não é contraditório, é complexo: o ambiente familiar é o de mais violência, mas também deverá ser o lugar da solução. Com uma discussão entre as gerações, dá para reduzir essa violência."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Maria Cristina Hoffmann, pelo prazo de 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o preconceito compromete a qualidade de vida e é o primeiro passo para a violência, e lembra que cerca de 70% da população idosa é autônoma.",
+   "quote": [
+    29,
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O idadismo atinge todas as idades e é o primeiro passo para a violência contra a pessoa idosa.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maioria descreveria a pessoa idosa como dependente ou doente, mas em torno de 70% da população idosa é autônoma e independente",
+     "plain": "Se fizéssemos uma enquete sobre como as pessoas veem a pessoa idosa, a maioria diria que é alguém dependente ou doente. Não é nem de longe a realidade do Brasil: em torno de 70% da população idosa é autônoma e independente."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o preconceito e a discriminação comprometem a qualidade de vida e são o primeiro passo para a violência",
+     "plain": "O preconceito, o estigma e a discriminação comprometem muito a nossa qualidade de vida. Eles são o primeiro passo para a violência que muita gente sofre."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      75,
+      76
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quando se convive com pessoas de idades diferentes, se aprende tolerância, respeito e escuta",
+     "plain": "É importante garantir espaços de troca, de conversa e de acolhimento, porque a relação entre gerações vale muito. Quando você convive com pessoas de idades diferentes, aprende tolerância, respeito e escuta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta à especialista da OMS como o Brasil se situa em etarismo na comparação com o resto do mundo.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A comparação internacional ajuda a medir o tamanho do etarismo no Brasil.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      3
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "ele quer saber como o Brasil está situado em etarismo na comparação com o resto do mundo",
+     "plain": "Sra. Maria Cristina, como especialista da OMS, como o Brasil está situado em etarismo na comparação com o resto do mundo?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o etarismo é um fenômeno internacional e que o Brasil tem muito a avançar, e apoia a ratificação da convenção interamericana.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    34
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O etarismo é um fenômeno internacional, e o Brasil tem muito a avançar em políticas e em visibilidade.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil tem muito a avançar em políticas que garantam espaço às pessoas idosas e visibilidade ao envelhecimento",
+     "plain": "O Brasil tem uma diversidade e um distanciamento social muito grandes. Precisamos avançar bastante em políticas que garantam às pessoas idosas o seu espaço e deem visibilidade ao envelhecimento."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil precisa ratificar a Convenção Interamericana sobre a Proteção dos Direitos Humanos dos Idosos, elaborada em 2015",
+     "plain": "Como o Secretário Alexandre falou antes, é muito importante que o Brasil ratifique a Convenção Interamericana, o acordo de 2015 sobre a proteção dos direitos humanos dos idosos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença do presidente da Comissão e passa a palavra a Mirian Goldenberg.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que metade da violência contra os mais velhos vem dos próprios filhos, que o Disque 100 não retrata a realidade e que a família desrespeita a autonomia deles.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A violência contra os mais velhos acontece dentro de casa e é maior do que os registros mostram.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "50% da violência contra os mais velhos vem dos próprios filhos e filhas e 10% de netos, genros, cônjuges e noras",
+     "plain": "50% dos casos de violência contra os mais velhos são praticados por filhos e filhas, e 10% por netos, genros, cônjuges e noras. O etarismo, eu sempre digo, mora dentro das nossas casas."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Disque 100 não retrata a realidade, porque a maior parte dos velhos tem medo e vergonha de denunciar",
+     "plain": "Nem quero falar do aumento que o Disque 100 registrou, porque o que ele retrata não é a verdade. A maior parte dos velhos não tem coragem, porque sente medo e vergonha de denunciar a violência que sofre."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a autonomia dos mais velhos é desrespeitada todo dia, inclusive nas melhores famílias e com a intenção de proteger",
+     "plain": "Dizer para o mais velho que ele é teimoso e mandar tomar o remédio desrespeita o bem que ele mais quer manter: a autonomia. Isso acontece todo dia, até nas melhores famílias e com a intenção de proteger."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Mirian Goldenberg pelas palavras carregadas de emoção.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende que combater o etarismo é aplicar as políticas já previstas em lei e cobra a aprovação da convenção, que segue na gaveta.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Combater o etarismo é aplicar as políticas públicas já previstas na lei e aprovar a convenção.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "combater o etarismo não é só enfrentar o preconceito, é pôr em prática as políticas que garantem os direitos já previstos em lei",
+     "plain": "Combater o etarismo não é só combater as formas de preconceito. É colocar em prática as políticas públicas que garantem os direitos já previstos na legislação e na Constituição, para que todas as pessoas sejam respeitadas."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      17
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a convenção ainda está na gaveta e precisa sair do papel, e é preciso cobrar dos Ministérios a aplicação dos recursos",
+     "plain": "Temos força política para disputar esses espaços: aprovar a convenção, que segue na gaveta e precisa sair do papel, e cobrar dos Ministérios que os recursos sejam aplicados em políticas públicas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Retoma que o combate ao etarismo começa dentro de casa e lembra o dado de que uma em cada duas pessoas comete idadismo.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A mudança contra o etarismo começa dentro de casa, e não só na lei.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o combate ao etarismo não é só de fora para dentro, é principalmente de dentro para fora das nossas casas",
+     "plain": "Como a Mirian deixou claro, não é só uma ação de fora para dentro. É principalmente de dentro para fora das nossas casas e das nossas vidas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mostra que o etarismo aparece até em forma de elogio e é mais cruel com as mulheres, julgadas pela aparência, e afirma que só chega à velhice quem tem saúde.",
+   "quote": [
+    94,
+    95
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A velhice não é doença, e a pressão sobre a aparência torna o etarismo mais cruel com as mulheres.",
+    "sentence": 35
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a velhice não é um amontoado de doenças, e pelo contrário, só chega à velhice quem tem saúde",
+     "plain": "Há uma visão rasteira de que avançar na idade é só doença, inutilidade e imobilidade. A velhice não é um amontoado de doenças. Ao contrário: quem chega lá é quem tem saúde."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      145,
+      146,
+      147
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a discriminação por idade é mais cruel com as mulheres, que são julgadas pela aparência e perdem valor quando surgem as rugas",
+     "plain": "A discriminação por idade costuma ser mais cruel com as mulheres, porque elas são mais julgadas pela aparência. É como se perdessem valor quando as rugas aparecem e os cabelos ficam grisalhos."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      126,
+      127,
+      128
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dizer a uma mulher de 50 anos que ela não parece ter essa idade passa a mensagem de que aos 50 não se pode estar bonita",
+     "plain": "Quando uma mulher de 50 anos diz a idade, ouve: não parece, você está ótima. E o que isso quer dizer? Que aos 50 não se pode estar bonita."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o depoimento de Maria Dulce Silva e pede uma salva de palmas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra políticas públicas que invistam em prevenção, e não em medicamentos, e aponta o consignado e a solidão dos idosos como violências.",
+   "quote": [
+    32,
+    33,
+    34
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As políticas públicas não acompanham o envelhecimento da população e investem no remédio, não na prevenção.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o crédito consignado endividou muitos idosos, que fizeram dívida em favor de terceiros e adoeceram sem conseguir pagar",
+     "plain": "Outra violência que precisa ser resgatada é o consignado. Muitos idosos se endividaram, fizeram dívida em favor de terceiros e, sem conseguir pagar, adoeceram de estresse."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "num condomínio de 800 apartamentos havia 80 idosos morando sós, e para muitos o agente comunitário era a única visita",
+     "plain": "Num condomínio de 800 apartamentos, a Estratégia Saúde da Família encontrou pelo menos 80 idosos morando sós. Muitos disseram aos agentes comunitários que aquelas eram as únicas visitas com quem conversavam."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em vez de investir na compra de medicamentos, a política pública podia dar à pessoa idosa acesso a academia e prevenção",
+     "plain": "Por que não construímos políticas que, em vez de comprar remédio, deem à pessoa idosa acesso a uma academia qualificada nos horários ociosos? Com prevenção, diminui o consumo e o endividamento na farmácia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conta que tem 80 anos, que lhe negam financiamento e lhe pedem acompanhante, e afirma que as políticas para o idoso tutelam demais.",
+   "quote": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As políticas para a pessoa idosa tutelam demais e tratam todos como se fossem dependentes.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no aeroporto perguntam quem é o acompanhante dela, e ela é impedida de financiar um carro no próprio nome",
+     "plain": "Quando eu vou ao aeroporto, já me perguntam quem é o meu acompanhante. E sou impedida de fazer financiamento: se eu comprar um carro, não posso financiar no meu nome."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as políticas para o idoso precisam ser revistas, porque são muito tuteladas",
+     "plain": "Em muita coisa as políticas para o idoso têm de ser revistas. Elas são muito tuteladas."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que Maria Cristina falará depois e passa a palavra a Patrícia Linhares.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que foi ridicularizada na faculdade por cursar biomedicina aos 45 anos e que hoje tem medo de fazer perguntas aos professores.",
+   "quote": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O idadismo dentro da faculdade abalou o sonho dela de estudar e a fez ter medo de falar.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o que ela sofreu na faculdade a abalou, porque estudar era o sonho dela, e a empolgação do começo das aulas hoje é outra",
+     "plain": "Isso me abalou porque estudar era o meu sonho, eu queria a área da saúde e escolhi o curso com muito amor. Eu pergunto: até que ponto podemos seguir? A empolgação que eu tinha quando as aulas começaram hoje é outra."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ela tem medo de fazer perguntas aos professores, com receio de que pensem o que aquela velha está dizendo",
+     "plain": "Hoje eu tenho medo de me expressar e de fazer perguntas aos meus professores, porque a pessoa pode pensar: o que aquela velha está dizendo? O idadismo a gente percebe nos olhares."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      12
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ela só pôde fazer faculdade agora, aos 45 anos, depois de uma infância digna, porém difícil",
+     "plain": "Tive uma infância digna, porém difícil, como muita gente, e por isso só pude entrar na faculdade agora, aos 45 anos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o relato de Patrícia Linhares e abre os microfones para o debate.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b021",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que o etarismo institucional é reforçado pela desigualdade social e que a responsabilidade pelo bom envelhecimento não pode ficar só com o indivíduo.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O bom envelhecimento depende de políticas públicas, e não só do esforço de cada pessoa.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o etarismo institucional é reforçado pela desigualdade social, que impacta a qualidade de vida e a saúde das pessoas idosas",
+     "plain": "Há um componente forte do etarismo, o institucional, e ele é reforçado pela manutenção da desigualdade social. A desigualdade impacta muito a qualidade de vida e a saúde das pessoas, em especial das idosas."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a responsabilidade pela qualidade de vida não pode ficar só com o indivíduo, o Estado e a sociedade têm a sua parte",
+     "plain": "Não dá para colocar só no indivíduo a responsabilidade pela própria qualidade de vida e pela própria saúde. Sociedade, Legislativo, Executivo e Estado precisam assumir a responsabilidade que têm."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Juliana Seidl, do Instituto Longeva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b023",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aponta o paradoxo de exigir mais tempo de trabalho e demitir quem se aproxima da aposentadoria, e pergunta o que a Comissão discute sobre inclusão nas empresas.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 12,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O mercado exige que as pessoas trabalhem mais tempo e ao mesmo tempo demite quem se aproxima da aposentadoria.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a tendência é trabalhar por mais tempo, mas milhares de pessoas são demitidas quando se aproximam da aposentadoria",
+     "plain": "Com o envelhecimento rápido da população, a tendência é que as pessoas trabalhem por mais tempo. Mas o que vemos, principalmente nas empresas privadas, são milhares de demissões de quem está perto de se aposentar."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maior parte da população precisa seguir trabalhando porque a aposentadoria está virando privilégio",
+     "plain": "A maior parte da população segue trabalhando por não ter aposentadoria, que está se transformando num privilégio. Essa gente é obrigada a permanecer no mercado."
+    },
+    {
+     "id": "b023c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não basta inserir a pessoa mais velha na empresa e falar em diversidade, é preciso promover a inclusão dela",
+     "plain": "Além de inserir essas pessoas nas organizações públicas, privadas ou do terceiro setor, é preciso incluir. Não basta contratar e promover a diversidade, é preciso promover também a inclusão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Secretário para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b025",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O Secretário pergunta se pode comentar a pergunta que acabou de ser feita.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza e anuncia que Mirian Goldenberg falará em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b027",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sustenta que o idadismo modula a democracia, que a cabeça de 70 anos entende melhor os problemas do País e que é o mercado que decide quem é velho demais.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O idadismo define quem decide e quem trabalha, e o empobrecimento da população idosa adoece.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "assim como o racismo e o machismo, o idadismo modula a democracia e define os espaços de decisão que a pessoa idosa alcança",
+     "plain": "O idadismo, assim como o racismo e o machismo, é capaz de modular a nossa democracia. Ele determina os espaços de decisão a que as pessoas idosas ou mais velhas conseguem chegar."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é o mercado que determina quem é velho demais para cada atividade, mesmo em quem ainda não tem 60 anos",
+     "plain": "Quem trabalha 15 anos em publicidade já é velha ali, mesmo sem ter 60 anos, e se perder o emprego talvez não consiga outro. No fundo, é o sistema capitalista que determina quem é velho para cada atividade."
+    },
+    {
+     "id": "b027c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a cabeça de 70 anos é capaz de entender melhor os problemas, porque tem a memória do País",
+     "plain": "A cabeça é de 70, e que bom: é uma cabeça capaz de entender melhor os problemas que estamos passando, que tem a memória do País e viveu o que hoje só se busca nos livros."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta o projeto que cria mecanismo contra a violência à pessoa idosa e afirma que o que a estudante sofreu tem nome: violência.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    30,
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O que a estudante sofreu é violência, e a lei precisa de mecanismo para combatê-la.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o projeto apresentado cria um mecanismo contra a violência psicológica, física e financeira à pessoa idosa",
+     "plain": "Na semana passada apresentei um projeto de lei que cria um mecanismo de combate à violência contra a pessoa idosa, para aumentar o controle e a defesa contra a violência psicológica, física e financeira."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o que a estudante sofreu na faculdade tem nome, e o nome é violência",
+     "plain": "A Patrícia falou várias vezes do que aconteceu com ela e disse que não sabia como chamar aquilo. Eu sei exatamente como se chama: o nome é violência."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende assumir a velhice sem vergonha e diz que vai exigir o acompanhante que a lei lhe faculta só no dia em que precisar.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A velhice é um tempo de vida a ser assumido com orgulho, e o direito só deve ser usado por quem precisa dele.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a velhice tem de ser assumida como um tempo de vida, e chegar a ela e ser reconhecido é um privilégio",
+     "plain": "A velhice tem de ser assumida como um tempo de vida, sem vergonha nenhuma. Ela não deve ser motivo de vergonha, e sim de orgulho: chegar até lá e ser reconhecido é um privilégio."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ela não precisa de acompanhante hoje e vai exigir esse direito quando precisar, porque a lei o faculta",
+     "plain": "Até agora não precisei de acompanhante, mas, no dia em que eu precisar, eu exijo, porque a lei me faculta isso. Hoje não é uma necessidade minha, e quem precisa que peça."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Mirian Goldenberg para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Encerra pedindo que cada um escute e respeite a autonomia do seu velho, porque o jovem de hoje é o velho de amanhã.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Escutar e respeitar a autonomia dos mais velhos é o que muda o etarismo.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o jovem de hoje é o velho de amanhã, e por isso é preciso escutar e respeitar a autonomia do velho hoje",
+     "plain": "Meu lema é este: o jovem de hoje é o velho de amanhã, nunca se esqueçam. Escute o seu velho como você quer ser escutado amanhã, e respeite a autonomia dele como você quer ser respeitado."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ela sonha com o dia em que o velho será considerado lindo e ninguém será julgado pelas rugas da pele",
+     "plain": "Inspirada em Martin Luther King, tenho um sonho: que um dia o velho seja considerado lindo e que as pessoas não sejam julgadas pelas rugas da pele, e sim pela beleza do caráter."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 1 minuto ao Secretário Alexandre da Silva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b033",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O Secretário agradece o convite e coloca a Secretaria à disposição para o diálogo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos e passa a condução da audiência a Maria Dulce Silva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b035",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A pesquisadora encerra a reunião e convoca a próxima audiência, sobre a escassez de médicos geriatras.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b003",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 6,
+   "from_claim": "b004c1",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "Responde à pergunta sobre as agressões mais comuns: dentro de casa predominam a física, a psicológica e a patrimonial."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 31,
+   "from_claim": "b006c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A consultora retoma a descrição do idadismo cultural feita pelo Secretário e acrescenta o que vem depois dele: a violência."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 3,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "Responde à comparação internacional pedida pela presidência: o etarismo existe em todo lugar, mas aqui a diversidade e o distanciamento social são maiores."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 97,
+   "from_claim": "b008c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A consultora da OPAS soma sua voz ao pedido do Ministério para que o Brasil ratifique a convenção interamericana."
+  },
+  {
+   "from": "b010",
+   "to": "b003",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 5,
+   "from_claim": "b010c2",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "Onde a presidência vê o tamanho da violência nos registros do Disque 100, a antropóloga diz que esses números não retratam a realidade, porque os velhos não denunciam."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 2,
+   "from_claim": "b010c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "A antropóloga põe número no que o Secretário descreveu: metade dos casos vem dos próprios filhos e filhas."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 97,
+   "from_claim": "b012c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O presidente da Comissão encampa o pedido do Ministério e diz onde a convenção está: na gaveta, e precisa sair do papel."
+  },
+  {
+   "from": "b013",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 36,
+   "from_claim": "b013c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A presidência assume o ponto da antropóloga: a mudança tem de vir de dentro das casas, e não só de fora para dentro."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 31,
+   "from_claim": "b014c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A pesquisadora reforça o dado da consultora com um argumento: a velhice não é um amontoado de doenças, porque só chega a ela quem tem saúde."
+  },
+  {
+   "from": "b016",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 34,
+   "from_claim": "b016c2",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "O deputado traz da prefeitura o mesmo que a antropóloga ouve dos amigos nonagenários: idosos que não têm com quem conversar."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 7,
+   "from_claim": "b017c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Ao relato do deputado sobre o consignado, a pesquisadora acrescenta o outro lado da mesma porta: a ela, o banco nega financiamento."
+  },
+  {
+   "from": "b019",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 31,
+   "from_claim": "b019c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A estudante dá rosto ao idadismo cultural que o Secretário descreveu: ela tem medo de perguntar em aula para não ouvir o que aquela velha está dizendo."
+  },
+  {
+   "from": "b021",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 32,
+   "from_claim": "b021c2",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "A consultora amplia a cobrança do deputado por prevenção: sem política pública, a conta do bom envelhecimento sobra para o indivíduo."
+  },
+  {
+   "from": "b027",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 3,
+   "from_claim": "b027c1",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "O Secretário concorda com a consultora sobre o etarismo institucional e vai além: como o racismo e o machismo, ele molda a democracia."
+  },
+  {
+   "from": "b027",
+   "to": "b023",
+   "kind": "responde",
+   "from_sentence": 19,
+   "to_sentence": 9,
+   "from_claim": "b027c2",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "Responde à orientadora de carreira: quem é demitido perto da aposentadoria já é velho para o mercado, mesmo sem ter 60 anos."
+  },
+  {
+   "from": "b028",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 20,
+   "from_claim": "b028c2",
+   "to_claim": "b019c2",
+   "strength": "forte",
+   "note": "A presidência dá nome ao que a estudante contou e não sabia como chamar: aquilo é violência."
+  },
+  {
+   "from": "b031",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 76,
+   "from_claim": "b031c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A antropóloga fecha pelo mesmo caminho que a consultora da OPAS apontou: escutar e conviver entre gerações."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002",
+    "b006",
+    "b014",
+    "b019",
+    "b027",
+    "b028"
+   ],
+   "claims": [
+    "b001c1",
+    "b002c1",
+    "b002c2",
+    "b006c2",
+    "b014c3",
+    "b019c1",
+    "b019c2",
+    "b027c1",
+    "b028c2"
+   ],
+   "note": "A presidência, o Ministério, a OPAS, as pesquisadoras e a estudante concordam que o etarismo é um preconceito estrutural, que vai do elogio disfarçado à violência."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b003",
+    "b004",
+    "b010",
+    "b028"
+   ],
+   "claims": [
+    "b003c1",
+    "b004c1",
+    "b010c1"
+   ],
+   "note": "A presidência, o Ministério e a antropóloga concordam que a violência contra a pessoa idosa acontece principalmente dentro da própria casa."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b012",
+    "b016",
+    "b021"
+   ],
+   "claims": [
+    "b008c1",
+    "b012c1",
+    "b016c3",
+    "b021c1",
+    "b021c2"
+   ],
+   "note": "A OPAS e dois deputados concordam que envelhecer bem depende de política pública e orçamento, e não do esforço de cada um."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b002",
+    "b008",
+    "b012"
+   ],
+   "claims": [
+    "b002c3",
+    "b008c2",
+    "b012c2"
+   ],
+   "note": "O Ministério, a OPAS e o presidente da Comissão concordam que o Brasil precisa ratificar a convenção interamericana, parada desde que o país a assinou."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b023",
+    "b027"
+   ],
+   "claims": [
+    "b023c1",
+    "b023c2",
+    "b023c3",
+    "b027c2"
+   ],
+   "note": "A orientadora de carreira e o Ministério concordam que é o mercado que decide quem é velho demais, e que isso empurra para fora quem ainda precisa trabalhar."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b004",
+    "b006",
+    "b013",
+    "b016",
+    "b031"
+   ],
+   "claims": [
+    "b004c2",
+    "b006c3",
+    "b013c1",
+    "b016c2",
+    "b031c1"
+   ],
+   "note": "O Ministério, a OPAS, a presidência e a antropóloga concordam que a convivência entre gerações e a escuta dentro de casa são parte da solução."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b003",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": "b004",
+   "gist": "quais são as agressões mais comuns dentro da casa do idoso",
+   "plain": "Quais são as agressões mais comuns registradas contra o idoso dentro de casa?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b007",
+   "sentence": 3,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b008",
+   "gist": "como o Brasil se situa no etarismo diante do resto do mundo",
+   "plain": "Comparando com o resto do mundo, como o Brasil está situado em etarismo?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b016",
+   "sentence": 19,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quanto do orçamento vai para as políticas da pessoa idosa",
+   "plain": "Quanto do orçamento é destinado às políticas públicas para as pessoas idosas?",
+   "theme": "d4",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b023",
+   "sentence": 12,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "se a Comissão discute políticas para manter o idoso no mercado",
+   "plain": "A Comissão do Idoso tem discutido políticas públicas para manter essas pessoas no mercado de trabalho?",
+   "theme": "d6",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 4,
+   "gist": "um em cada seis idosos já sofreu violência, diz a OMS",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 6,
+   "gist": "o Brasil tem cerca de 32 milhões de pessoas idosas",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 18,
+   "gist": "25% dos Deputados têm 60 anos ou mais",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b003",
+   "sentence": 5,
+   "gist": "o Disque 100 registrou mais de 35 mil denúncias em 2022",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 18
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "fala": "b003",
+   "sentence": 6,
+   "gist": "87% das denúncias ocorreram na casa do idoso",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 18
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 31,
+   "gist": "cerca de 70% da população idosa é autônoma e independente",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 56,
+   "gist": "uma em cada duas pessoas no mundo já teve ação idadista",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 7,
+   "gist": "50% da violência vem de filhos e 10% de netos e outros",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 48,
+   "gist": "legalmente a velhice começa aos 60 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b016",
+   "sentence": 15,
+   "gist": "80 idosos moravam sós num condomínio de 800 apartamentos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b017",
+   "sentence": 0,
+   "gist": "a pesquisadora que fala tem 80 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b023",
+   "sentence": 7,
+   "gist": "três reformas da Previdência em 30 anos: 1998, 2003 e 2019",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria foi pelo caminho das saídas apontadas pela OMS, educação, lei e convivência entre gerações, com o caso da estudante de Bauru como porta de entrada.",
+  "omitted": "Ficaram de fora o debate sobre demissões perto da aposentadoria e a crítica de que as políticas para a pessoa idosa tutelam demais."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O etarismo mora dentro de casa",
+   "statement_plain": "A maior parte da violência contra a pessoa idosa é cometida pela própria família, e quase ninguém denuncia, então os números oficiais mostram só uma parte do problema.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b003c1",
+    "b004c1",
+    "b010c1",
+    "b010c2",
+    "b004c2"
+   ],
+   "note": "Junta o Ministério, a presidência e uma antropóloga da universidade em torno de um ponto incômodo: o agressor mais comum é alguém da própria família."
+  },
+  {
+   "id": "t2",
+   "title": "Proteger demais vira tutela",
+   "statement_plain": "Quase toda pessoa idosa se vira sozinha, e a proteção que decide por ela tira justamente a autonomia que diz querer defender.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b010c3",
+    "b014c1",
+    "b017c2",
+    "b029c1",
+    "b027c3"
+   ],
+   "note": "Não divide a sala por setor: a consultora da OPAS, uma antropóloga, uma assistente social de 80 anos e o próprio Ministério ficam contra um cuidado que decide pela pessoa."
+  },
+  {
+   "id": "t3",
+   "title": "Sem ratificar a convenção, o resto não anda",
+   "statement_plain": "O Brasil assinou o acordo interamericano sobre os direitos das pessoas idosas e nunca o aprovou, e é isso que trava as políticas de que o país precisa.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b008c1",
+    "b008c2",
+    "b012c1",
+    "b012c2"
+   ],
+   "note": "Coloca o Ministério, a OPAS e o presidente da Comissão no mesmo pedido, dirigido ao Congresso em que a audiência acontece."
+  },
+  {
+   "id": "t4",
+   "title": "Contra a violência, a lei tem de proteger mais",
+   "statement_plain": "A pessoa idosa é alvo de golpe, de dívida em nome dos outros e de violência dentro de casa, e a resposta é uma lei que detalhe essas violências e acelere a proteção.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b016c1",
+    "b028c1"
+   ],
+   "note": "É a ideia da presidência e de um deputado do PT, e ela bate de frente com quem, na mesma sala, diz que a proteção já tutela demais."
+  },
+  {
+   "id": "t5",
+   "title": "Envelhecer bem é conta do Estado, não de cada um",
+   "statement_plain": "Sem moradia, escola, trabalho e aposentadoria, não adianta cobrar da pessoa que envelheça bem, porque é a desigualdade que decide como cada um envelhece.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b016c3",
+    "b021c1",
+    "b021c2",
+    "b023c2",
+    "b027c2"
+   ],
+   "note": "Cruza a OPAS, um deputado, o Ministério e uma orientadora de carreira, que chegam ao mesmo ponto vindo da saúde, do orçamento e do mercado de trabalho."
+  },
+  {
+   "id": "t6",
+   "title": "A mudança começa na escuta dentro de casa",
+   "statement_plain": "Nenhuma lei substitui conviver com quem é mais velho e escutar o velho da própria casa, porque o jovem de hoje é o velho de amanhã.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c3",
+    "b013c1",
+    "b016c2",
+    "b031c1"
+   ],
+   "note": "Reúne a presidência, o Ministério, a OPAS e a antropóloga, ou seja, gente que veio pedir lei e mesmo assim diz que a lei sozinha não resolve."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "etarismo",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "preconceito ou discriminação contra alguém por causa da idade, principalmente contra as pessoas mais velhas"
+  },
+  {
+   "term": "Estatuto do Idoso",
+   "fala": "b001",
+   "sentence": 7,
+   "plain": "lei que reúne os direitos das pessoas idosas no Brasil, como o atendimento prioritário e a proteção contra a violência"
+  },
+  {
+   "term": "medidas protetivas",
+   "fala": "b001",
+   "sentence": 8,
+   "plain": "ordens que a Justiça dá para proteger a vítima de violência, como afastar o agressor de casa"
+  },
+  {
+   "term": "e-Democracia",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "portal da Câmara dos Deputados em que qualquer pessoa acompanha e participa das audiências pela internet"
+  },
+  {
+   "term": "idadismo",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "outro nome para o etarismo: tratar alguém de forma diferente por causa da idade que tem"
+  },
+  {
+   "term": "EJA",
+   "fala": "b002",
+   "sentence": 40,
+   "plain": "Educação de Jovens e Adultos, o ensino para quem não terminou a escola na idade esperada"
+  },
+  {
+   "term": "BPC",
+   "fala": "b002",
+   "sentence": 70,
+   "plain": "Benefício de Prestação Continuada, um salário mínimo por mês pago a idosos de baixa renda e a pessoas com deficiência"
+  },
+  {
+   "term": "Década do Envelhecimento Saudável",
+   "fala": "b002",
+   "sentence": 72,
+   "plain": "período de 2021 a 2030 declarado pela ONU para melhorar a vida das pessoas mais velhas no mundo todo"
+  },
+  {
+   "term": "Convenção Interamericana sobre a Proteção dos Direitos Humanos dos Idosos",
+   "fala": "b002",
+   "sentence": 97,
+   "plain": "acordo entre países das Américas com regras para proteger os direitos das pessoas idosas. O Brasil assinou, mas o Congresso ainda não aprovou"
+  },
+  {
+   "term": "Disque 100",
+   "fala": "b003",
+   "sentence": 5,
+   "plain": "telefone do Governo Federal para denunciar violações de direitos humanos, entre elas a violência contra a pessoa idosa"
+  },
+  {
+   "term": "OPAS",
+   "fala": "b006",
+   "sentence": 3,
+   "plain": "Organização Pan-Americana da Saúde, o escritório da Organização Mundial da Saúde para os países das Américas"
+  },
+  {
+   "term": "velhofobia",
+   "fala": "b010",
+   "sentence": 5,
+   "plain": "medo ou rejeição da velhice e das pessoas velhas"
+  },
+  {
+   "term": "consignado",
+   "fala": "b016",
+   "sentence": 7,
+   "plain": "empréstimo descontado direto do salário ou da aposentadoria, antes de o dinheiro chegar à conta"
+  },
+  {
+   "term": "Estratégia Saúde da Família",
+   "fala": "b016",
+   "sentence": 14,
+   "plain": "programa do SUS em que equipes de saúde e agentes comunitários acompanham as famílias de um bairro nas próprias casas"
+  }
+ ]
+}

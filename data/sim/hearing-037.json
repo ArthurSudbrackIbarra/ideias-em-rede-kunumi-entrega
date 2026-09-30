@@ -1,0 +1,1360 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 37,
+ "model": "LLM lendo o prompt hearing-037 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T17:46:20Z",
+ "prompt_sha256": "061900a475beee72120f3387573b371d340cc5bd268f92cca1a4b285c917a6b1",
+ "sentences_hash": "f76d2418675bd257",
+ "review": {
+  "pairs_read": 23,
+  "pairs_fixed": 7
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado",
+  "tese t3: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão do Esporte ouviu a Secretaria Nacional de Paradesporto sobre suas ações e propostas para os próximos anos. O secretário mostrou um orçamento discricionário de 1 milhão 846 mil reais, a maioria dos Municípios sem projeto para pessoas com deficiência e a diferença entre paradesporto e esporte paralímpico. Uma diretora que foi atleta relatou a invisibilidade de quem tem deficiência, e os deputados anunciaram a subcomissão permanente do paradesporto.",
+ "stakes": "Estava em jogo quanto orçamento e que estrutura o paradesporto vai receber, e se a Câmara vai destinar emendas à área.",
+ "central_question": "O que falta para o paradesporto sair da invisibilidade e virar política pública de verdade?",
+ "synopsis_plain": "A Comissão do Esporte ouviu a secretaria do Ministério do Esporte que cuida do esporte para pessoas com deficiência. O secretário mostrou que tem 1 milhão 846 mil reais para gastar no ano e que a maioria das cidades não tem projeto nenhum na área. Uma diretora que foi atleta de canoagem contou como o atleta com deficiência é apagado. Os deputados criaram uma subcomissão para o tema.",
+ "stakes_plain": "Quanto dinheiro e que estrutura o paradesporto vai receber, e se os deputados vão destinar emendas para a área.",
+ "central_question_plain": "O que falta para o esporte da pessoa com deficiência sair da invisibilidade e virar política de verdade?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Orçamento e emendas do paradesporto",
+   "description": "Discute se o dinheiro que a área recebe permite fazer política pública e o que muda com mais emendas parlamentares.",
+   "axis": {
+    "pro": "O orçamento do paradesporto é insuficiente e a área precisa de mais recursos e emendas.",
+    "contra": "Dá para fazer muito com o pouco que existe, com criatividade, parceria e valorização de quem já atua.",
+    "pro_plain": "O dinheiro da área é pouco demais e precisa aumentar, inclusive por emendas dos deputados.",
+    "contra_plain": "Dá para fazer muita coisa com o pouco que já existe, com parceria e criatividade."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Paradesporto além do esporte paralímpico",
+   "description": "Discute a diferença entre as modalidades dos Jogos Paralímpicos e todas as outras praticadas por pessoas com deficiência.",
+   "axis": {
+    "pro": "O paradesporto é muito maior que o esporte paralímpico e as outras modalidades precisam de apoio.",
+    "contra": "O esforço deve se concentrar no esporte paralímpico, que já dá resultado e visibilidade.",
+    "pro_plain": "O esporte da pessoa com deficiência é muito maior que os Jogos Paralímpicos, e o resto também precisa de apoio.",
+    "contra_plain": "Melhor concentrar o esforço nos Jogos Paralímpicos, que já dão medalha e aparecem."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Estrutura e gestão da área",
+   "description": "Discute a falta de unidades de paradesporto em Estados e Municípios e a capacidade dos clubes e centros de treinamento.",
+   "axis": {
+    "pro": "Estados, Municípios e clubes precisam de unidades próprias e de capacidade de gestão para o paradesporto.",
+    "contra": "A estrutura que já existe dá conta e o modelo atual não precisa mudar.",
+    "pro_plain": "Estados, cidades e clubes precisam de setores próprios e de gente preparada para cuidar do tema.",
+    "contra_plain": "O que já existe hoje dá conta e não precisa mudar o modelo."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Esporte como direito e cidadania",
+   "description": "Discute o esporte como direito social da pessoa com deficiência e como caminho de inclusão, e o que mais é preciso além dele.",
+   "axis": {
+    "pro": "O esporte é direito social e ferramenta de cidadania plena para a pessoa com deficiência.",
+    "contra": "O esporte é atividade secundária diante das outras necessidades da pessoa com deficiência.",
+    "pro_plain": "O esporte é um direito e abre a porta da cidadania para a pessoa com deficiência.",
+    "contra_plain": "O esporte vem depois de outras necessidades mais urgentes dessa população."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Reconhecimento da pessoa com deficiência",
+   "description": "Discute o apagamento social do atleta com deficiência e o olhar que enxerga a falta em vez da capacidade.",
+   "axis": {
+    "pro": "A pessoa com deficiência é vista pela falta e precisa ser reconhecida pelo que é capaz de fazer.",
+    "contra": "O olhar da sociedade já mudou e o que falta agora é sobretudo dinheiro.",
+    "pro_plain": "A pessoa com deficiência é vista pelo que falta nela e precisa ser vista pelo que é capaz de fazer.",
+    "contra_plain": "O olhar da sociedade já mudou, e o que falta mesmo é dinheiro."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Esporte na escola e formação de profissionais",
+   "description": "Discute levar o esporte paralímpico para currículos e escolas e capacitar professores de educação física.",
+   "axis": {
+    "pro": "O esporte paralímpico deve entrar nas escolas e na formação dos profissionais de educação física.",
+    "contra": "Esse é assunto de especialista e não cabe no currículo geral.",
+    "pro_plain": "O esporte paralímpico tem de entrar na escola e na formação dos professores de educação física.",
+    "contra_plain": "Isso é assunto de especialista e não cabe no currículo de todo mundo."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência, Deputado Federal e autor do requerimento",
+   "org": "Comissão do Esporte da Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e se descreve em b001.3 a b001.7",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha esporte e lazer"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Secretário Nacional de Paradesporto",
+   "org": "Ministério do Esporte",
+   "basis": "apresentado pelo presidente em b001.19 e se apresenta em b002.1 e b002.2",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "secretário nacional de Paradesporto",
+   "org_plain": "ministério responsável pela política federal de esporte"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Diretora de Projetos Paradesportivos de Educação, Lazer e Inclusão Social e ex-atleta de paracanoagem",
+   "org": "Secretaria Nacional de Paradesporto",
+   "basis": "apresentada pelo secretário em b002.13 e se apresenta em b004.8 a b004.12",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Paradesporto",
+   "org_plain": "secretaria do Ministério do Esporte que cuida do esporte para pessoas com deficiência"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal e médico cirurgião plástico",
+   "org": "MDB",
+   "basis": "presença registrada em b003.4 e se apresenta em b006.1 a b006.5",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Amapá",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal e Presidente da Comissão do Esporte",
+   "org": "PL",
+   "basis": "citado como Presidente da Comissão em b002.9 e se apresenta em b008.4 a b008.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro",
+   "org_plain": "partido político com bancada na Câmara dos Deputados"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "lista de presenças lida pela presidência em b009.3, as entidades citadas em b010.8 e os registros de palmas em b002, b004, b008 e b017",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende levar o esporte paralímpico para escolas e universidades como caminho de inclusão e relata a visita ao Centro Paralímpico.",
+   "quote": [
+    37,
+    38,
+    39
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O esporte paralímpico nos ambientes educacionais promove inclusão e quebra estigmas.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o esporte é ferramenta de transformação social e levá-lo às escolas promove inclusão e respeito à diversidade",
+     "plain": "O esporte transforma a sociedade, e é dever nosso garantir que todos, seja qual for a limitação, cheguem à prática esportiva em igualdade. Difundir o esporte paralímpico em escolas e faculdades promove inclusão e respeito à diversidade."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o esporte paralímpico nos currículos ensina diversidade na prática, e o Comitê Paralímpico registrava 7.641 pessoas em 2017",
+     "plain": "Pôr o esporte paralímpico nos currículos da escola ensina diversidade funcional de um jeito prático. Um estudo do DataSenado de dezembro de 2017 contava 7.641 pessoas no registro paralímpico, entre atletas, ex-atletas e guias."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a visita ao Centro Paralímpico mostrou uma estrutura que incentiva o paradesporto e dinheiro público bem empregado",
+     "plain": "Neste ano fizemos uma visita técnica ao Centro Paralímpico, em São Paulo. Confesso que fiquei maravilhado com a estrutura e com o quanto ela incentiva o paradesporto. É bom ver dinheiro público empregado com essa qualidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Distingue paradesporto de esporte paralímpico, mostra que a maioria dos Municípios não tem projeto na área e diz que o orçamento não é suficiente.",
+   "quote": [
+    87,
+    88,
+    89
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": 118,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O paradesporto vai muito além das modalidades paralímpicas e precisa de orçamento e estrutura próprios.",
+    "sentence": 60
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      59,
+      60,
+      61
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 22 modalidades nos Jogos Paralímpicos de verão e outras 193 que são paradesporto e ficam fora dos programas",
+     "plain": "O movimento paralímpico abarca as modalidades dos Jogos Paralímpicos, de inverno e de verão. Nos jogos de verão são 22 modalidades, mas existem outras 193 fora desses programas, e elas também são paradesporto."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma pesquisa da Universidade Federal do Paraná achou 75,38% dos Municípios sem projeto esportivo para pessoas com deficiência",
+     "plain": "O eixo institucional está entre os maiores problemas do paradesporto no Brasil. Uma pesquisa da Universidade Federal do Paraná detectou que 75,38% dos Municípios não têm projeto esportivo voltado a pessoas com deficiência."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      87,
+      88
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Secretaria tem 1 milhão 846 mil reais de orçamento livre no ano e isso não é suficiente",
+     "plain": "Para fazer a política pública do paradesporto, temos neste ano um orçamento livre de 1 milhão 846 mil reais. Isso não é suficiente, como todos sabem."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência parabeniza o secretário, registra a presença de dois deputados e chama a diretora da Secretaria.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata o apagamento de atletas de modalidades menos conhecidas e cobra que se olhe a capacidade da pessoa, não a deficiência.",
+   "quote": [
+    88,
+    89,
+    90
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pessoa com deficiência é enxergada pela falta e precisa ser reconhecida pelo que é capaz de fazer.",
+    "sentence": 88
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "atletas de modalidades menos expressivas sofrem apagamento e invisibilidade social",
+     "plain": "Isso não chega a ser divulgado socialmente. Acontece o mesmo com atletas de outras modalidades menos expressivas. A gente sofre esse apagamento, essa invisibilidade social."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      87,
+      88
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as pessoas olham para o que falta em nós e não para o que somos capazes de fazer",
+     "plain": "As pessoas ficam no viés da estrutura, da estética, da capacidade física, e não enxergam a diversidade e a pluralidade que nós somos. Olham para o que falta em nós, não para aquilo de que somos capazes."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      89,
+      90,
+      91
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se quer só o direito ao esporte, mas também trabalho, saúde, cidadania, cultura e o direito de pertencer",
+     "plain": "Nós não queremos só o direito ao esporte. Queremos também o direito ao trabalho, à saúde, à cidadania e à cultura. Queremos o direito de pertencer socialmente."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a fala da diretora e chama o Deputado Augusto Puppio, seguido do presidente da Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Comemora a criação da subcomissão do paradesporto e sustenta que a área dá retorno maior que outros temas mesmo sem investimento.",
+   "quote": [
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O paradesporto merece o lugar que ainda não tem e devolve mais do que recebe.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      10
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão conseguiu instituir a Subcomissão Permanente do Paradesporto",
+     "plain": "Fico muito feliz, Presidente, porque instituímos aqui a Subcomissão Permanente do Paradesporto."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o esporte importa não por si, mas pelas muletas psicológicas e sociais que ele representa",
+     "plain": "Todo mundo aqui sabe da importância do esporte, não pelo esporte em si, mas pelo que ele representa, pelas muletas psicológicas e sociais que ele significa em todos os sentidos."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      20
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "mesmo sem o devido reconhecimento e investimento, o paradesporto devolve mais do que outros temas mais priorizados",
+     "plain": "Vamos trabalhar, pelo menos enquanto estivermos aqui, para pôr o paradesporto no lugar que merece. Mesmo sem o devido reconhecimento e sem investimento, ele devolve mais do que outros temas mais focados."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Conta como cirurgião pediátrico o caso das gêmeas siamesas separadas e sustenta que muitas vezes a deficiência está no olhar das pessoas.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As pessoas se adaptam, e boa parte da deficiência está no olhar de quem observa.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na separação de gêmeas siamesas perguntaram se as meninas andariam, e a resposta foi que elas se adaptam",
+     "plain": "Sou cirurgião pediátrico e lido com muitas malformações nesses 42 anos de atividade. Quando separamos gêmeas siamesas, a primeira coisa que nos perguntaram foi se aquelas meninas iam conseguir andar. Eu respondi que elas se adaptam."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "às vezes a deficiência está na cabeça das pessoas, e elas procuram se adaptar e ter a melhor qualidade de vida",
+     "plain": "Às vezes a deficiência está na cabeça das pessoas. Elas procuram se adaptar e ter a melhor qualidade de vida que for possível."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Avalia que 1,8 milhão de reais é pouco para 27 Estados, pede ênfase nos Municípios que já atuam e pede que façam algo especial com o que têm.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O orçamento da Secretaria é pequeno demais para o alcance que a política precisa ter.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "1,8 milhão de reais é muito pouco para chegar aos 27 Estados e valorizar os 24% de Municípios que já atuam",
+     "plain": "Eu penso que 1,8 milhão de reais é pouco demais para levar conhecimento aos 27 Estados e valorizar os 24% de Municípios que já têm política pública de paradesporto. É importante dar ênfase a esses Municípios."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "valorizar quem já está fazendo acaba pressionando quem não está a fazer também",
+     "plain": "Quando vocês criam um movimento de valorização de quem já está fazendo, acabam empurrando quem não está para fazer também. Vocês têm um poder muito grande nas mãos."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "ideia boa na mesa sem recurso é quase nada, mas não é nada, e dá para fazer algo especial com o pouco",
+     "plain": "Uma amiga me dizia que ideia boa na mesa, sem recurso financeiro, é quase nada. Mas não é nada. Em 2024, se o orçamento necessário não estiver previsto, espero que vocês façam algo muito especial com esse pouquinho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de um deputado e das entidades convidadas e encerra a fase de debates.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede que se tire o manto de invisibilidade do paradesporto e insiste que o atendimento à pessoa com deficiência é prioridade prevista em lei.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Tirar o paradesporto da invisibilidade é dar dignidade à pessoa com deficiência, e a lei manda fazer isso com prioridade.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso tirar o manto de invisibilidade do paradesporto e fazer isso com prioridade, como a lei manda",
+     "plain": "A Secretaria estar aqui hoje inicia a decolagem do paradesporto no Brasil, tira esse manto de invisibilidade e dá dignidade à pessoa com deficiência pelo esporte. E isso tem de ser com prioridade, porque a lei diz que é com prioridade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conta que recomendou ao governador de Goiás conhecer o Centro Paralímpico Brasileiro, porque só existem três centros iguais no mundo.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Centro Paralímpico Brasileiro é uma estrutura rara que os governantes precisam conhecer.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no mundo só há três centros iguais ao Centro Paralímpico Brasileiro, e os governantes precisam conhecê-lo",
+     "plain": "Depois da visita ao Centro Paralímpico Brasileiro, comentei o lugar com o nosso Governador Ronaldo Caiado, que me disse não conhecer. Eu disse a ele que precisava conhecer, porque no mundo só existem três centros iguais a esse."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O secretário concorda com a observação da presidência sobre o Centro Paralímpico.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que ficou maravilhada com o que viu e que o dinheiro público está chegando à sociedade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O secretário concorda e diz que todos os deputados deveriam conhecer o centro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda com o secretário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Coloca a Secretaria à disposição dos deputados e destaca o Comitê Brasileiro de Clubes Paralímpicos, que cuida da base e do atendimento na ponta.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A base do paradesporto depende dos clubes e das entidades que atendem a pessoa com deficiência na ponta.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Comitê Brasileiro de Clubes Paralímpicos cuida da base, dos clubes e das entidades que atendem na ponta",
+     "plain": "Quero destacar uma instituição de que falamos pouco aqui, o Comitê Brasileiro de Clubes Paralímpicos. Ele cuida da base, dos clubes e das entidades que atendem direto a pessoa com deficiência, lá na ponta."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Secretaria está de portas abertas e é importante que todos saibam o que se constrói no Comitê Paralímpico",
+     "plain": "A Secretaria está de portas abertas para todos que quiserem ajudar. É muito importante que todos tenham noção do que é construído no Comitê Paralímpico Brasileiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Divulga o projeto do Comitê Paralímpico para treinar professores de educação física sem custo para os Estados e encerra a reunião.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A capacitação de professores de educação física já está disponível e sem custo para Estados e Municípios.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um projeto para treinar 100 mil professores de educação física sem custo para os Estados, e 50 mil já foram treinados",
+     "plain": "O Mizael me contou que existe um projeto para treinar 100 mil professores de educação física, sem custo nenhum para os Estados. Eles já treinaram 50 mil professores."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Comitê Paralímpico está à disposição de governadores e prefeitos e repassa esse conhecimento aos professores",
+     "plain": "O Comitê Paralímpico está à disposição de quem tiver interesse, governadores e prefeitos. Ele repassa esse conhecimento todo, e aí os professores de educação física fazem a sua especialidade e treinam esse pessoal."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 61,
+   "to_sentence": 42,
+   "from_claim": "b002c1",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "O requerimento e o discurso de abertura falam em esporte paralímpico, e o secretário corrige a conta: paralímpicas são 22 modalidades, e outras 193 ficam de fora desse nome."
+  },
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 44,
+   "to_sentence": 60,
+   "from_claim": "b004c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A distinção que o secretário fez no papel aparece na vida da diretora: quem compete nas modalidades menos expressivas some do noticiário."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 89,
+   "to_sentence": 37,
+   "from_claim": "b004c3",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Ao esporte apresentado como ferramenta de transformação, ela responde que o esporte sozinho não basta: o pedido é por trabalho, saúde, cidadania e cultura."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 37,
+   "from_claim": "b006c2",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "O deputado concorda que o valor do esporte não está nele mesmo, e chama de muletas psicológicas e sociais o que a abertura chamou de transformação."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 20,
+   "to_sentence": 87,
+   "from_claim": "b006c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "Ao orçamento insuficiente que o secretário mostrou, o deputado responde que a área já devolve mais do que recebe e que a Comissão vai trabalhar para mudar o lugar dela."
+  },
+  {
+   "from": "b007",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 88,
+   "from_claim": "b007c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Onde ela diz que olham para o que falta nas pessoas, a presidência conta o caso das gêmeas que voltaram a correr e conclui que a deficiência está na cabeça de quem olha."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 87,
+   "from_claim": "b008c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O presidente da Comissão confirma o diagnóstico do orçamento e o traduz em alcance: com esse valor não se chega aos 27 Estados."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 33,
+   "to_sentence": 88,
+   "from_claim": "b008c3",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O mesmo deputado recusa a conclusão de que sem orçamento nada se faz: ideia boa sem recurso é quase nada, mas não é nada."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 45,
+   "from_claim": "b010c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O secretário pega a palavra que a diretora usou, invisibilidade, e transforma em tarefa da Secretaria tirar esse manto do paradesporto."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 34,
+   "from_claim": "b010c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Ao pedido de fazer algo especial com o pouco que há, o secretário responde que o atendimento não é questão de esforço extra e sim de prioridade prevista em lei."
+  },
+  {
+   "from": "b016",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b016c2",
+   "to_claim": "b011c1",
+   "strength": "media",
+   "note": "À observação de que só existem três centros iguais no mundo, o secretário acrescenta que todos precisam ver o que se constrói ali e põe a Secretaria à disposição."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 0,
+   "from_claim": "b017c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A presidência estende o convite do secretário a governadores e prefeitos, com o conhecimento do Comitê Paralímpico já disponível."
+  },
+  {
+   "from": "b017",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 65,
+   "from_claim": "b017c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Aos 75,38% de Municípios sem projeto, a presidência aponta um caminho que já existe: treinar professores de educação física sem custo para os Estados."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b008"
+   ],
+   "claims": [
+    "b002c3",
+    "b008c1"
+   ],
+   "note": "O secretário do Ministério do Esporte e o presidente da Comissão concordam que o dinheiro disponível não cobre o tamanho da política que a área precisa ter."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b002",
+    "b011",
+    "b016"
+   ],
+   "claims": [
+    "b001c3",
+    "b002c2",
+    "b011c1",
+    "b016c1"
+   ],
+   "note": "A presidência e o Ministério do Esporte concordam que a estrutura de ponta existe e funciona, mas que a base nos Municípios e nos clubes é o elo que falta."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b001",
+    "b004",
+    "b006"
+   ],
+   "claims": [
+    "b001c1",
+    "b004c3",
+    "b006c2"
+   ],
+   "note": "A presidência, a Secretaria Nacional de Paradesporto e um deputado concordam que o esporte vale pelo que abre em volta dele, da inclusão à cidadania."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b007",
+    "b010"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c2",
+    "b007c1",
+    "b007c2",
+    "b010c1"
+   ],
+   "note": "A diretora que foi atleta, a presidência e o secretário concordam que a pessoa com deficiência é enxergada pela falta e some do olhar público."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 108,
+   "addressed_to": "parlamentar",
+   "answered_by": "b006",
+   "gist": "que os deputados mudem a realidade das emendas do paradesporto",
+   "plain": "Os deputados vão ajudar a mudar a realidade das emendas destinadas ao paradesporto?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b002",
+   "sentence": 118,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "ajuda para levar emendas a mais unidades federativas",
+   "plain": "Os deputados vão levar emendas do paradesporto para além das oito unidades federativas de hoje?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b008",
+   "sentence": 29,
+   "addressed_to": "governo",
+   "answered_by": "b010",
+   "gist": "que a Secretaria Nacional de Paradesporto seja abraçada",
+   "plain": "O Ministério do Esporte vai abraçar a Secretaria Nacional de Paradesporto?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 42,
+   "gist": "7.641 pessoas no registro paralímpico em 2017",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 36,
+   "gist": "18,6 milhões de pessoas com deficiência no País",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 60,
+   "gist": "22 modalidades paralímpicas de verão e outras 193",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 65,
+   "gist": "75,38% dos Municípios sem projeto para deficientes",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b002",
+   "sentence": 87,
+   "gist": "orçamento livre de 1 milhão 846 mil reais no ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b002",
+   "sentence": 94,
+   "gist": "aumento de 100% de meninas e mulheres no campeonato",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b002",
+   "sentence": 116,
+   "gist": "cerca de 7 milhões em emendas, 65% já empenhados",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b002",
+   "sentence": 117,
+   "gist": "só oito unidades federativas com emendas, nenhuma no Norte",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b004",
+   "sentence": 32,
+   "gist": "campeã mundial de paracanoagem em 2017",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b008",
+   "sentence": 14,
+   "gist": "24% dos Municípios com política de paradesporto",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b017",
+   "sentence": 1,
+   "gist": "projeto para treinar 100 mil professores de educação física",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b017",
+   "sentence": 2,
+   "gist": "50 mil professores já treinados pelo projeto",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo",
+   "parlamentar",
+   "mesa"
+  ],
+  "angle": "A matéria tratou a audiência como um apelo da Secretaria Nacional de Paradesporto por mais orçamento e mais estrutura de apoio aos atletas com deficiência.",
+  "omitted": "Ficou de fora a discordância sobre o que fazer sem dinheiro, defendida pelo presidente da Comissão e por um deputado, além do projeto de treinamento de professores de educação física e do papel dos clubes na base."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem orçamento e sem estrutura não há paradesporto",
+   "statement_plain": "A área não vai a lugar nenhum com o dinheiro que tem hoje, e enquanto a maioria das cidades não tiver projeto nem setor próprio, o esporte para pessoas com deficiência fica no papel.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b008c1",
+    "b002c2",
+    "b016c1",
+    "b001c3"
+   ],
+   "note": "A ideia junta o Executivo, que pede recursos, e o presidente da Comissão, que é do partido de oposição ao governo e confirma o diagnóstico em vez de contestá-lo."
+  },
+  {
+   "id": "t2",
+   "title": "Mesmo com pouco, o paradesporto devolve muito",
+   "statement_plain": "Ideia boa sem dinheiro é quase nada, mas não é nada: dá para valorizar quem já atua, puxar os outros atrás e mostrar que essa área devolve mais do que recebe.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b008c2",
+    "b008c3"
+   ],
+   "note": "São dois deputados que estão do lado de quem pede orçamento e, ainda assim, recusam a conclusão de que sem dinheiro nada acontece. A divisão aqui é dentro do mesmo campo."
+  },
+  {
+   "id": "t3",
+   "title": "Paradesporto é muito maior que Jogos Paralímpicos",
+   "statement_plain": "O esporte da pessoa com deficiência não cabe nas modalidades dos Jogos Paralímpicos, e quem está fora desse recorte some do noticiário e do orçamento.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b004c1",
+    "b010c1"
+   ],
+   "note": "É uma ideia que o próprio Executivo traz contra o recorte que ele mesmo herdou, e uma ex-atleta de modalidade paralímpica a confirma pela própria experiência de apagamento."
+  },
+  {
+   "id": "t4",
+   "title": "Ver a pessoa, e não a deficiência",
+   "statement_plain": "A deficiência é uma característica, não uma sentença: o problema começa quando se olha para o que falta na pessoa em vez de olhar para o que ela é capaz de fazer.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b007c1",
+    "b007c2",
+    "b004c3"
+   ],
+   "note": "Uma mulher com deficiência que trabalha no Ministério e um deputado médico que opera malformações há 42 anos chegam à mesma conclusão por caminhos opostos."
+  },
+  {
+   "id": "t5",
+   "title": "O esporte é direito social, não é favor",
+   "statement_plain": "A Constituição põe o esporte no mesmo patamar da saúde e da educação básica, e por isso ele tem de entrar na escola e na formação de quem dá aula.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b006c2",
+    "b004c3",
+    "b001c2",
+    "b017c1"
+   ],
+   "note": "A ideia atravessa a mesa, um deputado e a Secretaria, e sai do discurso para o currículo escolar e para a capacitação de professores."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "LIBRAS",
+   "fala": "b001",
+   "sentence": 29,
+   "plain": "Língua Brasileira de Sinais, a língua própria das pessoas surdas no Brasil"
+  },
+  {
+   "term": "SNPAR",
+   "fala": "b001",
+   "sentence": 35,
+   "plain": "sigla da Secretaria Nacional de Paradesporto, área do Ministério do Esporte que cuida do esporte para pessoas com deficiência"
+  },
+  {
+   "term": "PNAD Contínua",
+   "fala": "b002",
+   "sentence": 36,
+   "plain": "pesquisa que o IBGE faz por amostra de domicílios e que mede, entre outras coisas, quantas pessoas com deficiência há no país"
+  },
+  {
+   "term": "Lei Brasileira de Inclusão",
+   "fala": "b002",
+   "sentence": 41,
+   "plain": "lei de 2015 que reúne os direitos da pessoa com deficiência, entre eles o acesso preferencial ao esporte"
+  },
+  {
+   "term": "Lei Geral do Esporte",
+   "fala": "b002",
+   "sentence": 43,
+   "plain": "lei de 2023 que reorganizou as regras do esporte brasileiro, do amador ao de alto rendimento"
+  },
+  {
+   "term": "paradesporto",
+   "fala": "b002",
+   "sentence": 58,
+   "plain": "o esporte praticado por pessoas com deficiência como um todo, incluindo as modalidades que não estão nos Jogos Paralímpicos"
+  },
+  {
+   "term": "CPB",
+   "fala": "b002",
+   "sentence": 55,
+   "plain": "sigla do Comitê Paralímpico Brasileiro, entidade que organiza o esporte paralímpico de alto rendimento no país"
+  },
+  {
+   "term": "emendas Parlamentares",
+   "fala": "b002",
+   "sentence": 85,
+   "plain": "verbas que cada deputado ou senador indica no orçamento da União para um destino que ele escolhe"
+  },
+  {
+   "term": "RP 6",
+   "fala": "b002",
+   "sentence": 107,
+   "plain": "código que identifica, no orçamento, o dinheiro que vem de emendas individuais de parlamentares"
+  },
+  {
+   "term": "TEA",
+   "fala": "b002",
+   "sentence": 120,
+   "plain": "sigla de Transtorno do Espectro do Autista, o autismo"
+  },
+  {
+   "term": "CBCP",
+   "fala": "b002",
+   "sentence": 138,
+   "plain": "sigla do Comitê Brasileiro de Clubes Paralímpicos, que reúne os clubes que atendem pessoas com deficiência na base"
+  },
+  {
+   "term": "Centros Especializados em Reabilitação",
+   "fala": "b002",
+   "sentence": 142,
+   "plain": "serviços do SUS que fazem reabilitação de pessoas com deficiência, conhecidos pela sigla CER"
+  },
+  {
+   "term": "tecnologia assistiva",
+   "fala": "b002",
+   "sentence": 147,
+   "plain": "equipamentos e recursos que ajudam a pessoa com deficiência a fazer o que faria sem eles, de cadeira de rodas a leitor de tela"
+  },
+  {
+   "term": "KL2",
+   "fala": "b004",
+   "sentence": 33,
+   "plain": "uma das classes da paracanoagem, que agrupa atletas com grau parecido de movimento no tronco e nas pernas"
+  }
+ ]
+}

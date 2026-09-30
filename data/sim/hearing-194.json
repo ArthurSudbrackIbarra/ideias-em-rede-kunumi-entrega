@@ -1,0 +1,1962 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 194,
+ "model": "LLM lendo o prompt hearing-194 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:32:17Z",
+ "prompt_sha256": "0db7a67a8061b3b354fbcbf44556233fae9330655671e38436b5516d40e831e2",
+ "sentences_hash": "0dcb616547e52d05",
+ "review": {
+  "pairs_read": 31,
+  "pairs_fixed": 18
+ },
+ "warnings": [
+  "tese t3: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Viação e Transportes ouviu cicloativistas, a mãe de uma vítima do trânsito e representantes dos Ministérios dos Transportes e das Cidades sobre a segurança de quem anda a pé e de bicicleta. Os convidados apresentaram as contas de sobrevivência em atropelamentos e pediram a revisão dos limites de velocidade nas cidades. Dois deputados trouxeram ainda o planejamento cicloviário e a tributação da bicicleta elétrica.",
+ "stakes": "Dependia da audiência o apoio da Comissão à mudança do Código de Trânsito Brasileiro que baixa os limites de velocidade nas cidades e regulamenta a fiscalização por velocidade média.",
+ "central_question": "O Brasil deve baixar por lei os limites de velocidade nas cidades para reduzir as mortes de pedestres e ciclistas?",
+ "synopsis_plain": "A Comissão de Viação e Transportes ouviu ciclistas, a mãe de uma vítima do trânsito e representantes de dois ministérios sobre a segurança de quem anda a pé e de bicicleta. Eles mostraram que a chance de sobreviver a um atropelamento cai muito quando a velocidade sobe, e pediram limites mais baixos nas cidades. Dois deputados falaram de planos de ciclovia e de imposto sobre a bicicleta elétrica.",
+ "stakes_plain": "Se a Comissão apoiaria a mudança na lei de trânsito que baixa a velocidade permitida nas cidades e deixa multar pela velocidade média.",
+ "central_question_plain": "O Brasil deve baixar por lei a velocidade permitida nas cidades para matar menos pedestres e ciclistas?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Limites de velocidade nas cidades",
+   "description": "Discute-se se baixar a velocidade permitida nas vias urbanas é o caminho para reduzir mortes de pedestres e ciclistas.",
+   "axis": {
+    "pro": "Baixar a velocidade das vias urbanas salva vidas e não piora o deslocamento.",
+    "contra": "Baixar a velocidade atrapalha quem se desloca e não resolve o problema.",
+    "pro_plain": "Andar mais devagar na cidade salva vidas e nem atrasa a viagem, porque a média sobe.",
+    "contra_plain": "Baixar a velocidade atrapalha quem precisa se deslocar e não resolve as mortes."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Espaço do carro na cidade",
+   "description": "Discute-se se o espaço e o tempo hoje dados ao automóvel devem ser reduzidos em favor de quem anda a pé e de bicicleta.",
+   "axis": {
+    "pro": "O espaço e o tempo do automóvel devem ceder a quem anda a pé e de bicicleta.",
+    "contra": "A bicicleta deve ser acomodada em rotas paralelas, sem reduzir o espaço do automóvel.",
+    "pro_plain": "A rua tem de tirar espaço e tempo do carro para dar a quem vai a pé ou de bicicleta.",
+    "contra_plain": "A bicicleta pode ir por ruas paralelas, sem tirar espaço da avenida do carro."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Punição nos crimes de trânsito",
+   "description": "Discute-se quem responde pelas mortes no trânsito e por que os casos graves terminam sem punição.",
+   "axis": {
+    "pro": "O sistema e a Justiça têm de responder pelas mortes, com punição firme e projeto seguro.",
+    "contra": "A responsabilidade fica com o motorista que errou e as respostas atuais bastam.",
+    "pro_plain": "Quem mata no trânsito tem de ser punido, e o poder público responde pelo jeito como fez a rua.",
+    "contra_plain": "A culpa é de quem errou no volante, e a resposta que a Justiça já dá é suficiente."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Educação para o trânsito",
+   "description": "Discute-se se a segurança no trânsito deve ser matéria obrigatória nas escolas e universidades.",
+   "axis": {
+    "pro": "A segurança no trânsito precisa ser matéria obrigatória, da escola à universidade.",
+    "contra": "Campanhas e semanas de trânsito já dão conta de formar quem vai para a rua.",
+    "pro_plain": "Trânsito tem de ser matéria na escola e na faculdade, não uma palestra de vez em quando.",
+    "contra_plain": "As campanhas e a semana do trânsito já bastam para ensinar as pessoas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Planejamento da ciclomobilidade",
+   "description": "Discute-se a qualidade dos planos de mobilidade que as cidades contratam e de onde sai o dinheiro para ciclovias e campanhas.",
+   "axis": {
+    "pro": "O planejamento cicloviário precisa ser integrado, fiscalizado e com dinheiro garantido.",
+    "contra": "Pintar ciclofaixas e realizar passeios ciclísticos já atende o ciclista.",
+    "pro_plain": "A ciclovia precisa de plano integrado, fiscalização e dinheiro certo para sair do papel.",
+    "contra_plain": "Pintar faixa de vermelho e fazer passeio de bicicleta já atende o ciclista."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Tributação da bicicleta elétrica",
+   "description": "Discute-se se a bicicleta elétrica deve ser tratada como veículo, com imposto e documento, ou incentivada como transporte.",
+   "axis": {
+    "pro": "A bicicleta elétrica deve ser incentivada e ficar fora do imposto e do documento de veículo.",
+    "contra": "A bicicleta elétrica deve ser tratada como veículo, com imposto e documento.",
+    "pro_plain": "A bicicleta elétrica tem de ser incentivada, sem imposto nem documento de carro.",
+    "contra_plain": "A bicicleta elétrica é um veículo e deve pagar imposto como os outros."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência, deputado federal e ex-Prefeito de Campinas",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 como autor do requerimento e diz em b001.10 que foi Prefeito de Campinas",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Viação e Transportes da Câmara dos Deputados, que analisa as matérias de trânsito"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "arquiteta e jornalista, representante do movimento Bike é Legal",
+   "org": "Bike é Legal",
+   "basis": "apresentada pela presidência em b001.7 e se identifica em b002.0 e b002.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do movimento Bike é Legal",
+   "org_plain": "movimento de comunicação e defesa da bicicleta como meio de transporte, com 10 anos de atuação"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Diretora do Departamento de Segurança no Trânsito da Secretaria Nacional de Trânsito",
+   "org": "SENATRAN",
+   "basis": "apresentada pela presidência em b001.4, representando o Ministério dos Transportes",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional de Trânsito",
+   "org_plain": "órgão federal do Ministério dos Transportes que define as regras nacionais de trânsito"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Vereador de Porto Alegre e ex-ciclista profissional",
+   "org": "Câmara Municipal de Porto Alegre",
+   "basis": "apresentado pela presidência em b001.6 e citado como vereador e ciclista profissional em b009.0",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "vereador de Porto Alegre",
+   "org_plain": "câmara de vereadores de Porto Alegre, que aprovou o plano cicloviário da cidade"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Regulação da Mobilidade Urbana",
+   "org": "Ministério das Cidades",
+   "basis": "apresentado pela presidência em b001.5 e em b017.6",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério das Cidades",
+   "org_plain": "ministério federal que cuida das políticas urbanas, entre elas a mobilidade nas cidades"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora Financeira da União de Ciclistas do Brasil e coordenadora da Rodas da Paz",
+   "org": "União de Ciclistas do Brasil",
+   "basis": "apresentada pela presidência em b001.8 e se apresenta em b012.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da União de Ciclistas do Brasil",
+   "org_plain": "entidade nacional que reúne associações e grupos de ciclistas e atua junto ao governo federal"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora Financeira da ONG Rodas da Paz, mãe de vítima do trânsito",
+   "org": "Rodas da Paz",
+   "basis": "apresentada pela presidência em b001.9 e em b015.1, e se identifica em b016.1 e b016.15",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ONG Rodas da Paz, de Brasília",
+   "org_plain": "organização do Distrito Federal que defende a mobilidade por bicicleta e acolhe vítimas do trânsito"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, arquiteto e urbanista com especialização em mobilidade",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada pela presidência em b009.1 e formação descrita por ele em b020.5 e b020.6",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Mato Grosso",
+   "org_plain": "Câmara dos Deputados, onde ele integra as comissões de Desenvolvimento Urbano, Saúde e Direitos Humanos"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal e ex-Presidente da Câmara Municipal de Nova Iguaçu",
+   "org": "Câmara dos Deputados",
+   "basis": "presença anunciada em b017.3 e trajetória descrita por ele em b022.4 e b022.5",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro",
+   "org_plain": "Câmara dos Deputados, onde ele integra a Comissão de Viação e Transportes"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "mesa",
+    "share": 0.1
+   }
+  ],
+  "basis": "Há registro de palmas em várias falas e a mesa anuncia a presença de quatro deputados, além dos expositores no plenário e dos que acompanham pela Internet.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre segurança no trânsito para ciclistas e pedestres e apresenta os expositores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que a velocidade dos veículos caia nas cidades, mostrando quanto a chance de sobreviver a um atropelamento muda entre 40 e 70 quilômetros por hora.",
+   "quote": [
+    96,
+    97,
+    98
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A velocidade dos veículos tem de diminuir para que pedestres e ciclistas estejam seguros nas ruas.",
+    "sentence": 104
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      100,
+      101
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "atropelada a 70 quilômetros por hora a pessoa morre, a 60 tem 15% de chance e, de 50 para 40, a sobrevida sobe a 65%",
+     "plain": "Vejam o que ocorre com quem é atropelado. A 70 quilômetros por hora a pessoa morre. A 60, tem 15% de chance de não morrer. E de 50 para 40 quilômetros por hora, que é bem pouco menos, a chance de sobreviver sobe para 65%."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      92,
+      93,
+      94
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "reduzir a velocidade máxima salva vidas e faz a velocidade média subir na hora, o que os gestores não conseguem comunicar",
+     "plain": "É preciso reduzir a velocidade. Reduzir salva vidas e faz a velocidade média subir. Os gestores brasileiros não conseguem comunicar isso. Quando se abaixa a máxima, o ganho na média é imediato."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o método brasileiro culpa o indivíduo e o visão zero divide a responsabilidade, partindo de que nenhuma morte no trânsito é tolerável",
+     "plain": "O método brasileiro procura um culpado. O visão zero divide a responsabilidade. Ele parte de que nenhuma morte no trânsito é tolerável e de que, se houver um incidente, ele não vai terminar em morte nem em lesão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Acrescenta que a ambulância em atendimento segue orientada a manter a média de 40 quilômetros por hora, para mostrar que a calma ajuda na pressa.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Mesmo na urgência de salvar uma vida, a orientação para a ambulância é manter a média de 40 quilômetros por hora.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ambulância que vai salvar uma vida mantém a média de 40 quilômetros por hora, porque a orientação é essa",
+     "plain": "Quando a ambulância sai para salvar uma vida, ela mantém a média de 40 quilômetros por hora, porque a orientação é essa. Vejam que, na pressa, a calma muitas vezes ajuda."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que a velocidade menor permite criar ondas verdes, em que o motorista só pega sinal aberto, e assim a velocidade média aumenta.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Controlar o fluxo com ondas verdes aumenta a velocidade média sem aumentar a velocidade máxima.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com a velocidade menor dá para criar ondas verdes, em que as pessoas só pegam sinal aberto, e a velocidade média aumenta",
+     "plain": "O interessante é que assim você cria ondas verdes, quando as pessoas só pegam o sinal aberto. Fica um espaço entre os carros, passa-se o semáforo seguinte e você controla o fluxo com inteligência, aumentando a média."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Renata Falzoni e passa a palavra à diretora do Ministério dos Transportes, por 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta os manuais e a resolução já editados pelo governo e cobra do Congresso uma lei que torne obrigatório ensinar segurança no trânsito.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8
+   ],
+   "open_question": 29,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A segurança no trânsito precisa ser matéria obrigatória da escola à universidade, porque a solução começa na educação.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso uma lei que torne obrigatório tratar de segurança no trânsito do ensino primário ao universitário",
+     "plain": "Precisamos de uma lei que torne obrigatório tratar de segurança no trânsito, da educação primária à universitária, porque a solução começa na educação. Todo mundo sabe disso, e eu não entendo por que ainda não é obrigatório."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o governo adotou o Manual de Medidas Moderadoras de Tráfego e trabalha no Manual de Ruas Completas e de Gestão da Velocidade",
+     "plain": "A Renata falou de velocidade no trânsito, e é disso que trata o Manual de Medidas Moderadoras de Tráfego. Estamos trabalhando também em outro, o Manual de Ruas Completas e de Gestão da Velocidade."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Resolução nº 996, de 2023, definiu as regras dos ciclomotores e autopropelidos e livrou de documento quem não precisa dele",
+     "plain": "O CONTRAN publicou a Resolução nº 996, de 2023, sobre ciclomotores e autopropelidos. Havia cidades multando bicicleta elétrica por achar que ela precisava de documento. A resolução deixou as regras claras e deu segurança a quem não precisa."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à diretora e passa a palavra ao vereador de Porto Alegre, por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra que o tempo de travessia foi calculado para não atrapalhar o carro, compara dirigir a portar uma arma e propõe vincular multas a ciclovias.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 78,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto das ruas dá prioridade a quem está no automóvel, e é essa prioridade que precisa mudar.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "havia sinaleiras com 7 segundos de travessia, calculados pelo passo do homem adulto, de 1,2 metro por segundo",
+     "plain": "Algumas sinaleiras daqui davam 7 segundos para atravessar uma avenida grande. Fomos ver com que velocidade de caminhada isso foi calculado. Na escala internacional, o mais rápido a caminhar é o homem adulto, a 1,2 metro por segundo."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      60,
+      61
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem pega um carro de 1 tonelada e anda a 40, 50 ou 60 quilômetros por hora está manuseando uma arma na via pública",
+     "plain": "As pessoas precisam entender que, ao pegar um carro, algo que pesa 1 tonelada, e andar a 40, a 50, a 60 quilômetros por hora, estão manuseando uma arma em plena via pública. É como uma pistola carregada."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      74,
+      75
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma lei de Porto Alegre de 13 anos atrás destinou 20% do arrecadado com multas a campanhas educativas e à estrutura cicloviária",
+     "plain": "Em Porto Alegre avançamos ao vincular as multas no plano cicloviário, numa lei de 13 anos atrás. Por um tempo, até o município revogar essa parte, 20% do que se arrecadava com multas ia para campanhas da bicicleta e para a ciclovia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de dois deputados e chama o coordenador do Ministério das Cidades.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O coordenador do Ministério das Cidades sugere que a representante dos ciclistas fale antes dele.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência aceita a inversão de ordem e convida a diretora da União de Ciclistas do Brasil a expor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que a lei já prioriza os modos ativos, mostra o resultado de Fortaleza e pede pressa no projeto que revisa os limites de velocidade.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10
+   ],
+   "open_question": 61,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não deve haver velocidade acima de 60 quilômetros por hora dentro das cidades.",
+    "sentence": 54
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei brasileira já dá prioridade aos modos ativos e põe no motorista a segurança de ciclistas e pedestres, o que não se vê nas ruas",
+     "plain": "A lei brasileira já dá prioridade aos modos ativos de deslocamento. E põe no motorista a responsabilidade pela segurança de ciclistas e pedestres. Mas não é isso que vemos nas ruas."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Fortaleza as mortes caíram 68% depois de as avenidas baixarem de 60 para 50 quilômetros por hora",
+     "plain": "Fortaleza baixou as avenidas de 60 para 50 quilômetros por hora e as mortes no trânsito caíram 68%. O ano passado foi o oitavo ano seguido de queda lá."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      49
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei nº 2.789, de 2023, nasceu de proposta da sociedade civil e traz a revisão dos limites e a fiscalização por velocidade média",
+     "plain": "A sociedade civil apresentou uma proposta que virou o Projeto de Lei nº 2.789, de 2023. Ele traz 2 pontos do plano nacional: rever os limites de velocidade e regulamentar a multa pela velocidade média."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à diretora, registra mais uma presença e organiza a ordem dos dois últimos expositores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O coordenador do Ministério das Cidades diz que prefere falar depois da representante da Rodas da Paz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra, por 10 minutos, à coordenadora da ONG Rodas da Paz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conta como vítima secundária que o motorista que matou seu filho, muito acima do limite, ficou impune, e alerta que baixar a velocidade sem punição não resolve.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 6,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei de trânsito precisa ser mudada para reduzir a subjetividade do Judiciário sobre o dolo nos crimes de trânsito.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para a família enlutada, lutar por justiça é uma luta sem resultado, e para o autor do crime tudo termina em pizza",
+     "plain": "A consequência para as famílias enlutadas, e no meu caso eu perdi meu filho Raul Aragão, é descobrir que lutar por justiça é uma luta fadada ao insucesso. Para quem cometeu o crime, no final, acaba tudo em pizza."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o filho dela foi morto por motorista que corria mais de 50% acima do limite da via e o caso ficou impune",
+     "plain": "Meu filho foi morto por um motorista que corria acima de 50% do limite daquela via. E o caso ficou impune. É inacreditável o que a Justiça brasileira faz com os crimes de trânsito."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      43
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "se as velocidades forem readequadas mas o Judiciário não tiver pulso firme com quem comete crime de trânsito, os infratores seguirão matando",
+     "plain": "O meu receio, como vítima secundária do trânsito, é este: se readequarmos as velocidades das vias, mas o Estado e o Poder Judiciário não tiverem pulso firme com quem comete crime de trânsito, os infratores vão continuar matando."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede palmas para a mãe que deu o depoimento e chama o último expositor, do Ministério das Cidades.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata as frentes do Ministério das Cidades na ciclomobilidade, da estratégia nacional da bicicleta ao guia para prefeituras, e cita a falta de aprendizado.",
+   "quote": [
+    49,
+    50
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério das Cidades atua em várias frentes de apoio à ciclomobilidade e ao transporte a pé, com guias e acordos com as entidades.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a estratégia nacional da bicicleta ganhou um documento-síntese em maio, num projeto conduzido pela União de Ciclistas do Brasil",
+     "plain": "Estamos prevendo um painel sobre a ENABICI, a estratégia nacional da mobilidade por bicicleta. Em maio saiu um documento-síntese dela, num projeto conduzido pela União de Ciclistas do Brasil com a WRI Brasil. É bom e aponta um norte."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a União de Ciclistas do Brasil atua desde 2021 no Fórum Consultivo de Mobilidade Urbana como convidada e vai passar a membro",
+     "plain": "No Ministério das Cidades existe, desde 2021, um fórum consultivo sobre mobilidade urbana, e a União de Ciclistas do Brasil atua bastante nele, ainda como convidada. Estamos mudando a composição para que ela entre como membro."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pesquisas mostram que cerca de 40% da população brasileira não sabe andar de bicicleta ou nunca aprendeu",
+     "plain": "Há pesquisas mostrando que cerca de 40% da população brasileira não sabe andar de bicicleta ou nunca aprendeu. Por isso é importante oferecermos também educação e treinamento sobre isso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao último expositor, recapitula quem falou e passa a palavra ao deputado Abilio Brunini.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Denuncia planos de mobilidade vendidos prontos e ciclovias desconectadas, pede fiscalização e defende rotas paralelas para o ciclista.",
+   "quote": [
+    57,
+    58,
+    59
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 56,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso fiscalizar os planos de mobilidade que as cidades compram e ligá-los ao plano diretor.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um lobby de empresas que vendem planos de mobilidade iguais, sem calcular o risco, e ciclofaixas acabam em rodovias sem segurança",
+     "plain": "Descobri um grande lobby nacional de empresas que vendem planos de copia e cola, sem calcular o risco disso nas cidades. Criam-se ciclofaixas sem segurança em rodovias, que eu considero praticamente rodovias da morte."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "paga-se 1 milhão de reais por um plano de mobilidade que, em 20 ou 30 dias, entrega pintar ciclofaixas como solução mágica",
+     "plain": "Paga-se 1 milhão de reais a uma empresa por um plano de mobilidade. Ela faz duas ou três audiências, chama um palestrante e, em 20 ou 30 dias, entrega a solução mágica: pintar de vermelho algumas ciclofaixas. Parece resolvido, e não está."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      57,
+      58,
+      59
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a questão não é só reduzir a velocidade, e é preciso criar vias paralelas para o ciclista, sem interferir na avenida",
+     "plain": "A questão não é só reduzir a velocidade nas vias. É importante que existam vias com velocidade reduzida, sim. Mas também que haja vias paralelas como rota do ciclista, para não interferir na mobilidade nem criar conflito na cidade."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia a contribuição do deputado e passa a palavra ao deputado Juninho do Pneu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Conta o avanço da mobilidade em Nova Iguaçu e anuncia o lançamento da Frente Parlamentar do Ciclista, com apoio de vários deputados.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Frente Parlamentar do Ciclista vai levar o tema da mobilidade ao debate do Congresso.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em Nova Iguaçu eles avançaram na mobilidade ouvindo a sociedade, economizaram na saúde e reduziram os gases poluentes",
+     "plain": "Ouvindo a sociedade e debatendo o tema na Câmara Municipal, avançamos muito na mobilidade em Nova Iguaçu. Envolve tudo o que foi falado aqui: houve economia na saúde, ganho de qualidade de vida e menos gases poluentes."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Frente Parlamentar do Ciclista será lançada no dia seguinte, com amplo apoio de deputados no Congresso",
+     "plain": "Por nossa iniciativa, a Frente Parlamentar do Ciclista será lançada amanhã. Conseguimos amplo apoio de diversos deputados aqui no Parlamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao deputado Juninho do Pneu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado chama a presidência para pedir a palavra outra vez.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado Abilio Brunini.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado parabeniza três pessoas de Cuiabá que abriram o movimento pela mobilidade na cidade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca que o deputado não podia esquecer de agradecer à esposa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b028",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado concorda que não podia esquecer.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que reduziu a velocidade de avenidas em Campinas sob críticas, com resultado no Viaduto Cury, e defende o pedestre como prioridade.",
+   "quote": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Reduzir a velocidade das avenidas gera críticas da população, mas o resultado está comprovado.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Viaduto Cury, em Campinas, onde havia acidentes toda hora, o limite de 40 quilômetros por hora acabou com os acidentes graves",
+     "plain": "No centro de Campinas há o Viaduto Cury, onde havia acidentes o tempo todo. Eu baixei o limite para 40 quilômetros por hora e os acidentes graves acabaram. Ainda há batidas leves, mas sem mortes nem gente mutilada."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso um novo direcionamento para o pedestre, que vem primeiro, e para a bicicleta, que muita gente usa para ir e voltar do trabalho",
+     "plain": "Precisamos preservar a vida e dar um novo direcionamento ao pedestre, que vem primeiro, e também à bicicleta. E não é só para passeio, como o Deputado Abilio lembrou: muita gente vai e volta do trabalho nela."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em Campinas foi feita uma minicidade para todas as crianças, e hoje há criança que corrige o pai ou a mãe quando eles erram ao dirigir",
+     "plain": "Em Campinas nós fizemos uma minicidade voltada a todas as crianças. Tenho muita esperança nisso. Já ouvi mais de uma vez falar de criança que repreende o pai ou a mãe quando eles fazem alguma coisa errada ao dirigir."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Alerta que a reforma tributária quer cobrar imposto de veículo sobre a bicicleta elétrica e pede um grupo com várias comissões para procurar o Ministro.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 10,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cobrar imposto de veículo sobre a bicicleta elétrica na reforma tributária é um erro e esse modal precisa ser estimulado.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a mudança do IPVA na reforma tributária querem cobrar imposto de veículo sobre a bicicleta elétrica, e isso é um grande erro",
+     "plain": "No Brasil se quer aumentar o imposto sobre a bicicleta elétrica e cobrar dela imposto de veículo. Com a mudança do IPVA na reforma tributária, querem cobrar tributos sobre a bicicleta elétrica. Isso é um grande erro."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em Cáceres, no Mato Grosso, muita gente pedala, principalmente em bicicleta elétrica, e usa a bicicleta para ir ao trabalho todos os dias",
+     "plain": "Em Cáceres, no Mato Grosso, uma das cidades onde mais se pedala no Brasil, há muita gente de bicicleta, principalmente elétrica. E há uma grande preocupação, porque ali o pessoal usa a bicicleta para ir ao trabalho todos os dias."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele quer um grupo de trabalho de várias comissões, com uns 20 deputados, para levar o assunto ao Ministro",
+     "plain": "Gostaria que fosse criado um grupo de trabalho multissetorial, de várias comissões. Eu falo em juntar todo mundo, para irem falar com o Ministro não só eu e V.Exa., e sim uns 20 deputados, pelo menos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos, encerra a audiência e convoca as reuniões do dia seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b003",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 92,
+   "from_claim": "b003c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A presidência confirma com a ambulância o ponto de Renata Falzoni sobre velocidade média: o veículo de resgate é orientado a manter 40 quilômetros por hora."
+  },
+  {
+   "from": "b004",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b004c1",
+   "to_claim": "b003c1",
+   "strength": "media",
+   "note": "Renata Falzoni completa o exemplo da ambulância com a onda verde: controlando o fluxo com inteligência, a velocidade média sobe."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 92,
+   "from_claim": "b006c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A diretora de segurança no trânsito diz que os manuais de medidas moderadoras e de ruas completas tratam justamente da gestão de velocidade que Renata Falzoni pediu."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 60,
+   "to_sentence": 64,
+   "from_claim": "b008c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O vereador leva adiante a crítica de Renata Falzoni ao método que procura um culpado: quem dirige um veículo de 1 tonelada está manuseando uma arma na via."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 61,
+   "to_sentence": 29,
+   "from_claim": "b008c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Ao pedido de educação feito pela diretora, o vereador responde dizendo o que precisa ser ensinado: que um carro em movimento é uma arma na via pública."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 37,
+   "to_sentence": 101,
+   "from_claim": "b012c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Ana Carboni traz Fortaleza para a conta apresentada por Renata Falzoni: baixar as avenidas de 60 para 50 quilômetros por hora reduziu em 68% as mortes."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 16,
+   "from_claim": "b012c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Ana Carboni dá a base legal ao caso das sinaleiras de Porto Alegre: a lei já manda priorizar quem anda a pé e de bicicleta, e o motorista responde pela segurança deles."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 14,
+   "from_claim": "b012c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "O caso de Fortaleza mostra na prática o que o manual de gestão da velocidade do Ministério propõe para as avenidas das cidades."
+  },
+  {
+   "from": "b016",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 43,
+   "to_sentence": 49,
+   "from_claim": "b016c3",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "Renata Aragão apoia o projeto citado por Ana Carboni, mas com uma condição: sem pulso firme do Judiciário, os infratores continuarão matando mesmo com o limite menor."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 60,
+   "from_claim": "b016c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "A mãe de Raul Aragão retoma a imagem do carro como arma, usada pelo vereador, e conta o que sobra para a família: uma luta por justiça sem resultado."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 64,
+   "from_claim": "b016c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O caso do filho, morto por motorista acima do limite e nunca punido, é o retrato do método que Renata Falzoni descreveu como busca de um culpado sem consequência."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 13,
+   "from_claim": "b018c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "O Ministério das Cidades registra que a estratégia nacional da bicicleta é conduzida pela União de Ciclistas do Brasil, a entidade que Ana Carboni representa."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 37,
+   "to_sentence": 29,
+   "from_claim": "b018c3",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O coordenador do Ministério das Cidades reforça o pedido de educação da diretora com um dado: cerca de 40% da população não sabe andar de bicicleta."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 22,
+   "from_claim": "b020c1",
+   "to_claim": "b018c1",
+   "strength": "media",
+   "note": "Onde o Ministério das Cidades vê guias e estratégias em andamento, o deputado vê um mercado de planos de mobilidade iguais, vendidos sem cálculo de risco."
+  },
+  {
+   "from": "b020",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 57,
+   "to_sentence": 92,
+   "from_claim": "b020c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Para o deputado, reduzir a velocidade não resolve sozinho: ele prefere vias paralelas para o ciclista a mexer na velocidade da avenida."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 59,
+   "to_sentence": 22,
+   "from_claim": "b020c3",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "O deputado quer rotas paralelas para não interferir na mobilidade, justamente o critério de não atrapalhar o automóvel que o vereador criticou."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 57,
+   "to_sentence": 49,
+   "from_claim": "b020c3",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "O projeto defendido pela União de Ciclistas do Brasil muda os limites de velocidade, e o deputado diz que o problema não está aí, e sim no planejamento."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 11,
+   "from_claim": "b022c1",
+   "to_claim": "b020c1",
+   "strength": "media",
+   "note": "O deputado do Rio de Janeiro conta que em Nova Iguaçu se avançou ouvindo a sociedade, o oposto do plano pronto que o colega de Mato Grosso denuncia."
+  },
+  {
+   "from": "b022",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 49,
+   "from_claim": "b022c2",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "A frente parlamentar anunciada pelo deputado nasce para dar força no Congresso à mudança de lei que Ana Carboni pediu."
+  },
+  {
+   "from": "b029",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 101,
+   "from_claim": "b029c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Como prefeito, o presidente baixou o viaduto Cury para 40 quilômetros por hora e não teve mais acidentes graves, o que confirma a conta de sobrevivência apresentada."
+  },
+  {
+   "from": "b029",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 37,
+   "from_claim": "b029c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "O caso de Campinas se soma ao de Fortaleza: reduzida a velocidade no ponto crítico, as mortes e as mutilações deixaram de acontecer."
+  },
+  {
+   "from": "b029",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 25,
+   "from_claim": "b029c2",
+   "to_claim": "b020c2",
+   "strength": "media",
+   "note": "A presidência acolhe o ponto do deputado de que o plano de mobilidade ignora quem usa a bicicleta para ir ao trabalho, e não só para passeio."
+  },
+  {
+   "from": "b030",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 7,
+   "from_claim": "b030c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "O deputado quer a bicicleta elétrica fora do imposto de veículo, na mesma direção da resolução que a diretora citou para livrá-la da exigência de documento."
+  },
+  {
+   "from": "b030",
+   "to": "b029",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 27,
+   "from_claim": "b030c1",
+   "to_claim": "b029c2",
+   "strength": "media",
+   "note": "O deputado pega a menção da presidência à bicicleta elétrica e alerta que a reforma tributária quer cobrar imposto de veículo sobre ela."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b003",
+    "b006",
+    "b012",
+    "b029"
+   ],
+   "claims": [
+    "b002c1",
+    "b002c2",
+    "b003c1",
+    "b006c2",
+    "b012c2",
+    "b029c1"
+   ],
+   "note": "Cicloativistas, a diretora de segurança no trânsito e o presidente da audiência, que já foi prefeito, concordam que baixar a velocidade das vias urbanas reduz mortes."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b008",
+    "b012",
+    "b029"
+   ],
+   "claims": [
+    "b008c1",
+    "b012c1",
+    "b029c2"
+   ],
+   "note": "O vereador de Porto Alegre, a União de Ciclistas do Brasil e a presidência concordam que o tempo e o espaço hoje dados ao automóvel têm de ceder ao pedestre e ao ciclista."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b008",
+    "b016"
+   ],
+   "claims": [
+    "b002c3",
+    "b008c2",
+    "b016c1",
+    "b016c2"
+   ],
+   "note": "A cicloativista, o vereador e a mãe de uma vítima concordam que dirigir é manusear uma arma e que o sistema responde pelas mortes, não só quem está no volante."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b018",
+    "b029"
+   ],
+   "claims": [
+    "b006c1",
+    "b018c3",
+    "b029c3"
+   ],
+   "note": "Os dois ministérios e a presidência concordam que educação para o trânsito é o ponto de partida, seja como matéria obrigatória, seja como treinamento das crianças."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b008",
+    "b018",
+    "b020",
+    "b022"
+   ],
+   "claims": [
+    "b008c3",
+    "b018c1",
+    "b018c2",
+    "b020c1",
+    "b020c2",
+    "b022c1"
+   ],
+   "note": "Governo, vereador e deputados concordam que a ciclomobilidade precisa de planejamento integrado, dinheiro vinculado e fiscalização, e não de faixa pintada em ano eleitoral."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b006",
+    "b029",
+    "b030"
+   ],
+   "claims": [
+    "b006c3",
+    "b030c1",
+    "b030c3"
+   ],
+   "note": "A diretora de segurança no trânsito, a presidência e o deputado de Mato Grosso concordam que a bicicleta elétrica deve ser estimulada, sem imposto nem documento de veículo."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 110,
+   "addressed_to": "parlamentar",
+   "answered_by": "b020",
+   "gist": "que gestores e parlamentares vão a pé ao trabalho um ou dois dias por semana",
+   "plain": "Os gestores e parlamentares podem ir a pé ao trabalho um ou dois dias por semana, para sentir a cidade?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b006",
+   "sentence": 29,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "uma lei que torne obrigatório ensinar segurança no trânsito",
+   "plain": "O Congresso pode criar uma lei que torne obrigatório ensinar segurança no trânsito da escola à universidade?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b008",
+   "sentence": 78,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "vincular multas de trânsito a ciclovias e campanhas educativas",
+   "plain": "A União pode vincular parte do dinheiro das multas de trânsito a ciclovias e campanhas educativas?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b012",
+   "sentence": 61,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "pressa na tramitação do projeto que revisa os limites de velocidade",
+   "plain": "A Câmara pode acelerar a tramitação do projeto que revisa os limites de velocidade nas cidades?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b016",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual é a resposta da Justiça a um sinistro grave",
+   "plain": "E quando acontece um sinistro grave, com morte ou lesão grave, o que a Justiça responde?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b020",
+   "sentence": 56,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "criar um grupo de trabalho para revisar as leis de mobilidade",
+   "plain": "A Comissão pode criar um grupo de trabalho para fazer a revisão das leis de mobilidade?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q7",
+   "from": "b030",
+   "sentence": 10,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "grupo de várias comissões para tratar do imposto da bicicleta elétrica",
+   "plain": "Pode ser criado um grupo com várias comissões para pedir ao Ministro a revisão do imposto sobre a bicicleta elétrica?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 101,
+   "gist": "de 50 para 40 km/h a sobrevida sobe a 65%",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 100,
+   "gist": "a 60 km/h o atropelado tem 15% de chance",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b008",
+   "sentence": 16,
+   "gist": "sinaleiras davam 7 segundos para atravessar",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 18,
+   "gist": "a escala usa 1,2 metro por segundo do homem adulto",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 75,
+   "gist": "20% das multas iam para campanhas e ciclovias",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 15,
+   "gist": "sinistros foram a 1ª causa de morte de crianças de 1 a 14 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 19,
+   "gist": "a violência no trânsito custa 52 bilhões de reais por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b012",
+   "sentence": 27,
+   "gist": "o Brasil teve alta de 13% nas mortes no trânsito",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 37,
+   "gist": "Fortaleza reduziu em 68% as mortes no trânsito",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b016",
+   "sentence": 31,
+   "gist": "cerca de 33 mil mortos no trânsito no ano passado",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 37,
+   "gist": "cerca de 40% da população não sabe pedalar",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b029",
+   "sentence": 17,
+   "gist": "no Viaduto Cury, 40 km/h acabou com os acidentes graves",
+   "disputed_by": [
+    {
+     "fala": "b020",
+     "sentence": 57
+    }
+   ]
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d4"
+  ],
+  "roles_quoted": [
+   "sociedade_civil",
+   "governo",
+   "mesa"
+  ],
+  "angle": "A matéria apostou no acordo da sala: governo e entidades de mobilidade ativa dizendo que baixar a velocidade das vias é o caminho, com os números de sobrevivência e o exemplo de Campinas.",
+  "omitted": "Ficou de fora a divergência sobre reduzir o espaço do automóvel, a cobrança sobre a impunidade nos crimes de trânsito e o alerta sobre o imposto na bicicleta elétrica."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Baixar a velocidade das vias salva vidas",
+   "statement_plain": "A chance de sobreviver a um atropelamento depende da velocidade do carro. Baixar o limite nas cidades reduz mortes e nem atrasa a viagem, porque a velocidade média sobe.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b003c1",
+    "b006c2",
+    "b012c2",
+    "b029c1"
+   ],
+   "note": "A ideia junta a Secretaria Nacional de Trânsito, duas entidades de ciclistas e o presidente da audiência, que a aplicou como prefeito. Não é pauta de um setor só."
+  },
+  {
+   "id": "t2",
+   "title": "O espaço do carro tem de ceder na cidade",
+   "statement_plain": "A rua foi desenhada para não atrapalhar o carro, e é isso que precisa mudar: o tempo do semáforo e o espaço da via devem ficar com quem anda a pé e de bicicleta.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b012c1",
+    "b029c2"
+   ],
+   "note": "Um vereador, uma entidade de ciclistas e a presidência da Comissão defendem a mesma ideia, e ela divide os parlamentares presentes."
+  },
+  {
+   "id": "t3",
+   "title": "O problema é o plano, e o ciclista vai por fora",
+   "statement_plain": "O que falta não é limite de velocidade, é planejamento fiscalizado. A bicicleta pode circular por vias paralelas, sem interferir na avenida e sem criar conflito na cidade.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b020c3",
+    "b020c1",
+    "b020c2",
+    "b008c3"
+   ],
+   "note": "Um deputado ciclista e urbanista fica do lado oposto ao do vereador cicloativista, embora os dois cobrem planejamento e dinheiro para a ciclomobilidade."
+  },
+  {
+   "id": "t4",
+   "title": "Sem punição, mudar o limite não basta",
+   "statement_plain": "Quem mata no trânsito dirigindo acima do limite costuma ficar impune. Enquanto a Justiça não tiver pulso firme, readequar as velocidades não vai parar as mortes.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b016c2",
+    "b002c3",
+    "b008c2"
+   ],
+   "note": "A mãe de uma vítima, uma cicloativista de São Paulo e um vereador do Rio Grande do Sul chegam ao mesmo ponto: a responsabilidade é do sistema, não só de quem dirige."
+  },
+  {
+   "id": "t5",
+   "title": "Trânsito tem de ser matéria na escola",
+   "statement_plain": "A solução começa na educação. Segurança no trânsito precisa ser obrigatória da escola à universidade, e não uma palestra na semana do trânsito.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b018c3",
+    "b029c3"
+   ],
+   "note": "Os dois ministérios e a presidência defendem a mesma ideia, cada um por um caminho: a lei obrigatória, o treinamento de quem não sabe pedalar e a minicidade das crianças."
+  },
+  {
+   "id": "t6",
+   "title": "Bicicleta elétrica não é veículo para tributar",
+   "statement_plain": "A bicicleta elétrica é transporte de trabalhador e precisa ser estimulada. Cobrar dela imposto de veículo, como quer a reforma tributária, é um erro.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b030c1",
+    "b030c2",
+    "b030c3"
+   ],
+   "note": "O deputado de Mato Grosso e a diretora de segurança no trânsito chegam ao mesmo ponto por caminhos diferentes: um contra o imposto, a outra contra a multa e o documento."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "mobilidade ativa",
+   "plain": "os deslocamentos feitos com o próprio corpo, a pé, de bicicleta, de patins ou de skate, em vez de veículo motorizado",
+   "fala": "b002",
+   "sentence": 28
+  },
+  {
+   "term": "visão zero",
+   "plain": "política que parte de que nenhuma morte no trânsito é aceitável e desenha as ruas para que o erro humano não mate",
+   "fala": "b002",
+   "sentence": 65
+  },
+  {
+   "term": "Política Nacional de Mobilidade Urbana",
+   "plain": "lei de 2012 que organiza o transporte nas cidades e manda priorizar quem anda a pé, de bicicleta e no transporte coletivo",
+   "fala": "b002",
+   "sentence": 24
+  },
+  {
+   "term": "traffic calming",
+   "plain": "expressão em inglês para acalmar o trânsito: obras e limites que fazem o carro andar mais devagar na cidade",
+   "fala": "b008",
+   "sentence": 65
+  },
+  {
+   "term": "sinistros de trânsito",
+   "plain": "nome usado no lugar de acidente, porque a maioria das mortes no trânsito pode ser evitada e não é obra do azar",
+   "fala": "b012",
+   "sentence": 15
+  },
+  {
+   "term": "PNATRANS",
+   "plain": "Plano Nacional de Redução de Mortes e Lesões no Trânsito, criado por lei em 2018 para orientar estados e municípios",
+   "fala": "b012",
+   "sentence": 43
+  },
+  {
+   "term": "velocidade média",
+   "plain": "velocidade calculada pelo tempo que o carro leva entre dois pontos, e não pela medição num ponto só",
+   "fala": "b012",
+   "sentence": 56
+  },
+  {
+   "term": "CONTRAN",
+   "plain": "Conselho Nacional de Trânsito, o colegiado que edita as regras nacionais de trânsito por resolução",
+   "fala": "b006",
+   "sentence": 7
+  },
+  {
+   "term": "autopropelidos",
+   "plain": "equipamentos que andam com motor próprio e são tratados como bicicleta, e não como veículo, quando ficam em certos limites",
+   "fala": "b006",
+   "sentence": 7
+  },
+  {
+   "term": "SENATRAN",
+   "plain": "Secretaria Nacional de Trânsito, do Ministério dos Transportes, que coordena o sistema de trânsito do País",
+   "fala": "b006",
+   "sentence": 6
+  },
+  {
+   "term": "Código de Trânsito Brasileiro",
+   "plain": "a lei que reúne as regras de circulação, as infrações e as penalidades do trânsito no Brasil",
+   "fala": "b006",
+   "sentence": 9
+  },
+  {
+   "term": "DPVAT",
+   "plain": "seguro obrigatório que pagava uma indenização a vítimas de acidente de trânsito e a suas famílias",
+   "fala": "b016",
+   "sentence": 28
+  },
+  {
+   "term": "ENABICI",
+   "plain": "Estratégia Nacional de Promoção da Mobilidade por Bicicleta, documento do governo federal para orientar as políticas da bicicleta",
+   "fala": "b018",
+   "sentence": 22
+  }
+ ]
+}

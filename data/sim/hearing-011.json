@@ -1,0 +1,2001 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 11,
+ "model": "LLM lendo o prompt hearing-011 (sim-annotations-v3), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-15T18:08:42Z",
+ "prompt_sha256": "f551b29f27af5bddeafdd07a7c13bcaa088efb08d5be66cdb29122635ba2a151",
+ "sentences_hash": "d9722648385f71e9",
+ "review": {
+  "pairs_read": 37,
+  "pairs_fixed": 8
+ },
+ "warnings": [
+  "8 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t4: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Meio Ambiente reuniu cientistas e gestores para avaliar a seca prevista para 2024 no Nordeste e o risco de desertificação do Semiárido. Os expositores apresentaram o monitoramento das chuvas, os prejuízos dos Municípios e as ações emergenciais e estruturantes em curso. Pediram orçamento, integração entre os órgãos e a retomada do plano nacional contra a desertificação.",
+ "stakes": "Que resposta o Congresso e o Executivo dariam à seca prevista para 2024, no orçamento e nas políticas permanentes para o Semiárido.",
+ "central_question": "Como o Estado brasileiro deve se preparar para a seca de 2024 no Nordeste, com ações de emergência ou com políticas permanentes de convivência com o Semiárido?",
+ "synopsis_plain": "Deputados, cientistas e gestores se reuniram para falar da seca prevista para 2024 no Nordeste e do risco de parte do Semiárido virar semideserto. Mostraram dados de chuva, os prejuízos das prefeituras e o que já é feito com água, cisternas e pesquisa. No fim, pediram dinheiro no orçamento, órgãos trabalhando juntos e a volta do plano contra a desertificação.",
+ "stakes_plain": "Estava em jogo o que o Congresso e o governo fariam antes da seca chegar: soltar recursos de emergência ou montar uma política permanente para o Semiárido.",
+ "central_question_plain": "O país deve enfrentar a seca com socorro de emergência ou com política permanente de convivência com o Semiárido?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Monitoramento e previsão da seca",
+   "description": "Discute-se o que os dados de chuva, solo e vegetação já mostram sobre a seca que vem e se essa informação chega a quem decide.",
+   "axis": {
+    "pro": "O monitoramento já entrega, Município por Município, a informação necessária para antecipar a seca.",
+    "contra": "A informação existe, mas não chega às comunidades nem vira decisão de governo.",
+    "pro_plain": "Os dados da seca já existem município por município e dá para se preparar com eles.",
+    "contra_plain": "Os dados existem, mas não chegam a quem precisa e não viram ação."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Emergência ou convivência",
+   "description": "Discute-se se a seca deve ser tratada como fenômeno que se repete e pede política permanente ou como emergência socorrida a cada ano.",
+   "axis": {
+    "pro": "A seca é prevista e exige política permanente de convivência com o Semiárido.",
+    "contra": "Diante da seca que se aproxima, o esforço agora tem de ser a ação imediata.",
+    "pro_plain": "A seca sempre volta, então o país precisa de uma política permanente para conviver com ela.",
+    "contra_plain": "A seca já está chegando, então agora o que vale é agir rápido para socorrer quem precisa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Abastecimento de água",
+   "description": "Discute-se como garantir água para beber, para os animais e para a produção nos meses de seca.",
+   "axis": {
+    "pro": "É preciso reforçar agora carros-pipa, poços, adutoras e barragens para garantir o abastecimento.",
+    "contra": "Essas soluções custam caro, dependem de energia e não chegam às comunidades mais afastadas.",
+    "pro_plain": "Tem que reforçar já os carros-pipa, os poços e as adutoras para não faltar água.",
+    "contra_plain": "Essas soluções saem caro e não chegam às comunidades mais distantes."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Modelo agrícola e biodiversidade da Caatinga",
+   "description": "Discute-se se a produção no Semiárido deve se apoiar na biodiversidade da Caatinga ou nas tecnologias e cultivares já desenvolvidas para a seca.",
+   "axis": {
+    "pro": "O Semiárido deve produzir a partir da biodiversidade e do manejo da Caatinga.",
+    "contra": "O caminho é levar ao produtor as tecnologias de água e as cultivares já adaptadas à seca.",
+    "pro_plain": "O jeito de produzir no Semiárido é aproveitar as plantas e os produtos da própria Caatinga.",
+    "contra_plain": "O jeito é levar ao agricultor as tecnologias de água e as sementes já feitas para a seca."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Desertificação e mudanças climáticas",
+   "description": "Discute-se o avanço do Semiárido e da desertificação com o aquecimento global e que política responde a isso.",
+   "axis": {
+    "pro": "As mudanças climáticas ampliam o Semiárido e a desertificação, e é preciso um plano nacional em dia.",
+    "contra": "As projeções para as próximas décadas são incertas e não devem guiar as decisões de agora.",
+    "pro_plain": "O clima mais quente aumenta a área seca e o solo degradado, e o país precisa de um plano para isso.",
+    "contra_plain": "As previsões para daqui a décadas são incertas e não deveriam guiar o que se decide hoje."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Orçamento e fundos para a seca",
+   "description": "Discute-se quanto dinheiro chega aos Municípios atingidos e se é preciso criar fundos próprios para a seca.",
+   "axis": {
+    "pro": "Faltam recursos e instrumentos próprios, como um fundo específico para a seca.",
+    "contra": "O dinheiro já existe e o que falta é planejamento para aplicá-lo.",
+    "pro_plain": "Falta dinheiro reservado para a seca, e um fundo próprio resolveria parte do problema.",
+    "contra_plain": "O dinheiro já existe, o que falta é planejar melhor onde ele é gasto."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Integração entre os entes federados",
+   "description": "Discute-se como União, Estados e Municípios podem agir juntos, com os órgãos de monitoramento e de defesa civil na mesma mesa.",
+   "axis": {
+    "pro": "Só a ação conjunta dos três níveis de governo transforma o alerta em resposta.",
+    "contra": "Cada ente já faz a sua parte e o que falta é recurso direto ao Município.",
+    "pro_plain": "Só com União, estados e prefeituras agindo juntos o alerta vira resposta.",
+    "contra_plain": "Cada um já faz a sua parte, o que falta é dinheiro direto para a prefeitura."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência, deputado federal pelo Rio Grande do Norte",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e diz que o requerimento é de sua autoria em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados."
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretora-Substituta do Cemaden",
+   "org": "CEMADEN",
+   "basis": "apresentada pelo presidente em b001.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Cemaden, centro federal de alertas de desastres",
+   "org_plain": "Centro do Ministério da Ciência e Tecnologia que monitora e alerta sobre desastres naturais no país."
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Pesquisadora de Agrometeorologia da Embrapa Semiárido",
+   "org": "EMBRAPA Semiárido",
+   "basis": "apresentada pelo presidente em b001.4 e em b003.4",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Embrapa Semiárido",
+   "org_plain": "Centro de pesquisa agrícola do governo federal dedicado à produção no Semiárido."
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Pesquisador do Instituto de Estudos Avançados da Universidade de São Paulo",
+   "org": "IEA-USP",
+   "basis": "apresentado pelo presidente em b001.5 e em b007.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Instituto de Estudos Avançados da USP",
+   "org_plain": "Centro de pesquisa da Universidade de São Paulo que estuda temas como clima e meio ambiente."
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Secretário de Recursos Hídricos e Saneamento de Pernambuco",
+   "org": "Consórcio Nordeste",
+   "basis": "apresentado em b001.5 e diz que fala em nome do Consórcio em b010.2",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "do Consórcio Nordeste, que reúne os nove Estados",
+   "org_plain": "Consórcio que junta os governos dos nove Estados do Nordeste para agir em conjunto."
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Técnico de Defesa Civil da Confederação Nacional dos Municípios",
+   "org": "CNM",
+   "basis": "apresentado pelo presidente em b001.6 e se identifica em b014.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da CNM, entidade que representa os Municípios",
+   "org_plain": "Entidade que representa as prefeituras brasileiras e as apoia em temas como defesa civil."
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador Executivo da Articulação Semiárido Brasileiro",
+   "org": "ASA",
+   "basis": "apresentado pelo presidente em b001.7 e b001.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ASA, rede de organizações do Semiárido",
+   "org_plain": "Rede de organizações e movimentos que trabalham a convivência com o Semiárido, criada em 1999."
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal por Sergipe",
+   "org": "Câmara dos Deputados",
+   "basis": "presença registrada pelo presidente em b001.21 e palavra concedida em b017.5",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Sergipe",
+   "org_plain": "Casa do Congresso Nacional onde os deputados federais discutem e votam as leis."
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Gestor do Ministério da Cultura e agrônomo",
+   "org": "Ministério da Cultura",
+   "basis": "apresentado pelo presidente em b017.3 e b017.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Cultura, agrônomo do Rio Grande do Norte",
+   "org_plain": "Ministério do governo federal responsável pelas políticas de cultura."
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "mesa",
+    "share": 0.1
+   }
+  ],
+  "basis": "há poucas pistas: quatro dos seis expositores participam por videoconferência, a ata não registra delegações nem palmas e a única menção ao plenário é a presença de um deputado em b001.21 e de um fotógrafo em b020.21",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a seca no Nordeste em 2024 e apresenta os seis convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta o monitoramento do Cemaden e mostra seca severa e extrema em boa parte do Nordeste, com mais de 5 milhões de pessoas atingidas e previsão de alguma chuva em janeiro.",
+   "quote": [
+    27,
+    28
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    29,
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O monitoramento do Cemaden mostra seca severa e extrema em boa parte do Nordeste e alguma volta de chuva em janeiro.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "já são mais de 5 milhões de pessoas atingidas pela seca extrema e severa",
+     "plain": "Trazemos também quanta gente está sendo atingida, principalmente onde a seca é extrema ou severa. Já passam de 5 milhões as pessoas impactadas."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      77,
+      78
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "vamos ter 900 Municípios em seca fraca, 327 em moderada e 106 em seca severa",
+     "plain": "Para fechar, mostro quantos Municípios estão em cada classe de seca. Vamos ter 900 em seca fraca, 327 em seca moderada e 106 em seca severa."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      56,
+      57,
+      58
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a água mais quente do Atlântico traz umidade e tende a fazer a chuva voltar, neutralizando o El Niño",
+     "plain": "O Oceano Atlântico está um pouco mais quente. Com água mais quente, mais evaporação e vento de leste, vem mais umidade, e isso tende a fazer a chuva voltar, neutralizando os efeitos do El Niño, que vinha impedindo a chuva na região."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a exposição do Cemaden e passa a palavra à pesquisadora da Embrapa Semiárido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A pesquisadora pergunta se está sendo ouvida e se a tela dela aparece no plenário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o som e a imagem da pesquisadora chegam ao plenário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra as tecnologias da Embrapa para conviver com a seca, de barragens subterrâneas à palma forrageira, e lembra que a chuva caiu para 330 milímetros na média recente.",
+   "quote": [
+    29,
+    30,
+    31
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As tecnologias de água e as cultivares já desenvolvidas pela Embrapa são o caminho para produzir no Semiárido.",
+    "sentence": 81
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos últimos 10 ou 12 anos a chuva média foi de 330 milímetros, contra 500 da média histórica",
+     "plain": "Nos últimos 10 ou 12 anos choveu em média 330 milímetros, contra os 500 da média histórica. Foi um período em que tivemos que melhorar a convivência produtiva com a seca e cuidar mais dos rebanhos, dos pastos e da Caatinga."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      84,
+      85,
+      86
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "onde há barragem subterrânea a produção é muito maior, e a tecnologia já virou política pública em alguns Estados",
+     "plain": "Chegando ao campo dá para ver: onde existe barragem subterrânea, a produção é muito maior. Essa tecnologia já virou política pública em alguns Estados e pode ser instalada e ampliada em outros lugares."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      107,
+      108,
+      109
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a palma-forrageira guarda mais de 90% de água, alimenta e mata a sede dos animais na seca",
+     "plain": "A palma-forrageira é uma planta de fora, mas guarda mais de 90% de água. Ela alimenta e mata a sede dos animais no período seco, por isso deve ser muito incentivada, e ajuda a recuperar áreas em desertificação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Embrapa e passa a palavra ao pesquisador do Instituto de Estudos Avançados da USP.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que o Semiárido cresceu 80 mil quilômetros quadrados em 60 anos e que, com emissões altas, 30% dele pode virar semideserto, e desafia a Embrapa a pesquisar a biodiversidade.",
+   "quote": [
+    41,
+    42,
+    43
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As mudanças climáticas ampliam o Semiárido e podem transformar parte dele em semideserto.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um estudo do Inpe e do Cemaden achou mais de 80 mil quilômetros quadrados de aumento do Semiárido em 60 anos",
+     "plain": "O Inpe e o Cemaden compararam os últimos 60 anos e acharam mais de 80 mil quilômetros quadrados de aumento do Semiárido. Áreas que eram de Cerrado já entram nessa categoria, com chuva abaixo de 800 milímetros por ano."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      28
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com altas emissões, 30% do Semiárido vira semideserto, com chuvas na faixa de 300 a 400 milímetros",
+     "plain": "Se as emissões continuarem altas, tudo indica que 30% do Semiárido vira semideserto, com chuva de 300 a 400 milímetros no máximo, no norte da Bahia, no oeste de Pernambuco, no Rio Grande do Norte e no sudeste do Piauí."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      61
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dos 2.700 doutores da Embrapa, só 4% eram dedicados à biodiversidade brasileira",
+     "plain": "Perguntei se a Embrapa investe em ciência para aproveitar o potencial social e econômico da nossa biodiversidade. A resposta foi que, dos 2.700 doutores, apenas 4% cuidavam da biodiversidade do Brasil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o pesquisador e passa a palavra ao secretário de Recursos Hídricos de Pernambuco.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O secretário se apresenta, diz que falará em nome do Consórcio Nordeste e pergunta se a apresentação aparece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a apresentação não está sendo compartilhada e pede socorro ao pessoal técnico.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata as ações que o Consórcio Nordeste levou aos governadores, do reforço dos carros-pipa às barragens subterrâneas, e diz que o momento de agir é agora.",
+   "quote": [
+    58,
+    59,
+    60
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso reforçar agora o abastecimento de água antes que os mananciais entrem em colapso.",
+    "sentence": 57
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Jucazinho, no Agreste pernambucano, está hoje com 10% de água acumulada",
+     "plain": "Cito o Jucazinho, um manancial no coração do Agreste de Pernambuco, na região mais crítica do país em disponibilidade de água. Há muita gente para pouca água, e hoje ele está com 10% de água acumulada."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "alguns Estados já mapearam onde construir barragens subterrâneas, que dão retorno de curto prazo",
+     "plain": "Outra ação importante é construir barragens subterrâneas. Estados como Pernambuco já mapearam os melhores locais, e as pesquisas da Embrapa e de organizações não governamentais mostram que essa prática dá retorno em pouco tempo."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      58,
+      59,
+      60
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a situação é grave e o momento de agir é agora, enquanto ainda há alguma antecipação entre ação e efeito",
+     "plain": "A situação é grave. A Agência Pernambucana de Águas e Clima vê o mesmo que Carlos Nobre: a soma dos eventos climáticos pode esticar esse processo. O momento de agir é este, enquanto ainda temos antecipação entre a ação e o efeito."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o Consórcio Nordeste e passa a palavra ao técnico de defesa civil da CNM.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aponta prejuízo de mais de 150 bilhões com a seca nos Municípios nordestinos em 10 anos, critica o custo da Operação Carro-Pipa e cobra o projeto do fundo da seca.",
+   "quote": [
+    34,
+    35,
+    36
+   ],
+   "covered": true,
+   "evidence": [
+    24
+   ],
+   "open_question": 52,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os Municípios precisam de um fundo próprio para a seca e de mais repasses federais.",
+    "sentence": 51
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a seca causou prejuízo de mais de 150 bilhões na economia dos Municípios nordestinos em 10 anos",
+     "plain": "Fizemos um levantamento dos últimos 10 anos sobre os prejuízos da seca no Brasil, com um recorte do Nordeste. Nos Municípios nordestinos, o impacto na economia passou de 150 bilhões."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Operação Carro-Pipa custou mais de 2 bilhões de reais por 5 anos seguidos e o Exército cobra caro",
+     "plain": "Durante 5 anos seguidos, a Operação Carro-Pipa custou mais de 2 bilhões de reais aos cofres federais, entre contratação de pipeiros, fiscalização do Exército e os batalhões que coordenam. Eles cobram muito caro por isso."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      49,
+      50,
+      51
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto do Fasec, fundo para as secas, virou o PL 8.894 de 2017 e está parado na Câmara",
+     "plain": "O texto passou por todas as comissões do Senado e virou o Projeto de Lei 8.894, de 2017, na Câmara. Há mais de 5 anos acompanhamos esse projeto do Fasec, o fundo para emergências por seca, e ele está parado nesta Casa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao coordenador da ASA e pede ao deputado de Sergipe que conduza a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que a seca é prevista e não deveria ser tratada como emergência, pede ações urgentes de água e comida e defende a convivência com o Semiárido.",
+   "quote": [
+    81,
+    82
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21,
+    22
+   ],
+   "open_question": 89,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A seca é prevista e o caminho é a convivência com o Semiárido, não o tratamento como emergência.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a seca não deveria ser tratada como emergência, porque sempre existiu na região",
+     "plain": "Estamos tratando a seca como questão de emergência, e isso não é novidade nenhuma. Seca não deveria ser emergência, porque ela sempre existiu na nossa região."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "as ações emergenciais são urgentes e a água vem em primeiro lugar",
+     "plain": "Infelizmente, temos que pensar nas ações de emergência. Elas são urgentes e já foram citadas aqui. A questão da água está em primeiro lugar."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      85,
+      86
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a base é a convivência e a agroecologia, com sementes da Caatinga para recaatingar áreas em desertificação",
+     "plain": "A Embrapa faz isso e nós, das organizações, também guardamos sementes da Caatinga para recaatingar, ou seja, replantar as áreas que estão virando deserto. Para nós a base é a convivência, a agroecologia e recuperar a Caatinga e os solos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao deputado de Sergipe e anuncia em seguida o gestor do Ministério da Cultura.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende política permanente de curto, médio e longo prazo para o Semiárido e pede que o Canal do Xingó, com projeto pronto, entre no PAC.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 46,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Semiárido precisa de uma política permanente de Estado, com orçamento e planejamento.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os períodos de estiagem são naturais, o que não é normal é não haver prevenção",
+     "plain": "Os períodos de estiagem são naturais. O que não é normal, e nem natural, é a gente não fazer prevenção."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso uma política permanente de curto, médio e longo prazo, abandonada nos últimos 7 anos",
+     "plain": "Precisamos de uma política permanente, de curto, médio e longo prazo. Essas políticas foram abandonadas nos últimos 7 anos."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      53
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Canal do Xingó leva água por gravidade e resolve o abastecimento do semiárido de Sergipe",
+     "plain": "O Canal do Xingó leva água quase toda por gravidade, praticamente sem custo além do investimento. Ele resolve a água para os animais, para pequenas irrigações e para as pessoas no semiárido de Sergipe."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o deputado e passa a palavra ao gestor do Ministério da Cultura.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Questiona por que os 92% do país não cuidam dos 8% do Semiárido e mostra que o Bolsa Família equivale a 4 milhões de quilos de castanha por ano.",
+   "quote": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os recursos públicos que chegam ao Semiárido precisam ser revistos e redirecionados.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "8% do território brasileiro é Semiárido e os outros 92% não fazem a sua parte",
+     "plain": "Tenho visto que 8% do território brasileiro é Semiárido. Como é que os outros 92% não cuidam desses 8% e não fazem a sua parte?"
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "são 2.300 famílias no Bolsa Família em um Município de 11.300 habitantes",
+     "plain": "São 2.300 famílias no Bolsa Família em um Município de 11.300 habitantes. Isso equivale ao dinheiro de 4 milhões de quilos de castanha por ano. O que a seca não dá em castanha, o Bolsa Família dá."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta em que ano aconteceu o episódio relatado, para registrar a data.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Conta a luta por recursos no Grito da Seca e sustenta que não cabe falar de emergência num fenômeno registrado desde 1530.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A seca não é emergência, é um fenômeno secular que exige convivência.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o Bolsa Família não é a solução, mas tem sido uma delas, o colchão que faltava na seca",
+     "plain": "O Bolsa Família não é a solução, mas tem sido uma delas. Ele é o colchão que faltava quando a seca chegava."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há mais emergência num fenômeno registrado em documento desde 1530, tem que haver convivência",
+     "plain": "Como se fala em emergência diante de um fenômeno que aconteceu pela primeira vez em 1530, registrado em documento? Não há mais emergência, tem que haver convivência."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Propõe ir além da constatação, unificar os órgãos e levar o monitoramento para o orçamento, e pede a atualização do plano contra a desertificação.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    26,
+    27
+   ],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso unificar os órgãos e transformar o monitoramento em orçamento e planejamento.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso avançar além da constatação e unificar os órgãos para agir de forma conjunta",
+     "plain": "Precisamos avançar para além da constatação. O monitoramento, os dados e a ciência ajudam a prever, mas falta a parte política, que é unificar os órgãos para agir de forma conjunta."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é uma emergência prevista, e falta saber como o Estado, os Estados e os Municípios vão se precaver",
+     "plain": "Sabemos que alguns eventos que tratamos como emergência vão acontecer. É uma emergência prevista, por mais estranho que pareça. Qual é a capacidade do Estado brasileiro, dos Estados e dos Municípios de se precaver diante disso?"
+    },
+    {
+     "id": "b023c3",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso insistir na atualização do plano contra a desertificação e integrar mais os órgãos",
+     "plain": "Ele chamou a atenção para aprofundar o potencial da biodiversidade e olhar as milhares de experiências de convivência com o Semiárido. Temos que insistir na atualização do Plano Nacional de Combate à Desertificação e integrar os órgãos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que a atualização do plano contra a desertificação já está em curso e cobra que a política e a comissão nacional saiam do papel.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O plano e a política nacional contra a desertificação precisam sair do papel.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      1
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o plano nacional contra a desertificação já está sendo atualizado",
+     "plain": "Aproveito para dizer que o Plano Nacional de Combate à Desertificação já está sendo atualizado."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso tirar a política do papel e retomar a Comissão Nacional de Combate à Desertificação",
+     "plain": "Temos que tirar a política do papel, deputado. É preciso retomar a Comissão Nacional de Combate à Desertificação, que está prevista na política e já foi aprovada na Câmara."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a ASA e passa a palavra à pesquisadora da Embrapa Semiárido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que a Embrapa lançou materiais de umbu e de maracujá-de-rato e que ampliou o trabalho com produtos da vegetação nativa da Caatinga.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Embrapa tem ampliado o trabalho com os produtos da vegetação nativa da Caatinga.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      2
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Embrapa lançou três materiais de umbu e materiais de maracujá-de-rato, culturas nativas do Semiárido",
+     "plain": "Nos últimos anos lançamos três materiais de umbu com produtividade melhor para o Semiárido, e também materiais de maracujá-de-rato. São culturas nativas, adaptadas à região."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Embrapa tem dado mais ênfase aos produtos da vegetação nativa da Caatinga, mas está atrasada ante a Amazônia",
+     "plain": "Completando o que o Carlos Nobre falou, temos trabalhado mais nos produtos da vegetação nativa da Caatinga. O nosso observatório do Semiárido procura esses produtos, mas estamos muito atrasados em relação à Amazônia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Embrapa e passa a palavra ao técnico da CNM para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Coloca a CNM à disposição para discutir os planos que atendem os Municípios e explica que o decreto de emergência serve para liberar recursos.",
+   "quote": [
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A CNM quer discutir com os demais órgãos os planos que atendem os Municípios.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a CNM se coloca à disposição para discutir o plano contra a desertificação e os demais planos",
+     "plain": "Colocamos a CNM à disposição para discutir ações do Plano Nacional de Combate à Desertificação e dos demais planos, para ajudar os Municípios a reduzir os danos da seca e de outros desastres."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o decreto de emergência serve para liberar recursos e aliviar a cobrança sobre os Municípios",
+     "plain": "Quando o Município decreta emergência ou calamidade por causa da seca, é para destravar as tratativas de liberação de recursos, aliviar o sofrimento da população e reduzir a cobrança sobre as prefeituras, que são as mais atingidas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a CNM e passa a palavra à diretora do Cemaden para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pondera que os dados ainda não mostram um El Niño mais impactante que o de 2015 e 2016 e lembra que o monitoramento do Cemaden é público, por Município.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29,
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O acompanhamento do Cemaden ainda não confirma que este El Niño será mais impactante que o de 2015 e 2016.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "por enquanto os dados não mostram que este El Niño será mais impactante do que o de 2015 e 2016",
+     "plain": "Muito se falou que este El Niño seria mais intenso e mais impactante do que o de 2015 e 2016. Por enquanto, o acompanhamento que fazemos não mostra isso, mas temos que continuar olhando os dados."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as informações do monitoramento do Cemaden ficam no site e são geradas para os Municípios",
+     "plain": "Todas as informações do monitoramento que fazemos no Cemaden ficam no nosso site. No caso dos impactos das secas, os dados são gerados por Município, e qualquer pessoa pode ver e baixar."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "todos os meses o Cemaden faz a Reunião de Impactos, que é pública",
+     "plain": "Todos os meses o Cemaden faz o que chamamos de Reunião de Impactos. Essas reuniões são públicas e ficam disponíveis para toda a sociedade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os participantes, pede continuidade do debate e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 2,
+   "from_claim": "b008c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "O pesquisador apoia o diagnóstico do Cemaden e cita um estudo do próprio centro com o Inpe sobre o avanço do Semiárido."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 61,
+   "to_sentence": 81,
+   "from_claim": "b008c3",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Diante da lista de tecnologias prontas apresentada pela Embrapa, ele responde com o número de doutores dedicados à biodiversidade."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 59,
+   "to_sentence": 18,
+   "from_claim": "b012c3",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "O secretário diz que a agência de águas de Pernambuco vê o mesmo que o pesquisador sobre a soma dos eventos climáticos."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 30,
+   "from_claim": "b014c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Onde o Consórcio propõe aprimorar a distribuição por carros-pipa com o Exército, a entidade dos Municípios aponta o custo da operação."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 21,
+   "from_claim": "b016c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "A CNM descreve Municípios em emergência o ano inteiro e a ASA responde que a seca não deveria ser tratada como emergência."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 85,
+   "to_sentence": 78,
+   "from_claim": "b016c3",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "A ASA responde ao pedido de repensar o modelo agrícola com sementes da Caatinga e agroecologia."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 85,
+   "to_sentence": 119,
+   "from_claim": "b016c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A ASA reconhece que a Embrapa também recupera material da vegetação nativa e diz que as organizações fazem o mesmo."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 3,
+   "from_claim": "b018c1",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "O deputado repete em outras palavras que a estiagem é normal e que o que falta é prevenção."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 60,
+   "from_claim": "b020c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Onde o deputado diz que a região merece atenção de todos os entes, o gestor pergunta por que o resto do país não faz a sua parte."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 18,
+   "from_claim": "b022c2",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "Os dois defendem trocar a lógica da emergência pela convivência com a seca."
+  },
+  {
+   "from": "b022",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 21,
+   "from_claim": "b022c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Contra a rotina de decretos de emergência descrita pela CNM, o gestor diz que não há emergência num fenômeno registrado desde 1530."
+  },
+  {
+   "from": "b023",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 32,
+   "from_claim": "b023c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A sugestão de salas de situação nos Estados é retomada pela presidência como unificação dos órgãos."
+  },
+  {
+   "from": "b023",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 88,
+   "from_claim": "b023c3",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "A presidência acolhe o desafio de explorar o potencial da biodiversidade brasileira."
+  },
+  {
+   "from": "b023",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 33,
+   "to_sentence": 93,
+   "from_claim": "b023c3",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "A presidência assume a cobrança da ASA por tirar do papel o plano contra a desertificação."
+  },
+  {
+   "from": "b024",
+   "to": "b023",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 33,
+   "from_claim": "b024c1",
+   "to_claim": "b023c3",
+   "strength": "forte",
+   "note": "Ao pedido de atualização do plano, a ASA responde que o processo já está em curso."
+  },
+  {
+   "from": "b026",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 93,
+   "from_claim": "b026c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A Embrapa responde ao desafio sobre biodiversidade e cita o trabalho recente com produtos da Caatinga."
+  },
+  {
+   "from": "b028",
+   "to": "b023",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 34,
+   "from_claim": "b028c1",
+   "to_claim": "b023c3",
+   "strength": "media",
+   "note": "À cobrança de integração entre os órgãos, a CNM se coloca à disposição para discutir os planos."
+  },
+  {
+   "from": "b030",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 93,
+   "from_claim": "b030c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "Onde a CNM afirma que os impactos do El Niño em 2024 serão extremamente severos, o Cemaden diz que os dados ainda não mostram isso."
+  },
+  {
+   "from": "b030",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 14,
+   "from_claim": "b030c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "A dúvida da ASA sobre chuva ou seca no início do ano é respondida com o acompanhamento do El Niño."
+  },
+  {
+   "from": "b030",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 26,
+   "from_claim": "b030c2",
+   "to_claim": "b023c2",
+   "strength": "media",
+   "note": "A presidência lembra que os Municípios podem consultar a previsão e o Cemaden confirma que os dados são gerados por Município."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b016",
+    "b018",
+    "b022"
+   ],
+   "claims": [
+    "b016c1",
+    "b018c1",
+    "b018c2",
+    "b022c2"
+   ],
+   "note": "A rede do Semiárido, o deputado e o gestor federal concordam que a seca é previsível e pede política permanente, não socorro anual."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b014",
+    "b020"
+   ],
+   "claims": [
+    "b014c1",
+    "b014c3",
+    "b020c2"
+   ],
+   "note": "A entidade dos Municípios e o gestor federal concordam que o dinheiro que chega ao Semiárido é pequeno diante do prejuízo da seca."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b023",
+    "b028"
+   ],
+   "claims": [
+    "b023c1",
+    "b028c1"
+   ],
+   "note": "A presidência e a entidade dos Municípios concordam que os órgãos precisam se reunir e discutir juntos os planos que atendem as prefeituras."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b016",
+    "b026"
+   ],
+   "claims": [
+    "b008c3",
+    "b016c3",
+    "b026c2"
+   ],
+   "note": "O pesquisador, a rede do Semiárido e a Embrapa concordam que a biodiversidade da Caatinga é pouco aproveitada e precisa de mais ciência e de uso produtivo."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b016",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": "b030",
+   "gist": "se haverá chuva perto da média ou seca pelo El Niño",
+   "theme": "d1",
+   "position": "neutro",
+   "plain": "Vamos ter chuva em torno da média no primeiro quadrimestre ou a seca do El Niño?"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 89,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "colocar em votação a PEC que protege Caatinga e Cerrado",
+   "theme": "d5",
+   "position": "favoravel",
+   "plain": "A Câmara vai votar a proposta que torna a Caatinga e o Cerrado patrimônio brasileiro?"
+  },
+  {
+   "id": "q3",
+   "from": "b014",
+   "sentence": 52,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "por que o projeto do fundo da seca está parado na Câmara",
+   "theme": "d6",
+   "position": "favoravel",
+   "plain": "Por que o projeto que cria o fundo para as secas segue parado na Câmara?"
+  },
+  {
+   "id": "q4",
+   "from": "b023",
+   "sentence": 19,
+   "addressed_to": "sociedade_civil",
+   "answered_by": null,
+   "gist": "se houve reunião entre os consórcios do Nordeste e a CNM",
+   "theme": "d7",
+   "position": "neutro",
+   "plain": "Já houve reunião entre os consórcios do Nordeste e a entidade dos Municípios sobre as previsões?"
+  },
+  {
+   "id": "q5",
+   "from": "b018",
+   "sentence": 46,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "incluir o Canal do Xingó no PAC",
+   "theme": "d3",
+   "position": "favoravel",
+   "plain": "O Canal do Xingó, com projeto executivo pronto, vai entrar no PAC?"
+  },
+  {
+   "id": "q6",
+   "from": "b008",
+   "sentence": 62,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "se a Embrapa Semiárido tem cientistas da biodiversidade da Caatinga",
+   "theme": "d4",
+   "position": "favoravel",
+   "plain": "A Embrapa Semiárido tem cientistas especializados na biodiversidade da Caatinga?"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 28,
+   "gist": "mais de 5 milhões de pessoas impactadas pela seca",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 78,
+   "gist": "900 Municípios em seca fraca, 327 moderada, 106 severa",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b008",
+   "sentence": 25,
+   "gist": "aumento de mais de 80 mil km² do Semiárido em 60 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 28,
+   "gist": "30% do Semiárido vira semideserto, com 300 a 400 mm",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 61,
+   "gist": "dos 2.700 doutores da Embrapa, 4% na biodiversidade",
+   "disputed_by": [
+    {
+     "fala": "b026",
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 16,
+   "gist": "o manancial Jucazinho está com 10% de água acumulada",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 11,
+   "gist": "prejuízo de mais de 150 bilhões nos Municípios nordestinos",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 27,
+   "gist": "carro-pipa custou mais de 2 bilhões por 5 anos seguidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 34,
+   "gist": "quase 19 mil decretações de emergência em 10 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b016",
+   "sentence": 30,
+   "gist": "mais de 1 milhão e 200 mil famílias já têm cisterna",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b006",
+   "sentence": 49,
+   "gist": "média de 330 milímetros de chuva em 10 ou 12 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b020",
+   "sentence": 15,
+   "gist": "2.300 famílias no Bolsa Família em 11.300 habitantes",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil",
+   "mesa"
+  ],
+  "angle": "A matéria escolheu o alerta dos cientistas e gestores sobre a seca severa e o risco de desertificação, com os números de Municípios em emergência e de pessoas atingidas.",
+  "omitted": "Ficaram de fora a crítica ao custo da Operação Carro-Pipa, o desafio lançado à Embrapa sobre a biodiversidade da Caatinga e os pedidos pelo Canal do Xingó e pela proposta que protege Caatinga e Cerrado."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A seca é prevista e pede política permanente",
+   "statement_plain": "A seca sempre volta e é anunciada com antecedência, então o país precisa de uma política permanente de convivência com o Semiárido, e não de socorro a cada ano.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b018c1",
+    "b022c2",
+    "b006c1"
+   ],
+   "note": "É uma ideia que cruza setores: uma rede do Semiárido, um deputado, um gestor federal e uma pesquisadora da Embrapa sustentam a mesma coisa contra a rotina do socorro anual."
+  },
+  {
+   "id": "t2",
+   "title": "O que vale agora é agir antes do efeito",
+   "statement_plain": "A seca já está chegando, então o esforço agora tem de ser a ação imediata: água, decreto de emergência e liberação de recursos, enquanto ainda dá tempo de agir antes do efeito.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b012c3",
+    "b016c2",
+    "b028c2"
+   ],
+   "note": "Divide o próprio campo da convivência: quem defende a política permanente também pede ação imediata, e o secretário estadual e a entidade dos Municípios chegam à mesma urgência por caminhos diferentes."
+  },
+  {
+   "id": "t3",
+   "title": "O futuro do Semiárido está na Caatinga",
+   "statement_plain": "O Semiárido tem de produzir a partir da biodiversidade da Caatinga, com agroecologia, sementes nativas e recuperação do solo, em vez de copiar o modelo de outras regiões.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b008c3",
+    "b016c3",
+    "b026c1",
+    "b026c2"
+   ],
+   "note": "Atravessa setores e divide um deles: um pesquisador da USP e uma rede social defendem o mesmo que a Embrapa passa a defender nas falas finais, ao lado da lista de tecnologias que ela apresentou antes."
+  },
+  {
+   "id": "t4",
+   "title": "A tecnologia adaptada já existe, falta chegar ao campo",
+   "statement_plain": "O caminho para produzir na seca é levar ao agricultor as tecnologias de água e as cultivares já desenvolvidas, como a barragem subterrânea e a palma forrageira.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b006c3",
+    "b012c2"
+   ],
+   "note": "É defendida por uma pesquisadora federal e por um secretário estadual, de campos diferentes, e contestada por quem quer a produção apoiada na biodiversidade da Caatinga."
+  },
+  {
+   "id": "t5",
+   "title": "Sem fundo próprio, o Município não aguenta a seca",
+   "statement_plain": "Os prejuízos da seca caem sobre as prefeituras e os repasses não cobrem esse rombo, então é preciso um fundo específico e uma revisão do dinheiro que chega ao Semiárido.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b014c3",
+    "b020c2"
+   ],
+   "note": "Une a entidade das prefeituras e um gestor federal do Rio Grande do Norte em torno de dinheiro reservado, tema que o resto da sala tratou de passagem."
+  },
+  {
+   "id": "t6",
+   "title": "Monitorar não basta, é preciso integrar",
+   "statement_plain": "Os dados da seca já existem Município por Município, então o que falta é União, Estados e Municípios agirem juntos para transformar o alerta em decisão.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b023c1",
+    "b020c1",
+    "b028c1",
+    "b030c2"
+   ],
+   "note": "Reúne a mesa, a entidade dos Municípios, um gestor federal e o próprio órgão de monitoramento, que concordam que o problema não é falta de dado."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SPI",
+   "plain": "Índice que mede a severidade da seca e permite comparar uma região com a outra.",
+   "fala": "b002",
+   "sentence": 12
+  },
+  {
+   "term": "Índice Integrado de Secas",
+   "plain": "Índice do Cemaden que junta chuva, umidade do solo e saúde da vegetação para medir a seca.",
+   "fala": "b002",
+   "sentence": 18
+  },
+  {
+   "term": "El Niño",
+   "plain": "Aquecimento das águas do Oceano Pacífico que muda o clima e costuma reduzir a chuva no Nordeste.",
+   "fala": "b002",
+   "sentence": 58
+  },
+  {
+   "term": "Semiárido",
+   "plain": "Região de clima quente e seco que ocupa 11 Estados, com chuva abaixo de 800 milímetros por ano.",
+   "fala": "b006",
+   "sentence": 4
+  },
+  {
+   "term": "Caatinga",
+   "plain": "Vegetação típica do Semiárido, adaptada ao calor e à falta de água durante todo o ano.",
+   "fala": "b006",
+   "sentence": 9
+  },
+  {
+   "term": "Zona de Convergência Intertropical",
+   "plain": "Faixa de nuvens sobre o Oceano Atlântico que traz a principal chuva do Semiárido no início do ano.",
+   "fala": "b006",
+   "sentence": 11
+  },
+  {
+   "term": "evapotranspiração",
+   "plain": "Água que evapora do solo e sai das plantas, medida em milímetros ao longo do ano.",
+   "fala": "b006",
+   "sentence": 31
+  },
+  {
+   "term": "barragens subterrâneas",
+   "plain": "Barreira feita no subsolo para segurar a água da chuva e manter a terra úmida para o plantio.",
+   "fala": "b006",
+   "sentence": 88
+  },
+  {
+   "term": "COP 28",
+   "plain": "Conferência do clima da ONU realizada em 2023, onde os países negociam metas de emissões.",
+   "fala": "b008",
+   "sentence": 20
+  },
+  {
+   "term": "NDC",
+   "plain": "Metas voluntárias de redução de emissões que cada país apresenta nos acordos do clima.",
+   "fala": "b008",
+   "sentence": 23
+  },
+  {
+   "term": "desertificação",
+   "plain": "Degradação do solo que, com chuva muito forte, causa erosão profunda e impede a vegetação de voltar.",
+   "fala": "b008",
+   "sentence": 30
+  },
+  {
+   "term": "Monitor de Secas",
+   "plain": "Instrumento que acompanha e classifica a intensidade da seca por região, usado no Nordeste.",
+   "fala": "b012",
+   "sentence": 3
+  },
+  {
+   "term": "adutoras",
+   "plain": "Tubulações que levam a água de um reservatório até as cidades e as comunidades.",
+   "fala": "b012",
+   "sentence": 42
+  },
+  {
+   "term": "Operação Carro-Pipa",
+   "plain": "Programa federal que leva água de caminhão-pipa às comunidades sem abastecimento, coordenado pelo Exército.",
+   "fala": "b014",
+   "sentence": 23
+  },
+  {
+   "term": "FASEC",
+   "plain": "Fundo proposto em projeto de lei para atender emergências e calamidades causadas por secas.",
+   "fala": "b014",
+   "sentence": 51
+  }
+ ]
+}

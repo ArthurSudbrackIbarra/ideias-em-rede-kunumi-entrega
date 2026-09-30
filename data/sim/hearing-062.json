@@ -1,0 +1,1638 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 62,
+ "model": "LLM lendo o prompt hearing-062 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T01:14:47Z",
+ "prompt_sha256": "3c17ced412e4ede467274a28f89b9b57b42f08a1e66533e9e5b79a03f503204d",
+ "sentences_hash": "60a2be8daf738e4b",
+ "review": {
+  "pairs_read": 27,
+  "pairs_fixed": 8
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência reuniu o Ministério da Saúde, a médica que acompanha os pacientes, a associação, um paciente, a epidemiologia do Piauí e a federação de doenças raras para discutir o acesso ao tratamento da amiloidose hereditária. Os convidados pediram a incorporação ao SUS do inotersena e do patisirana para quem já está no estágio 2 da doença. O Ministério da Saúde informou que a CONITEC recomendou a não incorporação, pelo custo.",
+ "stakes": "O que estava em jogo era se o SUS passa a oferecer de graça os dois medicamentos aprovados desde 2020 para quem já não responde ao tafamidis.",
+ "central_question": "O SUS deve incorporar os novos medicamentos para a amiloidose hereditária em estágio 2, apesar do custo apontado pela avaliação técnica?",
+ "synopsis_plain": "Uma comissão da Câmara ouviu o Ministério da Saúde, a médica que trata a doença, uma associação, um paciente e representantes de doenças raras sobre a amiloidose hereditária. Eles pediram que o SUS passe a dar dois remédios novos a quem já está na fase 2 da doença. O ministério disse que a comissão técnica recomendou não dar, por causa do custo.",
+ "stakes_plain": "Se o SUS vai ou não passar a dar de graça os dois remédios novos a quem já não responde ao que existe hoje.",
+ "central_question_plain": "O SUS deve dar os remédios novos a quem já está na fase 2 da doença, mesmo com o custo alto?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Incorporação dos novos medicamentos",
+   "description": "Discute se o SUS deve passar a oferecer o inotersena e o patisirana, já aprovados no Brasil, aos pacientes da doença.",
+   "axis": {
+    "pro": "O SUS tem de incorporar já os dois medicamentos aprovados desde 2020.",
+    "contra": "A avaliação técnica não recomendou a incorporação e o processo ainda está em curso.",
+    "pro_plain": "O SUS tem de passar a dar já os dois remédios aprovados desde 2020.",
+    "contra_plain": "A avaliação técnica não recomendou dar esses remédios, e o processo ainda corre."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Custo e judicialização",
+   "description": "Discute se o preço do tratamento pode decidir a incorporação e quanto custa ao governo tratar pela via da Justiça.",
+   "axis": {
+    "pro": "O custo não pode decidir quem trata, e pagar pela Justiça sai mais caro do que incorporar.",
+    "contra": "O custo por paciente e o peso no orçamento não sustentam a incorporação.",
+    "pro_plain": "O preço não pode decidir quem se trata, e pagar pela Justiça custa mais do que dar o remédio pelo SUS.",
+    "contra_plain": "O custo por paciente e o peso no orçamento são altos demais para o remédio entrar no SUS."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Lacuna de tratamento no estágio 2",
+   "description": "Discute se quem passa ao estágio 2 da doença fica sem qualquer tratamento no SUS.",
+   "axis": {
+    "pro": "Quem chega ao estágio 2 fica sem tratamento, e o que existe hoje não basta.",
+    "contra": "O protocolo atual, com transplante de fígado e tafamidis, dá conta da doença.",
+    "pro_plain": "Quem chega à fase 2 fica sem tratamento, e o que existe hoje não basta.",
+    "contra_plain": "O que já existe hoje, o transplante de fígado e o tafamidis, dá conta da doença."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Abastecimento do tafamidis",
+   "description": "Discute o atraso na compra e na entrega do único remédio que o SUS já oferece para a doença.",
+   "axis": {
+    "pro": "A compra e a entrega atrasam todo ano, e o paciente fica meses sem o remédio.",
+    "contra": "O fornecimento do remédio que já está no SUS está garantido.",
+    "pro_plain": "A compra e a entrega atrasam todo ano, e o paciente fica meses sem o remédio.",
+    "contra_plain": "O remédio que já está no SUS chega direito a quem precisa."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Prioridade na política de doenças raras",
+   "description": "Discute se o que falta é uma rede de vigilância e acompanhamento dos pacientes ou o remédio na mão de quem precisa.",
+   "axis": {
+    "pro": "A prioridade é organizar vigilância, diagnóstico e acompanhamento dos pacientes.",
+    "contra": "A prioridade é garantir o remédio, porque sem ele o resto não adianta.",
+    "pro_plain": "O primeiro passo é montar uma vigilância que saiba quem são os pacientes e acompanhe cada um.",
+    "contra_plain": "O primeiro passo é o remédio na mão do paciente, porque sem ele o resto não adianta."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Gravidade e alcance da doença",
+   "description": "Discute o que a amiloidose hereditária faz com o paciente e com a família e quantas pessoas ela atinge no Brasil.",
+   "axis": {
+    "pro": "É uma doença grave e subdiagnosticada, que mata e atinge famílias inteiras.",
+    "contra": "É um problema pequeno demais para mobilizar o sistema de saúde.",
+    "pro_plain": "É uma doença grave, pouco diagnosticada, que mata e atinge famílias inteiras.",
+    "contra_plain": "É um problema pequeno demais para mobilizar o sistema de saúde."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+   "org": "Câmara dos Deputados",
+   "basis": "abre o seminário em b001.2 e diz que o requerimento é de sua autoria",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata dos direitos das pessoas com deficiência e das doenças raras"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Avaliação de Tecnologias em Saúde",
+   "org": "Ministério da Saúde",
+   "basis": "apresentada pela presidência em b001.17 e confirmada por ela em b004.12",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério federal responsável pelo SUS e pela decisão de incorporar novos tratamentos"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora do Centro de Estudos em Paramiloidose Antônio Rodrigues de Mello",
+   "org": "Universidade Federal do Rio de Janeiro",
+   "basis": "apresentada pela presidência em b001.18 e descrita por ela em b006.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "médica do centro de paramiloidose da UFRJ",
+   "org_plain": "centro do hospital universitário da UFRJ que atende e pesquisa a doença há mais de 30 anos"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Paciente com amiloidose hereditária e presidente da ABPAR",
+   "org": "ABPAR",
+   "basis": "apresentado como paciente em b001.19 e citado como presidente da associação em b023.13",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "paciente com amiloidose hereditária",
+   "org_plain": "associação que acolhe e orienta pacientes com amiloidose hereditária no Brasil"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação Brasileira de Amiloidose Hereditária Associada à Transtirretina",
+   "org": "ABPAR",
+   "basis": "apresentada pela presidência em b001.19 e confirmada por ela em b023.6",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da associação brasileira de pacientes de amiloidose",
+   "org_plain": "associação que acolhe e orienta pacientes com amiloidose hereditária no Brasil"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Coordenadora de Epidemiologia",
+   "org": "Secretaria de Estado da Saúde do Piauí",
+   "basis": "apresentada pela presidência em b001.19 e confirmada por ela em b027.7",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "da Secretaria de Saúde do Piauí",
+   "org_plain": "órgão do governo do Piauí que cuida da saúde no estado e acompanha as doenças notificadas"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Federação das Associações de Doenças Raras do Norte, Nordeste e Centro-Oeste",
+   "org": "FEDRANN",
+   "basis": "apresentada pela presidência em b001.20 e em b028.16",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da federação de associações de doenças raras",
+   "org_plain": "federação que reúne associações de pacientes com doenças raras do Norte, Nordeste e Centro-Oeste"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "a mesa diz em b001.11 que só parlamentares entram pelo Zoom, e em b029.45 e b030.14 registra pacientes presentes no plenário",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre o seminário sobre o acesso ao tratamento da amiloidose e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante do Ministério da Saúde cumprimenta a mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência retribui o cumprimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica como a CONITEC avalia novos remédios e informa que a comissão recomendou não incorporar a inotersena, com custo estimado de 1,9 milhão de reais por paciente ao ano.",
+   "quote": [
+    43,
+    44,
+    45
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A avaliação técnica não recomendou a incorporação dos novos medicamentos.",
+    "sentence": 45
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a lei dá à CONITEC 180 dias, prorrogáveis por mais 90, e a avaliação olha as provas científicas e o custo",
+     "plain": "A lei de 2011 dá à CONITEC, a comissão que avalia o que entra no SUS, 180 dias, prorrogáveis por mais 90, para analisar um pedido. Ela olha as provas de eficácia, segurança e efetividade e também o custo e o peso no orçamento."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o custo estimado é de 1,9 milhão de reais por paciente por ano e a CONITEC recomendou não incorporar em outubro de 2022",
+     "plain": "O custo estimado é de cerca de 1,9 milhão de reais por paciente por ano. O peso no orçamento ficaria entre 240 milhões e 1,3 bilhão de reais em 5 anos. Em outubro de 2022 a CONITEC recomendou não incorporar."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      36
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o protocolo recomenda o transplante de fígado na fase inicial e o tafamidis para quem não pode transplantar",
+     "plain": "Hoje o protocolo recomenda o transplante de fígado na fase mais inicial, antes dos danos. E recomenda o tafamidis para adultos em estágio inicial que não podem fazer o transplante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os esclarecimentos do ministério e passa a palavra à médica da UFRJ.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Descreve a amiloidose hereditária como doença que atinge vários órgãos, mata em 2 a 10 anos e alcança de 5 mil a 15 mil brasileiros.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A amiloidose hereditária é grave, atinge vários órgãos e é subdiagnosticada no Brasil.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é uma doença que atinge vários órgãos e, sem tratamento, leva à morte em um prazo de 2 a 10 anos",
+     "plain": "É uma doença multissistêmica, quer dizer, atinge vários órgãos. Sem tratamento, ela leva à morte. Depende de várias condições, mas isso acontece num prazo de 2 a 10 anos."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há de 5 mil a 15 mil pessoas no Brasil só com a forma de neuropatia, e é um número estimado",
+     "plain": "É uma doença rara, mas que nos impacta. Por uma publicação recente, calculamos que há de 5 mil a 15 mil pessoas no Brasil só com a forma de neuropatia. É um número estimado, porque ainda não temos um censo."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a mutação veio de Portugal para o Brasil, que tem mais de 25 milhões de lusodescendentes",
+     "plain": "Nosso estudo genético mostrou que a mutação veio de Portugal para cá. Como aqui há mais de 25 milhões de lusodescendentes e Portugal tem 10 milhões de habitantes, dá para entender por que essa doença nos diz tanto respeito."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O paciente avisa que os slides não estão passando.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que os slides não aparecem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A médica pergunta se o início da apresentação está sendo visto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que a tela principal aparece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b011",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A médica pergunta se as fotos dos pacientes aparecem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b012",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que nada está aparecendo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b013",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A médica pede que a equipe da Casa passe os slides por ela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que ela continue enquanto o problema é resolvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b015",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A médica pergunta se agora o compartilhamento é da mesa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma e pede que ela retome de onde parou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mostra fotos de pacientes, aponta que o transplante não resolve tudo e que quem está no estágio 2 fica sem tratamento no SUS.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os pacientes em estágio 2 não têm tratamento disponível no SUS.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os pacientes em estágio 2 já não têm indicação de tafamidis e ficam sem tratamento",
+     "plain": "Eles estão no estágio 2 e já não têm indicação de usar o tafamidis. Para esses pacientes não existe tratamento, não para esses dois."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o transplante não resolve tudo, porque falta doação, a mortalidade é alta e a imunidade fica baixa a vida toda",
+     "plain": "O transplante não resolve tudo. Primeiro, não há doação de órgão para todo mundo. A mortalidade ainda é alta, e é preciso baixar a imunidade do paciente com remédios pelo resto da vida."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      58,
+      59,
+      60
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há pacientes que não respondem ao tafamidis, e isso não é só a experiência dela, é a do mundo inteiro",
+     "plain": "Existem pacientes que não respondem ao tafamidis, infelizmente, e nós gostaríamos que não existissem. Parecia tudo resolvido, o remédio já está no SUS. E não é só a minha experiência, é a do mundo inteiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra a médica do tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b019",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede a incorporação do Onpattro e do Tegsedi, aprovados desde 2020 para os estágios 1 e 2 e já usados em outros países.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os dois medicamentos aprovados desde 2020 precisam ser incorporados ao SUS.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Onpattro e o Tegsedi estão aprovados desde 2020 para os estágios 1 e 2 e o pedido é que sejam incorporados",
+     "plain": "O Onpattro, nome comercial do patisiran, e o Tegsedi, do inotersen, estão aprovados desde 2020 para os estágios 1 e 2, mas não foram incorporados. O nosso pedido é que sejam. No mundo inteiro eles já estão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Reage às imagens dos pacientes e assume o compromisso de lutar pelo acesso ao medicamento pelo SUS.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As imagens mostram a dureza da situação desses pacientes.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as imagens dos pacientes são chocantes e a situação em que eles ficam é muito dura de ver",
+     "plain": "Ouvindo a sua fala e vendo os slides, digo que as imagens são mesmo chocantes. A situação em que ficam esses pacientes é muito dura de ver."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Comissão vai lutar para que os pacientes tenham acesso ao medicamento, porque é uma questão de vida",
+     "plain": "No que depender da Comissão e do nosso trabalho, nós vamos lutar muito para que os pacientes tenham acesso a esse medicamento. É uma questão de vida."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A médica agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à presidente da associação de pacientes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b023",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Denuncia que o tafamidis falta por até 3 meses nas farmácias e que o custo foi a única razão apresentada para não incorporar a inotersena.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A falta de tafamidis nas farmácias faz a doença avançar.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "para a associação a sobrevida vai de 2 a 15 anos, e não de 10 a 12 anos como se falou antes",
+     "plain": "A doença é grave, incapacita e mata, como disse a Priscila Louly. Mas, ao contrário do que ela falou de 10 a 12 anos, a sobrevida vai de 2 a 15 anos, conforme a variante, a demora do diagnóstico e o acesso ao tratamento."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os pacientes chegam a ficar até 3 meses sem o tafamidis, que é de uso contínuo, e a doença evolui para o estágio 2",
+     "plain": "A distribuição do tafamidis está comprometida pelo atraso na compra e na entrega às farmácias. Às vezes os pacientes ficam até 3 meses sem o remédio, que é de uso contínuo, e a doença evolui para o estágio 2."
+    },
+    {
+     "id": "b023c3",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "toda a equipe da CONITEC concordou que o tratamento é necessário, e a única justificativa para não incorporar foi o custo",
+     "plain": "Vi que, mesmo com pontos negativos como os efeitos colaterais, a equipe inteira da CONITEC concordou que esse tratamento é necessário. Nessa última tentativa, a única justificativa para não incorporar foi o custo. Mas quanto vale uma vida?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao paciente convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b025",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Conta que a doença atingiu cerca de 30 pessoas da família em 4 gerações e que a inotersena o mantém no estágio 1 há 6 anos e meio.",
+   "quote": [
+    60,
+    61,
+    62
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A doença atravessa gerações da família e muda a vida inteira de quem convive com ela.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cerca de 30 pessoas da família dele tiveram a doença em 4 gerações, da bisavó até ele",
+     "plain": "A minha bisavó foi a primeira a ter os sintomas. Quando levantei a história da família, contei cerca de 30 pessoas com a doença em 4 gerações, da minha bisavó até mim, incluindo meu avô."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      60,
+      61,
+      62
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a inotersena ele continua no estágio 1 depois de 10 anos, enquanto o pai morreu em 10 anos de doença",
+     "plain": "Com a inotersena, nesses 6 anos e meio, estamos bem estáveis. Meu pai morreu depois de 10 anos de doença. Eu, mesmo depois de 10 anos, continuo no estágio 1, apesar de toda a briga desde o diagnóstico."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      84,
+      85,
+      86
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o diagnóstico cedo e o começo imediato do tratamento são fundamentais, e no Brasil isso não vem acontecendo",
+     "plain": "O diagnóstico cedo e o começo imediato do tratamento são fundamentais. Com isso, as pessoas podem ter uma vida quase normal. Infelizmente, no Brasil, isso não vem acontecendo."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o depoimento e passa a palavra à epidemiologista do Piauí.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b027",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata que o Piauí tem quatro casos em tratamento e defende uma vigilância nacional das doenças raras, com acompanhamento dos pacientes.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 36,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta vigilância e acompanhamento dos pacientes com doenças raras.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Piauí há quatro casos em uso do tafamidis, que ainda é o único remédio disponível",
+     "plain": "Hoje no Piauí temos quatro casos em uso do tafamidis, que ainda é o único remédio que existe. Quem precisar começar o tratamento hoje só tem essa opção."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o estado só fica sabendo do caso pela entrega do remédio e não conhece a vida do paciente",
+     "plain": "O que mais me angustia é só ficar sabendo do caso pela entrega do remédio. O paciente entra no sistema já assim, e em geral não conhecemos a vida dele."
+    },
+    {
+     "id": "b027c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso organizar uma vigilância das doenças raras em âmbito nacional",
+     "plain": "O que a gente sente falta é de organizar uma vigilância das doenças raras, em âmbito nacional, começando por agora."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Acolhe a proposta de rede de atenção, diz que o ponto central é o acesso ao remédio e anuncia que vai formular um projeto de lei.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A rede de atenção é importante, mas o ponto central é o acesso à medicação.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a sugestão de melhorar as políticas é importante, mas o ponto central é o acesso à medicação",
+     "plain": "A senhora traz uma sugestão de melhora das políticas públicas para quem tem a doença. Isso é importante, mas o ponto central aqui é o acesso à medicação. Nisso todos concordam."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a sugestão de uma vigilância das doenças raras vai virar um projeto de lei da equipe dela",
+     "plain": "Daqui saem ideias que viram projetos de lei para atender às reivindicações. Achei a sugestão muito interessante e já estou com a Isadora, da minha equipe, pensando em um projeto de lei."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Cobra da CONITEC a recomendação do tratamento, lembra que a indústria baixou o preço e que a judicialização custa mais ao governo.",
+   "quote": [
+    32,
+    33,
+    34
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 34,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O custo não justifica negar o tratamento, porque a judicialização sai mais cara.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na reunião ficou claro que o medicamento é seguro e eficaz e que, da fase 1 para a fase 2, não há outra opção",
+     "plain": "Eu escutava a reunião e aquilo só me trazia tristeza, porque ficou claro que o remédio é seguro e eficaz. E que, se o tafamidis falha no estágio 1, não há outro, como a médica disse. Da fase 1 para a fase 2, não há opção."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o impacto maior é o financeiro, mas a indústria baixou o preço e facilitou a importação",
+     "plain": "Naquela reunião, o que vimos é que o impacto maior é o financeiro. Mas vimos também, e está no Youtube, que a indústria baixou o preço e facilitou a importação. Então, por que não recomendar?"
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      57,
+      58
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a cobrança é por tratamento já para a PAF, porque os pacientes não têm preço, têm valor",
+     "plain": "Meu povo, tratamento já para a PAF, a polineuropatia amiloidótica familiar! CONITEC, nós não temos preço, nós temos valor."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Promete apoio à causa, pergunta por que não incorporar também esse tratamento e pede que essas pessoas não fiquem invisíveis.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Esse tratamento também deve ser incorporado ao SUS.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "essa incorporação também deve ser feita para a doença discutida aqui, porque é uma questão de vida",
+     "plain": "Por que não incorporar também no caso da doença que discutimos aqui? Meu Deus do céu, isto é uma questão de vida. Essas pessoas não podem ficar invisíveis."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b017",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 36,
+   "to_sentence": 36,
+   "from_claim": "b017c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Ao protocolo que recomenda o transplante de fígado, a médica responde que o transplante não resolve tudo e caiu quase em desuso no mundo."
+  },
+  {
+   "from": "b019",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 45,
+   "from_claim": "b019c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Contra a recomendação de não incorporar, a médica pede a incorporação dos dois remédios já aprovados e usados em outros países."
+  },
+  {
+   "from": "b020",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 18,
+   "from_claim": "b020c1",
+   "to_claim": "b017c1",
+   "strength": "media",
+   "note": "A presidência reage às fotos dos pacientes que ficaram sem tratamento e diz que a situação é dura de ver."
+  },
+  {
+   "from": "b023",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 26,
+   "from_claim": "b023c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A associação diverge do prazo de sobrevida apresentado antes e fala em 2 a 15 anos, conforme a variante e o acesso ao tratamento."
+  },
+  {
+   "from": "b025",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 60,
+   "to_sentence": 18,
+   "from_claim": "b025c2",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "O paciente mostra na própria história o outro lado do que a médica descreveu: com o remédio novo ele segue no estágio 1."
+  },
+  {
+   "from": "b025",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 86,
+   "to_sentence": 17,
+   "from_claim": "b025c3",
+   "to_claim": "b023c2",
+   "strength": "media",
+   "note": "Os dois dizem a mesma coisa por caminhos diferentes: o tratamento começa tarde ou falha, e a doença avança."
+  },
+  {
+   "from": "b027",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 18,
+   "from_claim": "b027c1",
+   "to_claim": "b017c1",
+   "strength": "media",
+   "note": "A epidemiologia do Piauí confirma da ponta o que a médica descreveu: o tafamidis ainda é o único remédio disponível."
+  },
+  {
+   "from": "b028",
+   "to": "b027",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 19,
+   "from_claim": "b028c1",
+   "to_claim": "b027c3",
+   "strength": "forte",
+   "note": "À proposta de uma vigilância das doenças raras, a presidência responde que a ideia é importante, mas que o ponto central ali é o acesso ao remédio."
+  },
+  {
+   "from": "b028",
+   "to": "b027",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 19,
+   "from_claim": "b028c2",
+   "to_claim": "b027c3",
+   "strength": "media",
+   "note": "Ainda assim, a presidência assume a proposta e diz que a equipe já trabalha para transformá-la em projeto de lei."
+  },
+  {
+   "from": "b029",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 33,
+   "to_sentence": 44,
+   "from_claim": "b029c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Aos números de custo apresentados pelo ministério, a federação responde que a indústria baixou o preço e facilitou a importação."
+  },
+  {
+   "from": "b029",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 18,
+   "from_claim": "b029c1",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "A federação cita a médica pelo que ela disse ali e repete que, passada a fase 1, não há outra opção de tratamento."
+  },
+  {
+   "from": "b029",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 58,
+   "to_sentence": 28,
+   "from_claim": "b029c3",
+   "to_claim": "b023c3",
+   "strength": "media",
+   "note": "À pergunta sobre quanto vale uma vida, a federação responde no mesmo tom: os pacientes não têm preço, têm valor, e o tratamento tem de sair já."
+  },
+  {
+   "from": "b030",
+   "to": "b029",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 34,
+   "from_claim": "b030c1",
+   "to_claim": "b029c2",
+   "strength": "forte",
+   "note": "A presidência repete a pergunta da federação e a dirige ao caso em debate: por que não incorporar também esse tratamento?"
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b019",
+    "b025",
+    "b029",
+    "b030"
+   ],
+   "claims": [
+    "b019c1",
+    "b025c2",
+    "b029c1",
+    "b030c1"
+   ],
+   "note": "A médica, o paciente, a federação de doenças raras e a presidência da Comissão concordam que os remédios aprovados desde 2020 precisam entrar no SUS."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b017",
+    "b025",
+    "b027"
+   ],
+   "claims": [
+    "b017c1",
+    "b017c2",
+    "b017c3",
+    "b025c3",
+    "b027c1"
+   ],
+   "note": "A médica da UFRJ, o paciente e a epidemiologia do Piauí concordam que o que existe hoje no SUS não alcança quem já está no estágio 2."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b006",
+    "b020",
+    "b025"
+   ],
+   "claims": [
+    "b006c2",
+    "b020c1",
+    "b025c1"
+   ],
+   "note": "A médica, a presidência da Comissão e o paciente concordam que a doença é grave, atinge milhares de pessoas e atravessa famílias inteiras."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b027",
+   "sentence": 36,
+   "addressed_to": "parlamentar",
+   "answered_by": "b028",
+   "gist": "que se crie uma política nacional para as doenças raras",
+   "plain": "A Câmara vai criar uma política de vigilância e acompanhamento para as doenças raras?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b029",
+   "sentence": 34,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que a CONITEC não recomendou o tratamento",
+   "plain": "Por que a comissão técnica não recomendou o tratamento, se a indústria baixou o preço?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b029",
+   "sentence": 53,
+   "addressed_to": "mesa",
+   "answered_by": "b030",
+   "gist": "que a deputada abrace a luta pela incorporação",
+   "plain": "A presidência da Comissão vai abraçar a luta pela incorporação do tratamento?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 43,
+   "gist": "custo de 1,9 milhão de reais por paciente por ano",
+   "disputed_by": [
+    {
+     "fala": "b029",
+     "sentence": 33
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 44,
+   "gist": "impacto de 240 milhões a 1,3 bilhão em 5 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 45,
+   "gist": "a CONITEC recomendou não incorporar em outubro de 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 47,
+   "gist": "audiência pública sobre a inotersena no dia 7 de dezembro",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 26,
+   "gist": "sem tratamento, a morte vem em 2 a 10 anos",
+   "disputed_by": [
+    {
+     "fala": "b023",
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 27,
+   "gist": "de 5 mil a 15 mil pessoas no Brasil com a neuropatia",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 33,
+   "gist": "quem herda a mutação tem até 83% de chance de adoecer",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b017",
+   "sentence": 56,
+   "gist": "11 pacientes acompanhados não responderam ao tafamidis",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b019",
+   "sentence": 1,
+   "gist": "Onpattro e Tegsedi aprovados desde 2020, sem incorporação",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b023",
+   "sentence": 16,
+   "gist": "pacientes ficam até 3 meses sem o tafamidis",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b025",
+   "sentence": 8,
+   "gist": "cerca de 30 pessoas da família em 4 gerações",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b029",
+   "sentence": 38,
+   "gist": "em vez de 36 pacientes na Justiça, daria para tratar 68",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d6"
+  ],
+  "roles_quoted": [
+   "sociedade_civil",
+   "governo",
+   "mesa"
+  ],
+  "angle": "A matéria escolheu a cobrança pela oferta gratuita dos dois remédios novos e contrapôs a ela a resposta do ministério sobre o protocolo atual e a decisão da comissão técnica.",
+  "omitted": "Ficaram de fora o cálculo sobre o custo das ações na Justiça e o pedido de uma vigilância nacional das doenças raras, feito pela Secretaria de Saúde do Piauí."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A doença mata e há gente sem nenhum tratamento",
+   "statement_plain": "A amiloidose hereditária atinge milhares de brasileiros e mata. Quem chega à fase 2 perde a indicação do único remédio do SUS e fica sem nada.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b017c1",
+    "b025c3",
+    "b027c1",
+    "b006c2",
+    "b025c1"
+   ],
+   "note": "A ideia junta a médica do hospital universitário, o paciente e a epidemiologia de uma secretaria estadual de saúde, que vê o mesmo quadro pela ponta do sistema."
+  },
+  {
+   "id": "t2",
+   "title": "O SUS tem de incorporar os remédios já aprovados",
+   "statement_plain": "Os dois remédios estão aprovados desde 2020 e são usados no mundo inteiro. O SUS precisa oferecê-los a quem já não responde ao tratamento atual.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b019c1",
+    "b025c2",
+    "b029c1",
+    "b030c1",
+    "b023c3"
+   ],
+   "note": "A ideia cruza a médica que fez os ensaios clínicos, o paciente que os tomou, duas entidades de pacientes e a própria presidência da Comissão."
+  },
+  {
+   "id": "t3",
+   "title": "Primeiro é preciso saber quem são os pacientes",
+   "statement_plain": "Sem vigilância e acompanhamento, o Estado só descobre o paciente quando entrega o remédio e não sabe como ele vive. É isso que precisa ser organizado primeiro.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b027c2",
+    "b027c3",
+    "b028c2"
+   ],
+   "note": "Quem defende isto é uma secretaria estadual de saúde, e a presidência da Comissão adota a proposta como projeto de lei, mesmo discordando da prioridade."
+  },
+  {
+   "id": "t4",
+   "title": "Primeiro é preciso o remédio na mão do paciente",
+   "statement_plain": "Aprimorar as políticas é importante, mas o ponto central é o acesso ao medicamento. Sem ele, não há o que acompanhar.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b020c2",
+    "b028c1",
+    "b029c3"
+   ],
+   "note": "A presidência da Comissão e a federação de doenças raras sustentam a mesma prioridade, e a presidência fica dos dois lados desta divisão."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "amiloidose hereditária",
+   "plain": "doença genética em que uma proteína se acumula nos tecidos e vai danificando nervos, coração, intestino, olhos e rins",
+   "fala": "b001",
+   "sentence": 2
+  },
+  {
+   "term": "CONITEC",
+   "plain": "comissão que avalia e recomenda ao Ministério da Saúde quais tratamentos entram ou saem do SUS",
+   "fala": "b004",
+   "sentence": 9
+  },
+  {
+   "term": "custo-efetividade",
+   "plain": "conta que compara quanto custa um tratamento com o benefício que ele traz em relação ao que já existe",
+   "fala": "b004",
+   "sentence": 20
+  },
+  {
+   "term": "impacto orçamentário",
+   "plain": "estimativa de quanto o SUS gastaria a mais por ano se passasse a oferecer o tratamento",
+   "fala": "b004",
+   "sentence": 20
+  },
+  {
+   "term": "transtirretina",
+   "plain": "proteína produzida pelo fígado que, quando sofre mutação, se desfaz e se deposita nos tecidos, causando a doença",
+   "fala": "b004",
+   "sentence": 33
+  },
+  {
+   "term": "tafamidis",
+   "plain": "único remédio da doença já ofertado pelo SUS, indicado para o estágio inicial de quem não pode fazer transplante",
+   "fala": "b004",
+   "sentence": 36
+  },
+  {
+   "term": "inotersena",
+   "plain": "remédio para os estágios mais avançados da doença, aprovado no Brasil mas ainda fora do SUS, vendido como Tegsedi",
+   "fala": "b004",
+   "sentence": 37
+  },
+  {
+   "term": "patisirana",
+   "plain": "outro remédio para os estágios mais avançados, aprovado no Brasil mas ainda fora do SUS, vendido como Onpattro",
+   "fala": "b004",
+   "sentence": 50
+  },
+  {
+   "term": "multissistêmica",
+   "plain": "que atinge vários órgãos e sistemas do corpo ao mesmo tempo",
+   "fala": "b006",
+   "sentence": 25
+  },
+  {
+   "term": "PCDT",
+   "plain": "sigla de protocolo clínico e diretrizes terapêuticas, o documento que diz qual tratamento o SUS oferece em cada fase da doença",
+   "fala": "b017",
+   "sentence": 61
+  },
+  {
+   "term": "Onpattro",
+   "plain": "nome comercial do patisiran, aprovado desde 2020 para os estágios 1 e 2 da doença",
+   "fala": "b019",
+   "sentence": 1
+  },
+  {
+   "term": "Tegsedi",
+   "plain": "nome comercial do inotersen, aprovado desde 2020 para os estágios 1 e 2 da doença",
+   "fala": "b019",
+   "sentence": 1
+  },
+  {
+   "term": "judicialização",
+   "plain": "quando o paciente vai à Justiça para obter o tratamento que o SUS não oferece, e o governo acaba pagando por decisão judicial",
+   "fala": "b029",
+   "sentence": 37
+  },
+  {
+   "term": "PAF",
+   "plain": "sigla de polineuropatia amiloidótica familiar, o nome da forma da doença que atinge os nervos",
+   "fala": "b029",
+   "sentence": 48
+  }
+ ]
+}

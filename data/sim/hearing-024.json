@@ -1,0 +1,3119 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 24,
+ "model": "LLM lendo o prompt hearing-024 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T04:01:53Z",
+ "prompt_sha256": "d58e823af3ed38adccb89c492f9a7b5f2d8a19992570d64724155e994bd088be",
+ "sentences_hash": "c4fbd4dd0601be4c",
+ "review": {
+  "pairs_read": 70,
+  "pairs_fixed": 8
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t5: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Educação debateu a queda na oferta de filosofia e sociologia na educação básica depois da reforma do ensino médio de 2017, com professores, estudantes, entidades e representantes do MEC, do Inep e do Ministério dos Direitos Humanos. A sala pediu a revogação da reforma e a obrigatoriedade das duas disciplinas da creche ao ensino médio. A presidência propôs um seminário, uma frente parlamentar e uma carta ao Senado.",
+ "stakes": "Estava em jogo o que a Câmara levaria ao Senado sobre o lugar de filosofia e sociologia no projeto que refaz a reforma do ensino médio.",
+ "central_question": "Filosofia e sociologia devem voltar a ser disciplinas obrigatórias em toda a educação básica?",
+ "synopsis_plain": "Professores, estudantes e entidades contaram na Comissão de Educação como as aulas de filosofia e sociologia encolheram nas escolas públicas depois da reforma do ensino médio de 2017. Quase todos pediram a revogação da reforma e aulas das duas matérias desde os primeiros anos da escola. O Ministério da Educação respondeu que o novo projeto já recoloca as duas disciplinas.",
+ "stakes_plain": "O que a Câmara vai levar ao Senado sobre o lugar de filosofia e sociologia no projeto que refaz a reforma do ensino médio.",
+ "central_question_plain": "Filosofia e sociologia devem ser matérias obrigatórias em toda a escola básica?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Revogação da reforma do ensino médio",
+   "description": "Discute-se se a reforma de 2017 deve ser revogada por inteiro ou corrigida pelo projeto que está em análise no Senado.",
+   "axis": {
+    "pro": "A reforma do ensino médio tem de ser revogada integralmente.",
+    "contra": "Basta corrigir a reforma pelo novo projeto em análise no Senado.",
+    "pro_plain": "A regra de 2017 precisa cair inteira, porque foi ela que tirou as matérias da escola.",
+    "contra_plain": "Não é preciso derrubar tudo, porque o novo projeto já devolve as matérias ao currículo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Disciplina própria ou tema transversal",
+   "description": "Discute-se se filosofia e sociologia devem ter aula e carga horária próprias ou entrar como conteúdo espalhado dentro de outras matérias.",
+   "axis": {
+    "pro": "As duas têm de ser disciplinas obrigatórias, com carga horária própria.",
+    "contra": "O conteúdo das duas pode entrar de forma transversal, dentro das outras disciplinas.",
+    "pro_plain": "Filosofia e sociologia precisam de aula própria no horário, com professor formado na área.",
+    "contra_plain": "O conteúdo das duas pode ser dado dentro das outras matérias, sem aula separada."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Ampliação para o ensino fundamental",
+   "description": "Discute-se levar filosofia e sociologia para além do ensino médio, do ensino fundamental à creche.",
+   "axis": {
+    "pro": "A obrigatoriedade deve valer da creche ao ensino médio.",
+    "contra": "Levar as duas para toda a educação básica exige um longo processo de readequação.",
+    "pro_plain": "As crianças também precisam pensar e discutir, e isso começa muito antes do ensino médio.",
+    "contra_plain": "Ampliar agora esbarra na falta de professores e de estrutura, e leva anos para funcionar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Formação e carreira dos professores",
+   "description": "Discute-se por que faltam professores nas salas de filosofia e sociologia: se é falta de gente formada ou falta de concurso e de carreira.",
+   "axis": {
+    "pro": "Professores formados existem, o que falta é concurso público e carreira.",
+    "contra": "Não há contingente formado e disponível, porque a carreira não atrai ninguém.",
+    "pro_plain": "As universidades formam professores todo semestre, mas os estados não abrem concurso e contratam por tempo curto.",
+    "contra_plain": "Falta gente formada e disposta, porque a carreira de professor paga mal e não atrai."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Currículo científico e itinerários",
+   "description": "Discute-se o que entrou no lugar das disciplinas científicas nos novos currículos e o que a escola deve ensinar.",
+   "axis": {
+    "pro": "Os itinerários esvaziaram o currículo científico e tiraram da escola o que as provas cobram.",
+    "contra": "O currículo tem de se ajustar à realidade de cada região e ao mundo do trabalho.",
+    "pro_plain": "Aula de brigadeiro e de origami no lugar de matéria científica deixa o aluno sem o que cai no Enem.",
+    "contra_plain": "Cada cidade tem uma realidade, e o currículo precisa conversar com ela e com o trabalho que existe lá."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Educação como disputa política",
+   "description": "Discute-se por que filosofia e sociologia são as primeiras matérias atacadas a cada momento autoritário da história do país.",
+   "axis": {
+    "pro": "Tirar filosofia e sociologia da escola faz parte de um projeto político de controle.",
+    "contra": "A saída das duas do currículo é uma decisão técnica de organização das aulas.",
+    "pro_plain": "Toda vez que a democracia apanha no Brasil, essas duas matérias somem da escola primeiro.",
+    "contra_plain": "As matérias saíram por uma escolha técnica de currículo, sem nada de político por trás."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Interesse privado na educação pública",
+   "description": "Discute-se quem desenha a política educacional: os servidores públicos ou as fundações e empresas que orbitam os ministérios e as secretarias.",
+   "axis": {
+    "pro": "Fundações e empresários cercam a educação pública, drenam o dinheiro e desenham a política.",
+    "contra": "Quem faz a política são servidores públicos, e o governo está reconstruindo o que foi destruído.",
+    "pro_plain": "Empresas e institutos privados ficam em volta do dinheiro da escola pública e mandam no que se decide.",
+    "contra_plain": "Quem toca a política são servidores de carreira, num governo que ainda está remontando o que acharam destruído."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidente da audiência, autora do requerimento",
+   "org": "Câmara dos Deputados",
+   "basis": "abre os trabalhos e diz ser autora do requerimento em b001.2 e b001.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Educação da Câmara dos Deputados, que analisa os projetos de educação"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "presidente da APROFFIB",
+   "org": "APROFFIB",
+   "basis": "apresentada pela presidência em b001.41",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Aproffib, a associação dos professores de filosofia",
+   "org_plain": "associação que reúne os professores de filosofia e os filósofos do Brasil"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "deputado estadual, membro da Comissão de Educação",
+   "org": "Assembleia Legislativa de São Paulo",
+   "basis": "apresentado pela presidência em b001.33, participando de forma virtual",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "deputado estadual pelo PSOL de São Paulo",
+   "org_plain": "casa onde os deputados estaduais fazem as leis do estado de São Paulo"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "vice-presidente da CNTE",
+   "org": "CNTE",
+   "basis": "apresentada pela presidência em b001.33 e em b007.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da CNTE, a confederação dos trabalhadores em educação",
+   "org_plain": "confederação que reúne os sindicatos de professores e funcionários das escolas públicas"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "presidente da UPES",
+   "org": "UPES",
+   "basis": "apresentada pela presidência em b001.38, participando pelo Zoom",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da União Paulista dos Estudantes Secundaristas",
+   "org_plain": "entidade que representa os estudantes do ensino médio e técnico de São Paulo"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "coordenador-geral de Estratégia de Educação Básica",
+   "org": "MEC",
+   "basis": "apresentado pela presidência em b001.39 e em b011.4",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Educação",
+   "org_plain": "ministério que define as diretrizes da educação e distribui o livro didático"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "presidente da ABECS",
+   "org": "ABECS",
+   "basis": "apresentada pela presidência em b001.46, participando de forma virtual",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Abecs, a associação de ensino de ciências sociais",
+   "org_plain": "associação que reúne quem pesquisa e ensina sociologia na escola"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "vereador, membro da Comissão de Educação",
+   "org": "Câmara Municipal de São Paulo",
+   "basis": "apresentado pela presidência em b001.47",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "vereador em São Paulo",
+   "org_plain": "casa onde os vereadores fazem as leis da cidade de São Paulo"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "coordenadora-geral do Sistema Nacional de Avaliação da Educação Básica",
+   "org": "INEP",
+   "basis": "apresentada pela presidência em b001.37, participando de forma virtual",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Inep",
+   "org_plain": "instituto federal que faz o Enem, as provas do Saeb e o censo escolar"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "coordenadora do Comitê de Pesquisa e Ensino de Sociologia",
+   "org": "SBS",
+   "basis": "apresentada pela presidência em b001.47 e em b019.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Sociedade Brasileira de Sociologia",
+   "org_plain": "entidade nacional que reúne sociólogos e pesquisadores da área"
+  },
+  "s11": {
+   "role": "governo",
+   "cargo": "coordenador-geral de educação e cultura em direitos humanos",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentado pela presidência em b001.40 e em b021.2",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos",
+   "org_plain": "ministério que cuida das políticas de direitos humanos e de cidadania"
+  },
+  "s12": {
+   "role": "sociedade_civil",
+   "cargo": "vice-presidente da APROFFIB",
+   "org": "APROFFIB",
+   "basis": "apresentado pela presidência em b001.45, participando de forma virtual",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Aproffib, a associação dos professores de filosofia",
+   "org_plain": "associação que reúne os professores de filosofia e os filósofos do Brasil"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "professor do Departamento de Filosofia da UnB, representando a ANPOF",
+   "org": "ANPOF",
+   "basis": "presença anunciada em b011.3 e cargo dito por ele em b026.4 e b026.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Anpof, a associação da pós-graduação em filosofia",
+   "org_plain": "associação que reúne os programas de pós-graduação em filosofia do país"
+  },
+  "s14": {
+   "role": "sociedade_civil",
+   "cargo": "representante do Fórum Nacional de Docentes de Filosofia da Rede Federal",
+   "org": "Fórum Nacional de Docentes de Filosofia da Rede Federal",
+   "basis": "presença anunciada em b011.3 e apresentado em b027.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do fórum dos professores de filosofia dos institutos",
+   "org_plain": "fórum criado em 2021 que reúne os professores de filosofia dos institutos federais"
+  },
+  "s15": {
+   "role": "sociedade_civil",
+   "cargo": "vice-diretor do Instituto de Ciências Humanas da UnB",
+   "org": "UnB",
+   "basis": "apresentado pela presidência em b029.11",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "professor de filosofia da Universidade de Brasília",
+   "org_plain": "universidade federal de Brasília, onde se formam professores de filosofia e ciências sociais"
+  },
+  "s16": {
+   "role": "sociedade_civil",
+   "cargo": "professor e representante da ABECS",
+   "org": "ABECS",
+   "basis": "apresentado pela presidência em b031.4 e citado em b014.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Abecs, a associação de ensino de ciências sociais",
+   "org_plain": "associação que reúne quem pesquisa e ensina sociologia na escola"
+  },
+  "s17": {
+   "role": "sociedade_civil",
+   "cargo": "coordenador dos estágios supervisionados de filosofia da UnB",
+   "org": "UnB",
+   "basis": "apresentado pela presidência em b033.2 e cargo dito por ele em b034.13",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Universidade de Brasília, na formação de professores",
+   "org_plain": "universidade federal de Brasília, onde se formam professores de filosofia e ciências sociais"
+  }
+ },
+ "audience": {
+  "estimate": 80,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.75
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "b008.6 diz que o fundo da sala está repleto de estudantes, b015.1 registra quase 300 pessoas pelo Youtube e há palmas em quase todas as falas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Abre a audiência dizendo que o ensino de filosofia e sociologia é um direito e que tirá-lo do currículo reforça as desigualdades entre a escola pública e a privada.",
+   "quote": [
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O ensino de filosofia e sociologia é um direito dos estudantes e uma ferramenta contra a desigualdade.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ensino de filosofia e sociologia é um direito do estudante e o caminho para a formação crítica e a igualdade social",
+     "plain": "Este debate trata das aulas de filosofia e sociologia na escola básica como um direito dos nossos estudantes. São um caminho para alcançarmos a igualdade social e uma formação crítica, capaz de entender como o país se construiu."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      14
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a opção por não ensinar filosofia e sociologia reforça as desigualdades econômicas, raciais e geográficas do país",
+     "plain": "Vamos debater também em que medida a escolha de não ensinar filosofia e sociologia reforça as nossas desigualdades econômicas, raciais e geográficas. E o quanto isso é diferente na escola pública e na escola privada."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a proposta de reformulação do ensino médio está no Senado e a audiência pode levar contribuições à relatora",
+     "plain": "No Senado tramita uma proposta de reformulação do ensino médio. Podemos pensar aqui em contribuições para essa proposta e levá-las até a senadora que é relatora do texto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende a obrigatoriedade do ensino de filosofia do básico ao superior e diz que a associação quer a disciplina desde a creche.",
+   "quote": [
+    44,
+    45
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A filosofia tem de ser obrigatória em toda a vida escolar, desde a creche.",
+    "sentence": 44
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um povo com pouca ou nenhuma filosofia aceita docilmente a dominação de classe, achando que tudo está certo",
+     "plain": "Aqui no Brasil essa luta é antiga, e nunca foi uma escolha, e sim uma necessidade. Um povo com pouca ou nenhuma filosofia costuma aceitar sem reagir a dominação de classe, achando que tudo está certo."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a associação luta desde a fundação pela obrigatoriedade da filosofia, do ensino básico ao universitário",
+     "plain": "A Aproffib encarou essa luta desde que foi fundada e defende a obrigatoriedade do ensino de filosofia, do ensino básico ao universitário. Sempre houve tensão, porque sempre houve campanha contra a filosofia."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a filosofia não pode ficar só no ensino médio, ela tem de estar desde o fundamental e desde a creche",
+     "plain": "Nós não queremos filosofia só no ensino médio. Queremos desde o ensino fundamental e, mais ainda, desde a creche. Sem filosofia não existe pensamento nem reflexão, e não há como mudar este mundo."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Lembra que a ditadura tirou filosofia e sociologia da lei da educação em 1971 e descreve os ataques à escola pública em São Paulo.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O currículo é onde se decide que sociedade a escola vai formar.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "foi em 1971, na reforma do golpe militar, que filosofia e sociologia saíram da lei da educação",
+     "plain": "Foi em 1971, com a reforma feita pelo golpe militar, que o ensino de filosofia e sociologia saiu da lei da educação. Toda educação carrega um projeto de sociedade, e é no currículo que esse projeto se organiza."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em São Paulo houve até uma tentativa de retirar os livros didáticos dos estudantes, revertida por uma ação popular",
+     "plain": "Com a eleição da extrema direita em São Paulo, os ataques se aprofundaram, com mais mecanismos de controle e fiscalização. Houve até a tentativa de tirar os livros didáticos dos estudantes, revertida por uma ação popular."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Mostra que os governos autoritários sempre atacaram as duas disciplinas e denuncia que São Paulo já reduziu as aulas antes mesmo da reforma nacional.",
+   "quote": [
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As duas disciplinas precisam ficar no currículo, com a carga horária que sempre tiveram ou maior.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as duas disciplinas sempre foram atacadas por governos autoritários, e a ditadura as trocou por Educação Moral e Cívica e OSPB",
+     "plain": "Essas duas áreas sempre foram atacadas pelos governos autoritários, sobretudo na ditadura militar. As reformas dos generais tiraram as duas do currículo escolar e puseram no lugar Educação Moral e Cívica e OSPB."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o secretário de São Paulo cortou filosofia e sociologia no médio e história no fundamental, e pôs educação financeira no lugar",
+     "plain": "O secretário reduziu as aulas de filosofia e sociologia no ensino médio e também as de história no fundamental. No lugar delas, entraram educação financeira e ensino religioso."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há um projeto pronto para votar na Assembleia de São Paulo que torna a filosofia obrigatória no ensino fundamental da rede estadual",
+     "plain": "O professor Aldo trouxe à Assembleia de São Paulo um projeto que torna obrigatória a filosofia no ensino fundamental da rede estadual. Ele já passou por todas as comissões e está pronto para ser votado no plenário."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o deputado conte que deu aula de OSPB quando veio o golpe militar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata que deu aula de OSPB e de Educação Moral e Cívica na ditadura e que usava um livro sobre reforma agrária para subverter o conteúdo.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Mesmo nas disciplinas criadas pela ditadura, era possível formar os alunos criticamente.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele se formou em história com habilitação em OSPB e Educação Moral e Cívica e chegou a ser nomeado orientador da disciplina",
+     "plain": "Eu dei aula de OSPB e de Educação Moral e Cívica. Quando fiz história, no início dos anos 80, saí com habilitação nas três para a rede estadual. Havia até um cargo de orientador de Educação Moral e Cívica, e fui nomeado para ele."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o livro de OSPB do Frei Betto falava de reforma agrária e permitia trabalhar contra a ideologia de segurança nacional",
+     "plain": "Usávamos bastante um livro de OSPB do Frei Betto, dos anos 80, que era uma subversão total. O livro falava de reforma agrária. Assim fazíamos o contrário da ideologia de segurança nacional, formando os alunos de forma crítica."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Marlei Fernandes, vice-presidente da CNTE.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Comemora o retorno das 2.400 horas de formação geral, cobra duas aulas por ano em cada série e mostra os números da precarização dos professores.",
+   "quote": [
+    29
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso romper com os itinerários e devolver as disciplinas científicas ao currículo.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      25
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o retorno das 2.400 horas de formação geral permite retomar as disciplinas científicas e sair dos itinerários",
+     "plain": "Com a Lei nº 13.415, de 2017, veio a nova lei do ensino médio. Um avanço acolhido agora é o retorno das 2.400 horas de formação geral básica, para retomar as disciplinas científicas e sair de itinerários como o de fazer brigadeiro."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      29
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso ter no mínimo duas aulas em cada ano, porque com uma aula por semana não se trabalha o conteúdo",
+     "plain": "No Paraná defendemos que a grade tenha, no mínimo, duas aulas em cada ano do período letivo. Está mais do que comprovado que, com uma aula por semana, é quase impossível trabalhar o conteúdo e fazer um debate de verdade."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "81% da formação em licenciatura é a distância e 60% dos professores da educação básica têm contrato temporário",
+     "plain": "Hoje 81% da formação em licenciaturas é a distância, e 60% dos professores da educação básica estão em contrato temporário. Não dá para fazer educação de qualidade assim, e Minas Gerais é a recordista, com 80%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Lembra que uma das primeiras medidas do golpe de 64 foi prender e exilar Paulo Freire e aponta a criminalização recorrente de professores e estudantes.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Há uma relação direta entre educação e poder, e por isso a escola é atacada.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "num país marcado pelo autoritarismo, todo golpe também é educacional, e o de 64 começou prendendo e exilando Paulo Freire",
+     "plain": "Num país marcado pelo autoritarismo, todo golpe político e econômico é também um golpe educacional. Entre as primeiras medidas do golpe de 64 estiveram a prisão e depois o exílio do educador Paulo Freire."
+    },
+    {
+     "id": "b009c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há uma tentativa recorrente de criminalizar os profissionais da educação e o movimento estudantil",
+     "plain": "Existe uma tentativa recorrente de criminalizar os profissionais da educação e também o movimento estudantil. Ontem, nesta comissão, derrotamos mais uma vez dois requerimentos que tentavam criminalizar um movimento estudantil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que o novo ensino médio trocou matérias essenciais por aulas de bolo de pote e defende a revogação integral da reforma.",
+   "quote": [
+    39,
+    40
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A reforma do ensino médio tem de ser revogada por inteiro.",
+    "sentence": 33
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o novo ensino médio tira matérias essenciais e põe no lugar aulas de bolo de pote, brigadeiro caseiro, mandala e origami",
+     "plain": "O novo ensino médio tira matérias essenciais para a nossa formação e inclui aula de bolo de pote e de brigadeiro caseiro. Em São Paulo já encontramos escolas com aula de mandala e de origami como itinerário."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      33
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os estudantes defendem que a reforma do ensino médio seja revogada integralmente",
+     "plain": "Portanto, nós defendemos que a reforma do ensino médio seja revogada por inteiro."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no primeiro ano há três aulas de filosofia por semana, no segundo nenhuma e no terceiro às vezes uma",
+     "plain": "Queremos aula de sociologia e de filosofia, porque o que acontece nas escolas públicas do nosso estado é um absurdo. A turma do primeiro ano tem três aulas de filosofia, o segundo ano não tem nenhuma e o terceiro, às vezes, tem uma."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a presença da ANPOF, do fórum dos institutos federais e da UnB e passa a palavra ao MEC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o projeto do governo recoloca as duas disciplinas, alerta que a carreira não atrai profissionais e lembra o debate sobre tratá-las de forma transversal.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O projeto do governo já recoloca filosofia e sociologia no ensino médio.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o projeto de lei do governo recoloca sociologia e filosofia no ensino médio e o novo livro didático já prevê obras das duas",
+     "plain": "O PL 5.230/23 devolve ao ensino médio as disciplinas de sociologia e filosofia. O novo programa do livro didático já prevê obras das duas áreas."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      34,
+      35
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "mesmo com a obrigatoriedade na rede, a carreira não é atrativa, e em Santa Catarina o licenciado só encontra contrato temporário",
+     "plain": "No meu estado, Santa Catarina, vários alunos se formam licenciados em filosofia e em ciências sociais, e o que sobra para eles são contratos temporários na rede ou ajudar o pai no comércio. Mesmo com a obrigatoriedade, a carreira não atrai."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há décadas se discute pensar filosofia e sociologia não só como disciplinas, mas como componentes transversais",
+     "plain": "Quando comecei essas discussões, no setorial de educação do PT, já debatíamos se filosofia e sociologia deveriam ser apenas disciplinas ou também componentes transversais. Resoluções que formulamos no CNE tinham esse princípio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que o diálogo com o MEC é decisivo e passa a palavra à presidente da ABECS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra que a sociologia cai no Enem e que, em vez de ampliar, os estados apagam as duas disciplinas, e cobra concurso público em vez de notório saber.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A obrigatoriedade de sociologia e filosofia precisa ser retomada e ampliada.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a sociologia é cobrada no Enem e, mesmo assim, as duas vêm sendo apagadas do currículo em vários estados",
+     "plain": "A sociologia aparece de forma expressiva no conteúdo do Enem e em outros exames de entrada no ensino superior. Mesmo assim, em vez de ampliar a nossa presença, estamos sendo apagados do currículo no Paraná, no Rio, em São Paulo e em Goiás."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Aracaju uma lei de 1990 manda ensinar as duas no fundamental e até 2024 nada foi feito, e o concurso atual nem prevê as disciplinas",
+     "plain": "Em Aracaju existe uma lei orgânica de 1990 que torna as duas disciplinas obrigatórias no ensino fundamental. Até hoje, e estamos em 2024, ela não foi cumprida. E há um concurso em curso que nem contempla essas duas áreas."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      51,
+      52
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os notórios saberes atuam sem formação na área, e isso não acontece por falta de professores formados",
+     "plain": "Ampliando os concursos, resolvemos um problema antigo, o do professor sem licenciatura, o chamado notório saber, dando aula na nossa disciplina. E não é por falta de professor formado, porque as licenciaturas formam."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência saúda as quase 300 pessoas que acompanham pela internet e passa a palavra ao vereador Celso Giannazi.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Conta que a Câmara Municipal arquivou o Escola Sem Partido e apresentou projeto para levar a filosofia ao ensino fundamental e à educação de jovens e adultos.",
+   "quote": [
+    36,
+    37
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A filosofia e a sociologia têm de chegar ao ensino fundamental e à educação de jovens e adultos.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Escola Sem Partido atacou a liberdade de cátedra e foi arquivado tanto na Câmara Municipal quanto na Assembleia de São Paulo",
+     "plain": "Não podemos esquecer o Escola Sem Partido, um movimento que atacou os professores e a liberdade de cátedra. Na Câmara Municipal conseguimos arquivar de vez esse projeto, e na Assembleia de São Paulo o arquivamento também foi conquistado."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há na Câmara Municipal de São Paulo um projeto para levar a filosofia ao ensino fundamental, e também se discute incluí-la na EJA",
+     "plain": "Depois de discutir com a Aproffib, apresentamos na Câmara Municipal um projeto de lei para levar a filosofia ao ensino fundamental. E discutimos incluí-la também na EJA, a educação de jovens e adultos."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá para falar de educação financeira com a criança de território vulnerável, o que ela precisa é de pensamento crítico",
+     "plain": "Não adianta falar de educação financeira com uma criança que mora em território de extrema vulnerabilidade. O que precisamos levar a ela, já nessa idade, é o pensamento crítico, e ela tem condições para isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Inep e lembra que o censo escolar mostra uma situação desafiadora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica que o Saeb passou a avaliar ciências humanas no quinto e no nono ano e que o mesmo modelo chegará ao ensino médio.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As ciências humanas passaram a ser avaliadas pelo Saeb e terão histórico próprio.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Saeb existe desde os anos 90, mas por muito tempo avaliou só língua portuguesa e matemática",
+     "plain": "O Saeb existe desde os anos 90, mas ficou muito tempo dedicado a avaliar só língua portuguesa e matemática. Depois da divulgação da Base Nacional Comum Curricular, em 2017, assumimos o compromisso de representar as áreas do conhecimento."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a avaliação de ciências humanas foi implantada no quinto e no nono ano do fundamental e vai se repetir no ensino médio",
+     "plain": "Houve a implantação da avaliação de ciências humanas e de ciências da natureza no quinto ano e no nono ano do ensino fundamental. Essa proposta vai se repetir também no ensino médio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à Sociedade Brasileira de Sociologia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Recupera a trajetória da sociologia no currículo, do corte de 1942 ao veto de 2001, e alerta para o esvaziamento científico da escola.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A sociologia passou mais tempo fora do currículo do que dentro dele, e isso precisa mudar.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a sociologia entra e sai do currículo desde que a Reforma Capanema a retirou em 1942, e ficou mais tempo ausente do que presente",
+     "plain": "A sociologia tem no currículo uma trajetória que chamamos de intermitência: há momentos em que ela está e momentos em que ela não está. Somando, foi mais tempo ausente do que presente. Ela sai em 1942, com a Reforma Capanema."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      21
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a obrigatoriedade chegou a ser aprovada pelo Congresso em 2001 e foi vetada sob a alegação de que faltavam profissionais",
+     "plain": "Levou tempo, mas fomos vitoriosos: o Congresso aprovou a obrigatoriedade em 2001. Fernando Henrique Cardoso vetou o texto, alegando que não havia profissionais suficientes para essas disciplinas nos sistemas de ensino."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      40,
+      41
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o esvaziamento da ciência na formação das juventudes é grave e o Parlamento precisa se posicionar de forma articulada",
+     "plain": "O que enfrentamos hoje no currículo é muito grave: a ciência vai sumindo da formação das nossas juventudes. O Parlamento tem de se posicionar e discutir isso de forma muito mais articulada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao Ministério dos Direitos Humanos e da Cidadania.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Apresenta a parceria entre os dois ministérios para proteger professores perseguidos e pede aos estudantes que não desistam.",
+   "quote": [
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado precisa proteger e acolher os professores perseguidos.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      13
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um investimento de mais de meio milhão, em parceria entre os dois ministérios, para proteger e acolher professores perseguidos",
+     "plain": "É um investimento de mais de meio milhão, numa parceria dos dois ministérios, o dos Direitos Humanos e o da Educação. Há também uma campanha no Dia dos Professores para mostrar a entrada do ministério na proteção a quem é perseguido."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os estudantes não devem desistir, porque quem está nesta sala é fruto da luta de quem veio antes",
+     "plain": "Vocês ouviram todas essas tragédias, e eu queria fazer um pedido aos alunos, em nome do ministério: não desistam. Quem está nesta sala é fruto da luta dos que vieram antes de nós, e abriram esse caminho."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Diz que o observatório contra a perseguição a professores sinaliza o fim da tolerância à censura e que defender as duas disciplinas é defender o direito à verdade.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Defender filosofia e sociologia é defender o direito à verdade sobre a nossa história.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      5
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o observatório de violência e perseguição contra professores sinaliza que o Estado não vai tolerar censura na escola pública",
+     "plain": "Criar e instalar esse observatório de violência e perseguição contra os professores é um avanço. É a sinalização objetiva do Estado brasileiro de que não vamos tolerar nenhum tipo de censura nem de silenciamento na escola pública."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "defender filosofia e sociologia é defender o direito à verdade sobre a nossa história e o nosso passado",
+     "plain": "Defender filosofia e sociologia é defender o direito à verdade: a verdade da nossa história e do nosso passado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Cobra do MEC uma explicação sobre a transversalidade, diz que revogar o novo ensino médio exige mudar o rumo do ministério e denuncia as fundações que cercam o órgão.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O MEC precisa mudar de orientação e se afastar das fundações privadas.",
+    "sentence": 35
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os professores de filosofia lutaram contra o componente transversal e consideram esse debate superado",
+     "plain": "Eu queria depois entender a fala do representante do MEC, porque nós lutamos contra esse debate do componente transversal. Para nós é um debate superado, mas queremos entender qual é a dinâmica e qual é o objetivo."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para revogar o novo ensino médio é preciso mudar a orientação do que se faz hoje no MEC",
+     "plain": "Para revogar o novo ensino médio, apesar de estarmos dizendo aqui que está tudo bonito, é preciso mudar a orientação do que acontece hoje no MEC. Não dá para convivermos com o que está aí."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em torno do MEC há fundações e bancos disputando o dinheiro público destinado à escola pública",
+     "plain": "Em torno do MEC há verdadeiros sanguessugas disputando o dinheiro público. São nomes como o Itaú, o Unibanco, a Natura, a Fundação Lemann e o Instituto Ayrton Senna. Estão lá drenando o dinheiro destinado à escola pública."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre as inscrições do plenário e chama o representante da ANPOF.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que o país já tem 54 programas de pós-graduação em filosofia e programas de formação docente que não existiam quando a obrigatoriedade foi vetada.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O país já formou a estrutura de professores de filosofia que faltava há vinte anos.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Anpof reúne 54 programas de pós-graduação em filosofia, e o Prof-Filo forma professores em rede com 25 instituições",
+     "plain": "A Anpof reúne 54 programas de pós-graduação em filosofia e mais de 70 grupos de trabalho. Entre eles está o Prof-Filo, um mestrado profissional em rede que junta 25 instituições e é voltado para a formação de professores."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o quadro de hoje é muito diferente do que existia no tempo do veto, com Reuni, livro didático, Pibid e Residência Pedagógica",
+     "plain": "O quadro do ensino de filosofia hoje é bem diferente daquele que existia quando o presidente vetou as disciplinas no ensino médio. Temos o Reuni, que interiorizou as universidades, o livro didático, o Pibid e a Residência Pedagógica."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nos últimos anos houve mais pesquisa sobre ensino de filosofia do que em toda a história do país",
+     "plain": "O volume de pesquisa sobre ensino de filosofia na pós-graduação mudou de forma significativa, graças a esses programas. Nesses últimos anos tivemos mais pesquisa nesse campo do que em toda a história do país."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o representante do fórum de docentes de filosofia dos institutos federais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende que não há educação profissional sem ensino integrado e que por isso a reforma precisa ser revogada nessa estrutura.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem ensino médio integrado não há educação profissional, e a reforma precisa cair.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dos 680 campi dos institutos federais, mais de quatrocentos aderiram à greve dos professores",
+     "plain": "Estamos sendo acompanhados por muitos professores dos institutos federais, embora quase todos estejam na greve. Dos 680 campi que temos hoje, quatrocentos e poucos aderiram a esse processo de greve."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há educação profissional sem ensino integrado, e por isso é preciso revogar o ensino médio nessa estrutura",
+     "plain": "É impossível fazer educação profissional neste país sem uma educação integrada, e não como itinerário formativo. Por isso é preciso revogar o ensino médio nesse desenho que existe, senão teremos uma educação dualista."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem filosofia e sociologia a educação fica aligeirada e defasada, e não serve à cultura nem à sociedade",
+     "plain": "É impossível falar de educação e fazer educação se não houver filosofia e sociologia. Sem elas, vai ser uma educação aligeirada e defasada, que não serve à cultura, não serve à sociedade nem à vida digna em que acreditamos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que a frente parlamentar levou à ministra as reivindicações dos docentes federais e cobrou a reestruturação dos planos de carreira.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A carreira dos docentes federais precisa ser reestruturada.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a frente parlamentar levou à ministra as reivindicações dos docentes federais e cobrou planos de carreira e condições de trabalho",
+     "plain": "Fomos levar de novo à ministra as reivindicações dos trabalhadores e docentes dos institutos e das universidades federais. A cobrança foi por reestruturação dos planos de carreira, condições de trabalho e valorização."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que a filosofia é área básica do conhecimento, serve ao mundo do trabalho e não pertence a partido nenhum.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A filosofia é um conhecimento básico, útil inclusive para o mundo do trabalho.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a filosofia é uma área básica do conhecimento, que ensina a conceituar, a analisar uma ideia e a examinar um argumento",
+     "plain": "A filosofia é uma área básica do conhecimento. Ela trata de conceituar o que é uma coisa, o que é uma ideia e que fundamento essa ideia tem. E trata de analisar uma ideia, um argumento, uma razão."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "num mundo de extinção em massa de profissões, as habilidades básicas que a filosofia ensina fazem diferença no trabalho",
+     "plain": "A filosofia é um conhecimento que ajuda a entender o mundo do trabalho e a participar dele de várias formas. Vivemos hoje um mundo de extinção em massa de profissões, em que as habilidades básicas que ela ensina fazem diferença."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a filosofia não é uma área com partido e pode ajudar qualquer parlamentar a fundamentar melhor as próprias ideias",
+     "plain": "A filosofia pode ajudar os parlamentares a fazer melhor aquilo que já fazem, que é argumentar e defender ideias. Ela não é uma área do conhecimento que tem partido. Ela ajuda a fundamentar bem as ideias e a aprofundar as questões."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que aprovou uma audiência sobre o apagão de professores e chama o representante da ABECS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lembra que Florestan Fernandes já defendia o ensino de sociologia há 70 anos e alerta que movimentos conservadores chegaram a proibir a disciplina na Flórida.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O conhecimento da sociologia e da filosofia tem de ser de todos, não de uma elite.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 70 anos Florestan Fernandes escreveu que ensinar sociologia na escola básica fortalece a democracia",
+     "plain": "Florestan Fernandes escreveu, há 70 anos, um texto sobre a importância do ensino de sociologia na educação básica. Para ele, a sociologia tinha papel central para entender a sociedade moderna e fortalecer a democracia."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o conhecimento da sociologia e da filosofia não pode ficar restrito a uma elite cultural, ele deve ser de todos",
+     "plain": "O que a sociologia e a filosofia oferecem não pode ficar restrito a uma parte pequena da população, a uma elite cultural. Esse conhecimento deve ser de todos e de todas."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "movimentos conservadores combatem essas aulas, e no estado da Flórida o ensino de sociologia chegou a ser proibido",
+     "plain": "Há todo um combate de movimentos conservadores a essas aulas. O exemplo que eu trago é o estado da Flórida, que proibiu o ensino da sociologia justamente por ser um ensino com olhar crítico sobre a desigualdade social."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o coordenador dos estágios de filosofia da UnB.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Diz que o risco do não pensar é o que está em jogo e que foi isso que o Escola Sem Partido ameaçou.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A precariedade do pensamento é o risco que a escola precisa combater.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o risco do não pensar é o que está em jogo, e foi isso que a proposta do Escola sem Partido ameaçou",
+     "plain": "Já se falou aqui do risco que corremos com a famigerada proposta do Escola sem Partido, combatida por todos nós. Sabemos o risco do não pensar. A ausência ou a precariedade do pensamento nos levam a riscos que precisam ser enfrentados."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Propõe três encaminhamentos: um seminário de um dia, uma frente parlamentar em defesa das duas disciplinas e um projeto de lei sobre o tema.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A luta pelas duas disciplinas precisa de um seminário, de uma frente parlamentar e de um projeto de lei.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a audiência sai com a proposta de um seminário de um dia e de uma frente parlamentar em defesa das duas disciplinas",
+     "plain": "O primeiro encaminhamento é um seminário, com um dia inteiro dedicado ao tema, convidando amplamente as entidades de todo o país. Vou propor ainda a criação de uma frente parlamentar em defesa das duas disciplinas na educação básica."
+    },
+    {
+     "id": "b035c2",
+     "sentences": [
+      8
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há também um projeto de lei que busca garantir o ensino de filosofia e sociologia na educação básica",
+     "plain": "Temos também um projeto de lei, que depois vamos compartilhar com as entidades presentes, e que busca garantir o ensino da filosofia e da sociologia na educação básica."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b036",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Diz que pensar nunca foi tão perigoso no país e que a confederação segue na frente ampla de um governo de reconstrução da educação pública.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Este é um governo de reconstrução, e a defesa da educação pública se faz numa frente ampla.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a defesa da educação pública se faz numa frente ampla, num governo que está reconstruindo o que a educação perdeu",
+     "plain": "Estamos aqui numa frente muito ampla em defesa da educação pública e do pensamento crítico de Florestan Fernandes. É um governo de reconstrução das necessidades históricas que temos na educação pública do nosso país."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pensar nunca foi tão perigoso no país, e há tempos tentam criminalizar quem pensa pelo campo da crítica",
+     "plain": "Pensar nunca foi tão perigoso neste país. Há tempos tentam criminalizar quem pensa a partir da crítica. Mas nós resistimos, em cada espaço da nossa sociedade democrática."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à presidente da APROFFIB para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pede que o seminário seja marcado rapidamente e diz que a audiência selou um compromisso de continuidade entre entidades e parlamentares.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O debate precisa de continuidade imediata, começando pelo seminário.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as entidades e os parlamentares selaram hoje um compromisso de continuidade, e o seminário precisa ser marcado rápido",
+     "plain": "Eu creio que selamos hoje um compromisso, todos nós, as entidades e os parlamentares, de dar continuidade a esse debate, que é urgente. E creio que esse seminário precisa ser marcado rapidamente."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência consulta quem está no Zoom sobre as considerações finais e passa a palavra ao vereador.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Corrige a própria fala para lembrar que o Ministério dos Direitos Humanos também foi destruído e apoia os encaminhamentos da audiência.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Os dois ministérios estão sendo reconstruídos depois da destruição do governo anterior.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o Ministério dos Direitos Humanos também foi destruído no governo anterior e agora está sendo reconstruído",
+     "plain": "Na minha primeira fala eu falei da destruição do Ministério da Educação, mas o Ministério dos Direitos Humanos e da Cidadania também foi destruído no governo anterior. O ministro está fazendo um grande trabalho de reconstrução."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      11
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o seminário e os encaminhamentos são fundamentais para que a obrigatoriedade das duas disciplinas vire realidade no país",
+     "plain": "O seminário e os encaminhamentos que a deputada colocou são fundamentais, com a participação de educadores e estudantes de todo o Brasil, para que a obrigatoriedade do ensino de filosofia e sociologia vire realidade nos currículos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do MEC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b042",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Conta que encontrou os computadores da coordenação formatados e afirma que quem faz a política no ministério são servidores, sem outras influências.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Quem constrói a política no ministério são servidores públicos de carreira.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ao assumir setores do MEC, a equipe encontrou todos os computadores da coordenação formatados, sem nenhum histórico",
+     "plain": "Virar a página significa assumir alguns setores do MEC e descobrir que todos os computadores da coordenação-geral foram formatados. É ficar sem histórico, sem nenhum referencial de onde partir."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no ministério não existem outras influências, quem compõe e trabalha com afinco são os servidores públicos",
+     "plain": "Digo isso para reforçar o meu agradecimento aos servidores. Ali não existem outras influências. Quem compõe o Ministério da Educação são servidores, e eles trabalham com afinco."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do Ministério dos Direitos Humanos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s11",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Ministério dos Direitos Humanos agradece e encerra citando um filósofo e uma atriz sobre esperança.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao vice-presidente da APROFFIB, que participa de forma virtual.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Denuncia que a assessoria do secretário de Educação de São Paulo não tem ninguém da área e transformou a pasta num balcão de negócios.",
+   "quote": [
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Secretaria da Educação de São Paulo foi entregue a quem não é da educação.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há uma campanha em São Paulo para tirar o secretário da Educação, e na assessoria dele não há ninguém da área",
+     "plain": "Em São Paulo estamos fazendo uma ampla campanha para tirar o secretário Feder da Secretaria da Educação, porque ele já destruiu a educação em outros estados. Na assessoria dele não há ninguém da educação, muito menos ele."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      4
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a assessoria do secretário é formada por um auditor, uma executiva de negócios, uma administradora de empresa e um advogado empresarial",
+     "plain": "Na assessoria estão um auditor federal de finanças, uma secretária executiva de gestão de negócios, uma administradora de empresa e um advogado de direito empresarial. E ele, que transformou a secretaria num balcão de negócios."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à presidente da ABECS.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b048",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde ao pedido de sugestões defendendo a revogação aprovada na conferência e alerta que o projeto foi desenhado pelo empresariado.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 9,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A contribuição ao Senado deve ser a revogação aprovada na conferência de educação.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      3
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a contribuição ao Senado deve ser o que a conferência aprovou, a revogação da reforma do ensino médio",
+     "plain": "Respondendo ao pedido que a senhora fez no início, para sugestões ao projeto que está no Senado, é importante defender o documento base da Conae, que traz expressa a necessidade de revogar a reforma do ensino médio."
+    },
+    {
+     "id": "b048c2",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto do Executivo foi delineado pelo empresariado e não ouve os professores, mesmo com 85% dos alunos do ensino médio na rede estadual",
+     "plain": "É importante não deixar que esse projeto seja aprovado como está, porque ele foi bem delineado pelo empresariado, que não ouve quem dá aula na escola pública. E 85% dos estudantes do ensino médio estão na rede estadual."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à presidente da APROFFIB para uma complementação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b050",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidente da APROFFIB corrige a data do encontro da entidade e convida todos a acompanhar os canais da associação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe entregar uma carta ao Senado sobre a importância das duas disciplinas e encerra a audiência.",
+   "quote": [
+    0
+   ],
+   "covered": true,
+   "evidence": [
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A comissão deve entregar ao Senado uma carta em defesa das duas disciplinas.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b051c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a comissão deve entregar ao Senado uma carta sobre a importância do ensino de filosofia e sociologia",
+     "plain": "Acho que seria muito importante entregar ao Senado uma carta sobre a importância das aulas de filosofia e sociologia, nessa discussão que eles fazem sobre a farsa do novo ensino médio."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 1,
+   "from_claim": "b004c1",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "A presidência data o corte em 1971 e o deputado estadual completa o quadro: quem tirou as duas disciplinas foram as reformas dos generais, que puseram Moral e Cívica no lugar."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 21,
+   "from_claim": "b008c1",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "A CNTE dá o nome nacional ao que São Paulo já faz: no lugar das disciplinas científicas entram itinerários como o de ficar rico ou o de fazer brigadeiro."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 25,
+   "from_claim": "b010c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "A estudante confirma na sala de aula o que a confederação descreve no currículo: bolo de pote e brigadeiro caseiro ocupando o lugar das matérias."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 23,
+   "to_sentence": 33,
+   "from_claim": "b012c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "À exigência de revogar a reforma por inteiro, o MEC responde com o caminho do governo: o projeto que está no Senado já recoloca as duas disciplinas."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 52,
+   "to_sentence": 34,
+   "from_claim": "b014c3",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "O MEC diz que falta gente formada e carreira atrativa, e a Abecs responde que as licenciaturas formam professores todo semestre, o que falta é concurso."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 43,
+   "to_sentence": 44,
+   "from_claim": "b014c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O pedido de filosofia desde a creche encontra o caso de Aracaju, onde a lei do ensino fundamental existe desde 1990 e nunca saiu do papel."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 40,
+   "from_claim": "b014c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "O que a estudante conta da sua escola aparece no mapa da associação: são os mesmos estados onde a oferta das duas disciplinas foi cortada."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 44,
+   "from_claim": "b016c2",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O vereador transforma em projeto de lei o que a associação pede: filosofia no ensino fundamental, e também na educação de jovens e adultos."
+  },
+  {
+   "from": "b016",
+   "to": "b003",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 8,
+   "from_claim": "b016c1",
+   "to_claim": "b003c2",
+   "strength": "media",
+   "note": "Os dois relatam a mesma disputa em São Paulo e as derrotas impostas a ela, do arquivamento do Escola Sem Partido à ação que devolveu os livros didáticos."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 19,
+   "from_claim": "b018c2",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "A Abecs diz que a sociologia é cobrada nas provas de ingresso, e o Inep conta que as ciências humanas passaram a ser avaliadas também no Saeb."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 6,
+   "from_claim": "b020c1",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "A pesquisadora empurra a história para trás: antes da ditadura já havia um corte, o de 1942, o que faz do vaivém uma regra e não uma exceção."
+  },
+  {
+   "from": "b020",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 40,
+   "to_sentence": 13,
+   "from_claim": "b020c3",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "O que a estudante chama de absurdo na escola a socióloga chama de esvaziamento científico do currículo, e cobra posição do Parlamento."
+  },
+  {
+   "from": "b022",
+   "to": "b009",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 5,
+   "from_claim": "b022c1",
+   "to_claim": "b009c2",
+   "strength": "media",
+   "note": "À denúncia de criminalização dos professores, o Ministério dos Direitos Humanos responde com dinheiro em cima da mesa para proteger quem é perseguido."
+  },
+  {
+   "from": "b023",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 13,
+   "from_claim": "b023c1",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "A presidência lê o observatório anunciado pelo ministério como a sinalização de que o Estado não vai mais tolerar censura na escola pública."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 41,
+   "from_claim": "b024c1",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "O MEC reabre a ideia de tratar filosofia e sociologia como conteúdo transversal, e a Aproffib responde que lutou contra isso e considera o assunto encerrado."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 35,
+   "to_sentence": 23,
+   "from_claim": "b024c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Ao balanço do ministério, a associação responde que não basta o projeto: para revogar o novo ensino médio é preciso mudar o rumo do próprio MEC."
+  },
+  {
+   "from": "b026",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 21,
+   "from_claim": "b026c2",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "O veto de 2001 alegava falta de profissionais, e a Anpof mostra o que mudou desde então, do Reuni ao Pibid e à Residência Pedagógica."
+  },
+  {
+   "from": "b026",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 34,
+   "from_claim": "b026c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Contra o diagnóstico de que falta gente formada, a Anpof põe os números da pós-graduação em filosofia, com 54 programas e um mestrado em rede."
+  },
+  {
+   "from": "b028",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 33,
+   "from_claim": "b028c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O fórum dos institutos federais chega à mesma revogação por outro caminho: sem ensino integrado não existe educação profissional de verdade."
+  },
+  {
+   "from": "b028",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 25,
+   "from_claim": "b028c2",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Os dois atacam o mesmo desenho: a formação por itinerários, que a confederação quer trocar pelas disciplinas científicas e o fórum quer trocar pela educação integrada."
+  },
+  {
+   "from": "b030",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 34,
+   "from_claim": "b030c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "O MEC fala em mercado de trabalho e o professor da UnB vai pelo mesmo caminho: num tempo de extinção de profissões, o que a filosofia ensina conta no trabalho."
+  },
+  {
+   "from": "b032",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 14,
+   "from_claim": "b032c2",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A abertura falou da diferença entre a escola pública e a privada, e o pesquisador conclui que esse conhecimento não pode ficar restrito a uma elite."
+  },
+  {
+   "from": "b032",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 14,
+   "from_claim": "b032c1",
+   "to_claim": "b020c1",
+   "strength": "media",
+   "note": "À trajetória interrompida da sociologia o pesquisador junta a origem do argumento: Florestan Fernandes já defendia essa aula há 70 anos."
+  },
+  {
+   "from": "b034",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 11,
+   "from_claim": "b034c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "O vereador conta como o Escola Sem Partido foi arquivado, e o professor lembra o que estava em risco ali: a possibilidade de pensar dentro da sala."
+  },
+  {
+   "from": "b035",
+   "to": "b024",
+   "kind": "responde",
+   "from_sentence": 5,
+   "to_sentence": 65,
+   "from_claim": "b035c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À cobrança de continuidade feita pela associação, a presidência responde com três encaminhamentos: seminário, frente parlamentar e projeto de lei."
+  },
+  {
+   "from": "b036",
+   "to": "b009",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 5,
+   "from_claim": "b036c2",
+   "to_claim": "b009c2",
+   "strength": "media",
+   "note": "As duas descrevem a mesma ameaça: a tentativa de criminalizar quem pensa a partir da crítica, dentro e fora da escola."
+  },
+  {
+   "from": "b038",
+   "to": "b035",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 5,
+   "from_claim": "b038c1",
+   "to_claim": "b035c1",
+   "strength": "media",
+   "note": "A associação aceita o encaminhamento e acrescenta a urgência: o seminário proposto precisa de data marcada logo."
+  },
+  {
+   "from": "b040",
+   "to": "b035",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 5,
+   "from_claim": "b040c2",
+   "to_claim": "b035c1",
+   "strength": "media",
+   "note": "O vereador apoia o seminário e diz o que espera dele: transformar a obrigatoriedade das duas disciplinas em realidade nos currículos."
+  },
+  {
+   "from": "b040",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 13,
+   "from_claim": "b040c1",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "O vereador corrige a própria fala para dizer que o Ministério dos Direitos Humanos também foi destruído, e que é dessa reconstrução que saem essas ações."
+  },
+  {
+   "from": "b042",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 37,
+   "from_claim": "b042c2",
+   "to_claim": "b024c3",
+   "strength": "forte",
+   "note": "À denúncia de que fundações e bancos cercam o ministério, o coordenador responde que ali não existem outras influências, apenas servidores de carreira."
+  },
+  {
+   "from": "b042",
+   "to": "b036",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 0,
+   "from_claim": "b042c2",
+   "to_claim": "b036c1",
+   "strength": "media",
+   "note": "O ministério e a confederação se encontram na mesma leitura: este é um governo que está remontando o que encontrou destruído."
+  },
+  {
+   "from": "b046",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 20,
+   "from_claim": "b046c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "O corte das aulas em São Paulo e a composição da assessoria do secretário são apresentados como a mesma história, contada por dois lados."
+  },
+  {
+   "from": "b048",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 33,
+   "from_claim": "b048c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "A associação leva a exigência da estudante para dentro do texto: a sugestão ao Senado é a revogação aprovada na conferência de educação."
+  },
+  {
+   "from": "b048",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 23,
+   "from_claim": "b048c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "O MEC apresenta o projeto como a retomada das disciplinas, e a Abecs responde que o texto foi delineado pelo empresariado, sem ouvir quem dá aula."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b010",
+    "b028",
+    "b048",
+    "b051"
+   ],
+   "claims": [
+    "b010c2",
+    "b028c2",
+    "b048c1",
+    "b051c1"
+   ],
+   "note": "Estudantes, professores dos institutos federais, a associação de ciências sociais e a presidência da audiência pedem a revogação da reforma, e não o seu remendo."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b008",
+    "b030",
+    "b032",
+    "b035"
+   ],
+   "claims": [
+    "b002c2",
+    "b008c2",
+    "b030c1",
+    "b032c1",
+    "b035c1"
+   ],
+   "note": "Associações de professores, a confederação dos trabalhadores em educação, pesquisadores e a presidência concordam que as duas precisam de aula própria no horário."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b004",
+    "b014",
+    "b016"
+   ],
+   "claims": [
+    "b002c3",
+    "b004c3",
+    "b014c2",
+    "b016c2"
+   ],
+   "note": "Associações e parlamentares de São Paulo concordam que a obrigatoriedade tem de descer ao ensino fundamental, e já levaram projetos nesse sentido às suas casas."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b014",
+    "b026",
+    "b029"
+   ],
+   "claims": [
+    "b008c3",
+    "b014c3",
+    "b026c1",
+    "b026c2",
+    "b029c1"
+   ],
+   "note": "Sindicato, associações e a própria presidência concordam que o problema está no concurso e na carreira, não na falta de professores formados."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b010",
+    "b016",
+    "b018",
+    "b020"
+   ],
+   "claims": [
+    "b004c2",
+    "b010c1",
+    "b016c3",
+    "b018c2",
+    "b020c3"
+   ],
+   "note": "Parlamentares, estudantes, pesquisadores e o próprio Inep convergem na defesa de um currículo científico, contra o que entrou no lugar das disciplinas."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b001",
+    "b022",
+    "b032",
+    "b034"
+   ],
+   "claims": [
+    "b001c2",
+    "b022c1",
+    "b032c2",
+    "b034c1"
+   ],
+   "note": "A presidência, o Ministério dos Direitos Humanos e dois pesquisadores concordam que tirar essas aulas é uma escolha política, que aprofunda desigualdade e silencia a escola."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b024",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual é o objetivo do MEC ao reabrir o componente transversal",
+   "plain": "Qual é o objetivo do Ministério da Educação ao voltar a falar em conteúdo transversal?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b001",
+   "sentence": 28,
+   "addressed_to": "sociedade_civil",
+   "answered_by": "b048",
+   "gist": "que contribuições a audiência leva à relatora no Senado",
+   "plain": "Que contribuições esta audiência pode levar à relatora do projeto no Senado?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b020",
+   "sentence": 41,
+   "addressed_to": "parlamentar",
+   "answered_by": "b035",
+   "gist": "como o Parlamento vai se posicionar sobre o esvaziamento do currículo",
+   "plain": "Como o Parlamento vai se posicionar, de forma articulada, sobre o esvaziamento científico do currículo?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b048",
+   "sentence": 9,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "como ouvir os professores e estudantes da rede estadual",
+   "plain": "Como ouvir os professores e os estudantes da rede estadual antes de aprovar o projeto?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b003",
+   "sentence": 1,
+   "gist": "em 1971 as duas disciplinas saíram da lei da educação",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b008",
+   "sentence": 35,
+   "gist": "81% da formação em licenciatura é a distância",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b008",
+   "sentence": 36,
+   "gist": "Minas Gerais tem 80% de contratos temporários",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 37,
+   "gist": "460 mil vagas ociosas em licenciaturas públicas presenciais",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 40,
+   "gist": "três aulas de filosofia no primeiro ano e nenhuma no segundo",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 14,
+   "gist": "no campus de Erechim, dois inscritos na licenciatura",
+   "disputed_by": [
+    {
+     "fala": "b014",
+     "sentence": 52
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 43,
+   "gist": "lei de 1990 em Aracaju sem aplicação até 2024",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b016",
+   "sentence": 20,
+   "gist": "1 milhão e 800 mil deixaram o fundamental desde a pandemia",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b020",
+   "sentence": 16,
+   "gist": "a sociologia saiu do currículo em 1942",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b024",
+   "sentence": 30,
+   "gist": "no Rio o corte foi de dois terços do tempo das aulas",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b026",
+   "sentence": 5,
+   "gist": "a Anpof reúne 54 programas de pós-graduação em filosofia",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b048",
+   "sentence": 8,
+   "gist": "85% dos alunos do ensino médio estão na rede estadual",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu a sala unânime em defesa das duas disciplinas e os encaminhamentos da deputada, a carta ao Senado e a frente parlamentar.",
+  "omitted": "Ficou de fora a divergência com o Ministério da Educação sobre tratar as duas como conteúdo transversal e a denúncia sobre as fundações privadas em torno do ministério."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Revogar a reforma, não remendá-la",
+   "statement_plain": "A reforma do ensino médio de 2017 precisa cair inteira, porque foi ela que tirou filosofia e sociologia da escola e pôs itinerários no lugar.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b010c1",
+    "b028c2",
+    "b048c1",
+    "b051c1"
+   ],
+   "note": "A ideia junta uma estudante secundarista, o fórum dos professores dos institutos federais, uma associação de pesquisadores e a própria presidência da audiência."
+  },
+  {
+   "id": "t2",
+   "title": "Disciplina com aula própria, não tema transversal",
+   "statement_plain": "Filosofia e sociologia precisam de aula e carga horária próprias, com professor formado na área, e não de conteúdo espalhado dentro das outras matérias.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b024c1",
+    "b002c2",
+    "b008c2",
+    "b030c1",
+    "b032c1",
+    "b035c2"
+   ],
+   "note": "É uma ideia sobre o formato da aula, e não sobre um setor: quem a sustenta vai do sindicato de professores a um professor de universidade que pede apoio de todos os partidos."
+  },
+  {
+   "id": "t3",
+   "title": "Da creche ao ensino médio, para todos",
+   "statement_plain": "A obrigatoriedade das duas disciplinas não pode parar no ensino médio, ela tem de valer do ensino fundamental à creche, como já acontece em parte da rede privada.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b004c3",
+    "b014c2",
+    "b016c2"
+   ],
+   "note": "A ideia cruza setores: duas associações de professores e dois parlamentares de São Paulo, um estadual e um municipal, já levaram projetos nesse sentido às suas casas."
+  },
+  {
+   "id": "t4",
+   "title": "Professores formados existem, falta concurso",
+   "statement_plain": "As universidades formam professores de filosofia e sociologia todo ano. O que falta é concurso público e carreira, e é isso que enche a escola de contrato temporário.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b014c3",
+    "b026c1",
+    "b026c2",
+    "b008c3",
+    "b029c1"
+   ],
+   "note": "É a ideia que responde diretamente ao governo: a associação de sociologia, a de pós-graduação em filosofia e o sindicato dizem que o gargalo não é a formação."
+  },
+  {
+   "id": "t5",
+   "title": "A escola pública está cercada pelo interesse privado",
+   "statement_plain": "Fundações e empresas orbitam o ministério e as secretarias, drenam o dinheiro da escola pública e desenham a política educacional por cima dos professores.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b024c2",
+    "b024c3",
+    "b046c2",
+    "b048c2"
+   ],
+   "note": "A ideia divide o próprio campo que organizou a audiência: quem a defende cobra do governo que elegeu, e não da oposição."
+  },
+  {
+   "id": "t6",
+   "title": "Quem faz a política é o servidor público",
+   "statement_plain": "Quem constrói a política de educação são servidores de carreira, num governo que assumiu ministérios destruídos e ainda está remontando o que encontrou.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b042c2",
+    "b036c1",
+    "b040c1"
+   ],
+   "note": "Aqui o ministério, o sindicato dos trabalhadores em educação e um vereador ficam do mesmo lado, contra outras entidades que estavam na mesma mesa."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "LDB",
+   "fala": "b003",
+   "sentence": 1,
+   "plain": "Lei de Diretrizes e Bases da Educação Nacional, a lei que organiza a educação brasileira e diz o que a escola precisa ensinar"
+  },
+  {
+   "term": "OSPB",
+   "fala": "b004",
+   "sentence": 6,
+   "plain": "Organização Social e Política do Brasil, disciplina criada na ditadura militar no lugar de filosofia e sociologia"
+  },
+  {
+   "term": "itinerários formativos",
+   "fala": "b008",
+   "sentence": 25,
+   "plain": "trilhas que o aluno escolhe no novo ensino médio, além das matérias comuns a todos"
+  },
+  {
+   "term": "Escola Sem Partido",
+   "fala": "b008",
+   "sentence": 32,
+   "plain": "projeto que queria proibir o professor de tratar de política e de temas sociais dentro da sala de aula"
+  },
+  {
+   "term": "notório saber",
+   "fala": "b010",
+   "sentence": 34,
+   "plain": "regra que permite dar aula sem diploma na área, apenas por experiência reconhecida"
+  },
+  {
+   "term": "PNLD",
+   "fala": "b012",
+   "sentence": 24,
+   "plain": "Programa Nacional do Livro Didático, pelo qual o governo escolha, compra e distribui os livros das escolas públicas"
+  },
+  {
+   "term": "BNCC",
+   "fala": "b014",
+   "sentence": 11,
+   "plain": "Base Nacional Comum Curricular, o documento que lista o que toda escola do país tem de ensinar"
+  },
+  {
+   "term": "PIBID",
+   "fala": "b014",
+   "sentence": 30,
+   "plain": "programa federal de bolsas que leva o estudante de licenciatura para dentro da escola antes de ele se formar"
+  },
+  {
+   "term": "Residência Pedagógica",
+   "fala": "b014",
+   "sentence": 30,
+   "plain": "programa que coloca o futuro professor para atuar numa escola sob supervisão, como parte da formação"
+  },
+  {
+   "term": "EJA",
+   "fala": "b016",
+   "sentence": 18,
+   "plain": "educação de jovens e adultos, a rede para quem não terminou a escola na idade esperada"
+  },
+  {
+   "term": "SAEB",
+   "fala": "b018",
+   "sentence": 5,
+   "plain": "Sistema de Avaliação da Educação Básica, as provas que medem o aprendizado nas escolas do país"
+  },
+  {
+   "term": "CONAE",
+   "fala": "b020",
+   "sentence": 42,
+   "plain": "Conferência Nacional de Educação, o encontro que reúne governo e entidades para propor as metas da educação"
+  },
+  {
+   "term": "CONSED",
+   "fala": "b024",
+   "sentence": 27,
+   "plain": "conselho que reúne os secretários estaduais de educação de todo o país"
+  },
+  {
+   "term": "SINASEFE",
+   "fala": "b024",
+   "sentence": 33,
+   "plain": "sindicato nacional dos servidores dos institutos federais de educação"
+  },
+  {
+   "term": "PROF-FILO",
+   "fala": "b026",
+   "sentence": 6,
+   "plain": "mestrado profissional em filosofia em rede, voltado para quem já dá aula na educação básica"
+  }
+ ]
+}

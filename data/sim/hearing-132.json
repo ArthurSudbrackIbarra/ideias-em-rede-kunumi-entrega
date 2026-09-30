@@ -1,0 +1,2053 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 132,
+ "model": "LLM lendo o prompt hearing-132 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:12:22Z",
+ "prompt_sha256": "d3231a0002844beef303c771616865e3a90f6f4822219bbbc5996a8b40577d88",
+ "sentences_hash": "9ee90c3ee8fb39bd",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 9
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Comunicação debateu o Projeto de Lei nº 490, de 2011, e os mais de 40 projetos apensados que mudam a lei das rádios comunitárias. A Abraço e a AMARC atacaram a proibição da sigla FM e cobraram um decreto novo, a ATRB sustentou que só a mudança da lei resolve, e o Ministério das Comunicações anunciou o novo plano de outorga e a sua posição contrária ao projeto.",
+ "stakes": "Dependia desta audiência o caminho do PL 490 na Comissão, entre seguir com os 41 projetos apensados ou ser separado por tema, e a escolha do Executivo entre mudar a lei ou o decreto.",
+ "central_question": "O que precisa mudar para as rádios comunitárias funcionarem: a lei de 1998, o decreto que a regulamenta ou as regras técnicas de potência e canais?",
+ "synopsis_plain": "A Comissão de Comunicação da Câmara discutiu o projeto que muda a lei das rádios comunitárias, de 1998, e os mais de 40 projetos juntados a ele. As associações de rádios atacaram a proibição de usar a sigla FM e pediram um decreto novo. Os engenheiros disseram que só mudar a lei resolve. O Ministério das Comunicações anunciou o plano de novas rádios e disse que é contra o projeto.",
+ "stakes_plain": "Estava em jogo o caminho do projeto na Comissão: votar tudo junto com os 41 projetos apensados ou separá-los por tema, e mudar a lei ou mudar o decreto.",
+ "central_question_plain": "O que precisa mudar para as rádios comunitárias viverem: a lei de 1998, o decreto ou as regras de potência e canais?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Atualização da lei das rádios comunitárias",
+   "description": "Discute-se se o caminho é atualizar a lei de 1998 no Congresso ou mudar antes o decreto e as portarias que a regulamentam.",
+   "axis": {
+    "pro": "A Lei nº 9.612, de 1998, envelheceu e nada avança sem que ela seja atualizada.",
+    "contra": "O caminho mais rápido é o Executivo mudar o decreto e as portarias, sem esperar a lei.",
+    "pro_plain": "A lei de 1998 envelheceu e nada melhora enquanto o Congresso não mudar essa lei.",
+    "contra_plain": "O governo pode mudar já o decreto e as normas, sem esperar o Congresso mudar a lei."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Proibição da sigla FM",
+   "description": "Discute-se a proposta de proibir as rádios comunitárias de usar a sigla FM no nome, para não se confundirem com as comerciais.",
+   "axis": {
+    "pro": "Proibir a sigla FM evita confusão e competição com as emissoras comerciais.",
+    "contra": "As rádios comunitárias transmitem na faixa de FM e não faz sentido proibir a sigla.",
+    "pro_plain": "Proibir a sigla FM evitaria confusão e disputa com as rádios comerciais.",
+    "contra_plain": "As rádios comunitárias transmitem em FM, então proibir a sigla não faz sentido."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Tramitação do PL 490 e dos apensados",
+   "description": "Discute-se o que fazer com os mais de 40 projetos juntados ao PL 490, que tratam de assuntos diferentes do texto principal.",
+   "axis": {
+    "pro": "Os projetos apensados tratam de assuntos diversos e precisam ser separados por tema.",
+    "contra": "O relatório pode resolver de uma vez o projeto principal e todos os apensados.",
+    "pro_plain": "Os projetos juntados tratam de assuntos diferentes e precisam ser separados por tema.",
+    "contra_plain": "O relatório pode decidir de uma vez o projeto principal e todos os que foram juntados."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Potência, canais e interferência",
+   "description": "Discute-se se as regras técnicas de potência, alcance e número de canais sufocam o serviço ou se mexer nelas causa interferência.",
+   "axis": {
+    "pro": "As regras técnicas atuais asfixiam o serviço e precisam dar mais alcance e mais canais.",
+    "contra": "Mexer na potência sem novos critérios técnicos gera interferência generalizada.",
+    "pro_plain": "As regras de hoje sufocam as rádios e precisam dar mais alcance e mais canais.",
+    "contra_plain": "Aumentar a potência sem critério novo faz uma rádio atrapalhar o sinal da outra."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Sustentação econômica das comunitárias",
+   "description": "Discute-se como uma rádio sem fins lucrativos se sustenta, já que é proibida de anunciar o comércio local e tem pouco acesso a verba de mídia.",
+   "axis": {
+    "pro": "Sem anunciar o comércio local e sem verba de mídia, a rádio comunitária não sobrevive.",
+    "contra": "Abrir a publicidade aproximaria as comunitárias das emissoras comerciais.",
+    "pro_plain": "Sem anunciar o comércio da cidade e sem verba de publicidade, a rádio não se sustenta.",
+    "contra_plain": "Deixar a rádio comunitária vender anúncio a tornaria parecida com a rádio comercial."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Outorga, burocracia e fiscalização",
+   "description": "Discute-se a demora e o excesso de exigências para conseguir uma outorga e o peso da fiscalização sobre quem opera fora da regra.",
+   "axis": {
+    "pro": "O Estado tem de simplificar a outorga e parar de criminalizar quem faz rádio comunitária.",
+    "contra": "A agência e o ministério só podem agir dentro da lei e da regulamentação em vigor.",
+    "pro_plain": "O governo tem de simplificar a autorização e parar de tratar o radialista como criminoso.",
+    "contra_plain": "A agência e o ministério só podem fazer o que a lei e as normas de hoje permitem."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Cobertura e vazios de radiodifusão",
+   "description": "Discute-se os cerca de 2 mil municípios sem nenhuma rádio e o plano de outorga que pretende levar uma rádio comunitária a cada cidade.",
+   "axis": {
+    "pro": "O Estado tem de abrir editais até que cada município tenha ao menos uma rádio comunitária.",
+    "contra": "A oferta de novas outorgas depende da viabilidade de canais e do interesse das entidades.",
+    "pro_plain": "O governo tem de abrir edital até cada cidade ter pelo menos uma rádio comunitária.",
+    "contra_plain": "Só dá para ofertar rádio nova onde existe canal livre e alguma entidade interessada."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência e coordenação da Frente Parlamentar Mista em Apoio às Rádios Comunitárias",
+   "org": "Comissão de Comunicação",
+   "basis": "declara aberta a reunião em b001.1 e diz ser autor do requerimento em b001.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha rádio, TV, imprensa e telecomunicações"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal, membro da Comissão de Comunicação",
+   "org": "Câmara dos Deputados",
+   "basis": "diz estar na Comissão desde o primeiro mandato em b002.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PSOL de São Paulo",
+   "org_plain": "Casa do Congresso onde os deputados fazem as leis e fiscalizam o governo"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da Associação Brasileira de Rádios Comunitárias",
+   "org": "Abraço",
+   "basis": "apresentado pela presidência em b001.7 e b003.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Abraço Brasil",
+   "org_plain": "associação que reúne as rádios comunitárias do país e faz a defesa delas em Brasília"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Representante no Brasil da Associação Mundial de Rádios Comunitárias",
+   "org": "AMARC",
+   "basis": "apresentada pela presidência em b001.14",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da AMARC no Brasil",
+   "org_plain": "rede internacional de rádios comunitárias que defende o direito à comunicação"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da Associação Técnica da Radiodifusão Brasileira",
+   "org": "ATRB",
+   "basis": "apresentado pela presidência em b001.8 e se apresenta em b010.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ATRB",
+   "org_plain": "associação de engenheiros e técnicos de radiodifusão, criada em 2021, sem vínculo com emissoras"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Gerente de Outorga e Licenciamento de Estações da ANATEL",
+   "org": "ANATEL",
+   "basis": "apresentado pela presidência em b001.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "gerente de outorga da ANATEL",
+   "org_plain": "agência federal que distribui as frequências e fiscaliza rádio, TV e telecomunicações"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Diretora do Departamento de Radiodifusão Pública, Comunitária e Estatal",
+   "org": "Ministério das Comunicações",
+   "basis": "indicada pelo ministro e apresentada pela presidência em b001.11 e b001.12",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério das Comunicações",
+   "org_plain": "ministério que dá as outorgas de rádio e TV e escreve as regras do setor"
+  }
+ },
+ "audience": {
+  "estimate": 50,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.7
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   }
+  ],
+  "basis": "palmas registradas em várias falas, presenças da FEBRASCOM e da Abraço do Distrito Federal em b027.5, engenheiros citados em b010.10 e um representante do Pará em b020.29",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre o debate sobre o PL 490, sustenta que a definição atual das rádios comunitárias é insuficiente e questiona a proposta que proíbe a sigla FM.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto precisa ser separado por temas, e a definição atual das rádios comunitárias não atende à realidade do país.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei de 1998 limitou a potência a 25 watts e essa definição de comunidade é limitada e insuficiente para um país diverso",
+     "plain": "A Lei nº 9.612, de 1998, limitou a potência a até 25 watts para evitar interferência em outras localidades. Mas essa definição é limitada e insuficiente: uma só ideia de comunidade não serve num país tão diverso."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto leva junto matérias estranhas ao tema e precisa ser reorganizado por temas setoriais",
+     "plain": "Se o projeto for aprovado como está, vai levar junto assuntos estranhos ao tema, que não melhoram a lei. Por isso pedi à consultoria legislativa que reorganizasse o projeto por temas, para aprofundar o debate."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a proposta de proibir a sigla FM no nome da rádio comunitária merece ser questionada",
+     "plain": "Entre essas propostas, destaco a que proíbe a rádio comunitária de usar a sigla FM no nome. E eu pergunto: por qual razão? É uma questão que merece reflexão profunda."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende uma lei nova que atualize o marco legal de 1998, porque em 25 anos houve uma revolução nos meios de comunicação.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei de 1998 está desatualizada e o país precisa de um novo marco legal para as rádios comunitárias.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei tem 25 anos, os meios de comunicação mudaram e o país precisa de um novo marco legal",
+     "plain": "Esta lei já tem 25 anos, e em 25 anos houve uma revolução nos meios de comunicação. Quero destacar a importância de uma lei nova que atualize a Lei nº 9.612, de 1998, porque os novos tempos exigem outro marco legal."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida Geremias dos Santos, Taís Ladeira e Higino Germani à mesa e passa a palavra ao primeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Rejeita a proibição da sigla FM, denuncia o apensamento de 40 projetos estranhos ao tema e cobra o direito de fomentar o comércio local.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": 103,
+   "stance": {
+    "position": "contrario",
+    "claim": "Proibir as rádios comunitárias de usar a sigla FM não tem fundamento, e o projeto reúne matérias estranhas ao tema.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "proibir a rádio comunitária de usar a sigla FM não faz sentido, porque elas não são rádio AM",
+     "plain": "Proibir as rádios comunitárias de usar a sigla FM? Ora, nós não somos rádio AM. Espero que esta Comissão corrija o que veio aprovado do Senado."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "apensaram 40 projetos sobre potência, canais e verba de mídia a um projeto que não trata disso",
+     "plain": "Apensaram 40 projetos de lei a um projeto que não tem nada a ver. Um trata de lei da física e os outros 40 tratam de aumento de potência, criação de mais canais e acesso a verba pública e privada de mídia."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as comunitárias estão nos municípios de 5 mil a 20 mil habitantes onde a rádio comercial não vai, e não podem fomentar o comércio local",
+     "plain": "Vivemos num sistema capitalista. Estamos na maioria dos municípios pequenos, de 5 mil a 20 mil habitantes, onde a rádio comercial não vai porque não dá lucro, e somos proibidos de fomentar o comércio local."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o tempo terminou e concede 1 minuto para a conclusão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conclui dizendo que só a luta das rádios comunitárias vai mudar as regras e que quem ganha com a mudança são os ouvintes.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Só a luta das rádios comunitárias vai mudar as regras do setor.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "só a luta vai mudar as rádios comunitárias, e quem ganha com a mudança são os ouvintes",
+     "plain": "Para encerrar, nós das rádios comunitárias acreditamos que só a luta vai trazer mudança. A rádio comunitária nasceu da luta e é pela luta que vamos mudar, e quem ganha com isso são os ouvintes e o povo brasileiro."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a fala e passa a palavra a Taís Ladeira, da AMARC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que o projeto quer sufocar economicamente as rádios comunitárias, mostra o papel delas onde a mídia privada não vai e exige o decreto novo.",
+   "quote": [
+    27,
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": 75,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto quer sufocar economicamente as rádios comunitárias, que informam onde a mídia privada não vai.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o argumento da competição não tem nexo e a intenção do projeto é sufocar economicamente as comunitárias",
+     "plain": "É um verdadeiro acinte vir com o argumento sem nexo de que isso abriria competição entre comercial e comunitária. Isso mostra a intenção real do projeto: nos sufocar economicamente. Querem, de novo, que sejamos pequenas e pobres."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as comunitárias informam bolsões de desinformação onde a mídia privada não atua e geram emprego, renda e comércio local",
+     "plain": "As rádios comunitárias informam verdadeiros bolsões de desinformação, lugares onde a mídia privada não quer atuar. Elas levam informação e cultura, formam pessoas, geram emprego e renda e movimentam o comércio local."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      75
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a AMARC e a Abraço exigem que o Executivo entregue um decreto novo que dê respiro para trabalhar",
+     "plain": "Nós da AMARC, a rede mundial de rádios comunitárias, estamos junto com a Abraço exigindo que o decreto seja entregue. Do Executivo queremos o mínimo: um decreto novo que nos dê respiro para trabalhar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que os convidados terão réplica depois dos técnicos e chama Higino Germani.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra os números das emissoras e dos municípios sem rádio, sustenta que aumentar a potência agrava a interferência e propõe uma classe específica.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24,
+    28
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Aumentar a potência agrava a interferência, e a saída é criar uma classe específica com critérios técnicos uniformes.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o país tem 1.037 estações de ondas médias, 4.258 de FM e 4.651 comunitárias, e 2 mil municípios sem nenhuma",
+     "plain": "Com dados do Ministério das Comunicações, o Brasil tem 1.037 estações de ondas médias, 4.258 de FM e 4.651 comunitárias. E estima-se que 2 mil municípios não têm nenhum serviço de radiodifusão sonora."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "aumentar a potência das comunitárias não resolve e agrava, com interferência generalizada",
+     "plain": "Além do Projeto de Lei nº 490, de 2011, tramitam outros 41 projetos apensados, e 10 tratam de aumento de potência. Aumentar a potência não resolve, agrava: dá interferência generalizada e frustra o público e os empresários."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "criar uma classe D com canais diferentes no mesmo município daria proteção em 3,5 quilômetros, em vez de 1",
+     "plain": "É preciso abrir canais diferentes de FM ou de onda média no mesmo município e acabar com o canal exclusivo. Com uma classe própria, a classe D, a rádio teria proteção num raio de 3,5 quilômetros, em vez de 1 quilômetro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede mais 1 minuto para Higino Germani concluir a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o decreto atual só informa o tempo mínimo no ar, copia a lei no resto e não ajuda em nada.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O decreto atual não ajuda em nada e a correção depende de alterar a lei.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o decreto só informa o tempo mínimo no ar e no resto copia a lei, então não ajuda em nada",
+     "plain": "O decreto traz uma informação só: o tempo mínimo que a rádio comunitária pode ficar no ar. O resto é cópia da lei, ou seja, não ajuda em nada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida a segunda mesa e passa a palavra ao gerente de outorga da ANATEL.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Apresenta a distribuição das emissoras pelos municípios, mostra que os três canais atribuídos não bastam e diz que a agência busca mais rapidez.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rádio comunitária é a única emissora em boa parte dos municípios e os três canais atribuídos já não bastam.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 42% dos municípios só existe rádio comunitária, em 11% só FM e em 27% as duas se sobrepõem",
+     "plain": "Em apenas 27% dos municípios há sobreposição de rádio comunitária e rádio FM. Em 11% só há FM. E em 42% dos municípios só existe a rádio comunitária, cumprindo o papel de democratizar a informação."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "1.206 comunitárias estão num canal alternativo e 990 em outros, porque os três canais atribuídos não bastam",
+     "plain": "Nesse canal alternativo há 1.206 rádios comunitárias e em outros canais alternativos, 990. Nem sempre é possível alocar todas nos três canais atribuídos, e nas cidades com muitas rádios os três não bastam."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      45,
+      46,
+      47
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ANATEL e o Ministério trabalham para dar mais rapidez às solicitações das entidades do setor",
+     "plain": "Procuramos ser rápidos nesse processo, e o Ministério das Comunicações tem sido parceiro. Temos trabalhado para dar mais rapidez às solicitações das entidades do setor, para que sejam atendidas em prazo razoável."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à diretora do Ministério das Comunicações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Anuncia o novo plano de outorga voltado aos municípios sem rádio e informa que o Ministério se posicionou contra o projeto que proíbe a sigla FM.",
+   "quote": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O Ministério é contrário ao projeto, porque as rádios comunitárias operam na faixa de FM.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os municípios sem nenhuma rádio comunitária são o foco do próximo plano de outorga, já aprovado pelo Ministério",
+     "plain": "Esse número grande de municípios que hoje não têm nenhuma rádio comunitária é o nosso foco no próximo Plano Nacional de Outorga. O Ministério já aprovou esse plano, que está na minha mesa para uma última revisão."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      18
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é complicado proibir a sigla FM nas comunitárias, porque tecnicamente elas estão na faixa de frequência modulada",
+     "plain": "Em resumo, o Ministério diz que é complicado proibir a sigla FM nas rádios comunitárias, porque tecnicamente elas estão na faixa de frequência modulada, a faixa de FM."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Ministério não foi favorável a limitar o conteúdo pela sigla FM e se posicionou contra o projeto",
+     "plain": "O Ministério não foi favorável a amarrar o conteúdo transmitido à sigla FM e se posicionou contra a aprovação deste projeto de lei."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa a ausência de dois convidados, abre o debate e chama as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Acusa o PL 490 de servir para limpar a prateleira da Comissão, cobra do Presidente Lula a mudança do decreto e contesta a faixa estendida.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O PL 490 está sendo usado para limpar a prateleira da Comissão, e o decreto precisa acabar com o limite de 1 quilômetro.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o PL 490 está sendo usado para limpar a prateleira da Comissão, com projetos parados há 20 anos",
+     "plain": "Esse PL 490 está sendo usado por causa do jabuti, o assunto estranho enfiado no projeto. Querem, numa decisão, limpar a prateleira da Comissão de Comunicação, onde há projetos parados há 20 anos sem relação com o tema."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      23
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Presidente Lula deve alterar o decreto de 1998 e cortar o alcance de 1 quilômetro, que ignora torre, potência e relevo",
+     "plain": "Queremos que o Presidente Lula altere o Decreto nº 2.615, de 1998, e corte o absurdo do alcance de 1 quilômetro. Como disseram os técnicos, há torre de 30 metros, equipamento de 25 watts e ainda o relevo."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "87,5 e 87,7 megahertz são faixa escondida e não se pode jogar as comunitárias para lá",
+     "plain": "Há dificuldade nas capitais, mas não se pode jogar o pessoal para a faixa escondida. Para nós, faixa escondida é 87,5 megahertz ou 87,7 megahertz, e não é como a ANATEL diz."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Geremias e passa a palavra a Taís Ladeira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende que a comunidade decida a frequência e o tamanho da sua rádio, aponta a burocracia que sobra no plano de outorga e pede um Estado menos punitivo.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 40,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estado deve promover direitos e parar de criminalizar quem faz rádio comunitária.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem deve decidir a frequência e o tamanho da rádio é a comunidade, com o Estado apenas coordenando",
+     "plain": "Comparando com a América Latina, vimos que quem deve decidir a frequência e o tamanho da rádio é a comunidade. O Estado coordena, mas a autonomia é da comunidade. Por que o empresário escolhe com quantos watts vai falar e nós não?"
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o plano de outorga pode sair, mas a comunidade ainda enfrenta muita burocracia, mesmo com a queda de 33 para 7 documentos",
+     "plain": "Pode lançar o plano de outorga, mas qual comunidade vai conseguir preencher? Com muita luta, reduzimos de 33 documentos para 7, mas ainda sobra burocracia."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estado tinha de ser menos punitivo e mais promotor de direitos com quem faz rádio comunitária",
+     "plain": "Quem faz rádio comunitária faz porque precisa comunicar e preencher esse bolsão de desinformação. O Estado brasileiro tinha de ser menos punitivo e promover mais direitos. É isso que esperamos da ANATEL e do Ministério."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá 3 minutos de réplica a Higino Germani depois da exposição técnica.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Soma 110 mil processos no Ministério, mostra que uma outorga leva 5 anos em média e insiste que tudo começa pela atualização da lei.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A tramitação precisa ser simplificada, e isso começa pela atualização da lei de 1998.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há não menos de 110 mil processos e o primeiro passo é simplificar a tramitação, o que exige mudar a lei",
+     "plain": "Somei tudo e, em números redondos, não dá menos de 110 mil processos. O primeiro passo é simplificar essa tramitação. Já mandamos sugestões ao Ministério, mas a simplificação maior exige mudar a legislação."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a outorga de uma rádio comunitária leva em média 5 anos e nesse tempo a associação se desfaz",
+     "plain": "Uma outorga de rádio comunitária leva, em média, 5 anos para tramitar. Não é possível! Em 5 anos uma associação comunitária se desfaz e o pessoal perde o entusiasmo."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto só regulamenta a lei, então não haverá sucesso mudando apenas o decreto",
+     "plain": "Fala-se muito em decreto, mas o decreto regulamenta uma lei e tem de se basear nela. Se a lei não está atualizada, vamos chover no molhado. Não vamos ter sucesso só mudando o decreto."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Renato Aguiar e depois a Daniela Schettino, para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende a faixa estendida diante da escassez de canais, explica que a fiscalização decorre da lei e admite que a lei talvez precise ser revista.",
+   "quote": [
+    34,
+    35
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O espectro é escasso e a faixa estendida é o caminho, e a ANATEL só pode agir dentro da lei.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o espectro é um bem escasso, os canais são limitados e por isso a faixa estendida começa agora",
+     "plain": "Se não fizermos isso hoje, daqui a 6 ou 10 anos provavelmente vamos ter de começar, porque a quantidade de canais é limitada. O espectro é um bem escasso e serve a vários interessados, por isso começamos pela faixa estendida."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a ANATEL fiscaliza porque a lei obriga, e quem não cumpre pode responder por prevaricação",
+     "plain": "Se a regra manda a ANATEL fiscalizar, ela vai fiscalizar, porque é obrigada a cumprir a lei. Se não cumprir, pode responder por prevaricação, que é o crime do servidor que deixa de fazer o que a lei manda."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      34,
+      35
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "talvez a lei precise ser revista para que cumpri-la seja justo para quem ela foi escrita",
+     "plain": "Concordo com o Higino: se cumprir a lei é injusto, não é o fato de o fiscal obedecer à lei que torna ele ou a ANATEL injustos. Talvez a lei precise ser revista para que cumpri-la seja justo para quem ela foi escrita."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Renato Aguiar e passa a palavra a Daniela Schettino.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Nega que a agência e o ministério sejam inimigos das rádios, anuncia um decreto de desburocratização e recusa deixar cada rádio escolher a potência.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério trabalha para simplificar as exigências, mas não pode deixar cada rádio operar com a potência que quiser.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não se pode deixar cada rádio operar com a potência que quiser, porque isso gera interferência",
+     "plain": "Não queremos sair fechando rádios comunitárias, mas não podemos deixar cada um operar com a potência que quiser. Isso vai dar interferência, e vocês sabem disso."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "assinar a inabilitação de uma associação dói, porque muitas exigências da lei precisam mudar",
+     "plain": "Quando eu assino um despacho inabilitando uma associação, às vezes por exigências que concordo que precisam mudar na lei, isso me dói o coração. Sei da realidade dos lugares afastados, e as regras deveriam ser mais abertas."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há uma proposta de decreto de desburocratização, alinhada com a Casa Civil, para derrubar exigências que só dificultam",
+     "plain": "Temos buscado soluções ao nosso alcance e outras que dependem do Parlamento para simplificar a vida de vocês. Já há uma proposta de decreto de desburocratização, alinhada com a Casa Civil, para derrubar exigências que só dificultam."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Informa que a Frente reúne 226 parlamentares e que já apresentou requerimento para separar do PL 490 os projetos de outros temas.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26,
+    27,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Frente já pediu a separação dos projetos apensados por tema e vai seguir buscando avanços.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Frente já pediu a desapensação dos projetos que tratam de características técnicas, cobertura e conteúdo",
+     "plain": "Depois de estudar os 41 projetos que tramitam na Casa, conseguimos separá-los por tema. Já apresentamos um requerimento de desapensação dos que tratam de características técnicas, cobertura e conteúdo, e vamos seguir buscando avanços."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Frente Parlamentar começou com 11 deputados e 5 senadores e hoje tem 226 parlamentares",
+     "plain": "Agradeço aos 11 deputados e aos 5 senadores que integram a nossa Frente Parlamentar de apoio às rádios comunitárias, que hoje conta com 226 parlamentares. Não podemos dizer que as rádios comunitárias são poucas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 24,
+   "from_claim": "b002c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "A deputada endossa o diagnóstico da presidência de que a definição da lei de 1998 não cabe mais no país de hoje."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 30,
+   "from_claim": "b004c1",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "À pergunta da presidência sobre a razão de proibir a sigla FM, a Abraço responde que as comunitárias não são rádio AM."
+  },
+  {
+   "from": "b004",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 27,
+   "from_claim": "b004c2",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A Abraço confirma que os projetos juntados tratam de outros assuntos e defende a reorganização por temas."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 7,
+   "from_claim": "b008c1",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "A AMARC reforça a crítica da Abraço e diz que o argumento da competição entre comercial e comunitária não tem nexo."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 22,
+   "to_sentence": 31,
+   "from_claim": "b010c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Os engenheiros contam 41 projetos apensados, não 40, e mostram que 10 deles tratam de aumento de potência."
+  },
+  {
+   "from": "b010",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 24,
+   "from_claim": "b010c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Para a presidência o limite de 25 watts é insuficiente, e os engenheiros respondem que subir a potência agrava a interferência."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 75,
+   "from_claim": "b012c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A AMARC exige um decreto novo e os engenheiros sustentam que o decreto atual copia a lei e não ajuda em nada."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 40,
+   "to_sentence": 52,
+   "from_claim": "b014c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Os números da agência confirmam a tese dos engenheiros de que o canal único não se sustenta e há rádios em canais alternativos."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 17,
+   "from_claim": "b014c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Ao dado dos municípios sem nenhuma emissora, a agência acrescenta que em 42% deles só existe rádio comunitária."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 18,
+   "from_claim": "b016c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "O Ministério pega o levantamento da agência e diz que os municípios sem rádio serão o foco do próximo plano de outorga."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 7,
+   "from_claim": "b016c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O Ministério responde à cobrança da Abraço dizendo que restringir a sigla é complicado, porque as rádios estão na faixa de FM."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 32,
+   "from_claim": null,
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "A Abraço registra que foi bom o posicionamento contrário do Ministério ao projeto de lei."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 53,
+   "from_claim": "b018c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "A Abraço usa o cálculo dos engenheiros para pedir o fim do alcance de 1 quilômetro fixado no decreto."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 9,
+   "from_claim": "b020c2",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "Ao anúncio do plano de outorga, a AMARC pergunta qual comunidade conseguirá preencher a papelada que ainda sobra."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 38,
+   "to_sentence": 45,
+   "from_claim": "b020c3",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "À promessa de rapidez da agência, a AMARC responde que o que a comunidade sente é processo criminal, e pede um Estado promotor de direitos."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 22,
+   "from_claim": "b022c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "Os engenheiros somam 110 mil processos e concordam com a AMARC de que o primeiro passo é simplificar a tramitação."
+  },
+  {
+   "from": "b024",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 31,
+   "from_claim": "b024c1",
+   "to_claim": "b018c3",
+   "strength": "forte",
+   "note": "À acusação de faixa escondida, a agência responde que os canais são limitados e que a faixa estendida é o começo de um processo longo."
+  },
+  {
+   "from": "b024",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 26,
+   "to_sentence": 38,
+   "from_claim": "b024c2",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Ao pedido de um Estado menos punitivo, a agência responde que fiscaliza porque a lei obriga e que o servidor responde se não cumprir."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 24,
+   "from_claim": "b024c3",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "A agência concorda com os engenheiros e admite que talvez a lei precise ser revista para que cumpri-la seja justo."
+  },
+  {
+   "from": "b026",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 26,
+   "to_sentence": 16,
+   "from_claim": "b026c1",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "À autonomia da comunidade para escolher a potência, o Ministério responde que isso geraria interferência e não é possível."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "contradiz",
+   "from_sentence": 37,
+   "to_sentence": 10,
+   "from_claim": null,
+   "to_claim": "b022c2",
+   "strength": "forte",
+   "note": "O Ministério nega a média de 5 anos e diz que a demora hoje está nos processos com documentação incompleta."
+  },
+  {
+   "from": "b027",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 29,
+   "from_claim": "b027c2",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "A presidência retoma a fala da AMARC sobre serem pequenas e pobres e responde com os 226 parlamentares da Frente."
+  },
+  {
+   "from": "b027",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 2,
+   "from_claim": "b027c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "À denúncia do jabuti, a presidência responde com o requerimento já apresentado para separar os projetos de outros temas."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b012",
+    "b022",
+    "b024"
+   ],
+   "claims": [
+    "b002c1",
+    "b012c1",
+    "b022c3",
+    "b024c3"
+   ],
+   "note": "A deputada, os engenheiros da ATRB e a ANATEL concordam que a lei de 1998 envelheceu e que sem mexer nela nada avança."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b004",
+    "b008",
+    "b016"
+   ],
+   "claims": [
+    "b001c3",
+    "b004c1",
+    "b008c1",
+    "b016c2",
+    "b016c3"
+   ],
+   "note": "A presidência, a Abraço, a AMARC e o Ministério das Comunicações concordam que proibir a sigla FM não tem fundamento técnico."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b004",
+    "b018",
+    "b027"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c2",
+    "b018c1",
+    "b027c1",
+    "b027c2"
+   ],
+   "note": "A presidência e a Abraço concordam que os projetos juntados tratam de outros assuntos e precisam ser separados por tema."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b001",
+    "b010",
+    "b014",
+    "b018",
+    "b020"
+   ],
+   "claims": [
+    "b001c1",
+    "b010c3",
+    "b014c2",
+    "b018c3",
+    "b020c1"
+   ],
+   "note": "Presidência, engenheiros, agência, Abraço e AMARC concordam que um canal só e 1 quilômetro de alcance não dão conta do serviço."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b014",
+    "b020",
+    "b022",
+    "b026"
+   ],
+   "claims": [
+    "b014c3",
+    "b020c2",
+    "b020c3",
+    "b022c1",
+    "b026c2"
+   ],
+   "note": "Agência, Ministério, AMARC e engenheiros concordam que as exigências são excessivas e que a outorga precisa ser simplificada."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b010",
+    "b014",
+    "b016"
+   ],
+   "claims": [
+    "b010c1",
+    "b014c1",
+    "b016c1"
+   ],
+   "note": "Engenheiros, agência e Ministério concordam que há cerca de 2 mil municípios sem emissora e que o próximo plano tem de cobrir esse vazio."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b001",
+   "sentence": 31,
+   "addressed_to": "parlamentar",
+   "answered_by": "b016",
+   "gist": "por qual razão proibir a sigla FM no nome",
+   "plain": "Por qual razão se quer proibir a sigla FM no nome das rádios comunitárias?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 26,
+   "addressed_to": "parlamentar",
+   "answered_by": "b016",
+   "gist": "por que as comunitárias serão proibidas de usar FM",
+   "plain": "Por que a lei vai proibir a rádio comunitária de usar a sigla FM?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b004",
+   "sentence": 103,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "mudança do decreto no artigo da área de abrangência",
+   "plain": "Quando o Presidente Lula vai alterar o decreto que trata da área de abrangência das rádios comunitárias?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b008",
+   "sentence": 75,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "entrega de um decreto novo pelo Executivo",
+   "plain": "Quando o Executivo vai entregar o decreto novo que dê respiro às rádios comunitárias?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b020",
+   "sentence": 40,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "conversar sobre a rádio perseguida em Canaã dos Carajás",
+   "plain": "A agência vai conversar sobre o caso da rádio comunitária perseguida em Canaã dos Carajás?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b022",
+   "sentence": 4,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "fórmula para simplificar a tramitação dos processos",
+   "plain": "Qual é a fórmula para simplificar a tramitação dos processos das rádios comunitárias?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 23,
+   "gist": "a lei de 1998 limitou a potência a 25 watts",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 32
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 4,
+   "gist": "a lei das rádios comunitárias já tem 25 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 31,
+   "gist": "40 projetos de lei foram apensados ao projeto principal",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 22
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 37,
+   "gist": "cerca de 3.500 municípios têm uma rádio comunitária",
+   "disputed_by": [
+    {
+     "fala": "b014",
+     "sentence": 41
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 22,
+   "gist": "4.651 comunitárias, 4.258 FM e 1.037 AM no país",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 17,
+   "gist": "2 mil municípios sem nenhum serviço de radiodifusão sonora",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 22,
+   "gist": "41 projetos apensados, 10 sobre aumento de potência",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 18,
+   "gist": "em 42% dos municípios só há rádio comunitária",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 35,
+   "gist": "2.167 rádios comunitárias operam no canal 200",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b022",
+   "sentence": 3,
+   "gist": "não menos de 110 mil processos no Ministério",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b022",
+   "sentence": 10,
+   "gist": "a outorga leva em média 5 anos para tramitar",
+   "disputed_by": [
+    {
+     "fala": "b026",
+     "sentence": 37
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b027",
+   "sentence": 3,
+   "gist": "a Frente Parlamentar reúne 226 parlamentares",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "parlamentar",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria começou pelo plano de outorga e pela promessa de uma rádio comunitária em cada município, e tratou o debate sobre o projeto de lei como segundo assunto.",
+  "omitted": "Ficou de fora a divergência entre mudar a lei ou o decreto, a média de 5 anos para sair uma outorga, o caso da rádio perseguida em Canaã dos Carajás e a resposta da agência sobre a fiscalização."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O nó está na lei de 1998, e ela precisa mudar",
+   "statement_plain": "Enquanto o Congresso não atualizar a lei de 1998, nada muda para as rádios comunitárias, porque o decreto e as portarias só repetem o que a lei manda.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b012c1",
+    "b022c3",
+    "b024c3"
+   ],
+   "note": "A ideia cruza setores: uma deputada, os engenheiros da ATRB e o gerente da ANATEL a sustentam, enquanto as duas associações de rádios preferem começar pelo decreto."
+  },
+  {
+   "id": "t2",
+   "title": "O decreto pode sair já, sem esperar a lei",
+   "statement_plain": "O Executivo pode assinar agora um decreto que derrube o limite de 1 quilômetro e as exigências que travam as rádios, sem esperar o Congresso mudar a lei.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b008c3",
+    "b018c2",
+    "b026c3"
+   ],
+   "note": "A ideia junta a Abraço, a AMARC e a diretora do Ministério das Comunicações, que anuncia um decreto de desburocratização, contra os engenheiros que só veem saída na lei."
+  },
+  {
+   "id": "t3",
+   "title": "Proibir a sigla FM não tem fundamento",
+   "statement_plain": "As rádios comunitárias transmitem na faixa de FM, então proibir que usem a sigla FM no nome não tem fundamento técnico e só serve para enfraquecê-las.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b004c1",
+    "b008c1",
+    "b016c2",
+    "b016c3"
+   ],
+   "note": "A ideia reúne a presidência da audiência, as duas associações de rádios e o próprio Ministério das Comunicações, que enviou ao Congresso posição contrária ao projeto."
+  },
+  {
+   "id": "t4",
+   "title": "Mais potência sem regra nova vira interferência",
+   "statement_plain": "Deixar cada rádio comunitária operar com a potência que quiser não resolve nada e agrava o problema, porque o espectro é limitado e uma emissora atrapalha a outra.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b024c1",
+    "b026c1"
+   ],
+   "note": "A ideia junta os engenheiros da ATRB, a ANATEL e o Ministério das Comunicações, e divide a mesa técnica dos representantes das rádios."
+  },
+  {
+   "id": "t5",
+   "title": "A comunidade decide o alcance da sua rádio",
+   "statement_plain": "As regras técnicas de hoje sufocam o serviço, e a comunidade deveria poder decidir a frequência e o alcance da sua rádio, com mais canais em cada município.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b010c3",
+    "b014c2",
+    "b018c3",
+    "b020c1"
+   ],
+   "note": "A ideia divide os dois lados da sala: os dados da ANATEL e a classe D proposta pelos engenheiros sustentam o mesmo ponto que a Abraço e a AMARC defendem."
+  },
+  {
+   "id": "t6",
+   "title": "O que trava é a burocracia e o entulho de projetos",
+   "statement_plain": "O gargalo das rádios comunitárias é institucional: montanhas de exigências e processos no Executivo e dezenas de projetos empilhados na Comissão, que precisam ser separados.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b014c3",
+    "b020c2",
+    "b020c3",
+    "b022c1",
+    "b027c1",
+    "b018c1"
+   ],
+   "note": "A ideia cruza setores: a presidência, a Abraço, a AMARC, os engenheiros e a própria ANATEL apontam o mesmo entrave de papelada e de tramitação."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Serviço de Radiodifusão Comunitária",
+   "fala": "b001",
+   "sentence": 1,
+   "plain": "nome oficial das rádios comunitárias: emissoras sem fins lucrativos, de baixa potência, feitas para um bairro ou uma vila"
+  },
+  {
+   "term": "outorga",
+   "fala": "b001",
+   "sentence": 13,
+   "plain": "autorização que o governo dá a uma entidade para operar uma rádio, com prazo e regras definidos"
+  },
+  {
+   "term": "ANATEL",
+   "fala": "b001",
+   "sentence": 13,
+   "plain": "agência federal que distribui as frequências e fiscaliza rádio, TV e telefonia no país"
+  },
+  {
+   "term": "jabuti",
+   "fala": "b004",
+   "sentence": 30,
+   "plain": "no jargão do Congresso, assunto estranho enfiado num projeto que trata de outra coisa"
+  },
+  {
+   "term": "Conferência Nacional de Comunicação",
+   "fala": "b008",
+   "sentence": 69,
+   "plain": "encontro nacional de governo e sociedade para discutir as regras da comunicação no país"
+  },
+  {
+   "term": "apensados",
+   "fala": "b010",
+   "sentence": 22,
+   "plain": "projetos de lei reunidos a um projeto principal para serem analisados e votados juntos"
+  },
+  {
+   "term": "potência efetiva",
+   "fala": "b010",
+   "sentence": 30,
+   "plain": "força real do sinal que sai da antena, já descontadas as perdas nos cabos e somado o ganho da antena"
+  },
+  {
+   "term": "RadCom",
+   "fala": "b010",
+   "sentence": 42,
+   "plain": "apelido técnico das rádios comunitárias nos documentos do governo e da agência"
+  },
+  {
+   "term": "contorno protegido",
+   "fala": "b010",
+   "sentence": 53,
+   "plain": "área em volta da antena em que o sinal da rádio tem direito a proteção contra interferência de outras"
+  },
+  {
+   "term": "PNO",
+   "fala": "b016",
+   "sentence": 8,
+   "plain": "Plano Nacional de Outorga, a lista de municípios em que o governo vai abrir editais para novas rádios"
+  },
+  {
+   "term": "faixa estendida",
+   "fala": "b018",
+   "sentence": 44,
+   "plain": "trecho novo do dial de FM, que só aparece em aparelhos de rádio e carros mais recentes"
+  },
+  {
+   "term": "espectro radioelétrico",
+   "fala": "b024",
+   "sentence": 11,
+   "plain": "conjunto das frequências de rádio disponíveis no ar, que é limitado e precisa ser dividido entre todos"
+  },
+  {
+   "term": "prevaricação",
+   "fala": "b024",
+   "sentence": 27,
+   "plain": "crime do servidor público que deixa de fazer o que a lei manda, por interesse ou sentimento pessoal"
+  },
+  {
+   "term": "desapensação",
+   "fala": "b027",
+   "sentence": 9,
+   "plain": "separar de um projeto principal os projetos que tratam de outros assuntos, para discutir cada um à parte"
+  }
+ ]
+}

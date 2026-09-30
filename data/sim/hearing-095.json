@@ -1,0 +1,1831 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 95,
+ "model": "LLM lendo o prompt hearing-095 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T22:06:10Z",
+ "prompt_sha256": "837e8941b505dd5e0f5492c6a759d4ed6d8c8757603e4504af5cb2013ac7af77",
+ "sentences_hash": "95884014bf1de750",
+ "review": {
+  "pairs_read": 34,
+  "pairs_fixed": 15
+ },
+ "warnings": [
+  "tese t4: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Legislação Participativa ouviu cinco convidados sobre a produção e o consumo de alimentos de origem animal, dentro da Virada Parlamentar Sustentável. Entidades de proteção animal, uma epidemiologista, o Idec e um produtor de ovos orgânicos apresentaram dados sobre antibióticos, risco de novas epidemias e rótulos que escondem como o animal foi criado, e o Ministério do Meio Ambiente defendeu o bem-estar animal como parte da política de consumo sustentável. A presidência anunciou uma semana de esforço concentrado para votar projetos sobre o tema.",
+ "stakes": "Que projetos sobre bem-estar animal, rotulagem e uso de antibióticos entrariam na pauta de votação da Câmara no segundo semestre.",
+ "central_question": "O que precisa mudar na produção de alimentos de origem animal para reduzir o risco sanitário e dar ao consumidor a informação que falta?",
+ "synopsis_plain": "Uma comissão da Câmara ouviu entidades, uma epidemiologista, um instituto de defesa do consumidor e um produtor de ovos orgânicos sobre como o Brasil cria os animais que viram comida. Falaram de antibióticos que criam bactérias resistentes, do risco de novas epidemias e de rótulos que escondem como o animal foi criado. O deputado que preside a comissão prometeu levar projetos do tema a voto.",
+ "stakes_plain": "Quais projetos sobre bem-estar animal, rótulo e uso de antibióticos a Câmara colocaria para votar no segundo semestre.",
+ "central_question_plain": "O que precisa mudar na criação de animais para comida, para diminuir o risco de doença e informar melhor quem compra?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Sustentabilidade e bem-estar animal",
+   "description": "Se o bem-estar dos animais criados para alimento entra na conta da sustentabilidade, ao lado do clima, das florestas e da saúde das pessoas.",
+   "axis": {
+    "pro": "O bem-estar dos animais é parte da sustentabilidade da produção de alimentos.",
+    "contra": "Sustentabilidade é assunto de floresta, clima e água, e o bem-estar animal é tema à parte.",
+    "pro_plain": "Cuidar dos animais criados para virar comida faz parte de produzir de forma sustentável.",
+    "contra_plain": "Sustentabilidade é sobre floresta, clima e água. O jeito de criar os animais é outro assunto."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Risco de zoonoses e pandemias",
+   "description": "Quanto a criação intensiva de aves e suínos aumenta a chance de novas doenças passarem dos animais para as pessoas.",
+   "axis": {
+    "pro": "A criação intensiva de animais aumenta o risco de novas epidemias e pandemias.",
+    "contra": "O risco é controlável com biossegurança nas granjas e não vem do modelo de criação.",
+    "pro_plain": "Criar muitos animais juntos e confinados aumenta a chance de surgir uma doença nova que passe para as pessoas.",
+    "contra_plain": "O risco se resolve com regras de biossegurança na granja. O modelo de criação não é o problema."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Antibióticos na criação animal",
+   "description": "O uso de antibióticos para prevenir doença e acelerar o crescimento dos animais, e o aparecimento de bactérias que não respondem mais a remédio.",
+   "axis": {
+    "pro": "O uso rotineiro de antibióticos na criação animal precisa ser restrito ao tratamento de doença.",
+    "contra": "O uso atual é regulado e necessário para manter a produção.",
+    "pro_plain": "Antibiótico na criação só deveria ser usado para tratar animal doente, e não de rotina.",
+    "contra_plain": "O uso de antibiótico já tem regra e é necessário para a criação funcionar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Rótulo e informação ao consumidor",
+   "description": "O que o rótulo conta e o que esconde sobre o modo como o alimento foi produzido, e o que se chama de maquiagem verde.",
+   "axis": {
+    "pro": "O consumidor tem direito de saber pelo rótulo como o animal foi criado, e as alegações ambientais precisam de prova.",
+    "contra": "A informação que o rótulo já traz e a autorregulação das empresas bastam.",
+    "pro_plain": "Quem compra tem direito de saber pelo rótulo como o alimento foi feito, e a empresa precisa provar o que diz.",
+    "contra_plain": "O que o rótulo já traz e as regras que as próprias empresas criam são suficientes."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Futuro da produção de proteína",
+   "description": "Se o caminho é reduzir a demanda por carne e diversificar as fontes de proteína, ou manter a produção em escala e mudar a tecnologia da criação.",
+   "axis": {
+    "pro": "O caminho é reduzir a demanda por carne e diversificar as fontes de proteína.",
+    "contra": "O caminho é manter a produção em escala e melhorar os sistemas de criação com tecnologia.",
+    "pro_plain": "É preciso comer menos carne e abrir espaço para outras fontes de proteína.",
+    "contra_plain": "Não é preciso produzir menos. Dá para mudar o jeito de criar, com tecnologia, e manter a escala."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Políticas públicas e leis pendentes",
+   "description": "As leis paradas no Congresso, a falta de regra federal clara e os programas do governo que tocam a produção de alimentos.",
+   "axis": {
+    "pro": "Faltam leis e regras federais claras, e os projetos parados precisam ser votados.",
+    "contra": "As regras atuais e a autorregulação já dão conta do tema.",
+    "pro_plain": "Faltam regras federais claras, e os projetos que estão parados no Congresso precisam ser votados.",
+    "contra_plain": "As regras que existem hoje já bastam, e o setor pode se organizar sozinho."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Legislação Participativa",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, identificado como Zé Silva, Bloco/Solidariedade - MG",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que recebe sugestões de entidades da sociedade e as transforma em propostas"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente e Diretora Técnica da Alianima",
+   "org": "Alianima",
+   "basis": "apresentada pela presidência em b001.38",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Alianima",
+   "org_plain": "organização sem fins lucrativos, criada em 2019, que trabalha por melhores condições aos animais de produção"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora do Welfare Footprint Project, zoóloga e epidemióloga",
+   "org": "Welfare Footprint Project",
+   "basis": "apresentada pela presidência em b001.45 e por ela mesma em b006.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Welfare Footprint Project",
+   "org_plain": "iniciativa que calcula a pegada de bem-estar dos produtos de origem animal"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora de Campanhas da Proteção Animal Mundial",
+   "org": "Proteção Animal Mundial",
+   "basis": "apresentada pela presidência em b007.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Proteção Animal Mundial",
+   "org_plain": "organização internacional de proteção animal, antes conhecida como WSPA, com atuação em mais de 50 países"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Programa de Consumo Sustentável do IDEC",
+   "org": "IDEC",
+   "basis": "apresentado pela presidência em b001.43",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Idec",
+   "org_plain": "Instituto Brasileiro de Defesa do Consumidor, organização não governamental que atua desde 1987"
+  },
+  "s06": {
+   "role": "setor_privado",
+   "cargo": "Cofundador da Raiar Orgânicos",
+   "org": "Raiar Orgânicos",
+   "basis": "apresentado pela presidência em b001.44",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Raiar Orgânicos",
+   "org_plain": "empresa de proteínas orgânicas que produz ovos em Avaré, no interior de São Paulo"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Diretora do Departamento de Proteção, Defesa e Direitos Animais",
+   "org": "Ministério do Meio Ambiente e Mudança do Clima",
+   "basis": "apresentada pela presidência em b001.46",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério do Meio Ambiente",
+   "org_plain": "departamento do ministério federal que cuida da proteção, da defesa e dos direitos dos animais"
+  }
+ },
+ "audience": {
+  "estimate": 50,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.65
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.15
+   },
+   {
+    "role": "governo",
+    "share": 0.1
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência menciona universitários na plateia em b017.0, a presença da Deputada Rosângela Reis em b027.8 e as entidades IDS e RAC, além de quatro registros de palmas",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência lembrando o pacto climático mundial, as enchentes no Vale do Jequitinhonha e as florestas nativas, e diz que sustentabilidade inclui o bem-estar animal.",
+   "quote": [
+    34,
+    35
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A sustentabilidade da produção de alimentos inclui o bem-estar dos animais, e não só florestas e rios.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o mundo foi obrigado a firmar um pacto pela sobrevivência, que é produzir alimento e preservar o meio ambiente ao mesmo tempo",
+     "plain": "Na minha visão, o mundo foi obrigado a firmar um pacto sem assinatura pela sobrevivência: produzir alimento, gerar riqueza e preservar o meio ambiente ao mesmo tempo. Quando não tratamos bem a natureza, ela reage e dá lições muito duras."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a cidade de Santo Antônio do Jacinto foi duas vezes dizimada por enchentes em 2 anos, depois de quase meio século sem chuva",
+     "plain": "Estive domingo passado em Santo Antônio do Jacinto, no Vale do Jequitinhonha. Em só 2 anos a cidade foi dizimada duas vezes por enchentes, depois de quase meio século quase sem chuva, com as casas e as construções na beira dos rios."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os países do norte do planeta precisam ajudar a preservar os 62% de florestas nativas ainda intactas no Brasil",
+     "plain": "Eles, os países do norte do planeta, precisam nos ajudar e pagar um pouco por tudo o que fizeram. Ainda temos 62% de florestas nativas intactas, e eles precisam ajudar a preservar isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A representante da Alianima agradece o convite e começa a se apresentar, antes de o som falhar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": true,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência interrompe para ajustar o som e pede que Patrycia Sato recomece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que o bem-estar animal é ciência consolidada, liga o uso de antibióticos às superbactérias e defende melhorar os sistemas de criação em vez de banir a produção.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O bem-estar animal é ciência consolidada e faz parte da conta da sustentabilidade.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "dados de 2019 já apontam 1,2 milhão de mortes por superbactérias, e a estimativa chega a 10 milhões por ano até 2050",
+     "plain": "Dados de 2019, antes da pandemia, já mostram pelo menos 1,2 milhão de mortes no mundo por superbactérias. Se nada for feito logo, a estimativa é de cerca de 10 milhões de mortes por ano até 2050."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cerca de 75% das doenças humanas são zoonoses e três de cada cinco novas doenças humanas vêm dos animais",
+     "plain": "Cerca de 75% das doenças que atingem as pessoas são zoonoses, quer dizer, nasceram em animais. E três de cada cinco novas doenças humanas também vêm dos animais."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não é preciso banir a produção, e sim melhorar os sistemas, acabando com as gaiolas e com a alimentação forçada",
+     "plain": "A questão não é banir a produção. Dá para melhorar os sistemas, acabando com as gaiolas e dando mais conforto aos animais. E o Projeto de Lei nº 90, de 2020, que tramita no Congresso, quer proibir a alimentação forçada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Conta o caso de um banco que se diz sustentável por menos de 0,1% da carteira e anuncia uma semana de esforço concentrado para votar projetos como o citado.",
+   "quote": [
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Congresso precisa aprovar as leis pendentes sobre sustentabilidade e rotulagem.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um agente financeiro emprestou bilhões, pôs menos de 0,1% num projeto verde e se apresenta como sustentável no mundo inteiro",
+     "plain": "A taxonomia verde veio evitar a maquiagem verde, porque enganar o consumidor para garantir mercado é muito comum. Vi um banco que emprestou alguns bilhões, usou menos de 0,1% num projeto verde e se diz sustentável no mundo inteiro."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso aprovar as leis paradas no Congresso, onde tramitam 18 mil projetos sobre o tema",
+     "plain": "Precisamos aprovar as leis que estão paradas aqui no Congresso. Só sobre este tema há 18 mil projetos tramitando."
+    },
+    {
+     "id": "b005c3",
+     "sentences": [
+      11
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Câmara terá pelo menos 1 semana de esforço concentrado no início do segundo semestre para votar esses projetos",
+     "plain": "Já estive com o Presidente da Câmara, Arthur Lira, para acertarmos no início do segundo semestre pelo menos 1 semana de esforço concentrado, para votar projetos como esse que você citou e o da taxonomia verde."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Explica que uma nova doença infecciosa aparece a cada 4 meses, quase sempre vinda de animais, e sustenta que a criação intensiva é uma bomba-relógio para epidemias.",
+   "quote": [
+    49,
+    50
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A produção intensiva de animais para consumo é uma das principais fontes de risco de novas epidemias.",
+    "sentence": 49
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma nova doença infecciosa aparece em média a cada 4 meses e a grande maioria tem origem em animais",
+     "plain": "Nas últimas décadas cresceu a frequência de doenças infecciosas novas ou que voltaram a aparecer nas pessoas. Na média, reconhece-se uma nova doença infecciosa a cada 4 meses, e a grande maioria nasce em animais."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a escala é um primeiro fator de risco, porque bilhões de animais criados por ano viram reservatório de patógenos perto das pessoas",
+     "plain": "Um primeiro fator é a escala. Produzimos bilhões de animais para consumo todo ano, e eles funcionam como hospedeiros de vírus e bactérias, um reservatório de patógenos bem perto das pessoas."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mesmo cumprida em todas as granjas, a biossegurança não bastaria, porque o escape de vírus respiratórios é muito grande",
+     "plain": "Fala-se em reforçar a biossegurança nas fazendas, mas, mesmo cumprida em todas as granjas e em toda a cadeia, o que não acontece, não bastaria. O escape de vírus respiratórios é muito grande, pela ventilação e pelo transporte de animais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Cynthia Schuck e passa a palavra a Karina Rie Ishida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta o estudo no Paraná que achou genes de resistência a antibióticos em rios perto de granjas de suínos e propõe banir o uso rotineiro desses remédios.",
+   "quote": [
+    52
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O uso rotineiro de antibióticos na criação de suínos espalha bactérias resistentes e precisa acabar.",
+    "sentence": 51
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o estudo em 11 fazendas achou nos rios genes de resistência a antibióticos importantes para a saúde humana",
+     "plain": "Mapeamos 11 fazendas e testamos mais de 20 amostras de água, de solo e de sedimento do fundo do rio. Achamos genes de resistência a antibióticos que importam para a saúde humana e já descritos pela Organização Mundial da Saúde."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      49,
+      50,
+      51
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "são mais de 70 bilhões de animais criados por ano, dois terços confinados, e 75% dos antibióticos do mundo vão para a produção animal",
+     "plain": "São mais de 70 bilhões de animais criados por ano em fazenda, dois terços confinados, com a imunidade e a qualidade de vida comprometidas. Só nessa indústria vão 131 mil toneladas de antibióticos por ano, 75% de todos os usados no mundo."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      56
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "empresas e governos precisam banir o antibiótico de rotina e reduzir a demanda por carne com a diversificação de proteínas",
+     "plain": "Propomos que empresas e governos adotem normas de bem-estar animal, que o antibiótico fique só para tratar doença, que o uso de rotina seja banido e que a demanda por carne caia com a diversificação de proteínas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Karina Rie Ishida e concede a palavra a Rafael Arantes, do Idec.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Define o que é a mentira verde, mostra que quase metade de 509 produtos testados pelo Idec tinha alguma forma dela e pede regulamentação federal de rotulagem ambiental.",
+   "quote": [
+    32,
+    33
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": 71,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso regra federal sobre alegações ambientais, porque a autorregulação não dá conta.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para cada 1 trilhão de dólares gasto com sistemas alimentares há quase 3 trilhões de custo em impactos negativos",
+     "plain": "Nos dados dos Estados Unidos, para cada 1 trilhão de dólares gasto com sistemas alimentares há quase 3 trilhões de custo em externalidades negativas, os impactos deixados na saúde das pessoas, no meio ambiente e no bem-estar dos animais."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em quase metade dos 509 produtos checados pelo Idec em 2019 havia alguma forma de mentira verde",
+     "plain": "Em 2019 o Idec pesquisou três categorias de produto, higiene pessoal, limpeza e utilidade doméstica, para checar se as alegações socioambientais tinham comprovação. Em quase metade dos 509 produtos achamos alguma mentira verde."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      69,
+      70,
+      71
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há seis projetos de lei na Casa sobre o tema, e falta uma regulamentação federal de rotulagem ambiental e o Acordo de Escazú",
+     "plain": "Levantamos seis projetos de lei nesta Casa que tocam o tema, ainda que de lado. Nossa recomendação é uma regulamentação federal detalhada, regras próprias de rotulagem ambiental, mais fiscalização e a ratificação do Acordo de Escazú."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra a audiência do ano passado sobre maquiagem verde em alimentos, com pão de queijo com sabor de pão de queijo, e chama o tema de sério.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A maquiagem verde também aparece no rótulo dos alimentos e é um problema sério.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a mentira verde chega até ao pão de queijo de Minas Gerais, vendido com sabor de pão de queijo",
+     "plain": "No fim do ano passado fizemos aqui uma audiência sobre a mentira verde em alimentos e vimos que ela chega até ao pão de queijo de Minas Gerais. Existe até pão de queijo com sabor de pão de queijo. Isso é muito sério."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O cofundador da Raiar concorda em falar do lugar onde está.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 7 minutos a Luis Barbieri.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Mostra a produção de ovo orgânico em Avaré, defende que dá para unir escala, bem-estar animal e tecnologia, e aponta a falta de regra clara no meio da cadeia.",
+   "quote": [
+    41,
+    42,
+    43
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Dá para manter a escala da produção e mudar o sistema com tecnologia, sem reduzir a produção.",
+    "sentence": 42
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no ovo de gaiola o antibiótico é permitido por regra, e no livre de gaiola e no caipira falta regulação clara",
+     "plain": "Num extremo está o ovo convencional de gaiola, com uso intensivo de antibiótico, que é regulado. O produtor dá antibiótico porque pode, e o sistema tem efeitos colaterais. No meio ficam o livre de gaiola e o caipira, sem regulação clara."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "dá para fazer orgânico, cuidar do bem-estar animal e produzir em escala ao mesmo tempo",
+     "plain": "O sistema integrado nos garante escala e qualidade, o que é muito importante nesta cadeia. A nossa instalação em Avaré mostra que dá para fazer orgânico, cuidar do bem-estar animal e pensar em escala ao mesmo tempo."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      41,
+      42,
+      43
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "tirar o antibiótico exige tecnologia, e em 24 meses criando aves o sistema produz igual ou melhor que a gaiola",
+     "plain": "Tirar o antibiótico da produção animal exige tecnologia e ciência. Estamos há 24 meses criando aves e provando que dá. Nosso sistema produz igual ou melhor que a gaiola."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Vanessa Negrini, do Ministério do Meio Ambiente, que participa de forma remota.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Saúda o Plano Safra da Agricultura Familiar com 71,6 bilhões de reais e defende que o equilíbrio na diversidade é a lição da natureza para a produção de alimentos.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O bem-estar animal e a diversidade fazem parte da agenda ambiental do governo.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Plano Safra da Agricultura Familiar retoma os investimentos com 71,6 bilhões de reais em crédito pelo Pronaf",
+     "plain": "Este debate cai no mesmo dia em que o Presidente Lula anuncia o Plano Safra da Agricultura Familiar. Voltam os investimentos no setor, com 71,6 bilhões de reais em crédito pelo Pronaf, o programa federal da agricultura familiar."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o equilíbrio na diversidade é a lição da natureza, e a agricultura familiar responde por 70% dos alimentos consumidos no Brasil",
+     "plain": "Acho que o equilíbrio na diversidade é a grande lição da natureza, e a agricultura familiar traz isso. É ela que responde por 70% dos alimentos consumidos no Brasil."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "perda de biodiversidade, poluição, clima e degradação do solo estão ligados entre si e ao bem-estar humano, inclusive à saúde",
+     "plain": "Acho que foi a Patrycia que já mostrou isso: perda de biodiversidade, poluição, mudança do clima, desertificação e degradação do solo estão ligadas entre si e ao bem-estar humano, inclusive à saúde. Isso importa para os ecossistemas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre o microfone para a plateia responder à provocação de Vanessa Negrini.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A diretora do ministério esclarece que a pergunta era só uma provocação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde à provocação com um bordão mineiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A diretora do ministério brinca que quem arriscou a resposta acertou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência entra na brincadeira sobre a medalha.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que o ser humano também é animal, cita a Resolução Nexus da ONU sobre bem-estar animal e mostra que só 10% da massa animal é de espécies livres.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O bem-estar animal é componente essencial da sustentabilidade, e a ONU já reconheceu isso.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "70% das doenças que atingem as pessoas desde a década de 40 vêm da exploração desenfreada e predatória do meio ambiente",
+     "plain": "Esquecemos, do alto da nossa arrogância, que o ser humano é mais uma das espécies animais. A ONU documenta que 70% das doenças que atingem as pessoas desde a década de 40 vêm da exploração desenfreada e predatória do meio ambiente."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Resolução Nexus da ONU reconhece que o bem-estar animal ajuda a enfrentar os desafios ambientais e a alcançar os ODS",
+     "plain": "A ONU aprovou a Resolução Nexus Desenvolvimento Sustentável. Nela reconhece que o bem-estar animal ajuda a enfrentar os desafios ambientais, promove a abordagem de saúde única e aproxima os Objetivos de Desenvolvimento Sustentável."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "90% da massa de animais são humanos ou bichos criados para nos servir, e sobram só 10% para todo o resto",
+     "plain": "Se puséssemos numa balança os 8 bilhões de seres humanos e todos os animais, 90% dessa massa seriam humanos ou bichos que escolhemos para nos servir, como alimento ou como cães e gatos. Sobram só 10% para todo o resto."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que falta 1 minuto para Vanessa Negrini.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Propõe tratar o bem-estar animal como requisito do consumo sustentável, incentivar fontes vegetais de proteína e garantir o direito à informação junto com o econômico.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política pública deve incentivar a diversificação das fontes de proteína e o direito à informação.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o bem-estar animal deve virar requisito do consumo sustentável, com incentivo à diversificação de fontes de proteína vegetal",
+     "plain": "Podemos pôr nos nossos projetos e debates o bem-estar animal como requisito essencial do consumo sustentável. E podemos incluir o incentivo à diversificação de fontes de proteína vegetal."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o direito econômico precisa andar junto com o direito à informação, para as pessoas fazerem escolhas melhores",
+     "plain": "Só aumentar a renda não basta. O direito econômico precisa andar junto com o direito à informação, para que as pessoas possam fazer escolhas melhores."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a semente de gergelim tem seis vezes mais cálcio do que o leite de vaca",
+     "plain": "O cálcio existe no leite de vaca, mas não só nele. A semente de gergelim tem seis vezes mais cálcio do que o leite de vaca."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata que o Plano Safra da Agricultura Familiar cresceu 34% e premia quem produz de forma sustentável, e cobra mais recursos para a assistência técnica.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 13,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As políticas para a agricultura familiar voltaram, mas falta dinheiro para a assistência técnica.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Plano Safra da Agricultura Familiar trouxe 34% mais recursos do que o anterior",
+     "plain": "Foi um momento emocionante, com agricultores e agricultoras do Brasil inteiro presentes. Este Plano Safra trouxe 34% mais recursos do que o anterior."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Plano Safra esverdeado premia quem faz agricultura orgânica ou agroecológica e baixou em 1% a taxa de juros",
+     "plain": "Chamo este de Plano Safra esverdeado, porque premia quem faz agricultura orgânica, agroecológica ou usa sistemas mais sustentáveis. Ele baixou em 1% os juros, pôs dinheiro no crédito fundiário e criou uma linha para os jovens do campo."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o recurso da assistência técnica e extensão rural ainda não saiu, e a comissão vai trabalhar para aumentar o dinheiro da Anater",
+     "plain": "Ficou um aperto no peito, porque o dinheiro da assistência técnica e extensão rural ainda não saiu, mesmo com os editais lançados. Vamos trabalhar na Comissão Mista de Orçamento para aumentar os recursos da Anater."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A diretora do ministério cumprimenta a presidência pelo Plano Safra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os expositores, anuncia a audiência sobre mineração às 16 horas e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 39,
+   "from_claim": "b005c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A presidência pega o projeto que Patrycia Sato citou e promete uma semana de esforço concentrado para votar propostas como essa."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 31,
+   "from_claim": "b006c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "As duas põem a origem das novas doenças humanas nos animais, e a epidemióloga acrescenta a frequência com que elas aparecem."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 51,
+   "to_sentence": 28,
+   "from_claim": "b008c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Às mortes por superbactérias apresentadas pela Alianima, a Proteção Animal Mundial junta a fatia dos antibióticos do mundo que vai para a criação de animais."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 49,
+   "to_sentence": 18,
+   "from_claim": "b008c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "As duas apontam o número de animais criados e confinados como a raiz do problema, uma pelo risco de doença e a outra pela dependência de antibiótico."
+  },
+  {
+   "from": "b010",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 40,
+   "to_sentence": 6,
+   "from_claim": "b010c2",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "O Idec dá números ao engano que a presidência tinha descrito, com quase metade dos produtos testados trazendo alguma alegação sem prova."
+  },
+  {
+   "from": "b010",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 10,
+   "from_claim": "b010c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "Onde a presidência falou de um pacto entre produzir e preservar, o Idec mostra a conta dos impactos que a produção de alimentos deixa para trás."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 40,
+   "from_claim": "b011c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "A presidência conta que numa audiência anterior a mentira verde apareceu até em alimento, o que confirma o achado da pesquisa do Idec."
+  },
+  {
+   "from": "b014",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 42,
+   "to_sentence": 37,
+   "from_claim": "b014c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Os dois dizem que o caminho é mudar o sistema de criação, e não acabar com a produção."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 33,
+   "to_sentence": 17,
+   "from_claim": "b014c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Para a epidemióloga, a escala é o primeiro fator de risco. Para o produtor de ovos, a fazenda dele mostra que escala e bem-estar animal cabem juntos."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 41,
+   "to_sentence": 51,
+   "from_claim": "b014c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "À cobrança para banir o antibiótico de rotina, o produtor responde que isso exige tecnologia e que a criação dele prova que é possível."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 71,
+   "from_claim": "b014c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "O produtor de ovos reclama que falta regra clara no meio da cadeia, e assim entra no pedido do Idec por regulamentação federal."
+  },
+  {
+   "from": "b014",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 9,
+   "from_claim": "b014c1",
+   "to_claim": "b005c2",
+   "strength": "media",
+   "note": "A queixa do setor produtivo sobre regras frouxas encontra o apelo da presidência para aprovar as leis paradas no Congresso."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 31,
+   "from_claim": "b016c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "O ministério retoma a fala da Alianima para dizer que perda de biodiversidade, poluição e clima estão ligados à saúde das pessoas."
+  },
+  {
+   "from": "b022",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 31,
+   "from_claim": "b022c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "O ministério repete pela ONU o ponto da Alianima sobre a origem animal das doenças humanas, com uma conta um pouco diferente."
+  },
+  {
+   "from": "b022",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 8,
+   "from_claim": "b022c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Os dois ligam o aparecimento de doenças humanas ao modo como tratamos os outros animais e o meio ambiente."
+  },
+  {
+   "from": "b024",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 56,
+   "from_claim": "b024c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "O ministério assume como política pública a mesma saída proposta pela entidade, que é diversificar as fontes de proteína."
+  },
+  {
+   "from": "b024",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 71,
+   "from_claim": "b024c2",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "O ministério reforça o pedido do Idec por regras de informação, dizendo que renda sem informação não permite escolher melhor."
+  },
+  {
+   "from": "b024",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 33,
+   "from_claim": "b024c3",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "Onde o produtor mostra que dá para fazer ovo orgânico em escala, o ministério lembra que existem fontes vegetais equivalentes de proteína e de cálcio."
+  },
+  {
+   "from": "b025",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 5,
+   "from_claim": "b025c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "A presidência confirma o anúncio trazido pelo ministério e acrescenta quanto o plano cresceu em relação ao anterior."
+  },
+  {
+   "from": "b025",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 3,
+   "from_claim": "b025c2",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "À proposta de tratar a sustentabilidade como requisito das políticas, a presidência responde que o plano já premia quem produz de forma orgânica."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b010",
+    "b022",
+    "b016",
+    "b025"
+   ],
+   "claims": [
+    "b001c1",
+    "b010c1",
+    "b022c2",
+    "b016c3",
+    "b025c2"
+   ],
+   "note": "A presidência, o Idec e o Ministério do Meio Ambiente concordam que o bem-estar dos animais entra na conta da sustentabilidade, e não é assunto à parte."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b006",
+    "b022"
+   ],
+   "claims": [
+    "b004c2",
+    "b006c1",
+    "b006c3",
+    "b022c1"
+   ],
+   "note": "Duas entidades e o ministério concordam que a maior parte das novas doenças humanas vem dos animais e que o modo de criar aumenta esse risco."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b008",
+    "b014"
+   ],
+   "claims": [
+    "b004c1",
+    "b008c1",
+    "b008c2"
+   ],
+   "note": "As entidades de proteção animal e o produtor de ovos orgânicos concordam que o uso rotineiro de antibióticos na criação precisa acabar."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b005",
+    "b010",
+    "b011",
+    "b024"
+   ],
+   "claims": [
+    "b005c1",
+    "b010c2",
+    "b011c1",
+    "b024c2"
+   ],
+   "note": "A presidência, o Idec e o ministério concordam que a alegação ambiental sem prova engana quem compra e que falta informação no rótulo."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b005",
+    "b010",
+    "b014",
+    "b016"
+   ],
+   "claims": [
+    "b005c2",
+    "b005c3",
+    "b010c3",
+    "b014c1"
+   ],
+   "note": "A presidência, o Idec e o produtor de ovos orgânicos concordam que faltam regras federais claras e que os projetos parados precisam ser votados."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 39,
+   "addressed_to": "parlamentar",
+   "answered_by": "b005",
+   "gist": "aprovar o Projeto de Lei nº 90, de 2020, que bane a alimentação forçada",
+   "plain": "O Congresso vai aprovar o Projeto de Lei nº 90, de 2020, que quer proibir a alimentação forçada de animais?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 71,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "criar regulamentação federal de rotulagem ambiental e ratificar o Acordo de Escazú",
+   "plain": "Quando virá a regra federal sobre rotulagem ambiental e a ratificação do Acordo de Escazú?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b008",
+   "sentence": 56,
+   "addressed_to": "setor_privado",
+   "answered_by": "b014",
+   "gist": "banir o uso rotineiro de antibióticos e reduzir a demanda por carne",
+   "plain": "Empresas e governos vão banir o antibiótico de rotina e reduzir a demanda por carne?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b025",
+   "sentence": 13,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "liberar os recursos da assistência técnica e extensão rural, que ainda não saíram",
+   "plain": "Quando sai o dinheiro da assistência técnica e extensão rural para a agricultura familiar?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 28,
+   "gist": "1,2 milhão de mortes no mundo por superbactérias em 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 29,
+   "gist": "até 2050, cerca de 10 milhões de mortes por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 31,
+   "gist": "cerca de 75% das doenças humanas são zoonoses",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 8,
+   "gist": "uma nova doença infecciosa reconhecida a cada 4 meses",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 24,
+   "gist": "ganho de produtividade de mais de 400% no frango de corte",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 50,
+   "gist": "131 mil toneladas de antibióticos por ano na criação animal",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 51,
+   "gist": "75% dos antibióticos do mundo vão para produção animal",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 25,
+   "gist": "para cada 1 trilhão gasto, quase 3 trilhões de custo",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 40,
+   "gist": "mentira verde em quase metade de 509 produtos testados",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 35,
+   "gist": "fazenda planejada para 700 mil aves, hoje com 120 mil",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b016",
+   "sentence": 5,
+   "gist": "71,6 bilhões de reais em crédito ao Pronaf",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b025",
+   "sentence": 3,
+   "gist": "Plano Safra com 34% mais recursos que o anterior",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "sociedade_civil",
+   "governo",
+   "mesa"
+  ],
+  "angle": "A matéria tratou a audiência como um pedido das entidades por mais segurança sanitária e organizou o texto em torno dos antibióticos, das zoonoses e do bem-estar animal.",
+  "omitted": "Ficaram de fora a fala do produtor de ovos orgânicos e a divergência sobre reduzir a demanda por carne ou manter a escala mudando a tecnologia, além do debate sobre o Plano Safra."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Criar animais em escala é risco de nova pandemia",
+   "statement_plain": "Criar bilhões de animais confinados aumenta a chance de surgir uma doença nova que passe para as pessoas, e nenhuma regra de biossegurança na granja dá conta disso sozinha.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c1",
+    "b006c2",
+    "b006c3",
+    "b022c1"
+   ],
+   "note": "É uma ideia, não um setor: juntam-se nela uma organização de proteção animal, uma epidemióloga de fora do país e um ministério do governo federal."
+  },
+  {
+   "id": "t2",
+   "title": "Melhorar a criação, sem reduzir a produção",
+   "statement_plain": "Não é preciso produzir menos nem banir a criação de animais. Dá para acabar com as gaiolas, tirar o antibiótico de rotina e manter a escala, com tecnologia e regra clara.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b014c2",
+    "b014c3"
+   ],
+   "note": "É uma ideia que cruza setores: quem a sustenta é uma organização de proteção animal e uma empresa de ovos, que em geral estariam em lados opostos desta mesa."
+  },
+  {
+   "id": "t3",
+   "title": "Sem regra federal, o rótulo segue enganando",
+   "statement_plain": "Quem compra não consegue saber pelo rótulo como o alimento foi produzido. Só uma regra federal sobre alegação ambiental, com fiscalização, muda isso.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b005c1",
+    "b010c2",
+    "b010c3",
+    "b011c1",
+    "b014c1",
+    "b024c2"
+   ],
+   "note": "É uma ideia que atravessa a sala: a presidência, o instituto de consumidores, o ministério e uma empresa do setor pedem a mesma regra, inclusive contra si mesma."
+  },
+  {
+   "id": "t4",
+   "title": "Antibiótico de rotina na criação precisa acabar",
+   "statement_plain": "O antibiótico dado ao animal para prevenir doença e acelerar o crescimento cria bactérias que não respondem mais a remédio, e esse uso precisa ficar só para tratar doença.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b008c1",
+    "b008c2"
+   ],
+   "note": "É uma ideia com prova em campo: duas organizações a sustentam com um estudo feito por uma universidade pública, e o produtor de ovos concorda com ela."
+  },
+  {
+   "id": "t5",
+   "title": "Bem-estar animal entra na conta da sustentabilidade",
+   "statement_plain": "Produzir de forma sustentável não é só cuidar de floresta, clima e água. O modo como os animais são criados faz parte da mesma conta, e tem custo para todo mundo.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b010c1",
+    "b016c3",
+    "b022c2",
+    "b025c2"
+   ],
+   "note": "É uma ideia e não um bloco: quem a sustenta é um deputado agrônomo, um instituto de defesa do consumidor e um ministério, cada um por um caminho diferente."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ODS",
+   "fala": "b004",
+   "sentence": 16,
+   "plain": "sigla de Objetivos de Desenvolvimento Sustentável: as 17 metas que os países da ONU combinaram para 2030, de fome zero a ação climática"
+  },
+  {
+   "term": "zoonoses",
+   "fala": "b004",
+   "sentence": 17,
+   "plain": "doenças que passam dos animais para as pessoas, como a gripe e a Covid"
+  },
+  {
+   "term": "saúde única",
+   "fala": "b004",
+   "sentence": 20,
+   "plain": "modo de olhar que trata a saúde das pessoas, a dos animais e a do ambiente como uma coisa só, porque uma depende da outra"
+  },
+  {
+   "term": "resistência antimicrobiana",
+   "fala": "b004",
+   "sentence": 24,
+   "plain": "quando bactérias e outros microrganismos deixam de responder aos remédios que antes os matavam"
+  },
+  {
+   "term": "pecuária intensiva",
+   "fala": "b004",
+   "sentence": 33,
+   "plain": "criação de muitos animais confinados no mesmo espaço, feita em grande escala"
+  },
+  {
+   "term": "taxonomia verde",
+   "fala": "b005",
+   "sentence": 4,
+   "plain": "lista de regras que define o que pode ser chamado de investimento ou atividade sustentável, para que a empresa tenha de provar o que diz"
+  },
+  {
+   "term": "patógenos",
+   "fala": "b006",
+   "sentence": 11,
+   "plain": "vírus, bactérias e outros microrganismos que causam doença"
+  },
+  {
+   "term": "bactérias multirresistentes",
+   "fala": "b008",
+   "sentence": 18,
+   "plain": "bactérias que já não são combatidas por vários antibióticos ao mesmo tempo, o que deixa a infecção sem tratamento"
+  },
+  {
+   "term": "jusante",
+   "fala": "b008",
+   "sentence": 20,
+   "plain": "o trecho do rio que fica depois de um ponto, no sentido em que a água corre. O trecho anterior é a montante"
+  },
+  {
+   "term": "IDEC",
+   "fala": "b001",
+   "sentence": 43,
+   "plain": "Instituto Brasileiro de Defesa do Consumidor, organização não governamental que defende direitos de quem compra"
+  },
+  {
+   "term": "greenwashing",
+   "fala": "b010",
+   "sentence": 9,
+   "plain": "a mentira verde: quando a empresa se apresenta como ecológica sem que os produtos ou as práticas sejam"
+  },
+  {
+   "term": "CONAR",
+   "fala": "b010",
+   "sentence": 41,
+   "plain": "Conselho Nacional de Autorregulamentação Publicitária, entidade em que as próprias empresas de publicidade julgam os anúncios"
+  },
+  {
+   "term": "Acordo de Escazú",
+   "fala": "b010",
+   "sentence": 65,
+   "plain": "tratado da América Latina e do Caribe sobre acesso à informação ambiental, participação nas decisões e justiça no tema"
+  },
+  {
+   "term": "PRONAF",
+   "fala": "b016",
+   "sentence": 5,
+   "plain": "programa federal que dá crédito com juros menores a quem vive da agricultura familiar"
+  },
+  {
+   "term": "ANATER",
+   "fala": "b025",
+   "sentence": 15,
+   "plain": "Agência Nacional da Assistência Técnica e Extensão Rural, órgão que leva orientação técnica ao produtor no campo"
+  }
+ ]
+}

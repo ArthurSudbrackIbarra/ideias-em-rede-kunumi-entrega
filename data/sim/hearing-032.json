@@ -1,0 +1,2412 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 32,
+ "model": "LLM lendo o prompt hearing-032 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T15:11:51Z",
+ "prompt_sha256": "d5436d072124e580349ae5fe81cc285a4e7422fd14684c66af45cc3870b4cee1",
+ "sentences_hash": "ec536694678a6891",
+ "review": {
+  "pairs_read": 52,
+  "pairs_fixed": 38
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Direitos Humanos ouviu dois Ministérios, duas Defensorias, a agência da ONU para as migrações e organizações que atendem migrantes em São Paulo sobre os obstáculos da regularização migratória e do acesso a direitos. Os debatedores apresentaram um roteiro de travas: vistos humanitários e de reunião familiar parados nas embaixadas, exclusão de imigrantes dos concursos públicos, diplomas sem revalidação e documentos que faltam para abrir conta ou receber benefício. O Governo Federal apresentou a nova política migratória em construção.",
+ "stakes": "Que compromissos a Comissão levaria aos Ministérios, em especial ao das Relações Exteriores, que não compareceu, e que caminho o Executivo adotaria para regularizar quem já vive no País sem documento.",
+ "central_question": "O que trava a regularização e o acesso a direitos da população migrante no Brasil, e o que o Congresso e o Executivo podem fazer agora?",
+ "synopsis_plain": "A Comissão de Direitos Humanos chamou Ministérios, Defensorias, a agência da ONU para as migrações e grupos que atendem migrantes em São Paulo. Eles listaram o que trava a vida de quem chega: visto humanitário e reunião com a família parados nas embaixadas, concurso público fechado, diploma sem revalidação e falta de documento para abrir conta ou receber benefício.",
+ "stakes_plain": "Que pedidos a Comissão levaria aos Ministérios e se o Governo daria documento de uma vez a quem já vive aqui sem papéis.",
+ "central_question_plain": "O que trava a vida de quem migra para o Brasil e o que dá para fazer agora?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Regularização de quem já chegou",
+   "description": "Discute se o Brasil deve dar autorização de residência de uma vez às pessoas migrantes que já vivem no País sem documento.",
+   "axis": {
+    "pro": "O Executivo pode e deve conceder autorização de residência ampla a quem já está no País.",
+    "contra": "A regularização depende das hipóteses previstas em lei e a vontade de morar aqui não basta.",
+    "pro_plain": "Dá para dar documento de uma vez a quem já vive aqui sem papéis, por portaria ou decreto.",
+    "contra_plain": "Só querer morar no Brasil não basta. Cada caso precisa caber em uma regra já prevista."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Nova política de migrações",
+   "description": "Discute o alcance da política migratória que o Governo Federal está montando e quanto os migrantes participam dela.",
+   "axis": {
+    "pro": "A nova política vem sendo construída com ampla escuta e já produz resultados.",
+    "contra": "Sem mais consulta, orçamento e voz dos próprios migrantes, a política fica no papel.",
+    "pro_plain": "O Governo já ouviu muita gente e a nova política de migração já mudou coisas na prática.",
+    "contra_plain": "Falta escutar mais os migrantes e garantir dinheiro, senão a política não sai do papel."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Visto e reunião familiar",
+   "description": "Discute a demora e a falta de explicação nos pedidos de visto humanitário e de reunião com a família feitos nas embaixadas brasileiras.",
+   "axis": {
+    "pro": "As embaixadas precisam dar prazo, motivo e procedimento claro em cada pedido de visto.",
+    "contra": "Conceder ou negar visto é decisão diplomática, tomada em cada posto no exterior.",
+    "pro_plain": "Quem pede visto tem de saber quanto tempo vai esperar e por que o pedido foi negado.",
+    "contra_plain": "Dar ou negar visto é decisão da diplomacia, tomada em cada consulado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Trabalho, diploma e concurso",
+   "description": "Discute o acesso de migrantes ao emprego, à revalidação do diploma e aos cargos e empregos públicos.",
+   "axis": {
+    "pro": "Migrante com diploma revalidado e aprovado em concurso deve poder assumir o cargo público.",
+    "contra": "As leis de servidores exigem nacionalidade brasileira e gozo dos direitos políticos.",
+    "pro_plain": "Quem passou no concurso e teve o diploma reconhecido deveria poder assumir a vaga.",
+    "contra_plain": "As regras do serviço público exigem ser brasileiro e estar em dia com os direitos políticos."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Documento e serviço básico",
+   "description": "Discute a burocracia de documentos que trava o acesso a banco, benefício, escola e saúde.",
+   "axis": {
+    "pro": "A exigência de documentos trava o acesso a serviços básicos e precisa ser simplificada.",
+    "contra": "As normas já permitem esse acesso e o problema está em como elas são aplicadas.",
+    "pro_plain": "Sem os papéis certos a pessoa não abre conta, não recebe benefício e não matricula o filho.",
+    "contra_plain": "As regras para abrir conta e receber benefício já existem. O problema é fazê-las valer."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Direito de voto do migrante",
+   "description": "Discute se quem mora e trabalha no Brasil sem ser brasileiro deveria poder votar e ser votado.",
+   "axis": {
+    "pro": "Quem vive e trabalha no País deve poder votar e ser votado.",
+    "contra": "O voto é direito de quem tem a nacionalidade brasileira.",
+    "pro_plain": "Quem mora e trabalha aqui deveria poder votar e se candidatar.",
+    "contra_plain": "Votar é direito de quem é brasileiro."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Migrar como direito",
+   "description": "Discute se a migração deve ser tratada como direito e parte da história do País ou como crise passageira.",
+   "axis": {
+    "pro": "Migrar é um direito e quem chega é patrimônio do País, não um problema.",
+    "contra": "A migração é assunto de fronteira e segurança, para tratar como emergência.",
+    "pro_plain": "Migrar é um direito. Quem chega faz parte da história do País e não é um problema.",
+    "contra_plain": "Migração é assunto de fronteira e segurança, para tratar como emergência."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência",
+   "org": "Comissão de Direitos Humanos, Minorias e Igualdade Racial",
+   "basis": "abre a sessão em b001.0 e passa a Presidência em b015.12",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida de direitos humanos, minorias e igualdade racial"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Política Migratória",
+   "org": "Ministério da Justiça e Segurança Pública",
+   "basis": "apresentado pela presidência em b001.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Justiça",
+   "org_plain": "ministério federal que cuida das regras de entrada, residência e naturalização de quem vem de fora"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Promoção dos Direitos das Pessoas Migrantes, Refugiadas e Apátridas",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentada pela presidência em b001.16",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos",
+   "org_plain": "ministério federal que cuida das políticas de direitos humanos e cidadania"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "advogado da equipe de moradia digna",
+   "org": "Centro Gaspar Garcia de Direitos Humanos",
+   "basis": "apresentado pela presidência em b005.2 e ele próprio em b006.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Centro Gaspar Garcia",
+   "org_plain": "organização de São Paulo que defende moradia e direitos humanos, inclusive de quem mora em ocupações"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Defensor Público Federal",
+   "org": "DPU",
+   "basis": "apresentado pela presidência em b001.18 e em b007.1",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Defensoria Pública da União",
+   "org_plain": "órgão público que dá defesa jurídica gratuita a quem não pode pagar advogado, em causas federais"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "representante de ocupações e da União Social dos Imigrantes Haitianos",
+   "org": "União Social dos Imigrantes Haitianos",
+   "basis": "apresentado pela presidência em b001.14 e em b009.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da União Social dos Imigrantes Haitianos",
+   "org_plain": "organização de imigrantes haitianos que vivem no Brasil, ligada a ocupações de moradia em São Paulo"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Defensora Pública do Estado de São Paulo",
+   "org": "Defensoria Pública do Estado de São Paulo",
+   "basis": "apresentada pela presidência em b001.19 e em b011.2",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "da Defensoria Pública de São Paulo",
+   "org_plain": "órgão do Estado de São Paulo que dá defesa jurídica gratuita a quem não pode pagar advogado"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "representante da organização",
+   "org": "Missão Paz",
+   "basis": "apresentada pela presidência em b013.2 e por ela própria em b014.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Missão Paz",
+   "org_plain": "organização do centro de São Paulo que acolhe migrantes desde os anos 30, com casa de acolhida e apoio legal"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Assistente de Projetos",
+   "org": "OIM",
+   "basis": "apresentado pela presidência em b001.15 e por ele próprio em b016.4",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da agência da ONU para as migrações",
+   "org_plain": "agência da ONU para as migrações, que trabalha com governos e organizações em 175 países"
+  },
+  "s10": {
+   "role": "sociedade_civil",
+   "cargo": "representante da organização",
+   "org": "Conectas Direitos Humanos",
+   "basis": "apresentada pela presidência em b017.22",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Conectas Direitos Humanos",
+   "org_plain": "organização brasileira que acompanha e cobra políticas de direitos humanos"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "chamada pela presidência em b019.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PSOL de São Paulo",
+   "org_plain": "casa do Congresso onde os deputados federais fazem as leis"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "a mesa não anuncia delegações nem registra palmas. Só menciona internautas e a transmissão em b001.7 e b016.2",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre regularização migratória, faz a autodescrição e apresenta os seis expositores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta a troca do controle migratório pela inclusão, as entregas já feitas a haitianos e lusófonos e o grupo de trabalho que monta a nova política migratória.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil está trocando uma política de controle migratório por uma política de inclusão das pessoas migrantes.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "desde a Lei nº 13.445, de 2017, o desafio do Departamento de Migrações é sair do controle migratório e ir para a inclusão",
+     "plain": "Desde a Lei nº 13.445, de 2017, o nosso Departamento de Migrações trabalha para deixar para trás a política de controle de quem entra e chegar a uma política de integração e inclusão social."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Portaria nº 38 facilitou a reunião de famílias haitianas e já chegaram mais de 30 mil pedidos",
+     "plain": "Destaco a reunião das famílias haitianas. A Portaria nº 38, do Ministério da Justiça, deixou esse pedido mais fácil. Já recebemos mais de 30 mil pedidos de haitianos que querem trazer a família."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministro Flávio Dino criou em janeiro um grupo de trabalho para a nova política migratória, com base no art. 120 da Lei nº 13.445",
+     "plain": "Em janeiro deste ano, o Ministro Flávio Dino montou um grupo de trabalho para escrever a nova política migratória. Ela tem base no art. 120 da Lei nº 13.445, de 2017, que trata da divisão de tarefas entre os entes da federação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra a Clarissa Teixeira, do Ministério dos Direitos Humanos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Defende que migrar é direito e não crime, lembra a virada do Estatuto do Estrangeiro para a Lei de Migração e pondera que só a vontade de morar aqui não regulariza ninguém.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Migrar é um direito, e por isso não se pode criminalizar a migração nem falar em imigrante ilegal.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "migrar é um direito, não se pode criminalizar a migração e não existe imigrante ilegal",
+     "plain": "A lei rompe com a ideia de que migrar seria ilegal. Hoje falamos que migrar é um direito. Não dá para criminalizar a migração nem falar em imigrante ilegal. Existem pessoas que precisam de apoio e estão em situação irregular, não ilegal."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Lei nº 13.445, de 2017, nasceu da luta dos migrantes para romper com uma norma que tratava migração como assunto de fronteira",
+     "plain": "No Brasil é difícil pôr em prática a Constituição e a Lei nº 13.445, de 2017. Ela saiu deste Legislativo, por luta dos migrantes, e rompeu com a norma anterior, a que chamavam de Estatuto do Estrangeiro, feita sob a ótica de fronteira."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o Brasil avançou na regularização, mas a vontade de morar aqui não basta como critério",
+     "plain": "Acredito que o Brasil avançou na regularização e vem cumprindo os princípios da lei. Mas é preciso dizer que a vontade não basta. A pessoa não pode simplesmente chegar e dizer que quer morar aqui, e esse é o nosso desafio de todo dia."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra a João Priolli, que fala por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata que a falta de documento trava o Bolsa Família e o saque no banco, pede diálogo com o Banco Central e propõe transformar a autorização de estudo em residência permanente.",
+   "quote": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A exigência de documento brasileiro trava o acesso de migrantes a benefícios e ao próprio processo de regularização.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o acesso ao Bolsa Família trava numa questão de documento, porque é preciso CPF para pedir e documento brasileiro com foto para sacar",
+     "plain": "O problema que mais vemos é o acesso aos benefícios sociais, principalmente ao Bolsa Família, e é uma questão de documento. Para pedir, a pessoa precisa de CPF. Para sacar, precisa de um documento brasileiro com foto."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem renda para pagar as taxas consulares e com o banco recusando o documento do país de origem, a pessoa perde o benefício",
+     "plain": "Para se regularizar a pessoa tem de pagar taxas consulares, mas não tem renda, e o processo trava. O banco recusa o documento do país de origem e ela perde o benefício. Nossa proposta: deixar sacar com o documento de origem."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem termina os estudos no Brasil não acha como se regularizar e fica fora do mercado de trabalho",
+     "plain": "Muita gente quer ficar e não encontra caminho de regularização. Vencida a autorização de estudo, tem de achar outra forma. Vemos profissionais formados até em faculdade pública que não entram no mercado nem conseguem se regularizar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao defensor público federal Matheus Alves do Nascimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que a própria Lei de Migração já permite regularizar em massa quem está irregular, cita portarias que fizeram isso e cobra do Congresso a convenção dos trabalhadores migrantes.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 28,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Executivo já pode acabar com o passivo de irregulares por portaria, sem esperar o projeto de lei.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um projeto de lei de anistia parado, mas a própria Lei de Imigração já permite uma regularização ampla",
+     "plain": "Como resolver esse acúmulo de gente irregular? Existe o Projeto de Lei nº 7.876, do Deputado Orlando Silva, que anistia quem já estava irregular quando a lei de 2017 saiu. Mas a própria Lei de Imigração já permite regularizar em massa."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "duas portarias interministeriais já regularizaram bolivianos e senegaleses, então o Executivo pode fazer o mesmo agora",
+     "plain": "A Portaria Interministerial nº 9, de 2019, e a nº 19, de 2021, já regularizaram vizinhos de fora do Mercosul, como bolivianos, e quem pedia refúgio do Senegal. Uma portaria da Justiça com as Relações Exteriores acaba com esse passivo."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso ampliar a reunião familiar e enfrentar a demora dos pedidos de visto nos consulados",
+     "plain": "Precisamos ampliar a reunião familiar e derrubar o limite de cadeia, que impede quem já foi chamado de chamar outro. E há demora nos pedidos de visto nos postos brasileiros no exterior, sobretudo de afegãos, sírios e do leste asiático."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Defensoria Pública da União e passa a palavra a Fedo Bacourt.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra a revalidação dos diplomas dos imigrantes, denúncia que o acolhimento é pior para quem é negro e pede que a CCJ retome a proposta do voto.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 31,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem revalidar o diploma dos imigrantes, quem estudou anos fica impedido de trabalhar na própria área.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há cerca de 1,5 milhão de imigrantes no Brasil, 161 mil deles haitianos, e a falta de revalidação de diplomas cria desigualdade",
+     "plain": "Há cerca de 1,5 milhão de imigrantes no País, dos quais 161 mil são haitianos. Quando o diploma não é revalidado, cria-se uma desigualdade na sociedade brasileira que atinge justamente quem veio de fora."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o acolhimento é mais favorável ao imigrante branco do que ao negro, que é maltratado em muitas instituições",
+     "plain": "Somos todos imigrantes, da África, do Haiti, da Europa, da Ásia. Mas, pela burocracia, o brasileiro acolhe melhor o imigrante branco do que o negro. Em muitas instituições o imigrante negro é maltratado pela cor da pele, mesmo com a lei."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      24,
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "votar é direito de todo ser humano que tem capacidade de votar, inclusive de quem migrou e vive aqui",
+     "plain": "Para mim, quem tem capacidade de votar tem esse direito, e escolhe de forma democrática quem dirige o país onde mora. Para nós imigrantes, votar e ser votado é um direito. Vivemos aqui e aqui também podemos votar."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Fedo e passa a palavra à defensora pública Amanda Pilon Barsoumian, que fala por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que as leis de servidores barram imigrantes aprovados em concurso, chama isso de violação da isonomia e cita São Paulo, onde a lei municipal já permite.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Barrar o imigrante aprovado em concurso viola a isonomia e contraria a Lei de Migração.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as leis de servidores exigem nacionalidade brasileira e direitos políticos, e isso exclui o imigrante mesmo aprovado no concurso",
+     "plain": "A Lei nº 8.112, de 1990, e as leis estaduais e municipais exigem ser brasileiro e ter direitos políticos para assumir cargo. Isso exclui o imigrante, mesmo quem revalidou o diploma em universidade pública e passou por todo o concurso."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "essa barreira fere a isonomia e a Lei de Migração, que manda incluir o migrante no trabalho por políticas públicas",
+     "plain": "Entendemos que essas limitações ferem a isonomia e a Lei de Migração, de 2017, que manda incluir o migrante na vida social e no trabalho por políticas públicas. Ele deve ter as mesmas chances de trabalho digno."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei paulistana abre cargos públicos a imigrantes desde 2002 e hoje há 90 deles na administração direta do Município",
+     "plain": "São Paulo permite desde 2002, pela Lei nº 13.404, que imigrantes entrem em cargos públicos municipais. Em setembro a Prefeitura respondeu que tem 90 imigrantes na administração direta: 71 efetivos, 16 comissionados e 3 temporários."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a defensora de São Paulo e passa a palavra a Letícia Carvalho, da Missão Paz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Denuncia a falta de transparência das embaixadas nos vistos humanitários e de reunião familiar, em especial na África, e pede prazos, motivos de negativa e procedimento padronizado.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As representações diplomáticas brasileiras não cumprem os procedimentos previstos e travam os vistos de quem mais precisa.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as embaixadas brasileiras não cumprem os procedimentos e os documentos previstos na lei ao emitir vistos",
+     "plain": "Na emissão de vistos seguimos vendo falta de transparência e descumprimento do procedimento previsto em lei pelas embaixadas do Brasil. O problema piora nos vistos de acolhida humanitária e de reunião com parentes separados."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      25
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nas embaixadas do continente africano há exigência de documento não previsto, recusa de papéis e negativa sem justificativa",
+     "plain": "Nos vistos de reunião familiar há problemas graves, sobretudo nas embaixadas no continente africano. Pedem documento que não está previsto, recusam papéis sem considerar a cultura local e, principalmente, negam o visto sem dizer o motivo."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      28
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as embaixadas deveriam cumprir a Lei nº 9.784, de 1999, e informar prazos, motivos de negativa e um procedimento padrão",
+     "plain": "Pedimos transparência e o cumprimento da Lei nº 9.784, de 1999, do processo administrativo. As embaixadas deveriam dizer quantos atendem, quanto se espera, como agendar e por que negam, com procedimento padronizado, sem venda de serviço."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Propõe levar as conclusões ao Ministério das Relações Exteriores e listar as propostas legislativas em jogo, do visto ao concurso e ao direito de voto.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão deve transformar as demandas ouvidas numa agenda, e o direito de voto entra nela.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a audiência já pontuou visto, concurso, emprego e direito ao voto, e há uma proposta do Deputado Zarattini que assegura o voto",
+     "plain": "Já temos aqui pontuadas a questão do visto, a dos concursos, a da empregabilidade e também a do direito ao voto. Existe uma PEC do Deputado Zarattini que assegura esse direito de votar."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as conclusões da audiência devem chegar ao Ministério das Relações Exteriores, que não veio",
+     "plain": "Sugiro, como primeiro encaminhamento, levar esta pauta e as conclusões a quem não pôde vir a esta audiência, que é o Ministério das Relações Exteriores."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Situa o Brasil como referência na política migratória, lembra a volta ao Pacto Global e alerta que a exigência de documento não pode fechar a porta do CPF.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei brasileira garante ao migrante os mesmos direitos dos nacionais, e essa abordagem é o que faz do País uma referência.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em 2023 o Brasil voltou ao Pacto Global para Migração, o primeiro acordo entre governos sobre o tema",
+     "plain": "Vale lembrar que em 2023 o Brasil volta ao Pacto Global para Migração, primeiro acordo entre governos sobre o tema. Ele se apoia nos dezessete objetivos de desenvolvimento sustentável, e a migração é essencial para a Agenda 2030."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil é referência no mundo porque sua lei garante ao migrante acesso a direitos em igualdade com os brasileiros",
+     "plain": "O Brasil tem sido referência no mundo na política migratória. O art. 5º da Constituição e a lei de migração garantem acesso a direitos em igualdade com os brasileiros, sem olhar a nacionalidade ou a situação migratória."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o CPF virou a principal porta de acesso a direitos e sua emissão não pode ser restringida para migrantes",
+     "plain": "Precisamos pensar nas mudanças que vêm com a unificação dos documentos em torno do CPF. Como vários colegas disseram, ele é uma das principais portas de acesso a direitos. Não se pode restringir a emissão dele para quem migrou."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata que a população imigrante é tratada com preconceito e enfrenta barreira para abrir conta, receber benefício e matricular a criança na escola.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A população imigrante enfrenta barreira de acesso a serviços básicos e é tratada com preconceito.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a população imigrante é tratada com preconceito e tem dificuldade enorme para abrir conta, receber benefício e fazer cadastro na escola",
+     "plain": "Lutamos pela dignidade da população imigrante, tratada muitas vezes com menosprezo, preconceito e discriminação. Ela tem enorme dificuldade com serviços básicos: abrir conta, receber o Bolsa Família, matricular a criança na escola."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Reconhece os avanços do Governo, cobra orçamento e mais consulta para a nova política e defende regularizar por decreto todas as pessoas migrantes que já estão no País.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil já regularizou todo mundo outras vezes e pode fazer isso de novo, agora por decreto.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a nova política precisa de mais etapas de consulta aos migrantes e de atenção orçamentária do Parlamento para não virar letra morta",
+     "plain": "Esperamos mais etapas de consulta sobre o texto dessa política, com participação de lideranças e de pessoas migrantes, refugiadas e apátridas. Ela vai precisar de atenção do Parlamento no orçamento. Meu apelo é que não vire letra morta."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "regularizar todas as pessoas migrantes que estão no País não seria inédito, porque leis assim já foram aprovadas em 2009, 1998, 1985 e 1980",
+     "plain": "Um primeiro passo importante seria regularizar todas as pessoas migrantes que estão no País. Não seria a primeira vez que o Brasil faria isso. Outras leis assim já foram aprovadas em 2009, em 1998, 1985 e 1980."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Executivo poderia dar residência ampla por decreto, com base no art. 142 do regulamento da Lei de Migração",
+     "plain": "Como o colega Matheus já disse, o Executivo poderia dar residência ampla por decreto. A base é o art. 142 do Decreto nº 9.199, de 2017, o regulamento da nossa lei de migração."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Marina, destaca as contribuições das organizações e chama a deputada Professora Luciene.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Lembra que a criança refugiada tem direito à escola sem depender de documento, sente falta do Ministério da Educação na mesa e pede corredor humanitário para o povo palestino.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A criança em processo migratório tem direito à escola sem depender de documento, e ainda assim encontra barreira.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as crianças refugiadas têm dificuldade de acessar a educação, um direito que não exige documento nenhum",
+     "plain": "O Brasil assinou tratados que o obrigam a garantir direitos, como o da educação, que acompanho de perto. A demanda é de anos. As crianças refugiadas, em processo migratório, têm dificuldade de acessar um direito que não exige documento."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "falta o Ministério da Educação nesta mesa e ele precisa ser provocado a garantir o direito à educação de todos",
+     "plain": "Sinto falta do Ministério da Educação aqui nesta Mesa. Acho que ele precisa ser cobrado, para assegurar o direito à educação de todo mundo."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso abrir as fronteiras e criar um corredor humanitário para que as pessoas cheguem aos direitos fundamentais",
+     "plain": "Faço de novo o apelo público para que os bombardeios cessem, para que esse genocídio cesse, para que as fronteiras se abram e se atenda a resolução que o Presidente Lula levou à ONU. É preciso um corredor humanitário para as pessoas."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a palavra para considerações finais e anuncia a ordem: Fedo, depois Clarissa e Paulo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Levanta a saúde das mulheres imigrantes, pede que elas próprias sejam ouvidas e cobra a presença do Ministério das Relações Exteriores.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A saúde das mulheres imigrantes precisa entrar na pauta, e são elas que devem falar sobre isso.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as mulheres imigrantes, principalmente as negras, têm um problema grande de saúde, com doenças que não existem no Brasil",
+     "plain": "Recebo muitos pedidos sobre isso. Quem trabalha com direitos humanos precisa olhar o assunto, porque a saúde das mulheres imigrantes, em especial das negras, é um problema muito grande. Algumas doenças delas nem existem no Brasil."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "é preciso dar às mulheres imigrantes a oportunidade de falar e ouvir as que estão à frente das comunidades",
+     "plain": "Eu não sei falar desses casos. Por isso as próprias mulheres imigrantes precisam ter espaço para falar, e é preciso escutar as que estão à frente das comunidades."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério das Relações Exteriores deveria estar aqui para ouvir os imigrantes e mudar critérios burocráticos",
+     "plain": "A Deputada citou o Ministério da Educação. O das Relações Exteriores também deveria estar nesta sala, para nos escutar e rever critérios de burocracia que travam o acesso dos imigrantes."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Aponta a ausência de vários Ministérios e defende um trabalho interseccional para reduzir a negação de direitos básicos aos imigrantes.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Reduzir a negação de direitos aos imigrantes exige o trabalho conjunto de muitos órgãos públicos.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta aqui a representação de vários Ministérios, e esse é um trabalho que precisa de muitos agentes públicos juntos",
+     "plain": "Falta aqui a representação de vários outros Ministérios. Este trabalho é interseccional e multidisciplinar, e precisa de muitos agentes públicos para reduzir a negação de direitos básicos como educação, saúde, moradia e trabalho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pede virar a chave e parar de tratar migração como calamidade, defende políticas de continuidade e pergunta como a escola vai acolher essas crianças.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A migração não é uma calamidade passageira e exige políticas de permanência, não de emergência.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso virar a chave e parar de tratar a migração como algo emergencial, um problema que se encerra no tempo",
+     "plain": "Quero acrescentar a necessidade de trabalharmos de forma intersetorial. Acho preciso virar a chave e parar de ver as migrações como algo emergencial, como um atendimento que se encerra no tempo, como um problema, como uma calamidade."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "depois de garantir o acesso às políticas públicas é preciso garantir a permanência, com políticas de continuidade",
+     "plain": "Precisamos avançar, como a nossa lei já avançou ao passar do Estatuto do Estrangeiro para a atual Lei de Migração. É preciso garantir o acesso às políticas públicas e, sobretudo, a permanência no País, com políticas de continuidade."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      11
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "garantir a vaga na escola não basta, é preciso pensar como essas crianças serão acolhidas na sala de aula",
+     "plain": "As políticas têm de garantir a vaga da criança na escola. Mas é preciso pensar como ela vai ser acolhida ali. Como o professor, diante daqueles estudantes, faz o nivelamento e garante que exista de fato uma simbiose?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Clarissa, comenta as camadas de preconceito sobre migrantes e chama Paulo Illes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que mais de 200 organizações foram ouvidas, mostra o salto nas naturalizações e reafirma o compromisso com novas formas de regularização.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A construção da política migratória já ouviu a sociedade civil e o Ministério já entrega resultados na regularização.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no processo de construção da política migratória foram ouvidas mais de 200 organizações da sociedade civil, a maioria de migrantes",
+     "plain": "A Letícia e a Marina perguntaram das audiências públicas. Quero esclarecer: ao construir a política migratória, escutamos mais de 200 organizações da sociedade civil, a maior parte delas de migrantes."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as naturalizações deferidas passaram de 3.419 no ano passado para 8.515 este ano, porque antes se negava mais",
+     "plain": "Um dado do Departamento: no ano passado saíram 3.419 naturalizações e neste ano já saíram 8.515. Mudou porque antes se negava mais. Hoje trabalhamos para conceder a naturalização, não para negar."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Departamento estuda outras formas de regularização por interesse do Estado brasileiro, como fez nas portarias da CPLP e dos haitianos",
+     "plain": "Reafirmo o compromisso do Departamento de Migrações com a regularização. Como fizemos na portaria da CPLP e na dos haitianos, estudamos outras formas de regularizar por interesse do Estado brasileiro, como a lei permite."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as inscrições e chama Matheus Nascimento e depois Fabio Filho para as últimas falas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que a Defensoria destrava o Bolsa Família por ofício e que o Banco Central já permite a conta, e aponta a falta do campo de nome social no registro migratório.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "Há caminho para o benefício e para a conta bancária, mas o registro migratório ainda não reconhece o nome social.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "quem já tem CPF e não consegue o benefício pode procurar a Defensoria, que envia ofício ao Ministério do Desenvolvimento Social",
+     "plain": "O imigrante que já tem CPF e não consegue o benefício pode procurar as organizações ou a DPU, a Defensoria Pública da União. Em geral conseguimos, por ofício ao Ministério do Desenvolvimento Social, que ele analise o Bolsa Família."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "existe normativa do Banco Central que já permite ao imigrante abrir conta bancária, e a Defensoria tem ofício circular sobre isso",
+     "plain": "Sobre o acesso ao banco, a Defensoria tem um ofício circular há alguns anos. Existe inclusive uma normativa do Banco Central que permite que os imigrantes tenham acesso e abram suas contas bancárias."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Registro Nacional Migratório não tem campo de nome social, e a pessoa migrante LGBT precisa ser identificada como quer",
+     "plain": "Hoje o Registro Nacional Migratório não tem campo de nome social, Deputada. Vale verificar isso aqui, para que as pessoas imigrantes da população LGBT possam ser identificadas como querem também nesse documento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Chama de grave a ausência do campo de nome social no documento migratório e pede que a questão seja olhada com atenção.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A falta de um campo claro de nome social no documento migratório é grave e precisa ser resolvida.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não haver esse campo de nome social é grave, e é preciso entender se ele existe e se está claro para a pessoa",
+     "plain": "É grave o que você coloca, é bastante grave não existir esse campo. Ora parece que há, ora parece que não. Precisamos entender se ele está claro e se a pessoa sabe que é ali que escreve o nome social pelo qual quer ser tratada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Fecha lembrando que os marcos internacionais já contemplam esses desafios e mostra o peso das remessas dos migrantes para os países de origem.",
+   "quote": [
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os marcos internacionais já dão as diretrizes para enfrentar os desafios levantados na audiência.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os desafios levantados aqui já estão contemplados no Pacto Global, que serve de diretriz para o trabalho entre setores",
+     "plain": "Os desafios que levantamos aqui estão bem contemplados nesses marcos, e é bom tê-los como diretriz. O desafio de juntar educação, saúde, justiça e direitos humanos é princípio do Pacto Global. A abordagem de todo o Governo também orienta."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      10
+     ],
+     "type": "economico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "cortar em 5 pontos percentuais o custo das remessas levaria mais 7 bilhões de dólares às famílias de países de baixa e média renda",
+     "plain": "Um estudo trata do custo das remessas que os migrantes mandam para casa. Se caísse 5 pontos percentuais, chegariam mais 7 bilhões de dólares a famílias de países de baixa e média renda, e 560 milhões a pequenos Estados insulares."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lê os encaminhamentos da Comissão: portaria de residência ampla, mais diplomatas nos consulados, regulamentação do concurso e reunião familiar sem limite de cadeia.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão vai cobrar dos Ministérios uma portaria que regularize todos os imigrantes em situação irregular.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão vai pedir aos Ministérios uma portaria de residência por interesse da política migratória, que regularizaria os irregulares",
+     "plain": "A Comissão deve procurar os Ministérios da Justiça e das Relações Exteriores para editarem portaria de residência por interesse da Política Migratória Nacional, com base no art. 30 da Lei de Imigração, regularizando os irregulares."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      12
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão vai pedir ao Ministério do Planejamento a regulamentação da participação de imigrantes em concursos públicos",
+     "plain": "A Comissão deve procurar o Ministério do Planejamento e Gestão para regulamentar a participação de imigrantes em concursos públicos, inclusive mudando nesse sentido a Lei nº 8.112, de 1990."
+    },
+    {
+     "id": "b031c3",
+     "sentences": [
+      11
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão vai pedir mais diplomatas nos consulados dos países com muitos pedidos de visto humanitário, como Síria, Afeganistão e Haiti",
+     "plain": "A Comissão deve procurar a Casa Civil e o Ministério das Relações Exteriores para ampliar o corpo diplomático nos consulados, sobretudo nos países com muitos pedidos de visto humanitário, como Síria, Afeganistão e Haiti."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 8,
+   "from_claim": "b004c3",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Os dois Ministérios leem a lei de 2017 do mesmo jeito: o Brasil avançou na regularização e saiu da lógica de controle de fronteira."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 8,
+   "from_claim": "b008c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A Defensoria pega a virada anunciada pelo Ministério e diz onde ela cabe agora: a própria Lei de Imigração já permite uma regularização ampla."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 35,
+   "from_claim": "b010c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "O relato do advogado sobre quem se forma aqui e não consegue ficar encontra o do representante dos haitianos sobre o diploma que ninguém revalida."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 9,
+   "from_claim": "b012c1",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "A defensora mostra o passo seguinte da queixa sobre diplomas: mesmo com o diploma revalidado e o concurso feito, o cargo continua fechado."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 33,
+   "from_claim": "b012c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A Lei de Migração promete acesso igual ao trabalho, e é justamente o que falta a quem termina os estudos e não acha caminho para ficar."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 8,
+   "from_claim": null,
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A Missão Paz diz que assume as palavras da defensora sobre concursos públicos e não repete o argumento."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 31,
+   "from_claim": "b014c1",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A queixa da Defensoria sobre a demora dos consulados é detalhada por quem atende na ponta: falta transparência e cumprimento do procedimento previsto."
+  },
+  {
+   "from": "b015",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 25,
+   "from_claim": "b015c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A presidência recolhe o pedido do direito ao voto e lembra que há uma proposta em tramitação sobre isso."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 21,
+   "from_claim": "b015c2",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "Como as queixas sobre vistos são dirigidas a um Ministério que não veio, a presidência propõe levar as conclusões até ele."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 26,
+   "from_claim": "b016c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "A agência da ONU confirma a leitura do Ministério: a lei garante direitos em igualdade com os brasileiros, sem olhar a situação migratória."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 16,
+   "from_claim": "b016c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "O acordo de mobilidade entre os países de língua portuguesa, anunciado pelo Ministério, é citado como prova de que o País ampliou a cooperação."
+  },
+  {
+   "from": "b017",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 20,
+   "from_claim": "b017c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "A autora do requerimento repete a lista de barreiras que o advogado tinha descrito: conta de banco, benefício e cadastro na escola."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 8,
+   "from_claim": "b018c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A Conectas reconhece a virada anunciada, mas diz que sem mais consulta e sem orçamento a política não chega a valer."
+  },
+  {
+   "from": "b018",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 23,
+   "from_claim": "b018c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "A Conectas retoma o caminho apontado pela Defensoria e o nomeia: um decreto com base no regulamento da Lei de Migração."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 36,
+   "from_claim": "b018c2",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Onde o Ministério vê avanço com limites, a Conectas vê o passo que falta: regularizar de uma vez quem já está aqui."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 22,
+   "from_claim": null,
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "A Conectas reforça o apelo da Missão Paz sobre o visto humanitário, que é a porta de entrada de quem está em situação extrema."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 7,
+   "from_claim": "b022c3",
+   "to_claim": "b020c2",
+   "strength": "media",
+   "note": "À falta do Ministério da Educação apontada pela deputada, o representante dos imigrantes soma a ausência do Ministério das Relações Exteriores."
+  },
+  {
+   "from": "b023",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 7,
+   "from_claim": "b023c1",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "A presidência acolhe a observação sobre a saúde das mulheres imigrantes e a transforma em argumento sobre a ausência de vários Ministérios."
+  },
+  {
+   "from": "b024",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 3,
+   "from_claim": "b024c1",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "O Ministério dos Direitos Humanos assume o ponto da mesa sobre trabalho conjunto e o liga à troca da lógica de emergência pela de continuidade."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 7,
+   "from_claim": "b024c2",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "Ao pedido de políticas para as mulheres imigrantes, o Ministério responde que elas vêm depois de garantido o acesso, na etapa da permanência."
+  },
+  {
+   "from": "b024",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 11,
+   "to_sentence": 4,
+   "from_claim": "b024c3",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "À cobrança sobre a escola, o Ministério responde que garantir a vaga não basta e pergunta como o professor vai acolher aquelas crianças."
+  },
+  {
+   "from": "b026",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 5,
+   "from_claim": "b026c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Ao pedido de mais etapas de consulta, o Ministério responde com o número de organizações já ouvidas na construção da política."
+  },
+  {
+   "from": "b026",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 40,
+   "from_claim": "b026c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "À pergunta sobre o cronograma das audiências públicas do decreto, o Ministério responde contando como a escuta foi feita."
+  },
+  {
+   "from": "b026",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 30,
+   "to_sentence": 23,
+   "from_claim": "b026c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "À proposta de resolver o passivo por portaria, o Ministério responde que estuda outras formas de regularizar por interesse do Estado."
+  },
+  {
+   "from": "b028",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 19,
+   "from_claim": "b028c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "À trava do Bolsa Família, a Defensoria responde com o caminho que costuma funcionar: ofício ao Ministério do Desenvolvimento Social."
+  },
+  {
+   "from": "b028",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 22,
+   "from_claim": "b028c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Onde o advogado vê o banco recusando o documento de origem, a Defensoria lembra que já existe normativa do Banco Central permitindo a conta."
+  },
+  {
+   "from": "b029",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 7,
+   "from_claim": "b029c1",
+   "to_claim": "b028c3",
+   "strength": "media",
+   "note": "A presidência trata a falta do campo de nome social no documento migratório como um problema grave e pede que seja verificado."
+  },
+  {
+   "from": "b030",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 2,
+   "from_claim": "b030c1",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A agência da ONU pega a provocação de ir além da ação humanitária e mostra que os marcos internacionais já pedem esse olhar intersetorial."
+  },
+  {
+   "from": "b031",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 23,
+   "from_claim": "b031c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O encaminhamento final da Comissão adota o caminho proposto pela Defensoria: uma portaria de residência por interesse da política migratória."
+  },
+  {
+   "from": "b031",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 28,
+   "from_claim": "b031c1",
+   "to_claim": "b018c3",
+   "strength": "media",
+   "note": "A Comissão fecha com o pedido da Conectas: um ato do Executivo que regularize todos os imigrantes em situação irregular."
+  },
+  {
+   "from": "b031",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 8,
+   "from_claim": "b031c2",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "A denúncia de que a lei de servidores exclui o imigrante vira encaminhamento: pedir a regulamentação do acesso a concursos."
+  },
+  {
+   "from": "b031",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 21,
+   "from_claim": "b031c3",
+   "to_claim": "b014c1",
+   "strength": "media",
+   "note": "Contra a demora nos consulados, a Comissão pede mais diplomatas nos países de onde vem o maior número de pedidos de visto humanitário."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b008",
+    "b018",
+    "b026",
+    "b031"
+   ],
+   "claims": [
+    "b008c2",
+    "b018c3",
+    "b026c3",
+    "b031c1"
+   ],
+   "note": "A Defensoria da União, a Conectas, o Ministério da Justiça e a mesa concordam que o Executivo já pode regularizar por ato próprio quem está irregular, sem esperar lei nova."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b008",
+    "b014",
+    "b022",
+    "b031"
+   ],
+   "claims": [
+    "b008c3",
+    "b014c1",
+    "b022c3",
+    "b031c3"
+   ],
+   "note": "Defensoria, Missão Paz, representante dos imigrantes haitianos e a mesa concordam que os consulados precisam dar prazo, motivo e procedimento claro nos vistos."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b010",
+    "b012",
+    "b031"
+   ],
+   "claims": [
+    "b006c3",
+    "b010c1",
+    "b012c2",
+    "b031c2"
+   ],
+   "note": "Advogado de moradia, representante dos haitianos, Defensoria de São Paulo e a mesa concordam que o diploma sem revalidação e o concurso fechado mantêm o migrante fora do trabalho."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b016",
+    "b017",
+    "b020"
+   ],
+   "claims": [
+    "b006c1",
+    "b016c3",
+    "b017c1",
+    "b020c1"
+   ],
+   "note": "O Centro Gaspar Garcia, a agência da ONU, a presidência e a deputada concordam que a exigência de documento trava benefício, banco e escola."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b004",
+    "b010",
+    "b016",
+    "b024"
+   ],
+   "claims": [
+    "b004c1",
+    "b010c2",
+    "b016c2",
+    "b024c1"
+   ],
+   "note": "O Ministério dos Direitos Humanos, a agência da ONU e o representante dos imigrantes concordam que migrar é direito e que quem chega não é um problema a administrar."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b006",
+   "sentence": 24,
+   "addressed_to": "governo",
+   "answered_by": "b028",
+   "gist": "se dá para destravar o saque do benefício com o documento de origem",
+   "plain": "Dá para Direitos Humanos, Trabalho e Banco Central conversarem para destravar o saque do benefício?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b008",
+   "sentence": 28,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que o Congresso internalize a convenção dos trabalhadores migrantes",
+   "plain": "O Congresso vai trazer para dentro da lei brasileira a convenção sobre os trabalhadores migrantes?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b010",
+   "sentence": 31,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que a CCJ designe logo um novo relator para a proposta do voto",
+   "plain": "A CCJ vai designar logo um novo relator para a PEC 119/11, que trata do voto do imigrante?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b014",
+   "sentence": 40,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "se as audiências sobre o decreto da política nacional seguem de pé",
+   "plain": "As audiências públicas sobre o decreto da política nacional continuam previstas ou o tema vai para a COMIGRAR?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b020",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Ministério da Educação seja chamado a garantir a escola",
+   "plain": "O Ministério da Educação vai ser chamado para garantir o direito à educação das crianças migrantes?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 12,
+   "gist": "mais de 30 mil pedidos de reunião familiar de haitianos",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 17,
+   "gist": "315 imigrantes lusófonos pediram residência pela portaria da CPLP",
+   "disputed_by": [
+    {
+     "fala": "b026",
+     "sentence": 25
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "fala": "b010",
+   "sentence": 7,
+   "gist": "cerca de 1,5 milhão de imigrantes vivem no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b010",
+   "sentence": 8,
+   "gist": "os haitianos somam 161 mil",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 15,
+   "gist": "90 imigrantes na administração direta de São Paulo",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 13,
+   "gist": "a lei paulistana abre cargos a imigrantes desde 2002",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b026",
+   "sentence": 18,
+   "gist": "3.419 naturalizações no ano passado e 8.515 este ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b026",
+   "sentence": 22,
+   "gist": "mais de 5 mil processos de haitianos estavam judicializados",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 10,
+   "gist": "a Portaria nº 678, de 2022, fechou fronteiras na pandemia",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b016",
+   "sentence": 4,
+   "gist": "a OIM tem 175 Estados-Membros e o Brasil entrou em 2004",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 25,
+   "gist": "leis assim já foram aprovadas em 2009, 1998, 1985 e 1980",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b030",
+   "sentence": 10,
+   "gist": "cortar 5 pontos no custo das remessas daria 7 bilhões de dólares",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d7"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil",
+   "mesa"
+  ],
+  "angle": "A matéria montou um roteiro das dificuldades relatadas pelos debatedores e deu espaço à resposta dos dois Ministérios sobre a política migratória em construção.",
+  "omitted": "Ficaram de fora o pedido do direito de voto dos imigrantes, a denúncia de que o acolhimento é pior para quem é negro, a saúde das mulheres imigrantes e a falta do campo de nome social no documento migratório."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Dá para regularizar todo mundo agora, sem lei nova",
+   "statement_plain": "O Executivo já pode dar autorização de residência a todas as pessoas migrantes que vivem no País sem documento, por portaria ou decreto, sem esperar o Congresso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c2",
+    "b018c2",
+    "b018c3",
+    "b026c3",
+    "b031c1"
+   ],
+   "note": "A ideia junta a Defensoria Pública da União, uma organização de direitos humanos, o próprio Ministério da Justiça e a mesa da Comissão. O outro Ministério do governo foi o único a pôr ressalva."
+  },
+  {
+   "id": "t2",
+   "title": "Direito no papel não chega em quem precisa",
+   "statement_plain": "A lei e a nova política até existem, mas sem orçamento, sem escutar os próprios migrantes e sem simplificar a burocracia o direito não chega a quem depende dele.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b018c1",
+    "b022c2",
+    "b020c1",
+    "b017c1",
+    "b006c1"
+   ],
+   "note": "É uma ideia, não um bloco: reúne uma organização de direitos humanos, um representante dos imigrantes haitianos, uma deputada e a própria presidência da audiência."
+  },
+  {
+   "id": "t3",
+   "title": "A política migratória já virou a chave",
+   "statement_plain": "O Brasil já saiu da política de controle de quem entra e caminha para uma política de inclusão, com escuta ampla e resultados que já aparecem.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b026c1",
+    "b016c1",
+    "b030c1"
+   ],
+   "note": "O Ministério da Justiça e a agência da ONU para as migrações sustentam a mesma ideia, contestada por quem atende migrantes na ponta."
+  },
+  {
+   "id": "t4",
+   "title": "Migrar é direito, e quem chega não é problema",
+   "statement_plain": "Migrar é um direito, não um crime nem uma calamidade passageira. Quem chega faz parte da história do País e precisa de políticas de permanência.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c2",
+    "b024c1",
+    "b024c2",
+    "b016c2",
+    "b010c2"
+   ],
+   "note": "Um ministério, uma agência da ONU e um representante de imigrantes defendem a mesma ideia, que atravessa a mesa inteira e não pertence a um setor."
+  },
+  {
+   "id": "t5",
+   "title": "Sem diploma e sem concurso não há integração",
+   "statement_plain": "Enquanto o diploma não for revalidado e o concurso público continuar fechado, o migrante segue fora do trabalho para o qual estudou, mesmo morando aqui há anos.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b012c1",
+    "b012c2",
+    "b006c3",
+    "b031c2"
+   ],
+   "note": "Une a Defensoria de São Paulo, um advogado de moradia, um representante dos imigrantes haitianos e a mesa da Comissão, que transformou a ideia em encaminhamento."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Estatuto do Estrangeiro",
+   "fala": "b004",
+   "sentence": 10,
+   "plain": "lei antiga, de 1980, que tratava quem vinha de fora como assunto de segurança e fronteira. Foi substituída em 2017 pela Lei de Migração"
+  },
+  {
+   "term": "Lei de Migração",
+   "fala": "b004",
+   "sentence": 8,
+   "plain": "Lei nº 13.445, de 2017, que trata a migração como direito e define como a pessoa entra, fica e tem acesso a serviços no Brasil"
+  },
+  {
+   "term": "acolhida humanitária",
+   "fala": "b004",
+   "sentence": 28,
+   "plain": "regra que deixa entrar e morar no Brasil quem foge de guerra, desastre ou grave violação de direitos no país de origem"
+  },
+  {
+   "term": "Apatridia",
+   "fala": "b002",
+   "sentence": 5,
+   "plain": "situação de quem não é reconhecido como cidadão por país nenhum e por isso fica sem documento e sem direitos básicos"
+  },
+  {
+   "term": "reunificação familiar",
+   "fala": "b002",
+   "sentence": 10,
+   "plain": "pedido para trazer parentes que ficaram no país de origem e reunir a família no Brasil"
+  },
+  {
+   "term": "MERCOSUL",
+   "fala": "b002",
+   "sentence": 14,
+   "plain": "bloco de países da América do Sul. Quem vem de um país do bloco tem um caminho mais simples para morar no Brasil"
+  },
+  {
+   "term": "CPLP",
+   "fala": "b002",
+   "sentence": 16,
+   "plain": "grupo de países que falam português, como Portugal, Angola e Moçambique. Há um acordo que facilita a residência entre eles"
+  },
+  {
+   "term": "COMIGRAR",
+   "fala": "b002",
+   "sentence": 28,
+   "plain": "conferência nacional em que governo, migrantes e organizações se reúnem para definir prioridades da política de migração"
+  },
+  {
+   "term": "DPU",
+   "fala": "b008",
+   "sentence": 5,
+   "plain": "Defensoria Pública da União, órgão que dá advogado de graça a quem não pode pagar, em causas contra órgãos federais"
+  },
+  {
+   "term": "arraigo",
+   "fala": "b008",
+   "sentence": 25,
+   "plain": "critério usado na Argentina e no México que dá documento a quem já criou laços de família, trabalho e vida no país"
+  },
+  {
+   "term": "Pacto Global para Migração",
+   "fala": "b016",
+   "sentence": 5,
+   "plain": "acordo entre governos, de 2018, com objetivos comuns para que a migração seja segura e ordenada. O Brasil voltou a ele em 2023"
+  },
+  {
+   "term": "CONARE",
+   "fala": "b018",
+   "sentence": 34,
+   "plain": "comitê do governo federal que analisa e decide os pedidos de refúgio feitos no Brasil"
+  },
+  {
+   "term": "CRAI",
+   "fala": "b006",
+   "sentence": 11,
+   "plain": "centro público que atende imigrantes e refugiados, com apoio jurídico, aulas de português e encaminhamento para trabalho"
+  },
+  {
+   "term": "PROUNI",
+   "fala": "b006",
+   "sentence": 25,
+   "plain": "programa federal que dá bolsa de estudo em faculdade particular para quem tem renda baixa"
+  },
+  {
+   "term": "Registo Nacional Migratório",
+   "fala": "b028",
+   "sentence": 7,
+   "plain": "documento de identificação do migrante no Brasil, parecido com a carteira de identidade do brasileiro"
+  }
+ ]
+}

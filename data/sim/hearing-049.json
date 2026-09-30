@@ -1,0 +1,1868 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 49,
+ "model": "LLM lendo o prompt hearing-049 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-20T19:55:45Z",
+ "prompt_sha256": "74f1812184d96176cf1dd91956b3443ccecf342423b117a31c59903364939ae6",
+ "sentences_hash": "6d0e7a116ae549e7",
+ "review": {
+  "pairs_read": 38,
+  "pairs_fixed": 14
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Integração Nacional e Desenvolvimento Regional ouviu a agência reguladora federal, duas federações patronais de Santa Catarina, a Defesa Civil do estado e um deputado estadual sobre as obras no Morro dos Cavalos, na BR-101. A agência estuda estender por até 15 anos a concessão da Arteris Litoral Sul para incluir os dois túneis. A audiência foi pedida depois do deslizamento de abril, que bloqueou a rodovia.",
+ "stakes": "Estava em jogo se os túneis do Morro dos Cavalos entram numa extensão de 15 anos da concessão ou no contrato que ainda resta.",
+ "central_question": "Como incluir a obra dos túneis do Morro dos Cavalos no contrato da BR-101 em Santa Catarina, estendendo o prazo ou usando os anos que restam?",
+ "synopsis_plain": "A BR-101 em Santa Catarina trava toda vez que chove forte no Morro dos Cavalos. Dois túneis resolveriam o trecho, mas ficaram de fora do contrato da empresa que administra a estrada. Na audiência, a agência federal e a federação das indústrias defenderam estender a concessão por 15 anos para caber a obra. A federação das transportadoras respondeu que a obra cabe nos anos que restam.",
+ "stakes_plain": "Decidir se os túneis do Morro dos Cavalos entram numa extensão de 15 anos da concessão da BR-101 ou no contrato que ainda tem 9 anos pela frente.",
+ "central_question_plain": "Os túneis do Morro dos Cavalos devem entrar numa extensão da concessão ou no contrato que ainda resta?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Túneis do Morro dos Cavalos",
+   "description": "Discute-se a obra dos dois túneis no trecho da BR-101 que desliza a cada chuva forte e que ficou de fora do contrato de concessão.",
+   "axis": {
+    "pro": "Os dois túneis são obra necessária e não podem continuar fora do contrato.",
+    "contra": "Os túneis podem seguir esperando, porque as contenções feitas no local dão conta do problema.",
+    "pro_plain": "Os dois túneis são obra necessária e precisam entrar no contrato de uma vez.",
+    "contra_plain": "Os túneis podem esperar, porque o que já foi feito no morro dá conta do problema."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Extensão ou contrato atual",
+   "description": "Discute-se se a obra só cabe estendendo a concessão por mais 15 anos ou se ela pode ser paga dentro dos anos que ainda restam do contrato.",
+   "axis": {
+    "pro": "A obra só cabe se a concessão for estendida, porque no contrato atual a tarifa ficaria alta demais.",
+    "contra": "A obra cabe nos anos que restam do contrato, com um aumento pequeno de pedágio.",
+    "pro_plain": "A obra só cabe se o contrato for esticado, porque senão o pedágio fica alto demais.",
+    "contra_plain": "A obra cabe no tempo que ainda resta de contrato, com pouco aumento no pedágio."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Solução definitiva e rota alternativa",
+   "description": "Discute-se se as obras que estão na mesa resolvem de fato o gargalo ou se são paliativo, e se falta uma rodovia paralela à BR-101.",
+   "axis": {
+    "pro": "As obras propostas são paliativas, e a solução definitiva depende de uma rodovia paralela à BR-101.",
+    "contra": "O pacote de obras em negociação já entrega fluidez e segurança para Santa Catarina.",
+    "pro_plain": "O que está na mesa é remendo. Sem uma estrada paralela à BR-101, o problema volta.",
+    "contra_plain": "As obras que estão sendo negociadas já dão a Santa Catarina uma estrada segura e com fluidez."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Resiliência climática da malha",
+   "description": "Discute-se como as chuvas extremas mudaram o calendário e o que precisa ser feito nas estradas para que elas resistam a esses eventos.",
+   "axis": {
+    "pro": "As chuvas extremas mudaram o calendário e toda a infraestrutura precisa ser revista para resistir a elas.",
+    "contra": "As contenções feitas caso a caso dão conta dos eventos de chuva.",
+    "pro_plain": "As chuvas mudaram de época e de força. Toda a estrutura das estradas precisa ser revista.",
+    "contra_plain": "Arrumar cada ponto quando o problema aparece já basta para dar conta das chuvas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Custo do gargalo para a economia",
+   "description": "Discute-se quanto o congestionamento e as interdições da BR-101 custam à economia catarinense e se a obra deve ser lida como gasto ou investimento.",
+   "axis": {
+    "pro": "O gargalo já cobra um preço alto da economia catarinense, e a obra é investimento, não gasto.",
+    "contra": "O custo da obra pesa mais do que o prejuízo causado pelo congestionamento.",
+    "pro_plain": "O trânsito parado já custa caro à economia do estado. A obra é investimento, não gasto.",
+    "contra_plain": "A obra custa mais do que o prejuízo que o trânsito parado causa hoje."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Confiança na concessionária",
+   "description": "Discute-se se a relação com a empresa que hoje administra o trecho sustenta um contrato mais longo, depois de anos de cobranças e notificações.",
+   "axis": {
+    "pro": "A concessão foi mal desenhada e a relação com a atual concessionária não sustenta um contrato mais longo.",
+    "contra": "O contrato repactuado traz incentivos e monitoramento que garantem a entrega da concessionária.",
+    "pro_plain": "O contrato nasceu torto e a relação com a empresa de hoje não justifica esticar o prazo.",
+    "contra_plain": "O contrato refeito tem incentivos e acompanhamento de perto, que garantem a entrega da empresa."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência pública",
+   "org": "Câmara dos Deputados",
+   "basis": "registro 'Presidente' na ata: o Deputado José Rocha abre a reunião e passa a Presidência à Deputada Daniela Reinehr, autora do requerimento, em b001.14",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Integração Nacional e Desenvolvimento Regional da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "presidente da Câmara para Assuntos de Transporte e Logística",
+   "org": "FIESC",
+   "basis": "apresentado pela presidência em b001.27",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Federação das Indústrias de Santa Catarina",
+   "org_plain": "entidade que reúne as indústrias de Santa Catarina e defende os interesses do setor"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "diretor-geral",
+   "org": "ANTT",
+   "basis": "apresentado pela presidência em b001.24",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "diretor-geral da ANTT",
+   "org_plain": "Agência Nacional de Transportes Terrestres, que regula e fiscaliza as concessões de rodovias federais"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "presidente",
+   "org": "FETRANCESC",
+   "basis": "apresentado pela presidência em b001.25 e em b009.13",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da federação das transportadoras de carga de Santa Catarina",
+   "org_plain": "entidade que reúne as empresas de transporte de carga e logística de Santa Catarina"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "chefe de gabinete do secretário de Proteção e Defesa Civil",
+   "org": "Secretaria da Proteção e Defesa Civil de Santa Catarina",
+   "basis": "apresentado pela presidência em b001.26 e por ele mesmo em b012.2",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "da Defesa Civil de Santa Catarina",
+   "org_plain": "órgão do governo de Santa Catarina que cuida da prevenção e do atendimento a desastres"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "diretora de Obras e engenheira civil",
+   "org": "Secretaria da Proteção e Defesa Civil de Santa Catarina",
+   "basis": "apresentada pelo chefe de gabinete em b012.3",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "diretora de obras da Defesa Civil catarinense",
+   "org_plain": "órgão do governo de Santa Catarina que cuida da prevenção e do atendimento a desastres"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "deputado estadual e líder do governo na Assembleia",
+   "org": "Assembleia Legislativa de Santa Catarina",
+   "basis": "apresentado pela presidência em b015.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado estadual por Santa Catarina",
+   "org_plain": "casa legislativa do estado de Santa Catarina, onde se votam as leis estaduais"
+  }
+ },
+ "audience": {
+  "estimate": 25,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.35
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.2
+   }
+  ],
+  "basis": "a mesa cumprimenta a imprensa em b009.9 e um deputado federal visitante em b009.6, sem registro de delegações nem de palmas",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relembra que os dois túneis do Morro dos Cavalos já tinham projeto e parecer favorável em 2013, mas ficaram fora do contrato, e cobra solução.",
+   "quote": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os dois túneis do Morro dos Cavalos precisam sair do papel e entrar num contrato.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      35,
+      36,
+      37
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a obra dos dois túneis do Morro dos Cavalos já chegou a ser planejada, mas ficou de fora do contrato de concessão",
+     "plain": "Muitas pessoas ficaram dias presas na rodovia. Esse tema é muito caro para nós há bastante tempo. A obra dos dois túneis do Morro dos Cavalos já chegou a ser planejada, mas, infelizmente, ficou de fora do contrato de concessão."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      62,
+      63
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o deslizamento vai voltar a acontecer, pelas características geológicas da região",
+     "plain": "Sabemos que isso vai voltar a acontecer, pelas características geológicas que temos. Esses deslizamentos acontecem o tempo todo em Santa Catarina."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      67,
+      68
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 2013 já havia parecer favorável de instituições ambientais e da Funai, mas a obra não foi contratada",
+     "plain": "Em 2013 nós já tínhamos parecer favorável de instituições ambientais e também da Funai, o órgão federal dos povos indígenas. Mas, por alguma razão, a obra não foi contratada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende estender a concessão por até 15 anos, porque não há tempo hábil no contrato atual, e pede um plano de adaptação climática para a malha catarinense.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A extensão do prazo da concessão é a alternativa viável para incorporar a obra dos túneis.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a concessão da Arteris se completa em 2032 e não há tempo hábil para fazer a obra no contrato vigente",
+     "plain": "O prazo de concessão da Arteris se completa em 2032. Não haveria tempo hábil para fazer a obra dentro do contrato vigente, mantendo um equilíbrio econômico-financeiro razoável e uma tarifa de pedágio razoável."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o investimento é estimado entre 700 milhões e 1 bilhão de reais, e o aporte do Governo Federal não é possível pela situação fiscal",
+     "plain": "Os investimentos são estimados entre 700 milhões e 1 bilhão de reais. A primeira possibilidade seria aporte do Governo Federal, mas, pela situação fiscal, sabemos que não será possível. A segunda é a renovação da concessão."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o estado precisa de um plano geral de adaptação às mudanças climáticas e do mapa dos pontos críticos da malha",
+     "plain": "Precisamos de um plano geral de adaptação às mudanças climáticas em Santa Catarina, porque somos atingidos sempre por eventos extremos. Para isso é preciso achar os pontos críticos da nossa malha rodoviária e medir os riscos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Egídio Martorano e adianta a fala do diretor-geral da ANTT, por causa de outros compromissos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Explica que as chuvas extremas mudaram o calendário e exigem revisar a infraestrutura, e apresenta a otimização de contratos, que permite estender a concessão por até 15 anos.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A infraestrutura precisa de revisão climática, e a otimização do contrato é o caminho para bancar as obras.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o evento no Morro dos Cavalos foi em abril, mês que antes não preocupava, porque a estação chuvosa ia de outubro a março",
+     "plain": "O evento no Morro dos Cavalos aconteceu em abril. Antes, abril não era mês de preocupação, porque a estação chuvosa ia de outubro a março. Encerramos o monitoramento mais atento da chuva uma semana antes do incidente."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "toda a infraestrutura precisa passar por revisão para ter mais resiliência climática",
+     "plain": "Todas as nossas infraestruturas precisam passar por revisão, para ter mais resiliência climática. Dá para altear pontes, ampliar bueiros, drenar e estabilizar taludes, para que a água escoe sem causar deslizamento nem acúmulo na pista."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a otimização dos contratos permite revisão ampla e extensão do prazo por até 15 anos, pela Portaria nº 848",
+     "plain": "A otimização dos contratos permite uma revisão ampla, trazendo as regras para o padrão mais novo, com extensão de prazo por até 15 anos. É a política do Ministério dos Transportes, pela Portaria nº 848. Recebemos proposta da Arteris."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz ao diretor-geral da ANTT que ele pode ficar à vontade com o tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que só a extensão de 15 anos somada aos 9 restantes permite tarifa adequada e mais obras, e promete acompanhamento trimestral da concessionária.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A extensão de prazo é o que permite incluir mais obras sem uma tarifa alta demais.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "colocar todas as obras nos 9 anos que restam deixaria a tarifa muito alta, porque ela equilibra prazo e investimento",
+     "plain": "Colocar todas essas necessidades de uma vez, para os 9 anos que restam de contrato, deixaria a tarifa muito alta. A tarifa de pedágio é o equilíbrio entre prazo e investimento: quanto maior a extensão, menor a tarifa."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "somar 15 anos aos 9 que restam daria 24 anos, o que permite uma tarifa adequada ao catarinense e mais obras",
+     "plain": "Com a Portaria nº 848 e o debate na Câmara de Solução Consensual, teremos 15 anos a mais somados aos 9 que restam, o que dá 24 anos. Isso permite uma tarifa adequada à realidade do catarinense e mais obras no pacote."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o novo contrato tem incentivos, a tarifa só sobe conforme a obra é entregue e o acompanhamento passa a ser de 3 em 3 meses",
+     "plain": "Será um contrato moderno, com os incentivos certos, em que a tarifa aumenta conforme as obras vão sendo entregues. O acompanhamento passa a ser de 3 meses em 3 meses, no lugar do anual, ao menos no período de transição."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os esclarecimentos da ANTT e anuncia que vai peticionar os encaminhamentos da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Informa que as obras do contorno de Florianópolis terminam em julho e defende que melhorar contratos já existentes vale tanto quanto fazer novos leilões.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Melhorar o desempenho dos contratos existentes é tão necessário quanto leiloar novas concessões.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "as obras do contorno de Florianópolis estão perto do fim e serão concluídas no mês de julho",
+     "plain": "Desde que estou na ANTT foram feitos esforços para acelerar as obras do contorno de Florianópolis, importantes para a região, e elas estão perto de terminar. Vamos concluir essas obras no mês de julho."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "fazer novos leilões é importante, mas melhorar o desempenho dos contratos que já existem é igualmente importante",
+     "plain": "Eu tenho dito isso: fazer novos leilões é sempre muito importante. Mas melhorar o desempenho dos contratos que já existem é igualmente importante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta um deputado federal e a imprensa e passa a palavra ao presidente da FETRANCESC.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta que obras paliativas não resolvem, defende a Rodovia Litorânea como saída definitiva e calcula em 540 milhões de reais por ano o prejuízo do gargalo.",
+   "quote": [
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    19,
+    20
+   ],
+   "open_question": 68,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem uma rodovia paralela à BR-101, as obras previstas não resolvem o problema de fluidez.",
+    "sentence": 49
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a renovação do contrato tem de contemplar obras e olhar para a rodovia paralela à BR-101, a Rodovia Litorânea",
+     "plain": "A renovação ou a extensão do contrato tem de contemplar obras de verdade. E é preciso olhar também para a rodovia paralela à BR-101, chamada Rodovia Litorânea. Já existe um estudo de viabilidade na Secretaria de Infraestrutura."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a obra do Morro dos Cavalos poderia entrar não necessariamente na extensão, porque ainda restam 9 anos de contrato",
+     "plain": "O que digo vale independentemente da obra do Morro dos Cavalos, que é necessária e importante. Essa obra poderia ser contemplada não necessariamente na extensão, porque ainda temos 9 anos de contrato pela frente."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      69,
+      70
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a queda da velocidade média no trecho norte custa ao transporte de cargas mais de 540 milhões de reais por ano em combustível",
+     "plain": "Fizemos um cálculo do impacto para o transporte de cargas só no trecho norte, olhando apenas o gasto a mais com combustível por causa da queda da velocidade média. É um prejuízo de mais de 540 milhões de reais por ano."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Anuncia que vai retomar o projeto da Rodovia Litorânea e ressalta que a obra do Morro dos Cavalos destrava outras obras hoje bloqueadas no estado.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O projeto da Rodovia Litorânea precisa ser retomado, e o Morro dos Cavalos destrava outras obras.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto da Litorânea vai ser retomado e as rotas alternativas já estão em debate com o governador",
+     "plain": "Sobre as rotas alternativas que o senhor mencionou, já estamos debatendo isso com o Governador Jorginho. Eu vou ressuscitar esse projeto da Litorânea."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a obra do Morro dos Cavalos destrava outras obras necessárias e hoje funciona como bloqueio para elas",
+     "plain": "Quero ressaltar uma coisa extremamente importante que o senhor falou. A obra do Morro dos Cavalos é uma das que destravam outras obras necessárias, pelas quais temos batalhado. Ela tem sido um verdadeiro bloqueio para as demais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Registra que a obra do Morro dos Cavalos está no radar da Defesa Civil e condiciona o aval a projeto adequado, estudo de viabilidade e respeito à lei ambiental.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A Defesa Civil apoia a obra desde que venha com projeto adequado e respeito à legislação ambiental.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o bloqueio da via por mais de 24 horas gerou quilômetros de congestionamento e virou caso da Defesa Civil",
+     "plain": "A obra do Morro dos Cavalos é numa rodovia federal, mas está no radar da nossa Secretaria, porque um evento assim vira desastre e exige ação nossa. Naquele episódio, o bloqueio por mais de 24 horas gerou quilômetros de congestionamento."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "houve chuvas de impacto estadual ou regional em 2008, 2011, 2013, 2015 e 2023, e a frequência é cada vez maior",
+     "plain": "Tivemos chuvas com impacto estadual ou regional nos anos de 2008, 2011, 2013, 2015, no ano passado, 2023, e também neste ano. A frequência desses incidentes e das suas consequências graves é cada vez maior."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a Defesa Civil avaliza a obra desde que haja projeto adequado, estudo de viabilidade e respeito à legislação ambiental",
+     "plain": "Uma obra dessas envolve muito recurso e tem de vir depois de um projeto adequado e de um estudo de viabilidade técnica, respeitando a lei ambiental. Havendo isso, e se ajudar a reduzir desastres, a Defesa Civil avaliza."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que o Morro dos Cavalos é situação recorrente e geologicamente sensível, sem segurança adequada, e pede estudos de impacto e soluções permanentes.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O trecho é geologicamente sensível e precisa de estudos e de soluções permanentes, não só paliativas.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a situação do Morro dos Cavalos é recorrente, não vai se encerrar e novos deslizamentos podem acontecer",
+     "plain": "A situação do Morro dos Cavalos tem de ser tratada como recorrente. Ela não vai se encerrar. Existe a possibilidade de novos deslizamentos."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o local é geologicamente sensível, não tem segurança adequada hoje, e é preciso definir soluções permanentes",
+     "plain": "O local é geologicamente sensível, como a deputada frisou no início da sessão. A área não tem segurança adequada hoje. É preciso fazer estudos, trazer soluções paliativas e definir soluções permanentes."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso um estudo amplo de impactos e de rotas de fuga que viabilize um trajeto para as demais regiões",
+     "plain": "No caso do Morro dos Cavalos, a situação afeta o estado inteiro, porque a região importa para o escoamento de produtos. É preciso um estudo amplo de impactos e de rotas de fuga que viabilize um caminho para as demais regiões."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Defesa Civil agradece o convite e diz que a secretaria é parceira para a obra sair.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta o deputado estadual Carlos Humberto e pergunta se ele quer usar a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que o processo de concessão foi malfeito e o pedágio mal calculado, que o paliativo virou solução, e pede repactuação para destravar as melhorias no norte.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 21,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A concessão foi mal desenhada e precisa ser repactuada para destravar as melhorias da BR-101 no norte.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "por burocracia, a saída encontrada foi transformar o acostamento em segunda pista, e o paliativo virou a solução",
+     "plain": "Por conta de uma burocracia sem tamanho, a saída encontrada foi transformar o acostamento em segunda pista. Para nós catarinenses, ficou isso como solução. O paliativo virou a solução."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o processo de concessão foi malfeito, o pedágio social ficou mal calculado e as exigências de melhorias em 2002 foram tímidas",
+     "plain": "O processo de concessão foi muito malfeito, e o pedágio social ficou mal calculado. As exigências de melhorias que o Governo Federal fez em 2002 às empresas que disputaram a concessão foram muito tímidas."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso uma nova reavaliação do contrato, com repactuação da tarifa ou do prazo, para as melhorias saírem logo",
+     "plain": "Precisamos de uma nova reavaliação do nosso contrato, com repactuação, seja da tarifa, seja do prazo. Assim as melhorias da BR-101 no norte saem no menor tempo possível e voltamos a ter o direito de trafegar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que a obra dos túneis é investimento e não gasto, e avalia que a concessão de 2002 foi calculada pelo pedágio e não pela necessidade do estado.",
+   "quote": [
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A obra dos túneis deve ser lida como investimento, pelo que o estado produz e movimenta nas rodovias.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      5
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a obra não é custo nem gasto, é investimento, pela movimentação econômica que passa pelas rodovias catarinenses",
+     "plain": "Repito que isso não é custo nem gasto. É um investimento em Santa Catarina, pela movimentação econômica que passa pelas nossas rodovias e pelo tanto que produzimos sem ter infraestrutura adequada."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a concessão de 2002 talvez tenha sido calculada pelo valor do pedágio e não pela necessidade e pela produção do estado",
+     "plain": "Lá em 2002, quando essa concessão foi feita, talvez o cálculo tenha saído do valor do pedágio, e não da nossa necessidade nem do que Santa Catarina iria produzir ao longo dos anos. O crescimento traz uma necessidade maior."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      13
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "com os dois túneis, Santa Catarina devolve rapidamente aos cofres públicos federais o valor investido",
+     "plain": "Com um investimento desse porte, com os dois túneis, tenho certeza de que Santa Catarina vai devolver rapidamente aos cofres públicos federais o valor investido."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reforça que a concessão termina em 2033 e não há tempo hábil, e defende a extensão como caminho para incorporar o túnel e outras obras do corredor.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A extensão do contrato é a saída para incorporar o túnel e outras obras do corredor da BR-101.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a concessão termina em 2033 e, até vir uma nova licitação, o estado fica com a distorção de mobilidade e de investimento",
+     "plain": "Há uma concessão que termina em 2033, e não há tempo hábil para pensar nisso. Até que venha o processo de uma nova concessão, que seria o trâmite normal, ficamos com essa distorção de mobilidade, de eficiência e de investimentos."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a proposta de extensão da concessão em andamento merece atenção e está dentro das práticas mais atuais",
+     "plain": "Nós temos que prestar muita atenção nessa proposta de extensão da concessão que está em andamento, tratada como consensual pelo representante da ANTT. Isso está dentro das práticas mais atuais de concessão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Egídio Martorano e pergunta se o presidente da FETRANCESC quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Contesta a necessidade da extensão, calcula que o investimento cabe nos 9 anos restantes com menos de 1 real de pedágio, e lembra as notificações à concessionária.",
+   "quote": [
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    17,
+    18,
+    19
+   ],
+   "open_question": 8,
+   "stance": {
+    "position": "contrario",
+    "claim": "O investimento nos túneis cabe no contrato que resta, sem precisar estender a concessão por 15 anos.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os projetos da eventual extensão têm de representar a solução de que o estado precisa, e essa proposta ainda não apareceu",
+     "plain": "Precisamos ter muita clareza de que os projetos contemplados na eventual extensão do contrato representem a solução de que Santa Catarina precisa. Esse é o ponto de atenção. Até agora não vimos ainda qual é a proposta de solução."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      23
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o investimento de 1,1 bilhão de reais nos túneis caberia no contrato remanescente de 9 anos, com aumento de menos de 1 real na tarifa",
+     "plain": "Fizemos a conta com o fluxo das praças de pedágio da Arteris, sem contar o crescimento, de 6% ao ano. Entendemos que 1,1 bilhão de reais nos túneis poderia ser absorvido nos 9 anos que restam, com menos de 1 real a mais na tarifa."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a relação entre a ANTT e a Arteris não é saudável, com mais de 800 notificações por descumprimento de contrato",
+     "plain": "Nesse contrato, a relação entre a ANTT e a Arteris não é saudável. Temos a informação de que, nesse período, a ANTT já aplicou à Arteris mais de 800 notificações por descumprimento do contrato. E queremos estender por mais 15 anos?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Dagnor Schneider e pergunta se o representante da Defesa Civil quer falar de novo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da Defesa Civil agradece o convite e coloca o órgão à disposição para o debate.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Anuncia petição com as metas e obras necessárias e observa que repactuar não significa necessariamente manter a mesma empresa na concessão.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Repactuar o contrato não obriga a seguir com a mesma concessionária no trecho.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "repactuação não quer dizer necessariamente que seja com essa empresa, e a agência já deve ter outras",
+     "plain": "Quando falamos em repactuação, isso não quer dizer necessariamente que seja com essa empresa. Acredito que a ANTT já tenha outras."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há algum tempo não se conseguia mexer nos contratos existentes, e hoje a otimização permite tratar do assunto",
+     "plain": "Há algum tempo não se conseguia tocar nas relações contratuais já existentes. Hoje, com essas relações modernizadas e otimizadas, já conseguimos falar sobre elas e encontrar a solução contratual."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 56,
+   "to_sentence": 14,
+   "from_claim": "b004c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A agência confirma o caminho que a federação das indústrias apontou: a otimização do contrato permite estender o prazo por até 15 anos."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 14,
+   "from_claim": "b006c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Os dois chegam à mesma conclusão pelo lado da conta: colocar a obra no prazo que resta faria a tarifa de pedágio estourar."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 55,
+   "to_sentence": 15,
+   "from_claim": "b010c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Onde a agência promete mais obras dentro da extensão, a federação das transportadoras cobra que a extensão traga a rodovia paralela, sem a qual não vê solução."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 70,
+   "to_sentence": 10,
+   "from_claim": "b010c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Ao custo de revisar a infraestrutura que a agência descreveu, a federação soma o custo de não fazer nada: mais de 540 milhões de reais por ano em combustível."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 56,
+   "from_claim": "b011c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "A presidência acolhe a rodovia paralela que ele pediu e diz que vai retomar o projeto junto ao governo do estado."
+  },
+  {
+   "from": "b012",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 35,
+   "from_claim": "b012c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "A Defesa Civil confirma o episódio que a deputada relatou, com bloqueio de mais de 24 horas e quilômetros de congestionamento."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 5,
+   "from_claim": "b012c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "À mudança no calendário das chuvas que a agência descreveu, a Defesa Civil soma a lista de anos em que o estado teve chuvas de grande impacto."
+  },
+  {
+   "from": "b013",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 62,
+   "from_claim": "b013c2",
+   "to_claim": "b001c2",
+   "strength": "forte",
+   "note": "A engenheira confirma a leitura geológica da deputada: o local é sensível e a área não tem segurança adequada hoje."
+  },
+  {
+   "from": "b013",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 55,
+   "from_claim": "b013c3",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Os dois pedem um caminho alternativo, ele pela rodovia paralela e ela por um estudo de rotas de fuga que ligue as demais regiões."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 10,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A engenheira reforça o alerta do chefe de gabinete e acrescenta que a situação é recorrente e não vai se encerrar."
+  },
+  {
+   "from": "b016",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 37,
+   "from_claim": "b016c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "A deputada contou que os túneis ficaram fora do contrato, e o deputado estadual conta o que entrou no lugar deles: o acostamento virado segunda pista."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 18,
+   "from_claim": "b017c2",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "Os dois leem a concessão de 2002 do mesmo jeito: ela foi calculada pelo valor do pedágio, com exigências tímidas de melhorias."
+  },
+  {
+   "from": "b017",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 70,
+   "from_claim": "b017c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "Ao prejuízo anual que a federação calculou, a presidência responde que a obra deve ser lida como investimento e não como gasto."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 14,
+   "from_claim": "b018c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "A federação das indústrias endossa a proposta de extensão que a agência apresentou e a trata como prática contemporânea de concessão."
+  },
+  {
+   "from": "b020",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 14,
+   "from_claim": "b020c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Onde a federação das indústrias diz que não há tempo hábil no contrato atual, a das transportadoras calcula que a obra cabe nos 9 anos restantes."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 10,
+   "from_claim": "b020c2",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "À afirmação de que não há tempo hábil, ele responde com a conta: menos de 1 real a mais na tarifa dentro do prazo que resta."
+  },
+  {
+   "from": "b020",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 29,
+   "to_sentence": 36,
+   "from_claim": "b020c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A agência promete acompanhar a concessionária de 3 em 3 meses, e ele lembra que a relação já acumulou mais de 800 notificações."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 21,
+   "from_claim": "b020c1",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "Ele retoma o direito de trafegar que o deputado estadual reivindicou e cobra que a repactuação venha com a solução de que o estado precisa."
+  },
+  {
+   "from": "b023",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 31,
+   "from_claim": "b023c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Depois de ouvir sobre as notificações acumuladas, a presidência lembra que repactuar não obriga a seguir com a mesma empresa."
+  },
+  {
+   "from": "b023",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 15,
+   "from_claim": "b023c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "A presidência retoma o ponto da agência: hoje já é possível mexer em contratos antigos, o que antes não se conseguia fazer."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b011",
+    "b012",
+    "b013",
+    "b016"
+   ],
+   "claims": [
+    "b001c1",
+    "b001c2",
+    "b001c3",
+    "b011c2",
+    "b012c1",
+    "b013c1"
+   ],
+   "note": "A presidência, a Defesa Civil estadual e o deputado estadual concordam que os túneis são obra necessária e que o problema do morro é recorrente."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b004",
+    "b006",
+    "b018"
+   ],
+   "claims": [
+    "b002c1",
+    "b002c2",
+    "b004c3",
+    "b006c1",
+    "b006c2",
+    "b018c1"
+   ],
+   "note": "A federação das indústrias e a agência reguladora concordam que o contrato atual não comporta a obra e que a extensão do prazo é o caminho."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b010",
+    "b011",
+    "b013",
+    "b016",
+    "b020"
+   ],
+   "claims": [
+    "b010c1",
+    "b011c1",
+    "b013c2",
+    "b016c1",
+    "b020c1"
+   ],
+   "note": "A federação das transportadoras, a presidência, a Defesa Civil e o deputado estadual concordam que o paliativo não basta e que falta um caminho alternativo."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b004",
+    "b012"
+   ],
+   "claims": [
+    "b002c3",
+    "b004c1",
+    "b004c2",
+    "b012c2"
+   ],
+   "note": "A federação das indústrias, a agência federal e a Defesa Civil concordam que os eventos extremos mudaram e que a infraestrutura precisa ser revista."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b010",
+    "b017"
+   ],
+   "claims": [
+    "b010c3",
+    "b017c1",
+    "b017c3"
+   ],
+   "note": "A federação das transportadoras e a presidência concordam que o trânsito travado na BR-101 já cobra um preço alto da economia catarinense."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b016",
+    "b017",
+    "b020",
+    "b023"
+   ],
+   "claims": [
+    "b016c2",
+    "b017c2",
+    "b020c3",
+    "b023c1"
+   ],
+   "note": "O deputado estadual, a presidência e a federação das transportadoras concordam que a concessão foi mal desenhada e que a relação com a empresa preocupa."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 33,
+   "addressed_to": "governo",
+   "answered_by": "b006",
+   "gist": "se a obra dos túneis pode ser incorporada ao processo em andamento",
+   "plain": "Dá para incorporar a obra dos túneis nesse processo de otimização que corre na agência e no tribunal?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 68,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "até quando as melhorias propostas vão dar conta da rodovia",
+   "plain": "As melhorias que estão sendo propostas vão dar conta da rodovia até quando?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b016",
+   "sentence": 21,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quando sai a reavaliação do contrato, da tarifa ou do prazo",
+   "plain": "Quando sai a reavaliação do contrato, com repactuação da tarifa ou do prazo, para as melhorias no norte?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q4",
+   "from": "b020",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual é a solução atrelada à prorrogação do contrato",
+   "plain": "Qual é a solução que está atrelada a essa prorrogação do contrato?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "investimento estimado em 700 milhões a 1 bilhão de reais",
+   "disputed_by": [
+    {
+     "fala": "b020",
+     "sentence": 23
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 13,
+   "gist": "concessão da Arteris se completa em 2032",
+   "disputed_by": [
+    {
+     "fala": "b018",
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 18,
+   "gist": "contrato da Arteris é do final de 2008",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 14,
+   "gist": "15 anos somados aos 9 dariam 24 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 16,
+   "gist": "trecho norte responde por 68% do PIB catarinense",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 18,
+   "gist": "17 municípios recolhem 47% do ICMS do estado",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 19,
+   "gist": "alta de 48% de habitantes entre 2005 e 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 34,
+   "gist": "o desvio alternativo tem 127 quilômetros",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 38,
+   "gist": "a interrupção durou cerca de 60 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b010",
+   "sentence": 70,
+   "gist": "prejuízo de mais de 540 milhões de reais por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b012",
+   "sentence": 11,
+   "gist": "bloqueio da via por mais de 24 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b020",
+   "sentence": 30,
+   "gist": "mais de 800 notificações da agência à concessionária",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o desenho da negociação, com a agência estudando estender a concessão por 15 anos para incluir os túneis e a federação das transportadoras discordando do caminho.",
+  "omitted": "Ficaram de fora o prejuízo anual calculado pelo transporte de cargas, as notificações acumuladas contra a concessionária e a fala da Defesa Civil sobre a recorrência dos desastres."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem estender a concessão, a obra não cabe",
+   "statement_plain": "Os túneis só cabem se o contrato da BR-101 for esticado por mais 15 anos. No prazo que resta, o pedágio ficaria alto demais para o catarinense pagar.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b004c3",
+    "b006c1",
+    "b006c2",
+    "b018c1",
+    "b023c2"
+   ],
+   "note": "É uma ideia sobre prazo e tarifa, não sobre um setor: junta a federação das indústrias, a agência reguladora federal e a presidência da audiência."
+  },
+  {
+   "id": "t2",
+   "title": "A obra cabe nos 9 anos que ainda restam",
+   "statement_plain": "Os túneis podem ser pagos dentro do contrato que ainda resta, com menos de 1 real a mais no pedágio. Esticar o prazo só vale se vier com solução definitiva.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c2",
+    "b020c2",
+    "b016c1"
+   ],
+   "note": "Opõe duas entidades patronais do mesmo estado: a federação das transportadoras contesta o caminho que a federação das indústrias apoia, com um deputado estadual ao lado."
+  },
+  {
+   "id": "t3",
+   "title": "O paliativo virou solução, e isso precisa acabar",
+   "statement_plain": "Remendo não resolve o Morro dos Cavalos. Enquanto não houver uma estrada paralela à BR-101 e soluções permanentes, o gargalo volta na próxima chuva forte.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b011c1",
+    "b013c2",
+    "b013c3",
+    "b020c1"
+   ],
+   "note": "Cruza a mesa, a Defesa Civil estadual e a federação das transportadoras, e vai contra o pacote que a agência apresenta como suficiente."
+  },
+  {
+   "id": "t4",
+   "title": "O clima mudou e a estrada precisa mudar com ele",
+   "statement_plain": "As chuvas mudaram de época e de força. Toda a estrutura das estradas precisa ser revista, com um plano de adaptação e o mapa dos pontos críticos da malha.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b004c1",
+    "b004c2",
+    "b012c2"
+   ],
+   "note": "Junta a agência federal, a federação das indústrias e a Defesa Civil estadual: a ideia atravessa governo e setor privado e não pertence a nenhum dos dois."
+  },
+  {
+   "id": "t5",
+   "title": "A concessão nasceu torta e a empresa não convence",
+   "statement_plain": "O contrato foi mal desenhado em 2002 e a relação com a empresa que administra o trecho acumula cobranças. Esticar o prazo com ela exige muita cautela.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b016c2",
+    "b017c2",
+    "b020c3",
+    "b023c1"
+   ],
+   "note": "É uma ideia sobre o contrato, não sobre um setor: reúne um deputado estadual, a presidência e a federação das transportadoras, e é contestada pela agência que administra a concessão."
+  },
+  {
+   "id": "t6",
+   "title": "O trânsito parado já custa caro ao estado",
+   "statement_plain": "O gargalo da BR-101 já cobra um preço alto de quem produz em Santa Catarina. A obra é investimento, e o estado devolve esse valor em produção e arrecadação.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b010c3",
+    "b017c1",
+    "b017c3"
+   ],
+   "note": "A federação das transportadoras chega pelo prejuízo do combustível e a presidência pela receita que o estado devolve: a mesma ideia por dois caminhos."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ANTT",
+   "plain": "Agência Nacional de Transportes Terrestres, o órgão federal que regula e fiscaliza as concessões de rodovias e ferrovias.",
+   "fala": "b001",
+   "sentence": 24
+  },
+  {
+   "term": "FETRANCESC",
+   "plain": "Federação que reúne as empresas de transporte de carga e logística de Santa Catarina.",
+   "fala": "b001",
+   "sentence": 25
+  },
+  {
+   "term": "FIESC",
+   "plain": "Federação das Indústrias do Estado de Santa Catarina, entidade que representa a indústria catarinense.",
+   "fala": "b001",
+   "sentence": 27
+  },
+  {
+   "term": "DNIT",
+   "plain": "Departamento Nacional de Infraestrutura de Transportes, órgão federal que cuida das rodovias que não estão concedidas a empresas.",
+   "fala": "b001",
+   "sentence": 31
+  },
+  {
+   "term": "FUNAI",
+   "plain": "Fundação Nacional dos Povos Indígenas, órgão federal que cuida dos direitos e das terras indígenas.",
+   "fala": "b001",
+   "sentence": 68
+  },
+  {
+   "term": "equilíbrio econômico-financeiro",
+   "plain": "Regra que mantém a relação entre o que a empresa investe e o que ela recebe, quando o contrato muda no meio do caminho.",
+   "fala": "b002",
+   "sentence": 14
+  },
+  {
+   "term": "otimização da concessão",
+   "plain": "Revisão ampla de um contrato de concessão já em vigor, que pode incluir obras novas e esticar o prazo.",
+   "fala": "b002",
+   "sentence": 16
+  },
+  {
+   "term": "TCU",
+   "plain": "Tribunal de Contas da União, que fiscaliza o dinheiro público e precisa avalizar mudanças grandes em contratos federais.",
+   "fala": "b002",
+   "sentence": 32
+  },
+  {
+   "term": "Portaria nº 848",
+   "plain": "Norma do Ministério dos Transportes que define como os contratos de concessão de rodovias podem ser revistos e estendidos.",
+   "fala": "b004",
+   "sentence": 57
+  },
+  {
+   "term": "câmara de solução consensual",
+   "plain": "Espaço criado no Tribunal de Contas da União para negociar saídas em contratos travados, em vez de decidir por imposição.",
+   "fala": "b004",
+   "sentence": 59
+  },
+  {
+   "term": "revisão quinquenal",
+   "plain": "Ajuste do contrato de concessão feito de cinco em cinco anos, com espaço limitado para incluir obras novas.",
+   "fala": "b006",
+   "sentence": 7
+  },
+  {
+   "term": "ICMS",
+   "plain": "Imposto estadual cobrado sobre a circulação de mercadorias e alguns serviços, principal receita dos estados.",
+   "fala": "b010",
+   "sentence": 18
+  },
+  {
+   "term": "EVTEA",
+   "plain": "Estudo de viabilidade técnica, econômica e ambiental, que diz se uma obra se sustenta antes de ela ser contratada.",
+   "fala": "b010",
+   "sentence": 57
+  },
+  {
+   "term": "pedágio social",
+   "plain": "Tarifa de pedágio mais baixa, pensada para pesar menos no bolso de quem usa a rodovia todo dia.",
+   "fala": "b016",
+   "sentence": 17
+  }
+ ]
+}

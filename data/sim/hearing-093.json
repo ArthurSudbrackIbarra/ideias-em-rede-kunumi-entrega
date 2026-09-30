@@ -1,0 +1,1529 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 93,
+ "model": "LLM lendo o prompt hearing-093 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-18T11:43:09Z",
+ "prompt_sha256": "335cb0aab6892bc520c30e0a0593cb26d2a469b03811ce316dc11944042a37a7",
+ "sentences_hash": "bfc8f60143c3c2e8",
+ "review": {
+  "pairs_read": 26,
+  "pairs_fixed": 6
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t2: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A comissão especial que analisa o Projeto de Lei nº 6.494, de 2019, ouviu quatro especialistas sobre o aproveitamento, no ensino superior, dos estudos feitos na educação profissional técnica de nível médio. Os convidados apresentaram sugestões de mudança no texto, do corte do limite de horas aproveitadas até a forma de tratar a aprendizagem profissional. A divergência principal foi sobre levar regras da lei do trabalho para a lei da educação.",
+ "stakes": "Que texto a comissão especial vai levar a voto sobre o aproveitamento dos estudos técnicos e sobre o lugar da aprendizagem profissional.",
+ "central_question": "Como a lei deve tratar o aproveitamento dos estudos técnicos no ensino superior e o lugar da aprendizagem profissional?",
+ "synopsis_plain": "A comissão que analisa um projeto de lei sobre ensino técnico ouviu quatro convidados. O projeto quer que a faculdade aproveite o que o aluno já aprendeu no curso técnico. Os convidados pediram mudanças no texto, como tirar o limite de horas que pode ser aproveitado. A maior divergência foi sobre passar regras da lei do trabalho para a lei da educação.",
+ "stakes_plain": "Qual texto a comissão vai levar a voto sobre aproveitar o curso técnico na faculdade e sobre a aprendizagem profissional.",
+ "central_question_plain": "Até onde a lei deve ir para que o curso técnico valha na faculdade e para organizar a aprendizagem profissional?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Limite de horas aproveitadas",
+   "description": "Discute-se se a lei deve fixar quantas horas do curso técnico o ensino superior pode aproveitar.",
+   "axis": {
+    "pro": "O limite de horas aproveitadas cabe ao projeto pedagógico de cada instituição, não à lei.",
+    "contra": "A lei deve fixar um teto de horas que podem ser aproveitadas.",
+    "pro_plain": "Quem decide quantas horas do curso técnico valem na faculdade é cada escola, no seu plano de curso.",
+    "contra_plain": "A lei deve dizer o teto de horas do curso técnico que a faculdade pode aceitar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Verticalização do ensino técnico",
+   "description": "Discute-se se a lei deve estimular o aluno a seguir do curso técnico para o superior na mesma área.",
+   "axis": {
+    "pro": "A lei deve estimular a continuidade do curso técnico para o superior na mesma área.",
+    "contra": "Essa continuidade não precisa de estímulo escrito na lei.",
+    "pro_plain": "Quem fez o curso técnico deve poder seguir para a faculdade na mesma área, sem repetir o que já aprendeu.",
+    "contra_plain": "Seguir na mesma área já acontece e não precisa de um empurrão da lei."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Aprendizagem entre trabalho e educação",
+   "description": "Discute-se se as regras da aprendizagem profissional podem sair da lei do trabalho e entrar na lei da educação.",
+   "axis": {
+    "pro": "As duas leis se completam e a aprendizagem pode entrar no texto da educação sem perda.",
+    "contra": "A aprendizagem é política de trabalho e perde força se as suas regras saírem da lei trabalhista.",
+    "pro_plain": "A lei da educação e as regras da aprendizagem se completam, e juntá-las ajuda o aluno.",
+    "contra_plain": "A aprendizagem é política de trabalho. Tirá-la da lei trabalhista enfraquece o que ela já garante."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Alcance da aprendizagem",
+   "description": "Discute-se por que a aprendizagem profissional chega a poucos jovens e o que faria esse número crescer.",
+   "axis": {
+    "pro": "É preciso abrir mais vagas de aprendiz e cobrar o cumprimento das cotas.",
+    "contra": "Afrouxar os percentuais das cotas ajudaria as empresas a contratar aprendizes.",
+    "pro_plain": "Faltam vagas de aprendiz. É preciso abrir mais e cobrar das empresas a cota que a lei já manda.",
+    "contra_plain": "Baixar o percentual exigido das empresas faria mais jovens entrarem como aprendizes."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Permanência do estudante",
+   "description": "Discute-se quem procura a rede federal de educação profissional e o que faz esse aluno ficar ou abandonar o curso.",
+   "axis": {
+    "pro": "Sem assistência estudantil o aluno não se mantém no curso e a formação se perde.",
+    "contra": "A rede já forma com qualidade e a permanência do aluno não depende dela.",
+    "pro_plain": "O aluno pobre só termina o curso se tiver ajuda para se manter estudando.",
+    "contra_plain": "A escola já faz a sua parte com qualidade. Ficar ou sair depende da vida de cada aluno."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Oferta de cursos e emprego",
+   "description": "Discute-se se os cursos oferecidos acompanham o que o mundo do trabalho demanda e se dá para medir isso por um indicador.",
+   "axis": {
+    "pro": "A oferta deve seguir a demanda do mundo do trabalho e o resultado precisa ser medido.",
+    "contra": "Medir a escola pelo emprego é injusto, porque o emprego depende da economia.",
+    "pro_plain": "Os cursos devem seguir o que o mercado procura, e é preciso medir quem conseguiu trabalhar.",
+    "contra_plain": "Medir a escola pelo emprego é injusto. Em crise ninguém consegue vaga, por melhor que seja o curso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Formação técnica como oportunidade",
+   "description": "Discute-se o lugar da formação técnica como caminho de entrada do jovem no mundo do trabalho.",
+   "axis": {
+    "pro": "A formação técnica é o caminho mais seguro de entrada do jovem no trabalho.",
+    "contra": "O profissional técnico ainda é desvalorizado no país e a formação sozinha não abre a porta.",
+    "pro_plain": "O curso técnico é a porta de entrada do jovem no trabalho, e é isso que ele precisa.",
+    "contra_plain": "No Brasil o técnico ainda é pouco valorizado, e só ter o curso não garante lugar no trabalho."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão Especial",
+   "org": "Câmara dos Deputados",
+   "basis": "apresenta-se como Deputada Flávia Morais, do Estado de Goiás, em b007.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão especial da Câmara dos Deputados criada para analisar o Projeto de Lei nº 6.494, de 2019"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Vice-Presidente do CONSED e Secretário de Educação do Rio Grande do Norte",
+   "org": "CONSED",
+   "basis": "apresentado pela presidência em b001.20",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "do Conselho Nacional de Secretários de Educação",
+   "org_plain": "entidade que reúne os secretários estaduais de educação de todo o país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Vice-Presidente de Assuntos Acadêmicos do CONIF e Reitora do Instituto Federal do Sertão Pernambucano",
+   "org": "CONIF",
+   "basis": "apresentada pela presidência em b003.3",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do conselho das instituições da rede federal",
+   "org_plain": "conselho que reúne os institutos federais e os CEFETs, as escolas públicas federais de ensino técnico"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Especialista em educação profissional e ex-conselheiro do Conselho Nacional de Educação",
+   "org": null,
+   "basis": "apresentado pela presidência em b007.11 e diz em b020.14 que foi Conselheiro durante 16 anos",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "especialista em educação profissional",
+   "org_plain": null
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Professor da Universidade Federal do Recôncavo da Bahia e coordenador da rede de educação profissional pública da Bahia",
+   "org": "UFRB",
+   "basis": "apresentado pela presidência em b011.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professor da Universidade Federal do Recôncavo da Bahia",
+   "org_plain": "universidade pública federal no interior da Bahia"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.4
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.4
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "Não há menção a delegações, entidades presentes ou palmas. A presidência diz em b013.2 que não havia mais Parlamentares para perguntar, e parte dos convidados participa por vídeo.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a 4ª Reunião Extraordinária da Comissão Especial do PL 6.494/19 e apresenta os cinco convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sugere incluir a qualificação profissional no aproveitamento de horas, defende a verticalização do técnico para o superior e pede que o contrato de aprendizagem não conte na renda familiar.",
+   "quote": [
+    48,
+    49,
+    50
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": 36,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O aluno deve poder aproveitar no ensino superior as horas que já cursou no técnico e na qualificação profissional.",
+    "sentence": 54
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "incluir a aprendizagem e o aproveitamento de 200 horas na lei resolve parte dos problemas",
+     "plain": "É importante que a nova lei inclua a aprendizagem e o aproveitamento das horas, o que não havia na LDB, a lei da educação. Acho que esse aproveitamento de 200 horas resolve parte dos problemas."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a escola técnica lhe deu a base conceitual que ele levou para a engenharia elétrica",
+     "plain": "Tenho essa experiência: fiz escola técnica e um curso de eletrotécnica, e depois fui para a engenharia elétrica. A escola técnica me ajudou muito, porque eu já tinha toda essa base conceitual."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      57,
+      58
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o contrato de aprendizagem não deveria entrar na renda familiar de quem está em situação de vulnerabilidade",
+     "plain": "Para quem está em situação de vulnerabilidade, é muito importante que o contrato de aprendizagem não entre na conta da renda familiar. Às vezes o jovem recebe de um lado e perde do outro, e isso o afasta da educação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Getúlio Marques e chama Maria Leopoldina Veras Camelo, do CONIF.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Apresenta os números da rede federal, mostra que a procura supera muito as vagas e pede que a oferta de cursos acompanhe a demanda do mundo do trabalho.",
+   "quote": [
+    30,
+    31,
+    32,
+    33
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A oferta de cursos da rede federal precisa dialogar com a demanda do mundo do trabalho.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      48
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o aproveitamento do conhecimento é decisivo para o ingresso no ensino superior",
+     "plain": "Percebemos que o aproveitamento do conhecimento é decisivo para entrar no ensino superior, como o Getúlio disse bem aqui."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o profissional técnico ainda é muito desvalorizado no país para atuar no mundo do trabalho",
+     "plain": "Mas há uma cultura que precisamos enfrentar. No nosso País o profissional técnico ainda é muito desvalorizado para atuar no mundo do trabalho."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      64,
+      65,
+      66
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só 54,69% dos alunos se mantêm no curso e 25,11% ficam retidos",
+     "plain": "Hoje só 54,69% desses alunos se mantêm no curso no tempo previsto. E 25,11% ficam retidos. Essa é a nossa preocupação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede mais três minutos à convidada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Mostra que a maior parte dos alunos da rede federal vive com menos de meio salário mínimo por pessoa e pede atenção à assistência estudantil para reduzir a evasão.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A permanência do aluno depende de assistência estudantil, porque o público da rede federal é o mais vulnerável.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a maior parte dos jovens e adultos da rede federal tem renda per capita menor que meio salário mínimo",
+     "plain": "Hoje, na rede federal, a maior parte dos nossos jovens e adultos vive com menos de meio salário mínimo por pessoa. Isso nos preocupa muito. O nosso público segue sendo o mais vulnerável."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a assistência estudantil reduz diretamente a evasão nos cursos da rede federal",
+     "plain": "Peço de novo a atenção da Deputada Professora Dorinha para a assistência estudantil. Já sabemos que ela reduz diretamente a evasão nos nossos cursos."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os jovens do técnico, que são 12,27%, ficam com 50% das vagas do superior na rede federal",
+     "plain": "A verticalização a rede federal já faz, como disse o Getúlio. Hoje os jovens vindos do nosso ensino técnico, que são 12,27%, ficam com 50% das nossas vagas. Quase metade segue com a gente no curso superior."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência se apresenta como Deputada Flávia Morais, de Goiás, e chama Francisco Aparecido Cordão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe cortar do projeto o limite de horas aproveitadas, ajustar o indicador de empregabilidade e retirar os artigos que mexem na lei trabalhista e na assistência social.",
+   "quote": [
+    36,
+    37,
+    38,
+    39
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6
+   ],
+   "open_question": 77,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O limite de horas aproveitadas cabe ao projeto pedagógico da instituição, não à lei.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o limite de horas é ditado pelo projeto pedagógico da escola e não cabe na lei",
+     "plain": "Estou cortando aqui o limite de 200 horas por ano. Quem dita esse limite é o projeto pedagógico da escola. Não cabe à lei dizer se são 200, 300 ou 400 horas."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      78,
+      79
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o indicador deve falar de empregabilidade, trabalho e renda, porque a própria lei fala em trabalho e renda",
+     "plain": "No inciso que cria o indicador de empregabilidade, sugiro escrever empregabilidade, trabalho e renda. A própria lei já fala em trabalho e renda."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      88,
+      89
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "não cabe misturar numa lei da educação uma alteração da CLT",
+     "plain": "Aí entrou a Consolidação das Leis do Trabalho, a CLT. Não cabe misturar numa lei da educação uma mudança na CLT."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a contribuição e pede que ela também seja enviada por escrito à Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O educador diz que já encaminhou o texto e que segue à disposição para complementar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Antonio Almerico Biondi Lima, professor de uma universidade federal na Bahia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a aprendizagem é política de trabalho e não só de educação, discorda do indicador de empregabilidade e cobra fiscalização e mais vagas de aprendiz.",
+   "quote": [
+    114,
+    115,
+    116,
+    117
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": 10,
+   "stance": {
+    "position": "contrario",
+    "claim": "A aprendizagem é política pública de trabalho e renda e enfraquece se for tratada só como educação.",
+    "sentence": 75
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "quem determina o mundo do trabalho não é a educação, é o contrário",
+     "plain": "Aí eu discordo do Prof. Cordão sobre esse indicador de empregabilidade baseado na formação. Não é a educação que determina o mundo do trabalho, é o trabalho que determina a educação."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "rebaixar ou flexibilizar os percentuais da cota não aumenta o número de aprendizes, diminui",
+     "plain": "Qualquer rebaixamento ou flexibilização desses percentuais não vai aumentar o número de aprendizes. Muito pelo contrário: vai diminuir."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      75,
+      76,
+      77
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a solução não é transferir da CLT para a LDB, porque é questão de política pública e não só de terminologia",
+     "plain": "Temos que ter muito cuidado. A solução do problema não é transferir da CLT para a lei da educação. Isso não é só uma questão de palavras, é política pública, e por isso precisamos evitar misturar os artigos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Defende que a juventude precisa mais de oportunidade do que de cadeia e informa que a Comissão discute em paralelo o Estatuto do Aprendiz, com melhorias e riscos.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A formação profissional é a política que abre oportunidade ao jovem, e é isso que a Comissão precisa fortalecer.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto de 2011 leva a aprendizagem ao serviço público e o Estatuto do Aprendiz traz melhorias e riscos",
+     "plain": "Em 2011 apresentamos um projeto de lei, já bem avançado, que leva o serviço de aprendizagem para o serviço público. E discutimos agora o Projeto de Lei nº 6.461, de 2019, o Estatuto do Aprendiz, que traz melhorias e também riscos."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      13
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a juventude precisa mais de oportunidade do que de cadeia",
+     "plain": "Nós sempre dissemos isso: a nossa juventude precisa mais de oportunidade do que de cadeia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que a rede federal forma poucos técnicos em proporção, mas com qualidade, e cita os índices de ENEM e de OCDE como prova.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A rede federal forma uma parcela pequena dos técnicos do país, mas com os melhores índices de qualidade.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a rede federal forma um percentual pequeno de técnicos, mas com os melhores índices do país",
+     "plain": "O percentual de profissionais que formamos para a área técnica ainda é pequeno, mas a nossa qualidade faz um diferencial grande. A rede federal tem os melhores índices do país nas avaliações do ENEM e da OCDE."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "cuidar da juventude é cuidar do país, e o jovem bem formado vira o adulto que cuida dos próximos",
+     "plain": "Nós nos colocamos à disposição para essa discussão, porque cuidar da nossa juventude é cuidar do nosso País. O jovem que recebe formação de qualidade vira um adulto que cuida dos jovens que vêm depois."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Francisco Cordão enquanto Getúlio Marques Ferreira se aproxima da sala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O educador pergunta se a presidente do Conselho Nacional de Educação voltou à sala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que a convidada não conseguiu voltar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b018",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O educador constata que a convidada não conseguiu voltar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa explica que o atraso impediu a participação de Maria Helena e promete enviar um resumo a ela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que trabalho e educação não são áreas concorrentes, mas parceiras, e que a lei da educação e a da aprendizagem profissional se complementam.",
+   "quote": [
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As leis da educação e da aprendizagem profissional se complementam e as duas áreas devem trabalhar juntas.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "trabalho e educação não são áreas concorrentes, mas parceiras",
+     "plain": "As áreas do trabalho e da educação não competem entre si. Elas são parceiras."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei da educação e a da aprendizagem profissional se complementam, assim como a ação dos ministérios",
+     "plain": "A LDB, a lei que organiza a educação, e a legislação da aprendizagem profissional se complementam. E o mesmo vale para a ação do Ministério da Educação, do Ministério do Trabalho e do Ministério Público do Trabalho."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Francisco Cordão e passa a palavra a Antonio Almerico Biondi Lima.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Discorda de Cordão e sustenta que na prática trabalho e educação concorrem por recurso e espaço, e que a lei precisa delimitar o espaço de cada um.",
+   "quote": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Na prática as duas áreas concorrem por recurso e espaço, e por isso a lei precisa delimitar o campo de cada uma.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a aprendizagem no serviço público é um avanço e já existe um programa que une trabalho e educação",
+     "plain": "Essa ideia da aprendizagem no serviço público me animou muito. É um avanço. Nós temos aqui um programa que junta trabalho e educação, e convido todos a conhecer."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a prática concreta não é complementar, ela concorre por recurso e por espaço, e a lei precisa delimitar",
+     "plain": "Discordo fraternalmente do Prof. Cordão. A prática não é complementar, ela deveria ser. Na prática concreta ela concorre por recurso e por espaço. Como na área pública só se faz o que está na lei, é preciso delimitar esse espaço."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a incorporação não é uma necessidade tão urgente, mas atualizar os termos e aproximar os dois ministérios sim",
+     "plain": "Não vejo essa incorporação como uma necessidade tão urgente. Vejo, sim, a atualização dos termos e a garantia de que os dois Ministérios fiquem cada vez mais de mãos dadas em coisas concretas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Informa que o Estatuto do Aprendiz estende a aprendizagem ao serviço público e alerta que hoje o atendimento é por amostragem e não alcança todos os jovens.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso ampliar o alcance da aprendizagem, que hoje atende só uma parte dos jovens que precisam.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Estatuto do Aprendiz prevê estender a aprendizagem aos serviços públicos, incluindo as autarquias",
+     "plain": "Além do meu projeto, o Estatuto do Aprendiz, que é o Projeto de Lei nº 6.461, prevê estender a aprendizagem aos serviços públicos, incluindo as autarquias. Estamos caminhando para isso."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o atendimento é feito por amostragem e não alcança todos os jovens que precisam",
+     "plain": "Hoje o atendimento é sempre feito por amostragem, e não conseguimos oferecer oportunidade a todos os jovens que precisam no nosso País. O que queremos aqui é abrir isso, para chegar a mais gente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 48,
+   "to_sentence": 48,
+   "from_claim": "b004c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "Maria Leopoldina retoma o exemplo de Getúlio para dizer que aproveitar o que o aluno já aprendeu no técnico é decisivo para entrar no ensino superior."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 54,
+   "from_claim": "b006c3",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A reitora mostra em números a verticalização que Getúlio defendeu: quase metade dos alunos do técnico segue na própria rede federal no curso superior."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 36,
+   "to_sentence": 29,
+   "from_claim": "b008c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Getúlio vê ganho no aproveitamento de 200 horas escrito no projeto, e Cordão propõe cortar esse limite da lei, deixando a conta para o projeto pedagógico de cada escola."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 31,
+   "to_sentence": 78,
+   "from_claim": "b012c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Almerico rejeita o indicador de empregabilidade que Cordão propôs, porque para ele é o mundo do trabalho que determina a educação, e não o contrário."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 77,
+   "to_sentence": 89,
+   "from_claim": "b012c3",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Almerico acompanha Cordão em não misturar os artigos das duas leis, desde que a mudança não enfraqueça a aprendizagem na lei do trabalho."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 52,
+   "from_claim": "b013c1",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A presidência acompanha a preocupação de Almerico ao dizer que o Estatuto do Aprendiz traz melhorias, mas também riscos para o serviço de aprendizagem."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 101,
+   "from_claim": "b014c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Almerico lembra que a rede federal é a menor fatia da oferta, e a reitora responde que o percentual é pequeno mesmo, mas que a qualidade da formação faz a diferença."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 13,
+   "from_claim": "b014c2",
+   "to_claim": "b013c2",
+   "strength": "media",
+   "note": "A reitora acompanha a presidência: cuidar da juventude é cuidar do País, e o jovem bem formado se torna o adulto que cuida dos próximos."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 75,
+   "from_claim": "b020c1",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "Cordão responde à advertência de Almerico dizendo que trabalho e educação não disputam entre si, e que as duas legislações se completam."
+  },
+  {
+   "from": "b022",
+   "to": "b020",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 7,
+   "from_claim": "b022c2",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "Almerico discorda de Cordão: no dia a dia a prática concorre por recurso e por espaço, e por isso a lei tem de delimitar o campo de cada área."
+  },
+  {
+   "from": "b022",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 6,
+   "from_claim": "b022c1",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "Almerico apoia a ideia da presidência de levar a aprendizagem para o serviço público e diz que é um avanço."
+  },
+  {
+   "from": "b023",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 127,
+   "from_claim": "b023c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A presidência acompanha Almerico ao dizer que é preciso abrir mais vagas, porque hoje o atendimento não alcança todos os jovens que precisam."
+  },
+  {
+   "from": "b023",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 26,
+   "from_claim": "b023c1",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "Almerico pede para conhecer o projeto da aprendizagem na área pública, e a presidência responde que o Estatuto do Aprendiz já prevê isso, inclusive nas autarquias."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d3",
+   "falas": [
+    "b002",
+    "b020"
+   ],
+   "claims": [
+    "b002c1",
+    "b020c2"
+   ],
+   "note": "Getúlio, do conselho dos secretários estaduais de educação, e o educador Cordão concordam que a lei da educação e as regras da aprendizagem profissional têm de andar juntas e se completar."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b002",
+    "b012",
+    "b013",
+    "b022",
+    "b023"
+   ],
+   "claims": [
+    "b002c3",
+    "b012c2",
+    "b013c1",
+    "b022c1",
+    "b023c1"
+   ],
+   "note": "A presidência, um secretário estadual de educação e dois especialistas concordam que é preciso ampliar o alcance da aprendizagem, levá-la ao serviço público e não afrouxar os percentuais da cota."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b013",
+    "b014"
+   ],
+   "claims": [
+    "b013c2",
+    "b014c2"
+   ],
+   "note": "A presidência e a reitora do conselho da rede federal concordam que abrir oportunidade de formação ao jovem é a resposta certa, e que cuidar da juventude é cuidar do País."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 36,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "se o projeto pode incluir também a qualificação profissional",
+   "plain": "O projeto não poderia incluir também a qualificação profissional, para quem faz o curso sem ter o ensino médio?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b006",
+   "sentence": 19,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "atenção dos parlamentares à assistência estudantil, que reduz a evasão",
+   "plain": "Os parlamentares vão olhar para a assistência estudantil, que é o que segura o aluno no curso?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b008",
+   "sentence": 77,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "criar um sistema nacional de avaliação da educação profissional",
+   "plain": "O país não deveria ter um sistema nacional de avaliação da educação profissional, como já tem em outras etapas?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b012",
+   "sentence": 10,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "conferir os pontos do projeto com as resoluções da OIT",
+   "plain": "Os pontos do projeto não deveriam ser conferidos com as resoluções internacionais que o Brasil assinou?",
+   "theme": "d3",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b022",
+   "sentence": 26,
+   "addressed_to": "mesa",
+   "answered_by": "b023",
+   "gist": "receber o projeto sobre a aprendizagem no serviço público",
+   "plain": "A senhora pode me mandar esse projeto que leva a aprendizagem para a área pública?",
+   "theme": "d4",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 5,
+   "gist": "a rede federal reúne 41 instituições",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 25,
+   "gist": "462 mil matrículas em cursos técnicos na rede federal",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 30,
+   "gist": "139.010 vagas ofertadas pela rede federal em 2020",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 31,
+   "gist": "610 mil inscritos para essas vagas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 64,
+   "gist": "54,69% dos alunos se mantêm no curso",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 65,
+   "gist": "25,11% dos alunos ficam retidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b006",
+   "sentence": 23,
+   "gist": "12,27% vindos do técnico ocupam 50% das vagas",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 36,
+   "gist": "o texto traz um limite de 200 horas por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 45,
+   "gist": "quase meio milhão em vagas de aprendizagem em 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 48,
+   "gist": "com a cota máxima seriam 3 milhões de aprendizes",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b012",
+   "sentence": 102,
+   "gist": "40% da oferta é privada, 40% estadual e 20% federal",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b013",
+   "sentence": 6,
+   "gist": "projeto de 2011 leva a aprendizagem ao serviço público",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu as sugestões dos especialistas ao texto do projeto, com destaque para o pedido de tirar o limite de 400 horas/aula.",
+  "omitted": "Ficaram de fora os dados da rede federal sobre evasão e assistência estudantil e toda a divergência sobre levar a aprendizagem da lei do trabalho para a lei da educação."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Seguir do técnico ao superior sem repetir",
+   "statement_plain": "Quem fez curso técnico deve poder seguir para o ensino superior aproveitando o que já aprendeu, na mesma área e sem refazer o que já sabe.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b004c1",
+    "b006c3",
+    "b008c1"
+   ],
+   "note": "A ideia cruza a sala: dois gestores da educação pública e o educador Cordão sustentam que o aluno não deve refazer o que já aprendeu, e que a lei não deve limitar isso."
+  },
+  {
+   "id": "t2",
+   "title": "Mexer na lei do trabalho enfraquece a aprendizagem",
+   "statement_plain": "A aprendizagem é política de trabalho e renda. Tirar as suas regras da lei trabalhista enfraquece o instituto, e a lei da educação também não deve fixar limite de horas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b012c3",
+    "b022c2",
+    "b022c3",
+    "b008c1"
+   ],
+   "note": "A ideia divide os convidados: o professor Almerico a sustenta contra o educador Cordão em quase tudo, e mesmo assim os dois se encontram no ponto de que a lei não deve fixar horas."
+  },
+  {
+   "id": "t3",
+   "title": "Educação e trabalho devem andar de mãos dadas",
+   "statement_plain": "A lei da educação e as regras da aprendizagem profissional se completam, e trazer a aprendizagem para o texto da educação melhora a vida do aluno.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b020c1",
+    "b020c2"
+   ],
+   "note": "A ideia cruza setores: um secretário estadual de educação e um educador que foi conselheiro nacional defendem o mesmo ponto, contra o que sustenta um professor universitário."
+  },
+  {
+   "id": "t4",
+   "title": "A aprendizagem tem de alcançar mais jovens",
+   "statement_plain": "Hoje a aprendizagem atende só uma parte dos jovens. É preciso abrir mais vagas, levá-la ao serviço público e não afrouxar os percentuais da cota.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b012c2",
+    "b013c1",
+    "b022c1",
+    "b023c2"
+   ],
+   "note": "A ideia atravessa a sala: a deputada que preside, um secretário estadual e um professor que critica o projeto defendem o mesmo ponto."
+  },
+  {
+   "id": "t5",
+   "title": "Oportunidade ao jovem, e condição de ficar",
+   "statement_plain": "O jovem precisa de oportunidade profissional, e para aproveitá-la precisa também de condições de se manter no curso até o fim.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b013c2",
+    "b014c2",
+    "b004c3",
+    "b006c2",
+    "b014c1"
+   ],
+   "note": "A ideia junta a deputada que preside a sessão e a reitora de um instituto federal, uma falando de oportunidade e a outra de assistência estudantil."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "LDB",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "sigla de Lei de Diretrizes e Bases da Educação Nacional, a lei que organiza a educação brasileira"
+  },
+  {
+   "term": "CLT",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "sigla de Consolidação das Leis do Trabalho, o conjunto de regras que rege o emprego com carteira assinada"
+  },
+  {
+   "term": "BPC",
+   "fala": "b002",
+   "sentence": 11,
+   "plain": "sigla de Benefício de Prestação Continuada, um pagamento mensal a pessoas idosas ou com deficiência de família pobre"
+  },
+  {
+   "term": "verticalização",
+   "fala": "b002",
+   "sentence": 23,
+   "plain": "quando a mesma instituição oferece as etapas seguintes da formação, do curso técnico ao superior, e o aluno segue nela"
+  },
+  {
+   "term": "CEFETs",
+   "fala": "b004",
+   "sentence": 5,
+   "plain": "Centros Federais de Educação Tecnológica, escolas públicas federais que formam técnicos e tecnólogos"
+  },
+  {
+   "term": "PROEJA",
+   "fala": "b004",
+   "sentence": 9,
+   "plain": "programa que junta o ensino de jovens e adultos com a formação profissional, para quem não concluiu a escola na idade esperada"
+  },
+  {
+   "term": "eixos tecnológicos",
+   "fala": "b004",
+   "sentence": 11,
+   "plain": "os grandes grupos em que os cursos técnicos são organizados, como informática, saúde ou controle de processos"
+  },
+  {
+   "term": "concomitante",
+   "fala": "b004",
+   "sentence": 16,
+   "plain": "curso técnico feito ao mesmo tempo que o ensino médio, muitas vezes em escolas diferentes"
+  },
+  {
+   "term": "subsequente",
+   "fala": "b004",
+   "sentence": 22,
+   "plain": "curso técnico feito depois do ensino médio, por quem já concluiu essa etapa"
+  },
+  {
+   "term": "EAD",
+   "fala": "b004",
+   "sentence": 36,
+   "plain": "sigla de educação a distância, o curso feito pela internet, sem ir todo dia à escola"
+  },
+  {
+   "term": "aprendizagem profissional",
+   "fala": "b008",
+   "sentence": 25,
+   "plain": "contrato em que o jovem trabalha com carteira assinada e ao mesmo tempo faz um curso de formação ligado a esse trabalho"
+  },
+  {
+   "term": "itinerário formativo",
+   "fala": "b008",
+   "sentence": 44,
+   "plain": "o caminho de matérias e cursos que o aluno escolhe no ensino médio, como a formação técnica e profissional"
+  },
+  {
+   "term": "SAEB",
+   "fala": "b008",
+   "sentence": 77,
+   "plain": "sistema nacional que avalia as escolas de educação básica com provas aplicadas de tempos em tempos"
+  },
+  {
+   "term": "SINAES",
+   "fala": "b008",
+   "sentence": 77,
+   "plain": "sistema nacional que avalia os cursos e as instituições de ensino superior do país"
+  },
+  {
+   "term": "OIT",
+   "fala": "b012",
+   "sentence": 8,
+   "plain": "Organização Internacional do Trabalho, agência das Nações Unidas que trata de normas de trabalho"
+  }
+ ]
+}

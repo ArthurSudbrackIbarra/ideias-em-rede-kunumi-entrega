@@ -1,0 +1,2018 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 152,
+ "model": "LLM lendo o prompt hearing-152 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:40:49Z",
+ "prompt_sha256": "7fc61d2e4dcc50bf465382363cc07ab18a994b0039af5e38884c01c435f10c19",
+ "sentences_hash": "08122c60a61c2d62",
+ "review": {
+  "pairs_read": 34,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência debateu o atendimento e a reparação das pessoas com deficiência vítimas de acidentes de trânsito. A Susep e a Caixa contaram como o seguro DPVAT passou a ser pago por um fundo depois que as seguradoras dissolveram o consórcio, e as entidades de vítimas cobraram a definição do modelo de 2024, a correção das indenizações e mudanças na perícia médica. A presidência anunciou a criação de uma subcomissão para o tema.",
+ "stakes": "Se o Congresso e o Governo definem o modelo do DPVAT antes de a lei que o autoriza perder vigência em 31 de dezembro.",
+ "central_question": "O que vai acontecer com o seguro obrigatório das vítimas de trânsito quando a lei atual perder a vigência?",
+ "synopsis_plain": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência discutiu o seguro obrigatório pago a quem se acidenta no trânsito, o DPVAT. A lei que autoriza o pagamento acaba em 31 de dezembro e ninguém sabe o que vem depois. As entidades de vítimas também cobraram a correção das indenizações, paradas em 13.500 reais, e mudanças na perícia médica.",
+ "stakes_plain": "Se o Governo e o Congresso definem o novo modelo do DPVAT antes de a lei atual acabar, em 31 de dezembro.",
+ "central_question_plain": "O que acontece com o seguro das vítimas de trânsito quando a lei atual acabar?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Fim da lei do DPVAT",
+   "description": "O que acontece com o seguro obrigatório quando a lei que autoriza o modelo atual perder a vigência, no fim do ano.",
+   "axis": {
+    "pro": "É urgente definir a manutenção do seguro antes de a lei perder vigência em 31 de dezembro.",
+    "contra": "A definição do novo modelo pode aguardar a conclusão do estudo do Ministério da Fazenda.",
+    "pro_plain": "A lei acaba em 31 de dezembro e é urgente dizer como o seguro vai funcionar em 2024.",
+    "contra_plain": "O novo modelo está em estudo no Ministério da Fazenda e pode ser definido depois."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Valor congelado da indenização",
+   "description": "Se as indenizações do seguro, paradas desde 2006, precisam ser corrigidas e por qual critério.",
+   "axis": {
+    "pro": "As indenizações estão congeladas há 17 anos e precisam voltar ao valor de 40 salários mínimos.",
+    "contra": "Os valores fixados em lei são os que o custeio do seguro permite pagar.",
+    "pro_plain": "A indenização está parada em 13.500 reais há 17 anos e precisa ser corrigida.",
+    "contra_plain": "O valor que a lei fixa é o que o dinheiro do seguro permite pagar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Perícia médica e revisão",
+   "description": "Se a vítima pode contestar a perícia, receber o parecer do médico e saber quem avaliou o seu caso.",
+   "axis": {
+    "pro": "A vítima tem de poder pedir revisão da perícia, receber o parecer e saber quem a avaliou.",
+    "contra": "A perícia contratada e a revisão por outro médico garantem a acurácia do pagamento.",
+    "pro_plain": "Quem se acidentou tem de poder contestar a perícia e receber o laudo do médico.",
+    "contra_plain": "A perícia contratada e revisada é o que garante que o valor pago esteja certo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Conta obrigatória na Caixa",
+   "description": "Se a vítima pode escolher em que conta recebe a indenização ou se o pagamento tem de cair em conta digital da Caixa.",
+   "axis": {
+    "pro": "A vítima deve escolher a conta em que recebe a indenização.",
+    "contra": "O crédito em conta digital é o que garante que o dinheiro chegue à vítima.",
+    "pro_plain": "Quem se acidentou deveria escolher em que banco recebe a indenização.",
+    "contra_plain": "Pagar em conta digital é o que garante que o dinheiro chegue mesmo à vítima."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Voz das vítimas nas decisões",
+   "description": "Se as entidades de vítimas participam das decisões sobre o seguro e se os dados do fundo são públicos.",
+   "axis": {
+    "pro": "As entidades de vítimas precisam de voz nas decisões, e os dados do fundo têm de ser públicos.",
+    "contra": "As decisões cabem aos órgãos reguladores e o estudo do novo modelo pode correr em sigilo.",
+    "pro_plain": "Quem representa as vítimas tem de participar das decisões e saber quanto há no fundo.",
+    "contra_plain": "Quem decide são os órgãos do Governo, e o estudo pode ficar em sigilo até ficar pronto."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Trânsito, SUS e prevenção",
+   "description": "O peso dos acidentes de trânsito no País, o repasse do seguro ao SUS e as campanhas para reduzir mortes.",
+   "axis": {
+    "pro": "O seguro tem de voltar a financiar o SUS e as campanhas que reduzem mortes no trânsito.",
+    "contra": "O dinheiro do seguro deve ficar só com a indenização das vítimas.",
+    "pro_plain": "Parte do seguro ia para o SUS e para campanhas de trânsito, e isso precisa voltar.",
+    "contra_plain": "O dinheiro do seguro deveria servir só para pagar as indenizações."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Gestão da Caixa e prazos",
+   "description": "Como a Caixa tem operado o pagamento das indenizações desde 2021, nos prazos e no atendimento.",
+   "axis": {
+    "pro": "A operação da Caixa se estabilizou e paga as indenizações dentro do prazo.",
+    "contra": "A Caixa é lenta, trava contas e nega casos que estão claros nos documentos.",
+    "pro_plain": "A Caixa já paga em menos tempo do que a lei exige e melhorou o atendimento.",
+    "contra_plain": "A Caixa demora, prende o dinheiro na conta e nega casos que o prontuário mostra."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da Comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "aberta pelo Deputado Márcio Jerry em b001.1, autor do Requerimento nº 42, de 2023",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Defesa dos Direitos das Pessoas com Deficiência, da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretor da Superintendência de Seguros Privados",
+   "org": "SUSEP",
+   "basis": "apresentado pela presidência em b001.15 e por ele mesmo em b002.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "diretor da Susep",
+   "org_plain": "órgão federal que fiscaliza as empresas de seguro e de previdência aberta no Brasil"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente do Centro de Defesa das Vítimas do Trânsito",
+   "org": "CDVT",
+   "basis": "apresentado pela presidência em b001.15 e em b003.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Centro de Defesa das Vítimas do Trânsito",
+   "org_plain": "entidade que defende os direitos de quem sofreu acidente de trânsito"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "advogada, Diretora Jurídica do Centro de Defesa das Vítimas do Trânsito",
+   "org": "CDVT",
+   "basis": "apresentada pela presidência em b003.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "advogada do Centro de Defesa das Vítimas do Trânsito",
+   "org_plain": "entidade que defende os direitos de quem sofreu acidente de trânsito"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "representante da Associação Nacional dos Procuradores de Seguros",
+   "org": "ANPS",
+   "basis": "apresentado pela presidência em b001.15 e em b007.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação dos procuradores de seguros",
+   "org_plain": "associação dos profissionais que entram com os pedidos de indenização no lugar das vítimas"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Presidente da Associação Brasileira de Atendimento às Vítimas de Trânsito",
+   "org": "ABAVT",
+   "basis": "apresentado pela presidência em b001.15 e em b011.0",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da associação de atendimento às vítimas de trânsito",
+   "org_plain": "entidade que reúne quem atende vítimas de acidente de trânsito no País"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Superintendente Nacional de Gestão de Fundos da Caixa Econômica Federal",
+   "org": "Caixa Econômica Federal",
+   "basis": "apresentada pela presidência em b001.15 e em b013.2",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Caixa Econômica Federal",
+   "org_plain": "banco público federal que hoje administra o fundo do seguro e paga as indenizações"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado Federal",
+   "org": "Câmara dos Deputados",
+   "basis": "inscrito e chamado pela presidência em b015.24",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PDT da Bahia",
+   "org_plain": "Câmara dos Deputados, onde os deputados fazem e votam as leis"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença agradecida em b001.14 e palavra concedida em b019.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PT do Distrito Federal",
+   "org_plain": "Câmara dos Deputados, onde os deputados fazem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 80,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.75
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   },
+   {
+    "role": "convidado",
+    "share": 0.05
+   }
+  ],
+  "basis": "palmas registradas em b004, b006, b008, b010, b012, b014, b020, b028, b030 e b031, a menção a procuradores vindos de norte a sul em b008.9 e b012.10, e a chamada de Estados na plateia em b024.1",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre vítimas de trânsito, faz a audiodescrição e convida os expositores.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Reconstitui a história do seguro DPVAT desde a Lei nº 6.194, de 1974, explica a cobertura universal e conta que o modelo atual, com a Caixa, é transitório.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O seguro DPVAT foi instituído em 1974 e o modelo atual, com fundo e gestão da Caixa, é transitório.",
+    "sentence": 60
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "a principal política de apoio às vítimas de trânsito é o seguro DPVAT, instituído em 1974 pela Lei nº 6.194",
+     "plain": "A principal e mais imediata política de apoio às vítimas de acidente de trânsito no Brasil é o seguro DPVAT, instituído em 1974 pela Lei nº 6.194. Ele cobre danos pessoais causados por veículos a pessoas transportadas ou não."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no modelo brasileiro a vítima é indenizada mesmo quando o veículo não é identificado ou o seguro não foi pago",
+     "plain": "No modelo brasileiro a vítima é indenizada mesmo quando o veículo não é identificado ou o seguro não foi pago. Em muitos países essa cobertura universal não existe, e aqui, se o causador foge, a vítima tem o mesmo direito."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      57,
+      58,
+      59
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "as seguradoras dissolveram o consórcio em 2020, o CNSP criou um fundo com 4 bilhões de reais e desde 2021 não há arrecadação",
+     "plain": "O modelo funcionou de 2008 até o fim de 2020, quando as seguradoras dissolveram o consórcio. O Conselho Nacional de Seguros Privados usou cerca de 4 bilhões de reais que sobravam para criar um fundo, e desde 2021 não há arrecadação."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao presidente do Centro de Defesa das Vítimas do Trânsito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Denuncia 17 anos sem correção das indenizações, a falta de direito à contestação nas perícias e a ausência de proposta do Ministério da Fazenda para 2024.",
+   "quote": [
+    38,
+    39,
+    40
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 84,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As indenizações do DPVAT estão congeladas há 17 anos e precisam ser corrigidas.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo congelou o valor do DPVAT em 2006 e as indenizações estão em 13.500 reais há 17 anos",
+     "plain": "O Governo congelou o valor do DPVAT em 2006. Já são 17 anos sem correção, e a indenização continua em 13.500 reais."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      67,
+      68
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nas perícias médicas as vítimas não têm direito à contestação e não podem reclamar de uma perícia errada",
+     "plain": "Hoje, nas perícias médicas, a vítima não tem direito de contestar. Ela não pode reclamar quando o médico faz uma perícia errada."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      82,
+      83,
+      84
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Fazenda ficou de apresentar a nova estrutura do DPVAT em julho e não apresentou, e ninguém sabe o DPVAT de 2024",
+     "plain": "Em abril o Ministério da Fazenda editou uma medida provisória e prometeu a nova estrutura do DPVAT em julho, mas não apresentou. Não é culpa da Susep nem da Caixa, e ninguém sabe o que será o DPVAT em 2024."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à advogada Patricia Menezes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que a vítima é obrigada a abrir conta na Caixa, que a Portaria nº 176 não gerou debate e que o Ministério da Fazenda alegou sigilo.",
+   "quote": [
+    51,
+    52,
+    53
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "open_question": 52,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A vítima deveria escolher a conta em que recebe a indenização, e o novo modelo não pode ser tratado em sigilo.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a vítima é obrigada a abrir conta na Caixa Econômica e não pode receber a indenização na conta que quiser",
+     "plain": "Hoje a vítima de acidente de trânsito é obrigada a abrir uma conta na Caixa Econômica para receber a indenização. Ela não pode receber na conta que quiser."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Portaria nº 176, de 2023 convidou entidades a propor o novo DPVAT 2024, mas a lei só autoriza a Caixa até 31 de dezembro de 2023",
+     "plain": "A Portaria nº 176, de 2023, convidou algumas entidades a apresentar propostas para o novo DPVAT 2024. Mas a lei autoriza a Caixa a fazer a gestão só até 31 de dezembro de 2023, e não sabemos como será depois nem temos nenhum instrumento."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Fazenda respondeu que o assunto é sigiloso, e não pode ser sigiloso o direito das vítimas de saber do DPVAT",
+     "plain": "Ao responder o nosso e-mail, o Ministério da Fazenda disse que o assunto é sigiloso. Pergunto: pode ser sigiloso o direito das vítimas de trânsito de saber como funciona o DPVAT?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o representante da associação dos procuradores de seguros, por 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mostra casos em que a Caixa negou indenização por amputação, denuncia o médico revisor que reduz o percentual e pede a correção dos valores congelados.",
+   "quote": [
+    118,
+    119,
+    120
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24
+   ],
+   "open_question": 182,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Caixa nega indenizações por amputação e o médico revisor reduz o valor sem ver a vítima.",
+    "sentence": 120
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      118,
+      119,
+      120
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Caixa negou o valor da amputação da perna porque a vítima estaria em tratamento e mandou aguardar 60 dias",
+     "plain": "Mandei o processo de um amigo músico de Santarém e a Caixa entendeu que ele não tinha direito ao valor da amputação da perna porque ainda estava em tratamento. Disse que ele devia aguardar 60 dias, e acho que a Caixa entendeu errado."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      131,
+      132
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com o reajuste de 40 salários mínimos, a indenização por morte e invalidez seria de 52.800 reais, e a de despesas médicas, 10.560 reais",
+     "plain": "Em 2007 a Medida Provisória nº 340 congelou as indenizações em 13.500 reais e 2.700 reais. Corrigidas pelo reajuste de 40 salários mínimos, hoje seriam 52.800 reais por morte e invalidez e 10.560 reais para despesas médicas."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      191,
+      192,
+      193
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os revisores alteram o valor e ligam para o médico, e neste caso o dano ficou em 25% e a indenização caiu para 2.362 reais",
+     "plain": "Os revisores mudam o valor e ligam para o médico para dizer que o percentual está errado. Neste caso o percentual do dano passou a 25% e a indenização virou 2.362 reais, abaixo do que a vítima tinha direito de receber."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Enio conclua, porque o tempo já foi extrapolado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Compara a Caixa Econômica a um transatlântico, forte e grande, mas lento.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A Caixa é grande e forte, mas lenta para atender as vítimas.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a Caixa Econômica é como um transatlântico, forte e grande, mas lenta",
+     "plain": "Um colega me deu uma comparação: a Caixa Econômica parece um transatlântico, forte e grande, só que lenta."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o vice-presidente da associação de atendimento às vítimas de trânsito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta os números do SUS sobre vítimas de trânsito, alerta que a lei do DPVAT se encerra em 31 de dezembro e cobra a revisão dos valores.",
+   "quote": [
+    26,
+    27,
+    28
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26
+   ],
+   "open_question": 39,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O seguro DPVAT tem de ser mantido e seus valores revistos antes do fim da lei.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pelo SUS, 1.076.642 pessoas foram vítimas de trânsito no ano passado, e 65% de quem se acidenta ganha de zero a 1 salário mínimo",
+     "plain": "O Brasil é o terceiro país mais violento no trânsito. Segundo o SUS, no ano passado 1.076.642 pessoas se acidentaram, com quase 50.000 mortes, e 65% de quem sofre acidente ganha de zero a 1 salário mínimo."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o seguro DPVAT corre o risco de não existir no ano que vem porque a lei que o autoriza se encerra em 31 de dezembro",
+     "plain": "É absurdo que o DPVAT, único mecanismo que indeniza os mais humildes, corra o risco de não existir no ano que vem, porque a lei que o autoriza se encerra em 31 de dezembro. Pedimos aqui uma resposta urgente sobre o que vai ocorrer."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o que deveria corresponder a 40 salários mínimos foi congelado em 13.500 reais desde 2007",
+     "plain": "A indenização foi congelada em 2007. O que hoje deveria equivaler a 40 salários mínimos ficou em apenas 13.500 reais, e só com o congelamento os antigos operadores faturaram cerca de 37 milhões de reais."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à superintendente da Caixa Econômica Federal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Informa que a Caixa recebeu mais de 1 milhão e 200 mil pedidos, paga em 16,4 dias em média e defende o crédito em conta digital.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Caixa opera o DPVAT dentro do prazo e o crédito em conta digital protege a vítima.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "até agosto de 2023 a Caixa recebeu mais de 1 milhão e 200 mil pedidos e pagou mais de 2,8 bilhões de reais às vítimas",
+     "plain": "Do início da operação até agosto de 2023 recebemos mais de 1 milhão e 200 mil pedidos de indenização e pagamos mais de 2,8 bilhões de reais às vítimas. Hoje mais de 93% dos pedidos entram pelo aplicativo."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei prevê 30 dias para o pagamento e o prazo médio da Caixa hoje é de 16,4 dias",
+     "plain": "Pela lei, a indenização deve ser paga em 30 dias. A Caixa hoje paga, em média, em 16,4 dias."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o crédito em conta digital garante que a indenização chegue de fato à vítima e reduz os riscos do pagamento",
+     "plain": "O crédito em conta digital garante que o dinheiro da indenização chegue de fato à vítima e reduz os riscos do pagamento. Foi essa modalidade de conta que permitiu atender os brasileiros com rapidez na pandemia."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Alerta que o DPVAT caminha para um limbo entre o modelo antigo e o provisório, e compromete a Comissão a transformar as sugestões em trabalho permanente.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O DPVAT está na iminência de ficar sem modelo, e a Comissão vai buscar uma solução com o Governo.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o DPVAT saiu do modelo antigo para um provisório e está na iminência de não ter nenhum dos dois, um limbo iminente",
+     "plain": "Estamos diante de um caso concreto com prazo e com urgência. Saímos de um modelo do DPVAT, entramos num modelo provisório e estamos na iminência de não ter nem um nem outro, ou seja, há um limbo iminente."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso um esforço permanente para reduzir os acidentes e tirar o Brasil do grupo dos 3 países com mais acidentes de trânsito",
+     "plain": "Estamos numa contagem regressiva para garantir o atendimento do Estado às vítimas do trânsito. Precisamos de esforço permanente para reduzir os acidentes e tirar o Brasil desse grupo dos 3 países do mundo com mais acidentes."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão se compromete a acolher as sugestões e transformá-las em trabalho permanente, em diálogo com o Governo Federal",
+     "plain": "Deixo aqui um compromisso da Comissão com todos os presentes. Vamos acolher as sugestões e as avaliações trazidas e transformá-las num trabalho permanente, em diálogo com quem está aqui e com o Governo Federal."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende que o primeiro objetivo seja reduzir as mortes violentas no trânsito e pede à Caixa um tempo de adequação na gestão do DPVAT.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Reduzir as mortes violentas no trânsito é o primeiro objetivo, e a Caixa precisa de tempo de adequação.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o primeiro objetivo tem de ser reduzir as mortes violentas no trânsito, como Salvador tem conseguido",
+     "plain": "Ratifico um ponto que o senhor trouxe: o nosso primeiro objetivo tem de ser reduzir as mortes violentas no trânsito. Salvador é uma das capitais que mais reduziram esse número."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Caixa está há 2 anos e 9 meses gerindo o DPVAT e precisa de um tempo de adequação",
+     "plain": "A Caixa está há 2 anos e 9 meses gerindo o DPVAT, se não me engano foi o prazo que a Dra. Danielle disse aqui. Então é preciso dar a ela um tempo de adequação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a deputada Erika Kokay e, em seguida, a representante da Caixa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Responde que o processo foi auditado pela Controladoria-Geral da União, que a Caixa custeou as correções monetárias e que segue à disposição, mas falta definir o modelo de 2024.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Caixa corrigiu os atrasos com recursos próprios e continua à disposição, mas o modelo de 2024 precisa ser definido.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no começo a Caixa não pagou em 30 dias por depender da contratação das perícias, mas custeou a correção monetária com recursos próprios",
+     "plain": "Como o Enio trouxe, no começo a Caixa não conseguia pagar em 30 dias, porque dependia da contratação das empresas de perícia. Mas nenhuma vítima ficou sem correção monetária, e essa correção foi custeada pela Caixa, não pelo fundo."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Caixa recebe acidentes de 2021, 2022 e 2023, porque o prazo para pedir é de 3 anos, e manteve o pagamento dentro do prazo",
+     "plain": "No modelo atual a Caixa vem recebendo acidentes de 2021, 2022 e 2023, porque a vítima tem 3 anos para pedir a indenização. Mesmo com esse volume de pedidos, a Caixa se manteve fiel ao pagamento no prazo."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Caixa está à disposição do Governo Federal para seguir operando o DPVAT, mas o modelo de 2024 precisa ser definido",
+     "plain": "A Caixa está à disposição do Governo Federal para continuar operando o DPVAT. Ainda assim, é necessário definir o modelo de 2024."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra à deputada Erika Kokay.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra uma definição urgente sobre o DPVAT, exige o direito de revisão de perícia, lembra o repasse ao SUS e pede um fórum permanente com as vítimas.",
+   "quote": [
+    34,
+    35,
+    36
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 25,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A vítima tem direito à revisão da perícia, e negar isso é revitimização.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      54
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso construir um fórum ou comitê com a participação dos representantes e das vítimas da violência no trânsito",
+     "plain": "Tenho certeza de que a Caixa consegue responder a todas as demandas postas. Mas minha sugestão é construir um espaço, um fórum ou um comitê com a participação dos representantes e das vítimas da violência no trânsito."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a dificuldade de revisão de perícia não pode acontecer, porque a revisão é um direito de quem foi vítima",
+     "plain": "Foi dito aqui que há dificuldade para revisar a perícia. Isso não pode acontecer, porque a revisão é um direito de quem foi vítima do acidente."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      45,
+      46,
+      47
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se pode ter uma indenização congelada há 17 anos, desde 2006, quando o custo de vida não ficou congelado",
+     "plain": "Não podemos ter uma indenização congelada há 17 anos, desde 2006, se não me engano. Nesse período o custo de vida não ficou congelado, e precisamos de respostas para esse congelamento."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Propõe criar uma subcomissão específica sobre o DPVAT, com espaço permanente de consulta pública, para fazer o debate avançar nas próximas semanas.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão deve criar uma subcomissão específica para acompanhar o tema do DPVAT.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso criar uma subcomissão específica para o tema, com espaço permanente de consulta pública, para o debate avançar",
+     "plain": "Para um debate como este não se perder, ele precisa de um lugar que gere encaminhamentos. Vou propor a criação de uma subcomissão específica para este tema, com espaço permanente de consulta pública, para avançarmos nas próximas semanas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Coloca a Susep à disposição da Comissão e da subcomissão e lembra que a autarquia fiscaliza a operação do seguro.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Susep fiscaliza a operação e fica à disposição da Comissão e da subcomissão.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Susep tem um canal aberto para receber informações e fica à disposição da Comissão e da subcomissão",
+     "plain": "A Susep tem um canal aberto para receber informações e faz a fiscalização dessa operação. Ela fica à disposição desta Comissão e também da subcomissão, caso seja criada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença do representante da Susep e chama Lúcio Deodato.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente da entidade de vítimas pede que cada pessoa da plateia diga de que Estado veio.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Enio Alberto, por 3 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Agradece à Caixa por atender as cobranças e alerta que a mudança recente nas empresas de perícia está causando transtorno em todo o País.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A Caixa tem ouvido as cobranças, mas a troca das empresas de perícia está causando transtorno.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a Caixa entende as cobranças, mas a mudança recente nas empresas de perícia está causando transtorno em todo o País",
+     "plain": "Agradeço à Caixa, que muitas vezes entende a nossa necessidade de cobrar coisas pontuais e também nacionais, como as falhas do aplicativo. Só que a troca recente das empresas de perícia está causando transtorno em todo o País."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Carlos Veras para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O vice-presidente da entidade de vítimas diz que os procuradores não vão recuar na defesa das vítimas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama a representante da Caixa Econômica Federal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reafirma que a Caixa fica à disposição dos representantes para um diálogo aberto e para construir melhorias com foco nas vítimas.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Caixa se mantém à disposição para um diálogo aberto com os representantes das vítimas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Caixa se mantém à disposição dos representantes para um diálogo aberto e para construir melhorias com foco nas vítimas",
+     "plain": "A Caixa fica à disposição dos representantes aqui presentes para um diálogo aberto, para que possamos construir melhorias neste processo, com foco nas vítimas de acidentes de trânsito."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os presentes e declara encerrada a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 84,
+   "to_sentence": 59,
+   "from_claim": "b004c3",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Onde a Susep descreve um fundo criado em caráter transitório e sem arrecadação desde 2021, o Centro de Defesa das Vítimas do Trânsito diz que ninguém sabe o que será o seguro em 2024."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 34,
+   "to_sentence": 84,
+   "from_claim": "b006c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "À pergunta sobre o que será o seguro em 2024, a advogada da mesma entidade acrescenta que a lei autoriza a Caixa só até 31 de dezembro e que não há outro instrumento."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 131,
+   "to_sentence": 39,
+   "from_claim": "b008c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "Ao congelamento de 17 anos apontado pelo centro de defesa, o representante dos procuradores acrescenta a medida provisória de 2007 que fixou os valores em 13.500 reais e 2.700 reais."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 132,
+   "from_claim": "b012c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Os dois usam o mesmo critério de correção: o que deveria valer 40 salários mínimos hoje está congelado em 13.500 reais."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 84,
+   "from_claim": "b012c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A associação de atendimento às vítimas repete a pergunta sem resposta e diz por que ela é urgente: a lei que autoriza o seguro se encerra em 31 de dezembro."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 28,
+   "to_sentence": 34,
+   "from_claim": "b012c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "As duas entidades pedem na audiência a mesma coisa, uma resposta urgente sobre o que vai valer quando a autorização da Caixa terminar."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 27,
+   "to_sentence": 27,
+   "from_claim": "b014c3",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Onde a advogada das vítimas vê uma imposição, a Caixa sustenta que o crédito em conta digital é o que garante que a indenização chegue de fato a quem tem direito."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 26,
+   "to_sentence": 1,
+   "from_claim": "b014c2",
+   "to_claim": "b010c1",
+   "strength": "forte",
+   "note": "À imagem do transatlântico lento, a Caixa responde com o prazo médio de 16,4 dias contra os 30 dias que a lei exige."
+  },
+  {
+   "from": "b015",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 12,
+   "from_claim": "b015c2",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A presidência retoma o dado do ranking mundial trazido pela associação e o transforma em meta de política pública, reduzir a incidência de acidentes."
+  },
+  {
+   "from": "b015",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 34,
+   "from_claim": "b015c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A falta de instrumento depois de 31 de dezembro é o que a presidência chama de limbo iminente, entre o modelo antigo e o provisório."
+  },
+  {
+   "from": "b016",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 11,
+   "to_sentence": 1,
+   "from_claim": "b016c2",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "À crítica de lentidão, o deputado responde que a Caixa está há 2 anos e 9 meses no processo e precisa de um tempo de adequação."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 26,
+   "from_claim": "b016c2",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "O deputado toma os prazos apresentados pela Caixa como sinal de que a operação está se ajustando e pede tempo para que ela continue melhorando."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 13,
+   "to_sentence": 11,
+   "from_claim": "b018c2",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "À pergunta sobre como avalia esses 2 anos e 9 meses, a Caixa responde que recebe pedidos de 2021, 2022 e 2023 e se manteve fiel ao pagamento no prazo."
+  },
+  {
+   "from": "b018",
+   "to": "b008",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 35,
+   "from_claim": "b018c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "Ao relato de que a Caixa não cumpriu os prazos no começo, a Caixa responde que dependia da contratação das empresas de perícia e que pagou a correção monetária com recursos próprios."
+  },
+  {
+   "from": "b020",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 34,
+   "to_sentence": 191,
+   "from_claim": "b020c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A deputada toma o caso do médico revisor que baixou o percentual e afirma que a revisão da perícia é um direito de quem foi vítima."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 45,
+   "to_sentence": 39,
+   "from_claim": "b020c3",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "A deputada assume a mesma cobrança do centro de defesa e acrescenta que o custo de vida não ficou congelado nesses anos."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 35,
+   "to_sentence": 22,
+   "from_claim": "b020c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A Caixa apresentou a contratação das empresas de perícia como garantia de acurácia, e a deputada responde que a dificuldade de revisar essa perícia não pode acontecer."
+  },
+  {
+   "from": "b021",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 54,
+   "from_claim": "b021c1",
+   "to_claim": "b020c1",
+   "strength": "forte",
+   "note": "Ao pedido de um fórum permanente com as vítimas, a presidência responde propondo uma subcomissão com espaço permanente de consulta pública."
+  },
+  {
+   "from": "b022",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 3,
+   "from_claim": "b022c1",
+   "to_claim": "b021c1",
+   "strength": "media",
+   "note": "A Susep adere à proposta e se coloca à disposição da subcomissão, se ela vier a ser criada."
+  },
+  {
+   "from": "b030",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 54,
+   "from_claim": "b030c1",
+   "to_claim": "b020c1",
+   "strength": "media",
+   "note": "Ao pedido de um espaço de escuta com os representantes das vítimas, a Caixa responde que fica à disposição para um diálogo aberto."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b006",
+    "b012",
+    "b015",
+    "b018"
+   ],
+   "claims": [
+    "b004c3",
+    "b006c2",
+    "b012c2",
+    "b015c1",
+    "b018c3"
+   ],
+   "note": "O centro de defesa das vítimas, a associação de atendimento, a presidência da Comissão e a própria Caixa concordam que o modelo de 2024 precisa ser definido antes de a lei perder vigência."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b008",
+    "b012",
+    "b020"
+   ],
+   "claims": [
+    "b004c1",
+    "b008c2",
+    "b012c3",
+    "b020c3"
+   ],
+   "note": "As três entidades de vítimas e a deputada concordam que a indenização está congelada há 17 anos e precisa ser corrigida."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b008",
+    "b020"
+   ],
+   "claims": [
+    "b004c2",
+    "b008c1",
+    "b008c3",
+    "b020c2"
+   ],
+   "note": "As entidades de vítimas e a deputada concordam que a vítima tem de poder contestar a perícia e que hoje isso não acontece."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b015",
+    "b020",
+    "b021",
+    "b022",
+    "b030"
+   ],
+   "claims": [
+    "b006c3",
+    "b015c3",
+    "b020c1",
+    "b021c1",
+    "b022c1",
+    "b030c1"
+   ],
+   "note": "A advogada das vítimas, a presidência, a deputada, a Susep e a Caixa concordam com um espaço permanente de diálogo sobre o seguro."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b012",
+    "b015",
+    "b016"
+   ],
+   "claims": [
+    "b012c1",
+    "b015c2",
+    "b016c1"
+   ],
+   "note": "A associação de atendimento às vítimas, a presidência e o deputado concordam que reduzir os acidentes e as mortes no trânsito é parte do mesmo problema."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b014",
+    "b016",
+    "b018"
+   ],
+   "claims": [
+    "b014c1",
+    "b014c2",
+    "b016c2",
+    "b018c1",
+    "b018c2"
+   ],
+   "note": "A Caixa e o deputado concordam que a operação se estabilizou e que os pagamentos vêm saindo dentro do prazo da lei."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 84,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "o que vai ser o DPVAT em 2024",
+   "plain": "O que vai ser o seguro obrigatório das vítimas de trânsito em 2024?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b006",
+   "sentence": 52,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quanto há no fundo do seguro e onde está",
+   "plain": "Quanto dinheiro existe hoje no fundo do seguro e onde ele está?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b008",
+   "sentence": 182,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quem é o médico que avaliou a documentação da vítima",
+   "plain": "Quem é o médico que avaliou a documentação e decidiu o valor da indenização?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b012",
+   "sentence": 39,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "acabar com a interferência do médico revisor nas perícias",
+   "plain": "Por que um segundo médico pode mudar o resultado da perícia sem ver a vítima?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b016",
+   "sentence": 15,
+   "addressed_to": "governo",
+   "answered_by": "b018",
+   "gist": "como a Caixa avalia esses 2 anos e 9 meses e o seu planejamento",
+   "plain": "Como a Caixa avalia esses 2 anos e 9 meses de gestão e o que planeja daqui em diante?",
+   "theme": "d7",
+   "position": "neutro"
+  },
+  {
+   "id": "q6",
+   "from": "b020",
+   "sentence": 25,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quanto o SUS perdeu nos anos sem repasse do seguro",
+   "plain": "Quanto o SUS deixou de receber nos anos em que não houve repasse do seguro?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 26,
+   "gist": "a Lei nº 6.194, de 1974, instituiu o seguro DPVAT",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 29,
+   "gist": "13.500 reais por morte e até 2.700 reais em despesas médicas",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 58,
+   "gist": "fundo criado com cerca de 4 bilhões de reais do consórcio",
+   "disputed_by": [
+    {
+     "fala": "b006",
+     "sentence": 53
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 7,
+   "gist": "95% dos acidentados de trânsito ficam com sequelas permanentes",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 39,
+   "gist": "17 anos sem correção do valor das indenizações",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 34,
+   "gist": "a Caixa recebe valor estimado de 148 milhões de reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 132,
+   "gist": "por 40 salários mínimos seriam 52.800 reais e 10.560 reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b012",
+   "sentence": 12,
+   "gist": "1.076.642 vítimas de trânsito no ano passado, quase 50.000 mortes",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 14,
+   "gist": "65% de quem se acidenta ganha de zero a 1 salário mínimo",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 35,
+   "gist": "os procuradores enviam cerca de 70% dos pedidos à Caixa",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b014",
+   "sentence": 16,
+   "gist": "mais de 1 milhão e 200 mil pedidos e 2,8 bilhões de reais pagos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b014",
+   "sentence": 26,
+   "gist": "prazo médio de 16,4 dias, contra os 30 dias da lei",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o alerta de que o País pode ficar sem o seguro obrigatório em 2024 e a crítica ao Ministério da Fazenda por não debater as novas regras.",
+  "omitted": "Ficaram de fora a conta obrigatória na Caixa, os casos de amputação negada, o papel do médico revisor e os números da operação apresentados pela Caixa."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O seguro das vítimas de trânsito precisa continuar",
+   "statement_plain": "A lei que autoriza o seguro acaba em 31 de dezembro e ninguém apresentou o modelo de 2024. É preciso definir a manutenção do seguro antes disso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b006c2",
+    "b012c2",
+    "b015c1",
+    "b018c3"
+   ],
+   "note": "A ideia junta as entidades de vítimas, a presidência da Comissão e a própria Caixa, que opera o fundo e também pede a definição do modelo."
+  },
+  {
+   "id": "t2",
+   "title": "A indenização congelada há 17 anos tem de subir",
+   "statement_plain": "A indenização está parada em 13.500 reais desde 2006, enquanto o custo de vida subiu. Corrigida por 40 salários mínimos, ela passaria de 52 mil reais.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b008c2",
+    "b012c3",
+    "b020c3"
+   ],
+   "note": "Três entidades de fora do governo e uma deputada da base defendem o mesmo reajuste, com o mesmo critério de correção."
+  },
+  {
+   "id": "t3",
+   "title": "A vítima tem de poder contestar a perícia",
+   "statement_plain": "Quem se acidentou precisa poder pedir revisão da perícia, saber quem a avaliou e escolher a conta em que recebe. Hoje nada disso é garantido.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c1",
+    "b008c1",
+    "b008c3",
+    "b020c2"
+   ],
+   "note": "Reúne o centro de defesa das vítimas, os procuradores de seguros e uma deputada em torno do mesmo ponto, o que acontece dentro do consultório e na hora do pagamento."
+  },
+  {
+   "id": "t4",
+   "title": "A operação da Caixa se estabilizou e cumpre prazos",
+   "statement_plain": "A Caixa recebeu mais de 1 milhão e 200 mil pedidos, paga em 16,4 dias em média e credita em conta digital para garantir que o dinheiro chegue à vítima.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel",
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b014c2",
+    "b014c3",
+    "b016c2",
+    "b018c1",
+    "b018c2"
+   ],
+   "note": "A ideia é sustentada pelo banco que opera o fundo e por um deputado, e é a que se opõe diretamente à leitura de quem acompanha os processos no dia a dia."
+  },
+  {
+   "id": "t5",
+   "title": "As vítimas têm de estar na mesa de decisão",
+   "statement_plain": "Quem representa as vítimas precisa de um espaço permanente para discutir o seguro e de acesso aos dados do fundo, em vez de só enviar propostas por portaria.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b015c3",
+    "b020c1",
+    "b021c1",
+    "b022c1",
+    "b030c1"
+   ],
+   "note": "Nasce da cobrança de transparência de uma advogada das vítimas e termina com a adesão da Susep e da Caixa à subcomissão proposta pela presidência."
+  },
+  {
+   "id": "t6",
+   "title": "O seguro é parte da política de trânsito e do SUS",
+   "statement_plain": "O dinheiro do seguro financiava o SUS e as campanhas de trânsito. Tratar do seguro é tratar de reduzir acidentes e mortes, não só de pagar indenização.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b015c2",
+    "b016c1"
+   ],
+   "note": "Uma entidade de vítimas, a presidência e um deputado que fala da queda de mortes na sua cidade sustentam a mesma leitura, cada um com dado diferente."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SUSEP",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "Superintendência de Seguros Privados, órgão federal que fiscaliza as empresas de seguro no Brasil"
+  },
+  {
+   "term": "ANPS",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "Associação Nacional dos Procuradores de Seguros, entidade dos profissionais que entram com os pedidos de indenização"
+  },
+  {
+   "term": "ABAVT",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "Associação Brasileira de Atendimento às Vítimas de Trânsito, entidade que reúne quem atende essas vítimas"
+  },
+  {
+   "term": "CDVT",
+   "fala": "b002",
+   "sentence": 6,
+   "plain": "Centro de Defesa das Vítimas do Trânsito, entidade que defende os direitos de quem sofreu acidente"
+  },
+  {
+   "term": "DPVAT",
+   "fala": "b002",
+   "sentence": 26,
+   "plain": "seguro obrigatório pago por quem tem veículo, que indeniza quem morre ou fica com sequela em acidente de trânsito"
+  },
+  {
+   "term": "RECOVAT",
+   "fala": "b002",
+   "sentence": 26,
+   "plain": "seguro obrigatório antigo, que existia antes do DPVAT e foi substituído por ele em 1974"
+  },
+  {
+   "term": "invalidez permanente",
+   "fala": "b002",
+   "sentence": 28,
+   "plain": "sequela que não passa, total ou parcial, e que dá direito a indenização do seguro"
+  },
+  {
+   "term": "CNSP",
+   "fala": "b002",
+   "sentence": 46,
+   "plain": "Conselho Nacional de Seguros Privados, colegiado do Governo que define as regras do setor de seguros"
+  },
+  {
+   "term": "FENASEG",
+   "fala": "b002",
+   "sentence": 53,
+   "plain": "entidade nacional das empresas de seguro, que geria o antigo convênio entre as seguradoras"
+  },
+  {
+   "term": "seguradora Líder",
+   "fala": "b002",
+   "sentence": 63,
+   "plain": "empresa que liderava o consórcio e ainda paga as indenizações dos acidentes ocorridos até 2020"
+  },
+  {
+   "term": "DAMS",
+   "fala": "b004",
+   "sentence": 45,
+   "plain": "Despesas de Assistência Médica e Suplementares, a parte do seguro que reembolsa gastos com tratamento"
+  },
+  {
+   "term": "poupança social digital",
+   "fala": "b008",
+   "sentence": 20,
+   "plain": "conta criada pelo Governo na pandemia para pagar auxílios, com limite de saque de 5 mil reais"
+  },
+  {
+   "term": "CRM",
+   "fala": "b008",
+   "sentence": 128,
+   "plain": "número de registro do médico no conselho de medicina, que identifica quem assinou o laudo"
+  },
+  {
+   "term": "IPVA",
+   "fala": "b012",
+   "sentence": 22,
+   "plain": "imposto anual sobre o veículo, cobrado pelos Estados, que não tem relação com a indenização das vítimas"
+  },
+  {
+   "term": "prazo prescricional",
+   "fala": "b018",
+   "sentence": 12,
+   "plain": "tempo que a pessoa tem para pedir o seu direito antes de perdê-lo, aqui de 3 anos"
+  }
+ ]
+}

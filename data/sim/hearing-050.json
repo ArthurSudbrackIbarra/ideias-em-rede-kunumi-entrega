@@ -1,0 +1,1875 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 50,
+ "model": "LLM lendo o prompt hearing-050 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T16:54:48Z",
+ "prompt_sha256": "d796fac58e76377c6cce56e1334653d18ba90a81579e84009c37413eb87d4386",
+ "sentences_hash": "4d6f3dcf55ba2413",
+ "review": {
+  "pairs_read": 33,
+  "pairs_fixed": 12
+ },
+ "warnings": [
+  "2 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t2: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Ciência, Tecnologia e Inovação da Câmara debateu os protocolos de tratamento de HIV, aids e hepatites virais, a entrada de novos medicamentos no SUS e a situação das patentes. A representante da CONITEC explicou o fluxo e os prazos de avaliação, a sociedade civil apontou atrasos de anos e pediu o licenciamento compulsório do dolutegravir, e o Ministério da Saúde anunciou novos protocolos para este ano.",
+ "stakes": "Dependia desta audiência a pressão do Congresso para o Ministério da Saúde publicar os protocolos atualizados em 2023 e levar adiante o pedido de licenciamento compulsório do dolutegravir.",
+ "central_question": "Por que medicamentos e protocolos já disponíveis em outros países demoram anos para chegar ao SUS?",
+ "synopsis_plain": "A Comissão de Ciência, Tecnologia e Inovação da Câmara discutiu o tratamento de HIV, aids e hepatites virais no SUS. A CONITEC explicou como um remédio novo entra no sistema. A ABIA e a ANAIDS mostraram atrasos de anos e pediram a quebra da patente do dolutegravir. O Ministério da Saúde prometeu publicar os novos protocolos este ano.",
+ "stakes_plain": "Estava em jogo a pressão do Congresso para o Ministério publicar os protocolos atualizados em 2023 e abrir a discussão do licenciamento compulsório do dolutegravir.",
+ "central_question_plain": "Por que os remédios e protocolos que já existem em outros países demoram anos para chegar ao SUS?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Incorporação de novos medicamentos",
+   "description": "Discute-se por que medicamentos já usados em outros países demoram para entrar no SUS e como o pedido de incorporação é avaliado.",
+   "axis": {
+    "pro": "O Brasil precisa incorporar logo os medicamentos que já existem em outros países.",
+    "contra": "Cada incorporação depende de pedido, registro, evidência e avaliação econômica, e isso leva tempo.",
+    "pro_plain": "O país tem de trazer logo para o SUS os remédios que já existem fora.",
+    "contra_plain": "Cada remédio novo só entra depois de pedido, registro, estudo e conta de custo, e isso leva tempo."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Atualização dos protocolos clínicos",
+   "description": "Discute-se o atraso na revisão dos documentos que dizem como o SUS trata HIV, aids e hepatites virais, e de quem é a tarefa de atualizá-los.",
+   "axis": {
+    "pro": "Os protocolos estão anos atrasados e a revisão tem de sair agora, como manda a lei.",
+    "contra": "A revisão acontece quando entra uma tecnologia nova ou aparece nova evidência, dentro do fluxo técnico.",
+    "pro_plain": "Os documentos que orientam o tratamento estão velhos e a revisão tem de sair agora.",
+    "contra_plain": "A revisão sai quando entra um remédio novo ou surge um estudo novo, seguindo o fluxo do Ministério."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Orçamento e papel do Congresso",
+   "description": "Discute-se quanto o país investe em pesquisa e em produção própria de medicamentos e o que a Câmara pode fazer no orçamento.",
+   "axis": {
+    "pro": "O Congresso tem de garantir orçamento e produção nacional para sustentar o acesso a medicamentos.",
+    "contra": "O gasto tem de caber nos limites fiscais antes de virar promessa de acesso.",
+    "pro_plain": "A Câmara tem de garantir dinheiro no orçamento e produção de remédios no país.",
+    "contra_plain": "O gasto tem de caber no limite fiscal antes de o país prometer mais acesso."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Desigualdade de acesso e determinantes sociais",
+   "description": "Discute-se por que pessoas negras e indígenas, com menos escolaridade ou longe das capitais chegam menos ao diagnóstico e ao tratamento.",
+   "axis": {
+    "pro": "Sem enfrentar racismo, escolaridade e distância, o medicamento novo não chega a quem mais precisa.",
+    "contra": "O acesso se resolve pela oferta de medicamentos e tecnologias na rede de saúde.",
+    "pro_plain": "Se o país não enfrentar racismo, pouca escola e distância, o remédio novo não chega a quem mais precisa.",
+    "contra_plain": "Basta o SUS oferecer os remédios e as tecnologias novas para o acesso melhorar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Patentes, preço e interesse público",
+   "description": "Discute-se se o Estado deve licenciar compulsoriamente patentes contestadas, como a do dolutegravir, e o que o preço dos medicamentos faz com o orçamento da saúde.",
+   "axis": {
+    "pro": "O preço é resultado de patentes e regras de mercado, e uma decisão do Estado pode derrubá-lo.",
+    "contra": "O preço e o impacto no orçamento definem se o medicamento novo pode entrar.",
+    "pro_plain": "O remédio é caro por causa da patente e das regras de mercado, e o governo pode derrubar esse preço.",
+    "contra_plain": "O preço e o peso no orçamento decidem se o remédio novo pode entrar no SUS."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da reunião, com Cleber Verde e depois a deputada Daiana Santos",
+   "org": "Comissão de Ciência, Tecnologia e Inovação",
+   "basis": "abre a reunião em b001.1 e passa a condução à deputada Daiana Santos em b005.7",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha ciência, tecnologia e inovação"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenadora-Geral de Avaliação de Tecnologias em Saúde do Ministério da Saúde",
+   "org": "CONITEC",
+   "basis": "apresentada pela presidência em b001.14",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da CONITEC, no Ministério da Saúde",
+   "org_plain": "comissão que avalia e recomenda ao Ministério da Saúde se um remédio ou exame novo entra no SUS"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal",
+   "org": "Câmara dos Deputados",
+   "basis": "identificada na lista de oradores como PL - RJ",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PL do Rio de Janeiro",
+   "org_plain": "Casa do Congresso onde os deputados fazem as leis e fiscalizam o governo"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Presidente da Associação Brasileira Interdisciplinar de AIDS",
+   "org": "ABIA",
+   "basis": "apresentado pela presidência em b001.17 e se identifica em b010.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "vice-presidente da ABIA",
+   "org_plain": "ONG criada em 1987 que trabalha com aids e acesso a medicamentos no Brasil"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Assessor da Coordenação-Geral de Vigilância do HIV/AIDS e das Hepatites Virais",
+   "org": "Ministério da Saúde",
+   "basis": "apresentado pela presidência em b001.16",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério que comanda o SUS e compra os medicamentos distribuídos de graça"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da Articulação Nacional de Luta Contra a Aids",
+   "org": "ANAIDS",
+   "basis": "identifica-se em b016.0 e b016.1",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da ANAIDS",
+   "org_plain": "rede de grupos que defendem quem vive com HIV e aids no país"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "identificado na lista de oradores como Bloco/PSB - PE",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSB de Pernambuco",
+   "org_plain": "Casa do Congresso onde os deputados fazem as leis e fiscalizam o governo"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal e presidenta da Comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "anunciada pela presidência em b027.18 e b027.20",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PSD do Paraná",
+   "org_plain": "Casa do Congresso onde os deputados fazem as leis e fiscalizam o governo"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.05
+   },
+   {
+    "role": "convidado",
+    "share": 0.05
+   }
+  ],
+  "basis": "a mesa registra colegas do Departamento de HIV/Aids em b014.3 a b014.7, parceiros da Frente Parlamentar em b015.3 e deputadas presentes em b005.6 e b027.7",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre protocolos de HIV e hepatites e apresenta os três convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica como a CONITEC avalia um pedido de incorporação, quais prazos a lei fixa e o que mudou na regra de atualização dos protocolos.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A incorporação de uma tecnologia no SUS depende de pedido, evidência científica, avaliação econômica e prazos fixados em lei.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a avaliação de um medicamento pesa evidência, custo e impacto no orçamento e tem prazo de 180 dias, prorrogável por 90",
+     "plain": "A avaliação pesa as evidências de eficácia, segurança e efetividade, e também o custo e o impacto no orçamento. O prazo é de 180 dias, prorrogável por mais 90, e há outros 180 dias para o remédio chegar ao SUS."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a atualização do protocolo agora acontece quando entra tecnologia nova ou surge nova evidência, e só a área técnica pode pedir",
+     "plain": "Antes o protocolo tinha de ser atualizado a cada 2 anos. Agora ele se atualiza quando uma tecnologia entra, muda ou sai do SUS e quando surge estudo que possa mudar o tratamento. Só a área técnica do Ministério pode pedir essa mudança."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      51,
+      52,
+      53
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "há 177 diretrizes publicadas e 63 em atualização, e estão em avaliação o dolutegravir, o raltegravir e o darunavir",
+     "plain": "Há 177 diretrizes publicadas pelo Ministério da Saúde e 63 em elaboração, atualização ou análise. Nos últimos 2 anos avaliamos remédios para hepatite C e B, e agora estão em avaliação o dolutegravir, o raltegravir e o darunavir, para HIV."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Priscila e pede que ela aguarde uma pergunta da deputada Soraya Santos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Registra o papel da Comissão na saúde, critica o corte no FUNDEB e no fundo da ciência e defende tecnologia para o cuidado chegar à ponta.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Congresso precisa garantir investimento em pesquisa e levar a tecnologia ao cuidado em saúde até a ponta.",
+    "sentence": 40
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "das pesquisas feitas no Brasil, só 14% viraram tecnologia e inovação em benefício do país",
+     "plain": "Temos procurado ver quanta pesquisa o país transforma em inovação. Pasme: dos 64% das pesquisas feitas no Brasil, só 14% viraram tecnologia e inovação para o próprio país."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      22
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não é cortando o mínimo do FUNDEB e do fundo da ciência que o país vai avançar",
+     "plain": "Não é contingenciando, limitando o mínimo, o básico, que começou pelo FUNDEB, o fundo da educação básica, ou pelo fundo da ciência, que vamos conseguir avançar."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      40,
+      41
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "esta Comissão pode juntar tecnologia para o cuidado chegar aos rincões, como a reabilitação a distância no Maranhão",
+     "plain": "Esta Comissão pode e deve juntar tecnologia para que a medicina chegue à ponta. Pensem nos rincões do Brasil, no Maranhão: uma pessoa sem acesso à reabilitação poderia fazer reabilitação a distância."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a condução à deputada Daiana Santos e chama Veriano de Souza Terto para expor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Diz que o tema é urgente e que falar de incorporação é falar de sustentar os programas de acesso a medicamentos para aids e hepatite.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A incorporação de novos medicamentos é urgente e sustenta os programas de acesso que já existem.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "falar de incorporação é falar de sustentar os programas de acesso a medicamentos para aids e hepatite",
+     "plain": "É um tema urgente e precisa entrar na pauta do Brasil. Falar de incorporação é falar de deixar disponíveis remédios e tecnologias novas, não só para avançar, mas para sustentar os programas de acesso para aids, hepatite e outras doenças."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a apresentação já está visível.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado pergunta se a apresentação também está aparecendo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a apresentação também aparece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta o GTPI e a ABIA e afirma que a entrada de medicamentos no Brasil é uma luta que depende da pressão da sociedade civil.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A incorporação de medicamentos no Brasil avança pela organização e pela pressão da sociedade civil.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a incorporação de medicamentos no Brasil é uma luta e depende da pressão da sociedade civil",
+     "plain": "Quero dizer que a incorporação de medicamentos no Brasil é uma questão de luta. A organização e a pressão da sociedade civil sempre são importantes nesse tema."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede calma ao convidado e diz que a reunião aguarda a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Mostra que a lei manda revisar a padronização de terapias todo ano, lista medicamentos com anos de atraso e pede o licenciamento compulsório do dolutegravir.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    6,
+    7,
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": 28,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil acumula anos de atraso na atualização dos protocolos e na entrada de medicamentos já usados no exterior.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei nº 9.313 manda revisar a padronização de terapias todo ano, mas houve só duas atualizações em 10 anos",
+     "plain": "A Lei nº 9.313 manda revisar e republicar a padronização de terapias todo ano, ou sempre que for necessário. Mas o que vemos na prática? Nos últimos 10 anos houve só duas atualizações do protocolo, uma em 2013 e outra em 2017."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      39,
+      40,
+      41
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a rilpivirina tem 12 anos de atraso, a doravirina 5, o TAF 8 e o cabotegravir já vai para 3 anos",
+     "plain": "A rilpivirina está 12 anos atrasada e a doravirina 5 anos. O TAF, importante na hepatite, está 8 anos atrasado, aprovado nos Estados Unidos desde 2015, e o cabotegravir já vai para 3 anos de atraso."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dolutegravir e lamivudina poderiam estar numa pílula só, e a ameaça de falta do remédio é frequente",
+     "plain": "A pessoa toma um comprimido de dolutegravir e dois de lamivudina, e tudo poderia estar numa pílula só, o que facilitaria a adesão. A ameaça de falta de lamivudina é frequente e deixa quem depende dela com uma espada na cabeça."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Registra que desde 2018 não há atualização dos protocolos e diz que ela é essencial para priorizar os investimentos.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A atualização dos protocolos está parada desde 2018 e é essencial para priorizar investimentos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "desde 2018 não há atualização dos protocolos, e ela é essencial para priorizar os investimentos",
+     "plain": "É importante o que tu trazes sobre o complexo industrial da saúde e a atualização dos protocolos. Enquanto falavas, eu me lembrava de que desde 2018 não há atualização, e ela é essencial para priorizar melhor esses investimentos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Informa que o protocolo de adultos é de 2018 e que o novo sai este ano, apresenta a desigualdade de acesso e condiciona novas tecnologias a um preço justo.",
+   "quote": [
+    28,
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério da Saúde vai publicar os novos protocolos este ano e amplia o acesso com combinações de medicamentos mais antigos.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o protocolo de adultos é de 2018 e o novo protocolo de 2023 deve sair este ano, reunindo o que está em notas técnicas",
+     "plain": "O protocolo para adultos com HIV foi atualizado em 2018. Depois disso as mudanças saíram em notas técnicas, e agora buscamos publicar o novo protocolo de 2023, ainda de transição, reunindo recomendações hoje dispersas."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      61,
+      62,
+      63
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Ministério trabalha para oferecer lamivudina com dolutegravir num comprimido só, estratégia anterior a 2018",
+     "plain": "Estamos trabalhando para oferecer lamivudina e dolutegravir num comprimido só. Isso vem de uma estratégia anterior a 2018, de trocar o remédio após o início do tratamento para reduzir efeitos ruins. O mundo todo vai nessa direção."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      86,
+      87
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o preço CMED de quase 3 mil reais por paciente ao mês teria impacto muito grande e a entrada depende de um impacto justo",
+     "plain": "O preço da CMED, a câmara que fixa o preço dos remédios, é de quase 3 mil reais por paciente ao mês, e o impacto seria muito grande. Avaliamos a entrada para grupos com benefício clínico, desde que o impacto seja justo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende que os determinantes sociais entrem nos planos estratégicos e que a oferta alcance mulheres, pessoas negras, indígenas e quem vive longe.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os determinantes sociais precisam estar nos planos estratégicos para o cuidado chegar a quem está à margem.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os determinantes sociais precisam estar nos planos estratégicos, senão o cuidado não chega a alguns territórios",
+     "plain": "Os determinantes sociais em saúde, as condições de vida que fazem alguém adoecer, precisam estar nos planos estratégicos. Sem isso não há efetividade, porque não se chega a alguns territórios e quem chega ao cuidado não permanece."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o cuidado precisa olhar também quem vive com HIV acima dos 50 anos, numa pirâmide que se inverte",
+     "plain": "Me chamou a atenção esse dado de quem tem acima dos 50 anos. Isso faz parte da pirâmide que vai se invertendo, e o cuidado também tem de ser pensado assim, para a oferta ser mais efetiva."
+    },
+    {
+     "id": "b015c3",
+     "sentences": [
+      17
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a oferta tem de alcançar mulheres, negros e negras, indígenas, territórios distantes e a população em situação de rua",
+     "plain": "Temos de pensar isso de forma muito mais ampla, garantindo a oferta a mulheres, negros e negras, indígenas, quem vive nos territórios mais distantes e a população em situação de rua, que muitas vezes fica à margem do cuidado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Afirma que o país está desatualizado em medicamentos, pede agilidade da CONITEC e da CMED e pergunta o que a ANVISA pode fazer por remédios antigos.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 23,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil está atrasado na entrada de medicamentos e precisa de mais agilidade da CONITEC e de preço justo.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil está muito desatualizado em medicamentos e precisa avançar na discussão dos de longa ação",
+     "plain": "Estamos muito desatualizados em relação ao mundo na questão dos medicamentos. Há muitos remédios no mundo a serem incorporados, e precisamos avançar na discussão dos medicamentos de longa ação, de longa duração, como o Ronaldo falou."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a indústria precisa ter boa vontade de registrar os remédios no Brasil e o preço deve ser negociado com o Ministério",
+     "plain": "Há outras questões nessa discussão, como a boa vontade da indústria farmacêutica de registrar esses remédios no Brasil e a negociação de preço. Defendemos um preço justo de venda, negociado com o Ministério da Saúde."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão deveria perguntar à CONITEC quais são as dificuldades e o prazo médio para incorporar um medicamento",
+     "plain": "É uma pena que a CONITEC não pôde ficar. Acho importante a Comissão perguntar à CONITEC quais são as dificuldades para agilizar a incorporação e qual é o prazo médio. A CONITEC poderia ajudar sendo mais ágil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se há mais inscritos e passa a palavra ao deputado Lucas Ramos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Destaca o papel da FIOCRUZ na produção e na pesquisa e diz que a Comissão deve apresentar emendas à LDO e ao Orçamento de 2024.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara deve garantir no orçamento a ampliação da produção e da distribuição de medicamentos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a FIOCRUZ tem papel na produção dos medicamentos, na pesquisa científica e no desenvolvimento tecnológico",
+     "plain": "Nesta Comissão é importante destacar instituições como a FIOCRUZ, a fundação pública de pesquisa e produção de remédios, pelo papel que tem na produção desses medicamentos, na pesquisa e no desenvolvimento tecnológico."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      2
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão tem o dever de apresentar emendas à LDO e ao Orçamento de 2024 para ampliar produção e distribuição",
+     "plain": "Na discussão da Lei de Diretrizes Orçamentárias e do Orçamento da União de 2024, esta Comissão tem o dever de apresentar emendas para ampliar a produção e a distribuição, para que o medicamento chegue a quem mais precisa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que sem investimento e sem prioridade no orçamento a ampliação do acesso não vai acontecer.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem investimento e prioridade no orçamento, a ampliação do acesso não acontece.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem investimento e sem prioridade no orçamento, a ampliação do acesso não vai acontecer",
+     "plain": "Não vamos nos furtar a esse movimento de ampliação. O orçamento precisa ser debatido a fundo, porque sem investimento e sem prioridade no orçamento nada vai acontecer."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado avisa que segue presente na audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "anuncia_presenca"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá prioridade ao convidado que participa on-line e pede que ele fale.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado lembra que já havia pedido a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência se desculpa por não ter visto o pedido e passa a palavra ao convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede o licenciamento compulsório do dolutegravir, sustenta que a patente é contestável e lembra a economia obtida com o efavirenz em 2007.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O dolutegravir é de interesse público e a sua patente contestada deve ser licenciada compulsoriamente.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a patente do dolutegravir é contestada e poderia não ter sido concedida, e o país economizaria um recurso importante",
+     "plain": "A patente do dolutegravir é muito contestada e está pendente na Justiça. Vários estudos, inclusive nossos, mostram que ela poderia não ter sido concedida, e assim o país economizaria um recurso importante para outros remédios."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os medicamentos ficam caros por causa das regras de propriedade intelectual e de comércio, muitas vezes de forma indevida",
+     "plain": "Nós, da sociedade civil, não aceitamos tão facilmente o argumento de que os medicamentos são caros. Eles ficam caros por causa das regras de propriedade intelectual e de comércio, muitas vezes de forma indevida."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há 16 anos o Brasil licenciou compulsoriamente o efavirenz e isso trouxe economia para os cofres públicos",
+     "plain": "Há 16 anos, em maio de 2007, o Brasil decretou o licenciamento compulsório do efavirenz. Aquilo trouxe desenvolvimento tecnológico e economia para os cofres públicos, e permitiu usar recursos em outros remédios."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao convidado e passa a palavra a Ronaldo Hallal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que a resposta não se encerra no medicamento, aponta que o registro do TAF não segue o interesse público e lembra o caso do efavirenz.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O acesso ao tratamento depende dos determinantes sociais e não se resolve só com medicamento.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a resposta brasileira não termina no medicamento e exige determinantes sociais, política de renda e respeito a direitos",
+     "plain": "A resposta brasileira não termina em entregar medicamento. É preciso trabalhar os determinantes sociais, ter políticas de renda, respeitar os direitos de quem vive com HIV, inclusive na Previdência, e olhar as populações mais afetadas."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o TAF só tem registro para hepatite B e não para o HIV, e essa decisão de registro não segue o interesse público",
+     "plain": "O TAF está registrado só para a hepatite B. Ele não tem registro no Brasil para uso contra o HIV, então não há garantia de uso por quem vive com HIV. Essa decisão não segue o interesse público."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "precedente",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no licenciamento compulsório do efavirenz houve economia e o laboratório que produzia o remédio não saiu do país",
+     "plain": "Eu vivi um momento único no acesso universal ao tratamento no Brasil, quando saiu o licenciamento compulsório do efavirenz. Além da economia, o laboratório que produzia o remédio não saiu do país, e esse era o receio."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende investimento em pesquisa e produção própria, cobra saber as dificuldades da incorporação e promete levar adiante o licenciamento compulsório.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 8,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão deve cobrar as dificuldades da incorporação e levar adiante o licenciamento compulsório.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso investir em pesquisa e tecnologia em saúde para o país ter produção própria de medicamentos",
+     "plain": "Ao encaminhar o fim desta audiência, fica cada vez mais claro que é preciso investir em saúde pensando em pesquisa e tecnologia, para termos produção própria. Tivemos um período obscuro nesse investimento, e isso pesa no cuidado."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão deve perguntar quais são as dificuldades para a incorporação de novos medicamentos",
+     "plain": "Sim, esta pergunta deve ser feita, e gostei muito da indagação: que dificuldades travam a incorporação? Precisamos falar sobre isso."
+    },
+    {
+     "id": "b027c3",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão precisa levar o licenciamento compulsório a um encaminhamento objetivo junto ao Ministério da Saúde",
+     "plain": "O Veriano trouxe aqui o licenciamento compulsório, e nós falamos do acesso universal. Precisamos apoiar isso para que haja um encaminhamento objetivo junto ao Ministério da Saúde e às outras organizações, com a Comissão participando."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada cumprimenta quem conduz a audiência e elogia a discussão e os participantes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos e consulta o Plenário sobre aproveitar o painel de presença.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b030",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada concorda com o aproveitamento do painel de presença.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência aprova o aproveitamento do painel e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 25,
+   "to_sentence": 30,
+   "from_claim": "b012c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "A CONITEC diz que a revisão do protocolo passou a depender de nova tecnologia ou nova evidência, e a ABIA responde que a lei de 1996 manda revisar a padronização todo ano."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 40,
+   "to_sentence": 52,
+   "from_claim": "b012c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Ao panorama de tecnologias avaliadas nos últimos anos, a ABIA acrescenta que o TAF continua 8 anos atrasado, mesmo aprovado nos Estados Unidos desde 2015."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 27,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "A presidência confirma o atraso apontado pela ABIA e diz que se lembrava de que desde 2018 nenhuma atualização saiu."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 30,
+   "to_sentence": 27,
+   "from_claim": "b014c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "À cobrança pelas atualizações que não saíram, o Ministério da Saúde responde que o protocolo de adultos é de 2018 e que o novo, de 2023, deve ser publicado este ano."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 61,
+   "to_sentence": 56,
+   "from_claim": "b014c2",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "O pedido de reunir lamivudina e dolutegravir num comprimido só encontra o Ministério da Saúde negociando exatamente essa dose fixa."
+  },
+  {
+   "from": "b014",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 30,
+   "to_sentence": 31,
+   "from_claim": "b014c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A CONITEC diz que só a área técnica pode pedir a mudança do protocolo, e é a área técnica que anuncia o novo documento para este ano."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 25,
+   "from_claim": "b015c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "A presidência retoma a desigualdade de acesso mostrada pelo Ministério da Saúde e pede que as condições de vida entrem nos planos estratégicos."
+  },
+  {
+   "from": "b016",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 39,
+   "from_claim": "b016c1",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "A ANAIDS confirma a lista de atrasos e diz que o país está desatualizado em relação ao resto do mundo."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 92,
+   "from_claim": "b016c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A ANAIDS cita a fala do Ministério da Saúde sobre injetáveis de longa duração e diz que essa discussão precisa avançar."
+  },
+  {
+   "from": "b024",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 86,
+   "from_claim": "b024c2",
+   "to_claim": "b014c3",
+   "strength": "forte",
+   "note": "Contra o argumento de que o preço alto impede a entrada do medicamento, a ABIA sustenta que o preço é efeito das regras de patente e de comércio."
+  },
+  {
+   "from": "b026",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 19,
+   "to_sentence": 40,
+   "from_claim": "b026c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Sobre o atraso do TAF, o Ministério da Saúde esclarece que o medicamento só tem registro para hepatite B e não para o HIV."
+  },
+  {
+   "from": "b026",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 12,
+   "from_claim": "b026c3",
+   "to_claim": "b024c3",
+   "strength": "forte",
+   "note": "Os dois recordam o licenciamento compulsório do efavirenz, e o Ministério da Saúde acrescenta que o laboratório fabricante não deixou o país."
+  },
+  {
+   "from": "b026",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 7,
+   "from_claim": "b026c1",
+   "to_claim": "b015c1",
+   "strength": "forte",
+   "note": "O Ministério da Saúde concorda com a presidência e diz que a resposta brasileira não se resolve entregando medicamento."
+  },
+  {
+   "from": "b027",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 11,
+   "from_claim": "b027c2",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "A presidência assume a pergunta sugerida pela ANAIDS e diz que a Comissão precisa saber o que trava a incorporação."
+  },
+  {
+   "from": "b027",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 2,
+   "from_claim": "b027c3",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "A presidência recolhe o pedido de licenciamento compulsório e promete levá-lo como encaminhamento ao Ministério da Saúde."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 2,
+   "from_claim": "b019c1",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "Ao pedido de emendas ao orçamento, a presidência responde que sem prioridade orçamentária a ampliação não sai do papel."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b012",
+    "b014",
+    "b016",
+    "b027"
+   ],
+   "claims": [
+    "b012c2",
+    "b014c2",
+    "b016c1",
+    "b027c2"
+   ],
+   "note": "ABIA, ANAIDS, Ministério da Saúde e presidência concordam que o país está atrasado e precisa trazer combinações e medicamentos já usados fora."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b012",
+    "b013",
+    "b014"
+   ],
+   "claims": [
+    "b012c1",
+    "b013c1",
+    "b014c1"
+   ],
+   "note": "ABIA, presidência e Ministério da Saúde concordam que o protocolo de adultos ficou anos sem revisão e que a atualização precisa sair agora."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b018",
+    "b019",
+    "b027"
+   ],
+   "claims": [
+    "b004c2",
+    "b018c2",
+    "b019c1",
+    "b027c1"
+   ],
+   "note": "Deputados de partidos diferentes e a presidência concordam que sem orçamento e produção própria o acesso a medicamentos não se amplia."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b015",
+    "b026"
+   ],
+   "claims": [
+    "b004c3",
+    "b015c1",
+    "b026c1"
+   ],
+   "note": "Uma deputada, a presidência e o Ministério da Saúde concordam que o cuidado só chega se enfrentar distância, renda e desigualdade."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b016",
+    "b024",
+    "b026",
+    "b027"
+   ],
+   "claims": [
+    "b016c2",
+    "b024c1",
+    "b024c3",
+    "b026c2",
+    "b026c3",
+    "b027c3"
+   ],
+   "note": "ANAIDS, ABIA, Ministério da Saúde e presidência concordam que patente e registro não podem valer mais que o interesse público no acesso ao remédio."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b012",
+   "sentence": 28,
+   "addressed_to": "governo",
+   "answered_by": "b014",
+   "gist": "quando sai a próxima reunião de atualização do protocolo",
+   "plain": "Quando vai acontecer a próxima reunião para atualizar o protocolo?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b016",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quais dificuldades e qual prazo médio da CONITEC para incorporar",
+   "plain": "Quais são as dificuldades da CONITEC para agilizar a incorporação e qual é o prazo médio?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b016",
+   "sentence": 23,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "medicamentos antigos podem seguir disponíveis durante o novo estudo",
+   "plain": "Os medicamentos antigos não poderiam continuar disponíveis enquanto a ANVISA analisa o novo estudo?",
+   "theme": "d1",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b024",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual é a resposta da Ministra ao pedido de licenciamento",
+   "plain": "Qual é a resposta do Ministério ao pedido de licenciamento compulsório do dolutegravir?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b027",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quais são as dificuldades para a incorporação",
+   "plain": "Quais são as dificuldades que travam a incorporação de novos medicamentos no SUS?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 49,
+   "gist": "1.096 demandas recebidas e avaliadas até abril deste ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 51,
+   "gist": "177 diretrizes publicadas e 63 em atualização ou análise",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b012",
+   "sentence": 27,
+   "gist": "duas atualizações do protocolo em 10 anos, 2013 e 2017",
+   "disputed_by": [
+    {
+     "fala": "b014",
+     "sentence": 28
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b012",
+   "sentence": 39,
+   "gist": "rilpivirina com 12 anos de atraso e doravirina com 5",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 40,
+   "gist": "TAF com 8 anos de atraso, aprovado nos EUA em 2015",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b012",
+   "sentence": 67,
+   "gist": "mais de 460 mil pessoas usam o dolutegravir",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 14,
+   "gist": "meta internacional de 95% em diagnóstico, tratamento e vírus suprimido",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 15,
+   "gist": "1 milhão de pessoas vivendo com HIV no país",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 58,
+   "gist": "250 mil pessoas em tratamento têm mais de 50 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 67,
+   "gist": "7% dos pacientes, 54 mil pessoas, usam a terapia dupla",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b014",
+   "sentence": 86,
+   "gist": "preço CMED de quase 3 mil reais por paciente ao mês",
+   "disputed_by": [
+    {
+     "fala": "b024",
+     "sentence": 11
+    }
+   ]
+  },
+  {
+   "id": "f12",
+   "fala": "b024",
+   "sentence": 12,
+   "gist": "licenciamento compulsório do efavirenz em maio de 2007",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "sociedade_civil",
+   "governo",
+   "parlamentar"
+  ],
+  "angle": "A matéria escolheu o atraso dos protocolos e a promessa do Ministério da Saúde de publicar os novos ainda este ano, com as patentes como segundo assunto.",
+  "omitted": "Ficaram de fora o debate sobre orçamento e emendas, o papel da FIOCRUZ e dos laboratórios públicos, as perguntas sobre a CMED e a dapsona e a saída da CONITEC antes das perguntas."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Os protocolos estão parados e a revisão tem de sair já",
+   "statement_plain": "Os documentos que dizem como o SUS trata HIV, aids e hepatites ficaram anos sem revisão, e a atualização tem de sair agora, como manda a lei.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b013c1",
+    "b014c1",
+    "b012c2",
+    "b016c1"
+   ],
+   "note": "A ideia junta a ABIA, a ANAIDS, a presidência da reunião e o próprio Ministério da Saúde, enquanto a representante da CONITEC, do mesmo governo, defende que a revisão siga o fluxo técnico."
+  },
+  {
+   "id": "t2",
+   "title": "A incorporação segue evidência, registro e preço",
+   "statement_plain": "Um medicamento novo só entra no SUS depois de pedido, evidência científica, registro e conta de custo, e o preço e o peso no orçamento definem se ele cabe.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario",
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b014c3"
+   ],
+   "note": "A ideia é sustentada pela representante da CONITEC e pelo assessor do Ministério da Saúde, que ao mesmo tempo defende do outro lado que o novo protocolo saia este ano."
+  },
+  {
+   "id": "t3",
+   "title": "Patente fraca do dolutegravir deve ser licenciada",
+   "statement_plain": "Quando a patente é contestada e o remédio é usado por centenas de milhares de pessoas, o Estado deve licenciá-la de forma compulsória para pagar menos e não faltar remédio.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b024c1",
+    "b024c2",
+    "b024c3",
+    "b026c3",
+    "b026c2",
+    "b016c2"
+   ],
+   "note": "A ideia cruza setores: a ABIA e a ANAIDS pedem o licenciamento, e o assessor do Ministério da Saúde lembra que no caso do efavirenz o laboratório fabricante não deixou o país."
+  },
+  {
+   "id": "t4",
+   "title": "Sem enfrentar a desigualdade, o remédio não chega",
+   "statement_plain": "Enquanto racismo, pouca escolaridade e distância das capitais decidirem quem chega ao serviço de saúde, o remédio novo não vai alcançar quem mais precisa.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b015c1",
+    "b015c2",
+    "b015c3",
+    "b026c1",
+    "b004c3"
+   ],
+   "note": "A ideia junta a presidência da reunião, uma deputada do PL e o Ministério da Saúde, que trata a desigualdade como parte da política de tratamento."
+  },
+  {
+   "id": "t5",
+   "title": "Orçamento e produção própria sustentam o acesso",
+   "statement_plain": "Sem dinheiro no orçamento e sem produção de medicamentos no próprio país, a promessa de acesso universal não se sustenta, e garantir isso é tarefa da Câmara.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b004c2",
+    "b018c1",
+    "b018c2",
+    "b019c1",
+    "b027c1"
+   ],
+   "note": "A ideia junta deputados de partidos diferentes e a presidência, e aparece tanto na defesa do fundo da educação quanto no pedido de emendas para a produção pública."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "CONITEC",
+   "fala": "b001",
+   "sentence": 14,
+   "plain": "comissão que avalia e recomenda ao Ministério da Saúde se um remédio, exame ou procedimento novo passa a ser oferecido pelo SUS"
+  },
+  {
+   "term": "GTPI",
+   "fala": "b001",
+   "sentence": 17,
+   "plain": "grupo de organizações da sociedade civil que acompanha patentes e acesso a medicamentos no Brasil"
+  },
+  {
+   "term": "ANVISA",
+   "fala": "b001",
+   "sentence": 18,
+   "plain": "agência federal que autoriza o registro e a venda de medicamentos no país"
+  },
+  {
+   "term": "RENAME",
+   "fala": "b002",
+   "sentence": 27,
+   "plain": "lista oficial dos medicamentos que o SUS tem de oferecer à população"
+  },
+  {
+   "term": "PCDT",
+   "fala": "b002",
+   "sentence": 41,
+   "plain": "sigla de Protocolos Clínicos e Diretrizes Terapêuticas, o documento que diz quais exames e remédios o SUS oferece para cada doença"
+  },
+  {
+   "term": "dolutegravir",
+   "fala": "b002",
+   "sentence": 53,
+   "plain": "remédio contra o HIV que hoje é o mais usado no tratamento no Brasil"
+  },
+  {
+   "term": "terapia antirretroviral",
+   "fala": "b012",
+   "sentence": 2,
+   "plain": "combinação de remédios que controla o HIV no corpo, sem eliminar o vírus"
+  },
+  {
+   "term": "multirresistência",
+   "fala": "b012",
+   "sentence": 15,
+   "plain": "quando o vírus deixa de responder a vários remédios ao mesmo tempo"
+  },
+  {
+   "term": "licenciamento compulsório",
+   "fala": "b012",
+   "sentence": 64,
+   "plain": "decisão do governo que permite produzir ou comprar um remédio ainda patenteado, pagando um valor ao dono da patente"
+  },
+  {
+   "term": "INPI",
+   "fala": "b012",
+   "sentence": 71,
+   "plain": "Instituto Nacional da Propriedade Industrial, o órgão que concede ou nega patentes no Brasil"
+  },
+  {
+   "term": "supressão viral",
+   "fala": "b014",
+   "sentence": 20,
+   "plain": "quando o tratamento reduz tanto o vírus no sangue que ele não aparece mais nos exames"
+  },
+  {
+   "term": "profilaxia pré-exposição",
+   "fala": "b014",
+   "sentence": 31,
+   "plain": "uso de remédio antes do contato com o vírus, para a pessoa não se infectar com o HIV"
+  },
+  {
+   "term": "doenças oportunistas",
+   "fala": "b014",
+   "sentence": 43,
+   "plain": "infecções que aparecem quando a defesa do corpo está baixa e que costumam adoecer quem tem HIV sem tratamento"
+  },
+  {
+   "term": "CMED",
+   "fala": "b014",
+   "sentence": 86,
+   "plain": "câmara do governo que fixa o preço máximo dos medicamentos vendidos no país"
+  }
+ ]
+}

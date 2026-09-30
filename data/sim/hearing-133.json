@@ -1,0 +1,3077 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 133,
+ "model": "LLM lendo o prompt hearing-133 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T17:24:17Z",
+ "prompt_sha256": "76cb89df3484d5c9d92e68c9d5f9843dd562f5fd987b4b6b5d024deb20bbb947",
+ "sentences_hash": "fb24a5e9400e2de7",
+ "review": {
+  "pairs_read": 60,
+  "pairs_fixed": 22
+ },
+ "warnings": [
+  "tese t6: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "As comissões de Minas e Energia e de Defesa do Consumidor chamaram o presidente da Enel Brasil para explicar o apagão de 3 de novembro de 2023 em São Paulo, e ele avisou na véspera que não viria. Os deputados trataram a ausência como desrespeito à Casa e adiaram a audiência. No lugar do debate marcado, a sessão virou um acerto sobre CPI, proposta de fiscalização e renovação das concessões.",
+ "stakes": "Se a audiência seria feita no dia, com a agência reguladora, ou adiada até que o presidente da Enel Brasil comparecesse.",
+ "central_question": "O que a Câmara pode fazer quando o convidado que ela quer ouvir decide não vir?",
+ "synopsis_plain": "Depois do apagão de novembro de 2023 em São Paulo, duas comissões da Câmara chamaram o presidente da Enel Brasil para explicar a demora em religar a luz. Ele avisou na véspera que não viria. Os deputados trataram a falta como desrespeito e adiaram a audiência. Em vez do debate marcado, discutiram como obrigar a empresa a responder, com CPI, auditoria e fiscalização.",
+ "stakes_plain": "Se os deputados debateriam no mesmo dia com a agência ou esperariam o presidente da empresa aparecer.",
+ "central_question_plain": "O que a Câmara pode fazer quando a empresa que ela quer ouvir decide não aparecer?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Ausência do presidente da Enel",
+   "description": "Se a falta do presidente da Enel Brasil à audiência é um desrespeito à Câmara e o que se pode fazer diante dela.",
+   "axis": {
+    "pro": "A ausência é um desrespeito à Câmara e não pode ficar sem resposta.",
+    "contra": "O convidado não é obrigado a vir e a Comissão não tem poder de convocá-lo.",
+    "pro_plain": "Faltar a um convite da Câmara é desrespeito e tem de ter consequência.",
+    "contra_plain": "Quem é convidado não é obrigado a comparecer, e a comissão não pode convocar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Serviço e desinvestimento da Enel",
+   "description": "Se o apagão veio do corte de investimento e de pessoal da empresa ou de um evento climático fora do usual.",
+   "axis": {
+    "pro": "O apagão vem do desinvestimento e da má gestão da empresa.",
+    "contra": "O apagão veio de eventos climáticos extremos que nenhuma empresa daria conta.",
+    "pro_plain": "A luz caiu porque a empresa cortou investimento e pessoal.",
+    "contra_plain": "A luz caiu por um temporal fora do comum, que nenhuma empresa aguentaria."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Renovação das concessões",
+   "description": "Quem decide a renovação dos contratos das distribuidoras de energia e com que regras.",
+   "axis": {
+    "pro": "A renovação tem de ser debatida no Congresso e com a sociedade.",
+    "contra": "A renovação é atribuição do Ministério, da agência e do Tribunal de Contas.",
+    "pro_plain": "A renovação dos contratos de energia tem de ser discutida no Congresso e em público.",
+    "contra_plain": "Renovar contrato é tarefa do Ministério, da agência e do Tribunal de Contas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "CPI e fiscalização da empresa",
+   "description": "Que instrumentos a Câmara vai usar diante da empresa: CPI, proposta de fiscalização e controle, pedido de caducidade.",
+   "axis": {
+    "pro": "A Câmara precisa abrir a CPI e usar os instrumentos de fiscalização.",
+    "contra": "Os instrumentos de força atrapalham e o caminho é o diálogo com a empresa.",
+    "pro_plain": "A Câmara tem de abrir a CPI e usar seus instrumentos para investigar a empresa.",
+    "contra_plain": "A saída é conversar com a empresa, e não partir para a CPI."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Adiamento da audiência",
+   "description": "Se a audiência devia ser adiada até a vinda do presidente da empresa ou realizada no dia, com a agência reguladora.",
+   "axis": {
+    "pro": "A audiência deve ser adiada até que o presidente da Enel venha.",
+    "contra": "O debate com a agência devia ser feito no dia, porque quem perde é o consumidor.",
+    "pro_plain": "Melhor adiar e só fazer a audiência com o presidente da empresa presente.",
+    "contra_plain": "Melhor debater hoje com a agência, porque quem espera é o consumidor."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Privatização do serviço",
+   "description": "Se o problema está na privatização da distribuição de energia ou no descumprimento do contrato pela concessionária.",
+   "axis": {
+    "pro": "O serviço pode ser privado, desde que a concessionária cumpra o contrato.",
+    "contra": "A privatização deste serviço é a raiz do problema.",
+    "pro_plain": "O serviço pode ser de empresa privada, desde que ela cumpra o contrato.",
+    "contra_plain": "O problema começa na privatização da distribuição de energia."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Papel da Aneel na fiscalização",
+   "description": "Se a agência reguladora falhou na fiscalização da distribuidora ou fez o que os contratos antigos permitem.",
+   "axis": {
+    "pro": "A agência falhou na fiscalização e precisa responder aos deputados.",
+    "contra": "A agência tem feito o seu papel, e o limite está nos contratos antigos.",
+    "pro_plain": "A agência não fiscalizou como devia e precisa explicar isso.",
+    "contra_plain": "A agência fez a parte dela, presa a contratos escritos nos anos 90."
+   },
+   "contested": true
+  },
+  {
+   "id": "d8",
+   "name": "Redes subterrâneas e clima",
+   "description": "Se a saída é enterrar as redes elétricas ou mudar a matriz energética e o modo de viver.",
+   "axis": {
+    "pro": "A saída é enterrar as redes e criar subsídio para essa obra.",
+    "contra": "Enterrar fio é curativo, o que muda é a matriz energética e o comportamento.",
+    "pro_plain": "A saída é enterrar os fios, com dinheiro público para isso.",
+    "contra_plain": "Enterrar fio é remendo. O que precisa mudar é a matriz energética."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Minas e Energia",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Presidente, Rodrigo de Castro, Bloco/UNIÃO - MG, e identificado em b001.0",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara que trata de energia, mineração e petróleo"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como João Carlos Bacelar, PL - BA",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL da Bahia",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, um dos proponentes da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Ivan Valente, Bloco/PSOL - SP, e dito por ele em b006.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSOL de São Paulo",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s04": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, líder da bancada do Cidadania",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Alex Manente, Bloco/CIDADANIA - SP, e citado em b026.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Cidadania de São Paulo",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, autor de requerimento de CPI",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Max Lemos, Bloco/PDT - RJ, e dito por ele em b018.6",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PDT do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, líder partidário",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Altineu Côrtes, PL - RJ, e anunciado como líder em b019.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, proponente pela Comissão de Defesa do Consumidor",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Celso Russomanno, Bloco/REPUBLICANOS - SP, e citado em b001.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Republicanos de São Paulo",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, autor do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Arnaldo Jardim, Bloco/CIDADANIA - SP, e dito por ele em b026.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "deputado federal pelo Cidadania de São Paulo",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Aureo Ribeiro, Bloco/SOLIDARIEDADE - RJ",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Solidariedade do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Roberto Monteiro Pai, PL - RJ, e dito por ele em b046.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PL do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Julio Lopes, Bloco/PP - RJ",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PP do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal e médico, membro da Comissão",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Mário Heringer, Bloco/PDT - MG, e dito por ele em b052.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PDT de Minas Gerais",
+   "org_plain": "casa do Congresso Nacional onde os deputados federais votam as leis e fiscalizam o Governo"
+  },
+  "s13": {
+   "role": "governo",
+   "cargo": "Secretário de Energia e Economia do Mar do Estado do Rio de Janeiro, deputado federal licenciado",
+   "org": "Governo do Estado do Rio de Janeiro",
+   "basis": "dito por ele em b054.1 e apresentado pelo deputado Bacelar em b004.31",
+   "seat": "bancada",
+   "gov_level": "estadual",
+   "byline": "secretário de Energia do Estado do Rio de Janeiro",
+   "org_plain": "governo estadual do Rio de Janeiro, onde a Enel presta o serviço de distribuição de energia"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.4
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.25
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "A menção aos vereadores de Angra dos Reis presentes em b018.12, a presença de dois diretores da Enel citada em b008.18 e do diretor-geral da Aneel em b047.2, e um registro de palmas.",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a reunião, chama de descaso a ausência do presidente da Enel Brasil e propõe adiar a audiência e exigir a presença dele.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ausência do presidente da Enel Brasil é um desrespeito à Câmara e não pode ficar sem resposta.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o convite foi feito no dia 10 de novembro e só na véspera a Enel avisou que o presidente não viria",
+     "plain": "Nós convidamos o presidente da Enel Brasil no dia 10 de novembro, 11 dias atrás. Ele mandou um comunicado só ontem, dizendo que não viria porque tem hoje um evento muito importante. É um descaso enorme com esta Casa."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "milhões de consumidores da maior metrópole do país ficaram sem luz e a empresa tem histórico de desinvestimento",
+     "plain": "Milhões de consumidores da maior metrópole do Brasil ficaram sem luz, e as causas são várias ineficiências. No País inteiro essa empresa tem histórico de deixar de investir."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as distribuidoras estão para ganhar a renovação da concessão por 30 anos sem discussão no Congresso",
+     "plain": "Em muitos casos vemos um desserviço das distribuidoras, que cobram tarifa alta e não entregam o serviço. E, pasmem, o prêmio delas vai ser renovar a concessão por 30 anos, sem que o Congresso e a sociedade discutam isso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra à presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado João Carlos Bacelar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata o apagão em São Paulo, acusa a empresa de não investir e de remeter lucros ao exterior e propõe pedir a caducidade do contrato.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa não investiu, remeteu lucros ao exterior e deve perder o contrato em São Paulo.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em São Paulo, Congonhas ficou apagado no dia 4 de novembro e nas favelas houve 5 ou 6 dias sem luz",
+     "plain": "Em São Paulo eu vi uma das cenas mais tristes da minha vida: Congonhas apagado no dia 4 de novembro. Se Congonhas e Moema ficaram no escuro, imagine quem mora no topo do morro, nas favelas, e ficou 5 ou 6 dias sem luz."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o presidente da Enel esqueceu a contingência, esqueceu de investir e distribuiu lucros exorbitantes para o exterior",
+     "plain": "Ele se esqueceu de fazer a contingência. Se esqueceu de investir. E esqueceu que distribuiu lucros exorbitantes para o exterior."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      27
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o próximo passo é pedir a caducidade do contrato da Enel em São Paulo",
+     "plain": "Acho que o próximo passo desta Casa é pedir a caducidade do contrato que a Enel tem em São Paulo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o deputado Alex Manente e anuncia o deputado Altineu Côrtes em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede prioridade na fala por ser um dos proponentes da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Ivan Valente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Contesta a explicação do vento, chama a ausência de desrespeito à Câmara Federal e cobra o plano de indenização prometido.",
+   "quote": [
+    23,
+    24,
+    25
+   ],
+   "covered": true,
+   "evidence": [
+    16
+   ],
+   "open_question": 30,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ausência do presidente da empresa desrespeita a Câmara e o apagão não se explica pelo vento.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o evento de São Paulo não foi só por causa do vento, e há estudo mostrando onde ele chegou a 100 quilômetros",
+     "plain": "O que aconteceu em São Paulo é dos eventos mais graves que esta Nação já viu, e não foi só por causa do vento, como disse o presidente nacional. Há um estudo que mostra onde o vento chegou a 100 quilômetros e onde não chegou."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o caso é nacional e a ausência do presidente desrespeita a Câmara Federal",
+     "plain": "Aqui é o Parlamento Nacional. O caso é nacional, porque a Enel atua no Brasil inteiro. Uma atitude dessas desrespeita a Câmara Federal."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      33
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a empresa demitiu 36% da mão de obra e no dia D foi buscar gente em tudo quanto é lugar",
+     "plain": "Vivemos num país em que uma empresa diz abertamente ter demitido 36% do seu pessoal. Aí chega o dia D, os operacionais precisam estar na rua, e eles saem buscando gente em tudo quanto é lugar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o deputado finalize e pergunta se a sugestão dele é adiar a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Responde que o presidente da empresa deve ser ouvido na primeira ocasião, com prioridade absoluta nas duas comissões.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O adiamento serve para ouvir o presidente da empresa na primeira ocasião possível.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o presidente da Enel deve ser ouvido na primeira ocasião, com prioridade nas duas Comissões",
+     "plain": "Que ele seja ouvido na primeira ocasião, com prioridade absoluta nas Comissões de Minas e Energia e de Defesa do Consumidor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b012",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Contesta a ideia de que o serviço privado é melhor e liga o caso ao debate sobre privatizar a Sabesp em São Paulo.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Não é verdade que o serviço privado seja melhor.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não é verdade que o serviço privado seja melhor",
+     "plain": "Virou lugar-comum no Brasil dizer que o privado é melhor. Isso está errado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e pede para dar continuidade à reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b014",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Agradece o acatamento do adiamento, pede que a nova data seja rápida e afirma que a Enel não sairá impune.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O adiamento é bem-vindo, mas a nova audiência tem de ser rápida.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a nova audiência precisa ser rápida e a Enel não vai sair impune disso",
+     "plain": "Espero que a nova audiência seja marcada o quanto antes. A Enel não escapa impune disso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Alex Manente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Chama de absurdo a ausência do CEO nacional, aponta o corte de 36% dos funcionários e defende uma força-tarefa para criar a CPI.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa devia ter trazido o seu presidente nacional para responder ao Parlamento.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é um absurdo a Enel não trazer o presidente nacional para responder ao Parlamento",
+     "plain": "É um absurdo a Enel não trazer aqui o seu presidente nacional para responder ao Parlamento. Isso mostra descompromisso com a Câmara e com a sociedade, que paga tarifas de energia altas."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Enel cortou 36% dos funcionários enquanto o número de residências cresceu 7%",
+     "plain": "A Enel diminuiu 36% do número de funcionários, enquanto o número de residências cresceu 7%. Em vez de aumentar, diminuiu, e não houve eficiência nem resposta ao consumidor."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é a favor da privatização, mas exige respeito de quem ganha concessão e tem de prestar bom serviço",
+     "plain": "Eu sou a favor de privatização, mas sou a favor do respeito de quem ganha concessões e tem a obrigação de prestar um serviço adequado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Max Lemos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata falhas da Enel no Rio de Janeiro, com 34 cidades sem energia em 15 dias, e cobra assinaturas para a CPI que propôs em março.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As falhas no Rio de Janeiro já justificavam a CPI proposta em março.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "propôs em março deste ano uma CPI da Enel, que está em fase de assinatura",
+     "plain": "A CPI que eu propus é de março deste ano e está em fase de assinatura. Mesmo com outra proposta de CPI em pé, a nossa é anterior, porque já conhecíamos a atuação da Enel."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Rio a concessão cobre 66 cidades e em 15 dias 34 delas ficaram sem energia",
+     "plain": "A concessão no Rio de Janeiro cobre 66 cidades. Nos últimos 15 dias, 34 delas ficaram sem energia, inclusive cidades grandes como Niterói e São Gonçalo."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em Porciúncula o produtor perdeu toda a produção de leite por não conseguir aumentar a carga",
+     "plain": "No interior, em Porciúncula, o produtor de leite perdeu toda a produção porque não conseguiu aumentar a carga para conservar o leite. Em São Pedro da Aldeia, grandes centros de distribuição só ligaram a energia depois das minhas denúncias."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra, como líder, ao deputado Altineu Côrtes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Propõe uma CPI sem bandeira partidária, relata 172 mil medidores desligados por 3 dias em São Gonçalo e cobra união dos partidos.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    24,
+    25
+   ],
+   "open_question": 32,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A CPI tem de ser criada com todos os partidos, sem disputa sobre privatização.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a proposta é criar uma CPI que una do PL ao PSOL, sem bandeira partidária",
+     "plain": "Temos de nos unir, do PL ao PSOL. A minha proposta é criar uma CPI. Não está em jogo bandeira partidária, e não podemos colocar nesta CPI quem é a favor ou contra a privatização."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a empresa já foi privatizada e quem é contra tem razão neste caso, mas isso não pode pesar na CPI",
+     "plain": "A empresa já foi privatizada. Se a privatização é ruim, quem é contra tem razão neste caso. Mas isso não pode estar em jogo na CPI."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em São Gonçalo 172 mil medidores ficaram desligados por 3 dias e as equipes estavam perdidas",
+     "plain": "Em São Gonçalo foram 172 mil medidores desligados durante 3 dias. As equipes da empresa andavam perdidas, sem condição nenhuma de atender a população."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Separa a questão em duas faces, o descaso da Enel e a renovação das distribuidoras, e diz que a renovação não pode ficar entre o Ministério e o TCU.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A renovação das distribuidoras tem de ser debatida em público, e não só pelo Ministério e pelo Tribunal de Contas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a renovação das distribuidoras não pode ficar a cargo do Ministério e do TCU, entre quatro paredes",
+     "plain": "Temos duas faces aqui: o descaso da Enel e a renovação das distribuidoras. Não podemos deixar que a renovação fique a cargo do Ministério e do TCU, entre quatro paredes. É um tema que tem de vir à tona, para a sociedade acompanhar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lê relatos entre mais de 600 denúncias de falta de energia em São Paulo e cobra que o Tribunal de Contas explique a renovação da concessão.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa não atende o consumidor e não cumpre a legislação em vigor.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "recebeu mais de 600 denúncias de falta de energia elétrica em São Paulo",
+     "plain": "Estão na minha mesa mais de 600 denúncias de gente que ficou sem energia elétrica em São Paulo. O que essas pessoas relatam é de dar dó."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ofereceu o seu programa de televisão para a Enel explicar em rede nacional o que estava fazendo",
+     "plain": "Na semana passada falei por telefone com o diretor comercial da empresa em São Paulo e ofereci o meu programa de televisão, de graça, para a Enel dizer em rede nacional o que faria pelos consumidores com equipamentos queimados."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      32
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Tribunal de Contas tem de explicar como renova a concessão de quem não cumpre a legislação",
+     "plain": "O Tribunal de Contas auxilia esta Casa e nos deve explicação sobre como vai renovar, ou autorizar a renovação, da concessão de quem não cumpre a legislação em vigor no País."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda em fazer uma reunião conjunta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b024",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Conta que precisou instalar um gerador em casa e acusa a Aneel de não cumprir a obrigação de fiscalizar as quedas de energia.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência não fiscaliza as quedas e as voltas de energia, que são constantes.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Morumbi falta energia toda hora e ele precisou instalar um gerador em casa",
+     "plain": "Eu moro no Morumbi. Toda hora falta energia lá, e eles nunca dizem quando ela volta. Fui obrigado a colocar um gerador em casa para não ficar sem energia."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Aneel não cumpre a obrigação de fiscalizar as quedas e voltas constantes de energia",
+     "plain": "A Agência Nacional de Energia Elétrica não fiscaliza como deveria essas quedas e retornos constantes de energia. Se é assim no Morumbi, um bairro de classe média alta, imaginem nas periferias de São Paulo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia que o deputado Arnaldo Jardim participará remotamente e lhe dá a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apoia o adiamento, aponta dados de gestão temerária e diz que o caso torna mais urgente o debate sobre a renovação das concessões.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O caso reforça a urgência de discutir as regras de renovação das concessões de distribuição.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a audiência só deve ser feita com a presença do presidente da Enel, e a recusa pede medidas cabíveis",
+     "plain": "Devemos apoiar com firmeza a decisão do presidente: não realizar esta audiência e só fazê-la com a presença do presidente da Enel. Se ele recusar de novo, que sejam adotadas as medidas cabíveis."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a queda de funcionários e das equipes de manutenção mostra uma gestão temerária da Enel",
+     "plain": "A queda do número de funcionários, a relação crescente de consumidores por funcionário e a redução das equipes de manutenção e de emergência são dados eloquentes de uma gestão temerária da Enel."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a subcomissão discute a renovação das concessões e um fato como esse torna o assunto mais urgente",
+     "plain": "Temos uma subcomissão discutindo a renovação das concessões de distribuição de energia, com o deputado Bacelar como relator. Um fato como esse torna o assunto ainda mais importante e necessário."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e dá a palavra ao deputado Aureo Ribeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pondera que o convite não obriga o presidente da Enel a vir, considera um erro grave cancelar a audiência e cobra dados da agência.",
+   "quote": [
+    38,
+    39
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 22,
+   "stance": {
+    "position": "contrario",
+    "claim": "Cancelar a audiência num problema desse tamanho é um erro, e o debate com a agência devia ser feito hoje.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "pelo regimento o presidente da companhia é convidado, não convocado, e pode não vir",
+     "plain": "Pelo regimento não cabe convocar o presidente da companhia, não há legalidade nisso. Ele não precisa vir, se não quiser. Numa CPI ele teria de vir, mas numa Comissão ele é convidado e pode mandar representante."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a renovação passa pelo TCU, pela agência e pelo Ministério, e não cabe ao Congresso",
+     "plain": "A renovação, tão discutida, passa pelo TCU, pela agência e pelo Ministério. Isso não cabe ao Congresso Nacional, a não ser que mudemos a lei para fazer essa renovação."
+    },
+    {
+     "id": "b028c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "cancelar a audiência diante de um problema desse tamanho é um erro grave",
+     "plain": "Cancelar uma audiência assim, do tamanho do problema que vivemos e da cobrança que recebemos da população, eu acho que é um erro. Um erro grave!"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o tempo do deputado terminou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b030",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado observa que a presidência deixou os demais falarem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma e pede agilidade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b032",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede garantia de que poderá concluir a sua fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência garante a palavra e diz que só alerta sobre o tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b034",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Concorda que a ausência é desrespeito e que o serviço é ruim, mas insiste em fazer o debate no mesmo dia e pergunta à agência quantos reclamaram.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    26
+   ],
+   "open_question": 5,
+   "stance": {
+    "position": "contrario",
+    "claim": "O debate não pode deixar de ser feito hoje, porque quem perde é o consumidor.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a ausência é desrespeito e o serviço é péssimo, mas o debate não pode deixar de ser feito hoje",
+     "plain": "Concordo que a ausência do presidente é um desrespeito à Comissão. Concordo que o serviço oferecido ao brasileiro é de péssima qualidade, mas não podemos deixar de fazer esse debate hoje, porque quem perde é o consumidor."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e dá a palavra ao deputado Roberto Monteiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que a ausência do presidente da Enel é desrespeito à Nação e que o problema é nacional, não só de São Paulo e do Rio.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ausência desrespeita a Nação, porque a empresa atua em vários estados.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ausência é um desrespeito à Nação e o problema da Enel é nacional, não só de São Paulo e do Rio",
+     "plain": "Peço vênia ao deputado Aureo, mas o presidente da Enel não vir aqui é um desrespeito à Nação brasileira. A empresa tem distribuidoras em São Paulo, no Rio de Janeiro, no Ceará e em outros estados. O problema é nacional."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede para ouvir antes os dois parlamentares inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b038",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Sugere que a agência faça uma auditoria de 30 dias na Enel, com relatório à Comissão, e defende esperar a vinda do presidente nacional.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência deve auditar a distribuidora e entregar um relatório à Comissão.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Aneel deve fazer uma auditoria de 30 dias na Enel e trazer o relatório à Comissão",
+     "plain": "Aproveitando a presença do diretor-geral da Aneel, eu sugiro uma auditoria na Enel feita pela agência, durante 30 dias, para achar o problema real. Seria uma intervenção branca, com auditoria contábil e operacional e relatório à Comissão."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso interromper a audiência e esperar a vinda do presidente nacional da Enel",
+     "plain": "Com todo o respeito ao deputado Aureo, acho que temos de interromper e esperar a vinda do presidente nacional."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o deputado Roberto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reafirma que a ausência é desrespeito, mas diz que a sua preocupação é não conseguir ouvir a empresa e ficar sem resposta à população.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A preocupação é ficar sem ouvir a empresa e sem resposta para a população.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a ausência é desrespeito, mas a preocupação é não conseguir ouvir a empresa e ficar sem resposta",
+     "plain": "Acho um desrespeito o presidente da Enel não comparecer. Acho que precisamos debater os dados. Minha preocupação é só uma: ele não veio hoje, estamos em novembro, e podemos não conseguir ouvi-lo e ficar sem resposta à população."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado propõe remarcar a audiência para a semana seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b042",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Diz que ninguém ali tem a informação real do que aconteceu e que cabe à agência reguladora, presente na sala, repassá-la aos deputados.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A informação sobre o apagão tem de vir da agência reguladora, que está na sala.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "hoje não se tem a informação real do que houve, e quem deve passá-la é a agência reguladora",
+     "plain": "A agência pode fiscalizar e acionar o instrumento de fiscalização com o TCU. Se perguntarmos aqui qual é a informação real que temos, nós não sabemos. Quem tem de nos passar essa informação é a agência reguladora, que está aqui."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Rebate que a gravidade do caso de São Paulo não cabe numa audiência menor e diz que o presidente da Enel deve arcar com as consequências.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O caso é grave demais para uma audiência sem o presidente da empresa.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b043c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o que aconteceu em São Paulo é muito grave e não é um assunto setorial",
+     "plain": "Peço todo o respeito ao deputado Aureo, mas acho que ele não mediu a gravidade da situação. O que houve em São Paulo é muito grave, e não é assunto de um setor só."
+    },
+    {
+     "id": "b043c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se o presidente da Enel não quiser vir, que arque com as consequências de desrespeitar a Câmara",
+     "plain": "São eles que vão ter de responder. Se o presidente não quiser vir, que arque com as consequências de desrespeitar a Câmara dos Deputados."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b044",
+   "speaker": "s09",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se já há data definida para a nova audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que a nova data seria na semana seguinte e chama o deputado Roberto Monteiro Pai.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b046",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata 5 dias sem luz em Niterói, com protesto na rua, lembra pacientes que dependem da rede em casa e cobra providência rápida.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A falta de luz já dura dias e exige uma providência imediata.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há 5 dias grande parte de Niterói está sem luz e as pessoas foram para a rua",
+     "plain": "Eu sou de Niterói, no Rio de Janeiro. Há 5 dias grande parte do município está sem luz, como em São Gonçalo, e as pessoas estão fazendo mobilização na Alameda São Boaventura, reprovando o caos que vivem."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "pacientes atendidos em casa dependem da rede elétrica para viver",
+     "plain": "Pacientes que têm home care, o atendimento de saúde em casa, dependem da rede elétrica. Estive há pouco tempo na casa de um jovem policial militar nessa situação."
+    },
+    {
+     "id": "b046c3",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "é preciso uma providência rápida, porque enquanto se espera outras situações dessas vão aparecer",
+     "plain": "Para mim, é urgentíssimo tomar uma providência. Como disse o deputado Aureo, vão esperar até quando? E, durante essa espera, quantas situações como essas ainda vão aparecer?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sugere adiar a audiência, diz que a Comissão não tem poder de convocar o presidente da Enel e anuncia a adesão à CPI e o envio de uma PFC.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem poder de convocação, a Comissão vai usar a CPI e a proposta de fiscalização e controle.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b047c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há consenso para adiar a audiência, porque o depoimento sem a companhia não faz sentido",
+     "plain": "Como ele tinha outro compromisso, acho que há consenso aqui para adiarmos e buscar o diálogo com a presidência da companhia. O depoimento dele hoje, sem a companhia, não faz sentido. Sugiro o adiamento desta audiência pública."
+    },
+    {
+     "id": "b047c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se não houver vontade de comparecer, a Comissão adere à CPI para ter instrumento de convocação",
+     "plain": "Se não houver mesmo vontade de comparecer, nós aderimos à CPI. Se todos nós da Comissão fizermos gestão junto ao nosso partido, ela se instala facilmente. Assim teremos instrumento para convocá-lo."
+    },
+    {
+     "id": "b047c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as duas comissões vão encaminhar uma proposta de fiscalização e controle, que permite entrar na empresa",
+     "plain": "Também vamos encaminhar, em acordo com a Comissão de Defesa do Consumidor, uma PFC, a proposta de fiscalização e controle. Com ela já teremos poderes até para entrar na empresa e iniciar essa ação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b048",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Atribui os apagões a eventos climáticos fora do usual, com ventos de 150 quilômetros, e defende subsidiar o enterramento das redes.",
+   "quote": [
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    27
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Nenhuma companhia dá conta de ventos assim, e sem redes enterradas o problema se repete.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com as distribuidoras está ruim, mas sem elas fica muito pior, e é preciso um substituto antes",
+     "plain": "Se o serviço está ruim com as distribuidoras, sem elas vai ficar muito pior. Antes de acabar com elas, temos de providenciar alguma instituição substituta."
+    },
+    {
+     "id": "b048c2",
+     "sentences": [
+      11
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "são eventos climáticos fora do usual, com ventos de 150 quilômetros e 400 árvores sobre as redes",
+     "plain": "O que aconteceu em São Paulo, e o que acontece no Rio e no Brasil inteiro, são eventos climáticos fora do contexto usual, com ventos de 150 quilômetros e 400 árvores derrubadas sobre as redes, que são todas aéreas."
+    },
+    {
+     "id": "b048c3",
+     "sentences": [
+      16
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem subsídio para enterrar as instalações, a população vai sofrer sempre com esses danos",
+     "plain": "Enquanto não acharmos aqui uma forma de subsidiar o enterramento das instalações de internet, telefone e tudo o mais que serve à população, ela vai sofrer sempre com esses danos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Mário Heringer.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b050",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que o som do plenário seja aumentado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b051",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede atenção para que o deputado seja ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b052",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Diz que não basta enterrar os fios e que é preciso mudar a matriz energética, e conta que assinou a CPI como saída para o problema de agora.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Enterrar os fios não resolve, o que muda o quadro é a mudança da matriz energética.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b052c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "os eventos não previstos se resolvem no improviso e ainda não houve tempo para saber se há recorrência",
+     "plain": "Intempéries e eventos não previstos a gente resolve no improviso, conforme a necessidade, no primeiro momento. Já a repetição desses eventos tem de ser prevista, para evitar os danos. Ainda não houve tempo para entender se há recorrência."
+    },
+    {
+     "id": "b052c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "sempre foi contra essa privatização",
+     "plain": "Eu sempre fui contra essa privatização. Quero deixar isso muito claro."
+    },
+    {
+     "id": "b052c3",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não basta enterrar os fios, é preciso mexer no meio ambiente e mudar a matriz econômica",
+     "plain": "O que ainda não estamos entendendo, e peço desculpa ao deputado Julio, é que não basta enterrar os fios. Temos de mexer com o meio ambiente e mudar a nossa matriz econômica. Não adianta pôr curativo em ferida que não foi tratada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b053",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Hugo Leal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b054",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Aponta que o erro foi a falta de reavaliação de uma concessão de 30 anos e defende dar a estados e municípios papel efetivo na fiscalização.",
+   "quote": [
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os contratos de concessão precisam aproximar estados e municípios da regulação, que hoje é só federal.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b054c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Aneel tem feito o seu papel, mas sobre contratos dos anos 90, e faltou reavaliar a concessão de 30 anos",
+     "plain": "O erro foi não reavaliar. Uma concessão que dura 30 anos precisa ser revista ao longo do caminho. A Aneel tem cumprido o seu papel, mas sobre contratos escritos nos anos 90, que não se modernizaram."
+    },
+    {
+     "id": "b054c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta nos contratos solução para a distância entre quem presta o serviço e o órgão regulador federal",
+     "plain": "Falta nesses contratos resolver a distância entre o lugar onde o serviço é prestado, o município ou o estado, e o regulador federal. Quem regula não enxerga a dificuldade na velocidade em que ela aparece."
+    },
+    {
+     "id": "b054c3",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "estados e municípios precisam participar dos contratos de concessão, ser ouvidos e poder fiscalizar",
+     "plain": "Os estados e os municípios precisam participar de forma mais efetiva dos contratos de concessão. Eles têm de ser ouvidos, participar do processo, poder fiscalizar e poder colaborar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b055",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado Alex Manente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b056",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Apoia encerrar a audiência para remarcar logo a reunião e sugere aproveitar a presença do diretor-geral da agência.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Encerrar hoje e remarcar logo a reunião é o melhor caminho.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b056c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "apoia encerrar a audiência para marcar logo a reunião, já que a empresa quer trazer o CEO",
+     "plain": "Apoio encerrar esta audiência para marcarmos o quanto antes a reunião que busque soluções. Aqui mesmo se disse que a empresa quer trazer o seu CEO o mais rápido possível."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b057",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Anuncia que a Comissão vai comunicar a empresa e que, se o presidente não vier, usará a proposta de fiscalização e a CPI.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Se o presidente não vier, a Comissão vai usar a PFC e a CPI.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b057c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "se o presidente não quiser vir, a Comissão vai lançar mão da PFC e da CPI",
+     "plain": "Vamos providenciar e avisar a empresa. Se o presidente não quiser vir, temos a PFC e a CPI à mão, e podemos usá-las."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b058",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Conta o caso de Petrópolis, com decisões judiciais opostas sobre podar árvores e fazer manutenção, e diz que a solução é mais complexa.",
+   "quote": [
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A solução do problema é mais complexa do que cobrar em voz alta.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b058c1",
+     "sentences": [
+      7
+     ],
+     "type": "juridico",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há uma decisão para não cortar as árvores e outra para fazer a manutenção, e a solução não é gritar",
+     "plain": "Eu só estou dizendo que a solução é um pouco mais complexa do que gritar. Há determinação do Ministério Público, com base na Justiça, para não cortar as árvores, e há decisão para fazer a manutenção. São decisões antagônicas."
+    },
+    {
+     "id": "b058c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "estamos acabando com o mundo, e sem novas providências os problemas antigos seguem nos matando",
+     "plain": "O deputado Mário Heringer tem razão: estamos acabando com o mundo e já sentimos o reflexo. Sem providências novas, os problemas antigos seguirão nos matando."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b059",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra à presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b060",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convoca os membros para a reunião deliberativa seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b061",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se ficou acertada uma data para a nova audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b062",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que provavelmente será na quarta-feira seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b063",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que levará o tema também à Comissão de Defesa do Consumidor.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b064",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência declara encerrada a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b008",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 11,
+   "from_claim": "b008c2",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "O proponente da audiência endossa a leitura da presidência e acrescenta que, como a empresa atua no país inteiro, a falta atinge o Parlamento Nacional."
+  },
+  {
+   "from": "b016",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 11,
+   "from_claim": "b016c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Repete a insatisfação aberta pela presidência e diz que faltou à empresa trazer quem responde por ela ao Parlamento."
+  },
+  {
+   "from": "b016",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 33,
+   "from_claim": "b016c2",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "Os dois usam o mesmo número, o corte de 36% dos funcionários, e um acrescenta que as residências atendidas cresceram."
+  },
+  {
+   "from": "b018",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 9,
+   "from_claim": "b018c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Ao relato do apagão em São Paulo soma-se o do Rio de Janeiro, com dezenas de cidades no escuro nas mesmas semanas."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 6,
+   "from_claim": "b020c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Os dois autores de pedidos de CPI se encontram: um propôs em março, o outro propõe agora, e aceitam juntar as propostas."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 0,
+   "from_claim": "b020c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "À tese de que o privado não é melhor, responde que essa disputa não pode decidir quem entra na CPI."
+  },
+  {
+   "from": "b022",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 14,
+   "from_claim": "b022c1",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "Onde a presidência falou em milhões de consumidores sem luz, ele traz as denúncias que recebeu, uma a uma."
+  },
+  {
+   "from": "b026",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 11,
+   "from_claim": "b026c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "O autor do requerimento apoia a decisão da presidência de só realizar a audiência com o presidente da empresa presente."
+  },
+  {
+   "from": "b028",
+   "to": "b001",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 11,
+   "from_claim": "b028c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "Contrapõe o regimento à leitura de descaso: numa comissão o presidente da empresa é convidado, não convocado, e pode mandar representante."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "responde",
+   "from_sentence": 15,
+   "to_sentence": 8,
+   "from_claim": "b028c1",
+   "to_claim": "b020c1",
+   "strength": "media",
+   "note": "À proposta de CPI, responde que é justamente a CPI, e não a comissão, que teria poder de obrigar o presidente a comparecer."
+  },
+  {
+   "from": "b036",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 17,
+   "from_claim": "b036c1",
+   "to_claim": "b028c1",
+   "strength": "forte",
+   "note": "Ao argumento regimental, opõe o tamanho do caso: a empresa tem distribuidoras em vários estados e o problema é nacional."
+  },
+  {
+   "from": "b038",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 5,
+   "to_sentence": 38,
+   "from_claim": "b038c2",
+   "to_claim": "b028c3",
+   "strength": "media",
+   "note": "Contra a ideia de que cancelar é um erro, sustenta que interromper e esperar o presidente nacional é o que faz a audiência valer."
+  },
+  {
+   "from": "b040",
+   "to": "b036",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 1,
+   "from_claim": "b040c1",
+   "to_claim": "b036c1",
+   "strength": "media",
+   "note": "Responde que não discorda quanto ao desrespeito, e que a sua preocupação é outra: ficar sem ouvir a empresa."
+  },
+  {
+   "from": "b043",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 38,
+   "from_claim": "b043c1",
+   "to_claim": "b028c3",
+   "strength": "forte",
+   "note": "Contra a ideia de que cancelar é um erro grave, sustenta que o caso é grave demais para caber numa audiência sem a empresa."
+  },
+  {
+   "from": "b043",
+   "to": "b040",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 4,
+   "from_claim": "b043c2",
+   "to_claim": "b040c1",
+   "strength": "media",
+   "note": "À preocupação de perder a oportunidade de ouvir a empresa, responde que o custo da recusa é dela, e não da Câmara."
+  },
+  {
+   "from": "b046",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 28,
+   "from_claim": "b046c1",
+   "to_claim": "b020c3",
+   "strength": "forte",
+   "note": "Os dois descrevem a mesma região do Rio de Janeiro no escuro, um por medidores desligados, o outro por dias sem luz e protesto na rua."
+  },
+  {
+   "from": "b047",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 3,
+   "to_sentence": 38,
+   "from_claim": "b047c1",
+   "to_claim": "b028c3",
+   "strength": "forte",
+   "note": "A presidência responde à acusação de erro dizendo que o depoimento da agência sem a companhia presente não faria sentido."
+  },
+  {
+   "from": "b048",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 11,
+   "to_sentence": 7,
+   "from_claim": "b048c2",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "Onde um diz que o vento não explica o apagão, o outro sustenta que foram eventos climáticos fora do usual, com ventos de 150 quilômetros."
+  },
+  {
+   "from": "b048",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 0,
+   "from_claim": "b048c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "À afirmação de que o privado não é melhor, opõe que sem as distribuidoras o serviço fica pior e que seria preciso um substituto."
+  },
+  {
+   "from": "b052",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 0,
+   "from_claim": "b052c2",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "Os dois deixam registrado que são contra essa privatização, cada um no seu momento da reunião."
+  },
+  {
+   "from": "b052",
+   "to": "b048",
+   "kind": "contradiz",
+   "from_sentence": 6,
+   "to_sentence": 16,
+   "from_claim": "b052c3",
+   "to_claim": "b048c3",
+   "strength": "forte",
+   "note": "Responde à proposta de enterrar as redes que isso é curativo, e que sem mudar a matriz o problema volta maior."
+  },
+  {
+   "from": "b054",
+   "to": "b024",
+   "kind": "contradiz",
+   "from_sentence": 10,
+   "to_sentence": 11,
+   "from_claim": "b054c1",
+   "to_claim": "b024c2",
+   "strength": "forte",
+   "note": "À acusação de que a agência não fiscaliza, opõe que ela tem feito o seu papel, presa a contratos escritos nos anos 90."
+  },
+  {
+   "from": "b054",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 2,
+   "from_claim": "b054c2",
+   "to_claim": "b021c1",
+   "strength": "forte",
+   "note": "Endossa a presidência e diz onde a mudança tem de entrar: na distância entre quem presta o serviço e o regulador federal."
+  },
+  {
+   "from": "b054",
+   "to": "b028",
+   "kind": "contradiz",
+   "from_sentence": 12,
+   "to_sentence": 26,
+   "from_claim": "b054c2",
+   "to_claim": "b028c2",
+   "strength": "media",
+   "note": "Contra a ideia de que a renovação não cabe ao Congresso, sustenta que é justamente aqui que a legislação da concessão pode mudar."
+  },
+  {
+   "from": "b056",
+   "to": "b047",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 5,
+   "from_claim": "b056c1",
+   "to_claim": "b047c1",
+   "strength": "forte",
+   "note": "Apoia o encerramento sugerido pela presidência e acrescenta que a empresa já se dispôs a trazer o seu presidente."
+  },
+  {
+   "from": "b058",
+   "to": "b052",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 6,
+   "from_claim": "b058c2",
+   "to_claim": "b052c3",
+   "strength": "media",
+   "note": "Depois de ter sido contestado, concede que o colega tem razão quanto ao fundo ambiental do problema."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b008",
+    "b016",
+    "b036",
+    "b043"
+   ],
+   "claims": [
+    "b001c1",
+    "b008c2",
+    "b016c1",
+    "b036c1",
+    "b043c2"
+   ],
+   "note": "A presidência e deputados de PL, PSOL e Cidadania concordam que faltar ao convite da Câmara é desrespeito e tem de ter consequência."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b001",
+    "b004",
+    "b016",
+    "b018",
+    "b020",
+    "b022"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c1",
+    "b004c2",
+    "b016c2",
+    "b018c2",
+    "b020c3",
+    "b022c1"
+   ],
+   "note": "A presidência e deputados de São Paulo e do Rio de Janeiro concordam que o apagão expõe corte de investimento e de pessoal, e não só mau tempo."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b021",
+    "b022",
+    "b026",
+    "b054"
+   ],
+   "claims": [
+    "b021c1",
+    "b022c3",
+    "b026c3",
+    "b054c2",
+    "b054c3"
+   ],
+   "note": "A presidência, dois deputados e o secretário estadual de Energia concordam que a renovação das concessões não pode ser decidida sem debate público."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b018",
+    "b020",
+    "b047",
+    "b057"
+   ],
+   "claims": [
+    "b018c1",
+    "b020c1",
+    "b047c2",
+    "b047c3",
+    "b057c1"
+   ],
+   "note": "A presidência e os autores dos pedidos de CPI concordam em usar a CPI e a proposta de fiscalização e controle como instrumentos."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b026",
+    "b043",
+    "b047",
+    "b056"
+   ],
+   "claims": [
+    "b026c1",
+    "b043c1",
+    "b047c1",
+    "b056c1"
+   ],
+   "note": "A presidência e três deputados concordam que a audiência só faz sentido com o presidente da empresa presente."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b008",
+   "sentence": 30,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "gist": "se o plano de indenização a pessoas físicas e jurídicas está pronto",
+   "plain": "O plano de indenização a pessoas físicas e jurídicas está pronto, e a Enel vai participar dele?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b020",
+   "sentence": 32,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "gist": "quem levou os dividendos da empresa todos esses anos",
+   "plain": "Quem levou os dividendos da empresa todos esses anos?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b028",
+   "sentence": 22,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "por que o apagão aconteceu e se a agência já tinha identificado o problema",
+   "plain": "Por que isso aconteceu, e a agência já tinha identificado o problema em algum relatório?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b034",
+   "sentence": 5,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "quantos consumidores reclamaram de falta de luz na interrupção",
+   "plain": "Quantos consumidores reclamaram à agência que estavam sem luz durante a interrupção?",
+   "theme": "d7",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 9,
+   "gist": "o convite foi feito no dia 10 de novembro, há 11 dias",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 23,
+   "gist": "as distribuidoras podem ganhar a renovação da concessão por 30 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 9,
+   "gist": "nas favelas houve 5 ou 6 dias sem luz",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 33,
+   "gist": "a empresa demitiu 36% da mão de obra",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b016",
+   "sentence": 6,
+   "gist": "36% menos funcionários e 7% mais residências atendidas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b018",
+   "sentence": 10,
+   "gist": "34 cidades ficaram sem energia nos últimos 15 dias",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b020",
+   "sentence": 28,
+   "gist": "172 mil medidores desligados por 3 dias em São Gonçalo",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b022",
+   "sentence": 2,
+   "gist": "mais de 600 denúncias de falta de energia em São Paulo",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b046",
+   "sentence": 8,
+   "gist": "há 5 dias grande parte de Niterói está sem luz",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b048",
+   "sentence": 11,
+   "gist": "ventos de 150 quilômetros e 400 árvores sobre as redes",
+   "disputed_by": [
+    {
+     "fala": "b008",
+     "sentence": 7
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "fala": "b048",
+   "sentence": 3,
+   "gist": "mais de 1 milhão de clientes não pagam a Light",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b054",
+   "sentence": 1,
+   "gist": "a concessão da Enel no Rio vence em 2026, após quase 30 anos",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "parlamentar"
+  ],
+  "angle": "A matéria conta a ausência do presidente da Enel Brasil e as reações dos deputados, com destaque para os pedidos de CPI e para a renovação das concessões.",
+  "omitted": "Ficou de fora a divergência sobre cancelar ou não a audiência no dia, o debate sobre privatização, a cobrança à agência reguladora e a discussão sobre redes enterradas e matriz energética."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Faltar ao convite da Câmara tem de ter consequência",
+   "statement_plain": "Quem é chamado pela Câmara para explicar um apagão que deixou milhões sem luz tem de vir. Não vir é desrespeito, e a Casa precisa responder a isso com os instrumentos que tem.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b008c2",
+    "b016c1",
+    "b036c1",
+    "b043c2",
+    "b047c1"
+   ],
+   "note": "A ideia junta a presidência e deputados do PL, do PSOL e do Cidadania, que discordam em quase tudo o mais nesta reunião."
+  },
+  {
+   "id": "t2",
+   "title": "O apagão vem do desinvestimento, não do vento",
+   "statement_plain": "A luz caiu porque a empresa cortou gente e investimento enquanto o número de casas atendidas crescia. O temporal só mostrou o que já estava frágil.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b001c2",
+    "b004c2",
+    "b016c2",
+    "b018c2",
+    "b020c3",
+    "b022c1"
+   ],
+   "note": "É uma ideia sobre a causa do apagão, e não sobre um estado: deputados de São Paulo e do Rio de Janeiro e a presidência chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t3",
+   "title": "O problema é climático e estrutural",
+   "statement_plain": "Foram eventos climáticos fora do comum, com ventos de 150 quilômetros. Nenhuma empresa daria conta disso enquanto as redes ficarem penduradas em postes.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario",
+    "d8": "favoravel",
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b048c2",
+    "b052c1",
+    "b048c3",
+    "b058c1",
+    "b054c1"
+   ],
+   "note": "A ideia cruza dois deputados que se opõem sobre privatização e o secretário estadual de Energia, que defende a agência enquanto os deputados a acusam."
+  },
+  {
+   "id": "t4",
+   "title": "A CPI é o instrumento que falta",
+   "statement_plain": "A comissão não pode obrigar ninguém a vir. Só uma CPI, com a proposta de fiscalização ao lado, dá poder para convocar, entrar na empresa e cobrar o contrato.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b018c1",
+    "b020c1",
+    "b047c2",
+    "b047c3",
+    "b057c1"
+   ],
+   "note": "A ideia é sobre o instrumento, não sobre o partido: quem a sustenta pede expressamente que a CPI reúna do PL ao PSOL."
+  },
+  {
+   "id": "t5",
+   "title": "A renovação não pode ser decidida a portas fechadas",
+   "statement_plain": "Renovar por 30 anos o contrato de quem não presta o serviço não pode ser combinado só entre o Ministério, a agência e o Tribunal de Contas. O Congresso e a sociedade têm de entrar.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b021c1",
+    "b022c3",
+    "b026c3",
+    "b054c2",
+    "b054c3"
+   ],
+   "note": "A ideia junta a presidência, dois deputados e o secretário estadual de Energia, que é do Executivo e defende tirar a decisão do circuito fechado do Executivo."
+  },
+  {
+   "id": "t6",
+   "title": "Cancelar a audiência foi o erro",
+   "statement_plain": "O convidado não era obrigado a vir, e a comissão tinha na sala a agência reguladora e os dados. Adiar tudo deixa o consumidor mais um tempo sem resposta.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario",
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b028c3",
+    "b034c1",
+    "b040c1",
+    "b046c3",
+    "b028c1"
+   ],
+   "note": "A ideia é sustentada por um deputado que concorda que houve desrespeito, e é acompanhada por outro do PL que cobra pressa, o que a separa de uma defesa da empresa."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ANEEL",
+   "fala": "b001",
+   "sentence": 4,
+   "plain": "Agência Nacional de Energia Elétrica: órgão federal que fiscaliza as empresas de energia e define as regras e as tarifas"
+  },
+  {
+   "term": "Tribunal de Contas da União",
+   "fala": "b001",
+   "sentence": 21,
+   "plain": "órgão que fiscaliza as contas públicas e auxilia o Congresso, e que também opina sobre a renovação de contratos com o poder público"
+  },
+  {
+   "term": "distribuidoras",
+   "fala": "b001",
+   "sentence": 21,
+   "plain": "empresas que levam a energia até a casa do consumidor e respondem pelos fios, postes e religações"
+  },
+  {
+   "term": "concessão",
+   "fala": "b001",
+   "sentence": 23,
+   "plain": "contrato pelo qual o poder público entrega a uma empresa a prestação de um serviço, por um prazo e com obrigações definidas"
+  },
+  {
+   "term": "PFC",
+   "fala": "b001",
+   "sentence": 27,
+   "plain": "proposta de fiscalização e controle: pedido de auditoria que a Câmara encaminha, em geral com apoio do Tribunal de Contas"
+  },
+  {
+   "term": "CPI",
+   "fala": "b001",
+   "sentence": 27,
+   "plain": "comissão parlamentar de inquérito: investigação com poderes de convocar pessoas e quebrar sigilos, que exige assinaturas para ser criada"
+  },
+  {
+   "term": "caducidade",
+   "fala": "b004",
+   "sentence": 26,
+   "plain": "fim do contrato de concessão por falha da empresa, decidido pelo poder público antes do prazo acabar"
+  },
+  {
+   "term": "Código de Defesa do Consumidor",
+   "fala": "b022",
+   "sentence": 17,
+   "plain": "lei que define os direitos de quem compra ou usa um serviço, inclusive o de receber serviço essencial de forma contínua"
+  },
+  {
+   "term": "intervenção branca",
+   "fala": "b038",
+   "sentence": 3,
+   "plain": "expressão usada para uma fiscalização de perto, dentro da empresa, sem que o poder público assuma a operação"
+  },
+  {
+   "term": "GD",
+   "fala": "b048",
+   "sentence": 4,
+   "plain": "geração distribuída: energia gerada pelo próprio consumidor, em geral por placas solares no telhado"
+  },
+  {
+   "term": "Geração Distribuída",
+   "fala": "b048",
+   "sentence": 4,
+   "plain": "quando o consumidor produz a própria energia e usa a rede só para o que falta ou sobra. É a GD"
+  },
+  {
+   "term": "Sistema Interligado Nacional",
+   "fala": "b054",
+   "sentence": 32,
+   "plain": "rede que liga usinas e linhas de transmissão de quase todo o país, permitindo levar energia de uma região a outra"
+  },
+  {
+   "term": "poder concedente",
+   "fala": "b054",
+   "sentence": 46,
+   "plain": "quem entrega a concessão e pode retomá-la. No caso da energia, o Ministério de Minas e Energia"
+  },
+  {
+   "term": "reunião deliberativa",
+   "fala": "b018",
+   "sentence": 21,
+   "plain": "reunião em que a comissão vota requerimentos e projetos, diferente da audiência pública, em que só se debate"
+  }
+ ]
+}

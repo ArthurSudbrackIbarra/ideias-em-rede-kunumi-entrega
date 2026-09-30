@@ -1,0 +1,1313 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 150,
+ "model": "LLM lendo o prompt hearing-150 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T01:01:37Z",
+ "prompt_sha256": "5e747a4a691efa84a8ee2a2a5685d2606e0c8a07a5fb3b58aa75b32e7fa01a31",
+ "sentences_hash": "6d66d75c1e0646ca",
+ "review": {
+  "pairs_read": 21,
+  "pairs_fixed": 9
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Ciência, Tecnologia e Inovação reuniu o Ministério da Ciência, Tecnologia e Inovação, a Aeronáutica, um físico e dois museus para marcar os 150 anos do nascimento de Santos Dumont. Os convidados percorreram o que ele inventou e o que o país construiu depois disso. Saíram da sala dois pedidos: levar Santos Dumont às escolas e ampliar o investimento no programa espacial.",
+ "stakes": "A Comissão decidiria se assume as duas cobranças do debate, a educação sobre Santos Dumont nas escolas e mais recursos para o programa espacial brasileiro.",
+ "central_question": "O que o Brasil fez, e o que ainda deve fazer, com o legado científico e tecnológico de Santos Dumont?",
+ "synopsis_plain": "Uma comissão da Câmara juntou o ministério da ciência, a Força Aérea, um físico e dois museus para lembrar os 150 anos do nascimento de Santos Dumont. Eles contaram o que ele inventou e o que o país construiu depois. E fizeram dois pedidos: ensinar Santos Dumont nas escolas e colocar mais dinheiro no programa espacial.",
+ "stakes_plain": "A Comissão vai ou não assumir os dois pedidos do debate: Santos Dumont nas escolas e mais dinheiro para o programa espacial.",
+ "central_question_plain": "O que o Brasil já fez, e o que ainda precisa fazer, com a herança deixada por Santos Dumont?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Pioneirismo na aviação",
+   "description": "Discute o que Santos Dumont resolveu primeiro no voo e por que ele é apontado como o inventor do avião.",
+   "axis": {
+    "pro": "Santos Dumont resolveu o problema de dirigir o voo e fez o primeiro voo homologado da história.",
+    "contra": "A invenção do avião pertence a outros pioneiros, como os irmãos Wright.",
+    "pro_plain": "Foi ele quem descobriu como guiar o voo e quem fez o primeiro voo reconhecido oficialmente.",
+    "contra_plain": "Quem inventou o avião foram outros, como os irmãos americanos Wright."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Contribuições fora da aviação",
+   "description": "Discute o que Santos Dumont deixou além do avião, do relógio de pulso à proteção das Cataratas do Iguaçu.",
+   "axis": {
+    "pro": "A obra de Santos Dumont vai muito além da aviação e alcança o cotidiano, o meio ambiente e o esporte.",
+    "contra": "Santos Dumont só é relevante como o homem que fez o avião voar.",
+    "pro_plain": "O que ele fez vai muito além do avião e chega ao dia a dia, ao meio ambiente e ao esporte.",
+    "contra_plain": "Ele só importa como o homem que fez o avião voar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Destino civil ou militar da invenção",
+   "description": "Discute se o legado de Santos Dumont é o conhecimento aberto e de uso civil ou o avanço que veio do esforço militar e de defesa.",
+   "axis": {
+    "pro": "O legado é civil e aberto, porque ele doou as patentes para que qualquer um pudesse voar.",
+    "contra": "O avanço da aviação veio do esforço militar e de defesa, que também merece reconhecimento.",
+    "pro_plain": "O legado dele é civil e aberto: doou as patentes para que qualquer um pudesse voar.",
+    "contra_plain": "Quem fez a aviação avançar foi o esforço militar e de defesa, e isso também tem de ser reconhecido."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Ciência e tecnologia aeroespacial",
+   "description": "Discute o que o Estado brasileiro construiu na área aeronáutica e espacial e quanto ainda investe nisso.",
+   "axis": {
+    "pro": "O país precisa de mais recursos e de mais amparo legal para avançar no espaço.",
+    "contra": "O esforço que já se faz basta e o espaço não é prioridade para o país.",
+    "pro_plain": "O país precisa de mais dinheiro e de regras claras para avançar no espaço.",
+    "contra_plain": "O que já se faz basta, e espaço não é prioridade agora."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Divulgação e educação museal",
+   "description": "Discute por que Santos Dumont é pouco conhecido no Brasil e o que fazer para que as escolas o ensinem.",
+   "axis": {
+    "pro": "É preciso divulgar mais Santos Dumont e levá-lo às escolas.",
+    "contra": "O reconhecimento de Santos Dumont já está garantido e não exige novo esforço.",
+    "pro_plain": "É preciso divulgar mais Santos Dumont e ensinar quem ele foi nas escolas.",
+    "contra_plain": "Ele já é reconhecido e não precisa de nenhum esforço novo."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Ciência, Tecnologia e Inovação",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e diz em b001.1 que o requerimento é de sua autoria",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha os temas de ciência, tecnologia e inovação"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenador-Geral de Tecnologias Estratégicas",
+   "org": "MCTI",
+   "basis": "apresentado pela presidência em b001.6 e confirmado por ele em b002.1",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Ciência, Tecnologia e Inovação",
+   "org_plain": "ministério federal que cuida das políticas de ciência, tecnologia e inovação"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Chefe do Subdepartamento Técnico do Departamento de Ciência e Tecnologia Aeroespacial",
+   "org": "Comando da Aeronáutica",
+   "basis": "apresentado pela presidência em b001.6 e descrito por ele em b004.21",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "brigadeiro engenheiro da Força Aérea Brasileira",
+   "org_plain": "setor da Força Aérea que cuida de pesquisa e desenvolvimento em aeronáutica e espaço"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Físico, especialista na vida e obra de Santos Dumont",
+   "org": "Centro Brasileiro de Pesquisas Físicas",
+   "basis": "apresentado em b001.10 e descrito por ele em b006.1 e b006.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "físico e pesquisador aposentado",
+   "org_plain": "instituto de pesquisa em física, no Rio de Janeiro, onde ele foi pesquisador titular"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Museu Casa de Santos Dumont",
+   "org": "Museu Casa de Santos Dumont",
+   "basis": "apresentado pela presidência em b001.11 e confirmado por ele em b008.2",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Museu Casa de Santos Dumont, em Petrópolis",
+   "org_plain": "museu instalado na única casa que Santos Dumont construiu, em Petrópolis, no Rio de Janeiro"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-Presidente do Instituto Cultural Santos Dumont",
+   "org": "Instituto Cultural Santos Dumont",
+   "basis": "apresentado pela presidência em b019.7 e confirmado por ele em b020.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Cultural Santos Dumont",
+   "org_plain": "entidade cultural que pesquisa e divulga a vida e a obra de Santos Dumont"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.55
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "palmas registradas em b002 e b004, a presença de dois vereadores citada em b021.4 e a falta de quórum registrada em b021.11",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre os 150 anos de Santos Dumont e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Percorre as invenções de Santos Dumont, do 14 Bis ao relógio de pulso, e lembra que a aviação também avançou pelo esforço militar.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Santos Dumont abriu a era da aviação e influenciou a aviação moderna.",
+    "sentence": 25
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele pediu ao amigo Louis Cartier o relógio de pulso que ele mesmo desenhou, para cronometrar os voos",
+     "plain": "Ele cronometrava os voos com um relógio de bolso. Como pilotava com as duas mãos nas alavancas, não conseguia olhar as horas. Foi assim que sugeriu ao amigo Louis Cartier um relógio de pulso, desenhado por ele mesmo."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o inventor era pacifista e as máquinas dele tinham destino civil e popular",
+     "plain": "Infelizmente, e o Brigadeiro que me perdoe, Santos Dumont tinha uma visão muito pacifista. As máquinas dele tinham um destino mais civil, mais popular."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a atuação militar na Primeira Guerra levou a inovações em motores e aerodinâmica, e é justo reconhecer isso às Forças Armadas",
+     "plain": "Na Primeira Guerra Mundial, de 1914 a 1918, a ação militar trouxe avanços em motores, aerodinâmica e armamento. As tecnologias militares revolucionaram o mundo, Brigadeiro, e é justo fazer essa justiça às Forças Armadas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à Força Aérea pela repatriação de brasileiros em Israel e passa a palavra ao brigadeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra o que a Força Aérea construiu depois de Santos Dumont, do ITA à EMBRAER e ao programa espacial, e cobra mais recursos para o setor.",
+   "quote": [
+    117,
+    118,
+    119
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "open_question": 123,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil tem gente preparada, mas precisa de mais recursos para avançar no espaço.",
+    "sentence": 109
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Marechal Casimiro Montenegro criou o ITA em 1950 e o centro técnico em 1953, quando o país nem produzia bicicletas",
+     "plain": "O Marechal Casimiro Montenegro criou o ITA, o Instituto Tecnológico de Aeronáutica, em 1950, e o centro técnico em 1953. Numa época em que a indústria daqui nem fazia bicicletas, ele montou uma das melhores escolas de engenharia do mundo."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o KC-390 nasceu de um pedido da Força Aérea, foi feito com a EMBRAER e hoje resgata brasileiros em Israel",
+     "plain": "O KC-390 é talvez o exemplo mais moderno do sucesso da nossa indústria aeronáutica. A Força Aérea pediu o projeto, ele foi feito junto com a EMBRAER e hoje resgata brasileiros em Israel, entre outras missões."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      117,
+      118,
+      119
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Índia investiu 1,89 bilhão em 2020 contra 29,7 milhões do Brasil, e esse dinheiro gera conhecimento e indústria",
+     "plain": "A Índia saiu na frente porque investiu. Em 2020 nós aplicamos 29,7 milhões e ela, 1,89 bilhão. Esse dinheiro não é jogado fora: gera conhecimento, movimenta a indústria e faz o país crescer mais rápido."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra que a Comissão aprovou a Lei Geral das Atividades Espaciais, que dá mais segurança jurídica à exploração do espaço pelo país.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei aprovada na Comissão dá segurança jurídica à exploração espacial brasileira.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão aprovou a Lei Geral das Atividades Espaciais, que dá mais segurança jurídica à exploração do espaço",
+     "plain": "Aqui na Comissão nós conseguimos aprovar a Lei Geral das Atividades Espaciais. Com ela, o país passa a ter mais segurança jurídica para explorar o espaço."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que Santos Dumont resolveu o problema de dirigir o voo, teve o primeiro voo homologado da história e abriu a patente do motor.",
+   "quote": [
+    24,
+    25,
+    26
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Santos Dumont inaugurou a era da navegação aérea.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o problema central da aviação era dirigir o voo, e ele transformou o balão esférico num aparelho capaz de ir e voltar",
+     "plain": "O problema central da aviação na época era a dirigibilidade, quer dizer, guiar o voo. Antes dele já se voava de balão, mas ninguém controlava para onde ia. Ele transformou o balão em um aparelho capaz de ir e voltar."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ele projetou e construiu um motor novo, patenteou e deixou o uso livre para todo mundo",
+     "plain": "Ele projetou e construiu um motor novo. O curioso é que patenteou esse motor e deixou o uso livre para todo mundo."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      44,
+      45
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Federação Internacional de Aeronáutica reconhece esse voo como o primeiro voo homologado da história",
+     "plain": "O reconhecimento é internacional, pela Federação Internacional de Aeronáutica, a entidade que homologa os recordes do voo. Esse é tido como o primeiro voo homologado da história."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata que Santos Dumont articulou a desapropriação das Cataratas do Iguaçu para que virassem patrimônio de todos os brasileiros.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Santos Dumont também é responsável por as Cataratas do Iguaçu serem patrimônio público.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele articulou com o governador do Paraná a desapropriação das Cataratas do Iguaçu, para que virassem patrimônio de todos",
+     "plain": "Segundo quem estuda a vida dele, ao ver as Cataratas do Iguaçu ele se assustou e disse que aquelas maravilhas não podiam ser de um particular. Procurou o governador do Paraná e articulou a desapropriação da área."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que o Museu Casa de Santos Dumont, em Petrópolis, recebe muita gente e mostra o interesse do público pelo inventor.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O interesse do público pelo museu de Santos Dumont é grande.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o museu recebeu em média 4 mil pessoas no feriadão e 310 ontem, num dia normal de chuva",
+     "plain": "Para os senhores terem ideia, no feriadão o museu recebeu em média 4 mil pessoas. Ontem, um dia normal e de muita chuva, foram 310 visitantes."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o áudio do convidado caiu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado pergunta se está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o áudio voltou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado pergunta que parte da fala se perdeu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que ele retome a fala de um minuto atrás.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado concorda em retomar a fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede desculpas e o convida a seguir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Conta a repercussão de Santos Dumont na Coreia do Sul e pede que ele seja mais divulgado e reconhecido no Brasil.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Santos Dumont precisa ser mais divulgado e mais reconhecido no Brasil.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o primeiro voo coreano teve influência de Santos Dumont e há uma réplica do 14-Bis no museu de Seul",
+     "plain": "Ano passado fui a Seul, convidado pelo Museu Aeroespacial da Coreia, para um seminário sobre os 100 anos do primeiro voo coreano. Esse voo veio da influência de Santos Dumont, e lá há uma réplica do 14-Bis."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso divulgar mais Santos Dumont, porque as escolas chegam ao museu sem saber nada sobre ele",
+     "plain": "Precisamos divulgar mais Santos Dumont e fazer com que ele seja muito mais reconhecido no Brasil. É muito triste, Deputada, receber escolas no museu e ver que elas não sabem absolutamente nada."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que houve nova falha no som.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Denuncia que as escolas chegam ao museu sem saber nada e conclama a Força Aérea, a Comissão e a educação a trabalharem a educação museal.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21
+   ],
+   "open_question": 10,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A educação museal precisa levar Santos Dumont às escolas.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "um professor respondeu que não tinha interesse na história de Santos Dumont porque era professor de física",
+     "plain": "Uma vez perguntei a um professor se ele não conhecia essa história, Sr. Henrique. Ele respondeu que não tinha interesse, porque era professor de física."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é hora de trabalhar a educação museal, para que as escolas aprendam sobre os nossos ícones históricos",
+     "plain": "É hora de trabalharmos a educação museal, que não é só saber se comportar numa visita, mas aprender sobre os nossos ícones históricos. Acho isso fundamental para que Santos Dumont entre na educação."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Força Aérea, a Comissão e a área de educação precisam tratar os nossos ícones com mais veemência",
+     "plain": "Conclamo a Força Aérea, esta Comissão e a área de educação a tratarem nossos ícones com mais força. Assim as pessoas param de dizer que Santos Dumont só criou um aviãozinho ou que usava um chapéu excêntrico."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Assume a cobrança do museu e diz que a conscientização sobre Santos Dumont tem de chegar aos estudantes pelas escolas.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A mensagem sobre Santos Dumont precisa chegar às escolas.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a mensagem sobre Santos Dumont tem de chegar ao Brasil pelas escolas, porque a inovação transforma a sociedade",
+     "plain": "Essa é a mensagem que temos de levar ao Brasil para honrar o legado de Santos Dumont todos os anos. Isso passa pela conscientização dos estudantes nas escolas. A inovação transforma a sociedade, a política e a economia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Apresenta a exposição do Museu Catavento e lembra que Santos Dumont atuou no meio ambiente e no esporte e abriu suas patentes.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    32,
+    33
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Santos Dumont abriu as patentes para que o legado servisse a todos.",
+    "sentence": 19
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele foi o primeiro brasileiro a ganhar o Mérito Olímpico e atuou também no meio ambiente e no esporte",
+     "plain": "Foi um grande cientista na tecnologia, mas também no meio ambiente e no esporte. Pierre de Coubertin deu a ele o Mérito Olímpico pelas competições aeronáuticas, e nenhum brasileiro tinha recebido isso antes. Corria de carro e de moto."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Museu Catavento recebe de 3 mil a 12 mil pessoas por dia e a exposição mexe também com os professores",
+     "plain": "Como disse o Cláudio, de Petrópolis, precisamos inspirar as crianças. No Museu Catavento, em São Paulo, recebemos de 3 mil a 12 mil pessoas por dia, e isso causa um efeito muito grande também nos professores."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ele abria as patentes porque queria que todos pudessem voar e que o legado servisse a todos",
+     "plain": "Mais do que inovação, Santos Dumont é exemplo pelo lado humano. Ele queria que todos pudessem voar e por isso abria as patentes dele, para que o legado servisse a todos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência divulga a exposição, anuncia uma visita ao Sirius e encerra a audiência por falta de quórum.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 20,
+   "from_claim": null,
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "O brigadeiro retoma o relógio de pulso lembrado pelo ministério e confirma que poucas pessoas sabem que a ideia foi de Santos Dumont."
+  },
+  {
+   "from": "b005",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 119,
+   "from_claim": "b005c1",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Ao pedido de mais amparo ao espaço, a presidência responde lembrando a lei que a Comissão aprovou para dar segurança jurídica ao setor."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 27,
+   "from_claim": "b006c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Os dois descrevem o mesmo traço do inventor: ele abriu a patente do motor e suas máquinas tinham destino civil, não comercial."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 63,
+   "from_claim": "b007c1",
+   "to_claim": null,
+   "strength": "media",
+   "note": "A presidência retoma o que o físico tinha acabado de citar de passagem e conta como foi a articulação pelas Cataratas do Iguaçu."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 10,
+   "from_claim": "b019c1",
+   "to_claim": "b018c3",
+   "strength": "forte",
+   "note": "Ao apelo do museu para que a Comissão e a Força Aérea tratem os ícones com mais força, a presidência responde que essa é a mensagem a levar ao Brasil."
+  },
+  {
+   "from": "b019",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 18,
+   "from_claim": "b019c1",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "A presidência acolhe o pedido de mais divulgação e diz por onde ele passa: a conscientização dos estudantes nas escolas."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 8,
+   "from_claim": "b020c2",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "O instituto cita o museu de Petrópolis pelo nome e apresenta a exposição de São Paulo como a resposta prática ao pedido de inspirar as crianças."
+  },
+  {
+   "from": "b020",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 14,
+   "from_claim": "b020c3",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Os dois apontam a mesma escolha do inventor: ele abriu as patentes para que qualquer pessoa pudesse voar."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b007",
+    "b020"
+   ],
+   "claims": [
+    "b002c1",
+    "b007c1",
+    "b020c1"
+   ],
+   "note": "O ministério, a presidência da Comissão e o instituto cultural concordam que a obra de Santos Dumont vai muito além do avião, do relógio de pulso às Cataratas do Iguaçu."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b005"
+   ],
+   "claims": [
+    "b004c1",
+    "b004c3",
+    "b005c1"
+   ],
+   "note": "A Aeronáutica e a presidência da Comissão concordam que o país precisa sustentar o esforço aeroespacial, ele com o histórico do ITA e a comparação de investimento, ela com a lei aprovada."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b016",
+    "b018",
+    "b019",
+    "b020"
+   ],
+   "claims": [
+    "b016c2",
+    "b018c2",
+    "b019c1",
+    "b020c2"
+   ],
+   "note": "Os dois museus e a presidência da Comissão concordam que Santos Dumont é pouco conhecido e que a saída passa pelas escolas e pela educação museal."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b018",
+   "sentence": 10,
+   "addressed_to": "parlamentar",
+   "answered_by": "b019",
+   "gist": "que a Comissão e a Força Aérea divulguem mais os ícones históricos",
+   "plain": "A Comissão e a Força Aérea vão trabalhar para que Santos Dumont seja mais reconhecido?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 123,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que a Comissão volte a pautar o investimento no programa espacial",
+   "plain": "A Comissão vai pautar de novo quanto o Brasil investe no programa espacial?",
+   "theme": "d4",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 4,
+   "gist": "nasceu em 20 de julho de 1873, em Minas Gerais",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 7,
+   "gist": "primeiro voo controlado em Paris, em 1906, com o 14 Bis",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 12,
+   "gist": "voo de 30 quilômetros com o dirigível nº 6",
+   "disputed_by": [
+    {
+     "fala": "b006",
+     "sentence": 22
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b004",
+   "sentence": 20,
+   "gist": "o ITA foi criado em 1950",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b004",
+   "sentence": 62,
+   "gist": "36 lançamentos do VSB-30 no mundo, 6 no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b004",
+   "sentence": 105,
+   "gist": "em 2020 o Brasil investiu 29,7 milhões de dólares",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b004",
+   "sentence": 118,
+   "gist": "a Índia investiu 1,89 bilhão em 2020",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b006",
+   "sentence": 55,
+   "gist": "150 mil aviões produzidos na Primeira Guerra Mundial",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b008",
+   "sentence": 6,
+   "gist": "média de 4 mil pessoas no museu no feriadão",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b020",
+   "sentence": 16,
+   "gist": "de 3 mil a 12 mil pessoas por dia no Museu Catavento",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil",
+   "mesa"
+  ],
+  "angle": "A matéria escolheu o inventário das contribuições de Santos Dumont e o pedido de mais divulgação, sem entrar na disputa sobre o destino civil ou militar da aviação.",
+  "omitted": "Ficou de fora a comparação de investimento em espaço entre o Brasil, a Índia e os vizinhos da América Latina, que o brigadeiro usou para pedir mais recursos."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Santos Dumont é o pai da aviação e muito mais",
+   "statement_plain": "Ele resolveu o problema de dirigir o voo, fez o primeiro voo homologado da história e ainda deixou marcas fora da aviação, do relógio de pulso às Cataratas do Iguaçu.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c3",
+    "b002c1",
+    "b007c1",
+    "b020c1"
+   ],
+   "note": "Sustentam a mesma ideia um físico, um servidor do ministério, a deputada que preside a Comissão e um instituto cultural, cada um com uma contribuição diferente do inventor."
+  },
+  {
+   "id": "t2",
+   "title": "O legado de Santos Dumont é civil e aberto",
+   "statement_plain": "Ele fez as máquinas para o uso civil, patenteou o motor e deixou o uso livre, porque queria que todos pudessem voar.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b006c2",
+    "b020c3"
+   ],
+   "note": "Quem defende isto é um servidor do ministério, um físico e um instituto cultural, e o próprio servidor do ministério defende o lado oposto na mesma fala."
+  },
+  {
+   "id": "t3",
+   "title": "O salto da aviação veio do esforço militar e do Estado",
+   "statement_plain": "Foram as guerras e o dinheiro público que fizeram a aviação avançar, e é o Estado, pela Força Aérea e pela lei, que sustenta a indústria aeronáutica brasileira até hoje.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b004c2",
+    "b004c1",
+    "b004c3",
+    "b005c1"
+   ],
+   "note": "A ideia junta o ministério, a Aeronáutica e a presidência da Comissão, e opõe o mesmo servidor do ministério que tinha acabado de elogiar o pacifismo do inventor."
+  },
+  {
+   "id": "t4",
+   "title": "Santos Dumont precisa entrar na sala de aula",
+   "statement_plain": "As escolas chegam ao museu sem saber quem foi Santos Dumont. É preciso trabalhar a educação museal para que as crianças conheçam os nossos ícones.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b016c2",
+    "b018c2",
+    "b018c3",
+    "b019c1"
+   ],
+   "note": "O pedido parte de um museu e é assumido pela presidência da Comissão, que promete levá-lo às escolas."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "MCTI",
+   "plain": "sigla do Ministério da Ciência, Tecnologia e Inovação, o ministério federal que cuida dessas políticas",
+   "fala": "b002",
+   "sentence": 1
+  },
+  {
+   "term": "14 Bis",
+   "plain": "o avião com que Santos Dumont fez o primeiro voo público reconhecido, em Paris, em 1906",
+   "fala": "b002",
+   "sentence": 7
+  },
+  {
+   "term": "Demoiselle",
+   "plain": "avião pequeno e leve que Santos Dumont criou depois do 14 Bis, e que chegou a ser produzido em série",
+   "fala": "b002",
+   "sentence": 7
+  },
+  {
+   "term": "balões dirigíveis",
+   "plain": "balões com motor e leme, capazes de ir e voltar para onde o piloto quiser, diferentes do balão comum",
+   "fala": "b002",
+   "sentence": 9
+  },
+  {
+   "term": "VANTs",
+   "plain": "sigla de veículos aéreos não tripulados, as aeronaves sem piloto a bordo, também chamadas de drones",
+   "fala": "b002",
+   "sentence": 41
+  },
+  {
+   "term": "ITA",
+   "plain": "sigla do Instituto Tecnológico de Aeronáutica, escola de engenharia da Força Aérea criada em 1950, em São José dos Campos",
+   "fala": "b004",
+   "sentence": 20
+  },
+  {
+   "term": "EMBRAER",
+   "plain": "empresa brasileira que fabrica aviões, nascida do centro técnico da Aeronáutica",
+   "fala": "b004",
+   "sentence": 27
+  },
+  {
+   "term": "DCTA",
+   "plain": "sigla do Departamento de Ciência e Tecnologia Aeroespacial, o setor da Força Aérea que cuida de pesquisa e desenvolvimento",
+   "fala": "b004",
+   "sentence": 29
+  },
+  {
+   "term": "KC-390",
+   "plain": "avião de transporte militar feito pela EMBRAER a pedido da Força Aérea Brasileira",
+   "fala": "b004",
+   "sentence": 44
+  },
+  {
+   "term": "VLM-1",
+   "plain": "foguete brasileiro em desenvolvimento para levar satélites pequenos ao espaço, com lançamento planejado para 2027",
+   "fala": "b004",
+   "sentence": 66
+  },
+  {
+   "term": "cubesats",
+   "plain": "satélites muito pequenos, do tamanho de uma caixa, que voam em órbitas mais baixas e costumam trabalhar em grupo",
+   "fala": "b004",
+   "sentence": 93
+  },
+  {
+   "term": "Prêmio Deutsch",
+   "plain": "prêmio oferecido por um empresário francês a quem fizesse o voo de ida e volta até a Torre Eiffel, vencido por Santos Dumont",
+   "fala": "b006",
+   "sentence": 21
+  },
+  {
+   "term": "aileron",
+   "plain": "peça móvel na asa do avião que faz a aeronave inclinar para um lado ou para o outro",
+   "fala": "b006",
+   "sentence": 40
+  },
+  {
+   "term": "educação museal",
+   "plain": "trabalho de preparar a visita ao museu para que quem vai aprenda com o acervo, e não só passeie por ele",
+   "fala": "b018",
+   "sentence": 7
+  }
+ ]
+}

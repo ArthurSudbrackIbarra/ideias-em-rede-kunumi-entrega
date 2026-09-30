@@ -1,0 +1,1482 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 121,
+ "model": "LLM lendo o prompt hearing-121 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T17:24:39Z",
+ "prompt_sha256": "96ec8133d3d04d2d35b4f0180b1cf484b510f056249817e649901ae75baa4e08",
+ "sentences_hash": "9064439949013bf6",
+ "review": {
+  "pairs_read": 25,
+  "pairs_fixed": 5
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Defesa dos Direitos da Mulher ouviu o Conselho Nacional de Justiça, duas desembargadoras, um juiz do interior do Paraná, o Ministério das Mulheres e a associação dos defensores públicos sobre o que o Judiciário faz com os casos de violência doméstica. Os convidados apontaram que só 153 varas são especializadas, que falta equipe multidisciplinar e orçamento e que muitos processos prescrevem. Pediram união dos Poderes e ampliação das varas.",
+ "stakes": "Que medidas a Comissão vai cobrar para ampliar e estruturar as varas especializadas e garantir orçamento à política de enfrentamento da violência doméstica.",
+ "central_question": "Como o Judiciário deve se organizar para atender as mulheres em situação de violência doméstica?",
+ "synopsis_plain": "Deputadas da Comissão da Mulher ouviram o Conselho Nacional de Justiça, duas desembargadoras, um juiz do interior do Paraná, o Ministério das Mulheres e a associação dos defensores públicos. Todos disseram que faltam varas especializadas, equipes de psicólogos e assistentes sociais e dinheiro no orçamento. Também apareceu a demora dos processos, que às vezes prescrevem.",
+ "stakes_plain": "O que a Comissão vai cobrar para ter mais varas especializadas, equipes próprias e orçamento no enfrentamento da violência doméstica.",
+ "central_question_plain": "Como a Justiça deve se organizar para atender bem a mulher que sofre violência em casa?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "União de esforços entre os Poderes",
+   "description": "Discute-se se Judiciário, Legislativo e Executivo devem planejar juntos os programas e compartilhar os dados que hoje cada um guarda.",
+   "axis": {
+    "pro": "Os três Poderes têm de planejar juntos os programas e compartilhar os dados, porque o Judiciário sozinho não resolve.",
+    "contra": "Cada Poder deve seguir com os seus próprios programas e dados, sem depender de acordo com os outros.",
+    "pro_plain": "Os Poderes precisam planejar juntos e dividir os dados, porque sozinho ninguém resolve a violência doméstica.",
+    "contra_plain": "Cada Poder deve cuidar dos seus programas e dos seus dados, sem depender dos outros."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Varas especializadas e estrutura",
+   "description": "Discute-se quantas varas de violência doméstica existem, onde elas estão e o que falta de equipe para atender a mulher.",
+   "axis": {
+    "pro": "É preciso ampliar e estruturar as varas especializadas, com equipes próprias e exclusivas, inclusive no interior.",
+    "contra": "As varas comuns vão continuar com a maior parte dos casos, e o caminho é capacitá-las em vez de criar novas varas.",
+    "pro_plain": "Faltam varas especializadas e equipes próprias de psicólogos e assistentes sociais, sobretudo no interior.",
+    "contra_plain": "A maioria dos casos vai seguir nas varas comuns, então o melhor é preparar essas varas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Competência híbrida das varas",
+   "description": "Discute-se se a vara de violência doméstica deve julgar também as questões cíveis, como divórcio, guarda e alimentos.",
+   "axis": {
+    "pro": "A vara de violência doméstica deve julgar também o lado cível, para a mulher não repetir a sua história em vários lugares.",
+    "contra": "Ampliar a competência sobrecarrega varas que já estão cheias e pode inviabilizar o seu funcionamento.",
+    "pro_plain": "A mesma vara deveria resolver o divórcio e a guarda, para a mulher não contar a história várias vezes.",
+    "contra_plain": "Dar mais assuntos a essas varas, que já estão cheias, pode travar o trabalho delas."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Conciliação, guarda e filhos",
+   "description": "Discute-se o que a Justiça faz quando há violência e ao mesmo tempo um acordo de guarda ou uma tentativa de conciliação.",
+   "axis": {
+    "pro": "A violência tem de ser olhada antes de qualquer acordo, e a guarda compartilhada não pode ser imposta quando há risco.",
+    "contra": "A conciliação e a guarda compartilhada devem seguir como regra, mesmo quando há denúncia de violência.",
+    "pro_plain": "Antes de propor acordo, a Justiça tem de olhar a violência, e a guarda compartilhada não serve quando há risco.",
+    "contra_plain": "O acordo e a guarda compartilhada devem continuar sendo a regra, mesmo com denúncia de violência."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Prevenção na escola",
+   "description": "Discute-se o que a escola deve ensinar sobre violência doméstica e quem capacita os professores para esse trabalho.",
+   "axis": {
+    "pro": "A escola precisa tratar do tema no currículo, com professores capacitados, porque a cultura só muda com educação.",
+    "contra": "A escola não é o lugar desse debate, e o esforço deve ficar na punição de quem agride.",
+    "pro_plain": "A escola tem de falar de violência desde cedo, e os professores precisam de formação para isso.",
+    "contra_plain": "Esse assunto não é da escola, e o esforço deveria ficar na punição de quem agride."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Orçamento da política para mulheres",
+   "description": "Discute-se de onde vem o dinheiro para varas, equipes e programas de enfrentamento da violência doméstica.",
+   "axis": {
+    "pro": "Sem orçamento próprio e sem repasse dos fundos, o que está previsto em lei não sai do papel.",
+    "contra": "O recurso que existe já basta, e o problema está na gestão de quem executa.",
+    "pro_plain": "Sem dinheiro no orçamento, as varas e as equipes não existem e a lei fica no papel.",
+    "contra_plain": "O dinheiro que já existe daria conta, e o problema é de quem administra."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Resultados e impunidade",
+   "description": "Discute-se o que os números mostram: houve avanço nos prazos ou os casos crescem e terminam sem punição?",
+   "axis": {
+    "pro": "Os casos crescem, muitos processos prescrevem e a resposta do Estado ainda é ineficaz.",
+    "contra": "Houve avanço real, com meta de prazo e medidas protetivas decididas em poucas horas.",
+    "pro_plain": "Os casos aumentam, muitos processos vencem antes do julgamento e a punição não chega.",
+    "contra_plain": "Já houve avanço: existe meta de prazo e a maioria das medidas protetivas sai em horas."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência, deputada federal e autora dos requerimentos",
+   "org": "Comissão de Defesa dos Direitos da Mulher",
+   "basis": "registro Presidente e requerimentos citados em b001.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha os assuntos e os direitos das mulheres"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Conselheiro do CNJ, supervisor da política judiciária de enfrentamento à violência contra a mulher",
+   "org": "CNJ",
+   "basis": "apresentado em b001.29 e por ele mesmo em b008.4 e b008.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Conselho Nacional de Justiça",
+   "org_plain": "órgão que fiscaliza e orienta o funcionamento de todos os tribunais do país"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Desembargadora do Tribunal de Justiça de Minas Gerais e coordenadora do COCEVID de Minas",
+   "org": "TJMG",
+   "basis": "apresentada pela presidência em b003.5 e b003.15",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "desembargadora do Tribunal de Justiça de Minas Gerais",
+   "org_plain": "tribunal que julga os recursos e os casos da Justiça estadual em Minas Gerais"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Diretora de Proteção e Direitos da Secretaria Nacional de Enfrentamento à Violência contra Mulheres",
+   "org": "Ministério das Mulheres",
+   "basis": "apresentada pela presidência em b003.5 e b005.3",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério das Mulheres",
+   "org_plain": "ministério que formula as políticas do Governo Federal voltadas às mulheres"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da associação de defensoras e defensores públicos de Goiás e representante da ANADEP",
+   "org": "ANADEP",
+   "basis": "apresentada pela presidência em b003.5 e b009.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da associação nacional das defensoras e defensores públicos",
+   "org_plain": "entidade que reúne os defensores públicos do país, os advogados pagos pelo Estado"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Desembargadora do Tribunal de Justiça do Paraná e presidente do COCEVID",
+   "org": "COCEVID",
+   "basis": "apresentada pela presidência em b001.8 e b011.22",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "presidente do colégio de coordenadoras da mulher",
+   "org_plain": "colégio que reúne as 27 coordenadorias da mulher dos tribunais de justiça do país"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Juiz de direito no Paraná e 1º Vice-Presidente do FONAVID",
+   "org": "FONAVID",
+   "basis": "retificação feita por ele mesmo em b014.7 e b014.10",
+   "seat": "debatedores",
+   "gov_level": "estadual",
+   "byline": "juiz de direito no interior do Paraná",
+   "org_plain": "fórum que reúne as juízas e os juízes de violência doméstica de todo o país"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "convidado",
+    "share": 0.2
+   }
+  ],
+  "basis": "menções ao público do plenário 14, à vereadora presente e às servidoras da Comissão, sem registro de palmas nem de delegações",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre violência doméstica e seus impactos no Poder Judiciário, pedida por ela mesma.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O conselheiro do CNJ cumprimenta a todos e diz ser uma honra estar na Câmara.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia os convidados e informa que cada exposição terá 8 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "apresenta"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Aponta que Judiciário, Legislativo e Executivo repetem projetos nas mesmas escolas e defende que os programas sejam feitos em conjunto.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os programas dos três Poderes precisam ser feitos em conjunto para não repetir esforços.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há inúmeros projetos do Executivo e do Legislativo que coincidem com os do Judiciário, e assim se reparte esforço em vez de juntar",
+     "plain": "Em um evento na Universidade Federal de Minas Gerais, concluí que existem inúmeros projetos e programas do Executivo e do Legislativo que coincidem com os do Judiciário. Estamos repartindo esforços em vez de juntar."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso unir esforços para capacitar professores e as equipes dos CRAS, CREAS e CREAMs, sem repetir o que o outro faz",
+     "plain": "Precisamos capacitar professores, mas precisamos nos unir para fazer essa capacitação. Também é preciso capacitar os CRAS, os CREAS e os CREAMs, onde existem, para que um não repita o que o outro já faz."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Minas os processos de feminicídio em curso foram de 377 em 2022 para 511 em 2023, e ainda assim o combate é ineficaz",
+     "plain": "Em Minas Gerais, os processos de feminicídio em andamento eram 377 em 2022 e são 511 em 2023. As medidas protetivas foram de 40.677 para 53.255 e as ações penais, de 101.129 para 118.081. Ainda somos ineficazes nesse combate."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à desembargadora de Minas Gerais e chama a diretora do Ministério das Mulheres.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Cobra que a vara de violência doméstica julgue também o lado cível e critica decisões que dão guarda compartilhada junto com medida protetiva.",
+   "quote": [
+    37,
+    38,
+    39
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": 42,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Judiciário precisa atender de forma integral as demandas das mulheres, e não só a parte criminal.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de mais de 640 mil processos em 1 ano, cerca de um terço entrou nas varas exclusivas e mais de 428 mil correram em varas comuns",
+     "plain": "Temos mais de 150 varas especializadas, mas, dos mais de 640 mil processos de violência doméstica que entraram em 1 ano, só cerca de um terço foi para as varas exclusivas. Mais de 428 mil correram em varas criminais comuns."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a competência dos juizados especializados deve ser ampla e não se restringir ao criminal, porque a lei promete atendimento integral",
+     "plain": "Mesmo nas especializadas, preocupa a aplicação do artigo que define uma competência ampla, não só criminal, mas também cível. O atendimento integral é o coração da Lei Maria da Penha e existe para evitar a revitimização."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      37,
+      38,
+      39
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há casos com guarda compartilhada definida na vara de família e, ao mesmo tempo, medida protetiva afastando o agressor",
+     "plain": "A lei vem definindo que a guarda compartilhada deve ser a regra. Mas há casos em que a vara de família define a guarda compartilhada e existe medida protetiva afastando o agressor da mulher e dos filhos. São decisões contraditórias."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao conselheiro do CNJ para responder às ponderações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reconhece que as 153 varas especializadas são insuficientes, mostra a meta de prazo dos processos e anuncia resolução sobre mediação.",
+   "quote": [
+    36,
+    37
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso ampliar e estruturar as varas de violência doméstica, com equipes exclusivas.",
+    "sentence": 37
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a meta para o ano que vem é julgar 90% dos processos em até 2 anos, e 73% das medidas protetivas já saem em até 48 horas",
+     "plain": "Para o ano que vem trabalhamos com a meta de julgar 90% dos processos em até 2 anos. Uma pesquisa nossa sobre medidas protetivas de urgência mostrou que 73% delas eram decididas em até 48 horas."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "80% dos processos de violência doméstica não tramitam em varas especializadas, e as 153 varas do país são insuficientes",
+     "plain": "O último Justiça em Números mostra que 80% dos processos de violência doméstica e familiar não tramitam em varas especializadas. Hoje temos 153 varas especializadas no Brasil todo, o que é claramente insuficiente."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      88,
+      89
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a resolução em votação no CNJ exige que qualquer tentativa de mediação seja precedida de análise da equipe multidisciplinar",
+     "plain": "Estamos incorporando à nossa resolução uma recomendação da CEDAW, o comitê da ONU sobre as mulheres. Toda tentativa de mediação terá de ser precedida de análise da equipe multidisciplinar, com consentimento livre e sem revitimização."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao conselheiro e chama a representante da associação de defensores públicos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Mostra que os crimes contra mulheres cresceram em 2022, relata o alto índice de reconciliações e pergunta se as varas não deveriam ter equipes melhores.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os números mostram que o Estado ainda falha no dever de proteger as mulheres e seus filhos.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todos os crimes contra as mulheres cresceram em 2022, e o 190 recebeu 102 chamados de socorro por hora",
+     "plain": "O último anuário do Fórum Brasileiro de Segurança Pública mostra que todos os crimes contra as mulheres cresceram em 2022. O 190 foi acionado quase 1 milhão de vezes, o que dá 102 chamados de socorro por hora."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nas varas especializadas há alto índice de reconciliações, perdões e pedidos de revogação da medida protetiva, com poucas condenações",
+     "plain": "Nas varas especializadas há alto índice de reconciliações, de perdões e de pedidos de revogação da medida protetiva. Há poucas denúncias e condenações, e grandes reconciliações em casos em que se deveria pensar na ruptura."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as varas de violência doméstica deveriam contar com equipes multidisciplinares melhor equipadas",
+     "plain": "Não deveríamos pensar em equipes multidisciplinares melhor equipadas nas varas de violência doméstica?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que a Câmara aprovou projeto que dobra a pena da lesão corporal na frente dos filhos e defende o currículo escolar previsto na lei.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A cultura só muda com educação, e o currículo escolar previsto na lei precisa sair do papel.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Câmara aprovou o Projeto de Lei nº 538, de 2023, que dobra a pena da lesão corporal praticada na frente dos filhos",
+     "plain": "Ontem aprovamos aqui o Projeto de Lei nº 538, de 2023, de nossa autoria, que dobra a pena no caso de lesão corporal praticada pelo agressor na frente dos filhos. Na tentativa de homicídio qualificado já existe esse aumento de pena."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Lei Maria da Penha já prevê o tema nos currículos escolares, e ensinar as crianças desde cedo salva vidas",
+     "plain": "A Lei Maria da Penha já tem um dispositivo sobre os currículos escolares, e isso salva vidas. Se as crianças aprenderem desde cedo, como aprendem matemática, vão entender que não pode haver violência e que o menino deve respeitar a menina."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Relata que os tribunais transformam varas em vez de criar, que falta equipe multidisciplinar e que há tribunais com mais de 50% dos processos prescritos.",
+   "quote": [
+    97,
+    98,
+    99
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 67,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Faltam varas novas, equipe própria e agilidade na delegacia, e por isso os processos prescrevem.",
+    "sentence": 114
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      97,
+      98,
+      99
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os tribunais estão transformando varas criminais em varas de violência doméstica, e criação de varas não está ocorrendo",
+     "plain": "Além da falta de juízes e de recursos para criar varas novas, os tribunais estão optando por transformar unidades. Muitos transformam varas criminais ou de pouco movimento em varas de violência doméstica. Criação não está ocorrendo."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      100,
+      101,
+      102
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os tribunais não fazem concurso para psicólogos e assistentes sociais, e a terceirização das equipes é contraproducente",
+     "plain": "Falta equipe multidisciplinar, e essa é a maior dificuldade. Os tribunais não abrem concurso para psicólogos, pedagogos e assistentes sociais, e o caminho que muitos apontam é a terceirização, que para nós é contraproducente."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      114,
+      115
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há tribunais com mais de 50% dos processos fulminados pela prescrição, o que cria sensação de impunidade",
+     "plain": "Vou ter a coragem de dizer: o índice de prescrição está alto, e isso gera a sensação de que ninguém é punido. Há tribunais com mais de 50% dos processos fulminados pela prescrição."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à desembargadora do Paraná e chama o juiz que representa o FONAVID.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede orçamento público ao Congresso e relata que juízes de comarcas pequenas dependem de equipes da assistência social já sobrecarregadas.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem orçamento público, a política para as mulheres não se executa nas cidades pequenas e médias.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há Estados inteiros com um só juizado especializado, e a competência cumulada atrasa a resposta da Justiça",
+     "plain": "Há Estados inteiros que contam com um só juizado especializado, de competência restrita. Em outros existe alguma interiorização, mas com um único juiz acumulando várias competências, e na prática isso atrasa muito a resposta da Justiça."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não há política para as mulheres sem orçamento público, porque sem recurso nada se executa",
+     "plain": "Eu peço o apoio de V.Exa. e do Congresso, porque não há política para as mulheres sem orçamento público. Sem recurso, nós não conseguimos executar as atividades."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mesmas equipes da rede respondem por mulheres, idosos, pessoas com deficiência, crianças e enfrentamento ao racismo",
+     "plain": "Essas equipes respondem pela rede de proteção da mulher, do idoso, da pessoa com deficiência, das crianças e adolescentes e do enfrentamento ao racismo. Se as mesmas pessoas têm tantas atribuições, como vão dar o cuidado devido a todas?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reforça que o ponto principal é estruturar a rede e as varas especializadas e lembra que a violência acontece em todas as cidades.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Estruturar a rede de acolhimento e as varas especializadas é o passo mais importante a dar.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o ponto principal é estruturar a rede de acolhimento e garantir varas especializadas com equipes multidisciplinares",
+     "plain": "O ponto em que temos de nos debruçar é a estruturação de uma rede que atenda e acolha as mulheres. É preciso ter varas especializadas e garantir que elas tenham acesso a equipes multidisciplinares."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a violência doméstica ocorre em todos os estratos sociais e em todas as cidades, porque decorre de uma cultura machista",
+     "plain": "A violência doméstica não ocorre só nos grandes centros, nem só nas capitais, nem só nas periferias. Ela ocorre igualmente em todos os estratos sociais e em todas as cidades, porque decorre de uma cultura machista e patriarcal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se algum expositor quer fazer as últimas ponderações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe criar um sistema único de informações sobre gênero no país e manter o diálogo permanente entre os órgãos.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os órgãos precisam compartilhar informações e dados num sistema único sobre a situação de gênero.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso compartilhar melhor informações e dados, talvez criando um BI nacional da situação de gênero no país",
+     "plain": "Vamos continuar nesse diálogo permanente, porque o desafio é grande. Reforço a necessidade de compartilhar informações e dados, talvez criando um BI nacional, um sistema único de informações sobre a situação de gênero no país."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe unir forças entre os Poderes e cobrar do Legislativo a aprovação dos projetos, e cita a casa de acolhimento mantida com o tribunal mineiro.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 0,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As instituições têm de unir forças, e a Comissão vai cobrar a aprovação dos projetos de lei.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Casa Mulher Segura funciona em convênio com o Tribunal de Justiça de Minas Gerais e recebe as mulheres e seus filhos",
+     "plain": "Temos a Casa Mulher Segura, num convênio firmado no ano passado com o Tribunal de Justiça de Minas Gerais, para receber mulheres vítimas de violência doméstica e seus filhos. Queremos renovar essa parceria, que salva muitas vidas."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é fácil dizer que tal instituição tem de fazer algo, e por isso é preciso unir forças e cobrar a aprovação dos projetos",
+     "plain": "Depois de todas essas explanações, vamos chegar a um consenso, porque é muito fácil dizer que tal instituição tem de fazer isso. Vamos unir forças, usar o que temos e cobrar do Legislativo a aprovação dos projetos de lei."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 6,
+   "from_claim": null,
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "A diretora do Ministério das Mulheres começa a fala reforçando o que a desembargadora de Minas pediu: os Poderes têm de somar esforços em vez de repetir programas."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 20,
+   "from_claim": "b008c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O conselheiro do CNJ confirma com o relatório do próprio conselho o dado trazido pelo Ministério das Mulheres: a maior parte dos processos corre fora das varas especializadas."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "responde",
+   "from_sentence": 89,
+   "to_sentence": 26,
+   "from_claim": "b008c3",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "À crítica de que a resposta do Judiciário é heterogênea, o conselheiro responde com a resolução em votação, que exige análise da equipe antes de qualquer tentativa de acordo."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 39,
+   "from_claim": "b010c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Onde o Ministério das Mulheres aponta decisões contraditórias, a defensora mostra o outro lado do mesmo quadro: muitas reconciliações e poucas condenações nas varas especializadas."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 13,
+   "to_sentence": 22,
+   "from_claim": "b011c2",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À proposta de currículo obrigatório nas escolas, a presidência responde que a Lei Maria da Penha já prevê isso e que falta fazer valer."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 100,
+   "to_sentence": 18,
+   "from_claim": "b012c2",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "A defensora pergunta por equipes melhor equipadas, e a desembargadora sustenta o mesmo ponto: não há concurso para essas equipes e a saída tem sido terceirizar."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 97,
+   "to_sentence": 37,
+   "from_claim": "b012c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Ao dado do CNJ sobre a insuficiência das varas, a presidente do colégio de coordenadoras acrescenta o que os tribunais fazem na prática: transformam varas em vez de criar."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 114,
+   "to_sentence": 24,
+   "from_claim": "b012c3",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "Ao balanço de prazos e metas apresentado pelo CNJ, a presidente do colégio opõe o que vê nos tribunais: alto índice de prescrição e sensação de que ninguém é punido."
+  },
+  {
+   "from": "b014",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 94,
+   "from_claim": "b014c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "O juiz do interior confirma o mapa descrito pela desembargadora: há Estados inteiros com um único juizado especializado, quase sempre na capital."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 45,
+   "from_claim": "b014c1",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "O juiz do interior dá corpo ao limite admitido pelo conselheiro: na comarca pequena um só juiz acumula tudo, e a resposta chega atrasada."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 32,
+   "from_claim": "b015c1",
+   "to_claim": "b014c3",
+   "strength": "media",
+   "note": "O conselheiro retoma o relato do juiz do interior e acrescenta que mesmo cidades médias ficam sem essa estrutura básica."
+  },
+  {
+   "from": "b017",
+   "to": "b015",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 14,
+   "from_claim": "b017c1",
+   "to_claim": "b015c1",
+   "strength": "media",
+   "note": "A desembargadora adere ao chamado do conselheiro por levar as dificuldades para fora dos muros do Judiciário e propõe um sistema único de dados."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 29,
+   "from_claim": "b018c2",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "Ao pedido de orçamento feito pelo juiz, a presidência responde colocando o mandato e a Comissão à disposição para cobrar a aprovação dos projetos."
+  },
+  {
+   "from": "b018",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 130,
+   "from_claim": "b018c2",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A presidência assume o ponto com que a desembargadora encerrou, de que o Judiciário não dá conta sozinho, e propõe repartir responsabilidades."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b017",
+    "b018"
+   ],
+   "claims": [
+    "b004c1",
+    "b017c1",
+    "b018c2"
+   ],
+   "note": "A desembargadora de Minas, a presidente do colégio de coordenadoras e a presidência da Comissão concordam que os Poderes precisam planejar juntos e compartilhar dados."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b008",
+    "b010",
+    "b011"
+   ],
+   "claims": [
+    "b006c3",
+    "b008c3",
+    "b010c2",
+    "b011c1"
+   ],
+   "note": "Ministério das Mulheres, CNJ, defensoria e a presidência concordam que a violência tem de ser olhada antes de acordo, guarda ou revogação de medida."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b011",
+    "b015"
+   ],
+   "claims": [
+    "b004c2",
+    "b011c2",
+    "b015c2"
+   ],
+   "note": "As duas pontas do Judiciário e a presidência da Comissão concordam que a escola é o caminho da prevenção e que falta capacitar quem está na sala de aula."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b004",
+    "b010",
+    "b012"
+   ],
+   "claims": [
+    "b004c3",
+    "b010c1",
+    "b012c3"
+   ],
+   "note": "As duas desembargadoras e a defensora concordam que os números crescem e que a resposta do Estado ainda não alcança o problema."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b006",
+   "sentence": 42,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "que se reveja a lei de alienação parental, sem base científica",
+   "plain": "A lei de alienação parental vai ser revista, já que não há base científica para essa síndrome?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b012",
+   "sentence": 67,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Ministério das Mulheres regulamente a lei do auxílio-aluguel",
+   "plain": "O Ministério das Mulheres vai regulamentar a lei do auxílio-aluguel, para o juiz poder conceder o benefício?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b014",
+   "sentence": 29,
+   "addressed_to": "parlamentar",
+   "answered_by": "b018",
+   "gist": "que o Congresso garanta orçamento público à política para as mulheres",
+   "plain": "O Congresso vai garantir orçamento público para a política de enfrentamento da violência contra as mulheres?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b018",
+   "sentence": 0,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que a desembargadora repasse as iniciativas legislativas que citou",
+   "plain": "A desembargadora vai repassar à Comissão a lista das iniciativas legislativas que citou na audiência?",
+   "theme": "d1",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 12,
+   "gist": "em Minas, feminicídios em curso: 377 em 2022, 511 em 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b004",
+   "sentence": 16,
+   "gist": "de 150 desembargadores em Minas, apenas 30 são mulheres",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 19,
+   "gist": "cerca de um terço dos 640 mil processos foi a varas exclusivas",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b008",
+   "sentence": 25,
+   "gist": "73% das medidas protetivas saem em até 48 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 36,
+   "gist": "80% dos processos não tramitam em varas especializadas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 37,
+   "gist": "há 153 varas especializadas no Brasil todo",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 6,
+   "gist": "o 190 recebeu 102 chamados de socorro por hora",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 16,
+   "gist": "80% das mulheres violentadas tinham filhos com o agressor",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 44,
+   "gist": "o fundo destina no mínimo 5% ao enfrentamento da violência",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 115,
+   "gist": "há tribunais com mais de 50% dos processos prescritos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b012",
+   "sentence": 133,
+   "gist": "em 2022 foram autuadas 1 milhão e 618 mil medidas protetivas",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b014",
+   "sentence": 44,
+   "gist": "a Defensoria Pública não atende 100% das comarcas do país",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d4",
+   "d6"
+  ],
+  "roles_quoted": [
+   "governo"
+  ],
+  "angle": "A matéria escolheu o gargalo das varas especializadas: quantas existem, quantos processos ficam fora delas e o que falta de estrutura no interior.",
+  "omitted": "Ficaram de fora a prescrição em massa dos processos apontada pelo colégio de coordenadoras, a falta de orçamento das coordenadorias e o debate sobre currículo escolar e alienação parental."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O Judiciário não vai resolver isso sozinho",
+   "statement_plain": "A violência doméstica só recua se os três Poderes planejarem juntos, dividirem os dados e garantirem orçamento para a política. Sozinha, a Justiça não dá conta.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b017c1",
+    "b018c2",
+    "b014c2"
+   ],
+   "note": "É uma ideia, e não um bloco: quem a sustenta são duas desembargadoras, um juiz do interior e a própria deputada que presidia a sessão, de instituições diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "Sem vara especializada e equipe própria não há proteção",
+   "statement_plain": "A mulher só é bem atendida onde existe vara especializada com psicólogos e assistentes sociais próprios. Faltam varas, faltam concursos e a terceirização não resolve.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b010c3",
+    "b012c1",
+    "b012c2",
+    "b014c1",
+    "b015c1"
+   ],
+   "note": "A ideia junta o Executivo federal, o CNJ, um colégio de coordenadoras de tribunais, um juiz de comarca pequena e a defensoria, que veem o mesmo vazio de estrutura de lugares distintos."
+  },
+  {
+   "id": "t3",
+   "title": "O prazo já melhorou, o gargalo é a estrutura",
+   "statement_plain": "A Justiça já decide a maioria das medidas protetivas em poucas horas e tem meta de prazo para julgar. O que ainda falta é estrutura, não disposição.",
+   "core_theme": "d7",
+   "positions": {
+    "d2": "favoravel",
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c2",
+    "b010c3",
+    "b012c1"
+   ],
+   "note": "Aqui o mesmo setor se divide: o conselho que fiscaliza os tribunais apresenta os avanços de prazo, enquanto as coordenadorias desses tribunais e a defensoria descrevem outro quadro."
+  },
+  {
+   "id": "t4",
+   "title": "A prescrição mantém a sensação de impunidade",
+   "statement_plain": "Os casos crescem, muitos processos vencem antes do julgamento e as reconciliações se acumulam. Quem denuncia não vê punição, e a resposta do Estado segue ineficaz.",
+   "core_theme": "d7",
+   "positions": {
+    "d4": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b010c1",
+    "b010c2",
+    "b012c3"
+   ],
+   "note": "A ideia contesta o balanço de avanços do próprio Judiciário e reúne duas desembargadoras e uma defensora pública, que chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t5",
+   "title": "A vara de violência tem de olhar a família inteira",
+   "statement_plain": "A mesma vara que dá a medida protetiva deveria decidir guarda, alimentos e divórcio, e nenhum acordo deveria ser proposto sem antes olhar a violência.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b006c3",
+    "b008c3",
+    "b011c1"
+   ],
+   "note": "A ideia cruza instituições: o Ministério das Mulheres cobra, o CNJ acolhe em resolução e a deputada traz a lei que aprovou, cada um por um caminho próprio."
+  },
+  {
+   "id": "t6",
+   "title": "A mudança começa na escola",
+   "statement_plain": "Enquanto a criança não aprender na escola que violência não se admite, o ciclo continua. O tema já está na lei e falta capacitar professores.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b011c2",
+    "b015c2"
+   ],
+   "note": "É uma ideia que atravessa a sala: uma desembargadora, o conselheiro do CNJ e a deputada chegam à escola vindo de funções bem diferentes."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "COCEVID",
+   "fala": "b001",
+   "sentence": 8,
+   "plain": "colégio que reúne as coordenadorias da mulher dos tribunais de justiça de todos os Estados e do Distrito Federal"
+  },
+  {
+   "term": "CNJ",
+   "fala": "b001",
+   "sentence": 29,
+   "plain": "Conselho Nacional de Justiça: órgão que fiscaliza e orienta o funcionamento de todos os tribunais do país"
+  },
+  {
+   "term": "FONAVID",
+   "fala": "b003",
+   "sentence": 5,
+   "plain": "fórum que reúne as juízas e os juízes que julgam casos de violência doméstica e familiar no Brasil"
+  },
+  {
+   "term": "CRAS",
+   "fala": "b004",
+   "sentence": 10,
+   "plain": "Centro de Referência de Assistência Social: posto do município que atende famílias em situação de vulnerabilidade"
+  },
+  {
+   "term": "medidas protetivas de urgência",
+   "fala": "b004",
+   "sentence": 12,
+   "plain": "decisões rápidas do juiz para proteger a mulher, como afastar o agressor de casa ou proibir que ele se aproxime"
+  },
+  {
+   "term": "quinto constitucional",
+   "fala": "b004",
+   "sentence": 19,
+   "plain": "regra que reserva um quinto das vagas de desembargador a advogados e a membros do Ministério Público"
+  },
+  {
+   "term": "Lei Maria da Penha",
+   "fala": "b006",
+   "sentence": 9,
+   "plain": "lei de 2006 que criou as medidas de proteção e as varas próprias para casos de violência doméstica contra a mulher"
+  },
+  {
+   "term": "alienação parental",
+   "fala": "b006",
+   "sentence": 40,
+   "plain": "acusação de que um dos pais manipula a criança contra o outro, usada em disputas de guarda"
+  },
+  {
+   "term": "DataJud",
+   "fala": "b008",
+   "sentence": 21,
+   "plain": "base de dados do CNJ que reúne a movimentação de todos os processos judiciais do país"
+  },
+  {
+   "term": "Formulário Nacional de Avaliação de Risco",
+   "fala": "b008",
+   "sentence": 29,
+   "plain": "questionário aplicado à mulher que denuncia, para medir o risco que ela corre e orientar a decisão do juiz"
+  },
+  {
+   "term": "competência híbrida",
+   "fala": "b008",
+   "sentence": 26,
+   "plain": "quando a mesma vara pode julgar o lado criminal e também o lado cível do caso, como guarda e alimentos"
+  },
+  {
+   "term": "CEDAW",
+   "fala": "b008",
+   "sentence": 88,
+   "plain": "convenção da ONU contra a discriminação da mulher e o comitê internacional que acompanha o seu cumprimento"
+  },
+  {
+   "term": "comarca",
+   "fala": "b012",
+   "sentence": 3,
+   "plain": "área que um juízo atende, formada por uma ou mais cidades"
+  },
+  {
+   "term": "prescrição",
+   "fala": "b012",
+   "sentence": 113,
+   "plain": "perda do prazo para punir o crime, o que faz o processo terminar sem julgamento do que aconteceu"
+  },
+  {
+   "term": "entrância inicial",
+   "fala": "b014",
+   "sentence": 57,
+   "plain": "primeiro degrau da carreira de juiz, nas comarcas menores do Estado"
+  }
+ ]
+}

@@ -1,0 +1,1854 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 4,
+ "model": "LLM lendo o prompt hearing-004 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T19:59:28Z",
+ "prompt_sha256": "e9827f709b45e264b3f039bd044099112377f3999042b5e24db46e3f49867837",
+ "sentences_hash": "ecf495f985d86f97",
+ "review": {
+  "pairs_read": 42,
+  "pairs_fixed": 12
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Comunicação recebeu o presidente da Anatel para discutir o planejamento estratégico da agência para o quinquênio 2023-2027. O debate girou em torno da diferença de regras entre as mídias tradicionais e os serviços digitais, do apagão que atingiu São Paulo e da revisão das leis do setor. A presidência da comissão cobrou ainda respostas sobre os fios nos postes, a pirataria e o atendimento ao consumidor.",
+ "stakes": "Dependia da audiência o apoio da comissão a uma proposta de revisão da Lei Geral de Telecomunicações e o encaminhamento do papel da Anatel na fiscalização do ambiente digital.",
+ "central_question": "Que regras e que competências o Estado brasileiro precisa ter para lidar com o ecossistema digital?",
+ "synopsis_plain": "O presidente da Anatel foi à Comissão de Comunicação apresentar o plano da agência para 2023-2027. A conversa foi sobre a diferença de regras entre rádio, TV e telefonia, de um lado, e streaming, redes sociais e aplicativos, do outro. Também se falou do apagão em São Paulo, dos fios nos postes, da pirataria e do atendimento ao consumidor.",
+ "stakes_plain": "Estava em jogo o apoio da comissão a uma revisão das leis do setor e a definição de quem fiscaliza as plataformas digitais.",
+ "central_question_plain": "Que regras o Brasil precisa ter para o mundo digital, e quem deve fiscalizar as plataformas?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Papel e capacidade da Anatel",
+   "description": "Discute-se até onde vai o alcance da agência reguladora e se ela tem estrutura para fiscalizar o que já faz e o que se quer entregar a ela.",
+   "axis": {
+    "pro": "A Anatel tem o alcance e o papel para regular e fiscalizar o ambiente digital.",
+    "contra": "A Anatel não dá conta do que já fiscaliza e tem estrutura pequena para o tamanho do trabalho.",
+    "pro_plain": "A Anatel tem o alcance para fiscalizar o mundo digital e deve ficar com esse papel.",
+    "contra_plain": "A Anatel já não dá conta do que faz hoje e tem gente de menos para tanto trabalho."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Assimetria de regras entre mídias",
+   "description": "Discute-se por que rádio, TV, TV por assinatura e telefonia carregam obrigações que streaming, redes sociais e aplicativos não têm.",
+   "axis": {
+    "pro": "As obrigações do rádio, da TV e da telefonia devem valer também para os serviços digitais.",
+    "contra": "Os serviços digitais devem seguir sem as obrigações do rádio, da TV e da telefonia.",
+    "pro_plain": "As mesmas regras devem valer para a TV, o rádio, a telefonia e os serviços da internet.",
+    "contra_plain": "Os serviços da internet devem continuar sem as obrigações do rádio, da TV e da telefonia."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Revisão das leis de telecomunicações",
+   "description": "Discute-se se as leis que organizam o setor, escritas no século passado, precisam ser reescritas e por quem.",
+   "axis": {
+    "pro": "As leis do setor são do século passado e precisam de uma revisão inteira.",
+    "contra": "As leis em vigor ainda dão conta do setor e não precisam de revisão.",
+    "pro_plain": "As leis do setor são antigas demais e precisam ser reescritas.",
+    "contra_plain": "As leis de hoje ainda dão conta do setor e não precisam mudar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Inteligência artificial e dados pessoais",
+   "description": "Discute-se como o país deve tratar a inteligência artificial e quem é dono dos dados que alimentam essa tecnologia.",
+   "axis": {
+    "pro": "A inteligência artificial precisa de regras e de controle das pessoas sobre os próprios dados.",
+    "contra": "Ainda é hora de discutir a inteligência artificial, não de regulamentá-la.",
+    "pro_plain": "A inteligência artificial precisa de regras, e cada um precisa ser dono dos próprios dados.",
+    "contra_plain": "Ainda é hora de debater a inteligência artificial, não de fazer regra para ela."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Ordenação dos postes",
+   "description": "Discute-se como acabar com o emaranhado de fios de telecomunicações nos postes de energia elétrica e quem responde por eles.",
+   "axis": {
+    "pro": "A nova regra, com um responsável por cada poste, resolve a bagunça dos fios.",
+    "contra": "A bagunça dos fios segue sem solução, presa entre duas agências e o discurso.",
+    "pro_plain": "A nova regra, com um responsável por cada poste, resolve a bagunça dos fios.",
+    "contra_plain": "A bagunça dos fios continua sem solução, parada entre duas agências e o discurso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Pirataria e contrabando de equipamentos",
+   "description": "Discute-se o combate às caixinhas e aos aplicativos que roubam sinal de TV e à entrada de equipamento sem certificação no país.",
+   "axis": {
+    "pro": "As operações contra a pirataria e o contrabando funcionam e devem ser reforçadas.",
+    "contra": "O combate não alcança os aplicativos nem o que entra pelo comércio eletrônico.",
+    "pro_plain": "As operações contra a pirataria e o contrabando dão resultado e devem continuar.",
+    "contra_plain": "O combate não alcança os aplicativos nem o que entra pelas lojas da internet."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Apagão em São Paulo e continuidade do serviço",
+   "description": "Discute-se quanto do serviço de telefonia caiu em São Paulo depois do temporal e por quanto tempo a rede aguenta sem energia elétrica.",
+   "axis": {
+    "pro": "O serviço se manteve em São Paulo, com afetação limitada e acompanhamento das operadoras.",
+    "contra": "A falta de energia já derruba o sinal e as baterias e os geradores estão no fim.",
+    "pro_plain": "O sinal se manteve em São Paulo, com problema em poucas cidades e acompanhamento das empresas.",
+    "contra_plain": "A falta de luz já derruba o sinal, e as baterias e os geradores estão acabando."
+   },
+   "contested": true
+  },
+  {
+   "id": "d8",
+   "name": "Atendimento ao consumidor de telecom",
+   "description": "Discute-se se as decisões recentes da agência sobre lojas, central de atendimento e cobrança melhoram ou pioram a vida do cliente.",
+   "axis": {
+    "pro": "As decisões recentes melhoram o atendimento e a cobrança do consumidor.",
+    "contra": "As decisões recentes reduzem lojas e horário de atendimento e pioram a vida do consumidor.",
+    "pro_plain": "As decisões recentes da agência melhoram o atendimento e a cobrança do cliente.",
+    "contra_plain": "As decisões recentes tiram lojas e horário de atendimento e pioram a vida do cliente."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Comunicação",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião em b001.1 e é registrado na ata como Presidente, deputado Amaro Neto",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha os assuntos de comunicação e telecomunicações"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Presidente da Agência Nacional de Telecomunicações",
+   "org": "ANATEL",
+   "basis": "convidado e apresentado pela presidência em b001.5",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da Anatel",
+   "org_plain": "agência federal que regula e fiscaliza telefonia, internet e radiodifusão no Brasil"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Cezinha De Madureira, Bloco/PSD - SP, e saudado em b002.22",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por São Paulo",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência cita conselheiros e servidores da Anatel e representantes do setor de telecomunicações no plenário em b001.25, há registro de palmas em b001 e presenças citadas no encerramento em b023.2",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência sobre o planejamento da Anatel, celebra os 26 anos da agência e aponta universalização, qualidade e segurança cibernética como desafios ainda abertos.",
+   "quote": [
+    35,
+    36,
+    37
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Anatel ampliou o acesso nos seus 26 anos, mas universalização, qualidade e segurança cibernética seguem como desafios.",
+    "sentence": 35
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a atuação da Anatel ampliou o acesso a dados e voz e reduziu a exclusão digital",
+     "plain": "O trabalho da Anatel faz mais brasileiros terem acesso a dados e voz, o que reduz a exclusão digital e promove inclusão social. Hoje boa parte da população tem banda larga, e isso pesa no acesso à educação, à saúde e ao emprego."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a universalização e a qualidade dos serviços ainda precisam ser perseguidas em todo o país",
+     "plain": "A universalização dos serviços de telecomunicações no Brasil inteiro precisa ser perseguida sem parar. A qualidade tem de ser mantida e melhorada, para que todos tenham acesso a políticas públicas de telecomunicações e conectividade."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a segurança cibernética fica mais importante e a Anatel tem papel na proteção das redes e dos dados",
+     "plain": "A segurança cibernética é cada vez mais importante, porque dependemos mais da conexão digital. A Anatel tem um papel grande a cumprir na segurança das redes e na proteção dos dados dos cidadãos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Defende que as regras sejam iguais para mídias tradicionais e digitais, aponta o regime legal de 1998 como origem da assimetria e cobra revisão da lei.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As regras precisam ser iguais para mídias tradicionais e serviços digitais, e a lei de 1998 precisa ser revista.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a radiodifusão carrega obrigações de publicidade e de responsabilidade editorial e as mídias sociais não têm restrição",
+     "plain": "De um lado está a radiodifusão, com várias obrigações, como limites de publicidade e responsabilidade pelo que vai ao ar. Do outro, as mídias sociais aparecem sem nenhuma restrição e sem responsabilização."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o regime legal de 1998, feito para a privatização, precisa ser repensado 26 anos depois",
+     "plain": "Existe hoje uma grande diferença de regras entre as empresas que disputam o mercado. Boa parte dela vem do regime legal de 1998, feito para viabilizar a privatização, e 26 anos depois esse modelo precisa ao menos ser repensado."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      72
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a fatia de celulares contrabandeados no mercado dobrou de 8% para 17%",
+     "plain": "Numa reunião desta semana, a Associação Brasileira da Indústria Elétrica e Eletrônica mostrou que a fatia de celulares contrabandeados, vendidos sem imposto e sem proteção ao consumidor, dobrou de 8% para 17%."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede 30 segundos do tempo do presidente da Anatel.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O presidente da Anatel concede a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b005",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado cumprimenta o presidente da Anatel pelos 26 anos da agência e se despede para outra agenda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Afirma que plataformas de comércio eletrônico vendem equipamento sem certificação e relata parcerias com a Receita Federal e a Polícia Rodoviária Federal contra o contrabando.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As plataformas de comércio eletrônico têm de responder pelo que vendem, como no mundo real.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as plataformas de comércio eletrônico vendem equipamento de telecomunicação sem certificação e remédio sem aprovação",
+     "plain": "Numa plataforma de comércio eletrônico você não compra arma nem munição, mas compra remédio sem aprovação da Anvisa e equipamento sem certificação da Anatel. Temos multado e exigido que essas empresas cumpram a lei."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência procura a Receita Federal e a Polícia Rodoviária Federal para barrar equipamento contrabandeado",
+     "plain": "Estive com o secretário da Receita Federal para ajustar o Programa da Remessa Conforme e incluir as restrições do setor de telecomunicações. Também procurei a Polícia Rodoviária Federal para reforçar a parceria contra o contrabando."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Aponta que a Anatel tem pouca gente para tanto trabalho e pergunta quantas cidades de São Paulo seguem sem sinal depois das chuvas.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A Anatel tem estrutura pequena para o tamanho do trabalho, e o apagão deixou cidades sem sinal.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a Anatel tem um número reduzido de profissionais e não dá conta de todo o trabalho que executa",
+     "plain": "O senhor disse que é preciso modernizar o trabalho da Anatel para ela ter braço para todos os lados. Só que a agência tem um número reduzido de profissionais, que não dão conta de tanto trabalho."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "muitas informações dão conta de que centenas de cidades ficaram sem sinal nos últimos dias",
+     "plain": "Um tema do dia a dia é o apagão em São Paulo. Muita informação dá conta de que centenas de cidades ficaram sem sinal nos últimos dias. Hoje já se sabe quantas cidades seguem sem sinal por causa das fortes chuvas?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Informa que cerca de 51 municípios paulistas têm afetação, sem caladão generalizado, e alerta que baterias e geradores já se esgotam depois de quase 5 dias sem energia.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O serviço segue de pé em São Paulo, mas depende de baterias e geradores que já estão no fim.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em torno de 51 municípios de São Paulo têm algum tipo de afetação e não há caladão generalizado",
+     "plain": "O levantamento que recebi hoje de manhã mostra que em torno de 51 municípios de São Paulo têm algum tipo de afetação. Não existe um caladão generalizado, mas existe afetação."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "sem energia elétrica as torres param e a agência acompanha se as empresas têm baterias e geradores prontos",
+     "plain": "O problema é que em vários pontos não há mais energia elétrica. Sem ela, as torres param, porque funcionam com equipamento elétrico. Acompanhamos se as empresas têm baterias e geradores prontos para entrar."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "depois de quase 5 dias sem energia, boa parte dos geradores e das baterias já está no fim",
+     "plain": "Depois de quase 5 dias sem energia elétrica, boa parte dos geradores e das baterias já está chegando ao fim. Por isso conversamos com a Aneel, com a Enel e com as operadoras para o serviço não piorar."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Cobra uma solução concreta para o emaranhado de fios nos postes e pergunta como será a discussão entre a Anatel e a Aneel no ano que vem.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O emaranhado de fios nos postes se repete nas cidades e precisa sair do discurso.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o emaranhado de fios nos postes é recorrente nas cidades e atrapalha centros históricos e regiões turísticas",
+     "plain": "Esse problema dos fios nos postes se repete nas cidades grandes e nas pequenas. Atrapalha até centro histórico e região turística. O que pode ser feito para sair do discurso e tirar do papel uma solução?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica que a agência aprovou um regulamento dos postes com a figura do posteiro, avisa que ainda depende da Aneel e que 20 anos de bagunça não se resolvem em 20 dias.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A nova regra da Anatel cria um responsável pelo poste, mas ainda depende da Aneel para valer.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a agência aprovou há 2 semanas um regulamento de ordenação dos postes que, na visão dela, resolve o problema",
+     "plain": "Há 2 semanas aprovamos, numa reunião extraordinária do conselho da agência, um regulamento para ordenar os postes. Estudamos muito tempo e, na nossa visão, ele resolve o problema de verdade."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o regulamento dos postes ainda depende da aprovação da Aneel, onde um diretor pediu vistas do processo",
+     "plain": "Mesmo assim, isso ainda depende da aprovação da Aneel. Tenho conversado com os diretores de lá, e um deles pediu vistas do processo que estava em deliberação."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a proposta cria a figura do posteiro, um responsável por cuidar do poste e cobrar das empresas de telecomunicações",
+     "plain": "Nossa proposta cria um responsável pelo poste, como um síndico, a quem chamamos de posteiro. Ele recebe o dinheiro das empresas de telecomunicações, paga a distribuidora de energia e garante que as normas técnicas da ABNT sejam seguidas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Reconhece que a Anatel tirou de circulação 80% das TV Box e pergunta o que pode ser feito com os aplicativos que captam o sinal das emissoras.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "As operações contra a TV Box avançaram, mas os aplicativos piratas seguem sem resposta.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o noticiário aponta que 80% dos aparelhos de TV Box foram retirados de circulação pela agência",
+     "plain": "O presidente da Anatel contou que a agência fez várias operações contra a pirataria. Segundo o noticiário, 80% dos aparelhos de TV Box já saíram de circulação."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "existem aplicativos instalados na televisão que captam o sinal das emissoras, numa forma de pirataria",
+     "plain": "E os aplicativos? Existem aplicativos instalados na televisão que captam o sinal das emissoras, numa forma de pirataria. O que pode ser feito com eles?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que a agência apreende as caixinhas de TV Box mas não os aplicativos, derruba sinal em eventos ao vivo e admite que os piratas sempre reagem.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A Anatel consegue apreender as caixinhas e derrubar sinal, mas não alcança os aplicativos.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência age para impedir o funcionamento das TV Box e para apreendê-las em portos, aeroportos e centros de distribuição",
+     "plain": "Com as caixinhas de TV Box, agimos nos dois lados: impedimos o funcionamento e apreendemos os aparelhos. Atuamos em centros de distribuição, portos e aeroportos, junto com a Receita Federal."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "não é possível apreender aplicativos, porque eles são baixados da internet",
+     "plain": "Com os aplicativos não dá para fazer o mesmo, porque eles são baixados da internet. Não temos como apreender um aplicativo."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "os piratas sempre encontram um jeito de reverter os bloqueios da agência, como num jogo de gato e rato",
+     "plain": "É claro que os piratas sempre procuram um jeito de reverter o bloqueio, e eles conseguem. É como um jogo de gato e rato."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Pede que o presidente da Anatel explique três decisões que mexem com o consumidor: atraso de conta, menos lojas físicas e novo horário do SAC.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "As três decisões recentes da agência precisam ser explicadas a quem assiste.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "três decisões recentes da agência mexem com o consumidor: atraso de conta, menos lojas físicas e novo horário do SAC",
+     "plain": "Três decisões recentes da Anatel mexem com o consumidor: o atraso da conta de celular, a diminuição do número de lojas físicas e o novo horário do SAC, que deixou de ser 24 horas e agora vai das 6 da manhã às 10 da noite."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Defende as três decisões: menos lojas com atendimento completo, central que segue 24 horas para emergências e fim da cobrança durante a suspensão parcial.",
+   "quote": [
+    29,
+    30,
+    31
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As três decisões recentes melhoram o atendimento e a cobrança do consumidor.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a nova regra permite menos lojas, mas obriga toda loja com a marca da operadora a resolver o problema do consumidor",
+     "plain": "A proposta aprovada permite reduzir a quantidade de lojas, mas exige que todas atendam tudo. Se a loja tem a logomarca da operadora, ela tem de resolver o problema do consumidor, seja própria ou revendedora."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a central segue 24 por 7 para emergências e das 6 às 22 horas para o resto, com opção de atendente no primeiro menu",
+     "plain": "A central de atendimento continua 24 por 7 para serviços de emergência. Das 6 horas às 22 horas ela atende o que não é emergência. E passamos a exigir a opção de falar com um atendente já no primeiro menu da URA."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      29,
+      30,
+      31
+     ],
+     "type": "juridico",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a agência proibiu a cobrança durante a suspensão parcial, em que o cliente recebia só parte do serviço",
+     "plain": "Antes, na suspensão parcial, o cliente recebia só parte do serviço e pagava a conta inteira. Você via só alguns canais e pagava como se visse todos. A agência decidiu que isso não era razoável e proibiu a cobrança nessa fase."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta como o Ministério das Comunicações e a Anatel podem acelerar a modernização das leis para soltar a radiodifusão e cobrar das novas mídias.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei precisa soltar a radiodifusão e a TV a cabo e cobrar das novas mídias.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a radiodifusão e a TV a cabo não podem ficar tão presas enquanto as novas mídias não pagam nem cumprem determinações",
+     "plain": "O que pode ser feito, com a ajuda de vocês, para acelerar essa modernização e a radiodifusão e a TV a cabo não ficarem tão presas? E para as novas mídias serem taxadas ou terem de cumprir algumas determinações?"
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a radiodifusão é concessão pública e as outras não são, e falta achar o meio-termo",
+     "plain": "Sabemos que a radiodifusão é uma concessão pública e que as outras não são. Como achar esse meio-termo?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que as leis do setor são de 1962 e 1997 e anuncia uma proposta de projeto de lei vinda da parceria com a Universidade de Brasília.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As leis do setor são do século passado e precisam de uma revisão inteira.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Código Brasileiro de Telecomunicações é de 1962 e a Lei Geral de Telecomunicações é de 1997",
+     "plain": "O Código Brasileiro de Telecomunicações é de 1962, se não me engano, e a Lei Geral de Telecomunicações é de 1997. São leis do século passado para dar conta dos desafios do século XXI."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência e o Ministério das Comunicações contrataram a Universidade de Brasília para embasar a revisão da legislação",
+     "plain": "No ano passado e neste ano, a Anatel e o Ministério das Comunicações fizeram parceria com a Universidade de Brasília. Passamos recursos para a universidade pesquisar a legislação e chegar a uma proposta de projeto de lei."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      18
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência espera receber no primeiro semestre do ano que vem o pacote com a proposta de projeto de lei",
+     "plain": "No caso da Anatel, esperamos receber no primeiro semestre do ano que vem esse pacote, com pesquisa, exposição de motivos e uma proposta de projeto de lei para redefinir o papel do Estado no mundo digital."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta que iniciativas cabem agora para discutir a inteligência artificial, sem regulamentá-la, diante do uso criminoso para extorsão e ataque a reputações.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Ainda não é hora de regulamentar a inteligência artificial, e sim de discutir o tema.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a inteligência artificial traz benefícios, mas criminosos a usam para extorquir e manchar reputações",
+     "plain": "Como lidar com a inteligência artificial no país? Ela traz benefícios grandes, mas criminosos a usam para extorquir e manchar reputações. Que iniciativas cabem agora, não para regulamentar, mas para discutir?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Compara a inteligência artificial à tecnologia nuclear, boa e ruim, e sustenta que sem propriedade e controle dos próprios dados não há controle da tecnologia.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem garantir a propriedade dos dados das pessoas não há como controlar a inteligência artificial.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a inteligência artificial cresce para o bem e para o mal, como a tecnologia nuclear, que salva vidas e faz bombas",
+     "plain": "A inteligência artificial cresce para o bem, com inovação, produtividade e carros autônomos, e também para o mal. É como a tecnologia nuclear, que salva vidas e também explode bombas atômicas."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a questão mais fundamental é garantir a propriedade dos dados, que hoje ficam à disposição sem dono",
+     "plain": "A questão mais fundamental é garantir a propriedade dos dados. Quando navegamos na internet ou fazemos uma consulta, deixamos nossos dados à disposição. Não temos nenhuma propriedade sobre eles."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem controle sobre os próprios dados não há como controlar a inteligência artificial",
+     "plain": "Hoje é como se pagássemos com os nossos dados, sem nenhum controle sobre eles. Sem controle sobre os próprios dados, não há como controlar a inteligência artificial."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relembra a polêmica sobre o órgão fiscalizador previsto no projeto das fake news e pergunta se a opinião do presidente da Anatel sobre o tema segue a mesma.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A definição do órgão que fiscaliza o mundo digital segue em aberto no projeto das fake news.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o projeto das fake news previa um órgão fiscalizador e, depois de muita polêmica, pensou-se na Anatel",
+     "plain": "O projeto das fake news deu muita polêmica, porque previa um órgão fiscalizador. Depois de muita discussão, pensou-se na Anatel para esse papel."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que só a Anatel pode dar efetividade à regulação do mundo digital, por ter acesso à infraestrutura, e lembra que a decisão cabe ao Congresso.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Só a Anatel pode dar efetividade à regulação do mundo digital, porque alcança a infraestrutura.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a única forma de dar efetividade à regulação do mundo digital é pela Anatel, que alcança a infraestrutura",
+     "plain": "Temos a convicção de que só pela Anatel é possível dar efetividade à regulação, à fiscalização e à punição no mundo digital. Isso porque a efetividade depende de acesso à infraestrutura da rede."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem poder bloquear conteúdo e tirar do ar, o regulador não garante o cumprimento da lei",
+     "plain": "Sem acesso à infraestrutura, sem poder bloquear o acesso a um conteúdo e tirar do ar, como fazemos com a pirataria, não há como garantir o cumprimento da lei. É preciso ter esse porrete na mão."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a decisão sobre quem regula o mundo digital cabe ao Congresso Nacional",
+     "plain": "Mas repito: essa decisão cabe ao Congresso Nacional. Estamos à disposição."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede 3 minutos ao presidente da Anatel para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Encerra dizendo que a Lei Geral de Telecomunicações nasceu para levar telefone fixo e que o mundo digital surgiu sem que a legislação mudasse.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A legislação do setor continua a mesma enquanto o mundo digital inteiro surgiu.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Lei Geral de Telecomunicações nasceu quando o desafio era dar telefone fixo às pessoas",
+     "plain": "A Lei Geral de Telecomunicações nasceu num momento em que o desafio do Brasil era fazer as pessoas terem telefone fixo."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      12
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "surgiram as plataformas de mídia social, de comércio eletrônico e de mensageria, e a legislação continua a mesma",
+     "plain": "Os desafios agora são os do mundo digital: plataformas de mídia social, de comércio eletrônico, de mensagens, publicidade digital e streaming. Esse mundo todo surgiu e a legislação continua a mesma."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência tem conseguido superar os desafios que apareceram, da internet ao 5G",
+     "plain": "Nesta semana comemoramos 26 anos. Vários outros desafios apareceram, da internet ao celular, da banda larga móvel ao 5G, e temos conseguido superar todos eles."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença do presidente da Anatel e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 42,
+   "to_sentence": 39,
+   "from_claim": null,
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "A agência retoma a preocupação com a segurança cibernética levantada na abertura e lembra que relatou o primeiro regulamento de segurança cibernética da própria agência."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 74,
+   "from_claim": "b006c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A denúncia do contrabando de celulares ganha um alvo concreto: as plataformas de comércio eletrônico que vendem equipamento sem certificação."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 7,
+   "from_claim": "b008c1",
+   "to_claim": "b007c2",
+   "strength": "forte",
+   "note": "À pergunta sobre quantas cidades seguem sem sinal, a agência responde com o levantamento da manhã: cerca de 51 municípios com afetação."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 6,
+   "from_claim": "b008c1",
+   "to_claim": "b007c2",
+   "strength": "forte",
+   "note": "O número da agência contraria a informação de centenas de cidades sem sinal: há afetação em cerca de 51 municípios, sem queda generalizada."
+  },
+  {
+   "from": "b010",
+   "to": "b009",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b010c1",
+   "to_claim": "b009c1",
+   "strength": "forte",
+   "note": "À cobrança por uma saída concreta para os fios, a resposta é o regulamento dos postes aprovado há 2 semanas pelo conselho da agência."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 2,
+   "from_claim": "b012c2",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "À pergunta sobre os aplicativos, a agência responde que não há como apreendê-los, porque são baixados da internet."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 0,
+   "from_claim": "b012c1",
+   "to_claim": "b011c1",
+   "strength": "media",
+   "note": "A agência confirma o balanço das operações citado pela presidência e detalha onde as caixinhas são apreendidas."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 31,
+   "to_sentence": 2,
+   "from_claim": "b014c3",
+   "to_claim": "b013c1",
+   "strength": "forte",
+   "note": "Sobre as decisões que mexem com o consumidor, a agência responde ponto a ponto e informa que a cobrança na suspensão parcial foi proibida."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 2,
+   "from_claim": "b014c2",
+   "to_claim": "b013c1",
+   "strength": "media",
+   "note": "A agência corrige a ideia de que o atendimento deixou de ser 24 horas: ele segue 24 por 7 para emergências e das 6 às 22 horas para o resto."
+  },
+  {
+   "from": "b015",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 14,
+   "from_claim": "b015c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A presidência retoma a assimetria apontada pela agência e pede o caminho para soltar a radiodifusão e cobrar das novas mídias."
+  },
+  {
+   "from": "b016",
+   "to": "b015",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 6,
+   "from_claim": "b016c1",
+   "to_claim": "b015c1",
+   "strength": "forte",
+   "note": "À pergunta sobre como acelerar a modernização, a resposta é que as leis do setor são de 1962 e 1997 e precisam de revisão inteira."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 6,
+   "from_claim": "b016c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A crítica ao regime legal montado na privatização volta como diagnóstico: são leis do século passado para desafios do século XXI."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 3,
+   "from_claim": "b018c2",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "À pergunta sobre o que discutir agora, a resposta aponta a propriedade dos dados como a questão mais fundamental da inteligência artificial."
+  },
+  {
+   "from": "b018",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 39,
+   "from_claim": "b018c2",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "A proteção dos dados dos cidadãos, citada na abertura, reaparece como a questão mais fundamental diante da inteligência artificial."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 1,
+   "from_claim": "b020c1",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "À pergunta sobre o órgão fiscalizador do projeto das fake news, a agência confirma que se considera a única com meios para esse papel."
+  },
+  {
+   "from": "b020",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 39,
+   "from_claim": "b020c1",
+   "to_claim": "b001c3",
+   "strength": "media",
+   "note": "O papel da agência na segurança das redes, lembrado na abertura, vira o argumento de que só ela pode fiscalizar o mundo digital."
+  },
+  {
+   "from": "b020",
+   "to": "b007",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 4,
+   "from_claim": "b020c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "Ao argumento de que a agência não dá conta do que já faz, responde a convicção de que só ela tem meios para fiscalizar o mundo digital."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 6,
+   "from_claim": "b022c2",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Na despedida, o diagnóstico se repete: o mundo digital surgiu inteiro e a legislação do setor ficou parada onde estava."
+  },
+  {
+   "from": "b022",
+   "to": "b007",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 4,
+   "from_claim": "b022c3",
+   "to_claim": "b007c1",
+   "strength": "media",
+   "note": "O balanço dos 26 anos responde à dúvida sobre a capacidade da agência: os desafios que apareceram foram superados."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b020"
+   ],
+   "claims": [
+    "b001c3",
+    "b020c1"
+   ],
+   "note": "A presidência da comissão e a agência concordam que a Anatel tem papel central na segurança das redes e na proteção dos dados dos cidadãos."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b015"
+   ],
+   "claims": [
+    "b002c1",
+    "b015c1"
+   ],
+   "note": "A agência e a presidência da comissão concordam que as mídias tradicionais carregam obrigações que os serviços digitais não têm e que isso precisa mudar."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b015",
+    "b016",
+    "b022"
+   ],
+   "claims": [
+    "b016c1",
+    "b022c2"
+   ],
+   "note": "A presidência da comissão e a agência concordam que as leis do setor ficaram velhas e que o mundo digital surgiu sem que a legislação mudasse."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b011",
+    "b012"
+   ],
+   "claims": [
+    "b011c1",
+    "b012c1"
+   ],
+   "note": "A presidência da comissão e a agência concordam que as operações contra as caixinhas de TV Box deram resultado e devem continuar."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b007",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": "b008",
+   "gist": "quantas cidades de São Paulo seguem sem sinal por causa das chuvas",
+   "plain": "Hoje ainda há cidades de São Paulo sem sinal de telefone por causa das fortes chuvas?",
+   "theme": "d7",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b009",
+   "sentence": 4,
+   "addressed_to": "governo",
+   "answered_by": "b010",
+   "gist": "o que pode ser feito para tirar do papel a solução dos postes",
+   "plain": "O que pode ser feito para sair do discurso e tirar do papel uma solução para os fios nos postes?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b011",
+   "sentence": 2,
+   "addressed_to": "governo",
+   "answered_by": "b012",
+   "gist": "o que pode ser feito com os aplicativos que captam o sinal das emissoras",
+   "plain": "O que pode ser feito com os aplicativos instalados na televisão que captam o sinal das emissoras?",
+   "theme": "d6",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b013",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": "b014",
+   "gist": "explicar as três decisões recentes que mexem com o consumidor",
+   "plain": "O senhor poderia explicar as três decisões recentes da agência que mexem com o consumidor?",
+   "theme": "d8",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b015",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": "b016",
+   "gist": "o que pode ser feito para acelerar a modernização das leis",
+   "plain": "O que pode ser feito para acelerar a modernização das leis do setor de comunicação?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b017",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": "b018",
+   "gist": "que iniciativas cabem agora para discutir a inteligência artificial",
+   "plain": "Que iniciativas cabem agora, não para regulamentar, mas para discutir a inteligência artificial?",
+   "theme": "d4",
+   "position": "contrario"
+  },
+  {
+   "id": "q7",
+   "from": "b019",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": "b020",
+   "gist": "se a opinião sobre o órgão fiscalizador do projeto segue a mesma",
+   "plain": "A sua opinião sobre o órgão que vai fiscalizar continua a mesma se o projeto for ajustado?",
+   "theme": "d1",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b008",
+   "sentence": 1,
+   "gist": "cerca de 51 municípios de São Paulo com afetação",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 72,
+   "gist": "celulares contrabandeados dobraram de 8% para 17%",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b011",
+   "sentence": 1,
+   "gist": "80% dos aparelhos de TV Box saíram de circulação",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b016",
+   "sentence": 4,
+   "gist": "Código Brasileiro de Telecomunicações é de 1962",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b016",
+   "sentence": 5,
+   "gist": "Lei Geral de Telecomunicações é de 1997",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 8,
+   "gist": "quase 5 dias sem energia esgotam baterias e geradores",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 18,
+   "gist": "atendimento não emergencial das 6 às 22 horas",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 1,
+   "gist": "regulamento dos postes aprovado há 2 semanas",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b002",
+   "sentence": 6,
+   "gist": "regime legal do setor foi construído em 1998",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 13,
+   "gist": "mais de 90% dos servidores da agência em teletrabalho",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d2",
+   "d3",
+   "d7"
+  ],
+  "roles_quoted": [
+   "governo",
+   "mesa"
+  ],
+  "angle": "A matéria usou o apagão em São Paulo como gancho e aproveitou o resto da audiência para mostrar a defesa da revisão das leis do setor.",
+  "omitted": "Ficaram de fora os fios nos postes, a pirataria, o atendimento ao consumidor e o debate sobre inteligência artificial e dados pessoais."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "As mesmas regras para as mídias novas e antigas",
+   "statement_plain": "Rádio, TV e telefonia carregam obrigações que streaming, redes sociais e aplicativos não têm. As regras precisam valer para todos, e a lei tem de ser reescrita.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b015c1",
+    "b002c2",
+    "b016c1",
+    "b022c2"
+   ],
+   "note": "A ideia junta a agência reguladora e a presidência da comissão, que chegam a ela por caminhos diferentes: uma fala de concorrência, a outra de radiodifusão presa."
+  },
+  {
+   "id": "t2",
+   "title": "Só a Anatel consegue fiscalizar o mundo digital",
+   "statement_plain": "Quem regula tem de poder bloquear conteúdo e tirar do ar. Como é a Anatel que alcança a infraestrutura da rede, é ela que consegue fazer a lei valer.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b020c1",
+    "b020c2",
+    "b001c3",
+    "b022c3"
+   ],
+   "note": "A defesa não vem só da agência: a abertura da comissão já atribuía à Anatel o papel de garantir a segurança das redes e proteger os dados."
+  },
+  {
+   "id": "t3",
+   "title": "A agência não dá conta do que já tem",
+   "statement_plain": "A Anatel tem pouca gente para tudo o que faz, não alcança os aplicativos e ainda tirou lojas e horário do atendimento. Ampliar o que ela fiscaliza não resolve sozinho.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d8": "contrario"
+   },
+   "claims_chave": [
+    "b007c1",
+    "b012c2",
+    "b012c3",
+    "b013c1"
+   ],
+   "note": "A ideia divide a própria agência: quem a preside admite que não alcança os aplicativos e que os piratas revertem os bloqueios, e a presidência da comissão aponta a falta de pessoal."
+  },
+  {
+   "id": "t4",
+   "title": "Sem energia, a rede de telefonia cai junto",
+   "statement_plain": "Sem energia elétrica as torres param. Depois de quase 5 dias, as baterias e os geradores chegam ao fim, e o sinal cai junto com a luz.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b007c2",
+    "b008c2",
+    "b008c3"
+   ],
+   "note": "A ideia cruza os lados: quem preside a comissão e quem preside a agência descrevem o mesmo risco, cada um com a informação que tem."
+  },
+  {
+   "id": "t5",
+   "title": "Apreender e bloquear já reduz a pirataria",
+   "statement_plain": "Apreender as caixinhas nos portos, multar as plataformas que vendem equipamento sem certificação e derrubar o sinal dos piratas dá resultado e deve continuar.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b006c1",
+    "b006c2",
+    "b011c1",
+    "b012c1"
+   ],
+   "note": "A ideia atravessa a mesa e a agência: a presidência da comissão traz o balanço das operações e a agência descreve onde apreende e como bloqueia."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "assimetria regulatória",
+   "fala": "b002",
+   "sentence": 8,
+   "plain": "diferença de regras entre empresas que disputam o mesmo mercado, em que umas carregam obrigações e outras não"
+  },
+  {
+   "term": "Marco Civil da Internet",
+   "fala": "b002",
+   "sentence": 18,
+   "plain": "lei que define direitos e deveres de quem usa e de quem oferece serviços na internet no Brasil"
+  },
+  {
+   "term": "CONDECINE",
+   "fala": "b002",
+   "sentence": 21,
+   "plain": "contribuição paga sobre a exploração de obras audiovisuais no país, usada para financiar o setor de cinema"
+  },
+  {
+   "term": "espectro de radiofrequência",
+   "fala": "b002",
+   "sentence": 35,
+   "plain": "faixas de ondas de rádio que levam sinal de celular e de TV, um bem público comprado em leilão pelas empresas"
+  },
+  {
+   "term": "caladão",
+   "fala": "b007",
+   "sentence": 6,
+   "plain": "expressão do setor para a queda geral do sinal de telefone e de internet numa região"
+  },
+  {
+   "term": "vistas",
+   "fala": "b010",
+   "sentence": 5,
+   "plain": "pedido de um integrante do conselho para examinar melhor um processo, o que adia a decisão"
+  },
+  {
+   "term": "posteiro",
+   "fala": "b010",
+   "sentence": 25,
+   "plain": "nome dado na proposta da agência ao responsável por cuidar de um poste e cobrar das empresas que penduram cabos nele"
+  },
+  {
+   "term": "ABNT",
+   "fala": "b010",
+   "sentence": 26,
+   "plain": "Associação Brasileira de Normas Técnicas, entidade que define as normas técnicas seguidas no país"
+  },
+  {
+   "term": "TV Box",
+   "fala": "b012",
+   "sentence": 2,
+   "plain": "caixinha ligada à televisão que capta canais pagos sem autorização, vendida no mercado ilegal"
+  },
+  {
+   "term": "SAC",
+   "fala": "b013",
+   "sentence": 2,
+   "plain": "serviço de atendimento ao consumidor, o canal que a empresa mantém para receber reclamações e pedidos"
+  },
+  {
+   "term": "URA",
+   "fala": "b014",
+   "sentence": 19,
+   "plain": "Unidade de Resposta Audível, o menu gravado que atende a ligação antes de passar para uma pessoa"
+  },
+  {
+   "term": "Lei Geral de Telecomunicações",
+   "fala": "b016",
+   "sentence": 5,
+   "plain": "lei de 1997 que organiza os serviços de telecomunicações no Brasil e criou o modelo em vigor"
+  },
+  {
+   "term": "TED",
+   "fala": "b016",
+   "sentence": 12,
+   "plain": "termo de execução descentralizada, acordo pelo qual um órgão público repassa recursos a outro para executar um trabalho"
+  }
+ ]
+}

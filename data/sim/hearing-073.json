@@ -1,0 +1,1535 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 73,
+ "model": "LLM lendo o prompt hearing-073 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:35:14Z",
+ "prompt_sha256": "f56059e091f1f6986bacc01783d26f89e3dfa15a250138c991a864c3d5ebcd1c",
+ "sentences_hash": "6ecbed7a85abf07e",
+ "review": {
+  "pairs_read": 26,
+  "pairs_fixed": 14
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Defesa dos Direitos da Pessoa Idosa debateu o Projeto de Lei 2.002/2019, que cria regras especiais para o contrato de seguro de vida celebrado por idosos. Órgãos de defesa do consumidor, entidades de aposentados e a federação das seguradoras discutiram se cobrar mais caro ou recusar contrato por causa da idade é cálculo de risco ou discriminação. Também se cobrou clareza nos contratos e o fim de cláusulas que cortam a cobertura.",
+ "stakes": "Se a Câmara vai escrever no Estatuto do Idoso e no Código de Defesa do Consumidor a proibição de preço diferente por idade no seguro de vida.",
+ "central_question": "Cobrar mais caro do idoso, ou recusar seu contrato de seguro de vida por causa da idade, é cálculo de risco ou discriminação?",
+ "synopsis_plain": "A comissão que cuida dos direitos da pessoa idosa discutiu um projeto que quer criar regras próprias para o seguro de vida de quem tem mais idade. De um lado, entidades de aposentados e órgãos de defesa do consumidor dizem que cobrar mais caro ou recusar contrato por causa da idade é discriminação. De outro, as seguradoras dizem que o preço apenas acompanha o risco de cada idade.",
+ "stakes_plain": "Se o Congresso vai proibir por lei que o seguro de vida cobre preço diferente ou recuse contrato por causa da idade da pessoa.",
+ "central_question_plain": "Cobrar mais caro do idoso no seguro de vida é conta de risco ou é discriminação?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Preço do seguro e idade",
+   "description": "Se o valor do seguro de vida pode subir por causa da idade do segurado e o que isso faz com quem envelhece.",
+   "axis": {
+    "pro": "Usar a idade no cálculo do prêmio é técnica necessária e é o que mantém o seguro equilibrado.",
+    "contra": "Cobrar mais caro por causa da idade empurra o idoso para fora do seguro e é discriminação.",
+    "pro_plain": "O preço tem de acompanhar o risco de cada idade, senão o seguro não se sustenta.",
+    "contra_plain": "Subir o preço por causa da idade deixa o idoso sem seguro e é discriminação."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Recusa e fim do contrato",
+   "description": "Se a seguradora pode deixar de renovar o contrato ou recusar um novo seguro por causa da idade de quem contrata.",
+   "axis": {
+    "pro": "A seguradora pode não renovar ao fim da vigência e recusar novo contrato, porque a regra vale para os dois lados.",
+    "contra": "Recusar contrato ou não renovar por causa da idade é prática abusiva e fere o Estatuto do Idoso.",
+    "pro_plain": "Ao fim do prazo, as duas partes decidem se renovam, e isso não é abuso.",
+    "contra_plain": "Dizer não ao idoso ou parar de renovar o contrato por causa da idade é abuso."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Clareza do contrato e exclusões",
+   "description": "Se quem contrata entende o que está assinando e o que o contrato deixa de fora da cobertura.",
+   "axis": {
+    "pro": "O contrato esconde o que restringe direitos e essas cláusulas precisam sair.",
+    "contra": "As seguradoras já cumprem as regras de transparência que a norma exige.",
+    "pro_plain": "O que tira direito vem em letra miúda e o idoso só descobre quando precisa usar o seguro.",
+    "contra_plain": "As seguradoras dizem que já informam tudo o que a regra exige."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Onde escrever a regra",
+   "description": "Se a proteção do idoso deve ser escrita no Estatuto do Idoso e no Código de Defesa do Consumidor ou deixada com o regulador do setor.",
+   "axis": {
+    "pro": "Aprovar o projeto e escrever a proibição no Estatuto do Idoso e no Código de Defesa do Consumidor.",
+    "contra": "Tratar o assunto pela agência que regula os seguros e deixar o Código só com princípios gerais.",
+    "pro_plain": "A proibição tem de estar escrita na lei do idoso e na lei do consumidor.",
+    "contra_plain": "Melhor deixar isso com a agência que regula os seguros, e não no Código do Consumidor."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Função social do seguro",
+   "description": "Se o custo de cobrir quem tem mais idade deve ser dividido com o resto da sociedade, num país que envelhece depressa.",
+   "axis": {
+    "pro": "O seguro tem função social e o custo de cobrir o idoso deve ser dividido com toda a sociedade.",
+    "contra": "Um produto de seguro não pode ser deficitário e o equilíbrio do cálculo vem primeiro.",
+    "pro_plain": "O país está envelhecendo e a conta do seguro do idoso tem de ser dividida por todos.",
+    "contra_plain": "O seguro não pode dar prejuízo, e por isso o cálculo tem de vir antes."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Plano de saúde do idoso",
+   "description": "O reajuste por faixa etária e a recusa de adesão nos planos de saúde, trazidos ao debate ao lado do seguro de vida.",
+   "axis": {
+    "pro": "O plano de saúde também expulsa o idoso pela idade e o problema é o mesmo do seguro de vida.",
+    "contra": "Seguro de vida e plano de saúde têm objetivos diferentes e não podem ser comparados.",
+    "pro_plain": "O reajuste por idade e a recusa no plano de saúde tiram o idoso da cobertura.",
+    "contra_plain": "Plano de saúde e seguro de vida servem a coisas diferentes e não se comparam."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Vice-Presidente da Comissão, presidindo a reunião",
+   "org": "Comissão de Defesa dos Direitos da Pessoa Idosa",
+   "basis": "abre a reunião em b001.1 e, em b019.22 e b019.23, diz que é autor do requerimento e preside como Vice-Presidente",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha os direitos da pessoa idosa"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Coordenador de Monitoramento de Mercado",
+   "org": "SENACON",
+   "basis": "apresentado pela presidência em b001.9 e por ele mesmo em b002.2",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Secretaria Nacional do Consumidor",
+   "org_plain": "órgão do governo federal que cuida da defesa do consumidor em todo o país"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "representante",
+   "org": "COBAP",
+   "basis": "apresentado pela presidência em b001.11 e por ele mesmo em b004.1",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da COBAP, a confederação dos aposentados",
+   "org_plain": "confederação que reúne aposentados, pensionistas e idosos de todo o Brasil"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Diretor-Geral",
+   "org": "PROCON-DF",
+   "basis": "apresentado pela presidência em b001.8 e por ele mesmo em b006.6",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "do Procon do Distrito Federal",
+   "org_plain": "órgão público que atende reclamações de consumidores no Distrito Federal"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "Diretora-Executiva",
+   "org": "FENAPREVI",
+   "basis": "apresentada pela presidência em b001.12",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da FENAPREVI, federação das seguradoras de pessoas",
+   "org_plain": "federação que reúne as empresas que vendem seguro de vida e previdência privada"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "representante",
+   "org": "CNDPI",
+   "basis": "apresentado pela presidência em b001.13 e por ele mesmo em b010.6",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Conselho Nacional dos Direitos da Pessoa Idosa",
+   "org_plain": "conselho que reúne governo e sociedade civil para acompanhar os direitos da pessoa idosa"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora Executiva",
+   "org": "ADUSEPS",
+   "basis": "apresentada pela presidência em b001.14",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ADUSEPS, associação de usuários de planos de saúde",
+   "org_plain": "associação que defende quem usa seguros, planos e sistemas de saúde"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Secretário de Formação e Organização",
+   "org": "CONTAG",
+   "basis": "apresentado pela presidência em b001.15 e por ele mesmo em b016.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da CONTAG, a confederação dos trabalhadores rurais",
+   "org_plain": "confederação que reúne sindicatos de trabalhadores rurais e da agricultura familiar"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da federação de aposentados do Distrito Federal",
+   "org": "FADASPI-DF",
+   "basis": "apresentado pela presidência em b017.8",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da federação de aposentados do Distrito Federal",
+   "org_plain": "federação que reúne associações e sindicatos de aposentados e pensionistas do Distrito Federal"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.5
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "mesa",
+    "share": 0.05
+   }
+  ],
+  "basis": "a reunião é por videoconferência e transmitida pelo e-Democracia (b001.4), sem registro de plateia na sala nem menção a delegações presentes",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o PL 2.002/2019 e apresenta os oito convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta dados de reclamações de consumidores idosos em seguros e propõe substituir o texto do projeto por uma definição geral de consumidor hipervulnerável.",
+   "quote": [
+    33,
+    34,
+    35
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 35,
+   "stance": {
+    "position": "condicional",
+    "claim": "O problema do seguro para idosos é real, mas a regra deve vir da agência que regula o setor e o Código do Consumidor deve ganhar só um princípio geral.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "acima de 60 anos, o setor de seguros passa de sétimo a quarto mais reclamado",
+     "plain": "Quando olhamos só quem tem acima de 60 anos, o setor de seguros sai de sétimo e vira o quarto mais reclamado. Os dados mostram que temos um problema de seguros para idosos."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o caminho é a Susep estudar o impacto, e não incluir temas de um setor no Código de Defesa do Consumidor",
+     "plain": "Para nós, o melhor caminho é a análise de impacto feita pela agência que regula o setor, que aqui é a Susep. Pôr temas de um setor no Código de Defesa do Consumidor pode tirar dele o caráter de lei de princípios."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      46,
+      47
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "o projeto poderia inserir no Código de Defesa do Consumidor a definição de consumidor hipervulnerável",
+     "plain": "O projeto poderia trazer ao Código de Defesa do Consumidor a definição de consumidor hipervulnerável: quem tem mais dificuldade de exercer seus direitos por causa da idade, do estado físico ou mental, ou da sua condição social."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Paulo Nei e passa a palavra a Luiz Legñani.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que recusar ou encarecer o seguro do idoso por causa da idade é prática abusiva e defende a aprovação do projeto de lei.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Recusar contrato ou não renovar a apólice por causa da idade do segurado é prática abusiva e discriminatória.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 70% dos que morreram na pandemia eram idosos e, quando o idoso morre, o benefício cessa e muita gente fica sem recurso",
+     "plain": "Na pandemia, mais de 70% dos que morreram eram idosos, e muitos sustentavam a família. Quando o idoso morre, o benefício cessa e muita gente fica sem recurso nenhum."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a prática das seguradoras é abusiva porque contraria o artigo 4º do Estatuto do Idoso",
+     "plain": "A prática das seguradoras é abusiva porque contraria o artigo 4º do Estatuto do Idoso, que proíbe qualquer discriminação contra a pessoa idosa e manda punir quem atenta contra esses direitos."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      23
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso aprovar o PL 2.002/19 para escrever no Estatuto do Idoso que essa prática é discriminatória",
+     "plain": "Entendemos que é preciso aprovar o PL 2.002/19 para que essa prática fique escrita como discriminatória no Estatuto do Idoso e a cláusula do contrato possa ser anulada."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência tenta de novo o áudio de Marcelo de Souza do Nascimento e lhe passa a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que os Procons apoiam o projeto e aponta a falta de informação clara ao idoso, com cláusulas restritivas escritas em letras miúdas.",
+   "quote": [
+    55,
+    56,
+    57
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O idoso contrata sem entender o que assina, e o projeto de lei ajuda a proteger esse consumidor.",
+    "sentence": 55
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os órgãos de defesa do consumidor e os Procons concordam com o Projeto de Lei 2.002, de 2019",
+     "plain": "Os órgãos de defesa do consumidor, e em especial os Procons, concordam com o Projeto de Lei 2.002, de 2019. Digo isso pelo Procon do Distrito Federal e pela associação brasileira dos Procons, e lembro que há 988 Procons no país."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Superior Tribunal de Justiça prevaleceu o entendimento de que não renovar e reajustar por faixa etária, com aviso prévio, não é abuso",
+     "plain": "A Justiça já tratou disso. No Superior Tribunal de Justiça prevaleceu o entendimento de que não é abuso a cláusula de não renovar o seguro, se ela valer para os dois lados, nem o reajuste por faixa etária avisado antes."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      55,
+      56
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o idoso contrata sem informação clara e legível, e as cláusulas que restringem direitos vêm em letras miúdas",
+     "plain": "Falta informação antes da contratação. O idoso não recebe explicação clara e legível, e as cláusulas que restringem direitos vêm em letras miúdas que ele muitas vezes nem consegue ler."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Procon do Distrito Federal e passa a palavra a Beatriz Herranz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que o preço do seguro vem do cálculo do risco por idade e sustenta que isso não é discriminação da pessoa idosa.",
+   "quote": [
+    93,
+    94,
+    95
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O uso da idade no cálculo do prêmio é critério técnico e não configura discriminação da pessoa idosa.",
+    "sentence": 93
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "para a idade se usa a tábua biométrica, uma tabela com a probabilidade de morte em cada idade",
+     "plain": "Para a idade, usamos a tábua biométrica. Trouxe no eslaide um exemplo, a AT-2000. Ela é só uma tabela com a probabilidade de morte em cada idade."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      87,
+      88
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no seguro de vida a seguradora não pode rescindir sozinha e as seguradoras cumprem a vigência do contrato",
+     "plain": "No seguro de vida a seguradora não pode rescindir o contrato sozinha. Nós, seguradores, cumprimos os nossos contratos até o fim da vigência."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      93,
+      94
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "aplicar critérios atuariais no cálculo do prêmio não é discriminar o idoso e é o que garante o pagamento aos beneficiários",
+     "plain": "Usar critérios atuariais no cálculo do prêmio não é discriminar a pessoa idosa. Esses critérios são o que mantém o seguro equilibrado e garante a proteção financeira aos beneficiários de quem morre."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Beatriz Herranz e chama Mauro Moreira de Oliveira Freitas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que o país terá 25% da população idosa e pede uma forma de dividir o custo do seguro com toda a sociedade.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    7
+   ],
+   "open_question": 23,
+   "stance": {
+    "position": "condicional",
+    "claim": "O cálculo de risco existe, mas o custo de cobrir quem envelhece precisa ser redistribuído para que o idoso não fique sem seguro.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em breve 25% da população será idosa e, sem uma saída, essa parte ficará sem cobertura ou com cobertura frágil",
+     "plain": "Viver mais sem cobertura não é viver com dignidade, e em breve 25% da população será idosa. Sem uma saída em que o preço do seguro caiba no bolso, essa gente fica sem cobertura ou com uma cobertura muito frágil."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      35
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o cálculo matemático beneficia a parte jovem da sociedade, cada vez menor, e prejudica a que envelhece, cada vez maior",
+     "plain": "Por causa de um cálculo matemático, acabamos beneficiando a parte jovem da sociedade, que é cada vez menor, e prejudicando a parte que está envelhecendo, que é cada vez maior."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      26
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o que mais preocupa é a seguradora negar ao idoso o direito básico de contratar",
+     "plain": "O que mais me preocupa é a recusa: as seguradoras podem simplesmente não aceitar um princípio básico, que é o direito de contratar."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao representante do conselho e passa a palavra a Renê Patriota.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Relata casos de aumento e de cláusulas que cortam a cobertura do idoso e pede que o projeto retire os riscos excluídos dos contratos.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 108,
+   "stance": {
+    "position": "contrario",
+    "claim": "O reajuste por idade e as cláusulas de exclusão expulsam o idoso do plano de saúde e do seguro de vida.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "aos 59 anos o plano de saúde dela passou de 2.600 reais para 6.200 reais",
+     "plain": "Ao completar 59 anos, o plano de saúde dela, a Amil, passou de 2.600 reais para 6.200 reais. Como sobreviver a um aumento abusivo assim, se ela já pagava os 2.600 reais com dificuldade?"
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      52,
+      53,
+      54
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a apólice cobre doença grave só até os 65 anos e ela, com 66 anos, já não pode contratar",
+     "plain": "O seguro cobre doença grave só até os 65 anos, e eu fiz 66 anos, então já não posso contratar. É um absurdo o que essa apólice de seguro de vida estabelece."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      85,
+      86,
+      87
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a cláusula dos riscos excluídos deixa de fora quem morre numa catástrofe como a das chuvas de Recife",
+     "plain": "Temos um problema gravíssimo no contrato, a cláusula dos riscos excluídos. Em Recife houve uma catástrofe com as chuvas e a cheia dos rios, e muita gente morreu, mas para o seguro de vida esse é um risco excluído."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Renê Patriota e passa a palavra a Carlos Augusto Santos Silva.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante da CONTAG agradece o convite ao presidente da comissão e ao relator.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": true,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência interrompe para cumprimentar o representante da CONTAG e devolve-lhe o tempo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata denúncias de abordagem abusiva a idosos do campo e defende que a lei preveja punição para quem oferece esses seguros.",
+   "quote": [
+    29,
+    30,
+    31
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei precisa não só reafirmar o direito do idoso, mas criar controle e punição para quem o desrespeita na venda de seguros.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a CONTAG recebe, pelos seus 4 mil sindicatos, denúncias da forma abusiva como abordam os idosos",
+     "plain": "A CONTAG, com as suas federações e os nossos 4 mil sindicatos pelo Brasil, recebe denúncias sobre a forma abusiva como abordam os nossos companheiros e companheiras da terceira idade."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      29
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o importante é criar formas de controlar, questionar e punir quem fornece esses serviços de seguro",
+     "plain": "Na minha avaliação, o importante é saber como punir quem fornece esses serviços e como criar formas de controlar e questionar o jeito como esses seguros são oferecidos."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os segurados especiais do campo e da cidade foram os que mais morreram na COVID e o Estado precisa se redimir",
+     "plain": "Os segurados especiais, no campo e na cidade, já foram penalizados ao longo dos anos por causa da COVID, e foram o grupo que mais sofreu com a mortalidade. O Estado precisa se redimir com essas pessoas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as exposições, abre o debate e passa a palavra a João Pimenta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta que pagou seguro por 33 anos, viu o valor subir 47% aos 69 anos e teve o contrato cancelado ao recorrer à Justiça.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O seguro de vida sobe tanto com a idade que o aposentado não consegue mantê-lo, e quem reclama acaba sem contrato.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o seguro dele subiu todo ano e chegou a 47% de aumento quando ele completou 69 anos",
+     "plain": "Aos 50 anos o seguro subiu violentamente e, aos 60, achei que não ia mais dar conta de pagar. Ele foi aumentando a cada ano e, quando completei 69 anos, tinha subido 47%."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "ele entrou na Justiça porque não tinha apoio da defesa do consumidor, e aí o seguro foi cancelado na hora",
+     "plain": "Eu deduzi que eles não cancelavam o contrato de um lado só, como uma expositora mencionou, e foi isso que me deu um grande problema. Sem apoio da defesa do consumidor, entrei na Justiça, e o seguro foi cancelado na hora."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o banco desistiu de vender o seguro de vida quando viu que ele tem mais de 69 anos",
+     "plain": "Abri uma conta no banco de cor laranja. A moça ia me vender um seguro de vida, mas depois disse que eu não podia porque tenho mais de 69 anos. Então, nós temos que morrer à míngua?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que a seguradora trata o segurado como objeto e que o Parlamento tem de pensar no lado social, não só no econômico.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O seguro de vida tem um lado social que o Parlamento precisa defender, e não só a conta econômica da seguradora.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as seguradoras veem o segurado como objeto que deixa de interessar quando o tempo o desgasta",
+     "plain": "As seguradoras talvez não nos vejam como cidadãos, e sim como objeto que deixa de interessar quando o tempo o desgasta. Esta Casa não pode pensar só no econômico, tem de pensar no social, para as pessoas terem qualidade de vida."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "romper o contrato só parte da seguradora, quando poderia partir também de quem assina",
+     "plain": "A expositora anterior disse que, se a pessoa paga 1 milhão de reais ao longo da vida e não é atendida quando precisa, é melhor guardar na poupança. Romper o contrato só parte deles, e poderia partir também de quem assina."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 46,
+   "from_claim": null,
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "O Procon do Distrito Federal diz que a definição de consumidor hipervulnerável sugerida pela Secretaria Nacional do Consumidor descreve justamente a pessoa idosa de que se trata ali."
+  },
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 23,
+   "from_claim": "b006c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Os dois declaram apoio ao mesmo projeto de lei, um em nome dos Procons e o outro em nome da confederação dos aposentados."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 93,
+   "to_sentence": 17,
+   "from_claim": "b008c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Onde a confederação dos aposentados vê prática abusiva contra o Estatuto do Idoso, a federação das seguradoras responde que o cálculo por idade não é discriminação."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 99,
+   "to_sentence": 55,
+   "from_claim": null,
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "O Procon diz que falta informação clara ao idoso, e a federação das seguradoras responde que o setor cumpre o que a norma exige de transparência."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 94,
+   "from_claim": "b010c1",
+   "to_claim": "b008c3",
+   "strength": "media",
+   "note": "O conselho de direitos da pessoa idosa concorda com a representante das seguradoras quando ela fala em equilíbrio e em segurança para quem fica."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 35,
+   "to_sentence": 93,
+   "from_claim": "b010c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "Para o conselho, o mesmo cálculo que as seguradoras chamam de técnico acaba beneficiando a parte jovem da sociedade e prejudicando a que envelhece."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 26,
+   "to_sentence": 17,
+   "from_claim": "b010c3",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Os dois tratam a recusa de contratar com o idoso como o problema central, um pelo direito de contratar e o outro pelo Estatuto do Idoso."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 54,
+   "to_sentence": 93,
+   "from_claim": "b012c2",
+   "to_claim": "b008c3",
+   "strength": "forte",
+   "note": "A associação de usuários lê na apólice que a cobertura de doença grave acaba aos 65 anos e chama isso de absurdo, contra a afirmação de que não há discriminação."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 52,
+   "to_sentence": 56,
+   "from_claim": "b012c2",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Os dois apontam a mesma coisa: o que restringe direito está escrito no contrato de um jeito que o idoso só descobre quando precisa usar o seguro."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 25,
+   "to_sentence": 33,
+   "from_claim": null,
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A confederação dos trabalhadores rurais diz que as estatísticas trazidas pelos órgãos de defesa do consumidor fundamentam a proposta em discussão."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 5,
+   "from_claim": "b016c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "A confederação apoia o projeto como o Procon, mas acrescenta que o texto precisa dizer como punir quem oferece o seguro de forma abusiva."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 7,
+   "from_claim": "b016c3",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "Os dois lembram que o grupo mais atingido pela mortalidade da pandemia foi o das pessoas idosas, no campo e na cidade."
+  },
+  {
+   "from": "b018",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 19,
+   "to_sentence": 87,
+   "from_claim": "b018c2",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O aposentado conta que o seguro dele foi cancelado assim que ele entrou na Justiça, ao contrário do que a representante das seguradoras afirmou sobre rescisão."
+  },
+  {
+   "from": "b018",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 20,
+   "to_sentence": 5,
+   "from_claim": "b018c2",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "O aposentado diz que não encontrou apoio nos órgãos de defesa do consumidor que ali se declararam de acordo com o projeto."
+  },
+  {
+   "from": "b019",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 87,
+   "from_claim": "b019c2",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "A mesa observa que acabar o contrato antes da hora é coisa que só a seguradora faz, e que quem assina não tem o mesmo direito."
+  },
+  {
+   "from": "b019",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 10,
+   "from_claim": "b019c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A mesa diz que a seguradora enxerga a pessoa como objeto, o que casa com o aumento relatado pela associação de usuários."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 40,
+   "from_claim": "b019c1",
+   "to_claim": "b018c3",
+   "strength": "media",
+   "note": "A mesa endossa o relato do aposentado que teve a venda recusada, dizendo que o segurado deixa de interessar quando o tempo passa."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d4",
+   "falas": [
+    "b004",
+    "b006",
+    "b016"
+   ],
+   "claims": [
+    "b004c3",
+    "b006c1",
+    "b016c2"
+   ],
+   "note": "A confederação dos aposentados, o Procon do Distrito Federal e a confederação dos trabalhadores rurais apoiam o projeto e querem a proteção do idoso escrita em lei."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b006",
+    "b012"
+   ],
+   "claims": [
+    "b006c3",
+    "b012c2",
+    "b012c3"
+   ],
+   "note": "O Procon do Distrito Federal e a associação de usuários concordam que o contrato esconde do idoso o que ele perde, seja em letra miúda, seja em cláusula de exclusão."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b018",
+    "b019"
+   ],
+   "claims": [
+    "b004c2",
+    "b018c2",
+    "b018c3",
+    "b019c2"
+   ],
+   "note": "A confederação dos aposentados, um aposentado do Distrito Federal e a mesa concordam que recusar ou acabar o contrato por causa da idade deixa o idoso sem saída."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b004",
+    "b010",
+    "b016",
+    "b019"
+   ],
+   "claims": [
+    "b004c1",
+    "b010c1",
+    "b016c3",
+    "b019c1"
+   ],
+   "note": "O conselho de direitos, duas confederações e a mesa concordam que o seguro tem função social e que um país que envelhece não pode deixar o idoso sem cobertura."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 35,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "pede que a Susep seja ouvida sobre os problemas do mercado de seguros",
+   "plain": "A Susep, que autoriza e fiscaliza as seguradoras, não deveria ser ouvida sobre esses problemas?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 23,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "gist": "pergunta se não é hora de rever os cálculos que definem o preço",
+   "plain": "Não está na hora de rever esses cálculos que dizem quanto o idoso paga pelo seguro?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 108,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "gist": "pergunta ao setor se vale mais seguro de vida ou seguro de saúde",
+   "plain": "Para quem representa as seguradoras: entre o seguro de vida e o seguro de saúde, qual vale mais a pena?",
+   "theme": "d6",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 23,
+   "gist": "em 2022, mais de 720 mil reclamações, 4% em seguros",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 31,
+   "gist": "acima de 60 anos, seguros vai de sétimo a quarto mais reclamado",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 7,
+   "gist": "mais de 70% dos mortos na pandemia eram idosos",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 7,
+   "gist": "há 988 Procons no país",
+   "disputed_by": [
+    {
+     "fala": "b018",
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 33,
+   "gist": "plano só pode ser extinto por fraude ou 60 dias sem pagamento",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 91,
+   "gist": "a renovação automática só pode ocorrer uma vez, pelo mesmo período",
+   "disputed_by": [
+    {
+     "fala": "b018",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 8,
+   "gist": "em breve, 25% da população será idosa",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b012",
+   "sentence": 10,
+   "gist": "aos 59 anos, plano passou de 2.600 para 6.200 reais",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 79,
+   "gist": "reajustes aos 59 anos giram em torno de 130%",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 7,
+   "gist": "aos 69 anos, o seguro dele tinha subido 47%",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b018",
+   "sentence": 46,
+   "gist": "gastou mais de 300 mil reais em 33 anos de seguro",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil",
+   "setor_privado"
+  ],
+  "angle": "A matéria põe no centro a cobrança por critérios mais acessíveis no seguro de vida do idoso e contrapõe a ela a resposta do setor sobre o cálculo por idade.",
+  "omitted": "Ficaram de fora o relato do aposentado do Distrito Federal, a divergência sobre onde escrever a regra e a fala da confederação dos trabalhadores rurais."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Escrever a proteção na lei e punir quem descumprir",
+   "statement_plain": "A proteção do idoso já está em várias leis, mas é preciso escrevê-la também no Estatuto do Idoso e criar punição para quem desrespeita essa proteção ao vender seguro.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b006c1",
+    "b016c2"
+   ],
+   "note": "A ideia cruza um órgão de governo que atende consumidor, uma confederação de aposentados e um sindicato de trabalhadores rurais, setores que raramente se encontram."
+  },
+  {
+   "id": "t2",
+   "title": "Cobrar mais caro por idade é discriminar o idoso",
+   "statement_plain": "Subir o preço do seguro por causa da idade, ou recusar quem já é idoso, não é conta de risco: é discriminação, e a lei tem de proibir.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b018c1",
+    "b004c2",
+    "b018c2",
+    "b019c2"
+   ],
+   "note": "A ideia junta um conselho de direitos, uma confederação de aposentados, um aposentado que contou o próprio caso e a mesa que presidia a sessão."
+  },
+  {
+   "id": "t3",
+   "title": "O cálculo por idade é o que mantém o seguro de pé",
+   "statement_plain": "O preço do seguro acompanha o risco de cada idade. Sem esse cálculo, não há como garantir o dinheiro para a família de quem morre, e não renovar o contrato não é abuso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c3",
+    "b008c2",
+    "b006c2"
+   ],
+   "note": "A ideia divide um mesmo campo: o Procon, que defende o consumidor idoso, registrou o entendimento do Judiciário que a federação das seguradoras invoca."
+  },
+  {
+   "id": "t4",
+   "title": "A conta do seguro do idoso tem de ser dividida",
+   "statement_plain": "O Brasil envelhece depressa. O custo de cobrir quem tem mais idade precisa ser dividido com toda a sociedade, e não jogado só em cima de quem envelhece.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b019c1",
+    "b016c3",
+    "b004c1",
+    "b010c2"
+   ],
+   "note": "A ideia reúne um conselho de direitos, um sindicato rural, uma confederação de aposentados e a mesa, e é contestada por quem faz a conta do seguro."
+  },
+  {
+   "id": "t5",
+   "title": "O idoso assina sem saber o que o contrato tira dele",
+   "statement_plain": "Quem é idoso contrata sem informação clara. O que restringe direito vem em letra miúda ou em cláusula de exclusão, e só aparece quando a pessoa precisa usar o seguro.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b012c2",
+    "b012c3"
+   ],
+   "note": "A ideia é sustentada por um órgão público de defesa do consumidor e por uma associação de usuários, que chegam ao mesmo ponto por caminhos diferentes."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SENACON",
+   "fala": "b001",
+   "sentence": 9,
+   "plain": "Secretaria Nacional do Consumidor, órgão do governo federal que cuida da defesa do consumidor no país"
+  },
+  {
+   "term": "PROCONs",
+   "fala": "b002",
+   "sentence": 18,
+   "plain": "órgãos públicos que recebem e tentam resolver as reclamações de consumidores, geralmente ligados a estados e municípios"
+  },
+  {
+   "term": "SUSEP",
+   "fala": "b002",
+   "sentence": 34,
+   "plain": "Superintendência de Seguros Privados, o órgão federal que autoriza e fiscaliza as empresas de seguro e de previdência privada"
+  },
+  {
+   "term": "hipervulnerável",
+   "fala": "b002",
+   "sentence": 46,
+   "plain": "consumidor que tem dificuldade maior que os outros para exercer seus direitos, por causa da idade, da saúde ou da sua condição social"
+  },
+  {
+   "term": "COBAP",
+   "fala": "b001",
+   "sentence": 11,
+   "plain": "Confederação Brasileira de Aposentados, Pensionistas e Idosos, entidade que representa esse grupo em todo o país"
+  },
+  {
+   "term": "prêmio",
+   "fala": "b004",
+   "sentence": 16,
+   "plain": "o valor que a pessoa paga à seguradora pelo seguro. Não é um bônus, é o preço da cobertura"
+  },
+  {
+   "term": "FENAPREVI",
+   "fala": "b001",
+   "sentence": 12,
+   "plain": "federação que reúne as empresas que vendem seguro de vida e previdência privada"
+  },
+  {
+   "term": "CNDPI",
+   "fala": "b001",
+   "sentence": 13,
+   "plain": "Conselho Nacional dos Direitos da Pessoa Idosa, que reúne governo e sociedade civil para acompanhar esses direitos"
+  },
+  {
+   "term": "ADUSEPS",
+   "fala": "b001",
+   "sentence": 14,
+   "plain": "associação que defende quem usa seguros, planos e sistemas de saúde"
+  },
+  {
+   "term": "CONTAG",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "confederação que reúne os sindicatos de trabalhadores rurais e da agricultura familiar"
+  },
+  {
+   "term": "capital segurado",
+   "fala": "b008",
+   "sentence": 22,
+   "plain": "o valor que a seguradora paga a quem o segurado escolheu, quando o segurado morre"
+  },
+  {
+   "term": "ciência atuarial",
+   "fala": "b008",
+   "sentence": 32,
+   "plain": "conta matemática que mede a chance de um evento acontecer e define quanto o seguro precisa cobrar para dar conta dele"
+  },
+  {
+   "term": "mutualismo",
+   "fala": "b008",
+   "sentence": 37,
+   "plain": "forma de seguro em que todos do grupo pagam e o dinheiro junto cobre quem sofre o sinistro naquele período"
+  },
+  {
+   "term": "tábua biométrica",
+   "fala": "b008",
+   "sentence": 48,
+   "plain": "tabela que mostra a probabilidade de morte em cada idade. É com ela que a seguradora calcula o preço"
+  },
+  {
+   "term": "riscos excluídos",
+   "fala": "b012",
+   "sentence": 85,
+   "plain": "lista do que o contrato não cobre. Se a morte acontecer por um desses motivos, a seguradora não paga"
+  }
+ ]
+}

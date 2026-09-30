@@ -1,0 +1,4736 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 2,
+ "model": "LLM lendo o prompt hearing-002 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T21:02:38Z",
+ "prompt_sha256": "6b5fb895091dcbc5ec478a01153770c4ec3730b21fef2ebdd3c3b1b8b0525912",
+ "sentences_hash": "bbb76f0ad977618e",
+ "review": {
+  "pairs_read": 71,
+  "pairs_fixed": 16
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t2: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "O ministro de Minas e Energia e o diretor-geral do ONS foram à Câmara explicar o desligamento de 15 de agosto e o rumo do setor elétrico. Os deputados cobraram a conta que recai sobre o consumidor regulado, a estruturação da Agência Nacional de Mineração e o repasse da CFEM aos municípios. O ministro anunciou dois projetos de lei, um para redividir a conta da energia e outro para a descarbonização dos transportes.",
+ "stakes": "Estava em jogo que projetos de lei o Executivo mandaria ao Congresso para redividir a conta da energia e para a transição energética dos transportes.",
+ "central_question": "Quem deve pagar a conta do setor elétrico brasileiro e o que fazer para que o evento de 15 de agosto não se repita?",
+ "synopsis_plain": "O ministro de Minas e Energia e o chefe do operador do sistema elétrico foram à Câmara falar do apagão de 15 de agosto. Os deputados cobraram explicações e reclamaram do preço da luz, que é mais alto no Norte e no Nordeste. Também cobraram dinheiro e gente para a agência que cuida da mineração. O ministro disse que vai mandar dois projetos de lei ao Congresso.",
+ "stakes_plain": "Se o governo mandaria ao Congresso um projeto para dividir de outro jeito a conta da luz e outro para trocar o combustível dos transportes.",
+ "central_question_plain": "Quem paga a conta da luz no Brasil e o que fazer para o apagão não se repetir?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Causas do desligamento de agosto",
+   "description": "O que provocou o desligamento que cortou um terço da carga do País e se as fontes eólica e solar tiveram parte nisso.",
+   "axis": {
+    "pro": "O evento teve causa técnica localizada e o sistema reagiu como estava projetado.",
+    "contra": "Houve falha de monitoramento e o sistema não estava preparado para tanta energia intermitente.",
+    "pro_plain": "O apagão teve uma causa técnica pontual e o sistema se recuperou como devia.",
+    "contra_plain": "O sistema não viu o problema chegar e não estava pronto para tanta energia do sol e do vento."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Conta e tarifa de energia",
+   "description": "Quem paga os encargos do setor elétrico e por que a tarifa é mais alta justamente onde se gera mais energia limpa.",
+   "axis": {
+    "pro": "A conta do setor recai sobre o consumidor regulado e precisa ser redividida por lei.",
+    "contra": "A saída não é redividir a conta e sim rescindir contratos caros e cortar encargos já existentes.",
+    "pro_plain": "Quem não pode escolher de quem compra energia paga a maior parte da conta, e isso precisa mudar por lei.",
+    "contra_plain": "Em vez de repartir a conta de novo, é melhor romper contratos caros e cortar encargos que já existem."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Modelo de privatização da Eletrobras",
+   "description": "Se o formato de venda da Eletrobras tirou do governo o peso que suas ações lhe dariam e o que fazer a respeito.",
+   "axis": {
+    "pro": "O modelo de privatização da Eletrobras prejudicou o País e precisa ser corrigido.",
+    "contra": "O modelo é usual no mundo e os problemas do setor não vêm da privatização.",
+    "pro_plain": "O jeito como a Eletrobras foi vendida tirou poder do governo, que ainda é dono de boa parte das ações.",
+    "contra_plain": "O modelo é comum em outros países e os apagões não têm relação com a venda da empresa."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Transição energética e combustíveis",
+   "description": "O papel do etanol, do biodiesel, do hidrogênio verde e das novas fontes, e o que fazer com o petróleo e o gás enquanto isso.",
+   "axis": {
+    "pro": "O País deve acelerar a transição com biocombustíveis, hidrogênio verde e novas tecnologias.",
+    "contra": "A transição depende de explorar petróleo, gás e minerais e de manter fontes firmes.",
+    "pro_plain": "O Brasil deve correr para trocar os combustíveis por outros mais limpos e virar referência nisso.",
+    "contra_plain": "Antes de trocar tudo, o país precisa explorar seu petróleo, seu gás e seus minerais e manter fontes firmes."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Agência de mineração e repasse da CFEM",
+   "description": "A falta de servidores e de salário na agência que cuida da mineração e o atraso no repasse aos municípios mineradores.",
+   "axis": {
+    "pro": "A agência de mineração precisa ser reestruturada agora e a CFEM paga sem mais atraso.",
+    "contra": "A equiparação de salários e o repasse dependem do orçamento e vão levar tempo.",
+    "pro_plain": "A agência da mineração precisa de gente e de salário já, e as prefeituras precisam receber o que é delas.",
+    "contra_plain": "Não há dinheiro no orçamento para resolver tudo de uma vez, então isso vai levar alguns anos."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Expansão e segurança do suprimento",
+   "description": "Leilões de linhas de transmissão, hidrelétricas, baterias, acesso à energia e renovação das concessões de distribuição.",
+   "axis": {
+    "pro": "Os leilões de transmissão e as novas usinas garantem a segurança do suprimento.",
+    "contra": "Expandir sem preparar o sistema e sem regras claras de concessão é arriscado.",
+    "pro_plain": "Os leilões de linhas e as novas usinas dão conta de manter a luz acesa e levar energia a todos.",
+    "contra_plain": "Crescer sem arrumar o sistema e sem regras claras para renovar as concessões é correr risco."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Minas e Energia",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e conduz os trabalhos",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão da Câmara que acompanha energia e mineração e que presidiu esta reunião conjunta"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Presidente da Comissão de Fiscalização Financeira e Controle",
+   "org": "Câmara dos Deputados",
+   "basis": "citada pela presidência em b001.5 e fala em b002",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": "deputada federal pelo Distrito Federal, do PL",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Ministro de Minas e Energia",
+   "org": "MME",
+   "basis": "apresentado pela presidência em b001.0 e em b003.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "ministro de Minas e Energia",
+   "org_plain": "Ministério que cuida de energia, petróleo, gás e mineração no governo federal"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Diretor-Geral do Operador Nacional do Sistema Elétrico",
+   "org": "ONS",
+   "basis": "apresentado pela presidência em b001.2 e descrito em b011.87",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do ONS, o operador do sistema elétrico",
+   "org_plain": "Entidade privada sem fins lucrativos que manda ligar e desligar as usinas e opera a rede nacional"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, preside a Comissão Especial do Hidrogênio Verde",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e menção em b030.16",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por São Paulo, do Cidadania",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s06": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, membro da Comissão Mista de Orçamento",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e fala em b073.12",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Tocantins, do PP",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b014.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b084.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pela Bahia, do PDT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s09": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b020.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b025.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Paraná, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b029.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais, do Podemos",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s12": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b031.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Piauí, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s13": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, relator da Lei de Diretrizes Orçamentárias",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e fala em b071.26",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Ceará, do União Brasil",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s14": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal, vice-líder do governo",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e fala em b037.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Amapá, do PDT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s15": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b058.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por São Paulo, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s16": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b062.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pela Bahia, do PL",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s17": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b064.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Paraná, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s18": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b066.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s19": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b068.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Rondônia, do PL",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s20": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b082.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Pernambuco, do PSB",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s21": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b086.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal por Minas Gerais, do PT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s22": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b088.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio Grande do Norte, do União Brasil",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s23": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b090.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Rio de Janeiro, do PP",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s24": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b092.0",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Paraná, do União Brasil",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  },
+  "s25": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "lista de oradores da ata e chamada em b094.3",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Amapá, do PDT",
+   "org_plain": "Casa do Congresso onde os deputados federais fazem leis e fiscalizam o governo"
+  }
+ },
+ "audience": {
+  "estimate": 80,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.25
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.15
+   }
+  ],
+  "basis": "manifestações da plateia em b008.48 e b049.1, palmas em b011, b013, b019, b048, b065 e b091, delegações de prefeitos citadas em b012.9 e presença do diretor-geral da ANM e de secretários em b013.44 e b063.6",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Cobra do ministro explicações sobre o apagão, sobre a renovação das distribuidoras e sobre a crise da agência de mineração, que deixou municípios sem receber a CFEM.",
+   "quote": [
+    35,
+    36,
+    37
+   ],
+   "covered": true,
+   "evidence": [
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência de mineração precisa de estrutura e os municípios precisam receber a CFEM sem mais atraso.",
+    "sentence": 41
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "centenas de municípios mineradores estão sem receber a CFEM e a agência não cumpre a missão que tem",
+     "plain": "Centenas de municípios mineradores estão sem receber a CFEM, o valor que a mineração paga a eles. A agência é necessária, mas não vem fazendo aquilo para que foi criada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede explicação sobre a causa real do apagão e afirma que apagões já ocorreram antes e não têm relação com a desestatização da Eletrobras.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O apagão precisa ser explicado com dados, e a desestatização da Eletrobras não é a causa.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "apagões já aconteceram antes, em 2009 e em 2014, e isso não tem relação com a desestatização",
+     "plain": "Apagões sempre ocorreram, e várias vezes no Brasil. Em 2009 e em 2014, sendo este o maior. Isso não tem a ver com a desestatização, até porque o Governo Federal tem mais de 34% das ações."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de um líder e passa a palavra ao ministro de Minas e Energia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ministro agradece o convite e prefere responder às perguntas em vez de usar os 30 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor-geral do operador do sistema elétrico, por 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que o desligamento começou numa linha no Ceará, que várias linhas abriram em 600 milissegundos e que reguladores de tensão agiram fora do tempo informado.",
+   "quote": [
+    75,
+    76,
+    77
+   ],
+   "covered": true,
+   "evidence": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O evento teve causa técnica no comportamento de equipamentos, e não no crescimento da energia eólica e solar.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o avanço da energia do vento e do sol não é um problema, aqui nem em lugar nenhum",
+     "plain": "Às vezes o crescimento da eólica e da solar aparece na imprensa como um problema. Eu afirmo diante dos senhores que isso não é problema, nem aqui nem no resto do mundo."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      48,
+      49
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a linha de 500 quilovolts entre Quixadá e Fortaleza abriu, mas o sistema aguenta uma perda simples dessas",
+     "plain": "É uma linha de 500 quilovolts no Ceará, que liga Quixadá à Subestação Fortaleza II. Esse desligamento não foi a causa do fenômeno, porque o sistema tem redundâncias e resiste a uma perda simples dessas."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      57,
+      58
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os reguladores de tensão levaram de 50 a 100 milissegundos para agir, quando o normal seria de 15 a 20",
+     "plain": "Esses aparelhos se comportaram de forma diferente da que os agentes informam quando habilitam o projeto. Os oscilógrafos mostraram que a entrada em ação, que deveria levar de 15 a 20 milissegundos, levou de 50 a 100."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta ao diretor do operador por que o órgão mudou as regras de despacho 2 dias depois do evento.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A mudança das regras de despacho 2 dias depois do evento precisa ser explicada.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o ONS mudou as regras de despacho 2 dias depois do evento e isso precisa ser explicado",
+     "plain": "Caro Ciocchi, 2 dias depois do evento o ONS mudou as regras de despacho. Como é que isso se encaixa nesse raciocínio?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Explica que o operador reduziu o fluxo do Norte e do Nordeste para o Sudeste por precaução e nega que os agentes tenham enviado dados errados.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": true,
+   "evidence": [
+    17
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O corte atingiu a eólica e a solar por serem as fontes exportadoras, e não por falha delas.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a hidrelétrica e a térmica já estavam no mínimo, então o corte teve de recair sobre a eólica e a solar",
+     "plain": "São Francisco já operava na vazão e na geração mínima por causa da seca, e as térmicas já estavam no limite. Como quem exporta do Nordeste são as fontes eólicas e solares, tivemos de cortá-las."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não houve falha de informação, e sim um equipamento que, testado, não entregou o desempenho exigido",
+     "plain": "Deputada, não houve falha de informação. Houve um problema técnico: o que estava especificado, quando testado e em funcionamento, não entregou o desempenho exigido."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede respeito ao público e avisa que pode esvaziar o recinto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b010",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conclui que não houve falha de informação e sim falha estrutural, e pergunta como o governo trabalha com as empresas para prevenir apagões.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O que houve foi uma falha estrutural, e não uma falha de informação.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "não houve falha de informação e sim falha estrutural, porque o equipamento se comportou de outro jeito",
+     "plain": "Pela explicação que foi feita, percebe-se que não houve falha de informação, mas sim uma falha estrutural. Imaginava-se, com aqueles dados, que algo teria um comportamento, e teve outro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que os encargos criados ao longo dos anos ficaram com o consumidor regulado, que o preço está perto do colapso e que o reajuste do Pará só foi adiado.",
+   "quote": [
+    64,
+    65,
+    66
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A conta dos encargos do setor ficou com o consumidor regulado e chegou ao limite.",
+    "sentence": 64
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem paga essa conta é o consumidor regulado, e outros 3 bilhões de reais sobraram para 55% da população",
+     "plain": "Digo isto para explicar quem está pagando essa conta: o consumidor regulado. O consumidor de alta tensão saiu do mercado regulado na abertura, e outros 3 bilhões de reais foram parar na conta de 55% da população."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o preço da luz para quem está no mercado regulado está perto de um colapso, porque os encargos chegaram ao limite",
+     "plain": "Estamos perto de um colapso no preço da luz para quem está no mercado regulado. O Brasil foi criando encargos para esse consumidor, e me incluo nisso, e agora chegou ao limite."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      66,
+      67
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o aumento de 16% da energia no Pará foi negociado para 9%, num ano em que a inflação é de 4%",
+     "plain": "O governador do Pará estava quase tendo um colapso na semana passada, porque havia perspectiva de aumento de 16% na energia. Depois de longa negociação com a ANEEL, a agência que fixa a tarifa, conseguimos 9%, com a inflação em 4%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Cobra ações práticas na crise da mineração e alerta que os municípios afetados podem ficar 6 meses sem receber a CFEM.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os municípios mineradores podem ficar meio ano sem a CFEM e a agência precisa de reestruturação mais rápida.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os municípios podem ficar 6 meses sem receber a CFEM e a proposta de 3 anos para a agência é insuficiente",
+     "plain": "Houve demora na assinatura do decreto da CFEM e, mesmo assinado, ele não resolve logo: os municípios afetados ainda levarão mais 2 meses, e há risco de ficarem 6 meses sem receber. A proposta de 3 anos do governo é insuficiente."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Reconhece a diferença salarial na agência de mineração, explica que o governo propõe equiparação em 3 anos e anuncia o projeto do Combustível do Futuro.",
+   "quote": [
+    22,
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    22,
+    23,
+    24
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A equiparação salarial na agência é justa, mas o governo propõe fazê-la em 3 anos por limite de orçamento.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "os servidores querem a equiparação já em janeiro de 2024 e o governo propõe fazê-la em 3 anos",
+     "plain": "Os servidores entendem que o recurso e a equiparação devem vir já em janeiro de 2024, com o Orçamento aprovado por esta Casa. Pelas dificuldades de orçamento, o governo propõe que isso aconteça em 3 anos."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto reúne a descarbonização do transporte e ancora mais de 60 bilhões de reais em diesel verde",
+     "plain": "Num único projeto de lei reunimos toda a descarbonização da matriz de transporte e criamos uma âncora para os investimentos no diesel verde. Vamos ter mais de 60 bilhões de reais nessa indústria no Brasil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao deputado autor do requerimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b015",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra pela ordem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra pela ordem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b017",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que o diretor da agência de mineração venha à frente e que as falas sejam mais curtas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência promete mais dinâmica à reunião e passa a palavra ao próximo deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se o relatório do operador trará diagnóstico seguro e afirma que o Congresso foi levado a erro ao abrir mão da representação no conselho da Eletrobras.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 37,
+   "stance": {
+    "position": "neutro",
+    "claim": "O relatório precisa dar um diagnóstico seguro para que se tomem medidas seguras.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Congresso foi levado a erro ao abrir mão da representação no conselho, e o governo vota com 10% tendo 43%",
+     "plain": "O Congresso foi levado a erro quando abriu mão do tamanho que a representação do governo teria no conselho da Eletrobras. Por isso o senhor reagiu à troca de direção sem consulta. Hoje o governo vota com 10%, quando deveria votar com 43%."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta saber se o relatório de 45 dias trará clareza sobre o que mudar no sistema elétrico",
+     "plain": "O senhor diz que em 45 dias teremos o relatório pronto. Ele vai trazer clareza objetiva para dizer ao ministério o que precisa ser feito no sistema elétrico, para que um evento como o de 15 de agosto não volte a acontecer?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia a ordem dos próximos deputados inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b021",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede a palavra pela liderança e divide o tempo com outro deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra a retomada do programa que leva energia a todos, a reestruturação da agência de mineração e informação sobre a investigação da Polícia Federal.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 22,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não basta produzir energia mais limpa se milhões de brasileiros ainda não têm acesso a ela.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o programa que leva energia elétrica a todos foi parado e milhões de brasileiros ainda não têm acesso",
+     "plain": "O programa que leva energia elétrica a todos foi paralisado nos últimos anos, e acho que ainda temos milhões de brasileiros sem acesso. De nada resolve produzir energia, e até mais limpa, se não garantirmos o acesso."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o deputado encerre a fala.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b024",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende uma mineração sustentável e lembra que Ouro Preto, com 76 mil pessoas, tem 12 mil na extrema pobreza depois de séculos de mineração de ouro.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Três séculos de mineração de ouro não tiraram Ouro Preto da miséria.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em Ouro Preto, com 76 mil pessoas, 12 mil vivem na extrema pobreza depois de mais de 300 anos de mineração",
+     "plain": "Só para dar um exemplo concreto: Ouro Preto tem 76 mil pessoas e 12 mil na extrema pobreza, segundo dados da própria Secretaria de Assistência Social. Um município com mais de 300 anos de mineração de ouro não pode ter tanta miséria."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama o próximo deputado e lembra o acordo de ordem das falas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s08",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta se o tempo de líder pode ser intercalado com o dos inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência aceita intercalar as falas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b028",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta para a concentração privada no setor elétrico depois da venda da Copel e questiona o peso de um grupo investidor dentro da Eletrobras.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A concentração privada no setor elétrico cresce e o governo precisa agir para contê-la.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na venda da Copel o BNDES, que tem mais de 12% ou 15% das ações, ficaria só com 10%, como na Eletrobras",
+     "plain": "Quando procuramos o senhor sobre a venda da Copel no Paraná, levamos esta preocupação: o BNDES, dono de mais de 12% ou 15% das ações, perde peso. Como na Eletrobras, com o capital disperso ele fica só com 10%."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um grupo investidor pesa hoje mais na Eletrobras do que o governo, que com 43% das ações só decide como 10%",
+     "plain": "Cito a 3G Capital, dona de um capital trilionário, que hoje pesa mais na Eletrobras do que o próprio governo. Como o senhor mesmo disse, não dá para quem tem 43% decidir como se tivesse apenas 10%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta sobre transição energética, bioenergia e novas tecnologias e pede atenção à extração de lítio no Vale do Jequitinhonha.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não basta gerar energia, é preciso armazená-la, e o lítio da região mais pobre de Minas é chave nisso.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não basta gerar energia, é preciso guardá-la, e a maior abundância de lítio está no Vale do Jequitinhonha",
+     "plain": "O senhor conhece essa pauta, que trata de uma das principais fontes renováveis da minha região, o Vale do Jequitinhonha, com a extração do lítio. Não basta gerar energia, é preciso poder guardá-la, e a maior abundância de lítio está lá."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado e anuncia que depois os convidados respondem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que a energia subiu 47% entre 2017 e 2022 e ficou uma das mais caras do mundo, e sustenta que o problema do modelo é estrutural.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A energia elétrica brasileira ficou cara demais e insegura, e o problema é de modelo.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a energia elétrica subiu 47% entre 2017 e 2022 e virou uma das mais caras do mundo",
+     "plain": "A energia elétrica brasileira subiu 47% entre 2017 e 2022 e se tornou uma das mais caras do mundo. Ela é cara para o nível de renda das nossas famílias e também para as empresas, o que atrapalha a retomada da indústria."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado e anuncia quem fala em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pergunta se as regras de despacho serão revistas para garantir fontes firmes e alerta que prorrogar concessões de distribuição sem lei é temerário.",
+   "quote": [
+    28,
+    29,
+    30
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Prorrogar concessões sem norma legislativa e sem fontes firmes no despacho é correr risco.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "quando as fontes firmes saem dos critérios de despacho, o sistema passa a correr um risco acentuado",
+     "plain": "Eu digo o seguinte: acho que o sistema precisa operar com mais segurança. Quando as fontes firmes saem dos critérios de despacho, acho que passamos a correr um risco acentuado."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "prorrogar as concessões sem procedimentos claros é temerário, porque a regra manda sempre licitar",
+     "plain": "Consideramos temerário juridicamente optar por uma linha de prorrogação sem ter claros todos os procedimentos que a tornem segura. Nossa avaliação é que as regras das concessões são muito claras e propõem sempre licitações."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado e anuncia que o ministro responde em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s13",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que a presidência leia a lista de inscrição e reclama da ordem das falas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b037",
+   "speaker": "s14",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que fala pela vice-liderança do governo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que a ordem foi acordada e que todos foram consultados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b039",
+   "speaker": "s14",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado reafirma que fala pela liderança do governo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b040",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b041",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que o Amapá tem a tarifa de energia mais cara do País e serviço ruim da concessionária, e pergunta se há estudo para baixá-la.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Amapá paga a tarifa mais cara do País e ainda recebe um serviço ruim.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b041c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Amapá tem a tarifa de energia mais cara do País e ainda recebe um serviço de péssima qualidade",
+     "plain": "Represento o povo do Amapá, que paga a energia mais cara do País, e isso não se justifica. O estado é penalizado duas vezes: paga caro e recebe da Equatorial um serviço de péssima qualidade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b042",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende o etanol e a mistura E30 no projeto do Combustível do Futuro e diz que encargos alheios ao setor elétrico deveriam sair da conta da luz.",
+   "quote": [
+    47,
+    48,
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O etanol é peça central da descarbonização e o projeto cria a mistura E30 na gasolina.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o etanol é imprescindível à descarbonização e o projeto cria a possibilidade do E30 na gasolina",
+     "plain": "É inegável que o etanol é fonte imprescindível para descarbonizar e para a economia. Por isso o projeto abre a possibilidade do E30, para aumentar a proporção de etanol na gasolina."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      59,
+      60
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dentro da CDE existem encargos que não são do setor elétrico e deveriam estar no Orçamento da União",
+     "plain": "Por exemplo, acho que dentro da CDE, a conta que todos pagam na fatura de luz, existem encargos que não são do setor elétrico. Eles deveriam estar no Orçamento Geral da União."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada interrompe o ministro por um minuto para avisar que precisa se retirar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b044",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ministro diz à deputada que fique à vontade.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b045",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A deputada agradece a presença do ministro e deseja boa continuação à reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b046",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Anuncia que o calendário da universalização foi antecipado de 2030 para 2026 e que o PAC reserva 540 bilhões de reais para transição e segurança energética.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A universalização da energia elétrica será concluída até 2026, com o calendário antecipado.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      6
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o calendário foi antecipado de 2030 para 2026 e 7 bilhões e 500 milhões de reais serão executados até lá",
+     "plain": "Antecipamos o calendário de 2030 para 2026. O que estava programado para 2030, cerca de 7 bilhões e 500 milhões de reais, será executado até 2026, levando energia elétrica a todo o País."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado lembra que sua pergunta sobre a concentração privada ainda não foi respondida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b048",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que o modelo de empresa de capital pulverizado não serve a setores estratégicos e que a privatização do setor elétrico fez mal ao País.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A privatização da Eletrobras nesse modelo tirou do povo brasileiro o peso das ações que ele tem.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b048c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o modelo de capital pulverizado não foi feito para setores estratégicos e a privatização fez mal ao País",
+     "plain": "O modelo de corporation, de empresa com capital pulverizado, é usado em países desenvolvidos e não é incomum. Mas, na minha visão, não foi feito para setores estratégicos nacionais. Fez muito mal ao Brasil a privatização do setor elétrico."
+    },
+    {
+     "id": "b048c2",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o povo brasileiro é dono de 43,64% das ações e mesmo assim não fica sabendo o que acontece na empresa",
+     "plain": "Nós, o povo brasileiro, temos 43,64% das ações. E não podemos saber o que acontece na empresa? Só nos cabe receber o resultado? Na minha opinião, isso está errado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b049",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado concorda com o ministro e diz que foi assim que se perdeu a Copel.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b050",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede silêncio e passa a palavra ao diretor do operador do sistema.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b051",
+   "speaker": "s14",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que o ministro responda depois sobre a tarifa do Amapá.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b052",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ministro concorda em responder e pergunta o nome do deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b053",
+   "speaker": "s14",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz o próprio nome.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b054",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que o Pará e o Amapá têm a maior perspectiva de aumento de tarifa e que o setor virou uma colcha de retalhos.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Norte e o Nordeste, e em especial o Pará e o Amapá, sofrem a maior distorção de tarifa.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b054c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Pará e o Amapá são os dois estados com a maior perspectiva de aumento de tarifa este ano",
+     "plain": "Eu citei no princípio da minha fala o Norte e o Nordeste e, em especial, o Pará e o Amapá, os dois estados com maior perspectiva de aumento de tarifa este ano. Há uma grande distorção, e o setor virou uma colcha de retalhos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b055",
+   "speaker": "s14",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece ao ministro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b056",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor do operador do sistema elétrico.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b057",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Garante que em 45 dias o relatório trará a causa-raiz do evento e um conjunto de recomendações para o setor elétrico.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O relatório de 45 dias vai chegar à causa-raiz e às recomendações necessárias.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b057c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em 45 dias o relatório vai responder exatamente o que precisa ser respondido",
+     "plain": "Deputado, o senhor perguntou de forma direta se em 45 dias teremos a resposta exata. Eu afirmo categoricamente ao senhor que sim, nós chegaremos lá."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b058",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b059",
+   "speaker": "s07",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede que o relatório do operador seja enviado e distribuído aos membros da comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b060",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do operador brinca que esperava um convite para voltar à comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b061",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Alerta que ampliar o mercado livre joga mais custo sobre quem fica no mercado cativo e pergunta que proposta o ministério tem para isso.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Ampliar o mercado livre aumenta a tarifa de quem fica no mercado cativo.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b061c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ampliar o mercado livre joga uma carga de custo maior sobre quem fica no mercado cativo e eleva as tarifas",
+     "plain": "Foi recriada uma comissão especial para discutir o projeto que amplia o mercado livre, e já há decreto ampliando a partir do ano que vem. No meu modo de ver, isso joga custo maior sobre quem fica no cativo e aumenta as tarifas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b062",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b063",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta se há estudo para prorrogar os contratos do PROINFA, defende as pequenas hidrelétricas e anuncia requerimento de CPI sobre a CFEM da Vale.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Prorrogar os contratos do PROINFA reduziria os encargos dos consumidores e valorizaria as pequenas hidrelétricas.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b063c1",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "prorrogar os contratos do PROINFA, como prevê a Lei 14.182, reduziria a conta e os encargos dos consumidores",
+     "plain": "Pergunto se há estudo para prorrogar os contratos do PROINFA, o programa de fontes alternativas. As pequenas centrais hidrelétricas são renováveis e de baixo impacto, e a Lei nº 14.182, de 2021, prevê que a prorrogação reduza a conta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b064",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b065",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta o que deixou de ser feito para reduzir o risco de colapso e cobra saber se houve intervenção humana ou erro de investimento.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Falta explicar se o apagão veio de intervenção humana ou de falta de investimento no sistema.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b065c1",
+     "sentences": [
+      21,
+      22,
+      23
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "falta saber se houve intervenção humana ou apenas erro de investimento, e por que o sistema não se integrou",
+     "plain": "Já imaginou se for identificado que houve intervenção humana? Ou ocorreu só um erro de investimento, com o sistema não sendo regulado? Se há água sobrando e aconteceu em plena luz do dia, por que o sistema não se integrou?"
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b066",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b067",
+   "speaker": "s18",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta como explorar o lítio do Vale do Jequitinhonha de modo que parte da riqueza fique na região, que segue pobre depois do ouro e do diamante.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O lítio é chave para os carros a bateria e a riqueza dele precisa ficar na região que o produz.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b067c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "vários países estimulam carros a bateria e o lítio é o mineral que sustenta essa produção",
+     "plain": "Sabemos que hoje quase todos os países estão nessa luta pela descarbonização. Vários deles estimulam a produção de automóveis que não sejam de combustão, e o lítio é o mineral que sustenta a fabricação desses carros."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b068",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b069",
+   "speaker": "s19",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Convida o ministro a Rondônia, defende as hidrelétricas Tabajara e Binacional e denuncia que a agência de mineração no estado não tem mais sede.",
+   "quote": [
+    62,
+    63,
+    64
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A agência de mineração em Rondônia não tem sede nem pessoal para atender a população.",
+    "sentence": 63
+   },
+   "claims": [
+    {
+     "id": "b069c1",
+     "sentences": [
+      62,
+      63,
+      64
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a agência de mineração em Rondônia não tem mais sede e quase não tem gente para atender o povo",
+     "plain": "Concluo dizendo que, em Rondônia, a agência de mineração nem sede tem. O prédio está caindo aos pedaços e o Ministério Público mandou desocupá-lo. Quase não há ninguém para atender o povo."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b070",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b071",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Comemora que o problema não foi o Ceará nem as fontes limpas e defende que o contrato da KPS seja rescindido, e não flexibilizado.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O problema não foi o Nordeste nem as fontes limpas, e sim o sistema, que precisa ser aprimorado.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b071c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a culpa não foi do Ceará, do Nordeste nem das fontes limpas, e sim do sistema, que precisa de investimento",
+     "plain": "A culpa não foi do Ceará, do Nordeste nem das fontes limpas, seja a eólica, seja a solar. O problema esteve no sistema, que, como reconheceu o diretor do operador, precisa ser aprimorado e precisa de investimento."
+    },
+    {
+     "id": "b071c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "para diminuir a conta de desenvolvimento energético o contrato da KPS não deve ser flexibilizado e sim rescindido",
+     "plain": "Se quer diminuir a conta de desenvolvimento energético, ministro, não é flexibilizando o contrato da KPS. Desculpe-me, mas esse contrato tem que ser rescindido, porque a empresa chegou depois de vencido o prazo do leilão."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b072",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b073",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que prefeitos falam em greve porque a arrecadação caiu e sustenta que a CFEM é parte da solução para os municípios.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A situação dos municípios é insustentável e a CFEM é parte da solução.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b073c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "prefeitos de vários estados falam em greve porque a arrecadação caiu, e a CFEM é parte da solução",
+     "plain": "Sou solidário à situação de mais de 5 mil prefeitos no Brasil. Vejo pela primeira vez um indicativo de greve de prefeito no Nordeste, no Tocantins e em vários estados, porque a arrecadação caiu, e a CFEM é parte dessa solução."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b074",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência lembra que a ordem das falas já havia sido combinada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b075",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado insiste que precisa de uma informação antes de seguir.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b076",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência sugere que o deputado busque a informação por conta própria.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b077",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado responde que a informação não está disponível e pede respeito à sua prerrogativa.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b078",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra o incidente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b079",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que estruturar a agência de mineração custa poucos dias da arrecadação dela e pode render mais de 10 bilhões aos cofres públicos.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Estruturar a agência de mineração custa pouco e aumenta a arrecadação do País.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b079c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "estruturar a agência custa menos do que 2, 3 ou 4 dias da arrecadação dela e pode render mais de 10 bilhões",
+     "plain": "Pelos números que levantei no gabinete, o impacto no orçamento não chega a 2, 3 ou 4 dias do que a agência arrecada. Fomentar a agência e seus servidores pode render mais de 10 bilhões aos cofres públicos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b080",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Informa que a arrecadação da agência de mineração é de 700 milhões de reais por mês.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "A arrecadação mensal da agência de mineração é de 700 milhões de reais.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b080c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a arrecadação da agência de mineração é de 700 milhões de reais por mês",
+     "plain": "Deputado, a arrecadação é de 700 milhões de reais por mês."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b081",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Conclui que, se a arrecadação é de 700 milhões por mês, estruturar a agência custa o equivalente a 3 dias de arrecadação.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Estruturar a agência de mineração equivale a 3 dias da arrecadação dela.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b081c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "se a arrecadação é de 700 milhões de reais por mês, estruturar a agência custa 3 dias de arrecadação",
+     "plain": "A arrecadação chega a 700 milhões de reais por mês? Então estamos falando de 3 dias do que ela arrecada."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b082",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b083",
+   "speaker": "s20",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede que se esclareça que usinas tiveram problema no Ceará para que não haja vilanização das energias renováveis.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso esclarecer que usinas falharam no Ceará, sem vilanizar as energias renováveis.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b083c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso dizer que usinas tiveram o problema no Ceará, para não vilanizar as energias renováveis",
+     "plain": "Tem sido veiculado na imprensa que a investigação aponta dificuldade no rendimento de usinas próximas a uma subestação no Ceará. Precisa ficar claro que usinas eram essas, para que não se vilanizem as energias renováveis."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b084",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b085",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta como um sistema tão moderno não previu o evento e sustenta que o problema é a falta de preparo do sistema para receber energia limpa.",
+   "quote": [
+    30,
+    31,
+    32
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O sistema não estava preparado para receber tanta energia limpa, e por isso desarmou.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b085c1",
+     "sentences": [
+      18
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "um sistema tão moderno e automatizado não conseguiu antecipar um evento desse tamanho",
+     "plain": "Eu pergunto: por que um sistema tão moderno e automatizado não conseguiu antecipar um evento desse tamanho?"
+    },
+    {
+     "id": "b085c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as energias limpas geram mais harmônicos e, se o sistema de controle não está pronto, o sistema desarma",
+     "plain": "Corrija-me, professor: a energia limpa gera muito mais harmônicos. Se o controle do sistema não estiver pronto para isso, ele desarma."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b086",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado e explica a ordem dos inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b087",
+   "speaker": "s21",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Descreve a composição do conselho do operador do sistema e pergunta se a privatização da Eletrobras reduziu ainda mais a influência do Estado ali.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A operação do sistema interligado ficou nas mãos de grandes agentes privados.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b087c1",
+     "sentences": [
+      5
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o conselho do operador tem 14 representantes de empresas do setor, um da sociedade civil e dois do governo",
+     "plain": "O operador do sistema é uma entidade privada. No conselho de administração dele há 14 representantes das próprias empresas do setor e de grandes consumidores, quase todos privados, apenas um da sociedade civil e apenas dois do governo."
+    },
+    {
+     "id": "b087c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Eletrobras tem três membros titulares no conselho do operador e pesa ali mais do que o próprio governo",
+     "plain": "A Eletrobras, a mais importante empresa do setor, ocupa três cadeiras titulares nesse conselho. Na prática, ela pesa ali mais do que o próprio governo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b088",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b089",
+   "speaker": "s22",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pergunta se o Rio Grande do Norte estará nos próximos leilões de transmissão e cobra que a energia limpa se reflita na conta do consumidor.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 24,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Rio Grande do Norte precisa de linhas de transmissão para escoar a energia que produz.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b089c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os três leilões somam 56 bilhões em investimentos e falta saber se o Rio Grande do Norte entra nos próximos",
+     "plain": "O senhor citou três leilões, um já feito e dois marcados, que somam 56 bilhões em investimentos. Quero saber se o Rio Grande do Norte entra no de dezembro de 2023 ou no de março de 2024."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b090",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b091",
+   "speaker": "s23",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o sistema de monitoramento do operador também falhou e cobra solução emergencial para o atraso de 4 meses no repasse aos municípios.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Além do sistema, falhou o monitoramento que deveria detectar a perturbação a tempo.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b091c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o sistema falhou e o monitoramento que deveria detectar a falha também falhou, como num sistema antimísseis",
+     "plain": "O que me preocupa é que o operador falhou de fato, porque não foi só o sistema. Ele caiu, e o monitoramento que deveria ver isso também caiu. É como um sistema antimísseis: tem de detectar e impedir que o míssil caia."
+    },
+    {
+     "id": "b091c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o pagamento devido aos municípios é emergencial e um atraso de 4 meses não é razoável",
+     "plain": "Independentemente do novo decreto, o pagamento daquilo que é devido é emergencial, e o senhor tem que nos ajudar nisso. Não é razoável um atraso de 4 meses, com a situação em que as prefeituras estão."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b092",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência dá a palavra ao próximo deputado inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b093",
+   "speaker": "s24",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pede apoio para retomar a fábrica de fertilizantes de Araucária e defende incluir as pequenas hidrelétricas entre as fontes renováveis.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 14,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As pequenas centrais hidrelétricas deveriam entrar na lista de fontes renováveis dos novos projetos.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b093c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as pequenas hidrelétricas garantem energia, geram emprego e deveriam entrar entre as fontes renováveis",
+     "plain": "O segundo assunto são as pequenas centrais hidrelétricas, que garantem energia. Há um pedido da associação do setor para incluí-las entre as renováveis, como a eólica e a solar. Elas geram muito emprego e industrializam o País."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b094",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a um deputado e chama o próximo inscrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b095",
+   "speaker": "s25",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Relata que o Amapá paga as maiores tarifas e apresentou projeto para suspender as bandeiras tarifárias em estados que geram mais energia do que consomem.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Estados que produzem mais energia do que consomem não deveriam pagar as bandeiras tarifárias.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b095c1",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "estados superavitários como o Amapá não deveriam pagar as bandeiras vermelha e amarela",
+     "plain": "Apresentei a esta Casa um projeto para suspender as bandeiras vermelha e amarela nos estados que produzem mais do que consomem, como o Amapá. Com os reservatórios baixos no Sul e no Sudeste, nós pagamos a bandeira do mesmo jeito."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b096",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao ministro de Minas e Energia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b097",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende o Estado necessário em setores estratégicos e repete que a privatização da Eletrobras, no formato escolhido, fez muito mal ao País.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A privatização da Eletrobras, no modelo adotado, prejudicou o povo brasileiro.",
+    "sentence": 26
+   },
+   "claims": [
+    {
+     "id": "b097c1",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a privatização da Eletrobras, do jeito que foi feita, prejudicou muito o País, e essa é a visão do governo",
+     "plain": "Com a Eletrobras não foi diferente. Repito que a privatização prejudicou muito o Brasil, sobretudo no formato escolhido. Essa é a visão do governo e do ministro de Minas e Energia."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b098",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta se há algo em vigor ou algum estudo no ministério para prorrogar os contratos do PROINFA.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se o ministério estuda prorrogar os contratos do PROINFA.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b098c1",
+     "sentences": [
+      0
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta saber se existe estudo no ministério para prorrogar os contratos do PROINFA",
+     "plain": "Ministro, há algo em vigor, ou algum estudo no ministério, sobre prorrogar os contratos do PROINFA, o programa de incentivo a fontes alternativas?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b099",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que a advocacia do governo estuda se a prorrogação exige lei e sustenta que adiar a discussão tarifária levará o setor elétrico a um colapso.",
+   "quote": [
+    31,
+    32,
+    33
+   ],
+   "covered": true,
+   "evidence": [
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A discussão tarifária não pode mais ser adiada, sob risco de colapso do setor elétrico.",
+    "sentence": 28
+   },
+   "claims": [
+    {
+     "id": "b099c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "a advocacia do governo estuda, a nosso pedido, se a prorrogação da Lei 14.182 precisa de projeto de lei",
+     "plain": "A prorrogação foi determinada pela Lei nº 14.182, de 2021, e agora está em análise na AGU, a advocacia do governo, a pedido nosso. Pedimos que avaliem se a renovação exige projeto de lei ou pode ser feita por via administrativa."
+    },
+    {
+     "id": "b099c2",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não dá mais para adiar a discussão tarifária, porque isso levará o setor elétrico a um colapso",
+     "plain": "Na nossa visão, o que não se pode mais é adiar a discussão da tarifa. Isso vai levar o setor elétrico a um colapso. Não quero terminar este governo como quem triplicou o preço da energia nos estados mais pobres."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b100",
+   "speaker": "s21",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Pergunta como o ministro recebeu o parecer da advocacia do governo sobre a exploração na Margem Equatorial e quais são os próximos passos.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber como o ministério avalia o parecer sobre a Margem Equatorial e o que vem depois.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b100c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta dizer como o ministro recebeu o parecer sobre a exploração na Margem Equatorial e o que vem depois",
+     "plain": "Ministro, como o senhor recebeu o parecer da AGU, a advocacia do governo, sobre a exploração na Margem Equatorial? Quais são os próximos passos?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b101",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Afirma que o governo busca um acordo institucional com a Eletrobras e defende que a Margem Equatorial pode financiar a transição energética.",
+   "quote": [
+    21,
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O governo quer equilíbrio institucional na Eletrobras, e não cargos na empresa.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b101c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo não quer cargos na Eletrobras e sim o equilíbrio da participação da União na empresa",
+     "plain": "Eu disse que a questão não é personificar. Não estamos pedindo emprego na Eletrobras, não queremos colocar ninguém lá dentro. Estamos defendendo a institucionalidade e o equilíbrio da participação da União, que é do povo brasileiro."
+    },
+    {
+     "id": "b101c2",
+     "sentences": [
+      22,
+      23
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Margem Equatorial pode ser a última fronteira de petróleo e de gás e ajuda a financiar a transição",
+     "plain": "Antes mesmo da transição, a Margem Equatorial talvez seja a nossa última fronteira de petróleo e de gás. Essas riquezas são importantes para financiar a transição energética e para o fundo social, que paga saúde e educação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b102",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado avisa que já são 15 horas e que outra comissão começou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b103",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ministro brinca com a observação do deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b104",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pergunta por que não converter o que a agência de mineração arrecada na valorização e na estruturação dos próprios servidores dela.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O que a agência de mineração arrecada deveria financiar a estruturação dos servidores dela.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b104c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o que a agência de mineração arrecada deveria virar valorização e estrutura para os servidores dela",
+     "plain": "Faço uma pergunta simples e rápida: por que não converter o que a agência de mineração arrecada em valorização e estruturação dos servidores dela? Qual é a dificuldade de fazer isso e apresentar uma solução imediata?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b105",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica que receitas vinculadas nunca foram usadas conforme a destinação e anuncia portaria para regularizar o pagamento da CFEM em 60 dias.",
+   "quote": [
+    45,
+    46,
+    47
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O governo reconhece a prioridade da agência, mas o orçamento não permite resolver tudo de uma vez.",
+    "sentence": 32
+   },
+   "claims": [
+    {
+     "id": "b105c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no Brasil os impostos e contribuições vinculados nunca foram usados conforme a destinação deles",
+     "plain": "Nós sabemos que todos os impostos e contribuições vinculados nunca foram usados conforme as suas destinações. Eles sempre acabam servindo para cumprir meta de superávit ou para completar o Orçamento."
+    },
+    {
+     "id": "b105c2",
+     "sentences": [
+      45,
+      46,
+      47
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o decreto incluiu 1.357 municípios afetados por ferrovia e pelo setor mineral que não recebiam nada da CFEM",
+     "plain": "Sobre a CFEM, conseguimos uma distribuição mais justa e mais equânime: 1.357 municípios foram incluídos, municípios afetados por ferrovia e pelo setor mineral que não recebiam nada. O decreto publicado criou mais justiça."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b106",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece o decreto e lembra que ele veio de relatório seu numa medida provisória.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b107",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Corrige o número e informa que foram 1.357 os municípios incluídos.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Foram 1.357 os municípios incluídos no decreto da CFEM.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b107c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "foram 1.357 os municípios incluídos",
+     "plain": "Foram 1.357 municípios, deputado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b108",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado completa a fala e agradece ao ministro pelo zelo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b109",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O ministro diz que temas estratégicos pedem convergência e agradece a todos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b110",
+   "speaker": "s23",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado sugere que a agência pague logo a parte incontroversa devida aos municípios.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b111",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor do operador para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b112",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Rebate que o operador não falhou naquele ponto, explica que só reproduziu o evento com dados de campo e lembra que não há sistema à prova de falhas.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O operador não falhou no ponto apontado, porque o evento só se reproduz com os dados vindos do campo.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b112c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "não existe sistema à prova de falhas, nem no Brasil nem no mundo, inclusive nos sistemas elétricos",
+     "plain": "Deputado, não existe sistema à prova de falhas. Refiro-me a todos os sistemas, inclusive os elétricos, no Brasil e no mundo."
+    },
+    {
+     "id": "b112c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o operador não falhou naquele ponto, porque o evento só foi reproduzido com os dados vindos do campo",
+     "plain": "Sobre o ponto em que o senhor disse que o operador falhou, eu lhe garanto que ali ele não falhou. Com os dados existentes, tentamos simular o evento e não conseguimos. Só reproduzimos a ocorrência com os dados vindos do campo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b113",
+   "speaker": "s23",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Rebate que o operador tem ensaio, teste e normatização do sistema justamente para prever ocorrências assim.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O operador dispõe de ensaios, testes e normas que deveriam prever esse tipo de ocorrência.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b113c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o operador tem ensaio, teste e normatização do sistema justamente para prever ocorrências assim",
+     "plain": "Vocês têm ensaios, testes e toda uma normatização do sistema justamente para prever uma coisa dessas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b114",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do operador concorda que essa é a obrigação do órgão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b115",
+   "speaker": "s23",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Insiste que, em tese, tudo isso deveria estar previsto pelo sistema.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Em tese, uma ocorrência dessas deveria estar prevista pelo sistema.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b115c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "em tese, tudo isso deveria estar previsto pelo sistema",
+     "plain": "Em tese, tudo isso deveria estar previsto pelo sistema."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b116",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do operador repete que, em tese, nenhum sistema é à prova de falhas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b117",
+   "speaker": "s23",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Concorda com a ressalva e pede que o operador detecte onde houve a falha.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Mesmo sem sistema perfeito, é preciso apontar onde exatamente houve a falha.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b117c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "seria importante que o operador detectasse onde exatamente houve a falha",
+     "plain": "Com certeza. Mas seria importante que os senhores detectassem onde houve a falha."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b118",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do operador diz que é isso que o órgão vai fazer, conforme prometido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b119",
+   "speaker": "s23",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b120",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Garante que, se houve fator humano, ele será investigado no relatório e aparecerá nele.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Um eventual fator humano será investigado e registrado no relatório da perturbação.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b120c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "se houve fator humano, ele é investigado no relatório, porque milissegundos não são tempos humanos",
+     "plain": "Deputado, se houver fator humano, ele é investigado dentro do relatório. Falamos de milissegundos, um tempo que não é humano, mas o que vem antes e depois disso, sim, é tempo humano."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b121",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 48,
+   "to_sentence": 7,
+   "from_claim": "b006c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Responde à perplexidade da deputada sobre a causa explicando onde o desligamento começou e por que isso sozinho não explica tudo."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 1,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "Explica por que as regras de despacho mudaram 2 dias depois: era preciso reduzir o fluxo do Norte e do Nordeste para o Sudeste."
+  },
+  {
+   "from": "b008",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 41,
+   "to_sentence": 16,
+   "from_claim": "b008c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Responde à dúvida sobre dados incorretos dizendo que os agentes não informaram nada errado e que o problema foi de desempenho do equipamento."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 41,
+   "from_claim": "b010c1",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Aceita que não houve falha de informação, mas conclui da mesma explicação que o problema foi estrutural."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 64,
+   "to_sentence": 6,
+   "from_claim": "b011c2",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Responde à cobrança sobre o rumo do setor apontando que os encargos chegaram ao limite para o consumidor regulado."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 11,
+   "to_sentence": 7,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Responde que a equiparação salarial é justa, mas que o governo propõe fazê-la em 3 anos por dificuldade de orçamento."
+  },
+  {
+   "from": "b013",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 41,
+   "from_claim": "b013c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "Ao alerta sobre os municípios sem CFEM e a agência sem estrutura, o ministro diz que já existe proposta objetiva do governo."
+  },
+  {
+   "from": "b024",
+   "to": "b013",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 29,
+   "from_claim": "b024c1",
+   "to_claim": "b013c2",
+   "strength": "media",
+   "note": "Aceita o discurso do desenvolvimento pela mineração, mas cobra que ele chegue a lugares como Ouro Preto, ainda com muita miséria."
+  },
+  {
+   "from": "b028",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 27,
+   "from_claim": "b028c2",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "Retoma o ponto sobre o peso do governo na Eletrobras e mostra o mesmo efeito na venda da Copel no Paraná."
+  },
+  {
+   "from": "b032",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 64,
+   "from_claim": "b032c1",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "Sustenta com números o diagnóstico do ministro: a energia subiu 47% entre 2017 e 2022 e ficou uma das mais caras do mundo."
+  },
+  {
+   "from": "b034",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 8,
+   "from_claim": "b034c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Contesta o critério de despacho adotado depois do evento e alerta que, sem fontes firmes, o risco do sistema cresce."
+  },
+  {
+   "from": "b041",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 67,
+   "from_claim": "b041c1",
+   "to_claim": "b011c3",
+   "strength": "media",
+   "note": "Confirma no caso do Amapá o que o ministro disse sobre a tarifa mais alta ficar no Norte e no Nordeste."
+  },
+  {
+   "from": "b042",
+   "to": "b032",
+   "kind": "responde",
+   "from_sentence": 59,
+   "to_sentence": 1,
+   "from_claim": "b042c2",
+   "to_claim": "b032c1",
+   "strength": "forte",
+   "note": "Responde à cobrança sobre o preço dizendo que encargos alheios ao setor elétrico deveriam sair da conta de luz."
+  },
+  {
+   "from": "b046",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 4,
+   "from_claim": "b046c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "Responde à cobrança sobre o acesso à energia dizendo que o calendário da universalização foi antecipado para 2026."
+  },
+  {
+   "from": "b048",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 9,
+   "from_claim": "b048c1",
+   "to_claim": "b028c2",
+   "strength": "forte",
+   "note": "Responde à pergunta sobre a concentração privada dizendo que o modelo de capital pulverizado não serve a setor estratégico."
+  },
+  {
+   "from": "b048",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 27,
+   "from_claim": "b048c2",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "Confirma o ponto do deputado sobre a representação da União e lembra que o povo é dono de 43,64% das ações."
+  },
+  {
+   "from": "b054",
+   "to": "b041",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 5,
+   "from_claim": "b054c1",
+   "to_claim": "b041c1",
+   "strength": "forte",
+   "note": "Responde ao deputado do Amapá que o estado e o Pará têm a maior perspectiva de aumento de tarifa este ano."
+  },
+  {
+   "from": "b057",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 12,
+   "from_claim": "b057c1",
+   "to_claim": "b019c2",
+   "strength": "forte",
+   "note": "Responde à dúvida sobre o prazo garantindo que em 45 dias o relatório trará a causa e as recomendações."
+  },
+  {
+   "from": "b061",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 46,
+   "from_claim": "b061c1",
+   "to_claim": "b011c1",
+   "strength": "forte",
+   "note": "Reforça o diagnóstico do ministro mostrando que ampliar o mercado livre encarece a conta de quem fica no cativo."
+  },
+  {
+   "from": "b065",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 49,
+   "from_claim": "b065c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Questiona a explicação técnica e pergunta por que, com água sobrando e em plena luz do dia, o sistema não se integrou."
+  },
+  {
+   "from": "b067",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 21,
+   "from_claim": "b067c1",
+   "to_claim": "b030c1",
+   "strength": "media",
+   "note": "Apoia o colega no tema do lítio do Vale do Jequitinhonha e liga o mineral à fabricação de carros a bateria."
+  },
+  {
+   "from": "b069",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 63,
+   "to_sentence": 7,
+   "from_claim": "b069c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "Apoia a cobrança sobre a agência de mineração e relata que em Rondônia ela nem sede tem mais."
+  },
+  {
+   "from": "b071",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 28,
+   "from_claim": "b071c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Apoia a afirmação do operador de que as fontes limpas não causaram o evento e conclui que o problema foi o sistema."
+  },
+  {
+   "from": "b071",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 19,
+   "to_sentence": 64,
+   "from_claim": "b071c2",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "Discorda do caminho escolhido: para baixar a conta, diz que o contrato da KPS tem de ser rescindido, e não flexibilizado."
+  },
+  {
+   "from": "b073",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 6,
+   "from_claim": "b073c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "Apoia a cobrança sobre a CFEM e relata prefeitos falando em greve por causa da queda de arrecadação."
+  },
+  {
+   "from": "b080",
+   "to": "b079",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 4,
+   "from_claim": "b080c1",
+   "to_claim": "b079c1",
+   "strength": "forte",
+   "note": "Responde com o número pedido: a arrecadação mensal da agência de mineração é de 700 milhões de reais."
+  },
+  {
+   "from": "b081",
+   "to": "b080",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 0,
+   "from_claim": "b081c1",
+   "to_claim": "b080c1",
+   "strength": "media",
+   "note": "Usa o número dado pela presidência para concluir que estruturar a agência custa 3 dias de arrecadação."
+  },
+  {
+   "from": "b083",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 28,
+   "from_claim": "b083c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Apoia a posição de que as renováveis não devem ser culpadas e pede que se diga que usinas tiveram o problema."
+  },
+  {
+   "from": "b085",
+   "to": "b006",
+   "kind": "contradiz",
+   "from_sentence": 29,
+   "to_sentence": 28,
+   "from_claim": "b085c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Não culpa a energia limpa, mas sustenta que o sistema não estava preparado para receber os harmônicos que ela gera."
+  },
+  {
+   "from": "b087",
+   "to": "b048",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 21,
+   "from_claim": "b087c2",
+   "to_claim": "b048c2",
+   "strength": "media",
+   "note": "Reforça a crítica ao modelo mostrando que a Eletrobras tem mais assentos no conselho do operador do que o governo."
+  },
+  {
+   "from": "b089",
+   "to": "b046",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 6,
+   "from_claim": "b089c1",
+   "to_claim": "b046c1",
+   "strength": "media",
+   "note": "Aceita o anúncio dos leilões e cobra saber se o Rio Grande do Norte entra no de dezembro ou no de março."
+  },
+  {
+   "from": "b091",
+   "to": "b085",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 18,
+   "from_claim": "b091c1",
+   "to_claim": "b085c1",
+   "strength": "forte",
+   "note": "Concorda com o colega e acrescenta que, além do sistema, falhou o monitoramento que deveria detectar a perturbação."
+  },
+  {
+   "from": "b091",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 6,
+   "from_claim": "b091c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "Apoia a cobrança da presidência sobre a CFEM e chama de não razoável o atraso de 4 meses aos municípios."
+  },
+  {
+   "from": "b093",
+   "to": "b063",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 22,
+   "from_claim": "b093c1",
+   "to_claim": "b063c1",
+   "strength": "media",
+   "note": "Apoia o pedido sobre as pequenas hidrelétricas e defende incluí-las entre as fontes renováveis dos novos projetos."
+  },
+  {
+   "from": "b095",
+   "to": "b054",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 0,
+   "from_claim": "b095c1",
+   "to_claim": "b054c1",
+   "strength": "forte",
+   "note": "Confirma o quadro do Amapá e propõe suspender as bandeiras tarifárias nos estados que geram mais do que consomem."
+  },
+  {
+   "from": "b097",
+   "to": "b087",
+   "kind": "responde",
+   "from_sentence": 26,
+   "to_sentence": 7,
+   "from_claim": "b097c1",
+   "to_claim": "b087c2",
+   "strength": "forte",
+   "note": "Responde à pergunta sobre a influência do Estado dizendo que a privatização prejudicou o País no formato escolhido."
+  },
+  {
+   "from": "b099",
+   "to": "b098",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b099c1",
+   "to_claim": "b098c1",
+   "strength": "forte",
+   "note": "Responde que a advocacia do governo estuda se a prorrogação do PROINFA pode ser feita sem projeto de lei."
+  },
+  {
+   "from": "b099",
+   "to": "b063",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 23,
+   "from_claim": "b099c1",
+   "to_claim": "b063c1",
+   "strength": "forte",
+   "note": "Responde ao pedido sobre o PROINFA informando que a lei de 2021 está em análise jurídica a pedido do ministério."
+  },
+  {
+   "from": "b099",
+   "to": "b061",
+   "kind": "responde",
+   "from_sentence": 28,
+   "to_sentence": 9,
+   "from_claim": "b099c2",
+   "to_claim": "b061c1",
+   "strength": "media",
+   "note": "Responde à preocupação com o mercado cativo dizendo que a discussão da tarifa não pode mais ser adiada."
+  },
+  {
+   "from": "b101",
+   "to": "b100",
+   "kind": "responde",
+   "from_sentence": 22,
+   "to_sentence": 0,
+   "from_claim": "b101c2",
+   "to_claim": "b100c1",
+   "strength": "forte",
+   "note": "Ao ser perguntado sobre o parecer, fala da Margem Equatorial como fronteira capaz de financiar a transição."
+  },
+  {
+   "from": "b101",
+   "to": "b087",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 6,
+   "from_claim": "b101c1",
+   "to_claim": "b087c2",
+   "strength": "media",
+   "note": "Responde que o governo não quer cargos na empresa e sim o equilíbrio da participação da União."
+  },
+  {
+   "from": "b105",
+   "to": "b104",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 0,
+   "from_claim": "b105c1",
+   "to_claim": "b104c1",
+   "strength": "forte",
+   "note": "Responde que no Brasil receitas vinculadas nunca foram usadas conforme a destinação, e por isso a conversão não é simples."
+  },
+  {
+   "from": "b105",
+   "to": "b079",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 5,
+   "from_claim": "b105c1",
+   "to_claim": "b079c1",
+   "strength": "media",
+   "note": "Contraria a conta do deputado lembrando que a receita vinculada da agência nunca ficou com a própria agência."
+  },
+  {
+   "from": "b105",
+   "to": "b091",
+   "kind": "responde",
+   "from_sentence": 45,
+   "to_sentence": 20,
+   "from_claim": "b105c2",
+   "to_claim": "b091c2",
+   "strength": "forte",
+   "note": "Responde à cobrança sobre o atraso informando a nova distribuição da CFEM e a inclusão de 1.357 municípios."
+  },
+  {
+   "from": "b112",
+   "to": "b091",
+   "kind": "contradiz",
+   "from_sentence": 7,
+   "to_sentence": 9,
+   "from_claim": "b112c2",
+   "to_claim": "b091c1",
+   "strength": "forte",
+   "note": "Nega que o operador tenha falhado naquele ponto e explica que só reproduziu o evento com dados vindos do campo."
+  },
+  {
+   "from": "b113",
+   "to": "b112",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 5,
+   "from_claim": "b113c1",
+   "to_claim": "b112c1",
+   "strength": "media",
+   "note": "Rebate que o operador tem ensaios, testes e normas justamente para prever ocorrências desse tipo."
+  },
+  {
+   "from": "b115",
+   "to": "b112",
+   "kind": "contradiz",
+   "from_sentence": 0,
+   "to_sentence": 6,
+   "from_claim": "b115c1",
+   "to_claim": "b112c1",
+   "strength": "media",
+   "note": "Insiste que, em tese, uma ocorrência dessas deveria estar prevista pelo sistema."
+  },
+  {
+   "from": "b120",
+   "to": "b065",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 21,
+   "from_claim": "b120c1",
+   "to_claim": "b065c1",
+   "strength": "forte",
+   "note": "Responde à dúvida sobre intervenção humana dizendo que, se houver fator humano, ele aparecerá no relatório."
+  },
+  {
+   "from": "b120",
+   "to": "b117",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b120c1",
+   "to_claim": "b117c1",
+   "strength": "media",
+   "note": "Responde ao pedido de apontar a falha explicando o que pode e o que não pode ser atribuído a tempo humano."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b006",
+    "b071",
+    "b083"
+   ],
+   "claims": [
+    "b006c1",
+    "b071c1",
+    "b083c1"
+   ],
+   "note": "O operador do sistema e deputados de partidos diferentes concordam que as fontes eólica e solar não causaram o evento."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b011",
+    "b032",
+    "b041",
+    "b095"
+   ],
+   "claims": [
+    "b011c1",
+    "b011c2",
+    "b032c1",
+    "b041c1",
+    "b095c1"
+   ],
+   "note": "O ministério e deputados de partidos diferentes concordam que a conta da energia recai sobre o consumidor regulado."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b019",
+    "b048",
+    "b087"
+   ],
+   "claims": [
+    "b019c1",
+    "b048c1",
+    "b048c2",
+    "b087c1",
+    "b087c2"
+   ],
+   "note": "O ministério e deputados concordam que o formato de venda da Eletrobras tirou do governo o peso das ações que ele tem."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b013",
+    "b063",
+    "b093"
+   ],
+   "claims": [
+    "b013c2",
+    "b063c1",
+    "b093c1"
+   ],
+   "note": "O ministério e deputados concordam em estimular biocombustíveis e fontes renováveis já existentes como caminho da transição."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b001",
+    "b012",
+    "b073",
+    "b079",
+    "b091"
+   ],
+   "claims": [
+    "b001c1",
+    "b012c1",
+    "b073c1",
+    "b079c1",
+    "b091c2"
+   ],
+   "note": "A presidência da comissão e deputados de partidos diferentes concordam que a agência de mineração precisa de estrutura e que a CFEM tem de ser paga."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b022",
+    "b046",
+    "b089"
+   ],
+   "claims": [
+    "b022c1",
+    "b046c1",
+    "b089c1"
+   ],
+   "note": "O ministério e deputados concordam que levar energia a quem ainda não tem e ampliar a transmissão são prioridades."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b019",
+   "sentence": 37,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "o que é a Aliança Global para os Biocombustíveis assinada na Índia",
+   "plain": "O que é a Aliança Global para os Biocombustíveis, assinada por Brasil, Estados Unidos e Índia?",
+   "theme": "d4",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b022",
+   "sentence": 22,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se a apuração da Polícia Federal e da ABIN corre em sigilo",
+   "plain": "A investigação da Polícia Federal e da agência de inteligência sobre o apagão está correndo em sigilo?",
+   "theme": "d1",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b028",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": "b048",
+   "gist": "que providências o governo pode tomar para evitar a concentração privada",
+   "plain": "Que providências o governo pode tomar para evitar a concentração privada no setor elétrico?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b063",
+   "sentence": 24,
+   "addressed_to": "governo",
+   "answered_by": "b099",
+   "gist": "qual a opinião do ministério sobre prorrogar os contratos do PROINFA",
+   "plain": "Qual é a opinião do ministério sobre prorrogar os contratos do programa de fontes alternativas?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b067",
+   "sentence": 19,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "como explorar o lítio deixando parte da riqueza no Vale do Jequitinhonha",
+   "plain": "Como explorar o lítio para que ao menos parte da riqueza fique em Minas e no Vale do Jequitinhonha?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b073",
+   "sentence": 16,
+   "addressed_to": "mesa",
+   "answered_by": "b080",
+   "gist": "quanto a agência de mineração arrecada por mês no Brasil",
+   "plain": "Quanto a agência de mineração arrecada por mês no Brasil?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q7",
+   "from": "b089",
+   "sentence": 24,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "se a outorga e o licenciamento do irrigante podem ser feitos uma só vez",
+   "plain": "A outorga e o licenciamento exigidos do irrigante não poderiam ser feitos uma única vez?",
+   "theme": "d6",
+   "position": "contrario"
+  },
+  {
+   "id": "q8",
+   "from": "b093",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual a posição do ministério sobre incluir as pequenas hidrelétricas entre as renováveis",
+   "plain": "Qual é a posição do ministério sobre incluir as pequenas centrais hidrelétricas entre as renováveis?",
+   "theme": "d4",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b006",
+   "sentence": 75,
+   "gist": "o apagão tirou mais de 22 mil megawatts do sistema",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 76,
+   "gist": "o evento cortou 34% da carga do Brasil naquele momento",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 58,
+   "gist": "reguladores agiram em 50 a 100 milissegundos, não em 15 a 20",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b011",
+   "sentence": 24,
+   "gist": "88% da matriz de energia elétrica é limpa e renovável",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b011",
+   "sentence": 67,
+   "gist": "o reajuste no Pará caiu de 16% para 9%",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b011",
+   "sentence": 44,
+   "gist": "a repactuação do risco hidrológico custou 5 bilhões em 2015",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b032",
+   "sentence": 1,
+   "gist": "a energia elétrica subiu 47% entre 2017 e 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b046",
+   "sentence": 53,
+   "gist": "o antigo departamento tinha 1.196 servidores em 2010",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b046",
+   "sentence": 55,
+   "gist": "a agência de mineração tem hoje 654 servidores",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b080",
+   "sentence": 0,
+   "gist": "a agência de mineração arrecada 700 milhões por mês",
+   "disputed_by": [
+    {
+     "fala": "b105",
+     "sentence": 9
+    }
+   ]
+  },
+  {
+   "id": "f11",
+   "fala": "b105",
+   "sentence": 45,
+   "gist": "o decreto incluiu 1.357 municípios na partilha da CFEM",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b087",
+   "sentence": 5,
+   "gist": "o conselho do operador tem 14 representantes das empresas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "governo",
+   "setor_privado"
+  ],
+  "angle": "A matéria escolheu o anúncio dos dois projetos de lei do ministro e a explicação do operador sobre o desligamento de 15 de agosto.",
+  "omitted": "Ficou de fora quase todo o debate sobre a agência de mineração, o atraso no repasse da CFEM e a estruturação dos servidores."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A conta da luz sobra para quem não pode escolher",
+   "statement_plain": "Os encargos do setor elétrico foram parar na conta de quem compra energia no mercado regulado, e isso precisa ser dividido de outro jeito por lei.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b011c1",
+    "b011c2",
+    "b032c1",
+    "b041c1",
+    "b061c1",
+    "b095c1"
+   ],
+   "note": "É uma ideia, não um bloco: reúne o ministro de Minas e Energia e deputados de partidos diferentes que, em outros pontos da audiência, se enfrentam."
+  },
+  {
+   "id": "t2",
+   "title": "O sistema não estava preparado e não viu o problema",
+   "statement_plain": "O apagão não foi só um acidente técnico. O sistema não estava preparado para tanta energia do sol e do vento, e o monitoramento não viu o problema chegar.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b065c1",
+    "b085c1",
+    "b085c2",
+    "b091c1",
+    "b113c1"
+   ],
+   "note": "Cruza os campos políticos: uma deputada do PL, um do PDT, um do PT e um do PP chegam à mesma leitura sobre o preparo do sistema."
+  },
+  {
+   "id": "t3",
+   "title": "As fontes limpas não causaram o apagão",
+   "statement_plain": "O crescimento da energia do sol e do vento não provocou o apagão. A causa está no comportamento dos equipamentos e no sistema, não nas fontes renováveis.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c3",
+    "b008c1",
+    "b071c1",
+    "b083c1",
+    "b112c2"
+   ],
+   "note": "É uma ideia que atravessa setores: o operador do sistema, um deputado do União Brasil do Ceará e um do PSB de Pernambuco a sustentam juntos."
+  },
+  {
+   "id": "t4",
+   "title": "O modelo de venda tirou o Brasil da mesa da Eletrobras",
+   "statement_plain": "O jeito como a Eletrobras foi vendida deixou o governo com quase metade das ações e quase nenhuma voz nas decisões da empresa, e isso precisa ser corrigido.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b019c1",
+    "b028c1",
+    "b028c2",
+    "b048c1",
+    "b048c2",
+    "b087c1"
+   ],
+   "note": "Põe Executivo e Legislativo do mesmo lado e é contestada dentro da própria comissão, por quem nega qualquer ligação entre a privatização e o apagão."
+  },
+  {
+   "id": "t5",
+   "title": "Estruturar a agência de mineração se paga sozinho",
+   "statement_plain": "Dar salário e pessoal à agência que cuida da mineração custa poucos dias da arrecadação dela e faz os municípios voltarem a receber o que é deles.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b012c1",
+    "b069c1",
+    "b073c1",
+    "b079c1",
+    "b091c2"
+   ],
+   "note": "Junta a presidência da comissão e deputados que apoiam e que se opõem ao governo, todos contra a proposta orçamentária de 3 anos."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "ONS",
+   "fala": "b001",
+   "sentence": 10,
+   "plain": "sigla do Operador Nacional do Sistema Elétrico, que manda ligar e desligar usinas e opera a rede que liga o País"
+  },
+  {
+   "term": "CFEM",
+   "fala": "b001",
+   "sentence": 41,
+   "plain": "valor que as mineradoras pagam pela exploração de minério e que é repassado a municípios, estados e União"
+  },
+  {
+   "term": "RAP",
+   "fala": "b006",
+   "sentence": 53,
+   "plain": "Relatório de Análise de Perturbações, o estudo técnico que o operador precisa entregar depois de um evento grave"
+  },
+  {
+   "term": "regulador de tensão",
+   "fala": "b006",
+   "sentence": 55,
+   "plain": "aparelho que injeta energia na rede quando há um problema, para manter a tensão estável"
+  },
+  {
+   "term": "ERAC",
+   "fala": "b006",
+   "sentence": 67,
+   "plain": "esquema que corta carga de forma controlada numa região para proteger o sistema elétrico quando algo dá errado"
+  },
+  {
+   "term": "consumidor regulado",
+   "fala": "b011",
+   "sentence": 46,
+   "plain": "quem compra energia da distribuidora local pela tarifa fixada pela agência, sem poder negociar o preço"
+  },
+  {
+   "term": "mercado livre",
+   "fala": "b011",
+   "sentence": 49,
+   "plain": "ambiente em que grandes consumidores negociam direto com quem gera energia e escolhem de quem comprar"
+  },
+  {
+   "term": "ANM",
+   "fala": "b013",
+   "sentence": 0,
+   "plain": "Agência Nacional de Mineração, o órgão federal que fiscaliza a mineração e cobra a CFEM"
+  },
+  {
+   "term": "SAF",
+   "fala": "b013",
+   "sentence": 32,
+   "plain": "sigla em inglês para combustível de aviação sustentável, feito a partir de matérias-primas renováveis"
+  },
+  {
+   "term": "CDE",
+   "fala": "b042",
+   "sentence": 44,
+   "plain": "Conta de Desenvolvimento Energético, o fundo dentro da conta de luz que banca subsídios e programas do setor"
+  },
+  {
+   "term": "PROINFA",
+   "fala": "b063",
+   "sentence": 21,
+   "plain": "programa federal que contratou pequenas usinas de fontes alternativas, como eólicas e pequenas hidrelétricas"
+  },
+  {
+   "term": "PCHs",
+   "fala": "b063",
+   "sentence": 22,
+   "plain": "pequenas centrais hidrelétricas, usinas de porte reduzido em rios, com impacto ambiental menor"
+  },
+  {
+   "term": "sinal locacional",
+   "fala": "b071",
+   "sentence": 11,
+   "plain": "regra que cobra mais caro pelo uso da rede de quem está longe do centro de consumo"
+  },
+  {
+   "term": "MMGD",
+   "fala": "b089",
+   "sentence": 19,
+   "plain": "micro e minigeração distribuída: pequenas usinas, como placas solares, ligadas à rede no lugar em que se consome"
+  }
+ ]
+}

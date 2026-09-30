@@ -1,0 +1,1830 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 175,
+ "model": "LLM lendo o prompt hearing-175 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T22:52:14Z",
+ "prompt_sha256": "75da83deed38863803c42a1eed33ee67ef6be4440728c5a68139cb18ae613e6b",
+ "sentences_hash": "de15d5ebd4e489ca",
+ "review": {
+  "pairs_read": 34,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão do Esporte ouviu o assessor especial do Ministério da Fazenda sobre a nova regra das apostas esportivas, a poucos dias do relatório da Medida Provisória nº 1.182, de 2023. O debate girou na alíquota de 18% sobre a receita dos jogos, no custo da licença federal diante das licenças que um estado começou a vender e no quanto do repasse chega ao esporte de base.",
+ "stakes": "Que alíquota e que outorga o relator da medida provisória ia fixar no relatório que estava por sair.",
+ "central_question": "Quanto o Brasil deve cobrar das casas de apostas sem empurrá-las para fora da regra federal?",
+ "synopsis_plain": "A Comissão do Esporte chamou o assessor do Ministério da Fazenda para explicar a nova regra das apostas esportivas. A conta em discussão era a alíquota de 18% sobre o que as casas ganham com os jogos, menos os prêmios pagos. Um estado já vendia licença muito mais barata, e a sala quis saber se a regra federal ia ficar vazia e quanto desse dinheiro chega ao esporte de base.",
+ "stakes_plain": "O relator da medida provisória ia definir nos próximos dias quanto as casas de apostas vão pagar de imposto e de licença.",
+ "central_question_plain": "Quanto cobrar das casas de apostas sem que elas fujam para uma licença estadual mais barata ou para fora da lei?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Dever de regulamentar as apostas",
+   "description": "Se cabe ao Estado trazer para a lei um mercado de apostas que cresceu cinco anos sem regra nenhuma.",
+   "axis": {
+    "pro": "O país tem de regulamentar as apostas que já acontecem, para cobrar e para restringir quem opera fora da lei.",
+    "contra": "Regulamentar dá respaldo a uma atividade que seria melhor deixar de fora da lei.",
+    "pro_plain": "As apostas já acontecem. Sem regra, o país não cobra nada e não consegue restringir ninguém.",
+    "contra_plain": "Criar regra para aposta é dar respaldo a uma atividade que faria melhor ficar de fora."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Alíquota e carga tributária",
+   "description": "Quanto as casas de apostas devem pagar sobre a receita dos jogos, e se a conta real é maior do que os 18% da medida provisória.",
+   "axis": {
+    "pro": "Os 18% sobre a receita dos jogos são justos e o setor tem de contribuir com a arrecadação.",
+    "contra": "Somada aos outros impostos, a carga sufoca a operação e empurra o mercado para a clandestinidade.",
+    "pro_plain": "O setor movimenta bilhões e não pode ficar isento enquanto comida e saúde pagam imposto.",
+    "contra_plain": "Com os outros impostos a conta passa dos 18%, e uma carga alta empurra as casas para fora da lei."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Licença federal e licenças estaduais",
+   "description": "Se uma licença comprada em um estado permite oferecer aposta em todo o país, e o que isso faz com a licença federal.",
+   "axis": {
+    "pro": "A licença estadual vale só dentro do estado e a autorização para operar no país é federal.",
+    "contra": "Na prática a licença estadual mais barata permite operar no país inteiro e esvazia a federal.",
+    "pro_plain": "A licença de um estado para na fronteira dele. Quem opera no país todo se credencia no governo federal.",
+    "contra_plain": "Sai mais barato pegar licença em um estado e oferecer aposta pela internet no Brasil inteiro."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Repasse das apostas ao esporte",
+   "description": "Para onde vai a parte da arrecadação destinada ao esporte e se ela alcança as modalidades sem estrutura.",
+   "axis": {
+    "pro": "Os repasses previstos financiam o esporte de base em todas as modalidades.",
+    "contra": "O repasse se concentra em quem já tem estrutura e não chega às modalidades sem federação forte.",
+    "pro_plain": "O dinheiro das apostas vai ao esporte de base e vale para todas as modalidades, não só o futebol.",
+    "contra_plain": "Quem não tem federação forte não consegue alcançar esse dinheiro, e o repasse fica onde já há estrutura."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Integridade e futuro do esporte",
+   "description": "O efeito do dinheiro das apostas sobre a credibilidade do esporte e sobre a manipulação de resultados.",
+   "axis": {
+    "pro": "O peso das apostas dentro do esporte ameaça sua credibilidade e exige ação do Estado.",
+    "contra": "O esporte segue de pé e as apostas trazem recursos sem ameaçar sua credibilidade.",
+    "pro_plain": "Com tanto dinheiro de aposta em volta do jogo, a confiança no resultado fica em risco.",
+    "contra_plain": "O esporte aguenta. O dinheiro das apostas ajuda e não abala a confiança no resultado."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Enquadramento legal da aposta",
+   "description": "Se tratar aposta esportiva como atividade lotérica foi acerto ou erro, e de quem é a decisão sobre jogos de azar.",
+   "axis": {
+    "pro": "Manter o enquadramento da lei de 2018 era o caminho para regulamentar logo, e jogos de azar são decisão do Congresso.",
+    "contra": "Tratar aposta esportiva como loteria foi um erro e abriu portas equivocadas.",
+    "pro_plain": "Era melhor seguir o enquadramento que já existia e regulamentar logo. Jogo de azar quem decide é o Congresso.",
+    "contra_plain": "Aposta esportiva não é loteria, e chamar de loteria criou problemas, como tributar o apostador."
+   },
+   "contested": true
+  },
+  {
+   "id": "d7",
+   "name": "Governança e compliance no esporte",
+   "description": "De onde vem a organização das entidades esportivas: dos indicadores da regulamentação ou da mudança do clube em empresa.",
+   "axis": {
+    "pro": "A regulamentação precisa definir indicadores e compliance para as organizações esportivas.",
+    "contra": "Organização de verdade só vem quando o clube deixa de ser associação e passa a ser empresa.",
+    "pro_plain": "As regras têm de dizer que indicadores valem, para cada entidade esportiva saber o que cumprir.",
+    "contra_plain": "Enquanto o clube é associação, a prestação de contas tem teto. Empresa é que cobra de verdade."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão do Esporte e autor do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Presidente, Mauricio do Vôlei, PL - MG, e autor do Requerimento nº 52, de 2023, em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata de esporte"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Assessor especial da Secretaria Executiva do Ministério da Fazenda",
+   "org": "Ministério da Fazenda",
+   "basis": "anunciado pela presidência em b001.3 e b001.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "assessor especial do Ministério da Fazenda",
+   "org_plain": "ministério que cuida das contas públicas, dos impostos e da arrecadação do Governo Federal"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Advogada, representante da Comissão de Cultura, Esporte e Lazer da OAB",
+   "org": "OAB",
+   "basis": "apresentada pela presidência em b003.3 e identificada por ela mesma como advogada e atleta em b004.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Comissão de Esporte e Lazer da OAB",
+   "org_plain": "Ordem dos Advogados do Brasil, entidade que reúne e fiscaliza os advogados do país"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Advogado, membro da Comissão Jovem da Academia Nacional de Direito Desportivo",
+   "org": "ANDD",
+   "basis": "apresentado pela presidência em b003.2 e, em b012.15, diz advogar para casas de apostas",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "advogado de casas de apostas e membro da ANDD",
+   "org_plain": "Academia Nacional de Direito Desportivo, entidade de estudo do direito do esporte"
+  },
+  "s05": {
+   "role": "parlamentar",
+   "cargo": "3º Vice-Presidente da Comissão do Esporte",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado na ata como Bloco/PSB - RJ e cumprimentado como 3º Vice-Presidente em b016.60",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSB do Rio de Janeiro",
+   "org_plain": "Câmara dos Deputados, casa do Congresso onde os projetos começam a tramitar"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.4
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.4
+   },
+   {
+    "role": "governo",
+    "share": 0.15
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.05
+   }
+  ],
+  "basis": "O assessor diz ver muitos especialistas do ramo das apostas e vários advogados na sala em b002.56 e b002.57, cita operadores presentes em b013.19 e dois atletas em b025.5. Não há registro de palmas nem de delegações.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre a regra das apostas esportivas e anuncia o convidado da Fazenda.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta a medida provisória e o projeto de lei das apostas, diz que a regulamentação era obrigação desde 2018 e defende a cobrança como justiça tributária.",
+   "quote": [
+    70,
+    71,
+    72
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Regulamentar as apostas é uma obrigação legal atrasada, e o setor precisa contribuir com a arrecadação.",
+    "sentence": 65
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei de 2018 mandou o ministério regulamentar as apostas em até 2 anos, prorrogáveis por 2, e isso não foi feito",
+     "plain": "O Ministério da Fazenda cumpriu em 24 de julho de 2023 uma obrigação que devia estar cumprida desde 2020: regulamentar as apostas de cota fixa, da Lei nº 13.756, de 2018. A lei dava 2 anos, prorrogáveis por 2, e nada foi feito."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um decreto cria um grupo entre ministérios contra a manipulação, que pode ser a crise mais grave já vivida pelo esporte brasileiro",
+     "plain": "Sai hoje ou nos próximos dias um decreto que cria um grupo entre ministérios contra a manipulação de resultados. A meu ver, ela pode ser a crise mais grave que o esporte brasileiro já viveu: tira a credibilidade e a imprevisibilidade."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      65,
+      66,
+      67
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não é justo que o setor de apostas, que movimenta 100 bilhões, 150 bilhões de reais por ano, fique isento como ficou nos últimos 5 anos",
+     "plain": "É uma questão de justiça tributária. A produção de alimentos e os insumos de saúde pagam imposto. Não seria justo que as apostas, que movimentam 100 bilhões, 150 bilhões de reais por ano, ficassem isentas, como ficaram nos últimos 5 anos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a presença dos dois advogados convidados e passa a palavra à representante da OAB.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Cobra do Governo como o fomento das apostas vai chegar às modalidades sem federação forte e como serão os indicadores previstos na Lei Geral do Esporte.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 10,
+   "stance": {
+    "position": "condicional",
+    "claim": "A regulamentação é bem-vinda, mas o acesso ao fomento precisa alcançar as modalidades sem estrutura.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Lei Geral do Esporte trata de indicadores, de padronização e de compliance, e falta a posição do Governo sobre isso",
+     "plain": "Na medida provisória, destacamos pontos ligados aos indicadores. A Lei Geral do Esporte fala de indicadores, de padronização e até de compliance, a conformidade das organizações esportivas com as leis. Queremos a posição dos senhores."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "atletas de modalidades como o caratê não têm federação forte, e falta saber como o acesso ao fomento será democratizado",
+     "plain": "No futebol é fácil, é esporte estruturado, e o vôlei tem confederação. Mas milhares de atletas, do caratê e de outros entes, não têm federação com poder para buscar conhecimento jurídico. Como será a democratização do acesso ao fomento?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se o assessor da Fazenda quer responder.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Responde que 1,63% remunera o uso da imagem em todos os esportes e que 3% vão ao Ministério do Esporte, e vê no modelo de empresa o caminho do compliance.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O repasse das apostas alcança todas as modalidades, e o compliance avança quando o clube vira empresa.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o 1,63% que a lei de 2018 destinou, e a MP manteve, paga pelo uso da imagem de atletas e entidades de todos os esportes",
+     "plain": "Nas apostas, a lei de 2018 destina 1,63%, e a medida provisória manteve isso até agora. É a contrapartida pelo uso da imagem de entidades esportivas e de atletas, de todos os esportes."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a MP repassa 3% ao Ministério do Esporte para o esporte de base e isso aumenta o orçamento dele de forma exponencial",
+     "plain": "Pela medida provisória, 3% vão ao Ministério do Esporte, para fomentar o esporte de base em todas as modalidades. Esses 3% aumentam de forma exponencial o orçamento do ministério."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      65,
+      66,
+      67
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Código Civil tem nove artigos para as associações e levar o futebol para o mundo das S.A. é o que faz o compliance entrar",
+     "plain": "Doutora, o Código Civil tem nove artigos para as associações. A Lei das S.A. é de 1976 e o mundo inteiro a reconhece como uma boa lei. Estamos tirando o futebol do mundo das associações para o das S.A., e aí o compliance entra de verdade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência devolve a palavra à advogada da OAB.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Explica que perguntou porque conhece a Lei das SAFs e espera indicadores bem regulamentados na medida provisória.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os indicadores da medida provisória precisam ser bem estruturados para manter a organização do esporte.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "perguntou justamente porque conhece a Lei das SAFs e espera que os indicadores da MP sejam bem regulamentados e estruturados",
+     "plain": "Perguntei justamente por isso, sabendo do que a Lei das SAFs trouxe para o esporte. Espero que os indicadores da MP sejam bem regulamentados e estruturados, para mantermos a organização e descentralizar da melhor forma."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao advogado convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O advogado agradece o convite e lembra que começou a discutir a regulamentação com o assessor no carnaval.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b011",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O assessor responde com uma brincadeira sobre a própria idade e o carnaval.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Alerta que a licença estadual sai muito mais barata que a federal, que clientes já cogitam esse caminho e que tratar aposta como loteria foi um erro.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O custo da licença federal pode empurrar as casas de apostas para licenças estaduais mais baratas.",
+    "sentence": 24
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "enquadrar a aposta esportiva como atividade lotérica na lei de 2018 foi um erro, porque aposta esportiva não é loteria",
+     "plain": "Por um erro da Lei nº 13.756, de 2018, a aposta esportiva ficou enquadrada como atividade lotérica, algo que não existe em lugar nenhum do mundo. Uma porta que isso abriu é tributar o apostador como loteria, e ela não é loteria."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o edital da LOTERJ cobra 5% sobre o GGR e 5 milhões de reais de licença, contra 18% e talvez 30 milhões na regulamentação federal",
+     "plain": "No edital da LOTERJ, a loteria do Rio, a tributação é de 5% sobre o GGR, a receita dos jogos menos os prêmios pagos, e a licença custa 5 milhões de reais. Na regulamentação federal são 18% e a licença talvez fique em 30 milhões."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "clientes já ligam dizendo que vale mais pegar licença em um estado e oferecer aposta on-line no Brasil inteiro do que a licença federal",
+     "plain": "Já tenho cliente me ligando: talvez valha mais pegar licença em um estado qualquer e oferecer aposta on-line no Brasil inteiro do que pegar a federal. Minha preocupação é um sistema que exclui, caro demais, que empurre as casas para lá."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Avisa que licença estadual não autoriza operar no país inteiro, promete judicializar e diz que a alíquota agora é decisão do Congresso.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A licença estadual não autoriza operar em todo o país, e o Governo vai à Justiça se for preciso.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo não aconselha comprar licença estadual para operar no Brasil inteiro e conversa com as advocacias para judicializar a questão",
+     "plain": "Eu não aconselharia as casas de aposta a achar que vão comprar licença estadual e operar no Brasil inteiro, porque a norma não diz isso. Estamos conversando com as advocacias do Governo para levar a questão à Justiça."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há sistemas de georreferência usados no mundo inteiro que vão valer no Brasil e a licença do Rio vai até a fronteira do Rio",
+     "plain": "Já existem sistemas de georreferência usados com sucesso no mundo inteiro, e vamos usá-los no Brasil. A licença do Rio vai até a fronteira do Rio. Se a aposta é pela internet, o celular tem de estar dentro do Rio de Janeiro."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "a discussão com o relator busca uma alíquota que não pareça renúncia de arrecadação nem sufoque a operação no Brasil",
+     "plain": "A palavra final é o projeto de lei aprovado aqui. Estamos construindo com o Relator uma discussão técnica para chegar a uma alíquota que não pareça renúncia de arrecadação nem deixe o operador com a sensação de estar sufocado."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se o advogado convidado quer fazer mais alguma consideração.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b015",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O advogado diz que está satisfeito com a resposta e agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende a taxação e a regulamentação das apostas, teme pelo futuro do esporte apoiado nelas e pergunta por que os jogos de azar ficaram fora da medida provisória.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A regulamentação é necessária, mas o peso das apostas sobre o esporte é um risco de longo prazo.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não se sabe se daqui a 10 ou 20 anos as bets vão bancar os clubes e o esporte está com a responsabilidade no colo delas",
+     "plain": "Daqui a 10 ou 20 anos não sabemos se as bets, as casas de apostas, vão ter o sucesso que têm hoje nem se vão conseguir bancar os clubes. É um risco muito grande. Estamos colocando no colo delas toda a responsabilidade do esporte."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem regulamentar, as casas de apostas seguem operando do mesmo jeito e sem nenhuma contrapartida para o país",
+     "plain": "Eu apanho todos os dias por defender a regulamentação. Se não regulamentarmos as casas de apostas, elas seguem operando do mesmo jeito, sem contrapartida para o País, para o Estado, para o Município e para as novas gerações."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      31,
+      32,
+      33
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "3% dos bilhões que saem do Brasil iriam ao Ministério do Esporte, que hoje tem investimento pífio, e isso muda a vida dos brasileiros",
+     "plain": "Os esportes secundários estão caindo porque falta investimento na base. Desses bilhões que saem do Brasil, 3% iriam para o Ministério do Esporte, que hoje tem investimento pífio. Isso vai fazer muita diferença na vida dos brasileiros."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Explica que a medida provisória cumpriu a lei de 2018 sobre apostas esportivas e que a decisão sobre jogos de azar é do Congresso.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A medida provisória cumpriu o que a lei de 2018 mandou, e jogos de azar são decisão do Congresso.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a MP regulamentou o que a lei de 2018 mandou regulamentar, as apostas em prognósticos esportivos, e jogo de azar é do Congresso",
+     "plain": "A medida provisória de 24 de julho regulamentou o que a Lei nº 13.756, de 2018, mandou a Fazenda regulamentar: apostas em prognósticos esportivos, os palpites em resultado de jogo. Jogo de azar é prerrogativa do Congresso."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quem decide sobre jogos de azar é o Congresso e o Ministério da Fazenda vai cumprir o que ele determinar",
+     "plain": "Quem decide sobre jogos de azar é o Congresso. O Ministério da Fazenda vai cumprir o que o Congresso determinar, mandando regulamentar ou não."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta quanto dinheiro se movimenta por ano com as apostas esportivas e quanto o Governo espera arrecadar com a regulamentação.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "O Governo precisa apresentar a conta do mercado de apostas e da arrecadação esperada.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o Governo deve informar quanto se movimenta por ano com apostas e quanto espera arrecadar",
+     "plain": "Mais uma pergunta: o Governo tem ideia de quanto dinheiro se movimenta por ano com as apostas esportivas? E de quanto vai arrecadar com essa regulamentação?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Estima que o mercado movimentou entre 100 a 150 bilhões de reais, projeta 2 bilhões no Orçamento de 2024 e diz que a regulamentação restringe a aposta.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A regulamentação restringe a aposta, e a arrecadação pode crescer muito com o mercado maduro.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "o mercado pode ter movimentado entre 100 a 150 bilhões de reais no último ano, por dados que os próprios operadores fornecem",
+     "plain": "Como o mercado está todo fora do Brasil, trabalhamos com dados que os próprios operadores nos dão. Por eles, o setor pode ter movimentado entre 100 a 150 bilhões de reais no último ano."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Orçamento de 2024 estima 2 bilhões de reais de arrecadação e ao longo dos anos ela pode chegar a 12 bilhões",
+     "plain": "No Orçamento de 2024 estimamos, com responsabilidade, arrecadar 2 bilhões de reais com esse segmento, entre outorgas e tributos. Com o mercado maduro, ao longo dos anos podemos chegar a arrecadar até 12 bilhões."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a regulamentação restringe a aposta, porque as empresas não credenciadas vão ser impedidas de operar no Brasil",
+     "plain": "No fim do dia vamos restringir a aposta, porque algumas empresas não vão se credenciar no Brasil e nós vamos impedi-las. A bandeira que V.Exa. levanta restringe a aposta, não incentiva."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O advogado pede licença para interromper e complementar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência autoriza a interrupção.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Ressalva que os valores que circulam nas casas de apostas não são só de apostas esportivas e que não conhece a metodologia desses dados.",
+   "quote": [
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "As cifras do mercado brasileiro incluem outros jogos das mesmas casas, não só apostas esportivas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "os valores que circulam no mercado brasileiro não são só de apostas esportivas, porque as casas têm outras verticais no site",
+     "plain": "Eu não sei a metodologia desses dados, então evito dar aval a qualquer estatística. Mas os valores que circulam no mercado brasileiro não são só de apostas esportivas: essas casas têm outras verticais dentro do próprio site."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que suas perguntas foram respondidas e passa a palavra ao vice-presidente da Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta se a Fazenda vai propor redução da alíquota, porque o ideal apontado era em torno de 15% e a conta real chegaria a 30% e tantos.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A carga real das casas de apostas passa dos 18% e merece revisão.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a tributação ideal estava em torno de 15%, pela experiência internacional, e acabou em 18% depois de passar por 16%",
+     "plain": "Nas primeiras exposições, o ideal de tributação estava em torno de 15%, por uma experiência internacional: bem acima disso a clandestinidade cresceria tanto que uma alíquota maior ficaria contraproducente. Acabou em 18%, depois de 16%."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "somados os outros impostos, a carga não fica em 18%, chega a 30% e tantos, segundo representantes das casas de apostas",
+     "plain": "Depois da MP aprovada, representantes das casas de apostas levantaram que não são 18%. Contando os outros impostos que também incidem, a conta chega a 30% e tantos. O Ministério da Fazenda avaliou isso e pretende propor uma redução?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que a diferença de 15% para 18% são os 3% do esporte e que a Fazenda chegou a uma flexibilização do imposto, agora nas mãos do Congresso.",
+   "quote": [
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "A Fazenda aceita rever a alíquota, e a decisão final é do Congresso.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      3
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a diferença de 15% para 18% foi exatamente os 3% que vão ao Ministério do Esporte para o fomento do esporte",
+     "plain": "Estamos dando forma a isso. A diferença entre 15% e 18% foi exatamente os 3% destinados ao Ministério do Esporte, para o fomento do esporte."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o Ministério da Fazenda está aberto a rever os impostos e chegou a uma flexibilização importante, que tornaria o mercado acessível",
+     "plain": "A Fazenda está abertíssima. Não estamos discutindo de forma inflexível com o Relator, e chegamos a números. Não quero adiantar, mas chegamos a uma flexibilização importante do imposto, que achamos que torna o mercado acessível."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "quem define a tributação neste momento é o Congresso, e o relator sabe os parâmetros mínimo e máximo que a Fazenda aceita",
+     "plain": "Quem define a tributação agora é o Congresso. O Relator conhece os limites mínimo e máximo aceitos pelo Ministério da Fazenda, e são bem flexíveis. Posso garantir isso a V.Exa."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pergunta se a outorga já tem prazo para ser paga e quantas empresas que operam no Brasil já a pagaram.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se a outorga já tem prazo e quantas empresas a pagaram.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "já estamos cobertos pela lei e falta saber se a outorga tem prazo e quantas empresas já a pagaram",
+     "plain": "Já estamos cobertos pela lei. A outorga tem prazo para ser paga? Desde que virou lei ela já começou a ser paga, e quantas das empresas que operam no Brasil escolheram a legalidade e pagaram?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Responde que as primeiras outorgas só devem chegar em 2024, anuncia uma portaria de manifestação de interesse e liga a tecnologia à taxa de outorga.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "As primeiras outorgas só devem ser recebidas em 2024, e a taxa de outorga paga a tecnologia contra a manipulação.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a MP previu uma portaria com prazo e a expectativa é receber as primeiras outorgas somente em 2024",
+     "plain": "Quando editamos a medida provisória, deixamos claro que haveria uma portaria e que ela daria um prazo. A expectativa é começar a receber as primeiras outorgas somente em 2024."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "outra portaria vai pedir às empresas uma manifestação de interesse não vinculativa, sem pagamento naquele momento",
+     "plain": "Já está tramitando no Ministério da Fazenda outra portaria pedindo às empresas uma manifestação de interesse, não vinculativa, só para estimarmos o tamanho do mercado. Nesse momento a empresa não paga nada, mas paga depois da outorga."
+    },
+    {
+     "id": "b027c3",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "enfrentar a manipulação de resultados exige muita tecnologia, e esse investimento é pago com a taxa de outorga",
+     "plain": "Para enfrentar a manipulação de resultados e certificar que todos estão pagando imposto direito, vamos precisar de muita tecnologia. Olhamos desde janeiro o que há de melhor no mundo, e esse investimento é pago com a taxa de outorga."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta ao vice-presidente se ele tem mais alguma consideração.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado diz que não tem mais dúvidas e parabeniza as medidas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao convidado para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O assessor agradece aos presentes e diz que a Fazenda voltará à Comissão quantas vezes for necessário.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece o convidado, espera o relatório da medida provisória e encerra a audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 14,
+   "from_claim": "b006c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Responde à cobrança sobre a democratização do fomento dizendo que o repasse de 3% vai ao esporte de base em todas as modalidades."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 67,
+   "from_claim": "b008c1",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "Diz que perguntou justamente porque conhece a Lei das SAFs e a transformação que ela trouxe, o ponto que o assessor acabou de sustentar."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 8,
+   "from_claim": "b012c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Para o advogado, a lei de 2018 que o assessor apresenta como obrigação cumprida trouxe um erro de base, porque tratou aposta esportiva como loteria."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 24,
+   "from_claim": "b013c1",
+   "to_claim": "b012c3",
+   "strength": "forte",
+   "note": "Ao aviso de que clientes já pensam em pegar licença estadual, responde que a norma não permite operar no país inteiro e que o Governo vai à Justiça."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 13,
+   "to_sentence": 19,
+   "from_claim": "b013c2",
+   "to_claim": "b012c2",
+   "strength": "forte",
+   "note": "Contraria a leitura do edital do Rio: a licença estadual para na fronteira do estado, e a georreferência vai marcar isso."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 8,
+   "from_claim": "b016c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A presidência endossa o dever de regulamentar e acrescenta que, sem regra, as casas seguem operando sem devolver nada ao país."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 12,
+   "from_claim": "b016c3",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "Retoma o repasse de 3% que o assessor apresentou e diz que ele fará muita diferença, porque o investimento no esporte hoje é pífio."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 88,
+   "from_claim": "b017c1",
+   "to_claim": null,
+   "strength": "forte",
+   "note": "À pergunta sobre por que os jogos de azar não entraram na medida provisória, responde que a MP cumpriu a lei de 2018 e que esse tema é do Congresso."
+  },
+  {
+   "from": "b019",
+   "to": "b018",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b019c1",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Responde quanto se movimenta: entre 100 a 150 bilhões de reais no último ano, por dados que vêm dos próprios operadores."
+  },
+  {
+   "from": "b019",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 27,
+   "from_claim": "b019c3",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "Diz ao deputado que a bandeira dele restringe a aposta em vez de incentivá-la, apoiando a defesa da regulamentação que ele acabou de fazer."
+  },
+  {
+   "from": "b022",
+   "to": "b019",
+   "kind": "contradiz",
+   "from_sentence": 3,
+   "to_sentence": 1,
+   "from_claim": "b022c1",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "Põe em dúvida o tamanho do mercado: o que circula nessas casas inclui outros jogos, e não só as apostas esportivas."
+  },
+  {
+   "from": "b025",
+   "to": "b024",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 11,
+   "from_claim": "b025c2",
+   "to_claim": "b024c2",
+   "strength": "forte",
+   "note": "À pergunta sobre redução da alíquota, responde que a Fazenda chegou a uma flexibilização do imposto, mas que o número agora é do relator."
+  },
+  {
+   "from": "b025",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 32,
+   "from_claim": "b025c1",
+   "to_claim": "b016c3",
+   "strength": "forte",
+   "note": "Confirma de onde vem o repasse que a presidência defende: os 3% do Ministério do Esporte são a diferença entre os 15% e os 18%."
+  },
+  {
+   "from": "b027",
+   "to": "b026",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 3,
+   "from_claim": "b027c1",
+   "to_claim": "b026c1",
+   "strength": "forte",
+   "note": "Responde que a outorga depende de uma portaria e que as primeiras só devem ser recebidas em 2024."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b016"
+   ],
+   "claims": [
+    "b002c1",
+    "b016c2"
+   ],
+   "note": "O assessor do Ministério da Fazenda e a presidência da Comissão concordam que regulamentar é obrigação e que, sem regra, as casas de apostas seguem operando sem devolver nada ao país."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b016",
+    "b025"
+   ],
+   "claims": [
+    "b006c1",
+    "b006c2",
+    "b016c3",
+    "b025c1"
+   ],
+   "note": "Fazenda e presidência da Comissão concordam que o repasse das apostas, inclusive os 3% do Ministério do Esporte, tem de financiar o esporte de base em todas as modalidades."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b004",
+   "sentence": 14,
+   "addressed_to": "governo",
+   "answered_by": "b006",
+   "gist": "como será a democratização do acesso aos fomentos",
+   "plain": "Como o dinheiro do fomento vai chegar às modalidades que não têm federação forte?",
+   "theme": "d4",
+   "position": "contrario"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 10,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "qual a posição do Governo sobre os indicadores da regulamentação",
+   "plain": "Como vão funcionar os indicadores e o compliance que a Lei Geral do Esporte prevê?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 24,
+   "addressed_to": "governo",
+   "answered_by": "b013",
+   "gist": "a licença estadual mais barata vai esvaziar a federal",
+   "plain": "Uma licença estadual muito mais barata não vai esvaziar a licença federal?",
+   "theme": "d3",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b016",
+   "sentence": 87,
+   "addressed_to": "governo",
+   "answered_by": "b017",
+   "gist": "as apostas esportivas têm correlação com os jogos de azar",
+   "plain": "As apostas esportivas têm relação com os jogos de azar, e por que estes ficaram fora da MP?",
+   "theme": "d6",
+   "position": "neutro"
+  },
+  {
+   "id": "q5",
+   "from": "b018",
+   "sentence": 2,
+   "addressed_to": "governo",
+   "answered_by": "b019",
+   "gist": "quanto se movimenta por ano e quanto vai arrecadar",
+   "plain": "Quanto dinheiro se movimenta por ano com as apostas e quanto o Governo vai arrecadar?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q6",
+   "from": "b024",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": "b025",
+   "gist": "a Fazenda pretende propor redução da alíquota",
+   "plain": "O Ministério da Fazenda avaliou essa conta e pretende propor uma redução da alíquota?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q7",
+   "from": "b026",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": "b027",
+   "gist": "a outorga tem prazo e quantas empresas já pagaram",
+   "plain": "A outorga já tem prazo para ser paga e quantas empresas já pagaram?",
+   "theme": "d3",
+   "position": "neutro"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 8,
+   "gist": "a lei de 2018 deu prazo de 2 anos, prorrogável por 2",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 4,
+   "gist": "a lei de 2018 destina 1,63% ao uso da imagem",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 12,
+   "gist": "a MP repassa 3% ao Ministério do Esporte",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b012",
+   "sentence": 20,
+   "gist": "o edital da LOTERJ cobra 5% do GGR e 5 milhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b012",
+   "sentence": 21,
+   "gist": "na regra federal são 18% do GGR e talvez 30 milhões",
+   "disputed_by": [
+    {
+     "fala": "b024",
+     "sentence": 10
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b019",
+   "sentence": 1,
+   "gist": "o mercado movimentou entre 100 a 150 bilhões no último ano",
+   "disputed_by": [
+    {
+     "fala": "b022",
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b019",
+   "sentence": 6,
+   "gist": "o Orçamento de 2024 estima 2 bilhões de arrecadação",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b019",
+   "sentence": 7,
+   "gist": "a arrecadação pode chegar a 12 bilhões ao longo dos anos",
+   "disputed_by": [
+    {
+     "fala": "b022",
+     "sentence": 3
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b024",
+   "sentence": 6,
+   "gist": "a tributação ideal apontada era em torno de 15%",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b024",
+   "sentence": 10,
+   "gist": "com os outros impostos a conta chega a 30% e tantos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b027",
+   "sentence": 1,
+   "gist": "as primeiras outorgas só devem ser recebidas em 2024",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4"
+  ],
+  "roles_quoted": [
+   "governo",
+   "mesa",
+   "parlamentar"
+  ],
+  "angle": "A matéria escolheu a abertura do Governo para rever a alíquota de 18% e a ameaça de levar à Justiça as licenças que os estados vendem.",
+  "omitted": "Ficaram fora o debate sobre o enquadramento legal da aposta, a cobrança da OAB sobre indicadores e compliance e a ressalva do advogado sobre a metodologia dos números do mercado."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Regulamentar é o jeito de o país cobrar das apostas",
+   "statement_plain": "As apostas já acontecem no Brasil. Regulamentar com a lei que existe e cobrar imposto é o jeito de o país receber alguma contrapartida e de restringir quem opera fora da lei.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c3",
+    "b016c2",
+    "b019c2",
+    "b019c3",
+    "b017c1"
+   ],
+   "note": "A ideia junta a Fazenda e a presidência da Comissão, que diz apanhar todos os dias por defender a regulamentação e não ser favorável a mais imposto."
+  },
+  {
+   "id": "t2",
+   "title": "O custo da regra federal empurra as casas para fora",
+   "statement_plain": "Do jeito que ficou, a regra federal cobra caro demais e trata aposta como loteria. Assim as casas de apostas preferem uma licença estadual barata ou seguem sem licença nenhuma.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d2": "contrario",
+    "d6": "contrario"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b012c3",
+    "b024c1",
+    "b024c2"
+   ],
+   "note": "A ideia junta o advogado que atende casas de apostas e um deputado da Comissão, e o alvo dos dois não é a regulamentação, é o preço e o desenho dela."
+  },
+  {
+   "id": "t3",
+   "title": "O dinheiro das apostas tem de chegar ao esporte de base",
+   "statement_plain": "O que as apostas repassam, pelo uso da imagem e ao Ministério do Esporte, tem de financiar o esporte de base em todas as modalidades, e não só o futebol.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b006c2",
+    "b016c3",
+    "b025c1"
+   ],
+   "note": "A ideia junta a Fazenda e a presidência da Comissão, e responde à cobrança da OAB de que o fomento alcance as modalidades sem federação forte."
+  },
+  {
+   "id": "t4",
+   "title": "O dinheiro das apostas ameaça a confiança no jogo",
+   "statement_plain": "Com tanto dinheiro de aposta em volta do esporte, a confiança no resultado fica em risco, e o Estado tem de agir contra a manipulação antes que ela vire rotina.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b016c1",
+    "b027c3"
+   ],
+   "note": "A ideia junta o assessor da Fazenda, que vê na manipulação a crise mais grave do esporte, e a presidência, que teme pelo esporte daqui a 10 ou 20 anos."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "SAF",
+   "fala": "b002",
+   "sentence": 1,
+   "plain": "sociedade anônima do futebol: o clube deixa de ser associação e vira empresa com ações, que alguém pode comprar"
+  },
+  {
+   "term": "apostas de cota fixa",
+   "fala": "b002",
+   "sentence": 6,
+   "plain": "aposta em que o quanto se pode ganhar já está combinado na hora de apostar, como no palpite sobre o resultado de um jogo"
+  },
+  {
+   "term": "manipulação de resultados",
+   "fala": "b002",
+   "sentence": 18,
+   "plain": "combinar de antemão o resultado ou um lance de um jogo, em geral para que alguém ganhe a aposta"
+  },
+  {
+   "term": "Medida Provisória",
+   "fala": "b002",
+   "sentence": 22,
+   "plain": "norma que o presidente edita com força de lei e que precisa ser aprovada pelo Congresso para continuar valendo"
+  },
+  {
+   "term": "outorga",
+   "fala": "b002",
+   "sentence": 83,
+   "plain": "valor que a empresa paga ao poder público pela licença de operar apostas"
+  },
+  {
+   "term": "Lei Geral do Esporte",
+   "fala": "b004",
+   "sentence": 9,
+   "plain": "lei que reúne em um texto só as regras do esporte brasileiro"
+  },
+  {
+   "term": "compliance",
+   "fala": "b004",
+   "sentence": 9,
+   "plain": "conjunto de regras e controles internos com que uma organização mostra que está cumprindo a lei"
+  },
+  {
+   "term": "LOTERJ",
+   "fala": "b012",
+   "sentence": 19,
+   "plain": "loteria do Estado do Rio de Janeiro, que abriu edital para licenciar casas de apostas"
+  },
+  {
+   "term": "GGR",
+   "fala": "b012",
+   "sentence": 20,
+   "plain": "sigla em inglês para a receita bruta dos jogos: o que a casa de apostas arrecada menos os prêmios que paga"
+  },
+  {
+   "term": "jogo responsável",
+   "fala": "b013",
+   "sentence": 42,
+   "plain": "medidas para que a pessoa aposte sem se viciar, como avisos, limites e regras de propaganda"
+  },
+  {
+   "term": "CONAR",
+   "fala": "b013",
+   "sentence": 43,
+   "plain": "conselho criado pelo próprio setor de propaganda para fiscalizar a publicidade no Brasil"
+  },
+  {
+   "term": "bets",
+   "fala": "b016",
+   "sentence": 9,
+   "plain": "nome popular das casas de apostas que funcionam pela internet"
+  },
+  {
+   "term": "jogos de azar",
+   "fala": "b016",
+   "sentence": 87,
+   "plain": "jogos em que o resultado depende só da sorte, como os de cassino, hoje proibidos no Brasil"
+  },
+  {
+   "term": "prognósticos esportivos",
+   "fala": "b017",
+   "sentence": 1,
+   "plain": "palpites sobre resultados de jogos, o nome que a lei dá às apostas esportivas"
+  }
+ ]
+}

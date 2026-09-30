@@ -1,0 +1,1412 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 67,
+ "model": "LLM lendo o prompt hearing-067 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T19:35:01Z",
+ "prompt_sha256": "b2c3b2a7d1f0280231a482db70a59a306895f1892ca271a04a3dfcc9eb400e26",
+ "sentences_hash": "c8096b1e83b5ab10",
+ "review": {
+  "pairs_read": 22,
+  "pairs_fixed": 9
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A Comissão de Direitos Humanos e Minorias ouviu trabalhadores lesionados em fábricas do Vale do Paraíba, a associação que os representa e o advogado dela. Os debatedores pediram que a Câmara mude a lei para garantir o emprego de quem fica com lesão permanente adquirida no trabalho. Também criticaram a revogação de normas de segurança e a nova regra que permite à Previdência rever benefícios de acidente.",
+ "stakes": "Estava em jogo se a Câmara vai escrever em lei a garantia de emprego, até a aposentadoria, para quem fica com lesão permanente adquirida no trabalho.",
+ "central_question": "A lei deve garantir o emprego do trabalhador que fica com lesão permanente adquirida no trabalho até que ele se aposente?",
+ "synopsis_plain": "Trabalhadores que se machucaram em fábricas do Vale do Paraíba contaram, na Câmara, que foram demitidos e não conseguem outro emprego. Eles e a associação que os representa pediram uma lei que garanta o emprego de quem fica com lesão permanente até a aposentadoria. Também criticaram a revogação de normas de segurança e a nova regra que permite rever o benefício em perícia.",
+ "stakes_plain": "Decidir se a Câmara vai criar uma lei que garanta o emprego, até a aposentadoria, de quem fica com lesão permanente por causa do trabalho.",
+ "central_question_plain": "Quem fica com uma lesão permanente por causa do trabalho deve ter o emprego garantido até se aposentar?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Prevenção ou reparação",
+   "description": "Discute-se onde a mudança na lei tem de agir primeiro: nas normas de segurança e na fiscalização que evitam a lesão, ou no que vem depois dela.",
+   "axis": {
+    "pro": "A mudança tem de mirar a prevenção, restaurando normas de segurança, cobrando investimento das empresas e retomando a fiscalização.",
+    "contra": "A mudança tem de mirar quem já se lesionou, com emprego, benefício e tratamento garantidos.",
+    "pro_plain": "O mais urgente é evitar o acidente, com normas de segurança e fiscalização nas empresas.",
+    "contra_plain": "O mais urgente é cuidar de quem já se lesionou, garantindo emprego, benefício e tratamento."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Estabilidade do trabalhador lesionado",
+   "description": "Discute-se se a lei deve garantir que quem fica com lesão permanente adquirida no trabalho permaneça no emprego até se aposentar.",
+   "axis": {
+    "pro": "A lei deve dar estabilidade no emprego, até a aposentadoria, a quem ficou com lesão permanente no trabalho.",
+    "contra": "A garantia de emprego fica como está hoje, curta e sujeita ao que empresa e sindicato negociarem.",
+    "pro_plain": "Quem fica com lesão permanente no trabalho deve poder ficar no emprego até se aposentar.",
+    "contra_plain": "A garantia de emprego continua curta e dependendo do que empresa e sindicato combinarem."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Proteção escrita em lei",
+   "description": "Discute-se se a proteção do trabalhador lesionado tem de estar escrita em lei ou pode depender do acordo entre empresa e sindicato.",
+   "axis": {
+    "pro": "Os direitos do trabalhador lesionado têm de estar em lei, e não depender de acordo entre empresa e sindicato.",
+    "contra": "A negociação entre empresa e sindicato é o lugar certo para definir esses direitos.",
+    "pro_plain": "Os direitos de quem se lesiona no trabalho precisam estar na lei, não em acordo com a empresa.",
+    "contra_plain": "Empresa e sindicato podem combinar entre si o que vale para quem se lesiona no trabalho."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Nexo causal e benefício",
+   "description": "Discute-se como se prova que a lesão veio do trabalho e o que acontece com o benefício de quem já teve esse reconhecimento.",
+   "axis": {
+    "pro": "A lesão vinda do trabalho tem de ser reconhecida e o benefício não pode cair numa nova perícia.",
+    "contra": "Cabe à empresa contestar a origem da lesão e à Previdência rever o benefício quando julgar necessário.",
+    "pro_plain": "Quem já provou que se lesionou no trabalho não pode perder o benefício numa nova perícia.",
+    "contra_plain": "A empresa pode questionar de onde veio a lesão e a Previdência pode rever o benefício."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Vida depois da lesão",
+   "description": "Discute-se o que acontece com o trabalhador depois da lesão: a demissão, a porta fechada em outras empresas, o adoecimento e a perda de renda.",
+   "axis": {
+    "pro": "Quem se lesiona é demitido, não encontra outro emprego e adoece, e a lei tem de impedir isso.",
+    "contra": "Há serviço compatível e recolocação para quem se lesiona, e o problema é de cada caso.",
+    "pro_plain": "Quem se lesiona é demitido, não acha outro emprego e acaba adoecendo.",
+    "contra_plain": "Há trabalho compatível para quem se lesiona, e cada caso é um caso."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Tamanho e custo do problema",
+   "description": "Discute-se quantos acidentes e mortes acontecem no trabalho e quem paga a conta quando o trabalhador se afasta.",
+   "axis": {
+    "pro": "Os números mostram uma epidemia de acidentes e a conta do afastamento cai na Previdência e na economia do país.",
+    "contra": "Os casos são pontuais e a conta é da empresa e do trabalhador, não do país.",
+    "pro_plain": "Os acidentes no trabalho são muitos e a conta sobra para a Previdência e para o país.",
+    "contra_plain": "Os casos são poucos e a conta é da empresa e do trabalhador, não do país."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Direitos Humanos e Minorias",
+   "org": "Câmara dos Deputados",
+   "basis": "pista de cargo da ata (Orlando Silva. PCdoB - SP) e as falas b001.11 e b001.39, em que declara aberta a audiência do requerimento de sua autoria",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que trata de direitos humanos e dos grupos mais vulneráveis"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Associação dos Trabalhadores Lesionados nas Indústrias Metalúrgicas do Vale do Paraíba e diretor da FITMETAL",
+   "org": "ATL do Vale do Paraíba",
+   "basis": "apresentado pela presidência em b001.41 e b001.54",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "presidente da Associação dos Trabalhadores Lesionados",
+   "org_plain": "associação que reúne trabalhadores metalúrgicos lesionados nas fábricas do Vale do Paraíba, em São Paulo"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Trabalhadora metalúrgica lesionada",
+   "org": null,
+   "basis": "pista de cargo da ata e b006.5, em que se apresenta como metalúrgica lesionada",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "trabalhadora metalúrgica lesionada",
+   "org_plain": null
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Trabalhador lesionado da indústria automobilística",
+   "org": null,
+   "basis": "pista de cargo da ata e b010.3, em que diz ser trabalhador lesionado da indústria automobilística de São José dos Campos",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "trabalhador lesionado da indústria automobilística",
+   "org_plain": null
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Ex-funcionária de uma metalúrgica de Taubaté",
+   "org": null,
+   "basis": "a ata não traz pista de cargo. O vínculo sai de b012.3 e b012.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "ex-funcionária de uma metalúrgica de Taubaté",
+   "org_plain": null
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Advogado da Associação dos Trabalhadores Lesionados nas Indústrias Metalúrgicas do Vale do Paraíba",
+   "org": "ATL do Vale do Paraíba",
+   "basis": "pista de cargo da ata e b015.2, em que a presidência o apresenta como advogado da ATL",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "advogado da Associação dos Trabalhadores Lesionados",
+   "org_plain": "associação que reúne trabalhadores metalúrgicos lesionados nas fábricas do Vale do Paraíba, em São Paulo"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.9
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência anuncia em b001.0 e b001.1 a presença de alunos do 9° ano do Colégio Castanheiras, de Alphaville, e não há outra pista de plateia nem registro de palmas",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência sobre trabalhadores lesionados e cobra que a Câmara mude a lei, retome a fiscalização do trabalho e enfrente a precarização que agrava as lesões.",
+   "quote": [
+    61,
+    62
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara precisa mudar a lei e retomar a fiscalização para impedir que a precarização produza mais lesões.",
+    "sentence": 62
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      57,
+      58,
+      59
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no Brasil um trabalhador é vítima de acidente do trabalho a cada 40 minutos e a cada 4 horas há acidentes que matam",
+     "plain": "O acidente de trabalho no Brasil é uma epidemia. A cada 40 minutos temos um trabalhador vítima de acidente, e a cada 4 horas acontecem acidentes que acabam matando trabalhadores."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      61,
+      62
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a precarização do trabalho agravou enormemente as lesões e cabe à Câmara pôr na lei medidas que protejam o ambiente de trabalho",
+     "plain": "A precarização das relações de trabalho agravou enormemente as lesões. Por isso é importante que a Câmara conheça essa realidade e ponha na lei medidas que protejam o ambiente de trabalho."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      64,
+      65
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo impôs normas regulamentares sem ouvir as centrais sindicais e é preciso retomar a fiscalização do Ministério do Trabalho",
+     "plain": "O Governo impôs normas de segurança quase sem ouvir as centrais sindicais, e o ambiente de trabalho piorou. Precisamos retomar a fiscalização do Ministério do Trabalho e deixar o Ministério Público do Trabalho agir."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Lê a carta dos metalúrgicos do Vale do Paraíba e pede lei que dê estabilidade no emprego, até a aposentadoria, ao trabalhador com lesão permanente.",
+   "quote": [
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    8,
+    9
+   ],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei tem de garantir estabilidade no emprego, até a aposentadoria, a quem ficou com lesão permanente do trabalho.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as normas regulamentadoras revogadas exigiam investimento e segurança das empresas e sem elas os trabalhadores ficam mais expostos",
+     "plain": "Várias Normas Regulamentadoras, as regras de segurança, foram revogadas. Elas exigiam que as empresas investissem em proteção, e sem elas ficamos cada vez mais expostos ao assédio moral, a péssimas condições e a acidentes e doenças."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Medida Provisória nº 1.113, de 2022, virou lei e dá à Previdência poder de questionar benefícios acidentários ganhos na Justiça",
+     "plain": "O Governo editou a Medida Provisória nº 1.113, de 2022, e ela virou lei. Deixa o trabalhador com doença profissional ainda mais vulnerável, porque dá à Previdência poder de questionar benefícios de acidente ganhos na Justiça."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os metalúrgicos propõem uma lei de estabilidade no emprego até a aposentadoria para quem tem lesão permanente",
+     "plain": "Nós, metalúrgicas e metalúrgicos, sugerimos uma lei que dê estabilidade no emprego ao trabalhador com lesão permanente até ele se aposentar. Isso também força as empresas a investir mais em segurança e saúde no trabalho."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Luís Fabiano e passa a palavra a uma trabalhadora lesionada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada confirma que está conectada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra a Renata Rothje Ruiz e lhe dá as boas-vindas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata que adquiriu lesão no trabalho, foi demitida 2 dias após voltar do afastamento e cobra novas leis que protejam quem se lesiona em vez de revogar direitos.",
+   "quote": [
+    39,
+    40
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei tem de proteger o trabalhador lesionado para que ele não seja tratado como objeto descartável.",
+    "sentence": 39
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ela foi desligada 2 dias depois de voltar do afastamento, teve depressão e ficou sem plano médico",
+     "plain": "Voltei do meu último afastamento e, com 2 dias, fui desligada. Tomei remédios e tive depressão. Fiquei sem plano de saúde e sofro com isso até hoje."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      39
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cabe aos entes federados e à lei proteger o trabalhador para que não seja usado como objeto",
+     "plain": "Proteger esses trabalhadores, para que não sejam usados como objeto, é dever do poder público e da lei. A lei não pode ameaçar nem violar os direitos que a classe já conquistou."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem novas leis e garantias o trabalhador fica mais vulnerável e os direitos conquistados seguem sendo revogados",
+     "plain": "Se nada for feito com novas leis e garantias, o trabalhador fica cada dia mais vulnerável e acaba descartado. Os direitos já conquistados vão continuar sendo revogados, suspensos ou mudados contra ele."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Renata, cumprimenta-a pela graduação e chama os próximos convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado testa o som e pergunta se está sendo ouvido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o ouve e passa a palavra a Antônio Benedito Gonçalves.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Conta que foi demitido em 2018 sob alegação de que a lesão veio de outro emprego e teme perder o benefício numa nova perícia.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    24,
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A nova regra de perícia ameaça o benefício de quem já teve a lesão do trabalho reconhecida.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a empresa o demitiu em 2018 dizendo que a lesão vinha do emprego anterior, que era na mesma empresa",
+     "plain": "Em 2018 a nova empresa me demitiu dizendo que a minha lesão não tinha vindo dela, e sim do meu emprego anterior. Só que o emprego anterior foi nessa mesma empresa."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ele está desempregado desde 2018 e é considerado um trabalhador descartável, que nenhuma empresa quer nem para varrer rua",
+     "plain": "Estou desempregado desde 2018, lesionado e passando necessidades. Como o Luís Fabiano falou, me consideram um trabalhador descartável, e nenhuma empresa nos quer nem para varrer rua."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a Lei nº 1.113, de 2022, ele pode ser chamado a qualquer momento para nova perícia e perder o benefício",
+     "plain": "Com a Lei nº 1.113, de 2022, posso ser chamado a qualquer momento para uma nova perícia. Se não forem com a minha cara e disserem que estou apto, cortam o meu benefício e eu vou para a rua, sem dignidade para sustentar a família."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que a emoção do trabalhador reflete um drama que alcança milhares de brasileiros e defende que a audiência tire o assunto da invisibilidade.",
+   "quote": [
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O drama dos trabalhadores lesionados alcança milhares de pessoas e precisa sair da invisibilidade.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a emoção de quem depõe reflete um drama que alcança milhares de trabalhadores e que a audiência tira da invisibilidade",
+     "plain": "A sua emoção ao falar mostra um drama que atinge milhares e milhares de trabalhadores no Brasil. Por isso esta audiência é importante: ela tira da invisibilidade um assunto que pesa muito na vida da nossa gente."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Conta que está desempregada depois da metalúrgica, sobrevive de estágio e diz que ser negra numa cidade pequena torna ainda mais difícil conseguir emprego.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 19,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem sai lesionado da fábrica não consegue outro emprego, e para uma mulher negra a barreira é ainda maior.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ela é ex-funcionária de uma metalúrgica de Taubaté, está desempregada e sobrevive de um estágio",
+     "plain": "Sou ex-funcionária de uma metalúrgica aqui de Taubaté e passo pela mesma situação dos colegas. Hoje estou desempregada e sobrevivo do estágio que faço, porque passei no concurso temporário de recenseadora."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ela é negra e para as pessoas negras numa cidade pequena do Vale do Paraíba a dificuldade é muito maior",
+     "plain": "Eu sou negra. Para as pessoas negras da nossa cidade, no Vale do Paraíba, que é uma cidade pequena, a dificuldade é muito grande."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      17
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ela está na segunda graduação e mesmo assim não consegue emprego",
+     "plain": "Estou na minha segunda graduação e, mesmo assim, não consigo emprego."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Silvia, lembra que ela foi estudar Direito e a cumprimenta pelo esforço.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b014",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada agradece à presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que Carlos Rodolfo não participará e chama o advogado Gustavo de Paula Oliveira.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado confirma que ouve a presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência cumprimenta o advogado e lhe concede a palavra.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sustenta que a lesão no trabalho impacta a família e os cofres públicos, porque a Previdência arca com o afastamento, e trata o tema como econômico e humanitário.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lesão no trabalho é uma tragédia que custa à família e à Previdência, e por isso também é um problema econômico do país.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lesão atinge o trabalhador e a família e a despesa do afastamento cai na Previdência Social",
+     "plain": "É uma tragédia que atinge o trabalhador e também a família, porque muitas vezes ele é quem sustenta a casa. E quem paga a conta quando ele se afasta é a Previdência Social. Isso mexe com a economia do País."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "só no ano passado houve 571 mil acidentes e quase 2.500 mortes, como disse o presidente da associação",
+     "plain": "Ouvi o presidente da Associação dos Trabalhadores Lesionados, Luís Fabiano, dizer que houve 571 mil acidentes só no ano passado. Desses, quase 2.500 foram mortes."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Alerta que a lesão barra o acesso ao trabalho pelo dano físico e também atinge a saúde mental, com períodos de suicídios dentro de fábricas e assédio moral.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lesão no trabalho impede o acesso ao emprego e atinge também a saúde mental do trabalhador.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além do dano físico que impede o acesso ao trabalho, a lesão atinge a saúde mental, com suicídios dentro de fábricas e assédio moral",
+     "plain": "O trabalhador lesionado fica impedido de trabalhar pelo dano no corpo, mas eu também denuncio o efeito na saúde mental. Houve períodos com uma série de suicídios dentro das próprias fábricas, e o assédio moral merece muita atenção."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o presidente da associação veio do chão de fábrica, foi operário metalúrgico da GM e se aposentou por invalidez",
+     "plain": "O Luís Fabiano veio do chão de fábrica. Trabalhou como operário metalúrgico na GM de São José dos Campos, em São Paulo, se aposentou por invalidez e hoje é um trabalhador lesionado."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Pede que a Câmara olhe para o lado humano do trabalhador, restaure e proteja direitos e garanta aposentadoria e sustento digno à família.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 6,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Câmara precisa restaurar e proteger os direitos dos trabalhadores para que eles tenham vida digna e aposentadoria.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o trabalhador lesionado entra em depressão e, depois de demitido, não consegue nem emprego para varrer rua",
+     "plain": "O trabalhador entra em depressão, como vimos no depoimento de agora há pouco. E o lesionado, depois de demitido, não consegue nem um emprego para varrer rua."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os trabalhadores precisam de um olhar mais atento da Câmara e que os direitos sejam restaurados e protegidos",
+     "plain": "Precisamos de um olhar mais carinhoso desta Casa. Peço que os direitos dos trabalhadores sejam restaurados e protegidos, para que a gente tenha vida digna, direito à aposentadoria e possa sustentar a família com dignidade."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a todos os participantes e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b002",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 64,
+   "from_claim": "b002c1",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "A presidência disse que o Governo impôs normas sem ouvir as centrais sindicais, e a carta dos metalúrgicos completa que as normas revogadas eram justamente as que cobravam investimento em segurança."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 42,
+   "to_sentence": 21,
+   "from_claim": "b006c3",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "A carta dos metalúrgicos pede uma lei de estabilidade, e Renata reforça que sem novas leis e garantias o trabalhador fica mais vulnerável a cada dia."
+  },
+  {
+   "from": "b006",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 62,
+   "from_claim": "b006c2",
+   "to_claim": "b001c2",
+   "strength": "media",
+   "note": "A presidência cobrou que a Câmara ponha na lei medidas de proteção, e Renata coloca esse mesmo dever no poder público e na lei."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 12,
+   "from_claim": "b010c3",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "A carta alerta que a medida dá à Previdência poder de rever benefícios ganhos na Justiça, e Antônio mostra o que isso significa na prática: ele pode ser chamado a qualquer momento para uma nova perícia."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 12,
+   "from_claim": "b010c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Renata foi desligada 2 dias depois de voltar do afastamento, e Antônio conta o outro lado do mesmo movimento: foi demitido sob a alegação de que a lesão não tinha vindo daquela empresa."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 9,
+   "from_claim": "b011c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Antônio disse que o consideram um trabalhador descartável, e a presidência responde que a emoção dele reflete um drama que alcança milhares de trabalhadores no país."
+  },
+  {
+   "from": "b012",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 10,
+   "from_claim": "b012c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Antônio disse que nenhuma empresa quer um lesionado, e Silvia confirma que passa pela mesma situação depois de sair da metalúrgica."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 12,
+   "from_claim": "b012c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Renata foi desligada e ficou sem renda, e Silvia diz que vive a mesma coisa e hoje sobrevive de um estágio."
+  },
+  {
+   "from": "b018",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 18,
+   "from_claim": "b018c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O advogado retoma os números que Luís Fabiano tinha lido na carta para mostrar o tamanho do problema, ainda que esses números não estejam em carta nenhuma da fala dele."
+  },
+  {
+   "from": "b018",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 57,
+   "from_claim": "b018c1",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "A presidência chamou o acidente de trabalho de epidemia, e o advogado mostra a outra face da conta: o afastamento sobra para a família e para a Previdência."
+  },
+  {
+   "from": "b019",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 10,
+   "from_claim": "b019c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Antônio disse que nenhuma empresa quer um lesionado, e a presidência generaliza o ponto: o dano no corpo barra o acesso ao trabalho e ainda cobra um preço na saúde mental."
+  },
+  {
+   "from": "b020",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 10,
+   "from_claim": "b020c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Luís Fabiano fecha a audiência retomando a frase de Antônio, de que o lesionado demitido não consegue nem emprego para varrer rua."
+  },
+  {
+   "from": "b020",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 13,
+   "from_claim": "b020c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "Renata contou que tomou remédios e teve depressão, e Luís Fabiano usa esse depoimento para dizer que o trabalhador lesionado chega a adoecer assim."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b002"
+   ],
+   "claims": [
+    "b001c3",
+    "b002c1"
+   ],
+   "note": "A presidência e os metalúrgicos concordam que revogar normas de segurança e afrouxar a fiscalização piorou o ambiente de trabalho."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b006",
+    "b020"
+   ],
+   "claims": [
+    "b001c2",
+    "b006c2",
+    "b006c3",
+    "b020c2"
+   ],
+   "note": "A presidência, a trabalhadora lesionada e o presidente da associação concordam que a proteção do trabalhador lesionado tem de estar escrita em lei."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b010",
+    "b011",
+    "b012",
+    "b019",
+    "b020"
+   ],
+   "claims": [
+    "b006c1",
+    "b010c2",
+    "b011c1",
+    "b012c1",
+    "b019c1",
+    "b020c1"
+   ],
+   "note": "A presidência e os trabalhadores lesionados descrevem o mesmo quadro: depois da lesão vem a demissão, a porta fechada nas outras empresas e o adoecimento."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b001",
+    "b018"
+   ],
+   "claims": [
+    "b001c1",
+    "b018c1",
+    "b018c2"
+   ],
+   "note": "A presidência e o advogado da associação tratam a lesão no trabalho como problema de país, pelo número de acidentes e pela conta que sobra para a Previdência."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 19,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "criar leis que protejam o trabalhador lesionado",
+   "plain": "Os deputados vão criar leis que protejam o trabalhador que ficou lesionado no trabalho?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 22,
+   "addressed_to": "parlamentar",
+   "answered_by": "b011",
+   "gist": "a classe política olhar para os lesionados, não como peça de reposição",
+   "plain": "A classe política vai olhar para os trabalhadores lesionados como gente, e não como peça de reposição?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 19,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "os deputados ajudarem de alguma forma os trabalhadores lesionados",
+   "plain": "Os deputados vão ajudar de alguma forma quem ficou lesionado e não consegue emprego?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b020",
+   "sentence": 6,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "restaurar e proteger os direitos dos trabalhadores",
+   "plain": "A Câmara vai restaurar e proteger os direitos dos trabalhadores para que eles tenham vida digna?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b001",
+   "sentence": 58,
+   "gist": "a cada 40 minutos um trabalhador sofre acidente de trabalho",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b001",
+   "sentence": 59,
+   "gist": "a cada 4 horas há acidentes que levam à morte",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 18,
+   "gist": "22.954 mortes no trabalho formal de 2012 a 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "a Medida Provisória nº 1.113 foi editada em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 11,
+   "gist": "a trabalhadora lesionada luta na Justiça há 7 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 15,
+   "gist": "espera uma eletroneuromiografia pelo SUS desde 2018",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 4,
+   "gist": "trabalhou 22 anos na indústria automobilística e se lesionou",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 5,
+   "gist": "tem 11 calcificações no ombro e síndrome do carpo",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 12,
+   "gist": "10 pessoas da mesma linha tinham o mesmo problema",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b018",
+   "sentence": 7,
+   "gist": "quase 2.500 mortes entre os 571 mil acidentes do ano passado",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o pedido central dos debatedores, que é ampliar a estabilidade no emprego de quem ficou com lesão permanente adquirida no trabalho.",
+  "omitted": "Ficaram de fora o alerta da presidência sobre saúde mental, com períodos de suicídios dentro de fábricas e assédio moral, e o relato de Silvia Helena Santos."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A lei tem de garantir o emprego de quem se lesionou",
+   "statement_plain": "Quem fica com lesão permanente adquirida no trabalho deve ter o emprego garantido até se aposentar, e essa regra precisa estar escrita na lei.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d3": "favoravel",
+    "d1": "contrario"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b001c2",
+    "b006c2",
+    "b006c3",
+    "b020c2"
+   ],
+   "note": "É uma ideia, e não um bloco: quem a sustenta é a associação dos lesionados, uma trabalhadora que depôs sozinha e a própria presidência da Comissão."
+  },
+  {
+   "id": "t2",
+   "title": "Mudar a lei tem de começar antes do acidente",
+   "statement_plain": "O caminho é restaurar as normas de segurança, cobrar investimento das empresas e retomar a fiscalização, para que a lesão não chegue a acontecer.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b001c3",
+    "b002c1",
+    "b001c1",
+    "b018c2"
+   ],
+   "note": "Divide quem está do mesmo lado da sala: o mesmo presidente da associação que pede a estabilidade também sustenta que o problema começa nas normas de segurança revogadas."
+  },
+  {
+   "id": "t3",
+   "title": "Quem se lesiona vira peça descartável",
+   "statement_plain": "Depois da lesão o trabalhador é demitido, não consegue outro emprego e adoece, e é exatamente isso que a lei tem de impedir.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b010c2",
+    "b012c1",
+    "b019c1",
+    "b020c1",
+    "b002c3"
+   ],
+   "note": "A ideia atravessa três fábricas diferentes e junta quem depôs por si, quem representa a associação e a própria presidência da Comissão, que a assume ao encerrar o painel."
+  },
+  {
+   "id": "t4",
+   "title": "A perícia não derruba um direito já reconhecido",
+   "statement_plain": "Quem já teve a lesão do trabalho reconhecida na Justiça não pode perder o benefício numa nova perícia da Previdência.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b010c1",
+    "b010c3",
+    "b006c2",
+    "b001c2"
+   ],
+   "note": "Junta a carta dos metalúrgicos, escrita antes da audiência, o caso concreto de quem já tem decisão judicial e teme a nova perícia, e a cobrança da presidência por proteção em lei."
+  },
+  {
+   "id": "t5",
+   "title": "A lesão no trabalho é conta do país inteiro",
+   "statement_plain": "A lesão no trabalho não para no trabalhador: atinge a família, sobrecarrega a Previdência e o SUS e pesa na economia do país.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b018c1",
+    "b018c2",
+    "b001c1",
+    "b002c1"
+   ],
+   "note": "É a ideia que faz o advogado da associação e a presidência falarem a mesma língua, cada um chegando nela por um caminho diferente."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "Comissões Permanentes",
+   "fala": "b001",
+   "sentence": 3,
+   "plain": "grupos fixos de deputados que analisam os projetos de lei de cada assunto antes de o plenário votar"
+  },
+  {
+   "term": "Normas Regulamentadoras",
+   "fala": "b001",
+   "sentence": 51,
+   "plain": "regras do Ministério do Trabalho que dizem o que a empresa tem de fazer para garantir segurança e saúde no ambiente de trabalho"
+  },
+  {
+   "term": "NRs",
+   "fala": "b001",
+   "sentence": 51,
+   "plain": "sigla de Normas Regulamentadoras, as regras de segurança e saúde que as empresas têm de cumprir no trabalho"
+  },
+  {
+   "term": "Ministério Público do Trabalho",
+   "fala": "b001",
+   "sentence": 65,
+   "plain": "órgão que fiscaliza o cumprimento das leis do trabalho e pode cobrar as empresas na Justiça"
+  },
+  {
+   "term": "reforma trabalhista",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "mudança nas leis do trabalho que alterou contratos e jornada e deu mais peso aos acordos entre empresa e sindicato"
+  },
+  {
+   "term": "Previdência Social",
+   "fala": "b002",
+   "sentence": 9,
+   "plain": "sistema público que paga aposentadorias e benefícios a quem contribui, inclusive nos casos de acidente de trabalho"
+  },
+  {
+   "term": "Medida Provisória",
+   "fala": "b002",
+   "sentence": 10,
+   "plain": "regra que o Presidente da República edita com força de lei e que o Congresso precisa aprovar para ela continuar valendo"
+  },
+  {
+   "term": "SUS",
+   "fala": "b002",
+   "sentence": 29,
+   "plain": "Sistema Único de Saúde, a rede pública que atende qualquer pessoa no Brasil sem cobrar"
+  },
+  {
+   "term": "dissídio",
+   "fala": "b002",
+   "sentence": 30,
+   "plain": "negociação entre sindicato e empresa sobre salário e condições de trabalho, que pode acabar decidida na Justiça do Trabalho"
+  },
+  {
+   "term": "nexo causal",
+   "fala": "b006",
+   "sentence": 7,
+   "plain": "a ligação comprovada entre a lesão ou a doença e o trabalho que a pessoa fazia"
+  },
+  {
+   "term": "transitado em julgado",
+   "fala": "b006",
+   "sentence": 7,
+   "plain": "quando não cabe mais recurso e a decisão da Justiça passa a valer em definitivo"
+  },
+  {
+   "term": "eletroneuromiografia",
+   "fala": "b006",
+   "sentence": 15,
+   "plain": "exame que mede como os nervos e os músculos funcionam, usado para confirmar lesões por esforço"
+  },
+  {
+   "term": "síndrome do carpo",
+   "fala": "b010",
+   "sentence": 5,
+   "plain": "lesão no punho que aperta um nervo da mão e causa dor, formigamento e perda de força"
+  },
+  {
+   "term": "aposentado por invalidez",
+   "fala": "b019",
+   "sentence": 5,
+   "plain": "quem para de trabalhar em definitivo por doença ou lesão que o impede de exercer qualquer função"
+  }
+ ]
+}

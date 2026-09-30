@@ -1,0 +1,2704 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 68,
+ "model": "LLM lendo o prompt hearing-068 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:39:23Z",
+ "prompt_sha256": "cdc0716c67b329fa9a7e8b4ce362714604aa68cfa3b9c92c0364fe457c726645",
+ "sentences_hash": "ba9cd50eda09342f",
+ "review": {
+  "pairs_read": 54,
+  "pairs_fixed": 15
+ },
+ "warnings": [
+  "tese t3: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "Duas comissões da Câmara ouviram entidades de pacientes com diabetes, sociedades médicas e o Ministério da Saúde sobre o protocolo da retinopatia diabética no SUS, publicado em dezembro de 2021. Os convidados relataram filas de espera e disseram que o valor pago pelo procedimento não cobre o custo do medicamento injetado no olho. O Ministério respondeu que a tabela federal é só uma parte do financiamento e que a organização das filas cabe aos gestores locais.",
+ "stakes": "Estava em jogo se o Ministério da Saúde vai rever o financiamento do protocolo da retinopatia diabética para que o tratamento saia do papel.",
+ "central_question": "Por que o protocolo da retinopatia diabética, já publicado, não chega ao paciente do SUS?",
+ "synopsis_plain": "A Câmara ouviu médicos, associações de pessoas com diabetes e o Ministério da Saúde sobre por que o tratamento da retinopatia diabética não chega a quem precisa. Os convidados falaram de filas longas e de um valor pago pelo SUS que não cobre o remédio. O Ministério respondeu que esse valor é só a parte federal e que a fila é organizada por Estados e Municípios.",
+ "stakes_plain": "Se o Ministério da Saúde vai rever quanto o SUS paga pelo tratamento dos olhos de quem tem diabetes.",
+ "central_question_plain": "Por que o tratamento que evita a cegueira por diabetes não chega ao paciente do SUS?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Diagnóstico precoce e rastreamento",
+   "description": "Discute como descobrir cedo o diabetes e a doença dos olhos, com exames de rotina, rastreamento na atenção básica e informação à população.",
+   "axis": {
+    "pro": "O exame dos olhos e o rastreamento precisam entrar na rotina da atenção básica.",
+    "contra": "Basta encaminhar ao oftalmologista quando o paciente já reclama da visão.",
+    "pro_plain": "Quem tem diabetes precisa fazer exame de olhos pelo menos uma vez por ano, e isso tem de começar no posto de saúde.",
+    "contra_plain": "O paciente só precisa ir ao oftalmologista quando já sente que a visão piorou."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Filas de espera na oftalmologia",
+   "description": "Discute por que o paciente espera tanto por uma consulta e por um tratamento nos olhos, e o que faria a fila andar.",
+   "axis": {
+    "pro": "A fila anda quando o sistema é organizado e prioriza quem já tem alteração no olho.",
+    "contra": "A fila só diminui com mais dinheiro e mais oferta de serviço, não com organização.",
+    "pro_plain": "Dá para melhorar a fila organizando o atendimento e colocando na frente quem corre risco de perder a visão.",
+    "contra_plain": "Sem mais dinheiro e mais serviço, organizar a fila não resolve."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Financiamento e preço do protocolo",
+   "description": "Discute o valor que o SUS paga pelo tratamento com injeção no olho e se esse valor permite que hospitais e universidades atendam.",
+   "axis": {
+    "pro": "O valor pago pelo SUS é insuficiente e a União precisa corrigir o financiamento do protocolo.",
+    "contra": "A tabela federal é só uma parte, e Estados e Municípios têm de completar o financiamento.",
+    "pro_plain": "O valor que o SUS paga não cobre o remédio, e quem precisa corrigir isso é a União.",
+    "contra_plain": "O dinheiro do tratamento não vem só da União. Estados e Municípios também têm de entrar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Segurança e aprovação dos medicamentos",
+   "description": "Discute quais medicamentos podem tratar a retinopatia diabética no SUS e o uso de um remédio que a agência reguladora não aprovou para essa doença.",
+   "axis": {
+    "pro": "Só medicamento aprovado pela Anvisa para a doença deve entrar no protocolo do SUS.",
+    "contra": "O remédio usado fora da bula já é adotado em outros países e amplia o acesso.",
+    "pro_plain": "No SUS só deve entrar remédio que a Anvisa aprovou para essa doença.",
+    "contra_plain": "Usar um remédio fora da bula é comum em outros países e atende mais gente."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Custo da cegueira evitável",
+   "description": "Discute o que a perda de visão por diabetes custa à pessoa e ao país, e por que boa parte dessa cegueira poderia ser evitada.",
+   "axis": {
+    "pro": "A cegueira por diabetes atinge quem está em idade de trabalhar e custa caro ao país.",
+    "contra": "A perda de visão é consequência inevitável de uma doença crônica.",
+    "pro_plain": "Quem fica cego por diabetes costuma estar em idade de trabalhar, e isso custa caro para todo mundo.",
+    "contra_plain": "A perda de visão seria um fim inevitável do diabetes."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Articulação entre União, Estados e Municípios",
+   "description": "Discute de quem é a responsabilidade pelo tratamento e se é preciso uma nova pactuação entre as três esferas para o protocolo funcionar.",
+   "axis": {
+    "pro": "É preciso uma repactuação entre União, Estados e Municípios, puxada pelo Ministério da Saúde.",
+    "contra": "Cada gestor local já tem condições de resolver o problema na sua região.",
+    "pro_plain": "União, Estados e Municípios precisam sentar juntos e combinar quem paga o quê.",
+    "contra_plain": "Cada Estado e cada Município já pode resolver isso sozinho na sua região."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência, deputado federal",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado como Presidente na ata, Dr. Zacharias Calil, UNIÃO-GO, e autor dos requerimentos em b001.1",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida dos direitos das pessoas idosas"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenadora da Coalizão Vozes do Advocacy",
+   "org": "Vozes do Advocacy",
+   "basis": "apresentada pelo presidente em b001.8 e confirmada por ela em b002.7",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da coalizão Vozes do Advocacy",
+   "org_plain": "coalizão que reúne associações de pessoas com diabetes de vários Estados do país"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Sociedade Brasileira de Diabetes",
+   "org": "SBD",
+   "basis": "apresentado pelo presidente em b001.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Sociedade Brasileira de Diabetes",
+   "org_plain": "entidade que reúne os médicos que cuidam de diabetes no Brasil"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do Departamento de Doenças Oculares da Sociedade Brasileira de Diabetes",
+   "org": "SBD",
+   "basis": "apresentado pelo presidente em b001.7 e confirmado por ele em b006.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do departamento de doenças oculares da SBD",
+   "org_plain": "departamento da Sociedade Brasileira de Diabetes que cuida dos problemas de visão causados pela doença"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da Sociedade Brasileira de Retina e Vítreo",
+   "org": "SBRV",
+   "basis": "apresentado pelo presidente em b001.9 e confirmado por ele em b035.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Sociedade Brasileira de Retina e Vítreo",
+   "org_plain": "entidade que reúne os oftalmologistas especializados na retina, a parte do olho que forma a imagem"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Representante do Conselho Brasileiro de Oftalmologia e professor da Universidade Federal de Goiás",
+   "org": "CBO",
+   "basis": "apresentado pelo presidente em b001.10 e confirmado por ele em b014.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Conselho Brasileiro de Oftalmologia",
+   "org_plain": "entidade que reúne os médicos oftalmologistas do país"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Representante da Coordenação-Geral de Atenção Especializada",
+   "org": "Ministério da Saúde",
+   "basis": "apresenta-se em b016.1 e b016.2 como representante da coordenação ligada à SAES",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério que responde pela política federal de saúde e pelas regras do SUS"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor-Presidente da ADJ Diabetes Brasil",
+   "org": "ADJ Diabetes Brasil",
+   "basis": "apresentado pelo presidente em b001.12 e confirmado por ele em b022.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da ADJ Diabetes Brasil",
+   "org_plain": "associação que apoia pessoas com diabetes e faz educação sobre a doença"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.6
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.1
+   }
+  ],
+  "basis": "a mesa não anuncia delegações nem palmas. A reunião é interativa e transmitida pelo e-Democracia (b001.3) e o encerramento agradece a quem participou pela internet (b048.1)",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre o protocolo da retinopatia diabética no SUS e apresenta os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta a coalizão Vozes do Advocacy, traz os números da retinopatia diabética e cobra do Ministério da Saúde resposta sobre a fila e sobre o Avastin.",
+   "quote": [
+    26,
+    27,
+    28
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": 78,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Só medicamento aprovado pela agência reguladora deve tratar a retinopatia diabética no SUS, e o protocolo precisa sair do papel.",
+    "sentence": 63
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      26,
+      27,
+      28
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "150 mil brasileiros por ano recebem o diagnóstico de retinopatia diabética e 80% dos casos de cegueira no Brasil poderiam ser evitados",
+     "plain": "Todo ano 150 mil brasileiros recebem o diagnóstico de retinopatia diabética. A Organização Mundial da Saúde mostrou que 80% dos casos de cegueira no Brasil poderiam ser evitados com prevenção e tratamento."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      38,
+      39,
+      40
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "depois de 2 anos ele ainda não conseguiu aplicar o anti-VGF e vai esperar mais de 5 meses pela cirurgia em São Paulo",
+     "plain": "Depois de 2 anos, ele ainda não conseguiu aplicar o anti-VGF nos olhos pelo SUS. Hoje está na fila de espera da cirurgia nos olhos e vai demorar mais de 5 meses para consegui-la, aqui em São Paulo."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      55,
+      56,
+      57
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o medicamento entrou no protocolo da degeneração macular sem consulta pública e fora dos trâmites do regimento da CONITEC",
+     "plain": "Esse medicamento entrou no Protocolo Clínico da Degeneração Macular sem consulta pública e fora dos trâmites do regimento da CONITEC, a comissão que avalia o que o SUS incorpora. Ele foi incluído numa reunião de maio de 2022."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Defende o diagnóstico precoce e propõe que as UPAs peçam glicemia como exame de rotina na atenção básica.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O exame de glicemia deve ser de rotina na atenção básica, porque o diagnóstico precoce melhora o resultado.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as UPAs deveriam pedir glicemia como exame de rotina, junto com hemograma e parasitológico de fezes",
+     "plain": "Acho que as UPAs, as Unidades de Pronto Atendimento, deveriam indicar a glicemia como exame de rotina. Aprendemos na escola que hemograma, parasitológico de fezes, EAS e glicemia de jejum têm de ser exames de rotina."
+    },
+    {
+     "id": "b003c2",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quanto mais cedo o diagnóstico, melhor o resultado, como no caso do Senador Jorge Kajuru, que tem de 20% a 30% da visão",
+     "plain": "Quando o diagnóstico é precoce, o resultado do tratamento é melhor. Citei o exemplo do Senador Jorge Kajuru, de Goiás, que tem retinopatia e é diabético tipo 1, dependente de insulina, com cerca de 20% a 30% da visão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Parabeniza o Ministério pelo protocolo, alerta para a fila do oftalmologista e defende o uso das medicações aprovadas pelos órgãos reguladores.",
+   "quote": [
+    19,
+    20,
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As medicações já aprovadas pelos órgãos reguladores devem ser a base do tratamento da retinopatia diabética no SUS.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      8
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o SUS responde por 100% dos brasileiros e 75% dependem só dele, então as três esferas e os hospitais têm de trabalhar",
+     "plain": "Hoje o SUS é responsável por 100% dos brasileiros e 75% deles dependem só dele. Por isso cabe à Sociedade, ao Ministério Público, ao Ministério da Saúde, aos Estados, aos Municípios e aos hospitais trabalhar."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "pacientes estão ficando cegos por falta de tratamento e o que foi aprovado no PCDT precisa ser cumprido",
+     "plain": "Queremos enfatizar o tratamento precoce. Hoje há pacientes ficando cegos por falta de tratamento, e esperamos que se cumpra o que foi aprovado com tanto empenho no PCDT, o protocolo do SUS para essa doença."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a entidade defende o uso das medicações já aprovadas pelos órgãos reguladores e teme rever uma decisão tomada",
+     "plain": "Temos preocupação com o que se fala sobre rever uma decisão já tomada a respeito de medicamentos de origem comprovada. A Sociedade Brasileira de Diabetes defende o uso das medicações aprovadas pelos órgãos superiores."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra a Fernando Malerbi, da Sociedade Brasileira de Diabetes.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Propõe organizar e hierarquizar a fila, levar o rastreamento à atenção primária e pede apoio a um estudo sobre a retinopatia no Brasil.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A fila precisa ser organizada e hierarquizada para quem já tem alteração no olho chegar antes ao especialista.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a doença é sensível ao tempo e é a principal causa de cegueira evitável entre quem está em idade de trabalhar",
+     "plain": "A doença é sensível ao tempo. Passado certo tempo, tratar já não adianta e a visão se perde. É a principal causa de cegueira evitável entre pessoas em idade de trabalhar, e o custo social é enorme."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o caminho é organizar o sistema e hierarquizar a fila, para quem tem alteração no olho chegar rápido ao especialista",
+     "plain": "Na nossa opinião, o principal caminho é planejar e organizar o sistema de saúde. É preciso hierarquizar a fila e dar prioridade a quem realmente tem alteração no olho, para essa pessoa chegar rápido ao especialista."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a entidade faz um estudo sobre quantas pessoas têm retinopatia no Brasil porque esses dados não existem e o gestor precisa deles",
+     "plain": "Estamos fazendo um estudo para medir quantas pessoas têm retinopatia diabética no Brasil. Não temos esses dados, e eles são fundamentais para o gestor dimensionar o problema. Queremos o apoio do Ministério e das Comissões."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta a fila de espera como o maior problema e alerta que o paciente com diabetes fica sem acompanhamento de uma doença silenciosa.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O maior problema é a fila de espera, que deixa o paciente com diabetes sem acompanhamento.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nos mutirões o diagnóstico é feito, mas o paciente esbarra numa fila para chegar ao oftalmologista de retina",
+     "plain": "Vejo mutirões de saúde com filas enormes para o exame oftalmológico. Muita gente é atendida e depois enfrenta outra fila para ser encaminhada ao oftalmologista especializado em retina. O diagnóstico é feito e o entrave está na fila."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o maior problema é a fila de espera, porque o paciente fica sem acompanhamento de uma doença progressiva e silenciosa",
+     "plain": "Estou estudando o tema e vejo que o maior problema é a fila, porque assim o paciente fica sem acompanhamento. O diabetes é uma doença progressiva, crônica e silenciosa, que vai destruindo os vasos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado confirma que está presente na audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma a presença do convidado e agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata o caso de uma paciente condenada à cegueira, alerta para o crescimento do diabetes e diz que o custeio do tratamento não se sustenta.",
+   "quote": [
+    79,
+    80,
+    81
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O custeio federal do tratamento é insuficiente e ameaça a sustentabilidade dos serviços que atendem pelo SUS.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "há cerca de 18 milhões de pacientes com diabetes conhecidos no Brasil e a projeção é de 627 milhões no mundo em 2030",
+     "plain": "Temos cerca de 18 milhões de pacientes com diabetes conhecidos no Brasil, e há outros que ainda não receberam o diagnóstico. A Federação Internacional de Diabetes calcula que em 2030 serão 627 milhões de diabéticos no mundo."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "examinou a paciente procurando uma esperança e não havia: ela está condenada à cegueira irreversível dos dois olhos por diabetes",
+     "plain": "Eu a examinei muitas vezes, procurando uma pontinha de esperança para dar a ela. Deputado, não havia. Essa menina está condenada à cegueira irreversível dos dois olhos por causa do diabetes."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o custeio proposto para essa medicação pelo PAC não cobre o custo do tratamento e o sistema não se sustenta",
+     "plain": "Boa parte do problema do PCDT está no custeio. O dinheiro proposto para esse tipo de medicação pelo PAC não cobre o custo do tratamento, ou seja, o sistema não fica de pé."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Alerta que as pessoas se automedicam e critica a pressão para liberar quem não é médico a receitar óculos.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O exame dos olhos e a prescrição de óculos precisam ser feitos por quem tem formação médica.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "liberar quem fez curso técnico e não tem ligação com a medicina para receitar óculos é um risco",
+     "plain": "Sofremos uma pressão grande. Alguns parlamentares defendem certas profissões sem saber o risco de liberar quem não tem ligação com a medicina, fez um curso técnico e acha que já pode receitar óculos sem conhecer a doença."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado responde ao cumprimento da presidência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência conta uma lembrança pessoal sobre o expositor e o convida a falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Detalha a trajetória do protocolo e sustenta que a precificação de 629,72 reais é insuficiente e que o modelo de financiamento está errado.",
+   "quote": [
+    56,
+    57,
+    58
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A precificação do procedimento é insuficiente e o modelo de financiamento do protocolo precisa ser corrigido.",
+    "sentence": 86
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      77
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a precificação de 629,72 reais publicada em dezembro de 2021 é totalmente insuficiente",
+     "plain": "A precificação publicada em dezembro de 2021 foi de 629,72 reais, um valor totalmente insuficiente para o procedimento."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      85,
+      86,
+      87
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "esse preço impede universidades, centros de referência e entidades sem fins lucrativos de oferecer o tratamento",
+     "plain": "O Conselho Brasileiro de Oftalmologia está preocupado porque esse preço impede universidades, centros de referência e entidades sem fins lucrativos de oferecer o tratamento. O financiamento é insuficiente e o modelo está errado."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      90,
+      91,
+      92
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as filas do tratamento da retinopatia voltaram a aumentar em todo o Brasil e a subprecificação precisa ser corrigida",
+     "plain": "De todo o Brasil chegam ao CBO reclamações de que as filas do tratamento da retinopatia diabética voltaram a crescer. O protocolo está publicado, mas o preço pago é baixo demais, e precisamos corrigir isso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Reconhece que a tabela do SUS está defasada, cita o Hospital A.C.Camargo e a subcomissão que preside para atualizar os valores.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A tabela do SUS está defasada e precisa ser atualizada para os serviços continuarem atendendo.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "precedente",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Hospital A.C.Camargo anunciou que vai sair do SUS porque a tabela está defasada há vários anos",
+     "plain": "A medicina evolui rápido e o SUS não acompanha. O Hospital A.C.Camargo avisou que vai sair do SUS porque a tabela está defasada há vários anos. O Deputado Luizinho tem um projeto para atualizar esses valores."
+    },
+    {
+     "id": "b015c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "preside a subcomissão criada para a transparência e a atualização da tabela do SUS",
+     "plain": "Eu presido a subcomissão criada para dar transparência à tabela do SUS e atualizar os seus valores. Espero que isso ande, porque hoje a população é muito prejudicada."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Atribui a organização das filas à gestão local e afirma que a tabela do SUS cobre só o componente federal do tratamento.",
+   "quote": [
+    23,
+    24,
+    25
+   ],
+   "covered": true,
+   "evidence": [
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A tabela do SUS cobre só a parte federal, e o financiamento do tratamento é responsabilidade das três esferas.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a fila precisa ser organizada e qualificada, e isso é responsabilidade da gestão local",
+     "plain": "Sobre as filas, eu concordo com o Fernando: é preciso organizar e qualificar a fila. Isso também é questão da gestão local, que responde por organizá-las conforme as dificuldades e as características daquela população."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o valor da tabela do SUS é só o componente federal, e Estados e Municípios também têm de financiar o tratamento",
+     "plain": "O que está na tabela do SUS para o tratamento da retina é só a parte federal do financiamento. Esse tratamento não pode ser pago só por ela. Estados e Municípios também têm de incentivar os tratamentos de que a população precisa."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o assunto deve ser rediscutido quantas vezes for preciso, inclusive os protocolos e a forma de financiamento",
+     "plain": "Compartilho a preocupação e acho que este assunto deve ser rediscutido quantas vezes for preciso. Se for necessário, devemos rever os PCDTs e a forma de financiamento, numa discussão ampla dentro do Ministério da Saúde."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Acusa o Ministério da Saúde de lavar as mãos e diz que o financiamento que chega a Estados e Municípios não cobre o tratamento.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    31,
+    32,
+    33
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O financiamento federal não cobre o tratamento, e o Ministério não pode transferir o problema para Estados e Municípios.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério da Saúde lavou as mãos e passou o problema aos gestores municipais e estaduais",
+     "plain": "Acho que o Ministério da Saúde lavou as mãos e passou o problema aos gestores municipais e estaduais. É por isso que esta audiência pública importa."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o financiamento que chega aos Estados e Municípios não contempla esse tipo de tratamento",
+     "plain": "O dinheiro que chega aos Estados e aos Municípios não cobre esse tipo de tratamento. Vamos ter de brigar para que ele seja oferecido à sociedade."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "não dá para chamar de problema de gestão, porque o Estado ou o Município não pode tirar recurso de uma área para cobrir outra",
+     "plain": "Como isso pode ser problema de gestão? O recurso que chega tem um valor certo, e o Estado ou o Município não pode tirar de uma área para cobrir outra, porque a outra também vai ficar sem."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Esclarece que problema de gestão é forma de organização, concorda que o financiamento está defasado e lembra que ele não é só federal.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O financiamento está defasado, mas não é só federal, e a organização das filas cabe à gestão local.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quando fala em problema de gestão, fala de organização, e a organização das filas não é feita pelo Ministério da Saúde",
+     "plain": "Quando falo em problema de gestão, falo da forma de organização. Um dos grandes problemas da oftalmologia são as filas para conseguir atendimento e seguir o tratamento, e essa organização não é feita pelo Ministério da Saúde."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "concorda que o financiamento está defasado, mas lembra que ele não vem só da esfera federal",
+     "plain": "Eu concordo com a questão do financiamento. Já disse que ele está defasado, sim. Mas o financiamento não vem só da esfera federal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência nota o pedido de palavra e pergunta se Marcos Ávila quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra que o Ministério destrave a pactuação e afirma que nenhum Estado ou Município consegue arcar com o tratamento como está.",
+   "quote": [
+    23,
+    24,
+    25
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A União, os Estados e os Municípios precisam pactuar um modelo claro de financiamento para o protocolo funcionar.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      4
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "houve uma tentativa de repactuação na Comissão Intergestores Tripartite, mas o problema não foi resolvido",
+     "plain": "Na CIT, a Comissão Intergestores Tripartite, onde União, Estados e Municípios combinam as regras do SUS, houve uma tentativa de repactuação. De longe não temos essas informações claras, mas o problema não foi resolvido."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "do jeito que está, nenhum Estado e nenhum Município de gestão plena consegue arcar com o custo do tratamento",
+     "plain": "As APACs, com que o SUS paga o procedimento depois de feito, são um modelo consagrado. Só que, como está, nenhum Estado e nenhum Município de gestão plena consegue arcar. Vocês precisam achar uma maneira para não pararmos de atender."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      23,
+      24,
+      25
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um protocolo com duas drogas aprovadas em bula e nenhum financiamento, então não existe protocolo funcionando",
+     "plain": "Temos um PCDT com duas drogas on label, ou seja, aprovadas na bula para essa doença, e não existe financiamento. O resultado é que não há protocolo funcionando."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência segue o roteiro e convida Lucas Leme Galastri a expor por 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que pacientes esperam até 8 meses por uma consulta e cita dados de 50 milhões de pessoas que nunca foram ao oftalmologista.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso levar informação e encurtar o caminho da pessoa com diabetes até o médico.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os pacientes chegam a demorar 8 meses para conseguir uma consulta",
+     "plain": "Os relatos que ouvimos são como os já apontados nesta reunião. Por exemplo, há pacientes que demoram 8 meses para conseguir uma consulta."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há dados mostrando que 50 milhões de pessoas nunca procuraram um oftalmologista",
+     "plain": "Gostaria que todo o trabalho que fazemos fosse visto e espalhado, para a informação chegar a todo mundo. Temos dados mostrando que 50 milhões de pessoas nunca procuraram um oftalmologista."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as exposições, abre o debate e passa a palavra a Vanessa Pirolo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra do Ministério uma reunião com a CONITEC para rever protocolo e financiamento, e alerta que a conta volta maior depois.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso uma reunião com o Ministério, a CONITEC e as entidades para rever o protocolo e o financiamento.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso uma reunião com o Ministério e a CONITEC para rever o protocolo e a questão do financiamento",
+     "plain": "Patrícia, precisamos de um espaço com vocês para discutir. Precisamos de uma reunião que envolva a CONITEC, a comissão que avalia o que o SUS incorpora, porque queremos rever esse protocolo e também o financiamento."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "quer notícias da reunião da CONITEC sobre os dois medicamentos e reforça a importância de segurança no tratamento",
+     "plain": "Queria saber o que foi discutido hoje na reunião da CONITEC sobre o outro protocolo e sobre os dois medicamentos que citamos. Reforçamos a importância de ter segurança nesse tratamento."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "economico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem financiamento adequado o tratamento não sai, e depois o país gasta com o auxílio-doença de quem ficou cego",
+     "plain": "É preciso financiamento adequado para os médicos, que relataram ser esse o maior entrave para tratar quem está ficando cego. A conta não fecha: não se gasta agora, mas se gasta depois, quando o paciente precisa do auxílio-doença."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Patrícia Peres de Souza.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Compromete-se a movimentar as reuniões assim que receber um pedido por escrito na Secretaria de Atenção Especializada.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério se dispõe a retomar as discussões assim que receber um pedido formal das entidades.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Ministério se dispõe a movimentar as reuniões desde que receba uma provocação por escrito enviada à SAES",
+     "plain": "Eu me coloco à disposição para movimentar essas reuniões, mas precisamos de uma provocação por escrito. Envie esse pedido para a SAES, a Secretaria de Atenção Especializada à Saúde. Vou levar o assunto à Secretária Maíra."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Pede que a discussão envolva também a SCTIE, a CONITEC e os demais setores.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A discussão precisa envolver também as outras áreas do Ministério e a comissão que avalia incorporações.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      0
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso envolver a SCTIE, a CONITEC e os demais setores nessa discussão",
+     "plain": "É preciso envolver os outros setores, como a SCTIE, que cuida da entrada de novas tecnologias no Ministério, a CONITEC e os demais envolvidos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Confirma que todas as áreas necessárias entram na construção do protocolo, como já é praxe no Ministério.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Todas as áreas necessárias, inclusive a que cuida do orçamento, participam da construção do protocolo.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é praxe incluir todas as áreas envolvidas na construção do PCDT, inclusive o DRAC, que cuida do orçamento",
+     "plain": "Sim, todos os envolvidos na construção do PCDT entram, como já é praxe. Sempre chamamos as áreas necessárias, como o DRAC, o Departamento de Regulação, Avaliação e Controle, que mexe com a parte do orçamento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A debatedora concorda com a resposta e agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Marcos Ávila.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Propõe uma reunião ampla com CONASS, CONASEMS e Ministério da Saúde e relata que a fila pesou para o lado da espera.",
+   "quote": [
+    8,
+    9,
+    10
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Uma reunião entre as três esferas precisa ser convocada para encontrar a solução do financiamento.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "propõe uma reunião mais ampla com CONASS, CONASEMS e Ministério da Saúde para achar uma solução",
+     "plain": "Proponho uma reunião mais ampla com quem compõe a Comissão Intergestores Tripartite: o CONASS, dos secretários estaduais, o CONASEMS, dos municipais, e o Ministério da Saúde, para acharmos uma solução."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      2
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a fila estava equilibrada nos Estados e agora pende para a espera, porque ninguém sabe o que fazer",
+     "plain": "Quem está na ponta via a fila mais ou menos equilibrada nos Estados do Brasil. Isso virou. Agora ela pende para a espera, porque ninguém sabe o que fazer."
+    },
+    {
+     "id": "b031c3",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "a epidemia do diabetes já é realidade e em 2025 serão 600 milhões de pessoas afetadas",
+     "plain": "A epidemia do diabetes já é realidade. Em 2025 uma quantidade enorme de pessoas estará afetada, 600 milhões, como o Arnaldo falou."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aceita incluir a reunião com os gestores na conversa com o Ministério e oferece os contatos do CONASS e do CONASEMS.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A reunião com os gestores pode ser juntada à conversa já combinada com o Ministério da Saúde.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a reunião proposta pode entrar na mesma conversa com o Ministério, e ela tem o contato do CONASS e do CONASEMS",
+     "plain": "Dr. Marcos, podemos incluir essa reunião na nossa conversa com a Patrícia, sem problema. Ela faz essa ponte com todos. Eu tenho o contato do CONASS e do CONASEMS."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Concorda em juntar as reuniões e insiste que a solução precisa sair, porque na ponta a situação piora.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Uma solução precisa sair logo, porque a situação de quem atende só piora.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "uma solução precisa acontecer porque na ponta está difícil e vai ficar cada vez pior",
+     "plain": "Estamos à disposição. O fato é que uma solução precisa sair, porque na ponta está difícil e vai ficar cada vez mais difícil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Sugere que Vanessa Pirolo coordene o grupo e propõe que todos assinem o documento pela internet.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O grupo que vai cobrar a solução deve ser coordenado pela representante das associações de pacientes.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sugere que a Vanessa coordene o grupo e que todos assinem o documento pela internet",
+     "plain": "Sugiro que a Vanessa seja indicada para coordenar o grupo, porque está bem mais engajada. Todos podem assinar pela internet, sem problema."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Registra que todos concordam sobre o problema e coloca a Sociedade Brasileira de Retina e Vítreo à disposição do Governo.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Todos concordam sobre o problema e sobre a necessidade de atacá-lo de forma coordenada.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "todos concordam que o problema existe e que precisa ser atacado de forma racional e coordenada",
+     "plain": "Todos nós concordamos que existe um grande problema e que ele só vai aumentar. E concordamos também sobre o que precisa ser atacado, de forma racional e coordenada, para resolver isso."
+    },
+    {
+     "id": "b035c2",
+     "sentences": [
+      4
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em nome de mais de 1.200 especialistas em retina, põe a entidade à disposição para contribuir com o Governo",
+     "plain": "Falo em nome de mais de 1.200 oftalmologistas especialistas em retina e presido a Sociedade Brasileira de Retina e Vítreo. Estou à disposição para contribuir com o Governo e com os parceiros."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b036",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que Patrícia Peres de Souza faça suas considerações.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b037",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Confirma Vanessa como ponto central do grupo e pede o documento assinado endereçado à Secretaria de Atenção Especializada.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério vai adiantar o assunto e espera o documento assinado endereçado à sua secretaria.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b037c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Vanessa será o ponto central do grupo e o documento assinado deve ir à Secretaria de Atenção Especializada",
+     "plain": "Quero deixar alinhado que a Vanessa será a pessoa central deste grupo. Vanessa, faça o documento que o Deputado sugeriu, com a assinatura de todos, e mande para a Secretaria de Atenção Especializada. Vou adiantar o assunto no Ministério."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b038",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a disposição do Ministério da Saúde e pergunta quem mais quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b039",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Conta que veio da assistência para a gestão há poucos meses e diz que ouve dos superiores a orientação de tomar a frente.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A orientação que recebe no Ministério é estar à disposição e tomar a frente das dificuldades.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b039c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no Ministério ouviu dos superiores a orientação de estar sempre à disposição e tomar a frente das dificuldades",
+     "plain": "Agora estou aprendendo a lidar com as dificuldades da gestão. Nesse tempo aqui, ouvi da minha coordenadora, do meu diretor e da secretária que devemos estar à disposição e tomar a frente das dificuldades que vemos na saúde."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b040",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre as considerações finais, de 3 minutos para cada convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b041",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O convidado pede para falar na sequência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b042",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concorda e dá a palavra ao convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b043",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Oferece ao Ministério o apoio da Sociedade Brasileira de Diabetes e cita um projeto de educação para os serviços da atenção primária.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A educação dos serviços da atenção primária é parte da solução para a retinopatia diabética.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b043c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "há um grande projeto de educação para os serviços do setor primário e a entidade se põe à disposição do Ministério",
+     "plain": "O Ministério da Saúde pode contar com a Sociedade Brasileira de Diabetes. Estamos tocando um grande projeto de educação para os serviços do setor primário e estamos à disposição para ajudar a resolver a retinopatia e o edema macular."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b044",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se mais alguém quer falar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b045",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata o caso do filho de uma amiga, com uns 30 anos, que está perdendo a visão, e agradece a abertura do Ministério.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A perda de visão de pessoas jovens por diabetes precisa ser revertida.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b045c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a mãe liga quase toda semana chorando porque o filho, de uns 30 anos, com retinopatia, não vai conseguir trabalhar",
+     "plain": "A Fátima, de quem falei no início, tem um filho com diabetes há muitos anos, e a retinopatia chegou de 2 ou 3 anos para cá. Quase toda semana ela me liga chorando, porque ele tem uns 30 anos e não vai conseguir trabalhar."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b046",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se mais alguém quer se manifestar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b047",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Agradece as explicações e espera que a audiência traga resultados nos modelos de remuneração, precificação e financiamento.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A audiência precisa resultar em mudança nos modelos de remuneração e financiamento do tratamento.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b047c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "espera que a audiência traga frutos nos modelos de remuneração, precificação e financiamento",
+     "plain": "Vanessa, contamos com a sua pró-atividade para ajudarmos os milhares de pacientes que esperam. Obrigado por esta audiência, que vai trazer frutos em pouco tempo nos modelos de remuneração, precificação e financiamento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b048",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece os convidados e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 55,
+   "from_claim": "b004c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "A Sociedade Brasileira de Diabetes acompanha a preocupação de Vanessa com a entrada de um medicamento não aprovado e defende o uso das medicações já aprovadas."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 17,
+   "to_sentence": 39,
+   "from_claim": "b006c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Ao caso do paciente que espera na fila, Malerbi responde que o caminho é hierarquizar a fila e levar primeiro quem tem alteração no olho."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 17,
+   "from_claim": "b007c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "A presidência acompanha a proposta de organizar a fila e diz que o maior problema é a espera, que deixa o paciente sem acompanhamento."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 28,
+   "from_claim": "b010c2",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "O caso da paciente condenada à cegueira dá rosto ao dado de que a maior parte dos casos de cegueira poderia ser evitada."
+  },
+  {
+   "from": "b014",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 77,
+   "to_sentence": 48,
+   "from_claim": "b014c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Ávila põe número no alerta de Bordon sobre o custeio: a precificação publicada em dezembro de 2021 foi de 629,72 reais."
+  },
+  {
+   "from": "b015",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 85,
+   "from_claim": "b015c1",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "A presidência liga a queixa do Conselho de Oftalmologia à tabela do SUS defasada, que levou um hospital a anunciar a saída do sistema."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 17,
+   "from_claim": "b016c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "A representante do Ministério da Saúde assume as palavras de Malerbi sobre organizar e qualificar a fila."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "responde",
+   "from_sentence": 23,
+   "to_sentence": 86,
+   "from_claim": "b016c2",
+   "to_claim": "b014c2",
+   "strength": "forte",
+   "note": "À denúncia de financiamento insuficiente, o Ministério responde que o valor da tabela é apenas o componente federal do tratamento."
+  },
+  {
+   "from": "b016",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 24,
+   "to_sentence": 48,
+   "from_claim": "b016c2",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "Ao alerta de que o custeio não se sustenta, o Ministério responde que esse tratamento não pode ser pago só pela tabela do SUS."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 33,
+   "to_sentence": 56,
+   "from_claim": "b016c3",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "À cobrança sobre o protocolo, o Ministério responde que os protocolos e a forma de financiamento podem ser revistos numa discussão ampla."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 1,
+   "to_sentence": 25,
+   "from_claim": "b017c1",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "A presidência reage à divisão de responsabilidade e diz que o Ministério lavou as mãos, passando o problema aos gestores locais."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 8,
+   "to_sentence": 17,
+   "from_claim": "b017c3",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Pergunta como o problema pode ser de gestão se o Estado ou o Município não pode tirar recurso de uma área para cobrir outra."
+  },
+  {
+   "from": "b018",
+   "to": "b017",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b018c1",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "À acusação de que o Ministério lavou as mãos, Patrícia esclarece que falar em gestão é falar da organização das filas, que não é feita pelo Ministério."
+  },
+  {
+   "from": "b018",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 86,
+   "from_claim": "b018c2",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "A representante do Ministério concorda com o Conselho de Oftalmologia que o financiamento está defasado, ainda que lembre que ele não é só federal."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 25,
+   "from_claim": "b020c2",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "Ávila responde que, do jeito que o pagamento por APAC está, nenhum Estado nem Município de gestão plena consegue arcar com o tratamento."
+  },
+  {
+   "from": "b020",
+   "to": "b017",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 5,
+   "from_claim": "b020c3",
+   "to_claim": "b017c2",
+   "strength": "media",
+   "note": "O Conselho de Oftalmologia acompanha a leitura da presidência e resume o resultado: protocolo com duas drogas aprovadas e nenhum financiamento."
+  },
+  {
+   "from": "b022",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 40,
+   "from_claim": "b022c1",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A ADJ confirma os relatos de espera e diz que há pacientes que demoram 8 meses para conseguir uma consulta."
+  },
+  {
+   "from": "b024",
+   "to": "b016",
+   "kind": "responde",
+   "from_sentence": 19,
+   "to_sentence": 24,
+   "from_claim": "b024c3",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "Vanessa responde que sem financiamento adequado o médico não trata, e que a conta volta maior quando o paciente cego precisa do auxílio-doença."
+  },
+  {
+   "from": "b026",
+   "to": "b024",
+   "kind": "responde",
+   "from_sentence": 1,
+   "to_sentence": 4,
+   "from_claim": "b026c1",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "Ao pedido de uma reunião, o Ministério responde que se move assim que receber um pedido por escrito na sua secretaria."
+  },
+  {
+   "from": "b028",
+   "to": "b027",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 0,
+   "from_claim": "b028c1",
+   "to_claim": "b027c1",
+   "strength": "media",
+   "note": "Confirma que as outras áreas do Ministério e a comissão de incorporação entram na conversa, como já é praxe na construção do protocolo."
+  },
+  {
+   "from": "b031",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 4,
+   "from_claim": "b031c3",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "Ávila retoma a projeção de diabéticos citada por Bordon para dizer que a epidemia do diabetes já é realidade, embora dê outro ano e outro número."
+  },
+  {
+   "from": "b032",
+   "to": "b031",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b032c1",
+   "to_claim": "b031c1",
+   "strength": "media",
+   "note": "Vanessa acolhe a proposta de reunião ampla e diz que ela pode entrar na mesma conversa já combinada com o Ministério."
+  },
+  {
+   "from": "b033",
+   "to": "b032",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 1,
+   "from_claim": "b033c1",
+   "to_claim": "b032c1",
+   "strength": "media",
+   "note": "Ávila aceita juntar as duas reuniões numa só e insiste que a solução precisa sair, porque na ponta a situação piora."
+  },
+  {
+   "from": "b035",
+   "to": "b031",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 1,
+   "from_claim": "b035c1",
+   "to_claim": "b031c1",
+   "strength": "media",
+   "note": "Bordon endossa a proposta de reunião e registra que todos concordam sobre o problema e sobre os pontos a atacar."
+  },
+  {
+   "from": "b037",
+   "to": "b034",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b037c1",
+   "to_claim": "b034c1",
+   "strength": "forte",
+   "note": "O Ministério acolhe a sugestão da presidência e confirma Vanessa como a pessoa central do grupo que vai encaminhar o documento."
+  },
+  {
+   "from": "b043",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 13,
+   "from_claim": "b043c1",
+   "to_claim": "b022c2",
+   "strength": "media",
+   "note": "A Sociedade Brasileira de Diabetes soma-se à ADJ na aposta em educação e informação, com um projeto voltado aos serviços do setor primário."
+  },
+  {
+   "from": "b045",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 20,
+   "from_claim": "b045c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Vanessa põe outro caso ao lado do que Bordon contou: um jovem que perde a visão na idade de trabalhar."
+  },
+  {
+   "from": "b047",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 32,
+   "from_claim": "b047c1",
+   "to_claim": "b016c3",
+   "strength": "media",
+   "note": "O Conselho de Oftalmologia agradece as explicações e aposta que a rediscussão prometida traga mudança na remuneração e no financiamento."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b003",
+    "b006",
+    "b022",
+    "b043"
+   ],
+   "claims": [
+    "b003c1",
+    "b006c3",
+    "b022c2",
+    "b043c1"
+   ],
+   "note": "A presidência, duas sociedades médicas e uma associação de pacientes concordam que descobrir cedo e levar informação e rastreamento à atenção básica é o caminho."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b006",
+    "b007",
+    "b016"
+   ],
+   "claims": [
+    "b006c2",
+    "b007c1",
+    "b016c1"
+   ],
+   "note": "O Ministério da Saúde, a presidência da comissão e o departamento de doenças oculares da SBD concordam que a fila precisa ser organizada e priorizada."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b010",
+    "b014",
+    "b017",
+    "b024"
+   ],
+   "claims": [
+    "b010c3",
+    "b014c1",
+    "b014c2",
+    "b017c2",
+    "b024c3"
+   ],
+   "note": "Sociedades médicas, a coalizão de pacientes e a presidência concordam que o valor pago pelo SUS não cobre o tratamento e que o financiamento precisa ser corrigido."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b024",
+    "b026",
+    "b031",
+    "b034",
+    "b037"
+   ],
+   "claims": [
+    "b024c1",
+    "b026c1",
+    "b031c1",
+    "b034c1",
+    "b037c1"
+   ],
+   "note": "Entidades, oftalmologistas, a presidência e o Ministério da Saúde combinam na sala um grupo de trabalho com as três esferas para destravar o financiamento."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 78,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "o que o Ministério vai fazer sobre o Avastin",
+   "plain": "O que o Ministério da Saúde vai fazer sobre o uso do Avastin no tratamento da retinopatia diabética?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b002",
+   "sentence": 77,
+   "addressed_to": "governo",
+   "answered_by": "b016",
+   "gist": "como diminuir a fila da oftalmologia no País inteiro",
+   "plain": "Como podemos diminuir a fila de espera da oftalmologia no País inteiro?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b014",
+   "sentence": 100,
+   "addressed_to": "governo",
+   "answered_by": "b016",
+   "gist": "o que o Ministério vai fazer para o tratamento acontecer",
+   "plain": "O que o Ministério vai fazer para que as instituições públicas consigam fazer o tratamento com antiangiogênicos?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b017",
+   "sentence": 8,
+   "addressed_to": "governo",
+   "answered_by": "b018",
+   "gist": "como isso é problema de gestão se o recurso não pode ser remanejado",
+   "plain": "Como isso pode ser problema de gestão, se o Estado não pode tirar recurso de uma área para cobrir outra?",
+   "theme": "d2",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b020",
+   "sentence": 11,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "que maneira o Ministério vai achar para a ponta não parar",
+   "plain": "Que maneira o Ministério vai achar para que quem atende na ponta não deixe de tratar os pacientes?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b024",
+   "sentence": 23,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "vamos nos reunir para resolver essa questão",
+   "plain": "Vamos nos reunir para fazer as coisas acontecerem e resolver essa questão?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 26,
+   "gist": "150 mil brasileiros por ano com retinopatia diabética",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 28,
+   "gist": "estudo da OMS: 80% dos casos de cegueira eram evitáveis",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 23,
+   "gist": "8 milhões de brasileiros não diagnosticados com diabetes",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 23,
+   "gist": "15 mil pessoas precisam de um exame de retina por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b010",
+   "sentence": 2,
+   "gist": "cerca de 18 milhões de pacientes diabéticos no Brasil",
+   "disputed_by": [
+    {
+     "fala": "b002",
+     "sentence": 14
+    }
+   ]
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 4,
+   "gist": "627 milhões de diabéticos no mundo em 2030",
+   "disputed_by": [
+    {
+     "fala": "b031",
+     "sentence": 12
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b014",
+   "sentence": 34,
+   "gist": "quase 7 milhões de brasileiros com risco de retinopatia",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b014",
+   "sentence": 39,
+   "gist": "aflibercept 756 dias e ranibizumabe 452 dias sem uso",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b014",
+   "sentence": 77,
+   "gist": "precificação de 629,72 reais em dezembro de 2021",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b014",
+   "sentence": 83,
+   "gist": "código de 627,28 reais para os dois olhos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b022",
+   "sentence": 14,
+   "gist": "50 milhões de pessoas nunca procuraram um oftalmologista",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b035",
+   "sentence": 4,
+   "gist": "mais de 1.200 oftalmologistas especialistas em retina",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "sociedade_civil",
+   "governo"
+  ],
+  "angle": "A matéria escolheu as falhas do protocolo do SUS, com as filas de espera e a falta de recursos como os problemas principais.",
+  "omitted": "Ficou de fora a disputa sobre o medicamento que a agência reguladora não aprovou para essa doença e o grupo de trabalho combinado na sala com o Ministério."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Sem corrigir o preço, o protocolo não sai do papel",
+   "statement_plain": "O que o SUS paga pelo tratamento dos olhos não cobre o remédio, e por isso o protocolo publicado não vira atendimento e a fila volta a crescer.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b010c3",
+    "b014c1",
+    "b014c2",
+    "b014c3",
+    "b017c2",
+    "b024c3"
+   ],
+   "note": "É uma ideia sobre dinheiro, não sobre setor: junta a presidência da comissão, duas entidades médicas e a coalizão de pacientes, e separa a presidência do Ministério."
+  },
+  {
+   "id": "t2",
+   "title": "A fila anda quando o sistema prioriza quem corre risco",
+   "statement_plain": "A maior parte de quem tem diabetes não tem alteração grave no olho. Organizar e priorizar o atendimento faria quem corre risco chegar antes ao especialista.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b007c1",
+    "b016c1",
+    "b022c1"
+   ],
+   "note": "É a ideia que opõe o Ministério da Saúde e uma sociedade médica à leitura de que só falta dinheiro, e ela tem do seu lado a própria presidência da comissão."
+  },
+  {
+   "id": "t3",
+   "title": "Só remédio aprovado deve tratar a retinopatia no SUS",
+   "statement_plain": "No protocolo do SUS só deve entrar medicamento que a agência reguladora aprovou para essa doença, e a inclusão de outro precisa passar por consulta pública.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b004c3",
+    "b024c2"
+   ],
+   "note": "Uma coalizão de pacientes e uma sociedade médica defendem a mesma ideia, cada uma por um motivo: uma teme o efeito colateral, a outra a quebra de uma decisão tomada."
+  },
+  {
+   "id": "t4",
+   "title": "Essa cegueira é evitável e custa caro ao país",
+   "statement_plain": "A retinopatia diabética cega gente em idade de trabalhar, e boa parte desses casos poderia ser evitada com diagnóstico e tratamento na hora certa.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b003c2",
+    "b006c1",
+    "b010c2",
+    "b045c1"
+   ],
+   "note": "É uma ideia que atravessa a sala: quem conta o caso é o médico de hospital, quem traz o número é a associação de pacientes, e nenhum dos dois fala do próprio setor."
+  },
+  {
+   "id": "t5",
+   "title": "A saída é pactuar entre União, Estados e Municípios",
+   "statement_plain": "O impasse do tratamento só se resolve com uma reunião entre União, Estados e Municípios, com as entidades na mesa, para combinar quem paga o quê.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b020c1",
+    "b024c1",
+    "b026c1",
+    "b031c1",
+    "b035c1"
+   ],
+   "note": "É a ideia que fez o Ministério da Saúde e quem o acusava de lavar as mãos combinarem, na mesma sessão, um grupo de trabalho com prazo e endereço."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "retinopatia diabética",
+   "fala": "b002",
+   "sentence": 2,
+   "plain": "doença causada pelo diabetes que danifica os vasos da retina, a parte do olho que forma a imagem, e pode levar à cegueira"
+  },
+  {
+   "term": "CONITEC",
+   "fala": "b002",
+   "sentence": 35,
+   "plain": "comissão que avalia e recomenda ao Ministério da Saúde quais tecnologias e medicamentos o SUS deve passar a oferecer"
+  },
+  {
+   "term": "PCDT",
+   "fala": "b004",
+   "sentence": 9,
+   "plain": "sigla de protocolo clínico e diretriz terapêutica: o documento do Ministério da Saúde que diz como uma doença deve ser diagnosticada e tratada no SUS"
+  },
+  {
+   "term": "edema macular",
+   "fala": "b004",
+   "sentence": 15,
+   "plain": "inchaço na parte central da retina, que embaça a visão e é uma das complicações do diabetes nos olhos"
+  },
+  {
+   "term": "antiangiogênico",
+   "fala": "b014",
+   "sentence": 9,
+   "plain": "medicamento injetado dentro do olho que trava o crescimento de vasos anormais na retina"
+  },
+  {
+   "term": "SAES",
+   "fala": "b014",
+   "sentence": 10,
+   "plain": "Secretaria de Atenção Especializada à Saúde, área do Ministério da Saúde que cuida dos atendimentos de média e alta complexidade"
+  },
+  {
+   "term": "SCTIE",
+   "fala": "b014",
+   "sentence": 10,
+   "plain": "secretaria do Ministério da Saúde que cuida de ciência, tecnologia e da entrada de novos produtos no SUS"
+  },
+  {
+   "term": "off-label",
+   "fala": "b014",
+   "sentence": 13,
+   "plain": "uso de um medicamento para uma doença que não está na bula aprovada pela agência reguladora"
+  },
+  {
+   "term": "on-label",
+   "fala": "b014",
+   "sentence": 24,
+   "plain": "uso do medicamento exatamente para a doença que está na bula aprovada pela agência reguladora"
+  },
+  {
+   "term": "SIGTAP",
+   "fala": "b014",
+   "sentence": 74,
+   "plain": "a tabela do SUS que lista os procedimentos e quanto cada um deles paga"
+  },
+  {
+   "term": "APACs",
+   "fala": "b014",
+   "sentence": 78,
+   "plain": "autorizações de procedimento de alta complexidade: o documento com que o SUS autoriza e paga um procedimento caro, depois de feito"
+  },
+  {
+   "term": "CIT",
+   "fala": "b020",
+   "sentence": 4,
+   "plain": "comissão em que União, Estados e Municípios negociam juntos as regras e o dinheiro do SUS"
+  },
+  {
+   "term": "CONASS",
+   "fala": "b020",
+   "sentence": 8,
+   "plain": "conselho que reúne as secretarias estaduais de saúde"
+  },
+  {
+   "term": "CONASEMS",
+   "fala": "b020",
+   "sentence": 8,
+   "plain": "conselho que reúne as secretarias municipais de saúde"
+  }
+ ]
+}

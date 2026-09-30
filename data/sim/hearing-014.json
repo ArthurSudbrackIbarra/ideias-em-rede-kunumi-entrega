@@ -1,0 +1,2344 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 14,
+ "model": "LLM lendo o prompt hearing-014 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T01:39:01Z",
+ "prompt_sha256": "41ebeca268b28812ae7927a372a75ba39662be6e4fc1879a2527bc6eafa47c50",
+ "sentences_hash": "99a6a37afcfb484b",
+ "review": {
+  "pairs_read": 45,
+  "pairs_fixed": 6
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado",
+  "tese t4: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado",
+  "tese t5: todas as cartas-chave vêm de um só papel (governo); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Meio Ambiente debateu as reparações do crime socioambiental da Braskem em Maceió, duas semanas depois do colapso da mina 18. A Defensoria Pública da União e o Ministério Público Federal defenderam os acordos que tiraram mais de 60 mil pessoas da área de risco. Os movimentos das vítimas responderam que esses acordos foram aceitos sob pressão e entregaram a área à empresa.",
+ "stakes": "Definir se a Câmara abriria a sua própria CPI e o que cobraria dos órgãos sobre reparação, destino da área desocupada e responsabilização criminal.",
+ "central_question": "As reparações do caso Braskem em Maceió estão sendo justas com os atingidos e alguém vai ser responsabilizado?",
+ "synopsis_plain": "A Comissão de Meio Ambiente discutiu as reparações do desastre da Braskem em Maceió, duas semanas depois do colapso da mina 18. A Defensoria e o Ministério Público Federal disseram que os acordos tiraram mais de 60 mil pessoas do risco a tempo. Os movimentos das vítimas responderam que as pessoas aceitaram sob pressão e que a área acabou nas mãos da empresa.",
+ "stakes_plain": "Se a Câmara abriria uma CPI própria sobre o caso e o que ia cobrar dos órgãos sobre indenização, destino da área e prisão dos responsáveis.",
+ "central_question_plain": "As reparações do caso Braskem em Maceió estão sendo justas, e alguém vai ser responsabilizado?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Qualidade dos acordos de indenização",
+   "description": "Discute-se se os acordos que a Braskem fez com os atingidos e com a Prefeitura repararam de verdade quem perdeu casa, trabalho e bairro.",
+   "axis": {
+    "pro": "Os acordos tiraram mais de 60 mil pessoas do risco a tempo e foram aceitos por quase todos.",
+    "contra": "Os acordos foram aceitos sob pressão, sem participação das vítimas, e o valor não repara o que foi perdido.",
+    "pro_plain": "Os acordos tiraram mais de 60 mil pessoas do risco antes do colapso, e quase todo mundo aceitou a proposta.",
+    "contra_plain": "As pessoas aceitaram com medo e na pandemia, sem serem ouvidas, e receberam menos do que perderam."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Destino da área desocupada",
+   "description": "Discute-se de quem fica a área de onde saíram mais de 60 mil pessoas, e se a Braskem poderá um dia explorá-la.",
+   "axis": {
+    "pro": "A área é um passivo da Braskem, sem condição de exploração, e o Plano Diretor decide o seu futuro.",
+    "contra": "A Braskem virou dona dos imóveis e das ruas e poderá explorar a área quando as condicionantes se cumprirem.",
+    "pro_plain": "A área é um peso que a empresa tem de administrar e pagar, e não dá para explorar.",
+    "contra_plain": "A empresa ficou dona dos terrenos e das ruas, e um dia vai poder usar a área."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Responsabilização criminal",
+   "description": "Discute-se por que, 5 anos depois do começo do crime, ninguém da Braskem foi processado criminalmente nem preso.",
+   "axis": {
+    "pro": "Os responsáveis pela Braskem têm de ser processados criminalmente e presos.",
+    "contra": "As instituições já atuam nos limites do que a lei permite, e o caminho é garantir a reparação.",
+    "pro_plain": "Quem mandava na empresa tem de responder na Justiça criminal, como responderia qualquer pessoa.",
+    "contra_plain": "As instituições fazem o que a lei permite, e o caminho é garantir a reparação de quem perdeu."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Risco remanescente e mapa da área",
+   "description": "Discute-se se o mapa de risco atual dá conta, e se os Flexais e as bordas precisam entrar nele e ter a população realocada.",
+   "axis": {
+    "pro": "O risco continua e as bordas e os Flexais precisam entrar no mapa e ser realocados.",
+    "contra": "Fora do mapa atual não há risco geológico demonstrado, e a área crítica é pequena diante da cidade.",
+    "pro_plain": "Tem gente isolada e em área de deslizamento fora do mapa, e ainda há minas por preencher.",
+    "contra_plain": "Fora do mapa ninguém provou risco, e a área crítica é pouco mais de 1% da zona urbana."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Responsabilidade dos órgãos de fiscalização",
+   "description": "Discute-se se a Agência Nacional de Mineração, o órgão ambiental de Alagoas e o BNDES também respondem pelo que aconteceu.",
+   "axis": {
+    "pro": "A fiscalização e o financiamento público falharam, e esses órgãos respondem junto com a empresa.",
+    "contra": "A mina era competência federal, o licenciamento seguiu a lei da época e nada indicava o afundamento.",
+    "pro_plain": "Quem tinha de fiscalizar não fiscalizou, e foi dinheiro público que financiou a atividade.",
+    "contra_plain": "A mina era assunto do Governo Federal, e nenhum relatório apontou problema antes de 2018."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Regras da mineração e o Legislativo",
+   "description": "Discute-se o que a Câmara deve fazer depois da audiência: abrir CPI e mudar as regras da mineração, sobretudo dentro das cidades.",
+   "axis": {
+    "pro": "A Câmara precisa abrir CPI e escrever novas regras para a mineração em área urbana.",
+    "contra": "As regras atuais bastam e o caso se resolve nos processos que já correm.",
+    "pro_plain": "A Câmara tem de abrir uma CPI e mudar a lei da mineração, principalmente dentro das cidades.",
+    "contra_plain": "As regras de hoje bastam, e o caso se resolve nos processos que já estão na Justiça."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Equipamentos públicos atingidos",
+   "description": "Discute-se o que acontece com as escolas, o hospital de saúde mental e o transporte que ficaram dentro da área isolada.",
+   "axis": {
+    "pro": "Os equipamentos públicos atingidos precisam ser indenizados e reconstruídos com urgência.",
+    "contra": "Essa reparação pode esperar o fim das tratativas sobre a área.",
+    "pro_plain": "As escolas e o hospital que ficaram na área precisam ser pagos e reconstruídos logo.",
+    "contra_plain": "Essa parte pode esperar enquanto se resolve o resto."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Deputado Federal, presidindo a audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "abre a reunião e se identifica como autor de um dos requerimentos em b001.1. A partir de b020.1 a condução passa à deputada coautora, registrada na ata sob o mesmo id",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Defensor Público da União",
+   "org": "Defensoria Pública da União",
+   "basis": "apresentado pela presidência em b001.17 e b001.20, participa por videoconferência",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Defensoria Pública da União",
+   "org_plain": "órgão que defende de graça na Justiça quem não tem como pagar advogado"
+  },
+  "s03": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal, coautora do requerimento",
+   "org": "Câmara dos Deputados",
+   "basis": "citada como coautora do requerimento em b001.1 e convidada a conduzir os trabalhos em b020.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal por São Paulo",
+   "org_plain": "Casa onde os deputados federais fazem as leis e fiscalizam o Governo"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Procuradora-Chefe da Procuradoria da República em Alagoas",
+   "org": "Ministério Público Federal",
+   "basis": "apresentada pela presidência em b001.17 e b012.10, participa por videoconferência",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério Público Federal em Alagoas",
+   "org_plain": "órgão que processa na Justiça federal quem lesa direitos de todos, como o meio ambiente"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Coordenador do movimento das vítimas",
+   "org": "Movimento Unificado das Vítimas da Braskem",
+   "basis": "apresentado pela presidência em b001.17 e b018.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Movimento Unificado das Vítimas da Braskem",
+   "org_plain": "movimento que reúne moradores atingidos pelo afundamento do solo em Maceió"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "Representante do movimento",
+   "org": "Movimento pela Soberania Popular na Mineração",
+   "basis": "apresentado pela presidência em b001.17 e b020.4",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do Movimento pela Soberania Popular na Mineração",
+   "org_plain": "movimento nacional que acompanha os efeitos da mineração sobre as comunidades"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente da associação",
+   "org": "Associação dos Empreendedores e Vítimas da Mineração em Maceió",
+   "basis": "apresentado pela presidência em b001.17 e b022.5",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Associação dos Empreendedores e Vítimas da Mineração",
+   "org_plain": "associação de moradores e donos de negócio atingidos pela mineração em Maceió"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Professor e urbanista, autor de laudo entregue à Defensoria",
+   "org": "Universidade Federal de Alagoas",
+   "basis": "apresentado pela presidência em b001.17 e b024.3",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professor da Universidade Federal de Alagoas",
+   "org_plain": "universidade pública de Alagoas, que produziu o laudo sobre o isolamento dos Flexais"
+  },
+  "s09": {
+   "role": "governo",
+   "cargo": "Representante do instituto ambiental do Estado",
+   "org": "Instituto do Meio Ambiente de Alagoas",
+   "basis": "apresentado pela presidência em b001.17 e b026.2",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "do Instituto do Meio Ambiente de Alagoas",
+   "org_plain": "órgão do Governo de Alagoas que concede e fiscaliza licenças ambientais no Estado"
+  },
+  "s10": {
+   "role": "governo",
+   "cargo": "Coordenador de Gerenciamento Costeiro",
+   "org": "Instituto do Meio Ambiente de Alagoas",
+   "basis": "apresentado pela presidência em b001.17 e b028.2",
+   "seat": "remoto",
+   "gov_level": "estadual",
+   "byline": "do Instituto do Meio Ambiente de Alagoas",
+   "org_plain": "órgão do Governo de Alagoas que concede e fiscaliza licenças ambientais no Estado"
+  },
+  "s11": {
+   "role": "parlamentar",
+   "cargo": "Deputada Federal",
+   "org": "Câmara dos Deputados",
+   "basis": "presença agradecida pela presidência em b001.3 e palavra concedida em b032.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal por Minas Gerais",
+   "org_plain": "Casa onde os deputados federais fazem as leis e fiscalizam o Governo"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.45
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   },
+   {
+    "role": "convidado",
+    "share": 0.1
+   }
+  ],
+  "basis": "a audiência foi quase toda por videoconferência, com os oito convidados listados em b001.17, e não há registro de palmas nem menção a plateia",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência sobre os impactos da mineração da Braskem em Maceió e lista os convidados.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que o acordo preventivo tirou mais de 60 mil pessoas da área de risco antes do colapso e que a adesão às propostas da Braskem passa de 99%.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O acordo feito em 2019 evitou um desastre muito mais grave e garantiu indenização à maioria dos atingidos.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem o acordo feito lá atrás o colapso da mina 18 teria sido muito mais grave, e a área já estava desocupada desde 2020",
+     "plain": "Se esse acordo não tivesse sido feito lá atrás, o colapso da mina 18 teria causado um desastre muito mais grave. Já em 2019 víamos o risco e, como são 35 poços, interditamos cinco vezes o raio de cada mina, área desocupada desde 2020."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "foram mais de 19 mil propostas e mais de 18 mil aceitas, com adesão acima de 99% e 127 recusas",
+     "plain": "A Braskem ofertou mais de 19 mil propostas e mais de 18 mil foram aceitas. A adesão ao Programa de Compensação Financeira passa de 99%, com 127 recusas até hoje."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      31
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a solução proposta para os Flexais foi requalificar a área, porque sem risco geológico demonstrado não há como realocar",
+     "plain": "Apresentamos como solução a requalificação da área, porque não é juridicamente viável conseguir realocação em um lugar onde não foi demonstrado risco geológico."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta ao defensor qual é o impacto da tragédia no direito à saúde, em especial no hospital de referência em saúde mental que ficou na área.",
+   "quote": [
+    4,
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O impacto da tragédia sobre os hospitais da região precisa ser enfrentado como violação do direito à saúde.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quase 20% do território de Maceió está afetado e os pacientes de saúde mental ficaram sem continuidade no tratamento",
+     "plain": "O senhor pode se pronunciar sobre o impacto no direito à saúde? Estamos recebendo denúncias de pessoas atendidas nos hospitais dessa região, que é quase 20% de Maceió, e um deles é especializado em saúde mental."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta se o defensor conseguiu ouvir a pergunta da deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b005",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O defensor diz que ouviu a pergunta, mas não o nome da deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b006",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz o nome da deputada e libera a resposta.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b007",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Responde que o hospital de referência em saúde mental está na área de risco, que a Braskem vai pagar e reconstruí-lo, e cobra ação do Estado de Alagoas.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os equipamentos públicos de saúde atingidos precisam ser indenizados e reconstruídos fora da área de risco.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "há mais de 15 mil imóveis na área de risco, e entre eles equipamentos públicos que atendiam na saúde",
+     "plain": "Nessa área de risco há mais de 15 mil imóveis. Entre eles estão equipamentos públicos, e alguns prestavam atendimento de saúde."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "desde 2020 as instituições exigiram a indenização do hospital, e a Braskem passou a aceitar pagar e reconstruí-lo",
+     "plain": "Desde 2020 a Defensoria e o Ministério Público Federal exigiram que a Braskem começasse a pagar a indenização desse hospital. Ela não queria, mas depois aceitou, e agora vai pagar e construí-lo em outro lugar."
+    },
+    {
+     "id": "b007c3",
+     "sentences": [
+      16
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "já há um lugar para construir o hospital, mas falta uma atuação mais enérgica do Estado para começar a obra",
+     "plain": "Já existe um lugar definido para erguer o novo hospital. O que falta é o Estado agir com mais energia para começar a obra."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta ao defensor se ele vai ter de sair antes do fim da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b009",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O defensor avisa que terá de sair, mas se oferece para responder antes a quem quiser perguntar.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b010",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta se o acordo de 1,7 bilhão de reais com a Prefeitura basta para indenizar os atingidos e por que a Braskem ficou com os terrenos que eram das pessoas.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 3,
+   "stance": {
+    "position": "contrario",
+    "claim": "O valor do acordo é insuficiente e a área não deveria ter ficado com a empresa que causou o dano.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      3
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o valor de 1,7 bilhão de reais do acordo da Prefeitura pode não bastar para indenizar as 60 mil pessoas atingidas",
+     "plain": "O senhor participou da negociação: esse 1,7 bilhão de reais fechado no acordo da Prefeitura é suficiente para indenizar tantos danos e as 60 mil pessoas que estavam lá?"
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Braskem ficou com os terrenos que eram das pessoas, e a área não volta para o Estado nem para o Município",
+     "plain": "Por que a empresa pôde ficar com terrenos que, na prática, eram das pessoas? Por que essa área não volta ao Estado ou ao Município? Pelo que sei, ela recebeu a área toda."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Responde que não participou do acordo de 1,7 bilhão de reais e sustenta que a Braskem fica com os imóveis, mas não pode explorar a área economicamente.",
+   "quote": [
+    11,
+    12,
+    13
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A empresa ficou com os imóveis, mas está impedida de explorar a área enquanto o solo estiver instável.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o Município foi indenizado também pela perda de arrecadação, e assim se chegou ao valor de 1,7 bilhão de reais",
+     "plain": "O Município tinha equipamentos públicos na região e foi indenizado também pela perda de arrecadação, como IPTU e ISS. Assim se chegou ao valor de 1,7 bilhão de reais, e eu não participei desse acordo para dizer se é justo."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Braskem fica com os imóveis pela transação, mas o acordo socioambiental a impede de explorar a área enquanto o solo estiver instável",
+     "plain": "A Braskem faz uma transação e acaba ficando com os imóveis. Mas dissemos a ela que não poderia se beneficiar da própria torpeza, e o acordo garante que, enquanto o solo estiver instável, ela não pode explorar a área."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      19
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso afastar a informação falsa de que a empresa vai explorar economicamente aquela área",
+     "plain": "Precisamos afastar a desinformação: a Braskem não vai explorar essa área economicamente."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Contesta a resposta do defensor e afirma que o acordo assinado deixa a área com a Braskem, e não com o poder público.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O que foi assinado deixa a área com a empresa, e não com o poder público.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o acordo assinado deixa a área com a Braskem, então ela não vai ser pública",
+     "plain": "Pelo que eu vi, o acordo deixa a área com a Braskem. Então ela não vai ser pública, foi isso que assinaram."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Explica que o acordo socioambiental nasceu de ação civil pública com nove réus e sustenta que a área é um passivo da Braskem, sem condição de exploração.",
+   "quote": [
+    40,
+    41,
+    42
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A área desocupada é um passivo que a empresa tem de administrar e custear, não um ativo.",
+    "sentence": 40
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a ação civil pública de agosto de 2019 teve nove réus, entre eles a ANM, o IMA, o BNDES e o Estado de Alagoas",
+     "plain": "O acordo nasceu de uma ação que o Ministério Público Federal moveu em agosto de 2019. Foram nove réus: a Braskem, a Petrobras, a Odebrecht, o BNDES, o Estado de Alagoas, o IMA, a União e a ANM."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      19
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o acordo socioambiental tem quatro eixos, da estabilização das cavidades à reparação do dano moral coletivo",
+     "plain": "O acordo socioambiental foi dividido em quatro eixos: estabilizar e monitorar as cavidades, reparar os danos ambientais, compensar os danos urbanos e sociais e reparar o dano moral coletivo."
+    },
+    {
+     "id": "b013c3",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a área é um passivo da Braskem, que não tem condição de exploração e cujos custos a empresa tem de suportar",
+     "plain": "Essa área é um passivo da Braskem. O que aconteceu na mina 18 mostra que ela não tem condição de exploração: é um passivo que a empresa precisa administrar, arcando com todos os custos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que a procuradora conclua.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b015",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Afirma que ainda não é possível dizer se e quando o solo vai se estabilizar, porque esse tempo não está sob domínio das instituições.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "Não há prazo para a estabilidade do solo, e isso condiciona tudo o que se decidir sobre a área.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b015c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "ainda não é possível afirmar se a estabilidade do solo vai ocorrer nem quando",
+     "plain": "Ainda não dá para afirmar se essa estabilidade vai acontecer, nem quando. Esse tempo não é nosso, nem enquanto Ministério Público nem enquanto pessoas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": true,
+   "mesa_move": null
+  },
+  {
+   "id": "b016",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que o tempo já passou 2 minutos e pede que a procuradora conclua.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b017",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aponta a deficiência da legislação minerária e os limites da defesa civil para desastres crônicos, e defende que o Parlamento trate do tema.",
+   "quote": [
+    4,
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei da mineração e o sistema de defesa civil não dão conta de um desastre que se arrasta por anos.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a legislação minerária é deficiente e a defesa civil não dá conta de desastres crônicos, e o Parlamento precisa tratar disso",
+     "plain": "A legislação de mineração é deficiente e a defesa civil tem limites para lidar com desastres crônicos, que não são agudos e pedem um tempo de resposta maior. Por isso é muito bom que o Parlamento veja esses temas."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a procuradora e chama o representante do movimento das vítimas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b019",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Denuncia a ausência das vítimas nas decisões, afirma que nenhuma pesquisa de satisfação foi feita e contesta a transferência da propriedade dos imóveis à Braskem.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As decisões sobre a reparação foram tomadas em nome das vítimas, mas sem elas.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "faltou participação das vítimas nas decisões que foram tomadas em nome delas",
+     "plain": "O primeiro ponto é a ausência das vítimas nas decisões tomadas em nome delas. O que as autoridades julgam melhor para elas e o que elas mesmas querem são coisas totalmente diferentes, e elas não são ouvidas."
+    },
+    {
+     "id": "b019c2",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "nenhuma pesquisa de satisfação foi feita, e pessoas muito vulneráveis acabaram aceitando propostas irrisórias",
+     "plain": "Os Ministérios Públicos e a Defensoria negaram o nosso pedido dizendo que o que a Braskem fazia era satisfatório, pela alta adesão. Mas nenhuma pesquisa de satisfação foi feita, e gente vulnerável aceitou propostas irrisórias."
+    },
+    {
+     "id": "b019c3",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a transferência da propriedade para a Braskem é ilegal e nunca deveria ter acontecido, porque quem decide é o dono",
+     "plain": "A transferência de propriedade para a Braskem é, do nosso ponto de vista, ilegal e indecorosa, e jamais deveria ter acontecido. Ela nunca poderia se tornar proprietária, porque o proprietário é quem decide."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida a deputada coautora para conduzir os trabalhos e chama o representante do movimento da mineração.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b021",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Contesta a adesão aos acordos lembrando a pandemia e o medo, aponta cláusula de isenção no acordo de 1,7 bilhão de reais e alerta que 30 minas seguem sem preenchimento.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A aceitação dos acordos foi arrancada de gente sem alternativa, no meio da pandemia.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b021c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "muitas pessoas aceitaram os acordos, mas é preciso ver o quanto foram obrigadas a aceitar, com medo de afundar e na pandemia",
+     "plain": "O defensor disse que muitas pessoas aceitaram os acordos. Só que precisamos ver a situação em que estavam e o quanto foram obrigadas a aceitar: todo dia pensavam que podiam afundar a qualquer momento, e ainda era pandemia."
+    },
+    {
+     "id": "b021c2",
+     "sentences": [
+      18
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "uma parte do acordo de 1,7 bilhão de reais isenta a Braskem de qualquer dano ocorrido depois da assinatura",
+     "plain": "No segundo acordo, o de 1,7 bilhão de reais, uma parte diz que a Braskem fica isenta de qualquer dano que venha a ocorrer na área afetada depois da assinatura."
+    },
+    {
+     "id": "b021c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "só seis minas foram preenchidas e, de 36, ainda faltam 30, entre elas minas críticas",
+     "plain": "Houve o colapso da mina 18 e só seis minas foram preenchidas até agora. De 36 minas, 30 ainda precisam ser preenchidas, e entre as que faltam há minas críticas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b022",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa agradece a fala sobre os transportes e chama o presidente da associação das vítimas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b023",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Acusa Braskem, ANM, IMA e BNDES em notícia-crime, cobra do Ministério Público Federal a ação penal e sustenta que a empresa poderá explorar a área.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": true,
+   "evidence": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": 17,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Passados 5 anos, a empresa segue impune porque o Ministério Público não moveu a ação penal.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b023c1",
+     "sentences": [
+      5
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a associação acusou em notícia-crime a Braskem, a ANM por omissão, o IMA por licenciar fora da lei e o BNDES por financiar",
+     "plain": "Apresentamos uma notícia-crime acusando a Braskem de crime ambiental e fraude no licenciamento, a Agência Nacional de Mineração de omissão, o IMA de licenciar fora da lei e o BNDES de financiar atividade criminosa."
+    },
+    {
+     "id": "b023c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "cinco anos depois do início do crime a empresa ainda não foi processada criminalmente pelo Ministério Público",
+     "plain": "O Ministério Público diz que a nossa associação, que luta há 5 anos pelas vítimas, não tem legitimidade para processar a Braskem. E, passados 5 anos do início do crime, ele mesmo ainda não processou a empresa."
+    },
+    {
+     "id": "b023c3",
+     "sentences": [
+      28,
+      29,
+      30
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o acordo permite o uso do solo com estabilização e autorização do Plano Diretor, e isso pode se cumprir em 10 ou 20 anos",
+     "plain": "O segundo acordo permite o uso do solo se o terreno se estabilizar e o Plano Diretor autorizar. Não é verdade que ela não pode fazer nada na área: são condicionantes, e elas podem se cumprir daqui a 10, 15 ou 20 anos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b024",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa agradece e passa a palavra ao professor da Universidade Federal de Alagoas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b025",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Sustenta que os Flexais estão isolados e em área de deslizamento mapeada pela CPRM, e defende realocar a população mesmo fora do mapa da Defesa Civil.",
+   "quote": [
+    48,
+    49
+   ],
+   "covered": true,
+   "evidence": [
+    20,
+    21,
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A população dos Flexais precisa ser realocada, mesmo estando fora do mapa da Defesa Civil.",
+    "sentence": 51
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "esse bairro foi totalmente evacuado e as pessoas ficaram isoladas em termos urbanos, ambientais, econômicos e sociais",
+     "plain": "Esse bairro praticamente não existe mais, foi totalmente evacuado. Hoje essas pessoas estão isoladas em termos urbanos, ambientais, econômicos e sociais."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os mapas da CPRM indicam área propícia a deslizamento de encosta no Flexal de Cima, independentemente da mineração",
+     "plain": "Os mapas de risco da CPRM mostram que aquele trecho pode ter deslizamento de encosta, principalmente no Flexal de Cima. Mesmo sem a mineração, já é área de risco mapeada pelo Governo Federal."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      50,
+      51
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Defesa Civil reconhece o risco e tudo leva à necessidade de realocar essa população, mesmo fora do mapa",
+     "plain": "A Defesa Civil de Maceió sabe disso e já reiterou que o risco existe, até porque há o mapa da CPRM. Tudo isso leva à necessidade de realocar essa população, apesar de ela não estar no mapa da Defesa Civil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa chama o representante do Instituto do Meio Ambiente de Alagoas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b027",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica que a concessão de lavra é federal e de 1970, que o licenciamento ambiental de 1986 foi corretivo e que a área crítica é cerca de 1,5% da zona urbana.",
+   "quote": [
+    12,
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A autorização para minerar veio do Governo Federal, e o licenciamento ambiental só foi exigido depois.",
+    "sentence": 6
+   },
+   "claims": [
+    {
+     "id": "b027c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a concessão de lavra foi emitida pelo Governo Federal em 1970, pelo órgão que hoje é a ANM, e a atividade começou em 1975",
+     "plain": "A concessão de lavra foi emitida pelo Governo Federal em 1970 e corrigida em 1971, sob o Código de Mineração de 1967. Quem a emitiu foi o DNPM, hoje ANM, e a atividade começou no fim de 1975."
+    },
+    {
+     "id": "b027c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o licenciamento ambiental de 1986 foi corretivo, porque a atividade já estava em curso e concedida pelo órgão competente",
+     "plain": "Em 1986 esse licenciamento ambiental foi estabelecido de forma corretiva. Corretiva porque veio de uma atividade que já estava em curso e tinha sido concedida pelo órgão competente para fiscalizar e conceder."
+    },
+    {
+     "id": "b027c3",
+     "sentences": [
+      39
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a área do mapa de criticidade tem cerca de 280 hectares, algo entre 1,4% e 1,5% da zona urbana de Maceió",
+     "plain": "A área do mapa de criticidade é de aproximadamente 280 hectares, dentro de uma zona urbana de Maceió de 19.800 hectares. Isso representa cerca de 1,4% a 1,5% da área urbana."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b028",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa chama o coordenador de gerenciamento costeiro do Instituto do Meio Ambiente.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b029",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que a mineração não é competência do órgão ambiental estadual e que o instituto só foi notificado do fenômeno a partir de 2018 e 2019.",
+   "quote": [
+    18,
+    19,
+    20
+   ],
+   "covered": true,
+   "evidence": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O órgão ambiental do Estado não responde pela mina, e nada nos relatórios apontava o afundamento.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b029c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a mineração em si não é competência do órgão ambiental estadual, porque a concessão é do Governo Federal",
+     "plain": "A mineração em si não é competência do órgão ambiental estadual: a concessão é do Governo Federal, antes pelo DNPM e depois pela ANM. O instituto acompanha os impactos ambientais da atividade de superfície."
+    },
+    {
+     "id": "b029c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o instituto não recebeu informação sobre o comportamento da mina e não tinha competência para verificar isso",
+     "plain": "Sobre o comportamento da mina não recebemos nenhuma informação de alteração, e também não era competência nossa verificar essa situação. Há quem entenda que o instituto responde pela exploração mineral, mas não responde."
+    },
+    {
+     "id": "b029c3",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o órgão só foi notificado do fenômeno a partir de 2018 e 2019, e por isso as licenças eram renovadas",
+     "plain": "Só fomos notificados do fenômeno a partir de 2018 e 2019, depois do laudo da CPRM. Antes não houve nenhum relatório, nenhuma denúncia e nenhuma constatação de alteração, e por isso as licenças eram renovadas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b030",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A mesa encerra a lista de depoentes e passa a palavra às deputadas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b031",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Lista os órgãos acionados e o pedido de CPI, aponta que a área atinge quase 20% de Maceió e cobra a responsabilização criminal dos empresários.",
+   "quote": [
+    20,
+    21,
+    22
+   ],
+   "covered": true,
+   "evidence": [
+    32
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Não houve responsabilização criminal dos empresários, como não houve em Mariana e em Brumadinho.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b031c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o mandato acionou vários órgãos federais e pediu a criação de uma frente de parlamentares e de uma CPI",
+     "plain": "Acionamos o Ministério de Minas e Energia, a Agência Nacional de Mineração e o Ministério Público Federal. Pedimos uma frente de parlamentares e a criação de uma CPI, e acionamos o Tribunal de Contas e a Advocacia-Geral da União."
+    },
+    {
+     "id": "b031c2",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a área atinge quase 20% de Maceió, com mais de 60 mil famílias impactadas e mais de 14 mil residências evacuadas",
+     "plain": "Essa área atinge quase 20% do Município de Maceió. São mais de 60 mil famílias impactadas e mais de 14 mil residências já evacuadas, com equipamentos públicos atingidos na educação, na saúde e no transporte."
+    },
+    {
+     "id": "b031c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "apesar do dinheiro público do BNDES e do acompanhamento dos órgãos, não há responsabilização criminal desses empresários",
+     "plain": "É indignante ver que, mesmo com o acompanhamento dos órgãos e com dinheiro público do BNDES no empreendimento, não há responsabilização desses empresários, como não houve em Brumadinho nem em Mariana. Nem responsabilização criminal."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b032",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a deputada e passa a palavra à deputada seguinte.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b033",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Compara o caso com Brumadinho e Mariana, afirma que os donos da Braskem deveriam estar presos e defende novos parâmetros para a mineração urbana.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    33
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Enquanto ninguém for preso, a mensagem que fica é a de que o crime da mineração compensa.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b033c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a mineração matou 272 pessoas em Brumadinho e contaminou 50% das crianças de até 6 anos, segundo um estudo",
+     "plain": "A mineração em Minas Gerais matou 272 pessoas em Brumadinho, matou dois rios e contaminou milhares de famílias. Um estudo mostra que 50% das crianças de até 6 anos em Brumadinho foram contaminadas por metais ligados à mineração."
+    },
+    {
+     "id": "b033c2",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os donos da Braskem deveriam estar presos, e ninguém foi preso até hoje nem por Mariana nem por Brumadinho",
+     "plain": "Os donos da Braskem deveriam estar presos, assim como os responsáveis pelos crimes em Mariana e em Brumadinho. Ninguém foi preso até hoje, e isso passa à sociedade o péssimo recado de que o crime compensa."
+    },
+    {
+     "id": "b033c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em Minas Gerais a mineração responde por 1,2% dos empregos do Estado, contra o discurso do emprego",
+     "plain": "Sempre vem o discurso de que a mineração vai trazer muitos empregos. Em Minas Gerais, um Estado que carrega o nome da mineração, ela representa 1,2% dos empregos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b034",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Critica a ausência da Braskem e da ANM, considera frouxa a atuação do Ministério Público Federal e da Defensoria e chama de absurdo o acordo da Prefeitura.",
+   "quote": [
+    52,
+    53
+   ],
+   "covered": true,
+   "evidence": [
+    27,
+    28,
+    29,
+    30
+   ],
+   "open_question": 44,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Ministério Público é o dono da ação penal e precisa agir como tal neste caso.",
+    "sentence": 53
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Braskem não quis prestar satisfação à Câmara e a Agência Nacional de Mineração esteve na audiência e foi embora",
+     "plain": "A Braskem não quer prestar satisfação à Câmara dos Deputados. Imaginem que nem por teleconferência mandaram um representante. A Agência Nacional de Mineração esteve aqui hoje e foi embora."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a posição da Defensoria e do Ministério Público Federal foi frouxa, e o Ministério Público é o dono da ação penal",
+     "plain": "Achei ruim que o Ministério Público Federal e a Defensoria não tenham ficado até o fim. Considerei absolutamente frouxa a posição dos dois, porque o Ministério Público é o dono da ação penal e precisa agir como tal."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      59,
+      60
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o acordo da Prefeitura é um absurdo, porque fecha tudo antes de terminarem os riscos e entrega a propriedade à Braskem",
+     "plain": "O acordo que a Prefeitura de Maceió fez é um absurdo, porque os riscos e os prejuízos ainda nem terminaram. Como se fecha tudo e ainda se entrega a propriedade à própria empresa?"
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b007",
+   "to": "b003",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 5,
+   "from_claim": "b007c2",
+   "to_claim": "b003c1",
+   "strength": "forte",
+   "note": "À pergunta sobre o hospital de saúde mental, o defensor responde que a Braskem foi obrigada a pagar a indenização e agora vai reconstruí-lo em outro lugar."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 13,
+   "to_sentence": 4,
+   "from_claim": "b011c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "Ao 'por que a Braskem ficou com os terrenos', responde que ela fica com os imóveis pela transação, mas não pode explorar a área enquanto o solo estiver instável."
+  },
+  {
+   "from": "b012",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 4,
+   "to_sentence": 13,
+   "from_claim": "b012c1",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "A presidência não aceita a resposta e diz que o que está assinado deixa a área com a empresa, e não com o poder público."
+  },
+  {
+   "from": "b013",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 40,
+   "to_sentence": 13,
+   "from_claim": "b013c3",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "O Ministério Público Federal confirma a leitura da Defensoria e acrescenta que a área é um passivo, não um ativo da empresa."
+  },
+  {
+   "from": "b013",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 12,
+   "from_claim": "b013c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A procuradora completa o relato da Defensoria com a ação civil pública de 2019, que levou nove réus ao banco, entre eles os órgãos de fiscalização."
+  },
+  {
+   "from": "b019",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 10,
+   "from_claim": "b019c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Contra o índice de adesão acima de 99%, o movimento das vítimas responde que nenhuma pesquisa de satisfação foi feita e que a aceitação veio da vulnerabilidade."
+  },
+  {
+   "from": "b019",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 14,
+   "to_sentence": 11,
+   "from_claim": "b019c3",
+   "to_claim": "b011c2",
+   "strength": "forte",
+   "note": "Para o movimento das vítimas, a transferência da propriedade à Braskem é ilegal em si, e não algo que as condicionantes do acordo resolvam."
+  },
+  {
+   "from": "b019",
+   "to": "b013",
+   "kind": "contradiz",
+   "from_sentence": 16,
+   "to_sentence": 40,
+   "from_claim": "b019c3",
+   "to_claim": "b013c3",
+   "strength": "media",
+   "note": "Se a área é mesmo um passivo, argumenta o movimento, a empresa não deveria ter virado proprietária, porque quem decide o destino de um imóvel é o dono."
+  },
+  {
+   "from": "b021",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 10,
+   "from_claim": "b021c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "O movimento da mineração contesta o mesmo número de adesão, lembrando que as pessoas assinaram na pandemia, achando que podiam afundar a qualquer momento."
+  },
+  {
+   "from": "b021",
+   "to": "b019",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 9,
+   "from_claim": "b021c1",
+   "to_claim": "b019c2",
+   "strength": "forte",
+   "note": "Os dois movimentos dizem a mesma coisa: a alta aceitação mede a falta de alternativa das pessoas, não a qualidade da proposta."
+  },
+  {
+   "from": "b021",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 18,
+   "to_sentence": 13,
+   "from_claim": "b021c2",
+   "to_claim": "b011c2",
+   "strength": "media",
+   "note": "Contra a leitura de que o acordo protege o interesse público, o movimento aponta a cláusula que isenta a empresa de danos posteriores à assinatura."
+  },
+  {
+   "from": "b023",
+   "to": "b013",
+   "kind": "contradiz",
+   "from_sentence": 29,
+   "to_sentence": 41,
+   "from_claim": "b023c3",
+   "to_claim": "b013c3",
+   "strength": "forte",
+   "note": "A associação responde ao 'não tem condição de exploração' dizendo que o acordo traz condicionantes, e que elas podem se cumprir daqui a 10 ou 20 anos."
+  },
+  {
+   "from": "b023",
+   "to": "b011",
+   "kind": "contradiz",
+   "from_sentence": 29,
+   "to_sentence": 19,
+   "from_claim": "b023c3",
+   "to_claim": "b011c3",
+   "strength": "forte",
+   "note": "Onde o defensor via desinformação, a associação vê eufemismo: a empresa não está proibida para sempre, está condicionada."
+  },
+  {
+   "from": "b025",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 51,
+   "to_sentence": 31,
+   "from_claim": "b025c3",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "O laudo da universidade sustenta a realocação que a Defensoria considerou inviável, porque o risco de deslizamento existe mesmo fora do mapa da Defesa Civil."
+  },
+  {
+   "from": "b025",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 50,
+   "to_sentence": 21,
+   "from_claim": "b025c3",
+   "to_claim": "b021c3",
+   "strength": "media",
+   "note": "Os dois ligam o que ainda pode acontecer nas minas ao que vai atingir quem ficou de fora do mapa."
+  },
+  {
+   "from": "b027",
+   "to": "b025",
+   "kind": "contradiz",
+   "from_sentence": 39,
+   "to_sentence": 51,
+   "from_claim": "b027c3",
+   "to_claim": "b025c3",
+   "strength": "forte",
+   "note": "O órgão ambiental do Estado responde com a medida da área crítica, cerca de 1,5% da zona urbana, contra o pedido de ampliar o mapa."
+  },
+  {
+   "from": "b029",
+   "to": "b023",
+   "kind": "responde",
+   "from_sentence": 18,
+   "to_sentence": 5,
+   "from_claim": "b029c3",
+   "to_claim": "b023c1",
+   "strength": "forte",
+   "note": "À acusação de licenciar fora da lei, o instituto responde que só foi notificado do fenômeno a partir de 2018 e 2019, depois do laudo da CPRM."
+  },
+  {
+   "from": "b029",
+   "to": "b027",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 6,
+   "from_claim": "b029c1",
+   "to_claim": "b027c1",
+   "strength": "forte",
+   "note": "Os dois representantes do mesmo instituto colocam a concessão da mina no Governo Federal, e não no Estado."
+  },
+  {
+   "from": "b031",
+   "to": "b027",
+   "kind": "contradiz",
+   "from_sentence": 15,
+   "to_sentence": 39,
+   "from_claim": "b031c2",
+   "to_claim": "b027c3",
+   "strength": "forte",
+   "note": "Contra o 1,5% da zona urbana apresentado pelo instituto, a deputada diz que a área atinge quase 20% do Município."
+  },
+  {
+   "from": "b031",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 21,
+   "to_sentence": 9,
+   "from_claim": "b031c3",
+   "to_claim": "b023c2",
+   "strength": "forte",
+   "note": "A deputada endossa a cobrança da associação: cinco anos depois, não há responsabilização criminal de quem mandava na empresa."
+  },
+  {
+   "from": "b031",
+   "to": "b007",
+   "kind": "apoia",
+   "from_sentence": 17,
+   "to_sentence": 2,
+   "from_claim": "b031c2",
+   "to_claim": "b007c1",
+   "strength": "media",
+   "note": "A deputada retoma a conta dos equipamentos públicos atingidos que o defensor tinha aberto, somando educação, saúde e transporte."
+  },
+  {
+   "from": "b033",
+   "to": "b031",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 21,
+   "from_claim": "b033c2",
+   "to_claim": "b031c3",
+   "strength": "forte",
+   "note": "As duas deputadas juntam Maceió a Mariana e Brumadinho: em nenhum dos casos alguém foi preso."
+  },
+  {
+   "from": "b033",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 9,
+   "from_claim": "b033c2",
+   "to_claim": "b023c2",
+   "strength": "media",
+   "note": "A deputada responde ao pedido da associação afirmando que os donos da empresa deveriam estar presos."
+  },
+  {
+   "from": "b034",
+   "to": "b023",
+   "kind": "apoia",
+   "from_sentence": 53,
+   "to_sentence": 9,
+   "from_claim": "b034c2",
+   "to_claim": "b023c2",
+   "strength": "forte",
+   "note": "A presidência assume a crítica da associação e chama de frouxa a posição do Ministério Público Federal, que é o dono da ação penal."
+  },
+  {
+   "from": "b034",
+   "to": "b013",
+   "kind": "contradiz",
+   "from_sentence": 60,
+   "to_sentence": 42,
+   "from_claim": "b034c3",
+   "to_claim": "b013c3",
+   "strength": "forte",
+   "note": "Contra a tese do passivo, a presidência pergunta como se fecha um acordo e ainda se entrega a propriedade à empresa que causou o dano."
+  },
+  {
+   "from": "b034",
+   "to": "b021",
+   "kind": "apoia",
+   "from_sentence": 59,
+   "to_sentence": 18,
+   "from_claim": "b034c3",
+   "to_claim": "b021c2",
+   "strength": "media",
+   "note": "A presidência e o movimento da mineração convergem contra o acordo da Prefeitura, fechado antes de os riscos e prejuízos terminarem."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b010",
+    "b019",
+    "b021"
+   ],
+   "claims": [
+    "b010c1",
+    "b019c1",
+    "b019c2",
+    "b021c1",
+    "b021c2"
+   ],
+   "note": "A presidência da Comissão e os dois movimentos de atingidos concordam que a adesão alta não mede satisfação e que o valor pago não repara o que foi perdido."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b010",
+    "b012",
+    "b019",
+    "b023",
+    "b034"
+   ],
+   "claims": [
+    "b010c2",
+    "b012c1",
+    "b019c3",
+    "b023c3",
+    "b034c3"
+   ],
+   "note": "A mesa, o movimento das vítimas e a associação dos empreendedores concordam que os acordos entregaram a área à Braskem e que um dia ela poderá explorá-la."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b023",
+    "b031",
+    "b033",
+    "b034"
+   ],
+   "claims": [
+    "b023c2",
+    "b031c3",
+    "b033c1",
+    "b033c2",
+    "b034c2"
+   ],
+   "note": "A associação das vítimas, duas deputadas de partidos diferentes e a presidência concordam que ninguém foi responsabilizado criminalmente em 5 anos."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b013",
+    "b023",
+    "b034"
+   ],
+   "claims": [
+    "b013c1",
+    "b023c1",
+    "b034c1"
+   ],
+   "note": "O Ministério Público Federal, que levou os órgãos ao banco dos réus, fica do mesmo lado da associação das vítimas e da presidência quanto à falha da fiscalização."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b017",
+    "b031",
+    "b033"
+   ],
+   "claims": [
+    "b017c1",
+    "b031c1",
+    "b033c3"
+   ],
+   "note": "A procuradora-chefe e duas deputadas concordam que a lei da mineração e a defesa civil não dão conta de um desastre assim e que cabe ao Parlamento mudar isso."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b003",
+    "b007",
+    "b031"
+   ],
+   "claims": [
+    "b003c1",
+    "b007c2",
+    "b007c3",
+    "b031c2"
+   ],
+   "note": "A deputada e a Defensoria Pública da União concordam que os equipamentos públicos atingidos, e o hospital de saúde mental em primeiro lugar, precisam ser reconstruídos."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b003",
+   "sentence": 6,
+   "addressed_to": "governo",
+   "answered_by": "b007",
+   "gist": "que se explique o impacto da tragédia nos hospitais da região",
+   "plain": "Qual é o impacto da tragédia no direito à saúde, nos hospitais que ficaram nessa região?",
+   "theme": "d7",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 3,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que se diga se o 1,7 bilhão de reais basta para indenizar os atingidos",
+   "plain": "O 1,7 bilhão de reais do acordo da Prefeitura é suficiente para indenizar as 60 mil pessoas atingidas?",
+   "theme": "d1",
+   "position": "contrario"
+  },
+  {
+   "id": "q3",
+   "from": "b023",
+   "sentence": 17,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que o Ministério Público peça a prisão em flagrante dos responsáveis",
+   "plain": "Por que não se pede a prisão em flagrante dos responsáveis da Braskem, se o crime está acontecendo?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b034",
+   "sentence": 44,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "que se diga se houve estudo de impacto ambiental para as minas",
+   "plain": "Houve algum estudo de impacto ambiental para alguma mina da Braskem?",
+   "theme": "d5",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 10,
+   "gist": "adesão acima de 99% ao programa de compensação",
+   "disputed_by": [
+    {
+     "fala": "b019",
+     "sentence": 8
+    },
+    {
+     "fala": "b021",
+     "sentence": 8
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 14,
+   "gist": "35 poços e interdição de cinco vezes o raio de cada mina",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b011",
+   "sentence": 7,
+   "gist": "acordo do Município fechado em 1,7 bilhão de reais",
+   "disputed_by": [
+    {
+     "fala": "b021",
+     "sentence": 33
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "fala": "b013",
+   "sentence": 11,
+   "gist": "nove réus na ação civil pública de 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b021",
+   "sentence": 20,
+   "gist": "de 36 minas, 30 ainda precisam ser preenchidas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b023",
+   "sentence": 9,
+   "gist": "5 anos sem processo criminal contra a empresa",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b025",
+   "sentence": 31,
+   "gist": "moradores dos Flexais estão na área desde 1820",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b027",
+   "sentence": 39,
+   "gist": "área crítica de 280 hectares, cerca de 1,5% da zona urbana",
+   "disputed_by": [
+    {
+     "fala": "b031",
+     "sentence": 15
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b029",
+   "sentence": 18,
+   "gist": "o instituto só foi notificado a partir de 2018 e 2019",
+   "disputed_by": [
+    {
+     "fala": "b023",
+     "sentence": 5
+    }
+   ]
+  },
+  {
+   "id": "f10",
+   "fala": "b031",
+   "sentence": 16,
+   "gist": "mais de 60 mil famílias e 14 mil residências evacuadas",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b033",
+   "sentence": 5,
+   "gist": "272 pessoas mortas em Brumadinho",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b033",
+   "sentence": 19,
+   "gist": "mineração é 1,2% dos empregos em Minas Gerais",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil",
+   "parlamentar",
+   "mesa"
+  ],
+  "angle": "A matéria montou a notícia sobre a divergência entre as vítimas e as autoridades, e deu espaço parecido aos dois lados.",
+  "omitted": "Ficaram de fora a ausência da Braskem e da Agência Nacional de Mineração no debate e a cobrança sobre o estudo de impacto ambiental das minas."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Os acordos foram feitos sobre gente sem escolha",
+   "statement_plain": "A adesão alta não prova nada: as pessoas aceitaram as propostas da Braskem com medo de afundar, na pandemia, sem pesquisa de satisfação e sem participar das decisões.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b019c1",
+    "b019c2",
+    "b021c1",
+    "b019c3",
+    "b023c3"
+   ],
+   "note": "A ideia junta a presidência da Comissão, o movimento das vítimas, o movimento da mineração e a associação dos empreendedores, e é a que a sala mais opôs às instituições."
+  },
+  {
+   "id": "t2",
+   "title": "O acordo evitou um desastre pior e segura a empresa",
+   "statement_plain": "O acordo preventivo tirou mais de 60 mil pessoas da área de risco antes do colapso, a adesão passou de 99% e a empresa não pode explorar a área enquanto o solo estiver instável.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b011c2",
+    "b011c3",
+    "b013c3"
+   ],
+   "note": "A Defensoria Pública da União e o Ministério Público Federal sustentam a mesma ideia, e ela é o alvo direto de quase todas as contestações da audiência."
+  },
+  {
+   "id": "t3",
+   "title": "Sem prisão, o crime compensa",
+   "statement_plain": "Passados 5 anos, ninguém foi processado criminalmente nem preso, e enquanto isso não mudar a mineração vai repetir Mariana, Brumadinho e Maceió.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b023c2",
+    "b031c3",
+    "b033c1",
+    "b033c2",
+    "b034c2"
+   ],
+   "note": "A ideia atravessa a associação das vítimas, duas deputadas de partidos diferentes e a presidência da Comissão, que é quem preside e mesmo assim toma lado."
+  },
+  {
+   "id": "t4",
+   "title": "O risco não para na linha do mapa",
+   "statement_plain": "O mapa atual deixa de fora gente que já está isolada e em área de deslizamento, e com 30 minas ainda por preencher o risco continua de pé.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b021c3",
+    "b025c1",
+    "b025c2",
+    "b025c3"
+   ],
+   "note": "Um movimento popular e um professor de universidade pública sustentam a mesma ideia, contra a leitura jurídica da Defensoria e os números do órgão ambiental do Estado."
+  },
+  {
+   "id": "t5",
+   "title": "A mina era federal, o licenciamento veio depois",
+   "statement_plain": "A concessão da lavra é do Governo Federal desde 1970, o licenciamento ambiental só veio em 1986 e de forma corretiva, e o órgão do Estado só soube dos afundamentos em 2018 e 2019.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b027c1",
+    "b027c2",
+    "b029c1",
+    "b029c2",
+    "b029c3"
+   ],
+   "note": "É a defesa do órgão ambiental de Alagoas, sustentada pelos seus dois representantes, e é exatamente o que a associação das vítimas e o Ministério Público Federal negam."
+  },
+  {
+   "id": "t6",
+   "title": "A fiscalização e o dinheiro público também respondem",
+   "statement_plain": "A Braskem não agiu sozinha: a Agência Nacional de Mineração, o órgão ambiental de Alagoas e o BNDES foram levados à Justiça e têm parte no que aconteceu.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b013c1",
+    "b023c1",
+    "b034c1"
+   ],
+   "note": "O Ministério Público Federal, que processou os órgãos, fica do mesmo lado da associação das vítimas e da presidência, contra a defesa que o órgão do Estado faz de si."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "DPU",
+   "fala": "b002",
+   "sentence": 7,
+   "plain": "Defensoria Pública da União, órgão que defende de graça na Justiça quem não tem como pagar advogado"
+  },
+  {
+   "term": "ação civil pública",
+   "fala": "b002",
+   "sentence": 18,
+   "plain": "processo que defende o direito de um grupo inteiro, e não de uma pessoa só, movido em geral pelo Ministério Público ou pela Defensoria"
+  },
+  {
+   "term": "Plano Diretor",
+   "fala": "b011",
+   "sentence": 14,
+   "plain": "lei municipal que define o que pode ser construído e usado em cada parte da cidade"
+  },
+  {
+   "term": "ANM",
+   "fala": "b013",
+   "sentence": 10,
+   "plain": "Agência Nacional de Mineração, órgão federal que autoriza e fiscaliza a extração de minério no país"
+  },
+  {
+   "term": "IMA",
+   "fala": "b013",
+   "sentence": 10,
+   "plain": "Instituto do Meio Ambiente de Alagoas, órgão estadual que concede e fiscaliza licenças ambientais"
+  },
+  {
+   "term": "descomissionamento",
+   "fala": "b013",
+   "sentence": 43,
+   "plain": "desligar e desmontar com segurança uma instalação que parou de funcionar, como uma mina ou uma rede de energia"
+  },
+  {
+   "term": "sal-gema",
+   "fala": "b021",
+   "sentence": 3,
+   "plain": "sal de rocha retirado do subsolo e usado pela indústria química. Em Maceió saía dissolvido em água, o que foi abrindo vazios embaixo da cidade"
+  },
+  {
+   "term": "CPRM",
+   "fala": "b021",
+   "sentence": 3,
+   "plain": "Serviço Geológico do Brasil, órgão federal que estuda o subsolo. Foi o laudo dele que ligou os afundamentos de Maceió à mineração"
+  },
+  {
+   "term": "notícia-crime",
+   "fala": "b023",
+   "sentence": 5,
+   "plain": "comunicação formal ao Ministério Público ou à polícia avisando que houve um crime, para que se investigue"
+  },
+  {
+   "term": "prisão em flagrante",
+   "fala": "b023",
+   "sentence": 12,
+   "plain": "prisão feita no momento em que o crime está acontecendo, ou logo depois, sem precisar de ordem do juiz"
+  },
+  {
+   "term": "RPPN",
+   "fala": "b023",
+   "sentence": 35,
+   "plain": "Reserva Particular do Patrimônio Natural, área de proteção ambiental criada dentro de uma propriedade privada"
+  },
+  {
+   "term": "área de preservação permanente",
+   "fala": "b025",
+   "sentence": 29,
+   "plain": "área protegida por lei onde a vegetação não pode ser derrubada, como margem de rio, mangue e encosta"
+  },
+  {
+   "term": "concessão de lavra",
+   "fala": "b027",
+   "sentence": 5,
+   "plain": "autorização dada pelo Governo Federal para uma empresa extrair minério de uma área determinada"
+  },
+  {
+   "term": "subsidência",
+   "fala": "b027",
+   "sentence": 32,
+   "plain": "afundamento lento do solo, quando o terreno cede sobre um vazio aberto embaixo dele"
+  },
+  {
+   "term": "EIA/RIMA",
+   "fala": "b034",
+   "sentence": 43,
+   "plain": "estudo de impacto ambiental e o relatório que o resume, exigidos antes de obras que possam degradar o meio ambiente"
+  }
+ ]
+}

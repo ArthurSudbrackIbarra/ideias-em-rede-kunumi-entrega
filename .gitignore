@@ -1,0 +1,26 @@
+# Dataset files are fetched by scripts/download_data.py (regulation §6.2: do not redistribute the dataset)
+data/publichearingbr/*.jsonl
+
+# Python / uv (uv.lock é versionado de propósito)
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+.ipynb_checkpoints/
+
+# downloads interrompidos de scripts/download_data.py
+*.part
+
+# Secrets
+.env
+
+# Frontend (web/)
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+web/tests/screenshots/
+
+# prompts do simulador (gerados por annotate_sim.py --dump-prompt)
+data/sim/prompts/

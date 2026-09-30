@@ -1,0 +1,2667 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 5,
+ "model": "LLM lendo o prompt hearing-005 (sim-annotations-v3), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-15T17:42:29Z",
+ "prompt_sha256": "0e251ada12f6344383edc3bd79704859f8a6271b975f830610d862cdb6fd93b3",
+ "sentences_hash": "25cbe5f88e40887f",
+ "review": {
+  "pairs_read": 49,
+  "pairs_fixed": 7
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira",
+  "tese t2: todas as cartas-chave vêm de um só papel (parlamentar); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "Convocada para marcar o Dia Mundial de Conscientização sobre o Autismo, a audiência reuniu na Comissão de Defesa dos Direitos das Pessoas com Deficiência o Ministério da Educação, o Ministério dos Direitos Humanos, o Ministério da Saúde, a coordenação de saúde mental de um município do Pará, associações de familiares, um pesquisador e deputados de cinco estados. A cobrança comum foi que as leis já aprovadas virem atendimento de verdade, com centro de reabilitação em cada cidade e profissionais formados. A divergência apareceu no que a escola comum consegue entregar, em como financiar os centros e em qual autista o debate enxerga.",
+ "stakes": "A Comissão decidia se criaria uma subcomissão para fiscalizar a implementação das leis já aprovadas e como cobrar do governo a rede de atendimento que as famílias não encontram.",
+ "central_question": "O que falta para que os direitos já garantidos em lei às pessoas com autismo cheguem de fato ao atendimento nas cidades?",
+ "synopsis_plain": "Na semana do Dia Mundial de Conscientização sobre o Autismo, deputados, três ministérios, associações de famílias e um pesquisador se reuniram na Câmara. Quase todos disseram a mesma coisa: leis existem muitas, o que falta é atendimento, centro de reabilitação nas cidades e gente formada para atender. Divergiram sobre o que a escola comum dá conta de fazer e sobre quem paga a conta dos centros.",
+ "stakes_plain": "Estava em jogo se a Comissão criaria um grupo próprio para fiscalizar se as leis do autismo saem do papel e como cobrar a rede de atendimento.",
+ "central_question_plain": "O que falta para que os direitos que já estão na lei cheguem ao atendimento das pessoas com autismo nas cidades?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Efetivação das leis",
+   "description": "A distância entre as leis já aprovadas sobre autismo e o atendimento que as famílias encontram, e o que deveria ser feito para fechar essa distância.",
+   "axis": {
+    "pro": "As leis já existem e o que falta é fazê-las virar atendimento, com fiscalização de quem as aprovou.",
+    "contra": "Houve avanço real desde que a luta começou, e o caminho é continuar legislando e ampliando recursos.",
+    "pro_plain": "As leis já existem. O que falta é virar atendimento de verdade, e quem aprovou tem de fiscalizar.",
+    "contra_plain": "Já se avançou muito desde o começo da luta, e o caminho é seguir legislando e levando recursos."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Rede de atendimento e centros",
+   "description": "A falta de centros de reabilitação e de convivência nas cidades menores, a expansão da rede do SUS, o cancelamento de contratos pelos planos de saúde e por onde deve vir o dinheiro.",
+   "axis": {
+    "pro": "Garantir centro e atendimento em cada cidade é obrigação do Estado, e cabe ao Governo Federal apoiar os municípios menores.",
+    "contra": "O caminho que funciona na prática é a emenda parlamentar somada à entidade local que já atende.",
+    "pro_plain": "Ter centro e atendimento em cada cidade é obrigação do Estado, e o Governo Federal tem de apoiar as cidades pequenas.",
+    "contra_plain": "O que funciona na prática é a emenda de deputado somada à entidade local que já atende."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Educação inclusiva e Parecer 50",
+   "description": "O Parecer Orientador nº 50 do Conselho Nacional de Educação, o plano educacional individualizado, o acompanhante especializado e o que a escola comum consegue de fato entregar.",
+   "axis": {
+    "pro": "A escola comum tem de ensinar de verdade, com plano individualizado e acompanhante especializado para cada aluno.",
+    "contra": "Conforme a necessidade do autista, às vezes o caminho é a escola especial, e não a escola regular.",
+    "pro_plain": "A escola comum tem de ensinar de verdade, com plano feito para cada aluno e com acompanhante especializado.",
+    "contra_plain": "Conforme a necessidade do autista, às vezes o caminho é a escola especial, e não a escola comum."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Diagnóstico e formação de profissionais",
+   "description": "As filas para conseguir laudo, a falta de neuropediatra, fonoaudiólogo e terapeuta ocupacional no interior, a intervenção precoce e a formação de novos profissionais.",
+   "axis": {
+    "pro": "Sem formar profissionais e levar os cursos ao interior não há diagnóstico nem terapia, e a intervenção precoce se perde.",
+    "contra": "A formação demora, e a prioridade imediata deve ser a estrutura e o financiamento de quem já atende.",
+    "pro_plain": "Sem formar profissionais e levar os cursos ao interior não há laudo nem terapia, e a intervenção precoce se perde.",
+    "contra_plain": "Formar gente demora. A prioridade imediata é a estrutura e o dinheiro de quem já atende."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Autismo adulto e cuidado",
+   "description": "O que acontece com a pessoa autista depois que ela sai da escola, o medo das mães de morrer e deixar os filhos, e os serviços que não recebem quem precisa de mais suporte.",
+   "axis": {
+    "pro": "A pessoa autista adulta é capaz, decide sobre a própria vida e deve ser reconhecida como protagonista.",
+    "contra": "O debate esquece o autista de níveis 2 e 3, que precisa de cuidado permanente e de rede de apoio para a família.",
+    "pro_plain": "A pessoa autista adulta é capaz, decide sobre a própria vida e deve ser tratada como protagonista.",
+    "contra_plain": "O debate esquece o autista que precisa de mais apoio e a família que cuida dele a vida inteira."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Capacitismo e neurodiversidade",
+   "description": "O preconceito que trata a pessoa autista como menos capaz, a ideia de neurodiversidade e o peso de raça, gênero e renda no acesso ao diagnóstico e ao acompanhamento.",
+   "axis": {
+    "pro": "Reconhecer a neurodiversidade e enfrentar o capacitismo é condição para qualquer política pública funcionar.",
+    "contra": "O foco em conceito e linguagem desloca o debate do que falta de concreto no atendimento.",
+    "pro_plain": "Reconhecer que cada pessoa autista é diferente e enfrentar o preconceito é condição para qualquer política funcionar.",
+    "contra_plain": "Discutir conceito e linguagem tira o debate do que falta de concreto no atendimento."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Papel do Parlamento",
+   "description": "Se a Câmara acompanha o que aprova, a proposta de subcomissão e de observatório das leis e a crítica de que poucos deputados se dedicam à pauta.",
+   "axis": {
+    "pro": "A Comissão precisa de instrumento próprio para fiscalizar se as leis que aprovou viraram política pública.",
+    "contra": "O problema não é falta de instrumento, é que a maioria dos deputados acena para as famílias sem avançar nos direitos.",
+    "pro_plain": "A Comissão precisa de um instrumento próprio para fiscalizar se as leis que aprovou viraram política pública.",
+    "contra_plain": "Instrumento não falta. Falta a maioria dos deputados avançar nos direitos em vez de só acenar às famílias."
+   },
+   "contested": true
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidência da audiência, exercida pelo presidente da Comissão e, a partir de b021, pela autora do requerimento",
+   "org": "Comissão de Defesa dos Direitos das Pessoas com Deficiência",
+   "basis": "abertura em b001.0 e passagem da presidência anunciada em b021.6 e b021.17",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida dos direitos das pessoas com deficiência"
+  },
+  "s02": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal (MDB-PA), autora do requerimento da audiência",
+   "org": "Câmara dos Deputados",
+   "basis": "anunciada em b001.1 e b001.31",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo MDB do Pará",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Presidente de honra do Movimento Orgulho Autista Brasil e pai de uma pessoa autista",
+   "org": "MOAB",
+   "basis": "apresentado em b001.16 e autoapresentação em b004.7 e b004.13",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Movimento Orgulho Autista Brasil",
+   "org_plain": "entidade de voluntários criada em 2005 que defende os direitos das pessoas autistas"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "Diretor de Políticas de Educação Especial na Perspectiva Inclusiva do Ministério da Educação, pessoa autista",
+   "org": "MEC",
+   "basis": "apresentado em b001.19 e autoapresentação em b008.5 e b008.9",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Educação",
+   "org_plain": "ministério do governo federal responsável pela política de educação no país"
+  },
+  "s05": {
+   "role": "sociedade_civil",
+   "cargo": "Diretora do Grupo Mais Inclusão, neurocientista e psicopedagoga, mãe de um jovem autista",
+   "org": "Grupo Mais Inclusão",
+   "basis": "apresentada em b001.17 e autoapresentação em b010.9 e b010.15",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Grupo Mais Inclusão",
+   "org_plain": "projeto de família que forma professores para que a inclusão aconteça dentro da sala de aula"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Representante da Secretaria Nacional dos Direitos das Pessoas com Deficiência, pessoa autista",
+   "org": "MDHC",
+   "basis": "apresentada em b001.18 e autoapresentação em b014.12 e b014.13",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério do governo federal que cuida de direitos humanos, com uma secretaria para pessoas com deficiência"
+  },
+  "s07": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal (PL-SC), vice-presidente da Frente Parlamentar da Pessoa com Deficiência",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada em b003.1 e autoapresentação em b016.2 e b016.17",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PL de Santa Catarina",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s08": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (Cidadania-AM), pessoa autista diagnosticada aos 14 anos",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado em b003.1 e autoapresentação em b018.7",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Cidadania do Amazonas",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Fundadora da Casa do Autista, mulher autista e mãe de um adolescente autista",
+   "org": "Associação Zeiza Dojo Casa do Autista",
+   "basis": "apresentada em b001.22 e autoapresentação em b020.7 e b020.15",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Casa do Autista, de Uberlândia",
+   "org_plain": "associação de Uberlândia que atende famílias de autistas, criada na garagem da casa de uma mãe"
+  },
+  "s10": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (PSDB-MS), integrante da subcomissão do autismo na Comissão de Saúde",
+   "org": "Câmara dos Deputados",
+   "basis": "registrado em b021.5 e autoapresentação em b030.2",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo PSDB de Mato Grosso do Sul",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s11": {
+   "role": "governo",
+   "cargo": "Representante da Coordenação-Geral de Saúde da Pessoa com Deficiência do Ministério da Saúde",
+   "org": "Ministério da Saúde",
+   "basis": "apresentada em b001.21 e autoapresentação em b026.3",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério da Saúde",
+   "org_plain": "ministério do governo federal responsável pelo SUS e pelas políticas de saúde"
+  },
+  "s12": {
+   "role": "governo",
+   "cargo": "Coordenadora de Saúde Mental do Município de Tucuruí, no Pará",
+   "org": "Prefeitura de Tucuruí",
+   "basis": "apresentada em b001.23 e autoapresentação em b034.4",
+   "seat": "remoto",
+   "gov_level": "municipal",
+   "byline": "coordenadora de saúde mental de Tucuruí, no Pará",
+   "org_plain": "prefeitura de uma cidade do interior do Pará que criou um centro de atendimento ao autismo"
+  },
+  "s13": {
+   "role": "sociedade_civil",
+   "cargo": "Pesquisador voluntário e autor de um livro sobre autismo",
+   "org": null,
+   "basis": "apresentado em b001.24 e autoapresentação em b036.8 e b036.10",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "pesquisador e autor de um livro sobre autismo",
+   "org_plain": null
+  },
+  "s14": {
+   "role": "sociedade_civil",
+   "cargo": "Da Associação Brasileira de Autismo, fundadora da entidade e mãe de um autista adulto",
+   "org": "ABRA",
+   "basis": "apresentada em b001.25 e autoapresentação em b038.3 e b038.35",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Associação Brasileira de Autismo",
+   "org_plain": "associação nacional criada em 1988 que reúne entidades de familiares de pessoas autistas"
+  },
+  "s15": {
+   "role": "parlamentar",
+   "cargo": "Deputada federal (PT-DF)",
+   "org": "Câmara dos Deputados",
+   "basis": "registrada em b021.5 e fala em b040",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputada federal pelo PT do Distrito Federal",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s16": {
+   "role": "parlamentar",
+   "cargo": "Deputado federal (Solidariedade-RJ)",
+   "org": "Câmara dos Deputados",
+   "basis": "chamado pela presidência em b041.1",
+   "seat": "bancada",
+   "gov_level": null,
+   "byline": "deputado federal pelo Solidariedade do Rio de Janeiro",
+   "org_plain": "casa do Congresso Nacional em que os deputados federais discutem e votam as leis"
+  },
+  "s17": {
+   "role": "sociedade_civil",
+   "cargo": "Vice-presidente da Comissão de Defesa dos Direitos das Pessoas com Autismo da OAB do Pará",
+   "org": "OAB-PA",
+   "basis": "apresentada em b043.2 e autoapresentação em b046.24",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da comissão do autismo da OAB do Pará",
+   "org_plain": "seccional paraense da Ordem dos Advogados do Brasil, com uma comissão dedicada ao autismo"
+  }
+ },
+ "audience": {
+  "estimate": 70,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.65
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "famílias, pais e pessoas autistas no auditório citados em b020.45, filhos presentes citados em b020.2 e b036.4, delegação de convidados anunciada de b001.15 a b001.25 e treze marcações de palmas ao longo da sessão",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a audiência, faz a audiodescrição, apresenta os convidados e dá 7 minutos a cada um.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pede apoio do Governo Federal para que os municípios menores tenham centro de atendimento e relata a falta de laudo e de equipe multidisciplinar no interior do Pará.",
+   "quote": [
+    30,
+    31
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os municípios menores precisam de apoio federal para manter centro de atendimento e equipe.",
+    "sentence": 22
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      22,
+      23,
+      24
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Governo Federal precisa apoiar os municípios menores para que cada cidade tenha um centro de atendimento",
+     "plain": "Estamos aqui para pedir ao Governo Federal que dê apoio aos municípios menores, para que eles tenham condição de acolher essas crianças. Precisa haver um centro em cada cidade, e é preciso dar condição a quem não tem meios."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as mães lutam para conseguir um laudo e mais ainda para conseguir atendimento, e falta neuropediatra e equipe multidisciplinar",
+     "plain": "Eu vi muitas mães lutando só para conseguir um laudo para o filho, e a luta é ainda maior para conseguir atendimento nos centros. Por onde andei era difícil manter um neuropediatra ou uma equipe com fonoaudiólogo e terapeuta ocupacional."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "num município de quase 120 mil habitantes há dois terapeutas ocupacionais, e falta curso no interior para formar mais",
+     "plain": "Na nossa cidade, de quase 120 mil habitantes, há dois terapeutas ocupacionais no total. Precisamos levar esse tipo de curso para o interior, para formar a equipe que vai atender essas crianças e esses adolescentes."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência registra a presença de dois deputados e passa a palavra ao primeiro convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Cobra que se descubram os gargalos da educação e da saúde, defende escola especial ou regular conforme a necessidade e pede que se ouçam as mães sem lugar para deixar os filhos.",
+   "quote": [
+    56,
+    57
+   ],
+   "covered": true,
+   "evidence": [
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso descobrir os gargalos que impedem essas pessoas de estudar e de ser atendidas.",
+    "sentence": 43
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      48,
+      49,
+      50
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o país não conseguiu ter centros de referência e por isso essas pessoas não conseguem ser atendidas",
+     "plain": "Essas pessoas não conseguem ser atendidas. Onde estão esses gargalos? Nós não conseguimos ter, neste país, os centros de referência para que elas sejam atendidas."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      38
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "às vezes é preciso escola especial e outras vezes escola regular, conforme as necessidades do autista",
+     "plain": "Isso se semeia antes numa escola. Muitas vezes ela precisa ser especial, e outras vezes pode ser a escola regular, com acompanhamento ou não, conforme as necessidades desse autista."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      53,
+      54
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "sem lugar onde deixar o filho durante o dia, ele precisa do horário especial para acompanhá-lo nas terapias",
+     "plain": "Eu uso esse horário especial porque, na capital do país, não tenho onde deixar meu filho de dia e buscá-lo no fim do dia. Preciso dele para acompanhar o meu filho nas terapias."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece, concorda que há gargalos na saúde e na educação e elogia a dedicação da Comissão.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Complementa a fala apresentando o projeto da Polícia Rodoviária Federal que qualifica policiais para atender famílias de autistas.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Polícia Rodoviária Federal está qualificando os seus policiais para atender famílias de autistas.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "precedente",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto PRF Amiga dos Autistas qualifica os policiais rodoviários federais para atender essas famílias",
+     "plain": "Quero complementar, porque acabei não falando do projeto PRF Amiga dos Autistas. É um projeto da Polícia Rodoviária Federal, que vai fazer 1 ano agora, para qualificar os policiais rodoviários federais a atender essas famílias."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao diretor do Ministério da Educação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Reafirma o compromisso do governo com a educação inclusiva, lembra a revogação do decreto da exclusão e descreve o capacitismo que enfrenta como pessoa autista.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de educação especial na perspectiva inclusiva foi reafirmada e será fortalecida com formação e equipamento.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ser autista numa sociedade capacitista é enfrentar barreiras diárias que desumanizam e excluem, às vezes na própria família",
+     "plain": "Ser autista numa sociedade capacitista é enfrentar todo dia barreiras que nos desumanizam e excluem, às vezes dentro da própria família. E há barreiras para chegar às políticas de educação, proteção social e saúde."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      15
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o governo revogou no primeiro dia o decreto da exclusão, que trazia de volta as escolas segregadas",
+     "plain": "O Governo Federal entende bem isso e, por isso, no seu primeiro dia, revogou o decreto da exclusão, aquele que trazia de volta as escolas separadas."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      19,
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há mais de 604 mil estudantes autistas na escola comum, muito mais do que no sistema exclusivo",
+     "plain": "Hoje há mais de 604 mil estudantes autistas na escola comum, muito mais do que no sistema exclusivo. Eles desafiam um sistema que muitas vezes não está preparado, e é obrigação nossa, como gestores públicos, tirar essas barreiras."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Ministério da Educação e passa a palavra à próxima expositora.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que sem plano educacional individualizado não há inclusão e relata avaliações de alunos que chegaram ao fim do fundamental sem aprender.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Sem plano educacional individualizado o aluno autista não aprende, e apenas receber na escola não é inclusão.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "experiencia",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um jovem chegou ao 9º ano sem saber ler depois de passar por mais de cem professores que ignoraram sua aprendizagem",
+     "plain": "Avaliei um jovem que estava indo para o 9º ano sem saber ler. Ele passou por mais de cem professores que ignoraram a possibilidade de ele aprender. Nem se comunicar ele consegue, e lhe negaram terapia e escola adequadas."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem o Plano Educacional Individualizado, de que trata o Parecer nº 50 do CNE, não existe inclusão",
+     "plain": "O Parecer nº 50 do CNE é muito importante porque trata da relevância do Plano Educacional Individualizado. Sem esse plano não existe inclusão, e não há como montar um planejamento para essa pessoa crescer e se desenvolver."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "estar na escola não basta, a pessoa tem de participar e aprender, senão não é inclusão",
+     "plain": "É importante, sim, a pessoa estar na escola. Mas ela tem de participar das atividades e tem de aprender. Se isso não acontece, não é inclusão."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pede que o vídeo seja exibido.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A expositora avisa que o vídeo está sem som.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência adia o vídeo e passa a palavra à representante do Ministério dos Direitos Humanos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Apresenta o autismo na perspectiva da neurodiversidade, mostra como a sociedade subjuga o autista adulto e aponta o peso de raça, gênero e renda no acesso.",
+   "quote": [
+    31,
+    32
+   ],
+   "covered": true,
+   "evidence": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Reconhecer a neurodiversidade é reconhecer que cada pessoa autista é diferente e capaz de decidir sobre a própria vida.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "na perspectiva da neurodiversidade cada pessoa autista é diferente e manifesta o autismo de um jeito",
+     "plain": "Quero falar do autismo pela perspectiva da neurodiversidade: cada pessoa autista é diferente. Cada uma tem um cérebro diferente e um jeito diferente de manifestar o autismo na sociedade."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as capacidades do autista adulto são descartadas por quem mantém a imagem infantil de um autista sem consciência crítica",
+     "plain": "As pessoas não enxergam o autista adulto exercendo funções como qualquer pessoa sem deficiência. Suas capacidades são descartadas ou nem imaginadas por quem mantém a imagem infantil de um autista inocente e sem consciência crítica."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      35
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um autista preto tem mais dificuldade de acompanhamento que um branco de alta renda, e a mulher autista demora mais a ter diagnóstico",
+     "plain": "Um autista preto tem mais dificuldade de conseguir acompanhamento do que um autista branco e de alta renda, e está mais exposto à violência policial. A mulher autista demora mais a ter diagnóstico, porque mascara suas características."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à deputada de Santa Catarina.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Lembra as vitórias conquistadas em 23 anos como mãe e cobra que governo e sociedade fomentem a formação de novos profissionais para atender a demanda que cresce.",
+   "quote": [
+    21,
+    22
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso formar novos profissionais, porque falta terapeuta em praticamente toda instituição.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há 23 anos, quando buscou escola para o filho, era outro universo, e hoje há vitórias a comemorar",
+     "plain": "Hoje também é momento de comemorar, porque quem acompanha filhos há tanto tempo percebe uma série de vitórias. Há 23 anos, quando fui buscar uma escola para o meu filho, era outro universo. Hoje há outro espaço e outro respeito."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso fomentar a formação de novos profissionais, porque falta terapeuta ocupacional, fisioterapeuta e fonoaudiólogo",
+     "plain": "O governo e todos nós precisamos fomentar a formação de novos profissionais, porque o número de pessoas com autismo cresce e em toda instituição falta gente. Sempre falta terapeuta ocupacional, fisioterapeuta, fonoaudiólogo."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso divulgar os cursos para que estudantes se habilitem a prestar esse serviço, que tem demanda crescente",
+     "plain": "Precisamos divulgar esses cursos e essas formações, para que os estudantes tenham vontade de fazer essas faculdades e se habilitem a prestar esse serviço. A demanda por profissionais está crescendo."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao deputado do Amazonas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Denuncia que a Câmara acena para as famílias sem avançar nos direitos e relata que as cidades exigem novo laudo mesmo de quem já tem o do SUS.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    8,
+    9,
+    10
+   ],
+   "open_question": 34,
+   "stance": {
+    "position": "contrario",
+    "claim": "A Câmara aprova direitos que não chegam às pessoas, e poucos deputados se dedicam de fato ao tema.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Câmara acena para as famílias de pessoas com autismo, mas não para os direitos delas, e poucos deputados se dedicam",
+     "plain": "Na maior parte das vezes esta Casa acena de forma positiva para as mães e os pais de pessoas com autismo, mas de forma negativa para os direitos deles. Fora os poucos que estão aqui, quase ninguém se dedica a avançar nesses direitos."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não basta aprovar leis que dão direitos fictícios, direitos que não são cumpridos na prática",
+     "plain": "Não adianta fazermos audiências públicas nem aprovarmos leis, mesmo quando passamos por toda a burocracia das duas Casas. Não basta aprovar leis que dão direitos fictícios, direitos que não são cumpridos na prática."
+    },
+    {
+     "id": "b018c3",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "não basta o laudo do SUS nem a carteira do autista, é preciso ser autista aos olhos deles, e isso sabota o direito",
+     "plain": "Não basta ter um laudo do SUS, não basta ter a carteira de identificação do autista, não basta ser autista. É preciso ser autista aos olhos deles, ter amigos e ter contatos. Isso é um absurdo e sabota o direito dessas pessoas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia a fala do deputado e passa a palavra à fundadora da Casa do Autista.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Relata o medo de morrer sem saber o destino do filho, cobra que as políticas saiam do papel e denuncia que os serviços só recebem o autista de menor suporte.",
+   "quote": [
+    80,
+    81
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As políticas não saem do papel, e quem tem filho de suporte 2 ou 3 fica sem nenhum serviço.",
+    "sentence": 44
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      30,
+      31,
+      32
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os autistas são 2,8% da população, quase 6 milhões de pessoas, e por isso têm relevância e lugar de fala",
+     "plain": "Hoje, no Brasil, somos 2,8% da população. Isso quer dizer que ocupamos um lugar nessa pizza, e precisamos do nosso lugar de fala. Se somos quase 6 milhões de autistas, segundo os últimos dados, temos relevância e expressividade."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      42,
+      43
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "ela não sabe o que será do filho daqui a alguns anos, porque não existem lares de permanência para autistas",
+     "plain": "Eu sou uma mãe com muita pressa, porque o meu tempo está acabando e eu não sei para onde vai o meu filho. Não sei o que vai ser dele daqui a alguns anos, porque não temos lares de permanência para os autistas."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      90,
+      91
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "os serviços não atendem o autista de nível 2 nem o de nível 3, e é fácil dizer que defende recebendo só o nível 1",
+     "plain": "Chegamos lá e eles não atendem o autista de nível 2 de suporte, nem o autista severo, de nível 3. É muito fácil dizer que defende o autista e só receber o nível 1 dentro da sua instituição."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia a Casa do Autista e passa a condução da audiência à autora do requerimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b022",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pergunta como serão conduzidos os trabalhos daqui em diante.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde que ouvirá mais um convidado antes de dar a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b024",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado concorda e pede para falar em seguida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante do Ministério da Saúde, que participa por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s11",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Informa a atualização da política nacional de saúde da pessoa com deficiência, o aumento do investimento na rede e o desafio de implementar as ações.",
+   "quote": [
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    35,
+    36
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de saúde da pessoa com deficiência foi atualizada, e o desafio agora é implementá-la.",
+    "sentence": 18
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em 2023 foi atualizada a Política Nacional de Atenção Integral à Saúde da Pessoa com Deficiência, que era de 2002",
+     "plain": "Tivemos dois grandes marcos em 2023. Um foi a atualização da política nacional de saúde da pessoa com deficiência, que era de 2002 e ficou mais de 20 anos sem revisão."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "houve aumento de investimento na rede e um incentivo adicional de 20% para os serviços que atendem pessoas com autismo",
+     "plain": "A rede tem centros especializados em reabilitação, oficinas ortopédicas e serviços de reabilitação. No ano passado o investimento aumentou, por atualização de portaria, com incentivo a mais de 20% aos serviços que atendem autistas."
+    },
+    {
+     "id": "b026c3",
+     "sentences": [
+      25,
+      26
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o desafio é expandir os serviços junto com outras áreas, e hoje há dificuldade com a alta e com a falta de profissionais",
+     "plain": "O nosso desafio é expandir e qualificar a oferta desses serviços, não só dentro da saúde, mas pensando também nas outras áreas. Hoje há dificuldade com a alta, com essa articulação entre áreas e com a falta de profissionais."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e anuncia a ordem dos deputados inscritos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O deputado pede para fazer uma intervenção rápida na ausência da colega.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao deputado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra a sede construída com emendas parlamentares em Dourados como modelo reproduzível e relata a fila de 1.200 crianças sem laudo na capital do seu estado.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "As entidades devem procurar os parlamentares, porque a emenda é o caminho que funcionou para construir essas estruturas.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      7,
+      8,
+      9
+     ],
+     "type": "precedente",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a associação de pais e amigos dos autistas em Dourados ficou modelar e foi feita com emenda parlamentar",
+     "plain": "Inauguramos em Dourados a segunda etapa de uma associação de pais e amigos dos autistas. A estrutura ficou modelar, e todo município de médio ou grande porte pode reproduzir essa entidade. Foi com emenda parlamentar."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "com 1,7 milhão a mais, somando 2,7 milhões de reais, deu para construir uma sede que virou modelo",
+     "plain": "Agora passamos mais 1,7 milhão de reais. Com 2,7 milhões de reais deu para erguer uma sede que é exemplo, que é modelo, e eu me orgulho de ter ajudado."
+    },
+    {
+     "id": "b030c3",
+     "sentences": [
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a capital do estado não tem estrutura para as 1.200 crianças na fila e não há quem faça o laudo delas",
+     "plain": "Campo Grande, a capital do meu estado, não tem estrutura para atender as 1.200 crianças que aguardam na fila. E não há sequer quem faça o laudo delas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra à coordenadora de saúde mental de Tucuruí.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b032",
+   "speaker": "s12",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada testa o microfone e pergunta se está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o áudio está funcionando.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b034",
+   "speaker": "s12",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Defende práticas baseadas em evidência e intervenção precoce, e sustenta que os pais precisam de amparo técnico, não só emocional.",
+   "quote": [
+    19,
+    20
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A intervenção precoce e a formação técnica são o que torna a política pública eficaz.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "sem juntar saúde, educação e assistência social não se faz política pública eficaz",
+     "plain": "Quero sensibilizar as autoridades para a importância de tornar mais executáveis as ações entre setores. Não vamos conseguir política eficaz sem juntar a saúde, a educação e a assistência social."
+    },
+    {
+     "id": "b034c2",
+     "sentences": [
+      18,
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "até os 12 anos o cérebro tem mais neuroplasticidade, e quanto antes se identifica o autismo melhores são as intervenções",
+     "plain": "Tenho formação em neurociência. Até os 12 anos de idade o cérebro tem mais neuroplasticidade. Ou seja, quanto antes identificamos os sinais do autismo, melhores serão as intervenções."
+    },
+    {
+     "id": "b034c3",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "além do suporte emocional, os pais precisam de amparo técnico para saber o que cobrar na escola e nos centros",
+     "plain": "Precisamos acolher essas famílias. E, mais do que dar suporte emocional, os pais precisam de amparo técnico para saber o que fazer com os filhos, o que cobrar na escola e nos centros."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e passa a palavra ao pesquisador e autor convidado.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b036",
+   "speaker": "s13",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Apresenta dados sobre causas e prevalência do autismo, aponta a queda do pré-natal como fator evitável e sustenta que a culpa não é das mães.",
+   "quote": [
+    37,
+    38
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Informação e pré-natal fazem parte da prevenção, e cabe ao Estado oferecer essa informação às mães.",
+    "sentence": 38
+   },
+   "claims": [
+    {
+     "id": "b036c1",
+     "sentences": [
+      34,
+      35
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "um estudo de 2018 da Fundação Oswaldo Cruz com 2 milhões de meninas mostrou que 52% das brasileiras não fazem o pré-natal",
+     "plain": "Trago um trabalho de 2018 da Fundação Oswaldo Cruz com 2 milhões de meninas: 52% das brasileiras não fazem o pré-natal. Elas deixam de tomar as três gotinhas de ácido fólico do SUS e podem ter um filho com esse transtorno."
+    },
+    {
+     "id": "b036c2",
+     "sentences": [
+      37,
+      38
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ninguém tem culpa do autismo, e cabe ao Estado e à sociedade oferecer a informação que falta às mães",
+     "plain": "Não é culpa da mãe ter um filho autista, não é culpa do pai, e muito menos é culpa do autista ser autista. Pode haver negligência por falta de informação, e cabe ao Estado e à sociedade oferecer essa informação."
+    },
+    {
+     "id": "b036c3",
+     "sentences": [
+      43,
+      44
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o dado do CDC é de uma autista a cada 36 crianças nascidas vivas, e ele estima uma a cada duas a partir de 2030",
+     "plain": "O último dado do CDC americano foi de uma criança autista para cada 36 nascidas vivas. A minha estimativa de pesquisador é outra: a partir de 2030 haverá uma autista para cada duas crianças nascidas vivas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante da Associação Brasileira de Autismo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b038",
+   "speaker": "s14",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Conta como fundou as primeiras associações do país, pede que a Câmara tire as leis do papel e cobra atendimento para o autista adulto e rede de apoio às mães.",
+   "quote": [
+    66,
+    67
+   ],
+   "covered": true,
+   "evidence": [
+    29,
+    30,
+    31,
+    32
+   ],
+   "open_question": 65,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Faltam serviços para o autista adulto e rede de apoio para as mães que estão envelhecendo.",
+    "sentence": 59
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      57
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "leis existem muitas, e o que as famílias querem agora é atendimento",
+     "plain": "Nós pedimos aqui aos senhores, à Câmara, que tirem essas leis do papel. Leis nós temos muitas, mas o que queremos é atendimento."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      58,
+      59,
+      60
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o autista adulto sai do contexto da educação aos 20 ou 30 anos e depois não encontra atendimento nenhum",
+     "plain": "Os autistas adultos estão pedindo socorro. Quando pequenos passam pela educação, onde há atendimento, mas aos 20 anos, aos 30 anos saem desse contexto e não temos nada. Precisamos que os serviços de reabilitação os atendam todo dia."
+    },
+    {
+     "id": "b038c3",
+     "sentences": [
+      64,
+      65,
+      66
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o maior medo das mães é morrer e deixar os filhos, e por isso elas querem centros de reabilitação e de convivência",
+     "plain": "Qualquer mãe aqui vai concordar comigo. O nosso maior medo é morrer e deixar os nossos filhos. Queremos garantia de direito e garantia do Estado, com centro de reabilitação e centro de convivência onde eles possam ficar."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra à deputada do Distrito Federal.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b040",
+   "speaker": "s15",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Propõe uma subcomissão e um encontro com as assembleias estaduais para fiscalizar se as leis aprovadas viraram política pública.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    33,
+    34
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão deve criar uma subcomissão para verificar se as leis aprovadas viraram política pública.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b040c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as leis não bastam, é preciso efetivá-las e transformá-las em política pública",
+     "plain": "Drummond dizia que as leis não bastam e que os lírios não nascem delas. A lei é um instrumento importante para assegurar direitos, mas é preciso efetivá-la e transformá-la em política pública."
+    },
+    {
+     "id": "b040c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há por volta de 15 mil pessoas no Distrito Federal esperando consulta com neurologista para ter diagnóstico",
+     "plain": "Há por volta de 15 mil pessoas no Distrito Federal esperando um diagnóstico, uma consulta com neurologista. É preciso ter espaços de atendimento e a formação necessária para elaborar esses diagnósticos, de forma multidisciplinar."
+    },
+    {
+     "id": "b040c3",
+     "sentences": [
+      18
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a função do parlamento não acaba quando a lei é aprovada, cabe a ele fiscalizar a implementação",
+     "plain": "É preciso que esta Comissão acompanhe como anda a implementação dessas leis. Senão parece que a nossa função acaba quando aprovamos a lei, mas na verdade ela continua: cabe a nós fiscalizar a implementação."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b041",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece e concede a palavra ao deputado do Rio de Janeiro.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b042",
+   "speaker": "s16",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Denuncia o cancelamento unilateral de contratos pelos planos de saúde, que interrompe terapias, e relata o pedido já protocolado para discutir o tema com a agência reguladora.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os planos de saúde estão cancelando contratos e interrompendo terapias de crianças autistas.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b042c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cancelamento unilateral pelos planos de saúde interrompe atendimentos e trava o desenvolvimento de várias crianças",
+     "plain": "Quero chamar a atenção dos colegas para a situação de centenas de famílias no Brasil: o cancelamento unilateral pelos planos de saúde, que interrompe atendimentos, atinge as terapias e trava o desenvolvimento de várias crianças."
+    },
+    {
+     "id": "b042c2",
+     "sentences": [
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "ele protocolou um pedido para discutir com a agência reguladora como evitar a interrupção dos planos de saúde",
+     "plain": "Protocolei um pedido na Comissão de Fiscalização Financeira e Controle, para discutir com a agência que regula os planos de saúde como evitar essa interrupção. Cito a mobilização no Rio de Janeiro com o cancelamento pela Unimed."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b043",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante da OAB do Pará, que fala por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b044",
+   "speaker": "s17",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada pede confirmação de que está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b045",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o áudio está funcionando.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b046",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende o Parecer Orientador nº 50 do Conselho Nacional de Educação e cobra que o Ministério da Educação se pronuncie sobre ele.",
+   "quote": [
+    21
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 21,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Parecer nº 50 aponta caminhos históricos para a educação inclusiva e o Ministério da Educação precisa se pronunciar.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b046c1",
+     "sentences": [
+      8
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Parecer Orientador nº 50 foi aprovado por unanimidade no Conselho Nacional de Educação e se baseia em evidência científica",
+     "plain": "Em dezembro do ano passado o Parecer Orientador nº 50 foi aprovado por unanimidade no Conselho Nacional de Educação. Ele orienta de forma específica como deve ser esse atendimento, com base em evidência científica."
+    },
+    {
+     "id": "b046c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o parecer desafoga o acompanhante especializado, hoje garantido por via judicial e laudo médico, e pede avaliação pedagógica",
+     "plain": "O parecer também ajuda as redes de ensino de municípios e estados a desafogar a questão do acompanhante especializado, hoje garantido por via judicial e laudo médico. Ele orienta a fazer avaliação pedagógica e dar formação continuada."
+    },
+    {
+     "id": "b046c3",
+     "sentences": [
+      21
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "mais de 2.600 entidades e 38 mil assinaturas apoiam o parecer, e o Ministério da Educação segue há mais de 70 dias sem se pronunciar",
+     "plain": "Mais de 2.600 entidades apoiam o parecer orientador e há mais de 38 mil assinaturas públicas a favor dele. Mesmo assim, o Ministério da Educação segue há mais de 70 dias sem se pronunciar oficialmente."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b047",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra as inscrições e devolve a palavra à expositora que ficou de exibir o vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b048",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A expositora avisa que o vídeo falhou e que vai ler a carta escrita por um jovem autista.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b049",
+   "speaker": "s17",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A convidada pede a palavra por 1 minuto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b050",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência pergunta quem falou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b051",
+   "speaker": "s17",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede que a Comissão envie ao Ministério da Educação um pedido de informação sobre a homologação do Parecer nº 50.",
+   "quote": [
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 2,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Comissão deve cobrar do Ministério da Educação informação sobre a homologação do Parecer nº 50.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b051c1",
+     "sentences": [
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Comissão deve oficiar ao Ministério da Educação pedindo informações sobre a homologação do Parecer nº 50",
+     "plain": "Eu gostaria de solicitar a esta Comissão, em nome da ABRACI e do MOAB, que oficie ao Ministério da Educação pedindo informação sobre a homologação do Parecer nº 50."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b052",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o Ministério da Educação, anuncia 30 bolsas de pós-graduação e encerra a reunião.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b004",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 50,
+   "to_sentence": 23,
+   "from_claim": "b004c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "A deputada pede um centro em cada cidade. O representante das famílias diz que o país não conseguiu montar esses centros de referência."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 19,
+   "to_sentence": 38,
+   "from_claim": "b008c3",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "Para um, conforme a necessidade o caminho pode ser a escola especial. O Ministério da Educação responde com o número de estudantes autistas já matriculados na escola comum."
+  },
+  {
+   "from": "b010",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 22,
+   "from_claim": "b010c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "O ministério anuncia ações para fortalecer o atendimento especializado. A educadora aponta qual instrumento faz isso funcionar na sala de aula."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 19,
+   "to_sentence": 38,
+   "from_claim": "b010c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "Contra a saída da escola especial, ela sustenta que o caminho é o plano feito para cada aluno dentro da escola comum."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 13,
+   "from_claim": "b014c1",
+   "to_claim": "b008c1",
+   "strength": "media",
+   "note": "Os dois representam ministérios diferentes e partem do mesmo ponto: o capacitismo e o reconhecimento de que cada pessoa autista é diferente."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 32,
+   "from_claim": "b016c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "As duas deputadas, de partidos opostos, apontam a mesma falta: terapeuta ocupacional e fonoaudiólogo não existem em número suficiente."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "contradiz",
+   "from_sentence": 8,
+   "to_sentence": 10,
+   "from_claim": "b018c1",
+   "to_claim": "b016c1",
+   "strength": "forte",
+   "note": "Uma deputada vê a data como momento de comemorar as vitórias. O deputado autista responde que a Casa acena para as famílias e não avança nos direitos."
+  },
+  {
+   "from": "b020",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 44,
+   "to_sentence": 13,
+   "from_claim": null,
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "Ela cita o deputado ao dizer que é preciso fazer as políticas públicas saírem do papel, porque ele vive na pele o que é ser autista."
+  },
+  {
+   "from": "b020",
+   "to": "b014",
+   "kind": "contradiz",
+   "from_sentence": 91,
+   "to_sentence": 32,
+   "from_claim": "b020c3",
+   "to_claim": "b014c2",
+   "strength": "media",
+   "note": "A perspectiva do autista adulto capaz encontra a denúncia de que as instituições só recebem o autista de nível 1 e deixam de fora quem precisa de mais suporte."
+  },
+  {
+   "from": "b020",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 90,
+   "to_sentence": 56,
+   "from_claim": "b020c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "Os dois descrevem a mesma cena por ângulos diferentes: mães sem lugar para deixar os filhos e serviços que não recebem quem precisa de mais suporte."
+  },
+  {
+   "from": "b026",
+   "to": "b002",
+   "kind": "responde",
+   "from_sentence": 21,
+   "to_sentence": 22,
+   "from_claim": "b026c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "À cobrança por centros nos municípios menores, o Ministério da Saúde responde com o aumento de investimento e o incentivo adicional na rede."
+  },
+  {
+   "from": "b030",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 33,
+   "from_claim": "b030c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "Ele diz ter sido impactado pelo relato dela e apresenta a associação que ajudou a construir como resposta ao mesmo problema."
+  },
+  {
+   "from": "b030",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 9,
+   "to_sentence": 22,
+   "from_claim": "b030c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Enquanto ela pede apoio do Governo Federal aos municípios, ele aponta a emenda parlamentar como o caminho que de fato funcionou."
+  },
+  {
+   "from": "b034",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 19,
+   "to_sentence": 32,
+   "from_claim": "b034c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "À falta de profissionais no interior soma-se o argumento de que a identificação precoce é o que torna a intervenção mais eficaz."
+  },
+  {
+   "from": "b036",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 43,
+   "to_sentence": 17,
+   "from_claim": "b036c3",
+   "to_claim": "b030c3",
+   "strength": "media",
+   "note": "O dado de prevalência crescente reforça a fila de espera que o deputado aponta na capital do seu estado."
+  },
+  {
+   "from": "b038",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 64,
+   "to_sentence": 42,
+   "from_claim": "b038c3",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "As duas mães dizem a mesma coisa em palavras diferentes: o medo é morrer e deixar o filho sem para onde ir."
+  },
+  {
+   "from": "b038",
+   "to": "b026",
+   "kind": "contradiz",
+   "from_sentence": 59,
+   "to_sentence": 21,
+   "from_claim": "b038c2",
+   "to_claim": "b026c2",
+   "strength": "forte",
+   "note": "O ministério apresenta o aumento de investimento na rede. A associação responde que o autista adulto sai da educação e não encontra atendimento na saúde."
+  },
+  {
+   "from": "b038",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 57,
+   "to_sentence": 13,
+   "from_claim": "b038c1",
+   "to_claim": "b018c2",
+   "strength": "forte",
+   "note": "O deputado fala em direitos fictícios e a associação pede que a Câmara tire as leis do papel. É a mesma cobrança, vinda de dois lados da mesa."
+  },
+  {
+   "from": "b040",
+   "to": "b038",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 57,
+   "from_claim": "b040c1",
+   "to_claim": "b038c1",
+   "strength": "forte",
+   "note": "À frase de que leis existem muitas e falta atendimento, a deputada responde com a ideia de que as leis são instrumento e precisam virar política."
+  },
+  {
+   "from": "b040",
+   "to": "b018",
+   "kind": "apoia",
+   "from_sentence": 18,
+   "to_sentence": 8,
+   "from_claim": "b040c3",
+   "to_claim": "b018c1",
+   "strength": "forte",
+   "note": "Os dois sustentam que a função do parlamento não termina quando a lei é aprovada."
+  },
+  {
+   "from": "b040",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 32,
+   "from_claim": "b040c2",
+   "to_claim": "b002c2",
+   "strength": "media",
+   "note": "A falta de neuropediatra no interior do Pará aparece de novo na fila por neurologista no Distrito Federal."
+  },
+  {
+   "from": "b042",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 84,
+   "from_claim": "b042c1",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "Ela relata bater na porta do SUS sem resposta e ele relata o plano de saúde cancelando o contrato. Nos dois casos a terapia para de acontecer."
+  },
+  {
+   "from": "b046",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 19,
+   "from_claim": "b046c2",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "As duas defendem o mesmo documento do Conselho Nacional de Educação, uma pelo plano individualizado e outra pelo acompanhante especializado."
+  },
+  {
+   "from": "b046",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 21,
+   "to_sentence": 17,
+   "from_claim": "b046c3",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "O Ministério da Educação apresentou o seu compromisso com a política inclusiva. A advogada responde que há mais de 70 dias ele não se pronuncia sobre o parecer."
+  },
+  {
+   "from": "b046",
+   "to": "b040",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 16,
+   "from_claim": null,
+   "to_claim": "b040c3",
+   "strength": "media",
+   "note": "Ela pede à deputada que receba uma comissão em favor do parecer, logo depois de a deputada propor um observatório das políticas."
+  },
+  {
+   "from": "b051",
+   "to": "b008",
+   "kind": "contradiz",
+   "from_sentence": 2,
+   "to_sentence": 17,
+   "from_claim": "b051c1",
+   "to_claim": "b008c2",
+   "strength": "media",
+   "note": "Ao compromisso anunciado pelo ministério responde um pedido formal de informação sobre o parecer que ele ainda não homologou."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b004",
+    "b026"
+   ],
+   "claims": [
+    "b002c1",
+    "b004c1",
+    "b026c2"
+   ],
+   "note": "Uma deputada, uma entidade de familiares e o Ministério da Saúde concordam que a rede de centros não alcança as cidades menores e precisa ser expandida."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b008",
+    "b010",
+    "b046"
+   ],
+   "claims": [
+    "b010c2",
+    "b010c3",
+    "b046c2"
+   ],
+   "note": "O Ministério da Educação, uma educadora e uma advogada concordam que não basta matricular: a escola precisa de plano individualizado e de apoio para o aluno aprender."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b016",
+    "b034",
+    "b036"
+   ],
+   "claims": [
+    "b006c1",
+    "b016c2",
+    "b016c3"
+   ],
+   "note": "Entidade de familiares, deputada, gestora municipal e pesquisador concordam que faltam profissionais formados e que a formação é parte da política pública."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 22,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "O Governo Federal vai apoiar os municípios menores?",
+   "plain": "O Governo Federal vai dar apoio aos municípios menores para que eles tenham um centro de atendimento?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 49,
+   "addressed_to": "governo",
+   "answered_by": "b026",
+   "gist": "Onde estão os gargalos da educação e da saúde?",
+   "plain": "Onde estão os gargalos que impedem essas pessoas de estudar e de ser atendidas?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b018",
+   "sentence": 34,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "Por que defendem a pauta em campanha e vetam os recursos?",
+   "plain": "Por que os deputados defendem as pessoas com autismo na campanha e nada dizem quando os recursos são vetados?",
+   "theme": "d7",
+   "position": "contrario"
+  },
+  {
+   "id": "q4",
+   "from": "b038",
+   "sentence": 65,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "Como fica o filho autista quando a mãe morrer?",
+   "plain": "Como vai ficar a situação do filho autista no dia em que a mãe morrer?",
+   "theme": "d5",
+   "position": "contrario"
+  },
+  {
+   "id": "q5",
+   "from": "b046",
+   "sentence": 21,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "Por que o Ministério não se pronuncia há mais de 70 dias?",
+   "plain": "Por que, depois de mais de 70 dias, o Ministério da Educação ainda não se pronunciou sobre o parecer?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q6",
+   "from": "b051",
+   "sentence": 2,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "A Comissão vai oficiar o Ministério sobre o Parecer 50?",
+   "plain": "A Comissão vai enviar ao Ministério da Educação um pedido de informação sobre a homologação do Parecer nº 50?",
+   "theme": "d3",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 35,
+   "gist": "quase 120 mil habitantes e dois terapeutas ocupacionais",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b008",
+   "sentence": 19,
+   "gist": "mais de 604 mil estudantes autistas na escola comum",
+   "disputed_by": [
+    {
+     "fala": "b010",
+     "sentence": 22
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "fala": "b020",
+   "sentence": 30,
+   "gist": "autistas são 2,8% da população brasileira",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b020",
+   "sentence": 57,
+   "gist": "2.263 famílias atendidas pela associação em Uberlândia",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b020",
+   "sentence": 101,
+   "gist": "5 reais e 33 centavos por pessoa atendida na ONG",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b026",
+   "sentence": 12,
+   "gist": "política de 2002 atualizada em 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b026",
+   "sentence": 21,
+   "gist": "incentivo adicional de 20% aos serviços que atendem TEA",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b030",
+   "sentence": 15,
+   "gist": "2,7 milhões de reais em emendas na sede de Dourados",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b030",
+   "sentence": 17,
+   "gist": "1.200 crianças na fila em Campo Grande",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b036",
+   "sentence": 34,
+   "gist": "52% das brasileiras não fazem o pré-natal",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b040",
+   "sentence": 11,
+   "gist": "cerca de 15 mil esperando neurologista no Distrito Federal",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b046",
+   "sentence": 21,
+   "gist": "70 dias sem resposta do Ministério sobre o Parecer 50",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d5",
+   "d6",
+   "d7"
+  ],
+  "roles_quoted": [
+   "parlamentar",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria trata a audiência como uma cobrança coletiva pela implementação de direitos que já estão na lei, dando uma citação a quase cada expositor e fechando com o que os ministérios apresentaram em educação e em saúde.",
+  "omitted": "Ficam de fora o pesquisador que fala de causas do autismo e da queda do pré-natal, o deputado que denuncia o cancelamento de contratos pelos planos de saúde, o caminho das emendas parlamentares para erguer centros e a cobrança sobre a homologação do Parecer nº 50."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "As leis já existem, falta virar atendimento",
+   "statement_plain": "O Brasil já aprovou muitas leis sobre autismo. O que falta é que elas virem atendimento de verdade, e cabe a quem aprovou a lei fiscalizar se ela saiu do papel.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b038c1",
+    "b018c2",
+    "b040c1",
+    "b018c3",
+    "b040c3"
+   ],
+   "note": "É uma ideia sobre o que fazer depois da lei, e não um bloco: quem a defende vai de uma associação de mães a deputados de partidos que quase nada mais aproxima."
+  },
+  {
+   "id": "t2",
+   "title": "Houve avanço real, o caminho é seguir e financiar",
+   "statement_plain": "Quem acompanha essa luta há décadas vê vitórias concretas. O caminho é continuar legislando e levar recurso para quem já atende, em vez de tratar tudo como fracasso.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b030c1",
+    "b030c2"
+   ],
+   "note": "É a ideia que a sala menos gostou de ouvir e ainda assim foi dita duas vezes. Ela se opõe frontalmente à tese de que as leis não viraram nada."
+  },
+  {
+   "id": "t3",
+   "title": "Receber na escola não é incluir",
+   "statement_plain": "Matricular o aluno autista não basta. Sem plano feito para cada estudante e sem acompanhante especializado ele fica na sala sem aprender, e isso não é inclusão.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c2",
+    "b010c3",
+    "b008c3",
+    "b046c1",
+    "b046c2"
+   ],
+   "note": "A ideia cruza o Ministério da Educação, uma educadora e uma advogada da OAB, que discordam entre si sobre o parecer e concordam sobre o que a escola tem de entregar."
+  },
+  {
+   "id": "t4",
+   "title": "O autista adulto é capaz e decide por si",
+   "statement_plain": "A pessoa autista adulta pode trabalhar, estudar, casar e decidir sobre a própria vida. Tratá-la como criança eterna é o preconceito que fecha as portas para ela.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b014c1",
+    "b014c2",
+    "b020c1",
+    "b008c1",
+    "b036c2"
+   ],
+   "note": "Dois ministérios, uma mãe autista e um pesquisador defendem a mesma ideia. Ela divide o campo das famílias, porque nem toda mãe reconhece o próprio filho nesse retrato."
+  },
+  {
+   "id": "t5",
+   "title": "O debate esquece quem precisa de mais suporte",
+   "statement_plain": "Os serviços recebem o autista que aparece bem na foto e deixam de fora quem tem suporte de nível 2 ou 3. Falta cuidado permanente e rede de apoio para a família que cuida.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b020c2",
+    "b020c3",
+    "b038c2",
+    "b038c3",
+    "b034c3",
+    "b004c3"
+   ],
+   "note": "A ideia opõe-se à do autista adulto protagonista e junta mães, um pai e uma gestora municipal de saúde, ou seja, atravessa a mesa e a plateia."
+  },
+  {
+   "id": "t6",
+   "title": "Sem profissional formado nada acontece",
+   "statement_plain": "Falta neuropediatra, fonoaudiólogo e terapeuta ocupacional, principalmente no interior. Sem levar os cursos para lá e formar gente, não há laudo, não há terapia e a intervenção precoce se perde.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b016c2",
+    "b034c2",
+    "b030c3",
+    "b036c1"
+   ],
+   "note": "É a ideia mais transversal da audiência: deputadas de partidos opostos, um deputado da oposição, uma gestora municipal e um pesquisador dizem a mesma coisa."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "audiodescrição",
+   "plain": "descrição falada do que se vê, para que pessoas cegas ou com baixa visão acompanhem quem está falando e o ambiente",
+   "fala": "b001",
+   "sentence": 2
+  },
+  {
+   "term": "LIBRAS",
+   "plain": "Língua Brasileira de Sinais, a língua usada pelas pessoas surdas no Brasil",
+   "fala": "b001",
+   "sentence": 9
+  },
+  {
+   "term": "TEA",
+   "plain": "sigla de Transtorno do Espectro Autista, o nome usado no diagnóstico para o autismo",
+   "fala": "b002",
+   "sentence": 2
+  },
+  {
+   "term": "NATEA",
+   "plain": "Núcleo de Atendimento ao Transtorno do Espectro Autista, serviço estadual que faz diagnóstico e terapias",
+   "fala": "b002",
+   "sentence": 18
+  },
+  {
+   "term": "capacitismo",
+   "plain": "preconceito que trata quem tem uma deficiência como menos capaz ou menos humano",
+   "fala": "b008",
+   "sentence": 11
+  },
+  {
+   "term": "tecnologia assistiva",
+   "plain": "equipamentos e recursos que ajudam a pessoa com deficiência a estudar, se comunicar e se locomover",
+   "fala": "b008",
+   "sentence": 24
+  },
+  {
+   "term": "AEE",
+   "plain": "atendimento educacional especializado, o apoio que a escola dá em sala de recursos, fora do horário da turma",
+   "fala": "b008",
+   "sentence": 25
+  },
+  {
+   "term": "Plano Educacional Individualizado",
+   "plain": "plano escrito pela escola para um aluno específico, com o que ele já sabe, o que precisa aprender e como será ensinado",
+   "fala": "b010",
+   "sentence": 12
+  },
+  {
+   "term": "neurodiversidade",
+   "plain": "ideia de que cérebros funcionam de formas diferentes e que essa variação faz parte da diversidade humana",
+   "fala": "b014",
+   "sentence": 15
+  },
+  {
+   "term": "CIPTEA",
+   "plain": "carteira de identificação da pessoa com Transtorno do Espectro Autista, documento que dá direito a atendimento prioritário",
+   "fala": "b018",
+   "sentence": 19
+  },
+  {
+   "term": "LBI",
+   "plain": "Lei Brasileira de Inclusão, de 2015, que reúne os direitos das pessoas com deficiência",
+   "fala": "b020",
+   "sentence": 40
+  },
+  {
+   "term": "matriciamento",
+   "plain": "apoio de especialistas às equipes de saúde da ponta, para que elas próprias saibam atender o caso",
+   "fala": "b026",
+   "sentence": 16
+  },
+  {
+   "term": "CER",
+   "plain": "centro especializado em reabilitação, serviço do SUS que faz terapias para pessoas com deficiência",
+   "fala": "b038",
+   "sentence": 60
+  },
+  {
+   "term": "avaliação biopsicossocial",
+   "plain": "avaliação que olha não só o diagnóstico médico, mas o que a pessoa consegue fazer e as barreiras que encontra",
+   "fala": "b040",
+   "sentence": 28
+  },
+  {
+   "term": "Parecer Orientador nº 50",
+   "plain": "documento do Conselho Nacional de Educação, de 2023, que orienta como as escolas devem atender alunos com autismo",
+   "fala": "b046",
+   "sentence": 8
+  }
+ ]
+}

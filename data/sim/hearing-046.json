@@ -1,0 +1,2490 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 46,
+ "model": "LLM lendo o prompt hearing-046 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-16T18:37:10Z",
+ "prompt_sha256": "4f877988ec3a88b5a44ad0c55fcfea1193e05cd1461eb4efc6801ad3a63eca03",
+ "sentences_hash": "824560c6a339e1b3",
+ "review": {
+  "pairs_read": 51,
+  "pairs_fixed": 11
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Agricultura debateu como usar o dinheiro do Fust para levar internet ao meio rural. O deputado que pediu a audiência anunciou que vai propor um grupo de trabalho do agro dentro do conselho gestor do fundo. Ministérios, operadoras, a confederação da agricultura, as cooperativas e a agência de assistência técnica divergiram sobre o tamanho da lacuna de cobertura, sobre qual tecnologia atende o campo e sobre se o dinheiro público deve pagar a antena ou o bolso de quem vai assinar.",
+ "stakes": "O conselho gestor do Fust decidir quanto e como aplicar em conectividade rural o orçamento previsto para 2023.",
+ "central_question": "Como fazer o dinheiro do Fust chegar como internet à propriedade do pequeno e do médio produtor?",
+ "synopsis_plain": "O Fust é um fundo que cobra das empresas de telefonia e ficou mais de 20 anos sem ser usado. Agora a lei permite gastá-lo com internet. Na audiência, ministérios, operadoras, cooperativas e entidades do campo discutiram como aplicar esse dinheiro para conectar o produtor rural, e discordaram sobre qual tecnologia usar e sobre quem deve receber o subsídio.",
+ "stakes_plain": "Quanto do dinheiro do fundo vai para a internet no campo em 2023, e de que jeito esse dinheiro chega lá.",
+ "central_question_plain": "Como fazer o dinheiro do fundo virar internet na propriedade do pequeno e do médio produtor?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Uso dos recursos do Fust",
+   "description": "O fundo arrecadou por mais de vinte anos sem ser aplicado, e agora a lei permite gastá-lo com internet. A discussão é como e quando esse dinheiro sai.",
+   "axis": {
+    "pro": "O dinheiro do fundo precisa ser aplicado já em conectividade, sem contingenciamento.",
+    "contra": "O dinheiro pode continuar reservado no caixa, conforme o aperto do Orçamento.",
+    "pro_plain": "O dinheiro do fundo tem de ser gasto já com internet, sem cortes no meio do caminho.",
+    "contra_plain": "O dinheiro pode continuar guardado no caixa, conforme o aperto das contas públicas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Lacuna de conectividade no campo",
+   "description": "Quanto do território agrícola e quantos produtores estão sem conexão, e se a culpa é do que se cobrou das operadoras nos editais.",
+   "axis": {
+    "pro": "A maior parte da área agrícola e dos produtores segue sem conexão, e isso trava o agro.",
+    "contra": "As operadoras cumpriram todas as metas de cobertura dos editais e foram além delas.",
+    "pro_plain": "A maior parte da área agrícola e dos produtores segue sem internet, e isso trava o campo.",
+    "contra_plain": "As operadoras cumpriram todas as metas de cobertura que os editais pediam, e até foram além."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Inclusão do pequeno produtor",
+   "description": "Se a nova tecnologia vai chegar ao pequeno e ao médio produtor ou só reforçar a vantagem de quem já é grande.",
+   "axis": {
+    "pro": "A conectividade só vale se alcançar o pequeno e o médio produtor, e isso exige política dirigida.",
+    "contra": "Basta ampliar a cobertura, porque o mercado leva o serviço a quem quiser contratar.",
+    "pro_plain": "A internet só vale a pena se chegar ao pequeno e ao médio produtor, com política feita para isso.",
+    "contra_plain": "Basta ampliar a cobertura. Quem quiser contratar o serviço vai contratar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Qual tecnologia atende o campo",
+   "description": "Se o leilão do 5G é a resposta para a conexão rural ou se o que falta no campo é qualquer tecnologia que funcione.",
+   "axis": {
+    "pro": "O leilão do 5G é a maior política de conectividade já feita e resolve a conexão do campo.",
+    "contra": "No campo qualquer tecnologia serve, e 4G, 3G e satélite pesam mais do que o 5G.",
+    "pro_plain": "O leilão do 5G é a maior política de internet já feita e dá conta da conexão do campo.",
+    "contra_plain": "No campo qualquer tecnologia ajuda, e o 4G, o 3G e o satélite pesam mais que o 5G."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Como financiar a chegada da internet",
+   "description": "Se o dinheiro público deve pagar a infraestrutura das empresas ou subsidiar quem vai assinar o serviço no campo, e o papel dos provedores pequenos.",
+   "axis": {
+    "pro": "O dinheiro público tem de subsidiar também a demanda, para o preço no campo caber no bolso.",
+    "contra": "Basta financiar a infraestrutura, porque com a rede pronta o serviço se paga.",
+    "pro_plain": "O dinheiro público tem de ajudar também quem paga a conta, para o preço no campo caber no bolso.",
+    "contra_plain": "Basta pagar a rede. Com a estrutura pronta, o serviço se sustenta sozinho."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Regras, impostos e cooperativas",
+   "description": "Os entraves que encarecem ou atrasam a chegada do serviço: licenciamento de antenas nos municípios, carga de impostos e a proibição de cooperativas prestarem telecomunicações.",
+   "axis": {
+    "pro": "Sem mudar licenciamento, impostos e a regra das cooperativas, a rede não chega ao campo.",
+    "contra": "As regras atuais dão conta, e o problema é de investimento, não de legislação.",
+    "pro_plain": "Sem mudar as regras de antena, os impostos e a proibição às cooperativas, a rede não chega lá.",
+    "contra_plain": "As regras de hoje dão conta. O que falta é investimento, não lei nova."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Assistência técnica e ensino no campo",
+   "description": "O que a conexão muda na assistência técnica e na formação a distância de produtores e extensionistas rurais.",
+   "axis": {
+    "pro": "Conectar o campo é o que permite levar assistência técnica e formação a distância ao produtor.",
+    "contra": "A assistência técnica presencial já atende, e a conexão é secundária nesse trabalho.",
+    "pro_plain": "É a conexão que permite levar assistência técnica e cursos a distância ao produtor.",
+    "contra_plain": "O atendimento presencial já dá conta, e a internet é secundária nesse trabalho."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da audiência e autor do requerimento",
+   "org": "Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural",
+   "basis": "registro 'Presidente' na ata. Abre a reunião em b001.0 e se identifica como autor do Requerimento nº 9, de 2022, em b001.3. É chamado de Deputado Zé Silva em b002.1 e b010.2",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que cuida dos assuntos da agricultura e do meio rural"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "gerente de relações institucionais e de comunicação",
+   "org": "Conexis Brasil Digital",
+   "basis": "apresentada pela presidência em b001.50 e confirmada por ela mesma em b002.5 e b002.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Conexis Brasil Digital",
+   "org_plain": "entidade que representa as maiores empresas de telefonia e internet do país, antigo SINDITELEBRASIL"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "diretora da Secretaria de Inovação, Desenvolvimento Sustentável e Irrigação",
+   "org": "Ministério da Agricultura, Pecuária e Abastecimento",
+   "basis": "apresentada pela presidência em b001.41 e em b005.21",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério da Agricultura",
+   "org_plain": "ministério que cuida da política agrícola e encomendou o estudo sobre conectividade no campo"
+  },
+  "s04": {
+   "role": "governo",
+   "cargo": "diretor de Política Setorial da Secretaria de Telecomunicações",
+   "org": "Ministério das Comunicações",
+   "basis": "apresentado pela presidência em b001.46 e em b007.27. Participa de forma virtual, conforme b001.45",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Ministério das Comunicações",
+   "org_plain": "ministério que comanda a política de telecomunicações e preside o conselho gestor do Fust"
+  },
+  "s05": {
+   "role": "setor_privado",
+   "cargo": "representante da confederação da agricultura e do SENAR",
+   "org": "CNA",
+   "basis": "apresentado pela presidência em b001.52 como representante da Confederação da Agricultura e Pecuária do Brasil, e de novo em b011.16 e b011.22. A pista de cargo do conjunto de dados o confunde com o presidente da ANATER, que é outro orador desta audiência",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Confederação da Agricultura e Pecuária do Brasil",
+   "org_plain": "confederação que representa os produtores rurais e mantém o SENAR, braço de formação do setor"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "membro do conselho consultivo do ramo de infraestrutura",
+   "org": "Organização das Cooperativas do Brasil",
+   "basis": "apresentado pela presidência em b001.52 e em b013.8. Participa de forma remota, conforme b013.10",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Organização das Cooperativas do Brasil",
+   "org_plain": "entidade que representa as cooperativas brasileiras, inclusive as de infraestrutura no meio rural"
+  },
+  "s07": {
+   "role": "setor_privado",
+   "cargo": "vice-presidente de inovação",
+   "org": "Datora Telecom",
+   "basis": "apresentado pela presidência em b001.55 e em b021.2",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Datora Telecom",
+   "org_plain": "empresa de telecomunicações que atua no atacado e habilita provedores pequenos a oferecer serviço"
+  },
+  "s08": {
+   "role": "governo",
+   "cargo": "presidente da agência de assistência técnica e extensão rural",
+   "org": "ANATER",
+   "basis": "apresentado pela presidência em b001.7 e em b023.3",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "da ANATER",
+   "org_plain": "agência federal que organiza e financia a assistência técnica e a extensão rural no país"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.35
+   },
+   {
+    "role": "setor_privado",
+    "share": 0.35
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "a presidência registra a diretoria da ANATER em b001.39, a imprensa e a equipe da Comissão em b001.61 e cumprimenta o Deputado Emidinho Madeira em b007.2. Boa parte dos convidados participa de forma remota",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a audiência sobre conectividade no campo, lembra a derrubada do veto à ANATER e cobra que a chegada do 5G seja inclusiva para o pequeno produtor.",
+   "quote": [
+    17,
+    18,
+    19
+   ],
+   "covered": true,
+   "evidence": [
+    2,
+    3,
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A chegada do 5G no campo precisa ser inclusiva e alcançar o pequeno produtor.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a chegada do 5G tem de ser inclusiva, porque uma coisa é o acesso de 26% de grandes e outra o de 84% de pequenas propriedades",
+     "plain": "Minha preocupação com o 5G é que ele seja inclusivo. Uma coisa é o acesso dos 26% de produtores de grande porte. Outra é o acesso dos 84% que estão em pequenas propriedades."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no século XXI a agricultura passa a ser baseada na informação, e quem tem velocidade para acessar a inovação sai na frente",
+     "plain": "Da pré-história ao século XIX a agricultura foi baseada na experiência. No século XX, na ciência. Agora, no século XXI, ela é baseada na informação, e quem tiver velocidade para acessar a inovação sai na frente."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o agricultor que tem assistência técnica aumenta em quatro vezes o valor bruto da produção por hectare ao ano",
+     "plain": "Segundo estudos, quem tem assistência técnica aumenta em quatro vezes o valor bruto da produção por hectare ao ano. Em 40 anos a área cresceu 70% e a produtividade, 250%."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta os compromissos de cobertura do leilão do 5G e cobra que os 53 bilhões arrecadados pelo Fust desde 2000 virem política pública de conectividade.",
+   "quote": [
+    101,
+    102
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os recursos do Fust precisam virar política pública de conectividade neste ano.",
+    "sentence": 103
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      24,
+      25
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o setor atendeu todas as obrigações de cobertura dos editais, que não previam raio ampliado nem cobertura de estradas",
+     "plain": "Até o leilão do 4G a meta era cobrir 80% do Distrito 7. Atendemos todas as obrigações de cobertura dos editais de radiofrequência. Só que não tínhamos o raio ampliado nem a cobertura de estradas, e hoje existe um Brasil viário."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      41,
+      42
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o edital do 5G obriga a cobrir 1.174 municípios com três prestadoras, 4.396 com uma e 1.700 localidades fora das sedes",
+     "plain": "O edital obriga a cobrir com 5G 1.174 municípios acima de 30 mil habitantes, com três prestadoras no mínimo. Outros 4.396 municípios menores ficam com pelo menos uma. E ainda 1.700 localidades fora das sedes."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      101,
+      102
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "desde 2000 foram arrecadados 53 bilhões de reais e nada disso foi usado em política de conectividade",
+     "plain": "Desde 2000 foram arrecadados 53 bilhões de reais em valores correntes, e nada disso foi usado. É dinheiro que ficou trancado nos cofres públicos e poderia ter virado política de conectividade."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede o tempo adicional pedido e diz que vai ouvir a exposição até o fim.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pede que o Congresso torne os recursos do Fust não contingenciáveis e lembra que a lei orçamentária de 2022 prevê cerca de 700 milhões para o fundo.",
+   "quote": [
+    10,
+    11
+   ],
+   "covered": true,
+   "evidence": [
+    24,
+    25,
+    26,
+    27
+   ],
+   "open_question": 11,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os recursos do Fust precisam sair do papel sem contingenciamento.",
+    "sentence": 11
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "pela primeira vez a lei orçamentária de 2022 previu dotação para o Fust, cerca de 700 milhões de reais",
+     "plain": "Pela primeira vez a Lei Orçamentária Anual, a de 2022, trouxe dotações previstas para o Fust. São cerca de 700 milhões de reais."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além de estar na lei orçamentária, o recurso do Fust tem de ser empenhado, executado e pago sem contingenciamento",
+     "plain": "Somamos a isso o não contingenciamento. Além de estar previsto na lei orçamentária, o recurso tem de seguir o fluxo de empenho, execução e pagamento sem ser cortado. Queremos o Fust como recurso não contingenciável."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o investimento privado casado com política pública é o caminho para desenvolver a conectividade no agro",
+     "plain": "Minha mensagem final é esta: investimento privado casado com política pública talvez seja o segredo para desenvolver o agro brasileiro. Se a política andar junto com o interesse privado, contemplamos esse setor."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Lembra que o Fust foi criado para orelhões e ficou parado, compara as torres do Brasil com as de outros países e cita o custo do atraso no 5G.",
+   "quote": [
+    6,
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    7
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O dinheiro do Fust ficou parado por inoperância do Estado e precisa chegar ao campo.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      5
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Fust foi criado para colocar orelhões e a inoperância do Estado deixou o dinheiro parado numa conta com mais de cem bilhões",
+     "plain": "O Presidente Fernando Henrique criou o Fust para colocar orelhões. Mas a inoperância do Estado brasileiro mandou esse dinheiro para uma conta com cento e poucos bilhões de reais de vários fundos, que não foram aplicados."
+    },
+    {
+     "id": "b005c2",
+     "sentences": [
+      6,
+      7,
+      8
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Brasil tem cerca de 97 mil torres, os Estados Unidos em torno de 970 mil e a China mais de 4 milhões",
+     "plain": "São aproximadamente 97 mil torres no Brasil. Nos Estados Unidos são em torno de 970 mil. E a China tem mais de 4 milhões."
+    },
+    {
+     "id": "b005c3",
+     "sentences": [
+      9
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a cada 1 ano de atraso no 5G o país perde 10 anos de competitividade no agro, e já atrasou 1 ano e meio",
+     "plain": "Há um estudo amplo da Esalq que mostra o seguinte: a cada 1 ano que atrasarmos no 5G perdemos 10 anos de competitividade no agro. E nós já atrasamos pelo menos 1 ano e meio."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Mostra que apenas 23% do território agrícola tem cobertura e defende que qualquer tecnologia, e não só o 5G, serve para conectar o produtor rural.",
+   "quote": [
+    47,
+    48
+   ],
+   "covered": true,
+   "evidence": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lacuna de conectividade no campo é territorial, e só 23% da área agrícola tem cobertura.",
+    "sentence": 48
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      47,
+      48
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o estudo lançado em 2021 mostra uma lacuna territorial, com apenas 23% de cobertura no meio rural",
+     "plain": "O estudo que o Ministério lançou em 2021 mostra uma lacuna, e eu gosto de frisar que ela é territorial. Foi feita uma análise por área, que chega a apenas 23% de cobertura no meio rural."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "aproveitando 4.400 antenas e instalando mais 15.182 daria para chegar a 90% da área coberta no agro",
+     "plain": "O estudo mostra cenários. Posso aproveitar 4.400 antenas para elevar a conectividade ou, num segundo cenário, revitalizar essas 4.400 e instalar mais 15.182. Nesse caso eu chegaria a 90% de área coberta no nosso agro."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      45
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "para o produtor que faz negócio pelo WhatsApp toda tecnologia é benéfica, não só o 5G, mas também o 4G, o 3G e o satélite",
+     "plain": "O 5G é mesmo o campo da Internet das coisas. Mas, para o produtor rural que está fazendo negócio pelo WhatsApp, toda e qualquer tecnologia vai ser benéfica: o 4G, o 3G e o satélite também."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Relata que o campo fica com o que sobra das políticas públicas e comemora a derrubada do veto que garantiu à ANATER o uso dos recursos do Fust.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    5
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O campo recebe as políticas públicas por último, e por isso a lei precisa garantir a inovação no meio rural.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o campo fica com o que sobra das políticas públicas, porque internet, pavimentação e escolas chegam primeiro à cidade",
+     "plain": "O campo fica com o que sobra de todas as políticas públicas. A internet chega primeiro na cidade, como a pavimentação e as escolas melhores."
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "com a derrubada do veto, o § 4º permite usar o Fust em políticas de inovação tecnológica no meio rural coordenadas pela ANATER",
+     "plain": "Com o apoio dos nossos Parlamentares, derrubamos o veto do Presidente. O § 4º passou a permitir que o dinheiro do Fust vá para políticas de inovação tecnológica no meio rural, coordenadas pela ANATER."
+    },
+    {
+     "id": "b007c3",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "um produtor de Minas disse que não queria esse 5G, queria só um gezinho para usar o UaitsApp",
+     "plain": "Um produtor me ligou de um município de Minas e disse que não queria esse 5G, queria só um gezinho para usar o UaitsApp. Lá em Minas se fala UaitsApp, não WhatsApp."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O diretor do Ministério das Comunicações agradece o convite e anuncia que vai compartilhar a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que pode começar a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b010",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Detalha os estudos que medem o ganho da conectividade no agro, apresenta o leilão do 5G como a maior política pública do setor e os números do Fust.",
+   "quote": [
+    39,
+    40
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O edital do 5G é o maior instrumento de política pública de conectividade já feito no país.",
+    "sentence": 36
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "no cenário 1 o ganho é de 47,56 bilhões no valor bruto de produção e no cenário 2 chega a 101,47 bilhões",
+     "plain": "No cenário 1, usando a estrutura que já existe e levando a cobertura a 48% do território agrícola, o ganho seria de 47,56 bilhões no Valor Bruto de Produção. No cenário 2, passa para 101,47 bilhões."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o edital foi não arrecadatório, e dos 47,2 bilhões arrematados no leilão 42,4 bilhões viraram obrigações de conectividade",
+     "plain": "É um edital não arrecadatório. Dos 47,2 bilhões arrematados no leilão pelas radiofrequências, 42,4 bilhões foram convertidos em obrigações de conectividade."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      99,
+      100
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Fust tem neste ano mais de 10 milhões para escolas, 36 milhões para outros projetos não reembolsáveis e 658 milhões reembolsáveis",
+     "plain": "Os objetivos de 2022 a 2027 vão de atender escolas públicas a expandir o 4G em áreas rurais. Para este ano são mais de 10 milhões para conexão de escolas, 36 milhões para outros projetos não reembolsáveis e 658 milhões reembolsáveis."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Propõe criar um grupo de trabalho do agro no conselho do Fust, com a ANATER, os ministérios e as entidades, para cuidar das 1.700 localidades.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    6
+   ],
+   "open_question": 7,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O conselho gestor do Fust precisa de um grupo de trabalho dedicado ao agro.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "propõe um grupo de trabalho do agro no conselho, com ANATER, ministérios, CNA, CONTAG, OCB e sindicatos, para as 1.700 localidades",
+     "plain": "Sugiro ao Ministério da Agricultura que crie o GT do agro. Vou propor esse grupo por indicação, com a ANATER, a Frente Parlamentar, os dois Ministérios, a CNA, a CONTAG, a OCB e os sindicatos, para tratar das 1.700 localidades."
+    },
+    {
+     "id": "b011c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "ou se faz esse grupo de trabalho ou a tecnologia não será inclusiva, seja 5G, seja 4G, seja o gezinho",
+     "plain": "Ou nós fazemos isso ou a tecnologia não será inclusiva, seja 5G, seja 4G, seja o 1Gezinho que o produtor pediu na comunidade rural."
+    },
+    {
+     "id": "b011c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o desafio da ANATER é sustentar economicamente a assistência técnica, porque levar só telefonia não adianta",
+     "plain": "O desafio grande da ANATER é o dinheiro, é como sustentar economicamente a assistência técnica e a extensão no campo. Levar só telefonia, sem a inovação que faz produzir, também não adianta."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Apresenta que 72% dos produtores rurais seguem desconectados e mostra a estratégia de ensino a distância do SENAR, que chega a 400 mil vagas.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A maioria dos produtores rurais segue sem conexão, sobretudo os de pequena área.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      16,
+      17
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "72% dos produtores rurais estão desconectados, e desses 50% ficam no Nordeste e 91% têm até 100 hectares",
+     "plain": "Pelos dados do Censo do IBGE, que são um pouco desatualizados, temos 72% dos produtores rurais ainda desconectados no Brasil. Desses, 50% estão no Nordeste e 91% têm até 100 hectares."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a área desconectada no Brasil chega a 195 milhões de hectares, o equivalente a sete países da Europa",
+     "plain": "Se olharmos toda essa área desconectada no Brasil, chegamos a 195 milhões de hectares, segundo o Censo. É uma área equivalente a sete países da Europa."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      49,
+      50,
+      51
+     ],
+     "type": "dado",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o SENAR teve 214 mil matrículas no ensino a distância em 2021 e amplia a oferta para 400 mil vagas",
+     "plain": "Em 2021 foram 214 mil matrículas. Deu tão certo o resultado da nossa estratégia de ensino a distância que para 2022 ampliamos mais 200 mil vagas. Vamos chegar a 400 mil vagas em EAD."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a exposição da CNA e passa a palavra ao representante das cooperativas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante das cooperativas cumprimenta a presidência e pede que sua apresentação seja exibida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica como compartilhar a tela na videoconferência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b016",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante das cooperativas avisa que já consegue compartilhar a apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência libera o compartilhamento da apresentação.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b018",
+   "speaker": "s06",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante das cooperativas pergunta se a apresentação já está compartilhada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que a apresentação está compartilhada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b020",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende a aprovação do projeto que permite às cooperativas prestar telecomunicações e mostra um case gaúcho com 884 famílias atendidas por fibra.",
+   "quote": [
+    40,
+    41,
+    42
+   ],
+   "covered": true,
+   "evidence": [
+    31,
+    32
+   ],
+   "open_question": 71,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Permitir que cooperativas prestem serviço de telecomunicações reduz o custo de levar internet ao campo.",
+    "sentence": 42
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a falta de conectividade impede o produtor até de emitir uma nota fiscal eletrônica e trava a produtividade da agropecuária",
+     "plain": "Essa falta de conectividade impede hoje que produtores emitam uma simples nota fiscal eletrônica e dificulta o contato com a família e o acesso à informação. É um obstáculo para a agropecuária ser mais produtiva e sustentável."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      40,
+      41,
+      42
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a proposta regulariza a prestação de telecomunicações por cooperativas, hoje proibida, e pode reduzir o custo da internet no campo",
+     "plain": "A proposta quer permitir que cooperativas prestem serviço de telecomunicações. Hoje a lei não deixa: é preciso abrir uma empresa limitada para atuar nessa área. Isso pode baratear a internet no campo."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      58,
+      59
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "no case da cooperativa em Marau são 884 famílias do meio rural atendidas com banda larga e 386,5 quilômetros de rede",
+     "plain": "São 884 famílias do meio rural atendidas com banda larga em rede de fibra ótica, e 386,5 quilômetros de rede construídos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida Daniel Fuchs, da Datora Telecom, para a penúltima exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende que o Fust financie também a demanda, com um subsídio ao agricultor, porque no campo o custo por conexão fica dez vezes maior que na cidade.",
+   "quote": [
+    93,
+    94
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 45,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Fust deveria subsidiar a demanda do agricultor, e não só a infraestrutura.",
+    "sentence": 85
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "conforme a necessidade é preciso usar tecnologias diferentes, porque no fim o 5G não atende tudo o que é necessário",
+     "plain": "Nós fugimos um pouco dos termos 4G e 5G, porque conforme a necessidade é preciso usar tecnologias diferentes. Existe aquela disputa para todo mundo ter o 5G, mas no fim ele não atende tudo. Há momentos em que o 4G importa mais."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      89,
+      90,
+      91
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "em São Paulo 256 usuários dividem os mesmos 10 mil reais e pagam 30 ou 40 reais, e no campo a antena atende poucas conexões",
+     "plain": "Em São Paulo talvez eu tenha 256 usuários dividindo 10 mil reais, e venda a conexão por 30 ou 40 reais por mês. No campo, a mesma antena cobre 10 tratores e 15 sensores. O preço sobe pelo menos 10 vezes, para 500 ou 700 reais."
+    },
+    {
+     "id": "b022c3",
+     "sentences": [
+      93,
+      94
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Fust poderia ser um cheque de subsídio que cobre a diferença entre o preço da conexão no campo e o da cidade",
+     "plain": "O que vemos como possibilidade é usar o Fust como um cheque de subsídio para o agricultor. Se na cidade ele pagaria 60 reais e a operadora precisa cobrar 400, por que não compensar esses 340 reais a mais?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência convida o presidente da ANATER para a última exposição da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que a conectividade é questão de justiça, porque o grande produtor já está conectado o dia inteiro e a maioria das propriedades não tem conexão.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A conectividade no campo é uma questão de justiça com o pequeno e o médio produtor.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a conectividade é questão de justiça, porque o grande produtor já tem o aparato e fica conectado 24 horas por dia",
+     "plain": "A conectividade, para mim, é questão de justiça. O grande produtor já tem o aparato tecnológico e a referência das commodities, que é Chicago. Hoje ele está conectado 24 horas por dia, com Chicago na mão."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "de 3,6 milhões de propriedades rurais, 72% não têm nenhuma conexão com a internet, e os grandes levam vantagem",
+     "plain": "De 3,6 milhões de propriedades rurais, 72% não têm nenhum tipo de conexão com a internet. Mesmo que fossem 60%, já é muita coisa. E os grandes terminam levando vantagem, porque acessam tecnologia que o pequeno não tem."
+    },
+    {
+     "id": "b024c3",
+     "sentences": [
+      31
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "conectar o campo amplia a atuação da agência em assentamentos e comunidades e aumenta a formação a distância de produtores",
+     "plain": "Os benefícios da conectividade rural são estes: ampliar nossa abrangência nos assentamentos e nas comunidades que dependem da assistência técnica, implementar políticas públicas e aumentar a formação a distância dos produtores."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Resume que o fundo terá 804 milhões em 2023, com 48 milhões a fundo perdido, e pergunta quais são os desafios das empresas de pequeno porte.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os recursos do Fust e o leilão do 5G colocam em prática a parceria entre o setor público e o privado.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b025c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o conselho tem 804 milhões para 2023, dos quais 48 milhões a fundo não reembolsável, e as companhias entram com 153 milhões",
+     "plain": "Ficou aqui a instalação do conselho e os 804 milhões para 2023, dos quais 48 milhões a fundo não reembolsável. Alguns falam em fundo perdido, eu falo fundo achado. E as companhias entram com 153 milhões."
+    },
+    {
+     "id": "b025c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "ficou claro que não é só o 5G que vai dinamizar a questão da informação no agro",
+     "plain": "Uma coisa ficou muito clara aqui: não é só o 5G que vai dinamizar a questão da informação no agro."
+    },
+    {
+     "id": "b025c3",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é consenso que a chegada do 5G precisa ser inclusiva, e a assistência técnica está em mais de 5.300 municípios",
+     "plain": "Um ponto de consenso é que a chegada do 5G deve ser inclusiva. Todos deixaram isso claro, e quem coroou foi o Presidente da ANATER, que representa a assistência técnica presente em mais de 5.300 municípios."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Aponta que a legislação municipal e a tributação são o desafio comum a empresas de todo porte e pede política pública para quem não pode pagar.",
+   "quote": [
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A legislação municipal, o direito de passagem e a tributação decidem se o serviço chega ao campo.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o desafio comum a empresas de todo porte é a legislação, porque uma estrutura municipal que facilita antenas e cabos amplia o serviço",
+     "plain": "Falo pelas empresas de maior porte, mas o desafio é comum a grande, média e pequena: a legislação. Quando a estrutura municipal facilita a instalação de antenas ou a passagem dos cabos, temos mais possibilidade de prestar o serviço."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso política pública que ajude quem não tem condição de pagar o preço cobrado pelo serviço",
+     "plain": "Destaco a necessidade de política pública que ajude quem não vai ter condição de pagar o preço cobrado pelo produto. Essas pessoas precisam de algum tipo de apoio do Estado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a palavra a quem quiser complementar sobre os desafios das pequenas empresas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Afirma que as pequenas operadoras sofrem mais com os mesmos problemas e que, provada a demanda e achado o financiamento, o empreendedor investe no campo.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Resolvida a questão da demanda, o pequeno prestador investe e leva conectividade ao campo.",
+    "sentence": 10
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as pequenas operadoras sofrem mais que as grandes com os mesmos problemas, porque têm menos estrutura para enfrentá-los",
+     "plain": "As operadoras pequenas sofrem ainda mais que as grandes com esses mesmos problemas. Não é reclamação das grandes, que são nossas clientes e fornecedoras, mas elas têm estrutura para lidar com isso. As pequenas, às vezes, sofrem mais."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o pequeno prestador é empreendedor e investe na conectividade do campo se a demanda for mostrada e houver como financiá-la",
+     "plain": "O pequeno prestador é empreendedor. Se equacionarmos a questão da demanda, mostrando a ele que ela existe e achando uma maneira de financiá-la, ele vai investir e levar conectividade ao campo."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante do Ministério da Agricultura.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b030",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Vê nos pequenos provedores uma chance de expandir a política pública e lembra que o benefício fiscal do Fust pesa mais para as empresas menores.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os pequenos provedores são a chance de expandir a política pública de conectividade rural.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b030c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os pequenos provedores são uma oportunidade de expandir a política pública, e a parceria é a palavra de ordem",
+     "plain": "A questão é muito oportuna, porque os pequenos provedores são uma chance de expandir a política pública. Aqui a palavra de ordem é parceria. A ANATER também pode ajudar, levando tecnologia ao campo."
+    },
+    {
+     "id": "b030c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a parcela não reembolsável do Fust usada como benefício fiscal beneficia mais as pequenas empresas, porque o pagamento pesa mais nelas",
+     "plain": "Os recursos do Fust, em especial a parcela não reembolsável usada como benefício fiscal, vão beneficiar muito as pequenas empresas, porque o pagamento pesa mais nelas. Se puderem investir isso em expansão, será relevante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que faltam 4 minutos e pede que o Ministério das Comunicações use 1 minuto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "pede_conclusao"
+  },
+  {
+   "id": "b032",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Cita o Norte Conectado e o teto do ICMS como incentivos aos pequenos provedores e lembra que a portaria do Fust já prevê subsídio à demanda.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As políticas de infraestrutura e o subsídio à demanda já estão previstos e agora precisam ser operacionalizados.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b032c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Norte Conectado e o Nordeste Conectado incentivam pequenos provedores, porque tiram parte do custo de escoar o tráfego",
+     "plain": "Algumas políticas já vão nessa direção, como o Norte Conectado e o Nordeste Conectado. Elas incentivam os provedores pequenos a levar rede às regiões mais afastadas, e assim matam parte do custo que eles teriam para escoar o tráfego."
+    },
+    {
+     "id": "b032c2",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a lei que fixou o teto de 17% para o ICMS reduz custos para os provedores e para o usuário final",
+     "plain": "Foi importante também a sanção da lei que fixou em 17% o teto do ICMS. É mais um avanço para baixar o custo dos provedores e, com isso, do usuário final."
+    },
+    {
+     "id": "b032c3",
+     "sentences": [
+      7
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria de objetivos quinquenais do Fust já prevê fomentar a demanda com subsídios a famílias em vulnerabilidade social",
+     "plain": "Sobre a demanda, a portaria de objetivos quinquenais do Fust já previu isso: fomentar a demanda com subsídios para famílias em situação de vulnerabilidade social."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência concede a palavra ao representante da CNA por 1 minuto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b034",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Observa que os produtores não conhecem os pequenos provedores, que investem pouco em divulgação, e sugere torná-los mais conhecidos.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os pequenos provedores precisam ficar mais conhecidos para que o produtor chegue até eles.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b034c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os produtores não conhecem os pequenos provedores, que investem menos em divulgação, e ampliar o acesso passa por torná-los conhecidos",
+     "plain": "Não raro os produtores não conhecem essas empresas e não têm acesso a elas. Em regra elas investem menos em marketing e na divulgação dos seus produtos. Uma forma de ampliar o acesso é elas se tornarem mais conhecidas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Anuncia a aprovação do projeto que isenta de impostos equipamentos de extensionistas, alunos e professores do meio rural e encerra com a indicação do grupo de trabalho.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A isenção de impostos sobre equipamentos ajuda extensionistas, alunos e professores do meio rural a se conectar.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b035c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o projeto aprovado na Comissão isenta de IPI, PIS/PASEP e COFINS os equipamentos de extensionistas, alunos e professores do meio rural",
+     "plain": "Na semana passada a Comissão de Agricultura aprovou um projeto de minha autoria, o de nº 4.084, de 2020. Ele isenta de IPI, PIS/PASEP e COFINS os equipamentos comprados por extensionistas rurais, alunos e professores do meio rural."
+    },
+    {
+     "id": "b035c2",
+     "sentences": [
+      6
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "vai indicar o grupo de trabalho para tratar dos 804 milhões de 2023 pensando nas 1.700 localidades",
+     "plain": "Como encaminhamento, ficou esta proposta: farei a indicação desse nosso grupo de trabalho, como Presidente da Frente de Assistência Técnica e Extensão Rural, para tratar dos 804 milhões de 2023 pensando nas 1.700 localidades."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b005",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 101,
+   "from_claim": "b005c1",
+   "to_claim": "b002c3",
+   "strength": "forte",
+   "note": "A operadora mostra o dinheiro arrecadado e nunca usado, e o deputado diz de onde veio essa conta parada: um fundo criado para orelhões que o Estado nunca aplicou."
+  },
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 48,
+   "to_sentence": 25,
+   "from_claim": "b006c1",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "Para a operadora todas as metas dos editais foram cumpridas. Para o Ministério da Agricultura, medindo por área, só 23% do território agrícola tem cobertura."
+  },
+  {
+   "from": "b006",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 47,
+   "to_sentence": 9,
+   "from_claim": "b006c1",
+   "to_claim": "b005c3",
+   "strength": "media",
+   "note": "O deputado anuncia o estudo da Esalq sobre o custo do atraso, e a diretora apresenta o mesmo estudo com a medida da lacuna de cobertura."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 45,
+   "from_claim": "b007c3",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A diretora diz que qualquer tecnologia ajuda o produtor, e o deputado conta o caso do produtor que pedia um gezinho só para usar o aplicativo de mensagens."
+  },
+  {
+   "from": "b007",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 102,
+   "from_claim": "b007c2",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Ao dinheiro trancado que a operadora descreve, o deputado soma o que destravou o uso: a derrubada do veto que abriu o fundo à inovação no meio rural."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 48,
+   "from_claim": "b010c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O Ministério das Comunicações traz do mesmo estudo o outro lado da conta: o que o país ganharia em valor de produção se fechasse essa lacuna."
+  },
+  {
+   "from": "b010",
+   "to": "b005",
+   "kind": "responde",
+   "from_sentence": 99,
+   "to_sentence": 5,
+   "from_claim": "b010c3",
+   "to_claim": "b005c1",
+   "strength": "media",
+   "note": "À cobrança sobre o fundo parado, o ministério responde com os objetivos aprovados e o orçamento já reservado para este ano."
+  },
+  {
+   "from": "b010",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 42,
+   "from_claim": "b010c2",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Os dois descrevem o mesmo leilão: a operadora pelos compromissos de cobertura assumidos, o ministério pelo dinheiro que deixou de ser arrecadado para virar obrigação."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 100,
+   "to_sentence": 3,
+   "from_claim": "b010c3",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "A operadora anuncia a dotação prevista no Orçamento e o ministério detalha como esse dinheiro está dividido entre as modalidades."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 99,
+   "from_claim": "b011c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "Ouvindo que o conselho já criou um grupo de trabalho para a educação, o deputado pede que se crie também o grupo do agro."
+  },
+  {
+   "from": "b011",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 17,
+   "from_claim": "b011c2",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "O deputado transforma a preocupação com que abriu a audiência em condição: sem grupo de trabalho, nenhuma das tecnologias será inclusiva."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 16,
+   "to_sentence": 48,
+   "from_claim": "b012c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "A diretora mede a lacuna por área e a confederação mede por produtor, citando os mesmos dados oficiais, e as duas contas apontam o mesmo buraco."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 17,
+   "to_sentence": 25,
+   "from_claim": "b012c1",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "Onde a operadora diz que as metas de cobertura foram atendidas, a confederação responde que 72% dos produtores seguem sem conexão, sobretudo os de pequena área."
+  },
+  {
+   "from": "b012",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 29,
+   "to_sentence": 18,
+   "from_claim": "b012c2",
+   "to_claim": "b001c1",
+   "strength": "media",
+   "note": "À preocupação do deputado com os pequenos, a confederação junta o tamanho do problema: a área desconectada equivale a sete países da Europa."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 5,
+   "to_sentence": 16,
+   "from_claim": "b020c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "Aos números da desconexão, as cooperativas somam o efeito prático: sem internet o produtor não emite nem uma nota fiscal eletrônica."
+  },
+  {
+   "from": "b022",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 45,
+   "from_claim": "b022c1",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "A empresa cita a diretora do Ministério da Agricultura para sustentar o mesmo ponto: cada necessidade pede uma tecnologia diferente."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 22,
+   "to_sentence": 39,
+   "from_claim": "b022c1",
+   "to_claim": "b010c2",
+   "strength": "forte",
+   "note": "O ministério apresenta o leilão do 5G como a maior política de conectividade já feita. A empresa responde que o 5G não atende tudo e que às vezes o 4G resolve mais."
+  },
+  {
+   "from": "b022",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 89,
+   "to_sentence": 25,
+   "from_claim": "b022c2",
+   "to_claim": "b002c1",
+   "strength": "media",
+   "note": "A operadora diz que cumpriu as metas. A empresa de atacado explica por que isso não basta: a mesma antena no campo divide a receita por poucas conexões."
+  },
+  {
+   "from": "b024",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 16,
+   "from_claim": "b024c2",
+   "to_claim": "b012c1",
+   "strength": "forte",
+   "note": "A agência de assistência técnica repete o número da confederação e acrescenta que, mesmo se fosse menor, já seria muita gente sem conexão."
+  },
+  {
+   "from": "b024",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 18,
+   "from_claim": "b024c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "O deputado abriu falando da diferença entre o grande e o pequeno, e a agência dá nome a isso: o grande já está conectado o dia inteiro, e conectar o resto é justiça."
+  },
+  {
+   "from": "b024",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 11,
+   "from_claim": "b024c3",
+   "to_claim": "b011c3",
+   "strength": "media",
+   "note": "O deputado cobra que a inovação chegue junto com a telefonia, e a agência lista o que a conexão permitiria fazer em assentamentos e na formação a distância."
+  },
+  {
+   "from": "b025",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 13,
+   "from_claim": "b025c3",
+   "to_claim": "b024c1",
+   "strength": "media",
+   "note": "A presidência fecha o debate adotando a fala da agência sobre justiça como o ponto que coroou a audiência."
+  },
+  {
+   "from": "b025",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 9,
+   "to_sentence": 22,
+   "from_claim": "b025c2",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "A presidência registra como conclusão da sala o que a empresa sustentou: não é só o 5G que vai movimentar a informação no campo."
+  },
+  {
+   "from": "b025",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 100,
+   "from_claim": "b025c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A presidência recolhe os números que o ministério apresentou e os transforma no saldo da audiência para o ano seguinte."
+  },
+  {
+   "from": "b026",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 93,
+   "from_claim": "b026c2",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "A operadora endossa a ideia do subsídio ao usuário: sem apoio do Estado, quem não pode pagar o preço fica fora mesmo com a rede pronta."
+  },
+  {
+   "from": "b026",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 41,
+   "from_claim": "b026c1",
+   "to_claim": "b020c2",
+   "strength": "media",
+   "note": "As cooperativas pedem desburocratizar quem pode prestar o serviço, e a operadora aponta o outro entrave do mesmo tipo: a regra municipal para antenas e cabos."
+  },
+  {
+   "from": "b028",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 2,
+   "from_claim": "b028c1",
+   "to_claim": "b026c1",
+   "strength": "media",
+   "note": "A empresa concorda com o diagnóstico da operadora e acrescenta que esses mesmos entraves pesam ainda mais sobre quem é pequeno."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 10,
+   "to_sentence": 58,
+   "from_claim": "b028c2",
+   "to_claim": "b020c3",
+   "strength": "media",
+   "note": "A empresa cita o projeto da cooperativa gaúcha como prova do que defende: garantida a demanda, o empreendedor puxa a fibra até a fazenda."
+  },
+  {
+   "from": "b030",
+   "to": "b028",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 1,
+   "from_claim": "b030c1",
+   "to_claim": "b028c1",
+   "strength": "media",
+   "note": "O Ministério da Agricultura recebe a queixa sobre o peso que recai nos pequenos e a converte em oportunidade de política pública com parceria."
+  },
+  {
+   "from": "b030",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 93,
+   "from_claim": "b030c2",
+   "to_claim": "b022c3",
+   "strength": "media",
+   "note": "Ao pedido de subsídio, o ministério soma o benefício fiscal do fundo, que pesa mais na conta de quem é pequeno."
+  },
+  {
+   "from": "b032",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 7,
+   "to_sentence": 94,
+   "from_claim": "b032c3",
+   "to_claim": "b022c3",
+   "strength": "forte",
+   "note": "Ao pedido de usar o fundo como subsídio ao agricultor, o Ministério das Comunicações responde que a portaria já prevê fomentar a demanda e falta operacionalizar."
+  },
+  {
+   "from": "b032",
+   "to": "b028",
+   "kind": "responde",
+   "from_sentence": 6,
+   "to_sentence": 2,
+   "from_claim": "b032c2",
+   "to_claim": "b028c1",
+   "strength": "media",
+   "note": "À queixa de que a tributação pesa mais sobre os pequenos, o ministério aponta a lei que fixou o teto do imposto estadual."
+  },
+  {
+   "from": "b034",
+   "to": "b030",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 0,
+   "from_claim": "b034c1",
+   "to_claim": "b030c1",
+   "strength": "media",
+   "note": "O ministério vê nos pequenos provedores a saída, e a confederação aponta o que falta para ela funcionar: o produtor não sabe que essas empresas existem."
+  },
+  {
+   "from": "b035",
+   "to": "b024",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 31,
+   "from_claim": "b035c1",
+   "to_claim": "b024c3",
+   "strength": "media",
+   "note": "A agência aponta a formação a distância como ganho da conexão, e a presidência anuncia a isenção de impostos sobre os equipamentos de quem estuda e ensina no campo."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b002",
+    "b005",
+    "b010",
+    "b025"
+   ],
+   "claims": [
+    "b002c3",
+    "b005c1",
+    "b010c3",
+    "b025c1"
+   ],
+   "note": "A operadora, a presidência da Comissão e o Ministério das Comunicações concordam que o dinheiro do fundo ficou parado e agora precisa virar política de conectividade."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b005",
+    "b006",
+    "b012",
+    "b024"
+   ],
+   "claims": [
+    "b005c2",
+    "b006c1",
+    "b012c1",
+    "b024c2"
+   ],
+   "note": "A presidência, o Ministério da Agricultura, a confederação dos produtores e a agência de assistência técnica concordam que a maior parte do campo segue sem conexão."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b001",
+    "b007",
+    "b024",
+    "b025"
+   ],
+   "claims": [
+    "b001c1",
+    "b007c1",
+    "b024c1",
+    "b025c3"
+   ],
+   "note": "A presidência da Comissão e a agência de assistência técnica concordam que a tecnologia só vale se alcançar o pequeno e o médio produtor."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b007",
+    "b022",
+    "b025"
+   ],
+   "claims": [
+    "b006c3",
+    "b007c3",
+    "b022c1",
+    "b025c2"
+   ],
+   "note": "O Ministério da Agricultura, a presidência e uma empresa de telecomunicações concordam que no campo qualquer tecnologia ajuda, e que o 5G sozinho não resolve."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b022",
+    "b026",
+    "b030",
+    "b032"
+   ],
+   "claims": [
+    "b022c3",
+    "b026c2",
+    "b030c1",
+    "b032c3"
+   ],
+   "note": "As empresas de telecomunicações e os dois ministérios concordam que é preciso apoiar também quem vai pagar a conta, e não só a construção da rede."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b020",
+    "b026",
+    "b032"
+   ],
+   "claims": [
+    "b020c2",
+    "b026c1",
+    "b032c2"
+   ],
+   "note": "As cooperativas, a operadora e o Ministério das Comunicações concordam que regra municipal, imposto e restrição a quem pode prestar o serviço encarecem a internet no campo."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b001",
+    "b012",
+    "b024",
+    "b035"
+   ],
+   "claims": [
+    "b001c3",
+    "b012c3",
+    "b024c3",
+    "b035c1"
+   ],
+   "note": "A presidência, a confederação dos produtores e a agência de assistência técnica concordam que é a conexão que permite levar formação e assistência técnica ao produtor."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b025",
+   "sentence": 12,
+   "addressed_to": "setor_privado",
+   "answered_by": "b026",
+   "gist": "quais são os desafios das empresas de pequeno porte de internet",
+   "plain": "Quais são os desafios das empresas de pequeno porte que oferecem serviço de internet?",
+   "theme": "d5",
+   "position": "neutro"
+  },
+  {
+   "id": "q2",
+   "from": "b022",
+   "sentence": 45,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "pede indicação de escolas rurais que precisam de internet",
+   "plain": "Quem pode indicar as escolas rurais que precisam de internet para o projeto da empresa?",
+   "theme": "d2",
+   "position": "neutro"
+  },
+  {
+   "id": "q3",
+   "from": "b011",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "pede que o Ministério da Agricultura crie o grupo do agro",
+   "plain": "O Ministério da Agricultura vai criar o grupo de trabalho do agro no conselho do fundo?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b020",
+   "sentence": 71,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "pede aprovação do projeto que libera telecom por cooperativas",
+   "plain": "O Senado vai aprovar o projeto que permite às cooperativas prestar serviço de telecomunicações?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b004",
+   "sentence": 11,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "pede que o fundo seja recurso não contingenciável",
+   "plain": "O Congresso vai tornar os recursos do fundo não contingenciáveis dentro do Orçamento?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 83,
+   "gist": "123 bilhões em cinco fundos setoriais desde 2001",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 101,
+   "gist": "53 bilhões arrecadados desde 2000 e nada usado",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 3,
+   "gist": "cerca de 700 milhões previstos para o fundo em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b005",
+   "sentence": 9,
+   "gist": "1 ano de atraso no 5G custa 10 anos de competitividade",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 38,
+   "gist": "94% dos produtores têm smartphone e 76% negociam por aplicativo",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 48,
+   "gist": "apenas 23% de cobertura no meio rural",
+   "disputed_by": [
+    {
+     "fala": "b002",
+     "sentence": 29
+    }
+   ]
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 9,
+   "gist": "no cenário 2 o ganho chega a 101,47 bilhões",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 40,
+   "gist": "dos 47,2 bilhões do leilão, 42,4 viraram obrigações",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 16,
+   "gist": "72% dos produtores rurais estão desconectados",
+   "disputed_by": [
+    {
+     "fala": "b024",
+     "sentence": 21
+    }
+   ]
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 29,
+   "gist": "195 milhões de hectares sem conexão no país",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b020",
+   "sentence": 58,
+   "gist": "884 famílias atendidas com fibra no projeto da cooperativa",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b025",
+   "sentence": 2,
+   "gist": "804 milhões para 2023, com 48 milhões não reembolsáveis",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d4",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "setor_privado",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o anúncio do grupo de trabalho do agro no conselho do fundo e os números de cobertura do campo, com destaque para o que o leilão do 5G promete entregar.",
+  "omitted": "Ficou de fora a divergência sobre financiar a antena ou o bolso de quem assina, e também a estratégia de ensino a distância que o SENAR apresentou."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O dinheiro do Fust tem de virar internet no campo",
+   "statement_plain": "O fundo arrecadou por mais de vinte anos sem ser usado. Esse dinheiro precisa ser aplicado agora em conexão para o meio rural, sem corte no meio do caminho.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b002c3",
+    "b005c1",
+    "b010c3",
+    "b025c1",
+    "b030c2"
+   ],
+   "note": "É uma ideia e não um setor: quem a sustenta são a entidade das operadoras, a presidência da Comissão e dois ministérios, que se enfrentam em outros pontos da mesma audiência."
+  },
+  {
+   "id": "t2",
+   "title": "O campo está desconectado e isso trava o agro",
+   "statement_plain": "A maior parte da área agrícola e dos produtores segue sem internet. Enquanto isso não mudar, a inovação não chega à propriedade e o país deixa dinheiro na mesa.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b005c2",
+    "b006c1",
+    "b012c1",
+    "b012c2",
+    "b024c2"
+   ],
+   "note": "Junta a presidência da Comissão, o Ministério da Agricultura, a confederação dos produtores e a agência federal de assistência técnica, e é contestada pela entidade das operadoras."
+  },
+  {
+   "id": "t3",
+   "title": "Só o 5G não resolve: no campo vale qualquer G",
+   "statement_plain": "No campo o que falta é conexão que funcione. O 4G, o 3G e o satélite resolvem mais problema do produtor do que a corrida pelo 5G.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b007c3",
+    "b022c1",
+    "b025c2"
+   ],
+   "note": "Cruza setores que não costumam andar juntos: uma diretora do Ministério da Agricultura, o deputado que preside a sessão e uma empresa de telecomunicações."
+  },
+  {
+   "id": "t4",
+   "title": "O leilão do 5G é a maior política de conectividade",
+   "statement_plain": "O leilão do 5G trocou arrecadação por obrigação de cobrir municípios, estradas e localidades. É a maior política de internet já feita, e atrasá-la custa caro ao agro.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b005c3",
+    "b010c2"
+   ],
+   "note": "Divide a própria presidência da sessão, que sustenta esta ideia numa carta e a ideia oposta em outra, ao lado da entidade das operadoras e do Ministério das Comunicações."
+  },
+  {
+   "id": "t5",
+   "title": "Sem financiar a demanda, a antena não chega",
+   "statement_plain": "De nada adianta pagar a rede se, no campo, a conexão custa dez vezes mais que na cidade. O dinheiro público tem de ajudar também quem vai assinar o serviço.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b022c2",
+    "b022c3",
+    "b026c2",
+    "b028c2",
+    "b032c3"
+   ],
+   "note": "Nasce numa empresa de atacado de telecomunicações e é adotada pela entidade das grandes operadoras e pelo Ministério das Comunicações, que diz já tê-la previsto em portaria."
+  },
+  {
+   "id": "t6",
+   "title": "Conectividade é justiça com o pequeno produtor",
+   "statement_plain": "O grande produtor já está conectado o dia inteiro. Conectar o pequeno e o médio é questão de justiça, e é isso que permite levar assistência técnica e formação até eles.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b011c2",
+    "b024c1",
+    "b024c3",
+    "b012c3"
+   ],
+   "note": "Une o deputado que preside a sessão, a agência federal de assistência técnica e a confederação dos produtores, que representa também quem já está conectado."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "FUST",
+   "fala": "b002",
+   "sentence": 2,
+   "plain": "Fundo de Universalização dos Serviços de Telecomunicações: dinheiro cobrado das empresas de telefonia para levar comunicação a quem não é atendido"
+  },
+  {
+   "term": "ANATER",
+   "fala": "b001",
+   "sentence": 7,
+   "plain": "Agência Nacional de Assistência Técnica e Extensão Rural: agência federal que organiza e financia a orientação técnica ao produtor rural"
+  },
+  {
+   "term": "ANATEL",
+   "fala": "b002",
+   "sentence": 48,
+   "plain": "Agência Nacional de Telecomunicações: órgão que fiscaliza as empresas de telefonia e internet e organiza os leilões de frequência"
+  },
+  {
+   "term": "5G",
+   "fala": "b001",
+   "sentence": 3,
+   "plain": "quinta geração da telefonia celular, com conexão mais rápida e capaz de ligar muitos aparelhos e sensores ao mesmo tempo"
+  },
+  {
+   "term": "ESALQ",
+   "fala": "b002",
+   "sentence": 61,
+   "plain": "Escola Superior de Agricultura Luiz de Queiroz, da USP, que fez o estudo sobre conectividade no campo encomendado pelo Ministério da Agricultura"
+  },
+  {
+   "term": "VBP",
+   "fala": "b002",
+   "sentence": 62,
+   "plain": "Valor Bruto da Produção: quanto vale tudo o que a agropecuária produz num ano, antes de descontar custos"
+  },
+  {
+   "term": "Internet das Coisas",
+   "fala": "b002",
+   "sentence": 59,
+   "plain": "máquinas, sensores e equipamentos ligados à internet trocando informação entre si, sem alguém digitando nada"
+  },
+  {
+   "term": "edital não arrecadatório",
+   "fala": "b002",
+   "sentence": 36,
+   "plain": "leilão em que o Estado abre mão de receber dinheiro e cobra das empresas obrigações de levar o serviço a determinados lugares"
+  },
+  {
+   "term": "não reembolsável",
+   "fala": "b007",
+   "sentence": 23,
+   "plain": "dinheiro público entregue para um projeto sem precisar voltar ao caixa do governo. Alguns chamam de fundo perdido"
+  },
+  {
+   "term": "contingenciado",
+   "fala": "b004",
+   "sentence": 11,
+   "plain": "dinheiro que está no Orçamento mas o governo trava e não deixa gastar, em geral para fechar as contas do ano"
+  },
+  {
+   "term": "ATER Digital",
+   "fala": "b024",
+   "sentence": 24,
+   "plain": "assistência técnica e extensão rural feita a distância, pela internet, em vez de só com a visita do técnico à propriedade"
+  },
+  {
+   "term": "SENAR",
+   "fala": "b012",
+   "sentence": 5,
+   "plain": "Serviço Nacional de Aprendizagem Rural: braço de formação e capacitação mantido pela confederação da agricultura"
+  },
+  {
+   "term": "CNA",
+   "fala": "b006",
+   "sentence": 4,
+   "plain": "Confederação da Agricultura e Pecuária do Brasil, entidade que representa os produtores rurais no país"
+  },
+  {
+   "term": "OCB",
+   "fala": "b001",
+   "sentence": 54,
+   "plain": "Organização das Cooperativas do Brasil, entidade que representa as cooperativas, inclusive as que levam energia e internet ao meio rural"
+  },
+  {
+   "term": "agricultura de precisão",
+   "fala": "b006",
+   "sentence": 90,
+   "plain": "jeito de produzir em que sensores e dados indicam quanto de insumo aplicar em cada pedaço da lavoura, em vez de tratar tudo igual"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+# Publica o jogo (web/) no GitHub Pages a cada push na main, ou à mão pela aba Actions.
+#
+# Antes do primeiro deploy, uma vez só, em Settings > Pages > Build and deployment, escolha
+# Source: "GitHub Actions". O site fica em https://<usuario>.github.io/<repo>/.
+#
+# O build lê os JSON já versionados em web/public/hearings/: não roda Python, não baixa o dataset
+# e não precisa de chave de API.
+name: Publicar o jogo no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'shared/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Um deploy por vez; um push novo espera o anterior terminar em vez de cancelá-lo no meio.
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: web
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Instalar dependências
+        run: npm ci --no-audit --no-fund
+
+      - name: Checagens (tipos, lint, motor do jogo)
+        run: |
+          npm run typecheck
+          npm run lint
+          npm run test:unit
+
+      # Site de projeto (<usuario>.github.io/<repo>/) fica num subcaminho; site de usuário/organização
+      # (repositório chamado <usuario>.github.io) fica na raiz.
+      - name: Definir o caminho base
+        id: base
+        run: |
+          repo='${{ github.event.repository.name }}'
+          if [[ "$repo" == *.github.io ]]; then base='/'; else base="/${repo}/"; fi
+          echo "base=$base" >> "$GITHUB_OUTPUT"
+          echo "caminho base: $base"
+
+      - name: Build
+        run: npm run build
+        env:
+          VITE_BASE: ${{ steps.base.outputs.base }}
+
+      # O GitHub Pages não reescreve rotas: sem isto, abrir /audiencias ou /sim/44 direto (ou dar F5)
+      # devolve 404. Servir o index.html como página 404 entrega a aplicação, e o React Router resolve a rota.
+      # .nojekyll evita que o Pages ignore arquivos e pastas começando com "_".
+      - name: Fallback de SPA e .nojekyll
+        run: |
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

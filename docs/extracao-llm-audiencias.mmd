@@ -1,0 +1,89 @@
+flowchart LR
+    subgraph IN["1. Entrada, sem LLM e determinística"]
+        direction TB
+        T["Transcrição bruta da audiência, dataset PublicHearingBR"]
+        C["Corte em falas b001, b002... e sentenças numeradas a partir de 0"]
+        M["Matéria da Agência Câmara sobre a mesma audiência, com sentenças numeradas"]
+        T --> C
+    end
+
+    LLM(["2. Um LLM lê tudo e devolve UM JSON que segue um contrato de anotação fixo"])
+    C --> LLM
+    M --> LLM
+
+    subgraph G1["Visão geral da audiência"]
+        direction TB
+        S["Sinopse, o que estava em jogo e a pergunta central"]
+        SP["As mesmas três coisas em palavras simples"]
+        P["Imprensa: temas cobertos, papéis citados, ângulo escolhido e o que ficou de fora"]
+        S --> SP
+    end
+
+    subgraph G2["Pessoas"]
+        direction TB
+        SPK["Oradores: papel ou setor, cargo, instituição, assento, nível de governo"]
+        RO["Setores: mesa, parlamentar, governo, sociedade civil, setor privado"]
+        BY["Byline e explicação da instituição para quem nunca ouviu falar dela"]
+        AUD["Plateia: quantas pessoas, composição por setor e confiança da estimativa"]
+        SPK --> RO
+        SPK --> BY
+    end
+
+    subgraph G3["Debate: temas, falas e cartas"]
+        direction TB
+        TH["4 a 8 temas, cada um com eixo pró e contra, também em palavras simples"]
+        F["Falas: substantiva ou procedimental, tema, resumo, trecho citável por índices, posição, tom, interrupção, cobertura pela imprensa, ato da mesa"]
+        CL["Cartas, 1 a 3 por fala: tipo, força, posição no tema, gist e versão em palavras simples"]
+        TY["Tipos de carta: dado, princípio, experiência, jurídico, econômico, precedente"]
+        TH --> F --> CL --> TY
+    end
+
+    subgraph G4["Grafo de relações"]
+        direction TB
+        R["Relações entre cartas: apoia, contradiz, responde"]
+        CO["Consenso: cartas de setores diferentes que concordam numa posição do mesmo tema"]
+        Q["Perguntas em aberto: quem cobrou, a quem, e quem respondeu, ou ninguém"]
+        FA["Fatos com número ou data, sentença de origem e quem os contesta"]
+    end
+
+    subgraph G5["Ideias e vocabulário"]
+        direction TB
+        TE["Teses, 3 a 6: ideias de fato defendidas, posições por tema e cartas-chave de pelo menos duas pessoas"]
+        GL["Glossário, 6 a 15 termos: explicação simples e primeira ocorrência"]
+    end
+
+    LLM --> S
+    LLM --> SPK
+    LLM --> TH
+    LLM --> R
+    LLM --> TE
+    CL -.->|"as cartas ancoram relações, consensos e teses"| R
+
+    V{"3. Validador: só índices que existem, números idênticos ao original, nenhuma cópia de 12 palavras, limites de caracteres"}
+    P --> V
+    AUD --> V
+    TY --> V
+    FA --> V
+    GL --> V
+    J[("data/sim/hearing-NNN.json")]
+    B["build_scene.py copia índices para texto, sem LLM"]
+    GAME["Simulador de Audiência Pública"]
+    V --> J --> B --> GAME
+
+    classDef entrada fill:#E2E8F0,stroke:#475569,color:#0F172A
+    classDef modelo fill:#FDE68A,stroke:#B45309,color:#451A03
+    classDef geral fill:#E9D5FF,stroke:#7E22CE,color:#3B0764
+    classDef pessoas fill:#FED7AA,stroke:#C2410C,color:#431407
+    classDef debate fill:#BBF7D0,stroke:#15803D,color:#052E16
+    classDef grafo fill:#FECACA,stroke:#B91C1C,color:#450A0A
+    classDef ideias fill:#BFDBFE,stroke:#1D4ED8,color:#172554
+    classDef saida fill:#F5F5F4,stroke:#44403C,color:#1C1917
+
+    class T,C,M entrada
+    class LLM modelo
+    class S,SP,P geral
+    class SPK,RO,BY,AUD pessoas
+    class TH,F,CL,TY debate
+    class R,CO,Q,FA grafo
+    class TE,GL ideias
+    class V,J,B,GAME saida

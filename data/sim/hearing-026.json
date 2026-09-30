@@ -1,0 +1,1612 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 26,
+ "model": "LLM lendo o prompt hearing-026 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-21T04:50:34Z",
+ "prompt_sha256": "9d26184a93629695e3a5c839bfbb04d5b070aaa620efd7934f6147367a7655d7",
+ "sentences_hash": "e55a8b99a0264adf",
+ "review": {
+  "pairs_read": 30,
+  "pairs_fixed": 16
+ },
+ "warnings": [],
+ "synopsis": "A Comissão de Direitos Humanos ouviu duas secretárias do governo federal, o presidente do IBGE, uma ministra do Tribunal Superior do Trabalho, uma jurista, uma professora e uma cuidadora familiar sobre o trabalho de cuidado não remunerado. A audiência saiu de requerimento da presidência da comissão, autora do projeto que manda incluir a economia do cuidado no sistema de contas nacionais. O debate foi sobre como medir esse trabalho e o que fazer com a conta.",
+ "stakes": "Se a Câmara deveria levar a regime de urgência o projeto que inclui a economia do cuidado nas contas nacionais e garantir orçamento para a pesquisa de uso do tempo.",
+ "central_question": "Como medir e reconhecer o trabalho de cuidado não remunerado feito sobretudo por mulheres?",
+ "synopsis_plain": "A comissão chamou duas secretárias do governo, o presidente do IBGE, uma ministra do Tribunal Superior do Trabalho, uma jurista, uma professora e uma cuidadora familiar para falar do trabalho de cuidar que não é pago e que sobra para as mulheres. A audiência saiu do projeto da deputada que preside a comissão, que manda contar esse trabalho nas contas do país.",
+ "stakes_plain": "Aprovar o projeto que manda contar o trabalho de cuidado nas contas do país, e garantir dinheiro para o IBGE fazer a pesquisa que mede esse tempo.",
+ "central_question_plain": "Como medir e reconhecer o trabalho de cuidar que não é pago e que quase sempre sobra para as mulheres?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Reconhecimento do cuidado como trabalho",
+   "description": "Discute-se se cuidar de crianças, idosos e doentes dentro de casa deve ser tratado como trabalho, e não como amor ou vocação natural das mulheres.",
+   "axis": {
+    "pro": "O cuidado não remunerado é trabalho, é produtivo e sustenta a economia.",
+    "contra": "O cuidado feito em casa é afeto e obrigação familiar, fora da esfera econômica.",
+    "pro_plain": "Cuidar dentro de casa é trabalho. Sem isso a economia não funcionaria.",
+    "contra_plain": "Cuidar da própria família é amor e obrigação de casa, não emprego nem economia."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Sobrecarga das mulheres e emprego",
+   "description": "Discute-se o quanto a atual divisão do cuidado dentro das famílias tira das mulheres tempo, saúde e acesso ao trabalho pago.",
+   "axis": {
+    "pro": "A organização atual do cuidado é injusta e mantém milhões de mulheres fora do mercado de trabalho.",
+    "contra": "A divisão do cuidado dentro da família não é o que explica a posição das mulheres no trabalho.",
+    "pro_plain": "É por ter de cuidar da casa e da família que milhões de mulheres nem procuram emprego.",
+    "contra_plain": "O que as mulheres fazem em casa não é o que explica o lugar delas no mercado de trabalho."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Cuidado nas contas nacionais",
+   "description": "Discute-se se incluir o trabalho de cuidado no cálculo do PIB e nas contas do país é o caminho para reconhecê-lo, ou se o que importa está em outro lugar.",
+   "axis": {
+    "pro": "Incluir o trabalho de cuidado nas contas nacionais e no PIB é o que dá visibilidade e muda a concepção da sociedade.",
+    "contra": "Contar o cuidado no PIB não é o que mais importa, porque o que muda a vida é a política executada e o efeito dela no IDH.",
+    "pro_plain": "Colocar o trabalho de cuidar nas contas do país é o que faz a sociedade ver esse trabalho.",
+    "contra_plain": "Entrar na conta do PIB é só um passo. O que muda a vida é a política sair do papel."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Pesquisa de uso do tempo",
+   "description": "Discute-se a falta de uma pesquisa brasileira que meça em quantas horas e em que tarefas as pessoas gastam o seu dia, e de onde sairia o dinheiro para fazê-la.",
+   "axis": {
+    "pro": "O Brasil precisa de uma pesquisa de uso do tempo sólida, e ela depende de orçamento próprio.",
+    "contra": "A falta dessa medição não impede que a política de cuidados seja construída.",
+    "pro_plain": "Sem uma pesquisa que meça as horas de cada um, não se sabe o tamanho do trabalho de cuidar.",
+    "contra_plain": "Faltar essa medição não impede o país de montar a política de cuidados agora."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Universalização e financiamento da política",
+   "description": "Discute-se se a política de cuidados deve ser universal, com creche, lavanderia coletiva e restaurante popular, e de onde vem o dinheiro para bancá-la.",
+   "axis": {
+    "pro": "A política de cuidados tem de ser universal e contar com orçamento próprio.",
+    "contra": "Sem financiamento, universalizar a política só devolve o cuidado às mulheres não remuneradas.",
+    "pro_plain": "Creche, lavanderia coletiva e restaurante popular para todos, com dinheiro previsto no orçamento.",
+    "contra_plain": "Prometer política sem dinheiro é continuar deixando o cuidado na conta das mulheres que não recebem."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Raça e classe no cuidado",
+   "description": "Discute-se se a política de cuidados pode ser pensada só pelo recorte de gênero, ou se tem de enfrentar também o racismo e a situação das trabalhadoras domésticas.",
+   "axis": {
+    "pro": "A política de cuidados tem de enfrentar o racismo e a exclusão histórica das trabalhadoras domésticas.",
+    "contra": "O recorte de gênero já dá conta de organizar a política de cuidados.",
+    "pro_plain": "Não basta pensar em mulheres. É preciso enfrentar o racismo e proteger as trabalhadoras domésticas.",
+    "contra_plain": "Pensar a política pelo lado das mulheres já é suficiente para mudar essa estrutura."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Remuneração de quem cuida",
+   "description": "Discute-se se quem cuida de um familiar sem receber nada deve ter salário, bolsa e aposentadoria pelos anos dedicados a esse trabalho.",
+   "axis": {
+    "pro": "Quem cuida de um familiar deve receber uma bolsa salário e poder se aposentar pelos anos de cuidado.",
+    "contra": "O cuidado prestado dentro da própria família não deve ser pago pelo Estado.",
+    "pro_plain": "Quem passa anos cuidando de um familiar tem de receber por isso e poder se aposentar.",
+    "contra_plain": "Cuidar de alguém da própria família é dever da família, e não uma conta do Estado."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da comissão, autora do requerimento e do projeto de lei",
+   "org": "Câmara dos Deputados",
+   "basis": "registro 'Presidente', b001.3 sobre o requerimento de sua autoria e b017.39 sobre o projeto",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Secretária Nacional de Autonomia Econômica e Política de Cuidado",
+   "org": "Ministério das Mulheres",
+   "basis": "apresentada pela presidência em b001.51 e b001.65, e b004.7, onde diz estar à frente da secretaria",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério das Mulheres",
+   "org_plain": "ministério federal criado para políticas voltadas às mulheres, com uma secretaria para o cuidado"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Secretária Nacional da Política de Cuidados e Família",
+   "org": "MDS",
+   "basis": "apresentada pela presidência em b001.45 e b005.8",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério do Desenvolvimento e Assistência Social",
+   "org_plain": "ministério federal da assistência social, que coordena a proposta do Plano Nacional de Cuidados"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Jurista e escritora",
+   "org": null,
+   "basis": "apresentada pela presidência em b001.48 como autora do livro As cuidadoras na sala de visita, e b008.8, onde se diz jurista",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "jurista e autora de As cuidadoras na sala de visita",
+   "org_plain": null
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Ministra do Tribunal Superior do Trabalho e coordenadora da política de equidade da Justiça do Trabalho",
+   "org": "TST",
+   "basis": "apresentada pela presidência em b001.58 e b009.7, participando por vídeo",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do Tribunal Superior do Trabalho",
+   "org_plain": "tribunal que dá a última palavra nos processos da Justiça do Trabalho no país"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Presidente do instituto",
+   "org": "IBGE",
+   "basis": "apresentado pela presidência em b001.61 e b011.3, participando por vídeo",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "do IBGE",
+   "org_plain": "órgão federal que faz o censo e as pesquisas oficiais de população e economia do país"
+  },
+  "s07": {
+   "role": "sociedade_civil",
+   "cargo": "Professora universitária, doutora em serviço social",
+   "org": "UFRN",
+   "basis": "apresentada pela presidência em b001.59 e b013.10, participando por vídeo",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "professora da UFRN",
+   "org_plain": "Universidade Federal do Rio Grande do Norte, onde ela pesquisa trabalho e serviço social"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Cofundadora e coordenadora do coletivo, ex-cuidadora familiar",
+   "org": "Coletivo Filhas da Mãe",
+   "basis": "apresentada pela presidência em b001.53, e b016.1, onde corrige que é uma das fundadoras",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Coletivo Filhas da Mãe",
+   "org_plain": "grupo de Brasília que apoia quem cuida de familiares com demência e pergunta quem cuida de quem cuida"
+  }
+ },
+ "audience": {
+  "estimate": 40,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.55
+   },
+   {
+    "role": "governo",
+    "share": 0.3
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.15
+   }
+  ],
+  "basis": "a ata registra palmas em quase todas as falas, quatro vezes na abertura, e b001.68 anuncia a presença de um deputado. Não há menção a delegações numeradas.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Abre a audiência sobre economia do cuidado, diz que a política brasileira está atrasada em relação à América Latina e lembra a dotação conseguida no PPA.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cuidado é uma questão invisível de proporções enormes no Brasil e precisa virar política pública de envergadura.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "precedente",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a política brasileira de cuidado está muito atrasada até em relação a vários países da América Latina",
+     "plain": "Começamos este debate agora, e ele é parte da reconstrução do Brasil. A nossa política é muito atrasada, inclusive perto de vários países da América Latina."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tema assustou muita gente quando caiu no ENEM, e no Brasil essa invisibilidade toma proporções gigantescas",
+     "plain": "Quando a questão foi para o ENEM, assustou muita gente que não tinha nem informação básica sobre o que era aquilo. Fazemos esta audiência para dar visibilidade a uma questão invisível, que no Brasil toma proporções gigantescas."
+    },
+    {
+     "id": "b001c3",
+     "sentences": [
+      28
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "esta comissão destinou no PPA um valor significativo para a economia do cuidado virar política pública",
+     "plain": "Esta comissão reservou no PPA, o plano de gastos do governo para quatro anos, um valor significativo, para que a economia do cuidado ganhe de fato o porte de uma política pública."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A secretária cumprimenta a sala e faz a sua audiodescrição antes de começar a exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "audiodescricao"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência brinca com a observação da expositora sobre o lugar em que está sentada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Mostra pela PNAD que as mulheres dedicam o dobro de horas ao trabalho doméstico e defende incluir o cuidado não remunerado nas contas nacionais.",
+   "quote": [
+    23,
+    24
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Incluir o trabalho não remunerado de cuidado nas contas nacionais dá visibilidade a ele e muda como a sociedade o entende.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pela PNAD de 2023 as mulheres dedicam mais de 21 horas por semana ao trabalho doméstico e os homens apenas 11",
+     "plain": "Pela PNAD de 2023, que é anual, as mulheres dedicam em média mais de 21 horas da semana ao trabalho doméstico, e os homens, apenas 11 horas. Ou seja, as mulheres gastam o dobro do tempo nas tarefas de casa."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cuidado não é só reprodutivo, é também produtivo, e a divisão entre trabalho econômico e não econômico é ultrapassada",
+     "plain": "Precisamos entender o cuidado como trabalho que, além de reproduzir as condições da vida, também produz. A divisão entre trabalho econômico e não econômico é ultrapassada e vem da desvalorização do cuidado."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      30
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "incorporar o cálculo do trabalho não remunerado de cuidado nas contas nacionais muda a concepção da população sobre esse trabalho",
+     "plain": "Conversando com o projeto da deputada, entendemos que colocar o cálculo do trabalho não remunerado de cuidado nas contas nacionais dá visibilidade ao que já se faz e ajuda a mudar como a população vê a importância desse trabalho."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à primeira expositora e passa a palavra a Laís Abramo, do Ministério do Desenvolvimento Social.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que o cuidado é um bem público, mostra que cuidar da casa é a razão principal de mulheres não procurarem emprego e defende a pesquisa de uso do tempo.",
+   "quote": [
+    25,
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    7,
+    8,
+    9
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A organização social do cuidado no Brasil é injusta e insustentável, e por isso é necessária uma política nacional de cuidados.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem esse trabalho cotidiano e invisibilizado não haveria bem-estar, nem reprodução da vida, nem economia funcionando",
+     "plain": "Sem esse trabalho de todo dia, que é invisibilizado, não teríamos o bem-estar das pessoas nem a reprodução da vida, e a sociedade e a economia não funcionariam. Por isso dizemos que o cuidado é um bem público."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a razão principal de as mulheres em idade ativa não procurarem emprego é ter de cuidar dentro de casa, e entre os homens isso é 2%",
+     "plain": "Quando se pergunta às mulheres em idade ativa que não estão no mercado nem procurando emprego qual é a razão principal, a resposta é que elas têm de fazer o trabalho de cuidado dentro de casa. Entre os homens, apenas 2%."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto importa porque cria a pesquisa de uso do tempo, que permite montar as contas satélites e dar valor em dinheiro a esse trabalho",
+     "plain": "Aí entra a pesquisa de uso do tempo. Deputada, esse projeto é importante porque fala da construção dessa pesquisa, que permitiria montar as contas satélites, aquelas que dão a equivalência em dinheiro de todo esse trabalho invisibilizado."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta quem ficou cuidando em casa na pandemia, separa o cuidado do amor e lembra que aprovar a lei é só um passo diante do que falta executar.",
+   "quote": [
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O cuidado é um trabalho não pago, e tratá-lo como amor serve para justificar que ele não seja remunerado.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      7
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "na pandemia foi preciso perguntar quem ficou em casa cuidando das crianças, da escola, da casa, dos idosos e das vítimas da COVID",
+     "plain": "No isolamento, quem foi que ficou em casa cuidando das crianças, das tarefas, da escola, dos idosos e das próprias vítimas da COVID?"
+    },
+    {
+     "id": "b007c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o cuidado é antigo e não é necessariamente amor, é um trabalho não pago",
+     "plain": "O cuidado é algo antigo e não é necessariamente amor. É um trabalho não pago."
+    },
+    {
+     "id": "b007c3",
+     "sentences": [
+      33,
+      34
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "a aprovação do projeto de lei é só um passo, e depois dele vem toda uma estrutura",
+     "plain": "Para mim, aprovar o projeto de lei é só um primeiro passo. Depois dele vem toda uma estrutura."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Defende pensar a economia do cuidado também por raça e classe, lembra a exclusão das domésticas na Constituinte e pede que a pesquisa meça o deslocamento.",
+   "quote": [
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 20,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política de cuidados só muda a estrutura se enfrentar o racismo junto com o machismo.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      10,
+      11
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a luta das trabalhadoras domésticas remuneradas por direitos levou anos até a Lei Complementar nº 150, de 2015",
+     "plain": "Olhando a nossa própria produção legislativa, vale lembrar quão histórica é a luta das domésticas remuneradas por direitos. Levou anos a fio até a categoria conseguir a Lei Complementar nº 150, de 2015."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      14
+     ],
+     "type": "precedente",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "nos Anais da Constituinte de 87 e 88 as trabalhadoras domésticas foram excluídas dos direitos que os rurais conquistaram",
+     "plain": "Nos Anais da Constituinte de 87 e 88 dá para ver que, apesar da presença massiva das domésticas no Congresso, e num momento em que os rurais ganharam direitos iguais aos urbanos, a categoria ficou de fora."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      20
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "as pesquisas de uso do tempo precisam medir o tempo das mulheres negras e o deslocamento até a casa dos empregadores",
+     "plain": "Nas pesquisas de uso do tempo é preciso incluir o tempo dedicado pelas mulheres negras. E contar também o deslocamento da trabalhadora doméstica até a casa dos empregadores, o trabalho pago ali e o trabalho não pago quando ela volta."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o livro da expositora, troca a Mesa e passa a palavra à ministra do TST, que fala por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Estima que o cuidado valeria 11% do PIB, mostra a diferença entre mulheres e homens que o apontam como obstáculo e põe o IDH à frente do PIB.",
+   "quote": [
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    10,
+    11,
+    12
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O trabalho de cuidado precisa se tornar visível, mas o que mais importa é o efeito de uma boa política de cuidados no IDH.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      19,
+      20
+     ],
+     "type": "dado",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os estudos indicam que o trabalho de cuidado corresponderia a 11% do PIB, mais que a indústria e mais que o agronegócio",
+     "plain": "Há estudos que calculam quanto valeria o cuidado, comparando com o salário mínimo. Dizem que seria algo em torno de 11% do PIB, mais que a indústria e mais que o agronegócio. Em valores, cerca de 634 bilhões de reais."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      23,
+      24
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "606 milhões de mulheres apontaram o cuidado como obstáculo no trabalho, contra 41 milhões de homens",
+     "plain": "Na pesquisa, 606 milhões de mulheres disseram que o trabalho de cuidado era um obstáculo para voltar ao mercado de trabalho ou crescer nele. Entre os homens, 41 milhões disseram o mesmo."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      29
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "mais importante que a noção de PIB é o impacto que uma boa política de cuidados traz para o IDH",
+     "plain": "Mais do que a noção de Produto Interno Bruto, o que importa é pensar no impacto que uma boa política de cuidados traz para o IDH, o Índice de Desenvolvimento Humano. O que queremos é uma vida melhor para todas e todos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à ministra e passa a palavra ao presidente do IBGE, que participa por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Compara o reconhecimento de lavar louça em casa e num bar, diz que falta recurso próprio para a pesquisa de uso do tempo e explica por que o PIB é a preço de mercado.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 29,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil precisa de uma pesquisa de uso do tempo, e o que falta para fazê-la é recurso orçamentário.",
+    "sentence": 29
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quem lava louça em casa por 30 ou 40 anos não se aposenta, e a mesma tarefa num bar dá direito a sindicato, salário e aposentadoria",
+     "plain": "Quem fica em casa 30 anos ou 40 anos lavando louça não tem a possibilidade de se aposentar. A mesma tarefa, feita num restaurante ou num bar, é reconhecida. Ali o trabalho talvez tenha sindicato, salário mínimo e até aposentadoria."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      27,
+      28,
+      29
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil não tem a pesquisa de uso do tempo por insuficiência de recurso próprio, e não por problema de tecnologia ou de conhecimento",
+     "plain": "É por isso que levantamos a necessidade de o Brasil ter uma pesquisa de uso do tempo. Não a temos por um problema de tecnologia nem de conhecimento. Há, de fato, insuficiência de recurso próprio para fazer essa pesquisa."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      33,
+      34,
+      35
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "media",
+     "position": "condicional",
+     "gist": "incluir o cuidado é difícil porque as contas nacionais, pelos manuais adotados desde a Segunda Guerra, medem o PIB a preço de mercado",
+     "plain": "Incluir isso é difícil: as contas nacionais foram montadas depois da Segunda Guerra seguindo manuais das Nações Unidas e da OIT, e neles o PIB é a preço de mercado. O que passa pelo mercado tem preço. O feito em casa não tem."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência elogia o presidente do IBGE e passa a palavra à professora Verônica Ferreira, da UFRN.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Sustenta que metade da humanidade cuida da humanidade inteira, defende creche universal perto de casa e avisa que sem financiamento nada disso se realiza.",
+   "quote": [
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 57,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A organização social do cuidado onera as mulheres e só muda com políticas universais e financiadas que enfrentem a divisão sexual do trabalho.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a organização social do cuidado é injusta porque metade da humanidade cuida da humanidade inteira e perde tempo de cuidar de si",
+     "plain": "A organização social do cuidado é injusta: metade da humanidade cuida da humanidade inteira e, por causa disso, perde o tempo de cuidar de si mesma. E essa metade são as mulheres."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      32,
+      33
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso universalizar políticas que já existem, e por isso se defende a creche universal perto do local de moradia",
+     "plain": "Com esses exemplos, aponto uma coisa fundamental: universalizar políticas que já existem e que permitem às mulheres entrar no mercado com direitos. É por isso que defendemos a creche universal perto de casa."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "economico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "sem financiamento a política de cuidado segue a baixo custo, feita por mulheres não remuneradas, e nada do que se discute se realiza",
+     "plain": "Não dá para universalizar a política de cuidado sem financiamento. O risco é seguirmos com política a baixo custo, e quem faz isso são mulheres que não recebem nada. Sem dinheiro, nada disso que discutimos se realiza."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à professora e passa a palavra a Cosette Castro, do Coletivo Filhas da Mãe.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Relata que as cuidadoras familiares adoecem e se endividam, pede bolsa salário e aposentadoria pelos anos de cuidado e propõe um censo do cuidado.",
+   "quote": [
+    46,
+    47,
+    48
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 46,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Cuidar é trabalho e por isso quem cuida de um familiar deve receber uma bolsa salário e poder se aposentar pelos anos dedicados.",
+    "sentence": 47
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      36,
+      37
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as cuidadoras familiares estão envelhecendo, endividadas, com sobrecarga física e mental, e estão adoecendo mentalmente",
+     "plain": "As cuidadoras familiares estão envelhecendo, estão endividadas e carregam sobrecarga física e mental. Elas estão adoecendo mentalmente."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      46,
+      47,
+      48
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "queremos uma bolsa salário, porque o cuidado é um trabalho e por isso tem de ser remunerado",
+     "plain": "Nós queremos uma bolsa salário. Cuidar é trabalho, e trabalho tem de ser pago."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      83,
+      84,
+      85
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a pesquisa de uso do tempo precisa de séries históricas, e falta pensar um censo do cuidado, porque há vários tipos de cuidadora",
+     "plain": "Uma pesquisa de uso do tempo com séries históricas é importantíssima, e eu quero parabenizá-la. Falta ainda pensar num censo do cuidado, porque há vários tipos de cuidadora. Só entre as não remuneradas há cinco ou seis tipos diferentes."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede colocar o cuidado no centro da economia, aponta os trabalhos que ficam fora das estatísticas e anuncia o projeto de lei em regime de urgência.",
+   "quote": [
+    39,
+    40
+   ],
+   "covered": true,
+   "evidence": [
+    5,
+    6
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É urgente rever os conceitos e colocar o cuidado no centro das políticas e da economia, e o projeto de lei faz parte disso.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é urgente rever os conceitos e colocar o cuidado na centralidade e na transversalidade das políticas e da economia",
+     "plain": "Por tudo isso, é urgente rever os conceitos e pôr o cuidado na centralidade e na transversalidade das nossas políticas e da nossa economia."
+    },
+    {
+     "id": "b017c2",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há trabalhos de cuidado feitos dentro e fora de casa que não entram em estatística, em cálculo nem em cobertura previdenciária",
+     "plain": "A parte que chamamos de visível é essa, reconhecida e valorizada. Há os trabalhos que não são valorizados, feitos dentro e fora de casa e por redes de solidariedade, que não entram em estatística, em cálculo nem em cobertura da previdência."
+    },
+    {
+     "id": "b017c3",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o PL 638/2019, que deve entrar em regime de urgência, trata da inclusão da economia do cuidado no sistema de contas nacionais",
+     "plain": "Por acreditar nessa construção, apresentamos o PL 638/2019, que possivelmente na próxima semana entra em regime de urgência, para ampliarmos a discussão. Ele trata da inclusão da economia do cuidado no sistema de contas nacionais."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 27,
+   "from_claim": "b006c1",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "As duas secretárias sustentam a mesma ideia por caminhos diferentes: o cuidado produz, e sem ele a economia não funcionaria."
+  },
+  {
+   "from": "b007",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 29,
+   "from_claim": "b007c2",
+   "to_claim": "b004c2",
+   "strength": "media",
+   "note": "A presidência reforça o ponto da secretaria pelo outro lado: se o cuidado é trabalho, a divisão entre trabalho econômico e não econômico não se sustenta."
+  },
+  {
+   "from": "b007",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 26,
+   "from_claim": "b007c1",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "À razão que mantém as mulheres fora do mercado, a presidência acrescenta a cena da pandemia e pergunta quem ficou em casa cuidando de tudo."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 20,
+   "to_sentence": 38,
+   "from_claim": "b008c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "A jurista adere à pesquisa de uso do tempo e diz o que ela precisa medir: o tempo das mulheres negras e o deslocamento da trabalhadora doméstica."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 24,
+   "from_claim": "b010c2",
+   "to_claim": "b004c1",
+   "strength": "forte",
+   "note": "O dado internacional aponta na mesma direção da PNAD: são 606 milhões de mulheres contra 41 milhões de homens vendo o cuidado como obstáculo no trabalho."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "contradiz",
+   "from_sentence": 29,
+   "to_sentence": 30,
+   "from_claim": "b010c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Para a ministra do Tribunal Superior do Trabalho, entrar nas contas nacionais importa menos do que o efeito de uma boa política de cuidados no IDH."
+  },
+  {
+   "from": "b010",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 24,
+   "to_sentence": 27,
+   "from_claim": "b010c2",
+   "to_claim": "b006c2",
+   "strength": "media",
+   "note": "Os 2% dos homens apurados pela secretaria aparecem do outro lado do mesmo cálculo na pesquisa internacional citada pela ministra."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 27,
+   "to_sentence": 39,
+   "from_claim": "b012c2",
+   "to_claim": "b006c3",
+   "strength": "forte",
+   "note": "Ao pedido da secretaria por uma pesquisa de uso do tempo, o IBGE responde que a dificuldade não é técnica e sim de recurso próprio."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 30,
+   "from_claim": "b012c3",
+   "to_claim": "b004c3",
+   "strength": "media",
+   "note": "O IBGE concorda com o objetivo, mas explica o obstáculo: as contas nacionais medem o PIB a preço de mercado e o trabalho feito em casa não tem preço."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 25,
+   "from_claim": "b014c1",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "As duas descrevem a mesma organização injusta: são as mulheres que provêm o cuidado, e é isso que as mantém fora do trabalho pago."
+  },
+  {
+   "from": "b014",
+   "to": "b001",
+   "kind": "apoia",
+   "from_sentence": 57,
+   "to_sentence": 28,
+   "from_claim": "b014c3",
+   "to_claim": "b001c3",
+   "strength": "forte",
+   "note": "À dotação que a comissão conseguiu no PPA, a professora responde que sem financiamento a política de cuidado continua sendo feita a baixo custo pelas mulheres."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 36,
+   "to_sentence": 15,
+   "from_claim": "b016c1",
+   "to_claim": "b014c1",
+   "strength": "forte",
+   "note": "A sobrecarga descrita pela professora aparece no relato do coletivo: as cuidadoras familiares envelhecem, se endividam e adoecem."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 84,
+   "to_sentence": 38,
+   "from_claim": "b016c3",
+   "to_claim": "b006c3",
+   "strength": "media",
+   "note": "O coletivo apoia a pesquisa de uso do tempo e pede que ela venha com séries históricas."
+  },
+  {
+   "from": "b016",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 85,
+   "to_sentence": 27,
+   "from_claim": "b016c3",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "Ao pedido do IBGE por recurso, o coletivo soma a proposta de um censo do cuidado, porque há vários tipos de cuidadora."
+  },
+  {
+   "from": "b017",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 30,
+   "to_sentence": 47,
+   "from_claim": "b017c2",
+   "to_claim": "b016c2",
+   "strength": "forte",
+   "note": "A presidência recolhe o pedido do coletivo e nomeia o problema: esses trabalhos não entram em estatística nem em cobertura da previdência."
+  },
+  {
+   "from": "b017",
+   "to": "b010",
+   "kind": "contradiz",
+   "from_sentence": 23,
+   "to_sentence": 29,
+   "from_claim": "b017c1",
+   "to_claim": "b010c3",
+   "strength": "media",
+   "note": "A presidência mantém o cuidado no centro da economia, enquanto a ministra do Tribunal Superior do Trabalho põe o IDH à frente do PIB."
+  },
+  {
+   "from": "b017",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 40,
+   "to_sentence": 30,
+   "from_claim": "b017c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "O projeto de lei faz exatamente o que a secretaria defendeu: incluir a economia do cuidado no sistema de contas nacionais."
+  },
+  {
+   "from": "b017",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 39,
+   "to_sentence": 29,
+   "from_claim": "b017c3",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "À falta de recurso apontada pelo IBGE, a presidência responde com o projeto que deve entrar em regime de urgência na semana seguinte."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b001",
+    "b004",
+    "b006",
+    "b007",
+    "b012"
+   ],
+   "claims": [
+    "b001c2",
+    "b004c2",
+    "b006c1",
+    "b007c2",
+    "b012c1"
+   ],
+   "note": "A presidência da comissão, as duas secretarias do governo federal e o IBGE concordam que cuidar é trabalho, e não amor ou vocação, e que sem esse trabalho a economia não funcionaria."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b004",
+    "b006",
+    "b007",
+    "b010",
+    "b014"
+   ],
+   "claims": [
+    "b004c1",
+    "b006c2",
+    "b007c1",
+    "b010c2",
+    "b014c1"
+   ],
+   "note": "Governo, presidência da comissão, Justiça do Trabalho e universidade concordam que é a conta do cuidado dentro de casa que mantém milhões de mulheres fora do trabalho pago."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b010",
+    "b017"
+   ],
+   "claims": [
+    "b004c3",
+    "b010c1",
+    "b017c1",
+    "b017c3"
+   ],
+   "note": "O Ministério das Mulheres, a Justiça do Trabalho e a presidência da comissão concordam que esse trabalho pode ser calculado e precisa aparecer nas contas do país, mesmo discordando do peso do PIB."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b006",
+    "b008",
+    "b012",
+    "b016"
+   ],
+   "claims": [
+    "b006c3",
+    "b008c3",
+    "b012c2",
+    "b016c3"
+   ],
+   "note": "O governo, o IBGE, uma jurista e um coletivo de cuidadoras concordam que o Brasil precisa de uma pesquisa de uso do tempo, e que ela depende de orçamento."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b001",
+    "b014"
+   ],
+   "claims": [
+    "b001c3",
+    "b014c2"
+   ],
+   "note": "A presidência da comissão e a professora da UFRN concordam que a política de cuidados só existe de verdade com dinheiro previsto e com serviços universais como a creche."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b016",
+    "b017"
+   ],
+   "claims": [
+    "b016c1",
+    "b016c2",
+    "b017c2"
+   ],
+   "note": "O coletivo de cuidadoras e a presidência da comissão concordam que quem cuida sem receber está fora da estatística e da previdência, e que esse trabalho tem de ser remunerado."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b008",
+   "sentence": 20,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "medir na pesquisa o tempo das mulheres negras e o deslocamento",
+   "plain": "A pesquisa de uso do tempo vai medir o tempo das mulheres negras e o deslocamento da trabalhadora doméstica?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b012",
+   "sentence": 29,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "de onde sai o recurso para a pesquisa de uso do tempo",
+   "plain": "De onde vai sair o dinheiro para o IBGE fazer a pesquisa de uso do tempo?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b014",
+   "sentence": 57,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "como financiar a política de cuidado para ela sair do papel",
+   "plain": "Como garantir o financiamento sem o qual nada dessa política de cuidado se realiza?",
+   "theme": "d5",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b016",
+   "sentence": 46,
+   "addressed_to": "governo",
+   "answered_by": null,
+   "gist": "criar uma bolsa salário para quem cuida de familiar",
+   "plain": "Quem cuida de um familiar sem receber nada vai ter uma bolsa salário?",
+   "theme": "d7",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b004",
+   "sentence": 23,
+   "gist": "mulheres 21 horas por semana em casa, homens 11",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 22,
+   "gist": "mulheres vivem em média 7 anos mais que os homens",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 27,
+   "gist": "só 2% dos homens apontam o cuidado como razão",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 61,
+   "gist": "mulheres negras são 45% das profissões do cuidado",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 11,
+   "gist": "Lei Complementar nº 150, de 2015, para as domésticas",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 12,
+   "gist": "2 bilhões precisam de cuidado, 2,5 bilhões em 2030",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b010",
+   "sentence": 19,
+   "gist": "o cuidado equivaleria a 11% do PIB",
+   "disputed_by": [
+    {
+     "fala": "b012",
+     "sentence": 33
+    }
+   ]
+  },
+  {
+   "id": "f8",
+   "fala": "b010",
+   "sentence": 20,
+   "gist": "em valores, cerca de 634 bilhões de reais",
+   "disputed_by": [
+    {
+     "fala": "b012",
+     "sentence": 35
+    }
+   ]
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 23,
+   "gist": "606 milhões de mulheres contra 41 milhões de homens",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 8,
+   "gist": "a população brasileira multiplicou-se 10 vezes no século XX",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b014",
+   "sentence": 52,
+   "gist": "metade das mulheres com licença de 6 meses é demitida",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b016",
+   "sentence": 79,
+   "gist": "analfabetismo funcional atinge 30% da população",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo"
+  ],
+  "angle": "A matéria escolheu o apoio dos debatedores a incluir o trabalho não remunerado de cuidado nas contas do PIB, e fechou com a ponderação da ministra do Tribunal Superior do Trabalho de que o IDH importa mais.",
+  "omitted": "Ficaram de fora o pedido do IBGE por orçamento para a pesquisa de uso do tempo, o recorte de raça e a exclusão das trabalhadoras domésticas na Constituinte, o aviso de que sem financiamento a política não se realiza e o pedido de bolsa salário e aposentadoria para quem cuida de familiar."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Contar o cuidado nas contas do país muda tudo",
+   "statement_plain": "O trabalho de cuidar que ninguém paga tem de entrar no cálculo do PIB e nas contas nacionais. É isso que torna esse trabalho visível e muda como a sociedade o enxerga.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel",
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b017c3",
+    "b010c1",
+    "b004c2",
+    "b006c1"
+   ],
+   "note": "É uma ideia, e não um bloco: ela junta a presidência da comissão, uma secretaria do Executivo e a Justiça do Trabalho, e quem mais a relativiza é a própria ministra que traz o número do PIB."
+  },
+  {
+   "id": "t2",
+   "title": "Mais que entrar na conta, é preciso executar",
+   "statement_plain": "Entrar na conta do PIB é só um passo. O que muda a vida das pessoas é a política de cuidado executada, com dinheiro previsto, e o efeito dela no Índice de Desenvolvimento Humano.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "contrario",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b007c3",
+    "b010c3",
+    "b014c2",
+    "b001c3"
+   ],
+   "note": "A ideia se opõe à t1 no mesmo tema e divide a própria mesa: a presidência, que é autora do projeto, também diz que a lei não basta, e a ministra do TST põe o IDH na frente."
+  },
+  {
+   "id": "t3",
+   "title": "Cuidar é trabalho, não é amor",
+   "statement_plain": "Cuidar de crianças, idosos e doentes dentro de casa é trabalho, e não amor nem vocação natural das mulheres. É esse trabalho que sustenta a vida e a economia.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b004c2",
+    "b006c1",
+    "b007c2",
+    "b012c1",
+    "b014c1"
+   ],
+   "note": "A ideia cruza os papéis da sala: duas secretarias do Executivo, o IBGE, a presidência da comissão e uma professora da UFRN a sustentam com argumentos distintos."
+  },
+  {
+   "id": "t4",
+   "title": "Sem pesquisa de uso do tempo não há política",
+   "statement_plain": "Antes de decidir, o país precisa medir quantas horas cada pessoa gasta cuidando. Sem uma pesquisa de uso do tempo, com séries históricas e recorte de raça, a política anda no escuro.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b006c3",
+    "b008c3",
+    "b012c2",
+    "b016c3"
+   ],
+   "note": "A ideia junta o órgão que faria a pesquisa, o ministério que a encomendaria, uma jurista e um coletivo de cuidadoras, que pedem coisas diferentes da mesma pesquisa."
+  },
+  {
+   "id": "t5",
+   "title": "Quem cuida precisa de salário e aposentadoria",
+   "statement_plain": "Quem passa anos cuidando de um familiar sem receber nada deveria ter uma bolsa salário enquanto cuida e poder se aposentar pelos anos dedicados a esse trabalho.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b016c1",
+    "b016c2",
+    "b017c2"
+   ],
+   "note": "A ideia nasce do coletivo de cuidadoras familiares e é recolhida pela presidência da comissão, que a traduz em falta de cobertura previdenciária."
+  },
+  {
+   "id": "t6",
+   "title": "Sem enfrentar o racismo a estrutura não muda",
+   "statement_plain": "Pensar o cuidado só pelo lado das mulheres não basta. A política tem de enfrentar o racismo e reparar a exclusão histórica das trabalhadoras domésticas, que são em maioria mulheres negras.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel",
+    "d2": "favoravel"
+   },
+   "claims_chave": [
+    "b008c1",
+    "b008c2",
+    "b014c1",
+    "b004c1"
+   ],
+   "note": "A ideia sai de uma jurista e é sustentada também por uma professora e por uma secretaria do Executivo, que mostra que o número piora quando se faz o recorte racial."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "economia do cuidado",
+   "fala": "b001",
+   "sentence": 2,
+   "plain": "o conjunto do trabalho de cuidar de pessoas, pago ou não, visto como parte da economia e não como favor de família"
+  },
+  {
+   "term": "PPA",
+   "fala": "b001",
+   "sentence": 28,
+   "plain": "Plano Plurianual: a lei que define onde o governo vai gastar nos próximos quatro anos"
+  },
+  {
+   "term": "PNAD",
+   "fala": "b004",
+   "sentence": 23,
+   "plain": "Pesquisa Nacional por Amostra de Domicílios, do IBGE, que entrevista milhares de casas para saber como vive a população"
+  },
+  {
+   "term": "trabalho reprodutivo",
+   "fala": "b004",
+   "sentence": 20,
+   "plain": "o trabalho feito em casa que mantém as pessoas de pé: cozinhar, limpar, lavar, cuidar de quem precisa"
+  },
+  {
+   "term": "pesquisa de uso do tempo",
+   "fala": "b006",
+   "sentence": 38,
+   "plain": "pesquisa que mede quantas horas cada pessoa gasta em cada atividade do dia, do trabalho pago às tarefas de casa"
+  },
+  {
+   "term": "contas satélites",
+   "fala": "b006",
+   "sentence": 39,
+   "plain": "contas feitas ao lado das contas oficiais do país para dar valor em dinheiro a algo que o PIB não mede"
+  },
+  {
+   "term": "nem-nem",
+   "fala": "b006",
+   "sentence": 28,
+   "plain": "apelido dado a jovens que não estudam nem trabalham, e que muitas vezes estão cuidando de alguém em casa"
+  },
+  {
+   "term": "universalismo progressivo",
+   "fala": "b006",
+   "sentence": 57,
+   "plain": "atender todo mundo no fim, começando pelos grupos que mais precisam"
+  },
+  {
+   "term": "anticapacitismo",
+   "fala": "b006",
+   "sentence": 62,
+   "plain": "recusa da discriminação contra pessoas com deficiência"
+  },
+  {
+   "term": "Convenção nº 156",
+   "fala": "b006",
+   "sentence": 70,
+   "plain": "acordo da Organização Internacional do Trabalho sobre trabalhadores com responsabilidades de família, ainda não ratificado pelo Brasil"
+  },
+  {
+   "term": "Lei Complementar nº 150",
+   "fala": "b008",
+   "sentence": 11,
+   "plain": "lei de 2015 que garantiu direitos trabalhistas às empregadas domésticas, como jornada e hora extra"
+  },
+  {
+   "term": "IDH",
+   "fala": "b010",
+   "sentence": 29,
+   "plain": "Índice de Desenvolvimento Humano: medida que junta renda, saúde e educação para dizer como vive a população"
+  },
+  {
+   "term": "relação de dependência",
+   "fala": "b012",
+   "sentence": 12,
+   "plain": "proporção entre quem precisa de cuidado, como crianças e idosos, e quem está em idade de trabalhar"
+  },
+  {
+   "term": "divisão sexual do trabalho",
+   "fala": "b014",
+   "sentence": 24,
+   "plain": "reparto histórico que deixa o trabalho de casa e de cuidar para as mulheres e o trabalho pago para os homens"
+  },
+  {
+   "term": "cuidadoras sanduíches",
+   "fala": "b016",
+   "sentence": 66,
+   "plain": "quem cuida de duas gerações ao mesmo tempo, dos filhos e dos pais idosos"
+  }
+ ]
+}

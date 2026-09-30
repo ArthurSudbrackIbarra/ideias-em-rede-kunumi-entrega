@@ -1,0 +1,1954 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 189,
+ "model": "LLM lendo o prompt hearing-189 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-17T13:13:55Z",
+ "prompt_sha256": "482b500c334d7f4b4e8fc95392a722adbab7b65a31ab2301cf7d9c9f0d6e09d9",
+ "sentences_hash": "183730be64ff4701",
+ "review": {
+  "pairs_read": 37,
+  "pairs_fixed": 13
+ },
+ "warnings": [
+  "tese t1: todas as cartas-chave vêm de um só papel (setor_privado); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "Terceira audiência da Comissão de Desenvolvimento Econômico sobre o Projeto de Lei 2.768, de 2022, dedicada a competitividade e concorrência nos mercados digitais. Spotify, Mercado Livre, o sindicato das teles e o Cade apresentaram pedidos de mudança no texto, e discordaram entre si sobre quem deve ser alcançado pela lei, quando intervir e quem aplica a regra.",
+ "stakes": "O relatório do Projeto de Lei 2.768 dependia de um critério para dizer quais plataformas entram na regra e de uma definição sobre qual órgão aplica a lei.",
+ "central_question": "Quais plataformas a lei deve alcançar, com que critério, e qual autoridade deve aplicá-la?",
+ "synopsis_plain": "A comissão ouviu Spotify, Mercado Livre, o sindicato das empresas de telefonia e o Cade sobre o projeto que cria regras para as grandes plataformas digitais. O Spotify contou o que paga à Apple e quer a lei. O Mercado Livre diz que o comércio eletrônico já é competitivo e que a regra erraria o alvo. As teles querem dividir a conta da rede. O Cade pede cuidado.",
+ "stakes_plain": "O texto do projeto ia depender do critério para dizer quais plataformas entram na regra e de qual órgão fica com a tarefa de aplicá-la.",
+ "central_question_plain": "Quais plataformas a lei deve alcançar, com que critério, e quem vai aplicar essa regra?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Critério para alcançar as plataformas",
+   "description": "Se a lei deve pegar as plataformas pelo tamanho e pelo faturamento ou só onde a autoridade provar que falta concorrência.",
+   "axis": {
+    "pro": "O limite de tamanho ou de faturamento é o critério certo para dizer quem é regulado.",
+    "contra": "O tamanho sozinho não mede concorrência, e só deve ser regulado quem a autoridade provar que é dominante.",
+    "pro_plain": "O jeito certo de escolher quem entra na lei é pelo tamanho ou pelo faturamento da plataforma.",
+    "contra_plain": "Tamanho não é sinal de poder. Só entra na lei quem a autoridade provar que domina o mercado."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Importar ou adaptar a regra estrangeira",
+   "description": "Se o Brasil deve seguir os modelos já aprovados na Europa e em outros países ou adaptar as lições à realidade local.",
+   "axis": {
+    "pro": "O Brasil deve seguir os modelos já adotados na Europa e em outros países.",
+    "contra": "O Brasil deve tirar lições de fora e adaptá-las à realidade e ao direito local.",
+    "pro_plain": "O Brasil deve seguir o que a Europa e outros países já aprovaram.",
+    "contra_plain": "O Brasil deve aprender com o que foi feito fora e adaptar à nossa realidade e às nossas leis."
+   },
+   "contested": true
+  },
+  {
+   "id": "d3",
+   "name": "Regra fixa ou com exceção",
+   "description": "Se as obrigações devem valer igual para todos e sem exceção ou se a plataforma deve poder pedir autorização caso a caso.",
+   "axis": {
+    "pro": "As obrigações devem valer igual para todos e sem exceção, o que dá clareza ao mercado.",
+    "contra": "A autoridade deve definir as obrigações por mercado, e a plataforma deve poder pedir autorização.",
+    "pro_plain": "As obrigações devem valer igual para todas as plataformas, sem exceção. Assim o mercado sabe o que esperar.",
+    "contra_plain": "Cada mercado é diferente. A plataforma deve poder pedir autorização para o que a regra proíbe."
+   },
+   "contested": true
+  },
+  {
+   "id": "d4",
+   "name": "Intervir antes ou depois da conduta",
+   "description": "Se é preciso criar obrigações antes de haver infração ou se primeiro vem o diagnóstico, com as ferramentas do antitruste.",
+   "axis": {
+    "pro": "É preciso criar obrigações antes da infração, porque a lei de concorrência não deu conta.",
+    "contra": "Primeiro vem o diagnóstico do problema, com as ferramentas já existentes do antitruste.",
+    "pro_plain": "A lei de concorrência não deu conta, então é preciso criar obrigações antes de haver abuso.",
+    "contra_plain": "Primeiro é preciso mostrar qual é o problema. Só depois vem a obrigação."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Autopreferência das plataformas",
+   "description": "Se a lei deve proibir a plataforma de favorecer os próprios serviços dentro do seu ecossistema.",
+   "axis": {
+    "pro": "A plataforma dominante não pode favorecer os próprios serviços, e a lei deve proibir isso.",
+    "contra": "Punir a autopreferência sem uma teoria firme pode elevar o preço pago pelo consumidor.",
+    "pro_plain": "A plataforma grande não pode dar vantagem ao próprio serviço. A lei tem de proibir isso.",
+    "contra_plain": "Não há teoria firme sobre isso, e proibir pode acabar aumentando o preço para quem compra."
+   },
+   "contested": true
+  },
+  {
+   "id": "d6",
+   "name": "Desequilíbrio entre teles e plataformas",
+   "description": "Se as plataformas devem dividir o custo da rede e ter obrigações e tributos parecidos com os das empresas de telecomunicações.",
+   "axis": {
+    "pro": "As plataformas devem dividir o custo da rede e ter obrigações e tributos equivalentes aos das teles.",
+    "contra": "Não cabe estender às plataformas as obrigações do setor de telecomunicações.",
+    "pro_plain": "As plataformas usam a rede e devem dividir o custo dela, com obrigações e impostos parecidos com os das teles.",
+    "contra_plain": "As obrigações que valem para as empresas de telefonia não devem ser estendidas às plataformas."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Quem aplica a regra",
+   "description": "Se a Anatel deve aplicar a regulamentação, como prevê o projeto, ou se a tarefa cabe ao órgão de concorrência, em cooperação.",
+   "axis": {
+    "pro": "A Anatel deve ser a autoridade que aplica a regulamentação, como prevê o projeto.",
+    "contra": "A tarefa cabe ao órgão de concorrência, em cooperação com a agência do setor.",
+    "pro_plain": "Quem deve aplicar a lei é a Anatel, a agência das telecomunicações, como o projeto prevê.",
+    "contra_plain": "Quem sabe medir poder de mercado é o órgão de concorrência. O caminho é os dois trabalharem juntos."
+   },
+   "contested": true
+  },
+  {
+   "id": "d8",
+   "name": "Acesso a dados para fiscalizar",
+   "description": "Se os órgãos que fiscalizam concorrência devem ter acesso às bases de dados públicas, hoje restritas a uso tributário.",
+   "axis": {
+    "pro": "O órgão de concorrência precisa de acesso aos dados públicos para fiscalizar os mercados.",
+    "contra": "Os dados de notas fiscais só devem servir à análise de infração tributária.",
+    "pro_plain": "Quem fiscaliza concorrência precisa poder usar os dados que o serviço público já tem.",
+    "contra_plain": "Os dados de nota fiscal servem só para apurar sonegação, e não para outras análises."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da audiência e relatora do Projeto de Lei 2.768, de 2022",
+   "org": "Comissão de Desenvolvimento Econômico da Câmara dos Deputados",
+   "basis": "abre a reunião em b001.0 e se identifica como Relatora em b001.24",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que analisa temas de economia e produção"
+  },
+  "s02": {
+   "role": "setor_privado",
+   "cargo": "Consultor de Relações Governamentais",
+   "org": "Spotify",
+   "basis": "apresentado pela presidência em b001.7",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Spotify",
+   "org_plain": "empresa de streaming de música por assinatura, com serviço no Brasil e em mais de 180 mercados"
+  },
+  "s03": {
+   "role": "setor_privado",
+   "cargo": "Diretora de Enhanced Marketplace",
+   "org": "Mercado Livre",
+   "basis": "apresentada pela presidência em b001.6",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Mercado Livre",
+   "org_plain": "empresa de tecnologia de comércio eletrônico e serviços financeiros no Brasil e na América Latina"
+  },
+  "s04": {
+   "role": "setor_privado",
+   "cargo": "Diretor de Regulação e Autorregulação",
+   "org": "Conexis Brasil Digital",
+   "basis": "apresentado pela presidência em b001.5 e por ele mesmo em b012.3",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Conexis, que representa as empresas de telefonia",
+   "org_plain": "sindicato nacional que representa as principais empresas de telecomunicações do país"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Economista-Adjunto, do Departamento de Estudos Econômicos",
+   "org": "CADE",
+   "basis": "apresentado pela presidência em b001.4 e situa o próprio departamento em b016.16",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Cade, o órgão de defesa da concorrência",
+   "org_plain": "autarquia federal que julga casos de concorrência e aprova ou barra fusões de empresas"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "setor_privado",
+    "share": 0.4
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.3
+   },
+   {
+    "role": "governo",
+    "share": 0.2
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "a transcrição não registra delegações, entidades presentes nem palmas. A mesa só cita convidados que não compareceram, em b001.8 e b001.9",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Abre a terceira audiência sobre o projeto e diz que não quer uma lei que crie burocracia num mercado dinâmico e tire competitividade do Brasil.",
+   "quote": [
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    27,
+    28,
+    30
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A lei não pode criar burocracia num mercado que muda rápido nem tirar competitividade do país.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      21
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as audiências foram pedidas porque o mercado é dinâmico e a lei não pode criar burocracia que tire competitividade do país",
+     "plain": "Pedimos estas audiências porque é um mercado muito dinâmico, que não fica parado. Com a legislação, não queremos criar burocracia nem dificuldade que tire a alta competitividade do Brasil."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o debate precisa esclarecer as barreiras à entrada de novos negócios, as práticas anticompetitivas e como promover concorrência justa",
+     "plain": "Esperamos sair deste debate com uma visão mais clara sobre barreiras à entrada de negócios novos, sejam pequenos, médios ou grandes, sobre práticas anticompetitivas e sobre como promover concorrência justa no setor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Relata que o Spotify paga 30% à Apple para vender assinatura no aplicativo, apoia a nova lei como complemento ao antitruste e pede cautela com a receita como critério.",
+   "quote": [
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A lei de concorrência não conteve o abuso das plataformas de acesso, e o projeto é um complemento necessário.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as leis de concorrência não conseguiram enfrentar as condutas injustas das plataformas de controle de acesso",
+     "plain": "Como empresa atingida em primeira mão pelo abuso das plataformas de celular, o Spotify é uma das principais vozes no mundo a favor de uma lei que complemente o antitruste. Ela alcança o que a lei de concorrência não alcançou."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Apple deixa o Spotify entre pagar 30% da receita de assinatura ou não poder avisar o cliente, e o Apple Music não passa por isso",
+     "plain": "A Apple nos deixou uma escolha ruim: vender a assinatura dentro do aplicativo e pagar a ela 30% da nossa receita, ou inscrever o cliente no nosso site sem poder contar a ele como fazer isso. O Apple Music não tem essas restrições."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      43,
+      44,
+      45
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "nenhuma das plataformas móveis dominantes tem receita atribuível à plataforma, porque a Apple monetiza o iOS pela venda dos iPhones",
+     "plain": "Nenhuma das plataformas móveis dominantes tem necessariamente receita que se possa atribuir à plataforma em si. A Apple não licencia nem vende à parte o seu sistema operacional, o iOS. Ela ganha com a venda dos iPhones que já vêm com ele."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Pergunta se a empresa já percebe algum impacto, positivo ou negativo, da lei europeia de mercados digitais sobre o próprio negócio.",
+   "quote": [
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 1,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber que efeito a lei europeia já produziu sobre uma empresa que atua lá.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b003c1",
+     "sentences": [
+      1
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta saber se a empresa já percebe algum impacto positivo ou negativo da lei europeia de mercados digitais",
+     "plain": "Considerando o tempo que a lei europeia de mercados digitais já tem, a empresa consegue perceber algum impacto positivo ou negativo dela sobre o Spotify na Europa?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Spotify diz que não tem autorização para responder e que a resposta virá por escrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Diz que as experiências internacionais importam, mas que copiar a lei de outro país talvez não seja o melhor caminho, porque os mercados e as culturas são diferentes.",
+   "quote": [
+    1,
+    2,
+    3
+   ],
+   "covered": true,
+   "evidence": [
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Copiar a lei de outro país não é o melhor caminho, porque mercados e culturas são diferentes.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b005c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as experiências internacionais importam, mas copiar a lei de outro país talvez não seja o melhor caminho para o Brasil",
+     "plain": "Acredito que as experiências internacionais são bem importantes. Mas também são mercados e culturas diferentes. Por isso, simplesmente copiar uma lei de outro país e adotar aqui talvez não seja o melhor caminho."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Sustenta que usar o tamanho da plataforma como critério é técnica regulatória inadequada e pede que o Brasil adapte as lições estrangeiras à realidade local.",
+   "quote": [
+    33,
+    34
+   ],
+   "covered": true,
+   "evidence": [
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O tamanho da plataforma não mede concorrência, e regular por esse critério atinge mercado que já é competitivo.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      31,
+      32
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "um limite ligado só ao tamanho da plataforma não mede quanta concorrência efetiva existe naquele mercado",
+     "plain": "O Mercado Livre acredita que esse critério parte de uma técnica regulatória inadequada. Um limite ligado só ao tamanho da plataforma não mede a concorrência efetiva. Isso exige olhar muitas outras características."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      39,
+      40
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "as regras estrangeiras recentes trazem obrigações absolutas, escritas em pedra, sem chance de exceção ou de revisão",
+     "plain": "Um terceiro problema que vemos em regras de plataformas aprovadas lá fora, e que devemos evitar aqui, é que as obrigações e proibições são escritas em pedra. São absolutas, sem qualquer chance de exceção ou revisão."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      52,
+      53
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "técnicas regulatórias inadequadas podem ser importadas sem adaptação à realidade local e acabar retardando a concorrência",
+     "plain": "Nossa preocupação é que técnicas regulatórias inadequadas sejam importadas sem adaptação à realidade local, e acabem atrasando a concorrência e prejudicando os consumidores. O esforço deve ser tirar lições de fora e adaptá-las ao Brasil."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se o comércio eletrônico brasileiro é mesmo descentralizado e qual é o espaço que o Mercado Livre ocupa nesse mercado.",
+   "quote": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se o comércio eletrônico brasileiro é descentralizado e que fatia a empresa tem nele.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b007c1",
+     "sentences": [
+      1,
+      2,
+      3
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "é preciso saber se o comércio eletrônico brasileiro é mesmo descentralizado, como a empresa afirmou",
+     "plain": "Em algum momento você disse que existe uma concorrência importante no comércio eletrônico do Brasil. Isso quer dizer que esse comércio é absolutamente descentralizado? Ele é mesmo?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b008",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que o comércio eletrônico brasileiro é extremamente competitivo e cita estudo em que nenhum dos nove participantes analisados passa de 25% dos pedidos.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O comércio eletrônico brasileiro é competitivo e nenhum participante chega perto de dominar o mercado.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      0,
+      1,
+      2
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "há estudo recente mostrando que o comércio eletrônico brasileiro é extremamente competitivo e concorre também com o varejo físico",
+     "plain": "Existe um estudo recente, com vários participantes, que mostra que o comércio eletrônico no Brasil é extremamente competitivo. A concorrência é intensa entre eles e com o varejo físico, que é muito maior e vai seguir maior por anos."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "num estudo com nove participantes do comércio eletrônico, nenhum passa de 25% quando medido por número de pedidos",
+     "plain": "Encomendamos uma pesquisa à consultoria GfK, que analisou a concorrência entre plataformas no comércio eletrônico brasileiro e olhou apenas nove participantes. Nenhum deles passa de 25% quando se mede o número de pedidos."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Pergunta se não há como escalonar a posição das plataformas dentro do comércio eletrônico.",
+   "quote": [
+    0
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber se as posições das plataformas no comércio eletrônico podem ser escalonadas.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b009c1",
+     "sentences": [
+      0
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "falta saber se dá para escalonar a posição de cada plataforma dentro do comércio eletrônico",
+     "plain": "E não há como fazer um escalonamento de posição?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b010",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Responde que a participação flutua e cita a entrada recente de Shopee e Shein para sustentar que o comércio eletrônico não tem participante dominante.",
+   "quote": [
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "No comércio eletrônico não há participante dominante, e regular esse mercado traria mais custo do que benefício.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      2,
+      3,
+      4
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Shopee entrou no Brasil há 4 anos e a Shein há 3 anos, o que mostra que novos entrantes conseguem ingressar e chegar a posição relevante",
+     "plain": "Além de termos vários participantes aqui no Brasil, chegam outros. A Shopee entrou há 4 anos e a Shein, há 3 anos. Isso mostra um mercado muito competitivo, em que quem chega consegue entrar e ocupar posição relevante."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "economico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "no comércio eletrônico não há participante dominante, e regular esse mercado traria mais custo do que benefício ao consumidor",
+     "plain": "A participação de cada plataforma e a flutuação dela ao longo do tempo mostram que o comércio eletrônico não pende para um só nem tem agente dominante. Aqui, regular parece injustificado e custaria mais ao consumidor do que traria."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência diz que o impacto econômico da lei sobre o consumidor merece atenção e passa a palavra à Conexis.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Mostra que poucas plataformas respondem por metade do tráfego das redes, pede que o custo da infraestrutura seja dividido e diz que o projeto de lei é fundamental.",
+   "quote": [
+    27,
+    28
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 22,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O custo da rede precisa ser dividido com as grandes plataformas, e o projeto de lei é necessário para equilibrar o mercado.",
+    "sentence": 21
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      17,
+      18,
+      19
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o tráfego vai crescer até 360% em 6 anos, e as seis maiores plataformas já respondem por 50% do tráfego das redes",
+     "plain": "Essa infraestrutura vai ter de suportar um tráfego que cresce até 360% nos próximos 6 anos. As seis maiores plataformas já respondem por 50% do tráfego das redes. Nas redes móveis, vídeo e redes sociais são 82,5% do total."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      21,
+      22
+     ],
+     "type": "economico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os custos devem ser divididos entre os participantes para garantir a sustentabilidade do ecossistema digital",
+     "plain": "Defendemos que os custos sejam divididos entre os participantes, para manter o ecossistema digital de pé. Não dizemos como. Preocupa-nos como garantir, nos próximos anos, o financiamento compartilhado dessa rede com as plataformas."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      42
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o projeto de lei é fundamental para criar mecanismos que equilibrem a concorrência nos mercados digitais",
+     "plain": "Entendemos que esse projeto de lei é fundamental para criarmos mecanismos que equilibrem melhor a concorrência nos mercados digitais, nos quais entram também as empresas de telecomunicações."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Destaca a ocupação do tráfego pelas grandes plataformas e pergunta o que acontece, com este projeto, com os aplicativos que não consomem o plano de dados.",
+   "quote": [
+    7,
+    8,
+    9
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A ocupação do tráfego pelas grandes plataformas chama a atenção e precisa entrar na conta da lei.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b013c1",
+     "sentences": [
+      2
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a ocupação do tráfego das redes pelas plataformas chama a atenção e merece destaque no debate do projeto",
+     "plain": "Aproveito a segunda participação de vocês para dizer que é muito importante destacar uma coisa que nos chama a atenção: a ocupação do tráfego pelas plataformas."
+    },
+    {
+     "id": "b013c2",
+     "sentences": [
+      7,
+      8
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "alguns aplicativos não consomem o plano de dados e viram atrativo para o consumidor, e falta saber o que a lei faz com isso",
+     "plain": "De modo geral, o fato de alguns aplicativos não consumirem o plano de dados acaba sendo uma ferramenta para atrair o consumidor. Com este projeto de lei, como ficaria essa possibilidade oferecida hoje?"
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b014",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Responde que as empresas móveis são muito competitivas, que essas ofertas atraem o consumidor e que ainda não há nada concreto sobre mudá-las.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "As ofertas que poupam a franquia nascem da disputa por cliente entre as operadoras móveis.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "as operadoras móveis, onde existem o zero rating e a franquia, são extremamente competitivas e disputam cliente com essas iniciativas",
+     "plain": "No setor de telecomunicações, as empresas móveis são extremamente competitivas, e é nelas que existem o zero rating e a franquia. A disputa por cliente é enorme, e elas usam essas iniciativas para facilitar a vida de quem contrata."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      4,
+      5
+     ],
+     "type": "experiencia",
+     "theme": "d6",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "as medidas que deixam o usuário navegar em certos aplicativos sem consumir a franquia são atraentes para o próprio consumidor",
+     "plain": "As empresas vão avaliar isso com visão de mercado, para não afetar o consumidor. Essas medidas são bem interessantes, porque deixam o usuário navegar em certos aplicativos sem gastar a franquia, o que atrai quem contrata."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Ricardo Medeiros de Castro, do Cade, por 10 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Adverte que proibir a autopreferência sem teoria firme pode elevar o preço ao consumidor e critica impor o remédio antes do diagnóstico do problema.",
+   "quote": [
+    49,
+    50
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Impor a obrigação antes de diagnosticar o problema tem custo social e pode encarecer o serviço.",
+    "sentence": 56
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      49,
+      50
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "há estudos empíricos mostrando que impedir a autopreferência faz o consumidor pagar um preço mais elevado",
+     "plain": "Como se vê neste eslaide, há estudos empíricos mostrando que, ao impedir a autopreferência, os consumidores vão pagar um preço muito mais alto. Por isso precisamos de cuidado extremo ao lidar com essa discussão."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      56,
+      57
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "alguns instrumentos invertem a lógica e colocam o remédio antes do diagnóstico, e essa inversão tem custo social",
+     "plain": "O que alguns desses instrumentos tentam fazer é inverter a lógica: colocam o remédio antes do diagnóstico. Isso tem custo social. Eu determino uma separação da empresa sem ter o diagnóstico de que aquilo está errado."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      9,
+      10
+     ],
+     "type": "juridico",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "os dados de nota fiscal só são usados para infração tributária e o Cade tem de pagar ao Serpro por dados do serviço público",
+     "plain": "No Brasil existe a noção de que os dados de nota fiscal eletrônica só servem para apurar infração tributária. Eles não são compartilhados para análise de cartel. E o Cade paga bilhões de reais ao Serpro por dados do serviço público."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Pergunta como o Cade interpreta o projeto designar a Anatel como autoridade responsável, com apenas uma breve menção ao próprio Cade.",
+   "quote": [
+    5,
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "neutro",
+    "claim": "Falta saber como o órgão de concorrência lê a escolha da agência de telecomunicações como autoridade da lei.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b017c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "media",
+     "position": "neutro",
+     "gist": "o Projeto de Lei 2.768 designa a Anatel como autoridade que aplica a regulamentação e menciona o Cade de passagem",
+     "plain": "O Projeto de Lei nº 2.768, que estamos discutindo, designa a Anatel como a autoridade responsável por aplicar essas regras. O Cade aparece só de passagem no texto. Como vocês interpretam essa atribuição e essas responsabilidades?"
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b018",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Cade diz que teria dificuldade de falar em nome do órgão sobre esse tema.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Insiste na pergunta e argumenta que o papel do órgão de concorrência importa porque garante a concorrência e, no fim, o preço para o consumidor.",
+   "quote": [
+    5,
+    6
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O órgão de concorrência tem papel a cumprir na lei, e o projeto o menciona pouco demais.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b019c1",
+     "sentences": [
+      5,
+      6
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o projeto faz referência pequena demais ao órgão de concorrência, que garante a concorrência e o preço para o consumidor",
+     "plain": "Gostaria de ouvir a opinião do representante do Cade, porque o projeto faz uma referência muito pequena a esse órgão. O papel de vocês é importante pela garantia da concorrência e pelo preço que chega ao consumidor."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b020",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Lembra que a autoridade prevista na lei europeia e no projeto norte-americano é a de concorrência, cita o modelo britânico de cooperação e diz que atribuir competência não resolve o problema.",
+   "quote": [
+    10,
+    11,
+    12
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "Nos modelos de fora a autoridade é a de concorrência, e atribuir competência sozinho não resolve o problema.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      10,
+      11,
+      12
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "na lei europeia a autoridade é a Comissão Europeia, com atribuição parecida com a do Cade, que tem experiência em poder de mercado",
+     "plain": "Na lei europeia, quem analisa essas questões é a Comissão Europeia, que cuida de concorrência. Tanto ela quanto a agência norte-americana têm atribuição parecida com a do Cade, que tem experiência em poder de mercado."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "no Reino Unido não se estabelece uma autoridade, e sim memorandos e estudos conjuntos entre os órgãos",
+     "plain": "Existem outros modelos, como o do Reino Unido, que não estabelece uma autoridade e sim memorandos de entendimento e estudos conjuntos entre os órgãos. Nós já atuamos com a Anatel em cooperação. Há outras formas além de atribuir competência."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "juridico",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o direito da concorrência já tem teorias que dão conta do tema, e falta explicar por que se parte para a intervenção prévia",
+     "plain": "Temos teorias já estabelecidas no direito da concorrência, como a das estruturas essenciais. Seria preciso entender exatamente por que estamos partindo para o diagnóstico de que é preciso intervir antes, em vez de debater depois."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a rodada de considerações finais, de 3 minutos para cada convidado, e chama o Spotify.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O representante do Spotify reitera o que disse e promete enviar as recomendações por escrito.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Spotify e passa a palavra ao Mercado Livre para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Reforça a cautela do Brasil ao importar o que se faz fora e defende que a regra só valha onde a ausência de concorrência estiver identificada.",
+   "quote": [
+    0,
+    1,
+    2
+   ],
+   "covered": true,
+   "evidence": [
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "A regra deve valer só onde a falta de concorrência estiver identificada, e não pode ser importada sem adaptação.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o Brasil precisa de cautela ao importar o que se faz fora e deve considerar a situação e o ordenamento jurídico locais",
+     "plain": "Reforço a cautela que o Brasil tem de ter ao importar o que se faz lá fora. É preciso olhar a situação local e o ordenamento jurídico. Onde já há concorrência efetiva, regular atrapalha a inovação e cria barreira artificial à entrada."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      2
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a regulação tem de mirar as situações em que existe ausência de concorrência identificada, junto com posição dominante",
+     "plain": "Nesse caso, a regulação tem de mirar as situações em que existe falta de concorrência identificada, o que normalmente aparece junto com uma posição dominante."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Mercado Livre e passa a palavra à Conexis para as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Lembra que a Anatel atua em parceria com o Cade desde a sua criação e propõe espelhar esse modelo para reduzir as assimetrias entre teles e plataformas.",
+   "quote": [
+    3,
+    4,
+    5
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "contrario",
+    "claim": "O modelo a espelhar é a parceria que já existe entre a agência do setor e o órgão de concorrência.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      3,
+      4,
+      5
+     ],
+     "type": "precedente",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "a Anatel atua em parceria com o Cade desde a sua criação, com iniciativas como o PGMC, e os atos de concentração são analisados pelo Cade",
+     "plain": "A Anatel, desde que foi criada, atua em parceria com o Cade nas questões de concorrência. O Plano Geral de Metas de Competição nasceu dentro dela e já trata disso antes do problema. E os atos de concentração passam pelo Cade."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      6
+     ],
+     "type": "principio",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "espelhar esse modelo permitiria reduzir as assimetrias de regra, de tributo e de investimento entre as teles e as plataformas",
+     "plain": "Temos aí uma boa oportunidade de nos espelhar nesse modelo, para avaliar esses mercados e adotar medidas que reduzam ao menos um pouco as assimetrias de regra, de tributo e de investimento entre teles e plataformas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece à Conexis e passa a palavra ao Cade para encerrar a rodada final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Reforça a importância do projeto que daria acesso às notas fiscais eletrônicas e lembra que o órgão já colabora com a Anatel e outras agências.",
+   "quote": [
+    5
+   ],
+   "covered": true,
+   "evidence": [
+    23
+   ],
+   "open_question": 5,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O órgão de concorrência precisa de acesso às notas fiscais eletrônicas para usar a informação de forma útil.",
+    "sentence": 5
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      5,
+      6,
+      7
+     ],
+     "type": "juridico",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Projeto de Lei Complementar 523, de 2018, daria acesso às notas fiscais eletrônicas e ao uso inteligente da informação",
+     "plain": "O Projeto de Lei Complementar nº 523, de 2018, que tramita nesta Casa, é importante: ele nos daria as notas fiscais eletrônicas e o uso inteligente da informação. Muitas vezes falta dado de preço, de lucro e de custo."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o órgão de concorrência já colabora com a Anatel e com várias agências reguladoras, inclusive em estudos conjuntos",
+     "plain": "Colaboramos com a Anatel e com várias agências reguladoras. A Anatel é excelente. Estamos fazendo com diferentes superintendências, inclusive, estudos de compartilhamento de rede, o RAN Sharing, e debates."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia um seminário com os demais interessados, agradece a presença de todos e encerra a audiência.",
+   "quote": [],
+   "covered": true,
+   "evidence": [
+    28,
+    29,
+    30
+   ],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 31,
+   "to_sentence": 43,
+   "from_claim": "b006c1",
+   "to_claim": "b002c3",
+   "strength": "media",
+   "note": "Os dois dizem que o critério do projeto erra o alvo: um porque a receita não capta as plataformas dominantes, o outro porque o tamanho não mede concorrência."
+  },
+  {
+   "from": "b008",
+   "to": "b007",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b008c1",
+   "to_claim": "b007c1",
+   "strength": "forte",
+   "note": "À dúvida sobre a descentralização do comércio eletrônico, responde com um estudo que aponta concorrência intensa entre as plataformas e também com o varejo físico."
+  },
+  {
+   "from": "b010",
+   "to": "b009",
+   "kind": "responde",
+   "from_sentence": 2,
+   "to_sentence": 0,
+   "from_claim": "b010c1",
+   "to_claim": "b009c1",
+   "strength": "forte",
+   "note": "Ao pedido de escalonamento das posições, responde que a participação flutua e cita a entrada recente de Shopee e Shein."
+  },
+  {
+   "from": "b013",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 18,
+   "from_claim": "b013c1",
+   "to_claim": "b012c1",
+   "strength": "media",
+   "note": "A relatora toma como sua a preocupação do sindicato das teles: a ocupação do tráfego das redes por poucas plataformas chama a atenção."
+  },
+  {
+   "from": "b014",
+   "to": "b013",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 8,
+   "from_claim": "b014c1",
+   "to_claim": "b013c2",
+   "strength": "forte",
+   "note": "À pergunta sobre o que a lei faria com os aplicativos que não gastam a franquia, responde que essas ofertas nascem da disputa por cliente entre as operadoras móveis."
+  },
+  {
+   "from": "b012",
+   "to": "b002",
+   "kind": "apoia",
+   "from_sentence": 42,
+   "to_sentence": 15,
+   "from_claim": "b012c3",
+   "to_claim": "b002c1",
+   "strength": "forte",
+   "note": "As duas empresas querem o projeto por motivos diferentes: uma pelo abuso das lojas de aplicativos, a outra pelo desequilíbrio entre as teles e as plataformas."
+  },
+  {
+   "from": "b016",
+   "to": "b002",
+   "kind": "contradiz",
+   "from_sentence": 49,
+   "to_sentence": 21,
+   "from_claim": "b016c1",
+   "to_claim": "b002c2",
+   "strength": "forte",
+   "note": "Onde o Spotify vê abuso da Apple ao favorecer o próprio serviço, o Cade responde que há estudos indicando que proibir a autopreferência eleva o preço ao consumidor."
+  },
+  {
+   "from": "b016",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 56,
+   "to_sentence": 31,
+   "from_claim": "b016c2",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "O órgão de concorrência e a empresa de comércio eletrônico dizem a mesma coisa por caminhos diferentes: a obrigação está vindo antes do diagnóstico do problema."
+  },
+  {
+   "from": "b016",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 57,
+   "to_sentence": 42,
+   "from_claim": "b016c2",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "Onde o sindicato das teles diz que o projeto é fundamental, o Cade responde que impor o remédio sem diagnóstico tem custo social."
+  },
+  {
+   "from": "b019",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 6,
+   "to_sentence": 49,
+   "from_claim": "b019c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "A relatora e o Cade adotam a mesma régua para julgar a regra: o preço que o consumidor paga no fim."
+  },
+  {
+   "from": "b020",
+   "to": "b017",
+   "kind": "responde",
+   "from_sentence": 10,
+   "to_sentence": 5,
+   "from_claim": "b020c1",
+   "to_claim": "b017c1",
+   "strength": "forte",
+   "note": "À pergunta sobre a escolha da agência de telecomunicações, responde que nos modelos de fora quem aplica é a autoridade de concorrência."
+  },
+  {
+   "from": "b020",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 12,
+   "to_sentence": 6,
+   "from_claim": "b020c1",
+   "to_claim": "b019c1",
+   "strength": "forte",
+   "note": "Diante da insistência da relatora, diz que o Cade tem experiência para lidar com poder de mercado."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "contradiz",
+   "from_sentence": 19,
+   "to_sentence": 42,
+   "from_claim": "b020c3",
+   "to_claim": "b012c3",
+   "strength": "media",
+   "note": "Onde o sindicato das teles pede a lei, o Cade pergunta por que se parte para a intervenção prévia se o direito da concorrência já tem teoria para o caso."
+  },
+  {
+   "from": "b024",
+   "to": "b005",
+   "kind": "apoia",
+   "from_sentence": 0,
+   "to_sentence": 3,
+   "from_claim": "b024c1",
+   "to_claim": "b005c1",
+   "strength": "forte",
+   "note": "A empresa fecha a audiência com a mesma cautela que a relatora tinha aberto: o que se faz lá fora não se importa sem adaptação."
+  },
+  {
+   "from": "b024",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 49,
+   "from_claim": "b024c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "Empresa e órgão de concorrência chegam ao mesmo alerta: onde já existe concorrência, a regra prejudica a inovação e o consumidor."
+  },
+  {
+   "from": "b026",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 13,
+   "from_claim": "b026c1",
+   "to_claim": "b020c2",
+   "strength": "forte",
+   "note": "Ao modelo de cooperação citado pelo Cade, o sindicato das teles responde com o exemplo que já existe aqui: a parceria entre a agência do setor e o Cade."
+  },
+  {
+   "from": "b028",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 3,
+   "from_claim": "b028c2",
+   "to_claim": "b026c1",
+   "strength": "forte",
+   "note": "O Cade confirma a parceria que o sindicato das teles descreveu e acrescenta os estudos conjuntos em andamento."
+  },
+  {
+   "from": "b028",
+   "to": "b019",
+   "kind": "responde",
+   "from_sentence": 9,
+   "to_sentence": 6,
+   "from_claim": "b028c2",
+   "to_claim": "b019c1",
+   "strength": "media",
+   "note": "Volta à cobrança da relatora sobre o papel do órgão e mostra a colaboração já existente com as agências reguladoras."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d2",
+   "falas": [
+    "b005",
+    "b006",
+    "b024"
+   ],
+   "claims": [
+    "b005c1",
+    "b006c3",
+    "b024c1"
+   ],
+   "note": "A relatora do projeto e a empresa de comércio eletrônico concordam que a regra estrangeira não se copia: dela se tiram lições, e a adaptação à realidade brasileira é o que vale."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b012",
+    "b013",
+    "b026"
+   ],
+   "claims": [
+    "b012c1",
+    "b012c2",
+    "b013c1",
+    "b026c2"
+   ],
+   "note": "O sindicato das teles e a relatora olham para o mesmo dado: poucas plataformas respondem por metade do tráfego das redes, e o custo dessa infraestrutura precisa ser dividido."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b019",
+    "b020",
+    "b026",
+    "b028"
+   ],
+   "claims": [
+    "b019c1",
+    "b020c1",
+    "b020c2",
+    "b026c1",
+    "b028c2"
+   ],
+   "note": "A relatora, o órgão de concorrência e o sindicato das teles concordam que a tarefa não cabe a um órgão sozinho e que o caminho é a cooperação entre a agência do setor e o Cade."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b003",
+   "sentence": 1,
+   "addressed_to": "setor_privado",
+   "answered_by": null,
+   "theme": "d2",
+   "position": "neutro",
+   "gist": "que impacto a lei europeia já teve sobre a empresa",
+   "plain": "A empresa já percebe algum impacto, positivo ou negativo, da lei europeia de mercados digitais?"
+  },
+  {
+   "id": "q2",
+   "from": "b007",
+   "sentence": 3,
+   "addressed_to": "setor_privado",
+   "answered_by": "b008",
+   "theme": "d1",
+   "position": "neutro",
+   "gist": "se o comércio eletrônico brasileiro é mesmo descentralizado",
+   "plain": "O comércio eletrônico no Brasil é mesmo descentralizado, e que espaço a empresa ocupa nele?"
+  },
+  {
+   "id": "q3",
+   "from": "b009",
+   "sentence": 0,
+   "addressed_to": "setor_privado",
+   "answered_by": "b010",
+   "theme": "d1",
+   "position": "neutro",
+   "gist": "se dá para escalonar a posição das plataformas",
+   "plain": "Não há como fazer um escalonamento de posição entre essas plataformas?"
+  },
+  {
+   "id": "q4",
+   "from": "b013",
+   "sentence": 8,
+   "addressed_to": "setor_privado",
+   "answered_by": "b014",
+   "theme": "d6",
+   "position": "neutro",
+   "gist": "o que a lei faria com os aplicativos que não gastam a franquia",
+   "plain": "Com este projeto de lei, como ficaria a oferta de aplicativos que não consomem o plano de dados?"
+  },
+  {
+   "id": "q5",
+   "from": "b017",
+   "sentence": 7,
+   "addressed_to": "governo",
+   "answered_by": "b020",
+   "theme": "d7",
+   "position": "neutro",
+   "gist": "como o órgão de concorrência lê a escolha da agência do setor",
+   "plain": "Como o Cade interpreta a escolha da Anatel como autoridade que vai aplicar essas regras?"
+  },
+  {
+   "id": "q6",
+   "from": "b012",
+   "sentence": 22,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "theme": "d6",
+   "position": "favoravel",
+   "gist": "que mecanismo garantirá o financiamento compartilhado da rede",
+   "plain": "Que mecanismo vai garantir que as grandes plataformas dividam o custo da infraestrutura de rede?"
+  },
+  {
+   "id": "q7",
+   "from": "b028",
+   "sentence": 5,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "theme": "d8",
+   "position": "favoravel",
+   "gist": "a Câmara vai aprovar o projeto que dá acesso às notas fiscais",
+   "plain": "A Câmara vai aprovar o projeto que daria ao órgão de concorrência acesso às notas fiscais eletrônicas?"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 7,
+   "gist": "mais de 515 milhões de usuários em mais de 180 mercados",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 12,
+   "gist": "quase 1 bilhão de reais a artistas brasileiros em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b002",
+   "sentence": 20,
+   "gist": "a Apple cobra 30% da receita de assinatura no aplicativo",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 13,
+   "gist": "20 mil colaboradores no Brasil, completados ontem",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 4,
+   "gist": "nenhum dos nove participantes passa de 25% dos pedidos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b010",
+   "sentence": 3,
+   "gist": "a Shopee entrou há 4 anos e a Shein há 3 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b012",
+   "sentence": 8,
+   "gist": "mais de 1 trilhão investido e 40 bilhões por ano",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b012",
+   "sentence": 11,
+   "gist": "5G em 152 Municípios, mais de 43% da população",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b012",
+   "sentence": 19,
+   "gist": "vídeo e redes sociais são 82,5% do tráfego móvel",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 25,
+   "gist": "231 bilhões arrecadados e 18 bilhões revertidos, 8%",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b016",
+   "sentence": 25,
+   "gist": "233 atos de concentração analisados de 1995 a 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b016",
+   "sentence": 26,
+   "gist": "96% dos atos aprovados sem restrição alguma",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d5",
+   "d8"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "setor_privado",
+   "governo"
+  ],
+  "angle": "A matéria escolheu os pedidos de mudança no texto do projeto feitos por duas empresas e a queixa do Cade sobre o acesso a dados públicos.",
+  "omitted": "Ficaram de fora a exposição do sindicato das teles sobre tráfego, tributo e investimento, a divergência sobre proibir a autopreferência e toda a discussão sobre qual órgão aplica a regra."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "O projeto é preciso para conter o abuso das plataformas",
+   "statement_plain": "A lei de concorrência sozinha não conteve o abuso das grandes plataformas de acesso. O projeto é necessário para equilibrar o mercado digital.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel",
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b002c2",
+    "b012c3"
+   ],
+   "note": "Junta uma empresa que é cliente cativa de uma loja de aplicativos e o sindicato das teles, que quer para as plataformas a obrigação que já tem."
+  },
+  {
+   "id": "t2",
+   "title": "Regular mercado competitivo é dar remédio a quem está são",
+   "statement_plain": "Onde já existe concorrência de verdade, a regra atrapalha. Só cabe regular onde a autoridade provar que falta concorrência e que a lei atual não resolve.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b008c2",
+    "b010c2",
+    "b024c2",
+    "b016c2"
+   ],
+   "note": "Cruza uma empresa de plataforma e o órgão de concorrência do governo, e deixa do outro lado as duas empresas que pedem a lei."
+  },
+  {
+   "id": "t3",
+   "title": "Adaptar ao Brasil, não importar a regra de fora",
+   "statement_plain": "O Brasil deve tirar lições das experiências estrangeiras e adaptá-las à realidade e ao direito local, em vez de copiar a lei de outro país.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "contrario"
+   },
+   "claims_chave": [
+    "b005c1",
+    "b006c3",
+    "b024c1"
+   ],
+   "note": "A relatora do projeto e a empresa convidada chegam à mesma conclusão sobre copiar a lei estrangeira, embora discordem no resto."
+  },
+  {
+   "id": "t4",
+   "title": "Sem diagnóstico e sem exceção, a regra erra o alvo",
+   "statement_plain": "Obrigação escrita em pedra, sem diagnóstico do problema e sem chance de exceção, sai cara para o consumidor e não corrige o que se queria corrigir.",
+   "core_theme": "d4",
+   "positions": {
+    "d3": "contrario",
+    "d4": "contrario",
+    "d5": "contrario"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b006c2",
+    "b016c1",
+    "b020c3"
+   ],
+   "note": "A relatora do projeto, uma empresa de plataforma e o órgão de concorrência do governo chegam ao mesmo cuidado por caminhos diferentes."
+  },
+  {
+   "id": "t5",
+   "title": "A conta da rede tem de ser dividida com as plataformas",
+   "statement_plain": "Poucas plataformas já usam metade do tráfego das redes, pagam menos tributo e não têm obrigação regulatória. O custo da infraestrutura precisa ser dividido.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b012c1",
+    "b012c2",
+    "b013c1",
+    "b026c2"
+   ],
+   "note": "O sindicato das teles e a relatora do projeto olham para o mesmo dado de tráfego, vindos de lugares diferentes da sala."
+  },
+  {
+   "id": "t6",
+   "title": "A regra sai do órgão de concorrência, em cooperação",
+   "statement_plain": "Quem tem experiência para medir poder de mercado é o órgão de concorrência. O caminho é a cooperação entre ele e a agência do setor, e não a competência de um só.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "contrario"
+   },
+   "claims_chave": [
+    "b019c1",
+    "b020c1",
+    "b020c2",
+    "b026c1",
+    "b028c2"
+   ],
+   "note": "Junta a relatora, o órgão de concorrência do governo e o sindicato das teles, que é quem já convive com a agência do setor."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "gatekeeper",
+   "fala": "b002",
+   "sentence": 3,
+   "plain": "a plataforma que controla o acesso a um mercado digital, como quem é dono do sistema do celular e da loja de aplicativos"
+  },
+  {
+   "term": "App Store",
+   "fala": "b002",
+   "sentence": 17,
+   "plain": "a loja de aplicativos da Apple, por onde passa quem quer instalar um programa no iPhone"
+  },
+  {
+   "term": "iOS",
+   "fala": "b002",
+   "sentence": 17,
+   "plain": "o sistema operacional dos aparelhos da Apple, como o iPhone"
+  },
+  {
+   "term": "safe harbor",
+   "fala": "b002",
+   "sentence": 30,
+   "plain": "o limite abaixo do qual a empresa não é alcançada pela regra, uma espécie de porto seguro"
+  },
+  {
+   "term": "self-preferencing",
+   "fala": "b002",
+   "sentence": 38,
+   "plain": "quando a plataforma dá vantagem ao próprio serviço dentro do espaço que ela mesma controla. Em português, autopreferência"
+  },
+  {
+   "term": "e-commerce",
+   "fala": "b006",
+   "sentence": 6,
+   "plain": "comércio eletrônico, a compra e venda de produtos pela Internet"
+  },
+  {
+   "term": "tipping",
+   "fala": "b006",
+   "sentence": 20,
+   "plain": "o momento em que um mercado pende de vez para um participante só e a concorrência desaparece"
+  },
+  {
+   "term": "ex ante",
+   "fala": "b006",
+   "sentence": 24,
+   "plain": "expressão em latim para o que vem antes: a obrigação vale desde já, sem esperar que alguém cometa uma infração"
+  },
+  {
+   "term": "DMA",
+   "fala": "b006",
+   "sentence": 25,
+   "plain": "sigla em inglês da Lei de Mercados Digitais da União Europeia, que impõe obrigações às maiores plataformas"
+  },
+  {
+   "term": "one size fits all",
+   "fala": "b006",
+   "sentence": 35,
+   "plain": "expressão em inglês para a regra de tamanho único, igual para todos, sem olhar o mercado nem o comportamento de cada um"
+  },
+  {
+   "term": "SERPRO",
+   "fala": "b016",
+   "sentence": 10,
+   "plain": "empresa pública federal de processamento de dados, que opera sistemas do governo"
+  },
+  {
+   "term": "OTTs",
+   "fala": "b012",
+   "sentence": 27,
+   "plain": "empresas que entregam conteúdo ou mensagem pela Internet, sem ser a dona da rede, como os serviços de streaming"
+  },
+  {
+   "term": "zero rating",
+   "fala": "b014",
+   "sentence": 3,
+   "plain": "prática em que o uso de certos aplicativos não desconta da franquia de dados do plano de celular"
+  },
+  {
+   "term": "PGMC",
+   "fala": "b026",
+   "sentence": 4,
+   "plain": "Plano Geral de Metas de Competição: regras da agência de telecomunicações para manter concorrência no setor"
+  }
+ ]
+}

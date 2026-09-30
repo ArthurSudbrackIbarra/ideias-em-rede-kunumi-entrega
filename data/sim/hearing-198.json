@@ -1,0 +1,2178 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 198,
+ "model": "LLM lendo o prompt hearing-198 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-18T13:15:14Z",
+ "prompt_sha256": "251fc185d560d486854e657e8ca8febfb75f7009ac7223e6a12ea81eeaa884db",
+ "sentences_hash": "d8d614647dd9d09b",
+ "review": {
+  "pairs_read": 41,
+  "pairs_fixed": 10
+ },
+ "warnings": [
+  "tese t2: todas as cartas-chave vêm de um só papel (sociedade_civil); a tese pode ser um bloco disfarçado"
+ ],
+ "synopsis": "A Comissão de Direitos Humanos ouviu o ACNUR, a Defensoria Pública da União, ministérios e organizações que atendem refugiados sobre a proteção e a integração de quem chega ao Brasil. O ACNUR reconheceu a liderança brasileira, e os demais apontaram a fila do comitê de refugiados, a falta de política para os aeroportos e a portaria da pandemia que ainda prevê deportação sumária. O Ministério dos Portos anunciou que a portaria está em processo de revogação.",
+ "stakes": "Que medidas a Comissão vai cobrar do Governo Federal sobre a acolhida e a integração dos refugiados no país.",
+ "central_question": "O Brasil protege bem quem chega fugindo, e o que falta para essa pessoa se integrar de fato?",
+ "synopsis_plain": "A Comissão de Direitos Humanos ouviu a agência da ONU para refugiados, a Defensoria, ministérios e organizações que atendem quem chega fugindo. A agência da ONU elogiou a lei brasileira. Os outros apontaram a fila de quem espera resposta, a falta de política para quem fica no aeroporto e uma portaria da pandemia que ainda permite deportar na hora. O governo disse que ela vai cair.",
+ "stakes_plain": "Que medidas a Comissão vai cobrar do governo sobre acolher e integrar os refugiados que já estão no país.",
+ "central_question_plain": "O Brasil protege bem quem chega fugindo, e o que falta para essa pessoa conseguir viver aqui?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Resposta do Brasil a quem foge",
+   "description": "Discute-se se a proteção que o Brasil oferece a quem chega fugindo é, de fato, das melhores do mundo.",
+   "axis": {
+    "pro": "O Brasil tem uma das melhores leis e a melhor resposta humanitária da região.",
+    "contra": "A lei é boa no papel, mas na prática a acolhida foi feita sem planejamento e ainda falha.",
+    "pro_plain": "Poucos países ainda dão visto a quem foge. O Brasil dá, e documenta a pessoa em poucas horas.",
+    "contra_plain": "A lei existe, mas quem chega encontra aeroporto sem quem o atenda e regra que permite deportar."
+   },
+   "contested": true
+  },
+  {
+   "id": "d2",
+   "name": "Integração de quem já chegou",
+   "description": "Discute-se o que falta depois da acolhida: emprego, escola, diploma reconhecido, intérprete e preparo de quem atende.",
+   "axis": {
+    "pro": "Sem política de integração o refugiado tem proteção legal e mesmo assim fica à margem.",
+    "contra": "A resposta de emergência na fronteira e no aeroporto já cobre o essencial.",
+    "pro_plain": "Ter documento não basta. Sem escola, diploma aceito e intérprete, a pessoa não consegue viver aqui.",
+    "contra_plain": "O urgente é receber quem chega. Integrar é um passo que vem depois e não pode travar a acolhida."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Portaria da pandemia ainda vigente",
+   "description": "Discute-se a portaria interministerial editada na pandemia, que ainda prevê deportação imediata e barra o pedido de refúgio.",
+   "axis": {
+    "pro": "A portaria é ilegal, contraria tratados e precisa ser revogada.",
+    "contra": "As medidas excepcionais de entrada editadas na pandemia ainda se justificam.",
+    "pro_plain": "Essa regra permite mandar a pessoa de volta na hora e impedir o pedido de refúgio. Tem de cair.",
+    "contra_plain": "A regra foi feita para uma emergência sanitária e ainda serve para controlar a entrada."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Fila e estrutura do comitê de refúgio",
+   "description": "Discute-se o orçamento, o pessoal e o prazo do comitê que decide quem é reconhecido como refugiado.",
+   "axis": {
+    "pro": "O comitê precisa de mais orçamento, mais analistas e escritórios fora do Sudeste.",
+    "contra": "A estrutura atual do comitê dá conta do volume de pedidos.",
+    "pro_plain": "A fila é enorme e a resposta demora anos. Falta dinheiro, gente e escritório fora do Sudeste.",
+    "contra_plain": "O comitê já analisa o que chega, e criar mais estrutura não faria a fila andar mais rápido."
+   },
+   "contested": false
+  },
+  {
+   "id": "d5",
+   "name": "Acolhida em portos e aeroportos",
+   "description": "Discute-se quem é responsável por atender quem chega e fica retido num aeroporto ou num porto.",
+   "axis": {
+    "pro": "Falta um órgão central e uma política nacional de acolhimento nos portos e aeroportos.",
+    "contra": "Os órgãos que já atuam no aeroporto cobrem o que é preciso.",
+    "pro_plain": "Ninguém é dono do problema. Cada órgão cuida de um pedaço e quem chega fica sem atendimento.",
+    "contra_plain": "Polícia, vigilância sanitária e receita já estão lá. O que falta é ajustar o que existe."
+   },
+   "contested": false
+  },
+  {
+   "id": "d6",
+   "name": "Crianças refugiadas sem documento",
+   "description": "Discute-se a proteção das crianças e adolescentes que chegam ao Brasil sem documento ou separados da família.",
+   "axis": {
+    "pro": "A proteção dessas crianças precisa estar em lei, e não só numa resolução.",
+    "contra": "A resolução em vigor já resolve a regularização dessas crianças.",
+    "pro_plain": "Regra que pode mudar a qualquer momento não protege criança. Isso tem de estar na lei.",
+    "contra_plain": "A resolução já dá o caminho para documentar essas crianças e funciona na prática."
+   },
+   "contested": false
+  },
+  {
+   "id": "d7",
+   "name": "Haitianos e indígenas em deslocamento",
+   "description": "Discute-se o reconhecimento da violação generalizada de direitos no Haiti e a resposta específica aos indígenas que se deslocam.",
+   "axis": {
+    "pro": "Reconhecer a violação generalizada no Haiti e olhar a especificidade indígena destrava o acolhimento.",
+    "contra": "Os vistos e os procedimentos que já existem atendem esses dois grupos.",
+    "pro_plain": "Reconhecer que a situação no Haiti é grave faria o refúgio dos haitianos sair muito mais rápido.",
+    "contra_plain": "Já existe visto para haitiano e procedimento para indígena. O caminho é fazer o que há funcionar."
+   },
+   "contested": false
+  },
+  {
+   "id": "d8",
+   "name": "Racismo e xenofobia na migração",
+   "description": "Discute-se o peso do racismo na história da política migratória brasileira e nas violências que migrantes sofrem hoje.",
+   "axis": {
+    "pro": "A política migratória brasileira foi seletiva e racista, e ainda há violência e xenofobia.",
+    "contra": "Os episódios de hostilidade são pontuais e não caracterizam um padrão.",
+    "pro_plain": "O país já teve política de branqueamento, e hoje quem está em situação pior é o migrante não branco.",
+    "contra_plain": "Quem se manifesta contra é um grupo pequeno, e isso não define como o Brasil trata o migrante."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "Presidente da Comissão de Direitos Humanos, Minorias e Igualdade Racial",
+   "org": "Câmara dos Deputados",
+   "basis": "tratada como Deputada Luizianne Lins em b004.1 e b006.4, e diz em b023.2 que foi Prefeita de Fortaleza",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão da Câmara dos Deputados que acompanha direitos humanos, minorias e igualdade racial"
+  },
+  "s02": {
+   "role": "sociedade_civil",
+   "cargo": "Oficial de Mobilização Comunitária e Voluntária do IMDH",
+   "org": "IMDH",
+   "basis": "apresentada pela presidência em b001.14 e diz em b002.4 que atua na Casa Bom Samaritano",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Instituto Migrações e Direitos Humanos",
+   "org_plain": "organização que atende migrantes e refugiados e mantém centros de acolhida no Brasil"
+  },
+  "s03": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da Conectas Direitos Humanos",
+   "org": "Conectas Direitos Humanos",
+   "basis": "apresentada pela presidência em b001.20 e b003.2, participando por vídeo",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "da Conectas Direitos Humanos",
+   "org_plain": "organização brasileira que acompanha e cobra políticas de direitos humanos"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Representante adjunto do ACNUR no Brasil",
+   "org": "ACNUR",
+   "basis": "apresentado pela presidência em b001.15. Entrou como sociedade civil por ser agência internacional, e não órgão do Estado brasileiro",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do Alto Comissariado da ONU para Refugiados",
+   "org_plain": "agência das Nações Unidas que protege e assiste quem foge do próprio país"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Defensora pública federal e coordenadora nacional do grupo de trabalho Migração, Apatridia e Refúgio",
+   "org": "Defensoria Pública da União",
+   "basis": "apresentada pela presidência em b001.23 e se identifica em b008.4. O mesmo orador aparece também como s10 no registro da ata",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Defensoria Pública da União",
+   "org_plain": "órgão que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  },
+  "s06": {
+   "role": "governo",
+   "cargo": "Chefe da Assessoria de Participação Social e Diversidade do Ministério de Portos e Aeroportos",
+   "org": "Ministério de Portos e Aeroportos",
+   "basis": "apresentada pela presidência em b001.16 e b009.2",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério de Portos e Aeroportos",
+   "org_plain": "ministério federal que responde pelos portos e aeroportos do país"
+  },
+  "s07": {
+   "role": "governo",
+   "cargo": "Diretor de Promoção dos Direitos Humanos do Ministério dos Direitos Humanos e da Cidadania",
+   "org": "Ministério dos Direitos Humanos e da Cidadania",
+   "basis": "apresentado pela presidência em b001.18 e b011.6",
+   "seat": "debatedores",
+   "gov_level": "federal",
+   "byline": "do Ministério dos Direitos Humanos e da Cidadania",
+   "org_plain": "ministério federal que formula as políticas de direitos humanos e recebe denúncias de violação"
+  },
+  "s08": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor da Casa Venezuela",
+   "org": "Casa Venezuela",
+   "basis": "apresentado pela presidência em b011.4 e b013.6, e diz em b014.1 que é venezuelano e mora no Brasil",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da Casa Venezuela",
+   "org_plain": "organização que acompanha os venezuelanos que vivem no Brasil"
+  },
+  "s09": {
+   "role": "sociedade_civil",
+   "cargo": "Representante da AVSI Brasil, na Casa Bom Samaritano",
+   "org": "AVSI Brasil",
+   "basis": "apresentado pela presidência em b015.6 e diz em b016.4 que trabalha na Casa Bom Samaritano",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "da AVSI Brasil",
+   "org_plain": "associação que mantém, com o Instituto Migrações, um centro de acolhida em Brasília"
+  },
+  "s10": {
+   "role": "governo",
+   "cargo": "Defensora pública federal e coordenadora nacional do grupo de trabalho Migração, Apatridia e Refúgio",
+   "org": "Defensoria Pública da União",
+   "basis": "é a mesma pessoa do orador s05. A ata abriu um segundo registro para ela depois da falha de áudio em b029",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da Defensoria Pública da União",
+   "org_plain": "órgão que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  }
+ },
+ "audience": {
+  "estimate": 30,
+  "composition": [
+   {
+    "role": "sociedade_civil",
+    "share": 0.55
+   },
+   {
+    "role": "governo",
+    "share": 0.35
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.1
+   }
+  ],
+  "basis": "Há registro de palmas em treze falas. A presidência diz em b017.1 que a reunião se esvaziou por causa de uma atividade no plenário, e o diretor da Casa Venezuela lamenta em b014.8 a pouca presença de parlamentares.",
+  "confidence": "media"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Abre a audiência e relata que refugiados têm ficado em aeroportos e portos, e propõe uma força-tarefa entre ministérios para atender essas situações o mais rápido possível.",
+   "quote": [
+    29,
+    30
+   ],
+   "covered": true,
+   "evidence": [
+    26,
+    27
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso uma força-tarefa entre ministérios para atender quem fica retido em aeroportos e portos.",
+    "sentence": 30
+   },
+   "claims": [
+    {
+     "id": "b001c1",
+     "sentences": [
+      29,
+      30
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso uma força-tarefa entre ministérios para atender o mais rápido possível quem fica no aeroporto",
+     "plain": "Chamou a atenção que refugiados tenham ficado em aeroportos, como na última situação, no Aeroporto de Guarulhos. O Ministro me dizia que era preciso uma força-tarefa entre ministérios, para o atendimento sair o mais rápido possível."
+    },
+    {
+     "id": "b001c2",
+     "sentences": [
+      31
+     ],
+     "type": "experiencia",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "nos portos também é comum a tentativa de refugiados chegarem pelos navios, vindos das situações mais adversas",
+     "plain": "Nos portos isso também é comum. Na chegada dos navios, ou até antes do desembarque, há tentativas de refugiados chegarem aqui vindos das situações mais adversas."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d6",
+   "summary": "Cobra políticas de proteção para crianças e adolescentes refugiados, que são 40% dos deslocados no mundo, e pede que o Congresso avance nos projetos sobre diplomas e tradutores.",
+   "quote": [
+    16,
+    17,
+    18
+   ],
+   "covered": true,
+   "evidence": [
+    19,
+    20
+   ],
+   "open_question": 20,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Crianças e adolescentes refugiados precisam de políticas públicas próprias de proteção e apoio.",
+    "sentence": 20
+   },
+   "claims": [
+    {
+     "id": "b002c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem políticas de integração o refugiado tem a proteção legal, mas fica à margem da sociedade",
+     "plain": "O Brasil está aberto e vem recebendo essas pessoas, mas a integração delas na sociedade brasileira também precisa ser objeto de política pública. Sem isso, o refugiado tem a proteção legal e mesmo assim fica à margem."
+    },
+    {
+     "id": "b002c2",
+     "sentences": [
+      16,
+      17,
+      18
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as crianças são 30% da população mundial, mas 40% de todos os deslocados forçados",
+     "plain": "Segundo o último relatório Tendências Globais, do ACNUR, as crianças são 30% da população mundial e 40% de todas as pessoas deslocadas à força no mundo. O IMDH atendeu 11.018 pessoas em 2022, das quais 3.966 são crianças e adolescentes."
+    },
+    {
+     "id": "b002c3",
+     "sentences": [
+      25
+     ],
+     "type": "juridico",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "dois projetos importam, o dos intérpretes comunitários nas instituições públicas e o da revalidação de diplomas",
+     "plain": "Menciono dois projetos de grande interesse: o PL 5.182, de 2020, que obriga a alocação de tradutores e intérpretes comunitários nas instituições públicas, e o PL 2.482, de 2020, que trata da revalidação de diplomas de fora."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Bianca Abrahami e passa a palavra a Marina Rongo, da Conectas, por vídeo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b004",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Aponta a fila de 90 mil pedidos no CONARE e o prazo médio de dois anos e meio, pede mais orçamento para o comitê e a revogação da Portaria 678.",
+   "quote": [
+    14,
+    15
+   ],
+   "covered": true,
+   "evidence": [
+    18,
+    21
+   ],
+   "open_question": 8,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O CONARE precisa de mais orçamento e de escritórios fora do Sudeste para reduzir a fila de análise.",
+    "sentence": 8
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      7
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há uma fila de cerca de 90 mil pessoas no comitê e a análise leva em média 2 anos e meio",
+     "plain": "Ainda há muitos desafios no CONARE, o comitê que decide os pedidos de refúgio. A fila de espera para análise dos casos é estimada em cerca de 90 mil pessoas, e o tempo médio de análise é de 2 anos e meio."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      8
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o comitê precisa de mais orçamento, mais oficiais de elegibilidade e escritórios fora de São Paulo, Rio e Campinas",
+     "plain": "É importante que o CONARE conte com mais orçamento, e isso cabe também a este Congresso. Dá para ampliar o número de oficiais de elegibilidade e abrir escritórios em outras regiões, porque hoje só existem em São Paulo, no Rio e em Campinas."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      14,
+      15
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Portaria 678, de 2022, precisa ser revogada, porque ainda prevê a deportação sumária",
+     "plain": "Outro ponto é revogar a Portaria 678, de 2022, que criou medidas excepcionais de entrada no Brasil. Não dá para tolerar esse legado da gestão passada, com a previsão ilegal de barrar o pedido de refúgio e de deportar na hora."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Marina Rongo e passa a palavra a Oscar Sánchez, do ACNUR.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Registra que mais de 110 milhões de pessoas estão deslocadas à força no mundo e sustenta que a liderança do Brasil na proteção a refugiados tem de ser reconhecida.",
+   "quote": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "covered": true,
+   "evidence": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A liderança do Brasil na proteção a quem foge por sua vida tem de ser reconhecida.",
+    "sentence": 31
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      11,
+      12,
+      13
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "até maio de 2023 mais de 110 milhões de pessoas foram deslocadas à força, uma em cada 74 no mundo",
+     "plain": "Mais de 110 milhões de pessoas foram forçadas a sair de casa até maio de 2023, por perseguição, conflito e violação de direitos humanos. Esse número dobrou nos últimos 10 anos. Hoje, uma em cada 74 pessoas no mundo está nessa situação."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      30,
+      31
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil é um dos poucos países que oferece visto, e essa liderança tem de ser reconhecida",
+     "plain": "O Brasil é um dos poucos países do mundo inteiro que hoje oferece visto para essas pessoas chegarem. Acho que a liderança do Brasil e dos membros desta Casa na proteção de quem foge por sua vida tem de ser reconhecida."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      35,
+      36
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Portaria Interministerial 678, de setembro de 2022, é contra o direito internacional",
+     "plain": "Concordo com a expositora anterior. A Portaria Interministerial nº 678, de setembro de 2022, que cria medidas excepcionais de entrada no País, é contra o direito internacional. Precisa de um olhar específico para mudar isso."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Lutiana Valadares, que participa por vídeo, por 5 minutos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Sustenta que as portarias da pandemia violam tratados e precisam ser revogadas, e defende uma regularização migratória em massa de quem ficou irregular por causa delas.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "As portarias da pandemia ainda vigentes precisam ser revogadas, e quem ficou irregular por elas precisa ser regularizado.",
+    "sentence": 14
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "as portarias violam tratados internacionais e precisam ser revogadas, com regularização de quem foi prejudicado",
+     "plain": "Essas portarias violaram e violam direitos de migrantes e refugiados garantidos em tratados internacionais, como a obrigação de não devolver a pessoa. É preciso revogar as que ainda valem e regularizar quem foi prejudicado por elas."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      20,
+      21,
+      22
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso reconhecer a grave e generalizada violação no Haiti, onde houve 540 sequestros e 780 assassinatos em 2022",
+     "plain": "É preciso reconhecer a grave e generalizada violação de direitos no Haiti, para que o refúgio seja concedido sem análise caso a caso. Só entre janeiro e maio de 2022 houve 540 sequestros e 780 assassinatos no país."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      39
+     ],
+     "type": "dado",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "entre janeiro de 2022 e julho de 2023 foram 6.423 atendimentos a crianças, 39% delas sem documento",
+     "plain": "Entre janeiro de 2022 e julho de 2023 foram 6.423 atendimentos a crianças e adolescentes. Dessas crianças, 39% estavam sem documento, e 42% pediram proteção pelo refúgio."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra a Fernanda Rosas, do Ministério dos Portos e Aeroportos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Explica que falta um órgão central para atender os refugiados no aeroporto e anuncia que a Casa Civil sinalizou uma política nacional de acolhimento em breve.",
+   "quote": [
+    26,
+    27
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Falta um órgão central para atender quem chega pelo aeroporto, e é preciso uma política nacional de acolhimento.",
+    "sentence": 27
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      26,
+      27
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "legalmente ficou um vácuo, porque não há um órgão central para atender os refugiados no aeroporto",
+     "plain": "Ficou um vácuo legal. A Polícia Federal cuida da documentação, a ANVISA cuida das vacinas e da alimentação, e a Receita Federal cuida do que entra. Só que não existe um órgão central para atender essas pessoas."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      29
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Casa Civil sinalizou que em breve haverá uma política nacional de acolhimento",
+     "plain": "A Casa Civil já me sinalizou que em breve teremos mesmo uma política nacional de acolhimento."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "contrario",
+     "gist": "o visto para os afegãos foi aprovado sem planejamento de acolhimento, e quem recebe tem 6 meses para entrar",
+     "plain": "O Governo anterior autorizou o visto de refugiado para os afegãos sem fazer nenhum planejamento de acolhimento público. Pegamos o problema já começando. Depois de liberado o visto, a pessoa tem 6 meses para entrar no território brasileiro."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência conta como conheceu a convidada e passa a palavra a Alex André Vargem, dos Direitos Humanos.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b012",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Lembra o passado escravagista e as políticas eugenistas do país, aponta violências contra migrantes hoje e apresenta o canal de denúncia e o aplicativo de direitos.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A política migratória brasileira carrega um passado racista que ainda deixa resquícios, e isso exige canal de denúncia e educação.",
+    "sentence": 17
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Brasil tem um passado escravagista e teve políticas eugenistas que visavam ao branqueamento",
+     "plain": "Não podemos esquecer o passado escravagista do Brasil. De cada 10 anos do país, 7 foram sob o regime da escravidão. Tivemos políticas eugenistas que visavam ao branqueamento e ao fechamento de portas."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      18,
+      19
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há violência física e simbólica contra migrantes, e por isso o serviço funciona como canal de denúncia",
+     "plain": "Há setores da sociedade brasileira, minoritários, que se pronunciam contra. Existem violências físicas e simbólicas, e por isso os nossos serviços funcionam como canal de denúncia de imigrantes e refugiados que têm direitos violados aqui."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      29
+     ],
+     "type": "dado",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "em parceria com a agência da ONU para a migração foi lançado um aplicativo para o migrante conhecer seus direitos",
+     "plain": "Fizemos uma parceria com a OIM, a agência da ONU para a migração, e lançamos o aplicativo Clique Cidadania. Com ele, migrantes e refugiados podem se informar sobre os seus direitos no Brasil."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Ministério dos Direitos Humanos e chama Tomás Alejandro Guzmán, da Casa Venezuela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s08",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Agradece a Operação Acolhida, que documenta o venezuelano em menos de 72 horas e garante acesso ao SUS, e lembra que a crise migratória tem origem política na Venezuela.",
+   "quote": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "covered": true,
+   "evidence": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil tem a melhor resposta humanitária da região para os venezuelanos que chegam fugindo.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      4,
+      5,
+      6
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "neutro",
+     "gist": "há cerca de 65 mil refugiados com documento no Brasil, 81% venezuelanos, e 426 mil migrantes venezuelanos",
+     "plain": "Hoje no Brasil há aproximadamente 65 mil refugiados com documento, e 81% são do meu país, a Venezuela. Dados da OIM registram por volta de 1,7 milhão de migrantes no País, dos quais 426 mil são venezuelanos."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      15
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a resposta humanitária do Brasil é a melhor da região para os venezuelanos",
+     "plain": "Esta crise tem origem. E a resposta humanitária do Brasil é a melhor da região para os nossos irmãos venezuelanos."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      20,
+      21
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Operação Acolhida documenta o venezuelano em menos de 72 horas e garante acesso ao SUS",
+     "plain": "A Operação Acolhida consegue documentar o venezuelano em menos de 72 horas. No mesmo prazo, o Brasil garante a ele o acesso ao SUS."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência anuncia que fará um relatório da audiência e chama Luiz Guilherme Gonçalves, da AVSI Brasil.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s09",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Reconhece que a Operação Acolhida é um ícone no mundo, mas sustenta que o país pode fazer mais e pede ajuda para acolher melhor nos abrigos.",
+   "quote": [
+    13,
+    14,
+    15
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O Brasil já faz bastante pelos refugiados, mas pode e precisa fazer mais no acolhimento dos abrigos.",
+    "sentence": 13
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Operação Acolhida é considerada um ícone no mundo, e o ACNUR não mede esforços em Roraima",
+     "plain": "Como o Tomás disse, a Operação Acolhida vem sendo considerada um ícone no mundo. Agradeço ao Oscar Sánchez pelo esforço do ACNUR em acolher, proteger e integrar os venezuelanos em Roraima."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      9
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "é preciso unir esforços para acolher melhor os refugiados nos abrigos, que é onde eles chegam primeiro",
+     "plain": "Queria unir esforços com quem está nos escutando e pedir ajuda para acolhermos melhor os refugiados nos abrigos, que é onde eles chegam primeiro."
+    },
+    {
+     "id": "b016c3",
+     "sentences": [
+      13,
+      14,
+      15
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "condicional",
+     "gist": "o país já faz bastante, mas pode fazer mais para acolher, proteger e integrar",
+     "plain": "O País já faz bastante, sim, mas dá para fazer mais. Não podemos nos acomodar. O que queremos é acolher, proteger e integrar os amigos venezuelanos."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência explica o esvaziamento da sala e pede que os convidados enviem dados por e-mail.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b018",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Insiste em uma política nacional para os aeroportos e retoma a revalidação de diplomas e a alocação de tradutores como pontos essenciais da integração.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso uma política nacional para os aeroportos e para a integração, incluindo diplomas e tradutores.",
+    "sentence": 1
+   },
+   "claims": [
+    {
+     "id": "b018c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é fundamental uma política nacional para os aeroportos, e também para os diplomas e os tradutores",
+     "plain": "O tema dos aeroportos é atual e tem sido problemático. Por isso é fundamental haver uma política nacional nesse sentido, e também nos outros assuntos que mencionei, como a revalidação dos diplomas e os tradutores em locais públicos."
+    },
+    {
+     "id": "b018c2",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o acolhimento é parte fundamental para recuperar a dignidade de quem chega ao Brasil",
+     "plain": "O acolhimento é parte fundamental para a população migrante refugiada recuperar a dignidade quando chega ao Brasil. Oferecer acolhimento e direitos humanos básicos a essas pessoas é imprescindível."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Bianca e passa a palavra a Alex André Vargem.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s07",
+   "kind": "substantive",
+   "theme": "d8",
+   "summary": "Distingue a dimensão fronteiriça da urbana, aponta a racialização da migração nas grandes cidades e apresenta um curso sobre direitos dos migrantes feito com a ENAP.",
+   "quote": [
+    13,
+    14
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A migração também é urbana e racializada, e por isso precisa de políticas específicas entre União, Estados e Municípios.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      1
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a migração tem duas dimensões, a fronteiriça, tema da audiência, e a urbana, das grandes metrópoles",
+     "plain": "Quando falamos de migração, devemos pensar em duas dimensões. Uma é a fronteiriça, que é o tema desta audiência. A outra é a urbana, dos migrantes refugiados nas grandes metrópoles."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      8,
+      9
+     ],
+     "type": "experiencia",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem estrutura de acolhida, muitos migrantes vão para as ocupações e se juntam aos movimentos dos sem-teto",
+     "plain": "No contexto urbano há dificuldades. Muitos migrantes refugiados não estão em estrutura de acolhida do poder público nem da sociedade civil, e acabam nas ocupações, junto aos movimentos dos sem-teto. É um fenômeno que cresce nas cidades."
+    },
+    {
+     "id": "b020c3",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "principio",
+     "theme": "d8",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "há um processo de racialização da migração, e os migrantes em vulnerabilidade são em grande parte não brancos",
+     "plain": "Há um processo de racialização da migração. Em grande parte, os migrantes que estão em situação de vulnerabilidade são racializados, são migrantes não brancos."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece ao Ministério dos Direitos Humanos e chama Oscar Sánchez, do ACNUR.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Pede a revogação da portaria da pandemia e uma norma para a recepção nos portos e aeroportos, e convida a Comissão a visitar os abrigos.",
+   "quote": [
+    2,
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": 7,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A portaria da pandemia precisa ser revogada e é preciso uma norma para a recepção em portos e aeroportos.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b022c1",
+     "sentences": [
+      2
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a portaria instalada durante a COVID tem de ser revogada, porque limita a proteção jurídica internacional",
+     "plain": "Tenho dois pontos. A portaria instalada durante a COVID tem de ser revogada, porque ela cria uma limitação dentro da proteção jurídica internacional. E falta uma norma básica para receber essas pessoas nos portos e aeroportos."
+    },
+    {
+     "id": "b022c2",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "a Comissão deveria visitar os abrigos e falar com os refugiados para entender a realidade deles",
+     "plain": "Estendo o convite à Comissão de Direitos Humanos para visitar e ver o que os refugiados estão vivendo. É importante ter empatia e falar com essas pessoas, que fogem de conflitos, para entender a realidade delas."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência propõe enviar um questionário aos convidados e passa a palavra a Fernanda Rosas.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "ordem"
+  },
+  {
+   "id": "b024",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Anuncia que a Portaria 678 já está em processo de revogação e deve cair nos próximos 10 dias, e que os postos humanizados foram levados à Casa Civil.",
+   "quote": [
+    0,
+    1
+   ],
+   "covered": true,
+   "evidence": [
+    22
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A Portaria 678 já está em processo de revogação e deve ser revogada nos próximos dias.",
+    "sentence": 0
+   },
+   "claims": [
+    {
+     "id": "b024c1",
+     "sentences": [
+      0,
+      1
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a Portaria 678 já está em processo de revogação e deve cair nos próximos 10 dias",
+     "plain": "Respondendo ao ACNUR: a Portaria nº 678, que é interministerial, já entrou em processo de revogação. Acredito que ela caia nos próximos 10 dias."
+    },
+    {
+     "id": "b024c2",
+     "sentences": [
+      2,
+      3
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "os postos humanizados foram levados à Casa Civil, porque não é só espaço físico, é mão de obra e estrutura",
+     "plain": "Sobre a construção dos postos humanizados, levamos essa demanda à Casa Civil, porque não se trata só de espaço físico, mas de mão de obra e estrutura. Estamos na expectativa de uma resposta."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece a Fernanda Rosas e passa a palavra a Marina Rongo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Cobra respostas específicas para os indígenas em deslocamento e reforça o pedido de reconhecer a grave violação de direitos no Haiti para acelerar o refúgio.",
+   "quote": [
+    6,
+    7
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Os indígenas em deslocamento e a população haitiana precisam de respostas específicas que hoje não existem.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b026c1",
+     "sentences": [
+      8,
+      9,
+      10
+     ],
+     "type": "experiencia",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a população indígena em deslocamento não tem documento do país de origem, o que torna a regularização mais demorada",
+     "plain": "Essa população não tem documento do país de origem, por causa da própria cultura, e isso torna a regularização no Brasil mais demorada. Faltam políticas que a escutem, e há relatos de que não conseguem acessar a saúde indígena."
+    },
+    {
+     "id": "b026c2",
+     "sentences": [
+      12,
+      13
+     ],
+     "type": "juridico",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "reconhecer a grave e generalizada violação no Haiti aceleraria o refúgio da população haitiana",
+     "plain": "Reforço a necessidade de reconhecer a grave e generalizada violação de direitos humanos no Haiti. Isso tornaria o refúgio dos haitianos mais rápido. Peço que o CONARE acelere esse reconhecimento."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência chama Lutiana Valadares para a última fala da audiência.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Reforça o reconhecimento da violação de direitos no Haiti, pede regularização em massa de quem ficou irregular pelas portarias e cobra educação em direitos humanos.",
+   "quote": [
+    7,
+    8
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Brasil precisa reconhecer a grave violação de direitos no Haiti e regularizar em massa quem ficou irregular pelas portarias.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      4
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "além de revogar a portaria, é preciso regularizar em massa quem ficou irregular por causa daquelas portarias",
+     "plain": "Tivemos aqui a boa notícia de que a portaria da pandemia será revogada em breve. Mas também é preciso uma medida de regularização migratória em massa, para quem ficou irregular por causa daquela sucessão de portarias."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      10
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "falta preparo de quem atende em banco, cartório, saúde e escola para receber migrantes e refugiados",
+     "plain": "É preciso promover a educação em direitos humanos. Há muitas dificuldades relatadas todo dia em bancos, cartórios, saúde e educação, e elas vêm da falta de preparo de quem atende para receber migrantes e refugiados."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência avisa que a convidada está sem som.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b030",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A defensora pergunta se está sendo ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b031",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma o áudio e pede que a convidada conclua.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b032",
+   "speaker": "s10",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A defensora diz não saber a partir de que ponto a fala dela se perdeu.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b033",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência estima que o áudio se perdeu há cerca de um minuto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b034",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A defensora pergunta se a parte sobre migração e questão indígena foi ouvida.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b035",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência informa que o áudio da convidada está muito baixo.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b036",
+   "speaker": "s05",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A defensora pergunta se o problema é a internet dela.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b037",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência confirma que o áudio melhorou.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "microfone"
+  },
+  {
+   "id": "b038",
+   "speaker": "s10",
+   "kind": "substantive",
+   "theme": "d7",
+   "summary": "Retoma, depois da falha de áudio, o olhar interseccional para indígenas migrantes e cobra medida legislativa para proteger crianças refugiadas sem documento.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": true,
+   "evidence": [
+    28,
+    29
+   ],
+   "open_question": 13,
+   "stance": {
+    "position": "favoravel",
+    "claim": "É preciso um olhar interseccional para a migração indígena e uma lei que proteja as crianças refugiadas sem documento.",
+    "sentence": 3
+   },
+   "claims": [
+    {
+     "id": "b038c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d7",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é preciso o olhar interseccional entre migração e questão indígena e reconhecer a violação generalizada no Haiti",
+     "plain": "Ressalto a necessidade de um olhar interseccional entre a questão migratória e a indígena, para essas pessoas poderem reproduzir aqui as suas práticas culturais. Também é preciso reconhecer a grave violação de direitos no Haiti."
+    },
+    {
+     "id": "b038c2",
+     "sentences": [
+      13
+     ],
+     "type": "juridico",
+     "theme": "d6",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "hoje há uma resolução do CONANDA, mas o ideal seria uma medida legislativa para proteger essas crianças",
+     "plain": "Hoje temos uma resolução do CONANDA, o conselho dos direitos da criança. O ideal seria uma medida legislativa para proteger essas crianças. E é importante olhar para os inadmitidos no Aeroporto de Guarulhos e também para os afegãos."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b039",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência encerra a audiência e convoca reunião deliberativa para o dia 16 de agosto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b006",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 35,
+   "to_sentence": 14,
+   "from_claim": "b006c3",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "O ACNUR concorda com a Conectas e vai além: para a agência da ONU a portaria da pandemia é contra o direito internacional."
+  },
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 14,
+   "from_claim": "b008c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "A Defensoria acompanha a Conectas e acrescenta o fundamento: essas portarias violam tratados internacionais, por isso precisam ser revogadas."
+  },
+  {
+   "from": "b010",
+   "to": "b001",
+   "kind": "responde",
+   "from_sentence": 27,
+   "to_sentence": 29,
+   "from_claim": "b010c1",
+   "to_claim": "b001c1",
+   "strength": "forte",
+   "note": "À situação dos refugiados retidos no aeroporto, o Ministério dos Portos responde que legalmente ficou um vácuo, porque nenhum órgão central atende essas pessoas."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 31,
+   "from_claim": "b014c2",
+   "to_claim": "b006c2",
+   "strength": "forte",
+   "note": "O diretor da Casa Venezuela confirma o reconhecimento do ACNUR pela experiência do próprio povo: a resposta do Brasil é a melhor da região."
+  },
+  {
+   "from": "b016",
+   "to": "b014",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 20,
+   "from_claim": "b016c1",
+   "to_claim": "b014c3",
+   "strength": "media",
+   "note": "Luiz Guilherme retoma o que Tomás disse e reforça que a Operação Acolhida vem sendo considerada um ícone no mundo."
+  },
+  {
+   "from": "b018",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 1,
+   "to_sentence": 29,
+   "from_claim": "b018c1",
+   "to_claim": "b010c2",
+   "strength": "media",
+   "note": "Bianca reforça o que o Ministério dos Portos anunciou: sem uma política nacional, o problema dos aeroportos continua."
+  },
+  {
+   "from": "b018",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 3,
+   "to_sentence": 9,
+   "from_claim": "b018c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "Bianca acompanha o apelo de Luiz Guilherme sobre os abrigos: é o acolhimento que devolve dignidade a quem chega."
+  },
+  {
+   "from": "b020",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 8,
+   "to_sentence": 9,
+   "from_claim": "b020c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "O Ministério dos Direitos Humanos soma ao apelo dos abrigos: quem não encontra estrutura de acolhida acaba nas ocupações urbanas."
+  },
+  {
+   "from": "b022",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 14,
+   "from_claim": "b022c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "Nas considerações finais o ACNUR volta ao ponto da Defensoria: a portaria da pandemia limita a proteção jurídica internacional e tem de cair."
+  },
+  {
+   "from": "b022",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 27,
+   "from_claim": "b022c1",
+   "to_claim": "b010c1",
+   "strength": "media",
+   "note": "O ACNUR endossa o diagnóstico do Ministério dos Portos e propõe uma norma básica para receber essas pessoas nos portos e aeroportos."
+  },
+  {
+   "from": "b022",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 7,
+   "to_sentence": 9,
+   "from_claim": "b022c2",
+   "to_claim": "b016c2",
+   "strength": "media",
+   "note": "O ACNUR pega a ideia de Luiz Guilherme e convida a Comissão a visitar os abrigos para ver o que os refugiados vivem."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "responde",
+   "from_sentence": 0,
+   "to_sentence": 2,
+   "from_claim": "b024c1",
+   "to_claim": "b022c1",
+   "strength": "forte",
+   "note": "Ao pedido do ACNUR, o Ministério dos Portos responde que a Portaria 678 já está em processo de revogação e deve cair em dez dias."
+  },
+  {
+   "from": "b024",
+   "to": "b022",
+   "kind": "apoia",
+   "from_sentence": 2,
+   "to_sentence": 3,
+   "from_claim": "b024c2",
+   "to_claim": "b022c1",
+   "strength": "media",
+   "note": "O Ministério dos Portos diz que a demanda dos postos humanizados citada pelo ACNUR já foi levada à Casa Civil."
+  },
+  {
+   "from": "b026",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 12,
+   "to_sentence": 20,
+   "from_claim": "b026c2",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "A Conectas reforça o pedido da Defensoria: reconhecer a violação generalizada no Haiti aceleraria o refúgio dos haitianos."
+  },
+  {
+   "from": "b028",
+   "to": "b024",
+   "kind": "responde",
+   "from_sentence": 4,
+   "to_sentence": 0,
+   "from_claim": "b028c1",
+   "to_claim": "b024c1",
+   "strength": "forte",
+   "note": "A Defensoria recebe o anúncio da revogação e acrescenta o que falta: regularizar em massa quem ficou irregular por causa daquelas portarias."
+  },
+  {
+   "from": "b038",
+   "to": "b026",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 12,
+   "from_claim": "b038c1",
+   "to_claim": "b026c2",
+   "strength": "media",
+   "note": "Depois da falha de áudio, a Defensoria volta ao ponto que a Conectas reforçou: falta reconhecer a violação generalizada de direitos no Haiti."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d3",
+   "falas": [
+    "b004",
+    "b006",
+    "b008",
+    "b022",
+    "b024",
+    "b028"
+   ],
+   "claims": [
+    "b004c3",
+    "b006c3",
+    "b008c1",
+    "b022c1",
+    "b024c1",
+    "b028c1"
+   ],
+   "note": "A Conectas, o ACNUR, a Defensoria e o próprio Ministério dos Portos concordam que a portaria da pandemia precisa cair, e o Ministério anuncia que ela já está em processo de revogação."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b001",
+    "b010",
+    "b018",
+    "b024"
+   ],
+   "claims": [
+    "b001c1",
+    "b010c1",
+    "b010c2",
+    "b018c1",
+    "b024c2"
+   ],
+   "note": "A presidência da Comissão, o Ministério dos Portos e o Instituto Migrações concordam que falta um órgão central e uma política nacional para atender quem fica no aeroporto."
+  },
+  {
+   "theme": "d2",
+   "falas": [
+    "b002",
+    "b012",
+    "b016",
+    "b018",
+    "b020",
+    "b028"
+   ],
+   "claims": [
+    "b002c1",
+    "b012c3",
+    "b016c2",
+    "b018c2",
+    "b020c2",
+    "b028c2"
+   ],
+   "note": "Sociedade civil e governo concordam que a proteção legal sozinha não basta, porque sem integração, informação e preparo de quem atende o refugiado fica à margem."
+  },
+  {
+   "theme": "d7",
+   "falas": [
+    "b008",
+    "b026",
+    "b038"
+   ],
+   "claims": [
+    "b008c2",
+    "b026c2",
+    "b038c1"
+   ],
+   "note": "A Defensoria Pública da União e a Conectas concordam que reconhecer a grave e generalizada violação de direitos no Haiti aceleraria o refúgio dos haitianos."
+  },
+  {
+   "theme": "d6",
+   "falas": [
+    "b002",
+    "b008",
+    "b038"
+   ],
+   "claims": [
+    "b002c2",
+    "b008c3",
+    "b038c2"
+   ],
+   "note": "O Instituto Migrações e a Defensoria concordam que as crianças refugiadas precisam de política própria e de proteção prevista em lei."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b002",
+   "sentence": 20,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "adotar políticas de proteção às crianças e adolescentes refugiados",
+   "plain": "Esta Casa vai adotar políticas de proteção e apoio para as crianças e adolescentes refugiados?",
+   "theme": "d6",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b004",
+   "sentence": 8,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "garantir orçamento e pessoal para o comitê reduzir a fila",
+   "plain": "O Congresso vai garantir orçamento e pessoal para o comitê de refugiados diminuir a fila?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b004",
+   "sentence": 16,
+   "addressed_to": "parlamentar",
+   "answered_by": "b024",
+   "gist": "apresentar um decreto legislativo para sustar essa portaria",
+   "plain": "Os parlamentares vão apresentar um decreto legislativo para sustar essa portaria?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q4",
+   "from": "b022",
+   "sentence": 7,
+   "addressed_to": "mesa",
+   "answered_by": null,
+   "gist": "visitar os abrigos e ver o que os refugiados estão vivendo",
+   "plain": "A Comissão de Direitos Humanos pode visitar os abrigos para ver o que os refugiados vivem?",
+   "theme": "d2",
+   "position": "favoravel"
+  },
+  {
+   "id": "q5",
+   "from": "b038",
+   "sentence": 13,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "prever em lei a proteção das crianças refugiadas sem documento",
+   "plain": "O Congresso vai colocar em lei a proteção das crianças refugiadas que estão sem documento?",
+   "theme": "d6",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b002",
+   "sentence": 16,
+   "gist": "crianças são 40% de todas as pessoas deslocadas no mundo",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b002",
+   "sentence": 18,
+   "gist": "o IMDH atendeu 3.966 crianças e adolescentes em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b004",
+   "sentence": 7,
+   "gist": "fila de cerca de 90 mil pessoas no comitê de refúgio",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 11,
+   "gist": "mais de 110 milhões de deslocados no mundo até maio de 2023",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b006",
+   "sentence": 13,
+   "gist": "uma em cada 74 pessoas no mundo é deslocada",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b006",
+   "sentence": 15,
+   "gist": "o Brasil acolhe mais de 650 mil pessoas em proteção",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 22,
+   "gist": "540 sequestros e 780 assassinatos no Haiti em 2022",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 39,
+   "gist": "6.423 atendimentos a crianças, 39% sem documento",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b010",
+   "sentence": 11,
+   "gist": "o refugiado tem 6 meses para entrar no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 15,
+   "gist": "de cada 10 anos do Brasil, 7 foram sob escravidão",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b014",
+   "sentence": 4,
+   "gist": "65 mil refugiados com documento, 81% venezuelanos",
+   "disputed_by": []
+  },
+  {
+   "id": "f12",
+   "fala": "b014",
+   "sentence": 6,
+   "gist": "426 mil migrantes venezuelanos estão no Brasil",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d3",
+   "d4",
+   "d5",
+   "d6"
+  ],
+  "roles_quoted": [
+   "mesa",
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o reconhecimento do ACNUR à liderança brasileira e, em seguida, as cobranças dos especialistas por integração.",
+  "omitted": "Ficaram de fora o pedido de reconhecer a grave violação de direitos no Haiti, a situação dos indígenas em deslocamento e toda a discussão sobre racismo e xenofobia na migração."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "Proteger no papel não basta",
+   "statement_plain": "O Brasil protege no papel, mas sem política de integração e sem enfrentar o racismo o refugiado fica à margem, sem diploma aceito e sem quem saiba atendê-lo.",
+   "core_theme": "d2",
+   "positions": {
+    "d2": "favoravel",
+    "d8": "favoravel"
+   },
+   "claims_chave": [
+    "b002c1",
+    "b016c2",
+    "b018c2",
+    "b028c2",
+    "b020c3",
+    "b012c2"
+   ],
+   "note": "A ideia cruza a sala: o Instituto Migrações, a AVSI, a Defensoria e o próprio Ministério dos Direitos Humanos chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "A resposta do Brasil já é a melhor da região",
+   "statement_plain": "O Brasil é um dos poucos países que ainda oferece visto a quem foge, e documenta o venezuelano em menos de 72 horas. Essa liderança tem de ser reconhecida.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b006c2",
+    "b014c2",
+    "b014c3",
+    "b016c1"
+   ],
+   "note": "A ideia junta a agência da ONU, um diretor venezuelano e uma entidade de abrigo, que vêm de lugares muito diferentes e defendem o mesmo ponto."
+  },
+  {
+   "id": "t3",
+   "title": "Na prática, a acolhida ainda falha",
+   "statement_plain": "A lei brasileira é boa, mas na prática o visto foi dado sem planejar o acolhimento e ainda vale uma portaria que permite deportar na hora.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "contrario",
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c3",
+    "b004c3",
+    "b008c1",
+    "b022c1"
+   ],
+   "note": "A ideia divide o próprio governo: quem hoje cuida dos aeroportos reconhece que o visto foi autorizado sem planejamento, e a Defensoria aponta a portaria ainda vigente."
+  },
+  {
+   "id": "t4",
+   "title": "Falta um dono para quem chega no aeroporto",
+   "statement_plain": "Cada órgão cuida da sua parte no aeroporto, mas ninguém é responsável por atender quem chega fugindo. Falta uma política nacional de acolhimento.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b001c1",
+    "b010c1",
+    "b018c1",
+    "b024c2"
+   ],
+   "note": "A ideia atravessa a mesa, o Ministério dos Portos e o Instituto Migrações, três lugares diferentes com o mesmo diagnóstico."
+  },
+  {
+   "id": "t5",
+   "title": "Reconhecer a violação no Haiti destrava o refúgio",
+   "statement_plain": "Reconhecer a grave e generalizada violação de direitos no Haiti tornaria o refúgio dos haitianos mais rápido, e falta o mesmo olhar para os indígenas em deslocamento.",
+   "core_theme": "d7",
+   "positions": {
+    "d7": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b026c1",
+    "b026c2",
+    "b038c1"
+   ],
+   "note": "A ideia junta a Defensoria Pública da União e a Conectas, um órgão de Estado e uma organização que costuma cobrá-lo."
+  },
+  {
+   "id": "t6",
+   "title": "Criança refugiada precisa de lei, não resolução",
+   "statement_plain": "Crianças são 40% dos deslocados no mundo e muitas chegam sem documento. A proteção delas precisa estar em lei, e não só numa resolução que pode mudar.",
+   "core_theme": "d6",
+   "positions": {
+    "d6": "favoravel"
+   },
+   "claims_chave": [
+    "b002c2",
+    "b008c3",
+    "b038c2"
+   ],
+   "note": "A ideia junta o Instituto Migrações e a Defensoria, que veem a mesma criança de dois lados, o abrigo e a fronteira."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "IMDH",
+   "fala": "b001",
+   "sentence": 14,
+   "plain": "Instituto Migrações e Direitos Humanos, organização que atende migrantes e refugiados no Brasil"
+  },
+  {
+   "term": "ACNUR",
+   "fala": "b001",
+   "sentence": 15,
+   "plain": "Alto Comissariado das Nações Unidas para Refugiados, a agência da ONU que cuida de quem foge do próprio país"
+  },
+  {
+   "term": "CNBB",
+   "fala": "b002",
+   "sentence": 4,
+   "plain": "Conferência Nacional dos Bispos do Brasil, a entidade que reúne os bispos católicos do país"
+  },
+  {
+   "term": "apátridas",
+   "fala": "b004",
+   "sentence": 5,
+   "plain": "pessoas a quem nenhum país reconhece como cidadã, e que por isso não têm nacionalidade"
+  },
+  {
+   "term": "CONARE",
+   "fala": "b004",
+   "sentence": 7,
+   "plain": "Comitê Nacional para os Refugiados, o colegiado do governo que decide quem é reconhecido como refugiado"
+  },
+  {
+   "term": "oficiais de elegibilidade",
+   "fala": "b004",
+   "sentence": 8,
+   "plain": "servidores que analisam os pedidos de refúgio e dizem se a pessoa se enquadra nas regras"
+  },
+  {
+   "term": "vistos humanitários",
+   "fala": "b004",
+   "sentence": 10,
+   "plain": "autorização de entrada dada a quem foge de guerra ou crise grave, sem os requisitos do visto comum"
+  },
+  {
+   "term": "Declaração de Cartagena",
+   "fala": "b006",
+   "sentence": 22,
+   "plain": "acordo regional que ampliou na América Latina a definição de refugiado, incluindo a violação generalizada de direitos"
+  },
+  {
+   "term": "DPU",
+   "fala": "b008",
+   "sentence": 6,
+   "plain": "Defensoria Pública da União, o órgão que dá assistência jurídica gratuita a quem não pode pagar advogado"
+  },
+  {
+   "term": "CONANDA",
+   "fala": "b008",
+   "sentence": 41,
+   "plain": "Conselho Nacional dos Direitos da Criança e do Adolescente, que edita regras de proteção a menores de idade"
+  },
+  {
+   "term": "Operação Acolhida",
+   "fala": "b012",
+   "sentence": 21,
+   "plain": "força-tarefa do governo federal que recebe, documenta e transfere os venezuelanos que entram por Roraima"
+  },
+  {
+   "term": "OIM",
+   "fala": "b012",
+   "sentence": 29,
+   "plain": "Organização Internacional para as Migrações, a agência da ONU que cuida dos deslocamentos de pessoas"
+  },
+  {
+   "term": "SUS",
+   "fala": "b014",
+   "sentence": 21,
+   "plain": "Sistema Único de Saúde, a rede pública de saúde do Brasil"
+  },
+  {
+   "term": "ENAP",
+   "fala": "b020",
+   "sentence": 16,
+   "plain": "Escola Nacional de Administração Pública, que forma e capacita servidores do governo federal"
+  }
+ ]
+}

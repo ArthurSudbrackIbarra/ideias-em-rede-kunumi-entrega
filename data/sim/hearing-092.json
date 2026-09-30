@@ -1,0 +1,1612 @@
+{
+ "version": "sim-annotations-v4",
+ "id": 92,
+ "model": "LLM lendo o prompt hearing-092 (sim-annotations-v4), resposta importada e validada por annotate_sim.py --import",
+ "created": "2026-09-19T16:50:02Z",
+ "prompt_sha256": "bdd89b7c4903750495f6c59181132ce327845e48b6effe85fa172b6b05ce2f54",
+ "sentences_hash": "a29de5274ba6b2ba",
+ "review": {
+  "pairs_read": 25,
+  "pairs_fixed": 7
+ },
+ "warnings": [
+  "1 relação(ões) com to_claim null: o jogo as ancora na fala inteira"
+ ],
+ "synopsis": "A comissão especial que analisa o Projeto de Lei 6.461, de 2019, o Estatuto do Aprendiz, ouviu procuradores do trabalho, juízes, auditores fiscais e uma representante dos adolescentes. Os convidados pediram que o texto priorize o adolescente de 14 a 18 anos, mantenha o contrato em 2 anos e garanta acessibilidade e escola ao aprendiz com deficiência. Também se discutiu o que faz a empresa cumprir a cota, fiscalização ou incentivo.",
+ "stakes": "Que redação a comissão especial vai dar ao Estatuto do Aprendiz nos pontos de idade, prazo do contrato, cota e direitos do aprendiz com deficiência.",
+ "central_question": "O Estatuto do Aprendiz deve priorizar o adolescente de 14 a 18 anos ou tratar igualmente todos os jovens de 14 a 24 anos?",
+ "synopsis_plain": "A comissão que analisa o Estatuto do Aprendiz ouviu procuradores do trabalho, juízes, auditores fiscais e uma representante dos adolescentes. Todos pediram que a vaga de aprendiz seja primeiro do adolescente de 14 a 18 anos, que o contrato continue com 2 anos e que o aprendiz com deficiência tenha escola e acessibilidade garantidas.",
+ "stakes_plain": "Que texto a comissão vai escrever sobre idade, prazo do contrato e direitos do aprendiz com deficiência no Estatuto do Aprendiz.",
+ "central_question_plain": "A vaga de aprendiz deve ser primeiro do adolescente de 14 a 18 anos ou de qualquer jovem até 24 anos?",
+ "themes": [
+  {
+   "id": "d1",
+   "name": "Prioridade do adolescente",
+   "description": "Se a vaga de aprendiz deve ser primeiro do adolescente de 14 a 18 anos ou aberta igualmente aos jovens de até 24 anos.",
+   "axis": {
+    "pro": "A contratação de aprendiz deve priorizar o adolescente de 14 a 18 anos, e o jovem de 18 a 24 só nas exceções.",
+    "contra": "O estatuto pode tratar adolescentes e jovens de 14 a 24 anos sem nenhuma fila de prioridade.",
+    "pro_plain": "A vaga de aprendiz tem de ser primeiro do adolescente de 14 a 18 anos.",
+    "contra_plain": "A vaga de aprendiz pode ser de qualquer um de 14 a 24 anos, sem prioridade de idade."
+   },
+   "contested": false
+  },
+  {
+   "id": "d2",
+   "name": "Prazo do contrato de aprendizagem",
+   "description": "Se o contrato de aprendiz deve continuar com 2 anos, como hoje, ou passar para 3 anos, como propõe o texto.",
+   "axis": {
+    "pro": "O prazo deve continuar em 2 anos, porque o prazo maior reduz as vagas e o rodízio de aprendizes.",
+    "contra": "O prazo pode ir a 3 anos, dando mais tempo de formação a cada aprendiz.",
+    "pro_plain": "O contrato de aprendiz tem de continuar com 2 anos, como é hoje.",
+    "contra_plain": "O contrato pode ir a 3 anos, para o aprendiz ter mais tempo de formação."
+   },
+   "contested": false
+  },
+  {
+   "id": "d3",
+   "name": "Direitos do aprendiz com deficiência",
+   "description": "Se o estatuto precisa garantir acessibilidade, escola obrigatória e a participação das pessoas com deficiência na discussão.",
+   "axis": {
+    "pro": "O estatuto tem de exigir acessibilidade, manter a escola obrigatória e ouvir as pessoas com deficiência.",
+    "contra": "O estatuto pode dispensar a frequência escolar e deixar a acessibilidade fora do contrato de aprendizagem.",
+    "pro_plain": "O aprendiz com deficiência precisa de acessibilidade e tem de continuar na escola.",
+    "contra_plain": "O texto pode dispensar a escola e não falar de acessibilidade no contrato."
+   },
+   "contested": false
+  },
+  {
+   "id": "d4",
+   "name": "Fiscalização ou incentivo",
+   "description": "O que faria a empresa cumprir a cota de aprendizagem: fiscalização com multa que pese, ou incentivo a quem contrata.",
+   "axis": {
+    "pro": "Sem fiscalização e sem multa que pese, a empresa não contrata aprendiz.",
+    "contra": "O caminho é compensar quem contrata, com incentivo fiscal e alívio na contribuição.",
+    "pro_plain": "A empresa só contrata aprendiz quando o fiscal aparece e a multa dói.",
+    "contra_plain": "A empresa contrata mais quando ganha algo em troca, como incentivo fiscal."
+   },
+   "contested": true
+  },
+  {
+   "id": "d5",
+   "name": "Aprendizagem como política pública",
+   "description": "Se a aprendizagem é um contrato entre empresa e jovem ou uma política de Estado com ganhos para toda a sociedade.",
+   "axis": {
+    "pro": "A aprendizagem é política de Estado, garante escola e renda e reduz o trabalho infantil.",
+    "contra": "A aprendizagem é um contrato entre a empresa e o jovem, e não uma política do Estado.",
+    "pro_plain": "A aprendizagem é política de Estado e traz ganho para toda a sociedade.",
+    "contra_plain": "A aprendizagem é só um acerto entre a empresa e o jovem, não coisa de Estado."
+   },
+   "contested": false
+  }
+ ],
+ "speakers": {
+  "s01": {
+   "role": "mesa",
+   "cargo": "presidência da comissão especial",
+   "org": "Comissão Especial do PL 6.461/2019",
+   "basis": "abre a reunião em b001.0 e passa a condução a outra deputada em b019.3",
+   "seat": "mesa",
+   "gov_level": null,
+   "byline": null,
+   "org_plain": "comissão especial da Câmara dos Deputados que analisa o projeto do Estatuto do Aprendiz"
+  },
+  "s02": {
+   "role": "governo",
+   "cargo": "Diretor de Assuntos Legislativos e procurador do trabalho",
+   "org": "ANPT",
+   "basis": "apresentado pela presidência em b001.18 e por ele mesmo em b014.18",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da associação dos procuradores do trabalho",
+   "org_plain": "associação que representa os procuradores e as procuradoras do Ministério Público do Trabalho"
+  },
+  "s03": {
+   "role": "governo",
+   "cargo": "Presidente da ANAMATRA e juiz do trabalho",
+   "org": "ANAMATRA",
+   "basis": "apresentado pela presidência em b005.1",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "da associação dos juízes do trabalho",
+   "org_plain": "associação que reúne os magistrados e as magistradas da Justiça do Trabalho"
+  },
+  "s04": {
+   "role": "sociedade_civil",
+   "cargo": "Diretor Adjunto de Comunicação e auditor fiscal do trabalho",
+   "org": "SINAIT",
+   "basis": "apresentado pela presidência em b007.2 e por ele mesmo em b008.5",
+   "seat": "debatedores",
+   "gov_level": null,
+   "byline": "do sindicato dos auditores fiscais do trabalho",
+   "org_plain": "sindicato que representa os auditores fiscais do trabalho de todo o país"
+  },
+  "s05": {
+   "role": "governo",
+   "cargo": "Subprocuradora do Trabalho",
+   "org": "AMPID",
+   "basis": "apresentada pela presidência em b009.1 e por ela mesma em b010.7",
+   "seat": "remoto",
+   "gov_level": "federal",
+   "byline": "subprocuradora do trabalho, pela AMPID",
+   "org_plain": "associação de membros do Ministério Público que defendem a pessoa idosa e a pessoa com deficiência"
+  },
+  "s06": {
+   "role": "sociedade_civil",
+   "cargo": "representante do Estado de São Paulo no comitê",
+   "org": "CONAPETI",
+   "basis": "apresentada pela presidência em b011.6 e por ela mesma em b012.14",
+   "seat": "remoto",
+   "gov_level": null,
+   "byline": "do comitê de adolescentes contra o trabalho infantil",
+   "org_plain": "comitê formado por adolescentes que atua na prevenção e na erradicação do trabalho infantil"
+  }
+ },
+ "audience": {
+  "estimate": 20,
+  "composition": [
+   {
+    "role": "governo",
+    "share": 0.35
+   },
+   {
+    "role": "sociedade_civil",
+    "share": 0.35
+   },
+   {
+    "role": "parlamentar",
+    "share": 0.2
+   },
+   {
+    "role": "mesa",
+    "share": 0.1
+   }
+  ],
+  "basis": "a reunião é telepresencial (b006.4), com poucos presentes no Plenário 9 (b008.3) e sem registro de plateia ou de delegações",
+  "confidence": "baixa"
+ },
+ "falas": [
+  {
+   "id": "b001",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência abre a reunião, vota a ata e um requerimento e inicia a audiência sobre o Estatuto do Aprendiz.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "abre"
+  },
+  {
+   "id": "b002",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O procurador cumprimenta os presentes antes de começar a exposição.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b003",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência retribui o cumprimento.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b004",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Propõe ajustes no projeto para manter a prioridade do adolescente de 14 a 18 anos, preservar o prazo de 2 anos e criar incentivos à contratação.",
+   "quote": [
+    87,
+    88,
+    89
+   ],
+   "covered": true,
+   "evidence": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "condicional",
+    "claim": "O Estatuto do Aprendiz é importante, mas precisa de ajustes para não reduzir vagas nem tirar a prioridade do adolescente.",
+    "sentence": 2
+   },
+   "claims": [
+    {
+     "id": "b004c1",
+     "sentences": [
+      60,
+      61,
+      62
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o poder público deve criar incentivos fiscais e contratar aprendizes, porque a responsabilidade não é só das empresas",
+     "plain": "Nossa sugestão é criar incentivos fiscais para quem contrata aprendiz e fazer a administração pública também contratar, conforme o orçamento. A responsabilidade não pode ser só das empresas, tem de ser também do poder público."
+    },
+    {
+     "id": "b004c2",
+     "sentences": [
+      76,
+      77,
+      78
+     ],
+     "type": "economico",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "passar o contrato de 2 para 3 anos pode reduzir em 50% as vagas de aprendiz",
+     "plain": "Só de passar para 3 anos, as vagas podem cair 50%. Por isso 2 anos é o prazo adequado: se a empresa contratava um a cada 2 anos e passa a um a cada 3, em 6 anos serão dois aprendizes, quando deveriam ser três."
+    },
+    {
+     "id": "b004c3",
+     "sentences": [
+      87,
+      88,
+      89
+     ],
+     "type": "juridico",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o artigo 18 acaba com a prioridade do adolescente, e as empresas sempre preferem os jovens",
+     "plain": "O artigo 18 nos preocupa porque acaba com a prioridade que hoje é só do adolescente e a estende também aos jovens. As empresas sempre preferem o jovem, e por isso precisamos priorizar o adolescente."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b005",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da associação dos juízes do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b006",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Defende que o Estado trate a aprendizagem como política pública e propõe cota de aprendizes nos órgãos públicos e estímulo para efetivar o ex-aprendiz.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": true,
+   "evidence": [
+    27,
+    28,
+    29
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A aprendizagem é uma política pública que traz ganhos para o jovem, para a família e para toda a sociedade.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b006c1",
+     "sentences": [
+      15,
+      16
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o Estado tem de tratar a aprendizagem como política pública, porque ela garante escola, renda para a família e formação profissional",
+     "plain": "O Estado tem de tratar a aprendizagem como política pública, porque ela traz ganhos para toda a sociedade. Ela obriga o jovem a frequentar a escola, ajuda na renda da família e forma mão de obra para vários setores."
+    },
+    {
+     "id": "b006c2",
+     "sentences": [
+      34,
+      35,
+      36
+     ],
+     "type": "dado",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "uma cota de 0,5% na administração pública criaria mais de 550 mil vagas de aprendizagem",
+     "plain": "Segundo o Ipea, o país tem 11 milhões de servidores públicos. Uma cota de apenas 0,5% na administração pública, um décimo da cota do setor privado, criaria mais de 550 mil vagas de aprendizagem."
+    },
+    {
+     "id": "b006c3",
+     "sentences": [
+      25,
+      26,
+      27
+     ],
+     "type": "economico",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "é preciso estimular a empresa a efetivar o ex-aprendiz, com redução da contribuição previdenciária do empregador",
+     "plain": "Defendemos políticas que estimulem a empresa a contratar o aprendiz com carteira assinada depois que o contrato acaba, com redução da contribuição previdenciária. Isso combate o desemprego e fomenta a aprendizagem."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b007",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao representante do sindicato dos auditores fiscais do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b008",
+   "speaker": "s04",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Relata que, na fiscalização, mais aprendizagem significa menos trabalho infantil, e alerta que sem auditores e sem multa que pese a empresa não contrata.",
+   "quote": [
+    32,
+    33,
+    34
+   ],
+   "covered": true,
+   "evidence": [
+    6,
+    7,
+    8,
+    16
+   ],
+   "open_question": 42,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A prioridade do adolescente precisa ficar clara no projeto, e a fiscalização é o que faz a aprendizagem acontecer.",
+    "sentence": 34
+   },
+   "claims": [
+    {
+     "id": "b008c1",
+     "sentences": [
+      32,
+      33,
+      34
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "quanto mais aprendizagem, menos trabalho infantil, e por isso a prioridade do adolescente tem de ser mantida",
+     "plain": "No nosso trabalho de fiscalização, percebemos todo dia que, quanto mais aprendizagem, menos trabalho infantil e irregular. Daí a importância de manter a prioridade do adolescente."
+    },
+    {
+     "id": "b008c2",
+     "sentences": [
+      36,
+      37,
+      38
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "sem fiscalização não há aprendizes, e o Brasil tem apenas 2 mil auditores fiscais",
+     "plain": "Sem fiscalização não há aprendizes. A empresa espera a notificação chegar para só depois correr atrás da contratação. E somos apenas 2 mil auditores fiscais no Brasil."
+    },
+    {
+     "id": "b008c3",
+     "sentences": [
+      69,
+      70,
+      71
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "o apoio às microempresas e às pequenas empresas é um ponto positivo da proposta, e talvez caiba um incentivo fiscal",
+     "plain": "Um ponto positivo da proposta é o apoio às microempresas e às empresas de pequeno porte para entrar nesse esforço. No município pequeno há poucas empresas grandes e muitas pequenas, e talvez caiba um incentivo fiscal."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b009",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à subprocuradora do trabalho que representa a AMPID.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b010",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d2",
+   "summary": "Aponta que o projeto não prevê acessibilidade, prejudica o rodízio de pessoas com deficiência e dispensa a frequência escolar do aprendiz com deficiência.",
+   "quote": [
+    38,
+    39
+   ],
+   "covered": true,
+   "evidence": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "open_question": 22,
+   "stance": {
+    "position": "contrario",
+    "claim": "O texto proposto retrocede nos direitos do aprendiz com deficiência, na acessibilidade, no prazo e na escola.",
+    "sentence": 12
+   },
+   "claims": [
+    {
+     "id": "b010c1",
+     "sentences": [
+      28,
+      29
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a proposta não prevê critérios de acessibilidade nem adaptação razoável para o aprendiz com deficiência",
+     "plain": "Chama atenção que a proposta não traga nenhum critério de acessibilidade, nem tecnologia assistiva, nem adaptação razoável para o aprendiz com deficiência. Esses requisitos precisam estar nos contratos."
+    },
+    {
+     "id": "b010c2",
+     "sentences": [
+      38,
+      39
+     ],
+     "type": "principio",
+     "theme": "d2",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "aumentar o tempo do contrato acaba com o rodízio a cada 2 anos de diferentes pessoas com deficiência e reduz a participação delas",
+     "plain": "Aumentar o tempo de aprendizagem tira da empresa e dos colegas o rodízio a cada 2 anos de diferentes pessoas com deficiência. E reduz a participação dessas pessoas como aprendizes."
+    },
+    {
+     "id": "b010c3",
+     "sentences": [
+      56,
+      57,
+      58
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "é inconstitucional dispensar da escola a pessoa com deficiência contratada como aprendiz",
+     "plain": "Há inconstitucionalidade na proposta quando ela dispensa da escola a pessoa com deficiência contratada como aprendiz. A previsão tem de ser o contrário: a presença da criança e do jovem aprendiz na escola é obrigatória."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b011",
+   "speaker": "s01",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Diz que a exigência de a pessoa com deficiência estar na escola e no programa de aprendiz a representa por inteiro.",
+   "quote": [
+    3,
+    4
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A pessoa com deficiência contratada como aprendiz tem de estar na escola e no programa de aprendizagem ao mesmo tempo.",
+    "sentence": 4
+   },
+   "claims": [
+    {
+     "id": "b011c1",
+     "sentences": [
+      3,
+      4
+     ],
+     "type": "principio",
+     "theme": "d3",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "exigir que a pessoa com deficiência esteja na escola e no programa de aprendiz ao mesmo tempo representa a presidência por inteiro",
+     "plain": "Como presidente da comissão, eu não deveria emitir tantas opiniões. Mas a sua fala sobre a obrigação de a pessoa com deficiência estar na escola e no programa de aprendiz ao mesmo tempo me representa por inteiro."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b012",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d1",
+   "summary": "Apresenta os números do trabalho infantil e sustenta que, antes dos jovens, os adolescentes são a prioridade do Estatuto do Aprendiz.",
+   "quote": [
+    22,
+    23
+   ],
+   "covered": true,
+   "evidence": [
+    9,
+    10,
+    11
+   ],
+   "open_question": 39,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O Estatuto do Aprendiz tem de alcançar mais adolescentes, porque a maior parte de quem sofre trabalho infantil tem de 14 a 18 anos.",
+    "sentence": 23
+   },
+   "claims": [
+    {
+     "id": "b012c1",
+     "sentences": [
+      22
+     ],
+     "type": "dado",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalho infantil atinge 1,8 milhão de crianças e adolescentes, e 78% deles têm de 14 a 18 anos",
+     "plain": "O trabalho infantil é uma violência que atinge 1,8 milhão de crianças e adolescentes, segundo a última Pesquisa Nacional por Amostra de Domicílios. Destes, 78% têm de 14 a 18 anos e podem entrar na Lei do Aprendiz."
+    },
+    {
+     "id": "b012c2",
+     "sentences": [
+      23
+     ],
+     "type": "principio",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "antes dos jovens, os adolescentes são a prioridade do Estatuto do Aprendiz",
+     "plain": "Com o Estatuto do Aprendiz, o objetivo tem de ser alcançar mais crianças e adolescentes e olhar para esses meninos e essas meninas como prioridade absoluta. Antes dos jovens, os adolescentes são a nossa prioridade."
+    },
+    {
+     "id": "b012c3",
+     "sentences": [
+      52
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "aprovar o Estatuto do Aprendiz é fundamental para garantir os direitos dos adolescentes",
+     "plain": "Depois de estudar artigo por artigo, nós, adolescentes e jovens do CONAPETI, entendemos que aprovar o Estatuto do Aprendiz é fundamental para garantir os direitos desses adolescentes."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b013",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece, consulta os deputados e abre as considerações finais.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b014",
+   "speaker": "s02",
+   "kind": "substantive",
+   "theme": "d4",
+   "summary": "Destaca três desafios: a lei atual não cumprida, os retrocessos do texto e a ameaça de medida provisória do Poder Executivo.",
+   "quote": [
+    9,
+    10,
+    11
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "O maior problema não é só o texto novo, é que a lei da aprendizagem em vigor não vem sendo cumprida.",
+    "sentence": 9
+   },
+   "claims": [
+    {
+     "id": "b014c1",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "dado",
+     "theme": "d4",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a lei atual não é cumprida e cerca de 50% das vagas de aprendiz deixam de ser preenchidas",
+     "plain": "A lei da aprendizagem que já existe não está sendo cumprida. Hoje, só cerca de 50% das vagas são preenchidas diante do mínimo de 5%, e é preciso esforço para que os outros 50% cumpram a cota."
+    },
+    {
+     "id": "b014c2",
+     "sentences": [
+      13,
+      14
+     ],
+     "type": "juridico",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "o Executivo ameaça o projeto com uma possível medida provisória, nascida de um grupo de estudo do Ministério do Trabalho",
+     "plain": "Um terceiro ponto são as ameaças que vêm do Poder Executivo, inclusive uma possível medida provisória para atropelar este projeto. Ela começou em dezembro, num grupo de estudo do Ministério do Trabalho."
+    },
+    {
+     "id": "b014c3",
+     "sentences": [
+      15
+     ],
+     "type": "principio",
+     "theme": "d4",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "são três frentes a vigiar: a lei que não se cumpre, o retrocesso no texto e o retrocesso vindo do Executivo",
+     "plain": "São três situações a que precisamos estar atentos: a lei de hoje, que não se cumpre, os retrocessos do próprio estatuto e os que podem vir por medida provisória ou decreto do Executivo, reduzindo vagas de aprendiz."
+    }
+   ],
+   "tone": "politico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b015",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da associação dos juízes do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b016",
+   "speaker": "s03",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que o contrato de aprendizagem abre a porta do mercado de trabalho e conta o caso de uma aprendiz efetivada na associação.",
+   "quote": [
+    7
+   ],
+   "covered": true,
+   "evidence": [
+    29,
+    30,
+    31
+   ],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A aprendizagem é a porta de entrada do jovem no mercado de trabalho e compensa para quem contrata.",
+    "sentence": 7
+   },
+   "claims": [
+    {
+     "id": "b016c1",
+     "sentences": [
+      7
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o contrato de aprendizagem abre a porta do mercado de trabalho ao jovem, mas exige proteção social",
+     "plain": "O contrato de aprendizagem é fundamental porque abre a porta de entrada do jovem no mercado de trabalho. Mas, para isso acontecer, é imprescindível que haja a devida proteção social."
+    },
+    {
+     "id": "b016c2",
+     "sentences": [
+      12,
+      13,
+      14
+     ],
+     "type": "experiencia",
+     "theme": "d4",
+     "strength": "media",
+     "position": "contrario",
+     "gist": "vale para a empresa não só oferecer a aprendizagem, mas efetivar o aprendiz depois",
+     "plain": "Na seleção que fizemos, escolhemos uma das nossas aprendizes, que já conhecia o trabalho e vem se destacando. Vale o investimento da empresa em não só oferecer a aprendizagem, mas também efetivar depois o aprendiz."
+    }
+   ],
+   "tone": "tecnico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b017",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao auditor fiscal do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b018",
+   "speaker": "s04",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O auditor fiscal agradece e informa que as propostas viraram emendas ao projeto.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b019",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à subprocuradora e transfere a condução da reunião a outra deputada.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b020",
+   "speaker": "s05",
+   "kind": "substantive",
+   "theme": "d3",
+   "summary": "Defende que jovens, adolescentes e pessoas com deficiência participem da discussão do novo direito, sem desfazer o que já está garantido.",
+   "quote": [
+    14,
+    15,
+    16
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "Quem tem o direito em jogo precisa participar da discussão, e isso vale para adolescentes e para pessoas com deficiência.",
+    "sentence": 15
+   },
+   "claims": [
+    {
+     "id": "b020c1",
+     "sentences": [
+      14,
+      15,
+      16
+     ],
+     "type": "juridico",
+     "theme": "d3",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "pela convenção, as pessoas com deficiência precisam participar de todo processo legislativo e política pública que as envolva",
+     "plain": "Entre as pessoas com deficiência o lema é: nada sobre nós, sem nós. Um artigo da convenção diz que, sempre que o Estado tratar de direitos delas, no processo legislativo ou nas políticas públicas, elas precisam participar."
+    },
+    {
+     "id": "b020c2",
+     "sentences": [
+      11,
+      12
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "media",
+     "position": "favoravel",
+     "gist": "jovens e adolescentes precisam se apropriar do novo direito que se quer criar, sem retrocesso",
+     "plain": "Certos assuntos têm de ser discutidos com quem tem o direito em jogo. Jovens e adolescentes precisam se apropriar desse novo direito que se quer criar, sem desfazer e sem retroceder."
+    }
+   ],
+   "tone": "juridico",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b021",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao presidente da associação dos juízes do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b022",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O juiz do trabalho diz que já se manifestou e agradece à deputada que preside.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b023",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência responde ao convidado com uma cortesia.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b024",
+   "speaker": "s03",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O juiz do trabalho agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b025",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra ao procurador do trabalho.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b026",
+   "speaker": "s02",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "O procurador diz que já fez as suas considerações finais e agradece.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "cortesia"
+  },
+  {
+   "id": "b027",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência passa a palavra à representante dos adolescentes para a mensagem final.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "passa_palavra"
+  },
+  {
+   "id": "b028",
+   "speaker": "s06",
+   "kind": "substantive",
+   "theme": "d5",
+   "summary": "Sustenta que a aprendizagem seja política de Estado e lembra que o trabalho infantil se repete de geração em geração nas famílias.",
+   "quote": [
+    15,
+    16,
+    17
+   ],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": {
+    "position": "favoravel",
+    "claim": "A aprendizagem tem de ser política de Estado, permanente, e não programa de um governo.",
+    "sentence": 16
+   },
+   "claims": [
+    {
+     "id": "b028c1",
+     "sentences": [
+      15,
+      16,
+      17
+     ],
+     "type": "principio",
+     "theme": "d5",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "a aprendizagem tem de ser política de Estado e não política de governo, pensada de forma permanente",
+     "plain": "Minha mensagem final é que a aprendizagem precisa ser política pública, direito fundamental e prioridade absoluta. Não é política de governo, é política de Estado, pensada de forma permanente, seja qual for o mandato."
+    },
+    {
+     "id": "b028c2",
+     "sentences": [
+      9,
+      10,
+      11
+     ],
+     "type": "experiencia",
+     "theme": "d1",
+     "strength": "forte",
+     "position": "favoravel",
+     "gist": "o trabalho infantil se repete de pais, avós e tios para os adolescentes e perpetua ciclos de pobreza",
+     "plain": "O país isola essas crianças e adolescentes num ciclo em que a violência se repete. Muitos sofrem trabalho infantil pelas mãos de pais, avós e tios que também foram vítimas disso, e isso perpetua a pobreza e a miséria."
+    }
+   ],
+   "tone": "emotivo",
+   "interrupted": false,
+   "mesa_move": null
+  },
+  {
+   "id": "b029",
+   "speaker": "s01",
+   "kind": "procedural",
+   "theme": null,
+   "summary": "A presidência agradece aos convidados e encerra a audiência pública.",
+   "quote": [],
+   "covered": false,
+   "evidence": [],
+   "open_question": null,
+   "stance": null,
+   "claims": [],
+   "tone": null,
+   "interrupted": false,
+   "mesa_move": "encerra"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b008",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 34,
+   "to_sentence": 89,
+   "from_claim": "b008c1",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "Os dois pedem que a prioridade do adolescente fique clara no projeto, um pela rotina de fiscalização e o outro pela redação do artigo 18."
+  },
+  {
+   "from": "b008",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 32,
+   "to_sentence": 15,
+   "from_claim": "b008c1",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "O auditor confirma na prática o que o magistrado apresentou como ganho de política pública, que a aprendizagem reduz o trabalho infantil."
+  },
+  {
+   "from": "b010",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 38,
+   "to_sentence": 76,
+   "from_claim": "b010c2",
+   "to_claim": "b004c2",
+   "strength": "forte",
+   "note": "As duas falas do Ministério Público do Trabalho querem manter o prazo de 2 anos, uma pelo número de vagas e a outra pelo rodízio de pessoas com deficiência."
+  },
+  {
+   "from": "b011",
+   "to": "b010",
+   "kind": "apoia",
+   "from_sentence": 4,
+   "to_sentence": 58,
+   "from_claim": "b011c1",
+   "to_claim": "b010c3",
+   "strength": "forte",
+   "note": "A presidência diz que a exigência de a pessoa com deficiência estar na escola e no programa de aprendiz a representa por inteiro."
+  },
+  {
+   "from": "b012",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 23,
+   "to_sentence": 89,
+   "from_claim": "b012c2",
+   "to_claim": "b004c3",
+   "strength": "forte",
+   "note": "O comitê de adolescentes reforça o que a associação dos procuradores pediu no artigo 18, que antes dos jovens venham os adolescentes."
+  },
+  {
+   "from": "b012",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 22,
+   "to_sentence": 32,
+   "from_claim": "b012c1",
+   "to_claim": "b008c1",
+   "strength": "forte",
+   "note": "A ligação entre trabalho infantil e aprendizagem que o auditor vê na fiscalização aparece no número trazido pelo comitê, 1,8 milhão de crianças e adolescentes."
+  },
+  {
+   "from": "b012",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 52,
+   "to_sentence": 15,
+   "from_claim": "b012c3",
+   "to_claim": "b006c1",
+   "strength": "media",
+   "note": "O comitê de adolescentes defende a aprovação do estatuto na mesma linha em que a associação dos magistrados pede que a aprendizagem seja política pública."
+  },
+  {
+   "from": "b014",
+   "to": "b008",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 37,
+   "from_claim": "b014c1",
+   "to_claim": "b008c2",
+   "strength": "forte",
+   "note": "Os dois dizem que a lei atual não sai do papel, um pelas vagas que faltam e o outro pela empresa que só contrata quando chega a notificação."
+  },
+  {
+   "from": "b014",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 13,
+   "to_sentence": 39,
+   "from_claim": "b014c2",
+   "to_claim": null,
+   "strength": "media",
+   "note": "Os dois alertam para a medida provisória que o Executivo poderia editar sobre a aprendizagem enquanto o projeto tramita na Câmara."
+  },
+  {
+   "from": "b016",
+   "to": "b004",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 60,
+   "from_claim": "b016c2",
+   "to_claim": "b004c1",
+   "strength": "media",
+   "note": "O caso da aprendiz efetivada na associação dos magistrados reforça o pedido de estímulo para quem contrata e efetiva o aprendiz."
+  },
+  {
+   "from": "b020",
+   "to": "b012",
+   "kind": "apoia",
+   "from_sentence": 11,
+   "to_sentence": 23,
+   "from_claim": "b020c2",
+   "to_claim": "b012c2",
+   "strength": "media",
+   "note": "A subprocuradora diz que o assunto tem de ser discutido com quem tem o direito em jogo, como fez a representante dos adolescentes."
+  },
+  {
+   "from": "b020",
+   "to": "b011",
+   "kind": "apoia",
+   "from_sentence": 14,
+   "to_sentence": 4,
+   "from_claim": "b020c1",
+   "to_claim": "b011c1",
+   "strength": "media",
+   "note": "A subprocuradora retoma o lema que a presidência endossou, de que nada se decide sobre as pessoas com deficiência sem elas."
+  },
+  {
+   "from": "b028",
+   "to": "b006",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 15,
+   "from_claim": "b028c1",
+   "to_claim": "b006c1",
+   "strength": "forte",
+   "note": "Os dois dizem que a aprendizagem tem de ser tratada como política permanente do Estado, e não como programa de um governo."
+  },
+  {
+   "from": "b028",
+   "to": "b016",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 7,
+   "from_claim": "b028c1",
+   "to_claim": "b016c1",
+   "strength": "media",
+   "note": "As duas falas dizem que a aprendizagem só cumpre o seu papel com proteção social e com previsão permanente."
+  },
+  {
+   "from": "b028",
+   "to": "b020",
+   "kind": "apoia",
+   "from_sentence": 15,
+   "to_sentence": 12,
+   "from_claim": "b028c1",
+   "to_claim": "b020c2",
+   "strength": "media",
+   "note": "As duas defendem que o novo direito seja construído com quem ele afeta e que nada do que já está garantido seja desfeito."
+  }
+ ],
+ "consensus": [
+  {
+   "theme": "d1",
+   "falas": [
+    "b004",
+    "b008",
+    "b012",
+    "b028"
+   ],
+   "claims": [
+    "b004c3",
+    "b008c1",
+    "b012c1",
+    "b012c2",
+    "b028c2"
+   ],
+   "note": "A associação dos procuradores, o sindicato dos auditores fiscais e o comitê de adolescentes concordam que a vaga de aprendiz tem de ser primeiro do adolescente."
+  },
+  {
+   "theme": "d3",
+   "falas": [
+    "b010",
+    "b011",
+    "b020"
+   ],
+   "claims": [
+    "b010c1",
+    "b010c3",
+    "b011c1",
+    "b020c1"
+   ],
+   "note": "A subprocuradora do trabalho e a presidência da comissão concordam que o aprendiz com deficiência precisa de acessibilidade e tem de continuar na escola."
+  },
+  {
+   "theme": "d4",
+   "falas": [
+    "b008",
+    "b014"
+   ],
+   "claims": [
+    "b008c2",
+    "b014c1",
+    "b014c3"
+   ],
+   "note": "O sindicato dos auditores fiscais e a associação dos procuradores concordam que a lei em vigor não é cumprida e que sem fiscalização a empresa não contrata."
+  },
+  {
+   "theme": "d5",
+   "falas": [
+    "b006",
+    "b012",
+    "b016",
+    "b020",
+    "b028"
+   ],
+   "claims": [
+    "b006c1",
+    "b006c2",
+    "b012c3",
+    "b016c1",
+    "b020c2",
+    "b028c1"
+   ],
+   "note": "A associação dos juízes, a subprocuradora e o comitê de adolescentes concordam que a aprendizagem é política pública e precisa de proteção social."
+  }
+ ],
+ "open_questions": [
+  {
+   "id": "q1",
+   "from": "b008",
+   "sentence": 42,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "cobra concurso público para recompor o quadro de auditores fiscais",
+   "plain": "Quando vem o concurso público para recompor o quadro de auditores fiscais do trabalho?",
+   "theme": "d4",
+   "position": "favoravel"
+  },
+  {
+   "id": "q2",
+   "from": "b010",
+   "sentence": 22,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "cobra a participação obrigatória das pessoas com deficiência na discussão",
+   "plain": "As pessoas com deficiência e suas organizações vão ser ouvidas na discussão do novo texto?",
+   "theme": "d3",
+   "position": "favoravel"
+  },
+  {
+   "id": "q3",
+   "from": "b012",
+   "sentence": 39,
+   "addressed_to": "parlamentar",
+   "answered_by": null,
+   "gist": "pergunta qual é o objetivo do estatuto, cumprir cota ou alcançar mais gente",
+   "plain": "O objetivo do estatuto é fazer o empregador cumprir a cota ou alcançar mais crianças, adolescentes e jovens?",
+   "theme": "d1",
+   "position": "favoravel"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "fala": "b006",
+   "sentence": 29,
+   "gist": "eram 470 mil aprendizes de 14 a 24 anos, pela RAIS de 2019",
+   "disputed_by": []
+  },
+  {
+   "id": "f2",
+   "fala": "b006",
+   "sentence": 30,
+   "gist": "há potencial para 954.823 vagas com a cota mínima de 5%",
+   "disputed_by": []
+  },
+  {
+   "id": "f3",
+   "fala": "b006",
+   "sentence": 34,
+   "gist": "o país tem 11 milhões de servidores públicos, pelo Ipea",
+   "disputed_by": []
+  },
+  {
+   "id": "f4",
+   "fala": "b006",
+   "sentence": 36,
+   "gist": "cota de 0,5% no setor público daria mais de 550 mil vagas",
+   "disputed_by": []
+  },
+  {
+   "id": "f5",
+   "fala": "b008",
+   "sentence": 9,
+   "gist": "é auditor fiscal do trabalho há 26 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f6",
+   "fala": "b008",
+   "sentence": 38,
+   "gist": "há apenas 2 mil auditores fiscais no Brasil",
+   "disputed_by": []
+  },
+  {
+   "id": "f7",
+   "fala": "b008",
+   "sentence": 45,
+   "gist": "a alíquota da cota de aprendizagem hoje é de 5%",
+   "disputed_by": []
+  },
+  {
+   "id": "f8",
+   "fala": "b008",
+   "sentence": 46,
+   "gist": "o texto proposto reduz essa alíquota para 4%",
+   "disputed_by": []
+  },
+  {
+   "id": "f9",
+   "fala": "b004",
+   "sentence": 76,
+   "gist": "o prazo de 3 anos pode reduzir 50% das vagas de aprendiz",
+   "disputed_by": []
+  },
+  {
+   "id": "f10",
+   "fala": "b012",
+   "sentence": 22,
+   "gist": "1,8 milhão de crianças e adolescentes no trabalho infantil, 78% de 14 a 18 anos",
+   "disputed_by": []
+  },
+  {
+   "id": "f11",
+   "fala": "b014",
+   "sentence": 11,
+   "gist": "cerca de 50% das vagas de aprendiz deixam de ser preenchidas",
+   "disputed_by": []
+  }
+ ],
+ "press": {
+  "themes_covered": [
+   "d1",
+   "d2",
+   "d3",
+   "d5"
+  ],
+  "roles_quoted": [
+   "governo",
+   "sociedade_civil"
+  ],
+  "angle": "A matéria escolheu o pedido dos debatedores para que o estatuto priorize o adolescente de 14 a 18 anos e reuniu as críticas ao contrato de 3 anos.",
+  "omitted": "Ficaram de fora a cobrança por concurso para auditores fiscais, a proposta de cota nos órgãos públicos e o alerta sobre a medida provisória do Executivo."
+ },
+ "teses": [
+  {
+   "id": "t1",
+   "title": "A vaga de aprendiz é primeiro do adolescente",
+   "statement_plain": "A vaga de aprendiz tem de ser primeiro do adolescente de 14 a 18 anos. É assim que a aprendizagem ajuda a tirar meninos e meninas do trabalho infantil.",
+   "core_theme": "d1",
+   "positions": {
+    "d1": "favoravel"
+   },
+   "claims_chave": [
+    "b004c3",
+    "b008c1",
+    "b012c1",
+    "b012c2",
+    "b028c2"
+   ],
+   "note": "A ideia junta uma associação de procuradores do trabalho, o sindicato dos auditores fiscais e um comitê formado por adolescentes, gente de lugares bem diferentes."
+  },
+  {
+   "id": "t2",
+   "title": "Aprendizagem é política de Estado, não de governo",
+   "statement_plain": "A aprendizagem não é favor de empresa nem programa de um governo. É política de Estado, com escola, renda e proteção social, e precisa valer independentemente de quem está no poder.",
+   "core_theme": "d5",
+   "positions": {
+    "d5": "favoravel"
+   },
+   "claims_chave": [
+    "b006c1",
+    "b012c3",
+    "b016c1",
+    "b020c2",
+    "b028c1"
+   ],
+   "note": "A ideia atravessa a Justiça do Trabalho, o Ministério Público e um comitê de adolescentes, que chegam a ela por caminhos diferentes."
+  },
+  {
+   "id": "t3",
+   "title": "Sem escola e sem acessibilidade não há aprendizagem",
+   "statement_plain": "O aprendiz com deficiência tem de continuar na escola e ter acessibilidade garantida no contrato. E nada sobre as pessoas com deficiência pode ser decidido sem elas.",
+   "core_theme": "d3",
+   "positions": {
+    "d3": "favoravel"
+   },
+   "claims_chave": [
+    "b010c1",
+    "b010c3",
+    "b011c1",
+    "b020c1"
+   ],
+   "note": "A ideia é sustentada pela subprocuradora do trabalho e endossada pela própria presidência da comissão, que quebra o protocolo para dizer que concorda."
+  },
+  {
+   "id": "t4",
+   "title": "Sem fiscalização e multa que pese, não há aprendiz",
+   "statement_plain": "A empresa só contrata aprendiz quando o fiscal aparece e a multa dói. Faltam auditores, e a multa barata sai mais em conta do que cumprir a cota.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "favoravel"
+   },
+   "claims_chave": [
+    "b008c2",
+    "b014c1",
+    "b014c3"
+   ],
+   "note": "A ideia junta o sindicato dos auditores fiscais e a associação dos procuradores do trabalho, e é contestada por quem prefere estimular a empresa."
+  },
+  {
+   "id": "t5",
+   "title": "Compensar quem contrata rende mais que punir",
+   "statement_plain": "A empresa contrata e efetiva mais aprendizes quando ganha algo em troca: incentivo fiscal, alívio na contribuição e um trabalhador que ela já conhece.",
+   "core_theme": "d4",
+   "positions": {
+    "d4": "contrario"
+   },
+   "claims_chave": [
+    "b004c1",
+    "b006c3",
+    "b008c3",
+    "b016c2"
+   ],
+   "note": "A ideia divide o mesmo campo: o procurador que cobra o cumprimento da lei também pede incentivo fiscal, e o auditor fiscal elogia o apoio às pequenas empresas."
+  }
+ ],
+ "glossario": [
+  {
+   "term": "contrato de aprendizagem",
+   "fala": "b004",
+   "sentence": 31,
+   "plain": "contrato de trabalho especial em que o jovem trabalha e ao mesmo tempo recebe formação na profissão"
+  },
+  {
+   "term": "Consolidação das Leis do Trabalho",
+   "fala": "b004",
+   "sentence": 33,
+   "plain": "a lei que reúne as regras do trabalho no Brasil, conhecida pela sigla CLT"
+  },
+  {
+   "term": "cota",
+   "fala": "b004",
+   "sentence": 64,
+   "plain": "percentual mínimo de aprendizes que a empresa é obrigada a contratar sobre o seu quadro de empregados"
+  },
+  {
+   "term": "ANPT",
+   "fala": "b001",
+   "sentence": 18,
+   "plain": "Associação Nacional dos Procuradores e das Procuradoras do Trabalho, que representa os membros do Ministério Público do Trabalho"
+  },
+  {
+   "term": "ANAMATRA",
+   "fala": "b004",
+   "sentence": 7,
+   "plain": "Associação Nacional dos Magistrados da Justiça do Trabalho, que reúne juízes e juízas do trabalho"
+  },
+  {
+   "term": "SINAIT",
+   "fala": "b007",
+   "sentence": 2,
+   "plain": "Sindicato Nacional dos Auditores Fiscais do Trabalho, que representa quem fiscaliza o cumprimento das leis trabalhistas"
+  },
+  {
+   "term": "AMPID",
+   "fala": "b009",
+   "sentence": 1,
+   "plain": "associação de membros do Ministério Público que defendem os direitos da pessoa idosa e da pessoa com deficiência"
+  },
+  {
+   "term": "CONAPETI",
+   "fala": "b011",
+   "sentence": 6,
+   "plain": "Comitê Nacional de Adolescentes pela Prevenção e Erradicação do Trabalho Infantil, formado pelos próprios adolescentes"
+  },
+  {
+   "term": "RAIS",
+   "fala": "b006",
+   "sentence": 29,
+   "plain": "Relação Anual de Informações Sociais, o registro que as empresas entregam todo ano com dados dos seus empregados"
+  },
+  {
+   "term": "tecnologia assistiva",
+   "fala": "b010",
+   "sentence": 15,
+   "plain": "equipamentos e recursos que ajudam a pessoa com deficiência a fazer o que faria sem eles, como leitor de tela ou cadeira adaptada"
+  },
+  {
+   "term": "adaptação razoável",
+   "fala": "b010",
+   "sentence": 15,
+   "plain": "ajuste no posto de trabalho ou na rotina, caso a caso, para que a pessoa com deficiência trabalhe em igualdade com as outras"
+  },
+  {
+   "term": "contagem ficta",
+   "fala": "b008",
+   "sentence": 59,
+   "plain": "contar como aprendiz quem já terminou a formação e virou empregado, mesmo sem uma vaga nova de aprendiz"
+  },
+  {
+   "term": "PNAD",
+   "fala": "b012",
+   "sentence": 22,
+   "plain": "Pesquisa Nacional por Amostra de Domicílios, levantamento oficial que ouve as famílias brasileiras sobre trabalho e renda"
+  },
+  {
+   "term": "ECA",
+   "fala": "b012",
+   "sentence": 42,
+   "plain": "Estatuto da Criança e do Adolescente, a lei de 1990 que reúne os direitos de quem tem menos de 18 anos"
+  }
+ ]
+}
