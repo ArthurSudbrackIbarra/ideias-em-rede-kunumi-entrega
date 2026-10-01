@@ -1,4 +1,16 @@
-# Simulador de Audiências Públicas - Ideias em Rede (Instituto Kunumi) - PublicHearingBR
+# Don’t Leave It Uai-Tchê - Ideias em Rede (Instituto Kunumi) - PublicHearingBR
+
+> ## 🎮 Jogar agora, no navegador: **<https://arthursudbrackibarra.github.io/ideias-em-rede-kunumi-entrega/>**
+>
+> [![Jogar agora](https://img.shields.io/badge/%E2%96%B6%20JOGAR%20AGORA-no%20navegador-2ea44f?style=for-the-badge)](https://arthursudbrackibarra.github.io/ideias-em-rede-kunumi-entrega/)
+> [![Trailer no YouTube](https://img.shields.io/badge/TRAILER-YouTube-c4302b?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/BYGZbZYzUZA)
+> [![Artigo em PDF](https://img.shields.io/badge/ARTIGO-PDF-1f6feb?style=for-the-badge)](Artigo.pdf)
+>
+> ## 🎬 Trailer (demo do jogo): **<https://youtu.be/BYGZbZYzUZA>**
+>
+> [![Trailer do jogo no YouTube](https://img.youtube.com/vi/BYGZbZYzUZA/hqdefault.jpg)](https://youtu.be/BYGZbZYzUZA)
+>
+> ## 📄 Artigo escrito: **[Artigo.pdf](Artigo.pdf)** (na raiz do repositório)
 
 Repositório do grupo para o desafio **"IA e a Esfera Pública"**. O dataset é o
 [PublicHearingBR](https://huggingface.co/datasets/unicamp-dl/PublicHearingBR)
@@ -111,7 +123,8 @@ servidor, sem Python e sem chave de API em tempo de jogo. O workflow
 na `main` (ou à mão, pela aba Actions), depois de rodar typecheck, lint e os testes do motor.
 
 Para ligar, uma vez só: em **Settings → Pages → Build and deployment**, escolha *Source: GitHub Actions*. O site
-fica em `https://<usuario>.github.io/<repo>/`. O workflow calcula o caminho base a partir do nome do repositório e
+fica em `https://<usuario>.github.io/<repo>/`; o deste repositório está em
+<https://arthursudbrackibarra.github.io/ideias-em-rede-kunumi-entrega/>. O workflow calcula o caminho base a partir do nome do repositório e
 passa em `VITE_BASE` para o Vite; o código já lê `import.meta.env.BASE_URL` no router e nos `fetch`, então
 nenhum caminho é fixo. Como o Pages não reescreve rotas, o `index.html` também é copiado como `404.html`: abrir
 `/sim/44` direto entrega a aplicação e o React Router resolve a rota. Para testar o build de um subcaminho
@@ -179,6 +192,11 @@ Paper do dataset: [arXiv 2410.07495](https://arxiv.org/abs/2410.07495).
 
 ## Documentos
 
+- **[Jogo publicado](https://arthursudbrackibarra.github.io/ideias-em-rede-kunumi-entrega/)** — joga direto no navegador, sem instalar nada.
+- **[Artigo.pdf](Artigo.pdf)** — o artigo escrito sobre o projeto.
+- **[Trailer no YouTube](https://youtu.be/BYGZbZYzUZA)** — vídeo de demonstração do jogo.
+- [analysis/](analysis/README.md) — scripts que recalculam todos os números do artigo a partir dos arquivos do
+  repositório (`uv run analysis/run_all.py`); o resultado fica em [analysis/resultados.md](analysis/resultados.md).
 - [docs/extracao-llm-audiencias.md](docs/extracao-llm-audiencias.md) — o que o modelo de linguagem extrai de cada
   audiência e como isso vira o arquivo jogável (diagrama em `.mmd`, `.svg` e `.png`).
 - [shared/hearing-sim.schema.json](shared/hearing-sim.schema.json) — o contrato `hearing-sim-v2` entre o pipeline e o jogo.
@@ -186,6 +204,7 @@ Paper do dataset: [arXiv 2410.07495](https://arxiv.org/abs/2410.07495).
 ## Layout
 
 ```
+analysis/               scripts que recalculam os números do artigo (run_all.py -> resultados.md)
 data/publichearingbr/   dataset (jsonl ignorados pelo git; baixar com o script)
 data/sim/               hearing-NNN.json: anotação do simulador por audiência (versionado; 100 audiências)
 data/sim/prompts/       prompts gerados por --dump-prompt (ignorados)
