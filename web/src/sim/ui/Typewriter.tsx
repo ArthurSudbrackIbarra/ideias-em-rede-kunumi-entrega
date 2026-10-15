@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { COMMA_PAUSE_MS, SENTENCE_PAUSE_MS, TYPE_CPS } from '../engine/balance'
 import { typewriterStart, typewriterStop } from '../lib/sound'
+import { reducedMotion } from '../store/useSettings'
 
 interface Props {
   text: string
@@ -19,15 +20,14 @@ interface Props {
   render?: (text: string) => React.ReactNode
 }
 
-const reduced = typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-
 /**
  * Efeito de digitação (spec §9.4): contador de caracteres num ref avançado por requestAnimationFrame, com
  * pausa na pontuação; um setState só quando o texto visível muda de fato. O som real de máquina de
- * escrever toca em loop enquanto há caracteres aparecendo e para com fade quando a página termina.
+ * escrever toca em loop enquanto há caracteres aparecendo e para com fade quando a página termina. Com movimento
+ * reduzido, o texto aparece de uma vez. Enquanto digita, o leitor de tela lê o texto inteiro, nunca o pedaço.
  */
 export function Typewriter({ text, lineId, speed, muted, onDone, skip = 0, hurry = 0, paused = false, render }: Props) {
-  const [shown, setShown] = useState(reduced ? text.length : 0)
+  const [shown, setShown] = useState(() => (reducedMotion() ? text.length : 0))
   const shownRef = useRef(0)
   const acc = useRef(0)
   const pause = useRef(0)
@@ -37,7 +37,7 @@ export function Typewriter({ text, lineId, speed, muted, onDone, skip = 0, hurry
   const lastHurry = useRef(hurry)
 
   useEffect(() => {
-    shownRef.current = reduced ? text.length : 0
+    shownRef.current = reducedMotion() ? text.length : 0
     acc.current = 0
     pause.current = 0
     hurryRef.current = false
@@ -121,10 +121,14 @@ export function Typewriter({ text, lineId, speed, muted, onDone, skip = 0, hurry
   }, [lineId, text, speed, muted, onDone, paused])
 
   const done = shown >= text.length
+  if (done) return <span className="tw">{render ? render(text) : text}</span>
   return (
-    <span className="tw">
-      {done && render ? render(text) : text.slice(0, shown)}
-      {!done && <span className="tw-cursor" aria-hidden="true" />}
-    </span>
+    <>
+      <span className="tw" aria-hidden="true">
+        {text.slice(0, shown)}
+        <span className="tw-cursor" />
+      </span>
+      <span className="sr-only">{text}</span>
+    </>
   )
 }

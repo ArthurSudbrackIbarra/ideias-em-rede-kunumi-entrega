@@ -1,7 +1,8 @@
 import { copy } from '../copy'
 import { align } from '../engine/judge'
-import { displayName, ROLE_COLOR, teseById, type Card as CardT, type HearingSim } from '../lib/hearing'
+import { displayName, ROLE_LABEL, teseById, type Card as CardT, type HearingSim } from '../lib/hearing'
 import { useSim } from '../store/useSim'
+import { RoleDot } from './RoleDot'
 
 interface Props {
   card: CardT
@@ -16,6 +17,8 @@ interface Props {
   slot?: boolean
   /** candidata a citação de outro tema: é o grafo (uma respondeu à outra na audiência) que a autoriza */
   cross?: boolean
+  /** com a leitura em voz alta ligada, a carta do caderno ganha um botão para ouvir o texto dela */
+  onListen?: () => void
 }
 
 /**
@@ -25,7 +28,7 @@ interface Props {
  * de que assunto a anotação trata (pedido do autor em 2026-09-15). Estados: escolhida (anel interno de 2px de
  * tinta), citada (anel dourado), já usada (55%, sem sombra). O lado só aparece em modo guiado.
  */
-export function Card({ card, hearing, selected, cited, disabled, onClick, compact, slot, cross }: Props) {
+export function Card({ card, hearing, selected, cited, disabled, onClick, compact, slot, cross, onListen }: Props) {
   const guided = useSim((s) => s.run.guided)
   const teseId = useSim((s) => s.run.tese)
   const m = hearing.cast.find((c) => c.id === card.speaker)
@@ -35,10 +38,19 @@ export function Card({ card, hearing, selected, cited, disabled, onClick, compac
   const Tag = onClick ? 'button' : 'div'
   const cls = `sim-card k-${card.kind}${selected ? ' selected' : ''}${cited ? ' cited' : ''}${disabled ? ' disabled' : ''}${compact ? ' compact' : ''}${slot ? ' slot' : ''}`
   return (
-    <Tag type={onClick ? 'button' : undefined} className={cls} onClick={onClick} disabled={onClick ? disabled : undefined} data-testid="card" data-card={card.id}>
+    <Tag
+      type={onClick ? 'button' : undefined}
+      className={cls}
+      onClick={onClick}
+      disabled={onClick ? disabled : undefined}
+      aria-pressed={onClick ? !!(selected || cited) : undefined}
+      data-testid="card"
+      data-card={card.id}
+    >
       <span className="top">
-        {m && <i className="dot" style={{ background: ROLE_COLOR[m.role] }} />}
+        {m && <RoleDot role={m.role} />}
         <span className="who" data-clip>{m ? displayName(hearing, m.id) : card.speaker}</span>
+        {m && <span className="sr-only">, {ROLE_LABEL[m.role].toLowerCase()}</span>}
         {slot && m?.byline ? <span className="byline" data-clip>{m.byline}</span> : <span className="kind">{copy.floor.kinds[card.kind]}</span>}
       </span>
       <span className="gist" data-clip>{card.kind === 'pergunta' ? card.plain : card.gist}</span>
@@ -52,6 +64,11 @@ export function Card({ card, hearing, selected, cited, disabled, onClick, compac
           </span>
         )}
         <span className="ref">{card.ref}</span>
+        {onListen && !onClick && (
+          <button type="button" className="listen" onClick={onListen}>
+            {copy.desk.listen}
+          </button>
+        )}
       </span>
     </Tag>
   )

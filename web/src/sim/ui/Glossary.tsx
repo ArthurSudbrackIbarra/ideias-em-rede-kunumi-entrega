@@ -1,35 +1,39 @@
 import { copy } from '../copy'
 import type { GlossaryTerm } from '../lib/hearing'
 import { useSim } from '../store/useSim'
+import { Dialog } from './Dialog'
 
 /**
  * O glossário (redesenho, tela 08): docado à direita como a legenda, mas com placa de chassi e corpo de papel,
- * porque é conteúdo da audiência. Cada verbete traz a referência da primeira ocorrência.
+ * porque é conteúdo da audiência. Cada verbete traz a referência da primeira ocorrência. É um diálogo: recebe o
+ * foco, prende o Tab, fecha com Esc ou com a mesma tecla que o abriu, e a sala espera enquanto ele está aberto.
  */
 export function GlossaryPanel({ terms }: { terms: GlossaryTerm[] }) {
-  const open = useSim((s) => s.glossary)
-  const toggle = useSim((s) => s.toggleGlossary)
+  const open = useSim((s) => s.panel === 'glossary')
   if (!open) return null
+  const close = () => useSim.getState().togglePanel('glossary', false)
   return (
-    <aside className="sim-dock sim-glossary" data-testid="glossary" aria-label={copy.glossary.title}>
+    <Dialog labelledBy="glossary-title" onEscape={close} keys={['glossary']} className="sim-dock sim-glossary" testId="glossary">
       <div className="plate dock-head">
-        <h3>{copy.glossary.title}</h3>
-        <button type="button" className="close" onClick={toggle}>
+        <h2 id="glossary-title">{copy.glossary.title}</h2>
+        <button type="button" className="close" onClick={close}>
           {copy.glossary.close} <kbd>Esc</kbd>
         </button>
       </div>
-      <div className="paper sim-scroll">
+      <div className="paper sim-scroll" tabIndex={0} role="region" aria-labelledby="glossary-title">
         <p className="hint">{copy.glossary.hint}</p>
-        {terms.map((t) => (
-          <div className="term" key={t.term}>
-            <div className="t">
-              <b>{t.term}</b>
-              <span className="ref">{t.ref}</span>
+        <dl>
+          {terms.map((t) => (
+            <div className="term" key={t.term}>
+              <dt className="t">
+                <b>{t.term}</b>
+                <span className="ref">{t.ref}</span>
+              </dt>
+              <dd>{t.plain}</dd>
             </div>
-            <p>{t.plain}</p>
-          </div>
-        ))}
+          ))}
+        </dl>
       </div>
-    </aside>
+    </Dialog>
   )
 }

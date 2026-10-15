@@ -2,6 +2,7 @@ import { useFrame } from '@react-three/fiber'
 import { useMemo, useRef } from 'react'
 import { Group, MathUtils, Vector3 } from 'three'
 import { ROLE_COLOR, type Role } from '../lib/hearing'
+import { reducedMotion, useSettings } from '../store/useSettings'
 import { HEAD, type Pose } from './layout'
 import { skinFor } from './skin'
 
@@ -38,10 +39,12 @@ export function Avatar({ id, role, pose, speaking, lookAt, phase, tall = false }
   useFrame(({ clock }, dt) => {
     const t = clock.elapsedTime
     if (!body.current || !root.current) return
-    body.current.position.y = Math.sin(t * 1.1 + phase) * 0.004
+    // com movimento reduzido ninguém respira e as viradas são instantâneas; quem fala continua inclinado
+    const still = reducedMotion(useSettings.getState())
+    body.current.position.y = still ? 0 : Math.sin(t * 1.1 + phase) * 0.004
     // quem fala se inclina para o microfone
     const lean = speaking ? -0.16 : 0
-    body.current.rotation.x = MathUtils.damp(body.current.rotation.x, lean, 4, dt)
+    body.current.rotation.x = still ? lean : MathUtils.damp(body.current.rotation.x, lean, 4, dt)
     // os demais viram um pouco o corpo para quem fala
     let targetYaw = 0
     if (lookAt) {
@@ -49,7 +52,7 @@ export function Avatar({ id, role, pose, speaking, lookAt, phase, tall = false }
       root.current.worldToLocal(tmp)
       if (Math.hypot(tmp.x, tmp.z) > 0.3) targetYaw = MathUtils.clamp(Math.atan2(tmp.x, tmp.z), -0.7, 0.7)
     }
-    body.current.rotation.y = MathUtils.damp(body.current.rotation.y, targetYaw, 3, dt)
+    body.current.rotation.y = still ? targetYaw : MathUtils.damp(body.current.rotation.y, targetYaw, 3, dt)
   })
 
   return (

@@ -1,6 +1,7 @@
 import { useFrame, useThree } from '@react-three/fiber'
 import { useEffect, useMemo, useRef } from 'react'
 import { MathUtils, Vector3 } from 'three'
+import { reducedMotion, useSettings } from '../store/useSettings'
 import { useSim } from '../store/useSim'
 import { anchor } from './anchor'
 import { EYE, headOf, type SceneLayout } from './layout'
@@ -12,11 +13,14 @@ const DESK_PITCH = (-62 * Math.PI) / 180
 const DESK_THRESHOLD = (-50 * Math.PI) / 180
 const LOOK_CONE = (80 * Math.PI) / 180 // visão periférica conta: da ponta da mesa, os colegas ficam quase a 90°
 const DRAG = 0.0032
+/** um passo dos botões e das setas que viram a câmera */
+const TURN_STEP = (30 * Math.PI) / 180
 
 /**
  * A câmera na cadeira do jogador: posição fixa, guinada e inclinação livres dentro dos limites,
- * leve balanço de respiração. Arrastar o mouse arrasta a cena; Q/E viram para quem fala; Tab abaixa
- * a cabeça para a mesa de anotações. Também projeta a cabeça do orador para o balão (anchor).
+ * leve balanço de respiração. Arrastar o mouse arrasta a cena; Q/E viram para quem fala; as setas e os botões
+ * da sala viram um passo para cada lado; a tecla do caderno abaixa a cabeça para a mesa de anotações. Com movimento
+ * reduzido as viradas são instantâneas e a câmera não balança. Também projeta a cabeça do orador para o balão.
  */
 export function SeatCamera({ layout }: { layout: SceneLayout }) {
   const { camera, gl, size } = useThree()
@@ -34,6 +38,7 @@ export function SeatCamera({ layout }: { layout: SceneLayout }) {
   const fwd = useMemo(() => new Vector3(), [])
   const lookRequest = useSim((s) => s.lookRequest)
   const deskRequest = useSim((s) => s.deskRequest)
+  const turnRequest = useSim((s) => s.turnRequest)
   const current = useSim((s) => s.run.current)
   const setDeskView = useSim((s) => s.setDeskView)
   const setLooking = useSim((s) => s.setLooking)
@@ -94,21 +99,30 @@ export function SeatCamera({ layout }: { layout: SceneLayout }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lookRequest])
 
-  // Tab: mesa de anotações
+  // a tecla do caderno: mesa de anotações
   useEffect(() => {
     if (!deskRequest.nonce) return
-    target.current = { yaw: yaw.current, pitch: deskRequest.open ? DESK_PITCH : 0 }
+    target.current = { yaw: target.current?.yaw ?? yaw.current, pitch: deskRequest.open ? DESK_PITCH : 0 }
   }, [deskRequest])
+
+  // setas e botões: um passo para o lado, sem sair da mesa de anotações se a câmera estiver nela
+  useEffect(() => {
+    if (!turnRequest.nonce) return
+    const from = target.current?.yaw ?? yaw.current
+    const y = MathUtils.clamp(from - turnRequest.dir * TURN_STEP, base.yaw - YAW_LIMIT, base.yaw + YAW_LIMIT)
+    target.current = { yaw: y, pitch: target.current?.pitch ?? pitch.current }
+  }, [turnRequest, base])
 
   useFrame(({ clock }, dt) => {
     const t = clock.elapsedTime
+    const still = reducedMotion(useSettings.getState())
     if (target.current) {
-      yaw.current = MathUtils.damp(yaw.current, target.current.yaw, 7, dt)
-      pitch.current = MathUtils.damp(pitch.current, target.current.pitch, 7, dt)
+      yaw.current = still ? target.current.yaw : MathUtils.damp(yaw.current, target.current.yaw, 7, dt)
+      pitch.current = still ? target.current.pitch : MathUtils.damp(pitch.current, target.current.pitch, 7, dt)
       if (Math.abs(yaw.current - target.current.yaw) < 0.004 && Math.abs(pitch.current - target.current.pitch) < 0.004) target.current = null
     }
-    const swayY = Math.sin(t * 0.6) * 0.0026
-    const swayP = Math.sin(t * 0.9 + 1) * 0.002
+    const swayY = still ? 0 : Math.sin(t * 0.6) * 0.0026
+    const swayP = still ? 0 : Math.sin(t * 0.9 + 1) * 0.002
     camera.position.copy(base.pos)
     camera.rotation.set(pitch.current + swayP, yaw.current + swayY, 0, 'YXZ')
 

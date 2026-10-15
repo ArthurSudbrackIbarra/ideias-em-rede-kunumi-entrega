@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { copy } from '../copy'
 import { SPEEDS, START_CONVICTION } from '../engine/balance'
@@ -14,14 +15,21 @@ const BAD = new Set(['contradicao', 'par_invalido', 'repetida', 'ja_respondida']
  * A ata (redesenho, tela 14): a tela **é** a folha, sem cartão, sem mesa atrás e sem faixa. Duas colunas
  * separadas por um fio, a convicção final como numeral de exibição alinhado ao título, cada intervenção como
  * uma entrada de documento, e as ações encostadas à direita no rodapé. Documento não tem cartão: destaque vem
- * de tamanho, família, espaço ou de um fio.
+ * de tamanho, família, espaço ou de um fio. Ao abrir, o foco vai para o título, e cada seção tem o seu.
  */
 export function Ata({ hearing }: { hearing: HearingSim }) {
+  const phase = useSim((s) => s.run.phase)
+  if (phase !== 'ata') return null
+  return <AtaSheet hearing={hearing} />
+}
+
+function AtaSheet({ hearing }: { hearing: HearingSim }) {
   const run = useSim((s) => s.run)
   const autoplay = useSim((s) => s.autoplay)
   const speed = useSim((s) => s.speed)
   const restart = useSim((s) => s.restart)
-  if (run.phase !== 'ata') return null
+  const title = useRef<HTMLHeadingElement>(null)
+  useEffect(() => title.current?.focus({ preventScroll: true }), [])
   const cards = cardById(hearing)
   const tese = teseById(hearing, run.tese)
   const vs = verdicts(hearing, run)
@@ -51,18 +59,20 @@ export function Ata({ hearing }: { hearing: HearingSim }) {
   }
 
   return (
-    <section className="sim-ata sim-scroll" data-testid="ata">
+    <section className="sim-ata sim-scroll" aria-labelledby="ata-title" data-testid="ata">
       <div className="sheet">
         <div className="head">
           <div className="l">
             <span className="label">{copy.ata.eyebrow(hearing.date, run.seed)}</span>
-            <h1>{hearing.name}</h1>
+            <h1 ref={title} tabIndex={-1} id="ata-title">
+              {hearing.name}
+            </h1>
             <p className="opening" data-testid="verdicts">
               {vs.map((v) => v.text).join(' ')}
             </p>
           </div>
           <div className="score">
-            <span className="label">{copy.ata.finalConviction}</span>
+            <h2 className="label">{copy.ata.finalConviction}</h2>
             <div className="n" data-testid="conviction">{Math.round(run.conviction)}</div>
             <div className="facts" data-testid="counts">
               <span>{copy.ata.startedAt(START_CONVICTION)}</span>
@@ -78,13 +88,13 @@ export function Ata({ hearing }: { hearing: HearingSim }) {
           <div className="mine">
             {tese && (
               <>
-                <span className="label">{copy.ata.yourTese}</span>
-                <h2 className="tese-title">{tese.title}</h2>
+                <h2 className="label">{copy.ata.yourTese}</h2>
+                <h3 className="tese-title">{tese.title}</h3>
                 <p className="statement">{tese.statement_plain}</p>
                 <p className="inroom">{copy.ata.inRoom(tese.defender_orgs.join(', ') || copy.tese.nobody, tese.opponent_orgs.join(', ') || copy.tese.nobody)}</p>
               </>
             )}
-            <span className="label mt">{copy.ata.moves}</span>
+            <h2 className="label mt">{copy.ata.moves}</h2>
             {run.moves.length === 0 ? (
               <p className="empty">{copy.ata.noMoves}</p>
             ) : (
@@ -133,10 +143,10 @@ export function Ata({ hearing }: { hearing: HearingSim }) {
           <div className="vr" />
 
           <div className="real">
-            <span className="label">{copy.ata.real}</span>
+            <h2 className="label">{copy.ata.real}</h2>
             <p>{hearing.synopsis_plain}</p>
 
-            <span className="label mt">{copy.ata.openQuestions}</span>
+            <h2 className="label mt">{copy.ata.openQuestions}</h2>
             <ul className="qs">
               {questions.map((q) => (
                 <li key={q.id} className={q.answered_by_real ? 'closed' : ''}>
@@ -150,7 +160,7 @@ export function Ata({ hearing }: { hearing: HearingSim }) {
               ))}
             </ul>
 
-            <span className="label mt">{copy.ata.speakingTime}</span>
+            <h2 className="label mt">{copy.ata.speakingTime}</h2>
             <ul className="bars">
               {wordsByRole.map(([r, w]) => (
                 <li key={r}>
@@ -163,10 +173,10 @@ export function Ata({ hearing }: { hearing: HearingSim }) {
               ))}
             </ul>
 
-            <span className="label mt">{copy.ata.press}</span>
+            <h2 className="label mt">{copy.ata.press}</h2>
             <p>{hearing.press.angle}</p>
             <p className="muted">{copy.ata.pressQuoted(hearing.press.roles_quoted.map((r) => ROLE_LABEL[r]).join(', '), hearing.press.covered_falas.length, falas)}</p>
-            <span className="label mt">{copy.ata.omitted}</span>
+            <h2 className="label mt">{copy.ata.omitted}</h2>
             <p>{hearing.press.omitted}</p>
           </div>
         </div>

@@ -3,6 +3,7 @@ import { useFrame } from '@react-three/fiber'
 import { useMemo, useRef } from 'react'
 import type { Group } from 'three'
 import { ROLE_COLOR, type HearingSim, type Role } from '../lib/hearing'
+import { reducedMotion, useSettings } from '../store/useSettings'
 import { useSim } from '../store/useSim'
 import { HEAD, type Pose, type SceneLayout } from './layout'
 import { skinFor } from './skin'
@@ -50,11 +51,13 @@ export function Audience({ hearing, layout }: { hearing: HearingSim; layout: Sce
 
   useFrame(({ clock }) => {
     const t = clock.elapsedTime
+    // com movimento reduzido, as mãos levantadas dizem que há palmas sem bater, e a plateia não respira
+    const still = reducedMotion(useSettings.getState())
     if (hands.current) {
       hands.current.visible = applauding
-      hands.current.position.y = applauding ? Math.abs(Math.sin(t * 7)) * 0.08 : 0
+      hands.current.position.y = applauding ? (still ? 0.04 : Math.abs(Math.sin(t * 7)) * 0.08) : 0
     }
-    if (bodies.current) bodies.current.position.y = Math.sin(t * 1.3) * 0.003
+    if (bodies.current) bodies.current.position.y = still ? 0 : Math.sin(t * 1.3) * 0.003
   })
 
   const rows = Math.max(1, layout.audience.length ? Math.ceil(layout.audience.length / 12) : 0)

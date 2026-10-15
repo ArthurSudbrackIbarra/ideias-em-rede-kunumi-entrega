@@ -74,7 +74,8 @@ export type Action =
   | { t: 'chooseTese'; tese: string; guided: boolean }
   | { t: 'enterRoom' }
   | { t: 'advance' }
-  | { t: 'tick'; dt: number; looking: boolean }
+  /** `holdOffers`: o prazo da tréplica não corre (ajuste "sem limite de tempo", ou um painel aberto por cima da sala) */
+  | { t: 'tick'; dt: number; looking: boolean; holdOffers?: boolean }
   | { t: 'note'; card: string }
   | { t: 'openOriginal'; open: boolean }
   | { t: 'requestInterject' }
@@ -319,7 +320,8 @@ export function reduce(h: HearingSim, s: RunState, a: Action): RunState {
       if (s.originalOpen) return { ...s, mesaPatience: clamp(s.mesaPatience + B.PATIENCE_RECOVER * dt) }
       const attention = a.looking ? clamp(s.attention + B.ATTENTION_GAIN * dt) : clamp(s.attention - B.ATTENTION_LOSS * dt)
       const clock = s.clock + dt
-      const offer = s.treplicaOffer && s.treplicaOffer.until < clock ? null : s.treplicaOffer
+      const held = a.holdOffers && s.treplicaOffer ? { ...s.treplicaOffer, until: s.treplicaOffer.until + dt } : s.treplicaOffer
+      const offer = held && held.until < clock ? null : held
       return { ...s, clock, attention, mesaPatience: clamp(s.mesaPatience + B.PATIENCE_RECOVER * dt), treplicaOffer: offer }
     }
     case 'note': {

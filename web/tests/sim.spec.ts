@@ -191,12 +191,15 @@ test('audiência 44: tese, prelúdio, palavras simples, original, caderno, manua
   await expect(orig).toBeHidden()
   expect(await page.evaluate(() => window.simStore!.getState().run.originalsOpened.length)).toBe(1)
 
-  // 5. anotar aumenta a mão em 1; Tab mostra o caderno com a tese no cabeçalho
+  // 5. anotar aumenta a mão em 1; C mostra o caderno com a tese no cabeçalho (Tab é do foco desde a rodada de acessibilidade)
   const before = await page.evaluate(() => window.simStore!.getState().run.hand.length)
+  // anotar pede atenção: olhar para quem fala (Q) antes, porque a esta altura o teste já passou um bom tempo parado
+  await page.keyboard.press('q')
+  await expect.poll(() => page.evaluate(() => window.simStore!.getState().run.attention), { timeout: 20_000 }).toBeGreaterThanOrEqual(30)
   await balloon.getByTestId('note-btn').click({ force: true })
   await expect.poll(() => page.evaluate(() => window.simStore!.getState().run.hand.length)).toBe(before + 1)
   await expect(page.getByTestId('meters')).toContainText(`${before + 1}/7`)
-  await page.keyboard.press('Tab')
+  await page.keyboard.press('c')
   const desk = page.getByTestId('desk')
   await expect(desk).toBeVisible({ timeout: 10_000 })
   await expect(desk).toContainText('Você defende')
@@ -236,7 +239,8 @@ test('audiência 44: tese, prelúdio, palavras simples, original, caderno, manua
     const cards = new Map(h.deck.map((c) => [c.id, c]))
     store.subscribe((s) => {
       const c = s.run.current?.page?.card
-      if (!c || !s.run.notable.includes(c) || s.run.noted.includes(c)) return
+      // com o caderno cheio ou sem atenção a anotação é recusada com um aviso, e o aviso chamaria esta função de novo
+      if (!c || !s.run.notable.includes(c) || s.run.noted.includes(c) || s.run.hand.length >= 7 || s.run.attention < 25) return
       const card = cards.get(c)!
       if (card.kind === 'claim' && tese.positions[card.theme] !== undefined) store.getState().note(c)
     })
@@ -329,7 +333,9 @@ test('audiência 44: tese, prelúdio, palavras simples, original, caderno, manua
     await page.screenshot({ path: `${SHOTS}/sim-044-contradicao.png` })
     await page.keyboard.press('p')
   } else {
+    // devolver a palavra encerra a vez, por isso pede confirmação
     await floor.getByTestId('yield').click()
+    await floor.getByTestId('confirm-yes').click()
   }
 
   // 8. até o fim: devolve as próximas vezes e lê a ata

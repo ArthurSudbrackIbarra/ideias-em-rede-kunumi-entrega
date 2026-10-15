@@ -1,11 +1,13 @@
 /**
  * Sons do simulador (spec §19.10): máquina de escrever e palmas reais, dos mp3 em assets/audio, decodificados
  * uma vez e tocados pelo WebAudio; as marcas de relação continuam sintetizadas e discretas. Tudo passa por um
- * ganho mestre, que `M` zera. O contexto só nasce depois de um gesto do usuário (o clique em Sentar).
+ * ganho mestre, que `M` zera. O contexto só nasce depois de um gesto do usuário (o clique em Defender esta ideia).
+ * Cada um dos três canais tem volume próprio no painel de acessibilidade, multiplicado pelo volume geral.
  */
 import applauseUrl from '../assets/audio/applause.mp3'
 import typewriterUrl from '../assets/audio/typewriter.mp3'
 import { APPLAUSE_GAIN, TYPEWRITER_GAIN } from '../engine/balance'
+import { useSettings, type Volumes } from '../store/useSettings'
 
 let ctx: AudioContext | null = null
 let master: GainNode | null = null
@@ -14,13 +16,25 @@ const buffers: Partial<Record<'typewriter' | 'applause', AudioBuffer>> = {}
 const loading: Partial<Record<'typewriter' | 'applause', Promise<AudioBuffer | null>>> = {}
 let typewriter: { src: AudioBufferSourceNode; gain: GainNode } | null = null
 let wantTypewriter = false
+let volumes: Volumes = useSettings.getState().volumes
+
+function masterGain(): number {
+  return muted ? 0 : volumes.master
+}
+
+useSettings.subscribe((s) => {
+  if (s.volumes === volumes) return
+  volumes = s.volumes
+  if (master) master.gain.value = masterGain()
+  if (typewriter) typewriter.gain.gain.value = TYPEWRITER_GAIN * volumes.typewriter
+})
 
 function ac(): AudioContext | null {
   try {
     if (!ctx) {
       ctx = new AudioContext()
       master = ctx.createGain()
-      master.gain.value = muted ? 0 : 1
+      master.gain.value = masterGain()
       master.connect(ctx.destination)
     }
     if (ctx.state === 'suspended') void ctx.resume()
@@ -56,7 +70,7 @@ export function unlock(): void {
 
 export function setMuted(m: boolean): void {
   muted = m
-  if (master) master.gain.value = m ? 0 : 1
+  if (master) master.gain.value = masterGain()
 }
 
 export function isMuted(): boolean {
@@ -74,7 +88,7 @@ export function typewriterStart(): void {
     src.buffer = buf
     src.loop = true
     const gain = c.createGain()
-    gain.gain.value = TYPEWRITER_GAIN
+    gain.gain.value = TYPEWRITER_GAIN * volumes.typewriter
     src.connect(gain).connect(master)
     src.start()
     typewriter = { src, gain }
@@ -107,15 +121,17 @@ export function applause(): void {
     const src = c.createBufferSource()
     src.buffer = buf
     const gain = c.createGain()
-    gain.gain.value = APPLAUSE_GAIN
+    gain.gain.value = APPLAUSE_GAIN * volumes.applause
     src.connect(gain).connect(master)
     src.start()
   })
 }
 
-function tone(freq: number, dur: number, gain: number, type: OscillatorType = 'sine', when = 0) {
+function tone(freq: number, dur: number, peak: number, type: OscillatorType = 'sine', when = 0) {
   const c = ac()
   if (!c || !master) return
+  const gain = peak * volumes.cues
+  if (gain <= 0) return
   const o = c.createOscillator()
   const g = c.createGain()
   o.type = type

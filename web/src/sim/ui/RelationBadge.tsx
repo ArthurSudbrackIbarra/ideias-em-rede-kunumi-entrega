@@ -1,6 +1,6 @@
-import { copy } from '../copy'
 import type { RelationTag } from '../engine/rules'
-import { displayName, ROLE_LABEL, type HearingSim, type Role } from '../lib/hearing'
+import type { HearingSim } from '../lib/hearing'
+import { relationLabel } from './relationLabel'
 
 /**
  * Ícone + palavra, sempre juntos e nunca só cor (spec §10). Os traços são os da folha de componentes do
@@ -45,19 +45,6 @@ export function RelationIcon({ kind, size = 1 }: { kind: string; size?: number }
   }
 }
 
-/** A frase da relação: "Contradiz você", "Apoia Rodrigo Agostinho", "Cobra governo", "Consenso". */
-function relationLabel(tag: RelationTag, hearing: HearingSim): string {
-  let who = copy.rel[tag.kind] ?? tag.kind
-  if (tag.kind === 'consenso') return copy.rel.consenso
-  if (tag.kind === 'concorda') return copy.rel.concorda
-  if (tag.byPlayer) {
-    const target = tag.target ? displayName(hearing, tag.target) : ''
-    who = tag.kind === 'cobra' && tag.target ? `${copy.rel.cobra} ${ROLE_LABEL[roleOf(hearing, tag.target)].toLowerCase()}` : `${who} ${target}`
-  } else if (tag.kind === 'defende') who = `${copy.rel.defende} ${tag.target ? displayName(hearing, tag.target) : ''}`
-  else who = `${who} ${copy.rel.you}`
-  return who.trim()
-}
-
 /**
  * A marca de relação. `variant`: "plate" é a etiqueta tingida na placa do balão e no cartão de relação
  * (fundo escuro, tinta clara), "body" é a linha sem fundo no corpo de papel da réplica.
@@ -69,8 +56,4 @@ export function RelationBadge({ tag, hearing, variant = 'body' }: { tag: Relatio
       <b>{relationLabel(tag, hearing)}</b>
     </span>
   )
-}
-
-function roleOf(h: HearingSim, speaker: string): Role {
-  return h.cast.find((m) => m.id === speaker)?.role ?? 'convidado'
 }

@@ -1,14 +1,18 @@
+import { useEffect, useRef, useState } from 'react'
 import { copy } from '../copy'
-import { LOW_CONVICTION, MOVES_PER_INTERJECT } from '../engine/balance'
+import { LOW_CONVICTION, MOVES_PER_INTERJECT, SPEEDS } from '../engine/balance'
 import { canCite, type MoveKind } from '../engine/judge'
 import { sayMove } from '../engine/say'
 import { cardById, displayName, teseById, type Card as CardT, type HearingSim } from '../lib/hearing'
+import { rateFor, speak as speakAloud } from '../lib/speech'
+import { useSettings } from '../store/useSettings'
 import { useSim } from '../store/useSim'
 import { Card } from './Card'
+import { Dialog } from './Dialog'
 import { Check, Cross } from './Icons'
+import { Key } from './Key'
 
 const MOVES: MoveKind[] = ['sustento', 'contesto', 'cobro']
-const KEY: Record<MoveKind, string> = { sustento: '1', contesto: '2', cobro: '3' }
 
 type StepState = 'now' | 'done' | 'future'
 
@@ -18,7 +22,10 @@ type StepState = 'now' | 'done' | 'future'
  * nome do passo, e é um botão: clicar nele volta àquele passo sem perder o resto (pedido do autor, 2026-09-15).
  * O terceiro se anuncia condicional ("a citação, se contestar"). `Falar` indisponível vem sempre com a frase que
  * explica o que falta, à direita no rodapé. A ordem continua livre: clicar numa anotação antes do movimento
- * também funciona, e cada anotação mostra o tema a que pertence.
+ * também funciona, e cada anotação mostra o tema a que pertence. É um diálogo modal: o foco entra no primeiro
+ * movimento, o Tab fica dentro da folha, e Esc volta um passo (tira a citação, depois a anotação, depois o
+ * movimento). Devolver a palavra pede confirmação, porque encerra a vez. Falar pede confirmação só com o ajuste ligado:
+ * a prévia "Você vai dizer" já é a frase exata.
  */
 export function FloorPanel({ hearing }: { hearing: HearingSim }) {
   const run = useSim((s) => s.run)
@@ -29,6 +36,30 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
   const clearCite = useSim((s) => s.clearCite)
   const speak = useSim((s) => s.speak)
   const yieldFloor = useSim((s) => s.yieldFloor)
+  const confirmSpeak = useSettings((s) => s.confirmSpeak)
+  const readAloud = useSettings((s) => s.readAloud)
+  const [confirm, setConfirm] = useState<'speak' | 'yield' | null>(null)
+  const noBtn = useRef<HTMLButtonElement>(null)
+  // qualquer mudança na escolha desfaz uma confirmação pendente
+  useEffect(() => setConfirm(null), [selection, run.current?.id])
+  useEffect(() => {
+    if (confirm) noBtn.current?.focus()
+  }, [confirm])
+  // escolher um movimento ou uma anotação troca a folha, e o botão escolhido some: o foco vai para o próximo passo
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      const sheet = document.querySelector<HTMLElement>('.sim-floor')
+      const active = document.activeElement
+      if (!sheet || (active && active !== document.body && sheet.contains(active))) return
+      // ao contestar, a primeira candidata a citação vem antes de Falar, porque citar é o passo que sobra
+      const next =
+        sheet.querySelector<HTMLElement>('.cands button:not(:disabled)') ??
+        sheet.querySelector<HTMLElement>('[data-speak]:not(:disabled)') ??
+        sheet.querySelector<HTMLElement>('.body button:not(:disabled)')
+      next?.focus({ preventScroll: true })
+    })
+    return () => cancelAnimationFrame(raf)
+  }, [selection.kind, selection.card, selection.cite])
   if (run.phase !== 'floor') return null
   const cards = cardById(hearing)
   const tese = teseById(hearing, run.tese)
@@ -66,11 +97,34 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
   // o que o rodapé explica, à direita
   const why = run.hand.length === 0 ? null : !kind ? copy.floor.unlockMove : !chosen ? copy.floor.unlockPick : citing && !cite ? copy.floor.canCite : cite ? null : copy.floor.ready
 
+  /** Esc: desfaz a última escolha, uma de cada vez */
+  const back = () => {
+    if (confirm) return setConfirm(null)
+    if (cite) return clearCite()
+    if (chosen) return select(chosen.id)
+    if (kind) return clearMove()
+  }
+  const doSpeak = () => (confirmSpeak && confirm !== 'speak' ? setConfirm('speak') : speak())
+  const listen = () => {
+    if (preview) speakAloud(preview, rateFor(SPEEDS[useSim.getState().speed]), () => undefined)
+  }
+
   return (
-    <section className={`sim-floor${interject ? ' interject' : ''}`} data-testid="floor" aria-label={copy.floor.title}>
+    <Dialog
+      labelledBy="floor-title"
+      describedBy="floor-esc"
+      onEscape={back}
+      keys={['sustento', 'contesto', 'cobro', 'clearCite']}
+      initialFocus="first"
+      className={`sim-floor${interject ? ' interject' : ''}`}
+      testId="floor"
+    >
+      <p className="sr-only" id="floor-esc">
+        {copy.floor.escBack}
+      </p>
       <header>
         <div className="titles">
-          <h2>{interject ? copy.floor.interject : copy.floor.title}</h2>
+          <h2 id="floor-title">{interject ? copy.floor.interject : copy.floor.title}</h2>
           <span className="counter">{copy.floor.counter(Math.min(total, made + 1), total)}</span>
         </div>
         {tese && (
@@ -84,14 +138,14 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
       <ol className="trail" data-testid="trail">
         {steps.map((st) =>
           st.back ? (
-            <li key={st.n} className={st.state} data-step={st.n}>
-              <button type="button" onClick={st.back} title={copy.floor.backToStep(st.label)} data-testid={`step-${st.n}`}>
+            <li key={st.n} className={st.state} data-step={st.n} aria-current={st.state === 'now' ? 'step' : undefined}>
+              <button type="button" onClick={st.back} title={copy.floor.backToStep(st.label)} aria-label={copy.floor.backToStep(st.label)} data-testid={`step-${st.n}`}>
                 <span className="mark">{st.state === 'done' ? <Check /> : st.n}</span>
                 <span>{st.label}</span>
               </button>
             </li>
           ) : (
-            <li key={st.n} className={st.state} data-step={st.n}>
+            <li key={st.n} className={st.state} data-step={st.n} aria-current={st.state === 'now' ? 'step' : undefined}>
               <span>
                 <span className="mark">{st.state === 'done' ? <Check /> : st.n}</span>
                 <span>{st.label}</span>
@@ -110,8 +164,8 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
             <span className="q">{copy.floor.step1}</span>
             <div className="moves" data-testid="moves">
               {MOVES.map((m) => (
-                <button key={m} type="button" className={kind === m ? 'on' : ''} onClick={() => setMove(m)} data-testid={`move-${m}`}>
-                  <kbd>{KEY[m]}</kbd>
+                <button key={m} type="button" className={kind === m ? 'on' : ''} onClick={() => setMove(m)} aria-pressed={kind === m} data-testid={`move-${m}`}>
+                  <Key action={m} />
                   <span>
                     <span className="t">{copy.floor[m]}</span>
                     <small>{copy.floor.moveHint[m]}</small>
@@ -189,6 +243,11 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
               <div className="preview" data-testid="preview">
                 <span className="label">{copy.floor.preview}</span>
                 <p>{preview}</p>
+                {readAloud && (
+                  <button type="button" className="link" onClick={listen}>
+                    {copy.floor.listen}
+                  </button>
+                )}
               </div>
             )}
             {cite && <p className="hint">{copy.floor.citeRole(displayName(hearing, cite.speaker))}</p>}
@@ -209,6 +268,11 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
                   <div className="preview" data-testid="preview">
                     <span className="label">{copy.floor.preview}</span>
                     <p>{preview}</p>
+                    {readAloud && (
+                      <button type="button" className="link" onClick={listen}>
+                        {copy.floor.listen}
+                      </button>
+                    )}
                   </div>
                 ) : (
                   <p className="hint">{copy.floor.pickFor[kind]}</p>
@@ -219,21 +283,37 @@ export function FloorPanel({ hearing }: { hearing: HearingSim }) {
         )}
       </div>
 
-      <footer>
-        <button type="button" className="btn primary" onClick={speak} disabled={!preview} data-testid="speak">
-          {copy.floor.speak}
-        </button>
-        <button type="button" className="btn secondary" onClick={yieldFloor} data-testid="yield">
-          {copy.floor.yield}
-        </button>
-        {cite ? (
-          <button type="button" className="why" onClick={clearCite} data-testid="clear-cite-footer">
-            <Cross /> {copy.floor.removeCite} <kbd>C</kbd>
+      {confirm ? (
+        <footer className="confirm" data-testid="floor-confirm">
+          <p className="q">{confirm === 'speak' ? copy.floor.confirmSpeak : copy.floor.confirmYield}</p>
+          <button type="button" className="btn primary" onClick={confirm === 'speak' ? speak : yieldFloor} data-testid="confirm-yes">
+            {confirm === 'speak' ? copy.floor.confirmSpeakYes : copy.floor.confirmYieldYes}
           </button>
-        ) : (
-          why && <span className="why">{why}</span>
-        )}
-      </footer>
-    </section>
+          <button type="button" className="btn secondary" ref={noBtn} onClick={() => setConfirm(null)} data-testid="confirm-no">
+            {copy.floor.notYet}
+          </button>
+        </footer>
+      ) : (
+        <footer>
+          <button type="button" className="btn primary" onClick={doSpeak} disabled={!preview} data-speak data-testid="speak">
+            {copy.floor.speak}
+          </button>
+          <button type="button" className="btn secondary" onClick={() => setConfirm('yield')} data-testid="yield">
+            {copy.floor.yield}
+          </button>
+          {cite ? (
+            <button type="button" className="why" onClick={clearCite} data-testid="clear-cite-footer">
+              <Cross /> {copy.floor.removeCite} <Key action="clearCite" />
+            </button>
+          ) : (
+            why && (
+              <span className="why" role="status">
+                {why}
+              </span>
+            )
+          )}
+        </footer>
+      )}
+    </Dialog>
   )
 }

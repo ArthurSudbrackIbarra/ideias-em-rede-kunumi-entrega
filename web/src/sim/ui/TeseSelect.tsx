@@ -1,10 +1,14 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { copy } from '../copy'
 import { align } from '../engine/judge'
-import { cardById, displayName, isClaim, ROLE_COLOR, ROLE_LABEL, type ClaimCard, type HearingSim, type Role, type Tese } from '../lib/hearing'
+import { cardById, displayName, isClaim, ROLE_LABEL, type ClaimCard, type HearingSim, type Role, type Tese } from '../lib/hearing'
+import { useSettings } from '../store/useSettings'
 import { useSim } from '../store/useSim'
+import { topDialog } from '../lib/dialogs'
+import { Hint } from './Hint'
 import { Chevron, ChevronLeft } from './Icons'
+import { RoleDot } from './RoleDot'
 
 /** Acima de sete instituições a lista aperta o espaçamento antes de cortar qualquer nome. */
 const TIGHT = 7
@@ -14,7 +18,8 @@ const TIGHT = 7
  * com as duas listas de instituição inteiras e uma fala real da sala que sustenta a ideia. A tira embaixo diz
  * quantas ideias existem e onde você está. Setas, teclas e a tira trocam a ideia em foco, que é estado local
  * desta tela e não entra na store. O modo guiado fica ao lado de Defender esta ideia (decisão do autor), com
- * uma frase que explica o que ele faz.
+ * uma frase que explica o que ele faz. Para o teclado, a tira é um grupo de abas com uma parada só no Tab: as setas
+ * trocam a ideia em qualquer lugar da tela, e Enter só escolhe a ideia quando o foco não está num controle.
  */
 export function TeseSelect({ hearing }: { hearing: HearingSim }) {
   const phase = useSim((s) => s.run.phase)
@@ -26,6 +31,7 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
   const teses = hearing.teses
   const n = teses.length
   const active = phase === 'tese'
+  const strip = useRef<HTMLDivElement>(null)
 
   const go = useCallback(
     (i: number) => {
@@ -38,11 +44,23 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
   useEffect(() => {
     if (!active) return
     const onKey = (e: KeyboardEvent) => {
-      if (e.ctrlKey || e.metaKey || e.altKey) return
-      if (e.key === 'ArrowRight') go(at + 1)
-      else if (e.key === 'ArrowLeft') go(at - 1)
-      else if (e.key === 'Enter') chooseTese(teses[at].id, guided)
-      else if (/^[1-9]$/.test(e.key) && Number(e.key) <= n) go(Number(e.key) - 1)
+      if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented || topDialog()) return
+      const t = e.target instanceof HTMLElement ? e.target : null
+      if (t?.closest('input, select, textarea')) return
+      const inStrip = !!t && !!strip.current?.contains(t)
+      const move = (i: number) => {
+        go(i)
+        // com o foco na tira, o foco anda junto com a ideia
+        if (inStrip) requestAnimationFrame(() => strip.current?.querySelectorAll<HTMLElement>('[role="tab"]')[Math.min(n - 1, Math.max(0, i))]?.focus())
+      }
+      if (e.key === 'ArrowRight') move(at + 1)
+      else if (e.key === 'ArrowLeft') move(at - 1)
+      else if (e.key === 'Home' && inStrip) move(0)
+      else if (e.key === 'End' && inStrip) move(n - 1)
+      else if (e.key === 'Enter' && !t?.closest('button, a, summary, [role="tab"]')) chooseTese(teses[at].id, guided)
+      else if (/^[1-9]$/.test(e.key) && Number(e.key) <= n && useSettings.getState().shortcuts) move(Number(e.key) - 1)
+      else return
+      e.preventDefault()
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
@@ -64,13 +82,20 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
     <section className="sim-tese" data-testid="tese-select">
       <div className="head">
         <div className="what">
-          <Link to="/audiencias" className="back-link">
-            <ChevronLeft /> {copy.tese.back}
-          </Link>
+          <div className="links">
+            <Link to="/audiencias" className="back-link">
+              <ChevronLeft /> {copy.tese.back}
+            </Link>
+            <button type="button" className="back-link" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
+              {copy.a11y.open}
+            </button>
+          </div>
           <span className="engrave">
             {copy.tese.heading(hearing.id, hearing.date)}, semente {seed}
           </span>
-          <span className="title">{hearing.name}</span>
+          <h1 className="title" id="room-title" tabIndex={-1}>
+            {hearing.name}
+          </h1>
         </div>
         <div className="ask">
           <span className="engrave">{copy.tese.question}</span>
@@ -83,7 +108,7 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
           <ChevronLeft size={10} />
         </button>
 
-        <article className="sheet swap" key={tese.id} role="tabpanel" id={`tese-panel-${tese.id}`} aria-live="polite" data-testid={`tese-${tese.id}`}>
+        <section className="sheet swap" key={tese.id} role="tabpanel" id={`tese-panel-${tese.id}`} aria-labelledby={`tese-tab-${tese.id}`} data-testid={`tese-${tese.id}`}>
           <div className="pos">
             <span className="engrave">{copy.tese.which(at + 1, n)}</span>
             <span className="times">{copy.tese.appears(tese.aligned_cards)}</span>
@@ -119,30 +144,36 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
 
           <footer>
             <p className="rule">{copy.tese.rule}</p>
-            <label className="guided on-paper" data-tip={copy.tese.guidedHint}>
-              <input type="checkbox" checked={guided} onChange={(e) => setGuided(e.target.checked)} role="switch" aria-checked={guided} data-testid="guided" />
-              <span className="sw" aria-hidden="true" />
-              {copy.tese.guided}
-            </label>
+            <Hint text={copy.tese.guidedHint} className="guided-hint">
+              {(hint) => (
+                <label className="guided on-paper">
+                  <input type="checkbox" checked={guided} onChange={(e) => setGuided(e.target.checked)} role="switch" aria-describedby={hint} data-testid="guided" />
+                  <span className="sw" aria-hidden="true" />
+                  {copy.tese.guided}
+                </label>
+              )}
+            </Hint>
             <button type="button" className="btn primary defend" onClick={() => chooseTese(tese.id, guided)} data-testid={`choose-${tese.id}`}>
               {copy.tese.defend} <Chevron />
             </button>
           </footer>
-        </article>
+        </section>
 
         <button type="button" className="arrow fwd" onClick={() => go(at + 1)} disabled={at === n - 1} aria-label={copy.tese.next} data-testid="tese-next">
           <Chevron size={10} />
         </button>
       </div>
 
-      <div className="strip" role="tablist" aria-label={copy.tese.choose} data-testid="tese-strip">
+      <div className="strip" role="tablist" aria-label={copy.tese.choose} data-testid="tese-strip" ref={strip}>
         {teses.map((t, i) => (
           <button
             key={t.id}
             type="button"
             role="tab"
+            id={`tese-tab-${t.id}`}
             aria-selected={i === at}
-            aria-controls={`tese-panel-${t.id}`}
+            aria-controls={i === at ? `tese-panel-${t.id}` : undefined}
+            tabIndex={i === at ? 0 : -1}
             className={i === at ? 'on' : ''}
             onClick={() => go(i)}
             data-testid={`tese-tab-${t.id}`}
@@ -156,7 +187,7 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
   )
 }
 
-/** Uma instituição por linha, com o ponto do papel institucional e o nome escrito: nunca só a cor. */
+/** Uma instituição por linha, com a marca do papel institucional (cor e forma) e o nome escrito. */
 function Orgs({ orgs, roleOf }: { orgs: string[]; roleOf: Map<string, Role> }) {
   if (!orgs.length) return <ul className="orgs"><li className="none">{copy.tese.nobody}</li></ul>
   return (
@@ -165,8 +196,9 @@ function Orgs({ orgs, roleOf }: { orgs: string[]; roleOf: Map<string, Role> }) {
         const role = roleOf.get(o) ?? 'convidado'
         return (
           <li key={o}>
-            <i style={{ background: ROLE_COLOR[role] }} title={ROLE_LABEL[role]} />
+            <RoleDot role={role} size={9} />
             {o}
+            <span className="sr-only">, {ROLE_LABEL[role].toLowerCase()}</span>
           </li>
         )
       })}

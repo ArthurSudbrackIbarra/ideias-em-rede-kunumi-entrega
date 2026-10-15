@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { AUTOPLAY_DEFAULT, DEFAULT_SPEED_INDEX, SPEEDS, TEXT_MODE_DEFAULT } from '../engine/balance'
 import { canCite, type MoveKind } from '../engine/judge'
 import { seedFrom } from '../engine/rng'
+import type { Line } from '../engine/rules'
 import { createRun, reduce, type Action, type RunState } from '../engine/run'
 import { setMuted, unlock } from '../lib/sound'
 import { loadHearing, type HearingSim } from '../lib/hearing'
@@ -16,6 +17,12 @@ export type Status = 'idle' | 'loading' | 'ready' | 'error'
 
 /** O que o balão digita por padrão: a versão em palavras simples ou o original verbatim (pedido do autor, 2026-09-15). */
 export type TextMode = 'plain' | 'verbatim'
+
+/** Os painéis de consulta da sala: um aberto por vez. */
+export type Panel = 'help' | 'glossary' | 'history'
+
+/** O que já passou pela sala, na ordem: as linhas do balão e os avisos. É o que o histórico mostra. */
+export type LogItem = { key: string; line: Line } | { key: string; notice: string }
 
 export interface Selection {
   card: string | null
@@ -38,8 +45,8 @@ interface SimState {
   /** a versão que o balão digita primeiro; a outra continua a um clique no próprio balão */
   textMode: TextMode
   muted: boolean
-  legend: boolean
-  glossary: boolean
+  panel: Panel | null
+  log: LogItem[]
   /** câmera olhando para a mesa de anotações (inclinação abaixo de -50°) */
   deskView: boolean
   lookingAtSpeaker: boolean
@@ -49,6 +56,10 @@ interface SimState {
   /** pedidos à câmera: virar para o orador; abrir/fechar a mesa de anotações */
   lookRequest: number
   deskRequest: { open: boolean; nonce: number }
+  /** virar a câmera um passo para a esquerda (-1) ou para a direita (1) */
+  turnRequest: { dir: -1 | 1; nonce: number }
+  /** a leitura em voz alta da linha atual terminou (ou não há leitura) */
+  voiceDone: boolean
   /** a cena desenhou o primeiro quadro */
   sceneReady: boolean
   /** nonce: completar a página atual */
@@ -61,6 +72,8 @@ interface SimState {
   enterRoom: () => void
   advance: () => void
   continueManual: () => void
+  /** o botão continuar e o Espaço: completam a página que ainda digita, ou passam para a próxima */
+  stepManual: () => void
   note: (card: string) => void
   openOriginal: (open?: boolean) => void
   interject: () => void
@@ -74,17 +87,20 @@ interface SimState {
   speak: () => void
   yieldFloor: () => void
   setSpeed: (dir: 1 | -1) => void
+  setSpeedIndex: (i: number) => void
+  setAutoplay: (v: boolean) => void
   toggleAutoplay: () => void
   setTextMode: (m: TextMode) => void
   toggleTextMode: () => void
   toggleMute: () => void
-  toggleLegend: () => void
-  toggleGlossary: () => void
+  togglePanel: (p: Panel, open?: boolean) => void
   setDeskView: (v: boolean) => void
   setLooking: (v: boolean) => void
   setTypingDone: (v: boolean) => void
   requestLook: () => void
   requestDesk: (open?: boolean) => void
+  turn: (dir: -1 | 1) => void
+  setVoiceDone: (v: boolean) => void
   setSceneReady: (v: boolean) => void
   skipTyping: () => void
   hurryTyping: () => void
@@ -137,21 +153,23 @@ export const useSim = create<SimState>((set, get) => ({
   autoplay: readAutoplay(),
   textMode: readTextMode(),
   muted: false,
-  legend: false,
-  glossary: false,
+  panel: null,
+  log: [],
   deskView: false,
   lookingAtSpeaker: true,
   selection: NO_SELECTION,
   typingDone: false,
   lookRequest: 0,
   deskRequest: { open: false, nonce: 0 },
+  turnRequest: { dir: 1, nonce: 0 },
+  voiceDone: true,
   sceneReady: false,
   skipNonce: 0,
   hurryNonce: 0,
 
   async load(id, seed) {
     if (get().hearingId === id && get().status === 'ready') return
-    set({ hearingId: id, status: 'loading', error: null, hearing: null, run: createRun(seedFrom(seed)), selection: NO_SELECTION, sceneReady: false })
+    set({ hearingId: id, status: 'loading', error: null, hearing: null, run: createRun(seedFrom(seed)), selection: NO_SELECTION, sceneReady: false, log: [], panel: null })
     try {
       const hearing = await loadHearing(id)
       set({ hearing, status: 'ready' })
@@ -165,7 +183,10 @@ export const useSim = create<SimState>((set, get) => ({
     const next = reduce(hearing, run, a)
     if (next === run) return
     const lineChanged = next.current?.id !== run.current?.id
-    set({ run: next, typingDone: lineChanged ? false : get().typingDone })
+    let log = get().log
+    if (lineChanged && next.current) log = [...log, { key: `l${next.current.id}`, line: next.current }]
+    if (next.notice && next.notice.id !== run.notice?.id) log = [...log, { key: `n${next.notice.id}`, notice: next.notice.text }]
+    set({ run: next, typingDone: lineChanged ? false : get().typingDone, log })
   },
   chooseTese(tese, guided) {
     unlock()
@@ -183,6 +204,11 @@ export const useSim = create<SimState>((set, get) => ({
     if (!typingDone && run.current?.kind !== 'relcard') return
     if (run.originalOpen) return
     get().dispatch({ t: 'advance' })
+  },
+  stepManual() {
+    const { run, typingDone } = get()
+    if (!typingDone && run.current && run.current.kind !== 'relcard') get().skipTyping()
+    else get().continueManual()
   },
   note(card) {
     get().dispatch({ t: 'note', card })
@@ -256,6 +282,14 @@ export const useSim = create<SimState>((set, get) => ({
     set({ speed: i })
     remember('sim.speed', String(i))
   },
+  setSpeedIndex(i) {
+    const v = Math.min(SPEEDS.length - 1, Math.max(0, Math.round(i)))
+    set({ speed: v })
+    remember('sim.speed', String(v))
+  },
+  setAutoplay(v) {
+    if (get().autoplay !== v) get().toggleAutoplay()
+  },
   toggleAutoplay() {
     const v = !get().autoplay
     set({ autoplay: v })
@@ -274,11 +308,10 @@ export const useSim = create<SimState>((set, get) => ({
     setMuted(m)
     set({ muted: m })
   },
-  toggleLegend() {
-    set({ legend: !get().legend, glossary: false })
-  },
-  toggleGlossary() {
-    set({ glossary: !get().glossary, legend: false })
+  togglePanel(p, open) {
+    const isOpen = get().panel === p
+    const want = open ?? !isOpen
+    if (want !== isOpen) set({ panel: want ? p : null })
   },
   setDeskView(v) {
     if (get().deskView !== v) set({ deskView: v })
@@ -296,6 +329,12 @@ export const useSim = create<SimState>((set, get) => ({
     const cur = get().deskRequest
     set({ deskRequest: { open: open ?? !get().deskView, nonce: cur.nonce + 1 } })
   },
+  turn(dir) {
+    set({ turnRequest: { dir, nonce: get().turnRequest.nonce + 1 } })
+  },
+  setVoiceDone(v) {
+    if (get().voiceDone !== v) set({ voiceDone: v })
+  },
   setSceneReady(v) {
     if (get().sceneReady !== v) set({ sceneReady: v })
   },
@@ -307,7 +346,7 @@ export const useSim = create<SimState>((set, get) => ({
   },
   restart(seed) {
     set({
-      run: createRun(seed ?? seedFrom(undefined)), selection: NO_SELECTION, typingDone: false, legend: false, glossary: false,
+      run: createRun(seed ?? seedFrom(undefined)), selection: NO_SELECTION, typingDone: false, panel: null, log: [],
       deskRequest: { open: false, nonce: get().deskRequest.nonce + 1 },
     })
   },

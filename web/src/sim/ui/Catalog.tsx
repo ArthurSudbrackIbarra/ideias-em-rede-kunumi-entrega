@@ -1,9 +1,12 @@
-import { useEffect, useMemo, useState, type UIEvent } from 'react'
+import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type UIEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import '../sim.css'
 import { copy } from '../copy'
 import { loadCatalog, loadHearingIndex, type CatalogEntry, type HearingEntry } from '../lib/hearing'
+import { useTitle } from '../lib/useTitle'
+import { useSettings } from '../store/useSettings'
 import { Chevron, ChevronDown, ChevronLeft, Search } from './Icons'
+import { SettingsPanel } from './SettingsPanel'
 
 const PAGE = 24
 
@@ -20,10 +23,14 @@ const yearOf = (d: string | null) => (d ? d.slice(6) : null)
 /**
  * Escolher a audiência (redesenho, tela 01b): mestre e detalhe sobre o acervo inteiro. A lista lê o catálogo
  * leve (catalog.json, uma linha por audiência) e o índice das preparadas (index.json). Busca, filtro e ordem
- * acontecem no cliente. O arquivo pesado de cada audiência só é buscado ao entrar na sala.
+ * acontecem no cliente. O arquivo pesado de cada audiência só é buscado ao entrar na sala. Para o teclado, a lista é
+ * uma só parada do Tab (uma listbox): as setas escolhem, Enter entra na sala, e o próximo Tab já cai no detalhe.
  */
 export function Catalog() {
+  useTitle(copy.titles.catalog)
   const navigate = useNavigate()
+  /** a seleção mudou pelo teclado: o foco acompanha a linha escolhida */
+  const keyed = useRef(false)
   const [catalog, setCatalog] = useState<CatalogEntry[] | null>(null)
   const [index, setIndex] = useState<HearingEntry[]>([])
   const [q, setQ] = useState('')
@@ -84,6 +91,36 @@ export function Catalog() {
 
   const sel = rows.find((r) => r.id === selected) ?? null
   const visible = filtered.slice(0, shown)
+  // a linha que o Tab alcança: a escolhida, se está na lista, senão a primeira
+  const tabbable = visible.some((r) => r.id === selected) ? selected : visible[0]?.id ?? null
+
+  useEffect(() => {
+    if (!keyed.current) return
+    keyed.current = false
+    document.querySelector<HTMLElement>(`[data-testid="hearing-${selected}"]`)?.focus()
+  }, [selected])
+
+  const onListKey = (e: KeyboardEvent<HTMLDivElement>) => {
+    const i = filtered.findIndex((r) => r.id === selected)
+    const go = (j: number) => {
+      const k = Math.min(filtered.length - 1, Math.max(0, j))
+      if (k >= shown - 2) setShown((n) => Math.min(filtered.length, Math.max(n, k + PAGE)))
+      keyed.current = true
+      setSelected(filtered[k].id)
+    }
+    if (!filtered.length) return
+    if (e.key === 'ArrowDown') go(i + 1)
+    else if (e.key === 'ArrowUp') go(i - 1)
+    else if (e.key === 'Home') go(0)
+    else if (e.key === 'End') go(filtered.length - 1)
+    else if (e.key === 'PageDown') go(i + 10)
+    else if (e.key === 'PageUp') go(i - 10)
+    else if (e.key === 'Enter') {
+      const r = filtered[i]
+      if (r?.prepared) navigate(`/sim/${r.id}`)
+    } else return
+    e.preventDefault()
+  }
 
   const onScroll = (e: UIEvent<HTMLDivElement>) => {
     const el = e.currentTarget
@@ -91,7 +128,7 @@ export function Catalog() {
   }
 
   return (
-    <main className="sim sim-catalog" data-testid="catalog">
+    <main className="sim sim-catalog" id="conteudo" tabIndex={-1} data-testid="catalog">
       <div className="head">
         <div className="l">
           <Link to="/" className="back-link">
@@ -99,7 +136,12 @@ export function Catalog() {
           </Link>
           <h1>{copy.catalog.title}</h1>
         </div>
-        {catalog && <span className="count">{copy.catalog.count(rows.length)}</span>}
+        <div className="r">
+          {catalog && <span className="count">{copy.catalog.count(rows.length)}</span>}
+          <button type="button" className="a11y-btn" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
+            {copy.a11y.open}
+          </button>
+        </div>
       </div>
 
       <div className="tools">
@@ -121,20 +163,34 @@ export function Catalog() {
             </button>
           </div>
           <div className="scroll">
-            <div className="rows dark-scroll" onScroll={onScroll} data-testid="rows">
-              {catalog === null ? (
-                <p className="loading">{copy.catalog.loading}</p>
-              ) : visible.length === 0 ? (
-                <p className="none">{copy.catalog.none}</p>
-              ) : (
-                visible.map((r) => (
+            <p className="sr-only" id="catalog-keys">
+              {copy.catalog.listKeys}
+            </p>
+            {catalog === null ? (
+              <p className="loading" role="status">{copy.catalog.loading}</p>
+            ) : visible.length === 0 ? (
+              <p className="none" role="status">{copy.catalog.none}</p>
+            ) : (
+              <div
+                className="rows dark-scroll"
+                onScroll={onScroll}
+                onKeyDown={onListKey}
+                role="listbox"
+                aria-label={copy.catalog.listLabel}
+                aria-describedby="catalog-keys"
+                data-testid="rows"
+              >
+                {visible.map((r) => (
                   <button
                     key={r.id}
                     type="button"
+                    role="option"
                     className={`row${r.id === selected ? ' on' : ''}`}
                     onClick={() => setSelected(r.id)}
+                    onFocus={() => setSelected(r.id)}
                     onDoubleClick={() => r.prepared && navigate(`/sim/${r.id}`)}
-                    aria-pressed={r.id === selected}
+                    aria-selected={r.id === selected}
+                    tabIndex={r.id === tabbable ? 0 : -1}
                     data-testid={`hearing-${r.id}`}
                   >
                     <span className="when">
@@ -145,10 +201,11 @@ export function Catalog() {
                       <span className="name" data-clip>{r.name}</span>
                       <span className="com" data-clip>{r.committee ?? copy.catalog.noCommittee}</span>
                     </span>
+                    {!r.prepared && <span className="sr-only">, {copy.catalog.preparingShort}</span>}
                   </button>
-                ))
-              )}
-            </div>
+                ))}
+              </div>
+            )}
             <div className="veil" />
           </div>
         </div>
@@ -203,6 +260,7 @@ export function Catalog() {
           </div>
         )}
       </div>
+      <SettingsPanel />
     </main>
   )
 }

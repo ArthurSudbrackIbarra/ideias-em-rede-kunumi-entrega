@@ -3,28 +3,30 @@ import { copy } from '../copy'
 import { align } from '../engine/judge'
 import type { Line } from '../engine/rules'
 import { cardById, castById, displayName, ROLE_COLOR, teseById, type HearingSim } from '../lib/hearing'
+import { continuedByKeyboard, continueRef } from '../lib/focusContinue'
 import { relation as playRelation } from '../lib/sound'
-import { anchor } from '../scene/anchor'
+import { tipOpened } from '../lib/tips'
+import { anchor, hud } from '../scene/anchor'
+import { useSettings } from '../store/useSettings'
 import { speedFactor, useSim } from '../store/useSim'
 import { glossText, type GlossHandlers } from './glossText'
 import { ArrowLeft, ArrowRight, Bookmark, Chevron, ChevronLeft } from './Icons'
+import { Key } from './Key'
 import { paginate } from './pages'
 import { RelationBadge, RelationIcon } from './RelationBadge'
+import { RoleDot } from './RoleDot'
 import { Typewriter } from './Typewriter'
 
 const MARGIN = 24
-/** o topo do balão nunca invade o véu do topo */
-const TOP_MIN = 120
-const PLAYER_TOP = 126
-/** a bancada, que o balão nunca cobre */
-const RAIL = 116
 
 /**
  * O balão (redesenho): duas partes, a **placa** de tinta com o nome em serifa (como as plaquinhas da mesa na
  * cena) e o **corpo** de papel com a fala. É a peça que costura a camada 2D à sala. A referência mora na placa
  * e fica sempre visível. "ver o que foi dito", Anotar e continuar moram no rodapé do corpo, no mesmo lugar em
  * todos os estados. Ato da mesa e linha de sistema são só a placa, centrada no topo. A fala do jogador ganha
- * o bloco Fonte e o painel de veredito com o antes e depois da convicção.
+ * o bloco Fonte e o painel de veredito com o antes e depois da convicção. O balão não é região viva: o leitor de tela
+ * recebe cada fala inteira pela camada de anúncios da sala, e no balão o texto que ainda digita fica escondido dele.
+ * No modo manual o continuar fica sempre no rodapé: enquanto a página digita, ele a completa.
  */
 export function Balloon({ hearing }: { hearing: HearingSim }) {
   const line = useSim((s) => s.run.current)
@@ -45,10 +47,17 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const setTypingDone = useSim((s) => s.setTypingDone)
   const note = useSim((s) => s.note)
   const openOriginal = useSim((s) => s.openOriginal)
-  const continueManual = useSim((s) => s.continueManual)
+  const stepManual = useSim((s) => s.stepManual)
+  const panel = useSim((s) => s.panel)
+  const settingsOpen = useSettings((s) => s.open)
   const [origPage, setOrigPage] = useState(0)
   /** o balão do glossário, desenhado fora da fala (que rola e cortaria qualquer filho absoluto) */
-  const [tip, setTip] = useState<{ text: string; left: number; top: number; below: boolean } | null>(null)
+  const [tip, setTip] = useState<{ term: string; text: string; left: number; top: number; below: boolean } | null>(null)
+  const tipTimer = useRef(0)
+  const openTerm = useRef<string | null>(null)
+  openTerm.current = tip?.term ?? null
+  const linkBtn = useRef<HTMLButtonElement>(null)
+  const backBtn = useRef<HTMLButtonElement>(null)
   const box = useRef<HTMLDivElement>(null)
   const tail = useRef<HTMLDivElement>(null)
   const falaEl = useRef<HTMLParagraphElement>(null)
@@ -62,26 +71,42 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
 
   const onDone = useCallback(() => setTypingDone(true), [setTypingDone])
 
-  const gloss = useMemo<GlossHandlers>(
-    () => ({
-      open: (_term, plain, el) => {
-        const root = box.current
-        if (!root) return
-        const a = el.getBoundingClientRect()
-        const b = root.getBoundingClientRect()
-        // o balão da explicação nunca sai da tela: o centro é preso à janela, e perto do topo ele abre para baixo
-        const half = Math.min(320, window.innerWidth * 0.7) / 2
-        const center = Math.min(Math.max(a.left + a.width / 2, half + 12), window.innerWidth - half - 12)
-        const below = a.top < 150
-        setTip({ text: plain, left: center - b.left, top: (below ? a.bottom + 10 : a.top - 10) - b.top, below })
+  const gloss = useMemo<GlossHandlers>(() => {
+    const open = (term: string, plain: string, el: HTMLElement) => {
+      window.clearTimeout(tipTimer.current)
+      const root = box.current
+      if (!root) return
+      const a = el.getBoundingClientRect()
+      const b = root.getBoundingClientRect()
+      // o balão da explicação nunca sai da tela: o centro é preso à janela, e perto do topo ele abre para baixo
+      const half = Math.min(320, window.innerWidth * 0.7) / 2
+      const center = Math.min(Math.max(a.left + a.width / 2, half + 12), window.innerWidth - half - 12)
+      const below = a.top < 150
+      setTip({ term, text: plain, left: center - b.left, top: (below ? a.bottom + 10 : a.top - 10) - b.top, below })
+    }
+    return {
+      open,
+      close: () => {
+        window.clearTimeout(tipTimer.current)
+        tipTimer.current = window.setTimeout(() => setTip(null), 150)
       },
-      close: () => setTip(null),
-    }),
-    [],
-  )
+      toggle: (term, plain, el) => {
+        if (openTerm.current === term) setTip(null)
+        else open(term, plain, el)
+      },
+    }
+  }, [])
 
-  // a explicação some quando a linha muda ou o original abre
+  // a explicação some quando a linha muda ou o original abre; aberta, o Esc a fecha antes de qualquer outra coisa
   useEffect(() => setTip(null), [line?.id, originalOpen])
+  useEffect(() => (tip ? tipOpened(() => setTip(null)) : undefined), [tip])
+  useEffect(() => () => window.clearTimeout(tipTimer.current), [])
+
+  // abrir ou fechar o original troca o botão de lugar: o foco vai junto, se tinha caído no vazio
+  useEffect(() => {
+    if (document.activeElement && document.activeElement !== document.body) return
+    ;(originalOpen ? backBtn.current : linkBtn.current)?.focus({ preventScroll: true })
+  }, [originalOpen])
 
   // primeira fala de cada orador: uma linha a mais com o que é a instituição
   useEffect(() => {
@@ -121,13 +146,16 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
       if (el) {
         const w = el.offsetWidth
         const h = el.offsetHeight
-        const docked = !line || line.kind === 'player' || line.kind === 'system' || line.kind === 'mesa' || !anchor.active
+        // no arranjo estreito o balão não persegue a cabeça de ninguém: fica no alto, na largura da tela
+        const narrow = document.documentElement.dataset.layout === 'narrow'
+        const docked = narrow || !line || line.kind === 'player' || line.kind === 'system' || line.kind === 'mesa' || !anchor.active
+        const topMin = hud.top + 8
         if (docked) {
-          place(el, Math.round((anchor.width - w) / 2), line?.kind === 'player' ? PLAYER_TOP : TOP_MIN)
+          place(el, Math.round((anchor.width - w) / 2), line?.kind === 'player' ? hud.top + 14 : topMin)
           el.dataset.dock = line?.kind === 'player' ? 'self' : 'top'
         } else if (anchor.onScreen) {
           const left = Math.round(Math.min(anchor.width - w - MARGIN, Math.max(MARGIN, anchor.x - w * 0.3)))
-          const top = Math.round(Math.max(TOP_MIN, anchor.y - h - 34))
+          const top = Math.round(Math.max(topMin, anchor.y - h - 34))
           place(el, left, top)
           el.dataset.dock = 'head'
           if (ar) {
@@ -137,7 +165,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
         } else {
           // orador fora do quadro: gruda na borda do lado dele, o rabicho aponta a direção
           const right = Math.cos(anchor.angle) > 0
-          const top = Math.round(Math.min(anchor.height - h - 160, Math.max(TOP_MIN, anchor.height * 0.3)))
+          const top = Math.round(Math.max(topMin, Math.min(anchor.height - h - hud.rail - 44, anchor.height * 0.3)))
           place(el, right ? anchor.width - w - MARGIN : MARGIN, top)
           el.dataset.dock = right ? 'right' : 'left'
           if (ar) {
@@ -147,9 +175,14 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
         }
       }
       // a fala nunca cobre a bancada: a altura disponível vai do topo aplicado até 16px acima dela
-      if (el) el.style.maxHeight = `${Math.max(240, anchor.height - applied.current.top - RAIL - 16)}px`
+      if (el) el.style.maxHeight = `${Math.max(240, anchor.height - applied.current.top - hud.rail - 16)}px`
       const fala = falaEl.current
-      if (fala && fala.scrollHeight > fala.clientHeight + 2) fala.scrollTop = fala.scrollHeight
+      if (fala) {
+        // a fala que não cabe rola, e então o teclado também precisa conseguir rolar
+        const overflow = fala.scrollHeight > fala.clientHeight + 2
+        if (overflow && !useSim.getState().typingDone) fala.scrollTop = fala.scrollHeight
+        fala.tabIndex = overflow ? 0 : -1
+      }
       raf = requestAnimationFrame(tick)
     }
     raf = requestAnimationFrame(tick)
@@ -170,26 +203,32 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const typed = verbatim && line.original ? line.original.text : line.text
   const alt = verbatim ? line.plain ?? '' : line.original?.text ?? ''
   const kindClass = `sim-balloon kind-${line.kind}${originalOpen ? ' original' : ''}${line.relation ? ` rel-${line.relation.kind}` : ''}`
-  const showContinue = !autoplay && typingDone && !originalOpen
+  const showContinue = !autoplay && !originalOpen
+  const paused = originalOpen || panel !== null || settingsOpen
+  const onContinue = (e: { detail: number }) => {
+    continuedByKeyboard(e)
+    stepManual()
+  }
+  const continueBtn = showContinue && (
+    <button type="button" className={`continue${typingDone ? '' : ' typing'}`} onClick={onContinue} ref={continueRef} data-continue data-testid="continue-balloon">
+      {copy.hud.continue} <Chevron />
+    </button>
+  )
 
   // ato da mesa e linha de sistema: só a placa, centrada no topo
   if (line.kind === 'mesa' || line.kind === 'system') {
     return (
-      <div ref={box} className={kindClass} data-testid="balloon" data-original="0" role="status" aria-live="polite">
+      <div ref={box} className={kindClass} data-testid="balloon" data-original="0">
         <div className="plate solo on-chassis">
           {line.kind === 'mesa' && <span className="engrave">{copy.balloon.mesa}</span>}
           <p className="fala">
-            <Typewriter text={line.text} lineId={line.id} speed={speedFactor(speed)} muted={muted} onDone={onDone} skip={skipNonce} hurry={hurryNonce} paused={originalOpen} />
+            <Typewriter text={line.text} lineId={line.id} speed={speedFactor(speed)} muted={muted} onDone={onDone} skip={skipNonce} hurry={hurryNonce} paused={paused} />
           </p>
           {(line.ref || showContinue) && (
             <div className="bf">
               {line.ref && <span className="ref">{line.ref}</span>}
               <span className="spacer" />
-              {showContinue && (
-                <button type="button" className="continue" onClick={continueManual} data-testid="continue-balloon">
-                  {copy.hud.continue} <Chevron />
-                </button>
-              )}
+              {continueBtn}
             </div>
           )}
         </div>
@@ -206,16 +245,16 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const plateRef = line.kind === 'player' ? line.sources[0]?.ref ?? null : line.ref
 
   return (
-    <div ref={box} className={kindClass} data-testid="balloon" data-original={originalOpen ? '1' : '0'} role="status" aria-live="polite">
+    <div ref={box} className={kindClass} data-testid="balloon" data-original={originalOpen ? '1' : '0'}>
       <header className="plate on-chassis">
         {line.kind === 'player' ? (
           <>
-            <i className="dot" style={{ background: ROLE_COLOR.convidado }} />
+            <RoleDot role="convidado" />
             <span className="name">{copy.balloon.you}</span>
           </>
         ) : member ? (
           <>
-            <i className="dot" style={{ background: ROLE_COLOR[member.role] }} />
+            <RoleDot role={member.role} label />
             <span className="name" data-clip>{displayName(hearing, member.id)}</span>
             {(member.byline ?? member.cargo) && <span className="byline" data-clip>{member.byline ?? member.cargo}</span>}
           </>
@@ -247,7 +286,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
             onDone={onDone}
             skip={skipNonce}
             hurry={hurryNonce}
-            paused={originalOpen}
+            paused={paused}
             render={hasGloss ? (t) => glossText(t, hearing.glossario, gloss) : undefined}
           />
         </p>
@@ -258,9 +297,12 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
               {origPages[safeOrig]}
             </p>
             {origPages.length > 1 && (
-              <div className="pages" aria-label={copy.balloon.pages(safeOrig + 1, origPages.length)}>
-                {origPages.map((_, i) => <i key={i} className={i === safeOrig ? 'on' : i < safeOrig ? 'past' : ''} />)}
+              <div className="pages">
+                {origPages.map((_, i) => <i key={i} className={i === safeOrig ? 'on' : i < safeOrig ? 'past' : ''} aria-hidden="true" />)}
                 <span className="n">{copy.balloon.pages(safeOrig + 1, origPages.length)}</span>
+                <button type="button" className="link" onClick={() => setOrigPage((p) => (p + 1) % origPages.length)} data-testid="original-next">
+                  {safeOrig + 1 < origPages.length ? copy.balloon.nextPage : copy.balloon.firstPage}
+                </button>
               </div>
             )}
           </div>
@@ -299,41 +341,38 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
             </span>
           ) : (
             hasOriginalLink && (
-              <button type="button" className="link" onClick={() => openOriginal()} data-testid="original-btn">
-                {verbatim ? copy.balloon.seePlain : copy.balloon.seeOriginal} <kbd>O</kbd>
+              <button type="button" className="link" ref={linkBtn} onClick={() => openOriginal()} data-testid="original-btn">
+                {verbatim ? copy.balloon.seePlain : copy.balloon.seeOriginal} <Key action="original" />
               </button>
             )
           )}
           {canNote && card && (
-            <button
-              type="button"
-              className={`note-btn${already ? ' done' : ''}`}
-              data-testid="note-btn"
-              disabled={already}
-              onClick={() => note(card.id)}
-              style={member ? { color: ROLE_COLOR[member.role] } : undefined}
-            >
-              <Bookmark filled={already} />
+            <button type="button" className={`note-btn${already ? ' done' : ''}`} data-testid="note-btn" disabled={already} onClick={() => note(card.id)}>
+              <span className="mark" style={member ? { color: ROLE_COLOR[member.role] } : undefined}>
+                <Bookmark filled={already} />
+              </span>
               {noteLabel}
-              {!already && <kbd>N</kbd>}
+              {!already && <Key action="note" />}
             </button>
           )}
           <span className="spacer" />
           {originalOpen && (
-            <button type="button" className="continue back" onClick={() => openOriginal(false)} data-testid="original-back">
+            <button type="button" className="continue back" ref={backBtn} onClick={() => openOriginal(false)} data-testid="original-back">
               <ChevronLeft /> {copy.balloon.back}
             </button>
           )}
-          {showContinue && (
-            <button type="button" className="continue" onClick={continueManual} data-testid="continue-balloon">
-              {copy.hud.continue} <Chevron />
-            </button>
-          )}
+          {continueBtn}
         </footer>
       </div>
       <div ref={tail} className="tail" />
       {tip && (
-        <div className={`gl-tip${tip.below ? ' below' : ''}`} style={{ left: tip.left, top: tip.top }} role="tooltip">
+        <div
+          className={`gl-tip${tip.below ? ' below' : ''}`}
+          style={{ left: tip.left, top: tip.top }}
+          role="tooltip"
+          onMouseEnter={() => window.clearTimeout(tipTimer.current)}
+          onMouseLeave={gloss.close}
+        >
           {tip.text}
         </div>
       )}
@@ -357,7 +396,7 @@ function VerdictPanel({ line }: { line: Line }) {
   const lo = before !== null && after !== null ? Math.min(before, after) : 0
   const span = before !== null && after !== null ? Math.abs(after - before) : 0
   return (
-    <div className={`verdict v-${v.kind}`} role="status" aria-live="polite" data-testid="verdict">
+    <div className={`verdict v-${v.kind}`} data-testid="verdict">
       <div className="top">
         <span className="kind">
           <RelationIcon kind={icon} /> {copy.verdict.short(v.kind)}

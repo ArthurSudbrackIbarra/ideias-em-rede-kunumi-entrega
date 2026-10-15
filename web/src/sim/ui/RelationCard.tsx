@@ -1,17 +1,20 @@
 import { useEffect, useState } from 'react'
 import { copy } from '../copy'
 import { RELATION_CARD_MS } from '../engine/balance'
-import { displayName, ROLE_COLOR, type HearingSim } from '../lib/hearing'
+import { displayName, type HearingSim } from '../lib/hearing'
+import { continuedByKeyboard, continueRef } from '../lib/focusContinue'
 import { relation as playRelation } from '../lib/sound'
 import { useSim } from '../store/useSim'
 import { Chevron } from './Icons'
 import { RelationIcon } from './RelationBadge'
+import { RoleDot } from './RoleDot'
 
 /**
  * O cartão de relação (redesenho): chassi encostado na bancada, 1,8 s quando uma réplica real dispara, e o
  * único lugar onde os cartões sem balão ("X também sustentou isso", "Concorda com você", "X mantém o que já
  * disse") aparecem. Linha de cima centralizada: nome com ponto de papel, a etiqueta da relação com ícone e
- * palavra, o nome do outro lado. A contradição sacode a cena (3px, quatro idas, 260 ms), nunca o papel.
+ * palavra, o nome do outro lado. A contradição sacode a cena (3px, quatro idas, 260 ms), nunca o papel, e não sacode
+ * nada com movimento reduzido ou efeitos desligados. O leitor de tela ouve a réplica pela camada de anúncios.
  */
 export function RelationCard({ hearing }: { hearing: HearingSim }) {
   const line = useSim((s) => s.run.current)
@@ -43,11 +46,11 @@ export function RelationCard({ hearing }: { hearing: HearingSim }) {
   const only = line.kind === 'relcard'
 
   return (
-    <div className={`sim-relcard on-chassis rel-${rel.kind}${only ? ' only' : ''}`} data-testid="relation-card" role="status" aria-live="polite">
+    <div className={`sim-relcard on-chassis rel-${rel.kind}${only ? ' only' : ''}`} data-testid="relation-card">
       <div className="row">
         {who && (
           <span className="who">
-            <i style={{ background: ROLE_COLOR[who.role] }} />
+            <RoleDot role={who.role} label />
             {displayName(hearing, who.id)}
           </span>
         )}
@@ -63,7 +66,17 @@ export function RelationCard({ hearing }: { hearing: HearingSim }) {
         {line.ref && <span className="ref">{line.ref}</span>}
         {rel.targetRef && <span className="ref">{rel.targetRef}</span>}
         {only && !autoplay && (
-          <button type="button" className="continue" onClick={continueManual} data-testid="continue-relcard">
+          <button
+            type="button"
+            className="continue"
+            onClick={(e) => {
+              continuedByKeyboard(e)
+              continueManual()
+            }}
+            ref={continueRef}
+            data-continue
+            data-testid="continue-relcard"
+          >
             {copy.hud.continue} <Chevron />
           </button>
         )}

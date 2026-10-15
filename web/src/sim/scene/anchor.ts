@@ -17,3 +17,9 @@ export interface Anchor {
 }
 
 export const anchor: Anchor = { x: 0, y: 0, onScreen: false, angle: 0, active: false, width: 1, height: 1 }
+
+/**
+ * A altura real do topo e da bancada, medida por ResizeObserver: com texto grande as duas crescem, e o balão precisa
+ * saber onde começa e onde acaba o espaço livre. Os valores de partida são as alturas do desenho a 100%.
+ */
+export const hud = { top: 112, rail: 116 }

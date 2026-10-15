@@ -93,7 +93,8 @@ test('início e acervo', async ({ page }) => {
   await page.goto('/audiencias')
   await expect(page.locator('.sim-catalog .row').first()).toBeVisible({ timeout: 20_000 })
   await scan(page, 'acervo')
-  await tabTrace(page, 'acervo', 12)
+  // dez Tabs vão do link de pular até Entrar na sala; mais um volta ao link, que em foco cobre o "início"
+  await tabTrace(page, 'acervo', 10)
   // a dica de texto cortado
   await page.locator('.sim-catalog .row .name').first().hover()
   await page.waitForTimeout(600)
@@ -102,6 +103,14 @@ test('início e acervo', async ({ page }) => {
 
 test('a partida da 44', async ({ page }) => {
   test.setTimeout(600_000)
+  // a câmera acompanha quem fala, para a atenção não cair enquanto o axe varre cada estado
+  await page.addInitScript(() => {
+    try {
+      localStorage.setItem('sim.a11y.v1', JSON.stringify({ autoLook: true, reduceMotion: true }))
+    } catch {
+      /* sem armazenamento */
+    }
+  })
   await page.goto(`/sim/44?seed=${SEED}`)
   await expect(page.getByTestId('tese-select')).toBeVisible()
   await scan(page, 'dossiê das ideias')
@@ -127,13 +136,10 @@ test('a partida da 44', async ({ page }) => {
   await scan(page, 'fala no balão')
   await tabTrace(page, 'fala no balão (Tab)', 6)
 
-  await page.keyboard.press('Escape')
-  await page.evaluate(() => window.simStore!.getState().requestDesk(false))
-  await page.waitForTimeout(800)
-  await page.keyboard.press('o')
+  await page.getByTestId('original-btn').click()
   await expect(page.getByTestId('original')).toBeVisible()
   await scan(page, 'texto original aberto')
-  await page.keyboard.press('o')
+  await page.getByTestId('original-back').click()
 
   await page.evaluate(() => window.simStore!.getState().requestDesk(true))
   await expect(page.getByTestId('desk')).toBeVisible({ timeout: 10_000 })

@@ -173,6 +173,21 @@ describe('máquina de estados v2', () => {
     expect(s.attention).toBeLessThan(attention)
   })
 
+  it('com holdOffers o prazo da tréplica não corre; sem ele, a oferta vence', () => {
+    let s = start()
+    let guard = 0
+    while (!(s.current?.kind === 'fala') && guard++ < 500) s = advance(h, s)
+    const offered: RunState = { ...s, treplicaOffer: { target: 'x', card: 'y', until: s.clock + 6 } }
+    let held = offered
+    for (let i = 0; i < 40; i++) held = reduce(h, held, { t: 'tick', dt: 0.5, looking: true, holdOffers: true })
+    expect(held.clock).toBeGreaterThan(offered.clock + 6)
+    expect(held.treplicaOffer).not.toBeNull()
+    expect(held.treplicaOffer!.until - held.clock).toBeCloseTo(6)
+    let free = offered
+    for (let i = 0; i < 40; i++) free = reduce(h, free, { t: 'tick', dt: 0.5, looking: true })
+    expect(free.treplicaOffer).toBeNull()
+  })
+
   it('par inválido: a segunda carta fica na mão', () => {
     // anota b055c3 e b034c2 (ambas dizem que a Petrobras nunca vazou) e contesta uma citando a outra
     let s = start('t2')
