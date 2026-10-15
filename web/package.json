@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "lint": "eslint .",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test --project=chromium",
+    "a11y:audit": "playwright test --project=a11y-audit",
     "gen:types:sim": "json2ts -i ../shared/hearing-sim.schema.json -o src/sim/lib/hearing-sim.d.ts --bannerComment \"/* eslint-disable */\n/* Gerado de shared/hearing-sim.schema.json por npm run gen:types:sim. Nao editar. */\"",
     "test:unit": "vitest run"
   },
@@ -25,6 +26,7 @@
     "zustand": "^5.0.8"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@eslint/js": "^9.36.0",
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.5.0",

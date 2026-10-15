@@ -21,5 +21,9 @@ export default defineConfig({
     reuseExistingServer: true,
     timeout: 120_000,
   },
-  projects: [{ name: 'chromium', use: { browserName: 'chromium' } }],
+  projects: [
+    { name: 'chromium', use: { browserName: 'chromium' }, testIgnore: /a11y-audit/ },
+    // o retrato do axe em cada estado da partida, só sob demanda (npm run a11y:audit)
+    { name: 'a11y-audit', use: { browserName: 'chromium' }, testMatch: /a11y-audit/ },
+  ],
 })
