@@ -141,7 +141,7 @@ export function Ata({ hearing }: { hearing: HearingSim }) {
               {questions.map((q) => (
                 <li key={q.id} className={q.answered_by_real ? 'closed' : ''}>
                   <p>
-                    <b>{displayName(hearing, q.speaker)}:</b> <span className="q">{q.plain}</span> <span className="ref">{q.ref}</span>
+                    <b>{displayName(hearing, q.speaker)}:</b> {q.plain} <span className="ref">{q.ref}</span>
                   </p>
                   <span className="status">
                     {q.answered_by_real ? copy.ata.answeredBy(displayName(hearing, q.answered_by_real.speaker)) : copy.ata.unanswered(ROLE_LABEL[q.addressed_to].toLowerCase())}

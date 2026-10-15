@@ -97,9 +97,9 @@ validador recusa número trocado, cópia de 12 palavras da transcrição e ponto
 
 Vite + React 19 + TypeScript strict + React Three Fiber + drei + postprocessing + zustand. Duas fontes
 autohospedadas: [Lexend](https://www.lexend.com/) na interface e [Libron](https://github.com/nicoverbruggen/libron),
-uma serifa desenhada para leitura longa, só na fala de alguém: quando a pessoa fala (o balão, o original, os atos da
-mesa, a frase da cadeira vaga) e quando o jogo cita essa fala depois (a carta do caderno, as perguntas, "dito na sala",
-a ata). Todo texto de balão tem o mesmo tamanho, 22px. A interface segue o redesenho "direção B, tribuna"
+uma serifa desenhada para leitura longa, em poucos lugares de leitura de fala: o balão (inclusive os atos da mesa), as
+cartas do caderno, o "dito na sala" da escolha da ideia e as falas citadas na prévia da vez de falar e na ata. A fala
+no balão tem sempre o mesmo tamanho, 22px. A interface segue o redesenho "direção B, tribuna"
 (2026-09-14, acabada em 2026-09-15): um material para o que é controle (chassi de tinta: a bancada de 116px no
 rodapé, botões, placas, painel de legenda) e outro para o que se lê (papel: fala, carta, caderno, glossário,
 ata). Cor só onde significa algo, sempre com ícone e palavra. A escolha da ideia é um dossiê, uma ideia por

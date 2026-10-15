@@ -55,7 +55,7 @@ export function Desk({ hearing }: { hearing: HearingSim }) {
                 const answered = q.answered_by_real && spoken(hearing, run, q.answered_by_real.fala)
                 return (
                   <li key={q.id} className={answered ? 'closed' : ''}>
-                    <b>{displayName(hearing, q.speaker)}:</b> <span className="q">{q.plain}</span> <span className="ref">{q.ref}</span>
+                    <b>{displayName(hearing, q.speaker)}:</b> {q.plain} <span className="ref">{q.ref}</span>
                     {answered && q.answered_by_real && <span className="status">{copy.ata.answeredBy(displayName(hearing, q.answered_by_real.speaker))}</span>}
                     {run.cobradas.includes(q.id) && <span className="status mine">{copy.floor.cobro.toLowerCase()}</span>}
                   </li>

@@ -282,7 +282,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
             <span className="label">{copy.balloon.source}</span>
             {line.sources.map((s) => (
               <span key={s.card} className="src">
-                <b>{displayName(hearing, s.speaker)}:</b> <span className="gist">{s.gist}</span> <span className="ref">{s.ref}</span>
+                <b>{displayName(hearing, s.speaker)}:</b> {s.gist} <span className="ref">{s.ref}</span>
               </span>
             ))}
           </div>
