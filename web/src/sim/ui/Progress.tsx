@@ -22,7 +22,7 @@ export function Progress({ hearing }: { hearing: HearingSim }) {
       <div className="row">
         <div className="left">
           <span className="engrave">{copy.prelude.date(hearing.date)}</span>
-          <span className="title">{hearing.name}</span>
+          <span className="title" data-clip>{hearing.name}</span>
         </div>
         {tese && (
           <div className="right">

@@ -95,8 +95,10 @@ validador recusa número trocado, cópia de 12 palavras da transcrição e ponto
 
 ## Frontend (web/)
 
-Vite + React 19 + TypeScript strict + React Three Fiber + drei + postprocessing + zustand. Uma fonte só,
-[Lexend](https://www.lexend.com/), autohospedada. A interface segue o redesenho "direção B, tribuna"
+Vite + React 19 + TypeScript strict + React Three Fiber + drei + postprocessing + zustand. Duas fontes
+autohospedadas: [Lexend](https://www.lexend.com/) na interface e [Libron](https://github.com/nicoverbruggen/libron),
+uma serifa desenhada para leitura longa, no que as pessoas da audiência disseram (a fala no balão, o original, o
+resumo das cartas, as perguntas e a frase que a cadeira vaga monta). A interface segue o redesenho "direção B, tribuna"
 (2026-09-14, acabada em 2026-09-15): um material para o que é controle (chassi de tinta: a bancada de 116px no
 rodapé, botões, placas, painel de legenda) e outro para o que se lê (papel: fala, carta, caderno, glossário,
 ata). Cor só onde significa algo, sempre com ícone e palavra. A escolha da ideia é um dossiê, uma ideia por
@@ -215,7 +217,7 @@ src/sim/                hearing_text.py [transcrição -> falas e sentenças] ·
                         · verify_plain.py [2º modelo, opcional] · build_scene.py [índices -> texto] · validate.py
 tests/                  pytest: validadores da anotação e do build
 web/                    Vite + React + R3F: /  (início)  /audiencias  (o acervo, mestre e detalhe)  /sim/:id  (a sala)
-web/src/sim/            engine/ (motor puro + vitest) · scene/ (sala 3D) · ui/ · store/ · lib/ · assets/ (Lexend, Newsreader, sons) · copy.ts
+web/src/sim/            engine/ (motor puro + vitest) · scene/ (sala 3D) · ui/ · store/ · lib/ · assets/ (Lexend, Libron, sons) · copy.ts
 web/public/hearings/    hearing-NNN.json + index.json gerados por build_scene.py; catalog.json por catalog.py (versionados)
 web/tests/              Playwright (screenshots em web/tests/screenshots/, ignorados)
 .github/workflows/      deploy.yml: publica web/dist no GitHub Pages a cada push na main

@@ -219,8 +219,8 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
         ) : member ? (
           <>
             <i className="dot" style={{ background: ROLE_COLOR[member.role] }} />
-            <span className="name">{displayName(hearing, member.id)}</span>
-            {(member.byline ?? member.cargo) && <span className="byline">{member.byline ?? member.cargo}</span>}
+            <span className="name" data-clip>{displayName(hearing, member.id)}</span>
+            {(member.byline ?? member.cargo) && <span className="byline" data-clip>{member.byline ?? member.cargo}</span>}
           </>
         ) : (
           <span className="name">{copy.balloon.room}</span>

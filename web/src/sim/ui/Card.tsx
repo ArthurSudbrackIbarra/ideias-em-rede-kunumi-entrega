@@ -38,10 +38,10 @@ export function Card({ card, hearing, selected, cited, disabled, onClick, compac
     <Tag type={onClick ? 'button' : undefined} className={cls} onClick={onClick} disabled={onClick ? disabled : undefined} data-testid="card" data-card={card.id}>
       <span className="top">
         {m && <i className="dot" style={{ background: ROLE_COLOR[m.role] }} />}
-        <span className="who">{m ? displayName(hearing, m.id) : card.speaker}</span>
-        {slot && m?.byline ? <span className="byline">{m.byline}</span> : <span className="kind">{copy.floor.kinds[card.kind]}</span>}
+        <span className="who" data-clip>{m ? displayName(hearing, m.id) : card.speaker}</span>
+        {slot && m?.byline ? <span className="byline" data-clip>{m.byline}</span> : <span className="kind">{copy.floor.kinds[card.kind]}</span>}
       </span>
-      <span className="gist">{card.kind === 'pergunta' ? card.plain : card.gist}</span>
+      <span className="gist" data-clip>{card.kind === 'pergunta' ? card.plain : card.gist}</span>
       <span className="foot">
         {theme && <span className="theme">{theme.name}</span>}
         {cross && <span className="cross">{copy.floor.citeCross}</span>}

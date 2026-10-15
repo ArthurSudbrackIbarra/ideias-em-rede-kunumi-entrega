@@ -154,14 +154,15 @@ test('audiência 44: tese, prelúdio, palavras simples, original, caderno, manua
   await page.waitForTimeout(400)
   await page.screenshot({ path: `${SHOTS}/sim-044-balao.png` })
 
-  // 13. uma família só, Lexend, em tudo; 14. sem borda colorida no balão
-  const fonts = await page.evaluate(() =>
-    Array.from(document.querySelectorAll('.sim-balloon .fala, .sim-balloon .plate .name, .sim-rail .ctl, .sim .ref, .sim-rail .meter .name')).map(
-      (el) => getComputedStyle(el).fontFamily,
-    ),
-  )
-  expect(fonts.length).toBeGreaterThan(0)
-  for (const f of fonts) expect(f).toContain('Lexend')
+  // 13. duas famílias: a fala das pessoas em Libron, o resto da interface em Lexend; 14. sem borda colorida no balão
+  const fonts = await page.evaluate(() => {
+    const of = (sel: string) => Array.from(document.querySelectorAll(sel)).map((el) => getComputedStyle(el).fontFamily)
+    return { read: of('.sim-balloon .body .fala'), ui: of('.sim-balloon .plate .name, .sim-rail .ctl, .sim .ref, .sim-rail .meter .name') }
+  })
+  expect(fonts.read.length).toBeGreaterThan(0)
+  expect(fonts.ui.length).toBeGreaterThan(0)
+  for (const f of fonts.read) expect(f).toContain('Libron')
+  for (const f of fonts.ui) expect(f).toContain('Lexend')
   const style = await page.evaluate(() => {
     const b = document.querySelector('.sim-balloon')!
     const p = document.querySelector('.sim-balloon .plate')!
@@ -170,7 +171,6 @@ test('audiência 44: tese, prelúdio, palavras simples, original, caderno, manua
   })
   expect(style.border).toBe('0px')
   expect(style.plateBg).toContain('gradient')
-  // uma fonte só (2026-09-15): o nome na placa também é Lexend
   expect(style.nameFont).toContain('Lexend')
   expect(style.nameFont).not.toContain('Newsreader')
 

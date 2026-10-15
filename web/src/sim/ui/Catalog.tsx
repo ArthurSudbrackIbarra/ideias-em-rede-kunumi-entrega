@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type UIEvent } from 'react'
+import { useEffect, useMemo, useState, type UIEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import '../sim.css'
 import { copy } from '../copy'
@@ -31,7 +31,7 @@ export function Catalog() {
   const [year, setYear] = useState('all')
   // TEMPORÁRIO (2026-09-15): filtro "situação" para separar as audiências já preparadas das ~200 ainda não processadas.
   // Existe só para facilitar o teste enquanto o acervo não está todo anotado. Remover quando as 206 estiverem prontas.
-  const [status, setStatus] = useState('all')
+  const [status, setStatus] = useState<string>(copy.catalog.statusReady)
   const [newest, setNewest] = useState(true)
   const [shown, setShown] = useState(PAGE)
   const [selected, setSelected] = useState<number | null>(null)
@@ -76,28 +76,14 @@ export function Catalog() {
 
   useEffect(() => setShown(PAGE), [q, committee, year, status, newest])
 
-  // a primeira audiência preparada já vem selecionada, para a pessoa ver o dossiê sem procurar
+  // a primeira audiência preparada da lista já vem selecionada, para a pessoa ver o dossiê sem procurar. Vem do topo
+  // da lista filtrada porque a lista nunca rola sozinha até a seleção
   useEffect(() => {
-    if (selected === null && rows.length) setSelected(rows.find((r) => r.prepared)?.id ?? rows[0].id)
-  }, [rows, selected])
+    if (selected === null && rows.length) setSelected((filtered.find((r) => r.prepared) ?? filtered[0] ?? rows[0]).id)
+  }, [rows, filtered, selected])
 
   const sel = rows.find((r) => r.id === selected) ?? null
   const visible = filtered.slice(0, shown)
-
-  // a linha selecionada aparece na lista: a página cresce até ela e a rolagem a traz para o meio
-  const selIndex = filtered.findIndex((r) => r.id === selected)
-  useEffect(() => {
-    if (selIndex >= shown) setShown(selIndex + PAGE)
-  }, [selIndex, shown])
-  const rowsEl = useRef<HTMLDivElement>(null)
-  const scrolledTo = useRef<number | null>(null)
-  useEffect(() => {
-    if (selected === null || scrolledTo.current === selected || selIndex < 0 || selIndex >= shown) return
-    const el = rowsEl.current?.querySelector<HTMLElement>(`[data-testid="hearing-${selected}"]`)
-    if (!el) return
-    scrolledTo.current = selected
-    el.scrollIntoView({ block: 'center' })
-  }, [selected, selIndex, shown])
 
   const onScroll = (e: UIEvent<HTMLDivElement>) => {
     const el = e.currentTarget
@@ -135,7 +121,7 @@ export function Catalog() {
             </button>
           </div>
           <div className="scroll">
-            <div ref={rowsEl} className="rows dark-scroll" onScroll={onScroll} data-testid="rows">
+            <div className="rows dark-scroll" onScroll={onScroll} data-testid="rows">
               {catalog === null ? (
                 <p className="loading">{copy.catalog.loading}</p>
               ) : visible.length === 0 ? (
@@ -156,8 +142,8 @@ export function Catalog() {
                       <span className="num">{copy.catalog.row(r.id)}</span>
                     </span>
                     <span className="what">
-                      <span className="name">{r.name}</span>
-                      <span className="com">{r.committee ?? copy.catalog.noCommittee}</span>
+                      <span className="name" data-clip>{r.name}</span>
+                      <span className="com" data-clip>{r.committee ?? copy.catalog.noCommittee}</span>
                     </span>
                   </button>
                 ))
@@ -224,7 +210,7 @@ export function Catalog() {
 /** Um filtro de lista: a pílula mostra "comissão todas", e o <select> nativo por cima cuida do teclado e do menu. */
 function Filter({ label, value, all, options, onChange, testId }: { label: string; value: string; all: string; options: string[]; onChange: (v: string) => void; testId?: string }) {
   return (
-    <label className="filter">
+    <label className="filter" data-clip data-clip-from="b">
       {label} <b>{value === 'all' ? all : value}</b>
       <ChevronDown />
       <select value={value} onChange={(e) => onChange(e.target.value)} aria-label={label} data-testid={testId}>

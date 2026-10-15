@@ -148,7 +148,7 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
             data-testid={`tese-tab-${t.id}`}
           >
             <span className="n">{i + 1}</span>
-            <span className="t">{t.title}</span>
+            <span className="t" data-clip>{t.title}</span>
           </button>
         ))}
       </div>

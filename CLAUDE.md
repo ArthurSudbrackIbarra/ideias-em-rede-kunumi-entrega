@@ -69,13 +69,14 @@ The system has two halves joined by one JSON contract.
 - `build_scene.py` is deterministic and model-free. It resolves indices into verbatim text (max 600 chars per excerpt, regulation §6.2), splits falas into pages (one per card or question), resolves who defended/opposed each tese by institution and role (never by person name; the build fails if a name leaks), precomputes room reactions from the relation graph, and validates against `shared/hearing-sim.schema.json`. Output goes to `web/public/hearings/` (versioned).
 - `scripts/anchor_relations.py` is an idempotent v3 to v4 annotation migration.
 
-**2. Static web game (`web/`).** Vite + React 19 + TypeScript strict + React Three Fiber/drei/postprocessing + zustand. Single font: Lexend (self-hosted).
+**2. Static web game (`web/`).** Vite + React 19 + TypeScript strict + React Three Fiber/drei/postprocessing + zustand. Two self-hosted fonts: Lexend for the interface and the game's own voice, Libron (a serif made for long reading) for words that come from the hearing (balloon speech, originals, card gists, questions, the player's assembled sentence). The rule is written at the top of `web/src/sim/sim.css`. Libron only has weights 400 and 700.
 
 - `shared/hearing-sim.schema.json` (`hearing-sim-v2`) is the contract. Types in `web/src/sim/lib/hearing-sim.d.ts` are generated from it; do not edit that file by hand. A schema change means: edit the schema, run `gen:types:sim`, update `build_scene.py`, rebuild the hearings.
 - `web/src/sim/engine/` is a **pure, deterministic rules engine** with no React or Three imports. `run.ts` holds `RunState` and a reducer (`createRun`, `advance`, `reduce(hearing, state, action)`) driving phases `tese → prelude → opening → session → floor → reaction → closing → ata`. `judge.ts` classifies a card against the chosen tese (aliada, adversária, consenso, ressalva, evidência, contraevidência, fora do eixo; paper Eq. 3) and scores moves. `balance.ts` holds every tuning constant (paper Table 2); `analysis/` reads these constants from source, so changing them can make `run_all.py` disagree with the paper. `rng.ts` is seeded from `?seed=`, and all randomness (template choice, room reactions, interjection grants) goes through it.
 - `web/src/sim/store/useSim.ts` (zustand) wraps the engine plus UI state (speed, autoplay, text mode, legend, glossary, camera requests, the 3-step move selection).
 - `web/src/sim/scene/` is the 3D room (layout from annotated seating, faceless avatars colored by sector: blue parliament, red government, green civil society, yellow private sector). `web/src/sim/ui/` holds the HTML overlays (Balloon, FloorPanel, Rail, Ata, TeseSelect, Catalog, Home). UI uses two materials: dark "ink" chassis for controls, "paper" for things to read.
 - Every `fetch` and the router base use `import.meta.env.BASE_URL`; never hardcode absolute paths.
+- Text cut by CSS (ellipsis or line-clamp) gets a `data-clip` attribute. `ui/ClipTip.tsx`, mounted once in `App`, shows the full text on hover only when it is actually cut. No icon marks it.
 
 ## Invariants to keep
 
