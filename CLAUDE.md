@@ -8,6 +8,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Writing text.** Before writing any prose in this repository (README, docs, code comments meant for people, game copy in `web/src/sim/copy.ts`, paper text, commit messages of more than one line), load the `humanizer` skill (`anthropic-skills:humanizer`) and follow it. No em or en dashes in new prose.
 
+**Code comments.** Comment only what a reader can't easily work out from the code: a non-obvious reason, a constraint from the regulation or the paper, a trap. Don't write a comment just to record that the user asked for something. If the request was "make the default filter show only ready hearings", change the filter and leave it there, with no `// user-choice: default filter lists only ready public hearings`. The older code has some notes like "pedido do autor, 2026-09-15". Don't add new ones.
+
 **House style for in-game text** (author's decision, enforced by validators and tests): no all-caps, no semicolons, no "·" separator, no Unicode arrows. Icons are SVG components. All text the game itself writes lives in `web/src/sim/copy.ts`. Text that comes from the model (`plain`, `gist`, teses, glossary) follows fidelity rules instead and is never edited by hand for style.
 
 ## Current goal
