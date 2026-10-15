@@ -169,9 +169,6 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const verbatim = textMode === 'verbatim' && line.kind !== 'player' && line.plain !== null && line.original !== null
   const typed = verbatim && line.original ? line.original.text : line.text
   const alt = verbatim ? line.plain ?? '' : line.original?.text ?? ''
-  const long = typed.length > 180
-  const veryLong = typed.length > 320
-  const sizeClass = veryLong ? ' verylong' : long ? ' long' : ''
   const kindClass = `sim-balloon kind-${line.kind}${originalOpen ? ' original' : ''}${line.relation ? ` rel-${line.relation.kind}` : ''}`
   const showContinue = !autoplay && typingDone && !originalOpen
 
@@ -209,7 +206,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const plateRef = line.kind === 'player' ? line.sources[0]?.ref ?? null : line.ref
 
   return (
-    <div ref={box} className={`${kindClass}${sizeClass}`} data-testid="balloon" data-original={originalOpen ? '1' : '0'} role="status" aria-live="polite">
+    <div ref={box} className={kindClass} data-testid="balloon" data-original={originalOpen ? '1' : '0'} role="status" aria-live="polite">
       <header className="plate on-chassis">
         {line.kind === 'player' ? (
           <>
@@ -241,7 +238,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
         {showOrg && member?.org_plain && !originalOpen && <div className="orgplain">{member.org_plain}</div>}
         {line.kind === 'reaction' && line.relation && <RelationBadge tag={line.relation} hearing={hearing} variant="body" />}
 
-        <p ref={falaEl} className={`fala sim-scroll${sizeClass}`} hidden={originalOpen}>
+        <p ref={falaEl} className="fala sim-scroll" hidden={originalOpen}>
           <Typewriter
             text={typed}
             lineId={`${line.id}:${verbatim ? 'v' : 'p'}`}
@@ -257,7 +254,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
 
         {originalOpen && line.kind !== 'player' && line.original && (
           <div className="orig" data-testid="original">
-            <p className={`fala sim-scroll${origPages[safeOrig].length > 180 ? ' long' : ''}`} onClick={() => setOrigPage((p) => (p + 1) % Math.max(1, origPages.length))}>
+            <p className="fala sim-scroll" onClick={() => setOrigPage((p) => (p + 1) % Math.max(1, origPages.length))}>
               {origPages[safeOrig]}
             </p>
             {origPages.length > 1 && (
@@ -285,7 +282,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
             <span className="label">{copy.balloon.source}</span>
             {line.sources.map((s) => (
               <span key={s.card} className="src">
-                <b>{displayName(hearing, s.speaker)}:</b> {s.gist} <span className="ref">{s.ref}</span>
+                <b>{displayName(hearing, s.speaker)}:</b> <span className="gist">{s.gist}</span> <span className="ref">{s.ref}</span>
               </span>
             ))}
           </div>

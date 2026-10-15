@@ -1,11 +1,11 @@
 /*
   Simulador de Audiência Pública, redesenho "direção B, tribuna" (2026-09-14, rodada de 2026-09-15).
   Dois materiais: chassi de tinta para tudo o que é controle, papel só para o que se lê.
-  Tokens de handoff/tokens.css. Duas famílias, as duas autohospedadas. Lexend é a voz do jogo: controles, rótulos,
-  nomes, títulos, números, instruções e vereditos. Libron, uma serifa desenhada para leitura longa, é a voz da sala:
-  o que as pessoas da audiência disseram (em palavras simples ou no original), o resumo de cada carta, as perguntas
-  e a frase que a cadeira vaga monta. O texto que a pessoa lê sem parar fica em Libron; o que ela só bate o olho
-  fica em Lexend. A mesa e as linhas de sistema são narração do jogo e ficam em Lexend, mesmo dentro do balão.
+  Tokens de handoff/tokens.css. Duas famílias, as duas autohospedadas. Libron, uma serifa desenhada para leitura
+  longa, só aparece na fala de alguém: quando a pessoa fala (balão, original, atos da mesa na placa escura, a frase da
+  cadeira vaga) ou quando o jogo cita essa fala depois (resumo da carta, perguntas, "dito na sala", a ata, o cartão
+  que lembra um ponto já lido). Todo o resto é Lexend: controles, rótulos, nomes, títulos, números, vereditos e as
+  explicações que o jogo escreve sobre as relações.
 */
 
 @font-face {
@@ -80,9 +80,8 @@
   /* Libron tem só 400 e 700: nada em 500 ou 600 nesta família, senão o navegador cai no 400 ou engrossa à força */
   --font-read: 'Libron', Georgia, 'Times New Roman', serif;
 
-  --size-speech: 25px; --lh-speech: 1.38;
-  --size-speech-long: 21px; --lh-speech-long: 1.42;
-  --size-speech-xlong: 19px;
+  /* um tamanho só para todo texto de balão, curto ou longo: trocar de corpo no meio da leitura cansa */
+  --size-speech: 22px; --lh-speech: 1.45;
   --size-body: 15px; --lh-body: 1.5;
   --size-engrave: 12px; --track-engrave: 0.08em;
 
@@ -292,14 +291,10 @@ body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
   margin: 0; padding: 14px 0 18px; min-height: 0; flex: 1 1 auto; overflow-y: auto; overflow-wrap: anywhere;
   font: 400 var(--size-speech)/var(--lh-speech) var(--font-read); color: var(--ink); text-wrap: pretty;
 }
-.sim-balloon .fala.long { font-size: var(--size-speech-long); line-height: var(--lh-speech-long); }
-.sim-balloon .fala.verylong { font-size: var(--size-speech-xlong); }
-.sim-balloon.kind-player .fala { padding: 0; line-height: 1.4; color: var(--ink); }
+.sim-balloon.kind-player .fala { padding: 0; color: var(--ink); }
 .sim-balloon.kind-player.rel-apoia .fala { color: var(--rel-apoia); }
 .sim-balloon.kind-player.rel-contradiz .fala { color: var(--rel-contradiz); }
 .sim-balloon.kind-player.rel-cobra .fala { color: var(--rel-responde); }
-.sim-balloon.kind-player .fala.long { font-size: 24px; }
-.sim-balloon.kind-player .fala.verylong { font-size: 21px; }
 .sim-balloon .fala .tw-cursor { display: inline-block; width: 0.5em; height: 1em; margin-left: 2px; vertical-align: -0.12em; background: currentColor; animation: tw-blink 0.9s steps(1) infinite; }
 .sim-balloon .gl { border-bottom: 2px dotted #b3a894; cursor: help; outline: none; }
 .sim-balloon .gl:focus-visible { box-shadow: inset 0 0 0 2px var(--ink); border-radius: 2px; }
@@ -312,8 +307,8 @@ body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
 .sim-balloon .gl-tip.below { transform: translate(-50%, 0); }
 
 .sim-balloon .orig { display: flex; flex-direction: column; min-height: 0; }
-.sim-balloon .orig .fala { padding: 2px 0 18px; font-size: 21px; line-height: 1.45; cursor: pointer; }
-.sim-balloon .orig blockquote { margin: 0 0 10px; padding: 0; font: 400 19px/1.45 var(--font-read); color: var(--ink); }
+.sim-balloon .orig .fala { padding: 2px 0 18px; cursor: pointer; }
+.sim-balloon .orig blockquote { margin: 0 0 10px; padding: 0; font: 400 var(--size-speech)/var(--lh-speech) var(--font-read); color: var(--ink); }
 .sim-balloon .orig blockquote .who { display: block; font: 500 13px/1.4 var(--font-ui); color: var(--ink-soft); }
 .sim-balloon .orig blockquote .ref { display: block; margin-top: 2px; color: var(--ink-faint); }
 .sim-balloon .pages { flex: none; display: flex; align-items: center; gap: 6px; padding-bottom: 14px; }
@@ -328,6 +323,7 @@ body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
 }
 .sim-balloon .fonte .src { font: 400 14px/1.5 var(--font-ui); color: #3d3832; }
 .sim-balloon .fonte .src b { font-weight: 500; }
+.sim-balloon .fonte .src .gist { font: 400 16px/1.5 var(--font-read); }
 .sim-balloon .fonte .src .ref { color: var(--ink-faint); margin-left: 4px; }
 
 .sim-balloon .bf { flex: none; display: flex; align-items: center; gap: 18px; margin-top: 14px; padding-top: 13px; border-top: 1px solid var(--line); }
@@ -354,7 +350,7 @@ body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
 .sim-balloon.kind-mesa, .sim-balloon.kind-system { width: 560px; filter: none; }
 .sim-balloon .plate.solo { flex-wrap: wrap; gap: 14px; padding: 14px 22px; border-radius: var(--r-panel); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55), inset 0 0 0 1px #4a4239; }
 .sim-balloon .plate.solo .engrave { color: var(--mute-2); flex: none; }
-.sim-balloon .plate.solo .fala { flex: 1 1 200px; padding: 0; font: italic 400 16px/1.45 var(--font-ui); color: #f2ece0; }
+.sim-balloon .plate.solo .fala { flex: 1 1 200px; padding: 0; font: italic 400 var(--size-speech)/var(--lh-speech) var(--font-read); color: #f2ece0; }
 .sim-balloon .plate.solo .bf { flex-basis: 100%; margin-top: 0; padding-top: 10px; border-top: 1px solid var(--hair-soft); color: var(--mute-2); }
 .sim-balloon .bf .continue, .sim-balloon .bf .back { margin-left: auto; }
 .sim-balloon .bf .back + .continue { margin-left: 0; }
@@ -395,6 +391,7 @@ body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
 .sim-relcard .who { display: inline-flex; align-items: center; gap: 8px; font: 500 15px/1.3 var(--font-ui); color: #f2ece0; }
 .sim-relcard .who i { width: 9px; height: 9px; }
 .sim-relcard p { margin: 10px 0 0; text-align: center; font: 400 15px/1.5 var(--font-ui); color: #b3a898; }
+.sim-relcard.only p { font: 400 17px/1.5 var(--font-read); }
 .sim-relcard .refs { margin-top: 10px; display: flex; justify-content: center; align-items: center; gap: 12px; color: var(--engrave); }
 .sim-relcard .continue { pointer-events: auto; padding: 6px 14px; background: var(--panel-raised); color: var(--bone); box-shadow: inset 0 0 0 1px #4d453a; font-size: 14px; }
 .sim-relcard .continue:hover { background: #332d26; }
@@ -719,7 +716,7 @@ button.sim-card:hover:not(:disabled) { background: #fff; }
 /* "Uai-Tchê": a marca do nome, em branco sobre o chassi escuro, como a página em branco do caderno que não se quer deixar vazia */
 .sim-home h1 .mark {
   display: inline-grid; padding: 0 0.22em 0.04em; border-radius: 0.22em; background: #fff; color: #100e0c;
-  font-family: var(--font-read); font-style: italic; font-weight: 400; letter-spacing: -0.01em; line-height: 1;
+  font-family: var(--font-serif, Georgia, serif); font-style: italic; font-weight: 500; letter-spacing: -0.01em; line-height: 1;
   box-shadow: 0 2px 0 #cfc6b8, 0 10px 30px rgba(0, 0, 0, 0.35); transform: rotate(-1.5deg); vertical-align: 0.02em;
 }
 /* a marca alterna entre "Uai-Tchê" e "White": as duas palavras ocupam a mesma célula, centradas (a caixa não muda de
@@ -861,6 +858,7 @@ button.sim-card:hover:not(:disabled) { background: #fff; }
 .sim-ata .qs { margin: 10px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; }
 .sim-ata .qs p { margin: 0; font: 400 15px/1.45 var(--font-ui); color: var(--ink); }
 .sim-ata .qs b { font-weight: 500; }
+.sim-ata .qs .q { font: 400 16px/1.45 var(--font-read); }
 .sim-ata .qs .ref { font-weight: 400; color: var(--ink-faint); }
 .sim-ata .qs .status { display: block; margin-top: 2px; font: 500 13px/1.3 var(--font-ui); color: var(--rel-contradiz); }
 .sim-ata .qs li.closed .status { color: var(--rel-apoia); }
