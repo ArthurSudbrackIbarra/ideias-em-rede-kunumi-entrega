@@ -50,7 +50,8 @@ npm run typecheck
 npm run lint
 npm run test:unit           # vitest, engine only (src/**/*.test.ts, node env)
 npx vitest run src/sim/engine/judge.test.ts -t "name"   # one unit test
-npm run test:e2e            # Playwright, Chromium with SwiftShader WebGL; starts vite itself
+npm run test:e2e            # Playwright, Chromium with SwiftShader WebGL; starts vite itself (sim.spec.ts and a11y.spec.ts)
+npm run a11y:audit          # axe snapshot of 14 game states into tests/a11y-report/; a separate Playwright project, never fails
 npm run gen:types:sim       # regenerate src/sim/lib/hearing-sim.d.ts from shared/hearing-sim.schema.json
 npm run build               # static dist/; VITE_BASE=/repo/ for a subpath build
 ```
@@ -73,10 +74,22 @@ The system has two halves joined by one JSON contract.
 
 - `shared/hearing-sim.schema.json` (`hearing-sim-v2`) is the contract. Types in `web/src/sim/lib/hearing-sim.d.ts` are generated from it; do not edit that file by hand. A schema change means: edit the schema, run `gen:types:sim`, update `build_scene.py`, rebuild the hearings.
 - `web/src/sim/engine/` is a **pure, deterministic rules engine** with no React or Three imports. `run.ts` holds `RunState` and a reducer (`createRun`, `advance`, `reduce(hearing, state, action)`) driving phases `tese → prelude → opening → session → floor → reaction → closing → ata`. `judge.ts` classifies a card against the chosen tese (aliada, adversária, consenso, ressalva, evidência, contraevidência, fora do eixo; paper Eq. 3) and scores moves. `balance.ts` holds every tuning constant (paper Table 2); `analysis/` reads these constants from source, so changing them can make `run_all.py` disagree with the paper. `rng.ts` is seeded from `?seed=`, and all randomness (template choice, room reactions, interjection grants) goes through it.
-- `web/src/sim/store/useSim.ts` (zustand) wraps the engine plus UI state (speed, autoplay, text mode, legend, glossary, camera requests, the 3-step move selection).
+- `web/src/sim/store/useSim.ts` (zustand) wraps the engine plus UI state (speed, autoplay, text mode, the open consult `panel`, the `log` the history panel shows, camera requests, the 3-step move selection).
 - `web/src/sim/scene/` is the 3D room (layout from annotated seating, faceless avatars colored by sector: blue parliament, red government, green civil society, yellow private sector). `web/src/sim/ui/` holds the HTML overlays (Balloon, FloorPanel, Rail, Ata, TeseSelect, Catalog, Home). UI uses two materials: dark "ink" chassis for controls, "paper" for things to read.
 - Every `fetch` and the router base use `import.meta.env.BASE_URL`; never hardcode absolute paths.
-- Text cut by CSS (ellipsis or line-clamp) gets a `data-clip` attribute. `ui/ClipTip.tsx`, mounted once in `App`, shows the full text on hover only when it is actually cut. No icon marks it.
+- Text cut by CSS (ellipsis or line-clamp) gets a `data-clip` attribute. `ui/ClipTip.tsx`, mounted once in `App`, shows the full text on hover (or keyboard focus) only when it is actually cut. No icon marks it.
+
+### Accessibility layer
+
+`docs/acessibilidade.md` has the audit, what was fixed (mapped to WCAG 2.2 and the Game Accessibility Guidelines) and the manual test checklist. The pieces:
+
+- `store/useSettings.ts` holds the accessibility settings (persisted under `sim.a11y.v1`) and writes them onto `<html>`: root font size for the text size, `--lh` for line spacing, and `data-contrast`, `data-motion`, `data-effects`, `data-read-font`, `data-keys`, `data-layout`. CSS reacts to those attributes. `data-layout="narrow"` is computed from width divided by text scale, so 200% text on a laptop gets the narrow layout too.
+- `lib/keys.ts` is the single key map. Character shortcuts can be remapped or turned off; Enter, Space, Esc and arrows are fixed. `ui/Key.tsx` renders the current key inside a button. Never hard-code a key letter in copy or JSX.
+- Every panel (caderno, glossário, ajuda, histórico, Acessibilidade, a vez de falar) is a `ui/Dialog.tsx`: focus moves in, Tab is trapped, Esc closes (or steps back on the floor), focus returns to the opener. `lib/dialogs.ts` keeps the stack; with a dialog open, room shortcuts are muted except the ones the dialog declares in `keys`.
+- Screen reader text goes through `lib/announce.ts` (rendered by `ui/Announcer.tsx`). The speech balloon is not a live region: `SimPage` announces each line once, whole, built by `ui/describe.ts`. Don't put `aria-live` on anything whose text changes while it types.
+- Font sizes in `sim.css` are rem so the text-size setting reaches them. Write new ones in rem. Positions that depend on the rail or the top bar use `--rail-h`/`--top-h` (measured by ResizeObserver; JS reads `hud` in `scene/anchor.ts`).
+- Role colors always come with a shape (`ui/RoleDot.tsx`) and, for screen readers, the role word.
+- `tests/a11y.spec.ts` fails on any axe violation (the `EXCEPTIONS` list is empty) and plays a whole match with the keyboard only. Keep both green.
 
 ## Invariants to keep
 

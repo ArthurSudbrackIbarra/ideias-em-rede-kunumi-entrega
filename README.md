@@ -108,13 +108,14 @@ vez, com a tira das seis embaixo.
 ```bash
 cd web
 npm install                 # .npmrc já tem legacy-peer-deps (peers opcionais do R3F para react-native)
-npm run dev                 # http://localhost:5173  ->  /  (início)  /audiencias  (o acervo)  /sim/44  (a sala)
+npm run dev                 # http://localhost:5173  ->  /  (início)  /audiencias  (o acervo)  /sim/44  (a sala)  /acessibilidade
 npm run typecheck           # tsc --noEmit
 npm run lint                # eslint .
 npm run gen:types:sim       # regenera src/sim/lib/hearing-sim.d.ts a partir de shared/hearing-sim.schema.json
 npm run test:unit           # vitest: motor puro (julgamento de coerência, determinismo, invariantes)
 npx playwright install chromium   # uma vez
-npm run test:e2e            # a partida inteira no navegador; screenshots em web/tests/screenshots/
+npm run test:e2e            # a partida inteira no navegador e os testes de acessibilidade (axe, só teclado); screenshots em web/tests/screenshots/
+npm run a11y:audit          # o retrato do axe em 14 estados, em web/tests/a11y-report/ (não falha por violação)
 npm run build               # dist/ estático
 ```
 
@@ -151,10 +152,22 @@ depois, com a explicação → a **ata**: a tese, cada intervenção julgada, qu
 conferido, a audiência real e o que a Agência Câmara noticiou. Nenhum trecho de pessoa nomeada é lido por
 inteiro duas vezes: se alguém já foi lido, a réplica vira um cartão que lembra o ponto.
 
-**Controles.** Arrastar o mouse olha em volta (arrasta-se a cena); `Q`/`E` viram para quem fala; `Tab`
-abre o caderno; `A` pede aparte; `T` tréplica; `Enter` acelera, `Esc` completa (e fecha o que estiver
-aberto); `Espaço` continua no modo manual; `P` alterna automático/manual; `+`/`−` velocidade (0,25× a 2×,
-padrão 0,5×); `M` som; `L` legenda; `G` glossário; `H` ajuda. Tudo também é clicável.
+**Controles.** Tudo é clicável e tudo funciona pelo teclado. `Tab` anda entre os controles. Para olhar em
+volta, arraste a cena, use as setas para os lados ou os botões de câmera sobre a bancada; `Q`/`E` viram para
+quem fala. `C` abre o caderno; `N` anota; `O` mostra o que foi dito; `R` abre o histórico do que já foi dito;
+`A` pede aparte; `T` tréplica; `Enter` acelera a digitação ou fala; `Esc` completa a página e fecha o que
+estiver aberto (na vez de falar, volta um passo); `Espaço` continua no modo manual; `P` alterna
+automático/manual; `V` alterna simples/original; `+`/`−` velocidade (0,25× a 2×, padrão 0,5×); `M` som; `G`
+glossário; `H` ou `L` ajuda. Os atalhos de uma letra podem ser trocados ou desligados no painel Acessibilidade.
+
+**Acessibilidade.** O painel Acessibilidade abre do início, do acervo, do dossiê e da sala, antes de qualquer
+audiência. Ele ajusta o tamanho do texto (até 200%), a fonte das falas (Libron ou Lexend), a entrelinha, o alto
+contraste, o movimento e os efeitos da cena, o ritmo (manual, velocidade, tréplica sem limite de tempo, câmera
+que vira sozinha para quem fala, confirmação antes de falar), o volume de cada som, a leitura em voz alta e o
+VLibras, além das teclas. Leitores de tela ouvem cada fala inteira, uma vez, com quem disse; a sala 3D tem uma
+descrição em texto; todo painel é um diálogo que recebe e devolve o foco. A auditoria, o que foi corrigido e o
+que falta estão em [docs/acessibilidade.md](docs/acessibilidade.md), e a declaração pública fica em
+`/acessibilidade`.
 
 **O que o jogo garante.** Todo texto atribuído a uma pessoa nomeada é verbatim ou uma versão simples com
 o original a um clique (a tela inicial e a de teses explicam que as falas foram reescritas); bonecos sem
