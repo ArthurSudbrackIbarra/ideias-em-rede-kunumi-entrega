@@ -302,6 +302,7 @@ body.sim-shake .sim-canvas { animation: sim-shake 0.26s linear; }
 .sim-balloon.kind-player.rel-cobra .fala { color: var(--rel-responde); }
 .sim-balloon .fala .tw-cursor { display: inline-block; width: 0.5em; height: 1em; margin-left: 2px; vertical-align: -0.12em; background: currentColor; animation: tw-blink 0.9s steps(1) infinite; }
 .sim-balloon .gl { border-bottom: 2px dotted #8a8172; cursor: help; }
+.sim-balloon .gl-nw { white-space: nowrap; }
 /* o balão do glossário mora fora da área que rola (senão ele é cortado pela fala) e acima de tudo no balão */
 .sim-balloon .gl-tip {
   position: absolute; z-index: 40; width: min(320px, 70vw); padding: 10px 12px; border-radius: 8px; transform: translate(-50%, -100%);
@@ -1233,6 +1234,8 @@ button.sim-card:hover:not(:disabled) { background: #fff; }
 .sim-tutorial .dots i { width: 6px; height: 6px; border-radius: 3px; background: var(--hair); }
 .sim-tutorial .dots i.past { background: var(--mute-2); }
 .sim-tutorial .dots i.on { width: 18px; background: var(--key); }
+/* um respiro entre os capítulos */
+.sim-tutorial .dots i.part { margin-left: 6px; }
 .sim .tut-main {
   height: var(--h-control); display: inline-flex; align-items: center; gap: 10px; padding: 0 22px; border-radius: var(--r-control);
   background: var(--key); color: var(--chassis-lo); font: 500 1rem/1 var(--font-ui); white-space: nowrap; transition: background var(--t-fast) var(--ease);

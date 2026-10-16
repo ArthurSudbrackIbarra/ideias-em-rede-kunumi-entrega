@@ -27,24 +27,36 @@ export function glossText(text: string, terms: GlossaryTerm[], on?: GlossHandler
   const parts = text.split(re)
   if (parts.length === 1) return text
   const seen = new Set<string>()
-  return parts.map((part, i) => {
+  const out: ReactNode[] = []
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i]
     const t = sorted.find((x) => x.term.toLowerCase() === part.toLowerCase())
-    if (!t || seen.has(t.term.toLowerCase())) return <Fragment key={i}>{part}</Fragment>
+    if (!t || seen.has(t.term.toLowerCase())) {
+      out.push(<Fragment key={i}>{part}</Fragment>)
+      continue
+    }
     seen.add(t.term.toLowerCase())
-    return (
-      <button
-        key={i}
-        type="button"
-        className="gl"
-        aria-label={`${part}: ${t.plain}`}
-        onMouseEnter={(e) => on?.open(part, t.plain, e.currentTarget)}
-        onMouseLeave={() => on?.close()}
-        onFocus={(e) => on?.open(part, t.plain, e.currentTarget)}
-        onBlur={() => on?.close()}
-        onClick={(e) => on?.toggle(part, t.plain, e.currentTarget)}
-      >
-        {part}
-      </button>
+    // o botão é uma caixa para o navegador, que pode quebrar a linha logo depois dele: sem isto, a vírgula que vem
+    // colada ao termo começaria a linha seguinte
+    const tail = /^[,.;:!?)\]…]+/.exec(parts[i + 1] ?? '')?.[0] ?? ''
+    if (tail) parts[i + 1] = parts[i + 1].slice(tail.length)
+    out.push(
+      <span key={i} className="gl-nw">
+        <button
+          type="button"
+          className="gl"
+          aria-label={`${part}: ${t.plain}`}
+          onMouseEnter={(e) => on?.open(part, t.plain, e.currentTarget)}
+          onMouseLeave={() => on?.close()}
+          onFocus={(e) => on?.open(part, t.plain, e.currentTarget)}
+          onBlur={() => on?.close()}
+          onClick={(e) => on?.toggle(part, t.plain, e.currentTarget)}
+        >
+          {part}
+        </button>
+        {tail}
+      </span>,
     )
-  })
+  }
+  return out
 }

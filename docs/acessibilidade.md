@@ -264,8 +264,8 @@ Os arquivos citados ficam em `web/src/sim/`.
 - Escolhas irreversíveis: "Devolver a palavra" pede confirmação, com o foco em "Ainda não". "Falar" mostra a frase
   exata antes e, com o ajuste "Confirmar antes de falar", pede um segundo clique. Os passos da decisão continuam
   desfazíveis pela trilha e pelo Esc.
-- Tutorial "Como jogar" (`ui/Tutorial.tsx`): 12 passos curtos, cada um com uma imagem tirada do jogo e duas ou três
-  frases. Na primeira visita, um convite pergunta se a pessoa quer vê-lo, uma vez só. Ele abre a qualquer hora pelo
+- Tutorial "Como jogar" (`ui/Tutorial.tsx`): 20 passos em cinco capítulos, do que é o jogo e para que serve até a
+  ata, cada um com uma imagem tirada do jogo e um parágrafo curto. O capítulo aparece no alto do diálogo. Na primeira visita, um convite pergunta se a pessoa quer vê-lo, uma vez só. Ele abre a qualquer hora pelo
   início, pelo acervo, pelo dossiê e pela sala, e é um diálogo como os outros: o foco entra no botão Próximo, o Tab
   fica preso, Esc fecha e o foco volta para quem o abriu. As setas para os lados trocam de passo, e cada troca é
   anunciada na região viva. Toda imagem tem texto alternativo que descreve o que importa para o passo, e o último

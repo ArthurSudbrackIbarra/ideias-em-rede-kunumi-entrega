@@ -162,12 +162,14 @@ estiver aberto (na vez de falar, volta um passo); `Espaço` continua no modo man
 automático/manual; `V` alterna simples/original; `+`/`−` velocidade (0,25× a 2×, padrão 0,5×); `M` som; `G`
 glossário; `H` ou `L` ajuda. Os atalhos de uma letra podem ser trocados ou desligados no painel Acessibilidade.
 
-**Tutorial.** Na primeira visita, o jogo pergunta se a pessoa quer ver como funciona. O tutorial "Como jogar" tem 12
-passos curtos, cada um com uma imagem tirada do próprio jogo, e abre a qualquer hora pelo início, pelo acervo, pelo
-dossiê e pela sala (no topo e na ajuda). Dentro da sala, a sessão para enquanto ele está aberto. Os passos são dados
-em `copy.ts`, e as imagens saem de `npm run tutorial:screenshots`, que joga a audiência 44 com semente fixa, destaca o
-controle de cada passo e grava os recortes em WebP. A resposta ao convite fica no navegador, em `sim.tutorial.v1`;
-trocar a versão da chave faz o convite voltar para todo mundo.
+**Tutorial.** Na primeira visita, o jogo pergunta se a pessoa quer ver como funciona. O tutorial "Como jogar" tem 20
+passos em cinco capítulos. Começa pelo que é o jogo (um jogo sério feito sobre transcrições reais), de onde vêm as
+falas e para que ele serve. Depois passa pela escolha da audiência e da ideia, e só então explica a sala, a vez de
+falar, a réplica, a tréplica, o aparte e a ata. Cada passo tem uma imagem tirada do próprio jogo. O tutorial abre a
+qualquer hora pelo início, pelo acervo, pelo dossiê e pela sala (no topo e na ajuda), e dentro da sala a sessão para
+enquanto ele está aberto. Os passos são dados em `copy.ts`, e as imagens saem de `npm run tutorial:screenshots`, que
+joga a audiência 44 com semente fixa, destaca o controle de cada passo e grava os recortes em WebP. A resposta ao
+convite fica no navegador, em `sim.tutorial.v1`, e trocar a versão da chave faz o convite voltar para todo mundo.
 
 **Acessibilidade.** O painel Acessibilidade abre do início, do acervo, do dossiê e da sala, antes de qualquer
 audiência. Ele ajusta o tamanho do texto (até 200%), a fonte das falas (Lexend ou Libron), a entrelinha, o alto

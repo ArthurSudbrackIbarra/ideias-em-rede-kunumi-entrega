@@ -8,10 +8,11 @@ import { Dialog } from './Dialog'
 import { Chevron, ChevronLeft } from './Icons'
 
 /**
- * O tutorial "Como jogar": um diálogo com um passo por vez (imagem tirada do próprio jogo, título e duas ou três
- * frases), e o convite da primeira visita. Os passos são dados, em `copy.tutorial.steps`. Cada tela que oferece o
- * tutorial monta o seu, como o painel Acessibilidade. As setas para os lados trocam de passo, Esc fecha, e nenhum
- * atalho da sala vale com ele aberto. Na sala, a sessão fica parada enquanto ele está aberto.
+ * O tutorial "Como jogar": um diálogo com um passo por vez (imagem tirada do próprio jogo, título e um parágrafo
+ * curto), e o convite da primeira visita. Os passos são dados, em `copy.tutorial.steps`, agrupados em capítulos que vão
+ * do que é o jogo e para que serve até o que fazer em cada momento da sala. Cada tela que oferece o tutorial monta o
+ * seu, como o painel Acessibilidade. As setas para os lados trocam de passo, Esc fecha, e nenhum atalho da sala vale
+ * com ele aberto. Na sala, a sessão fica parada enquanto ele está aberto.
  */
 
 const STEPS = copy.tutorial.steps
@@ -122,7 +123,7 @@ function TutorialDialog({ startLabel, onStart }: { startLabel: string; onStart?:
   useEffect(() => {
     if (shown.current === i) return
     shown.current = i
-    announce(copy.tutorial.announce(i + 1, n, s.title, plain(s.text)))
+    announce(copy.tutorial.announce(i + 1, n, s.part, s.title, plain(s.text)))
     // no primeiro passo Voltar fica desligado, e o foco não pode ficar num botão que não responde
     if (i === 0 && document.activeElement === prevBtn.current) nextBtn.current?.focus()
   }, [i, n, s])
@@ -157,7 +158,9 @@ function TutorialDialog({ startLabel, onStart }: { startLabel: string; onStart?:
         testId="tutorial"
       >
         <div className="tut-head">
-          <span className="engrave">{copy.tutorial.open}</span>
+          <span className="engrave" data-testid="tutorial-part">
+            {s.part}
+          </span>
           <span className="tut-count" data-testid="tutorial-progress">
             {copy.tutorial.progress(i + 1, n)}
           </span>
@@ -191,7 +194,7 @@ function TutorialDialog({ startLabel, onStart }: { startLabel: string; onStart?:
         <div className="tut-foot">
           <span className="dots" aria-hidden="true">
             {STEPS.map((x, j) => (
-              <i key={x.id} className={j === i ? 'on' : j < i ? 'past' : ''} />
+              <i key={x.id} className={`${j === i ? 'on' : j < i ? 'past' : ''}${j > 0 && STEPS[j - 1].part !== x.part ? ' part' : ''}`} />
             ))}
           </span>
           <button ref={prevBtn} type="button" className="ctl" onClick={() => go(i - 1)} disabled={i === 0} data-testid="tutorial-prev">

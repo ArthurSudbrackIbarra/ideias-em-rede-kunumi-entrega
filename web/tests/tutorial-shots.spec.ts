@@ -153,38 +153,45 @@ async function noteUntil(page: Page, speaker: string | 'floor') {
 
 test('imagens do tutorial', async ({ page }) => {
   test.setTimeout(600_000)
+  page.setDefaultTimeout(30_000)
   mkdirSync(OUT, { recursive: true })
-  // modo manual (nada anda sozinho entre um passo e outro do roteiro), câmera que acompanha quem fala e movimento
-  // reduzido: a câmera chega na hora e o texto aparece inteiro
+  // modo manual (nada anda sozinho entre um passo e outro do roteiro), câmera que acompanha quem fala, movimento
+  // reduzido (a câmera chega na hora e o texto aparece inteiro) e tréplica sem limite de tempo
   await page.addInitScript(() => {
     try {
-      localStorage.setItem('sim.a11y.v1', JSON.stringify({ reduceMotion: true, autoLook: true }))
+      localStorage.setItem('sim.a11y.v1', JSON.stringify({ reduceMotion: true, autoLook: true, noTimeLimits: true }))
       localStorage.setItem('sim.autoplay', '0')
       localStorage.setItem('sim.tutorial.v1', 'dismissed')
     } catch {
       /* sem armazenamento */
     }
   })
+  const blur = () => page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
 
-  // 2. o acervo: a lista das prontas para jogar, descida com as setas até a 44, e Entrar na sala
+  // temas: o acervo como abre, com assuntos de todo tipo
   await page.goto('/audiencias')
   await expect(page.locator('.sim-catalog .row').first()).toBeVisible({ timeout: 20_000 })
+  await settle(page)
+  await save(page, 'temas', { x: 40, y: 188, width: 704, height: 440 })
+
+  // acervo: descida com as setas até a 44, e Entrar na sala
   await page.locator('.sim-catalog [role="listbox"]').focus()
   for (let i = 0; i < 100 && !(await page.locator('[data-testid="hearing-44"][aria-selected="true"]').count()); i++) await page.keyboard.press('ArrowDown')
   await expect(page.getByTestId('detail')).toContainText('Margem Equatorial')
-  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await blur()
   await settle(page)
   await highlight(page, ['[data-testid="enter"]'])
-  await save(page, '02-acervo', { x: 48, y: 30, width: 1184, height: 740 })
+  await save(page, 'acervo', { x: 48, y: 30, width: 1184, height: 740 })
   await clearHighlight(page)
 
-  // 3. o dossiê: a ideia que a partida vai defender, e Defender esta ideia
+  // ideia: o dossiê inteiro, com a pergunta da sessão no alto, e Defender esta ideia
   await page.goto(`/sim/44?seed=${SEED}`)
   await expect(page.getByTestId('tese-select')).toBeVisible()
   await page.getByTestId('tese-tab-t2').click()
+  await blur()
   await settle(page)
   await highlight(page, ['[data-testid="choose-t2"]'])
-  await save(page, '03-ideia', { x: 112, y: 140, width: 1056, height: 660 })
+  await save(page, 'ideia', { x: 0, y: 0, width: W, height: H })
   await clearHighlight(page)
 
   await page.getByTestId('choose-t2').click()
@@ -193,32 +200,70 @@ test('imagens do tutorial', async ({ page }) => {
   await expect(page.getByTestId('prelude')).toBeHidden({ timeout: 30_000 })
   await page.waitForFunction(() => document.body.dataset.simReady === '1', null, { timeout: 30_000 })
 
-  // 4. o balão: a primeira fala, e ver o que foi dito (o botão Anotar aparece ao lado)
+  // balão: a primeira fala, com a explicação de um termo do glossário aberta e ver o que foi dito
   await toFala(page)
+  await blur()
   await settle(page, 900)
-  const b4 = (await page.getByTestId('balloon').boundingBox())!
+  await page.locator('.sim-balloon .gl').first().hover()
+  await expect(page.locator('.sim-balloon .gl-tip')).toBeVisible()
+  await settle(page, 300)
+  const b1 = (await page.getByTestId('balloon').boundingBox())!
   await highlight(page, ['[data-testid="original-btn"]'])
-  await save(page, '04-balao', crop(720, b4.x + b4.width / 2, b4.y + b4.height / 2 + 10), true)
+  await save(page, 'balao', crop(800, b1.x + b1.width / 2, b1.y + b1.height / 2 - 20), true)
+  await clearHighlight(page)
+  await page.mouse.move(40, 760)
+
+  // original: a mesma fala, na transcrição
+  await page.getByTestId('original-btn').click()
+  await expect(page.getByTestId('original')).toBeVisible()
+  await blur()
+  await settle(page, 600)
+  const b2 = (await page.getByTestId('balloon').boundingBox())!
+  await save(page, 'original', crop(800, b2.x + b2.width / 2, b2.y + b2.height / 2), true)
+  await page.getByTestId('original-back').click()
+
+  // ritmo: automático ou manual, e a velocidade
+  await blur()
+  await settle(page, 400)
+  await highlight(page, ['.sim-rail .seg:has([data-testid="manual"])'], ['.sim-rail .speed'])
+  await save(page, 'ritmo', { x: 448, y: 280, width: 832, height: 520 }, true)
   await clearHighlight(page)
 
-  // o que o Ministério de Minas e Energia disse vai para o caderno (é o que a vez de falar contesta), e a fala do
-  // Ibama, que ela cita, também
+  // legenda: as cores dos papéis, na ajuda
+  await page.keyboard.press('h')
+  await expect(page.getByTestId('sim-legend')).toBeVisible()
+  await page.locator('#legend-roles').scrollIntoViewIfNeeded()
+  await blur()
+  await settle(page, 600)
+  await highlight(page, ['section[aria-labelledby="legend-roles"]'])
+  await save(page, 'legenda', { x: 448, y: 220, width: 832, height: 520 }, true)
+  await clearHighlight(page)
+  await page.keyboard.press('Escape')
+  await expect(page.getByTestId('sim-legend')).toBeHidden()
+
+  // anotar: o Ibama na primeira fala dele, e o botão Anotar no balão
   await noteUntil(page, 's05')
+  await blur()
+  await settle(page, 900)
+  const b3 = (await page.getByTestId('balloon').boundingBox())!
+  await highlight(page, ['[data-testid="note-btn"]'])
+  await save(page, 'anotar', crop(800, b3.x + b3.width / 2, b3.y + b3.height / 2), true)
+  await clearHighlight(page)
   await page.getByTestId('note-btn').click()
 
-  // 6. a atenção: a câmera virada para longe de quem fala, o aviso e o medidor em baixa
+  // atenção: a câmera virada para longe de quem fala, o aviso e o medidor em baixa
   await toFala(page, 's06')
   await settle(page, 600)
   for (let i = 0; i < 4; i++) await page.evaluate(() => window.simStore!.getState().turn(-1))
   await page.waitForFunction(() => window.simStore!.getState().run.attention < 22, null, { timeout: 30_000 })
   await settle(page, 400)
   await highlight(page, ['[data-testid="notice"]'], ['.sim-rail .meter:nth-child(2)'])
-  await save(page, '06-olhar', { x: 0, y: 340, width: 736, height: 460 }, true)
+  await save(page, 'atencao', { x: 0, y: 340, width: 736, height: 460 }, true)
   await clearHighlight(page)
   await page.evaluate(() => window.simStore!.getState().requestLook())
   await page.waitForFunction(() => window.simStore!.getState().run.attention > 90, null, { timeout: 30_000 })
 
-  // 5. o caderno: o que já foi anotado, com o fio do debate ao lado
+  // caderno: o que já foi anotado, com o fio do debate ao lado
   await page.evaluate(() => {
     const s = window.simStore!
     for (let guard = 0; guard < 60 && s.getState().run.current?.speaker === 's06'; guard++) {
@@ -230,56 +275,88 @@ test('imagens do tutorial', async ({ page }) => {
   })
   await page.evaluate(() => window.simStore!.getState().requestDesk(true))
   await expect(page.getByTestId('desk')).toBeVisible({ timeout: 10_000 })
-  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await blur()
   await settle(page, 900)
   await highlight(page, ['.sim-desk .cols > .col:first-child'])
-  await save(page, '05-anotar', { x: 96, y: 120, width: 1088, height: 680 }, true)
+  await save(page, 'caderno', { x: 96, y: 120, width: 1088, height: 680 }, true)
   await clearHighlight(page)
   await page.evaluate(() => window.simStore!.getState().requestDesk(false))
   await expect(page.getByTestId('desk')).toBeHidden({ timeout: 10_000 })
 
-  // 7. a palavra é sua: os três movimentos
+  // palavra: os três movimentos
   await noteUntil(page, 'floor')
   await expect(page.getByTestId('floor')).toBeVisible()
-  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await blur()
   await settle(page)
   await highlight(page, ['[data-testid="moves"]'])
-  await save(page, '07-palavra', crop(1184, 640, 430))
+  await save(page, 'palavra', crop(1184, 640, 430))
   await clearHighlight(page)
 
-  // 8. a frase: contestar o MME citando o Ibama, com a prévia e Falar
-  await page.getByTestId('move-contesto').click()
-  await page.locator('.sim-floor .hand [data-testid="card"]').first().click()
-  await page.locator('.sim-floor .field .cands [data-testid="card"]').nth(1).click()
-  await page.getByTestId('preview').scrollIntoViewIfNeeded()
-  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
-  await settle(page)
-  await highlight(page, ['[data-testid="preview"]'], ['[data-testid="speak"]'])
-  await save(page, '08-frase', crop(1184, 640, 430))
-  await clearHighlight(page)
-
-  // 9. o veredito, logo depois de falar
+  // veredito: sustentar o que Suely Araújo, do Observatório do Clima, disse, coerente com a ideia
+  await page.getByTestId('move-sustento').click()
+  await page.locator('.sim-floor .hand [data-card="b011c1"]').click()
+  await expect(page.getByTestId('preview')).toBeVisible()
   await page.getByTestId('speak').click()
   await expect(page.getByTestId('verdict')).toBeVisible({ timeout: 60_000 })
   await page.evaluate(() => window.simStore!.getState().skipTyping())
-  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await blur()
   await settle(page, 1200)
-  const b9 = (await page.getByTestId('balloon').boundingBox())!
+  await expect(page.getByTestId('verdict')).toContainText('Coerente')
+  const b4 = (await page.getByTestId('balloon').boundingBox())!
   await highlight(page, ['[data-testid="verdict"]'])
-  await save(page, '09-veredito', crop(840, b9.x + b9.width / 2, b9.y + b9.height / 2), true)
+  await save(page, 'veredito', crop(840, b4.x + b4.width / 2, b4.y + b4.height / 2), true)
   await clearHighlight(page)
 
-  // 1 e 10. de volta à sessão: a pergunta de um deputado, com a sala inteira à vista, e o botão de aparte
+  // réplica e tréplica: a Petrobras rebate, e o caderno tem outra anotação de Suely Araújo para responder
+  await page.evaluate(() => window.simStore!.getState().advance())
+  await page.waitForFunction(() => window.simStore!.getState().run.current?.kind === 'reaction')
+  await page.evaluate(() => window.simStore!.getState().skipTyping())
+  await expect(page.getByTestId('treplica')).toBeVisible()
+  // o ponteiro ficou onde estava o botão Falar, e em cima da etiqueta de relação ele abriria a explicação dela
+  await page.mouse.move(W - 4, 4)
+  await blur()
+  await settle(page, 900)
+  // o balão e o cartão que explica a relação, juntos no recorte
+  await expect(page.locator('.sim-relcard')).toBeVisible()
+  const b5 = (await page.getByTestId('balloon').boundingBox())!
+  const rc = (await page.locator('.sim-relcard').boundingBox())!
+  const u = { x: Math.min(b5.x, rc.x), y: Math.min(b5.y, rc.y), r: Math.max(b5.x + b5.width, rc.x + rc.width), b: Math.max(b5.y + b5.height, rc.y + rc.height) }
+  const uw = Math.min(W, Math.round(Math.max(u.r - u.x + 48, (u.b - u.y + 48) * 1.6)))
+  await highlight(page, ['.sim-balloon .rel-tag'])
+  await save(page, 'reacao', crop(uw, (u.x + u.r) / 2, (u.y + u.b) / 2), true)
+  await highlight(page, ['[data-testid="treplica"]'])
+  await save(page, 'treplica', { x: 232, y: 145, width: 1048, height: 655 }, true)
+  await clearHighlight(page)
+
+  // frase: o segundo movimento da vez, contestar o Ministério de Minas e Energia citando o Ibama, que disse o contrário
+  await page.evaluate(() => {
+    const s = window.simStore!
+    for (let guard = 0; guard < 20 && s.getState().run.phase !== 'floor'; guard++) s.getState().advance()
+  })
+  await expect(page.getByTestId('floor')).toBeVisible()
+  await page.getByTestId('move-contesto').click()
+  await page.locator('.sim-floor .hand [data-card="b007c1"]').click()
+  await page.locator('.sim-floor .field .cands [data-card="b009c1"]').click()
+  await page.getByTestId('preview').scrollIntoViewIfNeeded()
+  await blur()
+  await settle(page)
+  await highlight(page, ['[data-testid="preview"]'], ['[data-testid="speak"]'])
+  await save(page, 'frase', crop(1184, 640, 430))
+  await clearHighlight(page)
+  await page.getByTestId('speak').click()
+  await expect(page.getByTestId('verdict')).toBeVisible({ timeout: 60_000 })
+
+  // sala e aparte: de volta à sessão, a pergunta de um deputado com a sala inteira à vista, e o botão de aparte
   await toFala(page, 's09')
-  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await blur()
   await settle(page, 900)
   expect(await page.evaluate(() => window.simStore!.getState().run.hand.length)).toBeGreaterThan(0)
-  await save(page, '01-sala', { x: 0, y: 0, width: W, height: H }, true)
-  await highlight(page, ['[data-testid="interject"]'])
-  await save(page, '10-aparte', { x: 232, y: 145, width: 1048, height: 655 }, true)
+  await save(page, 'sala', { x: 0, y: 0, width: W, height: H }, true)
+  await highlight(page, ['[data-testid="interject"]'], ['.sim-rail .meter:nth-child(3)'])
+  await save(page, 'aparte', { x: 0, y: 145, width: 1048, height: 655 }, true)
   await clearHighlight(page)
 
-  // 11. a ata
+  // ata
   await page.evaluate(() => {
     const s = window.simStore!
     for (let guard = 0; guard < 3000 && s.getState().run.phase !== 'ata'; guard++) {
@@ -289,5 +366,34 @@ test('imagens do tutorial', async ({ page }) => {
   })
   await expect(page.getByTestId('ata')).toBeVisible()
   await settle(page, 1200)
-  await save(page, '11-ata', crop(1120, 640, 390))
+  await save(page, 'ata', crop(1120, 640, 390))
+
+  // lados: outra partida, agora com o modo guiado, em que o balão diz de que lado da ideia está cada fala. O
+  // Ministério de Minas e Energia fala a favor do poço, e por isso do lado contrário ao da ideia escolhida
+  await page.goto(`/sim/44?seed=${SEED}`)
+  await expect(page.getByTestId('tese-select')).toBeVisible()
+  await page.getByTestId('tese-tab-t2').click()
+  await page.getByTestId('guided').check({ force: true })
+  await page.getByTestId('choose-t2').click()
+  await expect(page.getByTestId('prelude')).toBeVisible()
+  await page.keyboard.press('Enter')
+  await expect(page.getByTestId('prelude')).toBeHidden({ timeout: 30_000 })
+  await page.waitForFunction(() => document.body.dataset.simReady === '1', null, { timeout: 30_000 })
+  await page.evaluate(() => {
+    const s = window.simStore!
+    for (let guard = 0; guard < 400; guard++) {
+      const cur = s.getState().run.current
+      if (cur?.kind === 'fala' && cur.page?.card === 'b007c1') return
+      s.getState().advance()
+    }
+    throw new Error('fala do MME não encontrada')
+  })
+  await page.evaluate(() => window.simStore!.getState().skipTyping())
+  await blur()
+  await settle(page, 900)
+  await expect(page.locator('.sim-balloon .plate .side')).toBeVisible()
+  const b6 = (await page.getByTestId('balloon').boundingBox())!
+  await highlight(page, ['.sim-balloon .plate .side'])
+  await save(page, 'lados', crop(800, b6.x + b6.width / 2, b6.y + b6.height / 2), true)
+  await clearHighlight(page)
 })

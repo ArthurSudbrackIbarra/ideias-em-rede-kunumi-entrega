@@ -10,6 +10,8 @@ import { expect, test, type Page } from '@playwright/test'
 
 const SEED = '20260912'
 const KEY = 'sim.tutorial.v1'
+/** quantos passos o tutorial tem (copy.tutorial.steps) */
+const N = 20
 const TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']
 
 test.use({ storageState: { cookies: [], origins: [] } })
@@ -73,19 +75,20 @@ test('convite na sala: quem chega direto à audiência é perguntado antes de a 
   await expect(tut).toBeVisible()
   await expect(page.getByTestId('tutorial-ask')).toHaveCount(0)
   expect(await stored(page)).toBe('seen')
-  await expect(progress(page)).toHaveText('1 de 12')
+  await expect(progress(page)).toHaveText(`1 de ${N}`)
+  await expect(page.getByTestId('tutorial-part')).toHaveText('O jogo')
   await expect(page.getByTestId('tutorial-prev')).toBeDisabled()
   expect(await activeTestId(page)).toBe('tutorial-next')
 
   // para a frente e para trás, com as setas e com os botões
   await page.keyboard.press('ArrowRight')
-  await expect(progress(page)).toHaveText('2 de 12')
+  await expect(progress(page)).toHaveText(`2 de ${N}`)
   await page.getByTestId('tutorial-next').click()
-  await expect(progress(page)).toHaveText('3 de 12')
+  await expect(progress(page)).toHaveText(`3 de ${N}`)
   await page.keyboard.press('ArrowLeft')
-  await expect(progress(page)).toHaveText('2 de 12')
+  await expect(progress(page)).toHaveText(`2 de ${N}`)
   await page.getByTestId('tutorial-prev').click()
-  await expect(progress(page)).toHaveText('1 de 12')
+  await expect(progress(page)).toHaveText(`1 de ${N}`)
   // o foco não fica preso num Voltar desligado
   expect(await activeTestId(page)).toBe('tutorial-next')
 
@@ -94,7 +97,7 @@ test('convite na sala: quem chega direto à audiência é perguntado antes de a 
   await expect.poll(() => img.evaluate((el: HTMLImageElement) => el.complete && el.naturalWidth)).toBe(1280)
   expect((await img.getAttribute('alt'))?.length ?? 0).toBeGreaterThan(40)
   await page.keyboard.press('ArrowRight')
-  await expect(page.getByTestId('announce-polite')).toContainText('2 de 12. Escolha a audiência.')
+  await expect(page.getByTestId('announce-polite')).toContainText(`2 de ${N}, O jogo. Falas reais, mais fáceis de ler.`)
 
   await page.keyboard.press('Escape')
   await expect(tut).toBeHidden()
@@ -113,7 +116,7 @@ test('menu: Como jogar abre o tutorial, o foco volta ao botão, e Começar leva 
   await page.keyboard.press('Enter')
   const tut = page.getByTestId('tutorial')
   await expect(tut).toBeVisible()
-  await expect(progress(page)).toHaveText('1 de 12')
+  await expect(progress(page)).toHaveText(`1 de ${N}`)
   await axe(page, 'tutorial, primeiro passo')
 
   // o Tab fica dentro do diálogo
@@ -132,16 +135,20 @@ test('menu: Como jogar abre o tutorial, o foco volta ao botão, e Começar leva 
   await page.keyboard.press('ArrowRight')
   await page.keyboard.press('Escape')
   await page.keyboard.press('Enter')
-  await expect(progress(page)).toHaveText('2 de 12')
+  await expect(progress(page)).toHaveText(`2 de ${N}`)
 
   // nada de caixa alta, ponto e vírgula, separador ou seta nos textos dos passos
-  for (let i = 2; i <= 12; i++) {
-    await expect(progress(page)).toHaveText(`${i} de 12`)
+  for (let i = 2; i <= N; i++) {
+    await expect(progress(page)).toHaveText(`${i} de ${N}`)
     const text = await page.locator('.tut-body').innerText()
     expect(text, `passo ${i}`).not.toMatch(/[;·—–→←↑↓]/)
     expect(text, `passo ${i}`).not.toMatch(/\b[A-ZÁÉÍÓÚÂÊÔÃÕÇ]{4,}\b/)
-    if (i < 12) await page.keyboard.press('ArrowRight')
+    // cada imagem existe e carrega
+    const img = page.getByTestId('tutorial-image')
+    if (i < N) await expect.poll(() => img.evaluate((el: HTMLImageElement) => el.complete && el.naturalWidth), { message: `imagem do passo ${i}` }).toBe(1280)
+    if (i < N) await page.keyboard.press('ArrowRight')
   }
+  await expect(page.getByTestId('tutorial-part')).toHaveText('No fim')
 
   // o último passo mostra a tabela de teclas, com as teclas do mapa atual, e o botão Começar
   await expect(page.getByTestId('tutorial-keys')).toBeVisible()
@@ -150,7 +157,7 @@ test('menu: Como jogar abre o tutorial, o foco volta ao botão, e Começar leva 
   await axe(page, 'tutorial, tabela de teclas')
   // a seta para a direita não passa do último passo
   await page.keyboard.press('ArrowRight')
-  await expect(progress(page)).toHaveText('12 de 12')
+  await expect(progress(page)).toHaveText(`${N} de ${N}`)
 
   await page.getByTestId('tutorial-next').click()
   await expect(page).toHaveURL(/\/audiencias/)
@@ -208,7 +215,7 @@ test('na sala: o tutorial segura a sessão, nenhum atalho dispara, e a sessão v
   // o topo da sala também abre o tutorial, com o botão final dizendo que volta à sessão
   await page.getByTestId('open-tutorial').click()
   await expect(page.getByTestId('tutorial')).toBeVisible()
-  for (let i = 0; i < 11; i++) await page.keyboard.press('ArrowRight')
+  for (let i = 0; i < N - 1; i++) await page.keyboard.press('ArrowRight')
   await expect(page.getByTestId('tutorial-next')).toContainText('Voltar à sessão')
   await page.getByTestId('tutorial-next').click()
   await expect(page.getByTestId('tutorial')).toBeHidden()
