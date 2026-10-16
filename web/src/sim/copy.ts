@@ -668,7 +668,7 @@ export const copy = {
     intro: 'Os ajustes valem na hora e ficam guardados neste navegador.',
     reading: 'Leitura',
     textSize: 'Tamanho do texto',
-    readFont: 'Fonte das falas',
+    speechFont: 'Fonte das falas',
     fontLibron: 'Libron, com serifa',
     fontLexend: 'Lexend, sem serifa',
     lineSpacing: 'Espaço entre as linhas',
@@ -723,7 +723,7 @@ export const copy = {
   statement: {
     back: 'início',
     title: 'Acessibilidade',
-    lead: 'Este jogo quer ser jogado por qualquer pessoa: quem lê pouco, quem enxerga pouco ou nada, quem não ouve, quem usa só o teclado e quem prefere Libras. Esta página diz o que funciona hoje, o que ainda não funciona e como avisar quando algo atrapalhar.',
+    lead: 'Este jogo quer ser jogado por qualquer pessoa: quem lê pouco, quem enxerga pouco ou nada, quem não ouve, quem usa só o teclado e quem prefere Libras. Aqui está o que funciona hoje, o que ainda não funciona e como avisar quando algo atrapalhar.',
     supportedTitle: 'O que o jogo oferece',
     supported: [
       'Toda fala aparece em palavras simples, com o texto original a um clique.',
@@ -749,7 +749,9 @@ export const copy = {
     contactTitle: 'Encontrou um problema?',
     contact: 'Conte o que aconteceu, em que tela e com qual navegador ou leitor de tela, abrindo uma issue no repositório do jogo:',
     contactLink: 'github.com/ArthurSudbrackIbarra/ideias-em-rede-kunumi-entrega/issues',
+    newTab: '(abre em outra aba)',
     open: 'Ajustes de acessibilidade',
+    backToSettings: 'voltar ao painel',
   },
 
   /** os títulos da aba do navegador, por tela e por fase */

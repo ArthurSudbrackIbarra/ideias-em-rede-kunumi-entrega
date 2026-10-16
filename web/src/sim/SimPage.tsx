@@ -9,9 +9,10 @@ import type { HearingSim } from './lib/hearing'
 import { applause as playApplause } from './lib/sound'
 import { holdSpeaking, rateFor, speak as speakAloud, stopSpeaking } from './lib/speech'
 import { closeTips } from './lib/tips'
+import { typingMs } from './lib/typing'
 import { useTitle } from './lib/useTitle'
 import { SimScene } from './scene/SimScene'
-import { useSettings } from './store/useSettings'
+import { reducedMotion, useSettings } from './store/useSettings'
 import { speedFactor, useSim } from './store/useSim'
 import { useTutorial } from './store/useTutorial'
 import { Ata } from './ui/Ata'
@@ -102,6 +103,7 @@ function useDirector() {
       const chip = current.verdict ? (current.verdict.kind === 'contradicao' || current.verdict.kind === 'par_invalido' ? VERDICT_CHIP_LONG_MS : VERDICT_CHIP_MS) : 0
       ms = READ_PAUSE_MS + Math.min(READ_PAUSE_MAX_MS, len * READ_PAUSE_PER_CHAR_MS) + chip
     } else ms = READ_PAUSE_MS + Math.min(READ_PAUSE_MAX_MS, len * READ_PAUSE_PER_CHAR_MS) + (current.applause > 0 ? 1600 : 0)
+    if (!card && reducedMotion()) ms += typingMs(shown)
     const t = setTimeout(advance, ms / f)
     return () => clearTimeout(t)
   }, [current, phase, originalOpen, typingDone, voiceDone, speed, autoplay, textMode, panel, deskView, settingsOpen, tutorialOpen, advance])

@@ -1,5 +1,5 @@
 import { useEffect, useId, useState, type ReactNode } from 'react'
-import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { copy } from '../copy'
 import { SPEEDS } from '../engine/balance'
 import { announce } from '../lib/announce'
@@ -8,6 +8,7 @@ import { onVoices, ptVoice } from '../lib/speech'
 import { LINE_SPACINGS, reducedMotion, TEXT_SCALES, useSettings, type Volumes } from '../store/useSettings'
 import { useSim } from '../store/useSim'
 import { Dialog } from './Dialog'
+import { StatementDialog } from './StatementDialog'
 
 /**
  * O painel Acessibilidade: tudo vale na hora e fica guardado neste navegador. Aberto de qualquer tela (início,
@@ -26,6 +27,8 @@ function SettingsDialog() {
   const textMode = useSim((s) => s.textMode)
   const [capturing, setCapturing] = useState<KeyAction | null>(null)
   const [voice, setVoice] = useState(() => ptVoice() !== null)
+  const [statement, setStatement] = useState(false)
+  const onStatementPage = useLocation().pathname === '/acessibilidade'
   const close = () => useSettings.getState().setOpen(false)
 
   useEffect(() => onVoices(() => setVoice(ptVoice() !== null)), [])
@@ -79,13 +82,14 @@ function SettingsDialog() {
               testId="text-size"
             />
             <Choice
-              legend={copy.a11y.readFont}
-              value={st.readFont}
+              legend={copy.a11y.speechFont}
+              value={st.speechFont}
               options={[
-                ['libron', copy.a11y.fontLibron],
                 ['lexend', copy.a11y.fontLexend],
+                ['libron', copy.a11y.fontLibron],
               ]}
-              onChange={(v) => st.set('readFont', v)}
+              onChange={(v) => st.set('speechFont', v)}
+              testId="speech-font"
             />
             <Choice
               legend={copy.a11y.lineSpacing}
@@ -201,12 +205,15 @@ function SettingsDialog() {
             <button type="button" className="btn secondary" onClick={() => st.reset()} data-testid="settings-reset">
               {copy.a11y.reset}
             </button>
-            <Link to="/acessibilidade" className="textlink" onClick={close}>
-              {copy.a11y.statement}
-            </Link>
+            {!onStatementPage && (
+              <button type="button" className="textlink" onClick={() => setStatement(true)} data-testid="open-statement">
+                {copy.a11y.statement}
+              </button>
+            )}
           </footer>
         </div>
       </Dialog>
+      {statement && <StatementDialog onClose={() => setStatement(false)} />}
     </>
   )
 }

@@ -7,7 +7,7 @@ import { remap, type KeyAction, type KeyOverrides } from '../lib/keys'
  * O ritmo da partida (automático ou manual, velocidade, texto do balão) continua na store da sala, que já os lembra.
  */
 
-export type ReadFont = 'libron' | 'lexend'
+export type SpeechFont = 'lexend' | 'libron'
 
 export interface Volumes {
   master: number
@@ -19,7 +19,8 @@ export interface Volumes {
 export interface Settings {
   /** 1 a 2: multiplica o tamanho de todo texto do jogo */
   textScale: number
-  readFont: ReadFont
+  /** a fonte das falas. Era `readFont`, com Libron por padrão: o nome novo faz quem guardou a antiga voltar ao Lexend */
+  speechFont: SpeechFont
   /** 1, 1.2 ou 1.4: multiplica a entrelinha dos textos de leitura */
   lineSpacing: number
   highContrast: boolean
@@ -44,7 +45,7 @@ export const LINE_SPACINGS = [1, 1.2, 1.4] as const
 
 export const DEFAULT_SETTINGS: Settings = {
   textScale: 1,
-  readFont: 'libron',
+  speechFont: 'lexend',
   lineSpacing: 1,
   highContrast: false,
   reduceMotion: null,
@@ -102,7 +103,7 @@ interface SettingsState extends Settings {
 function persist(get: () => SettingsState) {
   const s = get()
   write({
-    textScale: s.textScale, readFont: s.readFont, lineSpacing: s.lineSpacing, highContrast: s.highContrast, reduceMotion: s.reduceMotion,
+    textScale: s.textScale, speechFont: s.speechFont, lineSpacing: s.lineSpacing, highContrast: s.highContrast, reduceMotion: s.reduceMotion,
     effects: s.effects, noTimeLimits: s.noTimeLimits, autoLook: s.autoLook, readAloud: s.readAloud, confirmSpeak: s.confirmSpeak,
     volumes: s.volumes, shortcuts: s.shortcuts, keys: s.keys, vlibras: s.vlibras,
   })
@@ -156,7 +157,7 @@ export function applySettings(s: Settings = useSettings.getState()) {
   root.dataset.contrast = s.highContrast ? 'high' : 'normal'
   root.dataset.motion = reducedMotion(s) ? 'reduced' : 'full'
   root.dataset.effects = s.effects ? 'on' : 'off'
-  root.dataset.readFont = s.readFont
+  root.dataset.speechFont = s.speechFont
   root.dataset.keys = s.shortcuts ? 'on' : 'off'
 }
 

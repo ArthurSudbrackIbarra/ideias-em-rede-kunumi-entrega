@@ -5,6 +5,7 @@ import { useTitle } from '../lib/useTitle'
 import { useSettings } from '../store/useSettings'
 import { ChevronLeft } from './Icons'
 import { SettingsPanel } from './SettingsPanel'
+import { StatementBody } from './StatementDialog'
 
 /** A declaração de acessibilidade (/acessibilidade): o que funciona, o que ainda não funciona e como avisar. */
 export function Statement() {
@@ -21,27 +22,7 @@ export function Statement() {
         <button type="button" className="btn primary" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
           {s.open}
         </button>
-        <h2>{s.supportedTitle}</h2>
-        <ul>
-          {s.supported.map((t) => (
-            <li key={t}>{t}</li>
-          ))}
-        </ul>
-        <h2>{s.limitsTitle}</h2>
-        <ul>
-          {s.limits.map((t) => (
-            <li key={t}>{t}</li>
-          ))}
-        </ul>
-        <h2>{s.standardTitle}</h2>
-        <p>{s.standard}</p>
-        <h2>{s.contactTitle}</h2>
-        <p>
-          {s.contact}{' '}
-          <a href={`https://${s.contactLink}`} rel="noreferrer">
-            {s.contactLink}
-          </a>
-        </p>
+        <StatementBody heading="h2" />
       </div>
       <SettingsPanel />
     </main>

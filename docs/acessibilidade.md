@@ -223,15 +223,17 @@ Os arquivos citados ficam em `web/src/sim/`.
   aceitam o ponteiro por cima, fecham com Esc sem mover o foco e ficam até o ponteiro ou o foco saírem. A dica de
   texto cortado também aparece no foco do teclado.
 - Alto contraste: preto e branco nos dois materiais, fios de 2 px, véu sólido no topo.
-- Fonte das falas e entrelinha: Libron ou Lexend, e três entrelinhas (normal, ampla, mais ampla) nos textos de
-  leitura.
+- Fonte das falas e entrelinha: as falas ficam em Lexend, como todo o jogo, ou em Libron, uma serifa feita para
+  leitura longa, para quem preferir. São três entrelinhas (normal, ampla, mais ampla) nos textos de leitura.
 
 ### Movimento
 
 - Reduzir o movimento (WCAG 2.3.3, GAG básico "evitar ou permitir desligar movimento de fundo"): segue a
   preferência do sistema até a pessoa mexer no ajuste. Ligado, a câmera vira sem animação e sem o balanço da
   respiração, os bonecos e a plateia ficam parados (as mãos levantadas ainda mostram as palmas), o texto e o prelúdio
-  aparecem de uma vez, os números saltam em vez de contar, e nenhuma transição de painel desliza.
+  aparecem de uma vez, os números saltam em vez de contar, e nenhuma transição de painel desliza. No modo
+  automático, a fala que aparece de uma vez fica na tela o tempo que a digitação levaria, além da pausa de leitura
+  (`lib/typing.ts`). Antes, sem a digitação para marcar o ritmo, as falas passavam rápido demais para ler.
 - Efeitos visuais: desligados, a vinheta do pós-processamento sai e a tela não treme na contradição.
 - Flashes (WCAG 2.3.1): nada pisca mais de três vezes por segundo, como já era.
 
@@ -287,9 +289,10 @@ O painel (`ui/SettingsPanel.tsx`) abre do início, do acervo, do dossiê e da sa
 mudança vale na hora, guardada em `localStorage` (chave `sim.a11y.v1`, com `try/catch`). Ele reúne tamanho do texto,
 fonte das falas, entrelinha, alto contraste, reduzir o movimento, efeitos visuais, avanço das falas, velocidade, texto
 do balão, sem limite de tempo, virar sozinho para quem fala, confirmar antes de falar, os quatro volumes, leitura em
-voz alta, VLibras, atalhos ligados ou desligados e a troca de cada tecla. A rota `/acessibilidade` traz a declaração:
-o que o jogo oferece, o que ainda não funciona bem, as referências e onde avisar de um problema (as issues do
-repositório).
+voz alta, VLibras, atalhos ligados ou desligados e a troca de cada tecla. A declaração diz o que o jogo oferece, o
+que ainda não funciona bem, as referências e onde avisar de um problema (as issues do repositório). Ela tem a rota
+própria, `/acessibilidade`, e também abre do rodapé do painel como um diálogo por cima dele (`ui/StatementDialog.tsx`),
+para quem está no meio de uma partida ler sem sair da sala. Esc volta ao painel.
 
 ## 3. Resultado depois das correções
 
@@ -324,7 +327,7 @@ símbolos, e o nome escrito é o que o leitor de tela precisa.
 ### Testes que travam regressão
 
 `web/tests/a11y.spec.ts` roda com `npm run test:e2e` e falha diante de qualquer violação do axe (a lista de exceções
-está vazia). São seis testes:
+está vazia). São sete testes:
 
 1. axe no início, no acervo, na declaração e no painel Acessibilidade;
 2. axe em cada estado da partida da 44 (dossiê, fala, original, caderno, glossário, ajuda, histórico, a vez de falar
@@ -333,8 +336,10 @@ está vazia). São seis testes:
    para entrar, a ideia com seta e Enter, Espaço para avançar, N para anotar, 1 e Enter na vez de falar, a confirmação
    de devolver a palavra, e o foco no título da ata no fim (cerca de 45 s);
 4. os atalhos desligados não agem e não aparecem nos botões; uma tecla trocada passa a valer no lugar da antiga;
-5. um painel recebe o foco, prende o Tab e devolve o foco ao botão que o abriu;
-6. a região viva recebe a fala inteira, uma vez, o balão não é região viva e a sala tem descrição.
+5. um painel recebe o foco, prende o Tab e devolve o foco ao botão que o abriu, e a declaração aberta do painel
+   fica por cima dele sem sair da sala;
+6. com movimento reduzido no modo automático, a fala fica na tela pelo menos o tempo que a digitação levaria;
+7. a região viva recebe a fala inteira, uma vez, o balão não é região viva e a sala tem descrição.
 
 `web/tests/tutorial.spec.ts` cobre o tutorial: o convite aparece uma vez e a resposta fica lembrada, o diálogo anda
 para a frente e para trás, fecha com Esc e devolve o foco, passa no axe (convite, primeiro passo e tabela de teclas)

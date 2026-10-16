@@ -261,6 +261,44 @@ test('foco: os painéis recebem o foco, prendem o Tab e o devolvem a quem os abr
   await page.keyboard.press('Escape')
   await expect(glossary).toBeHidden()
   await expect(btn).toBeFocused()
+
+  // a declaração de acessibilidade abre por cima do painel, sem sair da sala, e Esc volta ao painel
+  const cursor = await page.evaluate(() => window.simStore!.getState().run.cursor)
+  await page.getByTestId('open-settings').click()
+  const open = page.getByTestId('open-statement')
+  await open.focus()
+  await page.keyboard.press('Enter')
+  const statement = page.getByTestId('statement-dialog')
+  await expect(statement).toBeVisible()
+  await expect(statement).toBeFocused()
+  await expect(statement).toHaveAttribute('aria-modal', 'true')
+  await axe(page, 'declaração aberta do painel')
+  await page.keyboard.press('Escape')
+  await expect(statement).toBeHidden()
+  await expect(page.getByTestId('settings')).toBeVisible()
+  await expect(open).toBeFocused()
+  await expect(page).toHaveURL(/\/sim\/44/)
+  expect(await page.evaluate(() => window.simStore!.getState().run.cursor)).toBe(cursor)
+})
+
+test('movimento reduzido no automático: a fala que aparece de uma vez fica o tempo de ser lida', async ({ page }) => {
+  test.setTimeout(120_000)
+  await withSettings(page, { reduceMotion: true }, true)
+  await page.addInitScript(() => localStorage.setItem('sim.speed', '6'))
+  await page.goto(`/sim/44?seed=${SEED}`)
+  await page.getByTestId('tese-tab-t2').click()
+  await page.getByTestId('choose-t2').click()
+  await page.keyboard.press('Enter')
+  await expect(page.getByTestId('prelude')).toBeHidden({ timeout: 30_000 })
+  await page.waitForFunction(() => window.simStore!.getState().run.current?.kind === 'fala' && window.simStore!.getState().typingDone, null, { timeout: 60_000 })
+  const line = await page.evaluate(() => {
+    const c = window.simStore!.getState().run.current!
+    return { id: c.id, len: c.text.length }
+  })
+  const t0 = Date.now()
+  await page.waitForFunction((id) => window.simStore!.getState().run.current?.id !== id, line.id, { timeout: 60_000 })
+  // pelo menos o tempo que a digitação levaria: 38 caracteres por segundo, na velocidade 2×
+  expect(Date.now() - t0).toBeGreaterThan((line.len / 38 / 2) * 1000)
 })
 
 test('leitor de tela: cada fala chega inteira, uma vez, sem a digitação letra por letra', async ({ page }) => {

@@ -96,9 +96,10 @@ validador recusa número trocado, cópia de 12 palavras da transcrição e ponto
 ## Frontend (web/)
 
 Vite + React 19 + TypeScript strict + React Three Fiber + drei + postprocessing + zustand. Duas fontes
-autohospedadas: [Lexend](https://www.lexend.com/) na interface e [Libron](https://github.com/nicoverbruggen/libron),
-uma serifa desenhada para leitura longa, em poucos lugares de leitura de fala: o balão (inclusive os atos da mesa), as
-cartas do caderno, o "dito na sala" da escolha da ideia e as falas citadas na prévia da vez de falar e na ata. A fala
+autohospedadas. Tudo é [Lexend](https://www.lexend.com/) por padrão. [Libron](https://github.com/nicoverbruggen/libron),
+uma serifa desenhada para leitura longa, é a segunda opção da fonte das falas no painel Acessibilidade e vale só nos
+lugares de leitura de fala: o balão (inclusive os atos da mesa), as cartas do caderno, o "dito na sala" da escolha da
+ideia e as falas citadas na prévia da vez de falar e na ata. A fala
 no balão tem sempre o mesmo tamanho, 22px. A interface segue o redesenho "direção B, tribuna"
 (2026-09-14, acabada em 2026-09-15): um material para o que é controle (chassi de tinta: a bancada de 116px no
 rodapé, botões, placas, painel de legenda) e outro para o que se lê (papel: fala, carta, caderno, glossário,
@@ -169,7 +170,7 @@ controle de cada passo e grava os recortes em WebP. A resposta ao convite fica n
 trocar a versão da chave faz o convite voltar para todo mundo.
 
 **Acessibilidade.** O painel Acessibilidade abre do início, do acervo, do dossiê e da sala, antes de qualquer
-audiência. Ele ajusta o tamanho do texto (até 200%), a fonte das falas (Libron ou Lexend), a entrelinha, o alto
+audiência. Ele ajusta o tamanho do texto (até 200%), a fonte das falas (Lexend ou Libron), a entrelinha, o alto
 contraste, o movimento e os efeitos da cena, o ritmo (manual, velocidade, tréplica sem limite de tempo, câmera
 que vira sozinha para quem fala, confirmação antes de falar), o volume de cada som, a leitura em voz alta e o
 VLibras, além das teclas. Leitores de tela ouvem cada fala inteira, uma vez, com quem disse; a sala 3D tem uma

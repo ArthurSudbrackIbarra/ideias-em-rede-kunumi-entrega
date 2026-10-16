@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { COMMA_PAUSE_MS, SENTENCE_PAUSE_MS, TYPE_CPS } from '../engine/balance'
+import { CLAUSE_END, SENTENCE_END } from '../lib/typing'
 import { typewriterStart, typewriterStop } from '../lib/sound'
 import { reducedMotion } from '../store/useSettings'
 
@@ -99,11 +100,11 @@ export function Typewriter({ text, lineId, speed, muted, onDone, skip = 0, hurry
           while (n-- > 0 && shownRef.current < text.length) {
             const ch = text[shownRef.current]
             shownRef.current++
-            if (ch === '.' || ch === '?' || ch === '!' || ch === '…' || ch === ':') {
+            if (SENTENCE_END.has(ch)) {
               pause.current = SENTENCE_PAUSE_MS
               break
             }
-            if (ch === ',' || ch === ';') {
+            if (CLAUSE_END.has(ch)) {
               pause.current = COMMA_PAUSE_MS
               break
             }

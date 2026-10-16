@@ -154,15 +154,21 @@ test('audiência 44: tese, prelúdio, palavras simples, original, caderno, manua
   await page.waitForTimeout(400)
   await page.screenshot({ path: `${SHOTS}/sim-044-balao.png` })
 
-  // 13. duas famílias: a fala das pessoas em Libron, o resto da interface em Lexend; 14. sem borda colorida no balão
-  const fonts = await page.evaluate(() => {
-    const of = (sel: string) => Array.from(document.querySelectorAll(sel)).map((el) => getComputedStyle(el).fontFamily)
-    return { read: of('.sim-balloon .body .fala'), ui: of('.sim-balloon .plate .name, .sim-rail .ctl, .sim .ref, .sim-rail .meter .name') }
-  })
+  // 13. tudo em Lexend por padrão, e Libron só nas falas, quando escolhida no painel; 14. sem borda colorida no balão
+  const fontsOf = () =>
+    page.evaluate(() => {
+      const of = (sel: string) => Array.from(document.querySelectorAll(sel)).map((el) => getComputedStyle(el).fontFamily)
+      return { read: of('.sim-balloon .body .fala'), ui: of('.sim-balloon .plate .name, .sim-rail .ctl, .sim .ref, .sim-rail .meter .name') }
+    })
+  const fonts = await fontsOf()
   expect(fonts.read.length).toBeGreaterThan(0)
   expect(fonts.ui.length).toBeGreaterThan(0)
-  for (const f of fonts.read) expect(f).toContain('Libron')
-  for (const f of fonts.ui) expect(f).toContain('Lexend')
+  for (const f of [...fonts.read, ...fonts.ui]) expect(f).toMatch(/^"?Lexend/)
+  await page.evaluate(() => (document.documentElement.dataset.speechFont = 'libron'))
+  const serif = await fontsOf()
+  for (const f of serif.read) expect(f).toContain('Libron')
+  for (const f of serif.ui) expect(f).toContain('Lexend')
+  await page.evaluate(() => (document.documentElement.dataset.speechFont = 'lexend'))
   const style = await page.evaluate(() => {
     const b = document.querySelector('.sim-balloon')!
     const p = document.querySelector('.sim-balloon .plate')!
