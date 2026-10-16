@@ -9,6 +9,7 @@ import { tipOpened } from '../lib/tips'
 import { anchor, hud } from '../scene/anchor'
 import { useSettings } from '../store/useSettings'
 import { speedFactor, useSim } from '../store/useSim'
+import { useTutorial } from '../store/useTutorial'
 import { glossText, type GlossHandlers } from './glossText'
 import { ArrowLeft, ArrowRight, Bookmark, Chevron, ChevronLeft } from './Icons'
 import { Key } from './Key'
@@ -50,6 +51,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const stepManual = useSim((s) => s.stepManual)
   const panel = useSim((s) => s.panel)
   const settingsOpen = useSettings((s) => s.open)
+  const tutorialOpen = useTutorial((s) => s.open)
   const [origPage, setOrigPage] = useState(0)
   /** o balão do glossário, desenhado fora da fala (que rola e cortaria qualquer filho absoluto) */
   const [tip, setTip] = useState<{ term: string; text: string; left: number; top: number; below: boolean } | null>(null)
@@ -204,7 +206,7 @@ export function Balloon({ hearing }: { hearing: HearingSim }) {
   const alt = verbatim ? line.plain ?? '' : line.original?.text ?? ''
   const kindClass = `sim-balloon kind-${line.kind}${originalOpen ? ' original' : ''}${line.relation ? ` rel-${line.relation.kind}` : ''}`
   const showContinue = !autoplay && !originalOpen
-  const paused = originalOpen || panel !== null || settingsOpen
+  const paused = originalOpen || panel !== null || settingsOpen || tutorialOpen
   const onContinue = (e: { detail: number }) => {
     continuedByKeyboard(e)
     stepManual()

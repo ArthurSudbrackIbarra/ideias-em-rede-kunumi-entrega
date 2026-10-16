@@ -7,12 +7,13 @@ import { announce, clearAnnouncements } from './lib/announce'
 import { actionFor, actionLabel, isCharacterKey, type KeyAction } from './lib/keys'
 import type { HearingSim } from './lib/hearing'
 import { applause as playApplause } from './lib/sound'
-import { rateFor, speak as speakAloud, stopSpeaking } from './lib/speech'
+import { holdSpeaking, rateFor, speak as speakAloud, stopSpeaking } from './lib/speech'
 import { closeTips } from './lib/tips'
 import { useTitle } from './lib/useTitle'
 import { SimScene } from './scene/SimScene'
 import { useSettings } from './store/useSettings'
 import { speedFactor, useSim } from './store/useSim'
+import { useTutorial } from './store/useTutorial'
 import { Ata } from './ui/Ata'
 import { Balloon } from './ui/Balloon'
 import { announcementOf, voiceOf } from './ui/describe'
@@ -29,6 +30,7 @@ import { Safe } from './ui/Safe'
 import { SettingsPanel } from './ui/SettingsPanel'
 import { SimLegend } from './ui/SimLegend'
 import { TeseSelect } from './ui/TeseSelect'
+import { Tutorial } from './ui/Tutorial'
 
 // exposto para o teste Playwright e para depuração no console
 window.simStore = useSim
@@ -56,16 +58,16 @@ function ownsArrows(target: EventTarget | null): boolean {
   return false
 }
 
-/** A sala está parada para a pessoa ler outra coisa: um painel de consulta, o caderno ou os ajustes. */
+/** A sala está parada para a pessoa ler outra coisa: um painel de consulta, o caderno, os ajustes ou o tutorial. */
 function roomPaused(): boolean {
   const s = useSim.getState()
-  return s.panel !== null || s.deskView || useSettings.getState().open
+  return s.panel !== null || s.deskView || useSettings.getState().open || useTutorial.getState().open
 }
 
 /**
  * Diretor: quando a linha atual acabou de ser lida (e, com a leitura em voz alta, ouvida), espera a pausa de leitura e
  * avança. No modo manual não faz nada: a pessoa avança com Espaço, Enter ou "continuar". Com o original aberto, um
- * painel de consulta, o caderno ou os ajustes por cima da sala, tudo para (WCAG 2.2.2).
+ * painel de consulta, o caderno, os ajustes ou o tutorial por cima da sala, tudo para (WCAG 2.2.2).
  */
 function useDirector() {
   const current = useSim((s) => s.run.current)
@@ -79,10 +81,11 @@ function useDirector() {
   const panel = useSim((s) => s.panel)
   const deskView = useSim((s) => s.deskView)
   const settingsOpen = useSettings((s) => s.open)
+  const tutorialOpen = useTutorial((s) => s.open)
   const advance = useSim((s) => s.advance)
 
   useEffect(() => {
-    if (!current || !autoplay || originalOpen || panel || deskView || settingsOpen) return
+    if (!current || !autoplay || originalOpen || panel || deskView || settingsOpen || tutorialOpen) return
     if (phase === 'floor' || phase === 'ata' || phase === 'tese' || phase === 'prelude') return
     const card = current.kind === 'relcard'
     if (!card && !typingDone) return
@@ -101,7 +104,7 @@ function useDirector() {
     } else ms = READ_PAUSE_MS + Math.min(READ_PAUSE_MAX_MS, len * READ_PAUSE_PER_CHAR_MS) + (current.applause > 0 ? 1600 : 0)
     const t = setTimeout(advance, ms / f)
     return () => clearTimeout(t)
-  }, [current, phase, originalOpen, typingDone, voiceDone, speed, autoplay, textMode, panel, deskView, settingsOpen, advance])
+  }, [current, phase, originalOpen, typingDone, voiceDone, speed, autoplay, textMode, panel, deskView, settingsOpen, tutorialOpen, advance])
 }
 
 /** Palmas reais: só quando a transcrição registra palmas na fala, uma vez, ao terminar a última página. */
@@ -186,7 +189,7 @@ function useAnnouncements() {
 
 /**
  * Leitura em voz alta (ajuste opcional): cada linha é lida quando entra, e o diretor espera a voz acabar antes de
- * avançar. Para quando o original abre, quando o som é desligado e ao sair da sala.
+ * avançar. Para quando o original abre, quando o som é desligado e ao sair da sala, e espera o tutorial fechar.
  */
 function useReadAloud() {
   const hearing = useSim((s) => s.hearing)
@@ -194,6 +197,7 @@ function useReadAloud() {
   const originalOpen = useSim((s) => s.run.originalOpen)
   const muted = useSim((s) => s.muted)
   const enabled = useSettings((s) => s.readAloud)
+  const tutorialOpen = useTutorial((s) => s.open)
 
   useEffect(() => {
     const st = useSim.getState()
@@ -208,6 +212,11 @@ function useReadAloud() {
     })
     if (!started) st.setVoiceDone(true)
   }, [enabled, muted, hearing, current, originalOpen])
+
+  useEffect(() => {
+    if (!enabled) return
+    holdSpeaking(tutorialOpen)
+  }, [enabled, tutorialOpen])
 
   useEffect(() => stopSpeaking, [])
 }
@@ -357,7 +366,7 @@ export function SimPage() {
       }
       if (k === 'Enter' || k === ' ') {
         if (isActivatable(e.target)) return
-        if (top && ph !== 'floor') return
+        if (top && (ph !== 'floor' || top.quiet)) return
         e.preventDefault()
         if (k === 'Enter') {
           // passa pelo botão Falar, que pede confirmação quando o ajuste está ligado
@@ -371,7 +380,7 @@ export function SimPage() {
       if (!settings.shortcuts || !isCharacterKey(k)) return
       const action = actionFor(k, settings.keys)
       if (!action) return
-      if (top && !top.keys.includes(action) && !GLOBAL_KEYS.includes(action)) return
+      if (top && !top.keys.includes(action) && (top.quiet || !GLOBAL_KEYS.includes(action))) return
       e.preventDefault()
       runAction(action)
     }
@@ -410,6 +419,8 @@ export function SimPage() {
       <Safe name="tese"><TeseSelect hearing={hearing} /></Safe>
       <Safe name="ata"><Ata hearing={hearing} /></Safe>
       <Safe name="acessibilidade"><SettingsPanel /></Safe>
+      {/* o convite da primeira visita só aparece no dossiê, antes de a sessão começar a tocar */}
+      <Safe name="tutorial"><Tutorial ask={phase === 'tese'} startLabel={phase === 'tese' ? copy.tutorial.start : copy.tutorial.resume} /></Safe>
     </main>
   )
 }

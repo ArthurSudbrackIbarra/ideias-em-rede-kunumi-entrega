@@ -1,4 +1,4 @@
-import { useEffect, useRef, type ReactNode } from 'react'
+import { useEffect, useRef, type KeyboardEventHandler, type ReactNode } from 'react'
 import { fallbackFocus, focusables, pushDialog, type DialogEntry } from '../lib/dialogs'
 import type { KeyAction } from '../lib/keys'
 
@@ -19,13 +19,16 @@ interface Props {
   /** "container" põe o foco no próprio painel (para quem vai ler), "first" no primeiro controle; ou um seletor */
   initialFocus?: 'container' | 'first' | string
   keys?: KeyAction[]
+  /** nem os atalhos de ajuste (velocidade, som, modo) valem com ele aberto */
+  quiet?: boolean
+  onKeyDown?: KeyboardEventHandler<HTMLElement>
   as?: 'section' | 'aside' | 'div'
   className?: string
   testId?: string
   children: ReactNode
 }
 
-export function Dialog({ labelledBy, describedBy, onEscape, modal = true, initialFocus = 'container', keys = [], as: Tag = 'section', className, testId, children }: Props) {
+export function Dialog({ labelledBy, describedBy, onEscape, modal = true, initialFocus = 'container', keys = [], quiet = false, onKeyDown, as: Tag = 'section', className, testId, children }: Props) {
   const ref = useRef<HTMLElement>(null)
   const latest = useRef({ onEscape, keys })
   latest.current = { onEscape, keys }
@@ -37,6 +40,7 @@ export function Dialog({ labelledBy, describedBy, onEscape, modal = true, initia
     const entry: DialogEntry = {
       el,
       modal,
+      quiet,
       get keys() {
         return latest.current.keys
       },
@@ -66,6 +70,7 @@ export function Dialog({ labelledBy, describedBy, onEscape, modal = true, initia
       aria-labelledby={labelledBy}
       aria-describedby={describedBy}
       tabIndex={-1}
+      onKeyDown={onKeyDown}
       data-testid={testId}
     >
       {children}

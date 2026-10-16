@@ -173,7 +173,11 @@ Os arquivos citados ficam em `web/src/sim/`.
   espera a pessoa em vez de sumir depois de 6 segundos. O motor ganhou o parâmetro `holdOffers` no `tick`, coberto
   por teste de unidade, sem mexer nas constantes do `balance.ts` que o artigo cita.
 - Virar sozinho para quem fala: a câmera acompanha cada nova fala. A atenção, que cai quando a câmera não olha
-  para quem fala, deixa de ser uma pressão de tempo para quem não vê a sala ou não arrasta o mouse.
+  para quem fala, deixa de ser uma pressão de tempo para quem não vê a sala ou não arrasta o mouse. Uma correção
+  posterior, feita junto com o tutorial, tirou um defeito que atrapalhava justamente esse ajuste: quando a fala passava
+  de um lado da mesa de debatedores para o outro, a câmera escolhia o caminho mais curto, que passa por trás da
+  cadeira, e o limite de giro a prendia do lado errado. A atenção caía mesmo com a câmera automática ou com "olhar
+  para quem fala". Agora o ângulo é medido a partir da frente da cadeira (`scene/SeatCamera.tsx`).
 - Modo manual confortável: no manual o botão continuar fica sempre no balão; enquanto a página digita, ele a
   completa, e depois passa para a próxima. Espaço faz o mesmo. O modo manual pode ser ligado pelo atalho do topo, pela
   bancada ou pelo painel Acessibilidade, e fica lembrado.
@@ -258,6 +262,14 @@ Os arquivos citados ficam em `web/src/sim/`.
 - Escolhas irreversíveis: "Devolver a palavra" pede confirmação, com o foco em "Ainda não". "Falar" mostra a frase
   exata antes e, com o ajuste "Confirmar antes de falar", pede um segundo clique. Os passos da decisão continuam
   desfazíveis pela trilha e pelo Esc.
+- Tutorial "Como jogar" (`ui/Tutorial.tsx`): 12 passos curtos, cada um com uma imagem tirada do jogo e duas ou três
+  frases. Na primeira visita, um convite pergunta se a pessoa quer vê-lo, uma vez só. Ele abre a qualquer hora pelo
+  início, pelo acervo, pelo dossiê e pela sala, e é um diálogo como os outros: o foco entra no botão Próximo, o Tab
+  fica preso, Esc fecha e o foco volta para quem o abriu. As setas para os lados trocam de passo, e cada troca é
+  anunciada na região viva. Toda imagem tem texto alternativo que descreve o que importa para o passo, e o último
+  passo troca a imagem por uma tabela de teclas lida do mapa atual, com as teclas trocadas. Na sala, a sessão para
+  enquanto ele está aberto (inclusive a leitura em voz alta) e nenhum atalho dispara, nem os de ajuste. Com "Reduzir
+  o movimento", a troca de passo não tem animação. Em tela estreita ou com texto grande ele ocupa a tela inteira.
 
 ### Libras
 
@@ -323,6 +335,10 @@ está vazia). São seis testes:
 4. os atalhos desligados não agem e não aparecem nos botões; uma tecla trocada passa a valer no lugar da antiga;
 5. um painel recebe o foco, prende o Tab e devolve o foco ao botão que o abriu;
 6. a região viva recebe a fala inteira, uma vez, o balão não é região viva e a sala tem descrição.
+
+`web/tests/tutorial.spec.ts` cobre o tutorial: o convite aparece uma vez e a resposta fica lembrada, o diálogo anda
+para a frente e para trás, fecha com Esc e devolve o foco, passa no axe (convite, primeiro passo e tabela de teclas)
+e, na sala, segura a sessão sem deixar atalho nenhum disparar.
 
 O motor ganhou um teste de unidade para o prazo da tréplica que não corre (`run.test.ts`). O teste e2e da partida
 completa (`sim.spec.ts`) continua passando, com a tecla do caderno trocada para C e a confirmação de devolver a

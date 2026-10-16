@@ -9,6 +9,7 @@ import { topDialog } from '../lib/dialogs'
 import { Hint } from './Hint'
 import { Chevron, ChevronLeft } from './Icons'
 import { RoleDot } from './RoleDot'
+import { TutorialButton } from './Tutorial'
 
 /** Acima de sete instituições a lista aperta o espaçamento antes de cortar qualquer nome. */
 const TIGHT = 7
@@ -86,6 +87,7 @@ export function TeseSelect({ hearing }: { hearing: HearingSim }) {
             <Link to="/audiencias" className="back-link">
               <ChevronLeft /> {copy.tese.back}
             </Link>
+            <TutorialButton className="back-link" />
             <button type="button" className="back-link" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
               {copy.a11y.open}
             </button>

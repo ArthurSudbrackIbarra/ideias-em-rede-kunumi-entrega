@@ -5,6 +5,7 @@ import { hud } from '../scene/anchor'
 import { useSettings } from '../store/useSettings'
 import { useSim } from '../store/useSim'
 import { Key } from './Key'
+import { TutorialButton } from './Tutorial'
 
 /**
  * O topo da sessão (redesenho): não é mais uma barra, é um véu de 112px com informação. À esquerda a data e o
@@ -60,6 +61,7 @@ export function Progress({ hearing }: { hearing: HearingSim }) {
           <button type="button" className="ctl" onClick={() => useSim.getState().togglePanel('history')} aria-pressed={panel === 'history'} data-testid="history-btn">
             {copy.hud.history} <Key action="history" />
           </button>
+          <TutorialButton className="ctl" label={copy.hud.tutorial} />
           <button type="button" className="ctl" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
             {copy.hud.a11y}
           </button>

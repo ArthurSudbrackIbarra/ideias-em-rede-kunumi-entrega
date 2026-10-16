@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "test:e2e": "playwright test --project=chromium",
     "a11y:audit": "playwright test --project=a11y-audit",
+    "tutorial:screenshots": "playwright test --project=tutorial-shots --reporter=line",
     "gen:types:sim": "json2ts -i ../shared/hearing-sim.schema.json -o src/sim/lib/hearing-sim.d.ts --bannerComment \"/* eslint-disable */\n/* Gerado de shared/hearing-sim.schema.json por npm run gen:types:sim. Nao editar. */\"",
     "test:unit": "vitest run"
   },

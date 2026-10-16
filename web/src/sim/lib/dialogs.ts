@@ -10,6 +10,8 @@ export interface DialogEntry {
   el: HTMLElement
   modal: boolean
   keys: KeyAction[]
+  /** nenhum atalho da sala vale com ele aberto, nem os de ajuste (o tutorial) */
+  quiet: boolean
   onEscape: () => void
 }
 

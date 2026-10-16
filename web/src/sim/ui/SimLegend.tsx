@@ -6,6 +6,7 @@ import { useSim } from '../store/useSim'
 import { Dialog } from './Dialog'
 import { RelationIcon } from './RelationBadge'
 import { RoleDot } from './RoleDot'
+import { TutorialButton } from './Tutorial'
 
 const ROLES: Role[] = ['mesa', 'parlamentar', 'governo', 'sociedade_civil', 'setor_privado', 'convidado']
 
@@ -29,6 +30,7 @@ export function SimLegend() {
             {copy.legend.close} <kbd>Esc</kbd>
           </button>
         </div>
+        <TutorialButton className="ctl tut-entry" testId="legend-tutorial" />
 
         <section aria-labelledby="legend-rel">
           <h3 className="engrave" id="legend-rel">{copy.legend.relations}</h3>

@@ -70,3 +70,11 @@ export function stopSpeaking() {
   current = null
   s.cancel()
 }
+
+/** Segura a leitura no meio da frase e solta de onde parou (o tutorial aberto por cima da sala). */
+export function holdSpeaking(hold: boolean) {
+  const s = synth()
+  if (!s) return
+  if (hold) s.pause()
+  else s.resume()
+}

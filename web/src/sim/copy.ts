@@ -8,6 +8,25 @@
  * separador "·" e nenhuma seta em unicode. Ícones são SVG nos componentes.
  */
 
+import type { KeyAction } from './lib/keys'
+
+/** Uma tecla citada no tutorial: um atalho do mapa (escrito com a tecla atual) ou uma das teclas fixas. */
+export type TutorialKey = KeyAction | 'Espaço' | 'Enter' | 'Esc' | 'setas'
+/** Um item de teclas: sem `what`, a descrição vem de `copy.keys` ou das teclas fixas da legenda. */
+export interface TutorialKeys {
+  k: TutorialKey[]
+  what?: string
+}
+export interface TutorialStep {
+  id: string
+  title: string
+  text: string
+  /** arquivo em public/tutorial/; null no último passo, que mostra a tabela de teclas */
+  image: string | null
+  alt: string
+  keys?: TutorialKeys[]
+}
+
 const lc = (s: string) => (s ? s.charAt(0).toLowerCase() + s.slice(1) : s)
 const strip = (s: string) => s.trim().replace(/[.!]$/, '')
 
@@ -131,6 +150,7 @@ export const copy = {
     help: 'ajuda',
     glossary: 'glossário',
     history: 'histórico',
+    tutorial: 'como jogar',
     a11y: 'acessibilidade',
     continue: 'continuar',
     speed: (x: number) => `${String(x).replace('.', ',')}×`,
@@ -417,6 +437,142 @@ export const copy = {
     help: 'legenda e ajuda',
     glossary: 'glossário',
   } as Record<string, string>,
+
+  /**
+   * O tutorial "Como jogar". Cada passo tem título, até três frases curtas, uma imagem tirada do jogo
+   * (`npm run tutorial:screenshots` grava em public/tutorial/) e o texto alternativo dela. `**assim**` marca o único
+   * destaque do passo. As teclas não vão no texto: `keys` lista as ações, e o diálogo escreve a tecla atual de cada uma
+   * (some quando os atalhos estão desligados). O último passo mostra a tabela de teclas no lugar da imagem.
+   */
+  tutorial: {
+    open: 'Como jogar',
+    ask: {
+      title: 'Primeira vez por aqui?',
+      text: 'Quer ver como funciona? Leva uns dois minutos.',
+      yes: 'Ver o tutorial',
+      no: 'Agora não',
+    },
+    progress: (i: number, n: number) => `${i} de ${n}`,
+    prev: 'Voltar',
+    next: 'Próximo',
+    start: 'Começar',
+    resume: 'Voltar à sessão',
+    close: 'fechar',
+    keys: 'Teclas',
+    tableLabel: 'Teclas da sala',
+    announce: (i: number, n: number, title: string, text: string) => `${i} de ${n}. ${title}. ${text}`,
+    steps: [
+      {
+        id: 'audiencia',
+        title: 'Uma audiência de verdade',
+        text: 'Audiência pública é uma reunião aberta em que uma comissão da Câmara dos Deputados ouve convidados sobre um tema. Aqui, as pessoas e as falas são reais, em palavras simples e com o original a um clique. **Você ocupa a cadeira vaga.**',
+        image: '01-sala.webp',
+        alt: 'A sala de comissão em 3D vista da cadeira vaga. Ao fundo, a parede com o nome da comissão e os deputados sentados em arco. No meio, o balão com a pergunta do deputado Ivan Valente: a sonda levada ao bloco estava autorizada? Na faixa de baixo, os medidores de coerência, atenção e mesa, e os botões da sala.',
+      },
+      {
+        id: 'acervo',
+        title: 'Escolha a audiência',
+        text: 'O acervo reúne 206 audiências reais da Câmara, e a lista mostra primeiro as que estão prontas para jogar. Escolha um tema que chame a sua atenção e clique em **Entrar na sala**.',
+        image: '02-acervo.webp',
+        alt: 'A tela Escolha a audiência. À esquerda, a lista das audiências prontas para jogar, com a da Margem Equatorial, de 31 de maio de 2023, escolhida. À direita, o resumo dela: 18 pessoas na sala, 24 falas e 6 ideias para defender. O botão Entrar na sala está em destaque.',
+      },
+      {
+        id: 'ideia',
+        title: 'Escolha a sua ideia',
+        text: 'Antes de começar, escolha uma ideia que alguém defendeu de verdade na audiência. Não existe vitória nem derrota: o jogo mede se você foi **coerente com a ideia**, não se ela está certa.',
+        image: '03-ideia.webp',
+        alt: 'O dossiê da audiência 44, na ideia 2 de 6: sem avaliar toda a região, não dá para decidir o Bloco 59. Embaixo, quem defendeu a ideia na sala, como o Ibama e o Observatório do Clima, quem discordou, como o Ministério de Minas e Energia, e uma fala real que a sustenta. O botão Defender esta ideia está em destaque.',
+      },
+      {
+        id: 'ouvir',
+        title: 'Ouça no seu ritmo',
+        text: 'As falas aparecem no balão em palavras simples, e **ver o que foi dito** mostra o texto original. No modo automático, elas seguem sozinhas. No manual, cada uma espera você continuar.',
+        image: '04-balao.webp',
+        alt: 'O balão da primeira fala, de Mauro Pires, do ICMBio, em palavras simples: o petróleo na foz do Amazonas precisa ser pensado dentro dos compromissos que o Brasil assinou. Embaixo do texto ficam os botões ver o que foi dito, em destaque, Anotar e continuar.',
+        keys: [{ k: ['original'] }, { k: ['autoplay'] }, { k: ['Espaço'] }, { k: ['faster', 'slower'], what: 'velocidade' }],
+      },
+      {
+        id: 'anotar',
+        title: 'Anote o que importa',
+        text: 'Ouviu algo que pesa a favor ou contra a sua ideia? Clique em Anotar. O trecho vai para o **caderno**, que guarda até sete anotações, e é com elas que você vai falar.',
+        image: '05-anotar.webp',
+        alt: 'O caderno aberto sobre a mesa, com sete anotações em cartões. Cada cartão mostra quem disse, o resumo do trecho e o tema. Ao lado, o fio do debate. Os cartões estão em destaque.',
+        keys: [{ k: ['note'] }, { k: ['desk'] }],
+      },
+      {
+        id: 'olhar',
+        title: 'Olhe para quem fala',
+        text: 'Se você passa muito tempo olhando para o lado, **a atenção cai** e você não consegue anotar. Para voltar, arraste a cena, use as setas ou o botão olhar para quem fala. No painel Acessibilidade, a câmera pode virar sozinha.',
+        image: '06-olhar.webp',
+        alt: 'A câmera virada para o fundo da sala, longe de quem está falando. No canto, o aviso atenção baixa: olhe para quem fala. Na faixa de baixo, o medidor de atenção quase no zero, marcado como em baixa. O aviso e o medidor estão em destaque.',
+        keys: [{ k: ['look'] }, { k: ['setas'] }],
+      },
+      {
+        id: 'palavra',
+        title: 'A palavra é sua',
+        text: 'Algumas vezes na sessão, **a presidência passa a palavra para você**. Então você escolhe: sustentar ou contestar o que alguém disse, ou cobrar uma pergunta que ficou sem resposta.',
+        image: '07-palavra.webp',
+        alt: 'O painel A palavra é sua, com a ideia que você defende no alto. Os três movimentos estão em destaque: sustentar, contestar e cobrar, cada um com uma frase que explica. Embaixo, as anotações do caderno e os botões Falar e Devolver a palavra.',
+        keys: [{ k: ['sustento', 'contesto', 'cobro'], what: 'sustentar, contestar, cobrar' }],
+      },
+      {
+        id: 'frase',
+        title: 'Monte a frase',
+        text: 'Depois, escolha no caderno a anotação que vai usar. Ao contestar, dá para citar alguém que disse o contrário. A frase exata aparece **antes de você clicar em Falar**.',
+        image: '08-frase.webp',
+        alt: 'O painel A palavra é sua depois das escolhas: você contesta o que disse Carlos Agenor Onofre Cabral, do Ministério de Minas e Energia, e cita Rodrigo Agostinho, do Ibama. A prévia Você vai dizer, com a frase inteira, e o botão Falar estão em destaque.',
+        keys: [{ k: ['Enter'], what: 'falar' }, { k: ['Esc'], what: 'voltar um passo' }],
+      },
+      {
+        id: 'veredito',
+        title: 'O veredito',
+        text: 'Logo depois de falar, o jogo diz se a frase foi coerente com a sua ideia e **explica por quê**. O medidor de coerência, na bancada, sobe ou desce a cada fala sua.',
+        image: '09-veredito.webp',
+        alt: 'O balão da sua fala, da cadeira vaga, com a frase que você disse e a fonte citada. Embaixo, em destaque, o veredito Coerente com a sua tese, com a coerência subindo de 50 para 58.',
+      },
+      {
+        id: 'aparte',
+        title: 'Aparte e tréplica',
+        text: 'Enquanto alguém fala, você pode pedir um **aparte**, e o botão mostra a chance de a presidência aceitar. Se alguém rebater o que você sustentou, a tréplica aparece por alguns segundos para você responder.',
+        image: '10-aparte.webp',
+        alt: 'A sala durante a pergunta do deputado Ivan Valente. Na faixa de baixo, em destaque, o botão aparte, com a chance de a presidência aceitar o pedido.',
+        keys: [{ k: ['interject'] }, { k: ['treplica'] }],
+      },
+      {
+        id: 'ata',
+        title: 'A ata',
+        text: 'No fim, a ata conta a sua sessão: cada intervenção julgada e a coerência final. Junto vêm **a audiência real** e o que a Agência Câmara noticiou, para você comparar.',
+        image: '11-ata.webp',
+        alt: 'A ata da sessão simulada: o título da audiência, a coerência final de 58, a sua tese com quem a defendeu e quem discordou na sala, a sua intervenção julgada como coerente e, ao lado, o resumo da audiência real e as perguntas que ficaram em aberto.',
+      },
+      {
+        id: 'teclas',
+        title: 'Pronto para começar',
+        text: 'Estas são as teclas da sala, e tudo também funciona com o mouse. O tutorial fica sempre à mão em **Como jogar**, no início, no acervo e dentro da sala.',
+        image: null,
+        alt: '',
+      },
+    ] as TutorialStep[],
+    /** a tabela do último passo: as teclas que mais se usam, na ordem em que aparecem na partida */
+    table: [
+      { k: ['Espaço'] },
+      { k: ['Enter'] },
+      { k: ['Esc'] },
+      { k: ['setas'] },
+      { k: ['look'] },
+      { k: ['original'] },
+      { k: ['note'] },
+      { k: ['desk'] },
+      { k: ['history'] },
+      { k: ['sustento', 'contesto', 'cobro'], what: 'na sua vez: sustentar, contestar, cobrar' },
+      { k: ['interject'] },
+      { k: ['treplica'] },
+      { k: ['autoplay'] },
+      { k: ['faster', 'slower'], what: 'velocidade' },
+      { k: ['glossary'] },
+      { k: ['help'] },
+    ] as TutorialKeys[],
+  },
 
   history: {
     title: 'O que já foi dito',

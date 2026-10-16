@@ -50,8 +50,9 @@ npm run typecheck
 npm run lint
 npm run test:unit           # vitest, engine only (src/**/*.test.ts, node env)
 npx vitest run src/sim/engine/judge.test.ts -t "name"   # one unit test
-npm run test:e2e            # Playwright, Chromium with SwiftShader WebGL; starts vite itself (sim.spec.ts and a11y.spec.ts)
+npm run test:e2e            # Playwright, Chromium with SwiftShader WebGL; starts vite itself (sim.spec.ts, a11y.spec.ts, tutorial.spec.ts)
 npm run a11y:audit          # axe snapshot of 14 game states into tests/a11y-report/; a separate Playwright project, never fails
+npm run tutorial:screenshots   # retake the tutorial images from the running game (hearing 44, fixed seed) into public/tutorial/
 npm run gen:types:sim       # regenerate src/sim/lib/hearing-sim.d.ts from shared/hearing-sim.schema.json
 npm run build               # static dist/; VITE_BASE=/repo/ for a subpath build
 ```
@@ -90,6 +91,15 @@ The system has two halves joined by one JSON contract.
 - Font sizes in `sim.css` are rem so the text-size setting reaches them. Write new ones in rem. Positions that depend on the rail or the top bar use `--rail-h`/`--top-h` (measured by ResizeObserver; JS reads `hud` in `scene/anchor.ts`).
 - Role colors always come with a shape (`ui/RoleDot.tsx`) and, for screen readers, the role word.
 - `tests/a11y.spec.ts` fails on any axe violation (the `EXCEPTIONS` list is empty) and plays a whole match with the keyboard only. Keep both green.
+
+### Tutorial
+
+- `ui/Tutorial.tsx` is the "Como jogar" dialog and the first-visit prompt. `store/useTutorial.ts` holds whether it is open, the current step, and the answer stored under `sim.tutorial.v1` (`seen`, `dismissed`, `completed`). Bump the key's version to ask everyone again after a big change.
+- The steps are data in `copy.tutorial.steps`: title, text with at most one `**bold**`, image, alt text and the key actions to list. Keys are read from the live key map and never written into the text.
+- The images in `web/public/tutorial/` come from `tests/tutorial-shots.spec.ts` (`npm run tutorial:screenshots`). Retake them whenever the UI they show changes, look at every one, and fix the alt text in `copy.ts` if what an image shows changed. The WebP is encoded by the game page itself (a second tab would background the room and stop its clock and render loop).
+- The Playwright config presets `sim.tutorial.v1=dismissed` for every test. `tests/tutorial.spec.ts` starts with empty storage.
+- With the tutorial open in the room, the session pauses (`roomPaused` in `SimPage.tsx`) and no room shortcut fires, not even the adjustment keys (`quiet` on the dialog).
+- Editing files under `web/src` while a Playwright run is going triggers Vite HMR and resets the match mid-test.
 
 ## Invariants to keep
 

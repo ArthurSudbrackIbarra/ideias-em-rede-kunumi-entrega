@@ -1,18 +1,21 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import '../sim.css'
 import { copy } from '../copy'
 import { useTitle } from '../lib/useTitle'
 import { useSettings } from '../store/useSettings'
 import { Chevron } from './Icons'
 import { SettingsPanel } from './SettingsPanel'
+import { Tutorial, TutorialButton } from './Tutorial'
 
 /**
  * A porta de entrada (redesenho, tela 01): apresenta o jogo e tem uma ação principal, Jogar. A lista das audiências
- * ganhou tela própria (`Catalog`), porque 206 linhas não cabem ao lado da apresentação. Os ajustes de
- * acessibilidade ficam ao lado de Jogar, para valerem antes da primeira audiência.
+ * ganhou tela própria (`Catalog`), porque 206 linhas não cabem ao lado da apresentação. O tutorial e os ajustes de
+ * acessibilidade ficam ao lado de Jogar, para valerem antes da primeira audiência. Na primeira visita, a tela
+ * pergunta se a pessoa quer ver o tutorial.
  */
 export function Home() {
   useTitle(null)
+  const navigate = useNavigate()
   return (
     <main className="sim sim-home" id="conteudo" tabIndex={-1} data-testid="home">
       <p className="engrave brand">
@@ -33,6 +36,7 @@ export function Home() {
         <Link to="/audiencias" className="play" data-testid="play">
           {copy.home.play} <Chevron size={8} />
         </Link>
+        <TutorialButton />
         <button type="button" className="a11y-btn" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
           {copy.a11y.open}
         </button>
@@ -44,6 +48,7 @@ export function Home() {
         </Link>
       </p>
       <SettingsPanel />
+      <Tutorial ask onStart={() => navigate('/audiencias')} />
     </main>
   )
 }

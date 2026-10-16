@@ -114,8 +114,9 @@ npm run lint                # eslint .
 npm run gen:types:sim       # regenera src/sim/lib/hearing-sim.d.ts a partir de shared/hearing-sim.schema.json
 npm run test:unit           # vitest: motor puro (julgamento de coerência, determinismo, invariantes)
 npx playwright install chromium   # uma vez
-npm run test:e2e            # a partida inteira no navegador e os testes de acessibilidade (axe, só teclado); screenshots em web/tests/screenshots/
+npm run test:e2e            # a partida inteira no navegador, os testes de acessibilidade (axe, só teclado) e os do tutorial; screenshots em web/tests/screenshots/
 npm run a11y:audit          # o retrato do axe em 14 estados, em web/tests/a11y-report/ (não falha por violação)
+npm run tutorial:screenshots   # refaz as imagens do tutorial a partir do jogo (audiência 44, semente fixa) em web/public/tutorial/
 npm run build               # dist/ estático
 ```
 
@@ -159,6 +160,13 @@ quem fala. `C` abre o caderno; `N` anota; `O` mostra o que foi dito; `R` abre o 
 estiver aberto (na vez de falar, volta um passo); `Espaço` continua no modo manual; `P` alterna
 automático/manual; `V` alterna simples/original; `+`/`−` velocidade (0,25× a 2×, padrão 0,5×); `M` som; `G`
 glossário; `H` ou `L` ajuda. Os atalhos de uma letra podem ser trocados ou desligados no painel Acessibilidade.
+
+**Tutorial.** Na primeira visita, o jogo pergunta se a pessoa quer ver como funciona. O tutorial "Como jogar" tem 12
+passos curtos, cada um com uma imagem tirada do próprio jogo, e abre a qualquer hora pelo início, pelo acervo, pelo
+dossiê e pela sala (no topo e na ajuda). Dentro da sala, a sessão para enquanto ele está aberto. Os passos são dados
+em `copy.ts`, e as imagens saem de `npm run tutorial:screenshots`, que joga a audiência 44 com semente fixa, destaca o
+controle de cada passo e grava os recortes em WebP. A resposta ao convite fica no navegador, em `sim.tutorial.v1`;
+trocar a versão da chave faz o convite voltar para todo mundo.
 
 **Acessibilidade.** O painel Acessibilidade abre do início, do acervo, do dossiê e da sala, antes de qualquer
 audiência. Ele ajusta o tamanho do texto (até 200%), a fonte das falas (Libron ou Lexend), a entrelinha, o alto
@@ -233,6 +241,7 @@ tests/                  pytest: validadores da anotação e do build
 web/                    Vite + React + R3F: /  (início)  /audiencias  (o acervo, mestre e detalhe)  /sim/:id  (a sala)
 web/src/sim/            engine/ (motor puro + vitest) · scene/ (sala 3D) · ui/ · store/ · lib/ · assets/ (Lexend, Libron, sons) · copy.ts
 web/public/hearings/    hearing-NNN.json + index.json gerados por build_scene.py; catalog.json por catalog.py (versionados)
+web/public/tutorial/    imagens do tutorial em WebP, geradas por npm run tutorial:screenshots (versionadas)
 web/tests/              Playwright (screenshots em web/tests/screenshots/, ignorados)
 .github/workflows/      deploy.yml: publica web/dist no GitHub Pages a cada push na main
 scripts/download_data.py   baixa o dataset do Hugging Face

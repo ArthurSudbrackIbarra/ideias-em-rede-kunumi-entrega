@@ -7,6 +7,7 @@ import { useTitle } from '../lib/useTitle'
 import { useSettings } from '../store/useSettings'
 import { Chevron, ChevronDown, ChevronLeft, Search } from './Icons'
 import { SettingsPanel } from './SettingsPanel'
+import { Tutorial, TutorialButton } from './Tutorial'
 
 const PAGE = 24
 
@@ -138,6 +139,7 @@ export function Catalog() {
         </div>
         <div className="r">
           {catalog && <span className="count">{copy.catalog.count(rows.length)}</span>}
+          <TutorialButton />
           <button type="button" className="a11y-btn" onClick={() => useSettings.getState().setOpen(true)} data-testid="open-settings">
             {copy.a11y.open}
           </button>
@@ -261,6 +263,7 @@ export function Catalog() {
         )}
       </div>
       <SettingsPanel />
+      <Tutorial ask />
     </main>
   )
 }
