@@ -92,9 +92,11 @@ export function SeatCamera({ layout }: { layout: SceneLayout }) {
     const dx = head[0] - base.pos.x
     const dz = head[2] - base.pos.z
     const dy = head[1] - base.pos.y
-    const y = MathUtils.clamp(Math.atan2(-dx, -dz), base.yaw - YAW_LIMIT, base.yaw + YAW_LIMIT)
-    // atan2 devolve em (-π, π]; aproxima do yaw atual para não dar a volta
-    const wrapped = y + Math.round((yaw.current - y) / (2 * Math.PI)) * 2 * Math.PI
+    const y = Math.atan2(-dx, -dz)
+    // atan2 devolve em (-π, π]. O ângulo é medido a partir da frente da cadeira, não do yaw atual: a câmera não passa
+    // por trás do assento, e o caminho mais curto de um lado da mesa para o outro passaria, prendendo a câmera no
+    // limite do lado errado
+    const wrapped = y + Math.round((base.yaw - y) / (2 * Math.PI)) * 2 * Math.PI
     target.current = { yaw: MathUtils.clamp(wrapped, base.yaw - YAW_LIMIT, base.yaw + YAW_LIMIT), pitch: MathUtils.clamp(Math.atan2(dy, Math.hypot(dx, dz)), PITCH_MIN, PITCH_MAX) }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lookRequest])
